@@ -1,0 +1,46 @@
+
+{
+  "shop": {
+    "app": {
+      "shop": {
+        "path": "src/app/shop/page.tsx",
+        "category": "src/app/shop/[category]/page.tsx"
+      }
+    },
+    "components": {
+      "ProductShowcase": "src/components/Shop/ProductShowcase.tsx",
+      "ShopCategoryTLDR": "src/components/Shop/ShopCategoryTLDR.tsx",
+      "ShopClient": "src/components/Shop/ShopClient.tsx",
+      "ShopHeroTLDR": "src/components/Shop/ShopHeroTLDR.tsx",
+      "ShopSection": "src/components/ShopSection.tsx"
+    },
+    "content": {
+      "categories": "src/content/shop-categories.json",
+      "descriptions": "src/content/shop-descriptions/*.json",
+      "faqs": "src/content/shop-faqs/*.json",
+      "products": "src/content/shop-products/*.json"
+    },
+    "lib": {
+      "shopUtils": "src/lib/shop.ts"
+    },
+    "types": {
+      "shopTypes": "src/types/shop.ts"
+    }
+  },
+  "schemas": {
+    "inspoSchemas": "src/lib/inspoSchemas.ts",
+    "generateSchemas": "src/lib/generateSchemas.ts"
+  },
+  "seo": {
+    "seoUtilities": "src/lib/seo.ts",
+    "seoMetrics": "src/content/metadata/seoMetrics.json",
+    "keywordStrategies": "src/content/metadata/keywordStrategies.json",
+    "tldr": "src/content/metadata/tldr.json",
+    "titles": "src/content/metadata/titles.json",
+    "excerpts": "src/content/metadata/excerpts.json"
+  },
+  "breadcrumbs": "src/lib/breadcrumbs.ts",
+  "appLayout": "src/app/layout.tsx",
+  "nextConfig": "next.config.ts",
+  "tailwindConfig": "tailwind.config.js"
+}
