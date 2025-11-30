@@ -1,0 +1,291 @@
+import json
+import webbrowser
+import time
+import urllib.parse
+import os
+from pathlib import Path
+from PIL import Image
+import threading
+from queue import Queue
+
+# Paths
+JSON_FILE = r"C:\Users\gaurav verma\Downloads\filenames.json"
+DOWNLOAD_FOLDER = r"C:\Users\gaurav verma\Downloads\download"
+OUTPUT_FOLDER = r"C:\Users\gaurav verma\Downloads\new files"
+
+# Settings
+WAIT_TIME_BETWEEN_SEARCHES = 5  # seconds between Pinterest searches
+MAX_FILE_SIZE_KB = 100  # Maximum file size in KB
+WEBP_QUALITY_START = 85  # Starting quality for WebP
+UPSCALE_FACTOR = 4  # Maximum upscale factor before cropping
+
+# Global queue for file processing
+filename_queue = Queue()
+processing_active = True
+
+def extract_search_query(filename):
+    """Remove .webp/.jpg and convert to search query"""
+    query = filename.replace('.webp', '').replace('.jpg', '')
+    query = query.replace('-', ' ')
+    return query
+
+def parse_dimensions(dim_string):
+    """Parse dimension string like '800x800' into tuple (800, 800)"""
+    try:
+        width, height = dim_string.lower().split('x')
+        return (int(width), int(height))
+    except:
+        return None
+
+def smart_crop(img, target_width, target_height):
+    """
+    Intelligently crop image to exact dimensions using center crop.
+    Maintains aspect ratio and crops from center to preserve main subject.
+    """
+    original_width, original_height = img.size
+    target_aspect = target_width / target_height
+    original_aspect = original_width / original_height
+    
+    # Calculate which dimension to match
+    if original_aspect > target_aspect:
+        # Image is wider than target - fit height and crop width
+        new_height = original_height
+        new_width = int(original_height * target_aspect)
+    else:
+        # Image is taller than target - fit width and crop height
+        new_width = original_width
+        new_height = int(original_width / target_aspect)
+    
+    # Calculate center crop coordinates
+    left = (original_width - new_width) // 2
+    top = (original_height - new_height) // 2
+    right = left + new_width
+    bottom = top + new_height
+    
+    # Crop from center
+    cropped_img = img.crop((left, top, right, bottom))
+    
+    # Resize to exact target dimensions
+    final_img = cropped_img.resize((target_width, target_height), Image.LANCZOS)
+    
+    return final_img
+
+def upscale_crop_and_optimize(input_path, output_path, target_dimensions):
+    """
+    1. Upscale image to maximum quality
+    2. Smart crop to exact dimensions
+    3. Optimize to under 100KB as WebP
+    """
+    try:
+        with Image.open(input_path) as img:
+            original_width, original_height = img.size
+            print(f"      Original size: {original_width}x{original_height}px")
+            
+            # Convert to RGB if needed
+            if img.mode in ('RGBA', 'LA', 'P'):
+                background = Image.new('RGB', img.size, (255, 255, 255))
+                if img.mode == 'P':
+                    img = img.convert('RGBA')
+                background.paste(img, mask=img.split()[-1] if img.mode == 'RGBA' else None)
+                img = background
+            elif img.mode != 'RGB':
+                img = img.convert('RGB')
+            
+            # Parse target dimensions
+            target_width, target_height = target_dimensions
+            print(f"      Target dimensions: {target_width}x{target_height}px")
+            
+            # Step 1: Upscale to maximum quality (4x)
+            upscale_width = original_width * UPSCALE_FACTOR
+            upscale_height = original_height * UPSCALE_FACTOR
+            print(f"      Upscaling to: {upscale_width}x{upscale_height}px")
+            
+            upscaled_img = img.resize((upscale_width, upscale_height), Image.LANCZOS)
+            
+            # Step 2: Smart crop to exact target dimensions
+            print(f"      Cropping to: {target_width}x{target_height}px (center crop)")
+            final_img = smart_crop(upscaled_img, target_width, target_height)
+            
+            # Verify dimensions
+            final_width, final_height = final_img.size
+            print(f"      Final size: {final_width}x{final_height}px ✓")
+            
+            # Step 3: Optimize to under 100KB
+            print(f"      Optimizing to under {MAX_FILE_SIZE_KB}KB...")
+            
+            for quality in range(WEBP_QUALITY_START, 20, -5):
+                final_img.save(output_path, 'WEBP', quality=quality, method=6)
+                file_size_kb = os.path.getsize(output_path) / 1024
+                
+                if file_size_kb <= MAX_FILE_SIZE_KB:
+                    print(f"      ✓ Saved at quality {quality}, size: {file_size_kb:.1f}KB")
+                    return True
+            
+            # Last resort: very low quality
+            final_img.save(output_path, 'WEBP', quality=10, method=6)
+            file_size_kb = os.path.getsize(output_path) / 1024
+            print(f"      ⚠ Saved at quality 10, size: {file_size_kb:.1f}KB")
+            return True
+            
+    except Exception as e:
+        print(f"      ✗ Error processing image: {e}")
+        return False
+
+def get_oldest_image(folder):
+    """Get the oldest unprocessed image from folder"""
+    image_extensions = {'.jpg', '.jpeg', '.png', '.bmp', '.gif', '.tiff', '.webp'}
+    
+    files = []
+    for f in Path(folder).iterdir():
+        if f.is_file() and f.suffix.lower() in image_extensions:
+            files.append(f)
+    
+    if not files:
+        return None
+    
+    # Sort by creation time (oldest first)
+    files.sort(key=lambda x: x.stat().st_ctime)
+    return files[0]
+
+def search_pinterest(query):
+    """Open Pinterest search in browser"""
+    encoded_query = urllib.parse.quote(query)
+    url = f"https://www.pinterest.com/search/pins/?q={encoded_query}"
+    webbrowser.open(url)
+    print(f"  → Searching: {query}")
+
+def file_watcher_thread():
+    """Background thread that watches for new files and processes them"""
+    global processing_active
+    processed_count = 0
+    
+    while processing_active or not filename_queue.empty():
+        if filename_queue.empty():
+            time.sleep(1)
+            continue
+        
+        # Get next expected filename and dimensions
+        expected_filename, dimensions = filename_queue.get()
+        
+        print(f"\n   [FILE WATCHER] Waiting for download #{processed_count + 1}...")
+        
+        # Wait for a file to appear in download folder
+        while processing_active:
+            oldest_img = get_oldest_image(DOWNLOAD_FOLDER)
+            if oldest_img:
+                break
+            time.sleep(2)
+        
+        if not processing_active and not oldest_img:
+            break
+        
+        print(f"   [FILE WATCHER] Found: {oldest_img.name}")
+        
+        # Process and rename the image
+        output_path = Path(OUTPUT_FOLDER) / expected_filename
+        print(f"   [FILE WATCHER] Processing → {expected_filename}")
+        
+        if upscale_crop_and_optimize(oldest_img, output_path, dimensions):
+            # Delete original after successful processing
+            oldest_img.unlink()
+            processed_count += 1
+            print(f"   [FILE WATCHER] ✓ Completed! ({processed_count} files processed)")
+        else:
+            print(f"   [FILE WATCHER] ✗ Failed to process!")
+        
+        filename_queue.task_done()
+
+def process_items(items):
+    """Process all items"""
+    total = len(items)
+    print(f"\n{'='*70}")
+    print(f"📂 PROCESSING IMAGES")
+    print(f"{'='*70}")
+    print(f"Total images: {total}\n")
+    
+    # Sort by id
+    items_sorted = sorted(items, key=lambda x: x.get('id', 0))
+    
+    for i, item in enumerate(items_sorted, 1):
+        img_id = item.get('id')
+        filename = item.get('filename')
+        dimensions_str = item.get('dimensions', '800x800')
+        
+        # Parse dimensions
+        dimensions = parse_dimensions(dimensions_str)
+        if not dimensions:
+            print(f"⚠ Invalid dimensions for ID {img_id}: {dimensions_str}, using 800x800")
+            dimensions = (800, 800)
+        
+        # Add filename and dimensions to queue for file watcher
+        filename_queue.put((filename, dimensions))
+        
+        # Extract search query and search Pinterest
+        search_query = extract_search_query(filename)
+        
+        print(f"\n[SEARCH {i}/{total}] ID: {img_id} | Dimensions: {dimensions_str}")
+        search_pinterest(search_query)
+        
+        # Wait before next search (except for last one)
+        if i < total:
+            print(f"   Waiting {WAIT_TIME_BETWEEN_SEARCHES} seconds before next search...")
+            time.sleep(WAIT_TIME_BETWEEN_SEARCHES)
+    
+    print(f"\n✓ Search completed for all items")
+    
+
+def main():
+    global processing_active
+    
+    # Create output folder if doesn't exist
+    Path(OUTPUT_FOLDER).mkdir(parents=True, exist_ok=True)
+    
+    # Load JSON file
+    try:
+        with open(JSON_FILE, 'r', encoding='utf-8') as f:
+            items = json.load(f)
+    except Exception as e:
+        print(f"Error reading JSON file: {e}")
+        return
+    
+    total_items = len(items)
+    
+    print(f"\n{'='*70}")
+    print(f"🎯 PINTEREST IMAGE PROCESSOR WITH SMART CROPPING")
+    print(f"{'='*70}")
+    print(f"Download folder: {DOWNLOAD_FOLDER}")
+    print(f"Output folder: {OUTPUT_FOLDER}")
+    print(f"Max file size: {MAX_FILE_SIZE_KB}KB")
+    print(f"Upscale factor: {UPSCALE_FACTOR}x")
+    print(f"\nTotal images to process: {total_items}")
+    
+    # Start file watcher thread
+    print(f"\n{'='*70}")
+    print("🔍 Starting file watcher thread...")
+    print(f"{'='*70}")
+    watcher = threading.Thread(target=file_watcher_thread, daemon=True)
+    watcher.start()
+    
+    try:
+        # Process all items
+        process_items(items)
+        
+        # Wait for all files to be processed
+        print(f"\n⏳ Waiting for all downloads to complete...")
+        filename_queue.join()
+        
+        print(f"\n{'='*70}")
+        print("🎉 ALL IMAGES COMPLETED!")
+        print(f"{'='*70}\n")
+        
+        # Signal that we're done
+        processing_active = False
+        watcher.join(timeout=5)
+        
+    except KeyboardInterrupt:
+        print("\n\n⚠ Script interrupted by user!")
+        processing_active = False
+        watcher.join(timeout=5)
+
+if __name__ == "__main__":
+    main()
