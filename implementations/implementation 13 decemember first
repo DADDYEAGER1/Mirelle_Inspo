@@ -1,0 +1,176 @@
+# Master Prompt: Premium Overlay & Glass Effect Implementation
+
+## OBJECTIVE
+Update specific components with premium white overlay (rgba(255, 255, 255, 0.3)) and optional glass effect (backdrop-filter: blur(4px)) to ensure text readability while maintaining image visibility.
+
+---
+
+## COMPONENTS TO UPDATE
+
+### 1. **Homepage - HeroSection.tsx**
+- **Location**: `src/components/HeroSection.tsx`
+- **Changes Needed**:
+  - Strengthen gradient overlay from current `from-black/60 via-black/40 to-black/70` to `from-black/75 via-black/50 to-black/80`
+  - Add multi-layer text-shadow to all text elements:
+    ```css
+    text-shadow: 
+      0 2px 8px rgba(0, 0, 0, 0.9),
+      0 4px 16px rgba(0, 0, 0, 0.7);
+    ```
+
+### 2. **Homepage - FeaturedTopicsSection.tsx**
+- **Location**: `src/components/FeaturedTopicsSection.tsx`
+- **Changes Needed**:
+  - Add white overlay: `background: rgba(255, 255, 255, 0.3)`
+  - Add backdrop blur: `backdrop-filter: blur(4px)` and `-webkit-backdrop-filter: blur(4px)`
+  - Add subtle border: `border: 1px solid rgba(255, 255, 255, 0.4)`
+  - Update text color to dark: `color: #1a1a1a`
+  - Add light text-shadow for definition: `text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8)`
+
+### 3. **Homepage - BlogSection.tsx** (Blog Cards Component)
+- **Location**: `src/components/BlogSection.tsx` OR `src/components/Blog/BlogCard.tsx`
+- **Changes Needed**:
+  - Add white overlay: `background: rgba(255, 255, 255, 0.3)`
+  - Add backdrop blur: `backdrop-filter: blur(8px)` and `-webkit-backdrop-filter: blur(8px)`
+  - Ensure text is dark colored (#1a1a1a or #2d2d2d)
+  - Add padding around text content area
+  - Add border-radius if not present
+
+### 4. **Homepage - ShopSection.tsx** (Shop Cards)
+- **Location**: `src/components/ShopSection.tsx`
+- **Changes Needed**:
+  - Same as FeaturedTopicsSection
+  - Add white overlay: `background: rgba(255, 255, 255, 0.3)`
+  - Add backdrop blur: `backdrop-filter: blur(4px)`
+  - Dark text with light shadow
+
+### 5. **Inspo Page - MasonryGallery.tsx** (Inspo Cards)
+- **Location**: `src/components/Inspo/MasonryGallery.tsx`
+- **Changes Needed**:
+  - Add white overlay on text overlay section: `background: rgba(255, 255, 255, 0.3)`
+  - Add backdrop blur: `backdrop-filter: blur(6px)`
+  - Ensure all text is dark (#1a1a1a)
+  - Add subtle border on overlay section
+  - Maintain hover effects
+
+---
+
+## DESIGN SPECIFICATIONS
+
+### White Overlay Standard:
+```css
+background: rgba(255, 255, 255, 0.3);
+backdrop-filter: blur(4px);
+-webkit-backdrop-filter: blur(4px);
+border: 1px solid rgba(255, 255, 255, 0.4);
+```
+
+### Text Styling Standard:
+```css
+color: #1a1a1a;
+text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
+```
+
+### For Hero Section (Dark Overlay):
+```css
+background: linear-gradient(
+  to bottom,
+  rgba(0, 0, 0, 0.75) 0%,
+  rgba(0, 0, 0, 0.5) 50%,
+  rgba(0, 0, 0, 0.8) 100%
+);
+
+/* Text */
+text-shadow: 
+  0 2px 8px rgba(0, 0, 0, 0.9),
+  0 4px 16px rgba(0, 0, 0, 0.7);
+```
+
+---
+
+## WORKFLOW INSTRUCTIONS FOR AGENT
+
+### Step 1: Request Files
+Ask user: "Please provide the following files from your project tree:
+1. `src/components/HeroSection.tsx`
+2. `src/components/FeaturedTopicsSection.tsx`
+3. `src/components/BlogSection.tsx` (or `src/components/Blog/BlogCard.tsx`)
+4. `src/components/ShopSection.tsx`
+5. `src/components/Inspo/MasonryGallery.tsx`"
+
+### Step 2: Analyze Each File
+- Identify current overlay/background styles
+- Locate text elements that need styling
+- Check for existing backdrop-filter usage
+- Note any custom Tailwind classes
+
+### Step 3: Apply Updates
+For each file:
+- Update overlay classes with white overlay standard
+- Add backdrop-filter properties
+- Update text colors to dark
+- Add text-shadows where needed
+- Ensure responsive behavior remains intact
+- Preserve all existing functionality (hover effects, animations, etc.)
+
+### Step 4: Return Updated Files
+Provide complete updated file content with:
+- Clear comments marking changes: `/* UPDATED: Added white overlay */`
+- Explanation of what changed
+- Any new Tailwind classes added to globals.css if needed
+
+---
+
+## CRITICAL RULES
+
+1. ❌ **DO NOT** update blog listing page (`src/app/blog/page.tsx`) - only homepage blog section
+2. ✅ **DO** maintain all existing hover effects and animations
+3. ✅ **DO** keep mobile responsiveness intact
+4. ✅ **DO** use Tailwind utility classes when possible
+5. ✅ **DO** add inline styles for backdrop-filter (Tailwind doesn't support it by default)
+6. ❌ **DO NOT** change component structure or props
+7. ✅ **DO** test that images are still visible through overlays
+
+---
+
+## EXPECTED OUTCOME
+
+After implementation:
+- ✅ All text on image backgrounds is clearly readable
+- ✅ Images remain visible through semi-transparent overlays
+- ✅ Premium glass effect on featured cards
+- ✅ Consistent styling across all homepage sections
+- ✅ Inspo page cards have same premium treatment
+- ✅ No layout shifts or broken functionality
+
+---
+
+## EXAMPLE IMPLEMENTATION
+
+```tsx
+// BEFORE
+<div className="absolute bottom-0 p-4 bg-gradient-to-t from-black/60">
+  <h3 className="text-white">Title</h3>
+</div>
+
+// AFTER
+<div 
+  className="absolute bottom-0 p-4 border border-white/40 rounded-t-xl"
+  style={{
+    background: 'rgba(255, 255, 255, 0.3)',
+    backdropFilter: 'blur(4px)',
+    WebkitBackdropFilter: 'blur(4px)'
+  }}
+>
+  <h3 
+    className="text-gray-900"
+    style={{ textShadow: '0 1px 2px rgba(255, 255, 255, 0.8)' }}
+  >
+    Title
+  </h3>
+</div>
+```
+
+---
+
+**Agent should now request files and begin implementation process.**
