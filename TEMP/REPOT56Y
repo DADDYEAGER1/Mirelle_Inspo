@@ -1,0 +1,221 @@
+================================================================================
+HARDCODED COLORS AUDIT REPORT - Mirellé Website
+================================================================================
+
+📊 SUMMARY:
+   Total files scanned: 103
+   Files with hardcoded colors: 6
+   Total color instances: 41
+
+================================================================================
+
+
+📈 COLOR TYPE BREAKDOWN:
+   RGB: 22 instances
+   HEX: 16 instances
+   NAMED: 3 instances
+
+================================================================================
+
+
+📝 DETAILED FINDINGS BY FILE:
+
+
+================================================================================
+📄 FILE: app\globals.css
+   Found 32 color instances
+================================================================================
+
+  [1] Line 5 - HEX Color
+      Color: #fcfaf5
+      Context: --background: #fcfaf5;
+
+  [2] Line 6 - HEX Color
+      Color: #2a2a2a
+      Context: --foreground: #2a2a2a;
+
+  [3] Line 8 - HEX Color
+      Color: #cc2d5c
+      Context: --accent-light: #cc2d5c;
+
+  [4] Line 9 - HEX Color
+      Color: #6b1833
+      Context: --accent-dark: #6b1833;
+
+  [5] Line 10 - HEX Color
+      Color: #6a6a6a
+      Context: --text-secondary: #6a6a6a;
+
+  [6] Line 11 - HEX Color
+      Color: #ede5d4
+      Context: --border-color: #ede5d4;
+
+  [7] Line 12 - HEX Color
+      Color: #f8f4eb
+      Context: --cream: #f8f4eb;
+
+  [8] Line 95 - NAMED Color
+      Color: color: white
+      Context: color: white;
+
+  [9] Line 133 - RGB Color
+      Color: rgba(255, 255, 255, 0.7)
+      Context: background: rgba(255, 255, 255, 0.7);
+
+  [10] Line 136 - RGB Color
+      Color: rgba(255, 255, 255, 0.2)
+      Context: border: 1px solid rgba(255, 255, 255, 0.2);
+
+  [11] Line 140 - RGB Color
+      Color: rgba(0, 0, 0, 0.4)
+      Context: background: rgba(0, 0, 0, 0.4);
+
+  [12] Line 143 - RGB Color
+      Color: rgba(255, 255, 255, 0.1)
+      Context: border: 1px solid rgba(255, 255, 255, 0.1);
+
+  [13] Line 150 - RGB Color
+      Color: rgba(139, 31, 66, 0.2)
+      Context: border: 1px solid rgba(139, 31, 66, 0.2);
+
+  [14] Line 154 - RGB Color
+      Color: rgba(139, 31, 66, 0.9)
+      Context: background: rgba(139, 31, 66, 0.9);
+
+  [15] Line 157 - RGB Color
+      Color: rgba(204, 45, 92, 0.3)
+      Context: border: 1px solid rgba(204, 45, 92, 0.3);
+
+  [16] Line 163 - RGB Color
+      Color: rgba(255, 255, 255, 0.95)
+      Context: background: rgba(255, 255, 255, 0.95);
+
+  [17] Line 166 - RGB Color
+      Color: rgba(0, 0, 0, 0.85)
+      Context: background: rgba(0, 0, 0, 0.85);
+
+  [18] Line 169 - RGB Color
+      Color: rgba(139, 31, 66, 0.85)
+      Context: background: rgba(139, 31, 66, 0.85);
+
+  [19] Line 172 - RGB Color
+      Color: rgba(139, 31, 66, 0.95)
+      Context: background: rgba(139, 31, 66, 0.95);
+
+  [20] Line 277 - RGB Color
+      Color: rgba(0, 0, 0, 0.75)
+      Context: background: rgba(0, 0, 0, 0.75);
+
+  [21] Line 295 - RGB Color
+      Color: rgba(0, 0, 0, 0.05)
+      Context: background: rgba(0, 0, 0, 0.05);
+
+  [22] Line 300 - RGB Color
+      Color: rgba(0, 0, 0, 0.2)
+      Context: background: rgba(0, 0, 0, 0.2);
+
+  [23] Line 305 - RGB Color
+      Color: rgba(0, 0, 0, 0.3)
+      Context: background: rgba(0, 0, 0, 0.3);
+
+  [24] Line 330 - RGB Color
+      Color: rgba(0, 0, 0, 0.15)
+      Context: box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+
+  [25] Line 363 - NAMED Color
+      Color: background: white
+      Context: [style*="background: white"],
+
+  [26] Line 364 - HEX Color
+      Color: #fff
+      Context: [style*="background: #fff"],
+
+  [27] Line 365 - NAMED Color
+      Color: color: white
+      Context: [style*="background-color: white"],
+
+  [28] Line 366 - HEX Color
+      Color: #fff
+      Context: [style*="background-color: #fff"] {
+
+  [29] Line 370 - HEX Color
+      Color: #fcfaf5
+      Context: [style*="background: #fcfaf5"],
+
+  [30] Line 371 - HEX Color
+      Color: #f8f4eb
+      Context: [style*="background: #f8f4eb"],
+
+  [31] Line 372 - HEX Color
+      Color: #fcfaf5
+      Context: [style*="background-color: #fcfaf5"],
+
+  [32] Line 373 - HEX Color
+      Color: #f8f4eb
+      Context: [style*="background-color: #f8f4eb"] {
+
+
+================================================================================
+📄 FILE: app\layout.tsx
+   Found 1 color instances
+================================================================================
+
+  [1] Line 345 - HEX Color
+      Color: #8b1f42
+      Context: <meta name="theme-color" content="#8b1f42" />
+
+
+================================================================================
+📄 FILE: app\topics\nail-art-guides\page.tsx
+   Found 2 color instances
+================================================================================
+
+  [1] Line 556 - HEX Color
+      Color: #2563eb
+      Context: Start with <a href="#ultra-easy" style={{color: '#2563eb', textDecoration: 'underline'}}>Ultra Easy 
+
+  [2] Line 556 - HEX Color
+      Color: #2563eb
+      Context: Start with <a href="#ultra-easy" style={{color: '#2563eb', textDecoration: 'underline'}}>Ultra Easy 
+
+
+================================================================================
+📄 FILE: components\Inspo\CategoryHero.tsx
+   Found 2 color instances
+================================================================================
+
+  [1] Line 16 - RGB Color
+      Color: rgba(0,0,0,0.7)
+      Context: backgroundImage: `linear-gradient(135deg, rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url(${designData.heroIm
+
+  [2] Line 16 - RGB Color
+      Color: rgba(0,0,0,0.4)
+      Context: backgroundImage: `linear-gradient(135deg, rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url(${designData.heroIm
+
+
+================================================================================
+📄 FILE: components\Shop\ProductPageContent.tsx
+   Found 2 color instances
+================================================================================
+
+  [1] Line 297 - RGB Color
+      Color: rgba(255, 255, 255, 0.3)
+      Context: background: 'linear-gradient(135deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.1) 100%)',
+
+  [2] Line 297 - RGB Color
+      Color: rgba(255, 255, 255, 0.1)
+      Context: background: 'linear-gradient(135deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.1) 100%)',
+
+
+================================================================================
+📄 FILE: components\ui\PremiumButton.tsx
+   Found 2 color instances
+================================================================================
+
+  [1] Line 94 - RGB Color
+      Color: rgba(255, 255, 255, 0.5)
+      Context: background: rgba(255, 255, 255, 0.5);
+
+  [2] Line 124 - RGB Color
+      Color: rgba(255, 255, 255, 0.5)
+      Context: background: rgba(255, 255, 255, 0.5);
