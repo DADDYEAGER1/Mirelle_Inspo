@@ -1,0 +1,297 @@
+# Mirellè Website Redesign - General Instructions
+
+## Project Overview
+You are redesigning **Mirellè**, a premium editorial-style nail art website targeting global nail enthusiasts, with primary focus on US and UK markets. The audience includes everyday nail enthusiasts, salon professionals, and nail artists.
+
+## Design Philosophy
+**Style:** Elegant editorial like Vogue - minimal, sophisticated, premium feel
+**Inspiration:** Vogue's clean layouts, generous white space, elegant typography
+**Vibe:** High-end fashion magazine meets nail art inspiration
+
+---
+
+## STRICT COLOR SYSTEM - DO NOT DEVIATE
+
+### Primary Colors (ONLY TWO)
+- **Text/Headings:** `#252220` (Dark charcoal - almost black)
+- **Background:** `#f9fafb` (Very light gray - almost white)
+
+### Color Usage Rules
+❌ **NEVER** add accent colors, pink, purple, or any other colors on your own
+❌ **NEVER** use colored buttons or CTAs without explicit instruction
+✅ Use only `#252220` and `#f9fafb` for all designs
+✅ Links in blog content: underline only, same `#252220` color
+✅ Header/footer links: NO underline
+✅ Buttons: Use borders, no fill colors (unless specifically requested)
+
+---
+
+## Typography System
+
+### Font Families
+- **Headings (H1-H6):** Jeremiah (custom font, already loaded)
+- **Product Cards:** Boriboon (custom font, already loaded)
+- **Body Text:** Crimson Text (already loaded)
+
+### Font Sizes (Vogue-inspired - NOT too large)
+- **H1 (Page titles):** 36-42px desktop, 28-32px mobile
+- **H2 (Section headers):** 28-32px desktop, 24-26px mobile
+- **H3 (Subsections):** 22-24px desktop, 20-22px mobile
+- **Paragraph:** 16-18px desktop, 16px mobile
+- **Small text/captions:** 14px
+
+### Typography Rules
+- Line height: 1.6-1.7 for body text
+- Letter spacing: Tight for headings (-0.02em), normal for body
+- Font weight: 400 (regular), 600 (semibold for headings)
+
+---
+
+## Spacing & Layout Philosophy
+
+### White Space (Vogue-style generous gaps)
+- **Desktop side margins:** 64-80px (very generous)
+- **Mobile side margins:** 24px minimum
+- **Section spacing:** 80-120px between major sections
+- **Element spacing:** 40-60px between cards/elements
+- **Card padding:** 20-30px internal padding
+
+### Container System
+Use these predefined container classes:
+
+1. **container-standard** - Blog pages, general content (max-w-[1200px])
+2. **container-wide** - Galleries, shop grids (max-w-[1400px])
+3. **container-narrow** - Single blog posts (max-w-[800px])
+4. **container-full** - Hero sections (max-w-[1600px])
+5. **container-compact** - Product cards, carousels (max-w-[1300px])
+
+---
+
+## Mobile Responsiveness Requirements
+
+### Breakpoints
+- Mobile: < 768px
+- Tablet: 768px - 1024px
+- Desktop: > 1024px
+
+### Touch Targets
+- Minimum button/link size: **48x48px** on mobile
+- Ensure easy tapping without accidental clicks
+
+### Mobile-First Approach
+- Design for mobile first, then scale up
+- Stack elements vertically on mobile
+- Reduce font sizes appropriately
+- Maintain generous padding (minimum 24px sides)
+
+### Special Mobile Considerations
+- **NO sticky header** - clean scroll experience
+- **NO sticky footer** - clean scroll experience
+- **NO bottom navigation bar** - keep it minimal
+- Cards should be easy to tap and scroll
+
+---
+
+## Image Loading Strategy
+
+### Lazy Loading (Pinterest-style)
+- **Homepage:** Load ALL images immediately (complete page load)
+- **Gallery/Inspo pages:** Lazy load with viewport detection
+  - Load images visible on screen
+  - Preload next 2-3 rows while scrolling
+  - Continue loading as user scrolls
+- **Shop pages:** Lazy load product images
+- **Blog pages:** Load featured image immediately, lazy load inline images
+
+### Image Optimization
+- Use Next.js Image component
+- WebP format preferred
+- Responsive srcset for different screen sizes
+- Fade-in animation when images load (subtle, 0.3s)
+
+---
+
+## Component Behavior
+
+### Cards
+- **Hover effect:** Elegant lift (translateY -4px)
+- **Shadow on hover:** Subtle shadow (0 10px 30px rgba(0,0,0,0.08))
+- **Transition:** Smooth 0.3s ease
+- **Border:** 1px solid #e5e7eb (optional)
+
+### Links
+- **In content (blog posts):** Underline, `#252220` color
+- **In header/footer:** NO underline, `#252220` color
+- **Hover:** Opacity 0.7 (subtle fade)
+- **No color change on hover**
+
+### Buttons
+- Style: Outlined (border only), NO filled backgrounds
+- Border: 2px solid `#252220`
+- Padding: 12px 32px
+- Border radius: 2px (minimal, almost sharp)
+- Hover: Background `#252220`, text white
+- Transition: 0.3s ease
+
+### Forms
+- Input borders: 1px solid #e5e7eb
+- Focus state: 2px solid `#252220`
+- No colored focus rings
+- Clean, minimal design
+
+---
+
+## Grid & Layout Patterns
+
+### Card Grids (Carousels, Product Grids, etc.)
+- **Desktop:** 3-4 cards per row (prefer 3 for better image visibility)
+- **Tablet:** 2-3 cards per row
+- **Mobile:** 1 card per row
+
+### Carousel Behavior
+- Show 1 full card on mobile
+- Show 2 full cards + peek of 3rd on tablet
+- Show 3-4 cards on desktop
+- Pagination: Simple "1 / 4" counter below
+- Navigation: Arrow buttons on sides (optional)
+
+### Sidebar Layouts
+- **Desktop:** 70% main content, 30% sidebar (ads/widgets)
+- **Mobile:** Stack vertically, sidebar below content
+- Sidebar should be sticky on desktop (scroll with page)
+
+---
+
+## Component Types to Create
+
+### Carousel Types
+1. **Article Carousel** - Image + title + author, pagination
+2. **Image-Only Carousel** - Just images, optional text, pagination
+3. **Product Carousel** - Product cards with info
+
+### Card Types
+1. **Feature Card** - Large vertical image, category tag, headline, author
+2. **List Card** - Small thumbnail right, text left (compact)
+3. **Product Card** - Image, title, price, link
+
+### Layout Types
+1. **Standard Grid** - 3-4 columns
+2. **Masonry Gallery** - Pinterest-style (inspo section)
+3. **Sidebar Layout** - Main + right sidebar
+
+---
+
+## Development Guidelines
+
+### Technology Stack
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+- React components
+
+### Code Quality
+- Use TypeScript for all components
+- Follow React best practices
+- Use Tailwind utility classes (no custom CSS unless necessary)
+- Responsive design with mobile-first approach
+- Semantic HTML (proper heading hierarchy)
+
+### Accessibility
+- Proper alt text for images
+- ARIA labels where needed
+- Keyboard navigation support
+- Focus states visible
+- Semantic HTML structure
+
+---
+
+## Files Structure Reference
+
+### Current Project Structure
+```
+src/
+├── app/
+│   ├── globals.css (UPDATED - new colors/fonts)
+│   ├── layout.tsx (root layout)
+│   ├── page.tsx (homepage)
+│   ├── blog/ (blog system)
+│   ├── shop/ (shop system)
+│   ├── inspo/ (inspiration gallery)
+│   ├── topics/ (topic pages)
+│   └── [other pages]/
+├── components/
+│   ├── Header.tsx
+│   ├── Footer.tsx
+│   ├── Blog/ (blog components)
+│   ├── Shop/ (shop components)
+│   ├── Inspo/ (gallery components)
+│   └── ui/ (shared UI components)
+├── lib/ (utility functions)
+└── content/ (markdown files, JSON data)
+
+tailwind.config.js (UPDATED - new design tokens)
+```
+
+---
+
+## Current Status
+
+### ✅ Completed
+- Updated `globals.css` with new color system and fonts
+- Updated `tailwind.config.js` with design tokens
+- Defined container system and spacing rules
+- Loaded custom fonts (Jeremiah, Boriboon)
+
+### 🎯 Next Steps (Section by Section)
+1. **Header & Footer** (affects all pages)
+2. **Homepage** (hero, sections, layout)
+3. **Blog System** (listing, single post, topics)
+4. **Shop System** (products, categories, single product)
+5. **Inspo Gallery** (masonry grid, filters, modal)
+6. **Other Pages** (contact, brands, etc.)
+
+---
+
+## Working Process
+
+When redesigning a section:
+1. **Analyze current code** - understand structure
+2. **Identify what to keep** - logic, data fetching, functionality
+3. **Redesign UI only** - apply new design system
+4. **Maintain responsiveness** - test mobile/tablet/desktop
+5. **Keep old code commented** - for reference during migration
+6. **Test thoroughly** - ensure nothing breaks
+
+---
+
+## Important Reminders
+
+❌ **DO NOT:**
+- Add colors beyond `#252220` and `#f9fafb`
+- Make fonts too large (keep Vogue-sized)
+- Add sticky headers/footers/bottom nav
+- Use colored buttons without permission
+- Deviate from the container system
+
+✅ **DO:**
+- Maintain generous white space (Vogue-style)
+- Keep design minimal and elegant
+- Follow the typography system exactly
+- Use lazy loading for heavy image pages
+- Test on mobile devices
+- Ask for clarification if design intent is unclear
+
+---
+
+## Questions to Ask Before Starting
+
+When beginning work on a section, always confirm:
+1. Which files need to be updated?
+2. Are there any specific design references for this section?
+3. Should old code be kept for backward compatibility?
+4. Any special functionality to preserve?
+5. Mobile behavior requirements?
+
+---
+
+**This is a living document. Refer back to it constantly during the redesign process.**
