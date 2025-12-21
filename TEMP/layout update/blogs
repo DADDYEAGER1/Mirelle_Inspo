@@ -1,0 +1,335 @@
+# Blog System Redesign - Mirellè
+
+## System Overview
+The blog system handles all article content, including blog posts, topic pages, reading experience, comments, and related content.
+
+---
+
+## File Structure - Blog System
+
+```
+BLOG SYSTEM FILES
+├── APP ROUTES
+│   ├── src/app/blog/
+│   │   ├── page.tsx                    # Main blog listing page
+│   │   └── [slug]/
+│   │       └── page.tsx                # Single blog post page
+│   │
+│   └── src/app/topics/
+│       ├── page.tsx                    # Topics overview
+│       ├── at-home-hacks/page.tsx
+│       ├── modern-women/page.tsx
+│       ├── nail-art-guides/page.tsx
+│       ├── nail-care-guide/page.tsx
+│       ├── seasonal-trends/page.tsx
+│       └── skin-tones/page.tsx
+│
+├── COMPONENTS
+│   └── src/components/Blog/
+│       ├── BlogCard.tsx                # Blog preview card
+│       ├── BlogList.tsx                # Grid of blog cards
+│       ├── BlogPost.tsx                # Single post layout
+│       ├── BlogSearch.tsx              # Search/filter interface
+│       ├── BlogSidebar.tsx             # Sidebar widgets
+│       ├── CommentSection.tsx          # Comments UI
+│       ├── InlineNewsletterForm.tsx    # Newsletter in posts
+│       ├── Pagination.tsx              # Page navigation
+│       ├── PinterestOverlay.tsx        # Pin buttons on images
+│       ├── ReadingProgress.tsx         # Progress bar
+│       ├── RelatedPosts.tsx            # Related articles
+│       ├── SocialShare.tsx             # Share buttons
+│       └── TLDRSection.tsx             # Quick summary box
+│
+├── UTILITIES
+│   ├── src/lib/blog.ts                 # Blog data fetching
+│   └── src/types/blog.ts               # TypeScript types
+│
+└── CONTENT
+    ├── src/content/blogs/*.md          # Markdown blog posts
+    └── src/content/metadata/
+        ├── excerpts.json
+        ├── faqItems.json
+        ├── images.json
+        ├── tags.json
+        ├── titles.json
+        └── tldr.json
+```
+
+---
+
+## Design Requirements
+
+### Blog Listing Page (`blog/page.tsx`)
+
+**Layout:**
+- Hero section with page title "Latest Nail Art Inspiration"
+- Search/filter bar (categories, tags)
+- Grid of blog cards: 3 columns desktop, 2 tablet, 1 mobile
+- Pagination at bottom
+- Use `container-standard` wrapper
+
+**Blog Card Design (`BlogCard.tsx`):**
+- Featured image (16:9 aspect ratio)
+- Category tag (small, uppercase, #252220)
+- Post title (H3, Jeremiah font, 22-24px)
+- Excerpt (2 lines, Crimson Text)
+- Author name + date (14px, light gray)
+- Hover: lift effect (translateY -4px)
+- Link entire card to post
+
+**Spacing:**
+- 40px gap between cards
+- 80px between hero and grid
+- 60px before pagination
+
+---
+
+### Single Blog Post (`blog/[slug]/page.tsx`)
+
+**Layout Structure:**
+```
+┌─────────────────────────────────────────┐
+│ Reading Progress Bar (top, fixed)      │
+├─────────────────────────────────────────┤
+│                                         │
+│  ┌───────────────────┬───────────────┐ │
+│  │                   │               │ │
+│  │   Main Content    │   Sidebar     │ │
+│  │   (70%)           │   (30%)       │ │
+│  │                   │               │ │
+│  │   - Hero Image    │   - Author    │ │
+│  │   - Title         │   - TOC       │ │
+│  │   - TLDR Box      │   - Related   │ │
+│  │   - Article Body  │   - Ads       │ │
+│  │   - Images        │   - Newsletter│ │
+│  │   - Comments      │               │ │
+│  │                   │               │ │
+│  └───────────────────┴───────────────┘ │
+│                                         │
+│  ┌───────────────────────────────────┐ │
+│  │   Related Posts (3 cards)         │ │
+│  └───────────────────────────────────┘ │
+│                                         │
+└─────────────────────────────────────────┘
+```
+
+**Mobile Layout:**
+- Stack everything vertically
+- Sidebar appears below content
+- Full-width images
+- Reading progress bar remains
+
+**Components:**
+
+1. **Hero Section:**
+   - Full-width featured image
+   - Category tag
+   - H1 title (36-42px, Jeremiah)
+   - Author, date, read time
+   - Social share buttons
+
+2. **TLDR Box (`TLDRSection.tsx`):**
+   - Light background (#f9fafb with subtle border)
+   - "TL;DR" heading
+   - Bullet points (3-5 key takeaways)
+   - Place after first paragraph
+
+3. **Article Body (`BlogPost.tsx`):**
+   - Narrow column for reading (max-w-[800px])
+   - H2, H3 styled with Jeremiah
+   - Paragraphs: Crimson Text, 16-18px, 1.7 line height
+   - Images: Full width within column, lazy load
+   - Pinterest overlay on hover
+   - Inline newsletter form after 40% of content
+
+4. **Sidebar (`BlogSidebar.tsx`):**
+   - Sticky on desktop (scroll with page)
+   - Author bio card
+   - Table of contents (auto-generate from H2s)
+   - Related posts (3-4 small cards)
+   - Ad spaces (placeholder divs)
+   - Newsletter signup
+
+5. **Comments (`CommentSection.tsx`):**
+   - Simple form: Name, email, message
+   - Display existing comments (if any)
+   - Minimal design, borders only
+
+6. **Related Posts (`RelatedPosts.tsx`):**
+   - 3 cards horizontal on desktop
+   - 1 card per row on mobile
+   - Small cards: image + title + date
+
+---
+
+### Topics Pages (`topics/*/page.tsx`)
+
+**Layout:**
+- Hero with topic name and description
+- Filter by subtopics (if applicable)
+- Grid of blog posts in that topic
+- Same card design as main blog listing
+- Use `container-standard`
+
+---
+
+## Specific Component Guidelines
+
+### BlogCard.tsx
+```typescript
+// Structure
+- Image (aspect-16/9, hover:scale-105)
+- Category badge (text-xs, uppercase, tracking-wide)
+- Title (font-heading, text-xl, 2 line clamp)
+- Excerpt (font-body, text-gray-600, 2 line clamp)
+- Meta (author, date - text-sm, text-gray-500)
+- Hover: lift + shadow
+```
+
+### BlogPost.tsx
+```typescript
+// Reading experience
+- Max width 800px (comfortable reading)
+- H2: 28-32px, margin-top 60px
+- H3: 22-24px, margin-top 40px
+- Paragraphs: margin-bottom 24px
+- Images: margin 40px 0
+- Blockquotes: left border 4px, padding-left 24px
+- Lists: proper indentation, 1.6 line height
+```
+
+### ReadingProgress.tsx
+```typescript
+// Fixed top bar
+- Height 3px
+- Background #252220
+- Width based on scroll %
+- Z-index high (above content)
+- Smooth transition
+```
+
+### Pagination.tsx
+```typescript
+// Simple number pagination
+- Center aligned
+- Numbers: 1 2 3 ... 10
+- Current page: bold, underline
+- Arrows: ← →
+- 40px touch targets on mobile
+```
+
+---
+
+## Image Handling
+
+### Featured Images
+- Load immediately (above fold)
+- Aspect ratio 16:9 or 3:2
+- WebP format
+- Responsive sizes
+
+### Inline Images
+- Lazy load (viewport detection)
+- Pinterest save button overlay on hover
+- Click to open modal (optional)
+- Alt text from markdown
+- Captions below if provided
+
+---
+
+## Typography in Posts
+
+### Heading Hierarchy
+```css
+H1: 36-42px, font-heading, margin-bottom 24px
+H2: 28-32px, font-heading, margin-top 60px, margin-bottom 20px
+H3: 22-24px, font-heading, margin-top 40px, margin-bottom 16px
+H4-H6: 18-20px, font-heading
+```
+
+### Body Text
+```css
+Paragraphs: 16-18px, font-body, line-height 1.7
+Strong: font-weight 600
+Links: underline, same color, hover opacity 0.7
+Lists: 16-18px, margin-left 24px
+```
+
+---
+
+## Mobile Optimizations
+
+### Blog Listing
+- 1 column grid
+- Larger touch targets (48px min)
+- Cards full width
+- Reduce image size
+- Stack filter UI vertically
+
+### Single Post
+- No sidebar (move to bottom)
+- Full-width images
+- Increase font slightly (17-18px)
+- Hide TOC (not needed on mobile)
+- Sticky share buttons (optional)
+
+---
+
+## Key Features to Maintain
+
+1. **SEO:** Keep all meta tags, structured data
+2. **Comments API:** Maintain `/api/comments/route.ts`
+3. **Search:** Keep filtering/search logic
+4. **Tags/Categories:** Preserve taxonomy
+5. **Related Posts:** Algorithm stays same
+
+---
+
+## Design Examples to Reference
+
+**Vogue Article Page:**
+- Clean, minimal
+- Generous white space
+- Elegant typography
+- Sidebar with related content
+- Large, beautiful images
+
+**Key Differences for Mirellè:**
+- Focus on nail images (hero images)
+- Step-by-step tutorials (if applicable)
+- Product recommendations (affiliate links)
+- How-to guides with images
+
+---
+
+## Testing Checklist
+
+- [ ] Blog listing loads correctly
+- [ ] Single posts render markdown properly
+- [ ] Images lazy load on scroll
+- [ ] Sidebar sticky on desktop
+- [ ] Mobile layout stacks properly
+- [ ] Reading progress bar works
+- [ ] Comments form submits
+- [ ] Related posts display
+- [ ] Pinterest overlay appears
+- [ ] Typography hierarchy correct
+- [ ] Links underlined in content
+- [ ] No color usage beyond #252220/#f9fafb
+
+---
+
+## Files to Update in Order
+
+1. `BlogCard.tsx` - Get card design right first
+2. `BlogList.tsx` - Grid layout with new cards
+3. `blog/page.tsx` - Main listing page
+4. `BlogPost.tsx` - Article layout/typography
+5. `BlogSidebar.tsx` - Sidebar widgets
+6. `blog/[slug]/page.tsx` - Single post page
+7. `topics/page.tsx` - Topics overview
+8. `topics/*/page.tsx` - Individual topic pages
+
+---
+
+**Remember:** Always maintain the elegant, minimal Vogue aesthetic. Less is more. White space is your friend.
