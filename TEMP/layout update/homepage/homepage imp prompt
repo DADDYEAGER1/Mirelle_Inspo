@@ -1,0 +1,716 @@
+# MIRELLÈ EDITORIAL HOMEPAGE - COMPLETE BUILD SPECIFICATIONS
+
+## PROJECT GOAL
+Build a premium editorial-style homepage inspired by Vogue magazine aesthetic. Clean, sophisticated design with consistent premium spacing throughout all sections and devices.
+
+---
+
+## CRITICAL DESIGN PRINCIPLES
+
+### BRAND COLORS (STRICT - FROM TAILWIND.CONFIG.JS)
+```javascript
+colors: {
+  background: "var(--background)", // #f9fafb
+  foreground: "var(--foreground)", // #252220
+  accent: {
+    DEFAULT: '#E30088',
+    light: '#FF1AA3',
+    dark: '#B0006B',
+  },
+  'text-secondary': '#666666',
+  'border-color': '#E0E0E0',
+  'card-bg': '#FFFFFF',
+}
+```
+**ONLY USE THESE COLORS. NO EXCEPTIONS.**
+
+### TYPOGRAPHY SYSTEM
+**From globals.css - STRICTLY FOLLOW:**
+
+1. **Jeremiah Font** (Headings/Titles):
+   - All blog titles
+   - All section headings
+   - Hero section main text
+   - Font family: 'Jeremiah' (local font)
+
+2. **Boriboon Font** (Categories/Metadata):
+   - Category names (e.g., "BEAUTY", "FASHION", "LIVING")
+   - Author bylines ("BY" text and author names)
+   - All uppercase labels
+   - Font family: 'Boriboon' (local font)
+
+3. **Crimson Text** (Body):
+   - Body text
+   - Descriptions
+   - Font family: 'Crimson Text', Georgia, serif
+
+4. **Subscribe Section Special**:
+   - Text: "Elevate the Season with Vogue" 
+   - Font: "Mirellè" (use 'Crimson Text' as fallback)
+   - Style: **MUST BE ITALIC**
+   - Clean, minimal sizing
+
+### SPACING STANDARD
+**Premium Vogue-style padding throughout:**
+- Desktop: Generous whitespace, clean breathing room
+- Mobile: Consistent reduced padding
+- **SAME PADDING VALUES across ALL sections**
+- Reference Images 1-10 for exact spacing feel
+
+---
+
+## HOMEPAGE STRUCTURE (TOP TO BOTTOM)
+
+### 1. SUBSCRIBE SECTION (SubscribeSection.tsx)
+**Desktop (Image 1, 12):**
+```
+┌────────────────────────────────────────────────────────────┐
+│ ─────────────────────────────────────────────────────────  │ <- Thin horizontal line
+│                                                            │
+│  [Image]  "Elevate the Season with Vogue"  [SUBSCRIBE NOW]│
+│   (left)        (center, Mirellè italic)         (button) │
+│                                                            │
+│ ─────────────────────────────────────────────────────────  │ <- Thin horizontal line
+└────────────────────────────────────────────────────────────┘
+```
+- Horizontal lines top & bottom
+- Image left, text center (italic Mirellè/Crimson), button right
+- Clean minimal font size
+- Background: white (#FFFFFF)
+- Button: Black background, white text, "SUBSCRIBE NOW"
+
+**Mobile (Image 4, similar to Image 2 top):**
+- Stack vertically: Image → Text → Button
+- Center-aligned
+- Compact padding
+- Same horizontal lines top/bottom
+
+**Component Details:**
+- Use Boriboon for brand name if styled
+- Ensure responsive text wrapping
+- Button hover: slight opacity change
+
+---
+
+### 2. HERO SECTION 1 - SINGLE BLOG POST (Hero1Section.tsx)
+**Purpose:** Handpicked featured blog post
+
+**Desktop (Image 2):**
+```
+┌──────────────────────────────────┐
+│                                  │
+│         [BLOG COVER IMAGE]       │
+│     (centered, large featured)   │
+│                                  │
+│      Blog Title in Jeremiah      │
+│           (centered)             │
+│                                  │
+└──────────────────────────────────┘
+```
+- Large blog cover image (use from blog metadata: `image`, `imageAlt`, `imageWidth`, `imageHeight`)
+- Title below image, Jeremiah font, centered
+- Clean spacing
+
+**Mobile (Image 7):**
+- **IMAGE MUST BE CUT IN MIDDLE - FOCUS CENTER**
+- Only show center portion of image (vertical crop)
+- Title below, stacked
+- Compact mobile spacing
+
+**Data Source:**
+```typescript
+// Import from blog.ts
+import { getBlogPost, getAllBlogPosts } from '@/lib/blog';
+
+// Example: Get specific post by slug
+const heroPost = await getBlogPost('blooming-gel-nails');
+
+// Access fields:
+// heroPost.image - cover image URL
+// heroPost.imageAlt - alt text
+// heroPost.title - title (use this, NOT metadata title)
+// heroPost.slug - for link href="/blog/{slug}"
+```
+
+---
+
+### 3. HERO SECTION 2 - CATEGORY CLUSTERS (Hero2Section.tsx)
+**Purpose:** Mixed content grid - Inspo, Blog, Topics, Shop categories
+
+**Desktop (Image 3):**
+```
+┌─────────┬──────┬─────────┐
+│         │      │  Blog   │ <- Smaller
+│  Shop/  │ Blog │─────────│
+│  Inspo  │      │ Topics  │ <- Smaller
+│ (large) │(med) │─────────│
+│         │      │  Blog   │ <- Smaller
+└─────────┴──────┴─────────┘
+```
+- **3 columns**: 
+  - Left: 1 large (Shop or Inspo category)
+  - Middle: 1 medium (Blog post)
+  - Right: 3 small stacked (mix of Blogs and Topics)
+
+**Mobile (Images 4, 5, 6):**
+```
+[Large Image]
+   Title
+
+[Medium Image]
+   Title
+
+[Small Image]
+   Title
+
+[Small Image]
+   Title
+```
+- All stacked vertically
+- Size differentiation maintained
+- Consistent spacing between items
+
+**Layout Details:**
+- Large images: Shop/Inspo categories (from `shop-categories.json` or `inspo-categories.json`)
+- Medium: Blog post
+- Small: Mix of blog posts and topics
+- **IMAGE SIZE DIFFERENCES VISIBLE**
+- Each item: Image + Title below
+- Consistent padding throughout
+
+**Data Sources:**
+```typescript
+// Shop categories
+import { getCategoryData } from '@/lib/shop';
+const shopCategory = getCategoryData('christmas');
+// Access: shopCategory.heroImage, shopCategory.displayName
+
+// Inspo categories
+import { getDesignData } from '@/lib/inspo';
+const inspoDesign = getDesignData('almond-nails-2026');
+// Access: inspoDesign.heroImage, inspoDesign.displayName
+
+// Blog posts
+import { getAllBlogPosts } from '@/lib/blog';
+const posts = await getAllBlogPosts();
+// Access: posts[0].image, posts[0].title, posts[0].slug
+
+// Topics: Use blog posts with category filter
+// Access: post.category to group topics
+```
+
+**Horizontal Lines:**
+- Thin line above section
+- Thin line below section
+
+---
+
+### 4. SUBSCRIBE SECTION (Again)
+**Same as Section 1 - exact duplicate component**
+- Desktop: Horizontal layout with lines
+- Mobile: Vertical stack with lines
+
+---
+
+### 5. BLOG CAROUSEL SECTION (BlogCarousel.tsx)
+**Purpose:** 8 featured blog posts in auto-scrolling carousel
+
+**Desktop (Image 8, 10 bottom):**
+```
+┌──────────────────────────────────────────────────────────┐
+│ ──────────────────────────────────────────────────────   │ <- Line
+│                     BLOG SECTION                          │
+│ ──────────────────────────────────────────────────────   │ <- Line
+│                                                           │
+│  [Card 1] [Card 2] [Card 3] [Card 4] →                  │ <- Pagination "<1/8>"
+│   Shows 1 full + peek of next                            │
+│                                                           │
+└──────────────────────────────────────────────────────────┘
+```
+
+**Card Structure (Reference Images 3, 5, 6):**
+```
+┌────────────────┐
+│                │
+│  [Blog Image]  │
+│                │
+├────────────────┤
+│   CATEGORY     │ <- Boriboon, uppercase, small
+│                │
+│  Blog Title    │ <- Jeremiah, larger
+│                │
+│ BY AUTHOR NAME │ <- Boriboon, "BY" + author
+└────────────────┘
+```
+
+**Carousel Behavior:**
+- Show 1 full card + partial peek of next card
+- Auto-scroll: Move forward one card at a time
+- User can also swipe/drag
+- Pagination: "<1/8>" format top right (NOT dots •••)
+- Horizontal lines above and below
+
+**Mobile:**
+- Same structure, scaled down
+- 1 full + peek
+- Swipe-enabled
+- Lines and pagination
+
+**Data Source:**
+```typescript
+import { getAllBlogPosts } from '@/lib/blog';
+const allPosts = await getAllBlogPosts();
+const featuredBlogPosts = allPosts.slice(0, 8);
+
+// For each post:
+// post.image - cover image
+// post.category - uppercase (BEAUTY, FASHION, etc.)
+// post.title - Jeremiah font
+// post.author - Boriboon font with "BY" prefix
+// post.slug - link to /blog/{slug}
+```
+
+---
+
+### 6. MUST READ SECTION (MustReadSection.tsx)
+**Purpose:** Featured topics (using blog posts)
+
+**Desktop (Image 9, 10 bottom):**
+```
+┌────────────────────────────────────────────────────┐
+│ ───────────────────────────────────────────────    │ <- Line
+│                  MUST READ                         │
+│ ───────────────────────────────────────────────    │ <- Line
+│                                                    │
+│  [Card 1]    [Card 2]    [Card 3]    [Card 4]    │
+│                                                    │
+└────────────────────────────────────────────────────┘
+```
+
+**Card Structure (Image 9, similar to blog cards):**
+```
+┌──────────┬────────────────┐
+│          │   CATEGORY     │ <- Boriboon
+│  [Image] │                │
+│          │   Article Title│ <- Jeremiah
+│          │                │
+│          │ BY AUTHOR NAME │ <- Boriboon
+└──────────┴────────────────┘
+```
+- Image left, text right
+- Horizontal layout per card
+- 4 cards in a row on desktop
+
+**Mobile (Image 9 shows vertical stack):**
+- Stacked vertically
+- Image left, text right (horizontal within card)
+- Same card structure
+
+**Data Source:**
+```typescript
+import { getAllBlogPosts } from '@/lib/blog';
+const topics = (await getAllBlogPosts())
+  .filter(post => post.category) // Or specific topic categories
+  .slice(0, 4);
+```
+
+---
+
+### 7. SHOP CAROUSEL SECTION (ShopCarousel.tsx)
+**Purpose:** Shop products carousel - same style as Blog Carousel
+
+**Structure:** IDENTICAL to Blog Carousel (Section 5)
+- Lines, pagination, auto-scroll, 1 full + peek
+- Card structure identical
+
+**Data Source:**
+```typescript
+import { getShowcaseProducts } from '@/lib/shop';
+const products = await getShowcaseProducts(); // Returns 15 mixed products
+
+// For each product:
+// product.images[0] - first image
+// product.name - title
+// product.category - category name
+// product.price - display price
+// Link to: /shop/{category}/{productId}
+```
+
+---
+
+### 8. INSPO CATEGORIES CAROUSEL (InspoCategoriesCarousel.tsx)
+**Purpose:** 6 inspo design categories - same carousel style
+
+**Structure:** IDENTICAL to Blog/Shop Carousels
+- Lines, pagination, auto-scroll, 1 full + peek
+- 6 categories total
+
+**Data Source:**
+```typescript
+import { getAllDesignSlugs, getDesignData } from '@/lib/inspo';
+const slugs = getAllDesignSlugs();
+const categories = slugs.slice(0, 6).map(slug => getDesignData(slug));
+
+// For each category:
+// category.heroImage - cover image
+// category.displayName - title
+// category.category - label
+// Link to: /inspo/{slug}
+```
+
+---
+
+### 9. INSPO MASONRY GRID (InspoMasonryGrid.tsx)
+**Purpose:** Nail art inspiration collage
+
+**Desktop:**
+```
+┌─────────────────────────────────────────────┐
+│         NAIL ART INSPIRATION                │
+├─────┬─────┬─────┬─────┬─────┐              │
+│     │     │     │     │     │ <- 5 columns │
+│  1  │  2  │  3  │  4  │  5  │              │
+│     ├─────┤     ├─────┤     │              │
+├─────┤  6  ├─────┤  7  ├─────┤              │
+│  8  │     │  9  │     │ 10  │              │
+│     └─────┘     └─────┘     │              │
+└──────────────────────────────┘              │
+│                                             │
+│      [Explore Full Gallery →]              │ <- Button
+└─────────────────────────────────────────────┘
+```
+- 5 columns, 10 images (2 rows with varied heights)
+- Equal spacing: 5-8px between all images
+- **Fixed aspect ratios** - should not break with different image sizes
+- **Images only, no text overlays**
+- Small minimal "Explore Full Gallery →" button below
+
+**Mobile:**
+```
+┌────┬────┬────┐
+│ 1  │ 2  │ 3  │
+├────┼────┼────┤
+│ 4  │ 5  │ 6  │
+└────┴────┴────┘
+[Explore Full Gallery →]
+```
+- 3 columns, 6 images total
+- Same 5-8px spacing
+- Button below
+
+**Grid CSS:**
+```css
+.masonry-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Desktop */
+  gap: 6px; /* Equal spacing */
+  grid-auto-rows: minmax(200px, auto);
+}
+
+@media (max-width: 768px) {
+  .masonry-grid {
+    grid-template-columns: repeat(3, 1fr); /* Mobile */
+  }
+}
+
+.masonry-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Maintains aspect ratio */
+}
+```
+
+**Data Source:**
+```typescript
+import { getDesignImages } from '@/lib/inspo';
+// Example for one category
+const images = await getDesignImages('almond-nails-2026');
+
+// Desktop: images.slice(0, 10)
+// Mobile: images.slice(0, 6)
+// Each: image.url, image.alt
+```
+
+---
+
+### 10. SUBSCRIBE SECTION (Final)
+**Same as Sections 1 & 4 - third instance**
+
+---
+
+## TECHNICAL REQUIREMENTS
+
+### File Structure
+Create these component files in `src/components/Homepage/`:
+1. `SubscribeSection.tsx`
+2. `Hero1Section.tsx`
+3. `Hero2Section.tsx`
+4. `BlogCarousel.tsx`
+5. `MustReadSection.tsx`
+6. `ShopCarousel.tsx`
+7. `InspoCategoriesCarousel.tsx`
+8. `InspoMasonryGrid.tsx`
+
+### Main Homepage File
+Update `src/app/page.tsx`:
+```typescript
+import SubscribeSection from '@/components/Homepage/SubscribeSection';
+import Hero1Section from '@/components/Homepage/Hero1Section';
+import Hero2Section from '@/components/Homepage/Hero2Section';
+import BlogCarousel from '@/components/Homepage/BlogCarousel';
+import MustReadSection from '@/components/Homepage/MustReadSection';
+import ShopCarousel from '@/components/Homepage/ShopCarousel';
+import InspoCategoriesCarousel from '@/components/Homepage/InspoCategoriesCarousel';
+import InspoMasonryGrid from '@/components/Homepage/InspoMasonryGrid';
+
+export default function Home() {
+  return (
+    <div className="font-body bg-background text-foreground">
+      <SubscribeSection />
+      <Hero1Section />
+      <Hero2Section />
+      <SubscribeSection />
+      <BlogCarousel />
+      <MustReadSection />
+      <ShopCarousel />
+      <InspoCategoriesCarousel />
+      <InspoMasonryGrid />
+      <SubscribeSection />
+    </div>
+  );
+}
+```
+
+### Carousel Implementation
+**Use React hooks for carousel logic:**
+```typescript
+const [currentIndex, setCurrentIndex] = useState(0);
+const [isAutoPlaying, setIsAutoPlaying] = useState(true);
+
+useEffect(() => {
+  if (!isAutoPlaying) return;
+  const interval = setInterval(() => {
+    setCurrentIndex(prev => (prev + 1) % items.length);
+  }, 3000); // Auto-advance every 3 seconds
+  return () => clearInterval(interval);
+}, [isAutoPlaying, items.length]);
+
+// Peek effect: Show 85% current + 15% next
+<div style={{ transform: `translateX(-${currentIndex * 85}%)` }}>
+```
+
+### Horizontal Lines
+```typescript
+// Use this component for all section dividers
+const SectionDivider = () => (
+  <div className="w-full h-[1px] bg-border-color my-4" />
+);
+```
+
+### Pagination Component
+```typescript
+const CarouselPagination = ({ current, total }: { current: number; total: number }) => (
+  <div className="absolute top-4 right-4 font-product text-sm text-foreground">
+    &lt;{current + 1}/{total}&gt;
+  </div>
+);
+```
+
+### Responsive Breakpoints
+```css
+/* Mobile */
+@media (max-width: 640px) { }
+
+/* Tablet */
+@media (min-width: 641px) and (max-width: 1024px) { }
+
+/* Desktop */
+@media (min-width: 1025px) { }
+```
+
+---
+
+## DATA FETCHING EXAMPLES
+
+### Blog Posts
+```typescript
+import { getAllBlogPosts, getBlogPost } from '@/lib/blog';
+
+// Get all posts
+const posts = await getAllBlogPosts();
+
+// Get specific post
+const post = await getBlogPost('blooming-gel-nails');
+
+// Fields available:
+post.slug          // For URL: /blog/{slug}
+post.title         // Jeremiah font
+post.excerpt       // Description
+post.image         // Cover image URL
+post.imageAlt      // Alt text
+post.category      // UPPERCASE category
+post.author        // Author name
+post.tags          // Array of tags
+post.date          // Publication date
+```
+
+### Inspo Categories
+```typescript
+import { getDesignData, getAllDesignSlugs, getDesignImages } from '@/lib/inspo';
+
+// Get all category slugs
+const slugs = getAllDesignSlugs();
+
+// Get specific category
+const design = getDesignData('almond-nails-2026');
+
+// Fields:
+design.displayName    // Title
+design.heroImage      // Cover image
+design.category       // Category type
+design.slug           // For URL: /inspo/{slug}
+
+// Get images for category
+const images = await getDesignImages('almond-nails-2026');
+```
+
+### Shop Products
+```typescript
+import { getCategoryData, getCategoryProducts, getShowcaseProducts } from '@/lib/shop';
+
+// Get category metadata
+const category = getCategoryData('christmas');
+
+// Get products for category
+const products = await getCategoryProducts('christmas');
+
+// Get mixed showcase products
+const showcase = await getShowcaseProducts(); // Returns 15
+
+// Product fields:
+product.id
+product.name
+product.images[0]     // First image
+product.price
+product.category
+// Link: /shop/{category}/{productId}
+```
+
+---
+
+## STYLING CHECKLIST
+
+### Typography
+- [ ] All blog/article titles use Jeremiah font
+- [ ] All category labels use Boriboon font (uppercase)
+- [ ] All "BY AUTHOR" text uses Boriboon font
+- [ ] Subscribe section text is italic
+- [ ] Body text uses Crimson Text
+
+### Colors
+- [ ] Only brand colors from tailwind.config.js used
+- [ ] No hardcoded hex colors outside brand palette
+- [ ] Background: #f9fafb
+- [ ] Foreground: #252220
+- [ ] Accent: #E30088
+
+### Spacing
+- [ ] Consistent premium padding across all sections
+- [ ] Same padding on desktop and mobile (scaled appropriately)
+- [ ] Matches Vogue editorial spacing feel from reference images
+
+### Carousels
+- [ ] All show 1 full + peek of next
+- [ ] Auto-scroll working (one card at a time)
+- [ ] User can swipe/drag
+- [ ] Pagination shows "<1/8>" format (not dots)
+- [ ] Horizontal lines above and below
+
+### Images
+- [ ] Hero1 mobile: Image cropped to center focus
+- [ ] Masonry grid: Equal 5-8px spacing all sides
+- [ ] All images have proper alt text
+- [ ] Aspect ratios maintained with object-fit: cover
+
+### Lines
+- [ ] Thin horizontal lines on all carousels
+- [ ] Lines on subscribe sections (top and bottom)
+- [ ] Consistent 1px height, border-color
+
+---
+
+## TESTING REQUIREMENTS
+
+Before submitting, verify:
+
+### Desktop (1920px width)
+- [ ] All sections aligned properly
+- [ ] Carousels show peek effect
+- [ ] Hero2 grid shows 3 columns with size differences
+- [ ] Masonry grid shows 5 columns, 10 images
+- [ ] Typography hierarchy clear
+
+### Mobile (375px width)
+- [ ] All sections stack vertically
+- [ ] Subscribe section: vertical layout
+- [ ] Hero1: Image cropped to center
+- [ ] Hero2: Items stacked with size variation
+- [ ] Carousels: 1 full + peek, swipeable
+- [ ] Masonry: 3 columns, 6 images
+- [ ] Text wraps properly
+
+### Interactions
+- [ ] Carousels auto-scroll
+- [ ] User can manually swipe/drag carousels
+- [ ] Pagination updates correctly
+- [ ] All links work: /blog/{slug}, /inspo/{slug}, /shop/{category}/{id}
+- [ ] Hover states on cards
+
+### Performance
+- [ ] Images optimized (use Next.js Image component)
+- [ ] No layout shift on load
+- [ ] Smooth carousel transitions
+- [ ] No console errors
+
+---
+
+## REFERENCE IMAGES SUMMARY
+
+- **Image 1:** Subscribe section desktop (horizontal layout)
+- **Image 2:** Hero1 blog post desktop (large image + title)
+- **Image 3:** Hero2 mixed content grid desktop (3 columns)
+- **Image 4:** Subscribe mobile (vertical stack)
+- **Images 4, 5, 6:** Hero2 mobile (vertical stack with size variation)
+- **Image 7:** Hero1 mobile (image cropped center focus)
+- **Image 8:** Blog carousel desktop (1 + peek, pagination)
+- **Image 9:** Must Read desktop (horizontal cards)
+- **Image 10:** Combined view (carousels + Must Read)
+- **Images 1, 10, 12:** Subscribe section horizontal layout examples
+
+---
+
+## IMPORTANT NOTES
+
+1. **Fonts:** Jeremiah, Boriboon, Crimson Text - already defined in globals.css
+2. **Colors:** ONLY use brand colors from tailwind.config.js
+3. **Spacing:** Keep consistent premium padding throughout
+4. **Carousels:** ALL must have lines, pagination, auto-scroll, peek effect
+5. **Data:** Use provided lib functions (blog.ts, inspo.ts, shop.ts)
+6. **Responsive:** Desktop and mobile layouts differ significantly - follow image references
+7. **Subscribe:** Same component used 3 times (beginning, middle, end)
+
+---
+
+## FINAL DELIVERABLES
+
+1. 8 component files in `src/components/Homepage/`
+2. Updated `src/app/page.tsx`
+3. Working carousels with auto-scroll and manual control
+4. Proper typography using Jeremiah, Boriboon, Crimson Text
+5. Responsive layouts matching reference images
+6. Clean, maintainable code with TypeScript
+7. All links functional
+8. No console errors
+9. Tested on 375px (mobile) and 1920px (desktop)
+
+Build exactly as specified. Match the Vogue editorial aesthetic with clean, premium spacing and sophisticated typography.
