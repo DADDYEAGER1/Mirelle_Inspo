@@ -1,0 +1,44 @@
+Runtime TypeError
+
+
+Cannot read properties of undefined (reading 'length')
+
+src\app\page.tsx (64:7) @ Home
+
+
+  62 |       
+  63 |       {/* 7. Shop Carousel - 6 Shop Categories */}
+> 64 |       <ShopCarousel categories={shopCategories} />
+     |       ^
+  65 |       
+  66 |       {/* 8. Inspo Categories Carousel - 6 Categories */}
+  67 |       <InspoCategoriesCarousel categories={inspoCategories} />
+Call Stack
+13
+
+ShopCarousel
+file:///C:/Users/gaurav%20verma/mirelle%20baby/mirelle-site/.next/static/chunks/src_components_Homepage_1658feb4._.js (260:18)
+Object.react_stack_bottom_frame
+file:///C:/Users/gaurav%20verma/mirelle%20baby/mirelle-site/.next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js (13072:24)
+renderWithHooks
+file:///C:/Users/gaurav%20verma/mirelle%20baby/mirelle-site/.next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js (4091:24)
+updateFunctionComponent
+file:///C:/Users/gaurav%20verma/mirelle%20baby/mirelle-site/.next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js (5523:21)
+beginWork
+file:///C:/Users/gaurav%20verma/mirelle%20baby/mirelle-site/.next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js (6090:639)
+runWithFiberInDEV
+file:///C:/Users/gaurav%20verma/mirelle%20baby/mirelle-site/.next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js (886:74)
+performUnitOfWork
+file:///C:/Users/gaurav%20verma/mirelle%20baby/mirelle-site/.next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js (8298:97)
+workLoopSync
+file:///C:/Users/gaurav%20verma/mirelle%20baby/mirelle-site/.next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js (8190:40)
+renderRootSync
+file:///C:/Users/gaurav%20verma/mirelle%20baby/mirelle-site/.next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js (8173:13)
+performWorkOnRoot
+file:///C:/Users/gaurav%20verma/mirelle%20baby/mirelle-site/.next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js (7932:56)
+performWorkOnRootViaSchedulerTask
+file:///C:/Users/gaurav%20verma/mirelle%20baby/mirelle-site/.next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js (8882:9)
+MessagePort.performWorkUntilDeadline
+file:///C:/Users/gaurav%20verma/mirelle%20baby/mirelle-site/.next/static/chunks/node_modules_next_dist_compiled_5150ccfd._.js (2601:64)
+Home
+src\app\page.tsx (64:7)
