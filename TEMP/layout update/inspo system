@@ -1,0 +1,486 @@
+# Inspo Gallery System Redesign - Mirellè
+
+## System Overview
+The inspiration gallery showcases nail art designs in a Pinterest-style masonry layout. It's the visual heart of the site with heavy image content requiring smart lazy loading.
+
+---
+
+## File Structure - Inspo Gallery System
+
+```
+INSPO GALLERY FILES
+├── APP ROUTES
+│   └── src/app/inspo/
+│       ├── page.tsx                           # Main gallery page
+│       └── [design]/
+│           └── page.tsx                       # Category page (e.g., /inspo/almond-nails)
+│
+├── COMPONENTS
+│   └── src/components/Inspo/
+│       ├── InspoClient.tsx                    # Client-side gallery logic
+│       ├── InspoHero.tsx                      # Gallery hero section
+│       ├── MasonryGallery.tsx                 # Pinterest-style grid
+│       ├── CategoryGrid.tsx                   # Category overview grid
+│       ├── CategoryClient.tsx                 # Category page client logic
+│       ├── CategoryHero.tsx                   # Category hero
+│       ├── FilterBar.tsx                      # Filter/sort controls
+│       ├── FeaturedCarousel.tsx               # Featured designs carousel
+│       ├── ImageModal.tsx                     # Lightbox for full image view
+│       ├── LoadingSkeleton.tsx                # Loading placeholders
+│       ├── RelatedContent.tsx                 # Related designs
+│       ├── ShopCTA.tsx                        # Shop product suggestions
+│       ├── StatsBar.tsx                       # Gallery stats (optional)
+│       ├── FAQSection.tsx                     # FAQs about designs
+│       ├── FAQAccordion.tsx                   # FAQ accordion UI
+│       ├── AboutInspo.tsx                     # About inspiration section
+│       ├── AboutSection.tsx                   # General about
+│       └── DesignTips.tsx                     # Tips/how-to content
+│
+├── UTILITIES
+│   ├── src/lib/inspo.ts                       # Gallery data functions
+│   ├── src/lib/inspoFilters.ts                # Filter/sort logic
+│   ├── src/lib/inspoSchemas.ts                # Structured data
+│   └── src/types/inspo.ts                     # TypeScript types
+│
+└── CONTENT
+    ├── src/content/inspo-categories.json      # Category definitions
+    └── src/content/inspo-images/              # Image data JSONs
+        ├── almond-nails-2026.json
+        ├── burgundy-wine-winter-nails.json
+        ├── chocolate-brown-winter-nails.json
+        ├── chrome-metallic-winter-nails.json
+        ├── coffin-ballerina-nails-2026.json
+        ├── french-tip-nails-2026.json
+        ├── minimalist-winter-nails.json
+        ├── ombre-gradient-nails-2026.json
+        ├── valentine-nails-2026.json
+        └── velvet-cat-eye-winter-nails.json
+```
+
+---
+
+## Design Requirements
+
+### Main Gallery Page (`inspo/page.tsx`)
+
+**Layout Structure:**
+```
+┌─────────────────────────────────────────────┐
+│  Hero Section                               │
+│  "Nail Art Inspiration Gallery"            │
+│  "Discover thousands of designs"           │
+├─────────────────────────────────────────────┤
+│  Category Grid (overview of all categories)│
+│  ┌────┐ ┌────┐ ┌────┐ ┌────┐ ┌────┐       │
+│  │Cat1│ │Cat2│ │Cat3│ │Cat4│ │Cat5│       │
+│  └────┘ └────┘ └────┘ └────┘ └────┘       │
+│  ┌────┐ ┌────┐ ┌────┐ ┌────┐ ┌────┐       │
+│  │Cat6│ │Cat7│ │Cat8│ │Cat9│ │Cat10│      │
+│  └────┘ └────┘ └────┘ └────┘ └────┘       │
+├─────────────────────────────────────────────┤
+│  Featured Designs Carousel                 │
+│  "Editor's Picks"                          │
+├─────────────────────────────────────────────┤
+│  About Inspiration Section (optional)      │
+└─────────────────────────────────────────────┘
+```
+
+**Hero Section:**
+- H1: "Nail Art Inspiration" (42-48px, Jeremiah)
+- Subtitle: "Explore thousands of designs" (18-20px)
+- Background: Can be solid color or subtle nail art pattern
+- Height: 40vh desktop, 30vh mobile
+- Use `container-full`
+
+**Category Grid:**
+- 5 columns desktop, 3 tablet, 2 mobile
+- Each card: Representative image + category name
+- Hover: Slight zoom on image, lift card
+- Click: Go to category page
+- Gap: 24-32px
+- Use `container-wide`
+
+---
+
+### Category Page (`inspo/[design]/page.tsx`)
+
+**Layout (Pinterest-style with filters):**
+```
+┌─────────────────────────────────────────────┐
+│  Category Hero                              │
+│  "Almond Nails 2026"                       │
+│  "142 designs" | Share button              │
+├─────────────────────────────────────────────┤
+│  Filter Bar                                 │
+│  [All] [Short] [Long] [Simple] [Detailed] │
+│  Sort: Latest | Popular                    │
+├─────────────────────────────────────────────┤
+│  Masonry Gallery                            │
+│  ┌──┐ ┌────┐ ┌──┐ ┌──┐ ┌────┐            │
+│  │  │ │    │ │  │ │  │ │    │            │
+│  │  │ │    │ ├──┤ │  │ │    │            │
+│  ├──┤ ├────┤ │  │ ├──┤ ├────┤            │
+│  │  │ │    │ │  │ │  │ │    │            │
+│  └──┘ └────┘ └──┘ └──┘ └────┘            │
+│                                             │
+│  [Load More] or Infinite Scroll            │
+├─────────────────────────────────────────────┤
+│  Related Categories (3-4 cards)            │
+├─────────────────────────────────────────────┤
+│  Shop Products for this Look               │
+├─────────────────────────────────────────────┤
+│  FAQ Section                                │
+└─────────────────────────────────────────────┘
+```
+
+---
+
+## Masonry Gallery (`MasonryGallery.tsx`)
+
+**Pinterest-Style Layout:**
+
+**Key Characteristics:**
+- **Columns:** 5 desktop, 3-4 tablet, 2 mobile
+- **Variable heights:** Images maintain aspect ratio
+- **Tight gaps:** 16-20px between images
+- **Lazy loading:** Load images as user scrolls (critical for performance)
+- **Hover overlay:** Design name + save button
+
+**Implementation Notes:**
+```typescript
+// Use CSS columns or library like react-masonry-css
+<div className="masonry-grid">
+  {images.map(image => (
+    <div className="masonry-item">
+      <img loading="lazy" ... />
+      <div className="overlay">
+        <p>{image.title}</p>
+        <button>Save</button>
+      </div>
+    </div>
+  ))}
+</div>
+
+// CSS
+.masonry-grid {
+  column-count: 5;
+  column-gap: 16px;
+}
+
+@media (max-width: 1024px) {
+  .masonry-grid { column-count: 3; }
+}
+
+@media (max-width: 768px) {
+  .masonry-grid { column-count: 2; }
+}
+```
+
+**Lazy Loading Strategy (Pinterest-style):**
+1. Load first 20-30 images visible in viewport
+2. As user scrolls down, detect when they're 2-3 rows from bottom
+3. Load next batch of 20-30 images
+4. Continue infinitely or add "Load More" button
+5. Show loading skeleton while images load
+
+**Image Hover Overlay:**
+```
+┌─────────────┐
+│             │
+│    Image    │
+│             │
+│ ┌─────────┐ │ ← On hover
+│ │ Title   │ │
+│ │ [Save]  │ │
+│ └─────────┘ │
+└─────────────┘
+```
+
+- Semi-transparent dark overlay (rgba(0,0,0,0.6))
+- Design name in white text
+- "Save" button (optional Pinterest-style save)
+- Smooth fade-in (0.3s)
+
+---
+
+## Filter Bar (`FilterBar.tsx`)
+
+**Design:**
+```
+┌──────────────────────────────────────────┐
+│ [All] [Short] [Long] [Simple] [Detailed]│
+│                                          │
+│ Sort by: [Latest ▼] | 142 designs       │
+└──────────────────────────────────────────┘
+```
+
+**Details:**
+- Sticky on desktop (stays at top while scrolling)
+- Filter tags: Pills with border, active state filled
+- Sort dropdown: Latest, Popular, Most Saved
+- Design count display
+- Mobile: Stack vertically, collapsible filters
+
+**Filter Behavior:**
+- Click filter: Update gallery without page reload
+- Multiple filters: AND logic (show designs matching all)
+- URL updates: /inspo/almond-nails?filter=short&sort=popular
+
+---
+
+## Image Modal (`ImageModal.tsx`)
+
+**Lightbox View:**
+```
+┌─────────────────────────────────────────┐
+│ [X]                                     │
+│                                         │
+│     ┌─────────────────────┐            │
+│     │                     │            │
+│     │   Full Size Image   │            │
+│     │                     │            │
+│     └─────────────────────┘            │
+│                                         │
+│  Design Name                           │
+│  Category | Difficulty | 23 Saves      │
+│  [Save] [Share] [Shop Similar]         │
+│                                         │
+│  ← Previous | Next →                   │
+└─────────────────────────────────────────┘
+```
+
+**Details:**
+- Click image in gallery → Open modal
+- Full-size image display (optimized, not raw)
+- Design details below image
+- Navigation: Previous/Next arrows (keyboard support too)
+- Close: X button or click outside or ESC key
+- Background: Dark overlay rgba(0,0,0,0.9)
+- Mobile: Full screen, swipe to navigate
+
+---
+
+## Loading Skeleton (`LoadingSkeleton.tsx`)
+
+**Placeholder Design:**
+```
+┌──┐ ┌────┐ ┌──┐ ┌──┐ ┌────┐
+│░░│ │░░░░│ │░░│ │░░│ │░░░░│  ← Shimmer animation
+│░░│ │░░░░│ ├──┤ │░░│ │░░░░│
+├──┤ ├────┤ │░░│ ├──┤ ├────┤
+│░░│ │░░░░│ │░░│ │░░│ │░░░░│
+└──┘ └────┘ └──┘ └──┘ └────┘
+```
+
+**Details:**
+- Gray boxes with shimmer animation
+- Same masonry layout as real images
+- Show while images loading
+- Smooth transition when images load
+
+---
+
+## Category Overview Grid (`CategoryGrid.tsx`)
+
+**Used on main inspo page:**
+
+**Card Design:**
+```
+┌─────────────────┐
+│                 │
+│  Category Image │
+│  (overlay)      │
+│                 │
+│  ┌───────────┐  │
+│  │ Category  │  │
+│  │   Name    │  │
+│  │ 142 pins  │  │
+│  └───────────┘  │
+└─────────────────┘
+```
+
+**Details:**
+- Representative image from category
+- Category name in overlay (white text)
+- Design count
+- Hover: Brighten image, lift card
+- 5 columns desktop, 3 tablet, 2 mobile
+- Gap: 24px
+
+---
+
+## Featured Carousel (`FeaturedCarousel.tsx`)
+
+**Editor's Picks section:**
+- 4-5 featured designs
+- Horizontal carousel
+- Larger cards than gallery
+- Navigation arrows
+- Pagination dots
+- Links to design modal or category
+
+---
+
+## Related Content (`RelatedContent.tsx`)
+
+**At bottom of category pages:**
+- "You May Also Like" heading
+- 3-4 related category cards
+- Horizontal layout desktop, vertical mobile
+- Small cards with image + name
+
+---
+
+## Shop CTA (`ShopCTA.tsx`)
+
+**Product Recommendations:**
+```
+┌─────────────────────────────────────────┐
+│  Get This Look                          │
+│                                         │
+│  ┌────┐ ┌────┐ ┌────┐ ┌────┐          │
+│  │Prod│ │Prod│ │Prod│ │Prod│          │
+│  └────┘ └────┘ └────┘ └────┘          │
+│                                         │
+│  [Shop All Products →]                 │
+└─────────────────────────────────────────┘
+```
+
+**Details:**
+- Show 4 relevant products
+- Based on category (e.g., almond nails → nail files, polish)
+- Product cards same as shop section
+- CTA links to shop
+
+---
+
+## Mobile Optimizations
+
+### Gallery View
+- 2 columns (tight masonry)
+- Reduce gaps to 12px
+- Larger images (better visibility)
+- Touch-friendly overlay buttons
+
+### Filters
+- Horizontal scroll for filter tags
+- Sticky filter bar at top
+- Collapsible filter drawer (optional)
+
+### Modal
+- Full screen on mobile
+- Swipe to navigate between images
+- Larger touch targets for buttons
+
+---
+
+## Image Loading Performance
+
+**Critical for heavy image pages:**
+
+### Lazy Loading Implementation
+```typescript
+// Only load images in viewport + next 2-3 rows
+const [visibleImages, setVisibleImages] = useState([]);
+
+useEffect(() => {
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          loadImage(entry.target);
+        }
+      });
+    },
+    { rootMargin: '400px' } // Load 400px before visible
+  );
+  
+  // Observe image containers
+}, []);
+```
+
+### Image Optimization
+- Serve different sizes: thumbnail (400px), medium (800px), full (1200px)
+- WebP format with JPEG fallback
+- Compress heavily (quality 75-80%)
+- Use Next.js Image component with sizes prop
+
+### Progressive Loading
+- Load low-quality placeholder first (blur)
+- Fade in full image when loaded
+- Smooth transition (0.3s)
+
+---
+
+## Typography in Gallery
+
+### Page Headings
+- Category name: 36-42px, Jeremiah
+- Design count: 16px, light gray
+
+### Filter Bar
+- Filter labels: 14px, uppercase, tracking-wide
+- Active filter: bold
+
+### Image Overlay
+- Design name: 16-18px, white, semi-bold
+- Metadata: 14px, white, regular
+
+### Modal
+- Design name: 24-28px, Jeremiah
+- Details: 16px, Crimson Text
+
+---
+
+## Accessibility
+
+- Alt text for all images (descriptive)
+- Keyboard navigation in modal (arrows, ESC)
+- Focus states on filters and buttons
+- ARIA labels for buttons
+- Screen reader friendly
+
+---
+
+## Key Features to Maintain
+
+1. **Dynamic image loading** - Pull from JSON files
+2. **Filtering logic** - Keep filter/sort algorithms
+3. **Category structure** - All categories and relationships
+4. **Image URLs** - Preserve image paths (likely external URLs)
+5. **SEO** - Meta tags, structured data (ImageGallery schema)
+
+---
+
+## Testing Checklist
+
+- [ ] Masonry layout renders properly
+- [ ] Lazy loading works (images load on scroll)
+- [ ] Filters update gallery correctly
+- [ ] Modal opens/closes smoothly
+- [ ] Navigation arrows work in modal
+- [ ] Category grid displays all categories
+- [ ] Related content shows
+- [ ] Shop CTA displays products
+- [ ] Mobile: 2 column masonry works
+- [ ] Performance good with 100+ images
+- [ ] No colors beyond #252220/#f9fafb
+
+---
+
+## Files to Update in Order
+
+1. `MasonryGallery.tsx` - Core gallery component
+2. `ImageModal.tsx` - Lightbox view
+3. `FilterBar.tsx` - Filtering UI
+4. `InspoHero.tsx` - Hero sections
+5. `inspo/[design]/page.tsx` - Category page
+6. `CategoryGrid.tsx` - Category overview
+7. `inspo/page.tsx` - Main gallery page
+8. `LoadingSkeleton.tsx` - Loading states
+9. `RelatedContent.tsx` - Related categories
+10. `ShopCTA.tsx` - Product recommendations
+
+---
+
+**Remember:** This is the most image-heavy section. Performance is critical. Lazy loading is NOT optional - it's required. Pinterest's approach is the gold standard to follow.
