@@ -1,0 +1,276 @@
+// src/app/shop/[category]/[productId]/page.tsx - CORRECTED VERSION
+
+import { Metadata } from 'next';
+import { notFound } from 'next/navigation';
+import ProductPageContent from '@/components/Shop/ProductPageContent';
+import {
+  generateProductSchema,
+  generateProductBreadcrumbSchema,
+  generateProductFAQSchema,
+  getCategoryDisplayName,
+} from '@/lib/shopProducts';
+import { getAllCategorySlugs } from '@/lib/shop';
+import { ProductPageData } from '@/types/shop';
+
+// Helper function to get product by slug from JSON
+async function getProductBySlug(
+  category: string,
+  slug: string
+): Promise<ProductPageData | null> {
+  try {
+    const productsData = await import(
+      `@/content/shop-products/${category}.json`
+    );
+    
+    // Loop through all products to find matching slug
+    const productIds = Object.keys(productsData.products);
+    
+    for (const id of productIds) {
+      const product = productsData.products[id];
+      if (product.slug === slug) {
+        return product as ProductPageData;
+      }
+    }
+    
+    return null;
+  } catch (error) {
+    console.error(`Error loading product ${slug} from ${category}:`, error);
+    return null;
+  }
+}
+
+// Helper function to get all product slugs for a category
+async function getCategoryProductSlugs(category: string): Promise<string[]> {
+  try {
+    const productsData = await import(
+      `@/content/shop-products/${category}.json`
+    );
+    
+    const slugs: string[] = [];
+    const productIds = Object.keys(productsData.products);
+    
+    for (const id of productIds) {
+      const product = productsData.products[id];
+      if (product.slug) {
+        slugs.push(product.slug);
+      }
+    }
+    
+    return slugs;
+  } catch (error) {
+    console.error(`Error loading product slugs for ${category}:`, error);
+    return [];
+  }
+}
+
+// Helper function to get related products by IDs
+async function getRelatedProductsByIds(
+  category: string,
+  productIds: string[]
+): Promise<ProductPageData[]> {
+  try {
+    const productsData = await import(
+      `@/content/shop-products/${category}.json`
+    );
+    
+    const relatedProducts: ProductPageData[] = [];
+    
+    for (const id of productIds) {
+      const product = productsData.products[id];
+      if (product) {
+        relatedProducts.push(product as ProductPageData);
+      }
+    }
+    
+    return relatedProducts;
+  } catch (error) {
+    console.error(`Error loading related products for ${category}:`, error);
+    return [];
+  }
+}
+
+// Generate static params for all products
+export async function generateStaticParams() {
+  const categorySlugs = getAllCategorySlugs();
+  const params: Array<{ category: string; productId: string }> = [];
+
+  for (const category of categorySlugs) {
+    const productSlugs = await getCategoryProductSlugs(category);
+    
+    for (const slug of productSlugs) {
+      params.push({
+        category,
+        productId: slug, // This is actually the slug
+      });
+    }
+  }
+
+  return params;
+}
+
+// Generate metadata for each product page
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ category: string; productId: string }>;
+}): Promise<Metadata> {
+  const { category, productId } = await params;
+  
+  // productId in the URL is actually the slug
+  const product = await getProductBySlug(category, productId);
+
+  if (!product) {
+    return { title: 'Product Not Found' };
+  }
+
+  const seo = product.seo;
+  const productUrl = `https://mirelleinspo.com/shop/${category}/${productId}`;
+  const ogImageUrl = seo.ogImage || `https://mirelleinspo.com${product.image}`;
+
+  return {
+    title: seo.title,
+    description: seo.description,
+    keywords: seo.keywords,
+    openGraph: {
+      title: seo.title,
+      description: seo.description,
+      type: 'website',
+      url: productUrl,
+      siteName: 'Mirellé',
+      locale: 'en_US',
+      images: [
+        {
+          url: ogImageUrl,
+          alt: product.imageAlt || product.name,
+          width: 1200,
+          height: 630,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: seo.title,
+      description: seo.description,
+      images: [ogImageUrl],
+    },
+    alternates: {
+      canonical: productUrl,
+    },
+    robots: {
+      index: true,
+      follow: true,
+      nocache: false,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
+    },
+    other: {
+      // Pinterest Product Pin optimization
+      'pin:description': seo.description,
+      'pin:media': ogImageUrl,
+      'pinterest-rich-pin': 'true',
+      
+      // Product-specific meta
+      'product:price:amount': product.price.replace('$', ''),
+      'product:price:currency': 'USD',
+      'product:availability': product.stockStatus === 'in-stock' ? 'in stock' : 'limited',
+      'product:condition': 'new',
+      'product:retailer': 'Amazon',
+      'product:brand': product.brand || 'Premium',
+      
+      // Enhanced image data
+      'og:image:width': '1200',
+      'og:image:height': '630',
+      'og:image:alt': product.imageAlt || product.name,
+      'og:image:type': 'image/jpeg',
+      
+      // Shopping labels
+      'twitter:label1': 'Price',
+      'twitter:data1': product.price,
+      'twitter:label2': 'Availability',
+      'twitter:data2': product.stockStatus === 'in-stock' ? 'In Stock' : 'Limited',
+    },
+  };
+}
+
+// Main product page component
+export default async function ProductPage({
+  params,
+}: {
+  params: Promise<{ category: string; productId: string }>;
+}) {
+  const { category, productId } = await params;
+
+  // productId in the URL is actually the slug
+  const product = await getProductBySlug(category, productId);
+
+  if (!product) {
+    notFound();
+  }
+
+  const categoryName = getCategoryDisplayName(category);
+
+  // Fetch related products
+  const relatedProducts = product.relatedProducts 
+    ? await getRelatedProductsByIds(category, product.relatedProducts.slice(0, 5))
+    : [];
+
+  // Generate schemas
+  const productSchema = generateProductSchema(product, category);
+  const breadcrumbSchema = generateProductBreadcrumbSchema(
+    product,
+    category,
+    categoryName
+  );
+  const faqSchema = product.faqs
+    ? generateProductFAQSchema(product.faqs)
+    : null;
+
+  // Breadcrumb items for component
+  const breadcrumbItems = [
+    { label: 'Shop', href: '/shop' },
+    { label: categoryName, href: `/shop/${category}` },
+  ];
+
+  return (
+    <>
+      {/* Product Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(productSchema),
+        }}
+      />
+
+      {/* Breadcrumb Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(breadcrumbSchema),
+        }}
+      />
+
+      {/* FAQ Schema (if applicable) */}
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(faqSchema),
+          }}
+        />
+      )}
+
+      {/* Main product content */}
+      <ProductPageContent
+        product={product}
+        category={category}
+        categoryName={categoryName}
+        breadcrumbItems={breadcrumbItems}
+        relatedProducts={relatedProducts}
+      />
+    </>
+  );
+}
