@@ -1,0 +1,344 @@
+# BLOG TEMPLATE SYSTEM IMPLEMENTATION
+
+## PROJECT CONTEXT
+Premium minimal elegant editorial website "Mirellé Inspo" (nail art/beauty content). Mobile-first responsive design. Strict adherence to provided Tailwind config and global CSS - use ONLY existing fonts and colors, NO new ones. NO reference to old BlogPost.tsx design - completely new minimal editorial aesthetic.
+
+## FONTS (from provided config)
+- **Larken**: Article titles and component headings ONLY
+- **General Sans**: Everything else (body, buttons, navigation, product text, meta info, "READ MORE" heading)
+
+## GOAL
+Implement 4 distinct blog post templates with reusable components. Zero breaking changes - backward compatible. Completely new minimal editorial design, no old component styling.
+
+## CURRENT SYSTEM
+- Route: `src/app/blog/[slug]/page.tsx`
+- Data: `src/lib/blog.ts` (fetches MD files, parses frontmatter)
+- Types: `src/types/blog.ts`
+- Content: `src/content/blogs/*.md`
+- Existing component: `src/components/Blog/BlogPost.tsx`
+
+## IMPLEMENTATION REQUIREMENTS
+
+### COMPONENTS TO CREATE (6 new)
+
+**1. ImageCarousel** (`src/components/Blog/ImageCarousel.tsx`)
+- No heading
+- Smooth horizontal swipe/scroll
+- Snap scrolling, touch-friendly
+- Dots or arrows navigation
+- Props: `images: {url: string, alt: string}[]`
+
+**2. ProductGrid** (`src/components/Blog/ProductGrid.tsx`)
+- No heading
+- Three layouts: single (1 product), dual (2 in row), quad (2x2 grid)
+- Product card: image, title, price, brand name, bookmark icon (top right)
+- Premium minimal card design (reference: LARQ water bottle card style)
+- Props: `products: {image, title, price, brand, url}[]`, `layout: "single" | "dual" | "quad"`
+- Font: General Sans for all text
+
+**3. InlineNewsletter** (`src/components/Blog/InlineNewsletter.tsx`)
+- Heading: "Mirellé Inspo" (Larken font, 32px desktop/24px mobile)
+- Tagline: "The biggest beauty stories, trends, and product recommendations." (General Sans, 16px, below heading)
+- Email input (full width mobile, max-width 400px desktop) + "SIGN UP" button (black background, white text, uppercase)
+- Legal text below: "By signing up, you agree to our user agreement and acknowledge our privacy policy" (General Sans, 12px, links underlined)
+- Google Sheets integration for email collection
+- Centered design, padding 60px desktop/40px mobile
+- Background: Light gray or white (use config color)
+- Can appear 1-2 times in content
+
+**4. FinalNewsletter** (`src/components/Blog/FinalNewsletter.tsx`)
+- Heading: "Vogue Beauty" → change to "Mirellé Inspo" (Larken font, 36px desktop/28px mobile)
+- Tagline: Same as inline version
+- Email input + "SIGN UP" button (larger, more prominent than inline)
+- Legal text
+- Google Sheets integration
+- Centered, full-width section with background color (use config)
+- Padding: 80px desktop/60px mobile vertical
+
+**5. AboutEEAT** (`src/components/Blog/AboutEEAT.tsx`)
+- Heading: "About Mirellé Inspo" (Larken font, 32px desktop/26px mobile)
+- Body text: 2-3 paragraphs about editorial team expertise/credentials (General Sans, 16px)
+- Centered, max-width 720px
+- Padding: 60px desktop/40px mobile vertical
+- Background: White or subtle color from config
+
+**6. ReadMoreSection** (`src/components/Blog/ReadMoreSection.tsx`)
+- Heading: "READ MORE" with horizontal lines on both sides (General Sans, 24px, uppercase, centered)
+  - Lines: 1px solid, brand color, flex-grow on both sides with gap
+- 3-column grid (1 column on mobile, stacked)
+- Each article card:
+  - Image (aspect ratio 16:9, object-fit cover)
+  - Category tag (uppercase, small, General Sans 12px)
+  - Title (Larken, 20px desktop/18px mobile, 2 lines max with ellipsis)
+  - Author name (General Sans, 14px, "BY AUTHOR")
+  - Hover: Subtle scale transform
+- Fetches 3 related posts automatically via `getRelatedPosts(currentSlug)` from lib/blog.ts
+- Props: `currentSlug: string`
+- Grid gap: 32px desktop/24px mobile
+- Padding: 80px desktop/60px mobile vertical
+
+### TEMPLATES TO CREATE (4 new)
+
+All templates located in: `src/app/blog/[slug]/templates/`
+
+**Common template structure (all 4 templates):**
+
+```tsx
+<Template>
+  {/* Meta Section */}
+  <div className="text-center">
+    <p>{category}</p>
+    <h1>{title}</h1>
+    <p>BY {author}</p>
+    <p>{date}</p>
+  </div>
+
+  {/* Hero Image (varies by template) */}
+  
+  {/* Breadcrumbs component */}
+  <Breadcrumbs />
+  
+  {/* Article content with manual component placement */}
+  <article className="max-w-[720px] mx-auto">
+    {/* First content paragraphs */}
+    <div dangerouslySetInnerHTML={{ __html: firstSection }} />
+    
+    {/* Manual component insertions */}
+    <ImageCarousel images={post.carouselImages} />
+    
+    {/* More content */}
+    <div dangerouslySetInnerHTML={{ __html: middleSection }} />
+    
+    <ProductGrid products={post.products} layout="dual" />
+    
+    {/* More content */}
+    <div dangerouslySetInnerHTML={{ __html: moreContent }} />
+    
+    <InlineNewsletter />
+    
+    {/* Remaining content */}
+    <div dangerouslySetInnerHTML={{ __html: remainingContent }} />
+  </article>
+  
+  {/* End sections (same order for all templates) */}
+  <AboutEEAT />
+  <FinalNewsletter />
+  <ReadMoreSection currentSlug={post.slug} />
+</Template>
+```
+
+**Content prose styling (apply to all content sections):**
+```
+- Paragraphs: 18px/16px mobile, line-height 1.7, color from config, margin-bottom 24px/20px mobile
+- Links: Brand color, no underline, hover darker
+- Strong: Font-weight 600
+- Lists: Margin 20px, list items 16px
+- H2 in content: Larken 36px/26px mobile, margin-top 48px/32px mobile
+- H3 in content: Larken 28px/22px mobile, margin-top 36px/24px mobile
+- Images in content: Rounded corners, shadow, margin 48px/32px mobile vertical
+- Use brand colors ONLY from Tailwind config
+```
+
+**1. CenterTemplate.tsx**
+- Meta section at top (category, title, author, date) - centered
+- Hero: Full-width centered image, natural aspect ratio (no crop/fill), max-width 1200px, rounded corners, shadow
+- Breadcrumbs below hero
+- Content: Centered column, max-width 720px
+- Manual component placement:
+  - ImageCarousel after ~20% of content
+  - ProductGrid (dual) after ~40% of content
+  - InlineNewsletter after ~60% of content
+- End sections: AboutEEAT → FinalNewsletter → ReadMoreSection
+
+**2. SplitLeftTemplate.tsx**
+- Meta section at top (category, title, author, date) - centered
+- Desktop hero section: 50/50 split, equal height
+  - Left 50%: Hero image container
+    - Image: object-fit contain (shows full image, no crop)
+    - Vertically and horizontally centered in container
+    - Background: subtle color from config if image doesn't fill
+  - Right 50%: Empty space or subtle background
+- Mobile hero: Image centered with 24px padding, NOT full-width, natural aspect ratio
+- Breadcrumbs below hero
+- Content: Centered column, max-width 720px
+- Same manual component placement as CenterTemplate
+- End sections same order
+
+**3. SplitRightTemplate.tsx**
+- Meta section at top (category, title, author, date) - centered
+- Desktop hero section: 50/50 split, equal height
+  - Left 50%: Empty space or subtle background
+  - Right 50%: Hero image container
+    - Image: object-fit contain (shows full image, no crop)
+    - Vertically and horizontally centered in container
+    - Background: subtle color from config if image doesn't fill
+- Mobile hero: Image centered with 24px padding, NOT full-width, natural aspect ratio
+- Breadcrumbs below hero
+- Content: Centered column, max-width 720px
+- Same manual component placement
+- End sections same order
+
+**4. GridTemplate.tsx**
+- Meta section at top (category, title, author, date) - centered, ABOVE hero grid
+- Desktop hero: 4 images in 2x2 grid
+  - Fixed aspect ratio: 4:5 (portrait editorial style)
+  - object-fit: cover (crops to fill grid cells)
+  - Grid gap: 16px
+  - Max-width: 1200px, centered
+  - Rounded corners on each image
+- Mobile hero: 
+  - Meta at top
+  - Only middle 2 images (images[1] and images[2]) shown
+  - Stacked vertically with 16px gap
+  - Same 4:5 aspect ratio
+  - Centered with 24px side padding
+- Breadcrumbs below hero grid
+- Content: Centered column, max-width 720px
+- Props: `heroImages: string[]` (requires exactly 4 images in frontmatter)
+- Same manual component placement
+- End sections same order
+
+### MOBILE SPECIFICATIONS
+- Editorial padding: `24px` or `32px` sides
+- Images in split templates: Centered with padding, not full-width
+- All text: Properly sized for mobile (check config)
+- Grid template: Show only middle 2 of 4 images on mobile
+
+### FILES TO MODIFY
+
+**1. src/app/blog/[slug]/page.tsx**
+```typescript
+// Add template switching logic
+import CenterTemplate from './templates/CenterTemplate'
+import SplitLeftTemplate from './templates/SplitLeftTemplate'
+import SplitRightTemplate from './templates/SplitRightTemplate'
+import GridTemplate from './templates/GridTemplate'
+
+const templates = {
+  'center': CenterTemplate,
+  'split-left': SplitLeftTemplate,
+  'split-right': SplitRightTemplate,
+  'grid': GridTemplate
+}
+
+const Template = templates[post.template] || BlogPost // Fallback to existing
+return <Template post={post} />
+```
+
+**2. src/types/blog.ts**
+```typescript
+// Add to BlogPost and BlogMetadata interfaces
+template?: 'center' | 'split-left' | 'split-right' | 'grid';
+heroImages?: string[]; // For grid template
+carouselImages?: {url: string, alt: string}[];
+products?: {image: string, title: string, price: string, brand: string, url: string}[];
+```
+
+### FRONTMATTER EXAMPLE
+```yaml
+---
+template: "grid"
+heroImages:
+  - "/images/blog/nail-1.jpg"
+  - "/images/blog/nail-2.jpg"
+  - "/images/blog/nail-3.jpg"
+  - "/images/blog/nail-4.jpg"
+carouselImages:
+  - url: "/images/blog/carousel-1.jpg"
+    alt: "Description"
+products:
+  - image: "/images/product.jpg"
+    title: "Product Name"
+    price: "$95"
+    brand: "BRAND"
+    url: "https://..."
+---
+```
+
+### EXACT TYPOGRAPHY VALUES
+
+**Desktop:**
+- Article Title (H1): `56px`, line-height `1.1`, weight `400`, Larken
+- Section Headings (H2): `36px`, line-height `1.3`, weight `400`, Larken
+- Body Text: `18px`, line-height `1.7`, weight `400`, General Sans
+- Meta (category/author/date): `14px`, letter-spacing `0.05em`, weight `400`, General Sans, uppercase for category
+- Button Text: `14px`, weight `500`, General Sans, uppercase
+
+**Mobile:**
+- Article Title (H1): `36px`, line-height `1.1`, weight `400`, Larken
+- Section Headings (H2): `26px`, line-height `1.3`, weight `400`, Larken
+- Body Text: `16px`, line-height `1.7`, weight `400`, General Sans
+- Meta: `14px`, same as desktop
+- Button Text: `14px`, same as desktop
+
+### EXACT SPACING VALUES
+
+**Desktop:**
+- Container max-width: `1200px`
+- Side padding: `80px`
+- Section vertical spacing: `120px`
+- Content column max-width: `720px`
+- Component spacing within content: `60px`
+- Paragraph spacing: `24px`
+
+**Mobile:**
+- Side padding: `24px`
+- Section vertical spacing: `60px`
+- Component spacing: `40px`
+- Paragraph spacing: `20px`
+
+### META SECTION STYLING (Vogue-style)
+Must appear at top of every template in this exact order:
+
+```
+CATEGORY (centered, uppercase, General Sans 14px, letter-spacing 0.05em)
+[spacing: 16px]
+Article Title (centered, Larken 56px desktop/36px mobile)
+[spacing: 24px]
+BY AUTHOR NAME (centered, General Sans 14px, uppercase)
+Date (centered, General Sans 14px, normal case, below author)
+[spacing: 48px desktop / 32px mobile]
+Hero Image
+```
+
+**Category handling:**
+- Display single category from frontmatter only
+- Tags exist in frontmatter but are NOT displayed
+- Format: Uppercase text only, no background pills
+- Use brand color from Tailwind config
+
+### CRITICAL REQUIREMENTS
+- Use ONLY colors/fonts from provided Tailwind config and globals.css
+- NO new colors, NO new fonts, NO reference to old BlogPost.tsx styling
+- Completely new minimal editorial design aesthetic
+- Backward compatible: posts without `template` field use existing `BlogPost` component
+- NO changes to `src/lib/blog.ts`
+- Components are reusable across all templates and site
+- Mobile-first responsive design
+- Natural image aspect ratios (except GridTemplate with fixed 4:5 ratio)
+- Google Sheets email integration for newsletters
+- NO TLDR section in any template
+- NO social share buttons
+- NO comment section
+- Display only category (no tags visible)
+- Tags stay in frontmatter but are ignored by templates
+- Meta section format exactly like Vogue reference image
+- Content should split into sections for manual component placement
+
+### BEHAVIOR
+- No explanations, no paragraphs
+- Implementation only
+- Ask for files when needed
+- Code output only
+
+## FILES AGENT WILL REQUEST
+1. `tailwind.config.js` or `tailwind.config.ts` - For colors, fonts, spacing
+2. `globals.css` - For custom styles and font definitions
+3. `src/components/Breadcrumbs.tsx` - Reuse in templates
+
+## DELIVERABLES
+1. 6 new component files
+2. 4 new template files
+3. Modified `page.tsx`
+4. Modified `types/blog.ts`
+5. All code using existing Tailwind classes and fonts only
