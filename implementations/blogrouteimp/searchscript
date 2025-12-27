@@ -1,0 +1,509 @@
+import json
+import webbrowser
+import time
+import urllib.parse
+import os
+from pathlib import Path
+from PIL import Image
+import threading
+from queue import Queue
+
+# Base paths
+BASE_JSON_PATH = r"C:\Users\gaurav verma\Mirelle baby\mirelle-site\src\content\inspo-images"
+BASE_OUTPUT_PATH = r"C:\Users\gaurav verma\Mirelle baby\mirelle-site\public\inspo"
+DOWNLOAD_FOLDER = r"C:\Users\gaurav verma\Downloads\download"
+
+# Available JSON files
+JSON_FILES = {
+    "1": {
+        "name": "Almond Nails 2026",
+        "file": "almond-nails-2026.json",
+        "folder": "almond-nails-2026"
+    },
+    "2": {
+        "name": "Coffin Ballerina Nails 2026",
+        "file": "coffin-ballerina-nails-2026.json",
+        "folder": "coffin-ballerina-nails-2026"
+    },
+    "3": {
+        "name": "Valentine Nails 2026",
+        "file": "valentine-nails-2026.json",
+        "folder": "valentine-nails-2026"
+    },
+    "4": {
+        "name": "Ombre Gradient Nails 2026",
+        "file": "ombre-gradient-nails-2026.json",
+        "folder": "ombre-gradient-nails-2026"
+    },
+    "5": {
+        "name": "French Tip Nails 2026",
+        "file": "french-tip-nails-2026.json",
+        "folder": "french-tip-nails-2026"
+    }
+}
+
+# Settings
+WAIT_TIME_BETWEEN_SEARCHES = 5  # seconds between Pinterest searches
+MAX_FILE_SIZE_KB = 100  # Maximum file size in KB
+WEBP_QUALITY_START = 85  # Starting quality for WebP
+UPSCALE_FACTOR = 4  # Maximum upscale factor before cropping
+BATCH_SIZE = 25  # Process 25 images at a time
+
+# Global variables
+filename_queue = Queue()
+processing_active = True
+output_format = "webp"  # Default format
+use_json_dimensions = True  # Will be set by user input
+selected_output_folder = ""  # Will be set based on JSON selection
+
+def extract_filename_from_url(url):
+    """Extract filename from URL path"""
+    # Example: "/inspo/almond-nails-2026/milky-white-almond-gel-nails.webp"
+    # Returns: "milky-white-almond-gel-nails.webp"
+    filename = url.split('/')[-1]
+    return filename
+
+def extract_search_query(filename):
+    """Convert filename to search query by removing extension and replacing hyphens with spaces"""
+    # Remove extension
+    query = filename.replace('.webp', '').replace('.jpg', '').replace('.png', '').replace('.jpeg', '')
+    # Replace hyphens with spaces
+    query = query.replace('-', ' ')
+    return query
+
+def parse_dimensions_from_object(dim_obj):
+    """Parse dimension object like {'width': 1080, 'height': 1920}"""
+    try:
+        width = dim_obj.get('width')
+        height = dim_obj.get('height')
+        if width and height:
+            return (int(width), int(height))
+        return None
+    except:
+        return None
+
+def smart_crop(img, target_width, target_height):
+    """
+    Intelligently crop image to exact dimensions using center crop.
+    Maintains aspect ratio and crops from center to preserve main subject.
+    """
+    original_width, original_height = img.size
+    target_aspect = target_width / target_height
+    original_aspect = original_width / original_height
+    
+    # Calculate which dimension to match
+    if original_aspect > target_aspect:
+        # Image is wider than target - fit height and crop width
+        new_height = original_height
+        new_width = int(original_height * target_aspect)
+    else:
+        # Image is taller than target - fit width and crop height
+        new_width = original_width
+        new_height = int(original_width / target_aspect)
+    
+    # Calculate center crop coordinates
+    left = (original_width - new_width) // 2
+    top = (original_height - new_height) // 2
+    right = left + new_width
+    bottom = top + new_height
+    
+    # Crop from center
+    cropped_img = img.crop((left, top, right, bottom))
+    
+    # Resize to exact target dimensions
+    final_img = cropped_img.resize((target_width, target_height), Image.LANCZOS)
+    
+    return final_img
+
+def upscale_and_optimize(input_path, output_path, target_dimensions, file_format, crop_to_dimensions):
+    """
+    Process image based on user's dimension preference:
+    - If crop_to_dimensions=True: upscale → crop to exact dimensions → optimize
+    - If crop_to_dimensions=False: upscale to max → optimize (no cropping)
+    """
+    try:
+        with Image.open(input_path) as img:
+            original_width, original_height = img.size
+            print(f"      Original size: {original_width}x{original_height}px")
+            
+            # Convert to RGB if needed
+            if img.mode in ('RGBA', 'LA', 'P'):
+                background = Image.new('RGB', img.size, (255, 255, 255))
+                if img.mode == 'P':
+                    img = img.convert('RGBA')
+                background.paste(img, mask=img.split()[-1] if img.mode == 'RGBA' else None)
+                img = background
+            elif img.mode != 'RGB':
+                img = img.convert('RGB')
+            
+            if crop_to_dimensions:
+                # MODE 1: Upscale → Crop to exact dimensions
+                target_width, target_height = target_dimensions
+                print(f"      Target dimensions: {target_width}x{target_height}px")
+                
+                # Upscale to maximum quality
+                upscale_width = original_width * UPSCALE_FACTOR
+                upscale_height = original_height * UPSCALE_FACTOR
+                print(f"      Upscaling to: {upscale_width}x{upscale_height}px")
+                
+                upscaled_img = img.resize((upscale_width, upscale_height), Image.LANCZOS)
+                
+                # Smart crop to exact target dimensions
+                print(f"      Cropping to: {target_width}x{target_height}px (center crop)")
+                final_img = smart_crop(upscaled_img, target_width, target_height)
+                
+                final_width, final_height = final_img.size
+                print(f"      Final size: {final_width}x{final_height}px ✓")
+            else:
+                # MODE 2: Upscale to max (no cropping)
+                upscale_width = original_width * UPSCALE_FACTOR
+                upscale_height = original_height * UPSCALE_FACTOR
+                print(f"      Upscaling to: {upscale_width}x{upscale_height}px (no cropping)")
+                
+                final_img = img.resize((upscale_width, upscale_height), Image.LANCZOS)
+                
+                final_width, final_height = final_img.size
+                print(f"      Final size: {final_width}x{final_height}px ✓")
+            
+            # Optimize to under 100KB
+            print(f"      Optimizing to under {MAX_FILE_SIZE_KB}KB as {file_format.upper()}...")
+            
+            if file_format.lower() == 'webp':
+                # WebP optimization with quality reduction
+                for quality in range(WEBP_QUALITY_START, 20, -5):
+                    final_img.save(output_path, 'WEBP', quality=quality, method=6)
+                    file_size_kb = os.path.getsize(output_path) / 1024
+                    
+                    if file_size_kb <= MAX_FILE_SIZE_KB:
+                        print(f"      ✓ Saved at quality {quality}, size: {file_size_kb:.1f}KB")
+                        return True
+                
+                # Last resort: very low quality
+                final_img.save(output_path, 'WEBP', quality=10, method=6)
+                file_size_kb = os.path.getsize(output_path) / 1024
+                print(f"      ⚠ Saved at quality 10, size: {file_size_kb:.1f}KB")
+                return True
+                
+            elif file_format.lower() == 'jpg' or file_format.lower() == 'jpeg':
+                # JPG optimization with quality reduction
+                for quality in range(95, 20, -5):
+                    final_img.save(output_path, 'JPEG', quality=quality, optimize=True)
+                    file_size_kb = os.path.getsize(output_path) / 1024
+                    
+                    if file_size_kb <= MAX_FILE_SIZE_KB:
+                        print(f"      ✓ Saved at quality {quality}, size: {file_size_kb:.1f}KB")
+                        return True
+                
+                # Last resort: very low quality
+                final_img.save(output_path, 'JPEG', quality=10, optimize=True)
+                file_size_kb = os.path.getsize(output_path) / 1024
+                print(f"      ⚠ Saved at quality 10, size: {file_size_kb:.1f}KB")
+                return True
+                
+            elif file_format.lower() == 'png':
+                # PNG optimization (no quality parameter, use compression)
+                final_img.save(output_path, 'PNG', optimize=True, compress_level=9)
+                file_size_kb = os.path.getsize(output_path) / 1024
+                print(f"      ✓ Saved as PNG, size: {file_size_kb:.1f}KB")
+                if file_size_kb > MAX_FILE_SIZE_KB:
+                    print(f"      ⚠ Warning: PNG size exceeds {MAX_FILE_SIZE_KB}KB (PNG doesn't compress as well)")
+                return True
+            
+    except Exception as e:
+        print(f"      ✗ Error processing image: {e}")
+        return False
+
+def get_oldest_image(folder):
+    """Get the oldest unprocessed image from folder"""
+    image_extensions = {'.jpg', '.jpeg', '.png', '.bmp', '.gif', '.tiff', '.webp'}
+    
+    files = []
+    for f in Path(folder).iterdir():
+        if f.is_file() and f.suffix.lower() in image_extensions:
+            files.append(f)
+    
+    if not files:
+        return None
+    
+    # Sort by creation time (oldest first)
+    files.sort(key=lambda x: x.stat().st_ctime)
+    return files[0]
+
+def search_pinterest(query):
+    """Open Pinterest search in browser"""
+    encoded_query = urllib.parse.quote(query)
+    url = f"https://www.pinterest.com/search/pins/?q={encoded_query}"
+    webbrowser.open(url)
+    print(f"  → Searching: {query}")
+
+def file_watcher_thread():
+    """Background thread that watches for new files and processes them"""
+    global processing_active, output_format, use_json_dimensions, selected_output_folder
+    processed_count = 0
+    
+    while processing_active or not filename_queue.empty():
+        if filename_queue.empty():
+            time.sleep(1)
+            continue
+        
+        # Get next expected filename and dimensions
+        expected_filename, dimensions = filename_queue.get()
+        
+        print(f"\n   [FILE WATCHER] Waiting for download #{processed_count + 1}: {expected_filename}")
+        
+        # Wait for a file to appear in download folder
+        while processing_active:
+            oldest_img = get_oldest_image(DOWNLOAD_FOLDER)
+            if oldest_img:
+                break
+            time.sleep(2)
+        
+        if not processing_active and not oldest_img:
+            break
+        
+        print(f"   [FILE WATCHER] Found: {oldest_img.name}")
+        
+        # Keep the exact filename from JSON (with extension)
+        new_filename = expected_filename
+        
+        # Process and rename the image
+        output_path = Path(selected_output_folder) / new_filename
+        print(f"   [FILE WATCHER] Processing → {new_filename}")
+        
+        if upscale_and_optimize(oldest_img, output_path, dimensions, output_format, use_json_dimensions):
+            # Delete original after successful processing
+            oldest_img.unlink()
+            processed_count += 1
+            print(f"   [FILE WATCHER] ✓ Completed! ({processed_count} files processed)")
+        else:
+            print(f"   [FILE WATCHER] ✗ Failed to process!")
+        
+        filename_queue.task_done()
+
+def get_output_format():
+    """Ask user for output format preference"""
+    print(f"\n{'='*70}")
+    print("📷 SELECT OUTPUT FORMAT")
+    print(f"{'='*70}")
+    print("\nAvailable formats:")
+    print("  1. WebP  (Best compression, smallest file size)")
+    print("  2. JPG   (Universal compatibility)")
+    print("  3. PNG   (Lossless quality, larger files)")
+    print(f"{'='*70}\n")
+    
+    while True:
+        choice = input("Enter your choice (1/2/3) or format name (webp/jpg/png): ").strip().lower()
+        
+        if choice in ['1', 'webp']:
+            return 'webp'
+        elif choice in ['2', 'jpg', 'jpeg']:
+            return 'jpg'
+        elif choice in ['3', 'png']:
+            return 'png'
+        else:
+            print("❌ Invalid choice! Please enter 1, 2, 3 or format name (webp/jpg/png)")
+
+def get_dimension_preference():
+    """Ask user whether to use JSON dimensions or just upscale"""
+    print(f"\n{'='*70}")
+    print("📐 SELECT DIMENSION HANDLING")
+    print(f"{'='*70}")
+    print("\nHow should images be processed?")
+    print("  1. Follow JSON dimensions (upscale → crop to exact size)")
+    print("  2. Just upscale to max (no cropping, keep original aspect ratio)")
+    print(f"{'='*70}\n")
+    
+    while True:
+        choice = input("Enter your choice (1/2): ").strip()
+        
+        if choice == '1':
+            return True
+        elif choice == '2':
+            return False
+        else:
+            print("❌ Invalid choice! Please enter 1 or 2")
+
+def select_json_file():
+    """Let user select which JSON file to process"""
+    print(f"\n{'='*70}")
+    print("📁 SELECT JSON FILE TO PROCESS")
+    print(f"{'='*70}")
+    print("\nAvailable files:")
+    for key, value in JSON_FILES.items():
+        print(f"  {key}. {value['name']}")
+    print(f"{'='*70}\n")
+    
+    while True:
+        choice = input("Enter your choice (1-5): ").strip()
+        
+        if choice in JSON_FILES:
+            return JSON_FILES[choice]
+        else:
+            print("❌ Invalid choice! Please enter a number between 1 and 5")
+
+def process_batch(items, start_idx, batch_num, total_batches):
+    """Process a batch of items"""
+    end_idx = min(start_idx + BATCH_SIZE, len(items))
+    batch_items = items[start_idx:end_idx]
+    
+    print(f"\n{'='*70}")
+    print(f"🔍 PROCESSING BATCH {batch_num}/{total_batches}")
+    print(f"{'='*70}")
+    print(f"Processing images {start_idx + 1} to {end_idx} of {len(items)}")
+    print(f"Output format: {output_format.upper()}")
+    print(f"Dimension mode: {'Crop to JSON dimensions' if use_json_dimensions else 'Upscale only (no cropping)'}\n")
+    
+    for i, item in enumerate(batch_items, start_idx + 1):
+        img_id = item.get('id')
+        url = item.get('url')
+        dimensions_obj = item.get('dimensions', {})
+        
+        # Extract filename from URL
+        filename = extract_filename_from_url(url)
+        
+        # Parse dimensions
+        dimensions = parse_dimensions_from_object(dimensions_obj)
+        if not dimensions:
+            print(f"⚠ Invalid dimensions for ID {img_id}, using 1080x1920")
+            dimensions = (1080, 1920)
+        
+        # Add filename and dimensions to queue for file watcher
+        filename_queue.put((filename, dimensions))
+        
+        # Extract search query from filename
+        search_query = extract_search_query(filename)
+        
+        dim_info = f"Target: {dimensions[0]}x{dimensions[1]}" if use_json_dimensions else "Upscale only"
+        print(f"\n[SEARCH {i}/{len(items)}] ID: {img_id} | {dim_info}")
+        print(f"   Filename: {filename}")
+        search_pinterest(search_query)
+        
+        # Wait before next search (except for last one in batch)
+        if i < end_idx:
+            print(f"   Waiting {WAIT_TIME_BETWEEN_SEARCHES} seconds before next search...")
+            time.sleep(WAIT_TIME_BETWEEN_SEARCHES)
+    
+    print(f"\n✓ Search completed for batch {batch_num}")
+    return end_idx
+
+def process_category(selected_json, first_run=False):
+    """Process a complete category (JSON file)"""
+    global processing_active, output_format, use_json_dimensions, selected_output_folder
+    
+    json_file_path = Path(BASE_JSON_PATH) / selected_json['file']
+    selected_output_folder = Path(BASE_OUTPUT_PATH) / selected_json['folder']
+    
+    # Create output folder if doesn't exist
+    selected_output_folder.mkdir(parents=True, exist_ok=True)
+    
+    print(f"\n✓ Selected: {selected_json['name']}")
+    print(f"✓ JSON file: {json_file_path}")
+    print(f"✓ Output folder: {selected_output_folder}")
+    
+    # Load JSON file
+    try:
+        with open(json_file_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            items = data.get('images', [])
+    except Exception as e:
+        print(f"Error reading JSON file: {e}")
+        return False
+    
+    total_items = len(items)
+    total_batches = (total_items + BATCH_SIZE - 1) // BATCH_SIZE
+    
+    print(f"\nTotal images in JSON: {total_items}")
+    print(f"Batch size: {BATCH_SIZE} images")
+    print(f"Total batches: {total_batches}")
+    
+    # Ask user for format and dimension preferences only on first run
+    if first_run:
+        output_format_choice = get_output_format()
+        dimension_choice = get_dimension_preference()
+        return output_format_choice, dimension_choice
+    
+    try:
+        current_idx = 0
+        batch_num = 1
+        
+        while current_idx < total_items:
+            # Process batch
+            current_idx = process_batch(items, current_idx, batch_num, total_batches)
+            batch_num += 1
+            
+            # Wait for current batch to complete
+            print(f"\n⏳ Waiting for batch downloads to complete...")
+            filename_queue.join()
+            
+            # Check if there are more batches
+            if current_idx < total_items:
+                print(f"\n{'='*70}")
+                print(f"✓ Batch completed! ({current_idx}/{total_items} images processed)")
+                print(f"{'='*70}")
+                response = input("\nContinue with next batch? (yes/no): ").strip().lower()
+                
+                if response not in ['yes', 'y']:
+                    print("\n⚠ Stopping at user request.")
+                    return False
+            else:
+                print(f"\n{'='*70}")
+                print(f"🎉 ALL IMAGES FROM '{selected_json['name'].upper()}' COMPLETED!")
+                print(f"{'='*70}\n")
+                return True
+        
+    except KeyboardInterrupt:
+        print("\n\n⚠ Script interrupted by user!")
+        return False
+
+def main():
+    global processing_active, output_format, use_json_dimensions
+    
+    print(f"\n{'='*70}")
+    print(f"🎯 PINTEREST IMAGE PROCESSOR WITH SMART CROPPING")
+    print(f"{'='*70}")
+    
+    # Select first JSON file
+    selected_json = select_json_file()
+    
+    # Get format and dimension preferences on first run
+    format_choice, dimension_choice = process_category(selected_json, first_run=True)
+    output_format = format_choice
+    use_json_dimensions = dimension_choice
+    
+    # Start file watcher thread
+    print(f"\n{'='*70}")
+    print("👀 Starting file watcher thread...")
+    print(f"{'='*70}")
+    watcher = threading.Thread(target=file_watcher_thread, daemon=True)
+    watcher.start()
+    
+    try:
+        # Process the first category
+        category_completed = process_category(selected_json)
+        
+        # Loop to allow processing multiple categories
+        while category_completed:
+            print(f"\n{'='*70}")
+            response = input("Do you want to process another category? (yes/no): ").strip().lower()
+            
+            if response not in ['yes', 'y']:
+                print("\n✓ Exiting script. Thank you!")
+                break
+            
+            # Select next JSON file
+            selected_json = select_json_file()
+            
+            # Process the next category
+            category_completed = process_category(selected_json)
+        
+        # Signal that we're done
+        processing_active = False
+        watcher.join(timeout=5)
+        
+    except KeyboardInterrupt:
+        print("\n\n⚠ Script interrupted by user!")
+        processing_active = False
+        watcher.join(timeout=5)
+
+if __name__ == "__main__":
+    main()
