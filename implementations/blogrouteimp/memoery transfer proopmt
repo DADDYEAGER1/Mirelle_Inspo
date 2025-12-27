@@ -1,0 +1,151 @@
+PROMPT FOR NEW AGENT:
+
+Blog System Migration - Complete Overhaul to New Template System
+CONTEXT
+You are helping migrate a Next.js blog system from an old design to a new minimal, elegant, editorial design inspired by Vogue. The user wants to completely remove old components and adopt a new 4-template system.
+DESIGN PHILOSOPHY
+
+Premium minimal editorial aesthetic (Vogue-inspired)
+Mobile-first responsive
+Clean, elegant typography
+No clutter: NO social share buttons, NO comments, NO TLDR sections, NO table of contents
+Focus on content and imagery
+
+NEW SYSTEM ALREADY CREATED (10 files)
+6 New Components:
+
+src/components/Blog/ImageCarousel.tsx - Smooth carousel with dots
+src/components/Blog/ProductGrid.tsx - 3 layouts (single/dual/quad)
+src/components/Blog/InlineNewsletter.tsx - Mid-article newsletter
+src/components/Blog/FinalNewsletter.tsx - End-of-article newsletter
+src/components/Blog/AboutEEAT.tsx - Editorial credentials section
+src/components/Blog/ReadMoreSection.tsx - 3 related posts with "READ MORE" heading
+
+4 New Templates:
+
+src/app/blog/[slug]/templates/CenterTemplate.tsx - Centered hero
+src/app/blog/[slug]/templates/SplitLeftTemplate.tsx - Image left, 50/50
+src/app/blog/[slug]/templates/SplitRightTemplate.tsx - Image right, 50/50
+src/app/blog/[slug]/templates/GridTemplate.tsx - 2x2 hero grid
+
+Modified files:
+
+src/types/blog.ts - Added template fields
+src/app/blog/[slug]/page.tsx - Added template switching
+
+TYPOGRAPHY & COLORS (from Tailwind config)
+Fonts:
+
+Larken - Article titles, headings
+Crimson Text - Body paragraphs, article content
+General Sans - UI elements, categories, labels, buttons
+
+Colors:
+
+Background: #f9fafb
+Foreground: #252220
+NO old accent colors (#E30088)
+
+TEMPLATE STRUCTURE (all 4 templates follow this)
+1. Meta section (category, title, author, date) - centered, Vogue-style
+2. Hero image (varies by template)
+3. Breadcrumbs
+4. Article content (max-width 720px, centered)
+   - Manual component placement at 20%, 40%, 60% content marks
+   - ImageCarousel after ~20%
+   - ProductGrid after ~40%
+   - InlineNewsletter after ~60%
+5. End sections (same order for all):
+   - AboutEEAT
+   - FinalNewsletter
+   - ReadMoreSection
+CURRENT PROBLEM
+When user visits blog post, OLD components are still rendering:
+
+Old BlogPost.tsx showing
+Tags visible (should only show category)
+Social share buttons visible
+Old colors/styling
+"Back to Blog" link
+Comments section
+TLDR section
+
+YOUR TASK
+STEP 1: Analyze current system
+User will share blog system tree. Review it and identify:
+
+Which old components are interfering
+What's preventing new templates from rendering
+Files that need modification
+
+STEP 2: Get critical files
+Request these files to analyze:
+
+src/lib/blog.ts - Check if it returns template field
+src/components/Blog/BlogPost.tsx - Old component to remove
+src/app/blog/page.tsx - Blog listing (might need update)
+src/components/Blog/RelatedPosts.tsx - Check compatibility
+
+STEP 3: Create migration plan
+After reviewing files, provide:
+
+DELETE list - Old components to remove completely
+MODIFY list - Files to update with exact changes
+KEEP list - Components that work with new system
+
+STEP 4: Execute migration
+
+Remove all old BlogPost.tsx references
+Ensure page.tsx uses new templates by default
+Remove social share, comments, TLDR components
+Update any components that conflict
+Ensure blog listing page works with new system
+
+DESIGN REQUIREMENTS (CRITICAL)
+Meta section styling (all templates):
+CATEGORY (uppercase, General Sans 14px, centered)
+[16px spacing]
+Article Title (Larken 56px desktop/36px mobile, centered)
+[24px spacing]
+BY AUTHOR NAME (General Sans 14px uppercase, centered)
+Date (General Sans 14px, centered, below author)
+[48px spacing]
+Hero Image
+Content styling:
+
+Paragraphs: Crimson Text 18px desktop/16px mobile
+Headings: Larken font
+Links: No underline, foreground color
+NO bold text except logo
+Images: Rounded corners, shadow
+
+What to NEVER show:
+
+Tags (only category in meta)
+Social share buttons
+Comment sections
+TLDR sections
+Table of contents
+Reading progress bars
+"Back to Blog" links
+
+EXPECTED OUTCOME
+Clean, minimal blog posts using one of 4 templates. Only shows:
+
+Meta (category, title, author, date)
+Hero image
+Breadcrumbs
+Article content with embedded components
+AboutEEAT section
+FinalNewsletter
+ReadMoreSection (3 related posts)
+
+BEHAVIOR
+
+Brief, to-the-point responses
+Show code modifications clearly
+Ask for files when needed
+Focus on complete migration, zero old components
+
+
+Start by asking user for the blog system tree and the 4 critical files listed in STEP 2.
