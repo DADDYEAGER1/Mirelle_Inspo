@@ -1,0 +1,180 @@
+// src/types/blog.ts
+import { FAQItem, TutorialStep, VideoMetadata } from '@/lib/generateSchemas';
+
+export interface BlogMetadata {
+  slug: string;
+  title: string;
+  excerpt: string;
+  tags: string[];
+  image?: string;
+  imageAlt?: string;
+  imageWidth?: number;
+  imageHeight?: number;
+  imageCaption?: string;
+  dateModified?: string;
+  tldr?: TLDR;
+  faqItems?: FAQItem[];
+  url: string;
+  topicalMap?: any;
+  keywordStrategy?: any;
+  contentRelations?: any;
+  seoMetrics?: any;
+  
+  // Optional fields for backward compatibility
+  date: string;
+  author: string;
+  readTime: number | string;
+  category?: string;
+  galleryImages?: GalleryImage[];
+  canonical?: string;
+  updatedDate?: string;
+  wordCount?: number;
+  eventData?: {
+    name: string;
+    startDate: string;
+    endDate: string;
+    eventStatus: string;
+    eventAttendanceMode: string;
+    isVirtual: boolean;
+  };
+  
+  // NEW: Template system fields
+  template?: 'center' | 'split-left' | 'split-right' | 'grid';
+  heroImages?: string[];
+  carouselImages?: { url: string; alt: string }[];
+  products?: {
+    image: string;
+    title: string;
+    price: string;
+    brand: string;
+    url: string;
+  }[];
+}
+
+export interface KeywordStrategy {
+  avoidKeywords: string[];
+  clusteredWith: string[];
+  serpVerified: boolean;
+  serpOverlapScore: number;
+  lastCannibalCheck: string;
+}
+
+export interface ContentRelations {
+  linksToPostsCount: number;
+  relatedPostSlugs: string[];
+  competingPosts: string[];
+}
+
+export interface SeoMetrics {
+  targetRankPosition: number;
+  estimatedMonthlySearches: number;
+  difficulty: number;
+  lastRankCheck: string;
+}
+
+export interface TutorialMetadata {
+  name: string;
+  description: string;
+  totalTime: string;
+  estimatedCost: {
+    currency: string;
+    value: string;
+  };
+  tools: string[];
+  supplies: string[];
+}
+
+export interface TopicalMap {
+  position: string;
+  parentPillar: string;
+  relatedClusters: string[];
+  primaryKeyword: string;
+  searchIntent: string;
+  topicalBoundary: string;
+  hierarchyLevel: number;
+}
+
+export interface TLDR {
+  summary: string[];
+  faqs?: FAQ[];
+  creativeLine?: string;
+  keyTakeaways: string[];
+}
+
+export interface FAQ {
+  question: string;
+  answer: string;
+}
+
+export interface Category {
+  name: string;
+  slug: string;
+  description: string;
+  count: number;
+}
+
+export interface Tag {
+  name: string;
+  slug: string;
+  count: number;
+}
+
+export interface GalleryImage {
+  url: string;
+  alt: string;
+  width?: number;
+  height?: number;
+  caption?: string;
+}
+
+export interface BlogPost {
+  slug: string;
+  title: string;
+  excerpt: string;
+  content: string;
+  date: string;
+  author: string;
+  tags: string[];
+  image?: string;
+  imageAlt?: string;
+  imageWidth?: number;
+  imageHeight?: number;
+  imageCaption?: string;
+  readTime: number | string;
+  canonical: string;
+  updatedDate?: string;
+  category?: string;
+  dateModified?: string;
+  wordCount?: number;
+  faqItems?: FAQItem[];
+  tutorialSteps?: TutorialStep[];
+  tutorialMetadata?: TutorialMetadata;
+  videoMetadata?: VideoMetadata;
+  galleryImages?: GalleryImage[];
+  tldr?: TLDR;
+  eventData?: {
+    name: string;
+    startDate: string;
+    endDate: string;
+    eventStatus: string;
+    eventAttendanceMode: string;
+    isVirtual: boolean;
+  };
+  topicalMap?: TopicalMap;
+  keywordStrategy?: KeywordStrategy;
+  contentRelations?: ContentRelations;
+  seoMetrics?: SeoMetrics;
+  
+  // NEW: Template system fields
+  template?: 'center' | 'split-left' | 'split-right' | 'grid';
+  heroImages?: string[];
+  carouselImages?: { url: string; alt: string }[];
+  products?: {
+    image: string;
+    title: string;
+    price: string;
+    brand: string;
+    url: string;
+  }[];
+  coverImage: string; // Alias for image field
+}
