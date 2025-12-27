@@ -1,0 +1,162 @@
+# Blog System File Tree (Updated)
+
+```
+mirelle-site/
+├── src/
+│   ├── app/
+│   │   ├── blog/
+│   │   │   ├── page.tsx                           # Main blog listing page
+│   │   │   └── [slug]/
+│   │   │       ├── page.tsx                       # Individual blog post pages
+│   │   │       └── templates/                     # Blog post layout templates
+│   │   │           ├── CenterTemplate.tsx         # Center-aligned layout
+│   │   │           ├── GridTemplate.tsx           # Grid layout
+│   │   │           ├── SplitLeftTemplate.tsx      # Sidebar left layout
+│   │   │           └── SplitRightTemplate.tsx     # Sidebar right layout
+│   │   │
+│   │   ├── api/
+│   │   │   └── comments/
+│   │   │       └── route.ts                       # Comment API endpoint
+│   │   │
+│   │   ├── topics/                                # Topic category pages
+│   │   │   ├── page.tsx                           # Topics hub
+│   │   │   ├── at-home-hacks/page.tsx
+│   │   │   ├── modern-women/page.tsx
+│   │   │   ├── nail-art-guides/page.tsx
+│   │   │   ├── nail-care-guide/page.tsx
+│   │   │   ├── seasonal-trends/page.tsx
+│   │   │   └── skin-tones/page.tsx
+│   │   │
+│   │   ├── about/page.tsx                         # About page
+│   │   ├── layout.tsx                             # Root layout
+│   │   └── globals.css                            # Global styles
+│   │
+│   ├── components/
+│   │   └── Blog/                                  # Blog components (30 files)
+│   │       ├── BlogCard.tsx                       # Blog post card
+│   │       ├── BlogList.tsx                       # Blog list container
+│   │       ├── BlogPost.tsx                       # Post content display
+│   │       ├── BlogSearch.tsx                     # Search functionality
+│   │       ├── BlogSidebar.tsx                    # Sidebar navigation
+│   │       ├── CommentSection.tsx                 # Comments UI
+│   │       ├── Pagination.tsx                     # Page navigation
+│   │       ├── RelatedPosts.tsx                   # Related content
+│   │       ├── SocialShare.tsx                    # Share buttons
+│   │       ├── ShareButtons.tsx                   # Additional share options
+│   │       ├── ReadingProgress.tsx                # Progress indicator
+│   │       ├── TLDRSection.tsx                    # Summary section
+│   │       ├── TableOfContents.tsx                # TOC navigation
+│   │       ├── InlineNewsletter.tsx               # Newsletter signup
+│   │       ├── InlineNewsletterForm.tsx           # Newsletter form
+│   │       ├── NewsletterSignup.tsx               # Newsletter component
+│   │       ├── FinalNewsletter.tsx                # End-of-post newsletter
+│   │       ├── PinterestOverlay.tsx               # Pinterest integration
+│   │       ├── AboutEEAT.tsx                      # E-E-A-T section
+│   │       ├── FeatureBlogCard.tsx                # Featured post card
+│   │       ├── CompactBlogCard.tsx                # Compact card layout
+│   │       ├── MainHeroSection.tsx                # Hero section
+│   │       ├── LatestStoriesSection.tsx           # Latest posts
+│   │       ├── MustReadSection.tsx                # Must-read posts
+│   │       ├── CategorySection.tsx                # Category display
+│   │       ├── CarouselSection.tsx                # Carousel component
+│   │       ├── ImageCarousel.tsx                  # Image carousel
+│   │       ├── ProductGrid.tsx                    # Product display
+│   │       ├── ReadMoreSection.tsx                # Read more CTA
+│   │       └── NextPageButton.tsx                 # Next page button
+│   │
+│   ├── components/
+│   │   └── Homepage/                              # Homepage components
+│   │       ├── BlogCarousel.tsx                   # Blog carousel
+│   │       ├── Hero1Section.tsx                   # Hero variant 1
+│   │       ├── Hero2Section.tsx                   # Hero variant 2
+│   │       ├── MustReadSection.tsx                # Must-read section
+│   │       └── SubscribeSection.tsx               # Subscribe section
+│   │
+│   ├── content/
+│   │   ├── blogs/                                 # Blog markdown files (20 posts)
+│   │   │   ├── blooming-gel-nails.md
+│   │   │   ├── candy-cane-christmas-nails-2025-sweet-holiday-designs.md
+│   │   │   ├── christmas-nail-designs-2025.md
+│   │   │   ├── easy-halloween-nail-designs.md
+│   │   │   ├── goddess-nails-2025.md
+│   │   │   ├── gold-silver-chrome-christmas-nails-2025.md
+│   │   │   ├── halloween-nail-ideas-2025.md
+│   │   │   ├── holiday-vacation-nails-travel-guide.md
+│   │   │   ├── nail-polish-colors-make-hands-look-younger.md
+│   │   │   ├── new-year-nails-2025.md
+│   │   │   ├── red-green-christmas-nails-2025.md
+│   │   │   ├── santa-reindeer-gingerbread-christmas-nails-2025-character-nail-art.md
+│   │   │   ├── short-christmas-nails-2025.md
+│   │   │   ├── test-template.md
+│   │   │   ├── thanksgiving-nails-2025.md
+│   │   │   ├── valentine-nails-2026.md
+│   │   │   ├── vampire-nails-2025.md
+│   │   │   ├── wedding-nail-designs.md
+│   │   │   ├── white-christmas-nails-snowflake-designs-2025.md
+│   │   │   └── winter-nails-2025.md
+│   │   │
+│   │   └── metadata/                              # Blog metadata JSON files
+│   │       ├── titles.json                        # Post titles
+│   │       ├── excerpts.json                      # Post summaries
+│   │       ├── tags.json                          # Post tags/categories
+│   │       ├── images.json                        # Featured images
+│   │       ├── faqItems.json                      # FAQ data
+│   │       ├── tldr.json                          # TL;DR summaries
+│   │       ├── seoMetrics.json                    # SEO data
+│   │       ├── keywordStrategies.json             # Keywords
+│   │       ├── contentRelations.json              # Related content
+│   │       ├── topicalMaps.json                   # Topic relationships
+│   │       ├── events.json                        # Event data
+│   │       └── dateModified.json                  # Last modified dates
+│   │
+│   ├── lib/                                       # Utility functions
+│   │   ├── blog.ts                                # Core blog logic
+│   │   ├── seo.ts                                 # SEO/metadata
+│   │   ├── contentValidation.ts                   # Validation
+│   │   ├── generateSchemas.ts                     # Schema markup
+│   │   ├── imageOptimization.ts                   # Image optimization
+│   │   ├── breadcrumbs.ts                         # Breadcrumb logic
+│   │   └── entityMapping.ts                       # Entity mapping
+│   │
+│   ├── types/
+│   │   └── blog.ts                                # TypeScript interfaces
+│   │
+│   └── hooks/
+│       └── useNewsletterPopup.ts                  # Newsletter popup hook
+│
+├── scripts/                                       # Maintenance scripts
+│   ├── content-audit.js                           # Audit content
+│   ├── seo-audit.js                               # SEO audit
+│   ├── migrate-metadata.js                        # Metadata migration
+│   ├── regenerate-metadata.js                     # Regenerate metadata
+│   ├── validate-canonical.js                      # Validate canonical URLs
+│   ├── add-schema-fields.js                       # Add schema fields
+│   ├── update-category-bulk.js                    # Bulk category update
+│   ├── update-image-paths.js                      # Update image paths
+│   └── SCRIPTS_README.md                          # Scripts documentation
+│
+├── next-sitemap.config.js                         # Sitemap config
+├── next.config.ts                                 # Next.js config
+└── package.json                                   # Dependencies
+```
+
+## Key Blog System Components
+
+**Core Pages:**
+- Blog listing, individual posts, topic pages
+- 4 layout templates (center, grid, split-left, split-right)
+
+**Content:**
+- 20 markdown blog posts
+- 12 metadata JSON files for structured data
+
+**Components:**
+- 30 Blog components for UI/UX
+- Homepage sections for blog integration
+
+**Logic:**
+- 7 utility libraries for blog operations
+- Comment API, newsletter hooks, validation
+
+**Scripts:**
+- 9 maintenance scripts for SEO/content management
