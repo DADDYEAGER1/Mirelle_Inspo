@@ -1,0 +1,1082 @@
+{
+    "name": "mirelle-site",
+    "type": "directory",
+    "children": [
+        {
+            "name": "broken-links-report.txt",
+            "type": "file"
+        },
+        {
+            "name": "eslint.config.mjs",
+            "type": "file"
+        },
+        {
+            "name": "next-env.d.ts",
+            "type": "file"
+        },
+        {
+            "name": "next-sitemap.config.js",
+            "type": "file"
+        },
+        {
+            "name": "next.config.ts",
+            "type": "file"
+        },
+        {
+            "name": "package-lock.json",
+            "type": "file"
+        },
+        {
+            "name": "package.json",
+            "type": "file"
+        },
+        {
+            "name": "postcss.config.mjs",
+            "type": "file"
+        },
+        {
+            "name": "README.md",
+            "type": "file"
+        },
+        {
+            "name": "scripts",
+            "type": "directory",
+            "children": [
+                {
+                    "name": "add-schema-fields.js",
+                    "type": "file"
+                },
+                {
+                    "name": "content-audit.js",
+                    "type": "file"
+                },
+                {
+                    "name": "find-inline-styles.js",
+                    "type": "file"
+                },
+                {
+                    "name": "fix-inline-styles.js",
+                    "type": "file"
+                },
+                {
+                    "name": "generate-all-sitemaps.js",
+                    "type": "file"
+                },
+                {
+                    "name": "migrate-colors.js",
+                    "type": "file"
+                },
+                {
+                    "name": "migrate-metadata.js",
+                    "type": "file"
+                },
+                {
+                    "name": "regenerate-metadata.js",
+                    "type": "file"
+                },
+                {
+                    "name": "SCRIPTS_README.md",
+                    "type": "file"
+                },
+                {
+                    "name": "seo-audit.js",
+                    "type": "file"
+                },
+                {
+                    "name": "update-category-bulk.js",
+                    "type": "file"
+                },
+                {
+                    "name": "update-image-paths.js",
+                    "type": "file"
+                },
+                {
+                    "name": "update-inspo-cloudinary.js",
+                    "type": "file"
+                },
+                {
+                    "name": "upload-to-cloudinary.js",
+                    "type": "file"
+                },
+                {
+                    "name": "validate-canonical.js",
+                    "type": "file"
+                },
+                {
+                    "name": "whyisgamora.txt",
+                    "type": "file"
+                }
+            ]
+        },
+        {
+            "name": "src",
+            "type": "directory",
+            "children": [
+                {
+                    "name": "app",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "about",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "page.tsx",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "api",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "comments",
+                                    "type": "directory",
+                                    "children": [
+                                        {
+                                            "name": "route.ts",
+                                            "type": "file"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "blog",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "page.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "[slug]",
+                                    "type": "directory",
+                                    "children": [
+                                        {
+                                            "name": "page.tsx",
+                                            "type": "file"
+                                        },
+                                        {
+                                            "name": "templates",
+                                            "type": "directory",
+                                            "children": [
+                                                {
+                                                    "name": "CenterTemplate.tsx",
+                                                    "type": "file"
+                                                },
+                                                {
+                                                    "name": "GridTemplate.tsx",
+                                                    "type": "file"
+                                                },
+                                                {
+                                                    "name": "SplitLeftTemplate.tsx",
+                                                    "type": "file"
+                                                },
+                                                {
+                                                    "name": "SplitRightTemplate.tsx",
+                                                    "type": "file"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "contact",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "layout.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "page.tsx",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "error.tsx",
+                            "type": "file"
+                        },
+                        {
+                            "name": "globals.css",
+                            "type": "file"
+                        },
+                        {
+                            "name": "inspo",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "page.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "[design]",
+                                    "type": "directory",
+                                    "children": [
+                                        {
+                                            "name": "page.tsx",
+                                            "type": "file"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "layout.tsx",
+                            "type": "file"
+                        },
+                        {
+                            "name": "loading.tsx",
+                            "type": "file"
+                        },
+                        {
+                            "name": "nails-try-on",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "page.tsx",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "not-found.tsx",
+                            "type": "file"
+                        },
+                        {
+                            "name": "page.tsx",
+                            "type": "file"
+                        },
+                        {
+                            "name": "pinterest",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "page.tsx",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "privacy-policy",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "page.tsx",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "privacy-policy.tsx",
+                            "type": "file"
+                        },
+                        {
+                            "name": "shop",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "page.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "[category]",
+                                    "type": "directory",
+                                    "children": [
+                                        {
+                                            "name": "page.tsx",
+                                            "type": "file"
+                                        },
+                                        {
+                                            "name": "[productId]",
+                                            "type": "directory",
+                                            "children": [
+                                                {
+                                                    "name": "page.tsx",
+                                                    "type": "file"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "subscribe",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "page.tsx",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "terms",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "page.tsx",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "terms.tsx",
+                            "type": "file"
+                        },
+                        {
+                            "name": "topics",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "at-home-hacks",
+                                    "type": "directory",
+                                    "children": [
+                                        {
+                                            "name": "page.tsx",
+                                            "type": "file"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "modern-women",
+                                    "type": "directory",
+                                    "children": [
+                                        {
+                                            "name": "page.tsx",
+                                            "type": "file"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "nail-art-guides",
+                                    "type": "directory",
+                                    "children": [
+                                        {
+                                            "name": "page.tsx",
+                                            "type": "file"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "nail-care-guide",
+                                    "type": "directory",
+                                    "children": [
+                                        {
+                                            "name": "page.tsx",
+                                            "type": "file"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "page.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "seasonal-trends",
+                                    "type": "directory",
+                                    "children": [
+                                        {
+                                            "name": "page.tsx",
+                                            "type": "file"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "skin-tones",
+                                    "type": "directory",
+                                    "children": [
+                                        {
+                                            "name": "page.tsx",
+                                            "type": "file"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "work-with-us",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "page.tsx",
+                                    "type": "file"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "components",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "AR",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "ARNailTryOn.tsx",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Blog",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "AboutEEAT.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "BlogCard.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "BlogList.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "CarouselSection.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "CategorySection.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "ClusterCarousel.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "CompactBlogCard.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "FeatureBlogCard.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "FinalNewsletter.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "ImageCarousel.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "InlineNewsletter.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "InlineNewsletterForm.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "LatestStoriesSection.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "MainHeroSection.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "MustReadSection.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "NewsletterSignup.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "NextPageButton.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Pagination.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "ProductGrid.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "ReadMoreSection.tsx",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Breadcrumbs.tsx",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Footer.tsx",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Header.tsx",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Homepage",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "BlogCarousel.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Hero1Section.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Hero2Section.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "InspoCategoriesCarousel.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "InspoMasonryGrid.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "MustReadSection.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "ShopCarousel.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "SubscribeSection.tsx",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Inspo",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "AboutInspo.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "AboutSection.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "CategoryClient.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "CategoryFilterBar.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "CategoryGrid.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "CategoryHero.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "DesignTips.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "ExploreSection.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "FAQAccordion.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "FAQSection.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "FeaturedCarousel.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "FilterBar.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "ImageModal.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "InspoClient.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "InspoHero.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "LoadingSkeleton.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "MasonryGallery.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "RelatedContent.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "ShopCTA.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "StatsBar.tsx",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "NewsletterForm.tsx",
+                            "type": "file"
+                        },
+                        {
+                            "name": "Shop",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "CategoryCard.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "CategoryClient.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "CategoryHeaderBar.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "CategoryHero.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "ExploreCategoriesGrid.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "HeroCarousel.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "InternalLinksSection.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "Pagination.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "ProductCard.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "ProductPageContent.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "ProductShowcase.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "RelatedProductsGrid.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "ShopCategoryNav.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "ShopCategoryTLDR.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "ShopClient.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "ShopHeroTLDR.tsx",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "ui",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "AnimatedCard.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "GlassCard.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "PremiumButton.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "ScrollReveal.tsx",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "StickyBottomNav.tsx",
+                                    "type": "file"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "content",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "blogs",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "blooming-gel-nails.md",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "candy-cane-christmas-nails-2025-sweet-holiday-designs.md",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "christmas-nail-designs-2025.md",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "easy-halloween-nail-designs.md",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "goddess-nails-2025.md",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "gold-silver-chrome-christmas-nails-2025.md",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "halloween-nail-ideas-2025.md",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "holiday-vacation-nails-travel-guide.md",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "nail-polish-colors-make-hands-look-younger.md",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "new-year-nails-2025.md",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "red-green-christmas-nails-2025.md",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "santa-reindeer-gingerbread-christmas-nails-2025-character-nail-art.md",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "short-christmas-nails-2025.md",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "thanksgiving-nails-2025.md",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "valentine-nails-2026.md",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "vampire-nails-2025.md",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "wedding-nail-designs.md",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "white-christmas-nails-snowflake-designs-2025.md",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "winter-nails-2025.md",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "inspo-categories.json",
+                            "type": "file"
+                        },
+                        {
+                            "name": "inspo-images",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "almond-nails-2026.json",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "burgundy-wine-winter-nails.json",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "chocolate-brown-winter-nails.json",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "chrome-metallic-winter-nails.json",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "coffin-ballerina-nails-2026.json",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "french-tip-nails-2026.json",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "minimalist-winter-nails.json",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "ombre-gradient-nails-2026.json",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "valentine-nails-2026.json",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "velvet-cat-eye-winter-nails.json",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "shop-categories.json",
+                            "type": "file"
+                        },
+                        {
+                            "name": "shop-descriptions",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "christmas.json",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "fall.json",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "halloween.json",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "new-year.json",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "trendy.json",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "winter.json",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "shop-faqs",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "christmas.json",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "fall.json",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "halloween.json",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "main.json",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "new-year.json",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "trendy.json",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "winter.json",
+                                    "type": "file"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "shop-products",
+                            "type": "directory",
+                            "children": [
+                                {
+                                    "name": "christmas.json",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "fall.json",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "halloween.json",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "new-year.json",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "trendy.json",
+                                    "type": "file"
+                                },
+                                {
+                                    "name": "winter.json",
+                                    "type": "file"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "hooks",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "useNewsletterPopup.ts",
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "lib",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "blog.ts",
+                            "type": "file"
+                        },
+                        {
+                            "name": "breadcrumbs.ts",
+                            "type": "file"
+                        },
+                        {
+                            "name": "contentValidation.ts",
+                            "type": "file"
+                        },
+                        {
+                            "name": "entityMapping.ts",
+                            "type": "file"
+                        },
+                        {
+                            "name": "generateSchemas.ts",
+                            "type": "file"
+                        },
+                        {
+                            "name": "imageOptimization.ts",
+                            "type": "file"
+                        },
+                        {
+                            "name": "inspo.ts",
+                            "type": "file"
+                        },
+                        {
+                            "name": "inspoFilters.ts",
+                            "type": "file"
+                        },
+                        {
+                            "name": "inspoSchemas.ts",
+                            "type": "file"
+                        },
+                        {
+                            "name": "seo.ts",
+                            "type": "file"
+                        },
+                        {
+                            "name": "shop.ts",
+                            "type": "file"
+                        },
+                        {
+                            "name": "shopProducts.ts",
+                            "type": "file"
+                        }
+                    ]
+                },
+                {
+                    "name": "types",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "blog.ts",
+                            "type": "file"
+                        },
+                        {
+                            "name": "inspo.ts",
+                            "type": "file"
+                        },
+                        {
+                            "name": "shop.ts",
+                            "type": "file"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "tailwind.config.js",
+            "type": "file"
+        },
+        {
+            "name": "tsconfig.json",
+            "type": "file"
+        }
+    ]
+}
