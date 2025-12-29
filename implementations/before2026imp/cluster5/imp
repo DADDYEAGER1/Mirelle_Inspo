@@ -1,0 +1,588 @@
+# Cluster 5: Content Updates - Agent Prompt
+
+## Context
+Updating all content for 2026, improving metadata for SEO, writing new cluster content, and refreshing dates. This is about making the site feel current and SEO-optimized.
+
+## Design System (STRICT - MUST FOLLOW)
+
+### Colors (ONLY 2)
+- **Background**: `#f9fafb`
+- **Foreground**: `#252220`
+
+### Fonts (3 FONTS)
+- **Larken**: Headings (`font-heading`)
+- **Crimson Text**: Body (`font-body`)
+- **General Sans**: UI elements (`font-ui`)
+
+---
+
+## Task 1: Update All Blog Post Dates
+
+### Current Problem
+Blog posts have old dates that don't reflect current year 2026.
+
+### Requirements
+
+#### 1.1 Update Date Fields
+**Files**: All `src/content/blogs/*.md`
+
+**Update in frontmatter**:
+```yaml
+date: "2026-01-[day]T10:00:00-04:00"  # Change to 2026
+dateModified: "2026-01-[day]"          # Add/update this field
+```
+
+#### 1.2 Date Strategy
+**For each post**:
+- Keep chronological order logical
+- Space posts throughout January 2026
+- Most recent posts get later dates
+- Seasonal posts aligned with their season
+  - Christmas posts: December 2025
+  - Valentine posts: January 2026
+  - Spring posts: February-March 2026
+  - Halloween posts: September-October 2025
+
+#### 1.3 Batch Update Script (Optional)
+**File**: `scripts/update-blog-dates.js`
+
+```javascript
+const fs = require('fs');
+const path = require('path');
+const matter = require('gray-matter');
+
+const blogsDir = path.join(__dirname, '../src/content/blogs');
+const files = fs.readdirSync(blogsDir).filter(f => f.endsWith('.md'));
+
+files.forEach((file, index) => {
+  const filePath = path.join(blogsDir, file);
+  const content = fs.readFileSync(filePath, 'utf8');
+  const { data, content: markdown } = matter(content);
+  
+  // Update date to 2026
+  const newDate = `2026-01-${String(index + 1).padStart(2, '0')}T10:00:00-04:00`;
+  data.date = newDate;
+  data.dateModified = newDate.split('T')[0];
+  
+  // Write back
+  const newContent = matter.stringify(markdown, data);
+  fs.writeFileSync(filePath, newContent);
+});
+
+console.log(`Updated ${files.length} blog post dates`);
+```
+
+---
+
+## Task 2: Write New Cluster Content
+
+### Requirement
+Write 2 new cluster blog posts before Dec 31:
+1. **Valentine Nails 2026**
+2. **Spring Nails 2026**
+
+### 2.1 Valentine Nails 2026
+
+**File**: `src/content/blogs/valentine-nails-2026.md` (may already exist)
+
+**Requirements**:
+- **Word count**: 2500-3000 words
+- **Position**: Pillar post (topicalMap.position = "pillar")
+- **Date**: Early January 2026
+- **Sections needed**:
+  - Trending valentine nail designs for 2026
+  - Color palettes (reds, pinks, rose gold)
+  - Heart nail art techniques
+  - Romantic designs beyond hearts
+  - Short vs long valentine nails
+  - At-home DIY valentine nails
+  - Professional salon valentine designs
+  - Valentine nail care tips
+
+**Frontmatter template**:
+```yaml
+slug: "valentine-nails-2026"
+title: "Valentine Nails 2026: 50+ Romantic Designs & DIY Tutorials"
+excerpt: "Discover 50+ valentine nail designs for 2026 with step-by-step tutorials, trending colors, heart nail art techniques, and romantic ideas beyond traditional hearts."
+date: "2026-01-08T10:00:00-04:00"
+dateModified: "2026-01-08"
+author: "Mirellé Team"
+category: "Seasonal Nail Trends"
+tags: ["valentine nails 2026", "heart nail art", "romantic nail designs", "valentine's day nails", "pink nail ideas"]
+image: "/images/blog/valentine-nails-2026-hero.jpg"
+imageAlt: "Valentine nails 2026 featuring romantic pink and red heart designs"
+readTime: "12 min"
+canonical: "https://mirelleinspo.com/blog/valentine-nails-2026"
+wordCount: 2800
+
+topicalMap:
+  position: "pillar"
+  parentPillar: null
+  relatedClusters: []
+  primaryKeyword: "valentine nails 2026"
+  searchIntent: "informational"
+  topicalBoundary: "Complete guide to Valentine's Day nail designs, colors, techniques, and ideas for 2026"
+
+keywordStrategy:
+  avoidKeywords: []
+  clusteredWith:
+    - "valentine nail designs"
+    - "heart nail art 2026"
+    - "romantic nail ideas"
+    - "february nails 2026"
+
+carouselImages:
+  - url: "/images/blog/valentine-nails-red-heart-tips.jpg"
+    alt: "Red heart french tip valentine nails"
+  - url: "/images/blog/valentine-nails-pink-ombre-hearts.jpg"
+    alt: "Pink ombre nails with small heart accents"
+  - url: "/images/blog/valentine-nails-rose-gold-glitter.jpg"
+    alt: "Rose gold glitter valentine nails"
+
+faqItems:
+  - question: "What are the trending valentine nail colors for 2026"
+    answer: "Trending valentine nail colors for 2026 include classic reds, soft pinks, rose gold, burgundy, and nude with red accents. Chrome finishes and glossy topcoats are popular."
+  - question: "How do you create heart nail art at home"
+    answer: "Create heart nail art using a dotting tool or toothpick. Place two dots side by side, then drag down to form a point. Practice on paper first for perfect heart shapes."
+  # Add 8-10 more FAQs
+```
+
+**Content outline**:
+1. Introduction (200 words)
+2. Trending Valentine Nail Designs 2026 (400 words)
+3. Valentine Color Palettes (300 words)
+4. Heart Nail Art Tutorial (400 words)
+5. Romantic Designs Beyond Hearts (350 words)
+6. Short Nail Valentine Ideas (300 words)
+7. Long Nail Valentine Ideas (300 words)
+8. DIY Valentine Nails at Home (350 words)
+9. Valentine Nail Care (200 words)
+10. Conclusion (150 words)
+
+### 2.2 Spring Nails 2026
+
+**File**: `src/content/blogs/spring-nails-2026.md`
+
+**Requirements**:
+- **Word count**: 2500-3000 words
+- **Position**: Pillar post (topicalMap.position = "pillar")
+- **Date**: Late January / Early February 2026
+- **Sections needed**:
+  - Spring 2026 nail trends preview
+  - Pastel color palettes
+  - Floral nail art techniques
+  - Easter nail design ideas
+  - Garden-inspired nails
+  - Butterfly and nature motifs
+  - Spring French tips variations
+  - Transition from winter to spring nails
+
+**Frontmatter template**:
+```yaml
+slug: "spring-nails-2026"
+title: "Spring Nails 2026: 60+ Fresh Designs, Pastels & Floral Art"
+excerpt: "Get ahead of spring 2026 with 60+ nail designs featuring trending pastels, floral art, butterfly motifs, Easter ideas, and garden-inspired nails. Includes tutorials."
+date: "2026-01-28T10:00:00-04:00"
+dateModified: "2026-01-28"
+author: "Mirellé Team"
+category: "Seasonal Nail Trends"
+tags: ["spring nails 2026", "pastel nails", "floral nail art", "easter nails", "butterfly nails"]
+image: "/images/blog/spring-nails-2026-hero.jpg"
+imageAlt: "Spring nails 2026 featuring pastel colors and delicate floral designs"
+readTime: "13 min"
+canonical: "https://mirelleinspo.com/blog/spring-nails-2026"
+wordCount: 2900
+
+topicalMap:
+  position: "pillar"
+  parentPillar: null
+  relatedClusters: []
+  primaryKeyword: "spring nails 2026"
+  searchIntent: "informational"
+  topicalBoundary: "Comprehensive guide to spring nail designs, trends, colors, and techniques for 2026 season"
+
+keywordStrategy:
+  avoidKeywords: []
+  clusteredWith:
+    - "spring nail designs 2026"
+    - "pastel nail ideas"
+    - "floral nail art tutorial"
+    - "easter nail designs"
+
+carouselImages:
+  - url: "/images/blog/spring-nails-pastel-ombre.jpg"
+    alt: "Pastel ombre spring nails with multiple colors"
+  - url: "/images/blog/spring-nails-cherry-blossom.jpg"
+    alt: "Cherry blossom floral nail art for spring"
+  - url: "/images/blog/spring-nails-butterfly-accent.jpg"
+    alt: "Spring nails with butterfly accent design"
+
+faqItems:
+  - question: "What are the trending spring nail colors for 2026"
+    answer: "Trending spring nail colors for 2026 include lavender, mint green, butter yellow, soft pink, sky blue, and peach. Pastel shades dominate with occasional bright accent colors."
+  - question: "How do you create floral nail art for spring"
+    answer: "Create floral nail art using thin brushes or dotting tools. Start with small dots for flower centers, add petal strokes around them. Use light colors on nude or pastel bases."
+  # Add 8-10 more FAQs
+```
+
+**Content outline**:
+1. Introduction to Spring 2026 Trends (200 words)
+2. Must-Try Spring Nail Designs (450 words)
+3. Pastel Color Palette Guide (350 words)
+4. Floral Nail Art Tutorial (400 words)
+5. Easter Nail Ideas (300 words)
+6. Garden & Nature-Inspired Nails (300 words)
+7. Butterfly and Insect Motifs (250 words)
+8. Spring French Tip Variations (300 words)
+9. Transitioning from Winter (250 words)
+10. Conclusion (150 words)
+
+---
+
+## Task 3: Update All Page Metadata for 2026
+
+### Current Problem
+Metadata references old dates, outdated trends, needs SEO refresh.
+
+### 3.1 Metadata Research
+
+**Research**:
+1. How often can metadata be changed without SEO penalty?
+2. Best practices for metadata updates
+3. Impact of frequent title/description changes
+
+**Answer these questions**:
+- Google's stance on metadata changes
+- Recommended update frequency
+- What to update vs what to keep stable
+- Impact on rankings and indexing
+
+**Document findings** in comments or separate doc.
+
+### 3.2 Page Metadata Updates
+
+**Files to update**:
+- `src/app/page.tsx` (homepage)
+- `src/app/blog/page.tsx`
+- `src/app/inspo/page.tsx`
+- `src/app/shop/page.tsx`
+- `src/app/topics/page.tsx`
+- `src/app/about/page.tsx`
+
+**Update strategy**:
+```typescript
+export const metadata: Metadata = {
+  title: 'Title with 2026 reference if relevant',
+  description: 'Updated description mentioning current trends, 2026, fresh content',
+  keywords: ['Add trending 2026 keywords', 'current trend terms'],
+  openGraph: {
+    title: '...',
+    description: '...',
+    // Update images if needed
+  }
+};
+```
+
+### 3.3 SEO Agency-Level Metadata
+
+**For each page, optimize**:
+
+**Title tags**:
+- Include primary keyword
+- Add year (2026) if relevant
+- Keep under 60 characters
+- Brand name at end
+- Compelling and click-worthy
+
+**Meta descriptions**:
+- 150-160 characters
+- Include primary + secondary keywords naturally
+- Call to action
+- Unique for each page
+- Answer search intent
+
+**Keywords meta** (less important but include):
+- 5-10 relevant keywords
+- Mix of broad and long-tail
+- Avoid keyword stuffing
+
+**Open Graph tags**:
+- Specific titles/descriptions for social
+- High-quality images (1200x630)
+- Proper image alt text
+
+### 3.4 Homepage Example
+
+**Before**:
+```typescript
+title: 'Mirellé - Nail Inspiration'
+description: 'Discover nail designs and ideas'
+```
+
+**After (SEO-optimized for 2026)**:
+```typescript
+title: 'Mirellé: 10K+ Nail Designs 2026 | Trending Ideas & Tutorials'
+description: 'Discover 10,000+ trending nail designs for 2026. From chrome metallics to pastel springs—get step-by-step tutorials, seasonal inspiration & pro tips. Updated weekly.'
+keywords: [
+  'nail designs 2026',
+  'trending nail ideas',
+  'nail art inspiration',
+  'nail tutorials',
+  'seasonal nail trends',
+  'nail design gallery'
+]
+```
+
+### 3.5 Blog Page Example
+
+**Before**:
+```typescript
+title: 'Blog - Mirellé'
+description: 'Read our blog'
+```
+
+**After (SEO-optimized)**:
+```typescript
+title: 'Nail Blog 2026: Expert Tutorials, Trends & Guides | Mirellé'
+description: 'Master nail art with expert tutorials, seasonal trend guides, and pro techniques. 100+ in-depth articles on everything from chrome nails to DIY tips. Updated daily.'
+keywords: [
+  'nail blog 2026',
+  'nail art tutorials',
+  'nail trend guides',
+  'nail care tips',
+  'seasonal nail ideas',
+  'DIY nail tutorials'
+]
+```
+
+---
+
+## Task 4: Update Overall Page Content for 2026
+
+### 4.1 Homepage Content Updates
+
+**File**: `src/app/page.tsx` and related components
+
+**Update**:
+- Hero section text to reference 2026
+- Remove any 2024/2025 specific references
+- Add "Latest 2026 trends" language
+- Update any statistics (if showing counts/numbers)
+- Refresh copy to feel current and fresh
+
+**Example updates**:
+```tsx
+// Before
+<h1>Discover Nail Inspiration</h1>
+
+// After
+<h1>10K+ Trending Nail Designs for 2026</h1>
+
+// Before
+<p>Explore beautiful nail designs</p>
+
+// After  
+<p>From chrome metallics taking over Instagram to spring pastels launching next month—discover what's trending now</p>
+```
+
+### 4.2 About Page Updates
+
+**File**: `src/app/about/page.tsx`
+
+**Update**:
+- Any year references to 2026
+- Statistics (users, designs, content)
+- Mission statement if needed
+- Team info if applicable
+- Add fresh, current language
+
+### 4.3 Topics Page Updates
+
+**File**: `src/app/topics/page.tsx`
+
+**Update**:
+- Introduction text
+- Topic descriptions
+- Add 2026 context where relevant
+- Refresh copy to feel editorial
+
+### 4.4 Shop Page Updates
+
+**File**: `src/app/shop/page.tsx`
+
+**Update**:
+- Hero text
+- Category descriptions
+- Featured product copy
+- Seasonal references (winter 2025-26, spring 2026)
+
+---
+
+## Task 5: Add Editorial Feel to Content
+
+### Current Problem
+Content needs more editorial, magazine-quality feel.
+
+### 5.1 Writing Style Guidelines
+
+**Tone**:
+- Sophisticated but approachable
+- Confident expert voice
+- Conversational yet polished
+- Authoritative without being stuffy
+
+**Structure**:
+- Strong opening hooks
+- Shorter paragraphs (2-4 sentences)
+- Varied sentence length
+- Subheadings every 200-300 words
+- Visual breaks with images
+
+**Language**:
+- Active voice preferred
+- Specific over general
+- Show expertise through details
+- Use sensory descriptions for nail designs
+- Avoid clichés and overused phrases
+
+### 5.2 Editorial Elements to Add
+
+**Opening hooks**:
+```
+❌ "Valentine's Day is coming up and you need nail ideas."
+
+✅ "Chrome hearts on every nail artist's feed. Velvet textures replacing classic glitter. Valentine's Day 2026 brings nail trends you've never seen before."
+```
+
+**Section transitions**:
+```
+❌ "Now let's talk about colors."
+
+✅ "But here's where it gets interesting: the colors."
+```
+
+**Conclusion strength**:
+```
+❌ "So these are some valentine nail ideas. Try them!"
+
+✅ "Valentine's Day nails in 2026 aren't just about hearts anymore. It's about textures, unexpected colors, and looks that last beyond February 14th. Start with one technique, master it, then combine. Your most-saved nail look starts here."
+```
+
+### 5.3 Pages Needing Editorial Upgrade
+
+**Priority pages**:
+1. Homepage hero and intro sections
+2. About page full rewrite
+3. Blog post introductions
+4. Topic page introductions
+5. Any "about" or descriptive sections
+
+---
+
+## Task 6: Change "Latest Stories" to "Articles"
+
+### Simple Update
+
+**Files to update**:
+- `src/components/Blog/LatestStoriesSection.tsx`
+
+**Changes**:
+1. Rename file: `LatestStoriesSection.tsx` → `LatestArticlesSection.tsx`
+2. Update component name inside file
+3. Change heading text: "Latest Stories" → "Latest Articles"
+4. Update any imports in parent components
+
+**Example**:
+```tsx
+// Before
+<h2>Latest Stories</h2>
+
+// After  
+<h2>Latest Articles</h2>
+```
+
+---
+
+## Task 7: Update Must Read Section for Topics
+
+### Requirement
+Homepage MustReadSection should extract posts from `/topics/[slug]` route instead of showing random blog posts.
+
+### 7.1 Current Behavior
+**File**: `src/components/Homepage/MustReadSection.tsx`
+
+Currently shows blog posts. Need to show topic pages instead.
+
+### 7.2 New Behavior
+
+**Update component**:
+```typescript
+import { getAllTopics } from '@/lib/topic';
+
+export default async function MustReadSection() {
+  const topics = await getAllTopics();
+  const featured = topics.slice(0, 4); // Show 4 topics
+  
+  return (
+    <section>
+      {/* Same layout, different data source */}
+      {featured.map(topic => (
+        <Link href={`/topics/${topic.slug}`}>
+          {/* Topic card */}
+        </Link>
+      ))}
+    </section>
+  );
+}
+```
+
+### 7.3 Requirements
+- Keep exact same layout/styling
+- Show 4 topics instead of 4 blog posts
+- Link to `/topics/[slug]` routes
+- Use topic images and metadata
+- Desktop: 4 in a row
+- Mobile: vertical stack
+
+---
+
+## Success Criteria
+
+✅ All blog post dates updated to 2026 with logical spacing  
+✅ Valentine Nails 2026 pillar post written (2500-3000 words)  
+✅ Spring Nails 2026 pillar post written (2500-3000 words)  
+✅ Metadata research completed and documented  
+✅ All page metadata updated with SEO-optimized content  
+✅ Homepage content refreshed for 2026  
+✅ About, topics, shop pages updated  
+✅ Editorial feel improved across key pages  
+✅ "Latest Stories" renamed to "Latest Articles"  
+✅ Must Read Section shows topics instead of blog posts  
+
+---
+
+## Files Modified (Expected)
+
+**Content**:
+- All `src/content/blogs/*.md` (date updates)
+- NEW: `src/content/blogs/valentine-nails-2026.md`
+- NEW: `src/content/blogs/spring-nails-2026.md`
+
+**Pages**:
+- `src/app/page.tsx` (metadata + content)
+- `src/app/blog/page.tsx` (metadata)
+- `src/app/inspo/page.tsx` (metadata)
+- `src/app/shop/page.tsx` (metadata + content)
+- `src/app/topics/page.tsx` (metadata + content)
+- `src/app/about/page.tsx` (metadata + content)
+
+**Components**:
+- `src/components/Blog/LatestStoriesSection.tsx` → `LatestArticlesSection.tsx`
+- `src/components/Homepage/MustReadSection.tsx` (fetch topics)
+
+**Documentation**:
+- Metadata change research findings
+
+---
+
+**Start with Task 1** (update dates), then Task 2 (write new content), then proceed through remaining tasks.
