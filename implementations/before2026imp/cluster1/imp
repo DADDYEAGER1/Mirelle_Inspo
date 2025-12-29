@@ -1,0 +1,177 @@
+# Cluster 1: Critical Fixes - Agent Prompt
+
+## Context
+You're working on a Next.js nail inspiration/blog website with a clean, minimal, editorial design system. The site uses markdown files for blog content and has strict design standards.
+
+## Design System (STRICT - MUST FOLLOW)
+
+### Colors (ONLY 2 COLORS)
+- **Background**: `#f9fafb`
+- **Foreground**: `#252220`
+- Never use old accent colors (#E30088, #FF1AA3, #B0006B)
+
+### Fonts (3 FONTS ONLY)
+- **Larken**: Headings, titles, logo (`font-heading` class)
+- **Crimson Text**: Body text, paragraphs (`font-body` class)
+- **General Sans**: UI elements, nav, buttons, categories (`font-ui` class)
+
+### Spacing Standards
+**Desktop Padding**: `px-6 md:px-16 lg:px-20` with `max-w-[1400px] mx-auto`
+**Mobile Padding**: `px-6`
+**Reference Component**: `src/components/Homepage/MustReadSection.tsx`
+
+## Critical Rules
+1. **ONLY use Tailwind utility classes** - no inline styles except font-family
+2. **Use existing font classes**: `font-heading`, `font-body`, `font-ui` from globals.css
+3. **Never add new colors** - only use `bg-background`, `text-foreground`, `bg-white`, `text-gray-*`
+4. **Padding must be consistent** across all pages matching MustReadSection
+5. **All category/nav text** must use `font-ui` (General Sans)
+
+---
+
+## Task 1: Fix Blog Category Navigation
+
+### Current Issue
+`src/components/Blog/CategorySection.tsx` is being used as nav but it's a carousel component showing 4 posts per category. Need proper category nav bar.
+
+### Requirements
+1. **Create new component**: `src/components/Blog/BlogCategoryNav.tsx`
+2. **Functionality**:
+   - Extract unique categories from all blog posts in `/src/content/blogs/*.md`
+   - Display categories in horizontal scrollable row on mobile
+   - Show all categories in single row on desktop
+   - Use `font-ui` (General Sans) for category names
+   - Active category highlight with foreground color
+3. **Styling**:
+   - Mobile: Horizontal scroll, no scrollbar visible
+   - Desktop: Centered row, no wrapping
+   - Padding: Match MustReadSection standard
+   - Background: `bg-white` with `border-t border-gray-100`
+4. **Dynamic Data**:
+   - Use `getAllCategories()` from `src/lib/blog.ts` 
+   - Categories come from frontmatter `category` field
+   - Example categories: "Tutorial", "Seasonal Nail Trends"
+
+### Implementation
+```typescript
+// Extract categories from frontmatter like this:
+const categories = await getAllCategories();
+// Returns: [{ name: "Tutorial", slug: "tutorial", count: 5 }, ...]
+
+// Apply to CategorySection or create new BlogCategoryNav
+```
+
+---
+
+## Task 2: Standardize Homepage Padding
+
+### Current Issue
+Different sections on homepage use inconsistent padding values.
+
+### Requirements
+1. **Reference padding** from `src/components/Homepage/MustReadSection.tsx`:
+   - Desktop: `max-w-7xl mx-auto px-6`
+   - Container: Standard max-width
+2. **Apply to ALL homepage sections**:
+   - `src/components/Homepage/Hero1Section.tsx`
+   - `src/components/Homepage/Hero2Section.tsx`
+   - `src/components/Homepage/BlogCarousel.tsx`
+   - `src/components/Homepage/InspoMasonryGrid.tsx`
+   - `src/components/Homepage/ShopCarousel.tsx`
+   - `src/components/Homepage/SubscribeSection.tsx`
+3. **Standard pattern**:
+```tsx
+<section className="bg-background py-8 md:py-12">
+  <div className="max-w-7xl mx-auto px-6">
+    {/* Content */}
+  </div>
+</section>
+```
+
+---
+
+## Task 3: Fix Inspo Page Padding
+
+### Current Issue
+`src/app/inspo/page.tsx` and inspo components have excessive padding that doesn't match homepage.
+
+### Requirements
+1. **Update inspo components** to match homepage padding:
+   - `src/components/Inspo/InspoHero.tsx`
+   - `src/components/Inspo/CategoryFilterBar.tsx`
+   - `src/components/Inspo/FeaturedCarousel.tsx`
+   - `src/components/Inspo/CategoryGrid.tsx`
+   - `src/components/Inspo/AboutInspo.tsx`
+   - `src/components/Inspo/ExploreSection.tsx`
+2. **Mobile**: `px-6` only
+3. **Desktop**: `max-w-7xl mx-auto px-6` (NOT px-16 or px-20)
+4. **Hero section**: Keep existing styling, only fix padding below hero
+
+---
+
+## Task 4: Remove Navbar Scrollbar
+
+### Current Issue
+Horizontal scrollbar visible on mobile navigation.
+
+### Requirements
+1. **File**: `src/components/Header.tsx`
+2. **Fix mobile nav section** (already has scrollbar-hide class but not working)
+3. **Ensure**:
+   - No horizontal scrollbar visible
+   - Still swipable/scrollable
+   - Smooth scroll behavior
+4. **Style tag exists** at bottom - verify it's applied to correct element
+
+---
+
+## Task 5: Review Heading Logic (Safety Check)
+
+### Files to Check
+1. `src/lib/blog.ts` - marked configuration and h2 ID generation
+2. `src/app/blog/[slug]/page.tsx` - heading rendering
+3. `src/app/blog/[slug]/templates/*.tsx` - template heading styles
+
+### Requirements
+1. **Verify h2 tags** get proper IDs for anchor links
+2. **Ensure heading hierarchy**: h1 → h2 → h3 (no skips)
+3. **Check font classes**: All headings use `font-heading` (Larken)
+4. **No inline font-weight** - globals.css removes all bold by default
+
+---
+
+## Globals.css Reference (DO NOT MODIFY)
+```css
+/* Use these utility classes only */
+.font-heading  /* Larken - for titles */
+.font-body     /* Crimson Text - for paragraphs */
+.font-ui       /* General Sans - for nav/buttons/categories */
+```
+
+## Frontmatter Structure (Reference)
+```yaml
+category: "Tutorial" | "Seasonal Nail Trends" | etc.
+topicalMap:
+  position: "standalone" | "pillar" | "cluster"
+  parentPillar: "/blog/slug" | null
+```
+
+---
+
+## Success Criteria
+✅ Blog category nav is horizontal, swipable on mobile, shows all categories dynamically
+✅ All homepage sections have identical padding to MustReadSection
+✅ Inspo page padding matches homepage (no excessive spacing)
+✅ No scrollbar visible on any navigation
+✅ All headings render correctly with proper hierarchy
+
+## Files Modified (Expected)
+- NEW: `src/components/Blog/BlogCategoryNav.tsx`
+- Modified: All `src/components/Homepage/*.tsx`
+- Modified: All `src/components/Inspo/*.tsx` 
+- Modified: `src/components/Header.tsx`
+- Reviewed: `src/lib/blog.ts`, `src/app/blog/[slug]/page.tsx`
+
+---
+
+**Start with Task 1** and work sequentially. Test each fix before moving to next task.
