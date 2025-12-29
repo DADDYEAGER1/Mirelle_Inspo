@@ -1,0 +1,456 @@
+# Cluster 4: Images & Visual Updates - Agent Prompt
+
+## Context
+Adding missing images to inspo categories and topics, updating blog images to Amazon products, changing blog card image logic, and creating new blog hero section.
+
+## Design System (STRICT - MUST FOLLOW)
+
+### Colors (ONLY 2)
+- **Background**: `#f9fafb`
+- **Foreground**: `#252220`
+
+### Fonts (3 FONTS)
+- **Larken**: Headings (`font-heading`)
+- **Crimson Text**: Body (`font-body`)
+- **General Sans**: UI elements (`font-ui`)
+
+---
+
+## Task 1: Add Images to Inspo Categories
+
+### Current Problem
+**File**: `src/content/inspo-categories.json`
+
+Some category objects missing image fields.
+
+### Requirements
+
+#### 1.1 Review Current Structure
+```json
+{
+  "slug": "chrome-metallic-winter-nails",
+  "title": "Chrome Metallic Winter Nails",
+  "description": "...",
+  "image": "/images/inspo/chrome-metallic-hero.jpg",  // Some have this
+  "imageAlt": "Chrome metallic winter nails"          // Some missing
+}
+```
+
+#### 1.2 Add Missing Images
+**For each category without image**:
+- Add `image` field: `/images/inspo/[slug]-hero.jpg`
+- Add `imageAlt` field: Descriptive alt text
+- Ensure all categories have consistent structure
+
+#### 1.3 Image Specifications
+- **Path pattern**: `/images/inspo/[category-slug]-hero.jpg`
+- **Dimensions**: 800x800px minimum
+- **Format**: JPG or WebP
+- **Alt text**: Descriptive, includes main keywords
+
+**Example**:
+```json
+{
+  "slug": "burgundy-wine-winter-nails",
+  "title": "Burgundy Wine Winter Nails",
+  "description": "Deep burgundy and wine shades...",
+  "image": "/images/inspo/burgundy-wine-winter-nails-hero.jpg",
+  "imageAlt": "Burgundy wine winter nails with deep red glossy finish"
+}
+```
+
+#### 1.4 Verification
+- Check all category cards display images
+- Ensure no broken image links
+- Alt text appears on hover/accessibility tools
+
+---
+
+## Task 2: Add Images to All Topics
+
+### Current Problem
+Topic pages and cards missing featured images.
+
+### Requirements
+
+#### 2.1 Add Images to Topic Markdown Files
+**Files**: `src/content/topics/*.md`
+
+**Add to frontmatter**:
+```yaml
+image: "/images/topics/[slug]-hero.jpg"
+imageAlt: "Descriptive alt text for topic"
+imageWidth: 1200
+imageHeight: 630
+```
+
+**Topics needing images**:
+- `seasonal-trends.md`
+- `modern-women.md`
+- `nail-art-guides.md`
+- `nail-care-guide.md`
+- `at-home-hacks.md`
+- `skin-tones.md`
+
+#### 2.2 Image Path Pattern
+```
+/images/topics/seasonal-trends-hero.jpg
+/images/topics/modern-women-hero.jpg
+/images/topics/nail-art-guides-hero.jpg
+/images/topics/nail-care-guide-hero.jpg
+/images/topics/at-home-hacks-hero.jpg
+/images/topics/skin-tones-hero.jpg
+```
+
+#### 2.3 Image Specifications
+- **Dimensions**: 1200x630px (social sharing optimized)
+- **Format**: JPG or WebP
+- **Alt text**: Descriptive, keyword-rich
+- **Content**: Representative of topic theme
+
+#### 2.4 Update Topic Components
+**If needed**: Ensure topic cards and pages display these images
+- Topic listing page shows image thumbnails
+- Topic detail page shows hero image
+- Images lazy load for performance
+
+---
+
+## Task 3: Update Blog Images to Amazon
+
+### Current Status
+Blog post images need to be Amazon product images instead of generic nail photos.
+
+### Requirements
+
+#### 3.1 Understand Current Setup
+- Images stored in `/public/images/blog/[slug]/`
+- Blog posts reference images in frontmatter and content
+- Some posts have `carouselImages` array
+
+#### 3.2 Amazon Image Strategy
+**Two options**:
+
+**Option A**: Direct Amazon Links
+```yaml
+image: "https://m.media-amazon.com/images/I/[product-id].jpg"
+```
+
+**Option B**: Download and Host
+- Download Amazon product images
+- Store in `/public/images/blog/[slug]/`
+- Reference locally
+
+**Recommendation**: Use Option B (download and host) for:
+- Better performance (served from your domain)
+- No broken links if Amazon changes URLs
+- Consistent image optimization
+
+#### 3.3 Image Requirements
+- Product images relevant to blog content
+- High quality (minimum 800px width)
+- Proper attribution if required
+- Update both hero images and carousel images
+
+#### 3.4 Update Frontmatter
+```yaml
+image: "/images/blog/[slug]/amazon-product-1.jpg"
+carouselImages:
+  - url: "/images/blog/[slug]/amazon-product-2.jpg"
+    alt: "..."
+  - url: "/images/blog/[slug]/amazon-product-3.jpg"
+    alt: "..."
+```
+
+#### 3.5 Automation Script (Optional)
+**If many images to update**: Create script to batch process
+- Read all blog markdown files
+- Update image paths
+- Download Amazon images to local folders
+- Update frontmatter automatically
+
+**File**: `scripts/update-blog-images.js`
+
+---
+
+## Task 4: Update Blog Card Image Logic
+
+### Current Problem
+Blog cards use hero image from frontmatter. Need to use random image from blog post instead.
+
+### Requirements
+
+#### 4.1 Current Behavior
+**File**: `src/components/Blog/BlogCard.tsx` (and similar)
+
+Currently shows:
+```typescript
+<Image src={post.image} alt={post.imageAlt} />
+```
+
+#### 4.2 New Behavior
+Show random image from blog post images instead of hero.
+
+**Logic**:
+```typescript
+// Get all images from post
+const postImages = post.carouselImages || [];
+
+// If carouselImages exist, pick random one
+// Otherwise fall back to hero image
+const displayImage = postImages.length > 0 
+  ? postImages[Math.floor(Math.random() * postImages.length)]
+  : { url: post.image, alt: post.imageAlt };
+```
+
+#### 4.3 Implementation Strategy
+
+**Option A: Client-side Random (changes on refresh)**
+```typescript
+'use client';
+import { useState, useEffect } from 'react';
+
+export default function BlogCard({ post }) {
+  const [displayImage, setDisplayImage] = useState(post.image);
+  
+  useEffect(() => {
+    if (post.carouselImages?.length > 0) {
+      const random = post.carouselImages[
+        Math.floor(Math.random() * post.carouselImages.length)
+      ];
+      setDisplayImage(random.url);
+    }
+  }, [post]);
+  
+  return <Image src={displayImage} ... />;
+}
+```
+
+**Option B: Server-side Random (consistent per build)**
+```typescript
+// In parent component or lib function
+function getRandomPostImage(post: BlogMetadata) {
+  if (!post.carouselImages || post.carouselImages.length === 0) {
+    return { url: post.image, alt: post.imageAlt };
+  }
+  
+  // Use post slug as seed for consistent randomness
+  const seed = post.slug.split('').reduce((a, b) => a + b.charCodeAt(0), 0);
+  const index = seed % post.carouselImages.length;
+  
+  return post.carouselImages[index];
+}
+```
+
+**Recommendation**: Use Option B (server-side) for:
+- Consistent images across page loads
+- Better SEO (stable image URLs)
+- No client-side hydration flash
+
+#### 4.4 Components to Update
+**Update all blog card components**:
+- `src/components/Blog/BlogCard.tsx`
+- `src/components/Blog/FeatureBlogCard.tsx`
+- `src/components/Blog/CompactBlogCard.tsx`
+- Any other components displaying blog thumbnails
+
+#### 4.5 Fallback Logic
+```typescript
+// Priority:
+// 1. Random from carouselImages (if available)
+// 2. Hero image (post.image)
+// 3. Default placeholder (/images/default-blog.jpg)
+
+const getCardImage = (post: BlogMetadata) => {
+  if (post.carouselImages?.length > 0) {
+    return getRandomFromCarousel(post);
+  }
+  if (post.image) {
+    return { url: post.image, alt: post.imageAlt };
+  }
+  return { 
+    url: '/images/default-blog.jpg', 
+    alt: 'Default blog thumbnail' 
+  };
+};
+```
+
+---
+
+## Task 5: Create Blog Hero Section
+
+### Requirements
+
+#### 5.1 Design Pattern
+**Match**: `src/components/Homepage/Hero2Section.tsx`
+
+Copy the design feel and adapt for blog page.
+
+#### 5.2 New Component
+**File**: `src/components/Blog/BlogHeroSection.tsx`
+
+**Content**:
+- Large heading: "NAIL INSPIRATION & GUIDES"
+- Subheading: Brief description of blog content
+- Featured post image or curated visual
+- Clean, editorial layout
+- Minimal styling matching homepage hero2
+
+#### 5.3 Layout Structure
+```tsx
+<section className="bg-background py-12 md:py-16">
+  <div className="max-w-7xl mx-auto px-6">
+    {/* Heading */}
+    <h1 className="font-heading text-4xl md:text-5xl text-center mb-4">
+      NAIL INSPIRATION & GUIDES
+    </h1>
+    
+    {/* Subheading */}
+    <p className="font-body text-lg md:text-xl text-center text-foreground/80 mb-8">
+      Expert tutorials, seasonal trends, and nail art inspiration
+    </p>
+    
+    {/* Optional: Featured content or visual element */}
+    <div className="max-w-4xl mx-auto">
+      {/* Hero visual */}
+    </div>
+  </div>
+</section>
+```
+
+#### 5.4 Integration
+**File**: `src/app/blog/page.tsx`
+
+Add at top of blog page:
+```tsx
+import BlogHeroSection from '@/components/Blog/BlogHeroSection';
+
+export default async function BlogPage() {
+  return (
+    <div>
+      <BlogHeroSection />
+      {/* Rest of blog page content */}
+    </div>
+  );
+}
+```
+
+#### 5.5 Design Guidelines
+- Copy spacing, typography, layout from Hero2Section
+- Use same padding standards (max-w-7xl mx-auto px-6)
+- Keep minimal and editorial
+- Match color scheme (background/foreground only)
+- Font usage: heading for title, body for description
+
+---
+
+## Task 6: Product Component Check
+
+### Investigation Task
+
+#### 6.1 Find Product Component
+**Search for**: Product-related components in blog posts
+
+**Likely locations**:
+- `src/components/Blog/ProductGrid.tsx` (already exists in tree)
+- Product component imports in blog markdown
+- Product data structure in frontmatter
+
+#### 6.2 Understand Current Implementation
+**Check**:
+- How products are defined in blog frontmatter
+- How ProductGrid component works
+- Where product data comes from
+- How to add products to blog posts
+
+**Example frontmatter to look for**:
+```yaml
+products:
+  - title: "Chrome Nail Powder"
+    link: "https://amazon.com/..."
+    image: "..."
+    price: "$12.99"
+```
+
+#### 6.3 Test Implementation
+**Create test blog post** with products:
+- Add product data to frontmatter
+- Verify ProductGrid renders
+- Check Amazon affiliate links work
+- Ensure styling matches design system
+
+#### 6.4 Document Usage
+**Create guide** for adding products to blog posts:
+- Frontmatter structure
+- Required fields
+- Image specifications
+- Link format (affiliate links if applicable)
+
+#### 6.5 Improvement Opportunities
+**If component needs updates**:
+- Better mobile layout
+- Improved product card design
+- Add "Buy Now" buttons
+- Price display formatting
+- Out of stock handling
+
+---
+
+## Success Criteria
+
+✅ All inspo categories have images in JSON  
+✅ All topic pages have hero images in frontmatter  
+✅ Blog images updated to Amazon products (or plan created)  
+✅ Blog cards show random carousel image instead of hero  
+✅ New BlogHeroSection created matching Hero2Section style  
+✅ BlogHeroSection integrated on blog page  
+✅ Product component functionality documented  
+✅ Product usage guide created for future blog posts  
+✅ All images have proper alt text for accessibility  
+
+---
+
+## Files Modified (Expected)
+
+**Updated**:
+- `src/content/inspo-categories.json` (add missing images)
+- All `src/content/topics/*.md` files (add image frontmatter)
+- `src/components/Blog/BlogCard.tsx` (random image logic)
+- `src/components/Blog/FeatureBlogCard.tsx` (random image logic)
+- `src/components/Blog/CompactBlogCard.tsx` (random image logic)
+- `src/app/blog/page.tsx` (add hero section)
+
+**New**:
+- `src/components/Blog/BlogHeroSection.tsx`
+- `scripts/update-blog-images.js` (optional)
+
+**Documentation**:
+- Product component usage guide (markdown or comment)
+
+---
+
+## Image Management Notes
+
+### Current Image Storage
+```
+/public/images/
+├── blog/
+│   └── [slug]/
+│       ├── hero.jpg
+│       └── image-1.jpg, image-2.jpg, etc.
+├── inspo/
+│   └── [category]-hero.jpg
+└── topics/
+    └── [slug]-hero.jpg
+```
+
+### Image Optimization Considerations
+- Use Next.js Image component (already in use)
+- Specify width/height for proper aspect ratios
+- Use `loading="lazy"` for below-fold images
+- Consider WebP format for better compression
+- Cloudinary integration exists (saw script in tree)
+
+---
+
+**Start with Task 1** (inspo images), work through sequentially, skip Task 3 if decided not to update Amazon images yet.
