@@ -1,0 +1,46 @@
+mirelle-site
+├── src
+│   ├── app
+│   │   └── blog
+│   │       ├── page.tsx
+│   │       └── [slug]
+│   │           ├── page.tsx
+│   │           └── templates
+│   │               ├── CenterTemplate.tsx
+│   │               ├── GridTemplate.tsx
+│   │               ├── SplitLeftTemplate.tsx
+│   │               └── SplitRightTemplate.tsx
+│   │
+│   ├── components
+│   │   └── Blog
+│   │       ├── AboutEEAT.tsx
+│   │       ├── BlogCard.tsx
+│   │       ├── BlogCategoryNav.tsx
+│   │       ├── BlogList.tsx
+│   │       ├── CarouselSection.tsx
+│   │       ├── CategorySection.tsx
+│   │       ├── CompactBlogCard.tsx
+│   │       ├── FeatureBlogCard.tsx
+│   │       ├── FinalNewsletter.tsx
+│   │       ├── ImageCarousel.tsx
+│   │       ├── InlineNewsletter.tsx
+│   │       ├── InlineNewsletterForm.tsx
+│   │       ├── LatestStoriesSection.tsx
+│   │       ├── MainHeroSection.tsx
+│   │       ├── MustReadSection.tsx
+│   │       ├── NewsletterSignup.tsx
+│   │       ├── NextPageButton.tsx
+│   │       ├── Pagination.tsx
+│   │       └── ReadMoreSection.tsx
+│   │
+│   ├── lib
+│   │   ├── blog.ts
+│   │   ├── seo.ts
+│   │   └── generateSchemas.ts
+│   │
+│   └── types
+│       └── blog.ts
+│
+└── content
+    └── blogs
+        └── *.md   ← blog markdown files go here
