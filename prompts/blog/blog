@@ -1,0 +1,809 @@
+{
+  "name": "Mirellè Blog Post Generator v8.1",
+  "version": "8.1",
+  "updated": "January 2026",
+  "model": "Strict Execution - SEO/AEO Optimized - Enhanced Topical Mapping - Humanized Content",
+  
+  "workflow": {
+    "step1": "User sends this prompt",
+    "step2": "Agent researches SEO/AEO best practices (30 seconds)",
+    "step3": "Agent says 'I'm ready'",
+    "step4": "Agent requests 2 inputs + frontmatter field selection",
+    "step5": "Agent generates blog post (raw markdown in code box)",
+    "note": "SERP analysis removed, Pinterest removed, image list removed"
+  },
+
+  "brand_identity": {
+    "brand_name": "Mirellè",
+    "correct_spelling": "Mirellè (with è, NOT é)",
+    "author_field": "Mirellè Team",
+    "enforcement": "ALWAYS use 'Mirellè Team' in author field - never 'Mirellé Team'"
+  },
+
+  "image_system": {
+    "cloudinary_cdn": {
+      "base_url": "https://res.cloudinary.com/de1yf0iuo/image/upload/mirelleinspo",
+      "structure": "https://res.cloudinary.com/de1yf0iuo/image/upload/mirelleinspo/images/blog/[slug]/[filename].webp",
+      "slug_folder": "CRITICAL: Images must be organized in slug-based folders",
+      "example": "https://res.cloudinary.com/de1yf0iuo/image/upload/mirelleinspo/images/blog/jelly-valentine-nails/opacity-control-layering-progression-guide.webp"
+    },
+
+    "file_naming_rules": {
+      "length": "80-90 characters total",
+      "format": "descriptive-keyword-rich-filename.webp",
+      "rules": [
+        "80-90 characters for filename (including .webp)",
+        "Lowercase only",
+        "Use hyphens (not underscores)",
+        "Include relevant keywords naturally",
+        "Describe actual image content",
+        "NO generic numbering (image1, image2)",
+        "NO slug repetition (slug-1, slug-2)",
+        "Each filename MUST be unique"
+      ],
+      "examples": [
+        "opacity-control-one-coat-four-coat-jelly-polish-progression-tutorial.webp",
+        "milky-pink-sheer-cranberry-valentine-jelly-nail-color-palette-swatches.webp",
+        "cat-eye-magnet-positioning-two-three-millimeter-hover-distance-technique.webp"
+      ]
+    },
+
+    "alt_text_rules": {
+      "length": "120-125 characters strict",
+      "hero_image_alt": {
+        "format": "[Primary keyword] + [descriptive user intent phrase]",
+        "rules": [
+          "120-125 characters strict",
+          "Include primary keyword naturally in first 8 words",
+          "No 'image of' or 'picture of' prefix",
+          "Match search intent of post",
+          "Describe what user sees"
+        ],
+        "example": "Jelly Valentine nails showing translucent pink with glass-like finish and buildable opacity layers for romantic manicure"
+      },
+      "content_images_alt": {
+        "format": "[Long-tail keyword] + [specific descriptive context]",
+        "rules": [
+          "120-125 characters strict",
+          "Each alt text uses different long-tail keyword",
+          "Direct description without prefix",
+          "1-2 keywords naturally integrated",
+          "Vary terminology across all images",
+          "Describe visual elements specifically"
+        ],
+        "example": "Cat eye magnet positioning showing proper two to three millimeter hover distance above nail surface for particle alignment control"
+      }
+    },
+
+    "image_html_format": {
+      "structure": [
+        "<div class='my-8 text-center'>",
+        "  <img",
+        "    src='https://res.cloudinary.com/de1yf0iuo/image/upload/mirelleinspo/images/blog/[slug]/[filename].webp'",
+        "    alt='[unique alt text 120-125 chars]'",
+        "    width='800'",
+        "    height='800'",
+        "    class='rounded-lg shadow-lg mx-auto'",
+        "    loading='lazy'",
+        "  />",
+        "</div>"
+      ],
+      "note": "ALWAYS include full Cloudinary CDN URL with slug folder path"
+    }
+  },
+
+  "initialization": {
+    "trigger": "User sends this JSON prompt",
+    "agent_action": "Research latest SEO/AEO best practices for 30 seconds",
+    "research_sources": [
+      "Google algorithm updates (current month/year)",
+      "E-E-A-T guidelines (latest)",
+      "ChatGPT/Perplexity/Gemini optimization",
+      "Entity-based SEO principles",
+      "Image SEO best practices",
+      "Core Web Vitals optimization",
+      "Natural language processing for content quality"
+    ],
+    "completion_message": "I'm ready. Please provide your inputs."
+  },
+
+  "input_collection": {
+    "input1_file": {
+      "format": "Upload file containing:",
+      "required_contents": [
+        "Primary keyword (exact match)",
+        "Cluster keywords (list)",
+        "Semantic keywords/LSI terms (list)",
+        "Internal links to add (URLs with anchor text) - ONLY VALID URLs",
+        "External authority links (minimum 3 URLs with context)",
+        "Voice/tone guidelines (writing style description)"
+      ]
+    },
+    "input2_details": {
+      "format": "Bullet points - all at once",
+      "required_fields": [
+        "Topic: [brief description]",
+        "Slug: [url-slug]",
+        "Word count target: [number]",
+        "Post type: [Tutorial/Guide/Trend Report/Comparison/Problem-Solving/Seasonal]",
+        "Category: [category name]",
+        "Publish date: [YYYY-MM-DD]",
+        "Target audience: [demographics]",
+        "Search intent: [Informational/Commercial/Transactional]",
+        "Template: [center/split-left/split-right/grid]",
+        "Hero image dimensions: [width x height in pixels]",
+        "Topical map role: [Pillar/Cluster/Standalone]",
+        "Parent pillar slug: [slug or 'none']",
+        "Related cluster slugs: [comma-separated or 'none']"
+      ]
+    },
+    "input3_frontmatter_fields": {
+      "format": "Agent asks which optional fields to include",
+      "question": "Which optional frontmatter fields should I include for this post?",
+      "options": [
+        "□ topicalMap (pillar/cluster relationships with hierarchy)",
+        "□ tutorialSteps + tutorialMetadata (step-by-step tutorial format)",
+        "□ videoMetadata (embedded video schema)",
+        "□ eventData (event schema for time-sensitive content)",
+        "□ products (product grid display at 40% mark)",
+        "□ tags (post tags array for categorization)"
+      ],
+      "note": "galleryImages auto-populated from first 3 content images (always included)"
+    }
+  },
+
+  "templates": {
+    "available_templates": [
+      {
+        "name": "center",
+        "hero_layout": "Full-width centered image",
+        "hero_image_specs": "Max-width from both sides, high-quality aspect ratio",
+        "use_case": "Standard blog posts, editorials, general content"
+      },
+      {
+        "name": "split-left",
+        "hero_layout": "Image on left side (desktop), centered (mobile)",
+        "hero_image_specs": "Square (1:1 ratio), high-quality, fits hero section limits",
+        "use_case": "Visual-heavy posts, product features, showcases"
+      },
+      {
+        "name": "split-right",
+        "hero_layout": "Image on right side (desktop), centered (mobile)",
+        "hero_image_specs": "Square (1:1 ratio), high-quality, fits hero section limits",
+        "use_case": "Visual-heavy posts, product features, showcases"
+      },
+      {
+        "name": "grid",
+        "hero_layout": "Image on right side (desktop), centered (mobile)",
+        "hero_image_specs": "Square (1:1 ratio), high-quality, fits hero section limits",
+        "use_case": "Gallery-style posts, collections, roundups"
+      }
+    ],
+    "content_injection_points": {
+      "structure": "Content auto-splits by paragraph breaks (\\n\\n)",
+      "injection_sequence": [
+        "0-40% content → products component (if exists)",
+        "40-60% content → InlineNewsletter component (always)",
+        "60-100% content → remaining content",
+        "After content → AboutEEAT → FinalNewsletter → ReadMoreSection"
+      ],
+      "note": "Agent writes natural H2 sections, system auto-splits content"
+    }
+  },
+
+  "critical_input_file_authority": {
+    "rule": "INPUT FILE SPECIFICATIONS ARE ABSOLUTE AND NON-NEGOTIABLE",
+    "priority": "Input file overrides ALL defaults, suggestions, and prompt recommendations",
+    "enforcement": [
+      "Word count target from input2 MUST be matched exactly (±50 words max tolerance)",
+      "Voice/tone from input1 MUST be maintained throughout entire post",
+      "Keywords from input1 are the ONLY keywords to use (no substitutions)",
+      "Internal/external links from input1 MUST be included as specified",
+      "No creative liberties with input specifications",
+      "Agent cannot override or adjust input file parameters"
+    ]
+  },
+
+  "humanization_mandate": {
+    "critical_rule": "WRITE LIKE A HUMAN, NOT AN AI",
+    "voice_priority": "Voice prompt from input file is ABSOLUTE - follow it religiously",
+    "avoid_ai_patterns": [
+      "No robotic phrasing or formulaic structures",
+      "No repetitive sentence patterns",
+      "No overuse of transition words (furthermore, moreover, additionally)",
+      "No generic conclusions that summarize what was already said",
+      "No excessive use of lists unless natural to content",
+      "No corporate jargon or buzzwords unless part of voice",
+      "No overly enthusiastic tone unless specified in voice",
+      "Vary sentence structures naturally",
+      "Use contractions when appropriate to voice",
+      "Write with personality and authentic voice"
+    ],
+    "natural_writing": [
+      "Sentence length varies naturally (no strict rules)",
+      "Paragraph flow feels conversational",
+      "Transitions happen organically",
+      "Content sounds like a knowledgeable human wrote it",
+      "Tone matches voice guidelines exactly",
+      "Personality shines through without being forced"
+    ]
+  },
+
+  "content_generation_rules": {
+    "bounce_rate_control": {
+      "first_paragraph_mandate": [
+        "MUST start with immediate user value (answer their search query)",
+        "Primary keyword MUST appear 2-3 times in first 100 words",
+        "No fluff, no long hooks - direct value delivery",
+        "Answer the title question in first 2-3 sentences",
+        "Hook reader to continue with benefit statement"
+      ]
+    },
+
+    "keyword_density_strategy": {
+      "primary_keyword": {
+        "first_100_words": "2-3 mentions (critical for SEO)",
+        "first_half": "4% density (calculated from total word count / 2)",
+        "second_half": "2% density (calculated from remaining half)",
+        "calculation": "Track keyword mentions and enforce density thresholds",
+        "integration": "Natural placement - no forced awkward usage"
+      },
+      "cluster_keywords": "Use liberally throughout entire post",
+      "semantic_keywords": "Integrate from input file naturally",
+      "lsi_variations": "Use for context and topical relevance"
+    },
+
+    "image_requirements": {
+      "total_images": {
+        "hero_image": 1,
+        "content_images": 10,
+        "gallery_images": "Auto-populated from first 3 content images"
+      },
+      
+      "hero_image_specs": {
+        "dimensions": "Variable - user specifies in input (width x height)",
+        "template_requirements": {
+          "center": "Max-width, high-quality aspect ratio",
+          "split-left": "Square (1:1), high-quality, fits hero section",
+          "split-right": "Square (1:1), high-quality, fits hero section",
+          "grid": "Square (1:1), high-quality, fits hero section"
+        },
+        "format": "WebP only (no fallback)",
+        "optimization": "Compressed, responsive",
+        "path": "https://res.cloudinary.com/de1yf0iuo/image/upload/mirelleinspo/images/blog/[slug]/[descriptive-filename-80-90-chars].webp"
+      },
+
+      "content_images_specs": {
+        "dimensions": "800x800px",
+        "format": "WebP only (no fallback)",
+        "max_size": "80KB each",
+        "placement": "Every 200-300 words naturally",
+        "path": "https://res.cloudinary.com/de1yf0iuo/image/upload/mirelleinspo/images/blog/[slug]/[descriptive-filename-80-90-chars].webp"
+      },
+
+      "file_naming_strategy": {
+        "length": "80-90 characters total (including .webp)",
+        "rules": [
+          "Descriptive keyword-rich naming (80-90 chars)",
+          "Lowercase only",
+          "Use hyphens (not underscores)",
+          "Include relevant keywords naturally",
+          "Describe actual image content",
+          "NO generic numbering (image1, image2)",
+          "NO slug-based naming (slug-1, slug-2)",
+          "Each filename MUST be unique"
+        ],
+        "examples": [
+          "cat-eye-magnet-positioning-two-millimeter-hover-distance-particle-alignment.webp",
+          "red-chrome-burnishing-technique-silicone-applicator-mirror-finish-creation.webp",
+          "jelly-french-tips-translucent-pink-overlay-sheer-nude-base-valentine-design.webp"
+        ]
+      },
+
+      "alt_text_strategy": {
+        "max_length": 125,
+        "min_length": 120,
+        "hero_image_alt": {
+          "format": "[Primary keyword] + [user intent phrase]",
+          "rules": [
+            "120-125 characters strict",
+            "Include primary keyword naturally in first 8 words",
+            "No 'image of' or 'picture of' prefix",
+            "Match search intent of post",
+            "Describe visual elements"
+          ]
+        },
+        "content_images_alt": {
+          "format": "[Long-tail keyword] + [specific descriptive context]",
+          "rules": [
+            "120-125 characters strict per image",
+            "Each alt text uses different long-tail keyword",
+            "Direct description without prefix",
+            "1-2 keywords naturally integrated",
+            "Vary terminology across all images"
+          ]
+        }
+      },
+
+      "gallery_images": {
+        "auto_population": "First 3 content images automatically become galleryImages",
+        "frontmatter_format": [
+          {
+            "url": "https://res.cloudinary.com/de1yf0iuo/image/upload/mirelleinspo/images/blog/[slug]/[first-content-image].webp",
+            "alt": "[alt text 120-125 chars from first image]",
+            "width": 800,
+            "height": 800
+          },
+          {
+            "url": "https://res.cloudinary.com/de1yf0iuo/image/upload/mirelleinspo/images/blog/[slug]/[second-content-image].webp",
+            "alt": "[alt text 120-125 chars from second image]",
+            "width": 800,
+            "height": 800
+          },
+          {
+            "url": "https://res.cloudinary.com/de1yf0iuo/image/upload/mirelleinspo/images/blog/[slug]/[third-content-image].webp",
+            "alt": "[alt text 120-125 chars from third image]",
+            "width": 800,
+            "height": 800
+          }
+        ]
+      },
+
+      "image_html_format": {
+        "structure": [
+          "<div class='my-8 text-center'>",
+          "  <img",
+          "    src='https://res.cloudinary.com/de1yf0iuo/image/upload/mirelleinspo/images/blog/[slug]/[filename-80-90-chars].webp'",
+          "    alt='[unique alt text 120-125 chars]'",
+          "    width='800'",
+          "    height='800'",
+          "    class='rounded-lg shadow-lg mx-auto'",
+          "    loading='lazy'",
+          "  />",
+          "</div>"
+        ],
+        "critical_rules": [
+          "ALWAYS use full Cloudinary CDN URL",
+          "ALWAYS include slug folder in path: /images/blog/[slug]/",
+          "Filename must be 80-90 characters",
+          "Alt text must be 120-125 characters",
+          "All images in WebP format"
+        ]
+      }
+    },
+
+    "structure_requirements": {
+      "no_h1": "Auto-generated from frontmatter title",
+      "h2_usage": "Major sections (6-10 sections)",
+      "h3_usage": "Subsections when needed",
+      "paragraph_flow": "Natural length, 2-4 sentences typical but flexible",
+      "section_breaks": "Horizontal rules (---) between major H2 sections",
+      "semantic_html": {
+        "emphasis": "Use <strong> for important terms",
+        "italics": "Use <em> for emphasis",
+        "reason": "Semantic SEO benefits"
+      },
+      "links": {
+        "internal_links": {
+          "format": "<a href='/blog/[slug]'>[anchor text]</a>",
+          "source": "ONLY from input file - must be valid URLs",
+          "styling": "Tailwind handles link styling naturally",
+          "quantity": "Use all provided internal links from input file"
+        },
+        "external_links": {
+          "format": "<a href='[url]' target='_blank' rel='noopener'>[anchor]</a>",
+          "source": "ONLY from input file (minimum 3 required)",
+          "styling": "Tailwind handles link styling naturally",
+          "quantity": "Minimum 3, use all provided"
+        }
+      }
+    },
+
+    "seo_optimization": {
+      "title": {
+        "length": "40-45 characters",
+        "keyword_position": "Primary keyword in first 8 words",
+        "style": "High-CTR formula (benefit-driven, clear value)"
+      },
+      "meta_description": {
+        "length": "140 characters strict",
+        "no_apostrophes": true,
+        "include": "Primary keyword naturally, clear benefit, compelling hook"
+      },
+      "heading_hierarchy": {
+        "h2_sections": "6-10 major sections",
+        "h2_keywords": "Include variations of primary/cluster keywords in headings",
+        "h2_natural": "Headings must read naturally, not keyword-stuffed",
+        "h3_subsections": "Use when breaking down complex H2 topics"
+      }
+    }
+  },
+
+  "frontmatter_structure": {
+    "critical_yaml_rule": "ALL STRING VALUES MUST BE WRAPPED IN DOUBLE QUOTES (\"\") - NO EXCEPTIONS",
+    
+    "required_fields": {
+      "slug": "\"[url-slug]\"",
+      "title": "\"[SEO-optimized title 40-45 chars]\"",
+      "excerpt": "\"[140 chars strict, no apostrophes, natural language with keyword]\"",
+      "date": "\"YYYY-MM-DDTHH:MM:SS-05:00\"",
+      "dateModified": "\"YYYY-MM-DD\"",
+      "author": "\"Mirellè Team\"",
+      "category": "\"[from input]\"",
+      "tags": "[\"primary-keyword\", \"cluster-keywords\", \"semantic-keywords\"]",
+      "image": "\"https://res.cloudinary.com/de1yf0iuo/image/upload/mirelleinspo/images/blog/[slug]/[hero-filename-80-90-chars].webp\"",
+      "imageAlt": "\"[Primary keyword alt text 120-125 chars]\"",
+      "imageWidth": "[user-specified width number]",
+      "imageHeight": "[user-specified height number]",
+      "readTime": "\"[X] min\"",
+      "canonical": "\"https://mirelleinspo.com/blog/[slug]\"",
+      "template": "\"[center/split-left/split-right/grid]\"",
+      "wordCount": "[actual count number only]"
+    },
+
+    "topical_map_enhanced": {
+      "basic_fields": {
+        "position": "\"[pillar/cluster/standalone]\"",
+        "parentPillar": "\"[slug]\" or null",
+        "relatedClusters": "[\"slug1\", \"slug2\", \"slug3\"]",
+        "primaryKeyword": "\"[this post's main keyword]\"",
+        "searchIntent": "\"[informational/commercial/transactional/navigational]\"",
+        "topicalBoundary": "\"[brief description of content scope]\"",
+        "hierarchyLevel": "[number 1-3]"
+      },
+      "enhanced_fields": {
+        "secondaryKeywords": "[\"keyword1\", \"keyword2\", \"keyword3\"]",
+        "contentType": "\"[tutorial/guide/trend-analysis/comparison/showcase]\"",
+        "semanticRelationships": {
+          "technique": "[\"technique1\", \"technique2\"]",
+          "style": "[\"style1\", \"style2\"]",
+          "occasions": "[\"occasion1\", \"occasion2\"]",
+          "relatedTechniques": "[\"related1\", \"related2\"]"
+        },
+        "contentMetrics": {
+          "technicalComplexity": "\"[beginner/intermediate/advanced]\"",
+          "timeToImplement": "\"[XX min]\"",
+          "requiredSkills": "[\"skill1\", \"skill2\"]",
+          "requiredTools": "[\"tool1\", \"tool2\"]"
+        }
+      },
+      "pillar_specific": {
+        "childClusters": [
+          {
+            "slug": "\"cluster-slug-1\"",
+            "relationship": "\"[finish-technique/style-variation/etc]\"",
+            "hierarchyLevel": 2
+          }
+        ]
+      }
+    },
+
+    "navigation_context": {
+      "pillarPost": {
+        "slug": "\"[pillar-slug]\"",
+        "title": "\"[Pillar Post Title]\"",
+        "note": "Only include if post is a cluster (not for pillar or standalone)"
+      }
+    },
+
+    "optional_fields": {
+      "tutorialSteps": {
+        "condition": "If user selects tutorial fields",
+        "format": [
+          {
+            "position": 1,
+            "name": "\"[Step name]\"",
+            "text": "\"[Detailed instructions]\"",
+            "image": "\"https://res.cloudinary.com/de1yf0iuo/image/upload/mirelleinspo/images/blog/[slug]/[step-image-80-90-chars].webp\""
+          }
+        ]
+      },
+      "tutorialMetadata": {
+        "condition": "If tutorialSteps present",
+        "structure": {
+          "name": "\"[Tutorial name]\"",
+          "description": "\"[Brief description]\"",
+          "totalTime": "\"PT30M\"",
+          "estimatedCost": {
+            "currency": "\"USD\"",
+            "value": "\"25\""
+          },
+          "tools": "[\"tool1\", \"tool2\"]",
+          "supplies": "[\"supply1\", \"supply2\"]"
+        }
+      },
+      "videoMetadata": {
+        "condition": "If user selects video field",
+        "structure": {
+          "name": "\"[Video title]\"",
+          "description": "\"[Video description]\"",
+          "thumbnailUrl": "\"[URL]\"",
+          "uploadDate": "\"YYYY-MM-DD\"",
+          "duration": "\"PT5M\"",
+          "embedUrl": "\"[URL]\""
+        }
+      },
+      "eventData": {
+        "condition": "If user selects event field",
+        "structure": {
+          "name": "\"[Event name]\"",
+          "startDate": "\"YYYY-MM-DD\"",
+          "endDate": "\"YYYY-MM-DD\"",
+          "eventStatus": "\"EventScheduled\"",
+          "eventAttendanceMode": "\"OnlineEventAttendanceMode\"",
+          "isVirtual": true
+        }
+      },
+      "products": {
+        "condition": "If user selects products field",
+        "structure": [
+          {
+            "image": "\"https://res.cloudinary.com/de1yf0iuo/image/upload/mirelleinspo/images/products/[product-image].webp\"",
+            "title": "\"[Product name]\"",
+            "price": "\"$XX.XX\"",
+            "brand": "\"[Brand name]\"",
+            "url": "\"[Product URL]\""
+          }
+        ],
+        "note": "Renders at 40% content mark in ProductGrid component"
+      }
+    },
+
+    "gallery_images": {
+      "auto_generated": true,
+      "source": "First 3 content images from post",
+      "structure": [
+        {
+          "url": "\"https://res.cloudinary.com/de1yf0iuo/image/upload/mirelleinspo/images/blog/[slug]/[first-content-image-80-90-chars].webp\"",
+          "alt": "\"[alt text 120-125 chars]\"",
+          "width": 800,
+          "height": 800
+        },
+        {
+          "url": "\"https://res.cloudinary.com/de1yf0iuo/image/upload/mirelleinspo/images/blog/[slug]/[second-content-image-80-90-chars].webp\"",
+          "alt": "\"[alt text 120-125 chars]\"",
+          "width": 800,
+          "height": 800
+        },
+        {
+          "url": "\"https://res.cloudinary.com/de1yf0iuo/image/upload/mirelleinspo/images/blog/[slug]/[third-content-image-80-90-chars].webp\"",
+          "alt": "\"[alt text 120-125 chars]\"",
+          "width": 800,
+          "height": 800
+        }
+      ],
+      "note": "Always included, no user selection needed"
+    }
+  },
+
+  "content_body_structure": {
+    "introduction": {
+      "length": "200-250 words",
+      "first_100_words_mandate": [
+        "Primary keyword MUST appear 2-3 times in first 100 words",
+        "Deliver immediate user value (answer search query)",
+        "No fluff or creative hooks before value",
+        "Natural integration of keyword (avoid forced placement)"
+      ],
+      "elements": [
+        "Direct answer to title question (first 2-3 sentences)",
+        "2-3 sentences on relevance/why now",
+        "Reader benefit (what they'll find)",
+        "Internal link if natural (from input file)"
+      ]
+    },
+
+    "main_content": {
+      "h2_sections": {
+        "quantity": "6-10 major sections",
+        "structure": "Natural language headings with keyword variations",
+        "spacing": "Horizontal rule (---) between sections",
+        "flow": "Logical progression, answers user intent"
+      },
+      "images": {
+        "frequency": "Every 200-300 words naturally",
+        "total": "10 content images",
+        "placement": "After relevant paragraph, before next section",
+        "format": "HTML block with full Cloudinary CDN URL including slug folder"
+      },
+      "internal_links": {
+        "source": "ONLY from input file",
+        "placement": "Natural integration throughout content",
+        "format": "<a href='/blog/[slug]'>[anchor text]</a>"
+      },
+      "external_links": {
+        "minimum": 3,
+        "source": "ONLY from input file",
+        "placement": "Support claims with authority sources",
+        "format": "<a href='[url]' target='_blank' rel='noopener'>[anchor]</a>"
+      },
+      "writing_style": {
+        "voice": "Follow input file voice guidelines absolutely",
+        "humanization": "Write naturally, avoid AI patterns",
+        "personality": "Let authentic voice shine through",
+        "variation": "Vary sentence structures and lengths naturally"
+      }
+    },
+
+    "component_sections": {
+      "products_section": {
+        "condition": "If products in frontmatter",
+        "position": "After 40% of content",
+        "rendering": "ProductGrid component auto-renders",
+        "agent_action": "No markdown needed, component handles display"
+      },
+      "newsletter_section": {
+        "condition": "Always present",
+        "position": "After 60% of content",
+        "rendering": "InlineNewsletter component auto-renders",
+        "agent_action": "No markdown needed, component handles display"
+      },
+      "eeat_section": {
+        "condition": "Always present",
+        "position": "After all content, before final newsletter",
+        "rendering": "AboutEEAT component auto-renders",
+        "agent_action": "No markdown needed, component handles display",
+        "content": "3 paragraphs about Mirellè team + link to /about"
+      },
+      "final_newsletter_section": {
+        "condition": "Always present",
+        "position": "After E-E-A-T section",
+        "rendering": "FinalNewsletter component auto-renders",
+        "agent_action": "No markdown needed, component handles display"
+      },
+      "read_more_section": {
+        "condition": "Always present",
+        "position": "Final section after all content",
+        "rendering": "ReadMoreSection component auto-renders",
+        "logic": "Auto-generates 3 related posts by category/clusters",
+        "agent_action": "No markdown needed, component handles display"
+      }
+    },
+
+    "conclusion": {
+      "length": "150-200 words",
+      "heading": "## [Natural conclusion heading - not 'Conclusion']",
+      "elements": [
+        "Recap top 3 takeaways naturally",
+        "Soft CTA (next steps/explore more)",
+        "Internal link if natural (from input file)",
+        "Encouraging sign-off using voice from input file"
+      ],
+      "style": "Avoid generic AI conclusions, write authentically"
+    }
+  },
+
+  "quality_checklist": {
+  "before_delivery": [
+    "STRICT: Word count matches input file target exactly (±50 words max tolerance)",
+    "Primary keyword: 2-3 mentions in first 100 words",
+    "Primary keyword density: 4% in first half, 2% in second half",
+    "CRITICAL: First keyword mention wrapped in <strong> tags",
+    "CALCULATION REQUIRED: Count first 100 words manually and verify keyword placement",
+    "CALCULATION REQUIRED: (Total word count ÷ 2) × 0.04 = required first-half keyword mentions",
+    "CALCULATION REQUIRED: (Total word count ÷ 2) × 0.02 = required second-half keyword mentions",
+    "Cluster keywords integrated naturally throughout",
+    "Title: 40-45 characters with primary keyword",
+    "Excerpt: 140 characters strict, no apostrophes",
+    "Reading time: (Total word count ÷ 200) rounded to nearest whole number",
+    "Reading time format: 'X min' in frontmatter",
+    "10 content images embedded (800x800px WebP)",
+    "1 hero image (user-specified dimensions, WebP)",
+    "Gallery images = first 3 content images in frontmatter",
+    "Image filenames: 80-90 characters descriptive (NOT slug-1, slug-2)",
+    "All image URLs use full Cloudinary CDN path with slug folder",
+    "Image URL format: https://res.cloudinary.com/de1yf0iuo/image/upload/mirelleinspo/images/blog/[slug]/[filename].webp",
+    "All image alt texts 120-125 characters strict",
+    "All image alt texts unique per image",
+    "Image placement: every 200-300 words naturally",
+    "All internal links from input file included",
+    "Minimum 3 external authority links from input file",
+    "External links format: <a href='[url]' target='_blank' rel='noopener'>[anchor]</a>",
+    "All links use natural Tailwind styling (no hardcoded blue underline)",
+    "COPYRIGHT CRITICAL: Zero direct quotes from external sources",
+    "COPYRIGHT CRITICAL: All external content fully paraphrased in original wording",
+    "COPYRIGHT CRITICAL: No 15+ word quotations (SEVERE VIOLATION)",
+    "COPYRIGHT CRITICAL: Maximum ONE quote per source (prefer zero quotes)",
+    "COPYRIGHT CRITICAL: No song lyrics, poems, or article paragraphs reproduced",
+    "COPYRIGHT CRITICAL: No sentence structure mirroring from sources",
+    "6-10 H2 sections with natural headings",
+    "H2 sections: 150-250 words each",
+    "Horizontal rules (---) between EVERY major H2 section - NO EXCEPTIONS",
+    "Semantic HTML: <strong> for key terms, <em> for emphasis",
+    "First primary keyword mention uses <strong> tags",
+    "Voice from input file maintained throughout",
+    "Content sounds human, not AI-generated",
+    "No robotic patterns or formulaic structures",
+    "Natural sentence and paragraph variation",
+    "Introduction: 200-250 words with immediate value delivery",
+    "Conclusion: 150-200 words with natural heading (not 'Conclusion')",
+    "Conclusion: Recap top 3 takeaways using <strong> tags",
+    "All frontmatter strings wrapped in double quotes \"\"",
+    "All frontmatter arrays populated correctly",
+    "Template field matches user selection",
+    "Hero dimensions match user specifications",
+    "Component sections auto-render (no markdown needed)",
+    "E-E-A-T handled by component (no markdown needed)",
+    "Read More handled by component (no markdown needed)",
+    "Author field: 'Mirellè Team' (with è, not é)",
+    "Brand name: 'Mirellè' everywhere (with è, not é)",
+    "Enhanced topicalMap with secondaryKeywords, contentType, semanticRelationships, contentMetrics",
+    "navigationContext included for cluster posts (pillarPost reference)",
+    "Keyword cannibalization check: Primary keyword NOT reused from other posts",
+    "Keyword cannibalization check: No overlapping search intent with existing posts",
+    "Topical separation: Clear unique focus distinct from other posts",
+    "Total page optimized for Core Web Vitals",
+    "Content delivers on title promise immediately",
+    "Reads naturally from start to finish",
+    "FINAL VERIFICATION: Manual check completed before delivery",
+    "FINAL VERIFICATION: All mandatory rules followed exactly",
+    "FINAL VERIFICATION: No rules skipped, abbreviated, or loosely interpreted"
+  ],
+  
+  "mandatory_self_check": {
+    "keyword_density_verification": {
+      "step1": "Count total words in post",
+      "step2": "Calculate first 100 words and verify 2-3 keyword mentions",
+      "step3": "Calculate (word count ÷ 2) × 0.04 for first-half target",
+      "step4": "Calculate (word count ÷ 2) × 0.02 for second-half target",
+      "step5": "Count actual keyword mentions in each half",
+      "step6": "Verify first keyword use has <strong> tags",
+      "step7": "Confirm natural integration without forced placement"
+    },
+    
+    "structural_verification": {
+      "step1": "Count H2 sections (must be 6-10)",
+      "step2": "Verify --- between EVERY H2 section",
+      "step3": "Check each H2 section is 150-250 words",
+      "step4": "Verify <strong> tags on first keyword and key terms",
+      "step5": "Confirm reading time calculation: (word count ÷ 200)"
+    },
+    
+    "image_verification": {
+      "step1": "Count images (1 hero + 10 content = 11 total)",
+      "step2": "Verify all URLs use full Cloudinary CDN path with slug folder",
+      "step3": "Check all filenames are 80-90 characters",
+      "step4": "Verify all alt texts are 120-125 characters",
+      "step5": "Confirm images placed every 200-300 words",
+      "step6": "Verify first 3 content images populate galleryImages"
+    },
+    
+    "copyright_verification": {
+      "step1": "Confirm ZERO direct quotes from sources",
+      "step2": "Verify all external content is fully paraphrased",
+      "step3": "Check no sentence structure mirrors sources",
+      "step4": "Confirm external links format correctly",
+      "step5": "Verify minimum 3 external links used"
+    },
+    
+    "brand_verification": {
+      "step1": "Check author field: 'Mirellè Team' (with è)",
+      "step2": "Verify brand name 'Mirellè' throughout (with è)",
+      "step3": "Confirm no instances of 'Mirellé' (incorrect é)"
+    },
+    
+    "topical_map_verification": {
+      "step1": "Verify secondaryKeywords array populated",
+      "step2": "Confirm contentType assigned",
+      "step3": "Check semanticRelationships complete",
+      "step4": "Verify contentMetrics populated",
+      "step5": "Confirm navigationContext for cluster posts",
+      "step6": "Check keyword cannibalization: unique primary keyword"
+    }
+  },
+  
+  "critical_enforcement": {
+    "non_negotiable_rules": [
+      "Every rule must be followed exactly",
+      "No rule may be skipped or partially followed",
+      "Missing data = generation must not begin",
+      "Manual verification required before output",
+      "'Mostly correct' = incorrect",
+      "Copyright violations are SEVERE",
+      "Keyword density must be calculated, not estimated",
+      "Image specifications are absolute",
+      "Brand name spelling is absolute (Mirellè with è)"
+    ]
+  }
+}
+      
