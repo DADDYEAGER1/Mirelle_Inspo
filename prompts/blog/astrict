@@ -1,0 +1,298 @@
+STRICT COMPLIANCE REQUIRED
+
+CRITICAL: READ ALL RULES BEFORE STARTING
+
+You are generating a blog post using the Mirellé Blog Post Generator system.
+EVERY RULE below is MANDATORY and NON-NEGOTIABLE.
+Skipping any rule is a SEVERE violation.
+
+STRICT COMPLIANCE RULES (ENFORCEMENT LAYER)
+
+All instructions in this file must be followed exactly.
+
+No rule may be skipped, partially followed, or interpreted loosely.
+
+If required data is missing, generation must not begin.
+
+Manual verification is required before final output.
+
+“Mostly correct” output is considered incorrect.
+
+KEYWORD DENSITY RULES (STRICT CALCULATION REQUIRED)
+
+PRIMARY KEYWORD PLACEMENT — MANDATORY:
+
+First 100 Words
+
+Primary keyword MUST appear 2–3 times
+
+Count words manually
+
+Verify keyword appears naturally
+
+First occurrence MUST use <strong> tags
+
+First Half Density
+
+Required density: 4%
+
+Calculation:
+
+(Total word count ÷ 2) × 0.04
+
+
+Result = exact number of keyword mentions required in first half
+
+Second Half Density
+
+Required density: 2%
+
+Calculation:
+
+(Total word count ÷ 2) × 0.02
+
+
+Result = exact number of keyword mentions required in second half
+
+Verification Checklist
+
+First 100 words counted
+
+Primary keyword appears 2–3 times in first 100 words
+
+First-half keyword density calculated and met
+
+Second-half keyword density calculated and met
+
+Keyword usage feels natural, not forced
+
+STRUCTURAL REQUIREMENTS
+Horizontal Rules Between Sections
+
+Insert --- between EVERY major H2 section
+
+No exceptions
+
+Used to create visual breathing room
+
+Semantic HTML Markup
+
+Use <strong> for important terms (semantic SEO)
+
+Use <em> for emphasis
+
+First mention of primary keyword MUST use <strong>
+
+Reading Time Calculation
+
+Formula:
+
+Total word count ÷ 200
+
+
+Round to nearest whole number
+
+Format exactly as: "X min"
+
+Must be included in frontmatter
+
+COPYRIGHT COMPLIANCE (CRITICAL)
+
+ABSOLUTE RULES — NO EXCEPTIONS:
+
+NEVER quote external sources verbatim
+
+ALWAYS paraphrase in original wording
+
+15+ word quotations are SEVERE violations
+
+ONE quote per source MAXIMUM (prefer zero)
+
+Prohibited Content
+
+Song lyrics (any length)
+
+Poems (any length)
+
+Article paragraphs reproduced verbatim
+
+Any copyrighted creative text
+
+Paraphrasing Protocol
+
+Read the source
+
+Close the source
+
+Write fully in your own words
+
+Attribute with a link
+
+No sentence structure mirroring
+
+Self-Check Before Including External Content
+
+Is this fully my own wording?
+
+Could this be mistaken for original text?
+
+Does this mirror the source structure?
+
+If any answer is “yes” → rewrite.
+
+EXTERNAL LINKS RULES
+
+Use ONLY external authority links provided in the input file
+
+No discovery or substitution allowed
+
+Format exactly:
+
+<a href='URL' target='_blank' rel='noopener'>anchor text</a>
+
+External Link Requirements
+
+Minimum: 3–4 external authority links
+
+Must be used in relevant context
+
+Must be paraphrased content only
+
+No quotations from external sources
+
+KEYWORD CANNIBALIZATION PREVENTION (RULES ONLY)
+
+Do NOT reuse primary keywords assigned to other posts
+
+Do NOT target overlapping search intent
+
+One primary keyword per post
+
+Supporting keywords must reinforce, not compete
+
+Avoid duplicating headings, phrasing, or semantic focus used elsewhere
+
+Maintain clear topical separation between posts
+
+(No reserved keywords are defined in this file. Those must come from the input file.)
+
+CONTENT BODY REQUIREMENTS
+Introduction
+
+Length: 200–250 words
+
+First 100 words are critical
+
+Immediate value delivery
+
+No filler before topic clarity
+
+Primary keyword rules must be satisfied
+
+H2 Sections
+
+Total sections: 6–10
+
+Each section: 150–250 words
+
+Natural-language headings
+
+Use <strong> and <em> where appropriate
+
+--- separator required between ALL H2 sections
+
+Images
+
+1 hero image
+
+10 content images
+
+Placement: every 200–300 words
+
+Format: WebP only
+
+HTML structure:
+
+<div class='my-8 text-center'>
+  <img
+    src='/images/blog/[filename].webp'
+    alt='[unique alt text]'
+    width='800'
+    height='800'
+    class='rounded-lg shadow-lg mx-auto'
+    loading='lazy'
+  />
+</div>
+
+Conclusion
+
+Length: 150–200 words
+
+Natural heading (not “Conclusion”)
+
+Recap top 3 takeaways using <strong>
+
+Soft next-step guidance
+
+Authentic, authoritative close
+
+QUALITY CHECKLIST (MANDATORY VERIFICATION)
+
+Before delivery, confirm ALL of the following:
+
+Word Count & Keywords
+
+Target word count met (±50 words)
+
+First 100 words contain primary keyword 2–3 times
+
+First half keyword density = 4%
+
+Second half keyword density = 2%
+
+First keyword use wrapped in <strong>
+
+Structure & Formatting
+
+6–10 H2 sections
+
+--- between every H2
+
+<strong> used for key terms
+
+<em> used for emphasis
+
+Reading time correctly calculated
+
+Images
+
+Correct number of images
+
+Correct dimensions
+
+Valid filenames
+
+Unique alt text under 120 characters
+
+Links
+
+External links only from input file
+
+Correct HTML format
+
+Minimum external link count met
+
+All content paraphrased
+
+Copyright
+
+No quotes
+
+No reproduced text
+
+Fully original wording
+
+FINAL MANDATE
+
+EVERY rule above is mandatory.
+Do not skip, abbreviate, or reinterpret.
