@@ -1,0 +1,301 @@
+# BATCH 2: VALENTINE NAILS CLUSTER - POSTS 5-8
+
+## 🎯 YOUR MISSION
+You are creating **4 input files** for a Valentine nails content cluster. These posts are part of a 15-post cluster with **"valentines day nails"** as the MAIN PILLAR POST.
+
+---
+
+## 📊 CLUSTER STRUCTURE YOU MUST FOLLOW
+
+### **MAIN PILLAR POST:**
+- **URL:** `blog/valentines-day-nails`
+- **Keyword:** valentines day nails
+- **Role:** Central hub that links to all 14 supporting posts
+
+### **YOUR 4 POSTS (Supporting Pillars):**
+
+5. **pink valentine nails**
+   - **Slug:** `blog/pink-valentine-nails`
+   - **Links TO:** Main pillar + related posts (red nails, polish, colors, designs)
+   - **Links FROM:** Main pillar
+
+6. **heart nails**
+   - **Slug:** `blog/heart-nails`
+   - **Links TO:** Main pillar + related posts (designs, nail art, simple, acrylic)
+   - **Links FROM:** Main pillar
+
+7. **valentine acrylic nails**
+   - **Slug:** `blog/valentine-acrylic-nails`
+   - **Links TO:** Main pillar + related posts (designs, nail art, long nails, shapes)
+   - **Links FROM:** Main pillar
+
+8. **valentine press on nails**
+   - **Slug:** `blog/valentine-press-on-nails`
+   - **Links TO:** Main pillar + related posts (best nails, simple, short, designs)
+   - **Links FROM:** Main pillar
+
+### **ALL 15 POSTS IN CLUSTER:**
+```
+Main: blog/valentines-day-nails
+├── blog/valentine-nail-designs
+├── blog/valentines-day-nail-art
+├── blog/red-valentine-nails
+├── blog/pink-valentine-nails ← YOUR BATCH
+├── blog/heart-nails ← YOUR BATCH
+├── blog/valentine-acrylic-nails ← YOUR BATCH
+├── blog/valentine-press-on-nails ← YOUR BATCH
+├── blog/best-valentine-nails
+├── blog/valentine-nail-polish
+├── blog/valentine-nails-simple
+├── blog/short-valentine-nails
+├── blog/long-valentine-nails
+├── blog/coffin-valentine-nails
+└── blog/almond-valentine-nails
+```
+
+---
+
+## ⚠️ CRITICAL INSTRUCTIONS
+
+### **INTERNAL LINKING RULES:**
+1. **Every post MUST link to the main pillar** (`blog/valentines-day-nails`)
+2. **Every post should link to 3-5 related child posts** from the cluster
+3. Include internal linking opportunities in the final input file under `cluster_context`
+
+### **FRONTMATTER REQUIREMENTS:**
+Every input file MUST include in metadata:
+```json
+"cluster_context": {
+  "main_pillar": "blog/valentines-day-nails",
+  "main_pillar_keyword": "valentines day nails",
+  "this_post_slug": "blog/[your-post-slug]",
+  "related_child_posts": [
+    {"slug": "blog/related-post-1", "keyword": "keyword", "link_context": "when to link"},
+    {"slug": "blog/related-post-2", "keyword": "keyword", "link_context": "when to link"},
+    {"slug": "blog/related-post-3", "keyword": "keyword", "link_context": "when to link"}
+  ],
+  "internal_linking_strategy": "Brief note on how this post fits in cluster"
+}
+```
+
+---
+
+## 🔄 YOUR WORKFLOW
+
+### **STEP 1: ASK USER THESE QUESTIONS (For EACH of your 4 posts)**
+
+Before starting research, ask:
+
+**For Post: [POST KEYWORD]**
+1. **POST TYPE?** (Product Roundup / Comparison / Tutorial / Trend Report / Buying Guide / Design Gallery)
+2. **WORD COUNT TARGET?** (User will specify, max 2000 words for content-heavy, 1200-1500 for product-heavy)
+3. **PRODUCT COUNT?** (How many products to include)
+4. **IMAGE COUNT?** (How many images user will provide)
+5. **AFFILIATE INTENSITY?** (Heavy / Medium / Light)
+
+⚠️ **WAIT FOR USER RESPONSE BEFORE PROCEEDING TO STEP 2**
+
+---
+
+### **STEP 2: RESEARCH & VALIDATE**
+
+Follow the full workflow from the main SEO research prompt:
+- ✅ Phase 4: SERP Competitor Analysis
+- ✅ Phase 5: User Pain Point Research  
+- ✅ Phase 6: Semantic Keyword Research
+- ✅ Phase 7: Voice Search Optimization
+- ✅ Phase 8: Content Structure (H1 + H2s)
+- ✅ Phase 9: External Authority Links
+- ✅ Phase 10: Voice/Tone Recommendation
+
+---
+
+### **STEP 3: PRODUCT OPPORTUNITY RESEARCH**
+
+**CRITICAL PRODUCT RESEARCH FLOW:**
+
+1. **Research what products people actually buy** for this keyword:
+   - Search "[keyword] products" on Amazon
+   - Check Amazon Best Sellers in category
+   - Review top-ranking affiliate posts
+   - Identify product types, price ranges, brands
+
+2. **Present product recommendations to user:**
+   ```
+   For [POST KEYWORD], I recommend including:
+   
+   PRODUCT CATEGORY 1: [e.g., Pink Press-On Sets]
+   - Why people buy: [reason]
+   - Price range: [range]
+   - Quantity needed: [number]
+   - Example products found: [list 2-3 examples with current prices]
+   
+   PRODUCT CATEGORY 2: [e.g., Pink Gel Polish]
+   - Why people buy: [reason]
+   - Price range: [range]
+   - Quantity needed: [number]
+   - Example products found: [list 2-3 examples]
+   
+   [Continue for all categories...]
+   
+   TOTAL PRODUCTS RECOMMENDED: [match user's requested count]
+   
+   Please provide:
+   - Final product names
+   - Affiliate URLs (REQUIRED)
+   - Any specific features/details you want highlighted
+   - Prices (if different from what I found)
+   - Ratings (if you have them)
+   ```
+
+3. **WAIT FOR USER TO PROVIDE:**
+   - Product names (exact)
+   - Affiliate URLs (MANDATORY)
+   - Product details (features, pros, cons, ratings)
+   - Prices
+
+⚠️ **DO NOT PROCEED TO STEP 4 UNTIL USER PROVIDES PRODUCT DETAILS**
+
+---
+
+### **STEP 4: CREATE FINAL INPUT FILE**
+
+**CRITICAL FILE REQUIREMENTS:**
+
+✅ **Maximum word count per user specs** (1200-2000 words based on post type)
+✅ **Dense data only** - no fluff, all actionable
+✅ **Lists and bullets** over paragraphs
+✅ **Include cluster context** with slugs and internal linking strategy
+
+Use the EXACT same JSON structure from Batch 1 prompt, including:
+- metadata (with cluster_context)
+- serp_analysis
+- products array
+- semantic_keyword_data
+- voice_search_queries
+- user_research
+- content_structure
+- voice_tone_recommendation
+- external_links
+- faq_questions
+- content_writing_instructions
+
+**⚠️ REFER TO BATCH 1 PROMPT FOR COMPLETE JSON STRUCTURE**
+
+---
+
+## 🚨 ABSOLUTE RULES - NEVER VIOLATE
+
+### **KEYWORD & SEMANTIC DATA:**
+- ✅ **ALL semantic keywords are ABSOLUTE** - content generator MUST use them
+- ✅ **LSI terms are NOT optional** - they determine topical relevance for ranking
+- ✅ **User phrases must appear naturally** in content
+- ❌ **DO NOT let content generator override semantic data**
+
+### **PRODUCT WRITING APPROACH:**
+- ✅ **Semantic, natural integration** - products mentioned within context
+- ✅ **Focus on user needs first** - products solve problems
+- ❌ **NO product specification paragraphs** - not "This product has X, Y, Z features"
+- ❌ **NO catalog-style writing** - we're ranking for keywords, not selling products directly
+
+**EXAMPLE - CORRECT SEMANTIC APPROACH:**
+```
+"Pink Valentine nails range from soft blush to vibrant hot pink, each shade creating 
+different moods. For precise application, gel polishes like the Beetles Gel Set ($12.99) 
+maintain color intensity through multiple weeks without the clouding that affects some formulas."
+```
+
+**EXAMPLE - WRONG APPROACH (Don't do this):**
+```
+"Beetles Gel Polish Set
+- Features: 6 pink shades
+- Price: $12.99
+- Rating: 4.6/5 stars
+This set includes baby pink, hot pink, and rose shades..."
+```
+
+### **CLUSTER INTEGRITY:**
+- ✅ **Every post MUST reference main pillar** in metadata and content
+- ✅ **Internal links are MANDATORY** not suggestions
+- ✅ **Slug format must match exactly:** `blog/post-keyword`
+- ❌ **NO broken cluster relationships** - all 15 posts must interconnect
+
+---
+
+## ✅ QUALITY CHECKLIST BEFORE DELIVERY
+
+Use the complete checklist from Batch 1 prompt to verify:
+- [ ] Cluster structure (main pillar, slug, related posts, linking strategy)
+- [ ] Keyword research (validated primary, variations, cluster terms, LSI, user language)
+- [ ] Content structure (H1 with keyword, 8-15 H2s, reasoning, voice/tone)
+- [ ] Product integration (affiliate URLs, organized by category, semantic instructions)
+- [ ] SERP analysis (competitors, word count, H2 patterns, differentiation)
+- [ ] User research (5 pain points, user phrases, buying triggers, voice queries)
+- [ ] External links (3-6 authorities, context, anchor text)
+- [ ] File specifications (word count limit, dense data, lists, no fluff)
+
+---
+
+## 🎯 YOUR 4 POSTS FOR THIS BATCH
+
+### **POST 5: pink valentine nails**
+- Primary keyword: pink valentine nails
+- Slug: `blog/pink-valentine-nails`
+- Product focus: HEAVY (product roundup likely)
+- Related posts to link: red valentine nails, polish, designs, colors
+
+### **POST 6: heart nails**
+- Primary keyword: heart nails
+- Slug: `blog/heart-nails`
+- Product focus: HEAVY (tools, stickers, polish)
+- Related posts to link: designs, nail art, simple, acrylic
+
+### **POST 7: valentine acrylic nails**
+- Primary keyword: valentine acrylic nails
+- Slug: `blog/valentine-acrylic-nails`
+- Product focus: HEAVY (acrylic kits, supplies)
+- Related posts to link: designs, nail art, long nails, coffin, almond
+
+### **POST 8: valentine press on nails**
+- Primary keyword: valentine press on nails
+- Slug: `blog/valentine-press-on-nails`
+- Product focus: HEAVY (press-on sets - major product opportunity)
+- Related posts to link: best nails, simple, short, designs
+
+---
+
+## 🚀 START HERE
+
+**Reply with:**
+
+"I'm ready to create input files for Batch 2 (4 posts). Please provide for each post:
+
+**POST 5: pink valentine nails**
+1. Post type: [?]
+2. Word count target: [?]
+3. Product count: [?]
+4. Image count: [?]
+5. Affiliate intensity: [?]
+
+**POST 6: heart nails**
+1. Post type: [?]
+2. Word count target: [?]
+3. Product count: [?]
+4. Image count: [?]
+5. Affiliate intensity: [?]
+
+**POST 7: valentine acrylic nails**
+1. Post type: [?]
+2. Word count target: [?]
+3. Product count: [?]
+4. Image count: [?]
+5. Affiliate intensity: [?]
+
+**POST 8: valentine press on nails**
+1. Post type: [?]
+2. Word count target: [?]
+3. Product count: [?]
+4. Image count: [?]
+5. Affiliate intensity: [?]"
+
+Then proceed with your research workflow!
