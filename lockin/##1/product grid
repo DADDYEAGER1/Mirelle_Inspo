@@ -1,0 +1,255 @@
+'use client';
+
+import { useState } from 'react';
+import { Product } from '@/types/blog';
+
+interface ProductGridProps {
+  products: Product[];
+  count: 1 | 2 | 4; // How many products per row
+  indices: number[]; // Which products to show (0-based)
+  headingLevel?: 'h2' | 'h3'; // For single product featured layout
+}
+
+// Individual Product Card Component
+function ProductCard({ 
+  product, 
+  layout,
+  align = 'left'
+}: { 
+  product: Product; 
+  layout: 'grid' | 'featured';
+  align?: 'left' | 'right';
+}) {
+  const [isZoomed, setIsZoomed] = useState(false);
+  
+  // Handle backward compatibility
+  const productName = product.name || product.title || 'Product';
+  const productLink = product.link || product.url || '#';
+
+  // Grid Layout (2 or 4 products - side by side)
+  if (layout === 'grid') {
+    return (
+      <>
+        <div className="group block bg-background overflow-hidden border border-gray-200 hover:shadow-md transition-shadow duration-300">
+          {/* Product Image - Clickable for zoom */}
+          <button
+            onClick={() => setIsZoomed(true)}
+            className="relative w-full aspect-square overflow-hidden bg-gray-50 cursor-zoom-in"
+          >
+            <img
+              src={product.image}
+              alt={productName}
+              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+              loading="lazy"
+            />
+          </button>
+
+          {/* Product Info */}
+          <div className="p-6 text-center">
+            <h3 className="font-ui text-sm md:text-base mb-3" style={{ color: '#252220' }}>
+              {productName}
+            </h3>
+            <p className="font-ui text-base md:text-lg font-semibold mb-4" style={{ color: '#252220' }}>
+              {product.price}
+            </p>
+            <a
+              href={productLink}
+              target="_blank"
+              rel="noopener noreferrer sponsored"
+              className="block w-full py-3 px-4 border-2 font-ui text-sm uppercase tracking-wide hover:bg-black hover:text-white transition-colors duration-300"
+              style={{ borderColor: '#252220', color: '#252220' }}
+              onMouseEnter={(e) => e.currentTarget.style.color = 'white'}
+              onMouseLeave={(e) => e.currentTarget.style.color = '#252220'}
+            >
+              Shop Now
+            </a>
+          </div>
+        </div>
+
+        {/* Zoom Modal */}
+        {isZoomed && (
+          <div 
+            className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-4"
+            onClick={() => setIsZoomed(false)}
+          >
+            <div className="relative max-w-4xl max-h-[90vh] w-full">
+              <button
+                onClick={() => setIsZoomed(false)}
+                className="absolute -top-12 right-0 text-white text-4xl hover:text-gray-300"
+                aria-label="Close"
+              >
+                ×
+              </button>
+              <img
+                src={product.image}
+                alt={productName}
+                className="w-full h-full object-contain"
+              />
+            </div>
+          </div>
+        )}
+      </>
+    );
+  }
+
+  // Featured Layout (single product with details)
+  return (
+    <>
+      <div className={`flex flex-col ${align === 'right' ? 'lg:flex-row-reverse' : 'lg:flex-row'} gap-8 lg:gap-12 items-start`}>
+        {/* Product Card */}
+        <div className="w-full lg:w-1/2 flex-shrink-0">
+          <div className="bg-background overflow-hidden border border-gray-200">
+            {/* Product Image - Clickable for zoom */}
+            <button
+              onClick={() => setIsZoomed(true)}
+              className="relative w-full aspect-square overflow-hidden bg-gray-50 cursor-zoom-in"
+            >
+              <img
+                src={product.image}
+                alt={productName}
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                loading="lazy"
+              />
+            </button>
+
+            {/* Product Info */}
+            <div className="p-6 text-center">
+              <h3 className="font-ui text-base md:text-lg mb-4" style={{ color: '#252220' }}>
+                {productName}
+              </h3>
+              <p className="font-ui text-lg md:text-xl font-semibold mb-4" style={{ color: '#252220' }}>
+                {product.price}
+              </p>
+              <a
+                href={productLink}
+                target="_blank"
+                rel="noopener noreferrer sponsored"
+                className="block w-full py-3 px-6 border-2 font-ui text-sm uppercase tracking-wide hover:bg-black hover:text-white transition-colors duration-300"
+                style={{ borderColor: '#252220', color: '#252220' }}
+                onMouseEnter={(e) => e.currentTarget.style.color = 'white'}
+                onMouseLeave={(e) => e.currentTarget.style.color = '#252220'}
+              >
+                Shop Now
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* Product Details */}
+        {product.details && product.details.length > 0 && (
+          <div className="w-full lg:w-1/2 flex flex-col justify-center">
+            <ul className="space-y-4">
+              {product.details.map((detail, idx) => (
+                <li key={idx} className="flex items-start gap-3">
+                  <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-black flex-shrink-0" style={{ backgroundColor: '#252220' }} />
+                  <span className="font-ui text-sm md:text-base leading-relaxed text-gray-700">
+                    {detail}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </div>
+
+      {/* Zoom Modal */}
+      {isZoomed && (
+        <div 
+          className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-4"
+          onClick={() => setIsZoomed(false)}
+        >
+          <div className="relative max-w-4xl max-h-[90vh] w-full">
+            <button
+              onClick={() => setIsZoomed(false)}
+              className="absolute -top-12 right-0 text-white text-4xl hover:text-gray-300"
+              aria-label="Close"
+            >
+              ×
+            </button>
+            <img
+              src={product.image}
+              alt={productName}
+              className="w-full h-full object-contain"
+            />
+          </div>
+        </div>
+      )}
+    </>
+  );
+}
+
+// Main ProductGrid Component
+export default function ProductGrid({ products, count, indices, headingLevel = 'h2' }: ProductGridProps) {
+  // Filter products based on indices
+  const selectedProducts = indices
+    .map(idx => products[idx])
+    .filter(Boolean);
+
+  if (selectedProducts.length === 0) {
+    return null;
+  }
+
+  // Single Product - Featured Layout
+  if (count === 1) {
+    const HeadingTag = headingLevel;
+    
+    return (
+      <div className="my-12 space-y-12">
+        {selectedProducts.map((product, idx) => {
+          const align = idx % 2 === 0 ? 'left' : 'right';
+          const productName = product.name || product.title || 'Product';
+          
+          return (
+            <div key={idx}>
+              <HeadingTag className="font-ui text-2xl md:text-3xl mb-6" style={{ color: '#252220' }}>
+                {productName}
+              </HeadingTag>
+              
+              <ProductCard
+                product={product}
+                layout="featured"
+                align={align}
+              />
+            </div>
+          );
+        })}
+      </div>
+    );
+  }
+
+  // 2 Products - Grid Layout
+  if (count === 2) {
+    return (
+      <div className="my-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+          {selectedProducts.map((product, idx) => (
+            <ProductCard
+              key={idx}
+              product={product}
+              layout="grid"
+            />
+          ))}
+        </div>
+      </div>
+    );
+  }
+
+  // 4 Products - 2x2 Grid Layout
+  if (count === 4) {
+    return (
+      <div className="my-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 lg:gap-8">
+          {selectedProducts.map((product, idx) => (
+            <ProductCard
+              key={idx}
+              product={product}
+              layout="grid"
+            />
+          ))}
+        </div>
+      </div>
+    );
+  }
+
+  return null;
+}
