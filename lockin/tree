@@ -1,0 +1,147 @@
+src/
+│
+├── app/
+│   ├── layout.tsx
+│   ├── globals.css
+│   ├── page.tsx
+│   │
+│   ├── blog/
+│   │   ├── page.tsx
+│   │   └── [slug]/
+│   │       ├── page.tsx
+│   │       └── templates/
+│   │           ├── CenterTemplate.tsx
+│   │           ├── GridTemplate.tsx
+│   │           └── SplitLeftTemplate.tsx
+│   │
+│   ├── shop/
+│   │   ├── page.tsx
+│   │   ├── [category]/
+│   │   │   ├── page.tsx
+│   │   │   └── [productId]/
+│   │   │       └── page.tsx
+│   │
+│   ├── inspo/
+│   │   ├── page.tsx
+│   │   └── [design]/
+│   │       └── page.tsx
+│   │
+│   ├── topics/
+│   │   ├── page.tsx
+│   │   ├── nail-care-guide/
+│   │   │   └── page.tsx
+│   │   └── skin-tones/
+│   │       └── page.tsx
+│   │
+│   ├── posts/
+│   │   └── page.tsx
+│   │
+│   ├── about/
+│   │   └── page.tsx
+│   │
+│   ├── brands/
+│   │   └── page.tsx
+│   │
+│   ├── contact/
+│   │   └── page.tsx
+│   │
+│   └── nails-try-on/
+│       └── page.tsx
+│
+├── components/
+│   │
+│   ├── Header.tsx
+│   ├── Footer.tsx
+│   ├── Breadcrumbs.tsx
+│   │
+│   ├── ui/
+│   │   ├── GlassCard.tsx
+│   │   ├── ScrollReveal.tsx
+│   │   ├── PremiumButton.tsx
+│   │   ├── AnimatedCard.tsx
+│   │   └── StickyBottomNav.tsx
+│   │
+│   ├── Homepage/
+│   │   ├── Hero1Section.tsx
+│   │   ├── Hero2Section.tsx
+│   │   ├── MustReadSection.tsx
+│   │   ├── BlogCarousel.tsx
+│   │   ├── ShopCarousel.tsx
+│   │   ├── InspoMasonryGrid.tsx
+│   │   └── SubscribeSection.tsx
+│   │
+│   ├── Blog/
+│   │   ├── BlogPost.tsx
+│   │   ├── BlogCard.tsx
+│   │   ├── FeatureBlogCard.tsx
+│   │   ├── CategorySection.tsx
+│   │   ├── BlogSidebar.tsx
+│   │   ├── TLDRSection.tsx
+│   │   ├── RelatedPosts.tsx
+│   │   ├── ReadingProgress.tsx
+│   │   ├── ClusterCarousel.tsx
+│   │   ├── CarouselSection.tsx
+│   │   ├── InlineNewsletter.tsx
+│   │   ├── InlineNewsletterForm.tsx
+│   │   ├── FinalNewsletter.tsx
+│   │   ├── NewsletterSignup.tsx
+│   │   ├── MainHeroSection.tsx
+│   │   └── ReadMoreSection.tsx
+│   │
+│   ├── Shop/
+│   │   ├── ProductShowcase.tsx
+│   │   ├── ProductPageContent.tsx
+│   │   ├── ProductCard.tsx
+│   │   ├── RelatedProductsGrid.tsx
+│   │   ├── InternalLinksSection.tsx
+│   │   ├── ShopClient.tsx
+│   │   ├── ShopHeroTLDR.tsx
+│   │   └── HeroCarousel.tsx
+│   │
+│   ├── Inspo/
+│   │   ├── InspoHero.tsx
+│   │   ├── InspoClient.tsx
+│   │   ├── CategoryClient.tsx
+│   │   ├── CategoryHero.tsx
+│   │   ├── CategoryGrid.tsx
+│   │   ├── CategoryFilterBar.tsx
+│   │   ├── FilterBar.tsx
+│   │   ├── MasonryGallery.tsx
+│   │   ├── ImageModal.tsx
+│   │   ├── FeaturedCarousel.tsx
+│   │   ├── AboutInspo.tsx
+│   │   ├── ExploreSection.tsx
+│   │   └── RelatedContent.tsx
+│   │
+│   └── AR/
+│       └── ARNailTryOn.tsx
+│
+├── lib/
+│   ├── blog.ts
+│   ├── shop.ts
+│   ├── inspo.ts
+│   ├── posts.ts
+│   ├── seo.ts
+│   ├── generateSchemas.ts
+│   └── breadcrumbs.ts
+│
+├── types/
+│   ├── blog.ts
+│   ├── shop.ts
+│   └── inspo.ts
+│
+├── content/
+│   ├── blogs/
+│   ├── posts/
+│   │   └── test.md
+│   ├── inspo-categories.json
+│   ├── shop-categories.json
+│   └── inspo-images/
+│       └── french-tips.json
+│
+├── styles/
+│   └── (if any additional styles)
+│
+├── tailwind.config.js
+├── postcss.config.mjs
+└── package.json
