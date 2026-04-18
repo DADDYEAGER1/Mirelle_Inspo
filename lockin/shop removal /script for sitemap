@@ -1,0 +1,695 @@
+const fs = require('fs');
+const path = require('path');
+const matter = require('gray-matter');
+
+const SITE_URL = 'https://mirelleinspo.com';
+const PUBLIC_DIR = path.join(process.cwd(), 'public');
+const CLOUDINARY_BASE = 'https://res.cloudinary.com/de1yf0iuo/image/upload';
+
+// ✅ Helper: Get current season
+function getCurrentSeason() {
+  const month = new Date().getMonth();
+  if (month >= 2 && month <= 4) return 'spring';
+  if (month >= 5 && month <= 7) return 'summer';
+  if (month >= 8 && month <= 10) return 'fall';
+  return 'winter';
+}
+
+// ✅ Helper: Create XML sitemap
+function createSitemap(urls) {
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${urls.map(url => `  <url>
+    <loc>${url.loc}</loc>
+    <lastmod>${url.lastmod || new Date().toISOString()}</lastmod>
+    <changefreq>${url.changefreq || 'weekly'}</changefreq>
+    <priority>${url.priority || 0.7}</priority>
+  </url>`).join('\n')}
+</urlset>`;
+}
+
+// ✅ Helper: Create sitemap index
+function createSitemapIndex(sitemaps) {
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${sitemaps.map(sitemap => `  <sitemap>
+    <loc>${SITE_URL}/${sitemap}</loc>
+    <lastmod>${new Date().toISOString()}</lastmod>
+  </sitemap>`).join('\n')}
+</sitemapindex>`;
+}
+
+// ✅ Helper: Create image sitemap
+function createImageSitemap(images) {
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+${images.map(img => `  <url>
+    <loc>${img.pageUrl}</loc>
+    <image:image>
+      <image:loc>${img.imageUrl}</image:loc>
+      <image:title>${escapeXml(img.title)}</image:title>
+      ${img.caption ? `<image:caption>${escapeXml(img.caption)}</image:caption>` : ''}
+    </image:image>
+  </url>`).join('\n')}
+</urlset>`;
+}
+
+// ✅ Helper: Escape XML special characters
+function escapeXml(str) {
+  if (!str) return '';
+  return str
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;');
+}
+
+// ✅ Helper: Extract images from markdown content (BLOG - CDN URLs)
+function extractImagesFromMarkdown(content, slug, frontmatter, useCDN = true) {
+  const images = [];
+  const seen = new Set();
+
+  // 1️⃣ Extract frontmatter image (hero/featured image)
+  if (frontmatter.image) {
+    let imageUrl = frontmatter.image;
+    
+    // Convert to CDN URL if enabled
+    if (useCDN) {
+      if (imageUrl.startsWith('/images/')) {
+        imageUrl = `${CLOUDINARY_BASE}/mirelleinspo${imageUrl}`;
+      } else if (!imageUrl.startsWith('http')) {
+        imageUrl = `${CLOUDINARY_BASE}/mirelleinspo/images/blog/${slug}/${imageUrl}`;
+      }
+    }
+    
+    if (!seen.has(imageUrl)) {
+      images.push({
+        url: imageUrl,
+        alt: frontmatter.imageAlt || frontmatter.alt || `${slug.replace(/-/g, ' ')} featured image`,
+        type: 'hero'
+      });
+      seen.add(imageUrl);
+    }
+  }
+
+  // 2️⃣ Extract carousel images from frontmatter
+  if (frontmatter.carouselImages && Array.isArray(frontmatter.carouselImages)) {
+    frontmatter.carouselImages.forEach(carouselImg => {
+      let imageUrl = carouselImg.src || carouselImg.url || carouselImg;
+      
+      if (useCDN) {
+        if (imageUrl.startsWith('/images/')) {
+          imageUrl = `${CLOUDINARY_BASE}/mirelleinspo${imageUrl}`;
+        } else if (!imageUrl.startsWith('http')) {
+          imageUrl = `${CLOUDINARY_BASE}/mirelleinspo/images/blog/${slug}/${imageUrl}`;
+        }
+      }
+      
+      if (!seen.has(imageUrl)) {
+        images.push({
+          url: imageUrl,
+          alt: carouselImg.alt || carouselImg.imageAlt || `${slug.replace(/-/g, ' ')} design variation`,
+          type: 'carousel'
+        });
+        seen.add(imageUrl);
+      }
+    });
+  }
+
+  // 3️⃣ Extract Markdown syntax images: ![alt](url)
+  const mdImageRegex = /!\[([^\]]*)\]\(([^)]+)\)/g;
+  let match;
+  
+  while ((match = mdImageRegex.exec(content)) !== null) {
+    const altText = match[1];
+    let imageUrl = match[2];
+    
+    // Convert to CDN URL if enabled
+    if (useCDN) {
+      if (imageUrl.startsWith('/images/')) {
+        imageUrl = `${CLOUDINARY_BASE}/mirelleinspo${imageUrl}`;
+      } else if (imageUrl.startsWith('images/')) {
+        imageUrl = `${CLOUDINARY_BASE}/mirelleinspo/${imageUrl}`;
+      } else if (!imageUrl.startsWith('http')) {
+        imageUrl = `${CLOUDINARY_BASE}/mirelleinspo/images/blog/${slug}/${imageUrl}`;
+      }
+    }
+    
+    if (!seen.has(imageUrl)) {
+      images.push({
+        url: imageUrl,
+        alt: altText || `${slug.replace(/-/g, ' ')} step by step guide`,
+        type: 'markdown'
+      });
+      seen.add(imageUrl);
+    }
+  }
+
+  // 4️⃣ Extract HTML img tags: <img src="url" alt="text" />
+  const htmlImageRegex = /<img[^>]+>/gi;
+  const matches = content.match(htmlImageRegex);
+  
+  if (matches) {
+    matches.forEach(imgTag => {
+      const srcMatch = imgTag.match(/src=["']([^"']+)["']/i);
+      const altMatch = imgTag.match(/alt=["']([^"']*)["']/i);
+      
+      if (srcMatch) {
+        let imageUrl = srcMatch[1];
+        
+        // Convert to CDN URL if enabled
+        if (useCDN) {
+          if (imageUrl.startsWith('/images/')) {
+            imageUrl = `${CLOUDINARY_BASE}/mirelleinspo${imageUrl}`;
+          } else if (imageUrl.startsWith('images/')) {
+            imageUrl = `${CLOUDINARY_BASE}/mirelleinspo/${imageUrl}`;
+          } else if (!imageUrl.startsWith('http')) {
+            imageUrl = `${CLOUDINARY_BASE}/mirelleinspo/images/blog/${slug}/${imageUrl}`;
+          }
+        }
+        
+        if (!seen.has(imageUrl)) {
+          images.push({
+            url: imageUrl,
+            alt: altMatch ? altMatch[1] : `${slug.replace(/-/g, ' ')} tutorial`,
+            type: 'html'
+          });
+          seen.add(imageUrl);
+        }
+      }
+    });
+  }
+
+  return images;
+}
+
+// ========================================
+// 1️⃣ GENERATE BLOG SITEMAP
+// ========================================
+function generateBlogSitemap() {
+  console.log('📄 Generating blog sitemap...');
+  
+  try {
+    const blogDir = path.join(process.cwd(), 'src/content/blogs');
+    
+    if (!fs.existsSync(blogDir)) {
+      console.warn('⚠️  Blog directory not found');
+      return;
+    }
+    
+    const files = fs.readdirSync(blogDir).filter(f => f.endsWith('.md'));
+    
+    const urls = files.map(file => {
+      const slug = file.replace('.md', '');
+      const filePath = path.join(blogDir, file);
+      const fileContent = fs.readFileSync(filePath, 'utf8');
+      const { data } = matter(fileContent);
+      
+      return {
+        loc: `${SITE_URL}/blog/${slug}`,
+        changefreq: 'weekly',
+        priority: 0.8,
+        lastmod: data.dateModified || data.date || new Date().toISOString(),
+      };
+    });
+    
+    const xml = createSitemap(urls);
+    fs.writeFileSync(path.join(PUBLIC_DIR, 'sitemap-blog.xml'), xml);
+    console.log(`✅ sitemap-blog.xml created (${urls.length} posts)`);
+    
+  } catch (error) {
+    console.error('❌ Error generating blog sitemap:', error.message);
+  }
+}
+
+// ========================================
+// 2️⃣ GENERATE TOPICS SITEMAP
+// ========================================
+function generateTopicsSitemap() {
+  console.log('📄 Generating topics sitemap...');
+  
+  try {
+    const topicsDir = path.join(process.cwd(), 'src/content/topics');
+    
+    if (!fs.existsSync(topicsDir)) {
+      console.warn('⚠️  Topics directory not found');
+      return;
+    }
+    
+    const files = fs.readdirSync(topicsDir).filter(f => f.endsWith('.md'));
+    
+    const urls = [
+      {
+        loc: `${SITE_URL}/topics`,
+        changefreq: 'weekly',
+        priority: 0.8,
+        lastmod: new Date().toISOString(),
+      },
+      ...files.map(file => {
+        const slug = file.replace('.md', '');
+        const filePath = path.join(topicsDir, file);
+        const fileContent = fs.readFileSync(filePath, 'utf8');
+        const { data } = matter(fileContent);
+        
+        return {
+          loc: `${SITE_URL}/topics/${slug}`,
+          changefreq: 'weekly',
+          priority: 0.7,
+          lastmod: data.dateModified || data.date || new Date().toISOString(),
+        };
+      })
+    ];
+    
+    const xml = createSitemap(urls);
+    fs.writeFileSync(path.join(PUBLIC_DIR, 'sitemap-topics.xml'), xml);
+    console.log(`✅ sitemap-topics.xml created (${files.length} topics)`);
+    
+  } catch (error) {
+    console.error('❌ Error generating topics sitemap:', error.message);
+  }
+}
+
+// ========================================
+// 3️⃣ GENERATE POSTS SITEMAP
+// ========================================
+function generatePostsSitemap() {
+  console.log('📄 Generating posts sitemap...');
+  
+  try {
+    const postsDir = path.join(process.cwd(), 'src/content/posts');
+    
+    if (!fs.existsSync(postsDir)) {
+      console.warn('⚠️  Posts directory not found');
+      return;
+    }
+    
+    const files = fs.readdirSync(postsDir).filter(f => f.endsWith('.md'));
+    
+    if (files.length === 0) {
+      console.warn('⚠️  No posts found');
+      return;
+    }
+    
+    const urls = [
+      {
+        loc: `${SITE_URL}/posts`,
+        changefreq: 'daily',
+        priority: 0.8,
+        lastmod: new Date().toISOString(),
+      },
+      ...files.map(file => {
+        const slug = file.replace('.md', '');
+        const filePath = path.join(postsDir, file);
+        const fileContent = fs.readFileSync(filePath, 'utf8');
+        const { data } = matter(fileContent);
+        
+        return {
+          loc: `${SITE_URL}/posts/${slug}`,
+          changefreq: 'weekly',
+          priority: 0.7,
+          lastmod: data.dateModified || data.date || new Date().toISOString(),
+        };
+      })
+    ];
+    
+    const xml = createSitemap(urls);
+    fs.writeFileSync(path.join(PUBLIC_DIR, 'sitemap-posts.xml'), xml);
+    console.log(`✅ sitemap-posts.xml created (${files.length} posts)`);
+    
+  } catch (error) {
+    console.error('❌ Error generating posts sitemap:', error.message);
+  }
+}
+
+// ========================================
+// 4️⃣ GENERATE SHOP SITEMAP
+// ========================================
+function generateShopSitemap() {
+  console.log('📄 Generating shop sitemap...');
+  
+  const categories = ['christmas', 'fall', 'halloween', 'new-year', 'trendy', 'winter'];
+  
+  const urls = [
+    {
+      loc: `${SITE_URL}/shop`,
+      changefreq: 'daily',
+      priority: 0.9,
+      lastmod: new Date().toISOString(),
+    },
+    ...categories.map(cat => ({
+      loc: `${SITE_URL}/shop/${cat}`,
+      changefreq: 'weekly',
+      priority: 0.8,
+      lastmod: new Date().toISOString(),
+    }))
+  ];
+  
+  const xml = createSitemap(urls);
+  fs.writeFileSync(path.join(PUBLIC_DIR, 'sitemap-shop.xml'), xml);
+  console.log('✅ sitemap-shop.xml created');
+}
+
+// ========================================
+// 5️⃣ GENERATE SHOP PRODUCTS SITEMAPS
+// ========================================
+function generateShopProductsSitemaps() {
+  console.log('📄 Generating shop products sitemaps...');
+  
+  const categories = ['christmas', 'fall', 'halloween', 'new-year', 'trendy', 'winter'];
+  const productSitemaps = [];
+  
+  categories.forEach(category => {
+    try {
+      const productFile = path.join(process.cwd(), `src/content/shop-products/${category}.json`);
+      
+      if (!fs.existsSync(productFile)) {
+        console.warn(`⚠️  ${category}.json not found`);
+        return;
+      }
+      
+      const data = JSON.parse(fs.readFileSync(productFile, 'utf8'));
+      const products = Object.values(data.products || {});
+      
+      if (products.length === 0) return;
+      
+      const urls = products.map(product => ({
+        loc: `${SITE_URL}/shop/${category}/${product.slug}`,
+        changefreq: 'weekly',
+        priority: 0.7,
+        lastmod: new Date().toISOString(),
+      }));
+      
+      const xml = createSitemap(urls);
+      const filename = `sitemap-shop-products-${category}.xml`;
+      fs.writeFileSync(path.join(PUBLIC_DIR, filename), xml);
+      productSitemaps.push(filename);
+      console.log(`✅ ${filename} created (${products.length} products)`);
+      
+    } catch (error) {
+      console.error(`❌ Error: ${category}:`, error.message);
+    }
+  });
+  
+  if (productSitemaps.length > 0) {
+    const indexXml = createSitemapIndex(productSitemaps);
+    fs.writeFileSync(path.join(PUBLIC_DIR, 'sitemap-shop-products-index.xml'), indexXml);
+    console.log('✅ sitemap-shop-products-index.xml created');
+  }
+}
+
+// ========================================
+// 6️⃣ GENERATE INSPO SITEMAP
+// ========================================
+function generateInspoSitemap() {
+  console.log('📄 Generating inspo sitemap...');
+  
+  try {
+    const inspoDir = path.join(process.cwd(), 'src/content/inspo-images');
+    const files = fs.readdirSync(inspoDir).filter(f => f.endsWith('.json'));
+    
+    const urls = [
+      {
+        loc: `${SITE_URL}/inspo`,
+        changefreq: 'daily',
+        priority: 0.9,
+        lastmod: new Date().toISOString(),
+      },
+      ...files.map(file => ({
+        loc: `${SITE_URL}/inspo/${file.replace('.json', '')}`,
+        changefreq: 'weekly',
+        priority: 0.8,
+        lastmod: new Date().toISOString(),
+      }))
+    ];
+    
+    const xml = createSitemap(urls);
+    fs.writeFileSync(path.join(PUBLIC_DIR, 'sitemap-inspo.xml'), xml);
+    console.log(`✅ sitemap-inspo.xml created (${files.length} categories)`);
+    
+  } catch (error) {
+    console.error('❌ Error generating inspo sitemap:', error.message);
+  }
+}
+
+// ========================================
+// 7️⃣ GENERATE IMAGE SITEMAPS
+// ========================================
+function generateImageSitemaps() {
+  console.log('📸 Generating image sitemaps...');
+  
+  const imageSitemaps = [];
+  const currentYear = new Date().getFullYear();
+  const season = getCurrentSeason();
+  
+  // 7a) Blog images from markdown files (CDN URLs)
+  try {
+    const blogDir = path.join(process.cwd(), 'src/content/blogs');
+    
+    if (!fs.existsSync(blogDir)) {
+      console.warn('⚠️  Blog directory not found');
+    } else {
+      const blogFiles = fs.readdirSync(blogDir).filter(f => f.endsWith('.md'));
+      const blogImages = [];
+      
+      console.log(`📊 Processing ${blogFiles.length} blog posts...`);
+      
+      blogFiles.forEach(file => {
+        const slug = file.replace('.md', '');
+        const filePath = path.join(blogDir, file);
+        const fileContent = fs.readFileSync(filePath, 'utf8');
+        const { data, content } = matter(fileContent);
+        
+        const images = extractImagesFromMarkdown(content, slug, data, true); // CDN enabled
+        
+        if (images.length > 0) {
+          const cleanTitle = data.title || slug.replace(/-/g, ' ');
+          
+          images.forEach((img, index) => {
+            const caption = img.alt || `${cleanTitle} - Professional nail art tutorial and design inspiration for ${currentYear}`;
+            
+            blogImages.push({
+              pageUrl: `${SITE_URL}/blog/${slug}`,
+              imageUrl: img.url,
+              title: `${cleanTitle} - ${img.type} image`,
+              caption: caption,
+            });
+          });
+          
+          console.log(`   ✔ ${slug}: ${images.length} image(s)`);
+        }
+      });
+      
+      if (blogImages.length > 0) {
+        const xml = createImageSitemap(blogImages);
+        fs.writeFileSync(path.join(PUBLIC_DIR, 'sitemap-images-blog.xml'), xml);
+        imageSitemaps.push('sitemap-images-blog.xml');
+        console.log(`\n✅ sitemap-images-blog.xml (${blogImages.length} CDN images)`);
+      }
+    }
+  } catch (error) {
+    console.error('❌ Error generating blog images:', error.message);
+  }
+  
+  // 7b) Topic images from markdown files (LOCAL URLs - NO CDN)
+  try {
+    const topicsDir = path.join(process.cwd(), 'src/content/topics');
+    
+    if (!fs.existsSync(topicsDir)) {
+      console.warn('⚠️  Topics directory not found');
+    } else {
+      const topicFiles = fs.readdirSync(topicsDir).filter(f => f.endsWith('.md'));
+      const topicImages = [];
+      
+      console.log(`📊 Processing ${topicFiles.length} topic posts...`);
+      
+      topicFiles.forEach(file => {
+        const slug = file.replace('.md', '');
+        const filePath = path.join(topicsDir, file);
+        const fileContent = fs.readFileSync(filePath, 'utf8');
+        const { data, content } = matter(fileContent);
+        
+        const images = extractImagesFromMarkdown(content, slug, data, false); // NO CDN
+        
+        if (images.length > 0) {
+          const cleanTitle = data.title || slug.replace(/-/g, ' ');
+          
+          images.forEach((img, index) => {
+            // Convert local path to full URL
+            let imageUrl = img.url;
+            if (!imageUrl.startsWith('http')) {
+              imageUrl = `${SITE_URL}${imageUrl}`;
+            }
+            
+            const caption = img.alt || `${cleanTitle} - Nail art topic guide and inspiration for ${currentYear}`;
+            
+            topicImages.push({
+              pageUrl: `${SITE_URL}/topics/${slug}`,
+              imageUrl: imageUrl,
+              title: `${cleanTitle} - ${img.type} image`,
+              caption: caption,
+            });
+          });
+          
+          console.log(`   ✔ ${slug}: ${images.length} image(s)`);
+        }
+      });
+      
+      if (topicImages.length > 0) {
+        const xml = createImageSitemap(topicImages);
+        fs.writeFileSync(path.join(PUBLIC_DIR, 'sitemap-images-topics.xml'), xml);
+        imageSitemaps.push('sitemap-images-topics.xml');
+        console.log(`\n✅ sitemap-images-topics.xml (${topicImages.length} local images)`);
+      }
+    }
+  } catch (error) {
+    console.error('❌ Error generating topic images:', error.message);
+  }
+  
+  // 7c) Shop product images (LOCAL - NO CDN conversion)
+  try {
+    const categories = ['christmas', 'fall', 'halloween', 'new-year', 'trendy', 'winter'];
+    const shopImages = [];
+    
+    categories.forEach(category => {
+      try {
+        const productFile = path.join(process.cwd(), `src/content/shop-products/${category}.json`);
+        
+        if (!fs.existsSync(productFile)) return;
+        
+        const data = JSON.parse(fs.readFileSync(productFile, 'utf8'));
+        const products = Object.values(data.products || {});
+        
+        products.forEach(product => {
+          if (!product.image) return;
+          
+          // Use image path AS-IS from JSON (no CDN conversion)
+          let imageUrl = product.image;
+          if (!imageUrl.startsWith('http')) {
+            imageUrl = `${SITE_URL}${imageUrl}`;
+          }
+          
+          shopImages.push({
+            pageUrl: `${SITE_URL}/shop/${category}/${product.slug}`,
+            imageUrl: imageUrl,
+            title: product.name || `${category} nail design`,
+            caption: product.imageAlt || product.description || `${product.name} - ${season} ${currentYear} collection`,
+          });
+        });
+      } catch (error) {
+        console.error(`   ❌ ${category}:`, error.message);
+      }
+    });
+    
+    if (shopImages.length > 0) {
+      const xml = createImageSitemap(shopImages);
+      fs.writeFileSync(path.join(PUBLIC_DIR, 'sitemap-images-shop.xml'), xml);
+      imageSitemaps.push('sitemap-images-shop.xml');
+      console.log(`✅ sitemap-images-shop.xml (${shopImages.length} images)`);
+    }
+  } catch (error) {
+    console.error('❌ Error generating shop images:', error.message);
+  }
+  
+  // 7d) Inspo images (CDN URLs)
+  try {
+    const inspoJsonDir = path.join(process.cwd(), 'src/content/inspo-images');
+    
+    if (fs.existsSync(inspoJsonDir)) {
+      const jsonFiles = fs.readdirSync(inspoJsonDir).filter(f => f.endsWith('.json'));
+      const inspoImages = [];
+      
+      jsonFiles.forEach(jsonFile => {
+        const category = jsonFile.replace('.json', '');
+        const jsonPath = path.join(inspoJsonDir, jsonFile);
+        
+        try {
+          const data = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
+          const images = Array.isArray(data) ? data : 
+                        data.images ? data.images : 
+                        Object.values(data);
+          
+          images.forEach((image, index) => {
+            let imageUrl = typeof image === 'string' ? image : 
+                          image.url || image.src || image.image;
+            
+            if (!imageUrl) return;
+            
+            // Convert to CDN URL
+            if (imageUrl.startsWith('/')) {
+              imageUrl = `${CLOUDINARY_BASE}/mirelleinspo${imageUrl}`;
+            } else if (!imageUrl.startsWith('http')) {
+              imageUrl = `${CLOUDINARY_BASE}/mirelleinspo/inspo/${category}/${imageUrl}`;
+            }
+            
+            const altText = typeof image === 'object' ? 
+                           (image.alt || image.altText || image.description) : null;
+            
+            inspoImages.push({
+              pageUrl: `${SITE_URL}/inspo/${category}`,
+              imageUrl: imageUrl,
+              title: `${category.replace(/-/g, ' ')} nail inspiration ${index + 1}`,
+              caption: altText || `${category.replace(/-/g, ' ')} nail art design - trending style for ${season} ${currentYear}`,
+            });
+          });
+        } catch (error) {
+          console.error(`   ❌ ${category}:`, error.message);
+        }
+      });
+      
+      if (inspoImages.length > 0) {
+        const xml = createImageSitemap(inspoImages);
+        fs.writeFileSync(path.join(PUBLIC_DIR, 'sitemap-images-inspo.xml'), xml);
+        imageSitemaps.push('sitemap-images-inspo.xml');
+        console.log(`✅ sitemap-images-inspo.xml (${inspoImages.length} CDN images)`);
+      }
+    }
+  } catch (error) {
+    console.error('❌ Error generating inspo images:', error.message);
+  }
+  
+  // Create images index
+  if (imageSitemaps.length > 0) {
+    const indexXml = createSitemapIndex(imageSitemaps);
+    fs.writeFileSync(path.join(PUBLIC_DIR, 'sitemap-images-index.xml'), indexXml);
+    console.log('✅ sitemap-images-index.xml created');
+  }
+}
+
+// ========================================
+// 🚀 MAIN EXECUTION
+// ========================================
+async function main() {
+  console.log('🚀 Starting sitemap generation...\n');
+  
+  if (!fs.existsSync(PUBLIC_DIR)) {
+    fs.mkdirSync(PUBLIC_DIR, { recursive: true });
+  }
+  
+  generateBlogSitemap();
+  generateTopicsSitemap();
+  generatePostsSitemap();
+  generateShopSitemap();
+  generateShopProductsSitemaps();
+  generateInspoSitemap();
+  generateImageSitemaps();
+  
+  console.log('\n✅ All sitemaps generated!');
+  console.log('\n📋 Generated sitemaps:');
+  console.log('   • sitemap-blog.xml');
+  console.log('   • sitemap-topics.xml');
+  console.log('   • sitemap-posts.xml');
+  console.log('   • sitemap-shop.xml');
+  console.log('   • sitemap-shop-products-*.xml');
+  console.log('   • sitemap-inspo.xml');
+  console.log('   • sitemap-images-blog.xml (CDN)');
+  console.log('   • sitemap-images-topics.xml (LOCAL)');
+  console.log('   • sitemap-images-shop.xml (LOCAL)');
+  console.log('   • sitemap-images-inspo.xml (CDN)');
+}
+
+main().catch(error => {
+  console.error('❌ Fatal error:', error);
+  process.exit(1);
+});
