@@ -1,0 +1,113 @@
+/** @type {import('next-sitemap').IConfig} */
+module.exports = {
+  siteUrl: 'https://mirelleinspo.com',
+  generateRobotsTxt: true,
+  sitemapSize: 5000,
+  changefreq: 'daily',
+  priority: 0.7,
+  
+  // ✅ Exclude dynamic content (they have their own sitemaps)
+  exclude: [
+    '/api/*',
+    '/admin/*',
+    '/server-sitemap.xml',
+    '/_next/*',
+    '/static/*',
+    '/404',
+    '/500',
+    '/blog/*',              // Has sitemap-blog.xml
+    '/topics/*',            // Has sitemap-topics.xml (NEW)
+    '/posts/*',             // Has sitemap-posts.xml (NEW)
+    '/shop/*/[productId]',
+    '/shop/christmas/*',
+    '/shop/fall/*',
+    '/shop/halloween/*',
+    '/shop/new-year/*',
+    '/shop/trendy/*',
+    '/shop/winter/*',
+    '/inspo/*',             // Has sitemap-inspo.xml
+  ],
+  
+  // ✅ Enhanced robots.txt
+  robotsTxtOptions: {
+    policies: [
+      {
+        userAgent: '*',
+        allow: '/',
+        disallow: ['/api/', '/admin/', '/_next/', '/static/'],
+      },
+      // AI crawlers
+      { userAgent: 'GPTBot', allow: '/', crawlDelay: 1 },
+      { userAgent: 'ChatGPT-User', allow: '/' },
+      { userAgent: 'Claude-Web', allow: '/', crawlDelay: 1 },
+      { userAgent: 'ClaudeBot', allow: '/', crawlDelay: 1 },
+      { userAgent: 'anthropic-ai', allow: '/' },
+      { userAgent: 'Googlebot', allow: '/' },
+      { userAgent: 'Bingbot', allow: '/' },
+      { userAgent: 'CCBot', allow: '/', crawlDelay: 2 },
+      { userAgent: 'PerplexityBot', allow: '/', crawlDelay: 1 },
+      { userAgent: 'YouBot', allow: '/' },
+      { userAgent: 'Pinterestbot', allow: '/' },
+      { userAgent: 'facebookexternalhit', allow: '/' },
+      { userAgent: 'PetalBot', allow: '/', crawlDelay: 2 },
+      { userAgent: 'DuckDuckBot', allow: '/' },
+      { userAgent: 'Slurp', allow: '/' },
+      { userAgent: 'Baiduspider', allow: '/', crawlDelay: 2 },
+      // Block unwanted scrapers
+      { userAgent: 'SemrushBot', disallow: '/' },
+      { userAgent: 'AhrefsBot', disallow: '/' },
+      { userAgent: 'MJ12bot', disallow: '/' },
+      { userAgent: 'DotBot', disallow: '/' },
+    ],
+    additionalSitemaps: [
+      'https://mirelleinspo.com/sitemap-blog.xml',
+      'https://mirelleinspo.com/sitemap-topics.xml',        // NEW
+      'https://mirelleinspo.com/sitemap-posts.xml',         // NEW
+      'https://mirelleinspo.com/sitemap-shop.xml',
+      'https://mirelleinspo.com/sitemap-shop-products-index.xml',
+      'https://mirelleinspo.com/sitemap-inspo.xml',
+      'https://mirelleinspo.com/sitemap-images-index.xml',
+    ],
+  },
+  
+  // ✅ Transform for static pages only
+  transform: async (config, path) => {
+    let priority = config.priority;
+    let changefreq = config.changefreq;
+    let lastmod = config.autoLastmod ? new Date().toISOString() : undefined;
+    
+    // Homepage
+    if (path === '/') {
+      priority = 1.0;
+      changefreq = 'daily';
+    } 
+    // Main section pages
+    else if (['/blog', '/shop', '/inspo'].includes(path)) {
+      priority = 0.9;
+      changefreq = 'daily';
+    }
+    // Topics and Posts listing pages (NEW)
+    else if (['/topics', '/posts'].includes(path)) {
+      priority = 0.8;
+      changefreq = 'weekly';
+    }
+    // Secondary pages
+    else if (['/about', '/contact', '/brands', '/pinterest', '/work-with-us'].includes(path)) {
+      priority = 0.7;
+      changefreq = 'monthly';
+    } 
+    // Legal pages
+    else if (['/privacy-policy', '/terms', '/subscribe'].includes(path)) {
+      priority = 0.5;
+      changefreq = 'yearly';
+    }
+    
+    return {
+      loc: path,
+      changefreq,
+      priority,
+      lastmod,
+      alternateRefs: config.alternateRefs ?? [],
+    };
+  },
+};
