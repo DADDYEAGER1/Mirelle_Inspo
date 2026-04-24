@@ -1,0 +1,31 @@
+Project: mirelle-site (Next.js)
+
+What we built: A /spotlight route — a fully independent clone of the /blog system, separate content, separate lib, separate components.
+
+Files created:
+
+File	Status
+src/lib/spotlight.ts	✅ Done — reads from src/content/spotlights/
+src/app/spotlight/page.tsx	✅ Done — simple hero + grid listing
+src/app/spotlight/[slug]/page.tsx	✅ Done — uses SplitLeftTemplate
+src/app/spotlight/[slug]/templates/SplitLeftTemplate.tsx	✅ Done — breadcrumb fixed to /spotlight
+src/components/Spotlight/SpotlightCard.tsx	✅ Done — links to /spotlight/${slug}
+src/components/Spotlight/SpotlightGrid.tsx	✅ Done — grid listing, no heading
+src/content/spotlights/	✅ Folder created, 1 file inside
+Current error: Console shows: Blog post not found: nailsbypeyton from src/lib/blog.ts line 153 — meaning the slug page is hitting blog.ts instead of spotlight.ts.
+
+Root cause: The src/app/spotlight/[slug]/page.tsx imports getSpotlightPost from spotlight.ts correctly — but Next.js may be serving the wrong page. Most likely cause: the .md file was placed in src/content/spotlights/ but the slug page still has a stale build cache.
+
+Fix to try:
+
+Stop dev server
+Delete .next folder
+Run npm run dev again
+Visit localhost:3000/spotlight/nailsbypeyton
+Key design decisions:
+
+Spotlight uses only SplitLeftTemplate — no other templates
+No clusters, no must-read, no carousels — just hero + grid
+All spotlight components are in src/components/Spotlight/ — fully independent from blog
+Types reused from @/types/blog — no duplication needed
+spotlight.ts has its own cache, own directory constant, own function names
