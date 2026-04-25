@@ -1,0 +1,79 @@
+'use client';
+
+import { useState, useRef, useEffect } from 'react';
+
+interface ImageCarouselProps {
+  images: { url: string; alt: string }[];
+}
+
+export default function ImageCarousel({ images }: ImageCarouselProps) {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const scrollRef = useRef<HTMLDivElement>(null);
+
+  const scrollToIndex = (index: number) => {
+    if (scrollRef.current) {
+      const scrollWidth = scrollRef.current.scrollWidth;
+      const itemWidth = scrollWidth / images.length;
+      scrollRef.current.scrollTo({
+        left: itemWidth * index,
+        behavior: 'smooth'
+      });
+      setCurrentIndex(index);
+    }
+  };
+
+  const handleScroll = () => {
+    if (scrollRef.current) {
+      const scrollLeft = scrollRef.current.scrollLeft;
+      const itemWidth = scrollRef.current.scrollWidth / images.length;
+      const index = Math.round(scrollLeft / itemWidth);
+      setCurrentIndex(index);
+    }
+  };
+
+  useEffect(() => {
+    const ref = scrollRef.current;
+    if (ref) {
+      ref.addEventListener('scroll', handleScroll);
+      return () => ref.removeEventListener('scroll', handleScroll);
+    }
+  }, []);
+
+  return (
+    <div className="my-12 md:my-16">
+      <div
+        ref={scrollRef}
+        className="flex overflow-x-auto snap-x snap-mandatory scrollbar-hide gap-4"
+        style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
+      >
+        {images.map((image, index) => (
+          <div
+            key={index}
+            className="flex-shrink-0 w-full snap-center"
+          >
+            <img
+              src={image.url}
+              alt={image.alt}
+              className="w-full h-auto rounded-lg shadow-lg"
+            />
+          </div>
+        ))}
+      </div>
+
+      <div className="flex justify-center gap-2 mt-6">
+        {images.map((_, index) => (
+          <button
+            key={index}
+            onClick={() => scrollToIndex(index)}
+            className={`w-2 h-2 rounded-full transition-all ${
+              currentIndex === index
+                ? 'bg-foreground w-8'
+                : 'bg-gray-300'
+            }`}
+            aria-label={`Go to slide ${index + 1}`}
+          />
+        ))}
+      </div>
+    </div>
+  );
+}
