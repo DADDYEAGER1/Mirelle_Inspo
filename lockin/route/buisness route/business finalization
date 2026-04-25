@@ -1,0 +1,144 @@
+# Agent Handoff Summary — Mirellé `/business` Route
+
+## Project
+**Site:** `mirelleinspo.com` — editorial nail inspiration platform
+**Task completed:** Built the `/business/[slug]` route from scratch
+
+---
+
+## Stack
+- Next.js 14 App Router, TypeScript, Tailwind CSS
+- `gray-matter`, `marked`, `next-mdx-remote`
+- Images: Cloudinary (`res.cloudinary.com/de1yf0iuo/...`)
+- Alias: `@/` → `src/`
+
+---
+
+## Design Tokens (DO NOT INVENT NEW ONES)
+**Fonts:**
+- `font-heading` → Larken (headings/titles)
+- `font-body` → Crimson Text (body text)
+- `font-ui` → General Sans (labels, nav, buttons)
+
+**Colors:**
+- `background: #f9fafb`
+- `foreground: #252220`
+- `accent: #E30088`
+- `text-secondary: #666666`
+- `border-color: #E0E0E0`
+
+**Type scale (Tailwind):**
+- `text-h1` / `text-h1-mobile` → 42px / 36px
+- `text-h2` / `text-h2-mobile` → 32px / 28px
+- `text-h3` / `text-h3-mobile` → 24px / 22px
+- `text-h4` / `text-h4-mobile` → 20px / 18px
+- `text-body` / `text-body-lg` → 20px
+- `text-ui` → 14px, `text-ui-xs` → 12px
+
+**Layout (match CenterTemplate.tsx):**
+- Max width: `max-w-7xl`
+- Padding: `px-6 md:px-12 lg:px-16`
+- Article column: `max-w-[700px]`
+- Section spacing: `py-12 md:py-16`
+- Body prose class: `prose-content-magazine`
+
+---
+
+## Files Delivered
+
+| File | Path |
+|------|------|
+| Types | `src/types/business.ts` |
+| Lib | `src/lib/business.ts` |
+| Example content | `src/content/business/london-uk.mdx` |
+| Template | `src/app/business/[slug]/templates/BusinessTemplate.tsx` |
+| Slug page | `src/app/business/[slug]/page.tsx` |
+| Index page | `src/app/business/page.tsx` |
+
+---
+
+## Directory Structure
+```
+src/
+  types/
+    business.ts          ← BusinessPost, BusinessMetadata, BusinessFAQ, etc.
+  lib/
+    business.ts          ← mirrors blog.ts: cache, gray-matter, marked, MDX
+  content/
+    business/
+      london-uk.mdx      ← example post (replace Cloudinary URLs with real ones)
+  app/
+    business/
+      page.tsx           ← index: editorial hero + country-grouped region cards
+      [slug]/
+        page.tsx         ← generateStaticParams + generateMetadata + JSON-LD
+        templates/
+          BusinessTemplate.tsx  ← all 6 sections
+```
+
+---
+
+## Page Sections — `/business/[slug]`
+1. **Hero** — full-width image, region headline, TL;DR answer capsule (bordered left), CTA button
+2. **Services** — 2-col grid from frontmatter `services` array
+3. **Gallery** — masonry columns from frontmatter `galleryImages` (Cloudinary)
+4. **Body content + About Mirellé** — MDX/HTML prose + E-E-A-T trust block
+5. **FAQ** — accordion from frontmatter `faqSchema`, powers GEO/AEO
+6. **CTA block** — dark bg, email (pre-filled subject) + WhatsApp (plain link) + Instagram
+
+## Page Sections — `/business` (index)
+1. Editorial hero — headline + subtext
+2. Country-grouped region cards — sorted alphabetically by country, then cards per country
+
+---
+
+## Frontmatter Schema (`london-uk.mdx` as reference)
+```yaml
+slug, title, excerpt, date, dateModified, author
+region, regionCode, language, locale, city, country
+canonical, targetKeyword, secondaryKeywords, searchIntent, noIndex
+tldr                    # 40-60 word answer capsule shown in hero
+faqSchema               # array of { question, answer }
+entityType, speakable
+contact:
+  email, whatsapp, instagram
+services:               # array of { title, description }
+schemaType              # "ProfessionalService" | "LocalBusiness"
+template: business
+image, imageAlt, imageWidth, imageHeight
+galleryImages:          # array of { url, alt, width, height }
+```
+
+---
+
+## JSON-LD Schemas (injected in `[slug]/page.tsx`)
+1. `ProfessionalService` — with `areaServed`, `hasOfferCatalog` (one per service)
+2. `FAQPage` — from `faqSchema` frontmatter array
+3. `BreadcrumbList` — Home → Business → Region
+4. `Speakable` — if `speakable: true` in frontmatter
+
+---
+
+## SEO / GEO / AEO Notes
+- One MDX file per region = one page, zero code changes needed
+- `hreflang` via `regionCode` + `alternates.languages` in `generateMetadata`
+- `noIndex` frontmatter field respected in robots meta
+- OG type: `website` (not `article`)
+- TL;DR in hero = 40–60 word extractable answer capsule for AI search engines
+- FAQ schema = highest-ROI GEO move
+
+---
+
+## Known Issues (TO FIX — left for next session)
+- Font sizes on the business page don't fully match the site's existing hero section style
+- Minor design inconsistencies vs other main pages (hero section padding/scale)
+- Cloudinary image URLs in `london-uk.mdx` are placeholder — replace with real ones before testing gallery
+
+---
+
+## Rules for Next Agent
+- **Do NOT modify:** `src/lib/blog.ts`, `src/types/blog.ts`, `src/app/blog/**`, `src/lib/generateSchemas.ts`
+- Tailwind only — no inline styles, no new CSS files
+- Use `next/image` for all images
+- Use exact font/color tokens listed above — never invent new ones
+- New region = new `.mdx` file in `src/content/business/` — no code changes needed
