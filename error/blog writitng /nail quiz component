@@ -1,0 +1,110 @@
+Three questions. Honest answers. One recommendation.
+
+export const NailQuiz = () => {
+  const [answers, setAnswers] = React.useState({});
+  const [result, setResult] = React.useState(null);
+
+  const questions = [
+    {
+      id: 'q1',
+      text: 'How long do you need the nails to last?',
+      options: [
+        { label: 'Just through Mother\'s Day weekend', value: 'gel' },
+        { label: 'Two to three weeks without worrying', value: 'biab' },
+        { label: 'As long as humanly possible', value: 'acrylic' },
+      ],
+    },
+    {
+      id: 'q2',
+      text: 'What matters most to you?',
+      options: [
+        { label: 'Speed and affordability', value: 'gel' },
+        { label: 'Nail health and natural growth', value: 'biab' },
+        { label: 'Maximum length and structure', value: 'acrylic' },
+      ],
+    },
+    {
+      id: 'q3',
+      text: 'How would you describe your nails?',
+      options: [
+        { label: 'Naturally strong, I just want colour', value: 'gel' },
+        { label: 'Weak, thin, or prone to breaking', value: 'biab' },
+        { label: 'I want dramatic length, mine won\'t grow', value: 'acrylic' },
+      ],
+    },
+  ];
+
+  const results = {
+    gel: {
+      name: 'Gel Polish',
+      verdict: 'Best for Mums who want a quick, glossy update without commitment.',
+      detail: 'Lasts 10–14 days. Chip-resistant, soak-off removal, wide colour range.',
+      book: 'A standard gel manicure, allow 45–60 minutes.',
+    },
+    biab: {
+      name: 'BIAB (Builder in a Bottle)',
+      verdict: 'Best for Mums who want their natural nails to come out stronger than they went in.',
+      detail: 'Lasts 3–4 weeks with infills. Protective overlay, flexible, nail-healthy removal.',
+      book: 'A BIAB appointment, allow 60–90 minutes.',
+    },
+    acrylic: {
+      name: 'Acrylic',
+      verdict: 'Best for Mums who want length, structure, and a manicure that survives anything.',
+      detail: 'Lasts 3–4 weeks with fills. Most rigid, most durable, widest shape options.',
+      book: 'A full set with your nail technician; ask about infills at 2–3 weeks.',
+    },
+  };
+
+  const handleSelect = (qId, value) => {
+    const updated = { ...answers, [qId]: value };
+    setAnswers(updated);
+    if (Object.keys(updated).length === 3) {
+      const counts = { gel: 0, biab: 0, acrylic: 0 };
+      Object.values(updated).forEach(v => counts[v]++);
+      const max = Math.max(...Object.values(counts));
+      const winners = Object.keys(counts).filter(k => counts[k] === max);
+      setResult(winners.length === 1 ? winners[0] : 'biab');
+    }
+  };
+
+  const reset = () => { setAnswers({}); setResult(null); };
+
+  const answered = Object.keys(answers).length;
+
+  return (
+    <div className="rounded-2xl border border-pink-100 p-6 bg-white shadow-sm my-8">
+      {!result ? (
+        <>
+          {questions.map((q, i) => (
+            <div key={q.id} className="mb-6">
+              <p className="text-xs text-neutral-400 mb-1">Step {i + 1} of 3</p>
+              <p className="text-lg font-medium text-neutral-800 mb-3">{q.text}</p>
+              <div className="flex flex-wrap gap-2">
+                {q.options.map(opt => (
+                  <button
+                    key={opt.value}
+                    onClick={() => handleSelect(q.id, opt.value)}
+                    className={`rounded-full border px-4 py-2 text-sm transition ${answers[q.id] === opt.value ? 'border-pink-500 bg-pink-50 font-semibold' : 'border-neutral-200 hover:border-pink-400 hover:bg-pink-50'}`}
+                  >
+                    {opt.label}
+                  </button>
+                ))}
+              </div>
+            </div>
+          ))}
+        </>
+      ) : (
+        <div className="rounded-2xl bg-pink-50 border border-pink-200 p-6 mt-2">
+          <p className="text-sm text-pink-400 font-medium mb-1">Your result</p>
+          <p className="text-xl font-bold text-pink-700 mb-2">{results[result].name}</p>
+          <p className="text-neutral-700 mb-1">{results[result].verdict}</p>
+          <p className="text-neutral-500 text-sm mb-1">{results[result].detail}</p>
+          <p className="text-neutral-500 text-sm"><strong>Book:</strong> {results[result].book}</p>
+          <button onClick={reset} className="mt-4 text-sm text-pink-500 underline">Start again</button>
+        </div>
+      )}
+    </div>
+  );
+};
+
+<NailQuiz />
