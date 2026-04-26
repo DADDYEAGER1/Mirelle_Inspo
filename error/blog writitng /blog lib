@@ -1,0 +1,336 @@
+import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter';
+import { BlogPost, BlogMetadata } from '@/types/blog';
+import { marked } from 'marked';
+
+// Configure marked to handle HTML properly
+marked.setOptions({
+  breaks: true,
+  gfm: true,
+});
+
+// Custom renderer to preserve HTML and fix image paths
+const renderer = new marked.Renderer();
+
+renderer.html = (html: string) => {
+  return html.replace(/src="images\//g, 'src="/images/');
+};
+
+renderer.image = (href: string, title: string | null, text: string) => {
+  const fixedHref = href.startsWith('images/') ? `/${href}` : href;
+  const titleAttr = title ? ` title="${title}"` : '';
+  return `<img src="${fixedHref}" alt="${text}"${titleAttr} loading="lazy" />`;
+};
+
+marked.use({ renderer });
+
+const BLOG_DIRECTORY = path.join(process.cwd(), 'src/content/blogs');
+
+// ─── Helpers ─────────────────────────────────────────────────────────────────
+
+/**
+ * Given a slug, returns the full file path and whether it is MDX.
+ * Prefers .mdx over .md if both exist.
+ */
+function resolveFilePath(slug: string): { filePath: string; isMDX: boolean } | null {
+  const mdxPath = path.join(BLOG_DIRECTORY, `${slug}.mdx`);
+  const mdPath  = path.join(BLOG_DIRECTORY, `${slug}.md`);
+
+  if (fs.existsSync(mdxPath)) return { filePath: mdxPath, isMDX: true };
+  if (fs.existsSync(mdPath))  return { filePath: mdPath,  isMDX: false };
+  return null;
+}
+
+/**
+ * Returns all blog files (both .md and .mdx) from the content directory.
+ */
+function getAllBlogFiles(): string[] {
+  try {
+    return fs.readdirSync(BLOG_DIRECTORY).filter(
+      file => file.endsWith('.md') || file.endsWith('.mdx')
+    );
+  } catch {
+    return [];
+  }
+}
+
+/**
+ * Strips the extension (.md or .mdx) from a filename to get the slug.
+ */
+function fileToSlug(filename: string): string {
+  return filename.replace(/\.mdx?$/, '');
+}
+
+// ─── Cache ────────────────────────────────────────────────────────────────────
+
+interface CacheEntry<T> {
+  data: T;
+  timestamp: number;
+}
+
+class BlogCache {
+  private cache = new Map<string, CacheEntry<any>>();
+  private readonly TTL = 3600000;
+
+  get<T>(key: string): T | null {
+    const entry = this.cache.get(key);
+    if (!entry) return null;
+    if (Date.now() - entry.timestamp > this.TTL) {
+      this.cache.delete(key);
+      return null;
+    }
+    return entry.data as T;
+  }
+
+  set<T>(key: string, data: T): void {
+    this.cache.set(key, { data, timestamp: Date.now() });
+  }
+
+  clear(): void {
+    this.cache.clear();
+  }
+}
+
+const blogCache = new BlogCache();
+
+// ─── Public API ───────────────────────────────────────────────────────────────
+
+export async function getAllBlogPosts(): Promise<BlogMetadata[]> {
+  const cacheKey = 'all-blog-posts';
+
+  const cached = blogCache.get<BlogMetadata[]>(cacheKey);
+  if (cached) return cached;
+
+  try {
+    const files = getAllBlogFiles();
+
+    const posts = files
+      .map(file => {
+        const slug     = fileToSlug(file);
+        const filePath = path.join(BLOG_DIRECTORY, file);
+        const content  = fs.readFileSync(filePath, 'utf8');
+        const { data } = matter(content);
+
+        return {
+          slug,
+          title:             data.title      || 'Untitled',
+          excerpt:           data.excerpt    || '',
+          date:              data.date       || new Date().toISOString(),
+          author:            data.author     || 'Mirellè Team',
+          category:          data.category,
+          image:             data.image      || null,
+          imageAlt:          data.imageAlt,
+          imageWidth:        data.imageWidth  || 1200,
+          imageHeight:       data.imageHeight || 630,
+          readTime:          data.readTime   || '5 min',
+          canonical:         data.canonical  || `https://mirelleinspo.com/blog/${slug}`,
+          template:          data.template   || 'center',
+          topicalMap:        data.topicalMap,
+          navigationContext: data.navigationContext,
+          url:               `https://mirelleinspo.com/blog/${slug}`,
+        } as BlogMetadata;
+      })
+      .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+    blogCache.set(cacheKey, posts);
+    return posts;
+  } catch (error) {
+    console.error('Error reading blog posts:', error);
+    return [];
+  }
+}
+
+export async function getBlogPost(slug: string): Promise<BlogPost | null> {
+  const cacheKey = `blog-post:${slug}`;
+
+  const cached = blogCache.get<BlogPost>(cacheKey);
+  if (cached) return cached;
+
+  try {
+    const resolved = resolveFilePath(slug);
+    if (!resolved) {
+      console.error(`Blog post not found: ${slug}`);
+      return null;
+    }
+
+    const { filePath, isMDX } = resolved;
+    const fileContent = fs.readFileSync(filePath, 'utf8');
+    const { data, content: rawContent } = matter(fileContent);
+
+    let htmlContent: string;
+
+    if (isMDX) {
+      // MDX: return the raw source string.
+      // next-mdx-remote will compile it in the page/template component.
+      htmlContent = rawContent;
+    } else {
+      // MD: compile to HTML with marked as before.
+      let compiled = await marked(rawContent);
+
+      // Add IDs to h2 headings for anchor/TOC links
+      compiled = compiled.replace(
+        /<h2>(.*?)<\/h2>/g,
+        (_match, text) => {
+          const cleanText = text.replace(/<[^>]*>/g, '');
+          const id = cleanText
+            .toLowerCase()
+            .replace(/[^a-z0-9]+/g, '-')
+            .replace(/^-+|-+$/g, '');
+          return `<h2 id="${id}">${text}</h2>`;
+        }
+      );
+
+      htmlContent = compiled;
+    }
+
+    const post: BlogPost = {
+      slug,
+      title:             data.title      || 'Untitled',
+      excerpt:           data.excerpt    || '',
+      content:           htmlContent,
+      isMDX,
+      date:              data.date       || new Date().toISOString(),
+      author:            data.author     || 'Mirellè Team',
+      category:          data.category,
+      image:             data.image      || null,
+      imageAlt:          data.imageAlt,
+      imageWidth:        data.imageWidth  || 1200,
+      imageHeight:       data.imageHeight || 630,
+      readTime:          data.readTime   || '5 min',
+      canonical:         data.canonical  || `https://mirelleinspo.com/blog/${slug}`,
+      template:          data.template   || 'center',
+      topicalMap:        data.topicalMap,
+      navigationContext: data.navigationContext,
+      carouselImages:    data.carouselImages,
+      products:          data.products,
+      coverImage:        data.image      || '/images/default-blog.jpg',
+    };
+
+    blogCache.set(cacheKey, post);
+    return post;
+  } catch (error) {
+    console.error(`Error reading blog post ${slug}:`, error);
+    return null;
+  }
+}
+
+export async function getAllBlogSlugs(): Promise<string[]> {
+  try {
+    return getAllBlogFiles().map(fileToSlug);
+  } catch (error) {
+    console.error('Error reading blog slugs:', error);
+    return [];
+  }
+}
+
+export async function getPostsByCategory(categorySlug: string): Promise<BlogMetadata[]> {
+  const allPosts = await getAllBlogPosts();
+  return allPosts.filter(post => post.category === categorySlug);
+}
+
+export async function getAllCategories() {
+  return [
+    { name: 'Seasonal',        slug: 'seasonal' },
+    { name: 'Trends',          slug: 'trends' },
+    { name: 'Tutorial',        slug: 'tutorial' },
+    { name: 'Nail Care',       slug: 'nail care' },
+    { name: 'Nail Art',        slug: 'nail art' },
+    { name: "Editor's Choice", slug: "editor's choice" },
+  ];
+}
+
+export async function getRelatedPosts(
+  currentSlug: string,
+  limit: number = 9
+): Promise<BlogMetadata[]> {
+  const currentPost = await getBlogPost(currentSlug);
+  if (!currentPost) return [];
+
+  const allPosts = await getAllBlogPosts();
+
+  const sameCategoryPosts = allPosts
+    .filter(post => post.slug !== currentSlug && post.category === currentPost.category)
+    .slice(0, limit);
+
+  if (sameCategoryPosts.length < limit) {
+    const remaining  = limit - sameCategoryPosts.length;
+    const otherPosts = allPosts
+      .filter(post =>
+        post.slug !== currentSlug &&
+        !sameCategoryPosts.some(sp => sp.slug === post.slug)
+      )
+      .slice(0, remaining);
+
+    return [...sameCategoryPosts, ...otherPosts];
+  }
+
+  return sameCategoryPosts;
+}
+
+export async function getPaginatedPosts(
+  page: number = 1,
+  perPage: number = 12
+): Promise<{
+  posts: BlogMetadata[];
+  totalPages: number;
+  currentPage: number;
+  totalPosts: number;
+}> {
+  const allPosts   = await getAllBlogPosts();
+  const totalPosts = allPosts.length;
+  const totalPages = Math.ceil(totalPosts / perPage);
+  const startIndex = (page - 1) * perPage;
+  const posts      = allPosts.slice(startIndex, startIndex + perPage);
+
+  return { posts, totalPages, currentPage: page, totalPosts };
+}
+
+export interface ClusterGroup {
+  pillar:   BlogMetadata;
+  clusters: BlogMetadata[];
+}
+
+export async function getAllClusters(): Promise<ClusterGroup[]> {
+  const cacheKey = 'all-clusters';
+
+  const cached = blogCache.get<ClusterGroup[]>(cacheKey);
+  if (cached) return cached;
+
+  const allPosts    = await getAllBlogPosts();
+  const pillarPosts = allPosts.filter(post => post.topicalMap?.position === 'pillar');
+
+  const clusterGroups: ClusterGroup[] = pillarPosts.map(pillar => {
+    const clusterPosts = allPosts.filter(post =>
+      post.topicalMap?.position === 'cluster' &&
+      (
+        post.topicalMap?.parentPillar === `/blog/${pillar.slug}` ||
+        post.topicalMap?.parentPillar === pillar.slug
+      )
+    );
+    return { pillar, clusters: clusterPosts };
+  });
+
+  blogCache.set(cacheKey, clusterGroups);
+  return clusterGroups;
+}
+
+export async function getStandalonePosts(): Promise<BlogMetadata[]> {
+  const cacheKey = 'standalone-posts';
+
+  const cached = blogCache.get<BlogMetadata[]>(cacheKey);
+  if (cached) return cached;
+
+  const allPosts   = await getAllBlogPosts();
+  const standalone = allPosts.filter(post =>
+    !post.topicalMap?.position ||
+    (post.topicalMap.position !== 'pillar' && post.topicalMap.position !== 'cluster')
+  );
+
+  blogCache.set(cacheKey, standalone);
+  return standalone;
+}
+
+export function clearBlogCache() {
+  blogCache.clear();
+}
