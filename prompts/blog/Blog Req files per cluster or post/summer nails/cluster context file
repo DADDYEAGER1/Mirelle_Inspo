@@ -1,0 +1,97 @@
+{
+  "cluster_overview": {
+    "cluster_topic": "Summer Nails",
+    "pillar_slug": "summer-nail-trends-2026",
+    "pillar_title": "Summer Nail Trends 2026: Every Look You Need This Season",
+    "total_posts": 10
+  },
+  "all_posts_index": [
+    { "post_id": 1, "title": "Summer Nail Trends 2026: Every Look You Need This Season", "slug": "summer-nail-trends-2026", "primary_keyword": "summer nail trends 2026", "intent": "seasonal_trend", "role": "pillar" },
+    { "post_id": 2, "title": "Best Summer Nail Colors for Every Skin Tone", "slug": "summer-nail-colors", "primary_keyword": "summer nail colors", "intent": "informational", "role": "spoke" },
+    { "post_id": 3, "title": "50+ Summer Nail Ideas to Save Right Now", "slug": "summer-nail-ideas", "primary_keyword": "summer nail ideas", "intent": "inspirational", "role": "spoke" },
+    { "post_id": 4, "title": "How to Do Ombre Nails at Home for Summer", "slug": "how-to-do-ombre-nails-at-home", "primary_keyword": "how to do ombre nails at home", "intent": "tutorial", "role": "spoke" },
+    { "post_id": 5, "title": "Short vs Long Summer Nails: Which Should You Get?", "slug": "short-vs-long-summer-nails", "primary_keyword": "short vs long summer nails", "intent": "comparison", "role": "spoke" },
+    { "post_id": 6, "title": "Cute Short Summer Nails That Are Actually Practical", "slug": "short-summer-nails", "primary_keyword": "short summer nails", "intent": "inspirational", "role": "spoke" },
+    { "post_id": 7, "title": "Best Summer Nail Polish Sets to Buy in 2026", "slug": "best-summer-nail-polish-sets-2026", "primary_keyword": "best summer nail polish sets", "intent": "transactional", "role": "spoke" },
+    { "post_id": 8, "title": "Summer Nail Art Designs: Florals, Fruits & Beach Themes", "slug": "summer-nail-art-designs", "primary_keyword": "summer nail art designs", "intent": "inspirational", "role": "spoke" },
+    { "post_id": 9, "title": "Beach Nail Ideas: The Best Coastal Manicures for Summer", "slug": "beach-nails", "primary_keyword": "beach nails", "intent": "inspirational", "role": "spoke" },
+    { "post_id": 10, "title": "Neon Summer Nails: Bold Colors & Designs to Try in 2026", "slug": "neon-summer-nails", "primary_keyword": "neon summer nails", "intent": "inspirational", "role": "spoke" }
+  ],
+  "internal_linking_map": [
+    {
+      "post_slug": "summer-nail-trends-2026",
+      "links_to": ["summer-nail-colors", "summer-nail-ideas", "how-to-do-ombre-nails-at-home", "short-vs-long-summer-nails", "short-summer-nails", "best-summer-nail-polish-sets-2026", "summer-nail-art-designs", "beach-nails", "neon-summer-nails"],
+      "receives_links_from": ["summer-nail-colors", "summer-nail-ideas", "how-to-do-ombre-nails-at-home", "short-vs-long-summer-nails", "short-summer-nails", "best-summer-nail-polish-sets-2026", "summer-nail-art-designs", "beach-nails", "neon-summer-nails"]
+    },
+    {
+      "post_slug": "summer-nail-colors",
+      "links_to": ["summer-nail-trends-2026", "best-summer-nail-polish-sets-2026", "summer-nail-ideas", "neon-summer-nails"],
+      "receives_links_from": ["summer-nail-trends-2026", "summer-nail-ideas", "short-summer-nails", "beach-nails"]
+    },
+    {
+      "post_slug": "summer-nail-ideas",
+      "links_to": ["summer-nail-trends-2026", "summer-nail-colors", "summer-nail-art-designs", "short-summer-nails", "beach-nails"],
+      "receives_links_from": ["summer-nail-trends-2026", "summer-nail-art-designs", "neon-summer-nails", "beach-nails"]
+    },
+    {
+      "post_slug": "how-to-do-ombre-nails-at-home",
+      "links_to": ["summer-nail-trends-2026", "best-summer-nail-polish-sets-2026", "summer-nail-colors"],
+      "receives_links_from": ["summer-nail-trends-2026", "summer-nail-art-designs", "short-vs-long-summer-nails"]
+    },
+    {
+      "post_slug": "short-vs-long-summer-nails",
+      "links_to": ["summer-nail-trends-2026", "short-summer-nails", "how-to-do-ombre-nails-at-home", "summer-nail-art-designs"],
+      "receives_links_from": ["summer-nail-trends-2026", "short-summer-nails", "summer-nail-ideas"]
+    },
+    {
+      "post_slug": "short-summer-nails",
+      "links_to": ["summer-nail-trends-2026", "summer-nail-colors", "short-vs-long-summer-nails", "best-summer-nail-polish-sets-2026"],
+      "receives_links_from": ["summer-nail-trends-2026", "summer-nail-ideas", "short-vs-long-summer-nails", "summer-nail-art-designs"]
+    },
+    {
+      "post_slug": "best-summer-nail-polish-sets-2026",
+      "links_to": ["summer-nail-trends-2026", "summer-nail-colors", "how-to-do-ombre-nails-at-home"],
+      "receives_links_from": ["summer-nail-trends-2026", "summer-nail-colors", "short-summer-nails", "neon-summer-nails", "summer-nail-ideas"]
+    },
+    {
+      "post_slug": "summer-nail-art-designs",
+      "links_to": ["summer-nail-trends-2026", "summer-nail-ideas", "short-summer-nails", "how-to-do-ombre-nails-at-home", "beach-nails"],
+      "receives_links_from": ["summer-nail-trends-2026", "summer-nail-ideas", "beach-nails", "neon-summer-nails"]
+    },
+    {
+      "post_slug": "beach-nails",
+      "links_to": ["summer-nail-trends-2026", "summer-nail-art-designs", "summer-nail-ideas", "summer-nail-colors"],
+      "receives_links_from": ["summer-nail-trends-2026", "summer-nail-ideas", "summer-nail-art-designs", "short-summer-nails"]
+    },
+    {
+      "post_slug": "neon-summer-nails",
+      "links_to": ["summer-nail-trends-2026", "summer-nail-colors", "summer-nail-art-designs", "best-summer-nail-polish-sets-2026", "summer-nail-ideas"],
+      "receives_links_from": ["summer-nail-trends-2026", "summer-nail-ideas", "summer-nail-art-designs"]
+    }
+  ],
+  "keyword_do_not_use": {
+    "description": "Before writing any post, check this list. NEVER use another post's primary keyword as a focus term in your content.",
+    "entries": [
+      { "keyword": "summer nail trends 2026", "reserved_for": "summer-nail-trends-2026" },
+      { "keyword": "summer nail colors", "reserved_for": "summer-nail-colors" },
+      { "keyword": "summer nail ideas", "reserved_for": "summer-nail-ideas" },
+      { "keyword": "how to do ombre nails at home", "reserved_for": "how-to-do-ombre-nails-at-home" },
+      { "keyword": "short vs long summer nails", "reserved_for": "short-vs-long-summer-nails" },
+      { "keyword": "short summer nails", "reserved_for": "short-summer-nails" },
+      { "keyword": "best summer nail polish sets", "reserved_for": "best-summer-nail-polish-sets-2026" },
+      { "keyword": "summer nail art designs", "reserved_for": "summer-nail-art-designs" },
+      { "keyword": "beach nails", "reserved_for": "beach-nails" },
+      { "keyword": "neon summer nails", "reserved_for": "neon-summer-nails" }
+    ]
+  },
+  "frontmatter_guidance": {
+    "description": "Rules for writing agent when filling frontmatter for any post in this cluster",
+    "rules": [
+      "Use this post's own primary keyword in title, slug, and meta description",
+      "Every spoke post must link back to the pillar: summer-nail-trends-2026",
+      "Check this post's links_to list before writing — include those internal links contextually in the body",
+      "Never target a keyword from keyword_do_not_use as a focus term in this post's content",
+      "Secondary mentions of reserved keywords are fine — just don't optimize for them"
+    ]
+  }
+}
