@@ -1,0 +1,267 @@
+{
+  "cluster_metadata": {
+    "cluster_name": "Aesthetic Nail Ideas",
+    "cluster_level": 1,
+    "cluster_type": "parent",
+    "pillar_slug": "aesthetic-nail-ideas",
+    "pillar_title": "Aesthetic Nail Ideas: The Ultimate Guide to Every Vibe & Style",
+    "target_audience": "Global, Tier 1 countries (US, UK, Canada, Australia)",
+    "total_posts": 6,
+    "created_date": "2026-04-30",
+    "intent_breakdown": {
+      "inspirational": 4,
+      "informational": 1,
+      "tutorial": 0,
+      "transactional": 0,
+      "comparison": 0,
+      "seasonal_trend": 0
+    },
+    "cluster_hierarchy": {
+      "level": 1,
+      "parent_cluster": null,
+      "sub_clusters": [
+        "cluster_map_quiet_luxury.json",
+        "cluster_map_old_money.json",
+        "cluster_map_clean_girl.json",
+        "cluster_map_coquette.json"
+      ],
+      "sub_cluster_slugs": [
+        "quiet-luxury-nails",
+        "old-money-nails",
+        "clean-girl-nails",
+        "coquette-nails"
+      ],
+      "hierarchy_note": "This is the top-level parent cluster. The pillar post links OUT to all 4 sub-cluster sub-pillar posts. Each sub-cluster sub-pillar links BACK to this pillar."
+    }
+  },
+
+  "writing_agent_instructions": {
+    "description": "READ THIS SECTION BEFORE WRITING ANY POST IN THIS CLUSTER",
+    "site": "mirelleinspo.com",
+    "site_focus": "Almond nails — design, inspiration, aesthetics, occasions",
+    "cluster_angle": "People searching their style or vibe — NOT searching almond nails directly. Almond nails is the recommended shape discovered INSIDE the post, not the search term used to find it.",
+    "almond_nail_rule": "Every post must recommend almond nails as the ideal shape for that aesthetic. Include almond nails in H2 headings, body copy, and image alt text. Do NOT force it into the primary keyword or title — the aesthetic is the entry point, almond is the answer.",
+    "non_cannibalization_rule": "This site has existing clusters on almond nail designs and pain points. Do NOT target the keywords: almond nails, almond nail designs, almond nail ideas, almond nail shapes. Those are owned by existing clusters.",
+    "internal_linking_rule": "Every spoke post links back to the pillar (aesthetic-nail-ideas). The pillar links out to all 4 sub-cluster sub-pillars AND all 5 spoke posts in this cluster.",
+    "content_tone": "Confident, knowledgeable, visually-led. Write like a nail-obsessed editor who knows aesthetics deeply. Not overly casual, not stiff.",
+    "keyword_ownership": "Never use another post's primary keyword as a focus term in your post. Check the keyword_do_not_use list below before writing."
+  },
+
+  "posts": [
+    {
+      "post_id": 1,
+      "role": "pillar",
+      "title": "Aesthetic Nail Ideas: The Ultimate Guide to Every Vibe & Style",
+      "slug": "aesthetic-nail-ideas",
+      "primary_keyword": "aesthetic nail ideas",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Google autocomplete: 'aesthetic nail ideas' populates heavily with vibe/style variants",
+        "Pinterest: massive board ecosystem across every aesthetic sub-category",
+        "TikTok: #aestheticnails content spans all sub-aesthetics with billions of combined views",
+        "YouTube: aesthetic nail tutorials rank consistently high"
+      ],
+      "why_included": "Broadest entry-point keyword in the cluster. Owns the top of the hierarchy and funnels readers into every aesthetic sub-topic and sub-cluster.",
+      "internal_links": {
+        "links_to": [
+          "rich-girl-nails",
+          "dark-feminine-nails",
+          "mob-wife-nails",
+          "soft-girl-nails",
+          "office-siren-nails",
+          "quiet-luxury-nails",
+          "old-money-nails",
+          "clean-girl-nails",
+          "coquette-nails"
+        ],
+        "receives_links_from": [
+          "rich-girl-nails",
+          "dark-feminine-nails",
+          "mob-wife-nails",
+          "soft-girl-nails",
+          "office-siren-nails",
+          "quiet-luxury-nails",
+          "old-money-nails",
+          "clean-girl-nails",
+          "coquette-nails"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 2,
+      "role": "spoke",
+      "title": "Rich Girl Nails: How to Get That Polished Expensive-Looking Almond Manicure",
+      "slug": "rich-girl-nails",
+      "primary_keyword": "rich girl nails",
+      "intent": "informational",
+      "search_demand_signals": [
+        "Named trend coined by celebrity manicurist Tom Bachik (JLo, Selena Gomez, Margot Robbie clients)",
+        "Featured in Popsugar, NewBeauty, InStyle, IPSY, BTArtBox — strong editorial SERP",
+        "Pinterest: 30+ dedicated boards including '30+ Rich Girl Aesthetic Nails'",
+        "TikTok: dedicated tutorial and inspo content under #richgirlnails"
+      ],
+      "why_included": "Genuinely distinct from old money and quiet luxury — has a named creator, a specific technique (creamy full-coverage nude, surgical prep), and independent editorial SERP coverage.",
+      "internal_links": {
+        "links_to": [
+          "aesthetic-nail-ideas",
+          "quiet-luxury-nails",
+          "old-money-nails",
+          "clean-girl-nails"
+        ],
+        "receives_links_from": [
+          "aesthetic-nail-ideas",
+          "quiet-luxury-nails",
+          "old-money-nails"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 3,
+      "role": "spoke",
+      "title": "Dark Feminine Nails: Moody Powerful Almond Designs for a Mysterious Look",
+      "slug": "dark-feminine-nails",
+      "primary_keyword": "dark feminine nails",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Pinterest 2026 Forecast: +609% surge in 'dark feminine nails' searches",
+        "TikTok: dedicated boards and content under #darkfemininenails",
+        "Pinterest: multiple active 'dark feminine aesthetic nails' boards",
+        "Editorial: Ambedo Beauty, multiple nail trend roundups covering the 'shadow romance' aesthetic"
+      ],
+      "why_included": "Strongly ascending demand — Pinterest's 2026 forecast shows +609% growth. Absorbs energy from multiple micro-trends (shadow romance, vampire nails, gothic feminine). Almond is the natural elongated shape for this aesthetic.",
+      "internal_links": {
+        "links_to": [
+          "aesthetic-nail-ideas",
+          "mob-wife-nails",
+          "office-siren-nails",
+          "coquette-nails"
+        ],
+        "receives_links_from": [
+          "aesthetic-nail-ideas",
+          "mob-wife-nails",
+          "office-siren-nails"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 4,
+      "role": "spoke",
+      "title": "Mob Wife Nails: Bold Glamorous Almond Designs That Command Attention",
+      "slug": "mob-wife-nails",
+      "primary_keyword": "mob wife nails",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Google Year in Search 2024: #1 trending aesthetic search term",
+        "TikTok: 155M+ combined views on mob wife aesthetic; #mobwifemakeup alone = 57M views",
+        "Carmela Soprano / Griselda Blanco cultural anchors driving sustained search",
+        "Featured in Grazia, Women.com, Cosmetics Business as top beauty trend"
+      ],
+      "why_included": "Topped Google's 2024 aesthetic trending searches — documented, not estimated. Bold maximalist counterpoint to the neutral posts in this cluster, providing critical intent diversity.",
+      "internal_links": {
+        "links_to": [
+          "aesthetic-nail-ideas",
+          "dark-feminine-nails",
+          "old-money-nails"
+        ],
+        "receives_links_from": [
+          "aesthetic-nail-ideas",
+          "dark-feminine-nails",
+          "office-siren-nails"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 5,
+      "role": "spoke",
+      "title": "Soft Girl Nails: The Prettiest Pastel Almond Designs for a Dreamy Feminine Look",
+      "slug": "soft-girl-nails",
+      "primary_keyword": "soft girl nails",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "TikTok: explicitly listed as primary aesthetic alongside coquette and kawaii in multiple nail trend reports",
+        "Pinterest: active pastel nail aesthetic boards under soft girl keyword",
+        "Stable multi-year demand — predates coquette and maintains independent audience",
+        "Multiple press-on nail brand reports name it as a distinct content category"
+      ],
+      "why_included": "Distinct named aesthetic with its own TikTok lineage — separate from coquette (no bows/pearls, more dreamy/pastel/e-girl energy). Zero keyword overlap with coquette.",
+      "internal_links": {
+        "links_to": [
+          "aesthetic-nail-ideas",
+          "coquette-nails",
+          "clean-girl-nails"
+        ],
+        "receives_links_from": [
+          "aesthetic-nail-ideas",
+          "coquette-nails",
+          "clean-girl-nails"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 6,
+      "role": "spoke",
+      "title": "Office Siren Nails: Sharp Glossy Almond Designs for When You Mean Business",
+      "slug": "office-siren-nails",
+      "primary_keyword": "office siren nails",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "TikTok: #officesiren has 80,000+ posts; nails explicitly named as defining element of the aesthetic",
+        "Pinterest: dedicated 'office siren nails' idea board with active engagement",
+        "Who What Wear editorial: named bold nails as core office siren look alongside Chanel Oiseau de Nuit",
+        "Daily Dot, JHU News-Letter, The Post: named top-10 TikTok aesthetic of 2024"
+      ],
+      "why_included": "Viral named aesthetic with documented SERP coverage. The nail look (dark, glossy, elongated almond) is visually distinct from dark feminine and mob wife — different power register, different audience segment.",
+      "internal_links": {
+        "links_to": [
+          "aesthetic-nail-ideas",
+          "dark-feminine-nails",
+          "mob-wife-nails",
+          "old-money-nails"
+        ],
+        "receives_links_from": [
+          "aesthetic-nail-ideas",
+          "dark-feminine-nails",
+          "mob-wife-nails"
+        ]
+      },
+      "status": "approved"
+    }
+  ],
+
+  "keyword_ownership_registry": {
+    "description": "Master list of all primary keywords in this cluster. No overlaps. Writing agent must never use another post's primary keyword as a focus term.",
+    "entries": [
+      { "primary_keyword": "aesthetic nail ideas", "owned_by_slug": "aesthetic-nail-ideas", "owned_by_title": "Aesthetic Nail Ideas: The Ultimate Guide to Every Vibe & Style" },
+      { "primary_keyword": "rich girl nails", "owned_by_slug": "rich-girl-nails", "owned_by_title": "Rich Girl Nails: How to Get That Polished Expensive-Looking Almond Manicure" },
+      { "primary_keyword": "dark feminine nails", "owned_by_slug": "dark-feminine-nails", "owned_by_title": "Dark Feminine Nails: Moody Powerful Almond Designs for a Mysterious Look" },
+      { "primary_keyword": "mob wife nails", "owned_by_slug": "mob-wife-nails", "owned_by_title": "Mob Wife Nails: Bold Glamorous Almond Designs That Command Attention" },
+      { "primary_keyword": "soft girl nails", "owned_by_slug": "soft-girl-nails", "owned_by_title": "Soft Girl Nails: The Prettiest Pastel Almond Designs for a Dreamy Feminine Look" },
+      { "primary_keyword": "office siren nails", "owned_by_slug": "office-siren-nails", "owned_by_title": "Office Siren Nails: Sharp Glossy Almond Designs for When You Mean Business" }
+    ]
+  },
+
+  "keyword_do_not_use": {
+    "description": "Writing agent: NEVER use these as focus terms in any post in this cluster. These are reserved for sub-clusters.",
+    "entries": [
+      { "keyword": "quiet luxury nails", "reserved_for": "quiet-luxury-nails" },
+      { "keyword": "old money nails", "reserved_for": "old-money-nails" },
+      { "keyword": "clean girl nails", "reserved_for": "clean-girl-nails" },
+      { "keyword": "coquette nails", "reserved_for": "coquette-nails" },
+      { "keyword": "almond nails", "reserved_for": "existing-site-cluster" },
+      { "keyword": "almond nail designs", "reserved_for": "existing-site-cluster" },
+      { "keyword": "almond nail ideas", "reserved_for": "existing-site-cluster" }
+    ]
+  },
+
+  "killed_posts_log": [
+    { "topic": "That Girl Nails", "reason": "No standalone SERP. Demand entirely absorbed by clean girl nails keyword." },
+    { "topic": "Office Siren Nails (initially killed)", "reason": "Initially killed for weak nail-specific signal, then reinstated after deeper research confirmed Pinterest dedicated boards and 80K+ TikTok posts with nails explicitly named as core aesthetic element." },
+    { "topic": "Balletcore Nails", "reason": "Demand subsumed by coquette nails. No independent SERP real estate." },
+    { "topic": "Dark Academia Nails", "reason": "Pinterest sub-tags only. No independent TikTok hashtag at meaningful scale. Absorbed by dark feminine nails." }
+  ]
+}
