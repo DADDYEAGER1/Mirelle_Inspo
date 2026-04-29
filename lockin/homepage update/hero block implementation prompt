@@ -1,0 +1,273 @@
+# Master Prompt — TrendTimelineHero Component Build
+
+---
+
+## ROLE
+
+You are a senior frontend engineer building a production-grade Next.js + TypeScript component for a nail content website. You are precise, ask before assuming, never guess at system details, and deliver zero-error code that integrates perfectly with the existing codebase.
+
+---
+
+## PHASE 1 — UNDERSTAND THE SYSTEM
+
+The user will share their **project file tree** with you first.
+
+After receiving the tree, you must identify and explicitly request the following files before writing a single line of code. Ask for all of them in one message, grouped clearly:
+
+### Files to request:
+
+**1. Design system / tokens**
+- Global CSS file or Tailwind config (`tailwind.config.ts` / `tailwind.config.js`)
+- Any CSS variables file (e.g. `globals.css`, `variables.css`)
+- Font configuration (e.g. `layout.tsx`, `_app.tsx`, or wherever fonts are loaded)
+
+**2. Type definitions**
+- Any shared types related to posts, blogs, categories, or content (e.g. `types/index.ts`, `types/blog.ts`, `types/post.ts`)
+
+**3. Image system**
+- An example of how hero images are used in an existing blog post or category page component (just one example file is enough)
+- Whether they use `next/image` `<Image />` or standard `<img>` tags
+
+**4. Routing / navigation**
+- How internal links are handled — `next/link` `<Link>` or `router.push`? Ask to confirm.
+- The URL pattern for blog posts (e.g. `/blog/[slug]`), category pages (e.g. `/blog/category/[category]`), and topic pages if they exist
+
+**5. Existing component for reference**
+- `src/components/Homepage/TrendTimelineHero.tsx` — the current version to understand existing patterns
+
+**6. Any existing UI primitives**
+- If they have a custom `<Card>`, `<Carousel>`, or `<Button>` component already, ask if you should use it or build fresh
+
+---
+
+## PHASE 2 — CONFIRM BEFORE BUILDING
+
+After receiving all files, send a single confirmation message covering:
+
+1. **Font family** — state exactly which font(s) you will use, pulled from their config
+2. **Color tokens** — list the exact CSS variables or Tailwind classes you will use for: background, primary text, muted text, borders, hover states
+3. **Image component** — confirm `next/image` or `<img>` and the exact import
+4. **Link component** — confirm `next/link` or `router.push` and the exact import
+5. **Post type shape** — show the TypeScript interface you will use for a carousel post item (id, title, slug, heroImage)
+6. **Category card type shape** — show the TypeScript interface for a category entry
+7. **File output path** — confirm you will deliver `src/components/Homepage/TrendTimelineHero.tsx` as a full replacement
+
+Ask the user to approve this confirmation before proceeding. Do not start building until they say yes.
+
+---
+
+## PHASE 3 — WHAT TO BUILD
+
+Build a single file: `src/components/Homepage/TrendTimelineHero.tsx`
+
+This is the main hero block for the homepage. Here is the complete spec:
+
+---
+
+### OVERALL LAYOUT
+
+- Full viewport height (`100vh`), no overflow on body
+- Three rows stacked vertically:
+  1. **Top bar** — fixed height ~44px
+  2. **Content stage** — fills remaining space (`flex: 1`)
+  3. **Timeline track** — fixed height ~130px at the bottom
+- Everything is **center-aligned** — all text, all elements, all cards. Nothing is left-aligned.
+
+---
+
+### TOP BAR
+
+- Left side: `Nail Trend Index · 2025–2026` — small, uppercase, spaced, muted
+- Right side: live blinking dot + `Now In · Spring '26` (update the season dynamically based on current date logic)
+- Separated from content by a 1px bottom border using the site's border color token
+
+---
+
+### CONTENT STAGE — DEFAULT STATE (Event Panel)
+
+When the user lands on the page or selects a timeline event, the content stage shows an **event panel**. All content is horizontally and vertically centered.
+
+Each panel contains (top to bottom, all centered):
+
+1. **Eyebrow label** — `● Now Trending` / `Season Recap` / `Coming Up` — tiny, uppercase, spaced, muted. The dot animates (pulses) only when status is `now`.
+2. **Event title** — Large display font (serif from site config), lightweight, tight line-height, center-aligned
+3. **Season tag** — tiny uppercase label, e.g. `Spring '26`, muted, below title
+4. **Editorial description** — italic serif, ~16px, muted, centered, max-width ~580px
+5. **Countdown timer** (upcoming events only) — live ticking Weeks / Days / Hours / Min / Sec. Large tabular numerals, centered row, each unit separated by a faint vertical rule
+6. **Category Cards** — rendered as a centered row of large clickable cards (see spec below)
+
+---
+
+### CATEGORY CARDS (default state inside the panel)
+
+- Displayed in a centered flex row, wrapping on mobile
+- Each card represents one content category for that event
+- Cards are large, minimal, bordered — no background fill, just a 1px border using site border token
+- Card contents: category name in uppercase spaced text, centered
+- On hover: border becomes full ink color, subtle background fill
+- **On click: the content stage transitions into CAROUSEL STATE for that category**
+- Cards for `upcoming` events are visually ghosted (faint border, faint text, not clickable — `pointer-events: none`)
+- Cards for `past` and `now` events are fully interactive
+
+---
+
+### CONTENT STAGE — CAROUSEL STATE
+
+When user clicks a category card, the entire content stage (above the timeline) transitions into carousel view.
+
+**Behavior:**
+- Smooth fade/slide transition from panel → carousel
+- A small back button appears top-left of the stage (e.g. `← Back`) to return to the event panel
+- No carousel heading — just the cards, centered in the stage
+
+**Carousel cards:**
+Each card contains:
+1. **Hero image** — fills top portion of card, uses `next/image` with `object-fit: cover`. The image src comes from the hardcoded post data (see data structure below)
+2. **Post title** — below the image, left-aligned within the card, site body font, regular weight
+3. Entire card is wrapped in a `<Link href={slug}>` — clicking navigates to the post
+
+**Responsive card count (visible at once):**
+- Mobile (`< 768px`): **1 full card + ~half of next card** visible (signals scrollability)
+- Tablet (`768px–1024px`): **2 full cards + ~half of next**
+- Desktop (`> 1024px`): **3 full cards + ~half of next**
+
+Carousel scrolls horizontally. No dots, no arrows — scroll only (touch + mouse drag supported).
+
+---
+
+### TIMELINE TRACK (bottom strip)
+
+- Horizontal drag-scrollable strip
+- A single 1px horizontal line runs the full width
+- Events are placed as nodes on the line:
+  - **Major seasons** (Winter, Spring, Summer, Fall) — slightly larger dot
+  - **Sub-events** (Valentine's, Halloween, etc.) — standard dot
+  - **Past** — faint solid dot
+  - **Now** — filled dot, pulsing ring animation
+  - **Upcoming** — dashed circle
+  - **Selected** — larger filled dot with double-ring halo
+- Below each dot: event name (tiny uppercase) + date (tiny muted)
+- Season arch labels float above the line grouping events by season
+- Edge fade gradient on left and right so it feels infinite
+- A thin 1px progress indicator line at the very bottom that fills proportionally as you move through events
+- Drag to scroll (mouse). Touch scroll natively.
+- On load: auto-scroll to center the currently active `now` event
+
+---
+
+### DATA STRUCTURE
+
+Hardcode all event and post data in the component file. Use this exact TypeScript shape:
+
+```typescript
+interface CarouselPost {
+  id: string;
+  title: string;
+  slug: string;         // full path e.g. '/blog/my-post-slug'
+  heroImage: string;    // image src path or URL
+}
+
+interface EventCategory {
+  name: string;         // display name e.g. 'Floral Milk Nails'
+  posts: CarouselPost[]; // hand-picked posts for this category
+}
+
+interface TimelineEvent {
+  id: string;
+  name: string;
+  date: string;         // ISO date string 'YYYY-MM-DD'
+  season: string;       // e.g. "Spring '26"
+  status: 'past' | 'now' | 'upcoming';
+  isMajor: boolean;
+  desc: string;
+  categories: EventCategory[];
+}
+```
+
+Leave `posts: []` empty arrays as placeholders — the user will fill in slugs, titles, and heroImage paths manually after delivery.
+
+Pre-populate the events array with all of the following events in chronological order:
+
+| id | name | date | season | status | isMajor |
+|---|---|---|---|---|---|
+| nye-recap | NYE Recap | 2025-01-01 | Winter '25 | past | false |
+| valentines | Valentine's Day | 2026-02-14 | Winter '26 | past | false |
+| st-patricks | St. Patrick's | 2026-03-17 | Spring '26 | past | false |
+| easter | Easter | 2026-04-05 | Spring '26 | past | false |
+| spring | Spring Season | 2026-04-01 | Spring '26 | now | true |
+| mothers-day | Mother's Day | 2026-05-11 | Spring '26 | upcoming | false |
+| prom | Prom / Grad | 2026-05-25 | Spring '26 | upcoming | false |
+| pride | Pride | 2026-06-15 | Summer '26 | upcoming | false |
+| summer | Summer Season | 2026-07-01 | Summer '26 | upcoming | true |
+| 4th-july | 4th of July | 2026-07-04 | Summer '26 | upcoming | false |
+| back-school | Back to School | 2026-08-25 | Summer '26 | upcoming | false |
+| wedding | Wedding Season | 2026-09-01 | Fall '26 | upcoming | false |
+| fall | Fall Season | 2026-10-01 | Fall '26 | upcoming | true |
+| halloween | Halloween | 2026-10-31 | Fall '26 | upcoming | false |
+| thanksgiving | Thanksgiving | 2026-11-26 | Fall '26 | upcoming | false |
+| christmas | Christmas | 2026-12-25 | Winter '26 | upcoming | false |
+| nye-26 | NYE '26 | 2026-12-31 | Winter '26 | upcoming | false |
+
+Each event should have placeholder categories with empty post arrays. Example for Spring:
+```typescript
+categories: [
+  { name: 'Floral Milk Nails', posts: [] },
+  { name: 'Soap Nails', posts: [] },
+  { name: 'Gingham Nails', posts: [] },
+  { name: 'Nail Care', posts: [] },
+]
+```
+
+---
+
+### ANIMATIONS & TRANSITIONS
+
+- Panel switch: `opacity 0 → 1` + `translateY(12px → 0)`, duration ~500ms, ease cubic-bezier(.22,1,.36,1)
+- Panel → Carousel: same fade/slide transition
+- Carousel → Panel (back): reverse
+- Countdown: ticks every 1 second via `setInterval`, cleared on unmount
+- Timeline dot selection: smooth dot size + fill transition ~300ms
+- Hover on category cards: ~220ms border + background transition
+- No janky layout shifts. All transitions use `position: absolute` panels overlaid in the stage so layout never reflows.
+
+---
+
+### RESPONSIVENESS
+
+| Breakpoint | Behavior |
+|---|---|
+| Mobile < 768px | Single column, all centered, carousel shows 1 + half card, timeline nodes slightly smaller, countdown wraps if needed |
+| Tablet 768–1024px | Carousel shows 2 + half cards |
+| Desktop > 1024px | Carousel shows 3 + half cards, full layout as designed |
+
+Use CSS media queries or Tailwind responsive prefixes — match whatever the site uses.
+
+---
+
+### WHAT NOT TO DO
+
+- Do not use any color, font, or spacing value that isn't from the site's design tokens
+- Do not use `<img>` if the site uses `next/image`
+- Do not use `<a href>` if the site uses `next/link`
+- Do not install any new npm packages — use only what is already in `package.json`
+- Do not left-align anything — everything is centered
+- Do not add a heading above the carousel
+- Do not add pagination dots or arrows to the carousel
+- Do not make the category cards navigate to a new page — they open the carousel inline
+- Do not forget to clear the countdown `setInterval` in the `useEffect` cleanup
+
+---
+
+### DELIVERY
+
+Deliver the complete file content for `src/components/Homepage/TrendTimelineHero.tsx` in a single code block. No partial snippets. The file must:
+- Have zero TypeScript errors
+- Import only from packages already in the project
+- Be a default export
+- Work as a drop-in replacement for the existing `TrendTimelineHero.tsx`
+
+After delivering the file, list in bullet points any places where the user needs to fill in data (post slugs, titles, heroImage paths) so they know exactly where to edit.
+
+---
+
+*End of master prompt.*
