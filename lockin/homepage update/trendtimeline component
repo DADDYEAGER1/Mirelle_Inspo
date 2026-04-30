@@ -1,0 +1,1185 @@
+'use client';
+
+import { useState, useEffect, useRef, useCallback } from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+
+// ─── TYPE DEFINITIONS ───────────────────────────────────────────────────────
+
+interface CarouselPost {
+  id: string;
+  title: string;
+  slug: string;
+  heroImage: string;
+}
+
+interface EventCategory {
+  name: string;
+  posts: CarouselPost[];
+}
+
+interface TimelineEvent {
+  id: string;
+  name: string;
+  date: string;
+  season: string;
+  status: 'past' | 'now' | 'upcoming';
+  isMajor: boolean;
+  desc: string;
+  categories: EventCategory[];
+}
+
+// ─── DATA ────────────────────────────────────────────────────────────────────
+
+const EVENTS: TimelineEvent[] = [
+  {
+    id: 'nye-recap',
+    name: 'NYE Recap',
+    date: '2025-01-01',
+    season: "Winter '25",
+    status: 'past',
+    isMajor: false,
+    desc: 'The glitter has settled. Here are the nail looks that defined the countdown.',
+    categories: [
+      { name: 'Glitter Chrome', posts: [] },
+      { name: 'Midnight Black', posts: [] },
+      { name: 'Champagne Nails', posts: [] },
+    ],
+  },
+  {
+    id: 'valentines',
+    name: "Valentine's Day",
+    date: '2026-02-14',
+    season: "Winter '26",
+    status: 'past',
+    isMajor: false,
+    desc: 'Love in every layer. The softest reds, jelly hearts, and velvet finishes.',
+    categories: [
+      { name: 'Jelly Hearts', posts: [] },
+      { name: 'Velvet Red', posts: [] },
+      { name: 'Pink Cat Eye', posts: [] },
+      { name: 'Lace Tips', posts: [] },
+    ],
+  },
+  {
+    id: 'st-patricks',
+    name: "St. Patrick's",
+    date: '2026-03-17',
+    season: "Spring '26",
+    status: 'past',
+    isMajor: false,
+    desc: 'Lucky greens, clover art, and the shimmer of something rare.',
+    categories: [
+      { name: 'Emerald Chrome', posts: [] },
+      { name: 'Clover Art', posts: [] },
+    ],
+  },
+  {
+    id: 'easter',
+    name: 'Easter',
+    date: '2026-04-05',
+    season: "Spring '26",
+    status: 'past',
+    isMajor: false,
+    desc: 'Pastel eggs, speckled finishes, and the return of soft everything.',
+    categories: [
+      { name: 'Speckled Pastels', posts: [] },
+      { name: 'Bunny Art', posts: [] },
+      { name: 'Lilac Milk Nails', posts: [] },
+    ],
+  },
+  {
+    id: 'spring',
+    name: 'Spring Season',
+    date: '2026-04-01',
+    season: "Spring '26",
+    status: 'now',
+    isMajor: true,
+    desc: 'The season of bloom, soap nails, and everything softly luminous. Spring is having its moment.',
+    categories: [
+      { name: 'Floral Milk Nails', posts: [] },
+      { name: 'Soap Nails', posts: [] },
+      { name: 'Gingham Nails', posts: [] },
+      { name: 'Nail Care', posts: [] },
+    ],
+  },
+  {
+    id: 'mothers-day',
+    name: "Mother's Day",
+    date: '2026-05-11',
+    season: "Spring '26",
+    status: 'upcoming',
+    isMajor: false,
+    desc: 'Floral, feminine, and forever elegant. Nail looks made for the women who raised us.',
+    categories: [
+      { name: 'Floral Blooms', posts: [] },
+      { name: 'Pink Lavender', posts: [] },
+      { name: 'Short & Sweet', posts: [] },
+      { name: 'DIY Tutorial', posts: [] },
+    ],
+  },
+  {
+    id: 'prom',
+    name: 'Prom / Grad',
+    date: '2026-05-25',
+    season: "Spring '26",
+    status: 'upcoming',
+    isMajor: false,
+    desc: 'Your night, your nails. Glamour that photographs perfectly.',
+    categories: [
+      { name: 'Glam Chrome', posts: [] },
+      { name: 'French Tip', posts: [] },
+      { name: 'Ombre Gown Match', posts: [] },
+    ],
+  },
+  {
+    id: 'pride',
+    name: 'Pride',
+    date: '2026-06-15',
+    season: "Summer '26",
+    status: 'upcoming',
+    isMajor: false,
+    desc: 'Bold, joyful, and unapologetically expressive. Every color has its moment.',
+    categories: [
+      { name: 'Rainbow Art', posts: [] },
+      { name: 'Bold Color Block', posts: [] },
+    ],
+  },
+  {
+    id: 'summer',
+    name: 'Summer Season',
+    date: '2026-07-01',
+    season: "Summer '26",
+    status: 'upcoming',
+    isMajor: true,
+    desc: 'Sun-drenched hues, jelly textures, and the nails that go everywhere this summer.',
+    categories: [
+      { name: 'Jelly Nudes', posts: [] },
+      { name: 'Tropical Art', posts: [] },
+      { name: 'Chrome Shimmer', posts: [] },
+      { name: 'Sun-Faded', posts: [] },
+    ],
+  },
+  {
+    id: '4th-july',
+    name: '4th of July',
+    date: '2026-07-04',
+    season: "Summer '26",
+    status: 'upcoming',
+    isMajor: false,
+    desc: 'Red, white, and glossy. Stars, stripes, and the perfect summer red.',
+    categories: [
+      { name: 'Stars & Stripes', posts: [] },
+      { name: 'Classic Red', posts: [] },
+    ],
+  },
+  {
+    id: 'back-school',
+    name: 'Back to School',
+    date: '2026-08-25',
+    season: "Summer '26",
+    status: 'upcoming',
+    isMajor: false,
+    desc: 'Fresh start energy. Clean nails, bold statements, and back-to-basics cool.',
+    categories: [
+      { name: 'Minimal Clean', posts: [] },
+      { name: 'Plaid & Prep', posts: [] },
+    ],
+  },
+  {
+    id: 'wedding',
+    name: 'Wedding Season',
+    date: '2026-09-01',
+    season: "Fall '26",
+    status: 'upcoming',
+    isMajor: false,
+    desc: 'Something borrowed, something blue — and nails that make the photos.',
+    categories: [
+      { name: 'Bridal White', posts: [] },
+      { name: 'Bridesmaid Sets', posts: [] },
+      { name: 'Nude Elegance', posts: [] },
+    ],
+  },
+  {
+    id: 'fall',
+    name: 'Fall Season',
+    date: '2026-10-01',
+    season: "Fall '26",
+    status: 'upcoming',
+    isMajor: true,
+    desc: 'Burgundy, chocolate, moody plums. The richest season for nail colour has arrived.',
+    categories: [
+      { name: 'Burgundy Wine', posts: [] },
+      { name: 'Chocolate Brown', posts: [] },
+      { name: 'Moody Plum', posts: [] },
+      { name: 'Fall Nail Art', posts: [] },
+    ],
+  },
+  {
+    id: 'halloween',
+    name: 'Halloween',
+    date: '2026-10-31',
+    season: "Fall '26",
+    status: 'upcoming',
+    isMajor: false,
+    desc: 'Dark, dramatic, and deliciously spooky. The one night nails go all out.',
+    categories: [
+      { name: 'Vampire Nails', posts: [] },
+      { name: 'Spider Web Art', posts: [] },
+      { name: 'Glow in Dark', posts: [] },
+    ],
+  },
+  {
+    id: 'thanksgiving',
+    name: 'Thanksgiving',
+    date: '2026-11-26',
+    season: "Fall '26",
+    status: 'upcoming',
+    isMajor: false,
+    desc: 'Warm tones, harvest hues, and nails as cozy as the season.',
+    categories: [
+      { name: 'Autumn Harvest', posts: [] },
+      { name: 'Terracotta', posts: [] },
+    ],
+  },
+  {
+    id: 'christmas',
+    name: 'Christmas',
+    date: '2026-12-25',
+    season: "Winter '26",
+    status: 'upcoming',
+    isMajor: false,
+    desc: 'The most magical nail season of the year. Velvet, plaid, and holiday chrome.',
+    categories: [
+      { name: 'Holiday Chrome', posts: [] },
+      { name: 'Red & Green', posts: [] },
+      { name: 'Candy Cane', posts: [] },
+      { name: 'Short Christmas', posts: [] },
+    ],
+  },
+  {
+    id: 'nye-26',
+    name: "NYE '26",
+    date: '2026-12-31',
+    season: "Winter '26",
+    status: 'upcoming',
+    isMajor: false,
+    desc: 'End the year with your best nails yet. Glitter, gold, and midnight magic.',
+    categories: [
+      { name: 'Midnight Glam', posts: [] },
+      { name: 'Gold Foil', posts: [] },
+    ],
+  },
+];
+
+// ─── HELPERS ─────────────────────────────────────────────────────────────────
+
+function getCurrentSeason(): string {
+  const month = new Date().getMonth() + 1;
+  if (month >= 3 && month <= 5) return "Spring '26";
+  if (month >= 6 && month <= 8) return "Summer '26";
+  if (month >= 9 && month <= 11) return "Fall '26";
+  return "Winter '26";
+}
+
+function getTimeUntil(dateStr: string) {
+  const target = new Date(dateStr).getTime();
+  const now = Date.now();
+  const diff = Math.max(0, target - now);
+  const weeks = Math.floor(diff / (1000 * 60 * 60 * 24 * 7));
+  const days = Math.floor((diff % (1000 * 60 * 60 * 24 * 7)) / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  const mins = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+  const secs = Math.floor((diff % (1000 * 60)) / 1000);
+  return { weeks, days, hours, mins, secs };
+}
+
+// Group events by season label
+function getSeasonGroups() {
+  const groups: { season: string; events: TimelineEvent[] }[] = [];
+  EVENTS.forEach((ev) => {
+    const last = groups[groups.length - 1];
+    if (last && last.season === ev.season) {
+      last.events.push(ev);
+    } else {
+      groups.push({ season: ev.season, events: [ev] });
+    }
+  });
+  return groups;
+}
+
+// ─── SUB-COMPONENTS ──────────────────────────────────────────────────────────
+
+function CountdownTimer({ dateStr }: { dateStr: string }) {
+  const [time, setTime] = useState(getTimeUntil(dateStr));
+
+  useEffect(() => {
+    const id = setInterval(() => setTime(getTimeUntil(dateStr)), 1000);
+    return () => clearInterval(id);
+  }, [dateStr]);
+
+  const units = [
+    { label: 'Weeks', value: time.weeks },
+    { label: 'Days', value: time.days },
+    { label: 'Hours', value: time.hours },
+    { label: 'Min', value: time.mins },
+    { label: 'Sec', value: time.secs },
+  ];
+
+  return (
+    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0', marginTop: '28px' }}>
+      {units.map((u, i) => (
+        <div key={u.label} style={{ display: 'flex', alignItems: 'center' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '0 16px' }}>
+            <span
+              style={{
+                fontFamily: 'var(--font-ui)',
+                fontSize: 'clamp(22px, 3vw, 36px)',
+                fontWeight: 400,
+                letterSpacing: '-0.02em',
+                color: 'var(--foreground)',
+                fontVariantNumeric: 'tabular-nums',
+                lineHeight: 1,
+              }}
+            >
+              {String(u.value).padStart(2, '0')}
+            </span>
+            <span
+              style={{
+                fontFamily: 'var(--font-ui)',
+                fontSize: '9px',
+                letterSpacing: '0.12em',
+                textTransform: 'uppercase',
+                color: 'var(--foreground)',
+                opacity: 0.35,
+                marginTop: '5px',
+              }}
+            >
+              {u.label}
+            </span>
+          </div>
+          {i < units.length - 1 && (
+            <span style={{ color: 'var(--foreground)', opacity: 0.15, fontSize: '20px', userSelect: 'none' }}>|</span>
+          )}
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function CategoryCards({
+  categories,
+  status,
+  onSelect,
+}: {
+  categories: EventCategory[];
+  status: 'past' | 'now' | 'upcoming';
+  onSelect: (cat: EventCategory) => void;
+}) {
+  const disabled = status === 'upcoming';
+
+  return (
+    <div
+      style={{
+        display: 'flex',
+        flexWrap: 'wrap',
+        gap: '10px',
+        justifyContent: 'center',
+        marginTop: '32px',
+        maxWidth: '680px',
+      }}
+    >
+      {categories.map((cat) => (
+        <button
+          key={cat.name}
+          onClick={() => !disabled && onSelect(cat)}
+          disabled={disabled}
+          style={{
+            fontFamily: 'var(--font-ui)',
+            fontSize: '10px',
+            letterSpacing: '0.14em',
+            textTransform: 'uppercase',
+            padding: '11px 20px',
+            border: `1px solid ${disabled ? 'rgba(37,34,32,0.18)' : 'rgba(37,34,32,0.45)'}`,
+            background: 'transparent',
+            color: disabled ? 'rgba(37,34,32,0.3)' : 'var(--foreground)',
+            cursor: disabled ? 'not-allowed' : 'pointer',
+            borderRadius: '2px',
+            transition: 'border-color 220ms ease, background 220ms ease',
+          }}
+          onMouseEnter={(e) => {
+            if (!disabled) {
+              (e.currentTarget as HTMLButtonElement).style.borderColor = 'var(--foreground)';
+              (e.currentTarget as HTMLButtonElement).style.background = 'rgba(37,34,32,0.04)';
+            }
+          }}
+          onMouseLeave={(e) => {
+            if (!disabled) {
+              (e.currentTarget as HTMLButtonElement).style.borderColor = 'rgba(37,34,32,0.45)';
+              (e.currentTarget as HTMLButtonElement).style.background = 'transparent';
+            }
+          }}
+        >
+          {cat.name}
+        </button>
+      ))}
+    </div>
+  );
+}
+
+function CarouselView({
+  category,
+  onBack,
+}: {
+  category: EventCategory;
+  onBack: () => void;
+}) {
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const isDragging = useRef(false);
+  const startX = useRef(0);
+  const scrollLeft = useRef(0);
+
+  const onMouseDown = (e: React.MouseEvent) => {
+    isDragging.current = true;
+    startX.current = e.pageX - (scrollRef.current?.offsetLeft ?? 0);
+    scrollLeft.current = scrollRef.current?.scrollLeft ?? 0;
+  };
+
+  const onMouseMove = (e: React.MouseEvent) => {
+    if (!isDragging.current || !scrollRef.current) return;
+    e.preventDefault();
+    const x = e.pageX - (scrollRef.current.offsetLeft ?? 0);
+    const walk = (x - startX.current) * 1.2;
+    scrollRef.current.scrollLeft = scrollLeft.current - walk;
+  };
+
+  const stopDrag = () => { isDragging.current = false; };
+
+  const hasPosts = category.posts.length > 0;
+
+  return (
+    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', position: 'relative' }}>
+      {/* Back button */}
+      <button
+        onClick={onBack}
+        style={{
+          position: 'absolute',
+          top: '16px',
+          left: '24px',
+          fontFamily: 'var(--font-ui)',
+          fontSize: '10px',
+          letterSpacing: '0.12em',
+          textTransform: 'uppercase',
+          color: 'var(--foreground)',
+          opacity: 0.5,
+          background: 'none',
+          border: 'none',
+          cursor: 'pointer',
+          display: 'flex',
+          alignItems: 'center',
+          gap: '6px',
+          padding: '4px 0',
+          transition: 'opacity 200ms',
+          zIndex: 2,
+        }}
+        onMouseEnter={(e) => { (e.currentTarget as HTMLButtonElement).style.opacity = '1'; }}
+        onMouseLeave={(e) => { (e.currentTarget as HTMLButtonElement).style.opacity = '0.5'; }}
+      >
+        ← Back
+      </button>
+
+      {/* Carousel scroll area */}
+      <div
+        ref={scrollRef}
+        onMouseDown={onMouseDown}
+        onMouseMove={onMouseMove}
+        onMouseUp={stopDrag}
+        onMouseLeave={stopDrag}
+        style={{
+          display: 'flex',
+          gap: '16px',
+          overflowX: 'auto',
+          overflowY: 'hidden',
+          scrollbarWidth: 'none',
+          cursor: 'grab',
+          padding: '56px 48px 24px',
+          alignItems: 'center',
+          height: '100%',
+          userSelect: 'none',
+        }}
+      >
+        {hasPosts ? (
+          category.posts.map((post) => (
+            <Link
+              key={post.id}
+              href={post.slug}
+              style={{
+                flexShrink: 0,
+                width: 'clamp(220px, 28vw, 300px)',
+                display: 'flex',
+                flexDirection: 'column',
+                border: '1px solid rgba(37,34,32,0.12)',
+                borderRadius: '3px',
+                overflow: 'hidden',
+                background: '#fff',
+                transition: 'border-color 220ms ease',
+                textDecoration: 'none',
+                color: 'var(--foreground)',
+              }}
+              onMouseEnter={(e) => {
+                (e.currentTarget as HTMLAnchorElement).style.borderColor = 'rgba(37,34,32,0.45)';
+              }}
+              onMouseLeave={(e) => {
+                (e.currentTarget as HTMLAnchorElement).style.borderColor = 'rgba(37,34,32,0.12)';
+              }}
+            >
+              <div style={{ position: 'relative', width: '100%', paddingBottom: '120%', background: 'rgba(37,34,32,0.04)' }}>
+                <Image
+                  src={post.heroImage}
+                  alt={post.title}
+                  fill
+                  style={{ objectFit: 'cover' }}
+                  sizes="(max-width: 768px) 90vw, (max-width: 1024px) 45vw, 30vw"
+                />
+              </div>
+              <div style={{ padding: '14px 16px' }}>
+                <p
+                  style={{
+                    fontFamily: 'var(--font-body)',
+                    fontSize: '15px',
+                    lineHeight: 1.45,
+                    color: 'var(--foreground)',
+                    margin: 0,
+                  }}
+                >
+                  {post.title}
+                </p>
+              </div>
+            </Link>
+          ))
+        ) : (
+          // Placeholder cards when posts array is empty
+          Array.from({ length: 4 }).map((_, i) => (
+            <div
+              key={i}
+              style={{
+                flexShrink: 0,
+                width: 'clamp(220px, 28vw, 300px)',
+                border: '1px solid rgba(37,34,32,0.10)',
+                borderRadius: '3px',
+                overflow: 'hidden',
+                background: 'rgba(37,34,32,0.02)',
+              }}
+            >
+              <div style={{ paddingBottom: '120%', background: 'rgba(37,34,32,0.04)' }} />
+              <div style={{ padding: '14px 16px' }}>
+                <div style={{ height: '14px', background: 'rgba(37,34,32,0.06)', borderRadius: '2px', marginBottom: '6px' }} />
+                <div style={{ height: '14px', background: 'rgba(37,34,32,0.04)', borderRadius: '2px', width: '60%' }} />
+              </div>
+            </div>
+          ))
+        )}
+      </div>
+    </div>
+  );
+}
+
+// ─── TIMELINE TRACK ──────────────────────────────────────────────────────────
+
+function TimelineTrack({
+  events,
+  selectedId,
+  onSelect,
+}: {
+  events: TimelineEvent[];
+  selectedId: string;
+  onSelect: (ev: TimelineEvent) => void;
+}) {
+  const trackRef = useRef<HTMLDivElement>(null);
+  const isDragging = useRef(false);
+  const startX = useRef(0);
+  const scrollLeft = useRef(0);
+
+  // Auto-scroll to now on mount
+  useEffect(() => {
+    const nowIdx = events.findIndex((e) => e.status === 'now');
+    if (nowIdx < 0 || !trackRef.current) return;
+    const el = trackRef.current.querySelector(`[data-event-id="${events[nowIdx].id}"]`) as HTMLElement;
+    if (el) {
+      const containerW = trackRef.current.offsetWidth;
+      const elLeft = el.offsetLeft;
+      trackRef.current.scrollLeft = elLeft - containerW / 2 + el.offsetWidth / 2;
+    }
+  }, [events]);
+
+  const onMouseDown = (e: React.MouseEvent) => {
+    isDragging.current = true;
+    startX.current = e.pageX - (trackRef.current?.offsetLeft ?? 0);
+    scrollLeft.current = trackRef.current?.scrollLeft ?? 0;
+  };
+  const onMouseMove = (e: React.MouseEvent) => {
+    if (!isDragging.current || !trackRef.current) return;
+    e.preventDefault();
+    const x = e.pageX - (trackRef.current.offsetLeft ?? 0);
+    trackRef.current.scrollLeft = scrollLeft.current - (x - startX.current) * 1.2;
+  };
+  const stopDrag = () => { isDragging.current = false; };
+
+  // Progress: ratio of now event position
+  const nowIdx = events.findIndex((e) => e.status === 'now');
+  const progressRatio = nowIdx >= 0 ? (nowIdx + 0.5) / events.length : 0;
+
+  const seasonGroups = getSeasonGroups();
+
+  return (
+    <div
+      style={{
+        position: 'relative',
+        height: '130px',
+        borderTop: '1px solid rgba(37,34,32,0.10)',
+        background: 'var(--background)',
+        overflow: 'hidden',
+      }}
+    >
+      {/* Left fade */}
+      <div
+        style={{
+          position: 'absolute',
+          left: 0,
+          top: 0,
+          bottom: 0,
+          width: '80px',
+          background: 'linear-gradient(to right, var(--background), transparent)',
+          zIndex: 3,
+          pointerEvents: 'none',
+        }}
+      />
+      {/* Right fade */}
+      <div
+        style={{
+          position: 'absolute',
+          right: 0,
+          top: 0,
+          bottom: 0,
+          width: '80px',
+          background: 'linear-gradient(to left, var(--background), transparent)',
+          zIndex: 3,
+          pointerEvents: 'none',
+        }}
+      />
+
+      {/* Scroll container */}
+      <div
+        ref={trackRef}
+        onMouseDown={onMouseDown}
+        onMouseMove={onMouseMove}
+        onMouseUp={stopDrag}
+        onMouseLeave={stopDrag}
+        style={{
+          overflowX: 'auto',
+          overflowY: 'hidden',
+          height: '100%',
+          scrollbarWidth: 'none',
+          cursor: 'grab',
+          userSelect: 'none',
+          position: 'relative',
+        }}
+      >
+        <div
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            height: '100%',
+            padding: '0 120px',
+            minWidth: 'max-content',
+            position: 'relative',
+          }}
+        >
+          {/* Horizontal line */}
+          <div
+            style={{
+              position: 'absolute',
+              top: '62px',
+              left: '120px',
+              right: '120px',
+              height: '1px',
+              background: 'rgba(37,34,32,0.15)',
+            }}
+          />
+
+          {/* Season arch labels */}
+          {seasonGroups.map((group) => {
+            const firstIdx = events.findIndex((e) => e.id === group.events[0].id);
+            const lastIdx = events.findIndex((e) => e.id === group.events[group.events.length - 1].id);
+            return (
+              <div
+                key={group.season}
+                style={{
+                  position: 'absolute',
+                  top: '10px',
+                  left: `calc(120px + ${firstIdx * 120}px)`,
+                  width: `${(lastIdx - firstIdx + 1) * 120}px`,
+                  display: 'flex',
+                  justifyContent: 'center',
+                  pointerEvents: 'none',
+                }}
+              >
+                <span
+                  style={{
+                    fontFamily: 'var(--font-ui)',
+                    fontSize: '8px',
+                    letterSpacing: '0.14em',
+                    textTransform: 'uppercase',
+                    color: 'var(--foreground)',
+                    opacity: 0.25,
+                  }}
+                >
+                  {group.season}
+                </span>
+              </div>
+            );
+          })}
+
+          {/* Event nodes */}
+          {events.map((ev) => {
+            const isSelected = ev.id === selectedId;
+            const isNow = ev.status === 'now';
+            const isPast = ev.status === 'past';
+            const isUpcoming = ev.status === 'upcoming';
+
+            const dotSize = ev.isMajor ? 10 : 7;
+            const selectedSize = 14;
+
+            return (
+              <div
+                key={ev.id}
+                data-event-id={ev.id}
+                onClick={() => onSelect(ev)}
+                style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'center',
+                  width: '120px',
+                  flexShrink: 0,
+                  cursor: 'pointer',
+                  paddingTop: '28px',
+                  position: 'relative',
+                }}
+              >
+                {/* Dot */}
+                <div
+                  style={{
+                    position: 'relative',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    marginBottom: '8px',
+                    zIndex: 1,
+                    height: '24px',
+                  }}
+                >
+                  {/* Selected halo */}
+                  {isSelected && (
+                    <>
+                      <div
+                        style={{
+                          position: 'absolute',
+                          width: '28px',
+                          height: '28px',
+                          borderRadius: '50%',
+                          border: '1px solid rgba(37,34,32,0.15)',
+                        }}
+                      />
+                      <div
+                        style={{
+                          position: 'absolute',
+                          width: '20px',
+                          height: '20px',
+                          borderRadius: '50%',
+                          border: '1px solid rgba(37,34,32,0.3)',
+                        }}
+                      />
+                    </>
+                  )}
+                  {/* Now pulse ring */}
+                  {isNow && !isSelected && (
+                    <div
+                      style={{
+                        position: 'absolute',
+                        width: '18px',
+                        height: '18px',
+                        borderRadius: '50%',
+                        border: '1px solid rgba(37,34,32,0.3)',
+                        animation: 'timelinePulse 2s ease-in-out infinite',
+                      }}
+                    />
+                  )}
+                  <div
+                    style={{
+                      width: isSelected ? `${selectedSize}px` : `${dotSize}px`,
+                      height: isSelected ? `${selectedSize}px` : `${dotSize}px`,
+                      borderRadius: '50%',
+                      background: isPast
+                        ? 'rgba(37,34,32,0.25)'
+                        : isNow
+                        ? 'var(--foreground)'
+                        : 'transparent',
+                      border: isUpcoming
+                        ? '1px dashed rgba(37,34,32,0.35)'
+                        : isSelected
+                        ? '2px solid var(--foreground)'
+                        : 'none',
+                      transition: 'width 300ms ease, height 300ms ease',
+                      flexShrink: 0,
+                    }}
+                  />
+                </div>
+
+                {/* Label */}
+                <span
+                  style={{
+                    fontFamily: 'var(--font-ui)',
+                    fontSize: '8px',
+                    letterSpacing: '0.1em',
+                    textTransform: 'uppercase',
+                    color: 'var(--foreground)',
+                    opacity: isSelected ? 0.9 : isPast ? 0.35 : isNow ? 0.8 : 0.45,
+                    textAlign: 'center',
+                    lineHeight: 1.3,
+                    maxWidth: '80px',
+                  }}
+                >
+                  {ev.name}
+                </span>
+                <span
+                  style={{
+                    fontFamily: 'var(--font-ui)',
+                    fontSize: '7px',
+                    letterSpacing: '0.06em',
+                    color: 'var(--foreground)',
+                    opacity: 0.25,
+                    marginTop: '2px',
+                  }}
+                >
+                  {new Date(ev.date).toLocaleDateString('en-US', { month: 'short', year: '2-digit' })}
+                </span>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* Progress bar at bottom */}
+      <div
+        style={{
+          position: 'absolute',
+          bottom: 0,
+          left: 0,
+          height: '1px',
+          width: `${progressRatio * 100}%`,
+          background: 'rgba(37,34,32,0.35)',
+          transition: 'width 500ms ease',
+        }}
+      />
+    </div>
+  );
+}
+
+// ─── EVENT PANEL ─────────────────────────────────────────────────────────────
+
+function EventPanel({
+  event,
+  onCategorySelect,
+}: {
+  event: TimelineEvent;
+  onCategorySelect: (cat: EventCategory) => void;
+}) {
+  const isNow = event.status === 'now';
+  const isUpcoming = event.status === 'upcoming';
+
+  const eyebrow = isNow ? '● Now Trending' : isUpcoming ? 'Coming Up' : 'Season Recap';
+
+  return (
+    <div
+      style={{
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        height: '100%',
+        padding: '32px 24px',
+        textAlign: 'center',
+      }}
+    >
+      {/* Eyebrow */}
+      <span
+        style={{
+          fontFamily: 'var(--font-ui)',
+          fontSize: '9px',
+          letterSpacing: '0.18em',
+          textTransform: 'uppercase',
+          color: 'var(--foreground)',
+          opacity: 0.45,
+          marginBottom: '20px',
+          display: 'flex',
+          alignItems: 'center',
+          gap: '6px',
+        }}
+      >
+        {isNow ? (
+          <>
+            <span
+              style={{
+                display: 'inline-block',
+                width: '5px',
+                height: '5px',
+                borderRadius: '50%',
+                background: 'var(--foreground)',
+                animation: 'pulse 2s cubic-bezier(0.4,0,0.6,1) infinite',
+              }}
+            />
+            Now Trending
+          </>
+        ) : (
+          eyebrow
+        )}
+      </span>
+
+      {/* Title */}
+      <h1
+        style={{
+          fontFamily: 'var(--font-heading)',
+          fontSize: 'clamp(32px, 5vw, 64px)',
+          fontWeight: 400,
+          lineHeight: 1.1,
+          letterSpacing: '-0.01em',
+          color: 'var(--foreground)',
+          margin: '0 0 12px',
+          maxWidth: '700px',
+        }}
+      >
+        {event.name}
+      </h1>
+
+      {/* Season tag */}
+      <span
+        style={{
+          fontFamily: 'var(--font-ui)',
+          fontSize: '9px',
+          letterSpacing: '0.14em',
+          textTransform: 'uppercase',
+          color: 'var(--foreground)',
+          opacity: 0.35,
+          marginBottom: '18px',
+        }}
+      >
+        {event.season}
+      </span>
+
+      {/* Description */}
+      <p
+        style={{
+          fontFamily: 'var(--font-body)',
+          fontStyle: 'italic',
+          fontSize: 'clamp(14px, 1.5vw, 16px)',
+          lineHeight: 1.7,
+          color: 'var(--foreground)',
+          opacity: 0.6,
+          maxWidth: '540px',
+          margin: 0,
+        }}
+      >
+        {event.desc}
+      </p>
+
+      {/* Countdown */}
+      {isUpcoming && <CountdownTimer dateStr={event.date} />}
+
+      {/* Category cards */}
+      <CategoryCards
+        categories={event.categories}
+        status={event.status}
+        onSelect={onCategorySelect}
+      />
+    </div>
+  );
+}
+
+// ─── MAIN COMPONENT ──────────────────────────────────────────────────────────
+
+export default function TrendTimelineHero() {
+  const nowEvent = EVENTS.find((e) => e.status === 'now') ?? EVENTS[0];
+  const [selectedEvent, setSelectedEvent] = useState<TimelineEvent>(nowEvent);
+  const [activeCategory, setActiveCategory] = useState<EventCategory | null>(null);
+  const [panelVisible, setPanelVisible] = useState(true);
+  const [carouselVisible, setCarouselVisible] = useState(false);
+  const currentSeason = getCurrentSeason();
+
+  const handleEventSelect = useCallback((ev: TimelineEvent) => {
+    if (ev.id === selectedEvent.id && !activeCategory) return;
+    setPanelVisible(false);
+    setCarouselVisible(false);
+    setTimeout(() => {
+      setSelectedEvent(ev);
+      setActiveCategory(null);
+      setPanelVisible(true);
+    }, 260);
+  }, [selectedEvent.id, activeCategory]);
+
+  const handleCategorySelect = useCallback((cat: EventCategory) => {
+    setPanelVisible(false);
+    setTimeout(() => {
+      setActiveCategory(cat);
+      setCarouselVisible(true);
+    }, 260);
+  }, []);
+
+  const handleBack = useCallback(() => {
+    setCarouselVisible(false);
+    setTimeout(() => {
+      setActiveCategory(null);
+      setPanelVisible(true);
+    }, 260);
+  }, []);
+
+  return (
+    <>
+      <style>{`
+        @keyframes timelinePulse {
+          0%, 100% { transform: scale(1); opacity: 0.4; }
+          50% { transform: scale(1.6); opacity: 0; }
+        }
+        @keyframes blinkDot {
+          0%, 100% { opacity: 1; }
+          50% { opacity: 0.2; }
+        }
+        .panel-enter {
+          animation: panelFadeIn 0.5s cubic-bezier(.22,1,.36,1) forwards;
+        }
+        @keyframes panelFadeIn {
+          from { opacity: 0; transform: translateY(12px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+        div::-webkit-scrollbar { display: none; }
+      `}</style>
+
+      <section
+        style={{
+          height: '100vh',
+          display: 'flex',
+          flexDirection: 'column',
+          background: 'var(--background)',
+          overflow: 'hidden',
+        }}
+      >
+        {/* ── TOP BAR ─────────────────────────────── */}
+        <div
+          style={{
+            height: '44px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            padding: '0 32px',
+            borderBottom: '1px solid rgba(37,34,32,0.10)',
+            flexShrink: 0,
+          }}
+        >
+          <span
+            style={{
+              fontFamily: 'var(--font-ui)',
+              fontSize: '9px',
+              letterSpacing: '0.16em',
+              textTransform: 'uppercase',
+              color: 'var(--foreground)',
+              opacity: 0.4,
+            }}
+          >
+            Nail Trend Index · 2025–2026
+          </span>
+
+          <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+            <span
+              style={{
+                display: 'inline-block',
+                width: '5px',
+                height: '5px',
+                borderRadius: '50%',
+                background: 'var(--foreground)',
+                animation: 'blinkDot 1.8s ease-in-out infinite',
+              }}
+            />
+            <span
+              style={{
+                fontFamily: 'var(--font-ui)',
+                fontSize: '9px',
+                letterSpacing: '0.14em',
+                textTransform: 'uppercase',
+                color: 'var(--foreground)',
+                opacity: 0.5,
+              }}
+            >
+              Now In · {currentSeason}
+            </span>
+          </div>
+        </div>
+
+        {/* ── CONTENT STAGE ───────────────────────── */}
+        <div
+          style={{
+            flex: 1,
+            position: 'relative',
+            overflow: 'hidden',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+          }}
+        >
+          {/* Event panel */}
+          <div
+            className={panelVisible ? 'panel-enter' : ''}
+            style={{
+              position: 'absolute',
+              inset: 0,
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              opacity: panelVisible ? 1 : 0,
+              pointerEvents: panelVisible && !activeCategory ? 'auto' : 'none',
+              transition: 'opacity 260ms ease',
+            }}
+          >
+            {!activeCategory && (
+              <EventPanel
+                event={selectedEvent}
+                onCategorySelect={handleCategorySelect}
+              />
+            )}
+          </div>
+
+          {/* Carousel panel */}
+          <div
+            className={carouselVisible ? 'panel-enter' : ''}
+            style={{
+              position: 'absolute',
+              inset: 0,
+              opacity: carouselVisible ? 1 : 0,
+              pointerEvents: carouselVisible ? 'auto' : 'none',
+              transition: 'opacity 260ms ease',
+            }}
+          >
+            {activeCategory && (
+              <CarouselView category={activeCategory} onBack={handleBack} />
+            )}
+          </div>
+        </div>
+
+        {/* ── TIMELINE TRACK ──────────────────────── */}
+        <TimelineTrack
+          events={EVENTS}
+          selectedId={selectedEvent.id}
+          onSelect={handleEventSelect}
+        />
+      </section>
+    </>
+  );
+}
