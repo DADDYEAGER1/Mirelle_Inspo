@@ -1,0 +1,252 @@
+# Mirellé Inspo Gallery — New Category Creation Master Prompt
+
+You are helping create new nail design categories for **mirelleinspo.com**, a Next.js nail design inspiration gallery. Follow every rule exactly.
+
+---
+
+## SYSTEM ARCHITECTURE
+
+- All category metadata lives in: `src/content/inspo-categories.json`
+- All category images live in: `src/content/inspo-images/[slug].json`
+- Adding a new category = **2 files only**
+- No code changes needed anywhere else
+
+---
+
+## STEP 1 — DETERMINE MODE
+
+**Ask the user this first:**
+
+> "Do you already have images for this category, or do you need topic/keyword research first?"
+
+---
+
+### MODE A — User Already Has Images
+
+Ask in this exact order, one message:
+
+> 1. What is the category name? (e.g. "Summer Nails 2026")
+> 2. Run this PowerShell command and paste the output:
+>    ```powershell
+>    Get-ChildItem -Path "public/images/blog" -Recurse -Directory | Where-Object { $_.Name -match "YOUR_KEYWORD" }
+>    ```
+> 3. Which folders should I exclude (if any)?
+> 4. Confirm related designs — I'll suggest 3 from the valid slugs list below.
+
+Once the user pastes the folder list and confirms exclusions:
+
+```powershell
+Get-ChildItem -Path "public/images/blog" -Recurse -File | Where-Object { $_.FullName -match "KEYWORD" -and $_.FullName -notmatch "EXCLUDED_FOLDER" } | Select-Object -ExpandProperty FullName
+```
+
+Use the exact file paths returned. Format all image URLs as:
+`/images/blog/[folder]/[filename].webp`
+
+Then proceed directly to **STEP 3**.
+
+---
+
+### MODE B — User Needs Research First
+
+**Step B1 — Research**
+
+Search for:
+- `[topic] nails 2026 trending searches Google`
+- `[topic] nail trends spring/summer 2026 keywords Pinterest`
+- Top nail industry sources: Scratch Magazine, TheIndustry.beauty, Who What Wear, sNails, Fresha trend reports
+
+Extract:
+- Top trending keyword phrases (exact search terms people use)
+- Breakout colours, finishes, shapes for the topic
+- Occasion/use case signals
+- Search volume signals (e.g. "up X% year-on-year")
+
+**Step B2 — Suggest**
+
+Present the user with 3 category options ranked by search opportunity:
+
+```
+Option 1: [Category Name]
+Slug: [slug]
+Why: [1 line — search trend signal]
+Top keywords: [keyword1, keyword2, keyword3]
+
+Option 2: ...
+Option 3: ...
+```
+
+Ask: "Which would you like to go with, or would you like to combine/adjust?"
+
+**Step B3 — Image sourcing**
+
+Once category confirmed, ask:
+
+> "Do you have images for this already? If yes, paste your folder names. If no, I'll generate the image filenames you need to create based on the research."
+
+If no images exist yet: generate the `inspo-images/[slug].json` with placeholder URLs using the naming convention below, and provide the list of filenames to create.
+
+Then proceed to **STEP 3**.
+
+---
+
+## STEP 3 — BUILD THE FILES
+
+### FILE 1: inspo-categories.json entry
+
+Add inside `"designs": {}`. Key must match slug exactly.
+
+```json
+"[slug]": {
+  "slug": "[slug]",
+  "name": "[Full Display Name]",
+  "displayName": "[Full Display Name]",
+  "category": "[Category]",
+  "year": 2026,
+  "active": true,
+  "trending": true,
+  "clicks": 0,
+  "addedAt": "YYYY-MM-DD",
+  "description": "[One sentence describing the category for the page]",
+  "heroImage": "/inspo/[slug].webp",
+  "gradientFrom": "[tailwind-color]",
+  "gradientVia": "[tailwind-color]",
+  "gradientTo": "[tailwind-color]",
+  "emojis": ["emoji1", "emoji2", "emoji3", "emoji4"],
+  "ctas": ["Label1", "Label2", "Label3", "Label4"],
+  "tldr": {
+    "summary": [
+      "sentence 1 — what the category covers",
+      "sentence 2 — trending styles and colours",
+      "sentence 3 — techniques and finishes",
+      "sentence 4 — occasions and use cases"
+    ],
+    "keyTakeaways": ["Takeaway 1", "Takeaway 2", "Takeaway 3", "Takeaway 4"]
+  },
+  "seo": {
+    "title": "[Keyword Rich Title] | Mirellé",
+    "description": "[150 char SEO meta description with main keywords]",
+    "keywords": "keyword1, keyword2, keyword3, keyword4, keyword5, keyword6, keyword7, keyword8, keyword9"
+  },
+  "relatedDesigns": ["slug-1", "slug-2", "slug-3"],
+  "perfectFor": ["Occasion 1", "Occasion 2", "Occasion 3", "Occasion 4"],
+  "styleGuide": ["Tip 1", "Tip 2", "Tip 3"]
+}
+```
+
+**SEO rules — research-backed:**
+- `seo.title`: lead with the highest-volume keyword, include year
+- `seo.description`: include 3-4 primary keywords naturally, under 155 chars
+- `seo.keywords`: comma-separated string (NOT an array), min 9 keywords, use actual searched phrases not generic words
+- `tldr.summary`: use research findings — cite real trend signals (search spikes, platform trends)
+- `keyTakeaways`: specific and data-informed where possible
+
+**Field rules:**
+
+| Field | Rule |
+|---|---|
+| `slug` | lowercase, hyphens only |
+| `name` + `displayName` | must be identical |
+| `category` | `Shape`, `Seasonal`, `Occasion`, `Classic`, or `Technique` |
+| `active` | always `true` |
+| `trending` | always `true` for new |
+| `clicks` | always `0` |
+| `addedAt` | today's date `YYYY-MM-DD` |
+| `heroImage` | `/inspo/[slug].webp` always |
+| `relatedDesigns` | only valid slugs from the list below |
+| `seo.keywords` | string not array |
+
+---
+
+### FILE 2: src/content/inspo-images/[slug].json
+
+```json
+{
+  "images": [
+    {
+      "id": "[slug]-001",
+      "url": "/images/blog/[folder]/[filename].webp",
+      "alt": "[descriptive alt text 15-25 words]",
+      "category": "[slug-without-year]",
+      "isPremium": false,
+      "dimensions": {
+        "width": 1080,
+        "height": 1920,
+        "aspectRatio": "9:16"
+      }
+    }
+  ]
+}
+```
+
+**Alt text formula:**
+`[color] [shape/style] [finish] nails [descriptor] [effect or technique] [occasion or aesthetic]`
+
+**isPremium rules:**
+- `true` for: 3D sculpted, pressed flower, cat eye, aura gel, editorial statement looks
+- `false` for everything else
+- Max 20% of images can be premium
+
+**Image naming convention** (for MODE B generated filenames):
+`[color]-[style]-[slug-base]-[descriptor]-[keywords].webp`
+All lowercase, hyphens only, end in `.webp`
+
+**Minimum 20 images. Recommended 30-50.**
+
+---
+
+## VALID EXISTING SLUGS (for relatedDesigns)
+
+- `almond-nails-2026`
+- `coffin-ballerina-nails-2026`
+- `valentine-nails-2026`
+- `french-tip-nails-2026`
+- `summer-nails-2026`
+- `mothers-day-nails-2026`
+- `spring-nails-2026`
+- `burgundy-wine-winter-nails`
+- `chocolate-brown-winter-nails`
+- `velvet-cat-eye-winter-nails`
+
+Never reference a slug that isn't in this list.
+
+---
+
+## PRE-OUTPUT CHECKLIST
+
+Before outputting, verify every item:
+
+- [ ] Slug lowercase hyphens only
+- [ ] `slug` field matches JSON key exactly
+- [ ] `name` and `displayName` identical
+- [ ] `category` is valid
+- [ ] `addedAt` is today's date
+- [ ] `heroImage` is `/inspo/[slug].webp`
+- [ ] All `relatedDesigns` exist in valid slugs list
+- [ ] `seo.keywords` is a comma-separated string not array
+- [ ] Image file saves as `src/content/inspo-images/[slug].json`
+- [ ] All image `id` fields follow `[slug]-001` format
+- [ ] Image URLs use `/images/blog/[folder]/filename.webp` (not `/inspo/`)
+- [ ] `aspectRatio` matches width/height
+- [ ] At least 20 images
+- [ ] Premium images ≤ 20% of total
+- [ ] No non-existent slug in relatedDesigns
+
+---
+
+## OUTPUT FORMAT
+
+Always output in this order:
+
+1. **inspo-categories.json entry** — just the new object block
+2. **src/content/inspo-images/[slug].json** — complete file
+3. *(MODE B only)* List of image filenames to create in `/public/images/blog/[slug]/`
+
+---
+
+## IMPORTANT RULES
+
+- Never use `/inspo/[slug]/filename.webp` for image URLs — always `/images/blog/[folder]/filename.webp`
+- Never create hero images or use hero paths in the images JSON
+- Never reference the `spring-acrylic-nails` folder or any folder the user explicitly excludes
+- Always research SEO from live sources — never guess keywords from training data
+- The `heroImage` field in categories JSON is always `/inspo/[slug].webp` — this is separate from the gallery images
