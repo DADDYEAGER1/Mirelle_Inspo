@@ -1,0 +1,333 @@
+{
+  "cluster_metadata": {
+    "cluster_name": "Quiet Luxury Nails",
+    "cluster_level": 2,
+    "cluster_type": "sub_cluster",
+    "pillar_slug": "quiet-luxury-nails",
+    "pillar_title": "Quiet Luxury Nails: The Understated Expensive-Looking Almond Manicure",
+    "target_audience": "Global, Tier 1 countries (US, UK, Canada, Australia)",
+    "total_posts": 6,
+    "created_date": "2026-04-30",
+    "intent_breakdown": {
+      "inspirational": 2,
+      "informational": 2,
+      "tutorial": 0,
+      "transactional": 0,
+      "comparison": 0,
+      "seasonal_trend": 2
+    },
+    "cluster_hierarchy": {
+      "level": 2,
+      "parent_cluster": "Aesthetic Nail Ideas",
+      "parent_pillar_slug": "aesthetic-nail-ideas",
+      "parent_cluster_file": "cluster_map_aesthetic.json",
+      "relationship": "This is a sub-cluster of the Aesthetic Nail Ideas parent cluster. The sub-pillar post (quiet-luxury-nails) links UP to aesthetic-nail-ideas. All spokes in this cluster link UP to quiet-luxury-nails. The aesthetic parent pillar links DOWN to quiet-luxury-nails.",
+      "sibling_sub_clusters": [
+        { "slug": "old-money-nails", "title": "Old Money Nails: The Classic Colors & Almond Shapes That Always Look Rich", "relationship": "Sibling sub-pillar. Contextually related — old money is heritage elegance, quiet luxury is modern restraint. Bidirectional links between sub-pillars and between matching spoke types (french tip ↔ french tip, short ↔ short, colors ↔ colors)." }
+      ],
+      "sub_clusters": null
+    }
+  },
+
+  "writing_agent_instructions": {
+    "description": "READ THIS SECTION BEFORE WRITING ANY POST IN THIS CLUSTER",
+    "site": "mirelleinspo.com",
+    "site_focus": "Almond nails — design, inspiration, aesthetics, occasions",
+    "cluster_angle": "Quiet luxury is the aesthetic world the reader already lives in. They are NOT searching 'almond nails' — they are searching 'quiet luxury nails'. Almond nails is the recommended shape discovered INSIDE the post.",
+    "almond_nail_rule": "Every post must recommend almond nails as the ideal shape for quiet luxury. Position almond as the shape that best embodies understated elegance — elongated, tapered, refined without being aggressive. Include in H2s, body copy, and image alt text.",
+    "non_cannibalization_rule": "Do NOT target: almond nails, almond nail designs, almond nail ideas (owned by existing site clusters). Do NOT target: old money nails, rich girl nails, clean girl nails (owned by separate clusters). Quiet luxury and old money are DIFFERENT posts — quiet luxury is about modern restraint and quality-over-logo philosophy; old money is about inherited elegance and classic prep heritage.",
+    "internal_linking_rule": "Every spoke links back to quiet-luxury-nails (sub-pillar). Sub-pillar links UP to aesthetic-nail-ideas AND down to all 5 spokes. Cross-cluster links to old money sibling posts are bidirectional and contextual — use them to show the reader the distinction, not just drop a link.",
+    "content_tone": "Elevated, aspirational, calm authority. This reader aspires to look effortlessly expensive. Write like a Vogue editor who knows what Succession started.",
+    "keyword_ownership": "Never use another post's primary keyword as a focus term. Check keyword_do_not_use list below.",
+    "cross_cluster_linking_note": "This cluster has bidirectional contextual links with the Old Money sub-cluster. Spoke-to-sibling-spoke links: quiet-luxury-nail-colors ↔ old-money-nail-colors, quiet-luxury-french-tip-nails ↔ old-money-french-tip-nails, short-quiet-luxury-nails ↔ short-old-money-nails. Sub-pillar ↔ sub-pillar: quiet-luxury-nails ↔ old-money-nails. Always frame these as editorial context — the reader wants to understand the distinction."
+  },
+
+  "posts": [
+    {
+      "post_id": 1,
+      "role": "sub_pillar",
+      "title": "Quiet Luxury Nails: The Understated Expensive-Looking Almond Manicure",
+      "slug": "quiet-luxury-nails",
+      "primary_keyword": "quiet luxury nails",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "TikTok: #quietluxury dominates clean nail content; dedicated 'quiet luxury nail colors' discovery page",
+        "Pinterest: active boards including 'quiet luxury nails 2024/2025' with heavy saves",
+        "Google Trends: sustained peak 2023–2025 driven by Succession cultural moment",
+        "Multiple editorial features: Bangstyle, Le Mini Macaron, Who What Wear, Marie Claire"
+      ],
+      "why_included": "Strong independent search term with sustained demand. Almond is the natural shape recommendation — elongated, tapered, refined without aggression — perfectly embodying quiet luxury philosophy.",
+      "internal_links": {
+        "links_to": [
+          "aesthetic-nail-ideas",
+          "quiet-luxury-nail-colors",
+          "quiet-luxury-nails-winter",
+          "quiet-luxury-nails-summer",
+          "quiet-luxury-french-tip-nails",
+          "short-quiet-luxury-nails",
+          "old-money-nails",
+          "rich-girl-nails"
+        ],
+        "link_context": {
+          "aesthetic-nail-ideas": "The broader aesthetic nail world this look lives inside — every vibe from minimal to maximalist",
+          "quiet-luxury-nail-colors": "The exact polish shades that make quiet luxury nails look effortlessly expensive",
+          "quiet-luxury-nails-winter": "How quiet luxury translates into the colder months — deeper nudes, burgundy, rich neutrals",
+          "quiet-luxury-nails-summer": "The summer take: lighter, sheerer, still unmistakably elevated",
+          "quiet-luxury-french-tip-nails": "The single most iconic quiet luxury nail design — the milky French tip done right",
+          "short-quiet-luxury-nails": "Proof you don't need length to nail this aesthetic — short almond works just as well",
+          "old-money-nails": "Old money and quiet luxury are often confused — here's how they differ and why both are worth knowing",
+          "rich-girl-nails": "The modern technique-first approach to expensive-looking nails — Tom Bachik's signature look"
+        },
+        "receives_links_from": [
+          "aesthetic-nail-ideas",
+          "quiet-luxury-nail-colors",
+          "quiet-luxury-nails-winter",
+          "quiet-luxury-nails-summer",
+          "quiet-luxury-french-tip-nails",
+          "short-quiet-luxury-nails",
+          "old-money-nails",
+          "rich-girl-nails"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 2,
+      "role": "spoke",
+      "title": "Quiet Luxury Nail Colors: The Exact Shades That Always Look Expensive",
+      "slug": "quiet-luxury-nail-colors",
+      "primary_keyword": "quiet luxury nail colors",
+      "intent": "informational",
+      "search_demand_signals": [
+        "TikTok: dedicated 'quiet luxury nail colors' discovery page with active content",
+        "Google autocomplete: 'quiet luxury nail colors' populates independently",
+        "Pinterest: color-specific boards under quiet luxury aesthetic",
+        "High commercial intent — readers want specific polish names and shades"
+      ],
+      "why_included": "Color is the most searched sub-topic for quiet luxury nails. Readers want specific shade names (OPI Bubble Bath, Essie Ballet Slippers, Chanel Particulière) — highly actionable informational content.",
+      "internal_links": {
+        "links_to": [
+          "quiet-luxury-nails",
+          "aesthetic-nail-ideas",
+          "old-money-nail-colors",
+          "short-quiet-luxury-nails"
+        ],
+        "link_context": {
+          "quiet-luxury-nails": "The full quiet luxury nail aesthetic — more than just color, this is the complete look",
+          "aesthetic-nail-ideas": "Explore every nail aesthetic and the palettes that define them",
+          "old-money-nail-colors": "Old money shades overlap with quiet luxury but lean more heritage — burgundy, espresso, deep reds alongside the nudes",
+          "short-quiet-luxury-nails": "These exact shades work just as beautifully on shorter nails — no length required"
+        },
+        "receives_links_from": [
+          "quiet-luxury-nails",
+          "quiet-luxury-nails-winter",
+          "quiet-luxury-nails-summer",
+          "quiet-luxury-french-tip-nails",
+          "old-money-nail-colors"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 3,
+      "role": "spoke",
+      "title": "Quiet Luxury Nails for Winter: Understated Elegance for the Cold Months",
+      "slug": "quiet-luxury-nails-winter",
+      "primary_keyword": "quiet luxury nails winter",
+      "intent": "seasonal_trend",
+      "search_demand_signals": [
+        "TikTok: winter quiet luxury content peaks Q4 each year",
+        "Pinterest: 'quiet luxury nails winter' boards active with seasonal saves",
+        "Google: seasonal spike pattern confirmed — searches rise Oct–Jan",
+        "Marie Claire Winter 2025 nail trends article explicitly calls out quiet luxury as dominant winter aesthetic"
+      ],
+      "why_included": "Strong seasonal demand with predictable annual traffic spike. Winter quiet luxury has a distinct color palette shift (deeper nudes, burgundy, rich neutrals) that justifies its own post.",
+      "internal_links": {
+        "links_to": [
+          "quiet-luxury-nails",
+          "quiet-luxury-nail-colors",
+          "quiet-luxury-nails-summer",
+          "aesthetic-nail-ideas"
+        ],
+        "link_context": {
+          "quiet-luxury-nails": "The full quiet luxury aesthetic — your starting point for everything in this world",
+          "quiet-luxury-nail-colors": "The exact shade names behind these winter quiet luxury looks — so you can recreate them precisely",
+          "quiet-luxury-nails-summer": "See how the palette shifts when the seasons change — lighter, sheerer, just as elevated",
+          "aesthetic-nail-ideas": "Beyond quiet luxury — every aesthetic worth knowing for the colder months"
+        },
+        "receives_links_from": [
+          "quiet-luxury-nails",
+          "quiet-luxury-nails-summer"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 4,
+      "role": "spoke",
+      "title": "Quiet Luxury Nails for Summer: Keeping It Elevated When It's Hot",
+      "slug": "quiet-luxury-nails-summer",
+      "primary_keyword": "quiet luxury nails summer",
+      "intent": "seasonal_trend",
+      "search_demand_signals": [
+        "TikTok: summer quiet luxury content active — butter yellow, milky sheer, sheer pinks framed as quiet luxury",
+        "Pinterest: 'quiet luxury summer nails' saved alongside vacation nail content",
+        "Google: seasonal spike pattern Apr–Jul",
+        "Who What Wear and GWS both frame summer 2025 minimalist nails within quiet luxury language"
+      ],
+      "why_included": "Distinct seasonal variant — summer quiet luxury uses lighter, sheerer palette vs. winter. Cross-links naturally to summer occasion posts in the occasion cluster.",
+      "internal_links": {
+        "links_to": [
+          "quiet-luxury-nails",
+          "quiet-luxury-nail-colors",
+          "quiet-luxury-nails-winter",
+          "aesthetic-nail-ideas"
+        ],
+        "link_context": {
+          "quiet-luxury-nails": "The full quiet luxury aesthetic — everything this summer look is rooted in",
+          "quiet-luxury-nail-colors": "The exact shades making quiet luxury summer nails look effortlessly expensive",
+          "quiet-luxury-nails-winter": "Curious how the look changes when temperatures drop? The winter palette goes deeper and richer",
+          "aesthetic-nail-ideas": "Explore every nail aesthetic — from quiet luxury summer to bolder seasonal statements"
+        },
+        "receives_links_from": [
+          "quiet-luxury-nails",
+          "quiet-luxury-nails-winter"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 5,
+      "role": "spoke",
+      "title": "Quiet Luxury French Tip Nails: The Elevated Take on a Classic",
+      "slug": "quiet-luxury-french-tip-nails",
+      "primary_keyword": "quiet luxury French tip nails",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "TikTok: French tip explicitly called out as a quiet luxury staple across multiple viral videos",
+        "Pinterest: 'quiet luxury French manicure' boards active — milky base + soft tip is THE quiet luxury signature",
+        "Google autocomplete: 'quiet luxury French tip' populates",
+        "GWS 2026 nail guide names Essie Ballet Slippers as the quiet luxury bridal French tip"
+      ],
+      "why_included": "The French tip is the single most iconic quiet luxury nail design — merits its own post. Different search intent from general quiet luxury nails (design-specific vs. aesthetic-broad).",
+      "internal_links": {
+        "links_to": [
+          "quiet-luxury-nails",
+          "quiet-luxury-nail-colors",
+          "old-money-french-tip-nails",
+          "aesthetic-nail-ideas"
+        ],
+        "link_context": {
+          "quiet-luxury-nails": "The full quiet luxury world this French tip belongs to — the shape, the finish, the philosophy",
+          "quiet-luxury-nail-colors": "The milky bases and soft tip shades that make this French tip look expensive rather than basic",
+          "old-money-french-tip-nails": "The old money French tip takes the same classic shape but roots it in heritage and prep tradition — slightly different energy, worth knowing the distinction",
+          "aesthetic-nail-ideas": "Every nail aesthetic worth knowing — from the classic French tip to bold maximalist statements"
+        },
+        "receives_links_from": [
+          "quiet-luxury-nails",
+          "quiet-luxury-nails-winter",
+          "quiet-luxury-nails-summer",
+          "old-money-french-tip-nails"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 6,
+      "role": "spoke",
+      "title": "Short Quiet Luxury Nails: Proof You Don't Need Length to Look Expensive",
+      "slug": "short-quiet-luxury-nails",
+      "primary_keyword": "short quiet luxury nails",
+      "intent": "informational",
+      "search_demand_signals": [
+        "Google autocomplete: 'short quiet luxury nails' populates independently",
+        "Pinterest: short nail quiet luxury content consistently saves well",
+        "TikTok: short almond named the 'new influencer favourite' in 2025 — directly tied to quiet luxury aesthetic",
+        "Glamnetic 2025 trends: short almond + quiet luxury paired explicitly in editorial coverage"
+      ],
+      "why_included": "Large audience segment — many quiet luxury readers specifically want short nail options. The 'you don't need length' angle addresses a real reader objection and has its own search demand.",
+      "internal_links": {
+        "links_to": [
+          "quiet-luxury-nails",
+          "quiet-luxury-nail-colors",
+          "short-old-money-nails",
+          "aesthetic-nail-ideas"
+        ],
+        "link_context": {
+          "quiet-luxury-nails": "The full quiet luxury aesthetic — the short almond is just one way into this world",
+          "quiet-luxury-nail-colors": "The exact shades that make short quiet luxury nails look intentional rather than plain",
+          "short-old-money-nails": "Old money actually skews shorter too — see how the two aesthetics handle the same length differently",
+          "aesthetic-nail-ideas": "From short and understated to long and dramatic — every nail aesthetic in one place"
+        },
+        "receives_links_from": [
+          "quiet-luxury-nails",
+          "quiet-luxury-nail-colors",
+          "quiet-luxury-french-tip-nails",
+          "short-old-money-nails"
+        ]
+      },
+      "status": "approved"
+    }
+  ],
+
+  "cross_cluster_slug_registry": {
+    "description": "All slugs from connected clusters that posts in this sub-cluster may contextually link to. Writing agents must know these exist. Never use their primary keywords as focus terms in this cluster.",
+    "parent_cluster": [
+      { "slug": "aesthetic-nail-ideas", "primary_keyword": "aesthetic nail ideas", "title": "Aesthetic Nail Ideas: The Ultimate Guide to Every Vibe & Style", "role": "pillar" },
+      { "slug": "rich-girl-nails", "primary_keyword": "rich girl nails", "title": "Rich Girl Nails: How to Get That Polished Expensive-Looking Almond Manicure", "role": "spoke" },
+      { "slug": "dark-feminine-nails", "primary_keyword": "dark feminine nails", "title": "Dark Feminine Nails: Moody Powerful Almond Designs for a Mysterious Look", "role": "spoke" },
+      { "slug": "mob-wife-nails", "primary_keyword": "mob wife nails", "title": "Mob Wife Nails: Bold Glamorous Almond Designs That Command Attention", "role": "spoke" },
+      { "slug": "soft-girl-nails", "primary_keyword": "soft girl nails", "title": "Soft Girl Nails: The Prettiest Pastel Almond Designs for a Dreamy Feminine Look", "role": "spoke" },
+      { "slug": "office-siren-nails", "primary_keyword": "office siren nails", "title": "Office Siren Nails: Sharp Glossy Almond Designs for When You Mean Business", "role": "spoke" }
+    ],
+    "sibling_sub_cluster_old_money": [
+      { "slug": "old-money-nails", "primary_keyword": "old money nails", "title": "Old Money Nails: The Classic Colors & Almond Shapes That Always Look Rich", "role": "sub_pillar", "bidirectional_link": true },
+      { "slug": "old-money-nail-colors", "primary_keyword": "old money nail colors", "title": "Old Money Nail Colors: The Exact Shades That Whisper Wealth", "role": "spoke", "bidirectional_link": true, "linked_from": "quiet-luxury-nail-colors" },
+      { "slug": "old-money-french-tip-nails", "primary_keyword": "old money French tip nails", "title": "Old Money French Tip Nails: The Most Elegant French Manicure You'll Ever Try", "role": "spoke", "bidirectional_link": true, "linked_from": "quiet-luxury-french-tip-nails" },
+      { "slug": "short-old-money-nails", "primary_keyword": "short old money nails", "title": "Short Old Money Nails: Classy Almond Designs That Work at Any Length", "role": "spoke", "bidirectional_link": true, "linked_from": "short-quiet-luxury-nails" },
+      { "slug": "old-money-nails-fall-winter", "primary_keyword": "old money nails fall winter", "title": "Old Money Nails for Fall & Winter: Timeless Designs for the Colder Months", "role": "spoke", "bidirectional_link": false },
+      { "slug": "old-money-nails-spring-summer", "primary_keyword": "old money nails spring summer", "title": "Old Money Nails for Spring & Summer: Light Elegant Designs for Warm Weather", "role": "spoke", "bidirectional_link": false }
+    ]
+  },
+
+  "keyword_ownership_registry": {
+    "description": "Master list of all primary keywords in this cluster. No overlaps.",
+    "entries": [
+      { "primary_keyword": "quiet luxury nails", "owned_by_slug": "quiet-luxury-nails" },
+      { "primary_keyword": "quiet luxury nail colors", "owned_by_slug": "quiet-luxury-nail-colors" },
+      { "primary_keyword": "quiet luxury nails winter", "owned_by_slug": "quiet-luxury-nails-winter" },
+      { "primary_keyword": "quiet luxury nails summer", "owned_by_slug": "quiet-luxury-nails-summer" },
+      { "primary_keyword": "quiet luxury French tip nails", "owned_by_slug": "quiet-luxury-french-tip-nails" },
+      { "primary_keyword": "short quiet luxury nails", "owned_by_slug": "short-quiet-luxury-nails" }
+    ]
+  },
+
+  "keyword_do_not_use": {
+    "description": "Writing agent: NEVER use these as focus terms in any post in this cluster.",
+    "entries": [
+      { "keyword": "aesthetic nail ideas", "reserved_for": "aesthetic-nail-ideas" },
+      { "keyword": "rich girl nails", "reserved_for": "rich-girl-nails" },
+      { "keyword": "dark feminine nails", "reserved_for": "dark-feminine-nails" },
+      { "keyword": "mob wife nails", "reserved_for": "mob-wife-nails" },
+      { "keyword": "soft girl nails", "reserved_for": "soft-girl-nails" },
+      { "keyword": "office siren nails", "reserved_for": "office-siren-nails" },
+      { "keyword": "old money nails", "reserved_for": "old-money-nails" },
+      { "keyword": "old money nail colors", "reserved_for": "old-money-nail-colors" },
+      { "keyword": "old money nails fall winter", "reserved_for": "old-money-nails-fall-winter" },
+      { "keyword": "old money nails spring summer", "reserved_for": "old-money-nails-spring-summer" },
+      { "keyword": "old money French tip nails", "reserved_for": "old-money-french-tip-nails" },
+      { "keyword": "short old money nails", "reserved_for": "short-old-money-nails" },
+      { "keyword": "clean girl nails", "reserved_for": "clean-girl-nails" },
+      { "keyword": "coquette nails", "reserved_for": "coquette-nails" },
+      { "keyword": "almond nails", "reserved_for": "existing-site-cluster" },
+      { "keyword": "almond nail designs", "reserved_for": "existing-site-cluster" },
+      { "keyword": "almond nail ideas", "reserved_for": "existing-site-cluster" }
+    ]
+  },
+
+  "killed_posts_log": [
+    { "topic": "Quiet Luxury Nails Spring", "reason": "Demand overlap too high with summer post. Spring content covered inside quiet-luxury-nails-summer." },
+    { "topic": "Quiet Luxury Nails Fall", "reason": "Demand overlap too high with winter post. Fall content covered inside quiet-luxury-nails-winter." },
+    { "topic": "Quiet Luxury vs Old Money Nails (comparison)", "reason": "Serves better as a section inside the quiet-luxury-nails sub-pillar than a standalone post. Standalone comparison post has moderate but not strong enough demand to justify its own URL." }
+  ]
+}
