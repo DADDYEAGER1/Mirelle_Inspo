@@ -1,0 +1,98 @@
+'use client';
+
+import { useEffect, useState } from 'react';
+
+interface TOCItem {
+  id: string;
+  text: string;
+  level: number;
+}
+
+interface TableOfContentsProps {
+  content: string;
+}
+
+export default function TableOfContents({ content }: TableOfContentsProps) {
+  const [tocItems, setTocItems] = useState<TOCItem[]>([]);
+  const [activeId, setActiveId] = useState<string>('');
+
+  useEffect(() => {
+    // Extract h2 and h3 from content
+    const tempDiv = document.createElement('div');
+    tempDiv.innerHTML = content;
+    
+    const headings = tempDiv.querySelectorAll('h2, h3');
+    const items: TOCItem[] = Array.from(headings).map((heading) => {
+      return {
+        id: heading.id,
+        text: heading.textContent || '',
+        level: parseInt(heading.tagName.substring(1))
+      };
+    });
+    
+    setTocItems(items);
+
+    // Intersection Observer for active section
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setActiveId(entry.target.id);
+          }
+        });
+      },
+      { rootMargin: '-100px 0px -66% 0px' }
+    );
+
+    const actualHeadings = document.querySelectorAll('h2, h3');
+    actualHeadings.forEach((heading) => {
+      if (heading.id) observer.observe(heading);
+    });
+
+    return () => observer.disconnect();
+  }, [content]);
+
+  if (tocItems.length === 0) return null;
+
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
+    e.preventDefault();
+    const element = document.getElementById(id);
+    if (element) {
+      const yOffset = -100;
+      const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    }
+  };
+
+  return (
+    <nav className="bg-white p-6" style={{ border: '1px solid #e5e7eb' }}>
+      <h2 className="font-heading text-xl mb-6 text-center" style={{ color: '#252220' }}>
+        On This Page
+      </h2>
+      <ul className="space-y-4">
+        {tocItems.map((item) => (
+          <li
+            key={item.id}
+            className={item.level === 3 ? 'ml-6' : ''}
+          >
+            <a
+              href={`#${item.id}`}
+              onClick={(e) => handleClick(e, item.id)}
+              className={`block text-base transition-all py-1 no-underline hover:no-underline ${
+                activeId === item.id ? 'border-l-4 pl-4 font-medium' : 'pl-4'
+              }`}
+              style={{
+                fontFamily: 'var(--font-body)',
+                color: '#252220',
+                borderColor: activeId === item.id ? '#252220' : 'transparent',
+                textDecoration: 'none'
+              }}
+            >
+              {item.text}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  );
+}
