@@ -1,0 +1,86 @@
+import { Metadata } from 'next';
+import { getAllSpotlightPosts, getSpotlightPostsByCategory } from '@/lib/spotlight';
+import SpotlightGrid from '@/components/Spotlight/SpotlightGrid';
+import NextPageButton from '@/components/Blog/NextPageButton';
+
+export const metadata: Metadata = {
+  title: 'Spotlight | Mirellé',
+  description: 'We put a spotlight on the nail artists, creators, and tastemakers who deserve to be seen.',
+};
+
+interface PageProps {
+  searchParams: Promise<{
+    page?: string;
+    category?: string;
+  }>;
+}
+
+export default async function SpotlightPage({ searchParams }: PageProps) {
+  const params = await searchParams;
+  const currentPage = Number(params.page) || 1;
+  const selectedCategory = params.category;
+
+  const allPosts = await getAllSpotlightPosts();
+
+  const postsPerPage = 12;
+
+  if (selectedCategory) {
+    const categoryPosts = await getSpotlightPostsByCategory(selectedCategory);
+    const totalPages = Math.ceil(categoryPosts.length / postsPerPage);
+    const startIndex = (currentPage - 1) * postsPerPage;
+    const posts = categoryPosts.slice(startIndex, startIndex + postsPerPage);
+
+    return (
+      <div className="min-h-screen bg-[#f9fafb]">
+        <section className="py-16 bg-[#f9fafb] border-b border-gray-100">
+          <div className="max-w-[1200px] mx-auto px-6 text-center">
+            <h1
+              className="text-4xl md:text-5xl uppercase"
+              style={{ fontFamily: 'Larken, Georgia, serif' }}
+            >
+              {selectedCategory.replace('-', ' ')}
+            </h1>
+          </div>
+        </section>
+        <SpotlightGrid posts={posts} />
+        {currentPage < totalPages && (
+          <NextPageButton href={`/spotlight?category=${selectedCategory}&page=${currentPage + 1}`} />
+        )}
+      </div>
+    );
+  }
+
+  const totalPages = Math.ceil(allPosts.length / postsPerPage);
+  const startIndex = (currentPage - 1) * postsPerPage;
+  const posts = allPosts.slice(startIndex, startIndex + postsPerPage);
+
+  return (
+    <div className="min-h-screen bg-[#f9fafb]">
+      {/* Hero */}
+      <section className="py-24 bg-[#f9fafb] border-b border-gray-100">
+        <div className="max-w-[700px] mx-auto px-6 text-center">
+          <h1
+            className="text-5xl md:text-6xl mb-6"
+            style={{ fontFamily: 'Larken, serif' }}
+          >
+            Spotlight
+          </h1>
+          <p
+            className="text-lg md:text-xl text-gray-500 italic"
+            style={{ fontFamily: 'Larken, Georgia, serif' }}
+          >
+            &ldquo;Every artist deserves to be seen. We find them, we feature them,
+            we let the work speak.&rdquo;
+          </p>
+        </div>
+      </section>
+
+      {/* Posts Grid */}
+      <SpotlightGrid posts={posts} />
+
+      {currentPage < totalPages && (
+        <NextPageButton href={`/spotlight?page=${currentPage + 1}`} />
+      )}
+    </div>
+  );
+}
