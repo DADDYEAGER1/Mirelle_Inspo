@@ -1,0 +1,105 @@
+// src/lib/reports.ts
+import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter';
+import { Faq, ReportMetadata, ReportCategory } from '@/types/reports';
+
+const reportsDirectory = path.join(process.cwd(), 'src/content/reports');
+
+export async function getAllReportSlugs(): Promise<string[]> {
+  if (!fs.existsSync(reportsDirectory)) return [];
+  return fs
+    .readdirSync(reportsDirectory)
+    .filter((f) => f.endsWith('.mdx'))
+    .map((f) => f.replace(/\.mdx$/, ''));
+}
+
+export async function getReport(slug: string): Promise< Report | null> {
+  try {
+    const fullPath = path.join(reportsDirectory, `${slug}.mdx`);
+    if (!fs.existsSync(fullPath)) return null;
+
+    const fileContents = fs.readFileSync(fullPath, 'utf8');
+    const { data, content } = matter(fileContents);
+
+    return {
+      slug,
+      title: data.title || '',
+      excerpt: data.excerpt || '',
+      date: data.date || new Date().toISOString(),
+      dateModified: data.dateModified,
+      author: data.author || 'Mirellé',
+      category: data.category || 'UNCATEGORIZED',
+      image: data.image || '/images/default-report.jpg',
+      imageAlt: data.imageAlt,
+      imageWidth: data.imageWidth,
+      imageHeight: data.imageHeight,
+      imageCaption: data.imageCaption,
+      readTime: data.readTime,
+      wordCount: data.wordCount,
+      canonical: data.canonical || `https://mirelleinspo.com/trend-reports/${slug}`,
+      tags: data.tags,
+      topicalMap: data.topicalMap,
+      navigationContext: data.navigationContext,
+      content, // raw MDX — no remark processing
+    };
+  } catch (error) {
+    console.error(`Error loading faq ${slug}:`, error);
+    return null;
+  }
+}
+
+export async function getAllReports(): Promise<ReportMetadata[]> {
+  const slugs = await getAllReportSlugs();
+  const faqs = await Promise.all(
+    slugs.map(async (slug) => {
+      const report = await getReport(slug);
+      if (!report) return null;
+      const { content, ...metadata } = report;
+      return metadata;
+    })
+  );
+  return faqs
+    .filter((f): f is ReportMetadata => f !== null)
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+}
+
+export async function getReportsByCategory(categorySlug: string): Promise<ReportMetadata[]> {
+  const allFaqs = await getAllReports();
+  const normalize = (s: string) => s.toLowerCase().replace(/\s+/g, '-');
+  return allFaqs.filter((f) => normalize(f.category) === categorySlug.toLowerCase());
+}
+
+export async function getAllReportCategories(): Promise<ReportCategory[]> {
+  const allFaqs = await getAllReports();
+  const map = new Map<string, number>();
+  allFaqs.forEach((f) => map.set(f.category, (map.get(f.category) || 0) + 1));
+  return Array.from(map.entries())
+    .map(([name, count]) => ({ name, slug: name.toLowerCase().replace(/\s+/g, '-'), count }))
+    .sort((a, b) => a.name.localeCompare(b.name));
+}
+
+export async function getRelatedReports(currentSlug: string, limit = 3): Promise<ReportMetadata[]> {
+  const current = await getReport(currentSlug);
+  if (!current) return [];
+  const all = await getAllReports();
+  const others = all.filter((f) => f.slug !== currentSlug);
+  const sameCategory = others.filter((f) => f.category === current.category);
+  const rest = others.filter((f) => f.category !== current.category);
+  return [...sameCategory, ...rest].slice(0, limit);
+}
+
+export async function getPaginatedReports(page = 1, perPage = 12) {
+  const all = await getAllReports();
+  const total = all.length;
+  const totalPages = Math.ceil(total / perPage);
+  const start = (page - 1) * perPage;
+  return {
+    faqs: all.slice(start, start + perPage),
+    currentPage: page,
+    totalPages,
+    totalFaqs: total,
+    hasNextPage: page < totalPages,
+    hasPreviousPage: page > 1,
+  };
+}
