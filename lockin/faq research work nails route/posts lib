@@ -1,0 +1,150 @@
+// src/lib/posts.ts
+import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter';
+import { remark } from 'remark';
+import html from 'remark-html';
+import { Post, PostMetadata, Category } from '@/types/posts';
+
+const postsDirectory = path.join(process.cwd(), 'src/content/posts');
+
+// Get all post slugs
+export async function getAllPostSlugs(): Promise<string[]> {
+  if (!fs.existsSync(postsDirectory)) {
+    return [];
+  }
+  const fileNames = fs.readdirSync(postsDirectory);
+  return fileNames
+    .filter(fileName => fileName.endsWith('.md'))
+    .map(fileName => fileName.replace(/\.md$/, ''));
+}
+
+// Get single post by slug
+export async function getPost(slug: string): Promise<Post | null> {
+  try {
+    const fullPath = path.join(postsDirectory, `${slug}.md`);
+    
+    if (!fs.existsSync(fullPath)) {
+      return null;
+    }
+
+    const fileContents = fs.readFileSync(fullPath, 'utf8');
+    const { data, content } = matter(fileContents);
+
+    // Convert markdown to HTML
+    const processedContent = await remark().use(html).process(content);
+    const contentHtml = processedContent.toString();
+
+    return {
+      slug,
+      title: data.title || '',
+      excerpt: data.excerpt || '',
+      date: data.date || new Date().toISOString(),
+      author: data.author || 'Mirellé',
+      category: data.category || 'UNCATEGORIZED',
+      image: data.image || '/images/default-post.jpg',
+      imageAlt: data.imageAlt,
+      imageWidth: data.imageWidth,
+      imageHeight: data.imageHeight,
+      carouselImages: data.carouselImages,
+      products: data.products,
+      readTime: data.readTime,
+      canonical: data.canonical || `https://mirelleinspo.com/posts/${slug}`,
+      dateModified: data.dateModified,
+      content: contentHtml,
+    };
+  } catch (error) {
+    console.error(`Error loading post ${slug}:`, error);
+    return null;
+  }
+}
+
+// Get all posts
+export async function getAllPosts(): Promise<PostMetadata[]> {
+  const slugs = await getAllPostSlugs();
+  const posts = await Promise.all(
+    slugs.map(async (slug) => {
+      const post = await getPost(slug);
+      if (!post) return null;
+      const { content, ...metadata } = post;
+      return metadata;
+    })
+  );
+
+  return posts
+    .filter((post): post is PostMetadata => post !== null)
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+}
+
+// Get posts by category - FIXED TO MATCH SLUG FORMAT
+export async function getPostsByCategory(categorySlug: string): Promise<PostMetadata[]> {
+  const allPosts = await getAllPosts();
+  
+  // Convert category name to slug format for comparison
+  const normalizeToSlug = (str: string) => str.toLowerCase().replace(/\s+/g, '-');
+  
+  return allPosts.filter(post => 
+    normalizeToSlug(post.category) === categorySlug.toLowerCase()
+  );
+}
+
+// Get all categories (auto-generated from posts)
+export async function getAllCategories(): Promise<Category[]> {
+  const allPosts = await getAllPosts();
+  const categoryMap = new Map<string, number>();
+
+  allPosts.forEach(post => {
+    const category = post.category;
+    categoryMap.set(category, (categoryMap.get(category) || 0) + 1);
+  });
+
+  return Array.from(categoryMap.entries())
+    .map(([name, count]) => ({
+      name,
+      slug: name.toLowerCase().replace(/\s+/g, '-'),
+      count,
+    }))
+    .sort((a, b) => a.name.localeCompare(b.name));
+}
+
+// Get related posts (same category, then recent)
+export async function getRelatedPosts(currentSlug: string, limit: number = 3): Promise<PostMetadata[]> {
+  const currentPost = await getPost(currentSlug);
+  if (!currentPost) return [];
+
+  const allPosts = await getAllPosts();
+  
+  // Filter out current post
+  const otherPosts = allPosts.filter(post => post.slug !== currentSlug);
+
+  // Same category posts first
+  const sameCategoryPosts = otherPosts.filter(
+    post => post.category === currentPost.category
+  );
+
+  // If not enough same category posts, add recent posts
+  const relatedPosts = [
+    ...sameCategoryPosts.slice(0, limit),
+    ...otherPosts.filter(post => !sameCategoryPosts.includes(post)).slice(0, limit - sameCategoryPosts.length)
+  ];
+
+  return relatedPosts.slice(0, limit);
+}
+
+// Pagination helper
+export async function getPaginatedPosts(page: number = 1, perPage: number = 12) {
+  const allPosts = await getAllPosts();
+  const totalPosts = allPosts.length;
+  const totalPages = Math.ceil(totalPosts / perPage);
+  const startIndex = (page - 1) * perPage;
+  const endIndex = startIndex + perPage;
+
+  return {
+    posts: allPosts.slice(startIndex, endIndex),
+    currentPage: page,
+    totalPages,
+    totalPosts,
+    hasNextPage: page < totalPages,
+    hasPreviousPage: page > 1,
+  };
+}
