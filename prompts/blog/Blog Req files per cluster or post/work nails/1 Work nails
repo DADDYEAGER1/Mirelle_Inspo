@@ -1,0 +1,406 @@
+# SEO RESEARCH INPUT FILE — BLOG GEN AGENT
+
+**THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All keywords, H2 structure, audience intelligence, internal links, intent signals, image count recommendation, and tone defined here must be followed exactly. Do not override, reinterpret, or ignore any section unless the user explicitly instructs you to during the Blog Gen session.**
+
+---
+
+## METADATA
+
+| Field | Value |
+|---|---|
+| Topic | Work Nails |
+| Primary Keyword | work nails |
+| Post Type | Pillar / Comprehensive Guide |
+| Intent | INFORMATIONAL |
+| Mode | CLUSTER |
+| Pillar Slug | work-nails |
+| Recommended Image Count | 12–15 images — informational pillar intent with broad visual scope; each sub-topic section (color, shape, length, industry) benefits from one anchoring image; visual flow aids scanability for busy professional readers |
+| Target Audience | Professional women 25–45, Tier 1 markets (US, UK, Canada, Australia); mix of corporate office, hybrid/remote, and career-transitioners; all experience levels with manicures |
+| Research Date | 2026-05-06 |
+
+---
+
+## CLUSTER SNAPSHOT
+
+**Pillar Title:** Work Nails: The Complete Guide to Office-Appropriate Manicures
+**Pillar Slug:** work-nails
+**This Post Slug:** work-nails
+
+### Internal Links This Post Must Include (from cluster_context.json — ALL mandatory)
+
+| Target Slug | Target Title | Placement Note |
+|---|---|---|
+| professional-nail-designs-for-work | Professional Nail Designs for Work in 2026 | Link from the "what styles work" H2 section when introducing design options |
+| work-appropriate-nail-colors | Best Work-Appropriate Nail Colors (What to Wear and What to Avoid) | Link from color guidance section — "for the full breakdown by shade" |
+| short-nails-for-work | Short Nails for Work: Why They're the Smartest Office Choice | Link from the length section when recommending short-to-medium length |
+| french-tip-nails-for-work | French Tip Nails for Work: Classic Styles and 2026 Modern Updates | Link from style section when mentioning French manicure as the universally professional choice |
+| neutral-nails-for-work | Neutral Nails for Work: Nude, Beige, and Milky Shades That Always Look Right | Link from color section when covering neutral palette |
+| gel-vs-acrylic-nails-for-work | Gel vs Acrylic Nails for Work: Which Is the Better Professional Choice? | Link from the "which system to use" or maintenance section |
+| work-appropriate-nail-art | Work-Appropriate Nail Art: How to Wear Designs Without Looking Unprofessional | Link from the section on subtle nail art/personality at work |
+| nails-for-conservative-vs-creative-workplaces | Nails for Conservative Offices vs Creative Workplaces: A Complete Industry Guide | Link from the industry rules section |
+| nail-shapes-for-work | Nail Shapes for Work: Squoval, Oval, Almond — What's Professional and What's Not | Link from the shape guidance section |
+| gel-nail-polish-for-work | Best Gel Nail Polish for Work: Long-Lasting Office Manicures That Won't Chip | Link from the polish system/maintenance section |
+| press-on-nails-for-work | Press-On Nails for Work: Do They Look Professional in 2026? | Link from the "quick professional options" or polish system section |
+| nails-for-job-interview | Nails for a Job Interview: Best Colors, Lengths, and Styles to Make the Right Impression | Link from the high-stakes moments section (interview, first day) |
+| corporate-girl-nails | Corporate Girl Nails: The Aesthetic Inspo Every Office Woman Needs | Link from the inspo/aesthetic section |
+| nails-for-different-professions | Nails for Different Professions: Lawyers, Nurses, Teachers, and More | Link from the industry rules section |
+| new-job-nails | New Job Nails: What to Wear on Your First Day and How to Read the Office Culture | Link from the high-stakes moments section |
+| best-nail-polish-for-work | Best Nail Polish for Working Women: Top Picks for Office and Remote Work | Link from the product/system section |
+| professional-nail-length-for-work | Professional Nail Length for Work: What's Appropriate and What's Too Long | Link from the length section |
+| fun-professional-nails | Fun but Professional Nails: How to Show Personality Without Breaking the Dress Code | Link from the personality/creativity section |
+
+### Cross-Site Internal Links (discovered via site:mirelleinspo.com search)
+
+| URL | Title | Relevance | Placement Note |
+|---|---|---|---|
+| /topics/skin-tones | Nail Colors for Every Skin Tone: The Ultimate 2026 Matching Guide | Work nail color advice is incomplete without skin tone context — directly relevant to the color section | In the colors section when advising on choosing the right nude or neutral |
+| /topics/nail-care-guide | The Complete Nail Care Guide: Achieve Healthy, Strong Nails in 2026 | Nail health is the foundation of professional-looking nails — cuticle care, maintenance, chip prevention | In the maintenance/upkeep section |
+| /topics/seasonal-trends | What Nails to Wear Every Month in 2026 (Trending Calendar) | Work nail choices shift seasonally — burgundy in autumn, soft pinks in spring | In the color or trend section when noting seasonal rotations |
+
+### Keywords to Avoid (owned by other cluster posts — never use as focus terms)
+professional nail designs for work · work appropriate nail colors · short nails for work · french tip nails for work · neutral nails for work · gel vs acrylic nails for work · work appropriate nail art · nails for conservative office · nail shapes for work · gel nail polish for work · press on nails for work · nails for job interview · corporate girl nails · nails for different professions · new job nails · best nail polish for work · professional nail length for work · fun professional nails
+
+### Receives Links From (all 18 spoke posts will link back to this pillar)
+All spoke slugs listed in cluster_context.json.
+
+---
+
+## SERP ANALYSIS
+
+### Competitor Summary
+
+**Common H2 Topics Competitors Use (baseline — do not copy, use as gap map):**
+1. What are work-appropriate nails?
+2. Best colors for office nails
+3. What nail length is professional?
+4. Best nail shapes for work
+5. French manicure as the #1 work nail
+6. Neutral/nude nails for the office
+7. What nail art is acceptable?
+8. Gel vs regular polish for work
+9. Nail care and maintenance tips
+10. Industry-specific rules (brief mentions only)
+11. What to avoid at work
+12. 2026 trends for office nails
+
+**Content Approach — Competitors' Strategy and Weaknesses:**
+Most ranking pages (Naillie, HerGlowDiary, NAGAIA, Corporette, BTArtbox) treat work nails as a visual gallery or short listicle. They cover what colors and styles are acceptable but fail to give the reader a navigable framework for decision-making. None of them meaningfully addresses the "know your office" dimension with enough nuance — they treat professional settings as monolithic. Competitor content is also heavily desktop-focused and does not account for the remote/hybrid worker who still needs professional-looking nails for video calls. The voice is generic and the audience intelligence is shallow.
+
+**Visual Patterns:** Competitors use 8–15 images (gallery-style posts) with heavy image density. Informational pillar posts in this niche average 10–14 inline images.
+
+**Recommended Image Count:** 12–15 images — one per major H2 section plus supporting images for the color, style, and industry sections. Informational intent + broad pillar scope = higher image count justified.
+
+**Competitor Gaps:**
+
+*Unanswered questions competitors are NOT answering:*
+- "What do chipped nails say about you professionally — does it matter more than the colour?"
+- "I work hybrid/remote — do I still need to worry about work nails for video calls?"
+- "How do I read my specific office's culture before committing to a nail colour?"
+- "Are bare/unpainted nails actually professional or do they look neglected?"
+- "Can I have dark nails in a conservative firm if they're well-maintained?"
+- "How does nail length affect typing and is that actually a real productivity concern?"
+- "What does 2026 actually change about work nail rules — or does it?"
+
+*Missing semantic territory:*
+- Maintenance as the primary professionalism signal (not colour)
+- Remote work / video call nail considerations
+- Generational and regional variation in workplace nail standards
+- The "know your office" observational method
+- Nail health as a proxy for overall grooming care
+- The "quiet luxury" professional nail aesthetic by name
+- Chip-resistance as a professional necessity, not just a preference
+
+*Audience blind spots:*
+- Women who genuinely don't know how to read their office's culture
+- Junior employees anxious about first impressions
+- Hybrid workers unsure if nails matter on camera
+- Women who love bold nails and need nuanced permission/guidance rather than just "keep it neutral"
+
+**Our Strategic Approach:**
+
+*Differentiation:* We win by framing this as a decision-making guide rather than a style gallery. The pillar's unique angle is that professionalism in 2026 is defined by maintenance and context — not by specific colours — and we provide the framework to navigate that, rather than a blanket ruleset.
+
+*Structure Plan:* Organise around the real decisions a professional woman faces — not generic categories. Start with the shift in what "professional" actually means in 2026, move through the observable signals (length, shape, colour, condition), then address the industry/context layer, then give actionable guidance for high-stakes moments.
+
+*Tone Direction:* Knowledgeable insider who has done the research so the reader doesn't have to — direct, non-preachy, treats the reader as intelligent.
+
+---
+
+## AUDIENCE INTELLIGENCE
+
+**Blog Gen Instruction:** This section is your primary creative brief. Use this audience data to inform every paragraph, every sentence, every word choice. You are writing for this specific person with this specific intent. Satisfy them completely.
+
+### Intent-Specific Audience Profile
+
+**Who They Are:** Professional women 25–45 working in office, hybrid, or remote settings across Tier 1 markets. Ranges from junior employees in their first corporate role to senior women returning to office post-remote. Majority are comfortable with nail care but uncertain about the unwritten rules of their specific workplace. Some are actively anxious (new job, interview ahead); others are quietly frustrated that the rules seem inconsistent.
+
+**What They Want From This Post:** A clear, trustworthy framework they can actually use. Not a list of pretty nails — they want to understand the logic behind what is and isn't professional, so they can make confident decisions without second-guessing themselves. They want to know: what's the minimum required, what's universally safe, and where is there room to express personality.
+
+**What Satisfies Them:** Specific, actionable guidance that acknowledges the nuance (industry, context, stakes of the moment) without being wishy-washy. They feel satisfied when they leave with a clear mental model: here's the framework, here's how to apply it to my situation. They want to trust the source.
+
+**What Frustrates Them:** Vague advice like "keep it professional" with no specifics. Content that assumes all workplaces are the same (conservative corporate). Content that ignores maintenance quality and only talks about colour. Content that feels aimed at someone else (all gallery, no framework). Not being given permission to wear colour or personality — the sense that any deviation is risky.
+
+### Top 5 Pain Points (Informational Intent Filter)
+
+1. **The unwritten rules are unclear** — Dress codes don't mention nails. They can't find out what's actually expected without risking a mistake.
+2. **Fear of getting it wrong at a high-stakes moment** — Starting a new job or interview, they want certainty, not "it depends."
+3. **Chipped nails anxiety** — They know chip-free matters but aren't sure how to maintain it through a busy work week.
+4. **The "know your office" advice feels useless** — Everyone says it, no one explains how to actually read the culture signals.
+5. **They want to show personality but don't know where the line is** — The tension between self-expression and professional risk is real and unresolved.
+
+**User Sentiment:** Professional women are cautiously optimistic about the loosening of workplace nail rules in 2026 but still deeply uncertain where the new lines are — and anxiety spikes at high-stakes career moments.
+
+### Exact User Phrases (in their own words)
+
+- "what nails are appropriate for work"
+- "are my nails too much for the office"
+- "can I wear nail art to work"
+- "what is the most professional nail color"
+- "are long nails unprofessional"
+- "do work nails matter on video calls"
+- "what nails should I get for a new job"
+- "can I wear dark nail polish in a conservative office"
+- "are bare nails professional or does it look lazy"
+- "best work nails that won't chip"
+- "how to read office culture for nails"
+- "nails for work that still look stylish"
+
+### Intent Content Signals
+
+- They want a framework, not just a list — structure matters
+- High-stakes moments (interview, first day) need dedicated, direct guidance
+- They trust sources that acknowledge nuance without hiding behind vagueness
+- They respond to specifics: "2–4mm beyond the fingertip" lands better than "short to medium"
+- Maintenance quality messaging resonates more than colour rules
+- The "it depends on your office" answer is only satisfying if it comes with a method to figure it out
+- Remote/hybrid context is increasingly relevant — video call nail awareness is real
+
+---
+
+## SEMANTIC KEYWORD DATA
+
+**Blog Gen Instruction:** Use these terms naturally throughout the post. AEO terms should trigger direct answer paragraphs. User language should appear in conversational moments. Do not keyword-stuff — weave these in where they serve the reader.
+
+**Primary Keyword:** work nails
+
+**Keyword Variations:**
+- nails for work
+- office nails
+- professional nails
+- work appropriate nails
+- office appropriate nails
+- nails for the office
+- professional manicure
+- work manicure
+- office manicure
+- nails for working women
+
+**Cluster Keywords (cleared against do_not_use list):**
+- office dress code nails
+- manicure for work
+- nail maintenance at work
+- chipped nails at work
+- nail upkeep professional women
+- remote work nails
+- video call nails
+- nail grooming professional
+- office nail etiquette
+- workplace nail rules
+- career-appropriate nails
+- nails for hybrid workers
+- nail care working women
+- clean girl nails office
+- quiet luxury nails
+
+**LSI Terms (cleared against do_not_use list):**
+- squoval nail shape
+- milky nails 2026
+- soap nails professional
+- glass nails office
+- micro French tip
+- cuticle care professional
+- nail bed appearance
+- nail chip resistance
+- gel manicure longevity
+- shellac for work
+- BIAB nails professional
+- nail maintenance between appointments
+- manicure upkeep busy women
+- bare nails professional
+- nail health at work
+- nail colour psychology workplace
+- soft almond shape professional
+- neutral nail palette
+- nude nail polish
+- office-ready manicure
+
+**AEO Terms (full question phrases for AI answer engines):**
+- what nails are appropriate for work in 2026
+- how long should nails be for a professional job
+- what is the most professional nail color for women
+- are bare nails or polished nails more professional
+- can you wear nail art to a corporate office
+- what nail shape is most professional for office work
+- do nails matter for video calls and remote work
+- what nail colour is acceptable in a conservative law firm
+- how do you read office culture to choose work nails
+- is gel or regular polish better for professional nails
+- what nail colour should I wear to a job interview
+- are dark nails unprofessional in 2026
+
+**Technical Terms:**
+- squoval (square-oval hybrid shape)
+- gel overlay
+- BIAB (Builder in a Bottle)
+- CND Shellac
+- gel top coat
+- cuticle matrix
+- nail plate maintenance
+
+**User Language (casual phrases users actually search and say):**
+- "my nails for work"
+- "office nail ideas"
+- "nails that won't embarrass me at work"
+- "safe nail colours for the office"
+- "classy nails for the office"
+- "nails that look expensive but professional"
+- "what to do with my nails for work"
+- "corporate nails inspo"
+- "nails that go with my work wardrobe"
+- "polished nails without trying too hard"
+
+---
+
+## VOICE AND AI SEARCH QUERIES
+
+**Blog Gen Instruction:** These are the exact questions your readers are asking search engines and AI assistants. Answer them directly within the content — these drive featured snippets and AI answer placements.
+
+1. What are work-appropriate nails in 2026?
+2. What nail colour should I wear to a corporate job?
+3. Are long nails considered unprofessional?
+4. What is the most professional nail shape for office work?
+5. Can I wear nail art to a conservative workplace?
+6. What nail length is appropriate for work?
+7. How do I know what nail colour is acceptable at my specific office?
+8. Are bare nails professional or do they look unkempt?
+9. What nails should I get before a job interview?
+10. Do work nails matter if I work from home or hybrid?
+11. Is gel polish or regular nail polish better for work?
+12. What nail colours are acceptable in a law firm or finance role?
+13. Can nurses wear nail polish at work?
+14. How do I keep my nails from chipping at work?
+15. Are dark nail colours professional in 2026?
+16. What nail trends from 2026 are appropriate for the office?
+17. Is it unprofessional to have no nail polish at work?
+18. What does a professional manicure look like in 2026?
+
+---
+
+## CONTENT STRUCTURE
+
+**Blog Gen Instruction:** This H2 structure is research-driven and must be followed. Each heading reflects a real audience query or intent signal. Do not rename, reorder, or replace H2s without user instruction. You may add H3s under each H2 based on your editorial research.
+
+**H1:** Work Nails: The Complete Guide to Office-Appropriate Manicures in 2026
+
+**H2 Structure:**
+
+1. **What "Professional Nails" Actually Means in 2026 (It's Not What You Think)**
+   — *Opens with the key paradigm shift: maintenance quality now outweighs colour choice. Sets the reader's frame for everything that follows.*
+
+2. **The One Rule That Overrides Everything: Condition Over Colour**
+   — *Chipped nails beat a bold colour every time. Addresses the top unspoken anxiety. Covers chip resistance, upkeep frequency, and the logic of why a well-maintained dark nail beats a poorly maintained nude one.*
+
+3. **What Nail Length Is Actually Appropriate for Work?**
+   — *Answers the #2 most-asked work nail question directly. Specific: 2–4mm. Typing test. When extensions become an issue. Links to professional-nail-length-for-work.*
+
+4. **Which Nail Shapes Read as Professional — and Which Don't**
+   — *Squoval, oval, rounded as the professional standard. Why stiletto/coffin reads as impractical in most offices. Links to nail-shapes-for-work.*
+
+5. **The Safest Colours for Every Office (and Where There's More Latitude Than You Think)**
+   — *Neutral palette as the always-safe baseline. The 2026 expansion: milky, soft chrome, mocha, soft burgundy. When bold colours work and when they don't. Links to work-appropriate-nail-colors and neutral-nails-for-work. Links to skin-tones for matching.*
+
+6. **Can You Wear Nail Art to Work? Here's the Actual Answer**
+   — *Nuanced yes — explains the design spectrum from always-ok to context-dependent to avoid. Micro French, negative space, fine lines all covered. Links to work-appropriate-nail-art and fun-professional-nails.*
+
+7. **How to Read Your Office's Nail Culture (The Actual Method)**
+   — *The "know your office" advice given with a real method: observe the most senior women, read client-facing vs. internal norms, understand the industry's default. Addresses the core reader frustration.*
+
+8. **Industry Rules: What Banking, Law, Healthcare, and Creative Fields Expect**
+   — *Four distinct frameworks in one concise section. Links to nails-for-conservative-vs-creative-workplaces and nails-for-different-professions.*
+
+9. **High-Stakes Moments: What to Wear for Interviews and First Days**
+   — *Specific guidance for the two highest-anxiety nail moments. Default to neutrals, why classic French is the safe bet, how to transition after. Links to nails-for-job-interview and new-job-nails.*
+
+10. **Gel, Acrylic, or Regular Polish — Which Is Best for Work?**
+    — *Practical decision guide by work style and maintenance availability. Chip resistance, longevity, and the press-on question. Links to gel-vs-acrylic-nails-for-work, gel-nail-polish-for-work, press-on-nails-for-work, and best-nail-polish-for-work.*
+
+11. **Work Nails for Remote and Hybrid Workers: Do They Still Matter?**
+    — *Direct answer: yes, for client-facing video calls. What reads well on camera. Links to corporate-girl-nails.*
+
+12. **The 2026 Professional Nail Styles Worth Knowing**
+    — *Milky/soap nails, soft chrome glass nails, micro French updates, subtle matte neutrals. Each framed as a professional office choice. Links to professional-nail-designs-for-work and short-nails-for-work.*
+
+**Structure Reasoning:** The H2 sequence follows the reader's actual decision journey — from understanding the new rules, through the practical choices (length, shape, colour, art), to the contextual layer (industry, high-stakes moments), to product/system decisions. Each H2 addresses a real query and delivers a direct answer before exploring nuance. The structure also creates natural internal linking hooks for all 18 cluster spokes without forcing them.
+
+---
+
+## INTERNAL LINKS
+
+**Blog Gen Instruction:** All links below — cluster links and cross-site links — must appear in the post. Place each link naturally where the placement note suggests. Write them into the content editorially — not as standalone CTAs. The link should feel like a natural continuation for the reader, not an interruption.
+
+| URL or Slug | Title | Placement Note | Type |
+|---|---|---|---|
+| professional-nail-designs-for-work | Professional Nail Designs for Work in 2026 | H2 #12 — when introducing 2026 professional styles | Cluster |
+| work-appropriate-nail-colors | Best Work-Appropriate Nail Colors | H2 #5 — in colour section for full shade breakdown | Cluster |
+| short-nails-for-work | Short Nails for Work | H2 #12 and H2 #3 — when recommending short length | Cluster |
+| french-tip-nails-for-work | French Tip Nails for Work | H2 #9 and H2 #12 — as the safest interview/high-stakes style | Cluster |
+| neutral-nails-for-work | Neutral Nails for Work | H2 #5 — when covering neutral palette | Cluster |
+| gel-vs-acrylic-nails-for-work | Gel vs Acrylic Nails for Work | H2 #10 — system decision section | Cluster |
+| work-appropriate-nail-art | Work-Appropriate Nail Art | H2 #6 — nail art section | Cluster |
+| nails-for-conservative-vs-creative-workplaces | Nails for Conservative Offices vs Creative Workplaces | H2 #8 — industry rules section | Cluster |
+| nail-shapes-for-work | Nail Shapes for Work | H2 #4 — shape section | Cluster |
+| gel-nail-polish-for-work | Best Gel Nail Polish for Work | H2 #10 — system/product section | Cluster |
+| press-on-nails-for-work | Press-On Nails for Work | H2 #10 — system/product section | Cluster |
+| nails-for-job-interview | Nails for a Job Interview | H2 #9 — high-stakes moments | Cluster |
+| corporate-girl-nails | Corporate Girl Nails | H2 #11 — remote/hybrid section | Cluster |
+| nails-for-different-professions | Nails for Different Professions | H2 #8 — industry section | Cluster |
+| new-job-nails | New Job Nails | H2 #9 — high-stakes moments | Cluster |
+| best-nail-polish-for-work | Best Nail Polish for Working Women | H2 #10 — product section | Cluster |
+| professional-nail-length-for-work | Professional Nail Length for Work | H2 #3 — length section | Cluster |
+| fun-professional-nails | Fun but Professional Nails | H2 #6 — personality/nail art section | Cluster |
+| /topics/skin-tones | Nail Colors for Every Skin Tone | H2 #5 — when advising on choosing the right nude for skin tone | Cross-site |
+| /topics/nail-care-guide | The Complete Nail Care Guide | H2 #2 — maintenance and chip-resistance section | Cross-site |
+| /topics/seasonal-trends | What Nails to Wear Every Month in 2026 | H2 #5 or H2 #12 — seasonal rotation of professional colours | Cross-site |
+
+---
+
+## VOICE AND TONE RECOMMENDATION
+
+**Blog Gen Instruction:** This is the voice for this specific post and intent. Layer it on top of Mirellè's editorial framework. Do not default to a generic AI tone — this audience and this intent require this specific voice.
+
+**Recommended Voice:** Informed insider — the colleague who's done the research and gives you the real answer, not the HR-safe version.
+
+**Tone Characteristics:**
+- Direct and specific — names shades, gives measurements, states what doesn't work
+- Reassuring without being sycophantic — treats the reader as capable of handling nuance
+- Acknowledges real anxiety (new job, interview) without amplifying it
+- Never preachy or restrictive-sounding — positions guidelines as tools, not rules
+- Subtly empowering — the reader should feel more confident, not more anxious, after each section
+
+**Language Style:** Moderate sentence length with punchy payoff sentences. Uses "you" naturally. Avoids hedging phrases. Specifics over generalities. Professional but not stiff — warmth is in the detail, not the tone.
+
+**Audience Match:** This audience distrusts vague beauty content and responds to sources that clearly know more than they do. The informed insider voice earns trust without condescension — it's the tone of someone who has actually spoken to the nail tech whose clients are investment bankers and graphic designers both.
+
+---
+
+## EXTERNAL LINKS
+
+**Blog Gen Instruction:** Include these external links where indicated. They support E-E-A-T and reader trust. Use the suggested anchor text as a guide — write naturally around it.
+
+| URL | Context | Anchor Suggestion |
+|---|---|---|
+| https://corporette.com/nails-for-the-office/ | When citing real professional community discussion about nails and the office — Corporette's community thread is authoritative source on real professional women's experiences | professional women's community discussion |
+| https://corporette.com/work-appropriate-nails/ | When citing the nail-length-and-typing rule — Corporette's "if it interferes with typing, it's too long" is a widely cited practical standard | practical length rule |
+| https://www.fairygodboss.com/career-topics/professional-nails-for-work | When referencing nail tech Tina Wang's guidance on shapes and lengths as industry-standard professional advice | nail professional guidance on work-appropriate shapes |
+| https://naillie.com/work-friendly-nail-ideas/ | When covering 2026 specific work-friendly styles — Naillie's editorial is current and specific | 2026 office-ready manicure styles |
+| https://www.whowhatwear.com/beauty/nails/types-of-manicures-guide | When explaining manicure system types (gel, structured gel, BIAB) for the technical section | manicure system types explained |
