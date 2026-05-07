@@ -1,0 +1,326 @@
+# MIRELLÉ BUSINESS SECTION — COMPLETE AGENT GUIDE
+# ═══════════════════════════════════════════════════════════════════════════════
+# This document explains the entire business route system.
+# Read this fully before creating any post.
+# ═══════════════════════════════════════════════════════════════════════════════
+
+
+# ── SECTION 1: HOW THE SYSTEM WORKS ──────────────────────────────────────────
+#
+# The business section is a 4-level navigation system.
+# Every level is driven entirely by the frontmatter of the .md post files.
+# No manual page creation needed — just drop a file and the route appears.
+#
+# LEVEL 1 — /business
+#   Shows all countries as cards with flag + country name.
+#   Automatically built from all unique `countrySlug` values across all posts.
+#
+# LEVEL 2 — /business/[countrySlug]
+#   Shows all states within that country as cards + a search bar.
+#   Automatically built from all unique `stateSlug` values for that country.
+#
+# LEVEL 3 — /business/[countrySlug]/[stateSlug]
+#   Shows 4 client-type cards: Influencer, Brand, Nail Tech, Salon.
+#   Only shows card if at least 1 post exists for that clientType in that state.
+#
+# LEVEL 4 — /business/[countrySlug]/[stateSlug]/[clientType]
+#   Shows all posts (listing cards with image + title + excerpt) for that filter.
+#   This is where the actual opportunity posts are listed.
+#
+# LEVEL 5 — /business/[countrySlug]/[stateSlug]/[clientType]/[slug]
+#   The full individual post page with all content, services, FAQs, gallery.
+#
+# ─────────────────────────────────────────────────────────────────────────────
+# EXAMPLE FULL URL:
+# /business/india/maharashtra/salon/nail-salon-partnership-mumbai
+#
+# This means:
+#   countrySlug → india
+#   stateSlug   → maharashtra
+#   clientType  → salon
+#   slug        → nail-salon-partnership-mumbai
+# ═══════════════════════════════════════════════════════════════════════════════
+
+
+# ── SECTION 2: FILE STRUCTURE ─────────────────────────────────────────────────
+#
+# mirelle-site/
+# ├── src/
+# │   ├── app/
+# │   │   └── business/
+# │   │       ├── page.tsx                          ← Level 1: country listing
+# │   │       └── [country]/
+# │   │           ├── page.tsx                      ← Level 2: state listing + search
+# │   │           └── [state]/
+# │   │               ├── page.tsx                  ← Level 3: 4 client-type cards
+# │   │               └── [clientType]/
+# │   │                   ├── page.tsx              ← Level 4: post listings
+# │   │                   └── [slug]/
+# │   │                       └── page.tsx          ← Level 5: individual post
+# │   │
+# │   ├── components/
+# │   │   └── business/
+# │   │       ├── RegionCard.tsx                    ← Card used at levels 1, 2, 3
+# │   │       ├── StateGrid.tsx                     ← Search + state grid at level 2
+# │   │       └── BusinessTemplate.tsx              ← Full post layout at level 5
+# │   │
+# │   ├── lib/
+# │   │   └── business.ts                           ← All data fetching functions
+# │   │
+# │   ├── types/
+# │   │   └── business.ts                           ← All TypeScript types
+# │   │
+# │   └── content/
+# │       └── business/                             ← ✦ ALL POST FILES LIVE HERE ✦
+# │           ├── nail-salon-partnership-mumbai.md
+# │           ├── influencer-collab-maharashtra.md
+# │           └── brand-campaign-delhi.md
+# │               ... one file per post
+# │
+# └── public/
+#     └── images/
+#         └── business/                             ← ✦ ALL POST IMAGES LIVE HERE ✦
+#             └── [countrySlug]/
+#                 └── [stateSlug]/
+#                     └── [clientType]/
+#                         └── [slug]/
+#                             └── hero.webp         ← 1 hero image per post
+#
+# ─────────────────────────────────────────────────────────────────────────────
+# IMAGE PATH RULE:
+#   Every post has exactly ONE hero image.
+#   Path format: /images/business/[countrySlug]/[stateSlug]/[clientType]/[slug]/hero.webp
+#
+# EXAMPLE:
+#   Post slug:    nail-salon-partnership-mumbai
+#   countrySlug:  india
+#   stateSlug:    maharashtra
+#   clientType:   salon
+#   Image path:   /images/business/india/maharashtra/salon/nail-salon-partnership-mumbai/hero.webp
+#
+#   In frontmatter → image: "/images/business/india/maharashtra/salon/nail-salon-partnership-mumbai/hero.webp"
+#
+# Always use .webp format. Always name the file hero.webp.
+# ═══════════════════════════════════════════════════════════════════════════════
+
+
+# ── SECTION 3: CLIENT TYPES ───────────────────────────────────────────────────
+#
+# There are exactly 4 valid clientType values. Use lowercase, exact spelling:
+#
+#   influencer  → content creators, social media talent, UGC creators
+#   brand       → product companies, campaign partners, nail product brands
+#   nail-tech   → independent nail artists, freelancers, mobile nail techs
+#   salon       → nail studios, salon businesses, nail bars
+#
+# One post = one clientType. If you want to target salons AND nail techs in
+# the same state, write 2 separate posts with different slugs and clientTypes.
+# ═══════════════════════════════════════════════════════════════════════════════
+
+
+# ── SECTION 4: SLUG & CONSISTENCY RULES ──────────────────────────────────────
+#
+# countrySlug — must be IDENTICAL across all posts for the same country.
+#   ✓ india        (not "India" not "IN" not "india-")
+#   ✓ united-kingdom
+#   ✓ united-states
+#   ✓ australia
+#   ✓ uae
+#   ✓ singapore
+#   ✓ canada
+#
+# stateSlug — must be IDENTICAL across all posts for the same state.
+#   ✓ maharashtra   (not "Maharashtra" not "maha")
+#   ✓ delhi
+#   ✓ karnataka
+#   ✓ tamil-nadu
+#   ✓ new-york
+#   ✓ greater-london
+#
+# post slug — must match the .md filename exactly.
+#   File: nail-salon-partnership-mumbai.md → slug: nail-salon-partnership-mumbai
+#   Lowercase, hyphens only, no spaces, no special characters.
+#
+# canonical — must be constructed as:
+#   https://mirelleinspo.com/business/[countrySlug]/[stateSlug]/[clientType]/[slug]
+# ═══════════════════════════════════════════════════════════════════════════════
+
+
+# ── SECTION 5: COMPLETE FRONTMATTER TEMPLATE ─────────────────────────────────
+
+---
+
+# FILE: src/content/business/nail-salon-partnership-mumbai.md
+
+# ── IDENTITY ──────────────────────────────────────────────────────────────────
+slug: nail-salon-partnership-mumbai
+# Must match filename exactly. Lowercase, hyphens only.
+
+title: "Nail Salon Partnership Opportunities in Mumbai"
+# Keyword-rich. Specific to service + location. Used in page title and Google.
+
+excerpt: "Mirellé partners with nail salons across Mumbai for editorial shoots, trend campaigns, and brand collaborations."
+# 1-2 sentences. Shown on listing cards and in Google snippet. 150 chars max.
+
+date: "2025-01-15"
+# YYYY-MM-DD format. Used for sorting.
+
+dateModified: "2025-01-20"
+# Optional. Update when post is edited.
+
+author: "Mirellé Team"
+
+
+# ── LOCATION — BUILDS THE URL ─────────────────────────────────────────────────
+country: "India"
+countrySlug: "india"
+# countrySlug: lowercase, hyphenated, consistent across all India posts
+
+state: "Maharashtra"
+stateSlug: "maharashtra"
+# stateSlug: lowercase, hyphenated, consistent across all Maharashtra posts
+
+stateCode: "MH"
+# Short code shown on state cards. Examples: MH | DL | KA | TN | NY | CA
+
+city: "Mumbai"
+# Primary city targeted. Shown on listing cards.
+
+region: "Western India"
+# Broader region label used in schema and headings.
+
+regionCode: "IN-MH"
+# ISO region code used in hreflang.
+
+
+# ── CLIENT TYPE ───────────────────────────────────────────────────────────────
+clientType: "salon"
+# MUST be exactly one of: influencer | brand | nail-tech | salon
+
+
+# ── LANGUAGE & LOCALE ─────────────────────────────────────────────────────────
+language: "en"
+locale: "en_IN"
+# en_IN | en_GB | en_US | en_AU
+
+
+# ── SEO ───────────────────────────────────────────────────────────────────────
+canonical: "https://mirelleinspo.com/business/india/maharashtra/salon/nail-salon-partnership-mumbai"
+# MUST follow this exact format:
+# https://mirelleinspo.com/business/[countrySlug]/[stateSlug]/[clientType]/[slug]
+
+targetKeyword: "nail salon partnerships Mumbai"
+# The single primary keyword this post targets.
+
+secondaryKeywords:
+  - "nail editorial Maharashtra"
+  - "salon collaboration Mumbai"
+  - "nail brand partnership India"
+# 3-5 supporting keywords.
+
+searchIntent: "commercial"
+# One of: informational | transactional | navigational | commercial
+
+noIndex: false
+# true = Google will not index this page. Only use for drafts.
+
+
+# ── GEO / AEO ─────────────────────────────────────────────────────────────────
+tldr: "Mirellé partners with Mumbai nail salons for editorial shoots, trend content, and brand campaigns."
+# 1 sentence. Direct. Used for voice search and AI answer boxes.
+
+entityType: "EditorialNailPlatform"
+speakable: true
+
+
+# ── IMAGE ─────────────────────────────────────────────────────────────────────
+image: "/images/business/india/maharashtra/salon/nail-salon-partnership-mumbai/hero.webp"
+# FORMAT: /images/business/[countrySlug]/[stateSlug]/[clientType]/[slug]/hero.webp
+# Always .webp. Always named hero.webp. One image per post.
+
+imageAlt: "Nail salon editorial shoot in Mumbai by Mirellé"
+# Descriptive alt text for SEO and accessibility.
+
+imageWidth: 1200
+imageHeight: 800
+
+
+# ── CONTACT ───────────────────────────────────────────────────────────────────
+contact:
+  email: "hello@mirelleinspo.com"
+  whatsapp: "+91XXXXXXXXXX"    # optional — remove line if not used
+  instagram: "@mirelleinspo"   # optional — remove line if not used
+
+
+# ── SERVICES ──────────────────────────────────────────────────────────────────
+# 2-5 services. These appear in the schema and on the post page.
+services:
+  - title: "Editorial Shoot Collaboration"
+    description: "We bring our editorial team to your salon for a styled nail shoot published across Mirellé platforms."
+  - title: "Trend Campaign Feature"
+    description: "Your salon is featured in our seasonal trend report with dedicated coverage and tagging."
+  - title: "Brand Partnership Placement"
+    description: "We connect your salon with nail product brands looking for authentic placement in Maharashtra."
+
+
+# ── SCHEMA ────────────────────────────────────────────────────────────────────
+schemaType: "LocalBusiness"
+# LocalBusiness   → for salon and nail-tech posts
+# ProfessionalService → for brand and influencer posts
+
+
+# ── POST TYPE ─────────────────────────────────────────────────────────────────
+postType: "client-acquisition"
+# client-acquisition → Mirellé is seeking this client type
+# deliverable        → describes what Mirellé delivers to clients
+
+painPoint: "Salons in Mumbai struggle to produce editorial-quality content without a dedicated creative team."
+# 1 sentence. The core problem this post addresses. Used internally.
+
+statBlock:
+  - stat: "3x"
+    context: "more bookings reported by salons after editorial features"
+  - stat: "50k+"
+    context: "nail enthusiasts reached per Mirellé campaign in India"
+# Optional. Remove or leave as [] if not used.
+
+
+# ── FAQ SCHEMA ────────────────────────────────────────────────────────────────
+# 3-5 FAQs. Write real questions the target client would search on Google.
+# These render as a collapsible accordion on the page AND feed Google FAQ schema.
+faqSchema:
+  - question: "How does Mirellé work with nail salons in Mumbai?"
+    answer: "We collaborate with salons on editorial shoots, trend campaigns, and brand partnerships. Salons get professional content and exposure across our platform."
+  - question: "Is there a cost to partner with Mirellé?"
+    answer: "Partnership terms vary by collaboration type. Reach out via the contact details on this page to discuss what works for your salon."
+  - question: "Which areas of Mumbai does Mirellé cover?"
+    answer: "We work with salons across all major Mumbai areas including Bandra, Juhu, Andheri, and South Mumbai."
+
+
+# ── GALLERY (optional) ────────────────────────────────────────────────────────
+galleryImages: []
+# Leave as [] if no gallery. Or add:
+# - url: "/images/business/india/maharashtra/salon/nail-salon-partnership-mumbai/gallery-1.webp"
+#   alt: "Description"
+#   width: 1200
+#   height: 800
+
+---
+
+## Why Partner With Mirellé in Mumbai
+
+[Main body content — 400 to 800 words. Write directly to the client type (salon owners here).
+Use H2 and H3 headings. This content ranks on Google and convinces the client to reach out.
+Keep it editorial in tone — Mirellé is a premium platform, not a marketplace.]
+
+### What We Offer Mumbai Salons
+
+[Detail the services. Speak to the value, not just the features.]
+
+### Who We Work With
+
+[Describe the ideal partner salon. Be specific — size, aesthetic, ambition.]
+
+### How to Get Started
+
+[Simple close — direct them to the contact info. No hard sell.]
