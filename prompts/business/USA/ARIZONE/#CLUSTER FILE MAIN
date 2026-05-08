@@ -1,0 +1,835 @@
+{
+  "filename": "arizona_cluster_file.json",
+  "purpose": "Feeds Level 2 Input File Generator. One post at a time is pulled from this file per Level 2 run.",
+  "region_metadata": {
+    "country": "United States",
+    "region": "Arizona",
+    "region_opportunity_score": 9,
+    "major_cities_covered": [
+      "Phoenix",
+      "Scottsdale",
+      "Tempe",
+      "Mesa",
+      "Chandler",
+      "Gilbert",
+      "Glendale",
+      "Peoria",
+      "Tucson"
+    ],
+    "total_posts_in_cluster": 24,
+    "brand_geo_level": "N/A — no brand posts in Arizona. State-level brand search demand not validated.",
+    "created_date": "2026-05-08"
+  },
+
+  "semantic_vocabulary": {
+    "owner_pain_phrases": [
+      "I post my work every day and get likes but not bookings",
+      "My appointment book is empty on Tuesdays and Wednesdays",
+      "Nobody knows I exist unless they follow me on Instagram",
+      "I don't show up when people Google me",
+      "I get clients by word of mouth but word of mouth is not enough anymore",
+      "I've tried ads but I don't know if they work",
+      "I rely on my regulars but need new clients",
+      "I'm just one person I can't do everything",
+      "I don't have a budget for marketing",
+      "The salon at the mall is always packed and I don't know how they do it"
+    ],
+    "visibility_language": [
+      "show up in Google",
+      "get found online",
+      "rank on Google Maps",
+      "my Google Business profile is not optimised",
+      "people can't find me",
+      "I'm invisible online",
+      "nobody searches for me",
+      "I don't come up in searches"
+    ],
+    "client_getting_language": [
+      "fill my appointment book",
+      "get more bookings",
+      "attract new clients",
+      "build a loyal clientele",
+      "keep clients coming back",
+      "get steady walk-ins",
+      "grow my client base",
+      "convert followers into paying clients"
+    ],
+    "objection_phrases": [
+      "I don't have a budget for marketing",
+      "I'm just one person I can't do everything",
+      "I tried paying for ads once and got nothing",
+      "I rely on my regulars but need new clients",
+      "social media takes too much time",
+      "I don't know where to start with getting found online"
+    ],
+    "industry_jargon": [
+      "Gel-X",
+      "SNS dip powder",
+      "builder gel",
+      "Russian manicure",
+      "organic spa pedicure",
+      "hard gel",
+      "Aprés nail certified",
+      "structured gel",
+      "acrylic full set",
+      "nail fill",
+      "booth renter",
+      "salon suite",
+      "independent nail tech",
+      "licensed nail technician",
+      "Arizona Board of Cosmetology"
+    ],
+    "brand_messaging_signals": [
+      "hospital-grade sterilisation — used by Element Nail Bar and Tat's Nails as primary trust signal",
+      "non-toxic / organic / clean — dominant positioning language in Scottsdale luxury segment",
+      "European technique — used by Tat's Nails and boutique studios to signal premium positioning",
+      "cruelty-free and vegan products — growing consumer demand signal in Scottsdale and Arcadia",
+      "Aprés certified — used by independent nail techs as a credibility marker on Instagram",
+      "no prying or peeling — removal protocol language used by premium salons to signal nail health care"
+    ]
+  },
+
+  "posts": [
+    {
+      "post_id": 1,
+      "title": "Best Nail Salon in Phoenix",
+      "slug": "best-nail-salon-phoenix-arizona",
+      "client_type": "salon",
+      "service": "Best Nail Tech / Salon in [City] Feature",
+      "country": "United States",
+      "region": "Arizona",
+      "city": "Phoenix",
+      "area": null,
+      "primary_keyword": "best nail salon in Phoenix Arizona",
+      "secondary_keywords": [
+        "top nail salons Phoenix AZ",
+        "nail salon Phoenix Arizona",
+        "luxury nail salon Phoenix",
+        "best nail bar Phoenix"
+      ],
+      "competition_level": "Medium",
+      "rankability_note": "Anchor post for the Phoenix cluster. Yelp and individual salon sites rank here but no editorial platform does. Depth of coverage and internal link authority from area posts will drive ranking.",
+      "competitor_gap_notes": "Yelp lists salons by rating only — no editorial context, no service breakdowns, no neighbourhood guidance. Individual salon sites only cover themselves. Mirellé can own the editorial layer above all of these.",
+      "internal_links": {
+        "links_to": ["best-nail-salon-arcadia-phoenix", "best-nail-salon-uptown-phoenix", "nail-salon-directory-phoenix-arizona"],
+        "receives_links_from": ["best-nail-salon-arcadia-phoenix", "best-nail-salon-uptown-phoenix", "best-nail-salon-downtown-phoenix", "best-nail-salon-camelback-phoenix", "best-nail-salon-midtown-phoenix", "nail-salon-directory-phoenix-arizona"]
+      },
+      "status": "Pending"
+    },
+    {
+      "post_id": 2,
+      "title": "Best Nail Salon in Arcadia Phoenix",
+      "slug": "best-nail-salon-arcadia-phoenix",
+      "client_type": "salon",
+      "service": "Best Nail Tech / Salon in [City] Feature",
+      "country": "United States",
+      "region": "Arizona",
+      "city": "Phoenix",
+      "area": "Arcadia",
+      "primary_keyword": "nail salon Arcadia Phoenix",
+      "secondary_keywords": [
+        "best nail salon Arcadia Phoenix AZ",
+        "nail bar Arcadia Phoenix",
+        "nail spa Arcadia Arizona",
+        "Arcadia Phoenix nail tech"
+      ],
+      "competition_level": "Low",
+      "rankability_note": "Fresha lists only 2 salons for this area. Near-zero editorial competition. Element Nail Bar Arcadia self-optimises for this phrase on its own site only. Fast rank confirmed.",
+      "competitor_gap_notes": "Element Nail Bar Arcadia and Soak Nail Shop are the only players here. No editorial content ranks for this area phrase. Mirellé walks in unopposed.",
+      "internal_links": {
+        "links_to": ["best-nail-salon-phoenix-arizona", "nail-salon-directory-phoenix-arizona"],
+        "receives_links_from": ["best-nail-salon-phoenix-arizona", "nail-salon-directory-phoenix-arizona"]
+      },
+      "status": "Pending"
+    },
+    {
+      "post_id": 3,
+      "title": "Best Nail Salon in Uptown Phoenix",
+      "slug": "best-nail-salon-uptown-phoenix",
+      "client_type": "salon",
+      "service": "Best Nail Tech / Salon in [City] Feature",
+      "country": "United States",
+      "region": "Arizona",
+      "city": "Phoenix",
+      "area": "Uptown / North Central Phoenix",
+      "primary_keyword": "nail salon Uptown Phoenix",
+      "secondary_keywords": [
+        "best nail salon North Central Phoenix",
+        "nail bar Uptown Phoenix AZ",
+        "nail salon Bethany Home Phoenix",
+        "nail salon Biltmore area Phoenix"
+      ],
+      "competition_level": "Low",
+      "rankability_note": "Element Nail Bar North Central actively targets this phrase on its own website but no editorial content ranks for it. Pure gap.",
+      "competitor_gap_notes": "Element Nail Bar's site self-optimises heavily for Uptown and North Central Phoenix. No external editorial content covers this neighbourhood. Mirellé can rank above the salon's own site with an editorial feature post.",
+      "internal_links": {
+        "links_to": ["best-nail-salon-phoenix-arizona", "nail-salon-directory-phoenix-arizona"],
+        "receives_links_from": ["best-nail-salon-phoenix-arizona", "nail-salon-directory-phoenix-arizona"]
+      },
+      "status": "Pending"
+    },
+    {
+      "post_id": 4,
+      "title": "Best Nail Salon in Downtown Phoenix",
+      "slug": "best-nail-salon-downtown-phoenix",
+      "client_type": "salon",
+      "service": "Best Nail Tech / Salon in [City] Feature",
+      "country": "United States",
+      "region": "Arizona",
+      "city": "Phoenix",
+      "area": "Downtown / Roosevelt Row",
+      "primary_keyword": "nail salon Downtown Phoenix",
+      "secondary_keywords": [
+        "best nail salon Downtown Phoenix AZ",
+        "nail bar Roosevelt Row Phoenix",
+        "nail salon near ASU Downtown Phoenix",
+        "nail spa Downtown Phoenix Arizona"
+      ],
+      "competition_level": "Low-Medium",
+      "rankability_note": "Element Nail Bar Downtown Phoenix website self-optimises for this phrase. No editorial content ranks. ASU Downtown campus audience adds strong search demand signal.",
+      "competitor_gap_notes": "Element Nail Bar Downtown has a strong individual website but no external editorial covers Downtown Phoenix nails. The ASU Downtown audience is unaddressed in editorial content.",
+      "internal_links": {
+        "links_to": ["best-nail-salon-phoenix-arizona", "nail-salon-directory-phoenix-arizona"],
+        "receives_links_from": ["best-nail-salon-phoenix-arizona", "nail-salon-directory-phoenix-arizona"]
+      },
+      "status": "Pending"
+    },
+    {
+      "post_id": 5,
+      "title": "Best Nail Salon in Camelback Phoenix",
+      "slug": "best-nail-salon-camelback-phoenix",
+      "client_type": "salon",
+      "service": "Best Nail Tech / Salon in [City] Feature",
+      "country": "United States",
+      "region": "Arizona",
+      "city": "Phoenix",
+      "area": "Camelback Corridor / Biltmore",
+      "primary_keyword": "nail salon Camelback Phoenix",
+      "secondary_keywords": [
+        "nail salon Biltmore Phoenix AZ",
+        "best nail salon Camelback Road Phoenix",
+        "luxury nail salon Biltmore Phoenix",
+        "nail bar Camelback East Phoenix"
+      ],
+      "competition_level": "Low",
+      "rankability_note": "Luxe Nail Bar and Element Nail Bar both operate on Camelback Rd and self-optimise for this area on their own sites. No editorial content covers this corridor. Affluent audience = high intent.",
+      "competitor_gap_notes": "Multiple premium salons cluster along Camelback Rd — Luxe Nail Bar, Soak Nail Shop, Aria Nail Bar. None of these have editorial coverage. This is a high-value audience with no editorial guide.",
+      "internal_links": {
+        "links_to": ["best-nail-salon-phoenix-arizona", "nail-salon-directory-phoenix-arizona"],
+        "receives_links_from": ["best-nail-salon-phoenix-arizona", "nail-salon-directory-phoenix-arizona"]
+      },
+      "status": "Pending"
+    },
+    {
+      "post_id": 6,
+      "title": "Best Nail Salon in Midtown Phoenix",
+      "slug": "best-nail-salon-midtown-phoenix",
+      "client_type": "salon",
+      "service": "Best Nail Tech / Salon in [City] Feature",
+      "country": "United States",
+      "region": "Arizona",
+      "city": "Phoenix",
+      "area": "Midtown Phoenix",
+      "primary_keyword": "nail salon Midtown Phoenix Arizona",
+      "secondary_keywords": [
+        "best nail salon Midtown Phoenix",
+        "nail bar Midtown Phoenix AZ",
+        "nail spa Central Phoenix",
+        "nail salon near Heard Museum Phoenix"
+      ],
+      "competition_level": "Low",
+      "rankability_note": "Autocomplete confirms demand. Multiple salons reference serving Midtown but none own the editorial phrase. No editorial content ranks here.",
+      "competitor_gap_notes": "Aria Nail Bar Central is on Camelback at the Midtown boundary and mentions the area in its copy. No editorial content covers Midtown Phoenix nails specifically.",
+      "internal_links": {
+        "links_to": ["best-nail-salon-phoenix-arizona", "nail-salon-directory-phoenix-arizona"],
+        "receives_links_from": ["best-nail-salon-phoenix-arizona", "nail-salon-directory-phoenix-arizona"]
+      },
+      "status": "Pending"
+    },
+    {
+      "post_id": 7,
+      "title": "Best Nail Tech in Phoenix",
+      "slug": "best-nail-tech-phoenix-arizona",
+      "client_type": "nail-tech",
+      "service": "Best Nail Tech / Salon in [City] Feature",
+      "country": "United States",
+      "region": "Arizona",
+      "city": "Phoenix",
+      "area": null,
+      "primary_keyword": "best nail technician Phoenix Arizona",
+      "secondary_keywords": [
+        "independent nail tech Phoenix AZ",
+        "nail tech Phoenix booking",
+        "nail artist Phoenix Arizona",
+        "private nail tech Phoenix"
+      ],
+      "competition_level": "Low-Medium",
+      "rankability_note": "Yelp lists Top 10 Nail Technicians in Phoenix but this is a booking-intent directory listing, not editorial. The editorial gap above Yelp is wide open. Instagram confirms active independent tech community in Phoenix.",
+      "competitor_gap_notes": "Yelp covers this intent but only as a listing. No editorial platform profiles independent nail techs in Phoenix with context, specialisms, or booking guidance. Mirellé owns this layer.",
+      "internal_links": {
+        "links_to": ["independent-nail-tech-directory-phoenix", "nail-artist-creator-phoenix-arizona"],
+        "receives_links_from": ["independent-nail-tech-directory-phoenix", "nail-artist-creator-phoenix-arizona"]
+      },
+      "status": "Pending"
+    },
+    {
+      "post_id": 8,
+      "title": "Mirellé Directory — Phoenix Nail Salons",
+      "slug": "nail-salon-directory-phoenix-arizona",
+      "client_type": "salon",
+      "service": "Directory Listing",
+      "country": "United States",
+      "region": "Arizona",
+      "city": "Phoenix",
+      "area": null,
+      "primary_keyword": "nail salon directory Phoenix Arizona",
+      "secondary_keywords": [
+        "Phoenix nail salon list",
+        "all nail salons in Phoenix AZ",
+        "nail salons Phoenix by neighbourhood",
+        "find a nail salon Phoenix"
+      ],
+      "competition_level": "Low",
+      "rankability_note": "No editorial nail directory exists for Phoenix. Yelp and Google Maps cover transactional search — this post targets informational directory intent which they do not own editorially.",
+      "competitor_gap_notes": "Yelp and Fresha serve transactional intent. No editorial directory platform covers Phoenix nail salons by area with contextual guidance. Pure editorial gap.",
+      "internal_links": {
+        "links_to": ["best-nail-salon-phoenix-arizona", "best-nail-salon-arcadia-phoenix", "best-nail-salon-uptown-phoenix"],
+        "receives_links_from": ["best-nail-salon-phoenix-arizona", "best-nail-salon-arcadia-phoenix", "best-nail-salon-uptown-phoenix", "best-nail-salon-downtown-phoenix", "best-nail-salon-camelback-phoenix", "best-nail-salon-midtown-phoenix"]
+      },
+      "status": "Pending"
+    },
+    {
+      "post_id": 9,
+      "title": "Mirellé Directory — Phoenix Nail Techs",
+      "slug": "independent-nail-tech-directory-phoenix",
+      "client_type": "nail-tech",
+      "service": "Directory Listing",
+      "country": "United States",
+      "region": "Arizona",
+      "city": "Phoenix",
+      "area": null,
+      "primary_keyword": "independent nail tech directory Phoenix",
+      "secondary_keywords": [
+        "find a nail tech Phoenix AZ",
+        "nail tech near me Phoenix",
+        "independent nail artist directory Phoenix",
+        "book a nail tech Phoenix Arizona"
+      ],
+      "competition_level": "Low",
+      "rankability_note": "Zero competition at this exact phrase. No platform indexes independent nail techs in Phoenix editorially. Yelp covers salons primarily. This is an entirely unclaimed editorial space.",
+      "competitor_gap_notes": "No editorial directory for independent nail techs exists in Phoenix. Booksy and Fresha serve booking intent but not discovery. Mirellé can own this discovery layer entirely.",
+      "internal_links": {
+        "links_to": ["best-nail-tech-phoenix-arizona", "best-nail-tech-tempe-arizona"],
+        "receives_links_from": ["best-nail-tech-phoenix-arizona", "best-nail-tech-tempe-arizona", "best-nail-tech-scottsdale-arizona", "best-nail-tech-mesa-arizona", "best-nail-tech-tucson-arizona"]
+      },
+      "status": "Pending"
+    },
+    {
+      "post_id": 10,
+      "title": "Best Nail Salon in Scottsdale",
+      "slug": "best-nail-salon-scottsdale-arizona",
+      "client_type": "salon",
+      "service": "Best Nail Tech / Salon in [City] Feature",
+      "country": "United States",
+      "region": "Arizona",
+      "city": "Scottsdale",
+      "area": null,
+      "primary_keyword": "best nail salon in Scottsdale Arizona",
+      "secondary_keywords": [
+        "top nail salons Scottsdale AZ",
+        "luxury nail salon Scottsdale",
+        "nail bar Scottsdale Arizona",
+        "best manicure Scottsdale AZ"
+      ],
+      "competition_level": "Medium",
+      "rankability_note": "Anchor post for the Scottsdale cluster. Yelp and individual salon sites (Azure Nail, Desert Nail Spa, Pampr'd Soul) rank here. The Scottsdale Living website has a thin directory page. Editorial depth will outrank all of these.",
+      "competitor_gap_notes": "The Scottsdale Living directory page is thin — a simple list with no editorial depth. Yelp gives ratings only. Individual salons only cover themselves. A comprehensive editorial feature post covers what none of these do.",
+      "internal_links": {
+        "links_to": ["best-nail-salon-old-town-scottsdale", "best-nail-salon-north-scottsdale", "best-nail-tech-scottsdale-arizona"],
+        "receives_links_from": ["best-nail-salon-old-town-scottsdale", "best-nail-salon-north-scottsdale", "best-nail-tech-scottsdale-arizona"]
+      },
+      "status": "Pending"
+    },
+    {
+      "post_id": 11,
+      "title": "Best Nail Salon in Old Town Scottsdale",
+      "slug": "best-nail-salon-old-town-scottsdale",
+      "client_type": "salon",
+      "service": "Best Nail Tech / Salon in [City] Feature",
+      "country": "United States",
+      "region": "Arizona",
+      "city": "Scottsdale",
+      "area": "Old Town Scottsdale",
+      "primary_keyword": "nail salon Old Town Scottsdale",
+      "secondary_keywords": [
+        "best nail salon Old Town Scottsdale AZ",
+        "nail bar Old Town Scottsdale",
+        "manicure Old Town Scottsdale Arizona",
+        "nail spa Old Town Scottsdale"
+      ],
+      "competition_level": "Low-Medium",
+      "rankability_note": "Fresha and Yelp both confirm search demand at this area level. Old Town Scottsdale directory site covers broad venue types but no nail editorial depth. Azure Nail studio operates in Old Town and self-brands on this phrase.",
+      "competitor_gap_notes": "Old Town Scottsdale's official directory lists salons generally but provides no editorial nail content. Yelp results for this area phrase are thin. Azure Nail and Polish Me Nail Boutique both operate here but no external editorial covers them.",
+      "internal_links": {
+        "links_to": ["best-nail-salon-scottsdale-arizona", "best-nail-salon-north-scottsdale"],
+        "receives_links_from": ["best-nail-salon-scottsdale-arizona", "best-nail-salon-north-scottsdale"]
+      },
+      "status": "Pending"
+    },
+    {
+      "post_id": 12,
+      "title": "Best Nail Salon in North Scottsdale",
+      "slug": "best-nail-salon-north-scottsdale",
+      "client_type": "salon",
+      "service": "Best Nail Tech / Salon in [City] Feature",
+      "country": "United States",
+      "region": "Arizona",
+      "city": "Scottsdale",
+      "area": "North Scottsdale",
+      "primary_keyword": "nail salon North Scottsdale Arizona",
+      "secondary_keywords": [
+        "best nail salon North Scottsdale AZ",
+        "nail spa North Scottsdale 85258",
+        "luxury nail salon North Scottsdale",
+        "nail bar Scottsdale 85254"
+      ],
+      "competition_level": "Low",
+      "rankability_note": "Classy Nails Spa actively targets 'North Scottsdale Arizona 85258' on its own site. No editorial content ranks here. Fast rank confirmed.",
+      "competitor_gap_notes": "Classy Nails Spa, Allure Nails, and Desert Nail Spa all operate in North Scottsdale and self-optimise for this area. No external editorial content covers them. Mirellé can rank above all individual salon sites.",
+      "internal_links": {
+        "links_to": ["best-nail-salon-scottsdale-arizona", "best-nail-salon-old-town-scottsdale"],
+        "receives_links_from": ["best-nail-salon-scottsdale-arizona", "best-nail-salon-old-town-scottsdale"]
+      },
+      "status": "Pending"
+    },
+    {
+      "post_id": 13,
+      "title": "Best Nail Tech in Scottsdale",
+      "slug": "best-nail-tech-scottsdale-arizona",
+      "client_type": "nail-tech",
+      "service": "Best Nail Tech / Salon in [City] Feature",
+      "country": "United States",
+      "region": "Arizona",
+      "city": "Scottsdale",
+      "area": null,
+      "primary_keyword": "nail technician Scottsdale Arizona independent",
+      "secondary_keywords": [
+        "independent nail tech Scottsdale AZ",
+        "nail artist Scottsdale Arizona",
+        "private nail tech Scottsdale",
+        "best nail tech Scottsdale"
+      ],
+      "competition_level": "Low",
+      "rankability_note": "No editorial content covers independent nail techs in Scottsdale. The Nail Lady (private nail salon) and multiple suite renters operate here but no external editorial profiles them.",
+      "competitor_gap_notes": "Yelp lists salons for Scottsdale nail technician searches, not independent techs specifically. Private studio techs like The Nail Lady are invisible editorially. Mirellé can own this entirely.",
+      "internal_links": {
+        "links_to": ["best-nail-salon-scottsdale-arizona", "independent-nail-tech-directory-phoenix"],
+        "receives_links_from": ["best-nail-salon-scottsdale-arizona", "independent-nail-tech-directory-phoenix"]
+      },
+      "status": "Pending"
+    },
+    {
+      "post_id": 14,
+      "title": "Best Nail Salon in Tempe",
+      "slug": "best-nail-salon-tempe-arizona",
+      "client_type": "salon",
+      "service": "Best Nail Tech / Salon in [City] Feature",
+      "country": "United States",
+      "region": "Arizona",
+      "city": "Tempe",
+      "area": null,
+      "primary_keyword": "best nail salon in Tempe Arizona",
+      "secondary_keywords": [
+        "nail salon Tempe AZ",
+        "top nail salons Tempe Arizona",
+        "nail bar Tempe Arizona",
+        "nail salon near ASU Tempe"
+      ],
+      "competition_level": "Low-Medium",
+      "rankability_note": "Yelp covers Tempe nail salons. Aria Nail Bar has a Tempe location. No editorial content covers Tempe specifically. ASU main campus audience = strong, predictable search demand.",
+      "competitor_gap_notes": "Aria Nail Bar Tempe and several independent-rated salons appear on Yelp. No editorial platform covers the Tempe nail market. The ASU audience is a significant unaddressed searcher group.",
+      "internal_links": {
+        "links_to": ["best-nail-tech-tempe-arizona", "best-nail-salon-mesa-arizona"],
+        "receives_links_from": ["best-nail-tech-tempe-arizona", "best-nail-salon-mesa-arizona"]
+      },
+      "status": "Pending"
+    },
+    {
+      "post_id": 15,
+      "title": "Best Nail Tech in Tempe",
+      "slug": "best-nail-tech-tempe-arizona",
+      "client_type": "nail-tech",
+      "service": "Best Nail Tech / Salon in [City] Feature",
+      "country": "United States",
+      "region": "Arizona",
+      "city": "Tempe",
+      "area": null,
+      "primary_keyword": "nail tech Tempe Arizona independent",
+      "secondary_keywords": [
+        "independent nail tech Tempe AZ",
+        "nail artist Tempe Arizona",
+        "book a nail tech Tempe",
+        "private nail tech Tempe AZ"
+      ],
+      "competition_level": "Low",
+      "rankability_note": "@poshnailz_ (5.8K Instagram, licensed nail artist based in Tempe) confirms an active independent tech community here. Zero editorial content covers them. Fast rank.",
+      "competitor_gap_notes": "Independent nail techs in Tempe are invisible editorially. Booksy lists some as mobile services but no editorial platform profiles or directs searchers to them.",
+      "internal_links": {
+        "links_to": ["best-nail-salon-tempe-arizona", "independent-nail-tech-directory-phoenix"],
+        "receives_links_from": ["best-nail-salon-tempe-arizona", "independent-nail-tech-directory-phoenix"]
+      },
+      "status": "Pending"
+    },
+    {
+      "post_id": 16,
+      "title": "Best Nail Salon in Mesa",
+      "slug": "best-nail-salon-mesa-arizona",
+      "client_type": "salon",
+      "service": "Best Nail Tech / Salon in [City] Feature",
+      "country": "United States",
+      "region": "Arizona",
+      "city": "Mesa",
+      "area": null,
+      "primary_keyword": "best nail salon in Mesa Arizona",
+      "secondary_keywords": [
+        "nail salon Mesa AZ",
+        "top nail salons Mesa Arizona",
+        "nail bar Mesa AZ",
+        "gel nail salon Mesa Arizona"
+      ],
+      "competition_level": "Low-Medium",
+      "rankability_note": "Yelp covers Mesa nail salons well. Greenfield Nails & Spa dominates review platforms. No editorial platform covers Mesa nails. Population of ~530,000 ensures strong search demand.",
+      "competitor_gap_notes": "Greenfield Nails & Spa is the dominant review-platform player but has no editorial coverage. Yelp provides ratings with no editorial depth. Mirellé can own the editorial layer above all listings.",
+      "internal_links": {
+        "links_to": ["best-nail-tech-mesa-arizona", "best-nail-salon-chandler-arizona"],
+        "receives_links_from": ["best-nail-tech-mesa-arizona", "best-nail-salon-chandler-arizona", "best-nail-salon-tempe-arizona"]
+      },
+      "status": "Pending"
+    },
+    {
+      "post_id": 17,
+      "title": "Best Nail Tech in Mesa",
+      "slug": "best-nail-tech-mesa-arizona",
+      "client_type": "nail-tech",
+      "service": "Best Nail Tech / Salon in [City] Feature",
+      "country": "United States",
+      "region": "Arizona",
+      "city": "Mesa",
+      "area": null,
+      "primary_keyword": "nail technician Mesa Arizona independent",
+      "secondary_keywords": [
+        "independent nail tech Mesa AZ",
+        "nail artist Mesa Arizona",
+        "private nail tech Mesa AZ",
+        "book a nail tech Mesa Arizona"
+      ],
+      "competition_level": "Low",
+      "rankability_note": "Yelp has a nail technicians section for Mesa but it surfaces salons not independent techs. No editorial content targets this specific intent. Fast rank.",
+      "competitor_gap_notes": "The distinction between salons and independent nail technicians is entirely absent from Mesa editorial content. Mirellé can own the independent tech discovery layer here.",
+      "internal_links": {
+        "links_to": ["best-nail-salon-mesa-arizona", "independent-nail-tech-directory-phoenix"],
+        "receives_links_from": ["best-nail-salon-mesa-arizona", "independent-nail-tech-directory-phoenix"]
+      },
+      "status": "Pending"
+    },
+    {
+      "post_id": 18,
+      "title": "Best Nail Salon in Chandler",
+      "slug": "best-nail-salon-chandler-arizona",
+      "client_type": "salon",
+      "service": "Best Nail Tech / Salon in [City] Feature",
+      "country": "United States",
+      "region": "Arizona",
+      "city": "Chandler",
+      "area": null,
+      "primary_keyword": "best nail salon in Chandler Arizona",
+      "secondary_keywords": [
+        "nail salon Chandler AZ",
+        "top nail salons Chandler Arizona",
+        "nail bar Chandler AZ",
+        "gel nail salon Chandler Arizona"
+      ],
+      "competition_level": "Low",
+      "rankability_note": "Yelp lists available for Chandler nail salons. Fresha confirms Chandler search demand (Wonderlust Nails Spa, AZ Nail Salon, Herbal Nails listed). No editorial content covers Chandler specifically.",
+      "competitor_gap_notes": "Multiple salons compete for Chandler clients via Yelp and Fresha but no editorial platform covers the Chandler nail market. Mirellé enters with zero editorial competition.",
+      "internal_links": {
+        "links_to": ["best-nail-salon-gilbert-arizona", "best-nail-salon-mesa-arizona"],
+        "receives_links_from": ["best-nail-salon-gilbert-arizona", "best-nail-salon-mesa-arizona"]
+      },
+      "status": "Pending"
+    },
+    {
+      "post_id": 19,
+      "title": "Best Nail Salon in Gilbert",
+      "slug": "best-nail-salon-gilbert-arizona",
+      "client_type": "salon",
+      "service": "Best Nail Tech / Salon in [City] Feature",
+      "country": "United States",
+      "region": "Arizona",
+      "city": "Gilbert",
+      "area": null,
+      "primary_keyword": "best nail salon in Gilbert Arizona",
+      "secondary_keywords": [
+        "nail salon Gilbert AZ",
+        "top nail salons Gilbert Arizona",
+        "nail bar Gilbert AZ",
+        "Greenfield Nails Gilbert Arizona"
+      ],
+      "competition_level": "Low",
+      "rankability_note": "Greenfield Nails & Spa Gilbert is the dominant review-platform player (17,639 Fresha reviews) but has no external editorial coverage. Lush Nail Bar self-optimises for Gilbert on its own site. No external editorial ranks here.",
+      "competitor_gap_notes": "Greenfield Nails & Spa Gilbert is the most-reviewed nail venue in the East Valley but entirely absent from editorial content. Lush Nail Bar's own site is the only thing self-optimising for this phrase. Editorial gap confirmed.",
+      "internal_links": {
+        "links_to": ["best-nail-salon-chandler-arizona", "best-nail-salon-mesa-arizona"],
+        "receives_links_from": ["best-nail-salon-chandler-arizona", "best-nail-salon-mesa-arizona"]
+      },
+      "status": "Pending"
+    },
+    {
+      "post_id": 20,
+      "title": "Best Nail Salon in Glendale Arizona",
+      "slug": "best-nail-salon-glendale-arizona",
+      "client_type": "salon",
+      "service": "Best Nail Tech / Salon in [City] Feature",
+      "country": "United States",
+      "region": "Arizona",
+      "city": "Glendale",
+      "area": null,
+      "primary_keyword": "best nail salon in Glendale Arizona",
+      "secondary_keywords": [
+        "nail salon Glendale AZ",
+        "top nail salons Glendale Arizona",
+        "nail bar Glendale AZ",
+        "nail spa Glendale Arizona"
+      ],
+      "competition_level": "Low",
+      "rankability_note": "Blooming Nails and Spa, Grand Nails Lounge, Julie's Nails all active in Glendale. Yelp lists them. Zero editorial content covers Glendale nails. Fast rank.",
+      "competitor_gap_notes": "Individual salon sites self-optimise for Glendale but only cover their own business. No external editorial platform covers the Glendale nail market at all.",
+      "internal_links": {
+        "links_to": ["best-nail-salon-peoria-arizona", "best-nail-salon-phoenix-arizona"],
+        "receives_links_from": ["best-nail-salon-peoria-arizona", "best-nail-salon-phoenix-arizona"]
+      },
+      "status": "Pending"
+    },
+    {
+      "post_id": 21,
+      "title": "Best Nail Salon in Peoria Arizona",
+      "slug": "best-nail-salon-peoria-arizona",
+      "client_type": "salon",
+      "service": "Best Nail Tech / Salon in [City] Feature",
+      "country": "United States",
+      "region": "Arizona",
+      "city": "Peoria",
+      "area": null,
+      "primary_keyword": "best nail salon in Peoria Arizona",
+      "secondary_keywords": [
+        "nail salon Peoria AZ",
+        "nail bar Peoria Arizona",
+        "top nail salons Peoria AZ",
+        "nail spa Peoria Arizona"
+      ],
+      "competition_level": "Low",
+      "rankability_note": "TC Nails & Spa Peoria and Xtreme Nails are confirmed operating here. Yelp lists Peoria. Zero editorial content. Fast rank.",
+      "competitor_gap_notes": "TC Nails & Spa Peoria self-optimises on its own site only. No editorial content covers the Peoria nail market. One of the cleaner fast-rank opportunities in the cluster.",
+      "internal_links": {
+        "links_to": ["best-nail-salon-glendale-arizona", "nail-salon-directory-phoenix-arizona"],
+        "receives_links_from": ["best-nail-salon-glendale-arizona", "nail-salon-directory-phoenix-arizona"]
+      },
+      "status": "Pending"
+    },
+    {
+      "post_id": 22,
+      "title": "Best Nail Salon in Tucson",
+      "slug": "best-nail-salon-tucson-arizona",
+      "client_type": "salon",
+      "service": "Best Nail Tech / Salon in [City] Feature",
+      "country": "United States",
+      "region": "Arizona",
+      "city": "Tucson",
+      "area": null,
+      "primary_keyword": "best nail salon in Tucson Arizona",
+      "secondary_keywords": [
+        "nail salon Tucson AZ",
+        "top nail salons Tucson Arizona",
+        "nail bar Tucson AZ",
+        "luxury nail salon Tucson Arizona"
+      ],
+      "competition_level": "Medium",
+      "rankability_note": "Tucson is Arizona's second city with 359 salons. Yelp covers it well. No editorial content ranks here. Depth of editorial coverage will outrank Yelp's thin listings.",
+      "competitor_gap_notes": "Yelp is the only discovery platform actively ranking for Tucson nail salons. No editorial platform covers the Tucson market. With 359 salons across the city, there is strong unaddressed demand.",
+      "internal_links": {
+        "links_to": ["best-nail-tech-tucson-arizona", "nail-salon-directory-phoenix-arizona"],
+        "receives_links_from": ["best-nail-tech-tucson-arizona"]
+      },
+      "status": "Pending"
+    },
+    {
+      "post_id": 23,
+      "title": "Best Nail Tech in Tucson",
+      "slug": "best-nail-tech-tucson-arizona",
+      "client_type": "nail-tech",
+      "service": "Best Nail Tech / Salon in [City] Feature",
+      "country": "United States",
+      "region": "Arizona",
+      "city": "Tucson",
+      "area": null,
+      "primary_keyword": "nail technician Tucson Arizona",
+      "secondary_keywords": [
+        "independent nail tech Tucson AZ",
+        "nail artist Tucson Arizona",
+        "private nail tech Tucson",
+        "book a nail tech Tucson AZ"
+      ],
+      "competition_level": "Low",
+      "rankability_note": "Near-zero editorial competition for independent nail tech content in Tucson. Yelp surfaces salons not independent techs for this search intent. Fast rank.",
+      "competitor_gap_notes": "Independent nail techs in Tucson are entirely absent from editorial content. Mirellé is the first editorial platform to address this audience in the city.",
+      "internal_links": {
+        "links_to": ["best-nail-salon-tucson-arizona", "independent-nail-tech-directory-phoenix"],
+        "receives_links_from": ["best-nail-salon-tucson-arizona", "independent-nail-tech-directory-phoenix"]
+      },
+      "status": "Pending"
+    },
+    {
+      "post_id": 24,
+      "title": "Rising Nail Artist Feature — Phoenix",
+      "slug": "nail-artist-creator-phoenix-arizona",
+      "client_type": "influencer",
+      "service": "Creator Spotlight / Rising Nail Artist Feature",
+      "country": "United States",
+      "region": "Arizona",
+      "city": "Phoenix",
+      "area": null,
+      "primary_keyword": "nail artist Phoenix Arizona",
+      "secondary_keywords": [
+        "nail creator Phoenix AZ",
+        "nail influencer Phoenix Arizona",
+        "rising nail tech Phoenix",
+        "nail artist spotlight Arizona"
+      ],
+      "competition_level": "Low",
+      "rankability_note": "Active creator community confirmed: @slayeddbykayllc (192K Instagram, AZ nail tech), @nailsbysbb (32K, Phoenix nail tech), @arizonails (25K, Phoenix nail art). Zero editorial content covers this community. Fast rank.",
+      "competitor_gap_notes": "No editorial platform profiles or spotlights the Phoenix nail creator community. These creators have built significant followings with zero external editorial coverage. Mirellé becomes the first platform to give them press.",
+      "internal_links": {
+        "links_to": ["best-nail-tech-phoenix-arizona", "independent-nail-tech-directory-phoenix"],
+        "receives_links_from": ["best-nail-tech-phoenix-arizona", "independent-nail-tech-directory-phoenix"]
+      },
+      "status": "Pending"
+    }
+  ],
+
+  "keyword_ownership_registry": [
+    { "primary_keyword": "best nail salon in Phoenix Arizona", "owned_by_slug": "best-nail-salon-phoenix-arizona", "owned_by_title": "Best Nail Salon in Phoenix" },
+    { "primary_keyword": "nail salon Arcadia Phoenix", "owned_by_slug": "best-nail-salon-arcadia-phoenix", "owned_by_title": "Best Nail Salon in Arcadia Phoenix" },
+    { "primary_keyword": "nail salon Uptown Phoenix", "owned_by_slug": "best-nail-salon-uptown-phoenix", "owned_by_title": "Best Nail Salon in Uptown Phoenix" },
+    { "primary_keyword": "nail salon Downtown Phoenix", "owned_by_slug": "best-nail-salon-downtown-phoenix", "owned_by_title": "Best Nail Salon in Downtown Phoenix" },
+    { "primary_keyword": "nail salon Camelback Phoenix", "owned_by_slug": "best-nail-salon-camelback-phoenix", "owned_by_title": "Best Nail Salon in Camelback Phoenix" },
+    { "primary_keyword": "nail salon Midtown Phoenix Arizona", "owned_by_slug": "best-nail-salon-midtown-phoenix", "owned_by_title": "Best Nail Salon in Midtown Phoenix" },
+    { "primary_keyword": "best nail technician Phoenix Arizona", "owned_by_slug": "best-nail-tech-phoenix-arizona", "owned_by_title": "Best Nail Tech in Phoenix" },
+    { "primary_keyword": "nail salon directory Phoenix Arizona", "owned_by_slug": "nail-salon-directory-phoenix-arizona", "owned_by_title": "Mirellé Directory — Phoenix Nail Salons" },
+    { "primary_keyword": "independent nail tech directory Phoenix", "owned_by_slug": "independent-nail-tech-directory-phoenix", "owned_by_title": "Mirellé Directory — Phoenix Nail Techs" },
+    { "primary_keyword": "best nail salon in Scottsdale Arizona", "owned_by_slug": "best-nail-salon-scottsdale-arizona", "owned_by_title": "Best Nail Salon in Scottsdale" },
+    { "primary_keyword": "nail salon Old Town Scottsdale", "owned_by_slug": "best-nail-salon-old-town-scottsdale", "owned_by_title": "Best Nail Salon in Old Town Scottsdale" },
+    { "primary_keyword": "nail salon North Scottsdale Arizona", "owned_by_slug": "best-nail-salon-north-scottsdale", "owned_by_title": "Best Nail Salon in North Scottsdale" },
+    { "primary_keyword": "nail technician Scottsdale Arizona independent", "owned_by_slug": "best-nail-tech-scottsdale-arizona", "owned_by_title": "Best Nail Tech in Scottsdale" },
+    { "primary_keyword": "best nail salon in Tempe Arizona", "owned_by_slug": "best-nail-salon-tempe-arizona", "owned_by_title": "Best Nail Salon in Tempe" },
+    { "primary_keyword": "nail tech Tempe Arizona independent", "owned_by_slug": "best-nail-tech-tempe-arizona", "owned_by_title": "Best Nail Tech in Tempe" },
+    { "primary_keyword": "best nail salon in Mesa Arizona", "owned_by_slug": "best-nail-salon-mesa-arizona", "owned_by_title": "Best Nail Salon in Mesa" },
+    { "primary_keyword": "nail technician Mesa Arizona independent", "owned_by_slug": "best-nail-tech-mesa-arizona", "owned_by_title": "Best Nail Tech in Mesa" },
+    { "primary_keyword": "best nail salon in Chandler Arizona", "owned_by_slug": "best-nail-salon-chandler-arizona", "owned_by_title": "Best Nail Salon in Chandler" },
+    { "primary_keyword": "best nail salon in Gilbert Arizona", "owned_by_slug": "best-nail-salon-gilbert-arizona", "owned_by_title": "Best Nail Salon in Gilbert" },
+    { "primary_keyword": "best nail salon in Glendale Arizona", "owned_by_slug": "best-nail-salon-glendale-arizona", "owned_by_title": "Best Nail Salon in Glendale Arizona" },
+    { "primary_keyword": "best nail salon in Peoria Arizona", "owned_by_slug": "best-nail-salon-peoria-arizona", "owned_by_title": "Best Nail Salon in Peoria Arizona" },
+    { "primary_keyword": "best nail salon in Tucson Arizona", "owned_by_slug": "best-nail-salon-tucson-arizona", "owned_by_title": "Best Nail Salon in Tucson" },
+    { "primary_keyword": "nail technician Tucson Arizona", "owned_by_slug": "best-nail-tech-tucson-arizona", "owned_by_title": "Best Nail Tech in Tucson" },
+    { "primary_keyword": "nail artist Phoenix Arizona", "owned_by_slug": "nail-artist-creator-phoenix-arizona", "owned_by_title": "Rising Nail Artist Feature — Phoenix" }
+  ],
+
+  "keyword_do_not_use": [
+    { "keyword": "top nail salons Phoenix AZ", "reserved_for_slug": "best-nail-salon-phoenix-arizona" },
+    { "keyword": "nail salon Phoenix Arizona", "reserved_for_slug": "best-nail-salon-phoenix-arizona" },
+    { "keyword": "best nail salon Arcadia Phoenix AZ", "reserved_for_slug": "best-nail-salon-arcadia-phoenix" },
+    { "keyword": "best nail salon North Central Phoenix", "reserved_for_slug": "best-nail-salon-uptown-phoenix" },
+    { "keyword": "nail salon Biltmore Phoenix AZ", "reserved_for_slug": "best-nail-salon-camelback-phoenix" },
+    { "keyword": "nail salon near ASU Downtown Phoenix", "reserved_for_slug": "best-nail-salon-downtown-phoenix" },
+    { "keyword": "independent nail tech Phoenix AZ", "reserved_for_slug": "best-nail-tech-phoenix-arizona" },
+    { "keyword": "Phoenix nail salon list", "reserved_for_slug": "nail-salon-directory-phoenix-arizona" },
+    { "keyword": "find a nail tech Phoenix AZ", "reserved_for_slug": "independent-nail-tech-directory-phoenix" },
+    { "keyword": "luxury nail salon Scottsdale", "reserved_for_slug": "best-nail-salon-scottsdale-arizona" },
+    { "keyword": "nail bar Old Town Scottsdale", "reserved_for_slug": "best-nail-salon-old-town-scottsdale" },
+    { "keyword": "nail spa North Scottsdale 85258", "reserved_for_slug": "best-nail-salon-north-scottsdale" },
+    { "keyword": "independent nail tech Scottsdale AZ", "reserved_for_slug": "best-nail-tech-scottsdale-arizona" },
+    { "keyword": "nail salon near ASU Tempe", "reserved_for_slug": "best-nail-salon-tempe-arizona" },
+    { "keyword": "independent nail tech Tempe AZ", "reserved_for_slug": "best-nail-tech-tempe-arizona" },
+    { "keyword": "nail salon Mesa AZ", "reserved_for_slug": "best-nail-salon-mesa-arizona" },
+    { "keyword": "independent nail tech Mesa AZ", "reserved_for_slug": "best-nail-tech-mesa-arizona" },
+    { "keyword": "nail salon Chandler AZ", "reserved_for_slug": "best-nail-salon-chandler-arizona" },
+    { "keyword": "nail salon Gilbert AZ", "reserved_for_slug": "best-nail-salon-gilbert-arizona" },
+    { "keyword": "nail salon Glendale AZ", "reserved_for_slug": "best-nail-salon-glendale-arizona" },
+    { "keyword": "nail salon Peoria AZ", "reserved_for_slug": "best-nail-salon-peoria-arizona" },
+    { "keyword": "nail salon Tucson AZ", "reserved_for_slug": "best-nail-salon-tucson-arizona" },
+    { "keyword": "independent nail tech Tucson AZ", "reserved_for_slug": "best-nail-tech-tucson-arizona" },
+    { "keyword": "nail creator Phoenix AZ", "reserved_for_slug": "nail-artist-creator-phoenix-arizona" }
+  ],
+
+  "killed_opportunities_log": [
+    {
+      "opportunity": "Best nail salon in Surprise Arizona",
+      "reason": "Insufficient search demand validated on 2 sources. Population growing but nail editorial search demand not yet confirmed. Parked for future cluster update."
+    },
+    {
+      "opportunity": "Best nail salon in Paradise Valley",
+      "reason": "Very small municipality (~13,000 residents). Search demand absorbed into Scottsdale posts. Merged into AZ-10."
+    },
+    {
+      "opportunity": "Nail salon Flagstaff Arizona",
+      "reason": "Small market. Insufficient population and search demand to justify a standalone post at this stage. Parked."
+    },
+    {
+      "opportunity": "Best nail tech in Gilbert",
+      "reason": "Gilbert nail tech independent search demand insufficient on 2 sources. Gilbert searches skew to salon not independent tech. Killed."
+    },
+    {
+      "opportunity": "Best nail salon in South Scottsdale",
+      "reason": "Insufficient distinct search demand to separate from main Scottsdale post. Merged into AZ-10."
+    }
+  ],
+
+  "merged_opportunities_log": [
+    {
+      "original_opportunities": ["Best nail salon in Paradise Valley", "Best nail salon in Scottsdale"],
+      "merged_into": "best-nail-salon-scottsdale-arizona",
+      "reason": "Paradise Valley search intent absorbs into Scottsdale — confirmed by Fresha listing Paradise Valley salons under the Scottsdale area. Insufficient standalone demand."
+    },
+    {
+      "original_opportunities": ["Best nail salon in South Scottsdale", "Best nail salon in Scottsdale"],
+      "merged_into": "best-nail-salon-scottsdale-arizona",
+      "reason": "South Scottsdale is not a sufficiently distinct search area at this stage. Demand confirmed as part of broader Scottsdale intent."
+    }
+  ],
+
+  "post_tracker": [
+    { "post_id": 1, "title": "Best Nail Salon in Phoenix", "slug": "best-nail-salon-phoenix-arizona", "status": "Pending" },
+    { "post_id": 2, "title": "Best Nail Salon in Arcadia Phoenix", "slug": "best-nail-salon-arcadia-phoenix", "status": "Pending" },
+    { "post_id": 3, "title": "Best Nail Salon in Uptown Phoenix", "slug": "best-nail-salon-uptown-phoenix", "status": "Pending" },
+    { "post_id": 4, "title": "Best Nail Salon in Downtown Phoenix", "slug": "best-nail-salon-downtown-phoenix", "status": "Pending" },
+    { "post_id": 5, "title": "Best Nail Salon in Camelback Phoenix", "slug": "best-nail-salon-camelback-phoenix", "status": "Pending" },
+    { "post_id": 6, "title": "Best Nail Salon in Midtown Phoenix", "slug": "best-nail-salon-midtown-phoenix", "status": "Pending" },
+    { "post_id": 7, "title": "Best Nail Tech in Phoenix", "slug": "best-nail-tech-phoenix-arizona", "status": "Pending" },
+    { "post_id": 8, "title": "Mirellé Directory — Phoenix Nail Salons", "slug": "nail-salon-directory-phoenix-arizona", "status": "Pending" },
+    { "post_id": 9, "title": "Mirellé Directory — Phoenix Nail Techs", "slug": "independent-nail-tech-directory-phoenix", "status": "Pending" },
+    { "post_id": 10, "title": "Best Nail Salon in Scottsdale", "slug": "best-nail-salon-scottsdale-arizona", "status": "Pending" },
+    { "post_id": 11, "title": "Best Nail Salon in Old Town Scottsdale", "slug": "best-nail-salon-old-town-scottsdale", "status": "Pending" },
+    { "post_id": 12, "title": "Best Nail Salon in North Scottsdale", "slug": "best-nail-salon-north-scottsdale", "status": "Pending" },
+    { "post_id": 13, "title": "Best Nail Tech in Scottsdale", "slug": "best-nail-tech-scottsdale-arizona", "status": "Pending" },
+    { "post_id": 14, "title": "Best Nail Salon in Tempe", "slug": "best-nail-salon-tempe-arizona", "status": "Pending" },
+    { "post_id": 15, "title": "Best Nail Tech in Tempe", "slug": "best-nail-tech-tempe-arizona", "status": "Pending" },
+    { "post_id": 16, "title": "Best Nail Salon in Mesa", "slug": "best-nail-salon-mesa-arizona", "status": "Pending" },
+    { "post_id": 17, "title": "Best Nail Tech in Mesa", "slug": "best-nail-tech-mesa-arizona", "status": "Pending" },
+    { "post_id": 18, "title": "Best Nail Salon in Chandler", "slug": "best-nail-salon-chandler-arizona", "status": "Pending" },
+    { "post_id": 19, "title": "Best Nail Salon in Gilbert", "slug": "best-nail-salon-gilbert-arizona", "status": "Pending" },
+    { "post_id": 20, "title": "Best Nail Salon in Glendale Arizona", "slug": "best-nail-salon-glendale-arizona", "status": "Pending" },
+    { "post_id": 21, "title": "Best Nail Salon in Peoria Arizona", "slug": "best-nail-salon-peoria-arizona", "status": "Pending" },
+    { "post_id": 22, "title": "Best Nail Salon in Tucson", "slug": "best-nail-salon-tucson-arizona", "status": "Pending" },
+    { "post_id": 23, "title": "Best Nail Tech in Tucson", "slug": "best-nail-tech-tucson-arizona", "status": "Pending" },
+    { "post_id": 24, "title": "Rising Nail Artist Feature — Phoenix", "slug": "nail-artist-creator-phoenix-arizona", "status": "Pending" }
+  ]
+}
