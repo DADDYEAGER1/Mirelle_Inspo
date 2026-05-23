@@ -1,0 +1,468 @@
+{
+  "cluster_metadata": {
+    "cluster_topic": "French Nails",
+    "target_audience": "Global, Tier 1 countries (US, UK, Canada, Australia)",
+    "total_posts": 12,
+    "intent_breakdown": {
+      "informational": 4,
+      "inspirational": 3,
+      "tutorial": 2,
+      "transactional": 0,
+      "comparison": 1,
+      "seasonal_trend": 2
+    },
+    "pillar_post_slug": "french-manicure-guide",
+    "created_date": "2026-05-23"
+  },
+
+  "posts": [
+    {
+      "post_id": 1,
+      "role": "pillar",
+      "title": "French Manicure: The Complete Guide to Every Style & Technique",
+      "slug": "french-manicure-guide",
+      "primary_keyword": "french manicure",
+      "intent": "informational",
+      "search_demand_signals": [
+        "Google autocomplete: root term with dozens of modifiers — broadest keyword in the cluster",
+        "Cosmopolitan, InStyle, Byrdie, Who What Wear: all publishing major French manicure hub guides in 2026",
+        "TikTok: millions of posts under #frenchmanicure and #frenchtip",
+        "Pinterest: one of the most-pinned nail categories globally"
+      ],
+      "why_included": "Broadest keyword in the cluster with highest aggregate demand across all sources. Serves as the hub post linking out to all spokes and receiving inbound links from every spoke in the cluster.",
+      "internal_links": {
+        "links_to": [
+          "french-tip-nail-ideas",
+          "micro-french-nails",
+          "colored-french-tip-nails",
+          "how-to-do-french-manicure-at-home",
+          "how-to-do-french-tip-gel-nails",
+          "short-french-tip-nails",
+          "french-manicure-vs-american-manicure",
+          "french-nail-trends-2026",
+          "reverse-french-manicure",
+          "double-french-tip-nails"
+        ],
+        "receives_links_from": [
+          "french-tip-nail-ideas",
+          "micro-french-nails",
+          "colored-french-tip-nails",
+          "how-to-do-french-manicure-at-home",
+          "how-to-do-french-tip-gel-nails",
+          "short-french-tip-nails",
+          "french-manicure-vs-american-manicure",
+          "french-nail-trends-2026",
+          "reverse-french-manicure",
+          "double-french-tip-nails"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 2,
+      "role": "spoke",
+      "title": "French Tip Nail Ideas: 60+ Looks for Every Style",
+      "slug": "french-tip-nail-ideas",
+      "primary_keyword": "french tip nail ideas",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "AOL/InStyle: '75 Best French Tip Nail Ideas' roundup — one of the highest-traffic nail posts on the site",
+        "Pinterest: top autocomplete suggestion when typing 'french tip nail'",
+        "Beauty editorial staple format — every major nail site publishes this exact post"
+      ],
+      "why_included": "Pure open-ended browse intent — the single largest-volume entry point for the cluster. Users here have no specific style in mind yet, making this the best post to funnel traffic down into every spoke.",
+      "internal_links": {
+        "links_to": [
+          "french-manicure-guide",
+          "micro-french-nails",
+          "colored-french-tip-nails",
+          "double-french-tip-nails",
+          "reverse-french-manicure",
+          "french-nail-trends-2026"
+        ],
+        "receives_links_from": [
+          "french-manicure-guide",
+          "short-french-tip-nails",
+          "micro-french-nails",
+          "french-nail-trends-2026",
+          "colored-french-tip-nails"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 3,
+      "role": "spoke",
+      "title": "Micro French Nails: The Minimalist Trend Taking Over 2026",
+      "slug": "micro-french-nails",
+      "primary_keyword": "micro french nails",
+      "intent": "seasonal_trend",
+      "search_demand_signals": [
+        "Bangstyle: dedicated trend article published May 2026 naming micro-French the breakout look of the season",
+        "Who What Wear: featured in April 2026 French manicure roundup as the standout modern update",
+        "Cosmopolitan: named micro-French as the easiest DIY French variant in their 2026 guide",
+        "The Pink Issue: dedicated 25-idea micro French post published Feb 2026",
+        "Google Trends: confirmed spike in 'micro french nails' searches Q1–Q2 2026"
+      ],
+      "why_included": "The breakout French nail trend of 2026 — confirmed by 5 independent editorial sources and a verified Google Trends spike. Distinct technique (razor-thin line, short length) with its own search behavior separate from classic French.",
+      "internal_links": {
+        "links_to": [
+          "french-manicure-guide",
+          "french-tip-nail-ideas",
+          "short-french-tip-nails",
+          "how-to-do-french-manicure-at-home"
+        ],
+        "receives_links_from": [
+          "french-manicure-guide",
+          "french-tip-nail-ideas",
+          "french-nail-trends-2026",
+          "short-french-tip-nails",
+          "how-to-do-french-manicure-at-home"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 4,
+      "role": "spoke",
+      "title": "Colored French Tip Nails: Ideas for Every Color & Mood",
+      "slug": "colored-french-tip-nails",
+      "primary_keyword": "colored french tip nails",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Byrdie: '26 Colorful French Tip Designs' — high-traffic standalone post",
+        "InStyle: '20 Colorful French Manicure Ideas That Channel an Endless Summer' — dedicated article",
+        "TikTok: colored tip French content is among the most-shared French nail formats",
+        "Pinterest: 'colored french tips' is an active board category with high pin volume"
+      ],
+      "why_included": "Color modifier creates genuinely distinct search intent — users specifically excluding the classic white tip. Both Byrdie and InStyle have published standalone high-traffic posts on this exact angle, confirming it's not just a section inside another post.",
+      "internal_links": {
+        "links_to": [
+          "french-manicure-guide",
+          "french-tip-nail-ideas",
+          "double-french-tip-nails",
+          "french-nail-trends-2026"
+        ],
+        "receives_links_from": [
+          "french-manicure-guide",
+          "french-tip-nail-ideas",
+          "french-nail-trends-2026",
+          "double-french-tip-nails",
+          "how-to-do-french-manicure-at-home"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 5,
+      "role": "spoke",
+      "title": "How to Do a French Manicure at Home (Step-by-Step)",
+      "slug": "how-to-do-french-manicure-at-home",
+      "primary_keyword": "how to do french manicure at home",
+      "intent": "tutorial",
+      "search_demand_signals": [
+        "SNS Nails, Stylecraze, Maniology: all ranking for this exact query with high-traffic dedicated guides",
+        "YouTube: multiple tutorials with 100K+ views on 'how to do french manicure at home'",
+        "Reddit r/Nails: recurring top posts asking for at-home French tips"
+      ],
+      "why_included": "Evergreen DIY intent — one of the most searched nail tutorial queries globally. Distinct from the gel-specific tutorial (Post 6) in that it covers regular polish, tape methods, nail guides, and stamping techniques — different products, different audience.",
+      "internal_links": {
+        "links_to": [
+          "french-manicure-guide",
+          "how-to-do-french-tip-gel-nails",
+          "micro-french-nails",
+          "colored-french-tip-nails"
+        ],
+        "receives_links_from": [
+          "french-manicure-guide",
+          "how-to-do-french-tip-gel-nails",
+          "micro-french-nails",
+          "short-french-tip-nails",
+          "double-french-tip-nails"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 6,
+      "role": "spoke",
+      "title": "How to Do French Tip Gel Nails at Home",
+      "slug": "how-to-do-french-tip-gel-nails",
+      "primary_keyword": "how to do french tip gel nails",
+      "intent": "tutorial",
+      "search_demand_signals": [
+        "Mylee: dedicated gel French manicure step-by-step tutorial ranking — one of their top nail guides",
+        "YouTube: 'how to do french tip gel nails' returns multiple videos with 50K–200K views",
+        "Reddit: gel French questions are among the most upvoted posts in r/Nails and r/DIYNails"
+      ],
+      "why_included": "Gel-specific process is meaningfully distinct from regular polish — requires UV/LED lamp, gel base coat, curing steps, and lasts 3–4 weeks vs days. Different audience (gel users), different products, different technique. Mylee alone confirms standalone search demand.",
+      "internal_links": {
+        "links_to": [
+          "french-manicure-guide",
+          "how-to-do-french-manicure-at-home",
+          "micro-french-nails",
+          "double-french-tip-nails"
+        ],
+        "receives_links_from": [
+          "french-manicure-guide",
+          "how-to-do-french-manicure-at-home",
+          "double-french-tip-nails",
+          "reverse-french-manicure"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 7,
+      "role": "spoke",
+      "title": "Short French Tip Nails: Chic Ideas for Every Shape",
+      "slug": "short-french-tip-nails",
+      "primary_keyword": "short french tip nails",
+      "intent": "informational",
+      "search_demand_signals": [
+        "AOL '75 Best French Tip Nail Ideas': dedicated 'Short French Tip Nails' section — high engagement sub-cluster",
+        "Maniology: published 'Elegant French Tip Ideas for Short Nails' as a standalone guide",
+        "TikTok: short nail French content consistently high-engagement — 'XS French' trend active",
+        "Bangstyle confirms micro-French sits at intersection of 'short nail trends' and French manicure"
+      ],
+      "why_included": "Length-specific intent is a genuinely separate search segment — users who prefer or have short nails will not convert from long-nail French content. Multiple independent posts targeting this exact modifier confirm standalone viability.",
+      "internal_links": {
+        "links_to": [
+          "french-manicure-guide",
+          "french-tip-nail-ideas",
+          "micro-french-nails",
+          "how-to-do-french-manicure-at-home"
+        ],
+        "receives_links_from": [
+          "french-manicure-guide",
+          "french-tip-nail-ideas",
+          "micro-french-nails",
+          "french-nail-trends-2026",
+          "french-manicure-vs-american-manicure"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 8,
+      "role": "spoke",
+      "title": "French Manicure vs American Manicure: What's the Difference?",
+      "slug": "french-manicure-vs-american-manicure",
+      "primary_keyword": "french manicure vs american manicure",
+      "intent": "comparison",
+      "search_demand_signals": [
+        "TikTok: dedicated discovery page 'American vs French Manicure' with active high-engagement content",
+        "TikTok Shop: 'american french manicure vs french manicure' trending comparison page",
+        "Multiple salon and beauty explainer posts ranking for this exact comparison query"
+      ],
+      "why_included": "High-intent decision content — users comparing styles are close to booking or buying. The 'American manicure' (soft/milky French) is trending hard in 2026 as the 'clean girl' alternative to classic white tips, making this comparison post extremely timely and searchable.",
+      "internal_links": {
+        "links_to": [
+          "french-manicure-guide",
+          "micro-french-nails",
+          "short-french-tip-nails",
+          "how-to-do-french-manicure-at-home"
+        ],
+        "receives_links_from": [
+          "french-manicure-guide",
+          "micro-french-nails",
+          "french-nail-trends-2026",
+          "short-french-tip-nails"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 9,
+      "role": "spoke",
+      "title": "French Nail Trends 2026: The Looks Everyone's Wearing",
+      "slug": "french-nail-trends-2026",
+      "primary_keyword": "french nail trends 2026",
+      "intent": "seasonal_trend",
+      "search_demand_signals": [
+        "Hello Magazine: 'Glow French' 2026 feature — dedicated 2026 French trend article published Feb 2026",
+        "Who What Wear: April 2026 French manicure roundup specifically framed as 2026 trend coverage",
+        "Vettsy: '7 Trending French Nail Designs 2026: The Ultimate Guide' — dedicated 2026 post",
+        "TheIndustry.beauty: spring/summer 2026 nail trends roundup prominently features French evolutions"
+      ],
+      "why_included": "Annual trend post owns the year-specific keyword permanently and resets to '2027' for evergreen traffic. Four independent publishers already targeting this in 2026 confirms real annual search demand — not just editorial filler.",
+      "internal_links": {
+        "links_to": [
+          "french-manicure-guide",
+          "french-tip-nail-ideas",
+          "micro-french-nails",
+          "colored-french-tip-nails",
+          "double-french-tip-nails",
+          "reverse-french-manicure",
+          "short-french-tip-nails"
+        ],
+        "receives_links_from": [
+          "french-manicure-guide",
+          "french-tip-nail-ideas",
+          "colored-french-tip-nails",
+          "double-french-tip-nails"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 10,
+      "role": "spoke",
+      "title": "Reverse French Manicure: What It Is & How to Nail It",
+      "slug": "reverse-french-manicure",
+      "primary_keyword": "reverse french manicure",
+      "intent": "informational",
+      "search_demand_signals": [
+        "Vettsy 2026 guide: names Reverse French as a standalone trending style with dedicated section",
+        "Cosmopolitan 2026: calls out reverse French as a named distinct style with its own aesthetic identity",
+        "Celebrity signal: Blake Lively and Anya Taylor-Joy spotted wearing reverse French — driving organic search",
+        "Stylecraze DIY guide: lists reverse French as a named variation with its own technique steps"
+      ],
+      "why_included": "Distinct technique with its own search intent — painting the base of the nail instead of the tip is a genuinely different look that users search for by name. Celebrity endorsements in 2026 are actively driving 'reverse french manicure' as a query.",
+      "internal_links": {
+        "links_to": [
+          "french-manicure-guide",
+          "french-tip-nail-ideas",
+          "how-to-do-french-tip-gel-nails",
+          "french-nail-trends-2026"
+        ],
+        "receives_links_from": [
+          "french-manicure-guide",
+          "french-tip-nail-ideas",
+          "french-nail-trends-2026",
+          "how-to-do-french-tip-gel-nails"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 11,
+      "role": "spoke",
+      "title": "Double French Tip Nails: Ideas & How to Get the Look",
+      "slug": "double-french-tip-nails",
+      "primary_keyword": "double french tip nails",
+      "intent": "informational",
+      "search_demand_signals": [
+        "Who What Wear: 'Duo French Tip Nails Are the Chic Alternative to the Classic' — dedicated editorial post",
+        "Stolen Inspiration: April 2026 French tip roundup features double French as a standalone named style",
+        "Accio.com: '10 Next-Level Double French Tip Nails to Inspire Your 2026 Product Line' — dedicated trend piece",
+        "Cosmopolitan 2026 guide: names double-line design as a modern French variant",
+        "Manifix 2026 French Nails guide: explicitly lists 'Double-French with two lines' as one of four named modern French styles"
+      ],
+      "why_included": "Multiple independent publishers have named and published dedicated content on double French tips in 2026, confirming it's a standalone searchable style — not just a bullet point inside a roundup. Users search for the technique specifically by name.",
+      "internal_links": {
+        "links_to": [
+          "french-manicure-guide",
+          "french-tip-nail-ideas",
+          "colored-french-tip-nails",
+          "how-to-do-french-manicure-at-home",
+          "how-to-do-french-tip-gel-nails"
+        ],
+        "receives_links_from": [
+          "french-manicure-guide",
+          "french-tip-nail-ideas",
+          "colored-french-tip-nails",
+          "french-nail-trends-2026",
+          "how-to-do-french-tip-gel-nails"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 12,
+      "role": "spoke",
+      "title": "French Tip Nail Designs: 40+ Modern Ideas to Try Right Now",
+      "slug": "french-tip-nail-designs",
+      "primary_keyword": "french tip nail designs",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Google autocomplete: 'french tip nail designs' is an immediate top suggestion separate from 'ideas'",
+        "Stolen Inspiration: '45 French Tip Nail Ideas To Try In 2026' — design-focused editorial post ranking",
+        "Mimonails.com: '30 Creative French Manicure Ideas Currently Trending' — designs-specific post",
+        "Pinterest: 'french tip nail designs' is an active board search term distinct from 'french tip nail ideas'"
+      ],
+      "why_included": "Design-focused intent is distinct from open-ended 'ideas' — users searching 'designs' are looking for specific techniques and styles (chrome, double-line, geometric) rather than general inspiration. Confirmed by separate editorial posts targeting this keyword on multiple sites.",
+      "internal_links": {
+        "links_to": [
+          "french-manicure-guide",
+          "double-french-tip-nails",
+          "micro-french-nails",
+          "reverse-french-manicure",
+          "colored-french-tip-nails"
+        ],
+        "receives_links_from": [
+          "french-manicure-guide",
+          "french-tip-nail-ideas",
+          "french-nail-trends-2026",
+          "colored-french-tip-nails",
+          "double-french-tip-nails"
+        ]
+      },
+      "status": "approved"
+    }
+  ],
+
+  "keyword_ownership_registry": {
+    "description": "Master list of all primary keywords — one per post, no overlaps",
+    "entries": [
+      { "primary_keyword": "french manicure", "owned_by_slug": "french-manicure-guide", "owned_by_title": "French Manicure: The Complete Guide to Every Style & Technique" },
+      { "primary_keyword": "french tip nail ideas", "owned_by_slug": "french-tip-nail-ideas", "owned_by_title": "French Tip Nail Ideas: 60+ Looks for Every Style" },
+      { "primary_keyword": "micro french nails", "owned_by_slug": "micro-french-nails", "owned_by_title": "Micro French Nails: The Minimalist Trend Taking Over 2026" },
+      { "primary_keyword": "colored french tip nails", "owned_by_slug": "colored-french-tip-nails", "owned_by_title": "Colored French Tip Nails: Ideas for Every Color & Mood" },
+      { "primary_keyword": "how to do french manicure at home", "owned_by_slug": "how-to-do-french-manicure-at-home", "owned_by_title": "How to Do a French Manicure at Home (Step-by-Step)" },
+      { "primary_keyword": "how to do french tip gel nails", "owned_by_slug": "how-to-do-french-tip-gel-nails", "owned_by_title": "How to Do French Tip Gel Nails at Home" },
+      { "primary_keyword": "short french tip nails", "owned_by_slug": "short-french-tip-nails", "owned_by_title": "Short French Tip Nails: Chic Ideas for Every Shape" },
+      { "primary_keyword": "french manicure vs american manicure", "owned_by_slug": "french-manicure-vs-american-manicure", "owned_by_title": "French Manicure vs American Manicure: What's the Difference?" },
+      { "primary_keyword": "french nail trends 2026", "owned_by_slug": "french-nail-trends-2026", "owned_by_title": "French Nail Trends 2026: The Looks Everyone's Wearing" },
+      { "primary_keyword": "reverse french manicure", "owned_by_slug": "reverse-french-manicure", "owned_by_title": "Reverse French Manicure: What It Is & How to Nail It" },
+      { "primary_keyword": "double french tip nails", "owned_by_slug": "double-french-tip-nails", "owned_by_title": "Double French Tip Nails: Ideas & How to Get the Look" },
+      { "primary_keyword": "french tip nail designs", "owned_by_slug": "french-tip-nail-designs", "owned_by_title": "French Tip Nail Designs: 40+ Modern Ideas to Try Right Now" }
+    ]
+  },
+
+  "merged_posts_log": [
+    {
+      "original_topics": ["ombre french manicure", "french ombre nails"],
+      "merged_into": "French Tip Nail Ideas + How to Do a French Manicure at Home",
+      "reason": "Ombré French lacks standalone editorial depth for a pillar post — covered as a named technique variant in the ideas post and tutorial"
+    },
+    {
+      "original_topics": ["classic french manicure", "french manicure guide"],
+      "merged_into": "French Manicure: The Complete Guide to Every Style & Technique (Pillar)",
+      "reason": "Same keyword territory — the pillar owns both entirely"
+    },
+    {
+      "original_topics": ["deep french nails", "modern french manicure ideas"],
+      "merged_into": "French Tip Nail Designs: 40+ Modern Ideas to Try Right Now",
+      "reason": "Deep French is a design variant, not a distinct intent segment — covered as a named style inside the designs post"
+    },
+    {
+      "original_topics": ["pink french tip nails"],
+      "merged_into": "Colored French Tip Nails: Ideas for Every Color & Mood",
+      "reason": "Removed per user instruction — pink is covered as one color option inside the broader colored French tips post"
+    }
+  ],
+
+  "killed_posts_log": [
+    {
+      "topic": "french tip press-on nails",
+      "reason": "Transactional — excluded per standing user instruction"
+    },
+    {
+      "topic": "black french tip nails",
+      "reason": "Single-color modifier — not enough standalone demand on 2+ independent sources to justify a full post"
+    },
+    {
+      "topic": "chrome french tip nails",
+      "reason": "Sub-trend of modern/colored French — covered as a design variant inside colored French and designs posts; no dedicated standalone editorial demand confirmed"
+    },
+    {
+      "topic": "glazed donut french nails",
+      "reason": "Trend already fading by 2026 editorial signal; overlaps with micro French and modern French content"
+    },
+    {
+      "topic": "wedding french manicure",
+      "reason": "Occasion-specific — only 1 source signal; too niche for a standalone post with evergreen traffic potential"
+    }
+  ]
+}
