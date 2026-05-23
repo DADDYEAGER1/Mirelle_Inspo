@@ -1,0 +1,539 @@
+{
+  "cluster_metadata": {
+    "cluster_topic": "Zodiac Nails",
+    "target_audience": "Global, Tier 1 countries (US, UK, Canada, Australia)",
+    "total_posts": 15,
+    "intent_breakdown": {
+      "informational": 3,
+      "inspirational": 12,
+      "tutorial": 0,
+      "transactional": 0,
+      "comparison": 0,
+      "seasonal_trend": 0
+    },
+    "pillar_post_slug": "zodiac-nails",
+    "created_date": "2026-05-23"
+  },
+
+  "posts": [
+    {
+      "post_id": 1,
+      "role": "pillar",
+      "title": "Zodiac Nails: The Ultimate Guide to Nail Designs for Every Sign",
+      "slug": "zodiac-nails",
+      "primary_keyword": "zodiac nails",
+      "intent": "informational",
+      "search_demand_signals": [
+        "Pinterest: multiple high-follower boards dedicated to 'zodiac nails' with thousands of saves",
+        "TikTok: #zodiacnails trending hashtag with millions of views",
+        "Google: top SERP result intent — informational roundup articles from Bustle, LoveToKnow, FarahSalem ranking",
+        "Google PAA: 'what are zodiac nails', 'zodiac nail designs for each sign'"
+      ],
+      "why_included": "Broadest keyword in the cluster with the highest search demand across all sources. Serves as the hub linking to all 12 sign-specific posts and 2 umbrella spokes.",
+      "internal_links": {
+        "links_to": [
+          "aries-nails",
+          "taurus-nails",
+          "gemini-nails",
+          "cancer-nails",
+          "leo-nails",
+          "virgo-nails",
+          "libra-nails",
+          "scorpio-nails",
+          "sagittarius-nails",
+          "capricorn-nails",
+          "aquarius-nails",
+          "pisces-nails",
+          "celestial-nails",
+          "astrology-nails"
+        ],
+        "receives_links_from": [
+          "aries-nails",
+          "taurus-nails",
+          "gemini-nails",
+          "cancer-nails",
+          "leo-nails",
+          "virgo-nails",
+          "libra-nails",
+          "scorpio-nails",
+          "sagittarius-nails",
+          "capricorn-nails",
+          "aquarius-nails",
+          "pisces-nails",
+          "celestial-nails",
+          "astrology-nails"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 2,
+      "role": "spoke",
+      "title": "Aries Nails: Bold Designs for the Fire Sign",
+      "slug": "aries-nails",
+      "primary_keyword": "aries nails",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "TikTok: #ariesnails trending; TikTok Shop 'aries nails set' active listings; birthday nail content spikes Mar–Apr",
+        "Pinterest: dedicated boards for 'Aries nails' and 'Aries birthday nails' with thousands of saves"
+      ],
+      "why_included": "Birthday-driven recurring search spike every March–April. TikTok commerce signal (TikTok Shop) confirms transactional crossover. Fire sign + bold colors = high Pinterest save rate.",
+      "internal_links": {
+        "links_to": [
+          "zodiac-nails",
+          "astrology-nails",
+          "leo-nails",
+          "sagittarius-nails"
+        ],
+        "receives_links_from": [
+          "zodiac-nails",
+          "astrology-nails",
+          "celestial-nails"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 3,
+      "role": "spoke",
+      "title": "Taurus Nails: Elegant & Earthy Nail Ideas for Your Sign",
+      "slug": "taurus-nails",
+      "primary_keyword": "taurus nails",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Pinterest: 'taurus nails aesthetic' and 'taurus nail designs' return populated boards",
+        "Google autocomplete: 'taurus nails' suggested with aesthetic and short variants; Apr–May birthday spike"
+      ],
+      "why_included": "Earth sign aesthetic (neutrals, quiet luxury, milky white) is a top-saving category on Pinterest. Birthday search window April–May ensures recurring annual traffic.",
+      "internal_links": {
+        "links_to": [
+          "zodiac-nails",
+          "astrology-nails",
+          "virgo-nails",
+          "capricorn-nails"
+        ],
+        "receives_links_from": [
+          "zodiac-nails",
+          "astrology-nails",
+          "celestial-nails"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 4,
+      "role": "spoke",
+      "title": "Gemini Nails: Creative Dual-Tone Designs for the Air Sign",
+      "slug": "gemini-nails",
+      "primary_keyword": "gemini nails",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Pinterest: 'gemini nails' has dedicated boards; dual-tone and mismatched nail art aesthetic is popular",
+        "TikTok: #gemininails content with birthday nail tie-in; May–June spike visible in hashtag volume"
+      ],
+      "why_included": "Gemini duality angle creates a unique content hook (two-tone, mismatched designs) that differentiates from other sign posts. Strong May–June birthday search window.",
+      "internal_links": {
+        "links_to": [
+          "zodiac-nails",
+          "astrology-nails",
+          "libra-nails",
+          "aquarius-nails"
+        ],
+        "receives_links_from": [
+          "zodiac-nails",
+          "astrology-nails",
+          "celestial-nails"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 5,
+      "role": "spoke",
+      "title": "Cancer Nails: Dreamy Designs for the Water Sign",
+      "slug": "cancer-nails",
+      "primary_keyword": "cancer nails",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Pinterest: 'cancer zodiac nails' and 'cancer nails aesthetic' return populated boards; ocean/pearl aesthetic is high-save",
+        "TikTok: #cancernails birthday content spikes June–July; water sign aesthetic crossover with mermaidcore trend"
+      ],
+      "why_included": "Water sign + ocean/pearl nail aesthetic crossover with the mermaidcore mega-trend. June–July birthday window. High Pinterest save potential for dreamy pastel content.",
+      "internal_links": {
+        "links_to": [
+          "zodiac-nails",
+          "astrology-nails",
+          "scorpio-nails",
+          "pisces-nails"
+        ],
+        "receives_links_from": [
+          "zodiac-nails",
+          "astrology-nails",
+          "celestial-nails"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 6,
+      "role": "spoke",
+      "title": "Leo Nails: Glamorous Designs for the Most Dramatic Sign",
+      "slug": "leo-nails",
+      "primary_keyword": "leo nails",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "TikTok: Leo has highest astrology content engagement of all signs; #leonails + metallic/glam angle",
+        "Pinterest: 'leo nails' boards prominent; July–Aug birthday spike aligns with peak summer nail content season"
+      ],
+      "why_included": "Leo is the highest-engagement zodiac sign on beauty platforms. Metallic/glam nail aesthetic is evergreen top performer. Birthday window hits during summer — peak nail search season.",
+      "internal_links": {
+        "links_to": [
+          "zodiac-nails",
+          "astrology-nails",
+          "aries-nails",
+          "sagittarius-nails"
+        ],
+        "receives_links_from": [
+          "zodiac-nails",
+          "astrology-nails",
+          "celestial-nails",
+          "aries-nails"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 7,
+      "role": "spoke",
+      "title": "Virgo Nails: Minimalist Designs for the Detail-Obsessed Sign",
+      "slug": "virgo-nails",
+      "primary_keyword": "virgo nails",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Pinterest: 'virgo nail designs' and 'virgo nails minimalist' are active search terms with board saves",
+        "Google autocomplete: 'virgo nails' suggested; Aug–Sep birthday window"
+      ],
+      "why_included": "Minimalist nail aesthetic is the highest-saving category on Pinterest. Virgo personality framing (detail-obsessed, perfectionist) creates strong content angle. Aug–Sep birthday window.",
+      "internal_links": {
+        "links_to": [
+          "zodiac-nails",
+          "astrology-nails",
+          "taurus-nails",
+          "capricorn-nails"
+        ],
+        "receives_links_from": [
+          "zodiac-nails",
+          "astrology-nails",
+          "celestial-nails",
+          "taurus-nails"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 8,
+      "role": "spoke",
+      "title": "Libra Nails: Balanced & Beautiful Designs for Your Sign",
+      "slug": "libra-nails",
+      "primary_keyword": "libra nails",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Pinterest: 'libra nails aesthetic' and 'libra nail designs' return boards; Libra = beauty/balance affinity",
+        "TikTok: #libranails content; Sep–Oct birthday window overlaps with fall nail trend season"
+      ],
+      "why_included": "Libra is ruled by Venus (beauty planet) — strong aesthetic affinity with nail content. Fall season overlap amplifies birthday search window. Sep–Oct is peak nail trend search period.",
+      "internal_links": {
+        "links_to": [
+          "zodiac-nails",
+          "astrology-nails",
+          "gemini-nails",
+          "aquarius-nails"
+        ],
+        "receives_links_from": [
+          "zodiac-nails",
+          "astrology-nails",
+          "celestial-nails",
+          "gemini-nails"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 9,
+      "role": "spoke",
+      "title": "Scorpio Nails: Dark & Mysterious Designs for the Water Sign",
+      "slug": "scorpio-nails",
+      "primary_keyword": "scorpio nails",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "TikTok: #scorpionails trending; dark/moody nail aesthetic consistently high engagement year-round",
+        "Pinterest: dark nail art + Scorpio aesthetic has high save rate; Oct–Nov birthday window overlaps with Halloween nail peak"
+      ],
+      "why_included": "Scorpio + dark/moody nail aesthetic is a perfect Pinterest cluster — evergreen dark nail content gets consistent saves. Oct–Nov birthday window doubles with Halloween nail traffic spike.",
+      "internal_links": {
+        "links_to": [
+          "zodiac-nails",
+          "astrology-nails",
+          "cancer-nails",
+          "pisces-nails"
+        ],
+        "receives_links_from": [
+          "zodiac-nails",
+          "astrology-nails",
+          "celestial-nails",
+          "cancer-nails"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 10,
+      "role": "spoke",
+      "title": "Sagittarius Nails: Adventurous Designs for the Fire Sign",
+      "slug": "sagittarius-nails",
+      "primary_keyword": "sagittarius nails",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Pinterest: 'sagittarius nails' boards active; bohemian/adventurous aesthetic crossover with travel nail art",
+        "TikTok + Google: Nov–Dec birthday window; holiday season overlap drives additional traffic"
+      ],
+      "why_included": "Bohemian/adventure aesthetic angle creates differentiated content. Birthday window hits during holiday season (Nov–Dec) — natural secondary traffic amplifier.",
+      "internal_links": {
+        "links_to": [
+          "zodiac-nails",
+          "astrology-nails",
+          "aries-nails",
+          "leo-nails"
+        ],
+        "receives_links_from": [
+          "zodiac-nails",
+          "astrology-nails",
+          "celestial-nails",
+          "aries-nails",
+          "leo-nails"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 11,
+      "role": "spoke",
+      "title": "Capricorn Nails: Classy Designs for the Most Ambitious Sign",
+      "slug": "capricorn-nails",
+      "primary_keyword": "capricorn nails",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Pinterest: 'capricorn nails' and 'boss nails' adjacent aesthetic; clean/elegant nail art is top performer",
+        "TikTok + Google: Dec–Jan birthday window aligns with New Year nail trends — double traffic event"
+      ],
+      "why_included": "Capricorn season overlaps with New Year (Jan 1) — creates a double traffic spike: birthday nails + New Year nail trends. Clean, elegant aesthetic is evergreen top-performer on Pinterest.",
+      "internal_links": {
+        "links_to": [
+          "zodiac-nails",
+          "astrology-nails",
+          "taurus-nails",
+          "virgo-nails"
+        ],
+        "receives_links_from": [
+          "zodiac-nails",
+          "astrology-nails",
+          "celestial-nails",
+          "taurus-nails",
+          "virgo-nails"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 12,
+      "role": "spoke",
+      "title": "Aquarius Nails: Edgy & Futuristic Designs for the Trendsetter",
+      "slug": "aquarius-nails",
+      "primary_keyword": "aquarius nails",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Pinterest: 'aquarius nails' boards active; futuristic/metallic nail aesthetic aligns with Aquarius trendsetter framing",
+        "TikTok: #aquariusnails content; Jan–Feb window; 'futuristic nails' crossover trend confirmed in TikTok trend data"
+      ],
+      "why_included": "Aquarius = trendsetter framing creates strong content hook. Futuristic/metallic nail aesthetic is a confirmed TikTok trend (aura nails, chrome nails). Jan–Feb birthday window.",
+      "internal_links": {
+        "links_to": [
+          "zodiac-nails",
+          "astrology-nails",
+          "gemini-nails",
+          "libra-nails"
+        ],
+        "receives_links_from": [
+          "zodiac-nails",
+          "astrology-nails",
+          "celestial-nails",
+          "gemini-nails",
+          "libra-nails"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 13,
+      "role": "spoke",
+      "title": "Pisces Nails: Dreamy Mermaid Designs for the Water Sign",
+      "slug": "pisces-nails",
+      "primary_keyword": "pisces nails",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Pinterest: 'pisces nails mermaid' is a specific search variant with populated boards; pastel + mermaid aesthetic is top-saving nail category",
+        "TikTok: #piscesnails content; Feb–Mar birthday window; mermaidcore mega-trend overlap confirmed"
+      ],
+      "why_included": "Mermaid + pastel aesthetic is one of the highest-converting Pinterest nail categories. Mermaidcore is a confirmed mega-trend with 1.7M+ TikTok views. Feb–Mar birthday window.",
+      "internal_links": {
+        "links_to": [
+          "zodiac-nails",
+          "astrology-nails",
+          "cancer-nails",
+          "scorpio-nails"
+        ],
+        "receives_links_from": [
+          "zodiac-nails",
+          "astrology-nails",
+          "celestial-nails",
+          "cancer-nails",
+          "scorpio-nails"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 14,
+      "role": "spoke",
+      "title": "Celestial Nails: Moon, Stars & Cosmic Nail Art Ideas",
+      "slug": "celestial-nails",
+      "primary_keyword": "celestial nails",
+      "intent": "informational",
+      "search_demand_signals": [
+        "Pinterest: 'celestial nail art' has massive board volume; moon and star nail designs are evergreen top-savers",
+        "TikTok: cosmic nail art trend active; Google PAA: 'what are celestial nails', 'moon and star nail designs'"
+      ],
+      "why_included": "Umbrella informational term that captures non-sign-specific searchers interested in cosmic aesthetics. Bridges zodiac nails to the broader astrology/celestial nail universe. Evergreen high-volume Pinterest category.",
+      "internal_links": {
+        "links_to": [
+          "zodiac-nails",
+          "aries-nails",
+          "taurus-nails",
+          "gemini-nails",
+          "cancer-nails",
+          "leo-nails",
+          "virgo-nails",
+          "libra-nails",
+          "scorpio-nails",
+          "sagittarius-nails",
+          "capricorn-nails",
+          "aquarius-nails",
+          "pisces-nails",
+          "astrology-nails"
+        ],
+        "receives_links_from": [
+          "zodiac-nails",
+          "astrology-nails"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 15,
+      "role": "spoke",
+      "title": "Astrology Nails: What Your Birth Chart Says About Your Perfect Manicure",
+      "slug": "astrology-nails",
+      "primary_keyword": "astrology nails",
+      "intent": "informational",
+      "search_demand_signals": [
+        "Google autocomplete + PAA: 'astrology nails' returns dedicated results; Bustle, LoveToKnow, LooksLikeCandy ranking for this term",
+        "Pinterest: 'astrology themed nails' and 'astrology manicure' boards active with saves"
+      ],
+      "why_included": "Second major umbrella keyword capturing a different searcher intent — birth chart / personality angle vs. the visual design angle of the pillar. Existing editorial coverage confirms search demand.",
+      "internal_links": {
+        "links_to": [
+          "zodiac-nails",
+          "aries-nails",
+          "taurus-nails",
+          "gemini-nails",
+          "cancer-nails",
+          "leo-nails",
+          "virgo-nails",
+          "libra-nails",
+          "scorpio-nails",
+          "sagittarius-nails",
+          "capricorn-nails",
+          "aquarius-nails",
+          "pisces-nails",
+          "celestial-nails"
+        ],
+        "receives_links_from": [
+          "zodiac-nails",
+          "aries-nails",
+          "taurus-nails",
+          "gemini-nails",
+          "cancer-nails",
+          "leo-nails",
+          "virgo-nails",
+          "libra-nails",
+          "scorpio-nails",
+          "sagittarius-nails",
+          "capricorn-nails",
+          "aquarius-nails",
+          "pisces-nails",
+          "celestial-nails"
+        ]
+      },
+      "status": "approved"
+    }
+  ],
+
+  "keyword_ownership_registry": {
+    "description": "Master list of all primary keywords — one per post, no overlaps",
+    "entries": [
+      { "primary_keyword": "zodiac nails", "owned_by_slug": "zodiac-nails", "owned_by_title": "Zodiac Nails: The Ultimate Guide to Nail Designs for Every Sign" },
+      { "primary_keyword": "aries nails", "owned_by_slug": "aries-nails", "owned_by_title": "Aries Nails: Bold Designs for the Fire Sign" },
+      { "primary_keyword": "taurus nails", "owned_by_slug": "taurus-nails", "owned_by_title": "Taurus Nails: Elegant & Earthy Nail Ideas for Your Sign" },
+      { "primary_keyword": "gemini nails", "owned_by_slug": "gemini-nails", "owned_by_title": "Gemini Nails: Creative Dual-Tone Designs for the Air Sign" },
+      { "primary_keyword": "cancer nails", "owned_by_slug": "cancer-nails", "owned_by_title": "Cancer Nails: Dreamy Designs for the Water Sign" },
+      { "primary_keyword": "leo nails", "owned_by_slug": "leo-nails", "owned_by_title": "Leo Nails: Glamorous Designs for the Most Dramatic Sign" },
+      { "primary_keyword": "virgo nails", "owned_by_slug": "virgo-nails", "owned_by_title": "Virgo Nails: Minimalist Designs for the Detail-Obsessed Sign" },
+      { "primary_keyword": "libra nails", "owned_by_slug": "libra-nails", "owned_by_title": "Libra Nails: Balanced & Beautiful Designs for Your Sign" },
+      { "primary_keyword": "scorpio nails", "owned_by_slug": "scorpio-nails", "owned_by_title": "Scorpio Nails: Dark & Mysterious Designs for the Water Sign" },
+      { "primary_keyword": "sagittarius nails", "owned_by_slug": "sagittarius-nails", "owned_by_title": "Sagittarius Nails: Adventurous Designs for the Fire Sign" },
+      { "primary_keyword": "capricorn nails", "owned_by_slug": "capricorn-nails", "owned_by_title": "Capricorn Nails: Classy Designs for the Most Ambitious Sign" },
+      { "primary_keyword": "aquarius nails", "owned_by_slug": "aquarius-nails", "owned_by_title": "Aquarius Nails: Edgy & Futuristic Designs for the Trendsetter" },
+      { "primary_keyword": "pisces nails", "owned_by_slug": "pisces-nails", "owned_by_title": "Pisces Nails: Dreamy Mermaid Designs for the Water Sign" },
+      { "primary_keyword": "celestial nails", "owned_by_slug": "celestial-nails", "owned_by_title": "Celestial Nails: Moon, Stars & Cosmic Nail Art Ideas" },
+      { "primary_keyword": "astrology nails", "owned_by_slug": "astrology-nails", "owned_by_title": "Astrology Nails: What Your Birth Chart Says About Your Perfect Manicure" }
+    ]
+  },
+
+  "merged_posts_log": [
+    {
+      "original_topics": ["zodiac nail colors by sign", "zodiac nail polish"],
+      "merged_into": "Zodiac Nails: The Ultimate Guide to Nail Designs for Every Sign",
+      "reason": "Too close to the pillar umbrella keyword — no distinct search intent separating them from 'zodiac nails'"
+    },
+    {
+      "original_topics": ["constellation nails"],
+      "merged_into": "Celestial Nails: Moon, Stars & Cosmic Nail Art Ideas",
+      "reason": "No separate demand signal distinct from 'celestial nails'; constellation design coverage fits naturally within the celestial umbrella post"
+    }
+  ],
+
+  "killed_posts_log": [
+    {
+      "topic": "fire sign nails",
+      "reason": "Only 1 demand source (Pinterest); fully covered by Aries, Leo, and Sagittarius individual posts — no incremental traffic opportunity"
+    },
+    {
+      "topic": "water sign nails",
+      "reason": "Same issue as fire sign nails — only 1 demand source; fully covered by Cancer, Scorpio, and Pisces individual posts"
+    },
+    {
+      "topic": "zodiac nail tutorial",
+      "reason": "Tutorial intent excluded by scope — cluster is informational and inspirational only per user direction"
+    }
+  ]
+}
