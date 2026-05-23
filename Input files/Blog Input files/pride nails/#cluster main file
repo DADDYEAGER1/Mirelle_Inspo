@@ -1,0 +1,743 @@
+{
+  "cluster": {
+    "name": "Pride Nails",
+    "total_posts": 35,
+    "phases": 2,
+    "description": "Full topical authority cluster for pride nails. Every post links to its parent, siblings, and children. Internal linking is bidirectional — spokes link up to pillars, pillars link down to spokes."
+  },
+
+  "posts": [
+
+    {
+      "id": "P01",
+      "title": "Pride Month Nails: 50+ Ideas to Celebrate in June 2026",
+      "slug": "pride-month-nails",
+      "primary_keyword": "pride month nails",
+      "tier": "MAIN PILLAR",
+      "phase": 1,
+      "intent": "Inspirational",
+      "parent": null,
+      "children": [
+        "P02", "P03", "P04", "P05", "P06", "P07", "P08",
+        "P09", "P10", "P11", "P12",
+        "P13", "P17", "P21", "P25"
+      ],
+      "siblings": [],
+      "links_to": [
+        "P02", "P03", "P04", "P05", "P06", "P07", "P08",
+        "P09", "P10", "P11", "P12",
+        "P13", "P17", "P21", "P25"
+      ],
+      "anchor_text_variations": [
+        "pride month nails",
+        "pride nail ideas",
+        "nails for pride month",
+        "pride manicure ideas"
+      ]
+    },
+
+    {
+      "id": "P02",
+      "title": "Rainbow Nails for Pride: Bold Designs for Parade Season",
+      "slug": "rainbow-nails-pride",
+      "primary_keyword": "rainbow nails pride",
+      "tier": "SPOKE",
+      "phase": 1,
+      "intent": "Inspirational",
+      "parent": "P01",
+      "children": [],
+      "siblings": ["P03", "P04", "P05", "P06", "P07", "P08", "P09", "P10", "P11", "P12"],
+      "links_to": ["P01", "P03", "P05", "P09", "P10", "P11", "P12"],
+      "anchor_text_variations": [
+        "rainbow pride nails",
+        "rainbow nails for pride",
+        "rainbow nail designs",
+        "pride parade nails"
+      ]
+    },
+
+    {
+      "id": "P03",
+      "title": "How to Do Pride Nails at Home: Step-by-Step Tutorial",
+      "slug": "how-to-do-pride-nails-at-home",
+      "primary_keyword": "how to do pride nails at home",
+      "tier": "SPOKE",
+      "phase": 1,
+      "intent": "Tutorial",
+      "parent": "P01",
+      "children": [],
+      "siblings": ["P02", "P04", "P05", "P06", "P07", "P08", "P09", "P10", "P11", "P12"],
+      "links_to": ["P01", "P02", "P06", "P09", "P10", "P11", "P12"],
+      "anchor_text_variations": [
+        "how to do pride nails",
+        "DIY pride nails",
+        "pride nails tutorial",
+        "pride nails at home"
+      ]
+    },
+
+    {
+      "id": "P04",
+      "title": "Pride Flag Nails: Designs for Every Identity",
+      "slug": "pride-flag-nails",
+      "primary_keyword": "pride flag nails",
+      "tier": "SPOKE",
+      "phase": 1,
+      "intent": "Informational",
+      "parent": "P01",
+      "children": [],
+      "siblings": ["P02", "P03", "P05", "P06", "P07", "P08", "P09", "P10", "P11", "P12"],
+      "links_to": ["P01", "P13", "P17", "P21", "P25", "P02", "P05"],
+      "anchor_text_variations": [
+        "pride flag nails",
+        "pride flag nail designs",
+        "nails for every pride flag",
+        "LGBTQ flag nail art"
+      ]
+    },
+
+    {
+      "id": "P05",
+      "title": "Subtle Pride Nails: Minimalist Looks for Work and Everyday",
+      "slug": "subtle-pride-nails",
+      "primary_keyword": "subtle pride nails",
+      "tier": "SPOKE",
+      "phase": 1,
+      "intent": "Informational",
+      "parent": "P01",
+      "children": [],
+      "siblings": ["P02", "P03", "P04", "P06", "P07", "P08", "P09", "P10", "P11", "P12"],
+      "links_to": ["P01", "P04", "P07", "P16", "P20", "P24", "P28"],
+      "anchor_text_variations": [
+        "subtle pride nails",
+        "minimalist pride nails",
+        "low key pride nails",
+        "discreet pride nails"
+      ]
+    },
+
+    {
+      "id": "P06",
+      "title": "Best Pride Nail Polish Sets to Buy in 2026",
+      "slug": "best-pride-nail-polish-sets",
+      "primary_keyword": "best pride nail polish",
+      "tier": "SPOKE",
+      "phase": 1,
+      "intent": "Transactional",
+      "parent": "P01",
+      "children": [],
+      "siblings": ["P02", "P03", "P04", "P05", "P07", "P08", "P09", "P10", "P11", "P12"],
+      "links_to": ["P01", "P03", "P12", "P02", "P07"],
+      "anchor_text_variations": [
+        "pride nail polish sets",
+        "best pride nail polish",
+        "nail polish for pride",
+        "pride collection nail polish"
+      ]
+    },
+
+    {
+      "id": "P07",
+      "title": "Pride Nail Trends 2026: What's New This Year",
+      "slug": "pride-nail-trends-2026",
+      "primary_keyword": "pride nail trends 2026",
+      "tier": "SPOKE",
+      "phase": 1,
+      "intent": "Seasonal Trend",
+      "parent": "P01",
+      "children": [],
+      "siblings": ["P02", "P03", "P04", "P05", "P06", "P08", "P09", "P10", "P11", "P12"],
+      "links_to": ["P01", "P02", "P09", "P10", "P11", "P12", "P05"],
+      "anchor_text_variations": [
+        "pride nail trends 2026",
+        "pride nails 2026",
+        "latest pride nail ideas",
+        "trending pride nails"
+      ]
+    },
+
+    {
+      "id": "P08",
+      "title": "Pride Press-On Nails: Best Sets to Buy and How to Apply",
+      "slug": "pride-press-on-nails",
+      "primary_keyword": "pride press on nails",
+      "tier": "SPOKE",
+      "phase": 1,
+      "intent": "Transactional + Tutorial",
+      "parent": "P01",
+      "children": [],
+      "siblings": ["P02", "P03", "P04", "P05", "P06", "P07", "P09", "P10", "P11", "P12"],
+      "links_to": ["P01", "P06", "P03", "P07", "P02"],
+      "anchor_text_variations": [
+        "pride press on nails",
+        "press on nails for pride",
+        "pride nail sets",
+        "press on pride nails"
+      ]
+    },
+
+    {
+      "id": "P09",
+      "title": "Pride Nails Almond Shape: Ideas and Inspo",
+      "slug": "pride-nails-almond",
+      "primary_keyword": "pride nails almond",
+      "tier": "SPOKE",
+      "phase": 1,
+      "intent": "Inspirational",
+      "parent": "P01",
+      "children": [],
+      "siblings": ["P10", "P11", "P12", "P02", "P03", "P04", "P05", "P06", "P07", "P08"],
+      "links_to": ["P01", "P10", "P11", "P12", "P18", "P22", "P02", "P07"],
+      "anchor_text_variations": [
+        "pride nails almond shape",
+        "almond pride nails",
+        "pride almond nail ideas",
+        "almond shaped pride nails"
+      ]
+    },
+
+    {
+      "id": "P10",
+      "title": "Pride Nails Coffin Shape: Bold Designs to Try",
+      "slug": "pride-nails-coffin",
+      "primary_keyword": "pride nails coffin",
+      "tier": "SPOKE",
+      "phase": 1,
+      "intent": "Inspirational",
+      "parent": "P01",
+      "children": [],
+      "siblings": ["P09", "P11", "P12", "P02", "P03", "P04", "P05", "P06", "P07", "P08"],
+      "links_to": ["P01", "P09", "P11", "P12", "P02", "P07", "P13"],
+      "anchor_text_variations": [
+        "pride nails coffin shape",
+        "coffin pride nails",
+        "pride coffin nail ideas",
+        "coffin shaped pride nails"
+      ]
+    },
+
+    {
+      "id": "P11",
+      "title": "Pride French Tip Nails: Classic Style with a Rainbow Twist",
+      "slug": "pride-french-tip-nails",
+      "primary_keyword": "pride french tip nails",
+      "tier": "SPOKE",
+      "phase": 1,
+      "intent": "Inspirational",
+      "parent": "P01",
+      "children": [],
+      "siblings": ["P09", "P10", "P12", "P02", "P03", "P04", "P05", "P06", "P07", "P08"],
+      "links_to": ["P01", "P09", "P10", "P12", "P02", "P05", "P03"],
+      "anchor_text_variations": [
+        "pride french tip nails",
+        "rainbow french tips",
+        "pride french manicure",
+        "french tip pride nails"
+      ]
+    },
+
+    {
+      "id": "P12",
+      "title": "Pride Acrylic Nails: Best Designs for Long-Lasting Wear",
+      "slug": "pride-acrylic-nails",
+      "primary_keyword": "pride acrylic nails",
+      "tier": "SPOKE",
+      "phase": 1,
+      "intent": "Inspirational",
+      "parent": "P01",
+      "children": [],
+      "siblings": ["P09", "P10", "P11", "P02", "P03", "P04", "P05", "P06", "P07", "P08"],
+      "links_to": ["P01", "P09", "P10", "P11", "P06", "P08", "P03"],
+      "anchor_text_variations": [
+        "pride acrylic nails",
+        "acrylic nails for pride",
+        "pride nail acrylics",
+        "gay acrylic nails"
+      ]
+    },
+
+    {
+      "id": "P13",
+      "title": "Lesbian Nails: Ideas, Designs, and Inspo for WLW",
+      "slug": "lesbian-nails",
+      "primary_keyword": "lesbian nails",
+      "tier": "IDENTITY SUB-PILLAR",
+      "phase": 1,
+      "intent": "Inspirational",
+      "parent": "P01",
+      "children": ["P14", "P15", "P16", "P17", "P18", "P19", "P20"],
+      "siblings": ["P17", "P21", "P25"],
+      "links_to": ["P01", "P04", "P14", "P15", "P16", "P17", "P21", "P25", "P09", "P10"],
+      "anchor_text_variations": [
+        "lesbian nails",
+        "lesbian nail designs",
+        "WLW nails",
+        "nails for lesbians"
+      ]
+    },
+
+    {
+      "id": "P14",
+      "title": "Two Short Nails Lesbian: Meaning, History, and Designs",
+      "slug": "two-short-nails-lesbian",
+      "primary_keyword": "two short nails lesbian",
+      "tier": "IDENTITY SUB-SPOKE",
+      "phase": 1,
+      "intent": "Informational",
+      "parent": "P13",
+      "children": [],
+      "siblings": ["P15", "P16", "P18", "P19", "P20"],
+      "links_to": ["P13", "P01", "P15", "P16", "P04"],
+      "anchor_text_variations": [
+        "two short nails lesbian",
+        "lesbian two short nails meaning",
+        "short nails lesbian",
+        "two nails short lesbian"
+      ]
+    },
+
+    {
+      "id": "P15",
+      "title": "Lesbian Flag Nail Designs: Colors and Ideas",
+      "slug": "lesbian-flag-nails",
+      "primary_keyword": "lesbian flag nails",
+      "tier": "IDENTITY SUB-SPOKE",
+      "phase": 1,
+      "intent": "Inspirational",
+      "parent": "P13",
+      "children": [],
+      "siblings": ["P14", "P16", "P18", "P19", "P20"],
+      "links_to": ["P13", "P01", "P04", "P14", "P11"],
+      "anchor_text_variations": [
+        "lesbian flag nails",
+        "lesbian pride flag nail art",
+        "lesbian flag nail designs",
+        "lesbian colors nails"
+      ]
+    },
+
+    {
+      "id": "P16",
+      "title": "Subtle Lesbian Nails: Low-Key Designs for Everyday",
+      "slug": "subtle-lesbian-nails",
+      "primary_keyword": "subtle lesbian nails",
+      "tier": "IDENTITY SUB-SPOKE",
+      "phase": 2,
+      "intent": "Informational",
+      "parent": "P13",
+      "children": [],
+      "siblings": ["P14", "P15", "P18", "P19", "P20"],
+      "links_to": ["P13", "P05", "P01", "P14", "P15"],
+      "anchor_text_variations": [
+        "subtle lesbian nails",
+        "discreet lesbian nails",
+        "low key lesbian nails",
+        "quiet pride lesbian nails"
+      ]
+    },
+
+    {
+      "id": "P17",
+      "title": "Bisexual Nails: Ideas and Designs for Bi Pride",
+      "slug": "bisexual-nails",
+      "primary_keyword": "bisexual nails",
+      "tier": "IDENTITY SUB-PILLAR",
+      "phase": 1,
+      "intent": "Inspirational",
+      "parent": "P01",
+      "children": ["P18", "P19", "P20"],
+      "siblings": ["P13", "P21", "P25"],
+      "links_to": ["P01", "P04", "P18", "P19", "P20", "P13", "P21", "P25"],
+      "anchor_text_variations": [
+        "bisexual nails",
+        "bi pride nails",
+        "bisexual nail designs",
+        "bi nails"
+      ]
+    },
+
+    {
+      "id": "P18",
+      "title": "Bisexual Nails Almond Shape: Pink, Purple, and Blue Designs",
+      "slug": "bisexual-nails-almond",
+      "primary_keyword": "bisexual nails almond",
+      "tier": "IDENTITY SUB-SPOKE",
+      "phase": 2,
+      "intent": "Inspirational",
+      "parent": "P17",
+      "children": [],
+      "siblings": ["P19", "P20"],
+      "links_to": ["P17", "P01", "P09", "P19", "P20"],
+      "anchor_text_variations": [
+        "bisexual nails almond",
+        "bi nails almond shape",
+        "almond bisexual nail ideas",
+        "bi flag almond nails"
+      ]
+    },
+
+    {
+      "id": "P19",
+      "title": "Subtle Bisexual Nails: Discreet Bi Pride Designs",
+      "slug": "subtle-bisexual-nails",
+      "primary_keyword": "subtle bisexual nails",
+      "tier": "IDENTITY SUB-SPOKE",
+      "phase": 2,
+      "intent": "Informational",
+      "parent": "P17",
+      "children": [],
+      "siblings": ["P18", "P20"],
+      "links_to": ["P17", "P05", "P01", "P18", "P20"],
+      "anchor_text_variations": [
+        "subtle bisexual nails",
+        "discreet bi nails",
+        "low key bisexual nails",
+        "quiet bi pride nails"
+      ]
+    },
+
+    {
+      "id": "P20",
+      "title": "Bi Flag Ombre Nails: Gradient Designs in Pink, Purple, and Blue",
+      "slug": "bi-flag-ombre-nails",
+      "primary_keyword": "bi flag ombre nails",
+      "tier": "IDENTITY SUB-SPOKE",
+      "phase": 2,
+      "intent": "Inspirational",
+      "parent": "P17",
+      "children": [],
+      "siblings": ["P18", "P19"],
+      "links_to": ["P17", "P01", "P04", "P18", "P19", "P03"],
+      "anchor_text_variations": [
+        "bi flag ombre nails",
+        "bisexual ombre nails",
+        "bi gradient nails",
+        "pink purple blue ombre nails"
+      ]
+    },
+
+    {
+      "id": "P21",
+      "title": "Trans Nails: Designs Celebrating Transgender Pride",
+      "slug": "trans-nails",
+      "primary_keyword": "trans nails",
+      "tier": "IDENTITY SUB-PILLAR",
+      "phase": 1,
+      "intent": "Inspirational",
+      "parent": "P01",
+      "children": ["P22", "P23", "P24"],
+      "siblings": ["P13", "P17", "P25"],
+      "links_to": ["P01", "P04", "P22", "P23", "P24", "P13", "P17", "P25"],
+      "anchor_text_variations": [
+        "trans nails",
+        "transgender nails",
+        "trans pride nails",
+        "transgender nail art"
+      ]
+    },
+
+    {
+      "id": "P22",
+      "title": "Trans Flag Nail Designs: Blue, Pink, and White Ideas",
+      "slug": "trans-flag-nails",
+      "primary_keyword": "trans flag nails",
+      "tier": "IDENTITY SUB-SPOKE",
+      "phase": 1,
+      "intent": "Inspirational",
+      "parent": "P21",
+      "children": [],
+      "siblings": ["P23", "P24"],
+      "links_to": ["P21", "P01", "P04", "P23", "P09", "P11"],
+      "anchor_text_variations": [
+        "trans flag nails",
+        "transgender flag nail art",
+        "trans pride flag nails",
+        "blue pink white pride nails"
+      ]
+    },
+
+    {
+      "id": "P23",
+      "title": "Trans Nails Acrylic: Long-Wear Designs for Trans Pride",
+      "slug": "trans-acrylic-nails",
+      "primary_keyword": "trans acrylic nails",
+      "tier": "IDENTITY SUB-SPOKE",
+      "phase": 2,
+      "intent": "Inspirational",
+      "parent": "P21",
+      "children": [],
+      "siblings": ["P22", "P24"],
+      "links_to": ["P21", "P12", "P01", "P22", "P24"],
+      "anchor_text_variations": [
+        "trans acrylic nails",
+        "transgender acrylic nail designs",
+        "trans nails acrylic",
+        "trans pride acrylics"
+      ]
+    },
+
+    {
+      "id": "P24",
+      "title": "Subtle Trans Nails: Quiet Pride Designs for Everyday",
+      "slug": "subtle-trans-nails",
+      "primary_keyword": "subtle trans nails",
+      "tier": "IDENTITY SUB-SPOKE",
+      "phase": 2,
+      "intent": "Informational",
+      "parent": "P21",
+      "children": [],
+      "siblings": ["P22", "P23"],
+      "links_to": ["P21", "P05", "P01", "P22", "P23"],
+      "anchor_text_variations": [
+        "subtle trans nails",
+        "discreet trans nails",
+        "low key trans pride nails",
+        "minimalist trans nails"
+      ]
+    },
+
+    {
+      "id": "P25",
+      "title": "Nonbinary Nails: Designs for Nonbinary and Pansexual Pride",
+      "slug": "nonbinary-nails",
+      "primary_keyword": "nonbinary nails",
+      "tier": "IDENTITY SUB-PILLAR",
+      "phase": 1,
+      "intent": "Inspirational",
+      "parent": "P01",
+      "children": ["P26", "P27", "P28"],
+      "siblings": ["P13", "P17", "P21"],
+      "links_to": ["P01", "P04", "P26", "P27", "P28", "P13", "P17", "P21"],
+      "anchor_text_variations": [
+        "nonbinary nails",
+        "non binary nail designs",
+        "enby nails",
+        "nonbinary pride nails"
+      ]
+    },
+
+    {
+      "id": "P26",
+      "title": "Nonbinary Flag Nails: Yellow, White, Purple, and Black Designs",
+      "slug": "nonbinary-flag-nails",
+      "primary_keyword": "nonbinary flag nails",
+      "tier": "IDENTITY SUB-SPOKE",
+      "phase": 2,
+      "intent": "Inspirational",
+      "parent": "P25",
+      "children": [],
+      "siblings": ["P27", "P28"],
+      "links_to": ["P25", "P01", "P04", "P27", "P28"],
+      "anchor_text_variations": [
+        "nonbinary flag nails",
+        "enby flag nail art",
+        "nonbinary pride flag nails",
+        "yellow white purple black nails"
+      ]
+    },
+
+    {
+      "id": "P27",
+      "title": "Pansexual Nails: Pink, Yellow, and Blue Pride Designs",
+      "slug": "pansexual-nails",
+      "primary_keyword": "pansexual nails",
+      "tier": "IDENTITY SUB-SPOKE",
+      "phase": 2,
+      "intent": "Inspirational",
+      "parent": "P25",
+      "children": [],
+      "siblings": ["P26", "P28"],
+      "links_to": ["P25", "P01", "P04", "P17", "P26", "P28"],
+      "anchor_text_variations": [
+        "pansexual nails",
+        "pan pride nails",
+        "pansexual nail designs",
+        "pan flag nails"
+      ]
+    },
+
+    {
+      "id": "P28",
+      "title": "Subtle Nonbinary Nails: Minimalist Enby Pride Designs",
+      "slug": "subtle-nonbinary-nails",
+      "primary_keyword": "subtle nonbinary nails",
+      "tier": "IDENTITY SUB-SPOKE",
+      "phase": 2,
+      "intent": "Informational",
+      "parent": "P25",
+      "children": [],
+      "siblings": ["P26", "P27"],
+      "links_to": ["P25", "P05", "P01", "P26", "P27"],
+      "anchor_text_variations": [
+        "subtle nonbinary nails",
+        "discreet nonbinary nails",
+        "minimalist enby nails",
+        "quiet pride nonbinary nails"
+      ]
+    },
+
+    {
+      "id": "P29",
+      "title": "Lesbian Nails Short: Cute Short Nail Designs for WLW",
+      "slug": "lesbian-nails-short",
+      "primary_keyword": "lesbian nails short",
+      "tier": "IDENTITY SUB-SPOKE",
+      "phase": 2,
+      "intent": "Inspirational",
+      "parent": "P13",
+      "children": [],
+      "siblings": ["P14", "P15", "P16", "P18", "P19", "P20"],
+      "links_to": ["P13", "P01", "P14", "P15", "P10", "P09"],
+      "anchor_text_variations": [
+        "lesbian nails short",
+        "short nails for lesbians",
+        "lesbian short nail designs",
+        "WLW short nails"
+      ]
+    },
+
+    {
+      "id": "P30",
+      "title": "Lesbian Acrylic Nails: Bold Long Sets for WLW",
+      "slug": "lesbian-acrylic-nails",
+      "primary_keyword": "lesbian acrylic nails",
+      "tier": "IDENTITY SUB-SPOKE",
+      "phase": 2,
+      "intent": "Inspirational",
+      "parent": "P13",
+      "children": [],
+      "siblings": ["P14", "P15", "P16", "P29"],
+      "links_to": ["P13", "P12", "P01", "P14", "P15", "P10"],
+      "anchor_text_variations": [
+        "lesbian acrylic nails",
+        "acrylic nails for lesbians",
+        "WLW acrylic nails",
+        "lesbian long nails"
+      ]
+    },
+
+    {
+      "id": "P31",
+      "title": "Masc Lesbian Nails: Short, Bold, and Androgynous Designs",
+      "slug": "masc-lesbian-nails",
+      "primary_keyword": "masc lesbian nails",
+      "tier": "IDENTITY SUB-SPOKE",
+      "phase": 2,
+      "intent": "Inspirational",
+      "parent": "P13",
+      "children": [],
+      "siblings": ["P14", "P15", "P16", "P29", "P30"],
+      "links_to": ["P13", "P01", "P14", "P29", "P05"],
+      "anchor_text_variations": [
+        "masc lesbian nails",
+        "butch nails",
+        "androgynous pride nails",
+        "masc nails lesbian"
+      ]
+    },
+
+    {
+      "id": "P32",
+      "title": "Pride Nails Short: Cute Designs That Work on Short Nails",
+      "slug": "pride-nails-short",
+      "primary_keyword": "pride nails short nails",
+      "tier": "SPOKE",
+      "phase": 2,
+      "intent": "Inspirational",
+      "parent": "P01",
+      "children": [],
+      "siblings": ["P09", "P10", "P11", "P12"],
+      "links_to": ["P01", "P09", "P11", "P14", "P29", "P05", "P02"],
+      "anchor_text_variations": [
+        "pride nails short nails",
+        "short pride nail designs",
+        "pride nails for short nails",
+        "cute short pride nails"
+      ]
+    },
+
+    {
+      "id": "P33",
+      "title": "Rainbow Ombre Nails for Pride: Gradient Designs from Pastel to Neon",
+      "slug": "rainbow-ombre-nails-pride",
+      "primary_keyword": "rainbow ombre nails pride",
+      "tier": "SPOKE",
+      "phase": 2,
+      "intent": "Inspirational",
+      "parent": "P01",
+      "children": [],
+      "siblings": ["P02", "P09", "P10", "P11", "P12"],
+      "links_to": ["P01", "P02", "P09", "P10", "P20", "P03"],
+      "anchor_text_variations": [
+        "rainbow ombre nails pride",
+        "rainbow gradient pride nails",
+        "ombre pride nails",
+        "pride ombre nail designs"
+      ]
+    },
+
+    {
+      "id": "P34",
+      "title": "Gay Nails: Designs, Colors, and Ideas for the LGBTQ+ Community",
+      "slug": "gay-nails",
+      "primary_keyword": "gay nails",
+      "tier": "SPOKE",
+      "phase": 2,
+      "intent": "Inspirational",
+      "parent": "P01",
+      "children": [],
+      "siblings": ["P02", "P03", "P04", "P05", "P06", "P07", "P08"],
+      "links_to": ["P01", "P13", "P17", "P21", "P25", "P04", "P02", "P07"],
+      "anchor_text_variations": [
+        "gay nails",
+        "gay nail designs",
+        "LGBTQ nails",
+        "queer nail art"
+      ]
+    },
+
+    {
+      "id": "P35",
+      "title": "Pride Gel Nails: Long-Lasting Designs for June and Beyond",
+      "slug": "pride-gel-nails",
+      "primary_keyword": "pride gel nails",
+      "tier": "SPOKE",
+      "phase": 2,
+      "intent": "Inspirational",
+      "parent": "P01",
+      "children": [],
+      "siblings": ["P12", "P08", "P06", "P09", "P10", "P11"],
+      "links_to": ["P01", "P12", "P06", "P08", "P03", "P02", "P07"],
+      "anchor_text_variations": [
+        "pride gel nails",
+        "gel nails for pride",
+        "pride month gel manicure",
+        "gel nail pride designs"
+      ]
+    }
+
+  ],
+
+  "phase_summary": {
+    "phase_1": {
+      "total_posts": 17,
+      "post_ids": ["P01","P02","P03","P04","P05","P06","P07","P08","P09","P10","P11","P12","P13","P14","P15","P17","P21","P22","P25"],
+      "goal": "Capture June seasonal traffic. Establish topical authority on main pillar + all identity sub-pillars."
+    },
+    "phase_2": {
+      "total_posts": 16,
+      "post_ids": ["P16","P18","P19","P20","P23","P24","P26","P27","P28","P29","P30","P31","P32","P33","P34","P35"],
+      "goal": "Evergreen depth. Capture long-tail, shape-specific, and identity sub-spoke searches year-round."
+    }
+  },
+
+  "linking_rules": {
+    "rule_1": "Every post must link UP to its parent at least once.",
+    "rule_2": "Every post must link to the main pillar (P01) at least once.",
+    "rule_3": "Every post must link to at least 2 siblings.",
+    "rule_4": "Sub-pillars (P13, P17, P21, P25) must link to each other cross-identity.",
+    "rule_5": "Shape/style posts (P09-P12, P32-P33, P35) must link to relevant identity posts where applicable.",
+    "rule_6": "Never use the same anchor text more than twice across the cluster for the same target post.",
+    "rule_7": "Phase 2 posts link to Phase 1 posts freely. Phase 1 posts add links to Phase 2 posts upon their publication."
+  }
+}
