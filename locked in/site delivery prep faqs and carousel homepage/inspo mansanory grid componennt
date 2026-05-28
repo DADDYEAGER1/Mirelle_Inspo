@@ -1,0 +1,66 @@
+// src/components/Homepage/InspoMasonryGrid.tsx
+import Image from 'next/image';
+import Link from 'next/link';
+import { DesignImage } from '@/types/inspo';
+
+interface InspoMasonryGridProps {
+  images: DesignImage[];
+}
+
+export default function InspoMasonryGrid({ images }: InspoMasonryGridProps) {
+  const desktopImages = images.slice(0, 10);
+  const mobileImages = images.slice(0, 6);
+
+  return (
+    <section className="bg-background pt-16 md:pt-24 pb-8">
+      <div className="max-w-7xl mx-auto px-6 md:px-12 mb-8">
+        <h2 className="font-heading text-3xl md:text-4xl text-foreground text-center">
+          NAIL ART INSPIRATION
+        </h2>
+      </div>
+      
+      <div className="hidden md:grid grid-cols-5 gap-[6px] max-w-7xl mx-auto px-6 md:px-12 mb-8">
+        {desktopImages.map((image, idx) => (
+          <div 
+            key={image.id}
+            className="relative w-full aspect-square overflow-hidden"
+          >
+            <Image
+              src={image.url}
+              alt={image.alt}
+              fill
+              className="object-cover hover:scale-105 transition-transform duration-300"
+              sizes="(max-width: 768px) 33vw, 20vw"
+            />
+          </div>
+        ))}
+      </div>
+      
+      <div className="md:hidden grid grid-cols-3 gap-[6px] px-6 mb-8">
+        {mobileImages.map((image) => (
+          <div 
+            key={image.id}
+            className="relative w-full aspect-square overflow-hidden"
+          >
+            <Image
+              src={image.url}
+              alt={image.alt}
+              fill
+              className="object-cover"
+              sizes="33vw"
+            />
+          </div>
+        ))}
+      </div>
+      
+      <div className="text-center">
+        <Link 
+          href="/inspo"
+          className="inline-block font-ui text-sm text-foreground hover:opacity-70 transition-opacity uppercase tracking-wider"
+        >
+          Explore Full Gallery →
+        </Link>
+      </div>
+    </section>
+  );
+}
