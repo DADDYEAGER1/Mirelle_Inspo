@@ -1,0 +1,358 @@
+# Mirellé EEAT Overhaul — Master Agent Prompt
+
+## WHO YOU ARE WORKING WITH
+
+You are working on **Mirellé Inspo** (`mirelleinspo.com`) — a Next.js 14 App Router editorial website focused on nail trends, inspo, and style curation. The site is run by two sisters who are nail trend researchers and content curators — NOT nail technicians or beauty professionals. All content positioning must reflect this honestly.
+
+**Tech stack:** Next.js 14 App Router, TypeScript, Tailwind CSS, MDX for content, `next-sitemap` for XML sitemap.
+
+**Contact:** team.mirelle@gmail.com  
+**Site:** mirelleinspo.com  
+**Stats (if real, use them):** 50K monthly readers, 1M weekly Pinterest views
+
+---
+
+## HOW TO WORK — STEP BY STEP
+
+At the start of every session, show the user this menu and ask what they want to work on today. Only do ONE task per session unless the user says otherwise.
+
+```
+What do you want to work on today?
+
+1. Rewrite AboutEEAT component (src/components/Blog/AboutEEAT.tsx)
+2. Rewrite About page (src/app/about/page.tsx)
+3. Rewrite Privacy Policy (src/app/privacy-policy/page.tsx)
+4. Rewrite Terms & Conditions (src/app/terms/page.tsx)
+5. Rewrite Work With Us (src/app/work-with-us/page.tsx)
+6. Build Author Card component (src/components/Blog/AuthorCard.tsx)
+7. Build Authors data file + author pages (src/app/authors/[slug]/page.tsx)
+8. Build Editorial Policy page (src/app/editorial-policy/page.tsx)
+9. Build Disclosures page (src/app/disclosures/page.tsx)
+10. Build Press page (src/app/press/page.tsx)
+11. Add author field to frontmatter + wire all routes to pull author dynamically
+12. Build Glossary system (src/app/glossary/[slug]/page.tsx)
+13. Fill /content/reports/ with first trend report
+
+Which number? Or tell me what you want to do.
+```
+
+Wait for the user to choose. Then execute only that task.
+
+---
+
+## CONTEXT — READ BEFORE DOING ANYTHING
+
+### Current Frontmatter Structure (sample from jelly-nails post)
+```yaml
+---
+slug: "jelly-nails"
+title: "Jelly Nails: The Complete Guide..."
+author: "Mirellé Team"   ← THIS NEEDS TO BE CHANGED to a real person slug
+category: "Nail Trends"
+topic: "jelly-nails"
+image: "/images/blog/..."
+date: "2026-05-30T09:00:00-05:00"
+dateModified: "2026-05-30"
+# ... rest of frontmatter
+---
+```
+
+### Current AboutEEAT Component — PROBLEMS
+Located at: `src/components/Blog/AboutEEAT.tsx`
+
+**Fake claims that must be removed:**
+- "team of experienced beauty editors and industry professionals"
+- "years of combined experience in beauty journalism"
+- "collaborate with licensed beauty professionals, dermatologists"
+- "personally tested and backed by expert opinion"
+
+**What Mirellé actually is:** A nail trend and inspo editorial. They research what the nail community is searching, pinning, and loving — and turn that into curated inspo, style guides, and trend content.
+
+### Current About Page — PROBLEMS
+Located at: `src/app/about/page.tsx`
+
+Same fake claims as above. Also links to routes that don't exist (`/trends`, `/tutorials`, `/products`). Needs full rewrite with honest positioning. Needs "Meet the Team" section added.
+
+### Authors
+There are exactly **2 authors**. Fill in real names/details when the user provides them. Until then use placeholders:
+
+**Author 1 (Primary):**
+- Name: [NAME_1] 
+- Role: Nail Trend Researcher & Editor
+- Focus: Trend reports, inspo, style guides
+- Bio: Researches nail trends across Pinterest, search data, and the nail community. Covers what people are searching, pinning, and wearing — and translates that into editorial content.
+
+**Author 2:**
+- Name: [NAME_2]
+- Role: Content Strategist & Researcher  
+- Focus: Business content, spotlights, market research
+- Bio: Tracks nail industry trends, salon culture, and audience insights. Covers the business and community side of the nail world.
+
+Ask the user for real names, headshot paths, and any other details before building author pages.
+
+### Author Card Component Rules
+- Shows at the **bottom of every post/page** — ABOVE the AboutEEAT section
+- Dynamic — pulls `author` slug from frontmatter
+- Shows: headshot, name, role title, 2–3 line bio, link to `/authors/[slug]`
+- One author per post only
+- Must match site's existing design system (font-heading, font-body, font-ui, bg-background, text-foreground, border-foreground/10)
+
+### Page Bottom Order (every blog, topic, FAQ, report, spotlight)
+```
+[Article content]
+[Author Card — who researched this]
+[About Mirellé — rewritten honest version]
+```
+
+---
+
+## TASK SPECIFICATIONS
+
+### Task 1 — Rewrite AboutEEAT Component
+**File:** `src/components/Blog/AboutEEAT.tsx`
+
+Rewrite with honest positioning. No fake claims. Should say something like:
+
+> Mirellé is an editorial platform dedicated to nail trends and inspo. We track what the nail community is searching, pinning, and loving — and turn that into curated style guides, trend breakdowns, and inspiration. Every piece is built on real research, not guesswork.
+
+Keep the link to `/about`. Keep the same design tokens. Short, honest, confident.
+
+---
+
+### Task 2 — Rewrite About Page
+**File:** `src/app/about/page.tsx`
+
+Full rewrite. Keep structure (sections, layout) but rewrite all copy. Rules:
+- Remove ALL fake claims
+- Remove links to `/trends`, `/tutorials`, `/products` — replace with real routes: `/blog`, `/inspo`, `/spotlight`, `/business`, `/content/reports`
+- Add "Meet the Team" section with both authors (use placeholders until user provides names/photos)
+- Honest positioning: trend research + curation editorial, NOT tutorials or professional testing
+- Keep stats (50K readers, 1M Pinterest) only if user confirms they are real
+- Keep Newsletter CTA, Collaborate CTA
+- Update metadata title/description to match honest positioning
+- Update JSON-LD schema
+
+---
+
+### Task 3 — Rewrite Privacy Policy
+**File:** `src/app/privacy-policy/page.tsx`
+
+The existing policy is actually solid and legally complete. Main things to fix:
+- Apply site design tokens (font-heading, font-body, font-ui, bg-background, text-foreground) — currently uses raw Tailwind gray classes
+- Update effective date to current year
+- Keep all legal sections intact — they are correct
+- Add link to `/disclosures` page in the advertising section
+
+---
+
+### Task 4 — Rewrite Terms & Conditions
+**File:** `src/app/terms/page.tsx`
+
+Same as Privacy Policy — legally solid, just needs:
+- Design tokens applied
+- Date updated
+- Remove "personally tested" language from affiliate section
+- Add link to `/disclosures` and `/editorial-policy`
+
+---
+
+### Task 5 — Rewrite Work With Us
+**File:** `src/app/work-with-us/page.tsx`
+
+This page is well structured. Issues:
+- Apply design tokens consistently (some sections use `bg-white` instead of `bg-background`)
+- The page promises things that may not exist yet (detailed analytics reports, creator portfolio listings) — soften language or confirm with user
+- Add clear CTA to `/editorial-policy` so collaborators can read editorial standards
+- Keep all sections, keep FAQ, keep JSON-LD
+
+---
+
+### Task 6 — Build Author Card Component
+**File:** `src/components/Blog/AuthorCard.tsx`
+
+```typescript
+// Props interface
+interface AuthorCardProps {
+  slug: string // matches author slug from frontmatter
+}
+```
+
+- Fetches author data from `src/data/authors.ts` (built in Task 7)
+- Shows: headshot (`<Image>`), name, role, short bio (2–3 lines), link to `/authors/[slug]`
+- Matches site design: font-heading for name, font-body for bio, font-ui for role tag and link
+- Border top `border-foreground/10`, padding consistent with site
+- If author slug not found, render nothing (graceful fallback)
+
+---
+
+### Task 7 — Build Authors Data + Author Pages
+**Files:**
+- `src/data/authors.ts` — author data array
+- `src/app/authors/page.tsx` — all authors listing
+- `src/app/authors/[slug]/page.tsx` — individual author page
+
+**Author data shape:**
+```typescript
+export interface Author {
+  slug: string
+  name: string
+  role: string
+  bio: string // short, 2–3 sentences
+  longBio: string // full bio for author page
+  image: string // path to headshot
+  pinterest?: string
+  instagram?: string
+  articleCount?: number // can be dynamic or manual
+}
+```
+
+**Individual author page should show:**
+- Headshot, name, role, full bio
+- Links to social profiles
+- List of their articles (query MDX files by author slug)
+- JSON-LD `Person` schema
+- Meta title: "[Name] — Nail Trend Researcher at Mirellé"
+
+Ask user for: real names, headshot image paths, social links, before generating.
+
+---
+
+### Task 8 — Build Editorial Policy Page
+**File:** `src/app/editorial-policy/page.tsx`
+
+This page explains how Mirellé works. Content should cover:
+
+1. **What Mirellé is** — trend research and curation editorial, not tutorials
+2. **How we research** — Pinterest trend tracking, search data, nail community monitoring
+3. **Who writes content** — named researchers (link to /authors)
+4. **Sponsored content** — clearly labeled, editorial independence maintained
+5. **Affiliate links** — disclosed, don't influence editorial decisions
+6. **Corrections policy** — how errors are corrected
+7. **Last reviewed date**
+
+Keep it honest. No claims about "expert panels" or "professional testing."
+
+---
+
+### Task 9 — Build Disclosures Page
+**File:** `src/app/disclosures/page.tsx`
+
+Required for FTC compliance (you have ads.txt + affiliate links). Should cover:
+
+1. **Affiliate disclosure** — earn commission on some links at no cost to reader
+2. **Advertising** — Google AdSense runs on the site
+3. **Sponsored content** — labeled when it appears
+4. **Pinterest** — some pins may be affiliated or sponsored
+5. Contact for questions: team.mirelle@gmail.com
+
+Short page. Plain language. Link from footer, privacy policy, and terms.
+
+---
+
+### Task 10 — Build Press Page
+**File:** `src/app/press/page.tsx`
+
+Simple page. Two states:
+
+**State A (no press yet):**
+- "Mirellé in the Press" heading
+- Short intro about the platform (stats, what it covers)
+- Press contact email
+- "Press kit available on request"
+- Note: "Features and mentions will be listed here as they are published"
+
+**State B (has press):**
+- Same as above but with a grid of mentions — publication name, article title, date, link
+
+Build with State A for now. Make it easy to add entries later via a data array.
+
+---
+
+### Task 11 — Author Frontmatter System
+**Goal:** Every content file has `author: real-person-slug` in frontmatter, and every route renders AuthorCard dynamically.
+
+Steps:
+1. Change `author: "Mirellé Team"` → `author: "author-slug"` across all MDX files
+2. Update blog, topic, FAQ, report, spotlight, work-nails page components to pass `author` from frontmatter into `<AuthorCard slug={author} />`
+3. AuthorCard renders above AboutEEAT section on every page
+
+Ask user which author slug to assign to existing posts before making bulk changes.
+
+---
+
+### Task 12 — Glossary System
+**Files:**
+- `src/content/glossary/[term].mdx` — content files
+- `src/app/glossary/page.tsx` — A–Z index page
+- `src/app/glossary/[slug]/page.tsx` — individual term page
+
+**Rules:**
+- Only create glossary pages for nail terms that have NO existing blog content
+- Each glossary page: 800–1500 words, not 150–300 (avoid thin content)
+- Structure per term: definition → how it works → who it's for → pros/cons → related nail styles → FAQ → links to related blog posts
+- Link every glossary term to relevant topic hub pages and blog clusters
+- Add `Article` and `DefinedTerm` JSON-LD schema per page
+- Glossary index is A–Z with search/filter
+
+Ask user to provide list of nail terms they want to cover before generating.
+
+---
+
+### Task 13 — Fill Reports Section
+**File:** `src/content/reports/[first-report].mdx`
+
+The route `/content/reports/` is built but empty. Create the first trend report.
+
+Suggested format:
+- Title: "Nail Trend Report: [Season] [Year]"
+- Sections: Top trending shapes, top trending styles, top trending colours, what's declining, what's emerging
+- Source: Pinterest data, Google Trends, Mirellé audience research
+- Original data where possible — this is what earns backlinks
+- Author: assign to one of the two authors
+- Add to reports index
+
+Ask user what data/trends they want the first report to cover.
+
+---
+
+## DESIGN SYSTEM RULES (apply to ALL new/rewritten pages)
+
+```
+Fonts:       font-heading, font-body, font-ui
+Colors:      bg-background, text-foreground, border-foreground/10
+Opacity:     text-foreground/70 for secondary text, /20 for dividers
+Hover:       hover:opacity-70 or hover:border-foreground/30
+Transitions: transition-opacity or transition-all
+Buttons:     bg-foreground text-background px-8 py-4 font-ui text-sm uppercase tracking-wider
+Links:       font-ui text-sm uppercase tracking-wide underline hover:no-underline
+Spacing:     py-20 sections, max-w-6xl or max-w-4xl mx-auto, px-6 sm:px-8 lg:px-12
+```
+
+Never use raw Tailwind color classes like `text-gray-800`, `bg-white`, `text-blue-600`. Always use design token classes above.
+
+---
+
+## WHAT NOT TO WRITE — EVER
+
+These phrases are banned from all pages:
+
+- "experienced beauty editors"
+- "industry professionals"
+- "years of combined experience in beauty journalism"
+- "collaborate with licensed beauty professionals or dermatologists"
+- "personally tested"
+- "thoroughly tested and evaluated"
+- "expert team actively responds"
+- "expert-driven content" (as a claim of nail expertise)
+- "backed by expert opinion"
+
+Replace all with honest equivalents about trend research, market analysis, curation, and audience insights.
+
+---
+
+## AFTER COMPLETING EACH TASK
+
+1. Show the complete file(s) ready to paste
+2. List exact file path(s)
+3. Note any frontmatter changes needed
+4. Ask: "Want to move to the next task or anything to adjust here?"
