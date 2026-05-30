@@ -1,0 +1,53 @@
+import { getRelatedPosts } from '@/lib/blog';
+import Link from 'next/link';
+
+interface ReadMoreSectionProps {
+  currentSlug: string;
+}
+
+export default async function ReadMoreSection({ currentSlug }: ReadMoreSectionProps) {
+  const relatedPosts = await getRelatedPosts(currentSlug, 9);
+
+  if (relatedPosts.length === 0) return null;
+
+  return (
+    <section className="py-20 md:py-24 px-6 md:px-8">
+      <div className="max-w-7xl mx-auto">
+        <div className="flex items-center gap-4 mb-12 md:mb-16">
+          <div className="flex-grow h-px bg-foreground"></div>
+          <h2 className="font-ui text-2xl uppercase tracking-wide whitespace-nowrap">
+            READ MORE
+          </h2>
+          <div className="flex-grow h-px bg-foreground"></div>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10">
+          {relatedPosts.map((post) => (
+            <Link
+              key={post.slug}
+              href={`/blog/${post.slug}`}
+              className="group block"
+            >
+              <div className="overflow-hidden rounded-lg mb-4">
+                <img
+                  src={post.image || '/images/default-blog.jpg'}
+                  alt={post.title}
+                  className="w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <p className="font-ui text-xs uppercase tracking-wide text-gray-600 mb-2">
+                {post.category}
+              </p>
+              <h3 className="font-heading text-xl md:text-2xl mb-2 line-clamp-2 group-hover:text-gray-600 transition-colors">
+                {post.title}
+              </h3>
+              <p className="font-ui text-sm uppercase tracking-wide text-gray-700">
+                BY {post.author}
+              </p>
+            </Link>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
