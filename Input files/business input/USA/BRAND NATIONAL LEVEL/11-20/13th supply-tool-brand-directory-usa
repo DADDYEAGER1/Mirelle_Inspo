@@ -265,4 +265,74 @@
       },
       {
         "question": "Our budget is limited. How do we know this is worth the investment?",
-        "answer": "That is a fair question and there is no promise that a single listing will change your distribution overnight. What we can say clearly is that editorial B2B presence builds compoundi
+        "answer": "That is a fair question and there is no promise that a single listing will change your distribution overnight. What we can say clearly is that editorial B2B presence builds compounding value — a published page that ranks is working for you every month without additional spend. The alternative is continuing to rely on channels that have not delivered professional-market awareness so far. If your current approach is not getting your brand in front of nail techs, the cost of doing nothing is not zero."
+      },
+      {
+        "question": "We already advertise on NAILS Magazine and Instagram. What does Mirellé add?",
+        "answer": "NAILS Magazine advertising is broad reach — your brand is one of many across a general professional audience. Instagram is largely consumer-facing for beauty brands, regardless of what account you run. Mirellé's directory listing is a permanent, SEO-ranked editorial page dedicated to your brand's presence in the professional market — not an ad that disappears after the campaign ends. Those channels and this one are not in competition. They serve different moments in how a nail professional discovers and forms an opinion about a brand."
+      }
+    ]
+  },
+
+  "content_structure": {
+    "writer_instruction": "Follow this H2 structure exactly. Each H2 maps to a post component. You may add H3s under any H2. Do not rename, reorder, or replace H2s unless the founder explicitly instructs it. Every H2 is a real query or pain point — not a label.",
+    "h1": "Your Nail Supply Brand Is Invisible to the Professionals Who Would Buy It",
+    "h2_structure": [
+      "H2 1: Why Nail Technicians Have Never Heard of Your Brand — and Why That Is Not About Product Quality",
+      "H2 2: Being Stocked Is Not the Same as Being Discovered",
+      "H2 3: What a Mirellé Directory Listing Does That Wholesale Directories Cannot",
+      "H2 4: What Your Brand Gets with a Mirellé Directory Listing",
+      "H2 5: The Professional Nail Market Is Growing — the Brands with Professional Presence Will Capture It",
+      "H2 6: Questions Supply and Tool Brand Founders Actually Ask"
+    ],
+    "post_component_map": {
+      "H2_1": "Pain Block — hits the discovery blindspot head on. Primary keyword appears in this section.",
+      "H2_2": "Pain Block continued — deepens the distribution-vs-discovery distinction. Primary keyword appears here second time.",
+      "H2_3": "Solution Bridge — introduces Mirellé editorially as the answer, never salesy.",
+      "H2_4": "What We Offer — 3-4 bullets of what the brand gets from Mirellé.",
+      "H2_5": "Stats / Credibility Block — 3 stats with context establish market scale and opportunity.",
+      "H2_6": "FAQ — 5 real objections answered directly.",
+      "CTA": "Mailto button to contact@mirelleinspo.com — after FAQ, no H2, post ends here."
+    }
+  },
+
+  "internal_links": {
+    "writer_instruction": "All three links below are mandatory. Place each at the point indicated — editorially, not as standalone CTAs. Every link should feel like a natural next step for the reader at that moment.",
+    "links": [
+      {
+        "url_or_slug": "supply-tool-brand-campaign-post-usa",
+        "title": "Campaign Post Package for Nail Supply & Tool Brands — Reach US Nail Techs Who Buy Your Products",
+        "placement_note": "Place in H2 4 (What We Offer) — after the bullets describing the directory listing, reference the campaign post as the next step for brands ready to go further than a listing and build active professional-market reach.",
+        "link_type": "cluster-mandatory"
+      },
+      {
+        "url_or_slug": "supply-tool-brand-product-listing-usa",
+        "title": "Product Listing & Affiliate Feature for Nail Supply & Tool Brands — US Professional Market",
+        "placement_note": "Place in H2 4 (What We Offer) — as a second upgrade path for brands that want their specific products featured editorially, not just the brand profile listed.",
+        "link_type": "cluster-mandatory"
+      },
+      {
+        "url_or_slug": "/business",
+        "title": "Mirellé Business Hub — B2B Services for the Nail Industry",
+        "placement_note": "Place in H2 3 (Solution Bridge) — when introducing Mirellé as the editorial platform, link back to the /business hub as the reader's wider reference for what the platform offers across all brand types.",
+        "link_type": "hub-page"
+      }
+    ]
+  },
+
+  "tone_guidance": {
+    "writer_instruction": "Mirellé tone is fixed — editorial, authoritative, direct, British English, no em dashes. Apply the brand client nuance below on top of the fixed framework.",
+    "fixed": "Editorial. Authoritative. Direct. Sharp industry insider. Never salesy. Never generic. British English only. Em dashes banned entirely.",
+    "client_type_nuance": "Brand — industry-level authority. Market data and trade positioning language. This reader is a founder or marketing decision-maker who responds to evidence and precision, not emotion. They have been burned by vague marketing promises before. Write with the clarity and directness of a trade publication that understands their industry, not a marketing agency selling them something.",
+    "always_avoid": [
+      "Generic marketing advice tone",
+      "Salesy or pushy phrasing",
+      "Overly casual or chatty language",
+      "Robotic or AI-sounding phrasing",
+      "Em dashes — banned entirely",
+      "Mirellé spelled with è — always é",
+      "Consumer nail content framing",
+      "Any phrase that sounds like advertising copy"
+    ]
+  }
+}
