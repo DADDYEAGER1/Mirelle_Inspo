@@ -1,0 +1,183 @@
+// scripts/add-authors.js
+//
+// Adds `author:` field to frontmatter across all content files.
+//
+// Usage:
+//   node scripts/add-authors.js --author=ri-mirelle --dir=src/content/blogs
+//   node scripts/add-authors.js --author=jyoti-mirelle --dir=src/content/faqs
+//   node scripts/add-authors.js --author=ri-mirelle  (runs all dirs)
+//
+// Flags:
+//   --author=<slug>    Author slug to assign (required)
+//   --dir=<path>       Only process this directory (optional, relative to cwd)
+//   --overwrite        Replace existing author values (default: skip if author exists)
+//   --dry-run          Preview changes without writing files
+
+const fs = require('fs');
+const path = require('path');
+
+// ─── Config ──────────────────────────────────────────────────────────────────
+
+const CONTENT_DIRS = [
+  'src/content/blogs',
+  'src/content/faqs',
+  'src/content/work-nails',
+  'src/content/spotlights',
+  'src/content/topics',
+  'src/content/reports',
+  'src/content/business',
+];
+
+// ─── Args ─────────────────────────────────────────────────────────────────────
+
+const args = process.argv.slice(2);
+
+function getArg(name) {
+  const match = args.find((a) => a.startsWith(`--${name}=`));
+  return match ? match.split('=').slice(1).join('=') : null;
+}
+
+function hasFlag(name) {
+  return args.includes(`--${name}`);
+}
+
+const authorSlug = getArg('author');
+const targetDir  = getArg('dir');
+const overwrite  = hasFlag('overwrite');
+const dryRun     = hasFlag('dry-run');
+
+if (!authorSlug) {
+  console.error('❌  --author=<slug> is required');
+  console.error('    Example: node scripts/add-authors.js --author=ri-mirelle');
+  process.exit(1);
+}
+
+// ─── Helpers ─────────────────────────────────────────────────────────────────
+
+function getAllFiles(dir) {
+  let results = [];
+  let entries;
+
+  try {
+    entries = fs.readdirSync(dir, { withFileTypes: true });
+  } catch {
+    return [];
+  }
+
+  for (const entry of entries) {
+    const fullPath = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      results = results.concat(getAllFiles(fullPath));
+    } else if (entry.isFile() && (entry.name.endsWith('.md') || entry.name.endsWith('.mdx'))) {
+      results.push(fullPath);
+    }
+  }
+
+  return results;
+}
+
+function parseFrontmatter(content) {
+  const match = content.match(/^---\r?\n([\s\S]*?)\r?\n---/);
+  if (!match) return { hasFrontmatter: false, frontmatter: '', body: content };
+  return {
+    hasFrontmatter: true,
+    frontmatter: match[1],
+    body: content.slice(match[0].length),
+  };
+}
+
+function hasAuthorField(frontmatter) {
+  return /^author\s*:/m.test(frontmatter);
+}
+
+function getExistingAuthor(frontmatter) {
+  const match = frontmatter.match(/^author\s*:\s*(.+)$/m);
+  return match ? match[1].trim().replace(/['"]/g, '') : null;
+}
+
+function setAuthorField(frontmatter, slug) {
+  if (hasAuthorField(frontmatter)) {
+    // Replace existing
+    return frontmatter.replace(/^(author\s*:\s*)(.+)$/m, `$1${slug}`);
+  }
+  // Insert after first line (usually slug or title)
+  const lines = frontmatter.split('\n');
+  // Find 'title:' line and insert after it, otherwise append
+  const titleIdx = lines.findIndex((l) => /^title\s*:/i.test(l));
+  const insertAt = titleIdx !== -1 ? titleIdx + 1 : lines.length;
+  lines.splice(insertAt, 0, `author: "${slug}"`);
+  return lines.join('\n');
+}
+
+// ─── Main ─────────────────────────────────────────────────────────────────────
+
+const dirsToProcess = targetDir
+  ? [targetDir]
+  : CONTENT_DIRS;
+
+let totalFiles   = 0;
+let updated      = 0;
+let skipped      = 0;
+let noFrontmatter = 0;
+
+console.log(`\n🖊  Author: ${authorSlug}`);
+console.log(`📁  Dirs:   ${dirsToProcess.join(', ')}`);
+console.log(`🔁  Overwrite existing: ${overwrite}`);
+console.log(`👁  Dry run: ${dryRun}`);
+console.log('─'.repeat(60));
+
+for (const dir of dirsToProcess) {
+  const absDir = path.join(process.cwd(), dir);
+  const files  = getAllFiles(absDir);
+
+  for (const filePath of files) {
+    totalFiles++;
+    const raw = fs.readFileSync(filePath, 'utf8');
+    const { hasFrontmatter, frontmatter, body } = parseFrontmatter(raw);
+
+    if (!hasFrontmatter) {
+      console.log(`⚠️  No frontmatter: ${filePath}`);
+      noFrontmatter++;
+      continue;
+    }
+
+    const existingAuthor = getExistingAuthor(frontmatter);
+
+    if (existingAuthor && !overwrite) {
+      // Already has author and we're not overwriting
+      skipped++;
+      continue;
+    }
+
+    if (existingAuthor === authorSlug) {
+      // Already correct, skip
+      skipped++;
+      continue;
+    }
+
+    const newFrontmatter = setAuthorField(frontmatter, authorSlug);
+    const newContent     = `---\n${newFrontmatter}\n---${body}`;
+
+    const rel = path.relative(process.cwd(), filePath);
+
+    if (dryRun) {
+      const action = existingAuthor ? `${existingAuthor} → ${authorSlug}` : `(none) → ${authorSlug}`;
+      console.log(`  [dry-run] ${rel}  ${action}`);
+    } else {
+      fs.writeFileSync(filePath, newContent, 'utf8');
+      const action = existingAuthor ? `${existingAuthor} → ${authorSlug}` : `added ${authorSlug}`;
+      console.log(`  ✅ ${rel}  (${action})`);
+    }
+
+    updated++;
+  }
+}
+
+console.log('─'.repeat(60));
+console.log(`\n📊 Summary`);
+console.log(`   Total files scanned : ${totalFiles}`);
+console.log(`   Updated             : ${updated}`);
+console.log(`   Skipped             : ${skipped}`);
+console.log(`   No frontmatter      : ${noFrontmatter}`);
+if (dryRun) console.log('\n   (Dry run — no files were modified)');
+console.log('');
