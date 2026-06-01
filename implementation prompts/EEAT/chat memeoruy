@@ -1,0 +1,115 @@
+MIRELLÉ INSPO — EEAT IMPLEMENTATION CHAT SUMMARY
+
+SITE
+
+mirelleinspo.com — Next.js 14 App Router, TypeScript, Tailwind CSS, MDX content
+Contact: team.mirelle@gmail.com
+Stats: 10K monthly users (growing), 1M monthly Pinterest visitors
+Tagline: "We curate so you don't have to"
+
+
+TEAM
+
+Ri (brother) — Nail Trend Researcher & Editor — slug: ri-mirelle
+Jyoti (sister) — Content Strategist & Researcher — slug: jyoti-mirelle
+Images: /images/team/ri-mirelle.webp and /images/team/jyoti-mirelle.webp (to be uploaded)
+No social links yet
+They are researchers and curators — NOT nail technicians or beauty professionals
+
+
+DESIGN SYSTEM
+Fonts:    font-heading (Larken), font-body (Crimson Text), font-ui (General Sans)
+Colors:   bg-background (#f9fafb), text-foreground (#252220)
+Secondary: text-foreground/70, dividers border-foreground/10
+Buttons:  bg-foreground text-background px-8 py-4 font-ui text-sm uppercase tracking-wider
+Links:    font-ui text-sm uppercase tracking-wide underline hover:no-underline
+Spacing:  py-20 sections, max-w-4xl or max-w-6xl mx-auto, px-6 sm:px-8 lg:px-12
+NEVER use raw Tailwind color classes like text-gray-800, bg-white, text-blue-600
+
+WHAT WAS COMPLETED THIS SESSION
+Group A — Author Infrastructure ✅ DONE
+src/types/author.ts          — Author + AuthorWithStats interfaces
+src/data/authors.ts          — Ri + Jyoti data, placeholder bios, image paths
+src/lib/authors.ts           — getAuthor(), getAllAuthors(), getPostsByAuthor(),
+                               getAllAuthorsWithStats(), clearAuthorCache()
+                               Same TTL cache pattern as blog.ts
+                               Scans: blogs, faqs, work-nails, spotlights,
+                               topics, reports, business
+src/app/authors/page.tsx     — Lists both authors, square headshot, role,
+                               short bio, article count, links to author pages
+src/app/authors/[slug]/page.tsx — Full author page: headshot, long bio, role,
+                               social links (hidden until added), post list
+                               sorted newest first with type label + thumbnail,
+                               Person JSON-LD schema, graceful empty state
+Group B — Blog Section Update ✅ DONE
+src/components/Blog/AboutEEAT.tsx     — Rewritten, honest positioning,
+                                        no fake claims
+src/components/Blog/AuthorCard.tsx    — New component, shows above AboutEEAT,
+                                        pulls author from slug, headshot +
+                                        role + bio + link to author page,
+                                        returns null if slug not found
+src/app/blog/templates/CenterTemplate.tsx  — Updated, AuthorCard wired above
+                                             AboutEEAT in both MDX + MD paths
+src/app/nail-faqs/[slug]/page.tsx     — AuthorCard wired above FaqAbout
+src/app/trend-reports/[slug]/page.tsx — AuthorCard wired above ReportAbout
+src/app/topics/[slug]/page.tsx        — AuthorCard wired at bottom of page
+scripts/add-authors.js                — Bulk frontmatter script
+
+PAGE BOTTOM ORDER (every content page)
+[Article content]
+[AuthorCard]       ← src/components/Blog/AuthorCard.tsx
+[AboutEEAT]        ← src/components/Blog/AboutEEAT.tsx
+[Newsletter]
+[Read More]
+
+WHAT IS NOT DONE YET
+Still needs AuthorCard wired:
+
+src/app/spotlight/[slug]/templates/SplitLeftTemplate.tsx
+src/app/work-nails/[slug]/templates/SplitLeftTemplate.tsx
+src/app/work-nails/[slug]/templates/CenterTemplate.tsx
+
+These files were not shared so they were not updated. Next agent needs to add:
+tsximport AuthorCard from '@/components/Blog/AuthorCard';
+// Then before AboutEEAT or at end of content:
+{post.author && <AuthorCard slug={post.author} />}
+Bulk script still needs to be run:
+bash# Dry run first
+node scripts/add-authors.js --author=ri-mirelle --dry-run
+
+# Then per directory with --overwrite to replace "Mirellé Team"
+node scripts/add-authors.js --author=ri-mirelle --overwrite --dir=src/content/blogs
+node scripts/add-authors.js --author=ri-mirelle --overwrite --dir=src/content/faqs
+node scripts/add-authors.js --author=ri-mirelle --overwrite --dir=src/content/work-nails
+node scripts/add-authors.js --author=ri-mirelle --overwrite --dir=src/content/topics
+node scripts/add-authors.js --author=ri-mirelle --overwrite --dir=src/content/reports
+node scripts/add-authors.js --author=jyoti-mirelle --overwrite --dir=src/content/spotlights
+node scripts/add-authors.js --author=jyoti-mirelle --overwrite --dir=src/content/business
+Note: Ri/Jyoti split per directory above is a suggested default. User needs to confirm which author owns which sections before running.
+
+Group C — Core pages (NOT STARTED)
+src/app/about/page.tsx
+src/app/privacy-policy/page.tsx
+src/app/terms/page.tsx
+src/app/work-with-us/page.tsx
+src/app/editorial-policy/page.tsx   ← needs to be created
+src/app/disclosures/page.tsx        ← needs to be created
+src/app/press/page.tsx              ← needs to be created
+
+BANNED PHRASES — never write these anywhere:
+
+"experienced beauty editors"
+"industry professionals"
+"years of combined experience in beauty journalism"
+"collaborate with licensed beauty professionals or dermatologists"
+"personally tested"
+"thoroughly tested and evaluated"
+"expert team actively responds"
+"expert-driven content"
+"backed by expert opinion"
+
+
+  ### STILL NEED TO UPDATE THE WORK NAILS BUSINESS SPOTLIHTS TO HAVE AUTHOER IN THERE SLUG FILES AND SPLIT LEFT TEMPLATE 
+
+TREE REFERENCE
+https://raw.githubusercontent.com/DADDYEAGER1/CODESOFT/refs/heads/main/mirelle/treeee
