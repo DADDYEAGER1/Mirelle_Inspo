@@ -1,0 +1,165 @@
+// src/lib/authors.ts
+
+import 'server-only';
+import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter';
+import { authors } from '@/data/authors';
+import { Author, AuthorWithStats } from '@/types/author';
+
+// ─── Cache ───────────────────────────────────────────────────────────────────
+
+interface CacheEntry<T> {
+  data: T;
+  timestamp: number;
+}
+
+class AuthorCache {
+  private cache = new Map<string, CacheEntry<any>>();
+  private readonly TTL = 3600000; // 1 hour
+
+  get<T>(key: string): T | null {
+    const entry = this.cache.get(key);
+    if (!entry) return null;
+    if (Date.now() - entry.timestamp > this.TTL) {
+      this.cache.delete(key);
+      return null;
+    }
+    return entry.data as T;
+  }
+
+  set<T>(key: string, data: T): void {
+    this.cache.set(key, { data, timestamp: Date.now() });
+  }
+
+  clear(): void {
+    this.cache.clear();
+  }
+}
+
+const authorCache = new AuthorCache();
+
+// ─── Content directories to scan ─────────────────────────────────────────────
+
+const CONTENT_DIRS: { dir: string; type: string; urlBase: string }[] = [
+  { dir: 'src/content/blogs',       type: 'blog',      urlBase: '/blog'          },
+  { dir: 'src/content/faqs',        type: 'faq',       urlBase: '/nail-faqs'     },
+  { dir: 'src/content/work-nails',  type: 'work-nail', urlBase: '/work-nails'    },
+  { dir: 'src/content/spotlights',  type: 'spotlight', urlBase: '/spotlight'     },
+  { dir: 'src/content/topics',      type: 'topic',     urlBase: '/topics'        },
+  { dir: 'src/content/reports',     type: 'report',    urlBase: '/trend-reports' },
+  { dir: 'src/content/business',    type: 'business',  urlBase: '/business'      },
+];
+
+// ─── Helpers ─────────────────────────────────────────────────────────────────
+
+function getAllFilesRecursive(dir: string): string[] {
+  let results: string[] = [];
+  let entries: fs.Dirent[];
+
+  try {
+    entries = fs.readdirSync(dir, { withFileTypes: true });
+  } catch {
+    return [];
+  }
+
+  for (const entry of entries) {
+    const fullPath = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      results = results.concat(getAllFilesRecursive(fullPath));
+    } else if (
+      entry.isFile() &&
+      (entry.name.endsWith('.md') || entry.name.endsWith('.mdx'))
+    ) {
+      results.push(fullPath);
+    }
+  }
+
+  return results;
+}
+
+// ─── Types ────────────────────────────────────────────────────────────────────
+
+export interface AuthorPost {
+  slug: string;
+  title: string;
+  excerpt: string;
+  date: string;
+  image?: string;
+  type: string;    // 'blog' | 'faq' | 'work-nail' | 'spotlight' | 'topic' | 'report' | 'business'
+  url: string;
+}
+
+// ─── Public API ───────────────────────────────────────────────────────────────
+
+export function getAuthor(slug: string): Author | null {
+  return authors.find(a => a.slug === slug) ?? null;
+}
+
+export function getAllAuthors(): Author[] {
+  return authors;
+}
+
+export async function getPostsByAuthor(authorSlug: string): Promise<AuthorPost[]> {
+  const cacheKey = `author-posts:${authorSlug}`;
+
+  const cached = authorCache.get<AuthorPost[]>(cacheKey);
+  if (cached) return cached;
+
+  const posts: AuthorPost[] = [];
+
+  for (const { dir, type, urlBase } of CONTENT_DIRS) {
+    const absDir = path.join(process.cwd(), dir);
+    const files = getAllFilesRecursive(absDir);
+
+    for (const filePath of files) {
+      try {
+        const raw = fs.readFileSync(filePath, 'utf8');
+        const { data } = matter(raw);
+
+        if (data.author !== authorSlug) continue;
+
+        const slug = path.basename(filePath).replace(/\.mdx?$/, '');
+
+        posts.push({
+          slug,
+          title:   data.title   || 'Untitled',
+          excerpt: data.excerpt || '',
+          date:    data.date    || new Date().toISOString(),
+          image:   data.image   || undefined,
+          type,
+          url: `${urlBase}/${slug}`,
+        });
+      } catch {
+        // skip unreadable files
+      }
+    }
+  }
+
+  // Sort newest first
+  posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+  authorCache.set(cacheKey, posts);
+  return posts;
+}
+
+export async function getAllAuthorsWithStats(): Promise<AuthorWithStats[]> {
+  const cacheKey = 'all-authors-with-stats';
+
+  const cached = authorCache.get<AuthorWithStats[]>(cacheKey);
+  if (cached) return cached;
+
+  const result: AuthorWithStats[] = await Promise.all(
+    authors.map(async author => {
+      const posts = await getPostsByAuthor(author.slug);
+      return { ...author, postCount: posts.length };
+    })
+  );
+
+  authorCache.set(cacheKey, result);
+  return result;
+}
+
+export function clearAuthorCache(): void {
+  authorCache.clear();
+}
