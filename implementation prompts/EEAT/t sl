@@ -1,0 +1,266 @@
+// src/app/topics/[slug]/page.tsx
+
+import { notFound } from 'next/navigation';
+import { getTopic, getAllTopicSlugs } from '@/lib/topic';
+import AuthorCard from '@/components/Blog/AuthorCard';
+import type { Metadata } from 'next';
+import Link from 'next/link';
+
+interface PageProps {
+  params: Promise<{ slug: string }>;
+}
+
+export const revalidate = 604800;
+
+export async function generateStaticParams() {
+  const slugs = await getAllTopicSlugs();
+  return slugs.map((slug) => ({ slug }));
+}
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const topic = await getTopic(slug);
+
+  if (!topic) {
+    return {
+      title: 'Topic Not Found - Mirellé',
+      description: 'The topic you are looking for does not exist.',
+      robots: { index: false, follow: false },
+    };
+  }
+
+  const canonicalUrl = topic.canonical || `https://mirelleinspo.com/topics/${slug}`;
+  const imageUrl = topic.image ? `https://mirelleinspo.com${topic.image}` : 'https://mirelleinspo.com/og-default.png';
+  const imageAltText = topic.imageAlt || topic.title;
+
+  return {
+    title: `${topic.title} | Mirellé`,
+    description: topic.excerpt || `Comprehensive guide on ${topic.title} - expert tips and techniques from Mirellé.`,
+    authors: [{ name: topic.author || 'Mirellé' }],
+    creator: topic.author || 'Mirellé',
+    publisher: 'Mirellé',
+    alternates: { canonical: canonicalUrl },
+    robots: {
+      index: true,
+      follow: true,
+      nocache: false,
+      googleBot: { index: true, follow: true, 'max-video-preview': -1, 'max-image-preview': 'large', 'max-snippet': -1 },
+    },
+    openGraph: {
+      title: `${topic.title} | Mirellé`,
+      description: topic.excerpt || `Comprehensive guide on ${topic.title}`,
+      type: 'article',
+      url: canonicalUrl,
+      siteName: 'Mirellé',
+      locale: 'en_US',
+      images: [{ url: imageUrl, width: topic.imageWidth || 1200, height: topic.imageHeight || 630, alt: imageAltText, type: 'image/jpeg' }],
+      publishedTime: topic.date,
+      modifiedTime: topic.dateModified,
+      authors: [topic.author || 'Mirellé'],
+      section: topic.category || 'Nail Care',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${topic.title} | Mirellé`,
+      description: topic.excerpt || `Comprehensive guide on ${topic.title}`,
+      images: [imageUrl],
+      creator: '@mirelleinspo',
+      site: '@mirelleinspo',
+    },
+  };
+}
+
+export default async function TopicPage({ params }: PageProps) {
+  const { slug } = await params;
+  const topic = await getTopic(slug);
+  if (!topic) notFound();
+
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    '@id': `https://mirelleinspo.com/topics/${slug}#article`,
+    headline: topic.title,
+    description: topic.excerpt,
+    image: topic.image ? `https://mirelleinspo.com${topic.image}` : 'https://mirelleinspo.com/og-default.png',
+    datePublished: topic.date,
+    dateModified: topic.dateModified,
+    author: { '@type': 'Person', name: topic.author },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Mirellé Inspo',
+      logo: { '@type': 'ImageObject', url: 'https://mirelleinspo.com/logo.png' },
+    },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://mirelleinspo.com/topics/${slug}` },
+    ...(topic.sameAs && { sameAs: topic.sameAs }),
+  };
+
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mirelleinspo.com' },
+      { '@type': 'ListItem', position: 2, name: 'Topics', item: 'https://mirelleinspo.com/topics' },
+      { '@type': 'ListItem', position: 3, name: topic.title, item: `https://mirelleinspo.com/topics/${slug}` },
+    ],
+  };
+
+  const faqSchema = topic.faqItems && topic.faqItems.length > 0 ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: topic.faqItems.map((faq) => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: { '@type': 'Answer', text: faq.answer },
+    })),
+  } : null;
+
+  const howToSchema = topic.tutorial && topic.tutorial.length > 0 ? {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: topic.title,
+    description: topic.excerpt,
+    image: topic.image ? `https://mirelleinspo.com${topic.image}` : undefined,
+    step: topic.tutorial.map((step, index) => ({
+      '@type': 'HowToStep',
+      position: index + 1,
+      name: step.step,
+      text: step.description,
+      ...(step.image && { image: `https://mirelleinspo.com${step.image}` }),
+    })),
+  } : null;
+
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      {faqSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />}
+      {howToSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }} />}
+
+      <main className="min-h-screen bg-background">
+        {/* Hero */}
+        <section className="border-b border-foreground/10">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
+            <nav className="mb-8" aria-label="Breadcrumb">
+              <ol className="flex items-center space-x-2 font-ui text-xs text-foreground/60">
+                <li><Link href="/" className="hover:text-foreground transition-colors">Home</Link></li>
+                <li>/</li>
+                <li><Link href="/topics" className="hover:text-foreground transition-colors">Topics</Link></li>
+                <li>/</li>
+                <li className="text-foreground">{topic.title}</li>
+              </ol>
+            </nav>
+
+            <span className="font-ui text-xs tracking-wider text-foreground/60 uppercase block mb-6">
+              {topic.category}
+            </span>
+
+            <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl text-foreground mb-6 leading-tight">
+              {topic.title}
+            </h1>
+
+            <p className="font-body text-lg md:text-xl text-foreground/70 leading-relaxed mb-8">
+              {topic.excerpt}
+            </p>
+
+            <div className="flex items-center space-x-4 font-ui text-sm text-foreground/60">
+              <span>{topic.author}</span>
+              <span>•</span>
+              <span>{topic.readTime}</span>
+              <span>•</span>
+              <time dateTime={topic.date}>
+                {new Date(topic.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+              </time>
+            </div>
+          </div>
+        </section>
+
+        {/* Hero Image */}
+        {topic.image && (
+          <section className="border-b border-foreground/10">
+            <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
+              <div className="relative w-full overflow-hidden bg-foreground/5">
+                <img src={topic.image} alt={topic.imageAlt || topic.title} className="w-full h-auto" width={topic.imageWidth || 1200} height={topic.imageHeight || 630} />
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* Content */}
+        <article className="py-12 md:py-20">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <style dangerouslySetInnerHTML={{
+              __html: `
+                .topic-content { font-family: 'Crimson Text', Georgia, serif; font-size: 1.125rem; line-height: 1.75; color: rgba(37, 34, 32, 0.8); }
+                .topic-content h2 { font-family: 'Larken', Georgia, serif; font-size: 2.25rem; font-weight: normal; color: #252220; margin-top: 4rem; margin-bottom: 2rem; line-height: 1.2; }
+                .topic-content h3 { font-family: 'Larken', Georgia, serif; font-size: 1.75rem; font-weight: normal; color: #252220; margin-top: 3rem; margin-bottom: 1.5rem; line-height: 1.3; }
+                .topic-content p { margin-bottom: 1.5rem; font-size: 1.125rem; line-height: 1.75; }
+                .topic-content img { width: 100%; height: auto; display: block; }
+                @media (min-width: 768px) { .topic-content h2 { font-size: 3rem; } .topic-content h3 { font-size: 2rem; } .topic-content p { font-size: 1.25rem; } }
+              `
+            }} />
+            <div className="topic-content" dangerouslySetInnerHTML={{ __html: topic.content }} />
+          </div>
+        </article>
+
+        {/* Tutorial Steps */}
+        {topic.tutorial && topic.tutorial.length > 0 && (
+          <section className="border-t border-foreground/10 py-12 md:py-20 bg-foreground/[0.02]">
+            <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+              <h2 className="font-heading text-3xl md:text-4xl text-foreground mb-12">Step-by-Step Guide</h2>
+              <div className="space-y-8">
+                {topic.tutorial.map((step, index) => (
+                  <div key={index} className="flex gap-6">
+                    <div className="flex-shrink-0 w-12 h-12 rounded-full bg-foreground text-background flex items-center justify-center font-ui font-bold">
+                      {index + 1}
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="font-heading text-xl md:text-2xl text-foreground mb-3">{step.step}</h3>
+                      <p className="font-body text-base text-foreground/70 leading-relaxed">{step.description}</p>
+                      {step.image && <div className="mt-4"><img src={step.image} alt={step.step} className="w-full h-auto rounded" /></div>}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* FAQ */}
+        {topic.faqItems && topic.faqItems.length > 0 && (
+          <section className="border-t border-foreground/10 py-12 md:py-20">
+            <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+              <h2 className="font-heading text-3xl md:text-4xl text-foreground mb-12">Frequently Asked Questions</h2>
+              <div className="space-y-8">
+                {topic.faqItems.map((faq, index) => (
+                  <div key={index} className="border-b border-foreground/10 pb-8 last:border-b-0">
+                    <h3 className="font-heading text-xl md:text-2xl text-foreground mb-4">{faq.question}</h3>
+                    <p className="font-body text-base text-foreground/70 leading-relaxed">{faq.answer}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* Related Posts */}
+        {topic.relatedPosts && topic.relatedPosts.length > 0 && (
+          <section className="border-t border-foreground/10 py-12 md:py-20 bg-foreground/[0.02]">
+            <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+              <h2 className="font-heading text-2xl md:text-3xl text-foreground mb-8">Related Reading</h2>
+              <div className="space-y-4">
+                {topic.relatedPosts.map((postUrl, index) => (
+                  <Link key={index} href={postUrl} className="block font-body text-base md:text-lg text-foreground/70 hover:text-foreground transition-colors border-b border-foreground/10 pb-2">
+                    → {postUrl}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* Author + EEAT */}
+        {topic.author && <AuthorCard slug={topic.author} />}
+      </main>
+    </>
+  );
+}
