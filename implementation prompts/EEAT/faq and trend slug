@@ -1,0 +1,301 @@
+// src/app/trend-reports/[slug]/page.tsx
+
+import { notFound } from 'next/navigation';
+import { getReport, getAllReportSlugs } from '@/lib/reports';
+import { MDXRemote } from 'next-mdx-remote/rsc';
+import Breadcrumbs from '@/components/Breadcrumbs';
+import ReportInlineNewsletter from '@/components/Reports/ReportInlineNewsletter';
+import ReportFinalNewsletter from '@/components/Reports/ReportFinalNewsletter';
+import ReportAbout from '@/components/Reports/ReportAbout';
+import ReportReadMore from '@/components/Reports/ReportReadMore';
+import AuthorCard from '@/components/Blog/AuthorCard';
+import type { Metadata } from 'next';
+
+const mdxComponents = {
+  ReportInlineNewsletter,
+};
+
+interface PageProps {
+  params: Promise<{ slug: string }>;
+}
+
+export const revalidate = 604800;
+
+export async function generateStaticParams() {
+  const slugs = await getAllReportSlugs();
+  return slugs.map((slug) => ({ slug }));
+}
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const report = await getReport(slug);
+  if (!report) return { title: 'Not Found', robots: { index: false, follow: false } };
+
+  const canonicalUrl = report.canonical || `https://mirelleinspo.com/trend-reports/${slug}`;
+  const imageUrl = report.image.startsWith('http') ? report.image : `https://mirelleinspo.com${report.image}`;
+
+  return {
+    title: `${report.title} | Mirellé`,
+    description: report.excerpt,
+    authors: [{ name: report.author }],
+    alternates: { canonical: canonicalUrl },
+    openGraph: {
+      title: report.title,
+      description: report.excerpt,
+      type: 'article',
+      url: canonicalUrl,
+      siteName: 'Mirellé',
+      images: [{ url: imageUrl, width: report.imageWidth || 1200, height: report.imageHeight || 1200, alt: report.imageAlt || report.title }],
+      publishedTime: report.date,
+      modifiedTime: report.dateModified || report.date,
+      authors: [report.author],
+      section: report.category,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: report.title,
+      description: report.excerpt,
+      images: [imageUrl],
+    },
+  };
+}
+
+export default async function TrendReportPage({ params }: PageProps) {
+  const { slug } = await params;
+  const report = await getReport(slug);
+  if (!report) notFound();
+
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: report.title,
+    description: report.excerpt,
+    image: report.image.startsWith('http') ? report.image : `https://mirelleinspo.com${report.image}`,
+    datePublished: report.date,
+    dateModified: report.dateModified || report.date,
+    author: { '@type': 'Person', name: report.author },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Mirellé Inspo',
+      logo: { '@type': 'ImageObject', url: 'https://mirelleinspo.com/logo.png' },
+    },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://mirelleinspo.com/trend-reports/${slug}` },
+  };
+
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://mirelleinspo.com' },
+      { '@type': 'ListItem', position: 2, name: 'Trend Reports', item: 'https://mirelleinspo.com/trend-reports' },
+      { '@type': 'ListItem', position: 3, name: report.title },
+    ],
+  };
+
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+
+      <div className="min-h-screen bg-background">
+        {/* Hero */}
+        <div className="w-full px-[6px] md:px-[12px] py-8 md:py-12">
+          <p className="text-sm uppercase tracking-wide text-gray-700 mb-4">{report.category}</p>
+          <h1 className="font-heading text-[36px] md:text-[42px] leading-tight mb-4">{report.title}</h1>
+          <div className="text-sm text-gray-700 mb-8">
+            <p className="uppercase tracking-wide mb-1">BY {report.author}</p>
+            <time dateTime={report.date} className="text-gray-600">
+              {new Date(report.date).toLocaleDateString('en-US', {
+                month: 'long',
+                day: 'numeric',
+                year: 'numeric',
+              })}
+            </time>
+          </div>
+          <div className="w-full mb-8">
+            <img src={report.image} alt={report.imageAlt || report.title} className="w-full h-auto" />
+            {report.imageCaption && (
+              <p className="font-ui text-xs text-gray-500 mt-2 text-center">{report.imageCaption}</p>
+            )}
+          </div>
+        </div>
+
+        {/* Content */}
+        <div className="w-full flex flex-col items-start">
+          <div className="w-full max-w-[700px] px-6 md:px-12 lg:px-16">
+            <div className="mb-8">
+              <Breadcrumbs
+                items={[{ label: 'Trend Reports', href: '/trend-reports' }]}
+                currentPage={report.title}
+                includeSchema={false}
+              />
+            </div>
+            <article className="prose-content-magazine">
+              <MDXRemote source={report.content} components={mdxComponents} />
+            </article>
+          </div>
+
+          <div className="w-full my-12">
+            <ReportInlineNewsletter />
+          </div>
+        </div>
+
+        {report.author && <AuthorCard slug={report.author} />}
+        <ReportAbout />
+        <ReportFinalNewsletter />
+        <ReportReadMore currentSlug={report.slug} />
+      </div>
+    </>
+  );
+}
+
+
+
+
+
+// src/app/nail-faqs/[slug]/page.tsx
+
+import { notFound } from 'next/navigation';
+import { getFaq, getAllFaqSlugs } from '@/lib/faqs';
+import { MDXRemote } from 'next-mdx-remote/rsc';
+import Breadcrumbs from '@/components/Breadcrumbs';
+import FaqInlineNewsletter from '@/components/Faqs/FaqInlineNewsletter';
+import FaqFinalNewsletter from '@/components/Faqs/FaqFinalNewsletter';
+import FaqAbout from '@/components/Faqs/FaqAbout';
+import FaqReadMore from '@/components/Faqs/FaqReadMore';
+import AuthorCard from '@/components/Blog/AuthorCard';
+import type { Metadata } from 'next';
+
+const mdxComponents = {
+  FaqInlineNewsletter,
+};
+
+interface PageProps {
+  params: Promise<{ slug: string }>;
+}
+
+export const revalidate = 604800;
+
+export async function generateStaticParams() {
+  const slugs = await getAllFaqSlugs();
+  return slugs.map((slug) => ({ slug }));
+}
+
+const SITE_URL = 'https://mirelleinspo.com';
+const FALLBACK_OG_IMAGE = `${SITE_URL}/og-default.png`;
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const faq = await getFaq(slug);
+  if (!faq) return { title: 'Not Found', robots: { index: false, follow: false } };
+
+  const canonicalUrl = faq.canonical || `${SITE_URL}/nail-faqs/${slug}`;
+
+  return {
+    title: `${faq.title} | Mirellé`,
+    description: faq.excerpt,
+    authors: [{ name: faq.author }],
+    alternates: { canonical: canonicalUrl },
+    openGraph: {
+      title: faq.title,
+      description: faq.excerpt,
+      type: 'article',
+      url: canonicalUrl,
+      siteName: 'Mirellé',
+      images: [{ url: FALLBACK_OG_IMAGE, alt: faq.title }],
+      publishedTime: faq.date,
+      modifiedTime: faq.dateModified || faq.date,
+      authors: [faq.author],
+      section: faq.category,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: faq.title,
+      description: faq.excerpt,
+      images: [FALLBACK_OG_IMAGE],
+    },
+  };
+}
+
+export default async function NailFaqPage({ params }: PageProps) {
+  const { slug } = await params;
+  const faq = await getFaq(slug);
+  if (!faq) notFound();
+
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: faq.title,
+    description: faq.excerpt,
+    image: FALLBACK_OG_IMAGE,
+    datePublished: faq.date,
+    dateModified: faq.dateModified || faq.date,
+    author: { '@type': 'Person', name: faq.author },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Mirellé Inspo',
+      logo: { '@type': 'ImageObject', url: `${SITE_URL}/logo.png` },
+    },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `${SITE_URL}/nail-faqs/${slug}` },
+  };
+
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
+      { '@type': 'ListItem', position: 2, name: 'Nail FAQs', item: `${SITE_URL}/nail-faqs` },
+      { '@type': 'ListItem', position: 3, name: faq.title },
+    ],
+  };
+
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+
+      <div className="min-h-screen bg-background">
+        {/* Hero */}
+        <div className="w-full px-[6px] md:px-[12px] py-8 md:py-12">
+          <p className="text-sm uppercase tracking-wide text-gray-700 mb-4">{faq.category}</p>
+          <h1 className="font-heading text-[36px] md:text-[42px] leading-tight mb-4">{faq.title}</h1>
+          <div className="text-sm text-gray-700 mb-8">
+            <p className="uppercase tracking-wide mb-1">BY {faq.author}</p>
+            <time dateTime={faq.date} className="text-gray-600">
+              {new Date(faq.date).toLocaleDateString('en-US', {
+                month: 'long',
+                day: 'numeric',
+                year: 'numeric',
+              })}
+            </time>
+          </div>
+        </div>
+
+        {/* Content */}
+        <div className="w-full flex flex-col items-start">
+          <div className="w-full max-w-[700px] px-6 md:px-12 lg:px-16">
+            <div className="mb-8">
+              <Breadcrumbs
+                items={[{ label: 'Nail FAQs', href: '/nail-faqs' }]}
+                currentPage={faq.title}
+                includeSchema={false}
+              />
+            </div>
+            <article className="prose-content-magazine">
+              <MDXRemote source={faq.content} components={mdxComponents} />
+            </article>
+          </div>
+
+          <div className="w-full my-12">
+            <FaqInlineNewsletter />
+          </div>
+        </div>
+
+        {faq.author && <AuthorCard slug={faq.author} />}
+        <FaqAbout />
+        <FaqFinalNewsletter />
+        <FaqReadMore currentSlug={faq.slug} />
+      </div>
+    </>
+  );
+}
