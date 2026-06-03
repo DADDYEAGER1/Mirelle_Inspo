@@ -1,0 +1,288 @@
+// src/lib/encyclopedia.ts
+// Reads all content files at build time and organises them into encyclopedia sections.
+// No API calls, no cost. Runs during next build automatically.
+
+import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter';
+
+export interface EncyclopediaEntry {
+  title: string;
+  excerpt: string;
+  canonical: string;
+  slug: string;
+  contentType: 'blog' | 'faq' | 'work-nails' | 'topic' | 'spotlight';
+  tags?: string[];
+  image?: string;
+  imageAlt?: string;
+}
+
+export interface EncyclopediaSection {
+  id: string;
+  title: string;
+  entries: EncyclopediaEntry[];
+}
+
+// ─── Section definitions ────────────────────────────────────────────────────
+// Each section has a matcher function that decides if a post belongs there.
+// Order matters — first match wins, so put more specific sections first.
+
+const SECTIONS: { id: string; title: string; match: (entry: RawEntry) => boolean }[] = [
+  {
+    id: 'nail-shapes',
+    title: 'Nail Shapes',
+    match: (e) =>
+      /\b(coffin|almond|stiletto|square|oval|squoval|ballerina|round nail|nail shape|short nail|long nail)\b/i.test(
+        e.title + ' ' + e.tags
+      ) && !/work|professional|office/i.test(e.title),
+  },
+  {
+    id: 'nail-techniques',
+    title: 'Nail Techniques & Finishes',
+    match: (e) =>
+      /\b(chrome|cat eye|jelly|french tip|french manicure|ombre|glazed donut|velvet|syrup|blooming|barcode|mismatched|gel nails|acrylic|press.on|BIAB|manicure type|reverse french|micro french|double french|colored french|jelly french)\b/i.test(
+        e.title
+      ),
+  },
+  {
+    id: 'nail-aesthetics',
+    title: 'Nail Aesthetics & Vibes',
+    match: (e) =>
+      /\b(aesthetic|quiet luxury|old money|rich girl|dark feminine|mob wife|soft girl|office siren|goth|pastel goth|whimsigoth|witchy|cyber goth|clean girl|coquette|glazed|bambi|pucci|plaid|argyle|lace|floral|celestial|goddess|vampire|vampy)\b/i.test(
+        e.title
+      ) && !/work|professional|office|pride|lgbtq|lesbian|bisexual|trans|nonbinary|pan/i.test(e.title),
+  },
+  {
+    id: 'nail-colors',
+    title: 'Nail Colors',
+    match: (e) =>
+      /\b(nail colo(u)?r|black nails|white nails|red nails|pink nails|blue nails|green nails|purple nails|nude nails|burgundy|coral nails|orange nails|sage|lavender nails|chocolate brown|turquoise|sky blue|jade|chartreuse|wasabi|plum nails|butter yellow|blueberry|tomato red|hot pink|neon|milky pink|rose gold|silver|icy blue|mermaid chrome|white chrome|pink chrome|green cat eye|galaxy cat eye|pink cat eye)\b/i.test(
+        e.title
+      ) && !/skin tone/i.test(e.title),
+  },
+  {
+    id: 'work-professional',
+    title: 'Work & Professional Nails',
+    match: (e) =>
+      /\b(work nail|professional nail|office nail|workplace|job interview|corporate|conservative|customer.facing|new job|neutral nail|nail length.*work|work.*nail length|gel.*work|acrylic.*work|nail polish.*work|clear nail polish|colou?red nail polish.*work|unprofessional)\b/i.test(
+        e.title
+      ) || e.contentType === 'work-nails',
+  },
+  {
+    id: 'by-occasion',
+    title: 'By Occasion',
+    match: (e) =>
+      /\b(prom|wedding|bridal|bride|valentine|mother.s day|holiday|vacation|graduation|christmas|halloween|new year|thanksgiving|cinco de mayo|EDC|rave|beach|summer nail|spring nail|winter nail|fall nail|seasonal|trend 202[0-9]|nail trend)\b/i.test(
+        e.title
+      ),
+  },
+  {
+    id: 'nail-art-diy',
+    title: 'Nail Art & DIY',
+    match: (e) =>
+      /\b(at.home|DIY|how to|step.by.step|beginner|easy nail|hacks|tutorial|apply chrome|shape.*home|do.*home)\b/i.test(
+        e.title
+      ),
+  },
+  {
+    id: 'by-skin-tone',
+    title: 'By Skin Tone',
+    match: (e) =>
+      /\b(skin tone|fair skin|dark skin|olive skin|medium skin|brunette|blonde|redhead|undertone)\b/i.test(
+        e.title
+      ),
+  },
+  {
+    id: 'zodiac',
+    title: 'Zodiac & Astrology Nails',
+    match: (e) =>
+      /\b(zodiac|astrology|aries|taurus|gemini|cancer|leo|virgo|libra|scorpio|sagittarius|capricorn|aquarius|pisces|birth chart)\b/i.test(
+        e.title
+      ),
+  },
+  {
+    id: 'lgbtq-pride',
+    title: 'LGBTQ+ & Pride Nails',
+    match: (e) =>
+      /\b(pride|lgbtq|lesbian|bisexual|trans|nonbinary|non.binary|pansexual|gay nails|WLW|enby|rainbow nail|bi flag|pride flag)\b/i.test(
+        e.title
+      ),
+  },
+  {
+    id: 'nail-faqs',
+    title: 'Nail FAQs & Care',
+    match: (e) =>
+      e.contentType === 'faq' ||
+      /\b(are.*worth|can i|can you|should i|how long|how much|how often|why do|what are|what is|what.s the|what should|what nail|how do i|how to care|how to grow|how to keep|remove.*gel|remove.*nail|allergic|doctor|health|pregnant|surgery|stronger|healthy nail|nail care|manicure cost|tip.*nail tech|nail salon near)\b/i.test(
+        e.title
+      ),
+  },
+  {
+    id: 'spotlights',
+    title: 'Artist Spotlights',
+    match: (e) => e.contentType === 'spotlight',
+  },
+];
+
+// ─── Business page exclusion ─────────────────────────────────────────────────
+const BUSINESS_KEYWORDS =
+  /\b(georgia|atlanta|augusta|savannah|columbus|marietta|buckhead|roswell|midtown|sandy springs|gwinnett|decatur|shelby township|michigan)\b/i;
+
+// ─── Internal types ───────────────────────────────────────────────────────────
+interface RawEntry {
+  title: string;
+  excerpt: string;
+  canonical: string;
+  slug: string;
+  contentType: EncyclopediaEntry['contentType'];
+  tags: string[];
+  image?: string;
+  imageAlt?: string;
+}
+
+// ─── Helpers ──────────────────────────────────────────────────────────────────
+function readContentDir(
+  dirPath: string,
+  contentType: EncyclopediaEntry['contentType'],
+  slugPrefix: string
+): RawEntry[] {
+  if (!fs.existsSync(dirPath)) return [];
+
+  const entries: RawEntry[] = [];
+
+  function walk(dir: string) {
+    const items = fs.readdirSync(dir);
+    for (const item of items) {
+      const fullPath = path.join(dir, item);
+      const stat = fs.statSync(fullPath);
+      if (stat.isDirectory()) {
+        walk(fullPath);
+      } else if (item.endsWith('.md') || item.endsWith('.mdx')) {
+        try {
+          const raw = fs.readFileSync(fullPath, 'utf-8');
+          const { data } = matter(raw);
+
+          // Skip business pages
+          const titleAndCanon = (data.title || '') + ' ' + (data.canonical || '');
+          if (BUSINESS_KEYWORDS.test(titleAndCanon)) continue;
+
+          // Skip if no title
+          if (!data.title) continue;
+
+          const slug = data.slug || item.replace(/\.mdx?$/, '');
+          const canonical =
+            data.canonical || `https://mirelleinspo.com/${slugPrefix}/${slug}`;
+
+          entries.push({
+            title: data.title,
+            excerpt: data.excerpt || '',
+            canonical,
+            slug,
+            contentType,
+            tags: Array.isArray(data.tags) ? data.tags : [],
+            image: data.image,
+            imageAlt: data.imageAlt,
+          });
+        } catch {
+          // skip malformed files
+        }
+      }
+    }
+  }
+
+  walk(dirPath);
+  return entries;
+}
+
+// ─── Image counter ────────────────────────────────────────────────────────────
+const IMAGE_EXTENSIONS = new Set(['.jpg', '.jpeg', '.webp', '.png', '.gif', '.avif']);
+
+function countImages(dirs: string[]): number {
+  let count = 0;
+  function walk(dir: string) {
+    if (!fs.existsSync(dir)) return;
+    for (const item of fs.readdirSync(dir)) {
+      const full = path.join(dir, item);
+      if (fs.statSync(full).isDirectory()) {
+        walk(full);
+      } else if (IMAGE_EXTENSIONS.has(path.extname(item).toLowerCase())) {
+        count++;
+      }
+    }
+  }
+  dirs.forEach(walk);
+  return count;
+}
+
+// ─── Main export ──────────────────────────────────────────────────────────────
+export interface EncyclopediaData {
+  sections: EncyclopediaSection[];
+  totalEntries: number;
+  totalSections: number;
+  imageCount: number; // static number you update manually
+}
+
+export function getEncyclopediaData(): EncyclopediaData {
+  const contentRoot = path.join(process.cwd(), 'src', 'content');
+
+  // Read every content type
+  const allEntries: RawEntry[] = [
+    ...readContentDir(path.join(contentRoot, 'blogs'), 'blog', 'blog'),
+    ...readContentDir(path.join(contentRoot, 'faqs'), 'faq', 'nail-faqs'),
+    ...readContentDir(path.join(contentRoot, 'work-nails'), 'work-nails', 'work-nails'),
+    ...readContentDir(path.join(contentRoot, 'topics'), 'topic', 'topics'),
+    ...readContentDir(path.join(contentRoot, 'spotlights'), 'spotlight', 'spotlight'),
+    // inspo-images are JSON galleries — we link to the inspo section pages, not individual files
+  ];
+
+  // Remove duplicates by canonical URL
+  const seen = new Set<string>();
+  const unique = allEntries.filter((e) => {
+    if (seen.has(e.canonical)) return false;
+    seen.add(e.canonical);
+    return true;
+  });
+
+  // Assign each entry to its first matching section
+  const sectionMap = new Map<string, RawEntry[]>();
+  SECTIONS.forEach((s) => sectionMap.set(s.id, []));
+
+  for (const entry of unique) {
+    let assigned = false;
+    for (const section of SECTIONS) {
+      if (section.match(entry)) {
+        sectionMap.get(section.id)!.push(entry);
+        assigned = true;
+        break;
+      }
+    }
+    // If nothing matched, drop into FAQs as a catch-all
+    if (!assigned) {
+      sectionMap.get('nail-faqs')!.push(entry);
+    }
+  }
+
+  // Build final sections, sorted alphabetically within each
+  const sections: EncyclopediaSection[] = SECTIONS.map((s) => ({
+    id: s.id,
+    title: s.title,
+    entries: (sectionMap.get(s.id) || []).sort((a, b) =>
+      a.title.localeCompare(b.title)
+    ),
+  })).filter((s) => s.entries.length > 0);
+
+  const totalEntries = sections.reduce((sum, s) => sum + s.entries.length, 0);
+
+  // Image count — reads directly from your public image folders at build time
+  const imageCount = countImages([
+    path.join(process.cwd(), 'public', 'images'),
+    path.join(process.cwd(), 'public', 'inspo'),
+  ]);
+
+  return {
+    sections,
+    totalEntries,
+    totalSections: sections.length,
+    imageCount,
+  };
+}
