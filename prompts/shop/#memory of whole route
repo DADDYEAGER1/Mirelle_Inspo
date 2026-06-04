@@ -1,0 +1,260 @@
+# Mirellé — /shop Route System Knowledge Prompt
+# Use this as context for any agent writing shop posts or working on the shop system.
+
+---
+
+## SITE OVERVIEW
+
+- **Site:** Mirellé (mirelleinspo.com) — a nail inspiration and editorial blog
+- **Stack:** Next.js (App Router), TypeScript, Tailwind CSS, MDX/MD content
+- **Colors:** Background `#f9fafb`, Foreground `#252220`. No pink/accent colors in shop.
+- **Fonts:** `font-heading` (Larken), `font-body` (Crimson Text), `font-ui` (General Sans)
+- **Prose class for content:** `prose-content-magazine`
+
+---
+
+## /SHOP ROUTE STRUCTURE
+
+### URLs
+- Index: `/shop`
+- Single post: `/shop/[slug]`
+- Nested (by category): `/shop/[category]/[slug]`
+
+### File locations
+```
+src/
+├── app/
+│   └── shop/
+│       ├── page.tsx                  ← shop index, groups posts by category
+│       ├── [...slug]/
+│       │   └── page.tsx              ← catch-all route, handles all post URLs
+│       └── templates/
+│           └── ShopTemplate.tsx      ← ONE template for all post types
+├── components/
+│   └── shop/
+│       ├── ShopProductCard.tsx       ← individual product card (grid + featured layouts)
+│       ├── ShopProductGrid.tsx       ← renders groups of cards, handles inline injection
+│       ├── WinnerBadge.tsx           ← top-pick highlight block (shown below hero)
+│       ├── ComparisonTable.tsx       ← side-by-side product comparison table
+│       ├── ProsConsBlock.tsx         ← pros/cons per product
+│       ├── ShopTableOfContents.tsx   ← sticky sidebar TOC + mobile TOC, auto active tracking
+│       ├── ShopInlineCTA.tsx         ← mid-article CTA strip (fires after first content section)
+│       ├── ShopFinalCTA.tsx          ← ranked final CTA block, replaces generic conclusion
+│       └── ShopFAQ.tsx               ← accordion FAQ, bottom of post
+├── lib/
+│   └── shop.ts                       ← reads content/shop/, getAllShopPosts(), getShopPost()
+├── types/
+│   └── shop.ts                       ← ShopPost and ShopProduct TypeScript types
+└── content/
+    └── shop/
+        └── [slug].md or [slug].mdx   ← post files live here
+```
+
+---
+
+## CONTENT FILES
+
+- Live in `src/content/shop/`
+- File format: `.md` (standard) or `.mdx` (if using React components inline)
+- Filename = slug: `best-gel-nail-lamps-2025.md` → URL: `/shop/best-gel-nail-lamps-2025`
+- Nested: `tools/best-gel-nail-lamps-2025.md` → URL: `/shop/tools/best-gel-nail-lamps-2025`
+
+---
+
+## FRONTMATTER — ALL FIELDS
+
+```yaml
+---
+# ── Required ──────────────────────────────────────────────
+title: "Best Gel Nail Lamps in 2025"
+excerpt: "We tested 12 UV/LED nail lamps so you don't have to."
+date: "2025-06-01"
+author: "Mirellé"
+category: "Nail Tools"           # shown as label on index + hero
+image: "/images/blog/hero.jpg"
+imageAlt: "Best nail lamps 2025"
+
+# ── Optional meta ──────────────────────────────────────────
+imageWidth: 1200
+imageHeight: 630
+readTime: "8 min read"
+canonical: ""                    # leave blank unless overriding
+
+# ── Post type (SEO/schema hint only, doesn't change layout) ─
+postType: "best-of"              # best-of | review | comparison
+
+# ── Conversion components — activate with these flags ───────
+winnerIndex: 0                   # index into products[] → activates WinnerBadge + sidebar CTA + ShopInlineCTA
+showComparison: true             # renders ComparisonTable
+showProscons: true               # renders ProsConsBlock for every product
+comparisonCaption: "How the top picks compare"   # optional label above table
+
+# ── Products array ─────────────────────────────────────────
+products:
+  - name: "Beetles Nail Lamp 48W"
+    brand: "Beetles"
+    price: "$29.99"
+    image: "/images/blog/beetles-lamp.jpg"
+    link: "https://amzn.to/xxxxx"        # affiliate link
+    badge: "Best Overall"                # shown as label on card + WinnerBadge
+    rating: 4.8                          # 1–5, renders star row
+    reviewCount: 4200                    # optional, not currently displayed
+    details:                             # bullet points shown in featured layout + WinnerBadge
+      - "48W dual light source"
+      - "Fits full hand including thumb"
+    pros:                                # shown in ProsConsBlock (needs showProscons: true)
+      - "Fast cure time"
+      - "Affordable"
+    cons:
+      - "Plastic build"
+
+# ── Comparison table (needs showComparison: true) ──────────
+comparisonTable:
+  features:
+    - "Wattage"
+    - "Cure Time"
+    - "Fits Full Hand"
+    - "Auto Sensor"
+    - "USB Charging"
+  columns:
+    - name: "Beetles 48W"          # must match or reference a product
+      price: "$29.99"
+      link: "https://amzn.to/xxxxx"
+      values:
+        - "48W"                    # string value for text rows
+        - "30–60s"
+        - true                     # boolean true → renders checkmark
+        - true
+        - false                    # boolean false → renders X
+    - name: "MelodySusie 54W"
+      price: "$45.99"
+      link: "https://amzn.to/xxxxx"
+      values:
+        - "54W"
+        - "30–45s"
+        - true
+        - true
+        - true
+
+# ── FAQ (accordion at bottom) ──────────────────────────────
+faqs:
+  - question: "What wattage do I need?"
+    answer: "For home use, 36W–48W is plenty."
+  - question: "Are all lamps compatible with all gel brands?"
+    answer: "Most are. Check the gel brand's recommendations for specialty formulas."
+---
+```
+
+---
+
+## INLINE PRODUCT INJECTION IN CONTENT
+
+Use this placeholder syntax anywhere in the markdown body to inject product grids mid-article:
+
+```
+{{PRODUCTS:1:0}}          ← 1 product, index 0 → featured layout (image + details side by side)
+{{PRODUCTS:2:0,1}}        ← 2 products, indices 0 and 1 → side-by-side grid
+{{PRODUCTS:3:0,1,2}}      ← 3 products → row of 3
+{{PRODUCTS:4:0,1,2,3}}    ← 4 products → 2×2 grid
+```
+
+- `count` = how many products to show (1, 2, 3, or 4)
+- `indices` = which products from the `products[]` array (0-based)
+- Count 1 uses **featured layout** (alternates left/right align for multiple singles)
+- Counts 2/3/4 use **grid layout** (card with image, name, price, Shop Now button)
+
+---
+
+## HOW THE TEMPLATE RENDERS (automatic, no config needed)
+
+Given a post with the right frontmatter, `ShopTemplate.tsx` automatically:
+
+1. Renders `InlineNewsletter` at top
+2. Renders hero (category label, H1 title, author, date, read time, hero image)
+3. Renders `Breadcrumbs` → Shop > Post Title
+4. Renders mobile TOC (hidden on desktop)
+5. If `winnerIndex` set → renders `WinnerBadge` (the top pick, below hero)
+6. Splits content into 3 sections (30% / 30% / 40%)
+7. Renders first section
+8. If `winnerIndex` set → renders `ShopInlineCTA` (mid-article strip)
+9. Renders middle section
+10. If `showComparison: true` → renders `ComparisonTable`
+11. Renders remaining content
+12. If `showProscons: true` → renders `ProsConsBlock` for each product
+13. Renders second `InlineNewsletter`
+14. Renders `ShopFinalCTA` (ranked list of top picks, winner highlighted)
+15. If faqs exist → renders `ShopFAQ` accordion
+16. Sticky desktop sidebar: TOC + winner product card with Shop Now CTA
+17. Renders `AboutEEAT` + `FinalNewsletter` at bottom
+
+---
+
+## COMPONENT REFERENCE — WHEN EACH FIRES
+
+| Component | Trigger | Position |
+|---|---|---|
+| `WinnerBadge` | `winnerIndex` set in frontmatter | Below hero, above content |
+| `ShopInlineCTA` | `winnerIndex` set | After first ~30% of content |
+| `ComparisonTable` | `showComparison: true` + `comparisonTable` data | After middle content section |
+| `ProsConsBlock` | `showProscons: true` | After remaining content, one block per product |
+| `ShopFinalCTA` | Always, if products exist | After pros/cons, before FAQ |
+| `ShopFAQ` | `faqs` array has entries | Bottom of post, before EEAT |
+| `ShopTableOfContents` | Auto — reads H2/H3 from content | Sticky sidebar (desktop) + top (mobile) |
+| `ShopProductGrid` | `{{PRODUCTS:n:i}}` placeholder in content | Wherever placed in markdown |
+| Sidebar winner card | `winnerIndex` set | Sticky sidebar, below TOC |
+
+---
+
+## POST TYPES — WHAT TO SET
+
+### Best-of post (e.g. "10 Best Gel Nail Lamps")
+```yaml
+postType: "best-of"
+winnerIndex: 0
+showComparison: true
+showProscons: false      # optional for best-of
+```
+Use `{{PRODUCTS:2:0,1}}` or `{{PRODUCTS:4:0,1,2,3}}` throughout content.
+
+### Review post (single product deep dive)
+```yaml
+postType: "review"
+winnerIndex: 0
+showComparison: false
+showProscons: true
+```
+Use `{{PRODUCTS:1:0}}` for featured layout. Include detailed `pros` and `cons`.
+
+### Comparison post (head-to-head)
+```yaml
+postType: "comparison"
+winnerIndex: 0           # the winner of the comparison
+showComparison: true
+showProscons: true
+```
+Always include `comparisonTable` data. Use `{{PRODUCTS:2:0,1}}` for head-to-head pairs.
+
+---
+
+## RULES FOR WRITING SHOP POSTS
+
+1. `winnerIndex` almost always set — it activates 3 components at once (WinnerBadge, InlineCTA, sidebar card)
+2. `products[]` array is 0-indexed — `winnerIndex: 0` = first product in the list
+3. `badge` on the winner product should match what you want displayed ("Best Overall", "Editor's Pick", etc.)
+4. Inline product injection `{{PRODUCTS:n:i}}` works in both `.md` and `.mdx` files
+5. `details[]` on a product = shown in WinnerBadge highlights + featured layout. Keep to 3 max for WinnerBadge.
+6. `faqs` are always worth adding — they capture bottom-of-funnel search intent and improve SEO
+7. `comparisonTable.columns[].values[]` must match `comparisonTable.features[]` length exactly
+8. Use `true`/`false` for boolean features in comparison table (renders check/X), strings for text values
+9. The `ShopFinalCTA` always renders if products exist — it auto-puts winner first regardless of order
+10. Content body is standard markdown — H2 for main sections, H3 for sub-sections (TOC picks these up)
+
+---
+
+## WHAT DOES NOT EXIST / NOT TO USE
+
+- No pink/accent colors anywhere in shop components
+- No `StickyBottomNav`, `GlassCard`, `PremiumButton` — unused
+- Do NOT import from `components/Blog/ProductCard` or `components/Blog/ProductGrid` — those are the old broken versions. Always use `components/shop/` versions.
+- No separate templates per post type — one `ShopTemplate.tsx` handles all three
+- `postType` field is for schema/SEO hints only, does NOT change which template renders
