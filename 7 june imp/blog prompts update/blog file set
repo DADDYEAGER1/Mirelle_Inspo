@@ -1,0 +1,324 @@
+{
+  "total_files": 3,
+  "files": [
+    {
+      "path": "src/lib/blog.ts",
+      "content": "import 'server-only';\nimport fs from 'fs';\nimport path from 'path';\nimport matter from 'gray-matter';\nimport { BlogPost, BlogMetadata } from '@/types/blog';\nimport { marked } from 'marked';\n\n// Configure marked to handle HTML properly\nmarked.setOptions({\n  breaks: true,\n  gfm: true,\n});\n\n// Custom renderer to preserve HTML and fix image paths\nconst renderer = new marked.Renderer();\n\nrenderer.html = (html: string) => {\n  return html.replace(/src=\"images\\//g, 'src=\"/images/');\n};\n\nrenderer.image = (href: string, title: string | null, text: string) => {\n  const fixedHref = href.startsWith('images/') ? `/${href}` : href;\n  const titleAttr = title ? ` title=\"${title}\"` : '';\n  return `<img src=\"${fixedHref}\" alt=\"${text}\"${titleAttr} loading=\"lazy\" />`;\n};\n\nmarked.use({ renderer });\n\nconst BLOG_DIRECTORY = path.join(process.cwd(), 'src/content/blogs');\n\n// ─── Helpers ─────────────────────────────────────────────────────────────────\n\n/**\n * Recursively returns all .md and .mdx files under a directory.\n * Returns paths relative to BLOG_DIRECTORY (e.g. \"skin-tone/best-nude-nail-color-for-skin-tone.md\").\n */\nfunction getAllBlogFilesRecursive(dir: string, base: string = ''): string[] {\n  let results: string[] = [];\n  let entries: fs.Dirent[];\n\n  try {\n    entries = fs.readdirSync(dir, { withFileTypes: true });\n  } catch {\n    return [];\n  }\n\n  for (const entry of entries) {\n    const relativePath = base ? `${base}/${entry.name}` : entry.name;\n\n    if (entry.isDirectory()) {\n      results = results.concat(getAllBlogFilesRecursive(path.join(dir, entry.name), relativePath));\n    } else if (entry.isFile() && (entry.name.endsWith('.md') || entry.name.endsWith('.mdx'))) {\n      results.push(relativePath);\n    }\n  }\n\n  return results;\n}\n\n/**\n * Strips the extension (.md or .mdx) from a relative file path to get the slug.\n * e.g. \"skin-tone/best-nude-nail-color-for-skin-tone.md\" → \"skin-tone/best-nude-nail-color-for-skin-tone\"\n */\nfunction fileToSlug(relativePath: string): string {\n  return relativePath.replace(/\\.mdx?$/, '');\n}\n\n/**\n * Given a bare slug (e.g. \"best-nude-nail-color-for-skin-tone\"), finds the file\n * anywhere in the blog directory tree. Checks flat first, then subdirectories.\n * Prefers .mdx over .md.\n */\nfunction resolveFilePath(slug: string): { filePath: string; isMDX: boolean } | null {\n  // 1. Try flat (original behaviour)\n  const flatMdx = path.join(BLOG_DIRECTORY, `${slug}.mdx`);\n  const flatMd  = path.join(BLOG_DIRECTORY, `${slug}.md`);\n  if (fs.existsSync(flatMdx)) return { filePath: flatMdx, isMDX: true };\n  if (fs.existsSync(flatMd))  return { filePath: flatMd,  isMDX: false };\n\n  // 2. Search recursively  slug may live inside a subfolder\n  const allFiles = getAllBlogFilesRecursive(BLOG_DIRECTORY);\n  const basename = slug.includes('/') ? slug : null; // if slug already has a path component\n\n  for (const relativePath of allFiles) {\n    const relativeSlug = fileToSlug(relativePath);\n\n    // Match by full relative slug (e.g. \"skin-tone/best-nude-nail-color-for-skin-tone\")\n    if (relativeSlug === slug) {\n      const filePath = path.join(BLOG_DIRECTORY, relativePath);\n      return { filePath, isMDX: relativePath.endsWith('.mdx') };\n    }\n\n    // Match by filename only (e.g. \"best-nude-nail-color-for-skin-tone\")\n    const fileBasename = path.basename(relativeSlug);\n    if (!basename && fileBasename === slug) {\n      const filePath = path.join(BLOG_DIRECTORY, relativePath);\n      return { filePath, isMDX: relativePath.endsWith('.mdx') };\n    }\n  }\n\n  return null;\n}\n\n// ─── Cache ───────────────────────────────────────────────────────────────────\n\ninterface CacheEntry<T> {\n  data: T;\n  timestamp: number;\n}\n\nclass BlogCache {\n  private cache = new Map<string, CacheEntry<any>>();\n  private readonly TTL = 3600000;\n\n  get<T>(key: string): T | null {\n    const entry = this.cache.get(key);\n    if (!entry) return null;\n    if (Date.now() - entry.timestamp > this.TTL) {\n      this.cache.delete(key);\n      return null;\n    }\n    return entry.data as T;\n  }\n\n  set<T>(key: string, data: T): void {\n    this.cache.set(key, { data, timestamp: Date.now() });\n  }\n\n  clear(): void {\n    this.cache.clear();\n  }\n}\n\nconst blogCache = new BlogCache();\n\n// ─── Public API ──────────────────────────────────────────────────────────────\n\nexport async function getAllBlogPosts(): Promise<BlogMetadata[]> {\n  const cacheKey = 'all-blog-posts';\n\n  const cached = blogCache.get<BlogMetadata[]>(cacheKey);\n  if (cached) return cached;\n\n  try {\n    const files = getAllBlogFilesRecursive(BLOG_DIRECTORY);\n\n    const posts = files\n      .map(relativePath => {\n        const relativeSlug = fileToSlug(relativePath);\n        // The bare slug is the filename without extension (for getBlogPost lookups)\n        const slug     = path.basename(relativeSlug);\n        const filePath = path.join(BLOG_DIRECTORY, relativePath);\n        const content  = fs.readFileSync(filePath, 'utf8');\n        const { data } = matter(content);\n\n        return {\n          slug,\n          title:             data.title      || 'Untitled',\n          excerpt:           data.excerpt    || '',\n          date:              data.date       || new Date().toISOString(),\n          author:            data.author     || 'Mirellé Team',\n          category:          data.category,\n          image:             data.image      || null,\n          imageAlt:          data.imageAlt,\n          imageWidth:        data.imageWidth  || 1200,\n          imageHeight:       data.imageHeight || 630,\n          readTime:          data.readTime   || '5 min',\n          topic:             data.topic,\n          canonical: data.canonical || (data.topic ? `https://mirelleinspo.com/blog/${data.topic}/${slug}` : `https://mirelleinspo.com/blog/${slug}`),\n          template:          data.template   || 'center',\n          topicalMap:        data.topicalMap,\n          navigationContext: data.navigationContext,\n          url: data.topic ? `https://mirelleinspo.com/blog/${data.topic}/${slug}` : `https://mirelleinspo.com/blog/${slug}`,\n        } as BlogMetadata;\n      })\n      .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());\n\n    blogCache.set(cacheKey, posts);\n    return posts;\n  } catch (error) {\n    console.error('Error reading blog posts:', error);\n    return [];\n  }\n}\n\nexport async function getBlogPost(slug: string): Promise<BlogPost | null> {\n  const cacheKey = `blog-post:${slug}`;\n\n  const cached = blogCache.get<BlogPost>(cacheKey);\n  if (cached) return cached;\n\n  try {\n    const resolved = resolveFilePath(slug);\n    if (!resolved) {\n      console.error(`Blog post not found: ${slug}`);\n      return null;\n    }\n\n    const { filePath, isMDX } = resolved;\n    const fileContent = fs.readFileSync(filePath, 'utf8');\n    const { data, content: rawContent } = matter(fileContent);\n\n    let htmlContent: string;\n\n    if (isMDX) {\n      htmlContent = rawContent;\n    } else {\n      let compiled = await marked(rawContent);\n\n      compiled = compiled.replace(\n        /<h2>(.*?)<\\/h2>/g,\n        (_match, text) => {\n          const cleanText = text.replace(/<[^>]*>/g, '');\n          const id = cleanText\n            .toLowerCase()\n            .replace(/[^a-z0-9]+/g, '-')\n            .replace(/^-+|-+$/g, '');\n          return `<h2 id=\"${id}\">${text}</h2>`;\n        }\n      );\n\n      htmlContent = compiled;\n    }\n\n    // Bare slug = filename without extension (consistent with getAllBlogPosts)\n    const bareSlug = path.basename(slug.replace(/\\.mdx?$/, ''));\n\n    const post: BlogPost = {\n      slug:              bareSlug,\n      title:             data.title      || 'Untitled',\n      excerpt:           data.excerpt    || '',\n      content:           htmlContent,\n      isMDX,\n      date:              data.date       || new Date().toISOString(),\n      author:            data.author     || 'Mirellé Team',\n      category:          data.category,\n      image:             data.image      || null,\n      imageAlt:          data.imageAlt,\n      imageWidth:        data.imageWidth  || 1200,\n      imageHeight:       data.imageHeight || 630,\n      readTime:          data.readTime   || '5 min',\n      topic:             data.topic,\n      canonical: data.canonical || (data.topic ? `https://mirelleinspo.com/blog/${data.topic}/${bareSlug}` : `https://mirelleinspo.com/blog/${bareSlug}`),\n      template:          data.template   || 'center',\n      topicalMap:        data.topicalMap,\n      navigationContext: data.navigationContext,\n      carouselImages:    data.carouselImages,\n      products:          data.products,\n      coverImage:        data.image      || '/images/default-blog.jpg',\n    };\n\n    blogCache.set(cacheKey, post);\n    return post;\n  } catch (error) {\n    console.error(`Error reading blog post ${slug}:`, error);\n    return null;\n  }\n}\n\nexport async function getAllBlogSlugs(): Promise<string[]> {\n  try {\n    return getAllBlogFilesRecursive(BLOG_DIRECTORY).map(f => path.basename(fileToSlug(f)));\n  } catch (error) {\n    console.error('Error reading blog slugs:', error);\n    return [];\n  }\n}\n\nexport async function getPostsByCategory(categorySlug: string): Promise<BlogMetadata[]> {\n  const allPosts = await getAllBlogPosts();\n  return allPosts.filter(post => post.category === categorySlug);\n}\n\nexport async function getAllCategories() {\n  return [\n    { name: 'Seasonal',        slug: 'seasonal' },\n    { name: 'Trends',          slug: 'trends' },\n    { name: 'Tutorial',        slug: 'tutorial' },\n    { name: 'Nail Care',       slug: 'nail care' },\n    { name: 'Nail Art',        slug: 'nail art' },\n    { name: \"Editor's Choice\", slug: \"editor's choice\" },\n  ];\n}\n\nexport async function getRelatedPosts(\n  currentSlug: string,\n  limit: number = 9\n): Promise<BlogMetadata[]> {\n  const currentPost = await getBlogPost(currentSlug);\n  if (!currentPost) return [];\n\n  const allPosts = await getAllBlogPosts();\n\n  const sameCategoryPosts = allPosts\n    .filter(post => post.slug !== currentSlug && post.category === currentPost.category)\n    .slice(0, limit);\n\n  if (sameCategoryPosts.length < limit) {\n    const remaining  = limit - sameCategoryPosts.length;\n    const otherPosts = allPosts\n      .filter(post =>\n        post.slug !== currentSlug &&\n        !sameCategoryPosts.some(sp => sp.slug === post.slug)\n      )\n      .slice(0, remaining);\n\n    return [...sameCategoryPosts, ...otherPosts];\n  }\n\n  return sameCategoryPosts;\n}\n\nexport async function getPaginatedPosts(\n  page: number = 1,\n  perPage: number = 12\n): Promise<{\n  posts: BlogMetadata[];\n  totalPages: number;\n  currentPage: number;\n  totalPosts: number;\n}> {\n  const allPosts   = await getAllBlogPosts();\n  const totalPosts = allPosts.length;\n  const totalPages = Math.ceil(totalPosts / perPage);\n  const startIndex = (page - 1) * perPage;\n  const posts      = allPosts.slice(startIndex, startIndex + perPage);\n\n  return { posts, totalPages, currentPage: page, totalPosts };\n}\n\nexport interface ClusterGroup {\n  pillar:   BlogMetadata;\n  clusters: BlogMetadata[];\n}\n\nexport async function getAllClusters(): Promise<ClusterGroup[]> {\n  const cacheKey = 'all-clusters';\n\n  const cached = blogCache.get<ClusterGroup[]>(cacheKey);\n  if (cached) return cached;\n\n  const allPosts    = await getAllBlogPosts();\n  const pillarPosts = allPosts.filter(post => post.topicalMap?.position === 'pillar');\n\n  const clusterGroups: ClusterGroup[] = pillarPosts.map(pillar => {\n    const clusterPosts = allPosts.filter(post =>\n      post.topicalMap?.position === 'cluster' &&\n      (\n        post.topicalMap?.parentPillar === `/blog/${pillar.slug}` ||\n        post.topicalMap?.parentPillar === pillar.slug\n      )\n    );\n    return { pillar, clusters: clusterPosts };\n  });\n\n  blogCache.set(cacheKey, clusterGroups);\n  return clusterGroups;\n}\n\nexport async function getStandalonePosts(): Promise<BlogMetadata[]> {\n  const cacheKey = 'standalone-posts';\n\n  const cached = blogCache.get<BlogMetadata[]>(cacheKey);\n  if (cached) return cached;\n\n  const allPosts   = await getAllBlogPosts();\n  const standalone = allPosts.filter(post =>\n    !post.topicalMap?.position ||\n    (post.topicalMap.position !== 'pillar' && post.topicalMap.position !== 'cluster')\n  );\n\n  blogCache.set(cacheKey, standalone);\n  return standalone;\n}\n\nexport function clearBlogCache() {\n  blogCache.clear();\n}\n\nexport async function getPillarClusterPosts(\n  pillarSlug: string\n): Promise<{ pillar: BlogMetadata; clusters: BlogMetadata[] } | null> {\n  const cacheKey = `pillar-clusters:${pillarSlug}`;\n  const cached = blogCache.get<{ pillar: BlogMetadata; clusters: BlogMetadata[] }>(cacheKey);\n  if (cached) return cached;\n\n  const allPosts = await getAllBlogPosts();\n\n  const pillar = allPosts.find(post => post.slug === pillarSlug);\n  if (!pillar) return null;\n\n  const clusters = allPosts.filter(post =>\n    post.topicalMap?.position === 'cluster' &&\n    (\n      post.topicalMap?.parentPillar === `/blog/${pillarSlug}` ||\n      post.topicalMap?.parentPillar === pillarSlug\n    )\n  );\n\n  const result = { pillar, clusters };\n  blogCache.set(cacheKey, result);\n  return result;\n}\n"
+    },
+    {
+      "path": "src/app/blog/[...slug]/page.tsx",
+      "content": "// src/app/blog/[...slug]/page.tsx\n\nimport { notFound, redirect } from 'next/navigation';\nimport { getBlogPost, getAllBlogPosts, getPillarClusterPosts } from '@/lib/blog';\nimport type { Metadata } from 'next';\nimport { generateSchemas } from '@/lib/generateSchemas';\nimport Link from 'next/link';\n\nimport CenterTemplate from '../templates/CenterTemplate';\nimport SplitLeftTemplate from '../templates/SplitLeftTemplate';\nimport SplitRightTemplate from '../templates/SplitRightTemplate';\nimport GridTemplate from '../templates/GridTemplate';\n\nexport const revalidate = false; // Static: built at deploy, no ISR reads\n\ninterface PageProps {\n  params: Promise<{\n    slug?: string[];\n  }>;\n}\n\n// ─── Static Params ────────────────────────────────────────────────────────────\n\nexport async function generateStaticParams() {\n  const allPosts = await getAllBlogPosts();\n  const paths: { slug: string[] }[] = [];\n  const registeredTopics = new Set<string>();\n\n  for (const post of allPosts) {\n    if (post.topic) {\n      paths.push({ slug: [post.topic, post.slug] });\n      if (post.topicalMap?.position === 'pillar' && !registeredTopics.has(post.topic)) {\n        paths.push({ slug: [post.topic] });\n        registeredTopics.add(post.topic);\n      }\n    } else {\n      paths.push({ slug: [post.slug] });\n    }\n  }\n\n  return paths;\n}\n\n// ─── Metadata ─────────────────────────────────────────────────────────────────\n\nexport async function generateMetadata({ params }: PageProps): Promise<Metadata> {\n  const { slug: segments } = await params;\n\n  if (!segments || segments.length === 0) return { title: 'Not Found' };\n\n  if (segments.length === 1) {\n    const [segment] = segments;\n    const allPosts = await getAllBlogPosts();\n\n    const pillar = allPosts.find(\n      p => p.topic === segment && p.topicalMap?.position === 'pillar'\n    );\n\n    if (pillar) {\n      return {\n        title: `${pillar.title} | Mirellé`,\n        description: pillar.excerpt,\n        alternates: { canonical: `https://mirelleinspo.com/blog/${segment}` },\n        robots: { index: true, follow: true },\n      };\n    }\n\n    const post = await getBlogPost(segment);\n    if (!post) return { title: 'Not Found', robots: { index: false, follow: false } };\n\n    const canonicalUrl = post.canonical || `https://mirelleinspo.com/blog/${segment}`;\n    const imageUrl = post.image\n      ? `https://mirelleinspo.com${post.image}`\n      : 'https://mirelleinspo.com/og-default.png';\n\n    return buildPostMetadata(post, canonicalUrl, imageUrl, post.imageAlt || post.title);\n  }\n\n  if (segments.length === 2) {\n    const [topic, postSlug] = segments;\n    const post = await getBlogPost(postSlug);\n    if (!post) return { title: 'Not Found', robots: { index: false, follow: false } };\n\n    const canonicalUrl =\n      post.canonical || `https://mirelleinspo.com/blog/${topic}/${postSlug}`;\n    const imageUrl = post.image\n      ? `https://mirelleinspo.com${post.image}`\n      : 'https://mirelleinspo.com/og-default.png';\n\n    return buildPostMetadata(post, canonicalUrl, imageUrl, post.imageAlt || post.title);\n  }\n\n  return { title: 'Not Found', robots: { index: false, follow: false } };\n}\n\n// ─── Page ──────────────────────────────────────────────────────────────────────\n\nexport default async function BlogCatchAllPage({ params }: PageProps) {\n  const { slug: segments } = await params;\n\n  if (!segments || segments.length === 0) notFound();\n\n  if (segments.length === 1) {\n    const [segment] = segments;\n    const allPosts = await getAllBlogPosts();\n\n    const pillarPost = allPosts.find(\n      p => p.topic === segment && p.topicalMap?.position === 'pillar'\n    );\n\n    if (pillarPost) {\n      return <PillarHub topic={segment} />;\n    }\n\n    const post = await getBlogPost(segment);\n    if (!post) notFound();\n\n    if (post.topic) {\n      redirect(`/blog/${post.topic}/${post.slug}`);\n    }\n\n    return <PostPage post={post} slug={segment} />;\n  }\n\n  if (segments.length === 2) {\n    const [topic, postSlug] = segments;\n    const post = await getBlogPost(postSlug);\n    if (!post) notFound();\n\n    if (post.topic && post.topic !== topic) notFound();\n\n    return <PostPage post={post} slug={postSlug} />;\n  }\n\n  notFound();\n}\n\n// ─── Post renderer ─────────────────────────────────────────────────────────────\n\nasync function PostPage({ post, slug }: { post: any; slug: string }) {\n  const schemas = generateSchemas({ post, slug });\n\n  const templates: Record<string, any> = {\n    center: CenterTemplate,\n    'split-left': SplitLeftTemplate,\n    'split-right': SplitRightTemplate,\n    grid: GridTemplate,\n  };\n\n  const Template = templates[post.template || 'center'];\n\n  const postWithCoverImage = {\n    ...post,\n    coverImage: post.image || '/images/default-blog.jpg',\n  };\n\n  return (\n    <>\n      <script\n        type=\"application/ld+json\"\n        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.articleSchema) }}\n      />\n      <script\n        type=\"application/ld+json\"\n        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.breadcrumbSchema) }}\n      />\n      <script\n        type=\"application/ld+json\"\n        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.websiteSchema) }}\n      />\n      <script\n        type=\"application/ld+json\"\n        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.organizationSchema) }}\n      />\n      <Template post={postWithCoverImage} />\n    </>\n  );\n}\n\n// ─── Pillar hub renderer ───────────────────────────────────────────────────────\n\nasync function PillarHub({ topic }: { topic: string }) {\n  const allPosts = await getAllBlogPosts();\n  const pillar = allPosts.find(\n    p => p.topic === topic && p.topicalMap?.position === 'pillar'\n  );\n\n  if (!pillar) notFound();\n\n  const data = await getPillarClusterPosts(pillar.slug);\n  if (!data) notFound();\n\n  const { clusters } = data;\n\n  return (\n    <main className=\"max-w-4xl mx-auto px-4 py-12\">\n      <div className=\"mb-12\">\n        <p className=\"text-sm uppercase tracking-widest text-gray-400 mb-2\">Topic Hub</p>\n        <h1 className=\"text-4xl font-bold mb-4\">{pillar.title}</h1>\n        {pillar.excerpt && (\n          <p className=\"text-lg text-gray-600\">{pillar.excerpt}</p>\n        )}\n      </div>\n\n      {clusters.length > 0 && (\n        <section>\n          <h2 className=\"text-xl font-semibold mb-6 border-b pb-2\">\n            All Posts in This Topic\n          </h2>\n          <div className=\"grid grid-cols-1 sm:grid-cols-2 gap-6\">\n            {clusters.map(post => (\n              <Link\n                key={post.slug}\n                href={`/blog/${topic}/${post.slug}`}\n                className=\"group block border rounded-xl p-5 hover:shadow-md transition-shadow\"\n              >\n                <p className=\"text-xs text-gray-400 mb-1\">{post.readTime}</p>\n                <h3 className=\"font-semibold text-lg group-hover:underline\">\n                  {post.title}\n                </h3>\n                {post.excerpt && (\n                  <p className=\"text-sm text-gray-500 mt-2 line-clamp-2\">\n                    {post.excerpt}\n                  </p>\n                )}\n              </Link>\n            ))}\n          </div>\n        </section>\n      )}\n    </main>\n  );\n}\n\n// ─── Metadata helper ───────────────────────────────────────────────────────────\n\nfunction buildPostMetadata(\n  post: any,\n  canonicalUrl: string,\n  imageUrl: string,\n  imageAltText: string\n): Metadata {\n  return {\n    title: `${post.title} | Mirellé`,\n    description:\n      post.excerpt ||\n      `Discover ${post.title} - expert nail tips, trends, and tutorials from Mirellé.`,\n    authors: [{ name: post.author || 'Mirellé' }],\n    creator: post.author || 'Mirellé',\n    publisher: 'Mirellé',\n    alternates: { canonical: canonicalUrl },\n    robots: {\n      index: true,\n      follow: true,\n      nocache: false,\n      googleBot: {\n        index: true,\n        follow: true,\n        'max-video-preview': -1,\n        'max-image-preview': 'large',\n        'max-snippet': -1,\n      },\n    },\n    openGraph: {\n      title: `${post.title} | Mirellé`,\n      description:\n        post.excerpt ||\n        `Discover ${post.title} - expert nail inspiration from Mirellé.`,\n      type: 'article',\n      url: canonicalUrl,\n      siteName: 'Mirellé',\n      locale: 'en_US',\n      images: [\n        {\n          url: imageUrl,\n          width: post.imageWidth || 1200,\n          height: post.imageHeight || 630,\n          alt: imageAltText,\n          type: 'image/jpeg',\n        },\n      ],\n      publishedTime: post.date,\n      modifiedTime: post.date,\n      authors: [post.author || 'Mirellé'],\n      section: post.category || 'Nail Care',\n    },\n    twitter: {\n      card: 'summary_large_image',\n      title: `${post.title} | Mirellé`,\n      description:\n        post.excerpt ||\n        `Discover ${post.title} - expert nail inspiration from Mirellé.`,\n      images: [imageUrl],\n      creator: '@mirelleinspo',\n      site: '@mirelleinspo',\n    },\n    other: {\n      'article:published_time': post.date,\n      'article:modified_time': post.date,\n      'article:author': post.author || 'Mirellé',\n      'article:section': post.category || 'Nail Care',\n      'og:image:width': (post.imageWidth || 1200).toString(),\n      'og:image:height': (post.imageHeight || 630).toString(),\n      'og:image:alt': imageAltText,\n      'og:image:type': 'image/jpeg',\n      ...(post.readTime && {\n        'twitter:label1': 'Reading time',\n        'twitter:data1': post.readTime,\n      }),\n    },\n  };\n}"
+    },
+    {
+      "path": "src/lib/seo.ts",
+      "content": "// SEO helper functions\n\nexport function generateImageAlt(keyword: string, description: string): string {\n  const alt = `${keyword} ${description}`;\n  return alt.length > 125 ? alt.substring(0, 122) + '...' : alt;\n}\n\nexport function calculateReadTime(wordCount: number): string {\n  const minutes = Math.ceil(wordCount / 200); // 200 WPM average\n  return `${minutes} min`;\n}\n\nexport function extractKeywords(content: string, primaryKeyword: string): {\n  count: number;\n  density: number;\n  locations: string[];\n} {\n  // Count primary keyword usage\n  const regex = new RegExp(primaryKeyword, 'gi');\n  const matches = content.match(regex) || [];\n  const wordCount = content.split(/\\s+/).length;\n  \n  return {\n    count: matches.length,\n    density: (matches.length / wordCount) * 100,\n    locations: [] // Could extract H2 headings containing keyword\n  };\n}\n\nexport function optimizeTitle(title: string, maxLength: number = 60): string {\n  if (title.length <= maxLength) return title;\n  return title.substring(0, maxLength - 3) + '...';\n}\n\nexport function optimizeDescription(description: string, maxLength: number = 160): string {\n  if (description.length <= maxLength) return description;\n  return description.substring(0, maxLength - 3) + '...';\n}\n\nexport function validateSlug(slug: string): boolean {\n  // Valid slug: lowercase, hyphens, numbers only\n  return /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug);\n}\n\nexport function generateSlug(title: string): string {\n  return title\n    .toLowerCase()\n    .trim()\n    .replace(/[^\\w\\s-]/g, '')\n    .replace(/[\\s_-]+/g, '-')\n    .replace(/^-+|-+$/g, '');\n}\n"
+    }
+  ],
+  "missing_files": []
+}
+
+
+
+
+
+
+
+---
+slug: "pride-month-nails"
+title: "Pride Month Nails: 50+ Ideas for June 2026"
+excerpt: "The best pride month nails for June 2026 -- from Progress Flag designs to identity-specific looks, aura nails, and subtle office-ready manicures."
+date: "2026-06-01T09:00:00-05:00"
+dateModified: "2026-06-01"
+author: jyoti-mirelle
+category: "Nail Inspiration"
+image: "/images/blog/lgbtq/pride-month-nails/pride-month-nails-2026-hero-rainbow-progress-flag-editorial-manicure.webp"
+imageAlt: "Pride month nails 2026 featuring rainbow, Progress Flag, and identity-specific designs for June celebrations and parade looks"
+imageWidth: 800
+imageHeight: 800
+imageCaption: "Pride month nails, June 2026. Every identity, every length, every context."
+readTime: "12 min"
+canonical: "https://mirelleinspo.com/blog/lgbtq/pride-month-nails"
+template: "split-left"
+wordCount: 2500
+topic: "lgbtq"
+tags:
+  - "pride month nails"
+  - "pride nails June 2026"
+  - "LGBTQ nail art 2026"
+  - "queer nail art"
+  - "progress flag nails"
+  - "pride manicure ideas"
+  - "pride nail designs"
+  - "identity flag nails"
+  - "aura nails pride"
+  - "subtle pride nails"
+  - "pride skittle nails"
+  - "pride parade nails"
+  - "pride nail trends 2026"
+  - "short nail pride designs"
+  - "micro-French pride nails"
+  - "June nail trends 2026"
+  - "queer manicure"
+tldr:
+  summary:
+    - "Pride month nails in 2026 go far beyond rainbow stripes -- identity-specific flag designs are the move."
+    - "The Progress Pride Flag translates beautifully to nails: black, brown, light blue, pink, and white alongside the classic six-colour rainbow."
+    - "Aura nails applied to pride colours are the biggest trend crossover of June 2026."
+    - "Short nails can carry every pride design on this list -- length is never a barrier."
+    - "Subtle pride nails exist: quiet, insider-coded looks that read as celebration to those who know."
+    - "Skittle nails -- one flag colour per finger -- are the easiest DIY option for any identity."
+    - "Micro-French tips in pride colours are the most wearable 2026 trend crossover for everyday wear."
+  keyTakeaways:
+    - "Your identity deserves its own design -- not just a generic rainbow."
+    - "Aura nails in pride colours are everywhere on TikTok this June and surprisingly easy to DIY."
+    - "The best parade nails are gel or press-on -- they survive a full day of heat, dancing, and everything else."
+    - "Skittle nails are the ultimate beginner-friendly pride manicure."
+    - "Subtle pride designs exist for work, everyday, and every context where you need them."
+  creativeLine: "Your nails are the smallest, most visible act of pride you can wear."
+faqItems:
+  - question: "What are the best pride nails for 2026?"
+    answer: "The biggest pride nail trends for 2026 combine current techniques with identity expression. Aura nails in rainbow or flag-specific colours, micro-French tips with pride colour tips, and Progress Flag skittle nails are leading the moment. Identity-specific designs -- bi pink-purple-blue, trans light blue-pink-white, enby yellow-white-purple-black -- are replacing generic rainbow looks as the standard for community members who want their specific flag represented."
+  - question: "What does the Progress Pride Flag look like on nails?"
+    answer: "Progress Pride Flag nails use eleven colours: the classic six-colour rainbow (red, orange, yellow, green, indigo, violet) plus the chevron additions of black, brown, light blue, pink, and white. On nails, the most common interpretations are skittle nails using the chevron colours across five fingers, a gradient from black-brown into the rainbow, or an accent nail with the full flag chevron design painted freehand or with a stamp."
+  - question: "Can you do pride nails on short nails?"
+    answer: "Yes -- every design on this list works on short nails. Aura nails, skittle nails, micro-French tips, and solid flag-colour looks all read beautifully on short lengths. The shorter the nail, the more the colour does the work. Some designs -- like aura nails and jelly finishes -- actually look more modern on short nails than on long ones."
+  - question: "What are subtle pride nails for the office?"
+    answer: "Quiet pride nails are designs that carry meaning to those inside the community without broadcasting loudly in professional contexts. Options include: a single accent nail in your flag's colours against a neutral base; micro-French tips with flag-colour tips barely visible straight-on; a jelly finish in bi pink, trans blue, or enby yellow worn as a seemingly simple manicure; or pride-coloured chrome powder on one nail only."
+  - question: "What nail colours represent the bisexual, trans, and nonbinary flags?"
+    answer: "Bisexual flag: pink, purple (lavender), and royal blue. Trans flag: light blue, pink, and white. Nonbinary flag: yellow, white, purple, and black. Lesbian flag (the most recent design): shades of orange, white, and pink -- specifically dark orange, orange, white, pink, and dark rose. Each translates directly to nail polish -- skittle nails are the cleanest execution for all of them."
+  - question: "Are aura nails a good choice for pride month?"
+    answer: "Aura nails are one of the best pride nail techniques for 2026. The soft gradient halo effect -- created by dry-brushing two or three colours toward the centre of the nail -- works perfectly with pride colour combinations. Rainbow aura nails blend red into orange into yellow in a single soft wash. Bi aura nails use pink and purple. Trans aura nails use light blue and pink. The technique is beginner-friendly and works on every nail length and shape."
+  - question: "What nail shapes are best for pride parade looks?"
+    answer: "Almond and coffin shapes give the most visual impact for bold pride nail art -- longer canvas, more room for detail. For short nails or practical wearers, squoval and round shapes work for any design. Almond is the dominant shape trend for 2026 overall, making it the strongest choice if you want your pride nails to feel both celebratory and current."
+topicalMap:
+  position: "pillar"
+  parentPillar: null
+  relatedClusters:
+    - "rainbow-nails-pride"
+    - "how-to-do-pride-nails-at-home"
+    - "pride-flag-nails"
+    - "subtle-pride-nails"
+    - "best-pride-nail-polish-sets"
+    - "pride-nail-trends-2026"
+    - "pride-press-on-nails"
+    - "pride-nails-almond"
+    - "pride-nails-coffin"
+    - "pride-french-tip-nails"
+    - "pride-acrylic-nails"
+    - "lesbian-nails"
+    - "bisexual-nails"
+    - "trans-nails"
+    - "nonbinary-nails"
+  primaryKeyword: "pride month nails"
+  searchIntent: "inspirational"
+  topicalBoundary: "Pride month nail inspiration, identity-specific designs, 2026 trends, and practical guidance for every LGBTQ+ identity, length, and context"
+  hierarchyLevel: 1
+  secondaryKeywords:
+    - "pride nail designs 2026"
+    - "LGBTQ nail art 2026"
+    - "queer nail art"
+    - "progress flag nails"
+    - "pride parade nails"
+    - "aura nails pride"
+    - "subtle pride nails"
+    - "pride skittle nails"
+  contentType: "showcase"
+  semanticRelationships:
+    technique:
+      - "aura nails"
+      - "skittle nails"
+      - "micro-French tip"
+      - "chrome powder"
+      - "gel overlay"
+      - "ombre gradient"
+    style:
+      - "identity flag nails"
+      - "progress flag nails"
+      - "quiet pride nails"
+      - "bold parade nails"
+    occasions:
+      - "pride parade"
+      - "everyday wear"
+      - "office wear"
+      - "pride events"
+    relatedTechniques:
+      - "jelly finish"
+      - "chrome nails"
+      - "ombre gradient"
+      - "nail stamping"
+  contentMetrics:
+    technicalComplexity: "beginner"
+    timeToImplement: "30-90 min"
+    requiredSkills:
+      - "basic nail polish application"
+      - "dry brush technique for aura nails"
+    requiredTools:
+      - "nail polish in flag colours"
+      - "top coat"
+      - "dry fan brush (for aura nails)"
+      - "nail stamps (optional)"
+  childClusters:
+    - slug: "rainbow-nails-pride"
+      relationship: "design category"
+      hierarchyLevel: 2
+    - slug: "how-to-do-pride-nails-at-home"
+      relationship: "tutorial"
+      hierarchyLevel: 2
+    - slug: "pride-flag-nails"
+      relationship: "identity guide"
+      hierarchyLevel: 2
+    - slug: "subtle-pride-nails"
+      relationship: "design category"
+      hierarchyLevel: 2
+    - slug: "best-pride-nail-polish-sets"
+      relationship: "product"
+      hierarchyLevel: 2
+    - slug: "pride-nail-trends-2026"
+      relationship: "trend"
+      hierarchyLevel: 2
+    - slug: "pride-press-on-nails"
+      relationship: "product"
+      hierarchyLevel: 2
+    - slug: "pride-nails-almond"
+      relationship: "shape"
+      hierarchyLevel: 2
+    - slug: "pride-nails-coffin"
+      relationship: "shape"
+      hierarchyLevel: 2
+    - slug: "pride-french-tip-nails"
+      relationship: "design category"
+      hierarchyLevel: 2
+    - slug: "pride-acrylic-nails"
+      relationship: "finish"
+      hierarchyLevel: 2
+    - slug: "lesbian-nails"
+      relationship: "identity"
+      hierarchyLevel: 2
+    - slug: "bisexual-nails"
+      relationship: "identity"
+      hierarchyLevel: 2
+    - slug: "trans-nails"
+      relationship: "identity"
+      hierarchyLevel: 2
+    - slug: "nonbinary-nails"
+      relationship: "identity"
+      hierarchyLevel: 2
+navigationContext:
+  pillarPost:
+    slug: "pride-month-nails"
+    title: "Pride Month Nails: 50+ Ideas to Celebrate Every Identity in June 2026"
+---
+
+A manicure can be a lot of things. In June, for a lot of people, it is something specific: visible, intentional, and theirs.
+
+<strong>Pride month nails</strong> in 2026 are not just rainbow stripes. They are aura nails in bi pink and purple. They are micro-French tips in trans light blue. They are a single chrome accent nail that only makes sense to the person who knows. They are skittle nails in yellow, white, purple, and black for every enby who has scrolled past every "pride nails" post feeling invisible in it. This is the guide that covers all of it  bold parade looks, identity-specific flag designs, subtle office-appropriate options, and the <a href='/blog/pride-nail-trends-2026'>biggest pride nail trends for 2026</a>  because your identity deserves its own design, not a placeholder.
+
+<div class='my-8 text-center'>
+  <img
+    src='/images/blog/lgbtq/pride-month-nails/pride-month-nails-2026-hero-rainbow-progress-flag-editorial-manicure.webp'
+    alt='Pride month nails 2026 featuring rainbow, Progress Flag, and identity-specific designs for June celebrations and parade looks'
+    width='1200'
+    height='630'
+    class='rounded-lg shadow-lg mx-auto'
+    loading='lazy'
+  />
+</div>
+
+<hr className="my-8 border-gray-200" />
+
+## Why Pride Nails Hit Different in June 2026
+
+The <a href='https://en.wikipedia.org/wiki/Pride_flag' target='_blank' rel='noopener'>rainbow pride flag</a> has been a symbol of LGBTQ+ identity since Gilbert Baker designed it in 1978. But the way the community uses nails as a language  a quick flash of colour at the right moment, a full set that announces your whole identity across ten fingers  that is its own thing entirely. There is a long tradition of queer people using beauty as a form of expression that belongs to them, and the June manicure is part of that tradition.
+
+What is different in 2026 is the specificity. The conversation has moved. Generic rainbow nails are still joyful and still entirely valid, but the community is asking for more: designs that reflect *their* flag, not the umbrella. The searches bear this out. People are looking for bi pride nails, trans flag nails, enby nails  exact terms, specific colours, the design that says *this* identity rather than LGBTQ+ in general. This guide is built for that.
+
+<div class='my-8 text-center'>
+  <img
+    src='/images/blog/lgbtq/pride-month-nails/queer-manicure-tradition-june-pride-nails-cultural-context-editorial.webp'
+    alt='Queer manicure tradition showing diverse hand close-ups with pride nail colours celebrating June identity expression'
+    width='800'
+    height='800'
+    class='rounded-lg shadow-lg mx-auto'
+    loading='lazy'
+  />
+</div>
+<p class='text-center text-sm text-gray-500 mt-2 italic'>Nails as language. June as the month the community speaks loudest.</p>
+
+<div class='my-8 text-center'>
+  <img
+    src='/images/blog/lgbtq/pride-month-nails/pride-nail-art-identity-expression-rainbow-skittle-hands-june-2026.webp'
+    alt='Pride nail art showing rainbow skittle nails across multiple hand skin tones representing LGBTQ identity in June 2026'
+    width='800'
+    height='800'
+    class='rounded-lg shadow-lg mx-auto'
+    loading='lazy'
+  />
+</div>
+<p class='text-center text-sm text-gray-500 mt-2 italic'>Skittle nails  one colour per finger  remain the most direct identity statement.</p>
+
+<hr className="my-8 border-gray-200" />
+
+## The Full Rainbow: Classic Pride Nails That Never Miss
+
+Classic rainbow pride nails have never been a safe choice  they have always been a statement. The six-colour <a href='https://en.wikipedia.org/wiki/Pride_flag' target='_blank' rel='noopener'>rainbow flag</a> (red, orange, yellow, green, blue, violet) translates to nails in more ways than most people explore. Skittle nails  one colour per finger  are the original and still the cleanest execution. Ombre rainbow gradients blend all six across a single nail or across the full set. Holographic rainbow polish catches every colour in the spectrum in a single coat, for the person who wants rainbow without the precision work. For the full rainbow edit, our <a href='/blog/rainbow-nails-pride'>rainbow nails pride guide</a> goes deeper on every variation.
+
+<div class='my-8 text-center'>
+  <img
+    src='/images/blog/lgbtq/pride-month-nails/rainbow-skittle-nails-six-colour-pride-flag-red-orange-yellow-green-blue-violet.webp'
+    alt='Rainbow skittle nails showing six pride flag colours red orange yellow green blue violet across all ten fingers close up'
+    width='800'
+    height='800'
+    class='rounded-lg shadow-lg mx-auto'
+    loading='lazy'
+  />
+</div>
+<p class='text-center text-sm text-gray-500 mt-2 italic'>The classic skittle set. One colour per finger, no mixing required.</p>
+
+<div class='my-8 text-center'>
+  <img
+    src='/images/blog/lgbtq/pride-month-nails/rainbow-ombre-gradient-nails-pride-all-six-colours-single-nail-technique.webp'
+    alt='Rainbow ombre gradient nails blending all six pride colours across single nails in smooth sponge gradient technique'
+    width='800'
+    height='800'
+    class='rounded-lg shadow-lg mx-auto'
+    loading='lazy'
+  />
+</div>
+<p class='text-center text-sm text-gray-500 mt-2 italic'>Ombre gradient  all six colours, one nail. The sponge technique makes this achievable at home.</p>
+
+<div class='my-8 text-center'>
+  <img
+    src='/images/blog/lgbtq/pride-month-nails/holographic-rainbow-nails-pride-chrome-powder-single-coat-finish.webp'
+    alt='Holographic rainbow nails showing chrome powder finish catching multiple pride colours in single coat on short almond nails'
+    width='800'
+    height='800'
+    class='rounded-lg shadow-lg mx-auto'
+    loading='lazy'
+  />
+</div>
+<p class='text-center text-sm text-gray-500 mt-2 italic'>Holographic chrome  the whole rainbow in one coat. Maximum impact, minimum steps.</p>
+
+<div class='my-8 text-center'>
+  <img
+    src='/images/blog/lgbtq/pride-month-nails/rainbow-french-tip-nails-pride-coloured-tips-sheer-base-parade-look.webp'
+    alt='Rainbow French tip nails with pride coloured tips painted in red orange yellow green blue violet on sheer pink base'
+    width='800'
+    height='800'
+    class='rounded-lg shadow-lg mx-auto'
+    loading='lazy'
+  />
+</div>
+<p class='text-center text-sm text-gray-500 mt-2 italic'>Rainbow French tips. The subtlest way to wear all six colours.</p>
+
+<hr className="my-8 border-gray-200" />
+
+## Progress Flag Nails: Beyond the Six-Colour Rainbow
+
+Three coats. That is roughly how long it takes to build the chevron of the <a href='https://en.wikipedia.org/wiki/Progress_flag' target='_blank' rel='noopener'>Progress Pride Flag</a> onto a nail  but the meaning behind those extra stripes is worth understanding before you pick up the brush. Created in 2018 by designer Daniel Quasar, the Progress flag added a five-colour chevron to the classic rainbow: black and brown to represent marginalised communities of colour, and light blue, pink, and white from the trans flag. The forward-pointing arrow shape signals progress still in motion. As of 2026, the <a href='https://www.intomore.com/culture/identity/everything-ever-wanted-know-progress-flag/' target='_blank' rel='noopener'>Progress flag meaning</a> has only deepened  this is the flag most commonly flown at institutional and civic celebrations, and the one many community members now consider the default.
+
+On nails, the chevron reads best on longer lengths, but skittle nails using the chevron colours  one nail black, one brown, one light blue, one pink, one white  work on any length and are the most accessible DIY version. See <a href='/blog/pride-flag-nails'>every identity flag in detail</a> for stamp designs and step-by-step breakdowns.
+
+<div class='my-8 text-center'>
+  <img
+    src='/images/blog/lgbtq/pride-month-nails/progress-pride-flag-nails-chevron-design-black-brown-blue-pink-white-rainbow.webp'
+    alt='Progress Pride Flag nails showing full chevron design wit
