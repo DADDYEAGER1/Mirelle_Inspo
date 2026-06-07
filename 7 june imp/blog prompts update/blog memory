@@ -1,0 +1,258 @@
+# MIRELLE BLOG SYSTEM — AGENT MEMORY PROMPT
+
+You are writing for **Mirellé** (`mirelleinspo.com`), a nail content and media platform. Before writing or researching any blog post, internalize everything below.
+
+---
+
+## 1. CONTENT DIRECTORY
+
+All blog files live in:
+```
+src/content/blogs/{topic}/{slug}.md  ← topic posts
+src/content/blogs/{slug}.md          ← standalone (no topic)
+```
+
+Files are `.md` or `.mdx`. MDX is rendered as-is; `.md` is compiled via `marked`.
+
+---
+
+## 2. URL FORMATION — CRITICAL
+
+### Posts with a `topic` field:
+```
+https://mirelleinspo.com/blog/{topic}/{slug}
+```
+Example: `topic: lgbtq`, file `pride-month-nails.md`
+→ URL: `https://mirelleinspo.com/blog/lgbtq/pride-month-nails`
+
+### Posts WITHOUT a `topic` field:
+```
+https://mirelleinspo.com/blog/{slug}
+```
+Example: file `gel-nails-guide.md` with no topic
+→ URL: `https://mirelleinspo.com/blog/gel-nails-guide`
+
+### Pillar hub pages (topic index):
+When a post has `topic` AND `topicalMap.position: pillar`, the topic slug itself becomes a live URL:
+```
+https://mirelleinspo.com/blog/{topic}
+```
+This renders a hub page listing all cluster posts under that topic.
+
+### The `slug` in frontmatter = filename without extension (no folder path)
+The system derives URLs from `topic` + filename, NOT from the `slug` field directly. The `slug` field just equals the bare filename.
+
+---
+
+## 3. CANONICAL FORMATION
+
+Canonical is set explicitly in frontmatter. The system also auto-derives it identically:
+
+```
+canonical: https://mirelleinspo.com/blog/{topic}/{slug}   ← if topic exists
+canonical: https://mirelleinspo.com/blog/{slug}            ← if no topic
+```
+
+**Always set canonical explicitly in frontmatter** — match the URL exactly. No trailing slash.
+
+---
+
+## 4. COMPLETE FRONTMATTER SCHEMA
+
+```yaml
+---
+slug: "pride-month-nails"                          # = filename without extension
+title: "Pride Month Nails: 50+ Ideas for June 2026"
+excerpt: "The best pride month nails for June 2026 -- from..."   # 150-160 chars, used as meta description
+date: "2026-06-01T09:00:00-05:00"                  # ISO 8601
+dateModified: "2026-06-01"                          # YYYY-MM-DD
+author: jyoti-mirelle                               # author slug (no quotes needed)
+category: "Nail Inspiration"                        # see categories below
+image: "/images/blog/{topic}/{slug}/{hero-image}.webp"
+imageAlt: "..."                                     # 100-125 chars, descriptive, keyword-rich
+imageWidth: 800
+imageHeight: 800
+imageCaption: "..."                                 # short caption shown under hero
+readTime: "12 min"
+canonical: "https://mirelleinspo.com/blog/{topic}/{slug}"
+template: "split-left"                             # see templates below
+wordCount: 2500
+topic: "lgbtq"                                     # folder/topic slug; omit for standalone posts
+tags:
+  - "primary keyword"
+  - "secondary keyword"
+  - ...                                            # 10-20 tags, all lowercase, exact phrases
+
+tldr:
+  summary:
+    - "..."                                        # 5-7 bullet-style key points (strings)
+  keyTakeaways:
+    - "..."                                        # 4-6 actionable takeaways
+  creativeLine: "..."                              # one punchy closing line
+
+faqItems:
+  - question: "..."
+    answer: "..."                                  # 4-6 FAQ pairs; answers 2-4 sentences
+
+topicalMap:
+  position: "pillar"                              # pillar | cluster | standalone
+  parentPillar: null                              # null for pillars; "/blog/{slug}" for clusters
+  relatedClusters:
+    - "cluster-slug-1"
+    - "cluster-slug-2"
+  primaryKeyword: "pride month nails"
+  searchIntent: "inspirational"                   # informational | inspirational | transactional | navigational
+  topicalBoundary: "..."                          # one sentence defining scope
+  hierarchyLevel: 1                               # 1=pillar, 2=cluster
+  secondaryKeywords:
+    - "..."
+  contentType: "showcase"                         # showcase | tutorial | guide | listicle | comparison
+  semanticRelationships:
+    technique: [...]
+    style: [...]
+    occasions: [...]
+    relatedTechniques: [...]
+  contentMetrics:
+    technicalComplexity: "beginner"               # beginner | intermediate | advanced
+    timeToImplement: "30-90 min"
+    requiredSkills: [...]
+    requiredTools: [...]
+  childClusters:
+    - slug: "cluster-slug"
+      relationship: "design category"             # tutorial | product | identity | shape | trend | finish | design category
+      hierarchyLevel: 2
+
+navigationContext:
+  pillarPost:
+    slug: "pride-month-nails"
+    title: "Full title of this pillar post"
+---
+```
+
+---
+
+## 5. CATEGORIES (exact strings)
+
+```
+Nail Inspiration
+Seasonal
+Trends
+Tutorial
+Nail Care
+Nail Art
+Editor's Choice
+```
+
+---
+
+## 6. TEMPLATES
+
+| Value | Description |
+|---|---|
+| `center` | Default. Full-width centered content. |
+| `split-left` | Hero image left, text right (above fold). |
+| `split-right` | Hero image right, text left (above fold). |
+| `grid` | Grid-based layout, good for galleries/listicles. |
+
+Set via `template:` in frontmatter. Defaults to `center` if omitted.
+
+---
+
+## 7. TOPICAL MAP LOGIC
+
+### Position types:
+- **`pillar`**: The main hub post for a topic. Sets `topic:` field. Has `parentPillar: null`. Gets its own hub URL at `/blog/{topic}`. Lists child clusters via `relatedClusters`.
+- **`cluster`**: Supports a pillar. Has `topic:` matching the pillar's topic. Has `parentPillar: "/blog/{pillar-slug}"` OR just `"{pillar-slug}"`. Listed in pillar's `relatedClusters`.
+- **`standalone`**: No topical map position. No `topic:` field. URL is `/blog/{slug}`.
+
+### Pillar ↔ Cluster linking:
+- Cluster's `parentPillar` must match pillar's slug exactly (the system accepts `/blog/{slug}` or bare `{slug}`)
+- Pillar's `relatedClusters` lists bare cluster slugs (no path)
+
+---
+
+## 8. IMAGE PATHS
+
+Convention:
+```
+/images/blog/{topic}/{slug}/{descriptive-filename}.webp
+```
+Example:
+```
+/images/blog/lgbtq/pride-month-nails/pride-month-nails-2026-hero-rainbow-progress-flag-editorial-manicure.webp
+```
+
+- All images in `/public/` directory
+- Use `.webp` format
+- Filenames: all lowercase, hyphens, descriptive with keywords
+- Hero images typically 800×800 or 1200×630
+
+---
+
+## 9. INTERNAL LINKING CONVENTIONS (from MDX content)
+
+Use Next.js `<a>` tags (not `<Link>`) in MDX for internal links:
+```html
+<a href='/blog/{topic}/{slug}'>anchor text</a>
+```
+
+External links:
+```html
+<a href='https://...' target='_blank' rel='noopener'>anchor text</a>
+```
+
+---
+
+## 10. AUTHOR SLUGS
+
+Authors are referenced by slug in frontmatter (not display name). Example: `jyoti-mirelle`. Author pages live at `/authors/{slug}`.
+
+---
+
+## 11. SCHEMA / SEO
+
+The system auto-generates these schemas via `generateSchemas()`:
+- `articleSchema`
+- `breadcrumbSchema`
+- `websiteSchema`
+- `organizationSchema`
+
+These are injected as `<script type="application/ld+json">` in the page. You don't set them in frontmatter — they derive from frontmatter fields automatically.
+
+Meta title format: `{post.title} | Mirellé`
+
+OG image: `https://mirelleinspo.com{post.image}` (full absolute URL)
+
+---
+
+## 12. WHAT THE SYSTEM AUTO-DERIVES (don't duplicate manually)
+
+The system auto-computes these if not set — but **always set them explicitly**:
+- `canonical` — always set explicitly, matches URL exactly
+- `url` — same as canonical, derived internally
+- `coverImage` — falls back to `image` or `/images/default-blog.jpg`
+
+---
+
+## 13. REDIRECT BEHAVIOUR
+
+If a post has a `topic` field but is accessed at `/blog/{slug}` (flat URL), the system **redirects** to `/blog/{topic}/{slug}`. Always use the full topic URL in internal links and sitemaps.
+
+---
+
+## 14. QUICK REFERENCE — WHAT GOES WHERE
+
+| Field | Purpose |
+|---|---|
+| `slug` | Bare filename, used in URLs |
+| `topic` | Folder + URL segment; links post to a topic cluster |
+| `canonical` | Explicit canonical URL (always set) |
+| `template` | Visual layout |
+| `topicalMap.position` | pillar / cluster / standalone |
+| `topicalMap.parentPillar` | Cluster's parent pillar slug |
+| `topicalMap.relatedClusters` | Pillar's list of child cluster slugs |
+| `category` | Content category (exact string from list) |
+| `tags` | Keyword tags for taxonomy |
+| `faqItems` | FAQ schema data + on-page FAQ section |
+| `tldr` | Summary block rendered on page |
+| `navigationContext` | Used for breadcrumb/nav rendering |
