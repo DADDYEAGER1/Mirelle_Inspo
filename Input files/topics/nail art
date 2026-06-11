@@ -1,0 +1,641 @@
+# INPUT FILE — BLOG GEN AGENT
+## SINGLE SOURCE OF TRUTH
+
+---
+
+## SECTION 1 — FILE AUTHORITY
+
+THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.
+
+---
+
+## SECTION 2 — POST CONSTANTS
+
+Blog Gen Agent reads this section FIRST and locks all values before doing anything else.
+
+```
+slug:              nail-art-guides
+topic_slug:        nail-art-guides
+canonical:         https://mirelleinspo.com/topics/nail-art-guides
+post_type:         standalone
+intent:            mixed inspirational + tutorial
+word_count:        3800
+image_count:       36
+template:          center
+hero_dimensions:   1200x630
+category:          Nail Art
+publish_date:      2026-06-11
+author:            Mirellé Team
+```
+
+**Word count rationale:** SERP analysis shows top-ranking posts for "easy nail designs for beginners" are image-led but also content-heavy — combining numbered design galleries with tutorial sections and beginner guidance. Leading competitors run 2,500–4,500 words. The locked H1 names 24 designs, which requires substantive per-design copy plus tutorial scaffolding. 3,800 words accommodates 24 design entries + four tutorial/guidance sections at full editorial depth.
+
+**Image count rationale:** This is fundamentally an image-led gallery post with 24 named designs. SERP standard for this keyword: 20–40 images. Competitors (Byrdie, IPSY, AOL/Cosmopolitan) use one image per design plus section headers. 36 images = 1 hero (frontmatter only) + 24 design images (one per design) + 8 supporting editorial images (intro, tools section, technique sections, mistake correction). This matches SERP expectation exactly and serves the mixed inspirational + tutorial intent.
+
+---
+
+## SECTION 3 — CLUSTER SNAPSHOT
+
+SOLO MODE — omit.
+
+---
+
+## SECTION 4 — SERP ANALYSIS
+
+**Blog Gen instruction:** Use competitor gaps and strategic angle to differentiate introduction, conclusion, and framing throughout. Per-design copy must go deeper than competitor one-liners.
+
+**SERP structure signal — what top results look like:**
+- Numbered gallery lists (15–40 designs) dominate the top 10
+- Every result pairs inspiration image + short copy per design
+- Posts that also include how-to steps for each design outrank pure gallery posts
+- Mixed inspirational + tutorial posts average 2,800–4,200 words
+- Mobile-first layouts with large images perform best for this keyword
+- "No tools needed" and "toothpick and tape" appear as strong modifiers in top titles
+
+**Competitor gaps — what top results do NOT cover:**
+- No competitor explains which designs work specifically on the non-dominant hand (the real beginner fear)
+- Mistake correction is universally missing — what to do when you mess up mid-design
+- Almost no post segments designs by difficulty level within "beginner" — everything is called beginner with no gradation
+- No post explains why certain designs are forgiving vs unforgiving — the visual logic behind imperfection tolerance
+- Tool substitution is absent — most assume you have a dotting tool; few explain the toothpick as a full replacement
+- No competitor anchors designs to 2026 trends — they feel dated or generic
+- Drying time guidance between design layers is never addressed
+
+**Missing semantic territory:**
+- Beginner nail art for short nails (specific angle)
+- Nail art that hides mistakes
+- Easiest nail art with regular polish (not gel)
+- Beginner nail art no brush needed
+- Nail art for shaky hands
+- Designs that work on both hands
+
+**Our strategic angle:** This post is organised by the thing beginners actually need — a difficulty gradient within "easy," with honest notes on imperfection tolerance for each design. Every design gets: what it is, why it works for beginners, what tool replaces a proper nail art brush, and the one thing that makes it look better. Competitors give you a number and an image. We give you a number, an image, and the intelligence to actually execute it.
+
+**Image count SERP validation:** 36 images (1 hero + 35 body) is fully justified. Competitor posts in positions 1–5 average 22–40 images. For a 24-design post, one image per design (24) + 11 editorial supporting images = 35 body images. This matches SERP standard exactly.
+
+---
+
+## SECTION 5 — AUDIENCE INTELLIGENCE
+
+**Blog Gen instruction:** Every section written for this specific reader. Inspirational sections speak to their aspiration. Tutorial sections speak to their specific anxiety about making mistakes.
+
+**Who they are:**
+Women 16–35, total beginners to nail art — they can paint a single colour cleanly but have never done a design. They've seen gorgeous nails on Pinterest or TikTok and assumed it requires either professional training or steady hands they don't have. Motivated by aesthetics and self-expression, not by technical mastery. Many are trying to avoid salon costs. Some are teenagers doing nails for the first time; some are adults who've never tried. Overwhelmingly searching on mobile.
+
+**What they want:**
+Proof that they can do this. Not a list of designs — proof, through clear steps and honest notes about how forgiving each design is. They want to pick something they can actually finish successfully on their first try tonight.
+
+**What frustrates them:**
+- Tutorials that show a result but skip the hard part (the second hand, the mistake fix)
+- Designs labelled "easy" that require a liner brush and steady freehand
+- Posts that don't say what household item substitutes for the tool they don't have
+- No indication of which design to start with if they've never tried before
+- Feeling excluded by the word "beginner" because the designs still look hard
+
+**Top 5 pain points:**
+1. Shaky hands / non-dominant hand — biggest stated fear in Quora, YouTube comments
+2. Doesn't know which design to attempt first
+3. No special tools — doesn't own a dotting tool, liner brush, or nail art kit
+4. Nails are short — worries designs won't show
+5. Messes up and doesn't know how to fix it without starting over
+
+**Exact user phrases:**
+- "what nail design should I try first"
+- "easy nail art with toothpick"
+- "nail designs for shaky hands"
+- "how to do nail art on your other hand"
+- "simple nail art no tools"
+- "nail art short nails beginner"
+- "cute nails I can do myself at home"
+- "nail art that hides mistakes"
+- "I always mess up my right hand"
+- "nail art without a brush"
+
+**Intent content signals:**
+- Needs images with every design — will not follow text-only instructions
+- Responds to honest "this is the easiest one to start with" framing
+- Wants specific tool substitutions called out
+- Appreciates short, numbered step lists — not paragraph tutorials
+- Wants designs that work on short nails confirmed explicitly
+- Strong positive response to "mistakes make it look better" reassurance
+
+---
+
+## SECTION 6 — SEMANTIC KEYWORD DATA
+
+**Blog Gen instruction:** Primary keyword in `<strong>` tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally.
+
+**Primary keyword:** easy nail designs for beginners
+
+**Keyword variations (cleared):**
+- easy nail art for beginners
+- simple nail designs for beginners
+- beginner nail art designs
+- easy DIY nail designs for beginners
+- nail designs for beginners at home
+- cute easy nail designs for beginners
+- simple nail art designs for beginners
+- easy nail designs to do at home
+- beginner-friendly nail designs
+
+**Cluster keywords (10–15):**
+- nail art without tools
+- nail art with toothpick
+- nail art for shaky hands
+- easy nail art short nails
+- nail art for non-dominant hand
+- DIY nail art at home
+- beginner nail art tutorial
+- simple nail art step by step
+- easy nail art no brush
+- nail designs you can do yourself
+- nail art with tape
+- nail art with bobby pin
+- beginner nail art 2026
+- simple nail art ideas
+- nail art household items
+
+**LSI terms (15–20):**
+- dotting tool substitute
+- nail stamping
+- nail stickers
+- base coat
+- top coat
+- accent nail
+- negative space nails
+- ombre nails sponge
+- micro French tip
+- glitter gradient
+- abstract swirls
+- polka dots nails
+- tape nail art
+- French tip guide stickers
+- nail art cleanup brush
+- acetone correction
+- nail drying time
+- imperfection tolerance
+- cat eye nail magnet
+- nail art for short nails
+
+**AEO terms (10 full question phrases):**
+- What are the easiest nail designs for complete beginners?
+- How do you do nail art at home without tools?
+- What nail design should I try first as a beginner?
+- Can you do nail art on short nails?
+- How do you do nail art on your non-dominant hand?
+- What household items can you use for nail art?
+- How do you fix a nail art mistake without starting over?
+- What is the easiest nail art design to do at home?
+- Do you need a dotting tool for nail art or can you use a toothpick?
+- How long should you wait between nail art layers?
+
+**Technical terms (5):**
+- nail plate
+- base coat adhesion
+- free edge
+- nail stamping
+- acetone cleanup
+
+**User language (8–10):**
+- "my other hand always looks terrible"
+- "I always mess it up"
+- "I don't have any nail art tools"
+- "nail art for dummies"
+- "stupid-easy nail designs"
+- "nails that look hard but are actually easy"
+- "saves for later"
+- "stealing this idea"
+- "actually doable at home"
+- "doesn't require steady hands"
+
+---
+
+## SECTION 7 — VOICE AND AI QUERIES
+
+**Blog Gen instruction:** Answer every query directly in the relevant section. Route to faqItems anything not covered in body.
+
+**Queries (13):**
+1. What are the easiest nail designs for complete beginners?
+2. What nail design should I try first if I've never done nail art before?
+3. How do you do nail art without a dotting tool or brush?
+4. Can you do nail designs on short nails?
+5. What household items work for nail art at home?
+6. How do you do nail art on your non-dominant hand?
+7. How do you fix a nail art mistake without starting over?
+8. How long should you wait between coats when doing nail art?
+9. What nail art designs work if you have shaky hands?
+10. Do you need gel polish for nail art or does regular polish work?
+11. What is a micro French tip and how do you do it?
+12. What is the difference between a dotting tool and a toothpick for nail art?
+13. Which beginner nail art designs are trending in 2026?
+
+---
+
+## SECTION 8 — CONTENT STRUCTURE
+
+**Blog Gen instruction:** H1 is locked — do not change. The 24 designs in the gallery are the structural spine of this post. Every design entry gets: design name, one image, why it works for beginners, the household tool that replaces a nail art kit, numbered steps (3–5 max), and one pro tip. H2 sections outside the gallery provide the tutorial scaffolding. Word budget per design section is tight — stay within it.
+
+**H1 (LOCKED):** Easy Nail Designs for Beginners: 24 Simple Ideas You Can Do
+
+**H2 structure (ordered):**
+
+1. Before You Start: What You Actually Need (and What You Don't)
+2. How to Read This Guide: The Difficulty Scale
+3. The 24 Easy Nail Designs — [gallery section — designs 1–24, each with image]
+   - *Designs 1–6: No-Tool Designs (toothpick or bobby pin only)*
+   - *Designs 7–12: Tape Designs (scotch tape or washi)*
+   - *Designs 13–18: Sponge Designs (makeup sponge)*
+   - *Designs 19–24: Modern Trending Designs (2026-specific)*
+4. How to Fix a Nail Art Mistake Without Starting Over
+5. The Non-Dominant Hand Problem — and How to Solve It
+6. Your First Design: Where to Actually Start
+
+**Note on H2-3 (gallery):** This is the post's core. It runs as a numbered gallery of 24 entries. Sub-group headers (No-Tool / Tape / Sponge / Modern) serve as visual navigation within the gallery — they are H3s, not H2s. Each design entry is one unit: image + design name + brief why-it-works note + tool substitute + 3–5 numbered steps + one pro tip.
+
+**Word budget:**
+
+| Section | Budget |
+|---|---|
+| Introduction | 220 words |
+| H2-1: Before You Start | 250 words |
+| H2-2: Difficulty Scale | 180 words |
+| H2-3: Gallery — 24 designs × ~85 words each | 2,040 words |
+| H2-4: Fix a Mistake | 250 words |
+| H2-5: Non-Dominant Hand | 280 words |
+| H2-6: Where to Start | 200 words |
+| Conclusion | 150 words |
+| Flex / transitions | 230 words |
+| **Total** | **≈3,800 words** |
+
+**Per-design word template (85 words each):**
+- Design name + one sentence why it works for beginners [15 words]
+- Tool substitute (e.g. "Use a toothpick instead of a dotting tool") [10 words]
+- Steps 1–4 [40 words]
+- Pro tip [20 words]
+
+---
+
+## SECTION 9 — INTERNAL LINKS
+
+**Blog Gen instruction:** Every link placed exactly where specified. Anchor texts verbatim. Woven naturally into prose — never standalone CTAs.
+
+**All internal links:**
+
+| URL | Title | Anchor Text | Placement Note | Link Type |
+|---|---|---|---|---|
+| /topics/nail-art-guides | [being rewritten — DO NOT LINK] | — | EXCLUDED | EXCLUDED |
+| /work-nails/work-appropriate-nail-art | Work-Appropriate Nail Art | work-appropriate nail art | H2-3 gallery, Designs 19–24 (Modern/2026 section) — when noting that micro French and subtle chrome are office-appropriate | cross-site |
+| /topics/nail-care-guide | Daily Nail Care Guide | nail care routine | H2-1 (Before You Start) — when mentioning prep and base coat importance | cross-site |
+| /nail-faqs/how-often-should-you-trim-your-nails-for-health | How Often Should You Trim Nails | nail trimming | H2-1 (Before You Start) — when advising to shape nails before starting | cross-site |
+
+**Note:** 3 internal links listed — cap is 2 cross-site. Strongest fit: work-appropriate nail art (H2-3 gallery, genuinely useful) + nail care guide (H2-1 prep section, most natural placement). Drop nail trimming FAQ unless word budget allows a natural sentence.
+
+---
+
+## SECTION 10 — VOICE AND TONE
+
+**Blog Gen instruction:** This is the voice for this post. Lay on top of Mirellé editorial framework.
+
+```
+recommended_voice:    Encouraging expert — the friend who already knows how to do all of this and wants you to stop overthinking it
+
+tone_characteristics:
+  - Cheerful confidence — not saccharine; grounded in "this is genuinely achievable"
+  - Specific over vague — "use a toothpick dipped in white polish" not "use a small tool"
+  - Permission-giving — repeatedly reassures that mistakes are fine and imperfection is normal
+  - Trend-aware — references 2026 specifically; this feels current, not evergreen-generic
+  - Concise in instructional steps — no prose waffle in numbered steps
+
+language_style:
+  Conversational in editorial sections. 
+  Punchy in design entries — short sentences, active verbs.
+  Uses "you" throughout, second-person imperative in steps ("dip," "dot," "peel").
+  British English throughout — colour, practise, recognise, favourite.
+  Light warmth allowed here — this is the most expressive post on the site.
+  No exclamation marks except sparingly in one or two design names.
+
+audience_match:
+  Reader is nervous, excited, on mobile, looking at nail inspo at 10pm. 
+  She wants to feel capable before she starts. 
+  Give her that in the intro. Confirm it in every design entry.
+```
+
+---
+
+## SECTION 11 — EXTERNAL LINKS
+
+**Blog Gen instruction:** Include where indicated. Supports E-E-A-T.
+
+| URL | Context | Anchor Suggestion |
+|---|---|---|
+| https://ericasata.com/blogs/news/easy-nail-art-designs-for-beginners | H2-1 or H2-6 — industry source for minimalist accent nail art as the current easiest trend | beginner nail art guidance |
+| https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/nails/art-20044954| H2-1 (nail prep section) — cite for nail health basics before polish | healthy nail prep |
+
+---
+
+## SECTION 12 — EXECUTION PLAN
+
+**Blog Gen instruction: READ THIS SECTION FIRST. Lock every value. Execute exactly.**
+
+---
+
+### BLOCK 1 — KEYWORD EXECUTION
+
+```
+primary_keyword:          easy nail designs for beginners
+total_mention_target:     76 mentions (3,800 × 0.02 = 76)
+strong_tag_rule:          EVERY single mention of "easy nail designs for beginners" wrapped in <strong> tags — all 76
+
+first_100_words_plan:
+  mention_1:  Sentence 2 of introduction — establish keyword in the opening promise
+  mention_2:  Sentence 5–6 of introduction — reinforce in "this guide shows you" framing
+
+first_half_target:    46 mentions — first 1,900 words (denser in intro, H2-1, H2-2, H2-3 designs 1–12)
+second_half_target:   30 mentions — second 1,900 words (H2-3 designs 13–24, H2-4 through conclusion)
+```
+
+---
+
+### BLOCK 2 — WORD BUDGET
+
+```
+total_target:     3,800 words (+/- 50 words tolerance, never exceed)
+
+introduction:              220 words
+H2-1 (Before You Start):   250 words   [complexity: low]
+H2-2 (Difficulty Scale):   180 words   [complexity: low]
+H2-3 (24 Designs Gallery): 2,040 words [complexity: high — 24 × 85 words each; track per design]
+H2-4 (Fix a Mistake):      250 words   [complexity: medium]
+H2-5 (Non-Dominant Hand):  280 words   [complexity: medium]
+H2-6 (Where to Start):     200 words   [complexity: low]
+conclusion:                150 words
+flex/transitions:          230 words
+
+tracking_rule: 
+  Track word count at end of every 6 designs (design 6, 12, 18, 24).
+  Target per 6-design block: ~510 words.
+  If over — tighten pro tips. If under — expand steps.
+  Track each H2 section separately. Do not compensate across sections.
+```
+
+---
+
+### BLOCK 3 — IMAGE PLAN
+
+```
+total_images:    36 (1 hero + 35 body)
+hero_image:      frontmatter only — NEVER in post body
+
+body_images: 35 images in body
+
+image_type_rule: 
+  Gallery section (designs 1–24): one inspirational nail design image per design entry — 
+    shows the finished result as styled nail photography.
+  Editorial sections: supporting images that match section content.
+  ALL images = nail art photography — real hands, real nails, styled.
+  NO infographics. NO diagrams. NO flat lays of tools.
+
+path_rule: /images/blog/nail-art-guides/nail-art-guides/filename.webp
+
+image assignments:
+
+  EDITORIAL IMAGES (11 total):
+  
+  Image 1 — after Introduction
+    context: flat lay of hands with varied simple nail art — upbeat, accessible, mix of designs
+  
+  Image 2 — after H2-1 (Before You Start)
+    context: minimal tool setup — base coat, top coat, toothpick, tape — styled clean
+  
+  Image 3 — after H2-2 (Difficulty Scale)
+    context: hands showing a simple single-colour manicure — clean, inviting, first-step feel
+  
+  Images 4–27 — one per design, placed immediately after each design entry (designs 1–24)
+    context: see design list in H2-3 below — each image shows the named design on real hands
+
+  Image 28 — after H2-4 (Fix a Mistake)
+    context: nail cleanup with cotton swab and acetone — close detail shot
+  
+  Image 29 — after H2-5 (Non-Dominant Hand)
+    context: both hands showing matching simple nail art — reassuring, achievable quality
+  
+  Image 30 — after H2-6 (Where to Start)
+    context: polka dot nails or simple French tip — the recommended first design, clean and cheerful
+  
+  Images 31–35 — BONUS gallery images distributed across H2-3 at end of each sub-group
+    (one at end of no-tool group, tape group, sponge group, modern group, and conclusion)
+    context: varied gallery shots showing group mood — energetic, polished, current
+```
+
+---
+
+### BLOCK 4 — OPENING TECHNIQUE ASSIGNMENTS
+
+```
+rule: No two consecutive sections use same technique. Conclusion = Technique 1 or 3 only.
+
+Introduction:            Technique 2 — The Problem Frame 
+                         ("You've seen the nails. You've saved the pins. And then you picked up a brush and it looked nothing like the picture.")
+H2-1 (Before You Start): Technique 4 — The Counterintuitive Claim 
+                         (You need less than you think — specifically: three items.)
+H2-2 (Difficulty Scale): Technique 1 — The Claim 
+                         (Not all "beginner" designs are equally easy. Here's the honest ranking.)
+H2-3 Gallery opener:     Technique 3 — The Reframe 
+                         (Reframe designs as mechanical processes, not art — anyone can follow a process.)
+H2-4 (Fix Mistake):      Technique 2 — The Problem Frame 
+                         (You don't need to start over. Here's what to do in the next 30 seconds.)
+H2-5 (Non-Dominant):     Technique 4 — The Counterintuitive Claim 
+                         (The non-dominant hand is not the problem — the approach is.)
+H2-6 (Where to Start):   Technique 1 — The Claim 
+                         (Start with design number 1. Here's why.)
+Conclusion:              Technique 1 — The Claim
+                         (You already have everything you need.)
+
+banned_opener_rule: Check every opener against Mirellé banned_opening_approaches before writing second sentence.
+```
+
+---
+
+### BLOCK 5 — LINK PLACEMENTS
+
+```
+link_1:
+  anchor_text:        nail care routine
+  full_url:           /topics/nail-care-guide
+  place_in_section:   H2-1 (Before You Start)
+  placement_context:  When mentioning prep — "a clean, moisturised nail holds polish longer. 
+                       For the full prep habit, see our [anchor]."
+  link_type:          cross-site
+
+link_2:
+  anchor_text:        work-appropriate nail art
+  full_url:           /work-nails/work-appropriate-nail-art
+  place_in_section:   H2-3 gallery, Designs 19–24 (Modern/2026 section)
+  placement_context:  When introducing micro French or subtle chrome — 
+                       "designs 19 and 20 also qualify as [anchor] if you need them to."
+  link_type:          cross-site
+```
+
+---
+
+### BLOCK 6 — AEO / GEO PLAN
+
+```
+aeo_assignments:
+
+  aeo_1:
+    term:      What are the easiest nail designs for complete beginners?
+    section:   H2-2 (Difficulty Scale) or H2-6 (Where to Start)
+    execution: Direct 2-sentence answer immediately after H2: polka dots with a toothpick 
+               and single-colour glitter gradient — both require zero precision and hide imperfections.
+
+  aeo_2:
+    term:      How do you do nail art without tools?
+    section:   H2-1 (Before You Start)
+    execution: Direct answer paragraph: toothpick = dotting tool; bobby pin end = larger dot; 
+               scotch tape = striping tape; makeup sponge = ombre sponge. 
+               All 24 designs in this guide use only these substitutes.
+
+  aeo_3:
+    term:      How do you fix a nail art mistake without starting over?
+    section:   H2-4 (Fix a Mistake)
+    execution: Direct answer: dip cotton swab in acetone and clean the edge while still wet. 
+               For dried mistakes, use a toothpick to scrape, then touch up with base colour.
+
+  aeo_4:
+    term:      How do you do nail art on your non-dominant hand?
+    section:   H2-5 (Non-Dominant Hand)
+    execution: Direct answer: choose designs that are intentionally imperfect-looking 
+               (squiggles, dots, sponge ombre) — imperfection reads as style, not mistake.
+
+  aeo_5:
+    term:      Can you do nail designs on short nails?
+    section:   H2-2 (Difficulty Scale) or H2-3 gallery
+    execution: Direct answer: yes — short nails have less surface area, which means less room 
+               for mistakes. All 24 designs in this guide are confirmed short-nail-friendly.
+
+
+geo_entity_statements:
+
+  entity_1:
+    entity:    Micro French tip
+    section:   Design entry #19 or #20 in gallery
+    execution: "A micro French tip is a French manicure with a hair-thin white or coloured line 
+                at the free edge rather than the classic thick band. It is the 2026 version of 
+                the French tip — more precise, more current, and paradoxically easier to execute 
+                neatly because a thin line conceals small wobbles better than a wide one."
+
+  entity_2:
+    entity:    Nail art sponge gradient (ombre)
+    section:   Design entry in sponge group (#13–18)
+    execution: "The sponge gradient method works by applying two polish colours side by side 
+                on a makeup sponge, then pressing it onto the nail repeatedly. Each press 
+                builds density while naturally blending the colours at the centre — 
+                no skill required, imperfection is structural to the technique."
+
+  entity_3:
+    entity:    Accent nail
+    section:   H2-2 (Difficulty Scale) or Design entry #1–6
+    execution: "An accent nail is a single nail on each hand painted with a different colour 
+                or design while the remaining nails stay in a solid base. In 2026, the accent 
+                nail is not a beginner compromise — it is the dominant nail art format, 
+                chosen deliberately by professionals and trend-setters."
+```
+
+---
+
+### BLOCK 7 — ACTIVE CONSTRAINTS
+
+```
+em_dash_banned:
+  No long em dash anywhere. 
+  Replace with: comma / new sentence / parentheses / "and" / "but" / restructure.
+
+banned_vocab_watch (most likely for this post):
+  - "stunning" 
+  - "gorgeous"
+  - "amazing"
+  - "elevate"
+  - "game-changer"
+  - "transform"
+  - "unleash your creativity"
+  - "journey" (nail art journey)
+
+british_english_active:
+  colour, favourite, practise (verb), recognise, organised, -ise endings everywhere.
+  No "cozy" — use "cosy". No "jewelry" — use "jewellery". 
+  Check every instance.
+
+keyword_density_reminder:
+  After every 6 designs (design 6, 12, 18, 24) — count current "easy nail designs for beginners" mentions.
+  First half (designs 1–12 + H2-1, H2-2): target 46 mentions.
+  Adjust density if running low.
+
+image_path_reminder:
+  /images/blog/nail-art-guides/nail-art-guides/filename.webp
+  Topic slug in path always.
+
+internal_link_url_reminder:
+  /topics/nail-care-guide
+  /work-nails/work-appropriate-nail-art
+  Full path only. Never bare slugs.
+
+hero_image_reminder:
+  Hero = frontmatter only. Never place in body.
+
+strong_tag_reminder:
+  Every "easy nail designs for beginners" = <strong>easy nail designs for beginners</strong>
+  Scan after every paragraph. No exceptions.
+
+per_design_format_reminder:
+  Every one of the 24 design entries MUST follow this structure:
+  1. Design number + name (H3)
+  2. Image
+  3. One sentence why this works for beginners
+  4. Tool substitute callout (bold)
+  5. Steps 1–4 (numbered list)
+  6. Pro tip (italic or bold)
+  Do NOT vary the format. Consistency is the UX.
+```
+
+---
+
+### APPENDIX — THE 24 DESIGNS (locked list for Blog Gen Agent)
+
+Blog Gen Agent uses this exact list for the gallery. Design names and groupings are locked. Steps and copy written from research.
+
+**Group A — No-Tool Designs (1–6): toothpick or bobby pin only**
+1. Polka Dot Nails
+2. Tiny Heart Nails
+3. Five-Dot Flower Nails
+4. Abstract Squiggle Nails
+5. Single Stripe Accent Nail
+6. Rhinestone / Gem Accent Nail
+
+**Group B — Tape Designs (7–12): scotch tape or washi tape**
+7. Half-Moon Nails
+8. Diagonal Colour Block
+9. Tape Stripe Nails
+10. Geometric Tip (Non-French)
+11. Negative Space Nails
+12. Chevron Nails
+
+**Group C — Sponge Designs (13–18): makeup sponge or kitchen sponge**
+13. Classic Ombre Nails
+14. Glitter Gradient Tips
+15. Sunset Ombre (Three Colours)
+16. Pastel Fade Nails
+17. Chrome Powder Accent (one nail)
+18. Aura Nails (Beginner Version)
+
+**Group D — Modern 2026 Trending Designs (19–24): minimal tools, current looks**
+19. Micro French Tip
+20. Milky Glazed Nails
+21. Cat-Eye Nail (Magnet)
+22. Nail Sticker / Decal Design
+23. DIY Marble Sticker Nails
+24. Glass / Sheer Foil Nail
+
+---
+
+*Input file complete. Feed to Blog Gen Agent with this file only — no cluster context required. ~2,850 words.*
