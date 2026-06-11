@@ -1,0 +1,557 @@
+# INPUT FILE — BLOG GEN AGENT
+## SINGLE SOURCE OF TRUTH
+
+---
+
+## SECTION 1 — FILE AUTHORITY
+
+THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.
+
+---
+
+## SECTION 2 — POST CONSTANTS
+
+Blog Gen Agent reads this section FIRST and locks all values before doing anything else.
+
+```
+slug:              nail-care-guide
+topic_slug:        nail-care-guide
+canonical:         https://mirelleinspo.com/topics/nail-care-guide
+post_type:         standalone
+intent:            informational
+word_count:        3000
+image_count:       9
+template:          center
+hero_dimensions:   1200x630
+category:          Nail Care
+publish_date:      2026-06-11
+author:            Mirellé Team
+```
+
+**Word count rationale:** SERP top results for "daily nail care routine" are comprehensive, multi-section guides ranging 2,500–3,500 words. Audience expects depth covering daily habits, cuticle care, product toolkit, diet/nutrition, common mistakes, and seasonal adaptation. 3,000 words delivers that depth without padding.
+
+**Image count rationale:** Standalone post, not X+ ideas slug, not tutorial, not comparison → Rule 5 applies → 9 images total (1 hero + 8 body).
+
+---
+
+## SECTION 3 — CLUSTER SNAPSHOT
+
+SOLO MODE — omit.
+
+---
+
+## SECTION 4 — SERP ANALYSIS
+
+**Blog Gen instruction:** Use competitor gaps and missing semantic territory to differentiate. Our strategic approach drives the introduction and conclusion angle.
+
+**Competitor gaps — what top results do NOT answer:**
+- How to build the routine into existing daily habits (habit stacking) — competitors list steps but don't explain how to make them stick
+- The difference between what you do every single day vs every few days vs weekly — most posts blur daily and weekly into one undifferentiated "routine"
+- What changes in the routine if nails are gel/acrylic vs bare — almost entirely ignored
+- Night routine vs morning routine specificity — rarely addressed
+- Why nails deteriorate fast despite following generic advice — the missed culprits (hand washing frequency, acetone, dish soap, dry environments)
+- Signs your routine is working vs not working — no tracking signals given
+- Nail health as a health indicator — what changes in appearance should prompt action
+
+**Missing semantic territory:**
+- Nail plate hydration (distinct from cuticle hydration — largely ignored)
+- Proximal nail fold care
+- Hard water damage to nails
+- Nail health during winter / AC-heavy environments
+- How long before results show from consistent routine
+- "Nail care while wearing gel" — huge gap
+
+**Our strategic approach:** Every other guide gives you a list of steps. This post gives you a *system* — what to do today, what to do every few days, what to do weekly, and crucially, why each step matters at that specific frequency. The angle is precision over aspiration: readers leave knowing exactly what to do, when, and what to expect.
+
+**Recommended image count validation:** Top SERP results use 5–10 images on average for this keyword. 9 images (including hero) is correct and competitive.
+
+---
+
+## SECTION 5 — AUDIENCE INTELLIGENCE
+
+**Blog Gen instruction:** This is your primary creative brief. Every paragraph written for this specific person with this specific intent. Satisfy them completely.
+
+**Who they are:**
+Women aged 22–45, mostly intermediate — they've heard of cuticle oil and hand cream but apply them inconsistently. They care about how their hands look but don't have a clear system. Searching during a moment of frustration: nails broke again, cuticles are wrecked, someone commented on their hands. Some have gel or acrylics; many are going bare trying to let nails recover. Not searching for nail art — searching for the health foundation.
+
+**What they want from this post:**
+A clear, trustworthy system they can actually follow — not a 20-step salon routine but not a vague "moisturise and eat biotin" either. They want to understand why each step matters and how long before they'll see results. They want a routine that works around a real life: work, dishes, hand washing 15 times a day.
+
+**What frustrates them about current content:**
+- Too generic — every site says the same five things
+- Steps listed with no frequency guidance (do I do this daily? weekly?)
+- No acknowledgement that doing gel/acrylics changes anything
+- Advice that assumes you have 30 minutes a day to dedicate to nails
+- No honest timeline for results
+- No explanation of *why* their nails are bad despite "moisturising regularly"
+
+**Top 5 pain points:**
+1. Nails keep peeling or breaking no matter what they try
+2. Cuticles are constantly dry, ragged, or bleeding
+3. Don't know if what they're doing is actually working or just wasting product
+4. Nails got damaged after removing gel/acrylics and they don't know how to recover them
+5. Routine falls apart because products aren't accessible at the right moment (cuticle oil is in the bedroom, hand cream is in the bathroom)
+
+**Exact user phrases (from Quora, real conversations):**
+- "my nails always crack vertically from the tip"
+- "cuticles are constantly bleeding no matter what I do"
+- "I've been moisturising and nothing's changed"
+- "my nails are weak and I don't know why"
+- "how do I stop nails peeling"
+- "do I actually need cuticle oil every day"
+- "my nails were fine until I got gel and now they're ruined"
+- "what actually makes nails grow stronger"
+- "coconut oil on nails — does it actually work"
+- "how long before I see stronger nails"
+
+**Intent content signals:**
+- Wants a clear daily/weekly/nightly breakdown — frequency matters enormously to this reader
+- Wants explanation of *why* not just *what*
+- Appreciates being told what to skip (what doesn't actually work)
+- Responds to specific product guidance — not just "cuticle oil" but what to look for
+- Wants honesty about timeline — how long it actually takes
+- Prefers confident, direct tone — not hedged or overly qualified
+- Values short daily habit framing: "this takes 2 minutes"
+
+---
+
+## SECTION 6 — SEMANTIC KEYWORD DATA
+
+**Blog Gen instruction:** Primary keyword in `<strong>` tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No cannibalization risk — solo mode, no do-not-use list.
+
+**Primary keyword:** daily nail care routine
+
+**Keyword variations (5–10, drift-checked):**
+- daily nail care routine for healthy nails
+- simple daily nail care routine
+- everyday nail care routine
+- nail care routine at home
+- basic nail care routine
+- nail care routine for beginners
+- nail care routine for strong nails
+- nail care routine for women
+- at-home nail care routine
+
+**Cluster keywords (10–15):**
+- daily nail habits
+- nail health routine
+- how to take care of nails daily
+- nail care steps
+- nail routine morning and night
+- cuticle care routine
+- nail hydration routine
+- nail care for natural nails
+- nail care for damaged nails
+- nail strengthening routine
+- nail care between manicures
+- nail care for gel nails
+- nail care for brittle nails
+- healthy nail routine
+- nail maintenance routine
+
+**LSI terms (15–20):**
+- cuticle oil
+- nail plate hydration
+- nail strengthener
+- hand cream for nails
+- nail bed
+- proximal nail fold
+- biotin for nails
+- keratin nails
+- nail growth rate
+- nail brittleness
+- peeling nails
+- base coat protection
+- acetone damage
+- nail filing technique
+- gloves for dishes
+- nail moisture barrier
+- vitamin E nails
+- nail health indicators
+- nail breakage prevention
+- onychoschizia (nail splitting)
+
+**AEO terms (8–12 full question phrases):**
+- What should I do for my nails every day?
+- How do I build a daily nail care routine?
+- What is the best daily nail care routine for stronger nails?
+- How long does it take to see results from a nail care routine?
+- How often should I apply cuticle oil?
+- What causes nails to peel and break despite moisturising?
+- Do I need to apply cuticle oil every day?
+- What is the difference between a daily and weekly nail care routine?
+- How do I take care of my nails if I wear gel?
+- What products do I actually need for a daily nail care routine?
+- Does drinking more water actually improve nail health?
+- What are the signs of healthy nails?
+
+**Technical terms (5–8):**
+- nail matrix
+- nail plate
+- nail bed / hyponychium
+- onychoschizia
+- subungual space
+- nail fold
+- keratin structure
+
+**User language (8–10 casual phrases):**
+- "my nails keep breaking no matter what"
+- "cuticles always look terrible"
+- "do I actually need to do this every day"
+- "quick nail routine that actually works"
+- "nails ruined after gel removal"
+- "how to grow out weak nails"
+- "coconut oil hack for nails"
+- "lazy girl nail care"
+- "nails look bitten even when I don't bite them"
+- "2-minute nail care routine"
+
+---
+
+## SECTION 7 — VOICE AND AI QUERIES
+
+**Blog Gen instruction:** Answer every query directly in the relevant H2 section body. Route to faqItems if it cannot be addressed naturally. No query left unanswered.
+
+**Queries (14):**
+1. What should I do for my nails every day?
+2. What is the best daily nail care routine for stronger nails?
+3. How often should I apply cuticle oil to see results?
+4. What causes nails to keep peeling and breaking?
+5. How long does it take for a nail care routine to make a visible difference?
+6. Do I need different nail care if I wear gel or acrylic?
+7. What is the difference between what I should do daily versus weekly for my nails?
+8. What products do I actually need for a basic daily nail care routine?
+9. How do I stop my cuticles from drying out and bleeding?
+10. Does drinking more water actually help nails grow stronger?
+11. What are signs that my nail care routine is actually working?
+12. Is it bad to wash your hands a lot if you want healthy nails?
+13. What nail care habits cause the most damage without people realising?
+14. How do I recover my nails after gel or acrylic removal?
+
+---
+
+## SECTION 8 — CONTENT STRUCTURE
+
+**Blog Gen instruction:** H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s. Word budget per section is set — follow it. H3s may be added at editorial discretion.
+
+**H1:** Your Daily Nail Care Routine: The Exact System for Stronger, Healthier Nails
+
+**H2 structure (ordered):**
+1. Why Most Nail Care Advice Fails (and What Actually Works)
+2. What Healthy Nails Actually Look Like — and Why It Matters
+3. Your Daily Nail Care Habits: What to Do Every Single Day
+4. Your Every-Few-Days Routine: What Nails Need Mid-Week
+5. Your Weekly Nail Maintenance: The Reset Your Nails Need
+6. The Products That Actually Belong in Your Daily Nail Care Routine
+7. What Damages Nails Most Without You Realising
+8. How Long Before Your Daily Nail Care Routine Shows Results
+
+**Word budget:**
+
+| Section | Budget |
+|---|---|
+| Introduction | 220 words |
+| H2-1: Why Most Nail Care Advice Fails | 280 words |
+| H2-2: What Healthy Nails Actually Look Like | 250 words |
+| H2-3: Daily Habits (Every Day) | 420 words |
+| H2-4: Every-Few-Days Routine | 300 words |
+| H2-5: Weekly Nail Maintenance | 320 words |
+| H2-6: Products That Belong in Your Routine | 350 words |
+| H2-7: What Damages Nails Most | 300 words |
+| H2-8: How Long Before Results Show | 220 words |
+| Conclusion | 140 words |
+| **Total** | **3,000 words** |
+
+---
+
+## SECTION 9 — INTERNAL LINKS
+
+**Blog Gen instruction:** Every link must appear in the post. Anchor texts used verbatim. Place where placement note specifies — woven naturally into prose, never standalone CTAs.
+
+**All internal links:**
+
+| URL | Title | Anchor Text | Placement Note | Link Type |
+|---|---|---|---|---|
+| /topics/nail-care-guide | [being rewritten — DO NOT LINK] | — | — | EXCLUDED |
+| /nail-faqs/how-often-should-you-trim-your-nails-for-health | How Often Should You Trim Your Nails for Health | how often to trim your nails | H2-4 (Every-Few-Days Routine) — when discussing filing and shaping frequency | cross-site |
+| /nail-faqs/should-i-get-my-nails-done-before-a-job-interview | Should I Get My Nails Done Before a Job Interview | nails for a job interview | H2-2 (What Healthy Nails Look Like) or H2-7 (Damages) — when addressing appearance confidence | cross-site |
+| /work-nails/professional-nail-length-for-work | Professional Nail Length for Work | professional nail length | H2-5 (Weekly Maintenance) — when discussing filing to maintain length | cross-site |
+
+**Note on cross-site link cap:** 3 links listed — user should select max 2 most contextually relevant for the post. Strongest fits: trim nails FAQ (H2-4, highly topical) + professional nail length (H2-5, natural fit). Use those two; drop the interview link unless a professional audience angle is written into H2-2.
+
+**External links (Section 11 preview):** Mayo Clinic fingernail guide (mayoclinic.org/healthy-lifestyle/adult-health/in-depth/nails/art-20044954) — use in H2-2 or H2-7 for E-E-A-T credibility on nail health indicators.
+
+---
+
+## SECTION 10 — VOICE AND TONE
+
+**Blog Gen instruction:** This is the voice for this specific post. Layer on top of Mirellé editorial framework.
+
+```
+recommended_voice:    Confident educator with warmth — the knowledgeable friend who won't waste your time
+
+tone_characteristics:
+  - Direct and precise — gives specific answers, never "it depends" without an actual answer following
+  - Practical over aspirational — every recommendation anchored to real life constraints
+  - Zero patience for filler — each sentence earns its place
+  - Warm but not effusive — no exclamation marks, no filler affirmations
+  - Honest about timelines and limitations — doesn't oversell results
+
+language_style:
+  Short declarative sentences for instructions. 
+  Medium-length sentences for explanation. 
+  Uses "you" throughout but not in a hand-holding way — matter-of-fact.
+  No passive voice in instructional sections.
+  British English throughout — colour, moisturise, recognise, -ise endings.
+
+audience_match:
+  This reader is busy, frustrated by vague advice, and mildly sceptical. 
+  She's been told to "drink more water and moisturise" for years. 
+  She responds to specificity, honesty, and being treated as an adult who can handle real information.
+```
+
+---
+
+## SECTION 11 — EXTERNAL LINKS
+
+**Blog Gen instruction:** Include where indicated. Supports E-E-A-T. Anchor is a guide — write naturally around it.
+
+| URL | Context | Anchor Suggestion |
+|---|---|---|
+| https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/nails/art-20044954 | H2-2 (healthy nail indicators) or H2-7 (damage habits) — cite for authority on what nail changes indicate health issues | healthy nail indicators |
+| https://illinoisderm.com/blog/how-to-strengthen-brittle-nails-daily-habits-that-work/ | H2-7 or H2-6 — dermatologist-sourced guidance on brittle nail causes | strengthening brittle nails |
+
+---
+
+## SECTION 12 — EXECUTION PLAN
+
+**Blog Gen instruction: READ THIS SECTION FIRST. Lock every value. Execute exactly.**
+
+---
+
+### BLOCK 1 — KEYWORD EXECUTION
+
+```
+primary_keyword:          daily nail care routine
+total_mention_target:     60 mentions (3,000 × 0.02 = 60)
+strong_tag_rule:          EVERY single mention of "daily nail care routine" wrapped in <strong> tags — all 60
+
+first_100_words_plan:
+  mention_1:  Sentence 2–3 of introduction — establish the keyword in the context of "what this post gives you"
+  mention_2:  Sentence 6–8 of introduction — reinforce in the "this is for you if..." framing
+
+first_half_target:    36 mentions — first 1,500 words (denser in H2-1 through H2-5)
+second_half_target:   24 mentions — second 1,500 words (H2-6 through conclusion)
+```
+
+---
+
+### BLOCK 2 — WORD BUDGET
+
+```
+total_target:    3,000 words (+/- 50 words tolerance, never exceed)
+
+introduction:         220 words
+H2-1 (Why Fails):     280 words   [complexity: medium]
+H2-2 (Healthy Look):  250 words   [complexity: low-medium]
+H2-3 (Daily Habits):  420 words   [complexity: high — most instructional weight]
+H2-4 (Mid-Week):      300 words   [complexity: medium]
+H2-5 (Weekly Reset):  320 words   [complexity: medium-high]
+H2-6 (Products):      350 words   [complexity: medium — 4-5 products with rationale]
+H2-7 (Damages):       300 words   [complexity: medium]
+H2-8 (Timeline):      220 words   [complexity: low — direct answer section]
+conclusion:           140 words
+
+tracking_rule: Count running total at end of each H2. If over budget — cut before moving on. Do not compensate later.
+```
+
+---
+
+### BLOCK 3 — IMAGE PLAN
+
+```
+total_images:   9 (from POST_CONSTANTS)
+hero_image:     frontmatter only — NEVER in post body
+
+body_images: 8 images to place in body
+
+image_type_rule: ALL body images = inspirational nail images related to healthy, well-maintained natural nails. 
+                 NO infographics. NO diagrams. NO step-by-step process visuals.
+
+path_rule: /images/blog/nail-care-guide/nail-care-guide/filename.webp
+
+assignments:
+  Image 1 — place after Introduction
+    context: close-up of clean, well-shaped natural nails against a soft neutral background
+  
+  Image 2 — place after H2-2 (What Healthy Nails Look Like)
+    context: healthy nails — smooth, even colour, neat cuticles — flat-lay or hand detail
+  
+  Image 3 — place after H2-3 (Daily Habits)
+    context: cuticle oil being applied — intimate, close hand shot
+  
+  Image 4 — place after H2-3 (Daily Habits) — second image for longest section
+    context: hand cream or moisturiser application, soft natural tones
+  
+  Image 5 — place after H2-4 (Every-Few-Days Routine)
+    context: nail file being used — single direction motion, natural nails
+  
+  Image 6 — place after H2-5 (Weekly Reset)
+    context: simple nail kit laid out — file, cuticle oil, hand cream — clean flat-lay
+  
+  Image 7 — place after H2-6 (Products)
+    context: cuticle oil bottle and hand cream — styled product shot, no branding required
+  
+  Image 8 — place after H2-8 (Timeline / Results)
+    context: beautiful well-maintained natural nails — before/after feeling without explicit comparison
+```
+
+---
+
+### BLOCK 4 — OPENING TECHNIQUE ASSIGNMENTS
+
+```
+rule: No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.
+
+Introduction:          Technique 2 — The Problem Frame (open with what's broken about the advice, not what this post will fix)
+H2-1 (Why Fails):     Technique 4 — The Counterintuitive Claim (state what's wrong with conventional advice directly)
+H2-2 (Healthy Look):  Technique 1 — The Claim (direct declarative statement about what healthy nails are)
+H2-3 (Daily Habits):  Technique 3 — The Reframe (reframe from "routine" as chore to "2 minutes that compounds")
+H2-4 (Mid-Week):      Technique 2 — The Problem Frame (what happens if you skip mid-week care)
+H2-5 (Weekly Reset):  Technique 1 — The Claim (direct: this is the session that actually undoes accumulated damage)
+H2-6 (Products):      Technique 4 — The Counterintuitive Claim (you need fewer products than any list tells you)
+H2-7 (Damages):       Technique 2 — The Problem Frame (the culprits hiding in plain sight)
+H2-8 (Timeline):      Technique 1 — The Claim (give the honest answer immediately — X weeks)
+Conclusion:            Technique 1 — The Claim (nail the takeaway: consistency over complexity)
+
+banned_opener_rule: Check every opener against Mirellé banned_opening_approaches before writing second sentence.
+```
+
+---
+
+### BLOCK 5 — LINK PLACEMENTS
+
+```
+link_1:
+  anchor_text:        how often to trim your nails
+  full_url:           /nail-faqs/how-often-should-you-trim-your-nails-for-health
+  place_in_section:   H2-4 (Every-Few-Days Routine)
+  placement_context:  When introducing nail filing and shaping — "for exact trimming intervals, [anchor]"
+  link_type:          cross-site
+
+link_2:
+  anchor_text:        professional nail length
+  full_url:           /work-nails/professional-nail-length-for-work
+  place_in_section:   H2-5 (Weekly Reset)
+  placement_context:  When discussing maintaining length during weekly filing — natural reference for work context
+  link_type:          cross-site
+```
+
+---
+
+### BLOCK 6 — AEO / GEO PLAN
+
+```
+aeo_assignments:
+
+  aeo_1:
+    term:        What should I do for my nails every day?
+    section:     H2-3 (Daily Habits)
+    execution:   Write a direct 2–3 sentence answer paragraph IMMEDIATELY after H2 heading — before elaboration.
+                 Answer: moisturise, apply cuticle oil, protect from harsh water and chemicals.
+
+  aeo_2:
+    term:        How often should I apply cuticle oil?
+    section:     H2-3 (Daily Habits)
+    execution:   Direct answer paragraph: at minimum twice daily — morning and before bed.
+                 More often if hands are washed frequently or environment is dry.
+
+  aeo_3:
+    term:        What is the difference between daily and weekly nail care?
+    section:     Introduction or H2-3
+    execution:   Two-sentence direct answer distinguishing daily (hydration + protection) from weekly (shaping + treatment).
+
+  aeo_4:
+    term:        How long before a nail care routine shows results?
+    section:     H2-8 (Timeline)
+    execution:   Lead immediately with the answer: 2–4 weeks for cuticle and hydration improvement;
+                 3–6 months for full nail plate renewal.
+
+  aeo_5:
+    term:        What causes nails to keep peeling and breaking?
+    section:     H2-7 (Damages)
+    execution:   Direct answer paragraph: dehydration, acetone, prolonged water exposure, harsh soaps, mechanical damage.
+
+
+geo_entity_statements:
+
+  entity_1:
+    entity:      Nail plate hydration
+    section:     H2-3 or H2-6
+    execution:   "The nail plate itself — the visible hard structure — needs moisture directly applied to it, 
+                  not just to the surrounding skin. Cuticle oil penetrates the nail plate and reduces brittleness."
+
+  entity_2:
+    entity:      Proximal nail fold
+    section:     H2-3 or H2-5
+    execution:   "The proximal nail fold is the thin strip of skin at the base of your nail. 
+                  Keeping it hydrated prevents the ragged cuticle edges that make even healthy nails 
+                  look untended."
+
+  entity_3:
+    entity:      Onychoschizia (nail splitting/peeling)
+    section:     H2-7
+    execution:   "Onychoschizia — the technical term for nails that split or peel horizontally 
+                  at the free edge — is almost always caused by repeated wet-dry cycles combined 
+                  with insufficient moisture replenishment."
+```
+
+---
+
+### BLOCK 7 — ACTIVE CONSTRAINTS
+
+```
+em_dash_banned:
+  Long em dash does not appear anywhere in the post. 
+  If one forms — replace with: comma / new sentence / parentheses / "but" / restructure.
+
+banned_vocab_watch (most likely to slip in for this topic):
+  - "journey" (nail care journey)
+  - "amazing" 
+  - "game-changer"
+  - "transform"
+  - "elevate"
+  - "radiant"
+  - "effortless"
+  - "nourishing" (overused — rephrase as "moisturising" or describe what it does)
+
+british_english_active:
+  colour, moisturise, recognise, organised, favour, analyse, practise (verb)
+  All -ise endings (not -ize). All -our endings (colour, favour). 
+  No exceptions — check every instance.
+
+keyword_density_reminder:
+  After every 2 H2 sections — count current "daily nail care routine" mentions.
+  Verify first half running denser (target: 36 in first 1,500 words).
+  Adjust if needed.
+
+image_path_reminder:
+  /images/blog/nail-care-guide/nail-care-guide/filename.webp
+  Topic slug in path always.
+
+internal_link_url_reminder:
+  /nail-faqs/how-often-should-you-trim-your-nails-for-health
+  /work-nails/professional-nail-length-for-work
+  Never bare slugs. Full path only.
+
+hero_image_reminder:
+  Hero = frontmatter only. Never place in body.
+
+strong_tag_reminder:
+  Every instance of "daily nail care routine" = <strong>daily nail care routine</strong>
+  Scan after every paragraph. No exceptions.
+```
+
+---
+
+*Input file complete. Feed to Blog Gen Agent. 2,980 words approximate.*
