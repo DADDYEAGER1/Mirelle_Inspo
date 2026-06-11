@@ -1,0 +1,712 @@
+# INPUT FILE — BLOG GEN AGENT
+## SINGLE SOURCE OF TRUTH
+
+---
+
+## SECTION 1 — FILE AUTHORITY
+
+THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.
+
+---
+
+## SECTION 2 — POST CONSTANTS
+
+Blog Gen Agent reads this section FIRST and locks all values before doing anything else.
+
+```
+slug:              at-home-hacks
+topic_slug:        at-home-hacks
+canonical:         https://mirelleinspo.com/topics/at-home-hacks
+post_type:         standalone
+intent:            mixed informational + tutorial
+word_count:        3500
+image_count:       9
+template:          center
+hero_dimensions:   1200x630
+category:          Nail Art
+publish_date:      2026-06-11
+author:            Mirellé Team
+```
+
+**Primary keyword decision (research-confirmed):** `nail hacks at home`
+
+Rationale: SERP for "nail hacks at home" is contested but winnable — top competitors (BuzzFeed 27 hacks, Expert Home Tips 20 hacks, Skinny Confidential 16 hacks) are all thin, list-heavy, and low on instructional depth. The Mirellé post's 73-hack volume combined with grouped tutorial structure significantly outcompetes every current top result. "At home nail hacks" and "nail hacks at home" carry identical intent and near-identical volume — "nail hacks at home" is the more natural search phrasing confirmed across Quora and Pinterest queries. Locked.
+
+**Word count rationale:** SERP competitors for "nail hacks at home" run 1,200–2,500 words and are predominantly thin listicles. 3,500 words with genuine instructional depth and grouped hack categories gives a significant topical authority advantage. Not image-heavy per user instruction — word density is the differentiator here. 3,500 is the ceiling; the content earns every word through grouped, explanation-rich hacks.
+
+**Image count rationale:** Not an image-led post. Not an X+ ideas slug. Not a tutorial requiring step visuals. Not a comparison. → Rule 5 applies → 9 images total (1 hero + 8 body). SERP validates: top-ranking posts for this keyword are not image-heavy. Words and hackable content depth are what rank here.
+
+---
+
+## SECTION 3 — CLUSTER SNAPSHOT
+
+SOLO MODE — omit.
+
+---
+
+## SECTION 4 — SERP ANALYSIS
+
+**Blog Gen instruction:** Our strategic angle drives introduction and every section opener. Competitor gaps define what we cover that nobody else does.
+
+**SERP competitor structure (top results for "nail hacks at home"):**
+- BuzzFeed: 27 hacks, numbered list, no grouping, no explanations — just one-liners
+- Expert Home Tips: 20 unusual hacks, image per hack, very brief copy
+- Skinny Confidential: 16 hacks, editorial tone, but only cosmetic/polish hacks
+- ClassPass Blog: 7 hacks, very brief, salon-focused framing
+- Harlem World: 8 hacks, extremely thin
+- TikTok / Vitacost: TikTok-sourced hacks list, trend-focused but shallow
+
+**Competitor gaps — what NONE of the top results cover:**
+- Household item substitution system — competitors mention toothpicks but don't build the complete "what replaces what" framework
+- Why salon manicures last longer and the specific techniques that replicate it — nobody explains the actual mechanism (capping, thin coats, dehydration prep)
+- Hacks grouped by problem, not by technique — readers searching "nail hacks at home" have a specific frustration; nobody maps hacks to the frustration they solve
+- Gel-adjacent results without a lamp — competitors don't address this at all; major gap for 2026 audience
+- Longevity science — why polish chips, why it peels, what actually stops it — nobody explains the root cause before the hack
+- Hack failure modes — what goes wrong with common hacks (e.g. water marble setup errors, Elmer's glue lifting) — entirely absent from all competitors
+- Cost breakdown — the "how much you save vs salon" framing is mentioned but never calculated
+
+**Missing semantic territory:**
+- nail dehydration before polish (the real reason salon manicures last)
+- capping the free edge (pro technique nobody explains)
+- peel-off base coat hack (Elmer's glue)
+- chrome eyeshadow powder hack
+- water marble hack setup and failure modes
+- glitter removal hack
+- press-on upgrade hacks
+- rehydration after removal
+- cuticle oil as manicure longevity tool (not just cosmetic)
+- nail drying hacks that actually work vs ones that don't
+
+**Our strategic angle:** Every other nail hacks post gives you a numbered list and moves on. This post is organised by the problem you're trying to solve — polished that chips too fast, nail art that requires tools you don't own, a manicure that looks homemade. The hack follows the frustration, not the other way around. That structure is what makes this post functionally different and why it earns the word count.
+
+---
+
+## SECTION 5 — AUDIENCE INTELLIGENCE
+
+**Blog Gen instruction:** Every section written for this specific reader. The informational sections explain why. The tutorial sections show how, concisely.
+
+**Who they are:**
+Women 20–40, DIY-minded, trying to cut salon costs without sacrificing quality. Many have tried doing their nails at home and been frustrated — polish chips within two days, designs look amateurish, cuticles are messy, glitter is impossible to remove. They've watched TikTok hacks but don't always understand why they work or how to avoid the failure modes. Motivated by practicality and pride: they want nails that actually look good, not just theoretically achievable ones.
+
+**What they want:**
+Hacks that solve their actual problems — not a general list of nail tips they've seen before. They want to understand the mechanism ("why does this work?"), the quick execution ("what do I do?"), and the failure to avoid ("what goes wrong?"). They want confidence that they've actually chosen the right hack for their specific problem.
+
+**What frustrates them:**
+- Generic lists that recycle the same 8 hacks endlessly (ice water, base coat, toothpick)
+- No explanation of why something works — just instructions that fail without the logic
+- Hacks that require products they don't own with no substitution guidance
+- "Professional results" promises that don't deliver when they try
+- No coverage of the post-manicure phase: maintenance, touch-ups, removal
+
+**Top 5 pain points:**
+1. Polish chips within 2–3 days of application — #1 stated frustration
+2. Nail art looks messy/amateurish — especially cleanup around cuticles
+3. Glitter polish is impossible to remove and ruins the next manicure
+4. Chrome and trending finishes seem to need professional tools
+5. Cuticles look unkempt and undo an otherwise good manicure
+
+**Exact user phrases (Quora, Pinterest, YouTube):**
+- "how to make nail polish last more than 2 days"
+- "how do salons make manicures last so long"
+- "nail hacks that actually work"
+- "how to get clean cuticles at home"
+- "DIY chrome nails without chrome powder"
+- "glitter polish removal hack"
+- "how to do nails at home without it looking homemade"
+- "French tip at home without messing up"
+- "why does my nail polish chip so fast"
+- "TikTok nail hacks that actually work"
+
+**Intent content signals:**
+- Wants problem-first structure — map the hack to the frustration it solves
+- Needs the failure mode called out: "what goes wrong if you skip this"
+- Responds to "this is why salons do it differently" framing
+- Appreciates numbered steps but wants the explanation before the steps, not after
+- Values honesty: "this hack works but only if you do X first"
+- Wants specific product callouts where relevant — not vague "use a top coat"
+
+---
+
+## SECTION 6 — SEMANTIC KEYWORD DATA
+
+**Blog Gen instruction:** Primary keyword in `<strong>` tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally.
+
+**Primary keyword (LOCKED):** nail hacks at home
+
+**Keyword variations (cleared):**
+- at home nail hacks
+- DIY nail hacks at home
+- nail hacks at home that work
+- best nail hacks at home
+- nail polish hacks at home
+- manicure hacks at home
+- nail tips and hacks at home
+- nail hacks for salon results at home
+- professional nail hacks at home
+- nail hacks without tools
+
+**Cluster keywords (13):**
+- how to make nail polish last longer
+- DIY manicure hacks
+- salon quality nails at home
+- nail polish hacks
+- how to do nails at home like a professional
+- nail art hacks without tools
+- manicure longevity hacks
+- nail hack for French tips at home
+- glitter nail polish removal hack
+- chrome nails at home hack
+- cuticle hacks at home
+- nail drying hacks
+- press-on nail hacks
+
+**LSI terms (18):**
+- capping the free edge
+- nail dehydration prep
+- peel-off base coat
+- thin coats technique
+- water marble nails
+- Elmer's glue nail hack
+- metallic eyeshadow chrome hack
+- ice water nail drying
+- acetone cleanup brush
+- cuticle oil manicure longevity
+- scotch tape French tip
+- nail polish storage tips
+- rubbing alcohol nail prep
+- base coat importance
+- top coat reapplication
+- household dotting tools
+- nail polish thinner
+- micellar water cleanup
+
+**AEO terms (10 full question phrases):**
+- What are the best nail hacks at home for making polish last longer?
+- How do salons make manicures last so long?
+- What household items can replace nail art tools?
+- How do you do chrome nails at home without chrome powder?
+- What is the easiest way to remove glitter nail polish?
+- How do you get clean cuticles at home without cutting them?
+- How do you do a French tip at home without messing up?
+- What is the Elmer's glue nail hack and does it work?
+- Why does my nail polish chip so quickly at home?
+- How do you make a DIY manicure look professional?
+
+**Technical terms (6):**
+- nail plate dehydration
+- free edge capping
+- nail matrix
+- polish adhesion
+- subungual space
+- acetone vs non-acetone remover
+
+**User language (10):**
+- "nail polish that actually lasts"
+- "looks homemade"
+- "chipped by day two"
+- "glitter stuck on forever"
+- "messy cuticles"
+- "TikTok nail hack"
+- "without going to the salon"
+- "save money on nails"
+- "salon secret"
+- "hacks that actually work"
+
+---
+
+## SECTION 7 — VOICE AND AI QUERIES
+
+**Blog Gen instruction:** Answer every query directly in the relevant H2. Route to faqItems if not addressable in body naturally.
+
+**Queries (14):**
+1. What are the best nail hacks at home that actually work?
+2. How do salons make manicures last so much longer than at-home ones?
+3. Why does nail polish chip so fast when I do my nails at home?
+4. What household items can I use instead of nail art tools?
+5. How do you do chrome nails at home without buying chrome powder?
+6. What is the easiest hack for removing glitter nail polish?
+7. How do you get perfectly clean cuticles at home?
+8. How do you do a clean French tip without a steady hand?
+9. What is the Elmer's glue nail hack — and does it actually work?
+10. How do you do water marble nails at home?
+11. How do you make nail polish dry faster at home?
+12. Does the ice water nail drying hack actually work?
+13. How do you touch up a chip without repainting the whole nail?
+14. What's the single most important nail hack for a longer-lasting manicure?
+
+---
+
+## SECTION 8 — CONTENT STRUCTURE
+
+**Blog Gen instruction:** This is a problem-organised hack post, not a numbered list. Each H2 represents a category of problem the reader is trying to solve. Within each H2, hacks are numbered. Total 73 hacks distributed across H2 categories — see hack distribution below. Every hack gets: hack name (H3 or bold), the mechanism (why it works — 1 sentence), the method (how to do it — 2–4 steps max), and the failure to avoid (1 sentence). Word budget is set — follow it.
+
+**H1 (LOCKED):** 73 At-Home Nail Hacks: Professional Results Without the Salon (2026)
+
+**H2 structure (ordered):**
+
+1. Why Your At-Home Manicure Fails (and What Salons Do Differently)
+2. Prep Hacks: The Foundation That Makes Everything Else Work (Hacks 1–12)
+3. Application Hacks: How Professionals Get Streak-Free, Long-Lasting Polish (Hacks 13–24)
+4. Nail Art Hacks Without Tools: What to Use Instead (Hacks 25–38)
+5. Longevity Hacks: Making Your Manicure Last Twice as Long (Hacks 39–50)
+6. Trending Effect Hacks: Chrome, Ombre, and Marble at Home (Hacks 51–60)
+7. Cleanup and Fix Hacks: Making It Look Salon-Perfect (Hacks 61–68)
+8. Removal and Recovery Hacks: Getting Off What Won't Budge (Hacks 69–73)
+
+**Hack distribution (73 total):**
+
+| H2 Section | Hacks | Count |
+|---|---|---|
+| H2-2: Prep | 1–12 | 12 |
+| H2-3: Application | 13–24 | 12 |
+| H2-4: Nail Art No Tools | 25–38 | 14 |
+| H2-5: Longevity | 39–50 | 12 |
+| H2-6: Trending Effects | 51–60 | 10 |
+| H2-7: Cleanup & Fix | 61–68 | 8 |
+| H2-8: Removal & Recovery | 69–73 | 5 |
+| **Total** | | **73** |
+
+**Word budget:**
+
+| Section | Budget |
+|---|---|
+| Introduction | 220 words |
+| H2-1: Why It Fails | 300 words |
+| H2-2: Prep Hacks (12) | 480 words — avg 40 words per hack |
+| H2-3: Application Hacks (12) | 480 words — avg 40 words per hack |
+| H2-4: Nail Art No Tools (14) | 560 words — avg 40 words per hack |
+| H2-5: Longevity Hacks (12) | 420 words — avg 35 words per hack |
+| H2-6: Trending Effects (10) | 400 words — avg 40 words per hack |
+| H2-7: Cleanup & Fix (8) | 280 words — avg 35 words per hack |
+| H2-8: Removal & Recovery (5) | 175 words — avg 35 words per hack |
+| Conclusion | 150 words |
+| Flex / transitions / section intros | 35 words |
+| **Total** | **3,500 words** |
+
+**Per-hack format (40 words avg):**
+- **Hack name** [bold or numbered H3]
+- Mechanism: why it works [1 sentence, ~10 words]
+- Method: 2–3 numbered steps [~20 words]
+- Failure note: what goes wrong if skipped [~10 words]
+
+**H2-1 (Why It Fails) format note:** This is pure editorial — no hacks listed here. Explains the core differences between salon and at-home technique (dehydration prep, capping, thin coats, cuticle protocol). This section is the trust-builder. Keep it analytical, not preachy.
+
+---
+
+## SECTION 9 — INTERNAL LINKS
+
+**Blog Gen instruction:** Every link placed exactly where specified. Anchor texts verbatim. Woven naturally — never standalone CTAs.
+
+**All internal links:**
+
+| URL | Title | Anchor Text | Placement Note | Link Type |
+|---|---|---|---|---|
+| /topics/nail-art-guides | Easy Nail Designs for Beginners | easy nail designs for beginners | H2-4 (Nail Art No Tools section) — when introducing household tool substitutions, note that the full design gallery is elsewhere | cross-site |
+| /topics/nail-care-guide | Daily Nail Care Guide | daily nail care routine | H2-2 (Prep Hacks) — when discussing cuticle prep and hydration as hack prerequisites | cross-site |
+| /work-nails/professional-nail-length-for-work | Professional Nail Length for Work | professional nail length | H2-3 (Application Hacks) — when addressing filing and shaping as part of application prep | cross-site |
+
+**Note:** 3 links listed — cap is 2. Strongest fit: easy nail designs (H2-4, direct content continuation) + daily nail care routine (H2-2, most natural prep cross-reference). Drop professional nail length unless a work-context sentence writes itself naturally.
+
+---
+
+## SECTION 10 — VOICE AND TONE
+
+```
+recommended_voice:    Savvy insider — the person who figured out what the salon is actually doing and is sharing it without gatekeeping
+
+tone_characteristics:
+  - Straight-talking — names the mechanism, doesn't romanticise the hack
+  - Practical precision — specific quantities, specific products, specific failure modes
+  - Lightly irreverent — can acknowledge that some viral hacks are overhyped (ice water drying, for example)
+  - Confident without being condescending — assumes the reader is capable; doesn't over-explain basics
+  - Problem-solution rhythm — every section opens with the frustration, then delivers the answer
+
+language_style:
+  Short declarative sentences in hack entries — imperative voice ("Wipe the nail," "Cap the edge").
+  Medium sentences in explanatory sections.
+  British English throughout — colour, practise, recognise, favourite, -ise endings.
+  "You" throughout — second person, direct.
+  Zero filler affirmations, zero exclamation marks.
+
+audience_match:
+  Reader is frustrated with at-home results and sceptical of viral claims.
+  She wants the real explanation, not the TikTok version.
+  The "why" earns the "how" — explain the mechanism first, every time.
+```
+
+---
+
+## SECTION 11 — EXTERNAL LINKS
+
+| URL | Context | Anchor Suggestion |
+|---|---|---|
+| https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/nails/art-20044954 | H2-1 or H2-2 — when noting that cuticle cutting is a risk and how to handle it correctly | fingernail care |
+| https://www.today.com/shop/home-manicure-tips-rcna94675 | H2-1 — cite for nail professional quote on thin coats and capping the free edge | at-home manicure tips |
+
+---
+
+## SECTION 12 — EXECUTION PLAN
+
+**Blog Gen instruction: READ THIS SECTION FIRST. Lock every value. Execute exactly.**
+
+---
+
+### BLOCK 1 — KEYWORD EXECUTION
+
+```
+primary_keyword:          nail hacks at home
+total_mention_target:     70 mentions (3,500 × 0.02 = 70)
+strong_tag_rule:          EVERY single mention of "nail hacks at home" wrapped in <strong> tags — all 70
+
+first_100_words_plan:
+  mention_1:  Sentence 2–3 of introduction — establish keyword in the opening frustration frame
+  mention_2:  Sentence 6–7 of introduction — reinforce in "this post is..." framing
+
+first_half_target:    42 mentions — first 1,750 words (H2-1 through H2-4)
+second_half_target:   28 mentions — second 1,750 words (H2-5 through conclusion)
+```
+
+---
+
+### BLOCK 2 — WORD BUDGET
+
+```
+total_target:     3,500 words (+/- 50 words, never exceed)
+
+introduction:              220 words
+H2-1 (Why It Fails):       300 words   [complexity: high — analytical, no hacks]
+H2-2 (Prep, hacks 1–12):   480 words   [complexity: medium]
+H2-3 (Application 13–24):  480 words   [complexity: medium]
+H2-4 (No Tools 25–38):     560 words   [complexity: high — most creative hacks]
+H2-5 (Longevity 39–50):    420 words   [complexity: medium]
+H2-6 (Effects 51–60):      400 words   [complexity: medium-high]
+H2-7 (Cleanup 61–68):      280 words   [complexity: medium]
+H2-8 (Removal 69–73):      175 words   [complexity: low]
+conclusion:                150 words
+flex/transitions:           35 words
+
+tracking_rule:
+  Track running word total at end of each H2.
+  If a section runs over — tighten mechanism sentences to 8 words max, cut failure note to half.
+  Never compensate by expanding a later section.
+```
+
+---
+
+### BLOCK 3 — IMAGE PLAN
+
+```
+total_images:    9 (1 hero + 8 body)
+hero_image:      frontmatter only — NEVER in post body
+
+body_images: 8 images to place in body
+
+image_type_rule:
+  All body images = nail photography — styled hands, nail results, finished manicures.
+  NO infographics. NO tool diagrams. NO process illustrations.
+  Images are aspirational quality anchors, not tutorials — they show what's possible.
+
+path_rule: /images/blog/at-home-hacks/at-home-hacks/filename.webp
+
+assignments:
+
+  Image 1 — after Introduction
+    context: clean, polished home manicure — salon-quality finish, neutral tones, 
+             suggests "achievable at home" not "salon set"
+
+  Image 2 — after H2-1 (Why It Fails)
+    context: close-up of perfectly prepped nails pre-polish — clean, shaped, cuticles pushed back
+
+  Image 3 — after H2-2 (Prep Hacks)
+    context: hands with base coat applied — subtle, clean, professional-looking prep stage
+
+  Image 4 — after H2-3 (Application Hacks)
+    context: freshly painted nails in a classic colour — streak-free, even, salon-finish quality
+
+  Image 5 — after H2-4 (Nail Art No Tools)
+    context: nail art achieved with minimal tools — polka dots or tape stripes — looks intentional
+
+  Image 6 — after H2-5 (Longevity Hacks)
+    context: two-week-old manicure still looking fresh — chip-free, glossy — aspirational longevity
+
+  Image 7 — after H2-6 (Trending Effects)
+    context: chrome or ombre effect nails — shows the at-home trending finish result
+
+  Image 8 — after H2-7 or conclusion
+    context: set of perfectly groomed natural nails — clean cuticles, slight sheen — 
+             the "after" of everything working together
+```
+
+---
+
+### BLOCK 4 — OPENING TECHNIQUE ASSIGNMENTS
+
+```
+rule: No two consecutive sections use same technique. Conclusion = T1 or T3 only.
+
+Introduction:               Technique 2 — The Problem Frame
+                            (Open with the frustration: chips by day two, looks homemade, 
+                             can't understand what salons do differently.)
+H2-1 (Why It Fails):        Technique 4 — The Counterintuitive Claim
+                            (Salons don't have better polish. They have a different protocol. 
+                             Three specific things you're not doing.)
+H2-2 (Prep Hacks):          Technique 1 — The Claim
+                            (Prep is where professional results are made or lost. Here are the 12 hacks.)
+H2-3 (Application Hacks):   Technique 3 — The Reframe
+                            (Reframe: application is not about steady hands — it's about coats and timing.)
+H2-4 (Nail Art No Tools):   Technique 2 — The Problem Frame
+                            (You don't need the tool. Here's what you actually need.)
+H2-5 (Longevity Hacks):     Technique 4 — The Counterintuitive Claim
+                            (Longevity isn't about the polish brand. It's about the 60 seconds after you finish.)
+H2-6 (Trending Effects):    Technique 1 — The Claim
+                            (Chrome, ombre, marble — all achievable without a single professional product.)
+H2-7 (Cleanup & Fix):       Technique 3 — The Reframe
+                            (Reframe: cleanup isn't the finishing touch — it's the difference between 
+                             homemade and professional.)
+H2-8 (Removal & Recovery):  Technique 2 — The Problem Frame
+                            (Removal is where most people cause the most damage they don't realise.)
+Conclusion:                 Technique 1 — The Claim
+
+banned_opener_rule: Check every opener against Mirellé banned_opening_approaches before second sentence.
+```
+
+---
+
+### BLOCK 5 — LINK PLACEMENTS
+
+```
+link_1:
+  anchor_text:        daily nail care routine
+  full_url:           /topics/nail-care-guide
+  place_in_section:   H2-2 (Prep Hacks)
+  placement_context:  When mentioning cuticle hydration and daily maintenance as prerequisites —
+                      "if you want the hacks to compound, the foundation is a [anchor]."
+  link_type:          cross-site
+
+link_2:
+  anchor_text:        easy nail designs for beginners
+  full_url:           /topics/nail-art-guides
+  place_in_section:   H2-4 (Nail Art No Tools)
+  placement_context:  End of section or within intro to section — 
+                      "for the full design library using these exact tools, see [anchor]."
+  link_type:          cross-site
+```
+
+---
+
+### BLOCK 6 — AEO / GEO PLAN
+
+```
+aeo_assignments:
+
+  aeo_1:
+    term:      Why does nail polish chip so fast at home?
+    section:   H2-1 (Why It Fails)
+    execution: Direct 2-sentence answer IMMEDIATELY after H2 heading: 
+               Three causes — skipping dehydration prep, applying thick coats, not capping the free edge.
+               Salons address all three. Most DIY manicures address none.
+
+  aeo_2:
+    term:      What is the single most important nail hack for lasting manicure?
+    section:   H2-5 (Longevity Hacks) — open hack entry
+    execution: Direct answer: capping the free edge with base coat, colour coat, and top coat.
+               Two extra seconds per nail, double the wear time.
+
+  aeo_3:
+    term:      How do you do chrome nails at home without chrome powder?
+    section:   H2-6 (Trending Effects)
+    execution: Direct answer: metallic eyeshadow rubbed onto a tacky top coat surface.
+               Result: 70% of the chrome finish for zero additional cost.
+
+  aeo_4:
+    term:      What is the Elmer's glue nail hack?
+    section:   H2-5 or H2-8 (Removal)
+    execution: Direct answer: thin layer of white school glue as a peel-off base under polish.
+               Entire manicure lifts off in one piece. Only works on non-long-wear manicures.
+
+  aeo_5:
+    term:      Does the ice water nail drying hack actually work?
+    section:   H2-5 (Longevity) or H2-3 (Application)
+    execution: Direct honest answer: partially — cold water sets the surface but full cure 
+               still takes 20–30 minutes. Prevents smudging from touch, does not speed full dry.
+
+
+geo_entity_statements:
+
+  entity_1:
+    entity:    Capping the free edge
+    section:   H2-1 or H2-3
+    execution: "Capping the free edge means painting base coat, colour, and top coat 
+                horizontally across the nail tip — not just the surface. It seals the 
+                most vulnerable point where chipping always starts."
+
+  entity_2:
+    entity:    Nail dehydration prep
+    section:   H2-2 (Prep Hacks)
+    execution: "Nail dehydration prep removes natural oils from the nail plate surface 
+                before polish application. Rubbing alcohol or a non-acetone remover wipe 
+                achieves this. Without it, oils prevent the base coat from fully bonding — 
+                and the manicure starts failing within 24 hours."
+
+  entity_3:
+    entity:    Peel-off base coat (Elmer's glue method)
+    section:   H2-8 (Removal) or H2-5
+    execution: "A peel-off base coat is a removable adhesive layer applied to bare nails 
+                before polish. Elmer's white school glue (non-toxic, water-soluble) creates 
+                the same effect as commercial peel-off bases at a fraction of the cost. 
+                The entire manicure slides off in one piece without acetone or scrubbing."
+```
+
+---
+
+### BLOCK 7 — ACTIVE CONSTRAINTS
+
+```
+em_dash_banned:
+  Long em dash does not appear anywhere. Replace with comma / new sentence / parentheses / 
+  "but" / "and" / restructure. Every time one forms — stop and rewrite.
+
+banned_vocab_watch (most likely for this topic):
+  - "game-changer"
+  - "revolutionary"
+  - "amazing"
+  - "transform"
+  - "elevate"
+  - "genius" (overused in hack posts specifically)
+  - "stunning"
+  - "effortless"
+
+british_english_active:
+  colour, moisturise, practise, recognise, favourite, -ise everywhere.
+  "aluminium foil" not "aluminum foil."
+  "grey" not "gray."
+  Check every instance.
+
+keyword_density_reminder:
+  After every 2 H2 sections — count "nail hacks at home" mentions.
+  First half target: 42 in first 1,750 words.
+  Tighten or expand hack mechanism sentences to adjust density if needed.
+
+image_path_reminder:
+  /images/blog/at-home-hacks/at-home-hacks/filename.webp
+  Topic slug in path always.
+
+internal_link_url_reminder:
+  /topics/nail-care-guide
+  /topics/nail-art-guides
+  Full paths. Never bare slugs.
+
+hero_image_reminder:
+  Hero = frontmatter only. Never in body.
+
+strong_tag_reminder:
+  Every "nail hacks at home" = <strong>nail hacks at home</strong>
+  Scan after every H2 section completed. No exceptions.
+
+hack_format_reminder:
+  Every hack = name (bold) + mechanism (1 sentence) + method (2–4 steps) + failure note (1 sentence).
+  Do not vary the format per hack. Do not write paragraphs around hacks.
+  Every hack self-contained. Reader should be able to skip to any hack and execute it.
+
+h2_1_format_reminder:
+  H2-1 is analytical ONLY — no hack entries. 
+  Explains the three reasons salon manicures outlast DIY: dehydration prep, capping, thin coats.
+  300 words. No lists. Prose only. This is the credibility-building section.
+```
+
+---
+
+### APPENDIX — 73 HACKS MASTER LIST
+
+*Blog Gen Agent uses this list to name and sequence every hack. Mechanism, method, and failure note are written from research — this list is the authoritative index.*
+
+**H2-2: PREP HACKS (1–12)**
+1. Dehydrate the nail plate with rubbing alcohol before base coat
+2. Roll the polish bottle, never shake it
+3. Push cuticles back with a warm washcloth, not a metal pusher
+4. File in one direction only — never saw back and forth
+5. Buff ridges with a 4-way buffer but only once a month
+6. Soak hands in warm water to soften cuticles — then dry completely before polish
+7. Remove shine from the nail surface before applying press-ons
+8. Use white nail polish as a base coat for any bright colour
+9. Apply thin layer of rubbing alcohol to the nail immediately before base coat
+10. Push back cuticles after soaking, never dry
+11. Shape nails before polish, never after
+12. Let any oils (hand cream, cuticle oil) fully absorb before starting — minimum 30 minutes
+
+**H2-3: APPLICATION HACKS (13–24)**
+13. Three thin coats always outperform one thick coat
+14. Cap the free edge with every coat — base, colour, top
+15. Wait 2 minutes between thin coats (not 5–10)
+16. Use the three-stroke method: centre, left side, right side
+17. Wipe the brush on the bottle neck to remove excess before every stroke
+18. Apply top coat every 2–3 days to rebuild the protective layer
+19. Don't flood the cuticle — start 1mm away from the skin
+20. Let the first coat become tacky (not dry) before second coat on nail art
+21. Use the same directional strokes on every nail for consistent finish
+22. Never paint over a bubbled coat — let it dry and file smooth first
+23. Seal gel-look results with a high-gloss top coat on regular polish
+24. Apply top coat in a figure-eight motion for edge-to-edge coverage
+
+**H2-4: NAIL ART HACKS WITHOUT TOOLS (25–38)**
+25. Toothpick: dotting tool, marble drag, fine line, cleanup
+26. Bobby pin end: larger dots, polka dot clusters, flower centres
+27. Scotch tape: French tips, colour blocks, stripes, geometric edges
+28. Elastic band: perfect French tip arch in seconds
+29. Makeup sponge: ombre gradient, colour fade, glitter build
+30. Cotton swab: cleanup brush, cuticle line correction
+31. Wax paper: DIY marble nail stickers
+32. Liquid latex (or school glue on skin): mess-free nail art border protection
+33. Eyeshadow brush: blending aura nails, soft gradient edges
+34. Cling film pressed onto wet polish: crinkled texture nail art
+35. A pin pushed into pencil eraser: larger precision dotting tool
+36. Tape + scissors: custom French tip guides any width
+37. Plastic zip bag pressed onto wet polish: organic pattern, lace effect
+38. Fan brush: feathered stripe effect, sunset gradient
+
+**H2-5: LONGEVITY HACKS (39–50)**
+39. Elmer's glue peel-off base coat for easy removal
+40. Reapply top coat every 2–3 days — from tip to cuticle
+41. Ice water surface-set hack (partial — sets surface, not full cure)
+42. Avoid water for 2 hours after painting — no dishes, no shower
+43. Cuticle oil after polish is dry — extends wear by preventing brittleness
+44. Wear gloves for all cleaning, washing up, and chemical contact
+45. Avoid hand cream on nails — the oils break down polish adhesion
+46. Run polish along the nail edge (under tip) for the full seal
+47. Use a quick-dry spray rather than any other method for full cure
+48. Keep nails shorter — shorter nails flex less and chip later
+49. Touch up chips the same day — don't wait for full breakdown
+50. Matte top coat over glossy extends wear and looks current (2026)
+
+**H2-6: TRENDING EFFECT HACKS (51–60)**
+51. Chrome eyeshadow powder on tacky top coat — mirror chrome alternative
+52. Makeup sponge ombre: two colours side by side, stamp onto nail
+53. Water marble: room-temp water, drop colours in, drag with toothpick
+54. Glitter build from tip: sponge glitter toward tip for gradient, not full nail
+55. Aura nails: eyeshadow brush with sheer colour, blend from centre outward
+56. Cat-eye effect: small magnet from phone mount held above gel top coat
+57. Foil effect: press aluminium foil onto tacky top coat, peel for texture
+58. Glass nail: one coat of clear iridescent top coat over bare nail or sheer base
+59. Milky glazed finish: single coat sheer white over bare nail, seal with gloss
+60. Velvet matte finish: matte top coat over any dark colour — no special polish needed
+
+**H2-7: CLEANUP AND FIX HACKS (61–68)**
+61. Micellar water on a cotton swab: gentlest cuticle cleanup, no skin drying
+62. Old eyeliner brush dipped in acetone: precision cleanup tool
+63. Liquid latex barrier around nails before nail art: peel mess off instantly
+64. Petroleum jelly around cuticles: polish won't stick to it
+65. Touch up a chip with the original colour + one drop of remover to thin
+66. Over-dark nails: matte top coat shifts the colour register lighter
+67. Bubbles in polish: file surface gently, reapply thin coat over the top
+68. Smudged nail: lick the smudge lightly, smooth with finger, top coat immediately
+
+**H2-8: REMOVAL AND RECOVERY HACKS (69–73)**
+69. Foil wrap method for gel: acetone-soaked cotton + foil — 10 minutes, zero scraping
+70. Peel-off base coat removal: entire manicure lifts in one piece, no acetone
+71. Glitter removal: foil wrap with acetone — never scrape, never rub
+72. Nail strengthener immediately after removal — rehydrate the nail plate
+73. Cuticle oil the same day as removal — prevents brittleness and flaking
+
+---
+
+*Input file complete. Feed to Blog Gen Agent. ~2,940 words.*
