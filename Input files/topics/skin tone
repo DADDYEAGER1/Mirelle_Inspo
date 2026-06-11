@@ -1,0 +1,651 @@
+# INPUT FILE — BLOG GEN AGENT
+## THIS FILE IS THE SINGLE SOURCE OF TRUTH. All values are hardcoded. Do not ask, adjust, or override.
+
+---
+
+## SECTION 1 — FILE AUTHORITY
+
+THIS IS A REWRITE OF AN EXISTING PAGE. The content must be completely rewritten from scratch — not edited, not expanded. The existing structure is discarded. The new content follows this input file exactly.
+
+All values in POST_CONSTANTS are hardcoded. Blog Gen Agent reads Section 12 first, locks all values, and executes exactly.
+
+---
+
+## SECTION 2 — POST CONSTANTS
+
+```
+slug: skin-tones
+canonical: https://mirelleinspo.com/topics/skin-tones
+post_type: standalone
+route: /topics/skin-tones  ← NOT /blog/ route
+intent: informational + comparison hybrid
+word_count: 3000
+image_count: 14
+template: center (standalone = center layout)
+hero_dimensions: 1200x630
+category: Nail Colour Guides
+publish_date: [retain existing or set to current]
+author: Mirellé Team
+h1: Nail Colors for Every Skin Tone: The Ultimate 2026 Matching Guide  ← LOCKED, do not change
+```
+
+---
+
+## SECTION 3 — CLUSTER SNAPSHOT
+
+SOLO MODE — no cluster context. No keyword_do_not_use wall. However, note the following existing Mirellé spoke posts that this page is the hub for — do NOT cannibalise their primary keywords. These are internal posts to link TO, not compete with:
+
+- `/blog/skin-tone/nail-colors-for-olive-skin` — primary keyword: nail colors for olive skin
+- `/blog/skin-tone/nail-colors-for-medium-skin-tone` — primary keyword: nail colors for medium skin tone
+- `/blog/skin-tone/nail-colors-for-every-skin-tone` — primary keyword: nail colors for every skin tone (deep read version)
+- `/blog/skin-tone/best-red-nail-colour-for-skin-tone` — primary keyword: red nail color for skin tone
+- `/blog/skin-tone/nail-color-trends-2026-skin-tone` — primary keyword: nail color trends 2026 skin tone
+- `/blog/skin-tone/gel-nail-colors-for-skin-tone` — primary keyword: gel nail colors for skin tone
+- `/blog/almond-nail-colors-skin-tone` — primary keyword: almond nail colours for skin tone
+- `/blog/summer-nail-colors` — primary keyword: best summer nail colors for every skin tone
+
+Keep this page at the hub level. It covers all tones broadly. Deep dives live in the spokes.
+
+---
+
+## SECTION 4 — SERP ANALYSIS
+
+**Competitor gaps — what they are NOT answering:**
+- Most competitors list shades per tone with no explanation of WHY a colour works. No undertone logic, just a list.
+- Almost no competitor clearly explains the difference between skin tone (surface) and undertone (beneath) before diving into recommendations — readers get shade lists without the framework to use them.
+- The "avoid" guidance is weak or absent across competitors. What to stay away from and why is the biggest gap.
+- Finish (crème vs metallic vs jelly) interaction with skin tone is completely absent from competitors.
+- Olive skin is the most underserved tone in competitor content — typically a brief mention, rarely a dedicated section.
+- The "universally flattering" myth (red, navy, nude) is repeated without nuance. No competitor explains that "universal" only works with undertone alignment.
+- Indian / South Asian / wheatish skin tone is absent from nearly all mainstream guides.
+- No competitor explains how to swatch or test at the salon before committing.
+
+**Missing semantic territory:**
+- Finish impact per skin tone (jelly, crème, metallic, shimmer, chrome)
+- Season-to-skin-tone colour logic
+- The nail bed test / swatch test as a practical tool
+- Undertone identification beyond the vein test (jewellery test, white shirt test)
+- Colour psychology of nail shades on different complexions (confidence signals, professional reads)
+- How tanning/seasonal change shifts what works
+
+**Our strategic approach:**
+This page wins by being the framework guide, not the shade list. Rather than dumping 50 colours per tone, it teaches the logic — undertone first, depth second, finish third. That framework is what keeps readers on-page (solving the bounce rate), converts them into spoke readers (internal linking), and answers AI search queries with direct, citable statements. Every skin tone section must explain WHY as much as WHAT.
+
+**Depth signal:** Top competitors run 1500–2500 words. Our 3000-word target is justified by the breadth of tones covered and the framework depth required to be genuinely useful.
+
+---
+
+## SECTION 5 — AUDIENCE INTELLIGENCE
+
+**Who they are:**
+Mixed expertise. Primarily women 18–40 who have tried nail colour recommendations that didn't work — they picked a shade they saw on Pinterest or Instagram, it looked wrong on their hands, and they now want to understand why. Significant South Asian, olive, and deep skin presence who feel underserved by mainstream beauty guides. Fair-skin readers are also present but better-served elsewhere, so tone sections must still be strong enough to validate them.
+
+**What they want from this post:**
+A practical decision-making framework they can use today — not aspirational inspiration, not a product roundup. They want to understand undertone, identify their own, and walk away knowing exactly which colour families will work and which will disappoint. They also want validation that the colours they've tried and failed weren't mistakes of taste, but mismatches of method.
+
+**What frustrates them:**
+- Shade lists with no reasoning. "Coral looks great on medium skin" tells them nothing they don't already know.
+- Fair-skin-centric content that treats other tones as footnotes.
+- "Universal" recommendations that don't actually work on their tone.
+- Conflating skin tone (surface depth) with undertone (temperature). Most guides never clarify this.
+- Articles that make them scroll through 4,000 words of product links to find one useful sentence.
+
+**Top 5 pain points:**
+1. Can't find their undertone confidently — vein test feels ambiguous, no guidance on cross-checking
+2. Nude polish always looks wrong — either too pink, too grey, or invisibly washed out
+3. Trending colours consistently don't translate to their skin tone the way they did on the editor's hand
+4. Olive and medium-dark skin tones feel invisible in most guides
+5. They know they want something "flattering" but have no logic to use at the salon when facing a wall of colours
+
+**Exact user phrases (from Quora, Pinterest, YouTube):**
+- "what nail color looks good on dark skin"
+- "nude nail polish always looks ashy on me"
+- "what undertone do I have I can't tell from the vein test"
+- "what colors wash out fair skin"
+- "olive skin nail colors that aren't just terracotta"
+- "nail polish for brown skin that actually shows up"
+- "my nails looked great in the bottle but wrong on my hand"
+- "does skin tone really matter for nail polish"
+- "nail colors for Indian skin tone"
+- "why does red nail polish look orange on me"
+- "colors that make hands look tan"
+- "nude nail for wheatish skin"
+
+**Intent content signals:**
+- They will not scroll through product lists — content must be scannable by tone
+- They want actionable cheat-sheet logic, not editorial voice-of-authority
+- Subheadings must signal clearly which tone/undertone they're reading for
+- Direct "avoid" guidance is as valuable as "best" guidance — both must be present
+- Practical diagnostic tools (vein test, jewellery test) build trust and keep engagement
+- The page will be re-visited and bookmarked — it needs to function as a reference document
+
+---
+
+## SECTION 6 — SEMANTIC KEYWORD DATA
+
+**Primary keyword:** nail colors for every skin tone
+
+**Keyword variations (all cleared):**
+- nail colour for skin tone
+- best nail color for skin tone
+- nail polish for skin tone
+- nail colors by skin tone
+- nail polish colors for every skin tone
+- matching nail color to skin tone
+- nail color guide for skin tone
+- nail polish skin tone guide 2026
+- which nail color suits my skin tone
+- how to choose nail color for skin tone
+
+**Cluster/related keywords (all cleared — none cannibalise spokes):**
+- skin undertone nail polish
+- cool undertone nail colors
+- warm undertone nail colors
+- neutral undertone nail colors
+- fair skin nail colors
+- medium skin nail colors
+- deep skin nail colors
+- dark skin nail colors
+- olive skin nail colors (surface mention only — deep content in spoke)
+- Indian skin tone nail color
+- South Asian nail color guide
+- nail colors for tan skin
+- nail polish colour matching guide
+- how to identify skin undertone
+
+**LSI terms:**
+- undertone identification
+- vein test undertone
+- jewellery test skin tone
+- warm undertones yellow peach golden
+- cool undertones pink blue red
+- neutral undertones balanced
+- nail bed swatch test
+- pigment depth
+- colour contrast nails
+- washed out nail polish
+- nail polish finish crème vs metallic
+- jewel tones nails
+- nude nail polish match
+- colour theory nails
+- surface skin tone vs undertone
+- manicure colour selection
+- flattering nail shades
+- seasonal nail colour shift
+- nail colour psychology
+
+**AEO terms (full question phrases for AI search engines):**
+1. What nail color looks good on dark skin?
+2. How do I find my skin undertone for nail polish?
+3. What nail colors are flattering on olive skin?
+4. What is the difference between skin tone and undertone for nail color?
+5. What nail polish should I wear if I have fair skin?
+6. What is the best nude nail polish for brown skin?
+7. Why does nail polish look different on my skin than on others?
+8. What nail colors work on Indian skin tone?
+9. How do I choose nail color for my undertone?
+10. What nail colors make dark skin pop?
+11. Does nail color really need to match your skin tone?
+12. What nail polish colors are universally flattering?
+
+**Technical terms:**
+- chromatic undertone
+- melanin depth
+- tonal contrast
+- colour saturation
+- finish reflectivity
+- pigment opacity
+- jelly formula transparency
+- muted vs saturated hues
+
+**User language (natural, from real conversations):**
+- "shows up on my skin"
+- "looks ashy"
+- "washes me out"
+- "makes my hands glow"
+- "doesn't suit my complexion"
+- "too pink on me"
+- "doesn't match the bottle"
+- "looks muddy"
+- "makes my nails pop"
+- "looks expensive on my skin"
+
+---
+
+## SECTION 7 — VOICE AND AI QUERIES
+
+Conversational queries this page must answer (12–18):
+
+1. What nail colors look good on fair skin with cool undertones?
+2. What are the best nail colors for warm undertones?
+3. How do I find my skin undertone at home?
+4. What nail polish should I get if I have olive skin?
+5. What colors make dark skin look stunning?
+6. Why do nude nail polishes look wrong on me?
+7. What nail color is universally flattering on every skin tone?
+8. What nail colors work on South Asian or Indian skin tone?
+9. What nail shades should I avoid if I have fair skin?
+10. How does nail polish finish affect how it looks on my skin?
+11. Can deep skin wear pastels?
+12. What is the vein test for undertone?
+13. What nail colors complement medium warm skin?
+14. Why does red nail polish look orange on some people?
+15. What is the best nail color for tan skin?
+16. What nail polish looks good on brown skin tones?
+17. Which nail colors make hands look longer?
+18. What nail colors are trending in 2026 for different skin tones?
+
+---
+
+## SECTION 8 — CONTENT STRUCTURE
+
+**H1:** Nail Colors for Every Skin Tone: The Ultimate 2026 Matching Guide ← LOCKED
+
+**H2 structure (ordered, query-driven):**
+
+1. Skin Tone vs Undertone: Why Most Nail Colour Advice Gets It Wrong
+2. How to Find Your Undertone in 60 Seconds (Vein Test, Jewellery Test, and One More)
+3. The Best Nail Colors for Fair Skin: Cool, Warm, and Neutral Undertones
+4. Nail Colors for Medium Skin: What Actually Flatters Caramel and Honey Complexions
+5. The Best Nail Colors for Olive Skin (and Why the Standard Advice Misses the Point)
+6. Nail Colors for Dark and Deep Skin: Bold, Bright, and Everything In Between
+7. Nail Colors for Indian and South Asian Skin Tones: Wheatish to Deep
+8. The Nude Polish Problem: How to Find Your Actual Match Across Every Skin Tone
+9. Finish Matters More Than You Think: Crème, Metallic, and Jelly Across Skin Tones
+10. How to Test a Nail Colour Before You Commit
+11. 2026 Trending Colours Mapped to Your Skin Tone
+12. The Skin Tone Cheat Sheet: Your Quick Reference for the Salon
+
+**Word budget:**
+
+- Introduction: 230 words
+- H2-1 (Skin Tone vs Undertone): 200 words
+- H2-2 (Find Your Undertone): 250 words
+- H2-3 (Fair Skin): 260 words
+- H2-4 (Medium Skin): 250 words
+- H2-5 (Olive Skin): 230 words
+- H2-6 (Dark/Deep Skin): 250 words
+- H2-7 (Indian/South Asian): 230 words
+- H2-8 (Nude Polish Problem): 220 words
+- H2-9 (Finish): 190 words
+- H2-10 (Test Before You Commit): 160 words
+- H2-11 (2026 Trends): 200 words
+- H2-12 (Cheat Sheet): 150 words
+- Conclusion: 180 words
+- **Total: 3000 words**
+
+---
+
+## SECTION 9 — INTERNAL LINKS
+
+All links must appear in the post. Anchor texts used verbatim. Placed where placement note indicates — woven into prose, never standalone CTAs.
+
+```
+[
+  {
+    url: /blog/skin-tone/nail-colors-for-olive-skin,
+    title: Best Nail Colors for Olive Skin Tone,
+    anchor_text: nail colors for olive skin,
+    placement_note: H2-5 (Olive Skin) — introduce the spoke as the deep-dive resource mid-section,
+    link_type: cross-site spoke
+  },
+  {
+    url: /blog/skin-tone/nail-colors-for-medium-skin-tone,
+    title: Nail Colors for Medium Skin Tone That Glow,
+    anchor_text: nail colors for medium skin tone,
+    placement_note: H2-4 (Medium Skin) — direct readers who want full medium skin depth to the spoke,
+    link_type: cross-site spoke
+  },
+  {
+    url: /blog/skin-tone/nail-colors-for-every-skin-tone,
+    title: Nail Colors for Every Skin Tone: The Real Guide,
+    anchor_text: complete nail colour guide for every skin tone,
+    placement_note: Introduction — position this page as hub, invite readers who want the extended version,
+    link_type: cross-site spoke
+  },
+  {
+    url: /blog/skin-tone/best-red-nail-colour-for-skin-tone,
+    title: Best Red Nail Color for Your Skin Tone,
+    anchor_text: best red nail colour for your skin tone,
+    placement_note: H2-3 (Fair Skin) or H2-4 (Medium Skin) when mentioning red nail families,
+    link_type: cross-site spoke
+  },
+  {
+    url: /blog/skin-tone/nail-color-trends-2026-skin-tone,
+    title: Nail Color Trends 2026 for Every Skin Tone,
+    anchor_text: nail colour trends 2026 mapped to skin tone,
+    placement_note: H2-11 (2026 Trends) — send readers who want full seasonal trend breakdown to the spoke,
+    link_type: cross-site spoke
+  },
+  {
+    url: /blog/skin-tone/gel-nail-colors-for-skin-tone,
+    title: Gel Nail Colors for Skin Tone,
+    anchor_text: gel nail colors for your skin tone,
+    placement_note: H2-9 (Finish) — natural link when discussing how gel finish amplifies undertone interactions,
+    link_type: cross-site spoke
+  },
+  {
+    url: /blog/almond-nail-colors-skin-tone,
+    title: Best Almond Nail Colours for Every Skin Tone,
+    anchor_text: almond nail colours for every skin tone,
+    placement_note: H2-10 (Test Before You Commit) or Conclusion — as further reading for shape + colour decisions,
+    link_type: cross-site spoke
+  },
+  {
+    url: /blog/summer-nail-colors,
+    title: Best Summer Nail Colors for Every Skin Tone,
+    anchor_text: best summer nail colours for your skin tone,
+    placement_note: H2-11 (2026 Trends) — when mentioning seasonal colour recommendations,
+    link_type: cross-site spoke
+  }
+]
+```
+
+**External links (E-E-A-T support):**
+
+```
+[
+  {
+    url: https://www.revlon.com/blogs/makeup/how-to-identify-your-skin-undertones,
+    context: H2-2 (Undertone identification) — cite as supporting source for the vein + jewellery tests,
+    anchor_suggestion: how to identify your skin undertone
+  },
+  {
+    url: https://www.nsinails.co.uk/blogs/nail-knowledge/how-to-choose-nail-colours-for-different-skin-tones,
+    context: H2-1 or H2-8 (Undertone logic / Nude problem) — professional nail industry framing,
+    anchor_suggestion: nail industry guidance on undertone matching
+  }
+]
+```
+
+---
+
+## SECTION 10 — VOICE AND TONE
+
+**Recommended voice:** Confident, knowledgeable guide — the reader's smart friend who works in beauty and is tired of giving the same bad generic advice they see everywhere else.
+
+**Tone characteristics:**
+1. Authoritative without being cold — declarative sentences that make claims and stand by them
+2. Empathetic to past failures — acknowledge that mainstream advice has let this reader down before
+3. Precise over pretty — specificity earns trust ("cool-toned milky white" not "pretty white")
+4. Zero condescension — never implies the reader is doing it wrong, only that the method they've been given is incomplete
+5. Occasionally direct/wry — "coral looks great on medium skin" is not advice, it's a sentence
+
+**Language style:**
+Moderate sentence length. Mix of short declarative punches and explanatory sentences. Uses "you" throughout. Minimal analogies — when used, they must be precise not decorative. British English throughout (colour, recognise, -ise, -our).
+
+**Audience match:**
+The reader has been failed by generic beauty content before. They want a guide written for people who take colour seriously, not for a first-time beginner or a product roundup. The voice should feel like it costs the writer something to write it — considered, not churned.
+
+---
+
+## SECTION 11 — EXTERNAL LINKS
+
+```
+[
+  {
+    url: https://www.revlon.com/blogs/makeup/how-to-identify-your-skin-undertones,
+    context: Use in H2-2 when describing the vein test and jewellery test,
+    anchor_suggestion: skin undertone identification guide
+  },
+  {
+    url: https://www.nsinails.co.uk/blogs/nail-knowledge/how-to-choose-nail-colours-for-different-skin-tones,
+    context: Use in H2-1 or H2-9 to support the finish + undertone interaction claim,
+    anchor_suggestion: professional nail guidance on colour and undertone
+  }
+]
+```
+
+---
+
+## SECTION 12 — EXECUTION PLAN
+
+**READ THIS SECTION FIRST. Lock every value. Execute exactly.**
+
+---
+
+### BLOCK 1 — KEYWORD EXECUTION
+
+```
+primary_keyword: nail colors for every skin tone
+total_mention_target: 3000 x 0.02 = 60 mentions total
+first_100_words_plan:
+  mention_1: sentence 2–3 of introduction — establish the primary keyword as the frame of the post
+  mention_2: sentence 5–6 of introduction — reinforce in context of undertone-first methodology
+first_half_target: 36 mentions — first 1500 words (denser)
+second_half_target: 24 mentions — second 1500 words
+strong_tag_rule: EVERY single mention of "nail colors for every skin tone" wrapped in <strong> tags. All 60 of them. No exceptions. Scan after every paragraph.
+NOTE: "nail colour" and "nail colors" are interchangeable (British English = colour), both trigger <strong> wrapping when they appear as the primary keyword phrase
+```
+
+---
+
+### BLOCK 2 — WORD BUDGET
+
+```
+total_target: 3000 words — +/-50 tolerance, never exceed
+introduction: 230 words
+H2-1 Skin Tone vs Undertone: Why Most Nail Colour Advice Gets It Wrong: 200 words — complexity: medium
+H2-2 How to Find Your Undertone in 60 Seconds: 250 words — complexity: high (diagnostic, must be precise)
+H2-3 The Best Nail Colors for Fair Skin: 260 words — complexity: high (three undertone sub-segments)
+H2-4 Nail Colors for Medium Skin: 250 words — complexity: high
+H2-5 The Best Nail Colors for Olive Skin: 230 words — complexity: high (nuanced undertone split)
+H2-6 Nail Colors for Dark and Deep Skin: 250 words — complexity: high
+H2-7 Nail Colors for Indian and South Asian Skin Tones: 230 words — complexity: high
+H2-8 The Nude Polish Problem: 220 words — complexity: medium-high
+H2-9 Finish Matters More Than You Think: 190 words — complexity: medium
+H2-10 How to Test a Nail Colour Before You Commit: 160 words — complexity: low
+H2-11 2026 Trending Colours Mapped to Your Skin Tone: 200 words — complexity: medium
+H2-12 The Skin Tone Cheat Sheet: 150 words — complexity: low (reference format, bullet-style permitted here)
+conclusion: 180 words
+
+tracking_rule: Track running word total at end of every H2 section. If running over — cut before moving on. Do not compensate later.
+```
+
+---
+
+### BLOCK 3 — IMAGE PLAN
+
+```
+total_images: 14 (from POST_CONSTANTS)
+hero_image: frontmatter only — NEVER appears in post body
+body_images: 13 images to place in body
+
+assignments:
+  image 1 — place after Introduction — nail colour swatches against diverse skin tones, beauty editorial
+  image 2 — place after H2-2 (Find Your Undertone) — close-up inner wrist with visible veins, natural light
+  image 3 — place after H2-3 (Fair Skin) — fair-skin manicure, cool-toned jewel or soft pink
+  image 4 — place after H2-3 continued or start of H2-4 — fair-skin warm undertone, peachy coral nails
+  image 5 — place after H2-4 (Medium Skin) — medium-skin manicure, coral or warm nude
+  image 6 — place after H2-5 (Olive Skin) — olive-skin manicure, terracotta or jewel tone
+  image 7 — place after H2-6 (Dark/Deep Skin) — deep-skin manicure, bright or metallic finish
+  image 8 — place after H2-7 (Indian/South Asian) — South Asian hand, warm nude or jewel tone
+  image 9 — place after H2-8 (Nude Polish) — comparison of nude shades on different skin tones
+  image 10 — place after H2-9 (Finish) — metallic vs crème finish comparison, nail close-up
+  image 11 — place after H2-10 (Test Before You Commit) — hand holding nail swatch or polish bottle
+  image 12 — place after H2-11 (2026 Trends) — 2026 trending nail colour, editorial manicure
+  image 13 — place after H2-12 (Cheat Sheet) or before Conclusion — diverse hands with varied nail colours
+
+image_type_rule: ALL body images = inspirational nail design images or beauty editorial photography related to the topic. NO infographics. NO process diagrams. NO comparison charts. NO step-by-step visuals.
+path_rule: /images/topics/skin-tones/filename.webp — topics route, skin-tones folder, leading slash
+NOTE: Route is /topics/ not /blog/ — image path must reflect this
+```
+
+---
+
+### BLOCK 4 — OPENING TECHNIQUE ASSIGNMENTS
+
+```
+rule: No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.
+
+Introduction: Technique 2 — The Problem (open with the failure readers have experienced — nail colour that looked wrong)
+H2-1 (Skin Tone vs Undertone): Technique 4 — The Reframe (reframe what "skin tone" actually means vs what they think it means)
+H2-2 (Find Your Undertone): Technique 1 — The Claim (declarative statement about what undertone is and why it predicts everything)
+H2-3 (Fair Skin): Technique 3 — The Specificity Opener (lead with the most common mistake for fair skin)
+H2-4 (Medium Skin): Technique 2 — The Problem (open with the "medium skin can wear anything" myth that frustrates them)
+H2-5 (Olive Skin): Technique 4 — The Reframe (olive skin is not "tan-adjacent medium" — it has its own logic)
+H2-6 (Deep Skin): Technique 1 — The Claim (bold declarative: deep skin has the widest colour range of any tone)
+H2-7 (Indian/South Asian): Technique 3 — The Specificity Opener (open on the wheatish/medium-dark range gap in mainstream content)
+H2-8 (Nude Polish): Technique 2 — The Problem (the nude that looked right in the bottle but wrong on the nail)
+H2-9 (Finish): Technique 4 — The Reframe (you have been choosing the wrong variable — it is not just the colour)
+H2-10 (Test Before): Technique 1 — The Claim (short, direct: the test takes 30 seconds and should be non-negotiable)
+H2-11 (2026 Trends): Technique 3 — The Specificity Opener (lead with butter yellow failure as the case study)
+H2-12 (Cheat Sheet): Technique 2 — The Problem (framing: standing at the salon wall with no framework)
+Conclusion: Technique 1 — The Claim (framework over lists — the single rule that changes everything)
+
+banned_opener_rule: Check every opener against banned_opening_approaches in blog gen prompt before writing the second sentence.
+```
+
+---
+
+### BLOCK 5 — LINK PLACEMENTS
+
+```
+[
+  {
+    anchor_text: complete nail colour guide for every skin tone,
+    full_url: /blog/skin-tone/nail-colors-for-every-skin-tone,
+    place_in_section: Introduction,
+    placement_context: After establishing this page as the hub framework, offer the deeper extended read for those who want full detail,
+    link_type: cross-site spoke
+  },
+  {
+    anchor_text: nail colors for medium skin tone,
+    full_url: /blog/skin-tone/nail-colors-for-medium-skin-tone,
+    place_in_section: H2-4 (Medium Skin),
+    placement_context: Mid-section, after covering the core shade families — "For the complete medium skin deep-dive, [anchor] covers every scenario",
+    link_type: cross-site spoke
+  },
+  {
+    anchor_text: nail colors for olive skin,
+    full_url: /blog/skin-tone/nail-colors-for-olive-skin,
+    place_in_section: H2-5 (Olive Skin),
+    placement_context: Mid-section — "For a full breakdown of olive undertone variants and shade families, [anchor] goes into full detail",
+    link_type: cross-site spoke
+  },
+  {
+    anchor_text: best red nail colour for your skin tone,
+    full_url: /blog/skin-tone/best-red-nail-colour-for-skin-tone,
+    place_in_section: H2-3 (Fair Skin) — when explaining blue-based vs warm red distinction,
+    placement_context: "Red is its own conversation — for the full undertone breakdown by red family, [anchor] covers it in full",
+    link_type: cross-site spoke
+  },
+  {
+    anchor_text: gel nail colors for your skin tone,
+    full_url: /blog/skin-tone/gel-nail-colors-for-skin-tone,
+    place_in_section: H2-9 (Finish),
+    placement_context: After explaining how gel formula amplifies undertone interactions — "If you wear gel specifically, [anchor] covers formula-specific guidance",
+    link_type: cross-site spoke
+  },
+  {
+    anchor_text: nail colour trends 2026 mapped to skin tone,
+    full_url: /blog/skin-tone/nail-color-trends-2026-skin-tone,
+    place_in_section: H2-11 (2026 Trends),
+    placement_context: At end of section — "For the full seasonal trend breakdown with specific per-tone guidance, [anchor] is the dedicated post",
+    link_type: cross-site spoke
+  },
+  {
+    anchor_text: almond nail colours for every skin tone,
+    full_url: /blog/almond-nail-colors-skin-tone,
+    place_in_section: H2-10 (Test Before You Commit) or Conclusion,
+    placement_context: As adjacent further reading — "If you are also deciding on shape, [anchor] maps colour recommendations to the almond shape specifically",
+    link_type: cross-site spoke
+  },
+  {
+    anchor_text: best summer nail colours for your skin tone,
+    full_url: /blog/summer-nail-colors,
+    place_in_section: H2-11 (2026 Trends),
+    placement_context: Alongside the trends spoke link — "For summer-specific colour picks matched to your tone, [anchor] has the full seasonal edit",
+    link_type: cross-site spoke
+  }
+]
+```
+
+---
+
+### BLOCK 6 — AEO / GEO PLAN
+
+**AEO assignments — direct 2–3 sentence answer paragraphs immediately after the H2 heading:**
+
+```
+[
+  {
+    aeo_term: What is the difference between skin tone and undertone for nail color?,
+    assigned_to_section: H2-1 (Skin Tone vs Undertone),
+    execution: Write a direct 2-sentence answer immediately after the H2: define skin tone as surface depth, undertone as the fixed temperature beneath. State that undertone predicts colour compatibility more reliably than surface tone. This is what AI engines will pull.
+  },
+  {
+    aeo_term: How do I find my skin undertone for nail polish?,
+    assigned_to_section: H2-2 (Find Your Undertone),
+    execution: Write a direct 3-sentence answer immediately after the H2: vein test, jewellery test, sun reaction. Each test confirmed by the others. Then elaborate.
+  },
+  {
+    aeo_term: What nail colors look good on dark skin?,
+    assigned_to_section: H2-6 (Dark/Deep Skin),
+    execution: Direct 2-sentence answer immediately after H2: deep skin can wear the widest range of any tone — bold brights, rich jewels, metallic finishes, and deep nudes all work. Then elaborate on undertone splits within deep skin.
+  },
+  {
+    aeo_term: Why do nude nail polishes look wrong on me?,
+    assigned_to_section: H2-8 (Nude Polish Problem),
+    execution: Direct 2-sentence answer immediately after H2: the nude is the wrong temperature for your undertone, not the wrong shade. Explain the warm/cool/neutral nude problem before going into solutions.
+  },
+  {
+    aeo_term: What nail colors work on Indian skin tone?,
+    assigned_to_section: H2-7 (Indian/South Asian),
+    execution: Direct 2-sentence answer immediately after H2: wheatish to deep South Asian skin spans warm-medium to deep-warm, and the shade logic follows undertone. Define the range and give specific colour families that perform.
+  }
+]
+```
+
+**GEO entity statements (clear declarative definitions, extractable by AI):**
+
+```
+[
+  {
+    entity: Undertone,
+    assigned_to_section: H2-1,
+    execution: "Undertone is the fixed, subtle hue beneath the skin's surface — warm (yellow or golden), cool (pink or blue), or neutral (balanced) — and it does not change with sun exposure or tanning."
+  },
+  {
+    entity: The vein test,
+    assigned_to_section: H2-2,
+    execution: "The vein test is the fastest method for identifying undertone: hold the inner wrist in natural daylight and observe vein colour. Green veins indicate warm undertones. Blue or purple veins indicate cool undertones. A mix of both indicates neutral undertones."
+  },
+  {
+    entity: Jelly nail formula,
+    assigned_to_section: H2-9,
+    execution: "A jelly nail formula is a translucent polish that allows the natural nail and skin colour to show through, interacting differently with each complexion depth and becoming a different visual result depending on the skin beneath it."
+  }
+]
+```
+
+---
+
+### BLOCK 7 — ACTIVE CONSTRAINTS
+
+```
+em_dash_banned: Long em dash (—) does not appear anywhere. Replace with: comma, new sentence, parentheses, the word "but", or restructure the clause.
+
+banned_vocab_watch (most likely slip-ins for this topic):
+  - "game-changer" — banned
+  - "stunning" — banned
+  - "perfect" — banned
+  - "amazing" — banned
+  - "simply" — banned
+  - "effortless" — banned
+  - "elevate" — banned
+
+british_english_active: colour, recognise, flattering, -ise endings, -our endings. Every instance, no exceptions. "Color" is not permitted unless it appears in the locked H1 (which uses American spelling as given by the client — H1 is locked, do not alter it). Body text = British English throughout.
+
+keyword_density_reminder: After every 2 H2 sections — count current mentions of the primary keyword. Verify first half is running denser than second half. Adjust if needed.
+
+image_path_reminder: /images/topics/skin-tones/filename.webp — topics route, skin-tones folder. NOT /images/blog/.
+
+internal_link_url_reminder: Full correct paths only. All links are /blog/skin-tone/[slug] or /blog/[slug] as specified in Block 5. Never bare /slug.
+
+hero_image_reminder: Hero = frontmatter only. Never place hero in body.
+
+strong_tag_reminder: Every mention of the primary keyword phrase = <strong> tags. Scan after every paragraph.
+
+route_reminder: This page lives at /topics/skin-tones not /blog/. Canonical = https://mirelleinspo.com/topics/skin-tones. Do not write any internal reference to /blog/skin-tones.
+```
