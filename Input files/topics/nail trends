@@ -1,0 +1,445 @@
+# INPUT FILE — BLOG GEN AGENT SOURCE OF TRUTH
+## Post: /topics/seasonal-trends | Rewrite
+
+**THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.**
+
+---
+
+## SECTION 1 — POST CONSTANTS
+
+| Field | Value |
+|---|---|
+| slug | seasonal-trends |
+| route | /topics/seasonal-trends (NOT /blog — this is the /topics route) |
+| canonical | https://mirelleinspo.com/topics/seasonal-trends |
+| post_type | standalone |
+| intent | informational / seasonal_trend |
+| primary_keyword | nail trends 2026 |
+| word_count | 3800 (±50 words tolerance — never exceed 3850) |
+| image_count | 14 (1 hero + 13 body images) |
+| template | center |
+| hero_dimensions | 1200x630 |
+| category | TRENDS |
+| publish_date | 2026-06-11 |
+| author | Mirellé Team |
+
+---
+
+## SECTION 2 — KEYWORD RATIONALE
+
+**Why "nail trends 2026" and not "seasonal nail trends":**
+
+Research confirms "nail trends 2026" has significantly higher search demand and is the phrase used by Marie Claire, Byrdie, Who What Wear, Harper's Bazaar, Cosmopolitan, and Good Housekeeping for their top-performing guides. The old primary keyword ("nail designs by season / seasonal nail trends 2026") targets a secondary informational angle that competes with broader trend round-ups but wins neither.
+
+"Nail trends 2026" is the umbrella keyword the audience actually types. The seasonal structure becomes the content framework — not the keyword. This post becomes Mirellé's definitive 2026 nail trend guide, organised by season, which is the differentiating angle competitors don't have.
+
+**Keyword_do_not_use (cannibalisation wall — confirmed from existing Mirellé content):**
+- spring nail trends 2026 (existing post: /blog/spring-nail-trends-2026)
+- summer nail trends 2026 (existing post: /blog/summer-nail-trends-2026)
+- chrome nail trends 2026 (existing post: /blog/chrome-nails/chrome-nail-trends-2026)
+- nail color trends 2026 (existing post: /blog/skin-tone/nail-color-trends-2026-skin-tone)
+- almond nail trends 2026 (existing post: /blog/almond-nail-trends-2026)
+- pride nail trends 2026 (existing post)
+- short summer nails (existing post)
+
+**Drift check passed:** "nail trends 2026" as an umbrella seasonal guide does NOT cannibalise any of the above — it is the hub. Every existing post above is a spoke this piece can link to.
+
+---
+
+## SECTION 3 — SERP ANALYSIS
+
+**Top competitors for "nail trends 2026":**
+Marie Claire, Byrdie, Who What Wear, Harper's Bazaar, Cosmopolitan, Good Housekeeping, InStyle, Allure. All publish annual round-up guides (7–19 trends listed). Most are structured as flat trend lists, not season-by-season guides.
+
+**Competitor gaps — what they do NOT do:**
+- None structure the year seasonally. They list trends without showing how they shift across winter → spring → summer → fall
+- None explain which trends are cross-season vs single-season specific
+- None address the "what do I wear right now vs what's coming" practical reader need
+- None give a seasonal transition logic — readers can't orient themselves temporally
+- None connect the 2026 macro story (refined maximalism replacing quiet luxury) to the actual season-by-season evidence
+- None give concrete colour names with finish guidance per season — they name trends without actionable specificity
+- Fall/Winter 2026 coverage is sparse — most competitors only cover through summer
+
+**Missing semantic territory:**
+- The tension between quiet luxury (persisting) and maximalism (returning) — no competitor has written this as a clear narrative
+- Seasonal colour transitions (how the palette evolves from cloud tones in spring to jewel depths in autumn)
+- Shape evolution across seasons (short/squoval summer → almond/longer autumn shift)
+- The "finishing layer" story — how the same technique (cat eye, chrome, jelly) reads differently across seasons
+
+**Our strategic approach:**
+Mirellé's angle is the only full-year, season-by-season guide to nail trends 2026 that reads like editorial rather than a listicle. We don't just name the trends — we show how the story of 2026 (the shift from quiet minimalism to refined maximalism) plays out differently each season, giving readers a temporal map they can actually use. This post becomes the reference guide on Mirellé; every season-specific post on the site is a spoke that feeds back here.
+
+**Depth signal:** Competitors average 1500–2500 words for annual trend guides. None exceed 3000 in this format. 3800 words gives Mirellé clear depth advantage while the seasonal structure keeps it navigable.
+
+---
+
+## SECTION 4 — AUDIENCE INTELLIGENCE
+
+**Who they are:**
+Nail-engaged women, 22–38, who follow trends actively but book salon appointments rather than DIY. They consume Byrdie, Who What Wear, and nail TikTok. They are not nail technicians. They want to arrive at their appointment knowing what to ask for. They also use posts like this to plan ahead — to know what's coming before it arrives so they feel ahead of the curve rather than reactive.
+
+**What they want from this post:**
+A complete, confident overview of the full 2026 nail year — what's happening right now (summer), what's coming (fall/winter), and how the season shapes their choices. They want editorial perspective, not just a list. They want to understand the story behind the trends, not just the trend names.
+
+**What frustrates them about current content:**
+- Lists of 7–19 trends with no temporal context — they don't know which are for now vs later
+- Generic "what's trending" content that doesn't commit to a point of view
+- Posts written as if every trend applies equally — no acknowledgement that some trends are subtle, some require a salon, some are DIY-accessible
+- Content that dates itself with language like "2025 trends" still appearing in 2026 searches
+
+**Top 5 pain points:**
+1. "I don't know what to book at my appointment this season specifically"
+2. "Every trend article says the same 5 things — jelly, chrome, French tip — I want more than that"
+3. "I can't tell which 2026 trends are actually wearable for everyday vs editorial only"
+4. "I get seasonal nail content in March that's irrelevant by the time I read it in June"
+5. "I see fall trends I love but don't know when it's appropriate to start wearing them"
+
+**Exact user phrases (from real conversations):**
+- "what are the nail trends for 2026"
+- "what nails should I get this season"
+- "what's trending for summer nails 2026"
+- "fall nail trends 2026 what to expect"
+- "what nail colors are in for 2026"
+- "nail trends that will be everywhere in 2026"
+- "are chrome nails still trending 2026"
+- "best nail designs to get right now"
+- "2026 nail trends complete guide"
+- "what nail shape is trending 2026"
+
+**Intent content signals:**
+- Readers want the full year at once — seasonal structure is a strong differentiator
+- They respond to editorial perspective ("here's why this trend matters") not just description
+- Seasonal colour specificity (exact shade names/descriptions) drives bookmarking and saves
+- They want wearability cues — "works for everyday" vs "statement occasion"
+- They respond well to "what's out" framing — it makes the "what's in" more credible
+- Cross-season continuity signals (which trends persist, which are season-specific) are highly valued
+
+---
+
+## SECTION 5 — SEMANTIC KEYWORD DATA
+
+**Primary keyword:** nail trends 2026
+
+**Keyword variations (all cannibalisation-cleared):**
+- nail trends for 2026
+- 2026 nail trends
+- biggest nail trends 2026
+- nail art trends 2026
+- manicure trends 2026
+- nail polish trends 2026
+- top nail trends 2026
+- nail design trends 2026
+- trending nails 2026
+- nail colour trends 2026
+
+**Cluster/related keywords (all cleared — none drift into existing posts):**
+- nail trends by season 2026
+- nail trends winter 2026
+- nail trends spring 2026
+- nail trends summer 2026
+- nail trends fall 2026
+- nail trends autumn 2026
+- seasonal nail guide 2026
+- what nail trends are in 2026
+- nail trend forecast 2026
+- 2026 nail predictions
+- nail styles 2026
+- nail finishes 2026
+- what nail colour is trending 2026
+- nail trends complete guide
+- nail design 2026 every season
+
+**LSI terms (all specific to this post, none pull toward existing spokes):**
+- refined maximalism nails
+- cat eye nails 2026
+- jelly nails 2026
+- aura nails 2026
+- soap nails 2026
+- blooming gel nails
+- milky nails 2026
+- butter yellow nails
+- chocolate brown nails 2026
+- deep burgundy nails
+- velvet nail finish
+- mother of pearl nails
+- glazed chrome nails
+- polka dot nails 2026
+- lace nail art 2026
+- 3D nail art 2026
+- cloud dancer nails
+- quiet luxury nails
+- pearlescent nail finish
+- short almond nails 2026
+
+**AEO terms (full question phrases for AI answer engines):**
+- What are the nail trends for 2026?
+- What nail colours are trending in 2026?
+- What nail shapes are popular in 2026?
+- Are chrome nails still trending in 2026?
+- What nail trends will be big in fall 2026?
+- What are the summer nail trends for 2026?
+- What is the nail colour of the year for 2026?
+- What nail finishes are trending in 2026?
+- What replaced chrome nails in 2026?
+- Is maximalism back in nail trends for 2026?
+- What are the nail trends going into autumn 2026?
+- Are jelly nails still a trend in 2026?
+
+**Technical terms:**
+- cat eye magnetic gel
+- blooming gel technique
+- gel polish formulation
+- squoval shape
+- almond nail shape
+- pearlescent top coat
+- aura nail airbrushing
+- glazed chrome application
+
+**User language (from real conversations):**
+- "your nails but better"
+- "clean girl aesthetic"
+- "quiet luxury mani"
+- "coastal grandmother nails"
+- "glazed donut nails"
+- "something wearable but not boring"
+- "nails that look expensive"
+- "I want colour but not too much"
+- "nail glow up"
+- "scroll-stopping nails"
+
+---
+
+## SECTION 6 — VOICE & AI QUERIES
+
+**12–18 conversational queries this post must answer:**
+
+1. What are the biggest nail trends of 2026?
+2. What nail colours are in for 2026?
+3. What are the nail trends for summer 2026?
+4. What nail designs will be trending in autumn 2026?
+5. Are chrome nails still a thing in 2026?
+6. What is the "it" nail colour for 2026?
+7. What nail shapes are people wearing in 2026?
+8. What happened to the quiet luxury nail trend in 2026?
+9. Is maximalism coming back in nail art for 2026?
+10. What are the nail trends replacing chrome in 2026?
+11. What should I get at my nail appointment right now in 2026?
+12. What nail finishes are fashionable in 2026?
+13. Which 2026 nail trends are wearable for everyday?
+14. What are the nail colour trends for fall and winter 2026?
+15. What nail trends are in and out for 2026?
+16. What are the spring 2026 nail trends?
+17. Are jelly nails and aura nails still trending in 2026?
+18. What nail trends are coming next season?
+
+---
+
+## SECTION 7 — CONTENT STRUCTURE
+
+**H1:** Nail Trends 2026: The Complete Season-by-Season Guide
+
+**H2 structure (ordered, query-driven, research-backed):**
+
+1. The 2026 Nail Story: What's Really Happening This Year
+2. Winter 2026 Nail Trends: Texture, Depth, and Velvet Everything
+3. Spring 2026 Nail Trends: Restraint Becomes the Statement
+4. Summer 2026 Nail Trends: Right Now — The Edit You Actually Need
+5. Fall 2026 Nail Trends: What's Coming and Why It Matters
+6. The Finishes Defining 2026 — Chrome, Jelly, Cat Eye, and What Comes Next
+7. Nail Shapes in 2026: The Shift You Might Have Missed
+8. What's Out in 2026 — And What Replaced It
+9. How to Use This Guide: Matching Trends to Your Life, Not Just the Season
+
+**H2 count: 9**
+**Image count confirmation: 1 hero + 13 body = 14 total ✓**
+
+**Word budget:**
+- Introduction: 250 words
+- H2-1 (The 2026 Nail Story): 400 words — high complexity, sets the macro narrative
+- H2-2 (Winter 2026): 350 words — four key trends, colour specifics
+- H2-3 (Spring 2026): 350 words — links to existing spring post, restraint/refinement narrative
+- H2-4 (Summer 2026): 450 words — current season, most reader-relevant, most detail
+- H2-5 (Fall 2026): 400 words — forward-looking, builds anticipation, colour specifics
+- H2-6 (Finishes 2026): 400 words — technical but accessible, answers top AEO queries
+- H2-7 (Shapes 2026): 250 words — concise, factual, links to shape-specific posts
+- H2-8 (What's Out): 300 words — high engagement angle, opinionated
+- H2-9 (How to Use This Guide): 250 words — practical close, internal link hub
+- Conclusion: 150 words
+- **Total: 3800 words ✓**
+
+---
+
+## SECTION 8 — INTERNAL LINKS
+
+**All internal links — Blog Gen Agent places every one of these:**
+
+| URL | Title | Anchor Text | Placement | Type |
+|---|---|---|---|---|
+| /blog/spring-nail-trends-2026 | Spring Nail Trends 2026 | spring nail trends 2026 | H2-3 (Spring section), when referencing the full spring breakdown | cross-site spoke |
+| /blog/summer-nail-trends-2026 | Summer Nail Trends 2026 | summer nail trends 2026 | H2-4 (Summer section), directing readers who want the full summer guide | cross-site spoke |
+| /blog/chrome-nails/chrome-nail-trends-2026 | Chrome Nail Trends 2026 | chrome nail trends 2026 | H2-6 (Finishes section), when discussing chrome evolution specifically | cross-site spoke |
+| /blog/skin-tone/nail-color-trends-2026-skin-tone | Nail Color Trends 2026 for Every Skin Tone | nail colour trends 2026 for every skin tone | H2-5 (Fall section) or H2-6 (Finishes), when discussing colour choices | cross-site spoke |
+| /blog/almond-nail-trends-2026 | Almond Nail Trends 2026 | almond nail trends 2026 | H2-7 (Shapes section), when referencing almond as the dominant 2026 shape | cross-site spoke |
+| /topics/nail-care-guide | Nail Care Guide | nail care guide | H2-9 (How to Use This Guide), as a practical companion resource | cross-site hub |
+
+**Note to Blog Gen Agent:** All anchor texts above are verbatim. Weave them naturally into prose — not standalone CTAs. Maximum 2 links per H2 section.
+
+---
+
+## SECTION 9 — VOICE & TONE
+
+**Recommended voice:** Confident editorial authority — Mirellé as the nail trend editor who has done the research so the reader doesn't have to
+
+**Tone characteristics:**
+- Opinionated but evidence-backed — takes positions ("this is happening, here's why") rather than hedging
+- Warm and knowing, not academic — reads like a brilliant friend who works in fashion editorial
+- Temporal confidence — writes about what's happening right now and what's coming next with conviction
+- Wearability-conscious — always grounds trend information in the reader's actual life
+- British English throughout — colour, recognise, maximalism, jewel tones, autumn (not fall in running text, but can use "Fall 2026" as a section header convention)
+
+**Language style:**
+- Medium sentence length with varied rhythm — short punchy observations followed by richer elaboration
+- Uses "you" directly but doesn't over-explain
+- Specific over vague — names exact shades, specific techniques, actual finish names
+- No hedging language ("might", "could be", "perhaps") — this is a trend guide, commit to the calls
+
+**Audience match:**
+This reader follows beauty editorial. They know what chrome nails are. They don't need basics explained. They want Mirellé's specific take on what matters this year and why — the editorial filter that saves them from reading fifteen separate trend articles.
+
+---
+
+## SECTION 10 — EXTERNAL LINKS
+
+| URL | Context | Anchor Suggestion |
+|---|---|---|
+| https://www.thezoereport.com/beauty/winter-2026-nail-trends | Winter 2026 section — cite when referencing velvet/cat eye texture evolution | The Zoe Report |
+| https://coveteur.com/nyfw-fall-2026-nail-trends | Fall section — cite NYFW FW26 nail insights (deep reds, natural nail health) | Coveteur |
+| https://www.marieclaire.com/beauty/nails/summer-2026-nail-trends/ | Summer section — cite when referencing jelly nails / summer colour palette specifics | Marie Claire |
+
+---
+
+## SECTION 11 — EXECUTION PLAN
+
+**Blog Gen Agent reads this section first. Lock every value. Execute exactly.**
+
+### Block 1 — Keyword Execution
+
+- **Primary keyword:** nail trends 2026
+- **Total mention target:** 3800 × 0.02 = **76 mentions** (strong tags on every single one — no exceptions)
+- **First 100 words:** 2 mentions — sentence 1 or 2 of introduction (opening claim), sentence 4–5 (context reinforcement)
+- **First half target (first 1900 words):** 44 mentions — front-load density
+- **Second half target (words 1901–3800):** 32 mentions — sustain but reduce density
+- **Strong tag rule:** Every mention of "nail trends 2026" = `<strong>nail trends 2026</strong>` — catch every instance paragraph by paragraph
+- **Keywords to avoid as focus terms (active wall):** spring nail trends 2026, summer nail trends 2026, chrome nail trends 2026, nail color trends 2026, almond nail trends 2026, pride nail trends 2026, short summer nails
+
+### Block 2 — Word Budget
+
+- **Total target:** 3800 words ±50
+- Introduction: 250 words
+- H2-1 (The 2026 Nail Story): 400 words
+- H2-2 (Winter 2026 Nail Trends): 350 words
+- H2-3 (Spring 2026 Nail Trends): 350 words
+- H2-4 (Summer 2026 Nail Trends): 450 words — **current season, prioritise depth**
+- H2-5 (Fall 2026 Nail Trends): 400 words
+- H2-6 (The Finishes Defining 2026): 400 words
+- H2-7 (Nail Shapes in 2026): 250 words
+- H2-8 (What's Out in 2026): 300 words
+- H2-9 (How to Use This Guide): 250 words
+- Conclusion: 150 words
+- **Tracking rule:** Count running word total at end of each H2. Cut within section if over — never compensate later.
+
+### Block 3 — Image Plan
+
+- **Total images: 14** (1 hero frontmatter only + 13 body)
+- **Hero:** frontmatter only — NEVER in body
+- **Image type rule:** ALL body images = nail design/inspo images relevant to the trend described in that section. NO infographics. NO comparison charts.
+- **Image path:** /images/topics/seasonal-trends/filename.webp
+
+**Body image assignments:**
+
+| # | Place after | Section context |
+|---|---|---|
+| 1 | End of H2-1 (The 2026 Nail Story) | Refined maximalism — a set showing mixed finishes (jelly + chrome or cat eye + texture) |
+| 2 | Mid-H2-2 (Winter) | Velvet burgundy or chocolate suede nails — deep matte finish |
+| 3 | End of H2-2 (Winter) | Cat eye magnetic gel — deep jewel tone, winter context |
+| 4 | Mid-H2-3 (Spring) | Soap nails / milky sheer — butter yellow or Cloud Dancer white |
+| 5 | End of H2-3 (Spring) | Micro French tip variation — spring colour (lavender, soft coral) |
+| 6 | Mid-H2-4 (Summer) | Jelly nails — translucent coral or cherry, glossy finish |
+| 7 | Mid-H2-4 (Summer) | Aura nails — tropical blends, summer colour palette |
+| 8 | End of H2-4 (Summer) | 3D nail art or fruit-detail nails — summer editorial |
+| 9 | Mid-H2-5 (Fall) | Deep red or tomato red — NYFW FW26 aesthetic |
+| 10 | End of H2-5 (Fall) | Chocolate brown / mocha nails — warm autumn finish |
+| 11 | Mid-H2-6 (Finishes) | Mother of pearl / glazed chrome on nude base |
+| 12 | End of H2-7 (Shapes) | Short almond or squoval — clean minimal 2026 example |
+| 13 | End of H2-8 (What's Out) | Side-by-side energy: outgoing vs incoming — e.g. bold mirror chrome vs soft pearl chrome |
+
+### Block 4 — Opening Technique Assignments
+
+**Rule: No two consecutive sections use the same technique. Conclusion = T1 or T3 only.**
+
+| Section | Technique |
+|---|---|
+| Introduction | Technique 2 — The Tension (state the contradiction that makes 2026 interesting: maximalism returning but quietly) |
+| H2-1 (The 2026 Nail Story) | Technique 1 — The Claim (make the big call upfront: 2026 is the year the edit got its edge back) |
+| H2-2 (Winter 2026) | Technique 4 — The Scene (set the winter mood before naming the trend) |
+| H2-3 (Spring 2026) | Technique 3 — The Reframe (spring was expected to be bold — it arrived as the opposite) |
+| H2-4 (Summer 2026) | Technique 1 — The Claim (the current season deserves a direct, confident open) |
+| H2-5 (Fall 2026) | Technique 2 — The Tension (fall arrives just as summer is tiring — here's what changes) |
+| H2-6 (Finishes) | Technique 3 — The Reframe (the finish is not a detail — in 2026 it is the trend) |
+| H2-7 (Shapes) | Technique 1 — The Claim (the shape conversation in 2026 has quietly resolved itself) |
+| H2-8 (What's Out) | Technique 4 — The Scene (paint a picture of the trend that has run its course) |
+| H2-9 (How to Use This Guide) | Technique 2 — The Tension (trends are everywhere; the problem is knowing which one is for you, right now) |
+| Conclusion | Technique 1 — The Claim |
+
+**Banned opener rule:** Check every opening sentence against banned_opening_approaches before writing the second sentence.
+
+### Block 5 — Link Placements
+
+| Anchor Text | Full URL | Place in Section | Placement Context | Type |
+|---|---|---|---|---|
+| spring nail trends 2026 | /blog/spring-nail-trends-2026 | H2-3 (Spring 2026) | After summarising the spring story, direct readers who want full spring depth | spoke |
+| summer nail trends 2026 | /blog/summer-nail-trends-2026 | H2-4 (Summer 2026) | After the summer overview, direct to the dedicated summer guide for more | spoke |
+| chrome nail trends 2026 | /blog/chrome-nails/chrome-nail-trends-2026 | H2-6 (Finishes) | When referencing the evolution of chrome specifically — "the full chrome story" | spoke |
+| nail colour trends 2026 for every skin tone | /blog/skin-tone/nail-color-trends-2026-skin-tone | H2-6 (Finishes) or H2-5 (Fall) | When advising on colour choices — direct to the skin tone companion post | spoke |
+| almond nail trends 2026 | /blog/almond-nail-trends-2026 | H2-7 (Shapes) | When calling almond the dominant shape — direct to the full almond guide | spoke |
+| nail care guide | /topics/nail-care-guide | H2-9 (How to Use This Guide) | Practical companion suggestion at the close | hub |
+
+### Block 6 — AEO / GEO Plan
+
+**AEO assignments — write a direct 2-3 sentence answer paragraph immediately after the H2 heading:**
+
+| AEO Term | Assigned to Section | Execution |
+|---|---|---|
+| What are the biggest nail trends of 2026? | H2-1 (The 2026 Nail Story) | 2-sentence direct answer: refined maximalism replaces quiet luxury; cat eye, jelly, aura, and pearl finishes are the dominant techniques across all seasons |
+| Are chrome nails still trending in 2026? | H2-6 (Finishes) | 2-3 sentences: yes, but chrome has evolved — mirror chrome is receding, glazed pearl chrome and neutral chrome are the dominant versions in 2026 |
+| What nail trends will be big in fall 2026? | H2-5 (Fall 2026) | 2-sentence direct answer: deep reds, chocolate browns, velvet cat eye, and NYFW-confirmed natural nail aesthetics define autumn 2026 |
+| What replaced chrome nails in 2026? | H2-6 (Finishes) | Covered in same section as above — mother of pearl, glazed neutral chrome, and pearlescent finishes are positioned as chrome's 2026 evolution |
+| What are the summer nail trends for 2026? | H2-4 (Summer 2026) | 2-sentence direct answer immediately after H2-4 heading: jelly nails, aura nails, 3D fruit art, subtle chrome on neutral bases, and sea-glass blue/coral palettes |
+
+**GEO entity statements — clear declarative definitions:**
+
+| Entity | Assigned to Section | Execution |
+|---|---|---|
+| Refined maximalism | H2-1 | "Refined maximalism is the defining nail aesthetic of 2026: more expressive than the quiet luxury era, but curated rather than chaotic — every detail is chosen, nothing is accidental." |
+| Cat eye magnetic gel | H2-6 | "Cat eye magnetic gel is a technique that uses a magnet during application to pull metallic particles into a directional streak across the nail surface, creating a shifting, dimensional finish." |
+| Blooming gel | H2-4 | "Blooming gel is a clear, reactive gel medium applied over uncured base colour — when a second colour is placed into it, the pigment diffuses outward in a watercolour, smoke-like pattern." |
+| Soap nails | H2-3 | "Soap nails are an ultra-sheer, milky finish that mimics the translucent look of a bar of glycerin soap — the nail is visible beneath a single coat of milky or neutral polish, creating a clean, freshly washed effect." |
+
+### Block 7 — Active Constraints
+
+- **Em dash banned:** Long em dash (—) does not appear anywhere in the post body. Replace with: comma, new sentence, parentheses, "but", or restructure the sentence entirely.
+- **Banned vocab watch — most likely offenders for this specific topic:**
+  - "stunning" — banned, will creep in describing nail images
+  - "elevate" — banned, natural in trend writing
+  - "game-changer" — banned, tempting for trend pivot moments
+  - "deep dive" — banned, may appear in intro
+  - "delve" — banned
+  - "vibrant" — banned, very likely in colour descriptions
+  - "exciting" — banned, common in trend intro language
+- **British English active:** colour, recognise, jewellery, favourite, maximalism (British spelling standard), -ise endings (minimise, emphasise), autumn (preferred over "fall" in body prose)
+- **Keyword density reminder:** After every 2 H2 sections — count current "nail trends 2026" mentions. First half must run denser. Adjust mid-section if running light.
+- **Image path reminder:** /images/topics/seasonal-trends/filename.webp — note this is /topics/ path not /blog/
+- **Internal link URL reminder:** All internal links use full /blog/[topic-slug]/[slug] paths — never bare slugs
+- **Hero image reminder:** Hero = frontmatter only. Never place in body.
+- **Strong tag reminder:** Every single mention of "nail trends 2026" = `<strong>nail trends 2026</strong>`. Scan after every paragraph. All 76 mentions.
+- **Route reminder:** This post lives at /topics/seasonal-trends — NOT /blog. Canonical is https://mirelleinspo.com/topics/seasonal-trends. Do not generate a /blog/ canonical.
