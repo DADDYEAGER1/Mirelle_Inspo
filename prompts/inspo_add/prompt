@@ -1,0 +1,156 @@
+# MIRELLÉ INSPO CATEGORY GENERATOR PROMPT
+
+---
+
+Paste this entire prompt into Claude, then fill in the two sections marked with `[ ]`.
+
+---
+
+## YOUR INPUT
+
+**Topic / Folder Name:**
+[ e.g. lgbtq ]
+
+**Script Output (paste full JSON from extract_inspo_files.py):**
+```json
+[ paste the JSON output from the script here ]
+```
+
+---
+
+## PROMPT (copy everything below this line)
+
+---
+
+You are a content writer for Mirellé, a premium nail inspiration website. Your task is to generate two JSON outputs for a new inspo category. Output only the two JSON blocks, clearly labeled. No explanation, no preamble.
+
+---
+
+### CONTEXT
+
+Mirellé's inspo section is a Pinterest-style nail inspiration gallery. Each category needs:
+1. An **images JSON file** at `src/content/inspo-images/{slug}.json`
+2. A **category entry** to paste into `src/content/inspo-categories.json` under the `designs` key
+
+The script scanned a folder of multiple .md blog files and extracted all image filenames and their existing alt texts. The fields `sourceFile`, `mdFilesScanned`, and `sourceFolder` in the JSON are metadata only — ignore them. The existing `alt` values are provided only as **reference context** to help you understand what each image shows. You MUST write completely new, different alt texts for the inspo gallery. Do not copy or closely paraphrase the blog alts. The inspo gallery is a separate section and must not duplicate blog content.
+
+---
+
+### RESEARCH STEP — DO THIS FIRST BEFORE WRITING ANYTHING
+
+Before generating any output, use web search to research the topic deeply:
+
+1. **Search the main keyword** e.g. `"lgbtq nail ideas"`, `"pride nails 2026"` — look at what Google shows on page 1. Understand what styles, colors, and designs dominate the SERP.
+2. **Identify the search intent** — this is an **inspirational gallery**. Users searching for nail inspiration are in discovery mode: they want to browse beautiful designs, get ideas, and feel excited. Your alt texts must match this intent — they should feel like captions on a mood board, not product descriptions or how-to instructions.
+3. **Extract the top keyword patterns** — note which descriptors appear repeatedly (e.g. `"rainbow ombre"`, `"pride glitter"`, `"pastel trans flag nails"`) — these are what users actually search for and what should appear naturally in your alt texts.
+4. **Understand the design landscape** — nail shapes, finishes, color combos, and occasions that are trending for this topic right now.
+
+Only after completing this research should you write the outputs.
+
+---
+
+### INPUT
+
+Topic / Folder Name: **[PASTE FOLDER NAME HERE]**
+
+Script output:
+```json
+[PASTE SCRIPT OUTPUT JSON HERE]
+```
+
+---
+
+### TASK
+
+Using your research above, produce both outputs below.
+
+---
+
+#### OUTPUT 1 — Images JSON
+
+File path: `src/content/inspo-images/{slug}.json`
+
+```json
+{
+  "images": [
+    {
+      "id": "{folderName}-001",
+      "url": "{exact file path url as provided in the script output}",
+      "alt": "...",
+      "category": "...",
+      "isPremium": false
+    }
+  ]
+}
+```
+
+Rules:
+- Generate an entry for **every image** in the script output. Do not skip any.
+- `id`: folderName + zero-padded index e.g. `lgbtq-001`, `lgbtq-002`
+- `url`: use the **exact file path/url as provided in the script output** — do not construct or modify it
+- `alt`: 15–25 words. Unique per image. Written for **inspirational search intent** — the user is browsing for design ideas, so alts should feel evocative and visual, like a mood board caption. Naturally include the high-traffic keyword patterns you found in your SERP research. Mention nail style, colors, finish, and vibe/occasion. Use the existing blog alt only as context to understand the image — never copy it.
+- `category`: infer dominant color or style from the filename e.g. `"rainbow"`, `"purple"`, `"french"`, `"chrome"`, `"glitter"`, `"nude"`
+- `isPremium`: set `true` for roughly 1 in every 8 images, spread out — not clustered at the start
+- No `dimensions` field
+
+---
+
+#### OUTPUT 2 — Category Entry
+
+Single object to paste inside the `designs` key of `inspo-categories.json`:
+
+```json
+"{slug}": {
+  "slug": "{slug}",
+  "pillarSlug": "",
+  "name": "...",
+  "displayName": "...",
+  "category": "...",
+  "year": 2026,
+  "active": true,
+  "trending": true,
+  "clicks": 0,
+  "addedAt": "{today's date YYYY-MM-DD}",
+  "description": "...",
+  "heroImage": "/inspo/{folderName}-hero.webp",
+  "gradientFrom": "...",
+  "gradientVia": "...",
+  "gradientTo": "...",
+  "emojis": ["...", "...", "...", "..."],
+  "ctas": ["...", "...", "...", "..."],
+  "tldr": {
+    "summary": ["...", "...", "...", "..."],
+    "keyTakeaways": ["...", "...", "...", "..."]
+  },
+  "seo": {
+    "title": "...",
+    "description": "...",
+    "keywords": "..."
+  },
+  "relatedDesigns": ["...", "...", "..."],
+  "perfectFor": ["...", "...", "...", "..."],
+  "styleGuide": ["...", "...", "..."]
+}
+```
+
+Rules:
+- `slug`: `{folderName}-inspiration-gallery`
+- `pillarSlug`: leave as empty string `""` — do not fill
+- `name` / `displayName`: human-readable, title case, nail-focused e.g. `"LGBTQ+ Pride Nail Inspiration"`
+- `category`: one of `"Seasonal"`, `"Occasion"`, `"Shape"`, `"Technique"`, `"Classic"`, `"Style"`
+- `description`: 1–2 sentences, gallery-focused, mention key styles and colors
+- `gradientFrom/Via/To`: Tailwind color classes matching the topic palette
+- `emojis`: 4 relevant emojis
+- `ctas`: 4 short action labels, 2–3 words each e.g. `"Rainbow Nails"`, `"Pride Glam"`
+- `tldr.summary`: 4 sentences — styles, trending designs, techniques, occasions
+- `tldr.keyTakeaways`: 4 short punchy takeaways
+- `seo.title`: format `"{Topic} Nails: {N}+ {Descriptor} Designs | Mirellé"` — N = total image count from script
+- `seo.description`: 140–155 chars, action-oriented, mention key styles
+- `seo.keywords`: 8–12 comma-separated nail-focused keywords
+- `relatedDesigns`: 3 slugs from: `almond-nails-2026`, `coffin-ballerina-nails-2026`, `french-tip-nails-2026`, `summer-nails-2026`, `spring-nails-2026`, `ombre-gradient-nails-2026`, `valentine-nails-2026`, `chrome-metallic-winter-nails`, `burgundy-wine-winter-nails`
+- `perfectFor`: 4 occasions or contexts
+- `styleGuide`: 3 practical nail tips relevant to this topic
+
+---
+
+### OUTPUT FORMAT
