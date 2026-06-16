@@ -1,0 +1,1292 @@
+{
+  "file_type": "shop_master_strategy",
+  "version": "1.0",
+  "created": "2026-06-04",
+  "description": "Master /shop content strategy \u2014 all MelodySusie affiliate clusters and post opportunities. One level above individual cluster_map.json files. Use this to plan, track, and sequence all /shop content.",
+  "shop_architecture": {
+    "base_route": "/shop",
+    "url_pattern_evergreen": "/shop/[category]/[slug]",
+    "url_pattern_seasonal": "/shop/[season]/[slug]"
+  },
+  "evergreen_clusters": [
+    {
+      "cluster_id": "EC-01",
+      "cluster_name": "Nail Drills",
+      "category_route": "/shop/nail-drills",
+      "cluster_pillar": {
+        "title": "Best MelodySusie Nail Drills: Every Model Reviewed",
+        "slug": "best-melodysusie-nail-drills",
+        "primary_keyword": "best MelodySusie nail drill",
+        "intent": "transactional",
+        "demand_signals": [
+          "Amazon: 'nail drill professional' weekly SV ~6,926 \u2014 MelodySusie SC300F ranks on page 1",
+          "Google autocomplete: 'best MelodySusie nail drill' returns rich suggestions",
+          "Multiple independent review sites (sortra.com, polishperfect.co, topnailtips.com) dedicated to MelodySusie drill roundups",
+          "Reddit nail tech forums repeatedly recommend MelodySusie for beginners",
+          "YouTube review videos with high view counts on MelodySusie drills"
+        ],
+        "post_id": 1
+      },
+      "spoke_posts": [
+        {
+          "post_id": 8,
+          "title": "MelodySusie Nail Drill for Beginners: Which One to Buy",
+          "slug": "melodysusie-nail-drill-beginners",
+          "primary_keyword": "MelodySusie nail drill for beginners",
+          "intent": "transactional",
+          "products_to_feature": [
+            "SC300F (clip-on)",
+            "PC120I (pen-style USB)",
+            "SC320F"
+          ],
+          "demand_signals": [
+            "Google: 'best nail drill for beginners' \u2014 multiple MelodySusie roundups ranking",
+            "Amazon SFR: 'nail drill beginners' high weekly volume",
+            "Reddit: beginners consistently ask about MelodySusie",
+            "YouTube: beginner nail drill reviews featuring MelodySusie"
+          ]
+        },
+        {
+          "post_id": 9,
+          "title": "MelodySusie Pen Nail Drills vs Clip-On: Which Is Right for You?",
+          "slug": "melodysusie-pen-vs-clip-on-nail-drill",
+          "primary_keyword": "MelodySusie pen nail drill vs clip-on",
+          "intent": "comparison",
+          "products_to_feature": [
+            "Pen series (PC120I, SM200F)",
+            "Clip-on series (SC300F, SC320F, SC330G)"
+          ],
+          "demand_signals": [
+            "MelodySusie own nav separates 'Pen Nail Drills' vs 'Clip-On Nail Drills' \u2014 proven intent split",
+            "Google PAA: 'what is the difference between pen and clip-on nail drill'",
+            "Reddit: frequent beginner questions on pen vs clip-on style",
+            "YouTube comparisons between styles"
+          ]
+        },
+        {
+          "post_id": 10,
+          "title": "Best MelodySusie Cordless Nail Drill: Rechargeable Picks Ranked",
+          "slug": "best-melodysusie-cordless-nail-drill",
+          "primary_keyword": "best MelodySusie cordless nail drill",
+          "intent": "transactional",
+          "products_to_feature": [
+            "SC300F",
+            "SC320F",
+            "SC330G (2-in-1 with stand)",
+            "SM320G"
+          ],
+          "demand_signals": [
+            "Amazon: cordless nail drill category growing 15%+ search volume",
+            "Google autocomplete: 'best cordless nail drill for home use'",
+            "TikTok: cordless nail drill demos trending",
+            "Pinterest: cordless home manicure setups"
+          ]
+        },
+        {
+          "post_id": 11,
+          "title": "MelodySusie Nail Drill Bits Guide: Which Bits for What",
+          "slug": "melodysusie-nail-drill-bits-guide",
+          "primary_keyword": "MelodySusie nail drill bits",
+          "intent": "transactional",
+          "products_to_feature": [
+            "MelodySusie bit sets",
+            "Anti-stick coating bits",
+            "Sanding bands"
+          ],
+          "demand_signals": [
+            "Google: 'nail drill bits guide' + 'what bit to use for gel removal' high volume",
+            "MelodySusie blog post on anti-stick coating bits \u2014 proven topic demand",
+            "Reddit: frequent questions on which bits to buy",
+            "Amazon: nail drill bits category strong seller"
+          ]
+        },
+        {
+          "post_id": 12,
+          "title": "MelodySusie Nail Drill Kits & Bundles: Best Value Sets",
+          "slug": "melodysusie-nail-drill-kits-bundles",
+          "primary_keyword": "MelodySusie nail drill kit",
+          "intent": "transactional",
+          "products_to_feature": [
+            "Nail Drill Value Kits",
+            "Bundle sale sets",
+            "Manicure gift boxes with drills"
+          ],
+          "demand_signals": [
+            "MelodySusie nav: dedicated 'Nail Drill Value Kits' collection",
+            "Amazon: gel nail kits top-ranked ASIN 40,000+ orders/month",
+            "Google: 'nail drill kit with bits' buying intent keywords",
+            "Pinterest: at-home nail setup kits"
+          ]
+        },
+        {
+          "post_id": 13,
+          "title": "Is MelodySusie a Good Brand? Honest Review",
+          "slug": "is-melodysusie-good-brand-review",
+          "primary_keyword": "is MelodySusie a good brand",
+          "intent": "comparison",
+          "products_to_feature": [
+            "Top drill models",
+            "Best-rated lamps",
+            "Key gel polishes"
+          ],
+          "demand_signals": [
+            "Exact-match post exists on nailtechniciantraining.co.uk ranking in Google",
+            "Reddit: 'is MelodySusie worth it' threads",
+            "YouTube: honest MelodySusie brand reviews",
+            "TikTok: MelodySusie reviews from nail techs"
+          ]
+        }
+      ],
+      "killed_or_merged": [
+        {
+          "topic": "Desktop nail drills",
+          "action": "MERGED into EC-01 pillar",
+          "reason": "Low standalone search demand; covered in full drill roundup"
+        }
+      ]
+    },
+    {
+      "cluster_id": "EC-02",
+      "cluster_name": "Nail Lamps",
+      "category_route": "/shop/nail-lamps",
+      "cluster_pillar": {
+        "title": "Best MelodySusie UV LED Nail Lamps: Full Lineup Reviewed",
+        "slug": "best-melodysusie-nail-lamps",
+        "primary_keyword": "best MelodySusie nail lamp",
+        "intent": "transactional",
+        "demand_signals": [
+          "Google: 'best UV nail lamp' \u2014 MelodySusie Plus30F appears in roundups",
+          "Who What Wear, Marie Claire dedicated nail lamp buying guides",
+          "Amazon UV nail lamp category: strong DIY demand signal",
+          "MelodySusie own 'How to Choose Nail Lamp' page = proven buyer confusion = content gap"
+        ],
+        "post_id": 2
+      },
+      "spoke_posts": [
+        {
+          "post_id": 14,
+          "title": "MelodySusie Cordless Nail Lamp: Best Rechargeable UV LED Picks",
+          "slug": "melodysusie-cordless-nail-lamp",
+          "primary_keyword": "MelodySusie cordless nail lamp",
+          "intent": "transactional",
+          "products_to_feature": [
+            "Full-hand cordless lamps collection",
+            "P-Plus20F UV Protection lamp"
+          ],
+          "demand_signals": [
+            "Google Trends: 'cordless nail lamp' rising search term",
+            "Amazon: cordless UV nail lamp strong buy-intent keyword",
+            "TikTok: wireless nail lamp setup videos trending",
+            "Pinterest: cordless nail setup inspiration boards"
+          ]
+        },
+        {
+          "post_id": 15,
+          "title": "UV vs LED Nail Lamp: Which Should You Buy? (MelodySusie Options)",
+          "slug": "uv-vs-led-nail-lamp-melodysusie",
+          "primary_keyword": "UV vs LED nail lamp",
+          "intent": "comparison",
+          "products_to_feature": [
+            "MelodySusie full-hand corded",
+            "Cordless range",
+            "Single-finger lamps"
+          ],
+          "demand_signals": [
+            "Google PAA: 'UV vs LED nail lamp difference' high volume",
+            "Who What Wear article on UV vs LED nail lamps ranks well",
+            "Reddit: this exact question asked constantly by beginners",
+            "YouTube: UV vs LED comparison videos high views"
+          ]
+        },
+        {
+          "post_id": 16,
+          "title": "Best Single Finger Nail Lamp: MelodySusie Mini Lamp Review",
+          "slug": "melodysusie-single-finger-nail-lamp",
+          "primary_keyword": "single finger nail lamp MelodySusie",
+          "intent": "transactional",
+          "products_to_feature": [
+            "Single-finger nail lamps collection",
+            "Handheld mini lamp with LCD"
+          ],
+          "demand_signals": [
+            "Google: 'mini nail lamp' 'single finger nail lamp' buying intent",
+            "Amazon: handheld mini nail lamp category growing",
+            "TikTok: mini lamp nail art hacks trending",
+            "Pinterest: travel nail setup boards"
+          ]
+        },
+        {
+          "post_id": 17,
+          "title": "MelodySusie Nail Lamp with UV Gloves: Protect Your Skin While Curing",
+          "slug": "melodysusie-nail-lamp-uv-gloves",
+          "primary_keyword": "UV gloves for nail lamp",
+          "intent": "transactional",
+          "products_to_feature": [
+            "UV Gloves collection",
+            "Full-hand lamps"
+          ],
+          "demand_signals": [
+            "Google PAA: 'are UV nail lamps safe for skin'",
+            "Reddit: UV exposure concern threads regularly appear",
+            "Google Trends: 'UV protection nail lamp' rising",
+            "Lab Tests Guide article mentions low-heat mode and UV safety"
+          ]
+        }
+      ],
+      "killed_or_merged": [
+        {
+          "topic": "Special nail lamps (separate post)",
+          "action": "MERGED into pillar",
+          "reason": "Insufficient standalone search demand"
+        }
+      ]
+    },
+    {
+      "cluster_id": "EC-03",
+      "cluster_name": "Gel Polish",
+      "category_route": "/shop/gel-polish",
+      "cluster_pillar": {
+        "title": "Best MelodySusie Gel Polish: Every Formula Compared",
+        "slug": "best-melodysusie-gel-polish",
+        "primary_keyword": "best MelodySusie gel polish",
+        "intent": "transactional",
+        "demand_signals": [
+          "Amazon: 'gel nail polish' weekly SV 215,637 \u2014 massive category",
+          "Amazon: 'gel nail polish set' weekly SV 23,505",
+          "Google: multiple MelodySusie gel polish review posts ranking",
+          "Pinterest: gel polish color boards heavily pinned",
+          "TikTok: MelodySusie gel polish swatch/review videos"
+        ],
+        "post_id": 3
+      },
+      "spoke_posts": [
+        {
+          "post_id": 18,
+          "title": "MelodySusie HEMA-Free Gel Polish: Best Non-Toxic Picks",
+          "slug": "melodysusie-hema-free-gel-polish",
+          "primary_keyword": "MelodySusie HEMA-free gel polish",
+          "intent": "transactional",
+          "products_to_feature": [
+            "HEMA-Free Gels 24-color set",
+            "Fleurwee plant-based gels"
+          ],
+          "demand_signals": [
+            "Google: 'HEMA free gel polish' rising significantly post-EU ban news",
+            "MelodySusie blog post on HEMA/TPO-free \u2014 confirmed demand",
+            "Reddit nail allergy threads mention HEMA-free frequently",
+            "TikTok: sensitive skin nail content trending"
+          ]
+        },
+        {
+          "post_id": 19,
+          "title": "MelodySusie Plant-Based Gel Polish (Fleurwee): Is It Worth It?",
+          "slug": "melodysusie-plant-based-gel-polish-fleurwee",
+          "primary_keyword": "MelodySusie plant-based gel polish",
+          "intent": "comparison",
+          "products_to_feature": [
+            "Fleurwee gel polish full set",
+            "Fleurwee gift boxes",
+            "Sweet scent plant-based collection"
+          ],
+          "demand_signals": [
+            "Google: 'plant based gel nail polish' buying intent growing",
+            "MelodySusie dedicated Fleurwee landing page = proven product investment",
+            "Reddit: eco/non-toxic nail discussions growing",
+            "Pinterest: clean beauty nail boards"
+          ]
+        },
+        {
+          "post_id": 20,
+          "title": "MelodySusie Cat Eye Gel Polish: Best Magnetic Nail Picks",
+          "slug": "melodysusie-cat-eye-gel-polish",
+          "primary_keyword": "MelodySusie cat eye gel polish",
+          "intent": "transactional",
+          "products_to_feature": [
+            "Jeweliver Cat Eye Gels",
+            "Cat eye magnet tool",
+            "5-in-1 cat eye magnet"
+          ],
+          "demand_signals": [
+            "Google: 'cat eye gel polish' high buying intent keyword",
+            "TikTok: cat eye nail videos millions of views",
+            "Pinterest: magnetic nail art boards",
+            "Valentine's Day nails 2026 articles cite cat-eye as top trend"
+          ]
+        },
+        {
+          "post_id": 21,
+          "title": "MelodySusie Glitter Gel Polish: Best Sparkle Sets",
+          "slug": "melodysusie-glitter-gel-polish",
+          "primary_keyword": "MelodySusie glitter gel polish",
+          "intent": "transactional",
+          "products_to_feature": [
+            "Galaliver Glitter Gels",
+            "High-pigment thick gels in metallics"
+          ],
+          "demand_signals": [
+            "Google: 'glitter gel nail polish' strong buying intent",
+            "Pinterest: glitter nail boards heavily pinned",
+            "TikTok: glitter nail tutorials trending",
+            "Holiday/NYE glitter nails high seasonal spike"
+          ]
+        },
+        {
+          "post_id": 22,
+          "title": "MelodySusie Jelly Gel Polish (Jeweliver): The Sheer Nail Trend",
+          "slug": "melodysusie-jelly-gel-polish-jeweliver",
+          "primary_keyword": "MelodySusie jelly gel polish",
+          "intent": "transactional",
+          "products_to_feature": [
+            "Jeweliver Jelly Gels collection"
+          ],
+          "demand_signals": [
+            "Google: 'jelly nails gel polish' \u2014 trending search term 2025-2026",
+            "Valentine's Day nails articles specifically mention jelly nails as top trend",
+            "TikTok: sheer/jelly nail content high engagement",
+            "Pinterest: glass nails / jelly nails boards"
+          ]
+        },
+        {
+          "post_id": 23,
+          "title": "MelodySusie Top Coat and Base Coat: Best Gel Essentials",
+          "slug": "melodysusie-top-coat-base-coat-gel",
+          "primary_keyword": "MelodySusie gel top coat base coat",
+          "intent": "transactional",
+          "products_to_feature": [
+            "Top & Base Coat collection",
+            "No-wipe top coat"
+          ],
+          "demand_signals": [
+            "Amazon: 'gel top coat base coat set' weekly SV 23,505",
+            "Google: 'best gel top coat' strong buying intent",
+            "Reddit: top coat recommendations asked constantly",
+            "Amazon top seller: Beetles no-wipe gel top coat = proven demand"
+          ]
+        }
+      ],
+      "killed_or_merged": [
+        {
+          "topic": "Faster UV curing gels (standalone post)",
+          "action": "MERGED into pillar",
+          "reason": "Niche sub-formula \u2014 insufficient standalone search demand"
+        },
+        {
+          "topic": "High-pigment thick gels (standalone post)",
+          "action": "MERGED into pillar",
+          "reason": "Covered adequately in full gel polish roundup"
+        }
+      ]
+    },
+    {
+      "cluster_id": "EC-04",
+      "cluster_name": "Nail Kits & Starter Sets",
+      "category_route": "/shop/nail-kits",
+      "cluster_pillar": {
+        "title": "Best MelodySusie Nail Kits for Beginners & Pros",
+        "slug": "best-melodysusie-nail-kits",
+        "primary_keyword": "best MelodySusie nail kit",
+        "intent": "transactional",
+        "demand_signals": [
+          "Amazon: 'gel nail kits' top ASIN 40,000+ orders/month",
+          "Amazon: 'gel nail polish kit' weekly SV 11,765",
+          "Google: multiple 'best gel nail starter kit' roundups ranking",
+          "Harper's Bazaar, Allure: at-home gel manicure kit roundups = mainstream demand"
+        ],
+        "post_id": 4
+      },
+      "spoke_posts": [
+        {
+          "post_id": 24,
+          "title": "MelodySusie Beginner Nail Kit: Everything You Need to Start",
+          "slug": "melodysusie-beginner-nail-kit",
+          "primary_keyword": "MelodySusie beginner nail kit",
+          "intent": "transactional",
+          "products_to_feature": [
+            "Beginner Kit page products",
+            "SM200F drill + lamp bundle",
+            "Starter gel polish sets"
+          ],
+          "demand_signals": [
+            "Google: 'nail kit for beginners' strong buying intent",
+            "MelodySusie has a dedicated /pages/beginner \u2014 proven demand",
+            "Multiple blog posts on 'beginner nail kit guide'",
+            "Reddit: beginners asking what to buy to start at home"
+          ]
+        },
+        {
+          "post_id": 25,
+          "title": "MelodySusie Nail Gift Sets: Best Manicure Gifts for Her",
+          "slug": "melodysusie-nail-gift-sets",
+          "primary_keyword": "MelodySusie nail gift set",
+          "intent": "transactional",
+          "products_to_feature": [
+            "Manicure Gift Box collection",
+            "Gel Nail Gift Kit",
+            "Anniversary limited-edition set"
+          ],
+          "demand_signals": [
+            "Google: 'nail gift set for her' 'manicure gift ideas' high seasonal demand",
+            "MelodySusie dedicated 'Manicure Gift Box' collection + holiday gift guide",
+            "WWD, Allure annual nail gift roundups = mainstream demand",
+            "Reddit: gift recommendation posts in nail subreddits"
+          ]
+        },
+        {
+          "post_id": 26,
+          "title": "MelodySusie Complete Nail Set: Drill + Lamp + Polish Bundle Review",
+          "slug": "melodysusie-complete-nail-set-bundle",
+          "primary_keyword": "MelodySusie complete nail set",
+          "intent": "transactional",
+          "products_to_feature": [
+            "SM330G full set",
+            "SM320G set",
+            "Travel gift set (drill + lamp + polish)"
+          ],
+          "demand_signals": [
+            "Google: 'complete nail set at home' 'nail salon at home kit' buying intent",
+            "MelodySusie holiday guide features full all-in-one sets",
+            "Amazon: complete gel nail kit bundles rank well",
+            "Pinterest: home nail salon setup boards"
+          ]
+        }
+      ]
+    },
+    {
+      "cluster_id": "EC-05",
+      "cluster_name": "Nail Care Tools",
+      "category_route": "/shop/nail-care-tools",
+      "cluster_pillar": {
+        "title": "Best MelodySusie Nail Care Tools: Files, Clippers & Dust Collectors",
+        "slug": "best-melodysusie-nail-care-tools",
+        "primary_keyword": "best MelodySusie nail care tools",
+        "intent": "transactional",
+        "demand_signals": [
+          "Google: 'nail dust collector' buying guide content ranks well",
+          "MelodySusie own full guide to nail dust collectors = proven demand",
+          "Amazon: nail dust collector category strong seller",
+          "Reddit: nail tech tool recommendations include MelodySusie dust collectors"
+        ],
+        "post_id": 5
+      },
+      "spoke_posts": [
+        {
+          "post_id": 27,
+          "title": "Best MelodySusie Nail Dust Collector: HPro vs SPro Compared",
+          "slug": "melodysusie-nail-dust-collector-review",
+          "primary_keyword": "MelodySusie nail dust collector",
+          "intent": "transactional",
+          "products_to_feature": [
+            "HPro series",
+            "SPro series",
+            "HProA series",
+            "Replacement filters"
+          ],
+          "demand_signals": [
+            "Amazon: MelodySusie dust collector product page strong reviews",
+            "Google: 'best nail dust collector home use' buying intent",
+            "YouTube: Paola Ponce Nails comparison video = proven content demand",
+            "Reddit: nail dust health concerns drive purchase intent"
+          ]
+        },
+        {
+          "post_id": 28,
+          "title": "MelodySusie Nail Files and Buffers: Best Professional Picks",
+          "slug": "melodysusie-nail-files-buffers",
+          "primary_keyword": "MelodySusie nail files",
+          "intent": "transactional",
+          "products_to_feature": [
+            "Professional nail files & buffers collection"
+          ],
+          "demand_signals": [
+            "Google: 'best nail files professional' buying intent keywords",
+            "Amazon: nail file category consistent seller",
+            "Pinterest: nail care tools boards",
+            "Reddit: nail file grit recommendations frequently asked"
+          ]
+        },
+        {
+          "post_id": 29,
+          "title": "MelodySusie Nail Clippers: Best Acrylic & Gel Nail Cutters",
+          "slug": "melodysusie-nail-clippers",
+          "primary_keyword": "MelodySusie nail clippers",
+          "intent": "transactional",
+          "products_to_feature": [
+            "Acrylic Nail Clippers 4-in-1 Kit (Black/Rainbow/Pink)",
+            "Rotary adjustable clipper"
+          ],
+          "demand_signals": [
+            "Google: 'best nail clippers for acrylic nails' high buying intent",
+            "Amazon: nail clipper kits strong category",
+            "Reddit: acrylic nail clipper recommendations asked often",
+            "Pinterest: nail tool setup boards"
+          ]
+        },
+        {
+          "post_id": 30,
+          "title": "MelodySusie Pedicure Tools: Best Foot Care Kit",
+          "slug": "melodysusie-pedicure-tools",
+          "primary_keyword": "MelodySusie pedicure tools",
+          "intent": "transactional",
+          "products_to_feature": [
+            "Personal care pedicure collection"
+          ],
+          "demand_signals": [
+            "Google: 'best pedicure tools at home' buying intent",
+            "Amazon: pedicure kit strong seasonal demand (summer)",
+            "Pinterest: summer pedicure care boards",
+            "TikTok: pedicure routine videos high engagement"
+          ]
+        }
+      ]
+    },
+    {
+      "cluster_id": "EC-06",
+      "cluster_name": "Nail Art Tools & Accessories",
+      "category_route": "/shop/nail-art-tools",
+      "cluster_pillar": {
+        "title": "Best MelodySusie Nail Art Tools & Accessories",
+        "slug": "best-melodysusie-nail-art-tools",
+        "primary_keyword": "MelodySusie nail art tools",
+        "intent": "transactional",
+        "demand_signals": [
+          "Amazon: 'nail art tool set' consistent seller",
+          "TikTok: nail art supply hauls trending",
+          "Pinterest: nail art tool collections boards",
+          "Google: 'nail art tools kit' buying intent keywords"
+        ],
+        "post_id": 6
+      },
+      "spoke_posts": [
+        {
+          "post_id": 31,
+          "title": "MelodySusie Nail Rhinestones & Gems: Best Nail Bling Sets",
+          "slug": "melodysusie-nail-rhinestones-gems",
+          "primary_keyword": "MelodySusie nail rhinestones",
+          "intent": "transactional",
+          "products_to_feature": [
+            "1440pc rhinestone sets",
+            "3D nail accessories",
+            "Halloween nail accessories"
+          ],
+          "demand_signals": [
+            "Google: 'nail rhinestones for gel nails' buying intent",
+            "TikTok: 3D nail gem application videos viral",
+            "Pinterest: rhinestone nail art boards heavily pinned",
+            "Valentine's Day 2026 trend reports cite 3D gems as top nail trend"
+          ]
+        },
+        {
+          "post_id": 32,
+          "title": "MelodySusie Nail Art Brushes & Pens: Best Detail Tools",
+          "slug": "melodysusie-nail-art-brushes-pens",
+          "primary_keyword": "MelodySusie nail art brushes",
+          "intent": "transactional",
+          "products_to_feature": [
+            "Double-ended nail art pens 12 colors",
+            "Chrome metallic pens 3 colors",
+            "Nail brushes collection"
+          ],
+          "demand_signals": [
+            "Amazon: 'nail art brushes set' consistent seller",
+            "Google: 'nail art pens kit' buying intent",
+            "TikTok: nail art brush techniques trending",
+            "Pinterest: nail art supply boards"
+          ]
+        },
+        {
+          "post_id": 33,
+          "title": "MelodySusie Nail Extension Gels: Builder, Blooming & Poly Gel",
+          "slug": "melodysusie-nail-extension-gels",
+          "primary_keyword": "MelodySusie builder gel nail extensions",
+          "intent": "transactional",
+          "products_to_feature": [
+            "Builder gel",
+            "Blooming gel",
+            "Poly extension gel",
+            "Silktips French nail tips",
+            "Nail glues"
+          ],
+          "demand_signals": [
+            "Google: 'builder gel nail extensions at home' strong buying intent",
+            "Amazon: poly nail gel extension kits strong seller",
+            "TikTok: DIY nail extensions trending",
+            "Reddit: home gel extension technique discussions"
+          ]
+        }
+      ]
+    },
+    {
+      "cluster_id": "EC-07",
+      "cluster_name": "Instant & Press-On Nails",
+      "category_route": "/shop/instant-nails",
+      "cluster_pillar": {
+        "title": "Best MelodySusie Press-On & Instant Nails: Gel Strips + Press-Ons",
+        "slug": "best-melodysusie-instant-nails",
+        "primary_keyword": "MelodySusie press-on nails",
+        "intent": "transactional",
+        "demand_signals": [
+          "Google: 'press-on nails' massive search volume category",
+          "Amazon: press-on nail kits strong seller",
+          "TikTok: gel nail strip application videos viral",
+          "Pinterest: quick nail ideas boards"
+        ],
+        "post_id": 7
+      },
+      "spoke_posts": [
+        {
+          "post_id": 34,
+          "title": "MelodySusie Qcoat Gel Nail Strips: Do They Actually Work?",
+          "slug": "melodysusie-qcoat-gel-nail-strips-review",
+          "primary_keyword": "MelodySusie gel nail strips",
+          "intent": "comparison",
+          "products_to_feature": [
+            "Qcoat fully cured gel nail strips"
+          ],
+          "demand_signals": [
+            "Google: 'do gel nail strips actually work' review intent",
+            "TikTok: semi-cured gel strip reviews high views",
+            "Reddit: nail strip longevity questions frequently asked",
+            "Pinterest: gel strip nail ideas boards"
+          ]
+        }
+      ],
+      "killed_or_merged": [
+        {
+          "topic": "Silktips French nail tips standalone post",
+          "action": "MERGED into EC-06-S3 extension gels",
+          "reason": "Small standalone demand; fits naturally with extension gel content"
+        }
+      ]
+    }
+  ],
+  "seasonal_clusters": [
+    {
+      "cluster_id": "SC-01",
+      "cluster_name": "Summer Nails",
+      "season_route": "/shop/summer",
+      "peak_months": "May\u2013August",
+      "cluster_pillar": {
+        "title": "Best MelodySusie Summer Nail Products",
+        "slug": "best-melodysusie-summer-nail-products",
+        "primary_keyword": "MelodySusie summer nail products",
+        "intent": "transactional",
+        "post_id": 35
+      },
+      "spoke_posts": [
+        {
+          "post_id": 42,
+          "title": "Best Summer Gel Polish Colors from MelodySusie",
+          "slug": "melodysusie-summer-gel-polish-colors",
+          "primary_keyword": "MelodySusie summer gel polish",
+          "intent": "transactional",
+          "products_to_feature": [
+            "Bright/neon gel polish shades",
+            "Jelly gels (summer sheer look)",
+            "Tropical color sets"
+          ]
+        },
+        {
+          "post_id": 43,
+          "title": "Best Pedicure Kit for Summer: MelodySusie Picks",
+          "slug": "melodysusie-summer-pedicure-kit",
+          "primary_keyword": "summer pedicure kit MelodySusie",
+          "intent": "transactional",
+          "products_to_feature": [
+            "Pedicure tools collection",
+            "Foot care products",
+            "Bright toe polish shades"
+          ]
+        },
+        {
+          "post_id": 44,
+          "title": "Summer Nail Art Tools You Need: MelodySusie Edition",
+          "slug": "melodysusie-summer-nail-art-tools",
+          "primary_keyword": "summer nail art tools",
+          "intent": "transactional",
+          "products_to_feature": [
+            "Rhinestones",
+            "Nail art pens",
+            "Chrome metallic tools for summer looks"
+          ]
+        }
+      ]
+    },
+    {
+      "cluster_id": "SC-02",
+      "cluster_name": "Fall Nails",
+      "season_route": "/shop/fall",
+      "peak_months": "September\u2013November",
+      "cluster_pillar": {
+        "title": "Best MelodySusie Fall Nail Products & Colors",
+        "slug": "best-melodysusie-fall-nail-products",
+        "primary_keyword": "MelodySusie fall nail products",
+        "intent": "transactional",
+        "post_id": 36
+      },
+      "spoke_posts": [
+        {
+          "post_id": 45,
+          "title": "Best Fall Gel Polish Colors from MelodySusie: Browns, Nudes & Burgundy",
+          "slug": "melodysusie-fall-gel-polish-colors",
+          "primary_keyword": "MelodySusie fall gel polish colors",
+          "intent": "transactional",
+          "products_to_feature": [
+            "Brown/nude/burgundy gel shades",
+            "High-pigment thick gels in fall tones"
+          ]
+        },
+        {
+          "post_id": 46,
+          "title": "Fall Nail Starter Kit: Get the Season's Best Look with MelodySusie",
+          "slug": "melodysusie-fall-nail-starter-kit",
+          "primary_keyword": "fall nail kit MelodySusie",
+          "intent": "transactional",
+          "products_to_feature": [
+            "Beginner kit",
+            "Fall color gel sets",
+            "Top/base coat"
+          ]
+        }
+      ]
+    },
+    {
+      "cluster_id": "SC-03",
+      "cluster_name": "Winter & Holiday",
+      "season_route": "/shop/winter",
+      "peak_months": "November\u2013January",
+      "cluster_pillar": {
+        "title": "Best MelodySusie Holiday & Winter Nail Products",
+        "slug": "best-melodysusie-holiday-nail-products",
+        "primary_keyword": "MelodySusie holiday nail products",
+        "intent": "transactional",
+        "post_id": 37
+      },
+      "spoke_posts": [
+        {
+          "post_id": 47,
+          "title": "MelodySusie Christmas Nail Gift Sets: Best Picks for Her",
+          "slug": "melodysusie-christmas-nail-gift-sets",
+          "primary_keyword": "MelodySusie Christmas nail gift set",
+          "intent": "transactional",
+          "products_to_feature": [
+            "Christmas plant-based gel gift box 6pc",
+            "Anniversary limited edition set",
+            "Manicure gift boxes"
+          ]
+        },
+        {
+          "post_id": 48,
+          "title": "Best Holiday Gel Polish Colors: MelodySusie Christmas & NYE Picks",
+          "slug": "melodysusie-holiday-gel-polish-colors",
+          "primary_keyword": "MelodySusie holiday gel polish",
+          "intent": "transactional",
+          "products_to_feature": [
+            "Red/deep red gels",
+            "Glitter/Galaliver sets",
+            "Metallic shades"
+          ]
+        },
+        {
+          "post_id": 49,
+          "title": "Best Nail Gifts Under $50: MelodySusie Holiday Guide",
+          "slug": "melodysusie-nail-gifts-under-50",
+          "primary_keyword": "nail gifts under 50 MelodySusie",
+          "intent": "transactional",
+          "products_to_feature": [
+            "Gift kits under $50",
+            "Gel polish sets",
+            "Beginner kits",
+            "Accessory bundles"
+          ]
+        },
+        {
+          "post_id": 50,
+          "title": "MelodySusie Black Friday Deals: Best Nail Tool Sales to Watch",
+          "slug": "melodysusie-black-friday-deals",
+          "primary_keyword": "MelodySusie Black Friday deals",
+          "intent": "transactional",
+          "products_to_feature": [
+            "All top sellers \u2014 drill, lamp, gel polish, kits"
+          ],
+          "notes": "Publish early November \u2014 update annually with live deals"
+        }
+      ]
+    },
+    {
+      "cluster_id": "SC-04",
+      "cluster_name": "Spring Nails",
+      "season_route": "/shop/spring",
+      "peak_months": "February\u2013April",
+      "cluster_pillar": {
+        "title": "Best MelodySusie Spring Nail Products",
+        "slug": "best-melodysusie-spring-nail-products",
+        "primary_keyword": "MelodySusie spring nail products",
+        "intent": "transactional",
+        "post_id": 38
+      },
+      "spoke_posts": [
+        {
+          "post_id": 51,
+          "title": "Best Spring Gel Polish Colors from MelodySusie: Pastels & Florals",
+          "slug": "melodysusie-spring-gel-polish-colors",
+          "primary_keyword": "MelodySusie spring gel polish",
+          "intent": "transactional",
+          "products_to_feature": [
+            "Macaron/pastel gel sets",
+            "Pink/floral shades",
+            "Fleurwee spring-tone plant-based gels"
+          ]
+        },
+        {
+          "post_id": 52,
+          "title": "MelodySusie Spring Nail Starter Kit: Everything to Do Your Own Nails",
+          "slug": "melodysusie-spring-nail-starter-kit",
+          "primary_keyword": "spring nail kit MelodySusie",
+          "intent": "transactional",
+          "products_to_feature": [
+            "Spring sale bundles (drill + dust collector + lamp)"
+          ]
+        }
+      ]
+    },
+    {
+      "cluster_id": "SC-05",
+      "cluster_name": "Valentine's Day Nails",
+      "season_route": "/shop/valentines-day",
+      "peak_months": "January\u2013February",
+      "cluster_pillar": {
+        "title": "Best MelodySusie Valentine's Day Nail Products",
+        "slug": "best-melodysusie-valentines-nail-products",
+        "primary_keyword": "MelodySusie valentines day nail products",
+        "intent": "transactional",
+        "post_id": 39
+      },
+      "spoke_posts": [
+        {
+          "post_id": 53,
+          "title": "Best Valentine's Day Gel Polish Colors: MelodySusie Reds & Pinks",
+          "slug": "melodysusie-valentines-gel-polish-colors",
+          "primary_keyword": "valentines day gel polish MelodySusie",
+          "intent": "transactional",
+          "products_to_feature": [
+            "Red/pink/burgundy gels",
+            "Cat eye gels (magnetic pink/red)",
+            "Jelly gels in pink tones"
+          ]
+        },
+        {
+          "post_id": 54,
+          "title": "Valentine's Day Nail Gift: Best MelodySusie Sets to Give",
+          "slug": "melodysusie-valentines-nail-gift-set",
+          "primary_keyword": "valentine's nail gift set MelodySusie",
+          "intent": "transactional",
+          "products_to_feature": [
+            "Gift boxes",
+            "Gel polish sets in pink/red",
+            "Beginner kits as gifts"
+          ]
+        }
+      ]
+    },
+    {
+      "cluster_id": "SC-06",
+      "cluster_name": "Halloween Nails",
+      "season_route": "/shop/halloween",
+      "peak_months": "September\u2013October",
+      "cluster_pillar": {
+        "title": "Best MelodySusie Halloween Nail Products & Accessories",
+        "slug": "best-melodysusie-halloween-nail-products",
+        "primary_keyword": "MelodySusie halloween nail products",
+        "intent": "transactional",
+        "post_id": 40
+      },
+      "spoke_posts": [
+        {
+          "post_id": 55,
+          "title": "Halloween Nail Accessories from MelodySusie: Skulls, Gems & More",
+          "slug": "melodysusie-halloween-nail-accessories",
+          "primary_keyword": "MelodySusie halloween nail accessories",
+          "intent": "transactional",
+          "products_to_feature": [
+            "Halloween nail accessories (skulls/pumpkins/spiders)",
+            "3D nail art gems",
+            "Black/dark gel polishes"
+          ]
+        },
+        {
+          "post_id": 56,
+          "title": "Best Dark Gel Polish for Halloween Nails: MelodySusie Picks",
+          "slug": "melodysusie-halloween-dark-gel-polish",
+          "primary_keyword": "dark gel polish halloween MelodySusie",
+          "intent": "transactional",
+          "products_to_feature": [
+            "Black/dark red/plum gel shades",
+            "Glitter gels for Halloween"
+          ]
+        }
+      ]
+    },
+    {
+      "cluster_id": "SC-07",
+      "cluster_name": "Mother's Day Nails",
+      "season_route": "/shop/mothers-day",
+      "peak_months": "April\u2013May",
+      "cluster_pillar": {
+        "title": "Best MelodySusie Mother's Day Nail Gift Ideas",
+        "slug": "best-melodysusie-mothers-day-nail-gifts",
+        "primary_keyword": "MelodySusie mothers day nail gift",
+        "intent": "transactional",
+        "post_id": 41
+      },
+      "spoke_posts": [
+        {
+          "post_id": 57,
+          "title": "MelodySusie Nail Gift Sets for Mom: Best Mother's Day Picks",
+          "slug": "melodysusie-mothers-day-nail-gift-sets",
+          "primary_keyword": "nail gift set for mom MelodySusie",
+          "intent": "transactional",
+          "products_to_feature": [
+            "Manicure gift box collection",
+            "Gel nail gift kits",
+            "Plant-based gentle formulas (sensitive skin angle)"
+          ]
+        }
+      ]
+    }
+  ],
+  "master_keyword_ownership_registry": {
+    "description": "All primary keywords claimed across ALL clusters \u2014 no post in any cluster may target these as their focus keyword",
+    "evergreen_keywords": [
+      {
+        "keyword": "best MelodySusie nail drill",
+        "owned_by": "EC-01 pillar"
+      },
+      {
+        "keyword": "MelodySusie nail drill for beginners",
+        "owned_by": "EC-01-S1"
+      },
+      {
+        "keyword": "MelodySusie pen nail drill vs clip-on",
+        "owned_by": "EC-01-S2"
+      },
+      {
+        "keyword": "best MelodySusie cordless nail drill",
+        "owned_by": "EC-01-S3"
+      },
+      {
+        "keyword": "MelodySusie nail drill bits",
+        "owned_by": "EC-01-S4"
+      },
+      {
+        "keyword": "MelodySusie nail drill kit",
+        "owned_by": "EC-01-S5"
+      },
+      {
+        "keyword": "is MelodySusie a good brand",
+        "owned_by": "EC-01-S6"
+      },
+      {
+        "keyword": "best MelodySusie nail lamp",
+        "owned_by": "EC-02 pillar"
+      },
+      {
+        "keyword": "MelodySusie cordless nail lamp",
+        "owned_by": "EC-02-S1"
+      },
+      {
+        "keyword": "UV vs LED nail lamp",
+        "owned_by": "EC-02-S2"
+      },
+      {
+        "keyword": "single finger nail lamp MelodySusie",
+        "owned_by": "EC-02-S3"
+      },
+      {
+        "keyword": "UV gloves for nail lamp",
+        "owned_by": "EC-02-S4"
+      },
+      {
+        "keyword": "best MelodySusie gel polish",
+        "owned_by": "EC-03 pillar"
+      },
+      {
+        "keyword": "MelodySusie HEMA-free gel polish",
+        "owned_by": "EC-03-S1"
+      },
+      {
+        "keyword": "MelodySusie plant-based gel polish",
+        "owned_by": "EC-03-S2"
+      },
+      {
+        "keyword": "MelodySusie cat eye gel polish",
+        "owned_by": "EC-03-S3"
+      },
+      {
+        "keyword": "MelodySusie glitter gel polish",
+        "owned_by": "EC-03-S4"
+      },
+      {
+        "keyword": "MelodySusie jelly gel polish",
+        "owned_by": "EC-03-S5"
+      },
+      {
+        "keyword": "MelodySusie gel top coat base coat",
+        "owned_by": "EC-03-S6"
+      },
+      {
+        "keyword": "best MelodySusie nail kit",
+        "owned_by": "EC-04 pillar"
+      },
+      {
+        "keyword": "MelodySusie beginner nail kit",
+        "owned_by": "EC-04-S1"
+      },
+      {
+        "keyword": "MelodySusie nail gift set",
+        "owned_by": "EC-04-S2"
+      },
+      {
+        "keyword": "MelodySusie complete nail set",
+        "owned_by": "EC-04-S3"
+      },
+      {
+        "keyword": "best MelodySusie nail care tools",
+        "owned_by": "EC-05 pillar"
+      },
+      {
+        "keyword": "MelodySusie nail dust collector",
+        "owned_by": "EC-05-S1"
+      },
+      {
+        "keyword": "MelodySusie nail files",
+        "owned_by": "EC-05-S2"
+      },
+      {
+        "keyword": "MelodySusie nail clippers",
+        "owned_by": "EC-05-S3"
+      },
+      {
+        "keyword": "MelodySusie pedicure tools",
+        "owned_by": "EC-05-S4"
+      },
+      {
+        "keyword": "MelodySusie nail art tools",
+        "owned_by": "EC-06 pillar"
+      },
+      {
+        "keyword": "MelodySusie nail rhinestones",
+        "owned_by": "EC-06-S1"
+      },
+      {
+        "keyword": "MelodySusie nail art brushes",
+        "owned_by": "EC-06-S2"
+      },
+      {
+        "keyword": "MelodySusie builder gel nail extensions",
+        "owned_by": "EC-06-S3"
+      },
+      {
+        "keyword": "MelodySusie press-on nails",
+        "owned_by": "EC-07 pillar"
+      },
+      {
+        "keyword": "MelodySusie gel nail strips",
+        "owned_by": "EC-07-S1"
+      }
+    ],
+    "seasonal_keywords": [
+      {
+        "keyword": "MelodySusie summer nail products",
+        "owned_by": "SC-01 pillar"
+      },
+      {
+        "keyword": "MelodySusie summer gel polish",
+        "owned_by": "SC-01-S1"
+      },
+      {
+        "keyword": "summer pedicure kit MelodySusie",
+        "owned_by": "SC-01-S2"
+      },
+      {
+        "keyword": "summer nail art tools",
+        "owned_by": "SC-01-S3"
+      },
+      {
+        "keyword": "MelodySusie fall nail products",
+        "owned_by": "SC-02 pillar"
+      },
+      {
+        "keyword": "MelodySusie fall gel polish colors",
+        "owned_by": "SC-02-S1"
+      },
+      {
+        "keyword": "fall nail kit MelodySusie",
+        "owned_by": "SC-02-S2"
+      },
+      {
+        "keyword": "MelodySusie holiday nail products",
+        "owned_by": "SC-03 pillar"
+      },
+      {
+        "keyword": "MelodySusie Christmas nail gift set",
+        "owned_by": "SC-03-S1"
+      },
+      {
+        "keyword": "MelodySusie holiday gel polish",
+        "owned_by": "SC-03-S2"
+      },
+      {
+        "keyword": "nail gifts under 50 MelodySusie",
+        "owned_by": "SC-03-S3"
+      },
+      {
+        "keyword": "MelodySusie Black Friday deals",
+        "owned_by": "SC-03-S4"
+      },
+      {
+        "keyword": "MelodySusie spring nail products",
+        "owned_by": "SC-04 pillar"
+      },
+      {
+        "keyword": "MelodySusie spring gel polish",
+        "owned_by": "SC-04-S1"
+      },
+      {
+        "keyword": "spring nail kit MelodySusie",
+        "owned_by": "SC-04-S2"
+      },
+      {
+        "keyword": "MelodySusie valentines day nail products",
+        "owned_by": "SC-05 pillar"
+      },
+      {
+        "keyword": "valentines day gel polish MelodySusie",
+        "owned_by": "SC-05-S1"
+      },
+      {
+        "keyword": "valentine's nail gift set MelodySusie",
+        "owned_by": "SC-05-S2"
+      },
+      {
+        "keyword": "MelodySusie halloween nail products",
+        "owned_by": "SC-06 pillar"
+      },
+      {
+        "keyword": "MelodySusie halloween nail accessories",
+        "owned_by": "SC-06-S1"
+      },
+      {
+        "keyword": "dark gel polish halloween MelodySusie",
+        "owned_by": "SC-06-S2"
+      },
+      {
+        "keyword": "MelodySusie mothers day nail gift",
+        "owned_by": "SC-07 pillar"
+      },
+      {
+        "keyword": "nail gift set for mom MelodySusie",
+        "owned_by": "SC-07-S1"
+      }
+    ]
+  },
+  "total_post_count": {
+    "evergreen_cluster_pillars": 7,
+    "evergreen_spoke_posts": 26,
+    "seasonal_cluster_pillars": 7,
+    "seasonal_spoke_posts": 17,
+    "total": 57
+  },
+  "recommended_production_order": [
+    {
+      "priority": 1,
+      "cluster": "EC-01 Nail Drills",
+      "reason": "Highest AOV, MelodySusie's hero product, strongest brand recognition in search"
+    },
+    {
+      "priority": 2,
+      "cluster": "EC-02 Nail Lamps",
+      "reason": "Always bundled with drills \u2014 high cross-sell opportunity, strong search demand"
+    },
+    {
+      "priority": 3,
+      "cluster": "EC-04 Nail Kits",
+      "reason": "Bundles both tools \u2014 catches buyers ready to buy everything at once"
+    },
+    {
+      "priority": 4,
+      "cluster": "EC-03 Gel Polish",
+      "reason": "Highest search volume category (gel nail polish 215k weekly SV)"
+    },
+    {
+      "priority": 5,
+      "cluster": "SC-03 Winter/Holiday",
+      "reason": "Seasonal urgency \u2014 produces revenue spike; write 8 weeks before November"
+    },
+    {
+      "priority": 6,
+      "cluster": "SC-07 Mother's Day",
+      "reason": "Strong gift-buying intent; write 6 weeks before May"
+    },
+    {
+      "priority": 7,
+      "cluster": "EC-05 Nail Care Tools",
+      "reason": "Lower competition, strong repeat-purchase products"
+    },
+    {
+      "priority": 8,
+      "cluster": "EC-06 Nail Art Tools",
+      "reason": "High creative/aspirational audience"
+    },
+    {
+      "priority": 9,
+      "cluster": "SC-04 Spring",
+      "reason": "High seasonal demand; write 6 weeks before March"
+    },
+    {
+      "priority": 10,
+      "cluster": "SC-05 Valentine's Day",
+      "reason": "Short spike window; write early January"
+    },
+    {
+      "priority": 11,
+      "cluster": "SC-01 Summer",
+      "reason": "Write April for May peak"
+    },
+    {
+      "priority": 12,
+      "cluster": "SC-02 Fall",
+      "reason": "Write August for September peak"
+    },
+    {
+      "priority": 13,
+      "cluster": "SC-06 Halloween",
+      "reason": "Write September for October peak"
+    },
+    {
+      "priority": 14,
+      "cluster": "EC-07 Instant Nails",
+      "reason": "Smaller standalone category \u2014 build last"
+    }
+  ],
+  "next_steps": {
+    "step_1": "Approve this master strategy file \u2014 remove, merge, or add any clusters/posts",
+    "step_2": "Start with EC-01 Nail Drills \u2014 run cluster research agent to generate cluster_map.json + cluster_context.json",
+    "step_3": "For each post in each cluster \u2014 run single-post research agent, attach cluster_context.json",
+    "step_4": "Writing agent receives cluster_context.json + post input file \u2192 writes each post",
+    "step_5": "Seasonal clusters: plan 6\u20138 weeks ahead of each season's peak month"
+  },
+  "agent_instructions": {
+    "greeting_trigger": [
+      "hi",
+      "hello",
+      "hey",
+      "start",
+      "what posts",
+      "show posts",
+      "list posts"
+    ],
+    "on_greeting": "Show the full post list grouped by cluster. Format: [post_id] \u2014 [title] ([cluster_id]). Then ask: Which post number do you want to work on?",
+    "on_post_number": "User will say a number (e.g. 'post 5' or just '5'). Match it to the post with that post_id. Confirm: 'Working on post [N]: [title]' then proceed.",
+    "post_id_is_global": "post_id is the single source of truth. Every pillar and spoke has a unique post_id 1\u201357. No other ID system is used for navigation."
+  }
+}
