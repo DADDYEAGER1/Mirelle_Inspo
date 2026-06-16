@@ -1,0 +1,318 @@
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Terms & Conditions | Mirellé',
+  description: 'Terms and conditions for using mirelleinspo.com.',
+  alternates: {
+    canonical: 'https://mirelleinspo.com/terms',
+  },
+  openGraph: {
+    title: 'Terms & Conditions | Mirellé',
+    description: 'Terms and conditions for using mirelleinspo.com.',
+    url: 'https://mirelleinspo.com/terms',
+    siteName: 'Mirellé',
+    type: 'website',
+  },
+};
+
+export default function TermsPage() {
+  return (
+    <div className="min-h-screen bg-background">
+      <section className="py-20">
+        <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12">
+
+          <p className="font-ui text-sm uppercase tracking-wider text-foreground/40 mb-6">
+            Legal
+          </p>
+          <h1
+            className="font-heading text-5xl text-foreground mb-4"
+            style={{ fontFamily: 'Larken, Georgia, serif' }}
+          >
+            Terms & Conditions
+          </h1>
+          <p
+            className="font-body text-sm text-foreground/40 mb-16"
+            style={{ fontFamily: 'Crimson Text, Georgia, serif' }}
+          >
+            Last Updated: October 6, 2025
+          </p>
+
+          <div
+            className="font-body text-base text-foreground/70 leading-relaxed space-y-12"
+            style={{ fontFamily: 'Crimson Text, Georgia, serif' }}
+          >
+            <p>
+              Welcome to Mirellé. By accessing or using mirelleinspo.com, you agree to comply with
+              and be bound by these Terms & Conditions. If you do not agree, please discontinue use
+              of our website immediately.
+            </p>
+
+            <div>
+              <h2
+                className="font-heading text-2xl text-foreground mb-4"
+                style={{ fontFamily: 'Larken, Georgia, serif' }}
+              >
+                1. Acceptance of Terms
+              </h2>
+              <p>
+                By using Mirellé, you acknowledge that you have read, understood, and agree to be
+                bound by these Terms & Conditions and our Privacy Policy. These terms apply to all
+                visitors, users, and others who access or use our website.
+              </p>
+            </div>
+
+            <div>
+              <h2
+                className="font-heading text-2xl text-foreground mb-4"
+                style={{ fontFamily: 'Larken, Georgia, serif' }}
+              >
+                2. Affiliate Disclosure
+              </h2>
+              <p className="mb-4">
+                Mirellé participates in affiliate marketing programs including Amazon Associates and
+                other affiliate networks. When you click on affiliate links and make a purchase, we
+                may earn a commission at no additional cost to you.
+              </p>
+              <p>
+                We only recommend products we genuinely believe provide value to our readers. All
+                opinions are our own and are not influenced by affiliate partnerships. Your purchase
+                price remains the same whether you use our affiliate links or not.
+              </p>
+            </div>
+
+            <div>
+              <h2
+                className="font-heading text-2xl text-foreground mb-4"
+                style={{ fontFamily: 'Larken, Georgia, serif' }}
+              >
+                3. Use of Content & Intellectual Property
+              </h2>
+              <p className="mb-4">
+                All content on Mirellé, including text, images, graphics, blog posts, and design
+                elements, is owned by or licensed to Mirellé and is protected by copyright, trademark,
+                and other intellectual property laws.
+              </p>
+              <p>
+                You may view, download, and print content for personal, non-commercial use only. You
+                may not reproduce, republish, distribute, or create derivative works without explicit
+                written permission. Sharing our content on social media with proper attribution is
+                permitted and encouraged.
+              </p>
+            </div>
+
+            <div>
+              <h2
+                className="font-heading text-2xl text-foreground mb-4"
+                style={{ fontFamily: 'Larken, Georgia, serif' }}
+              >
+                4. Permitted and Prohibited Use
+              </h2>
+              <p className="mb-4">
+                You may use our website to read blog content, browse recommendations, subscribe to our
+                newsletter, and share our content on social media platforms.
+              </p>
+              <p>
+                You may not copy or scrape our content for use elsewhere, use automated tools to
+                extract data, attempt unauthorized access to our systems, transmit malware or harmful
+                code, impersonate Mirellé, or use our website for any illegal or unauthorized purpose.
+              </p>
+            </div>
+
+            <div>
+              <h2
+                className="font-heading text-2xl text-foreground mb-4"
+                style={{ fontFamily: 'Larken, Georgia, serif' }}
+              >
+                5. Product Recommendations & Third-Party Links
+              </h2>
+              <p className="mb-4">
+                Products featured on Mirellé are sold by third-party retailers. Mirellé does not
+                manufacture, sell, ship, or directly handle any products. We provide recommendations
+                and affiliate links to help you discover quality nail products.
+              </p>
+              <p className="mb-4">
+                Prices, descriptions, and availability are subject to change by third-party retailers.
+                We are not responsible for pricing errors, product availability, shipping delays, or
+                fulfillment issues. All purchases are made directly through third-party retailers under
+                their own terms and policies.
+              </p>
+              <p>
+                Our website may contain links to external third-party sites. Mirellé is not responsible
+                for the content or privacy practices of those sites.
+              </p>
+            </div>
+
+            <div>
+              <h2
+                className="font-heading text-2xl text-foreground mb-4"
+                style={{ fontFamily: 'Larken, Georgia, serif' }}
+              >
+                6. Content Accuracy & Disclaimers
+              </h2>
+              <p className="mb-4">
+                Content on Mirellé is for educational, inspirational, and entertainment purposes only
+                and represents our research, curation, and opinions.
+              </p>
+              <p className="mb-4">
+                Nothing on our website constitutes professional medical, dermatological, health, or
+                beauty advice. Always consult qualified professionals before trying new nail treatments
+                or addressing any health concerns.
+              </p>
+              <p>
+                Results from products or techniques featured on our site may vary based on individual
+                factors. We cannot guarantee specific outcomes.
+              </p>
+            </div>
+
+            <div>
+              <h2
+                className="font-heading text-2xl text-foreground mb-4"
+                style={{ fontFamily: 'Larken, Georgia, serif' }}
+              >
+                7. User-Generated Content
+              </h2>
+              <p>
+                If you submit comments, feedback, or other content to our website, you grant Mirellé
+                a non-exclusive, royalty-free, perpetual, worldwide license to use, reproduce, modify,
+                and display such content in connection with our services. You represent that you own
+                or have the necessary rights to submit it.
+              </p>
+            </div>
+
+            <div>
+              <h2
+                className="font-heading text-2xl text-foreground mb-4"
+                style={{ fontFamily: 'Larken, Georgia, serif' }}
+              >
+                8. Advertising & Analytics
+              </h2>
+              <p>
+                Mirellé uses third-party advertising networks (including Google AdSense) and analytics
+                services to display ads and analyze website traffic. These services may use cookies to
+                collect information about your browsing behavior. See our Privacy Policy for details.
+              </p>
+            </div>
+
+            <div>
+              <h2
+                className="font-heading text-2xl text-foreground mb-4"
+                style={{ fontFamily: 'Larken, Georgia, serif' }}
+              >
+                9. Limitation of Liability
+              </h2>
+              <p className="mb-4">
+                To the fullest extent permitted by law, Mirellé and its owners, contributors, and
+                affiliates shall not be liable for any direct, indirect, incidental, consequential,
+                or punitive damages arising from your use of the website, errors or omissions in
+                content, loss of data or business opportunities, issues from affiliate purchases, or
+                unauthorized access to your data.
+              </p>
+              <p>
+                The website and all content are provided on an "AS IS" and "AS AVAILABLE" basis
+                without warranties of any kind.
+              </p>
+            </div>
+
+            <div>
+              <h2
+                className="font-heading text-2xl text-foreground mb-4"
+                style={{ fontFamily: 'Larken, Georgia, serif' }}
+              >
+                10. Indemnification
+              </h2>
+              <p>
+                You agree to indemnify and hold harmless Mirellé, its owners, employees, and
+                affiliates from any claims, damages, losses, and expenses arising from your use of
+                the website, your violation of these terms, or any content you submit.
+              </p>
+            </div>
+
+            <div>
+              <h2
+                className="font-heading text-2xl text-foreground mb-4"
+                style={{ fontFamily: 'Larken, Georgia, serif' }}
+              >
+                11. Copyright Infringement Claims
+              </h2>
+              <p>
+                If you believe content on our website infringes your copyright, contact us at{' '}
+                <a
+                  href="mailto:contact@mirelleinspo.com"
+                  className="font-ui text-sm uppercase tracking-wide underline hover:no-underline text-foreground"
+                >
+                  contact@mirelleinspo.com
+                </a>{' '}
+                with identification of the copyrighted work, the URL of the allegedly infringing
+                material, your contact information, and a statement of good faith belief that use
+                is unauthorized.
+              </p>
+            </div>
+
+            <div>
+              <h2
+                className="font-heading text-2xl text-foreground mb-4"
+                style={{ fontFamily: 'Larken, Georgia, serif' }}
+              >
+                12. Governing Law & Dispute Resolution
+              </h2>
+              <p>
+                These Terms & Conditions shall be governed by applicable laws. Any disputes arising
+                from these terms or your use of the website shall be resolved through binding
+                arbitration or in courts of appropriate jurisdiction.
+              </p>
+            </div>
+
+            <div>
+              <h2
+                className="font-heading text-2xl text-foreground mb-4"
+                style={{ fontFamily: 'Larken, Georgia, serif' }}
+              >
+                13. Changes to Terms
+              </h2>
+              <p>
+                We reserve the right to modify these Terms & Conditions at any time. Changes are
+                effective immediately upon posting. Continued use of the website constitutes
+                acceptance of the modified terms.
+              </p>
+            </div>
+
+            <div>
+              <h2
+                className="font-heading text-2xl text-foreground mb-4"
+                style={{ fontFamily: 'Larken, Georgia, serif' }}
+              >
+                14. Severability
+              </h2>
+              <p>
+                If any provision of these Terms & Conditions is found invalid or unenforceable, the
+                remaining provisions shall continue in full force and effect.
+              </p>
+            </div>
+
+            <div>
+              <h2
+                className="font-heading text-2xl text-foreground mb-4"
+                style={{ fontFamily: 'Larken, Georgia, serif' }}
+              >
+                15. Contact Us
+              </h2>
+              <p>
+                For questions regarding these Terms & Conditions, contact us at{' '}
+                <a
+                  href="mailto:contact@mirelleinspo.com"
+                  className="font-ui text-sm uppercase tracking-wide underline hover:no-underline text-foreground"
+                >
+                  contact@mirelleinspo.com
+                </a>.
+              </p>
+            </div>
+
+            <p className="text-foreground/40 text-sm pt-4 border-t border-foreground/10">
+              Last Updated: October 6, 2025
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
