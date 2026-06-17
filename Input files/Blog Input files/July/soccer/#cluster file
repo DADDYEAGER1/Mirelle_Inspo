@@ -1,0 +1,245 @@
+{
+  "cluster_metadata": {
+    "cluster_topic": "Soccer Nails",
+    "topic_slug": "soccer",
+    "target_audience": "Global, Tier 1 countries (US, UK, Canada, Australia)",
+    "total_posts": 6,
+    "intent_breakdown": {
+      "informational": 0,
+      "inspirational": 5,
+      "tutorial": 0,
+      "comparison": 0,
+      "seasonal_trend": 1
+    },
+    "pillar_post_slug": "soccer-nails",
+    "created_date": "2026-06-17",
+    "intent_diversity_override": "Cluster intentionally has only 2 distinct intent types (Inspirational, Seasonal-trend) instead of the standard 3+ minimum. This was an explicit user decision after being flagged twice during planning."
+  },
+
+  "existing_site_posts_excluded": [],
+
+  "posts": [
+    {
+      "post_id": 1,
+      "role": "pillar",
+      "title": "Soccer Nails: 20 Cute Ideas for Every Fan",
+      "slug": "soccer-nails",
+      "primary_keyword": "soccer nails",
+      "intent": "inspirational",
+      "estimated_image_count": 20,
+      "search_demand_signals": [
+        "Pinterest: dedicated 'Soccer Nails' and 'Soccer Ball Nails' Ideas pages with deep sub-tag clusters",
+        "TikTok: #soccernails / 'Soccer Nails Ideas' tag at 2.4M+ posts"
+      ],
+      "why_included": "Broadest, most evergreen soccer-nail search demand found in research; anchors the cluster as the pillar and absorbs general styling content (including French tip variations) as sections.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "world-cup-nails", "anchor_text": "world cup nails", "type": "spoke" },
+          { "slug": "flag-country-nails", "anchor_text": "flag nail art", "type": "spoke" },
+          { "slug": "soccer-mom-nails", "anchor_text": "soccer mom nails", "type": "spoke" },
+          { "slug": "soccer-club-nails", "anchor_text": "soccer club nails", "type": "spoke" },
+          { "slug": "soccer-player-nails", "anchor_text": "soccer player nails", "type": "spoke" }
+        ],
+        "gallery_link": {
+          "url": "https://mirelleinspo.com/inspo/soccer-nails-inspiration-gallery",
+          "anchor_text": "soccer nails inspiration gallery"
+        },
+        "receives_links_from": [
+          { "slug": "world-cup-nails", "anchor_text": "soccer nails" },
+          { "slug": "flag-country-nails", "anchor_text": "soccer nails" },
+          { "slug": "soccer-mom-nails", "anchor_text": "soccer nails" },
+          { "slug": "soccer-club-nails", "anchor_text": "soccer nails" },
+          { "slug": "soccer-player-nails", "anchor_text": "soccer nails" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 2,
+      "role": "spoke",
+      "title": "World Cup Nails: 30 Ideas to Cheer In (2026)",
+      "slug": "world-cup-nails",
+      "primary_keyword": "world cup nails",
+      "intent": "seasonal_trend",
+      "estimated_image_count": 30,
+      "search_demand_signals": [
+        "Pinterest: dedicated 'World Cup Nails' and 'World Cup 2026 Nails' Ideas pages",
+        "Etsy: dedicated 'world cup nails' product category with multiple 2026-specific, country-coded listings"
+      ],
+      "why_included": "Time-sensitive, high-volume demand tied directly to the live FIFA World Cup 2026 tournament hosted in the US/Mexico/Canada; also absorbs the 2026-trends angle as a section instead of a separate post.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "soccer-nails", "anchor_text": "soccer nails", "type": "pillar" },
+          { "slug": "flag-country-nails", "anchor_text": "flag nail art", "type": "spoke" },
+          { "slug": "soccer-player-nails", "anchor_text": "soccer player nails", "type": "spoke" },
+          { "slug": "soccer-mom-nails", "anchor_text": "soccer mom nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "soccer-nails", "anchor_text": "world cup nails" },
+          { "slug": "flag-country-nails", "anchor_text": "world cup nails" },
+          { "slug": "soccer-mom-nails", "anchor_text": "world cup nails" },
+          { "slug": "soccer-player-nails", "anchor_text": "world cup nails" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 3,
+      "role": "spoke",
+      "title": "Flag Nail Art: 20 Country Designs for World Cup Season",
+      "slug": "flag-country-nails",
+      "primary_keyword": "flag nail art",
+      "intent": "inspirational",
+      "estimated_image_count": 20,
+      "target_countries": ["USA", "Mexico", "Canada", "Brazil", "Argentina", "England", "France", "Germany", "Spain", "Portugal"],
+      "search_demand_signals": [
+        "Pinterest: country-specific Ideas pages (e.g. England Football Nails) plus general Flag Nail Art tag clusters",
+        "Blog tutorials: step-by-step country-flag nail art guides (LeSalon, Scratch Magazine)"
+      ],
+      "why_included": "Strong cross-platform demand for country-specific flag designs around major tournaments; scoped to the 10 countries with validated individual signal rather than all 48 WC2026 qualifiers.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "soccer-nails", "anchor_text": "soccer nails", "type": "pillar" },
+          { "slug": "world-cup-nails", "anchor_text": "world cup nails", "type": "spoke" },
+          { "slug": "soccer-player-nails", "anchor_text": "soccer player nails", "type": "spoke" },
+          { "slug": "soccer-club-nails", "anchor_text": "soccer club nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "soccer-nails", "anchor_text": "flag nail art" },
+          { "slug": "world-cup-nails", "anchor_text": "flag nail art" },
+          { "slug": "soccer-player-nails", "anchor_text": "flag nail art" },
+          { "slug": "soccer-club-nails", "anchor_text": "flag nail art" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 4,
+      "role": "spoke",
+      "title": "Soccer Club Nails: 20 Designs for 9 Top Teams",
+      "slug": "soccer-club-nails",
+      "primary_keyword": "soccer club nails",
+      "intent": "inspirational",
+      "estimated_image_count": 20,
+      "target_clubs": ["Real Madrid", "Barcelona", "Manchester United", "Arsenal", "Chelsea", "Tottenham", "Borussia Dortmund", "Inter Miami CF", "Seattle Sounders"],
+      "search_demand_signals": [
+        "Pinterest: dedicated 'Real Madrid Nails' Ideas page plus recurring club tags (Arsenal, Chelsea, Tottenham)",
+        "Multiple blog tutorials (step-by-step Real Madrid nail art) and dedicated MLS press-on product lines (Inter Miami CF, Seattle Sounders)"
+      ],
+      "why_included": "Validated club-loyalty demand distinct from country/player angles; covers major global clubs plus MLS for US audience relevance.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "soccer-nails", "anchor_text": "soccer nails", "type": "pillar" },
+          { "slug": "soccer-player-nails", "anchor_text": "soccer player nails", "type": "spoke" },
+          { "slug": "soccer-mom-nails", "anchor_text": "soccer mom nails", "type": "spoke" },
+          { "slug": "flag-country-nails", "anchor_text": "flag nail art", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "soccer-nails", "anchor_text": "soccer club nails" },
+          { "slug": "flag-country-nails", "anchor_text": "soccer club nails" },
+          { "slug": "soccer-mom-nails", "anchor_text": "soccer club nails" },
+          { "slug": "soccer-player-nails", "anchor_text": "soccer club nails" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 5,
+      "role": "spoke",
+      "title": "Soccer Player Nails: 15 Ronaldo & Messi Inspired Designs",
+      "slug": "soccer-player-nails",
+      "primary_keyword": "soccer player nails",
+      "intent": "inspirational",
+      "estimated_image_count": 15,
+      "search_demand_signals": [
+        "Pinterest: dedicated 'Ronaldo Nails' and 'Cristiano Ronaldo Nails' Ideas pages, plus 'Uñas de Messi' Ideas page",
+        "TikTok/Lemon8: active fan-art nail content tagged to both players"
+      ],
+      "why_included": "Validated fan demand for individual athlete-inspired nail art, distinct from team/country angles.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "soccer-nails", "anchor_text": "soccer nails", "type": "pillar" },
+          { "slug": "world-cup-nails", "anchor_text": "world cup nails", "type": "spoke" },
+          { "slug": "soccer-club-nails", "anchor_text": "soccer club nails", "type": "spoke" },
+          { "slug": "flag-country-nails", "anchor_text": "flag nail art", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "soccer-nails", "anchor_text": "soccer player nails" },
+          { "slug": "world-cup-nails", "anchor_text": "soccer player nails" },
+          { "slug": "flag-country-nails", "anchor_text": "soccer player nails" },
+          { "slug": "soccer-mom-nails", "anchor_text": "soccer player nails" },
+          { "slug": "soccer-club-nails", "anchor_text": "soccer player nails" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 6,
+      "role": "spoke",
+      "title": "Soccer Mom Nails: 10 Easy Everyday Designs",
+      "slug": "soccer-mom-nails",
+      "primary_keyword": "soccer mom nails",
+      "intent": "inspirational",
+      "estimated_image_count": 10,
+      "search_demand_signals": [
+        "Pinterest: dedicated 'Soccer Mom Nails' and 'Soccer Nails Design Mom' Ideas pages",
+        "TikTok: #soccermom nail content; Amazon: dedicated soccer-mom nail decal products"
+      ],
+      "why_included": "Distinct audience (parents/supporters) with its own validated demand, separate from fan/tournament/player content.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "soccer-nails", "anchor_text": "soccer nails", "type": "pillar" },
+          { "slug": "world-cup-nails", "anchor_text": "world cup nails", "type": "spoke" },
+          { "slug": "soccer-club-nails", "anchor_text": "soccer club nails", "type": "spoke" },
+          { "slug": "soccer-player-nails", "anchor_text": "soccer player nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "soccer-nails", "anchor_text": "soccer mom nails" },
+          { "slug": "world-cup-nails", "anchor_text": "soccer mom nails" },
+          { "slug": "soccer-club-nails", "anchor_text": "soccer mom nails" }
+        ]
+      },
+      "status": "approved"
+    }
+  ],
+
+  "keyword_ownership_registry": {
+    "description": "Master list of all primary keywords — one per post, no overlaps, includes existing site posts",
+    "entries": [
+      { "primary_keyword": "soccer nails", "owned_by_slug": "soccer-nails", "owned_by_title": "Soccer Nails: 20 Cute Ideas for Every Fan", "source": "new post" },
+      { "primary_keyword": "world cup nails", "owned_by_slug": "world-cup-nails", "owned_by_title": "World Cup Nails: 30 Ideas to Cheer In (2026)", "source": "new post" },
+      { "primary_keyword": "flag nail art", "owned_by_slug": "flag-country-nails", "owned_by_title": "Flag Nail Art: 20 Country Designs for World Cup Season", "source": "new post" },
+      { "primary_keyword": "soccer club nails", "owned_by_slug": "soccer-club-nails", "owned_by_title": "Soccer Club Nails: 20 Designs for 9 Top Teams", "source": "new post" },
+      { "primary_keyword": "soccer player nails", "owned_by_slug": "soccer-player-nails", "owned_by_title": "Soccer Player Nails: 15 Ronaldo & Messi Inspired Designs", "source": "new post" },
+      { "primary_keyword": "soccer mom nails", "owned_by_slug": "soccer-mom-nails", "owned_by_title": "Soccer Mom Nails: 10 Easy Everyday Designs", "source": "new post" }
+    ]
+  },
+
+  "merged_posts_log": [
+    {
+      "original_topics": ["World Cup 2026 Nail Trends"],
+      "merged_into": "World Cup Nails",
+      "reason": "Kept as a section inside the World Cup Nails post instead of a standalone seasonal-trend post, to keep the cluster lean."
+    },
+    {
+      "original_topics": ["Football French Tip Nails"],
+      "merged_into": "Soccer Nails",
+      "reason": "Validated as a real style angle, but folded in as a design-style section in the pillar instead of a standalone post."
+    }
+  ],
+
+  "killed_posts_log": [
+    {
+      "topic": "Short Soccer Nails",
+      "reason": "Attribute/length modifier (short almond, short square), not an independent search behavior. Failed the 2-source validation rule as a standalone topic."
+    },
+    {
+      "topic": "Why Does Ronaldo Paint His Nails (informational angle)",
+      "reason": "Validated demand exists (TikTok), but excluded per user's strategic choice to keep the cluster focused on nail-art inspiration content."
+    },
+    {
+      "topic": "Women's Soccer Nails (Women's Euros/USWNT)",
+      "reason": "Validated demand exists (SoccerBible feature, TikTok), but excluded per user's strategic choice."
+    }
+  ]
+}
