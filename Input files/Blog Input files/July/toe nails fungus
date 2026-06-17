@@ -1,0 +1,288 @@
+{
+  "cluster_metadata": {
+    "cluster_topic": "Toenail Fungus",
+    "topic_slug": "toenail-fungus",
+    "target_audience": "Global, Tier 1 countries",
+    "total_posts": 9,
+    "intent_breakdown": {
+      "informational": 5,
+      "inspirational": 0,
+      "tutorial": 2,
+      "comparison": 2,
+      "seasonal_trend": 0
+    },
+    "pillar_post_slug": "toenail-fungus",
+    "created_date": "2026-06-17"
+  },
+  "existing_site_posts_excluded": [],
+  "posts": [
+    {
+      "post_id": 1,
+      "role": "pillar",
+      "title": "Toenail Fungus: Causes, Symptoms & Complete Treatment Guide",
+      "slug": "toenail-fungus",
+      "primary_keyword": "toenail fungus",
+      "intent": "informational",
+      "search_demand_signals": ["Cleveland Clinic, Scripps, WebMD, APMA: core medical demand", "550K-750K monthly searches per content plan"],
+      "why_included": "Broadest keyword, highest search volume in the cluster, serves as the comprehensive hub covering causes, symptoms, and overview of treatment.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "toenail-fungus-stages", "anchor_text": "toenail fungus stages", "type": "spoke" },
+          { "slug": "toenail-fungus-home-remedies", "anchor_text": "home remedies for toenail fungus", "type": "spoke" },
+          { "slug": "is-toenail-fungus-contagious", "anchor_text": "is toenail fungus contagious", "type": "spoke" },
+          { "slug": "nail-polish-toenail-fungus", "anchor_text": "nail polish toenail fungus", "type": "spoke" },
+          { "slug": "best-toenail-fungus-treatment", "anchor_text": "best toenail fungus treatment", "type": "spoke" },
+          { "slug": "toenail-fungus-laser-treatment-cost", "anchor_text": "laser treatment for toenail fungus cost", "type": "spoke" },
+          { "slug": "toenail-fungus-vs-nail-psoriasis", "anchor_text": "toenail fungus vs nail psoriasis", "type": "spoke" },
+          { "slug": "prevent-toenail-fungus-returning", "anchor_text": "prevent toenail fungus from coming back", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "toenail-fungus-stages", "anchor_text": "toenail fungus guide" },
+          { "slug": "toenail-fungus-home-remedies", "anchor_text": "toenail fungus treatment guide" },
+          { "slug": "is-toenail-fungus-contagious", "anchor_text": "toenail fungus" },
+          { "slug": "nail-polish-toenail-fungus", "anchor_text": "toenail fungus" },
+          { "slug": "best-toenail-fungus-treatment", "anchor_text": "complete toenail fungus guide" },
+          { "slug": "toenail-fungus-laser-treatment-cost", "anchor_text": "toenail fungus" },
+          { "slug": "toenail-fungus-vs-nail-psoriasis", "anchor_text": "toenail fungus" },
+          { "slug": "prevent-toenail-fungus-returning", "anchor_text": "toenail fungus treatment guide" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 2,
+      "role": "spoke",
+      "title": "Toenail Fungus Stages: What Each Stage Looks Like (With Pictures)",
+      "slug": "toenail-fungus-stages",
+      "primary_keyword": "toenail fungus stages",
+      "intent": "informational",
+      "search_demand_signals": ["Healthline, MichiganFootDoctors, RelefordInstitute all publish dedicated stage/picture guides"],
+      "why_included": "High visual-diagnostic search demand; readers want to self-identify severity before seeking treatment.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "toenail-fungus", "anchor_text": "toenail fungus guide", "type": "pillar" },
+          { "slug": "toenail-fungus-vs-nail-psoriasis", "anchor_text": "toenail fungus vs nail psoriasis", "type": "spoke" },
+          { "slug": "is-toenail-fungus-contagious", "anchor_text": "is toenail fungus contagious", "type": "spoke" },
+          { "slug": "best-toenail-fungus-treatment", "anchor_text": "best toenail fungus treatment", "type": "spoke" },
+          { "slug": "nail-polish-toenail-fungus", "anchor_text": "nail polish toenail fungus", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "toenail-fungus", "anchor_text": "toenail fungus stages" },
+          { "slug": "is-toenail-fungus-contagious", "anchor_text": "toenail fungus stages" },
+          { "slug": "toenail-fungus-vs-nail-psoriasis", "anchor_text": "toenail fungus stages" },
+          { "slug": "nail-polish-toenail-fungus", "anchor_text": "toenail fungus stages" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 3,
+      "role": "spoke",
+      "title": "Home Remedies for Toenail Fungus: What Actually Works",
+      "slug": "toenail-fungus-home-remedies",
+      "primary_keyword": "home remedies for toenail fungus",
+      "intent": "tutorial",
+      "search_demand_signals": ["GoodRx, Cleveland Clinic, Drugs.com, Midwest Podiatry all publish remedy guides", "Viral TikTok video (denverskindoc) on vinegar/Listerine + Vicks soak"],
+      "why_included": "High DIY-treatment demand with a confirmed social/TikTok signal in addition to multiple medical sources.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "toenail-fungus", "anchor_text": "toenail fungus treatment guide", "type": "pillar" },
+          { "slug": "best-toenail-fungus-treatment", "anchor_text": "best toenail fungus treatment", "type": "spoke" },
+          { "slug": "toenail-fungus-laser-treatment-cost", "anchor_text": "laser treatment for toenail fungus cost", "type": "spoke" },
+          { "slug": "prevent-toenail-fungus-returning", "anchor_text": "prevent toenail fungus from coming back", "type": "spoke" },
+          { "slug": "nail-polish-toenail-fungus", "anchor_text": "nail polish toenail fungus", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "toenail-fungus", "anchor_text": "home remedies for toenail fungus" },
+          { "slug": "is-toenail-fungus-contagious", "anchor_text": "home remedies for toenail fungus" },
+          { "slug": "toenail-fungus-vs-nail-psoriasis", "anchor_text": "home remedies for toenail fungus" },
+          { "slug": "best-toenail-fungus-treatment", "anchor_text": "home remedies for toenail fungus" },
+          { "slug": "toenail-fungus-laser-treatment-cost", "anchor_text": "home remedies for toenail fungus" },
+          { "slug": "prevent-toenail-fungus-returning", "anchor_text": "home remedies for toenail fungus" },
+          { "slug": "nail-polish-toenail-fungus", "anchor_text": "home remedies for toenail fungus" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 4,
+      "role": "spoke",
+      "title": "Is Toenail Fungus Contagious? How It Spreads and How to Avoid Catching It",
+      "slug": "is-toenail-fungus-contagious",
+      "primary_keyword": "is toenail fungus contagious",
+      "intent": "informational",
+      "search_demand_signals": ["Top recurring PAA question", "EMUAID, Patel Podiatry, Family Foot Care all dedicate FAQ content to this"],
+      "why_included": "Anxiety-driven top-of-funnel question with consistent demand across podiatry FAQ pages.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "toenail-fungus", "anchor_text": "toenail fungus", "type": "pillar" },
+          { "slug": "toenail-fungus-stages", "anchor_text": "toenail fungus stages", "type": "spoke" },
+          { "slug": "prevent-toenail-fungus-returning", "anchor_text": "prevent toenail fungus from coming back", "type": "spoke" },
+          { "slug": "toenail-fungus-home-remedies", "anchor_text": "home remedies for toenail fungus", "type": "spoke" },
+          { "slug": "nail-polish-toenail-fungus", "anchor_text": "nail polish toenail fungus", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "toenail-fungus", "anchor_text": "is toenail fungus contagious" },
+          { "slug": "toenail-fungus-stages", "anchor_text": "is toenail fungus contagious" },
+          { "slug": "prevent-toenail-fungus-returning", "anchor_text": "is toenail fungus contagious" },
+          { "slug": "nail-polish-toenail-fungus", "anchor_text": "is toenail fungus contagious" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 5,
+      "role": "spoke",
+      "title": "Can You Wear Nail Polish or Get a Pedicure With Toenail Fungus?",
+      "slug": "nail-polish-toenail-fungus",
+      "primary_keyword": "nail polish toenail fungus",
+      "intent": "informational",
+      "search_demand_signals": ["9+ dedicated articles: Drugs.com, EMUAID, DeNiel Foot & Ankle, FAANT, Advanced Footcare Chicago"],
+      "why_included": "Strongest on-brand fit for a nail-content site — bridges nail aesthetics with the health/fungus angle, unique to no other nail blog covering this credibly.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "toenail-fungus", "anchor_text": "toenail fungus", "type": "pillar" },
+          { "slug": "toenail-fungus-stages", "anchor_text": "toenail fungus stages", "type": "spoke" },
+          { "slug": "is-toenail-fungus-contagious", "anchor_text": "is toenail fungus contagious", "type": "spoke" },
+          { "slug": "toenail-fungus-home-remedies", "anchor_text": "home remedies for toenail fungus", "type": "spoke" },
+          { "slug": "best-toenail-fungus-treatment", "anchor_text": "best toenail fungus treatment", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "toenail-fungus", "anchor_text": "nail polish toenail fungus" },
+          { "slug": "toenail-fungus-stages", "anchor_text": "nail polish toenail fungus" },
+          { "slug": "is-toenail-fungus-contagious", "anchor_text": "nail polish toenail fungus" },
+          { "slug": "toenail-fungus-home-remedies", "anchor_text": "nail polish toenail fungus" },
+          { "slug": "best-toenail-fungus-treatment", "anchor_text": "nail polish toenail fungus" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 6,
+      "role": "spoke",
+      "title": "Best Toenail Fungus Treatments Compared: OTC vs Prescription vs Laser",
+      "slug": "best-toenail-fungus-treatment",
+      "primary_keyword": "best toenail fungus treatment",
+      "intent": "comparison",
+      "search_demand_signals": ["Yahoo Health (dermatologist-reviewed roundup)", "Scripps Health, WebMD treatment comparison guides"],
+      "why_included": "Deciding-stage searcher comparing treatment paths; high relevance to pharma/OTC and prescription antifungal advertisers.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "toenail-fungus", "anchor_text": "complete toenail fungus guide", "type": "pillar" },
+          { "slug": "toenail-fungus-laser-treatment-cost", "anchor_text": "laser treatment for toenail fungus cost", "type": "spoke" },
+          { "slug": "toenail-fungus-home-remedies", "anchor_text": "home remedies for toenail fungus", "type": "spoke" },
+          { "slug": "prevent-toenail-fungus-returning", "anchor_text": "prevent toenail fungus from coming back", "type": "spoke" },
+          { "slug": "toenail-fungus-vs-nail-psoriasis", "anchor_text": "toenail fungus vs nail psoriasis", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "toenail-fungus", "anchor_text": "best toenail fungus treatment" },
+          { "slug": "toenail-fungus-stages", "anchor_text": "best toenail fungus treatment" },
+          { "slug": "toenail-fungus-vs-nail-psoriasis", "anchor_text": "best toenail fungus treatment" },
+          { "slug": "toenail-fungus-home-remedies", "anchor_text": "best toenail fungus treatment" },
+          { "slug": "toenail-fungus-laser-treatment-cost", "anchor_text": "best toenail fungus treatment" },
+          { "slug": "prevent-toenail-fungus-returning", "anchor_text": "best toenail fungus treatment" },
+          { "slug": "nail-polish-toenail-fungus", "anchor_text": "best toenail fungus treatment" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 7,
+      "role": "spoke",
+      "title": "Laser Treatment for Toenail Fungus: Cost & What to Expect",
+      "slug": "toenail-fungus-laser-treatment-cost",
+      "primary_keyword": "laser treatment for toenail fungus cost",
+      "intent": "informational",
+      "search_demand_signals": ["MichiganFootDoctors, Foot & Ankle Centers (multiple dedicated cost-breakdown pages)", "RestorePodiatry cost/worth-it analysis"],
+      "why_included": "High-intent cost query for a premium treatment path; strong pharma/clinic advertiser relevance.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "toenail-fungus", "anchor_text": "toenail fungus", "type": "pillar" },
+          { "slug": "best-toenail-fungus-treatment", "anchor_text": "best toenail fungus treatment", "type": "spoke" },
+          { "slug": "prevent-toenail-fungus-returning", "anchor_text": "prevent toenail fungus from coming back", "type": "spoke" },
+          { "slug": "toenail-fungus-home-remedies", "anchor_text": "home remedies for toenail fungus", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "toenail-fungus", "anchor_text": "laser treatment for toenail fungus cost" },
+          { "slug": "toenail-fungus-home-remedies", "anchor_text": "laser treatment for toenail fungus cost" },
+          { "slug": "best-toenail-fungus-treatment", "anchor_text": "laser treatment for toenail fungus cost" },
+          { "slug": "prevent-toenail-fungus-returning", "anchor_text": "laser treatment for toenail fungus cost" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 8,
+      "role": "spoke",
+      "title": "Toenail Fungus vs Nail Psoriasis: How to Tell the Difference",
+      "slug": "toenail-fungus-vs-nail-psoriasis",
+      "primary_keyword": "toenail fungus vs nail psoriasis",
+      "intent": "comparison",
+      "search_demand_signals": ["Healthline and MedicalNewsToday both flag psoriasis as the top fungus misdiagnosis", "RelefordInstitute confirms misdiagnosis confusion in patient cases"],
+      "why_included": "Common misdiagnosis confusion creates a distinct comparison-intent opportunity with no existing site coverage.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "toenail-fungus", "anchor_text": "toenail fungus", "type": "pillar" },
+          { "slug": "toenail-fungus-stages", "anchor_text": "toenail fungus stages", "type": "spoke" },
+          { "slug": "best-toenail-fungus-treatment", "anchor_text": "best toenail fungus treatment", "type": "spoke" },
+          { "slug": "toenail-fungus-home-remedies", "anchor_text": "home remedies for toenail fungus", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "toenail-fungus", "anchor_text": "toenail fungus vs nail psoriasis" },
+          { "slug": "toenail-fungus-stages", "anchor_text": "toenail fungus vs nail psoriasis" },
+          { "slug": "best-toenail-fungus-treatment", "anchor_text": "toenail fungus vs nail psoriasis" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 9,
+      "role": "spoke",
+      "title": "How to Stop Toenail Fungus From Coming Back After Treatment",
+      "slug": "prevent-toenail-fungus-returning",
+      "primary_keyword": "prevent toenail fungus from coming back",
+      "intent": "tutorial",
+      "search_demand_signals": ["Cleveland Clinic and Scripps both repeatedly cite recurrence as the #1 patient frustration"],
+      "why_included": "High-frustration repeat-searcher topic; post-treatment audience with strong supplement/prevention-product advertiser relevance.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "toenail-fungus", "anchor_text": "toenail fungus treatment guide", "type": "pillar" },
+          { "slug": "is-toenail-fungus-contagious", "anchor_text": "is toenail fungus contagious", "type": "spoke" },
+          { "slug": "toenail-fungus-home-remedies", "anchor_text": "home remedies for toenail fungus", "type": "spoke" },
+          { "slug": "best-toenail-fungus-treatment", "anchor_text": "best toenail fungus treatment", "type": "spoke" },
+          { "slug": "toenail-fungus-laser-treatment-cost", "anchor_text": "laser treatment for toenail fungus cost", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "toenail-fungus", "anchor_text": "prevent toenail fungus from coming back" },
+          { "slug": "is-toenail-fungus-contagious", "anchor_text": "prevent toenail fungus from coming back" },
+          { "slug": "toenail-fungus-home-remedies", "anchor_text": "prevent toenail fungus from coming back" },
+          { "slug": "best-toenail-fungus-treatment", "anchor_text": "prevent toenail fungus from coming back" },
+          { "slug": "toenail-fungus-laser-treatment-cost", "anchor_text": "prevent toenail fungus from coming back" }
+        ]
+      },
+      "status": "approved"
+    }
+  ],
+  "keyword_ownership_registry": {
+    "description": "Master list of all primary keywords — one per post, no overlaps, includes existing site posts",
+    "entries": [
+      { "primary_keyword": "toenail fungus", "owned_by_slug": "toenail-fungus", "owned_by_title": "Toenail Fungus: Causes, Symptoms & Complete Treatment Guide", "source": "new post" },
+      { "primary_keyword": "toenail fungus stages", "owned_by_slug": "toenail-fungus-stages", "owned_by_title": "Toenail Fungus Stages: What Each Stage Looks Like (With Pictures)", "source": "new post" },
+      { "primary_keyword": "home remedies for toenail fungus", "owned_by_slug": "toenail-fungus-home-remedies", "owned_by_title": "Home Remedies for Toenail Fungus: What Actually Works", "source": "new post" },
+      { "primary_keyword": "is toenail fungus contagious", "owned_by_slug": "is-toenail-fungus-contagious", "owned_by_title": "Is Toenail Fungus Contagious? How It Spreads and How to Avoid Catching It", "source": "new post" },
+      { "primary_keyword": "nail polish toenail fungus", "owned_by_slug": "nail-polish-toenail-fungus", "owned_by_title": "Can You Wear Nail Polish or Get a Pedicure With Toenail Fungus?", "source": "new post" },
+      { "primary_keyword": "best toenail fungus treatment", "owned_by_slug": "best-toenail-fungus-treatment", "owned_by_title": "Best Toenail Fungus Treatments Compared: OTC vs Prescription vs Laser", "source": "new post" },
+      { "primary_keyword": "laser treatment for toenail fungus cost", "owned_by_slug": "toenail-fungus-laser-treatment-cost", "owned_by_title": "Laser Treatment for Toenail Fungus: Cost & What to Expect", "source": "new post" },
+      { "primary_keyword": "toenail fungus vs nail psoriasis", "owned_by_slug": "toenail-fungus-vs-nail-psoriasis", "owned_by_title": "Toenail Fungus vs Nail Psoriasis: How to Tell the Difference", "source": "new post" },
+      { "primary_keyword": "prevent toenail fungus from coming back", "owned_by_slug": "prevent-toenail-fungus-returning", "owned_by_title": "How to Stop Toenail Fungus From Coming Back After Treatment", "source": "new post" }
+    ]
+  },
+  "merged_posts_log": [
+    {
+      "original_topics": ["nail fungus and diabetes risk factor angle"],
+      "merged_into": "Toenail Fungus: Causes, Symptoms & Complete Treatment Guide",
+      "reason": "Insufficient standalone search volume distinct from the pillar; folded into the pillar's causes/risk-factors section instead of a separate post."
+    }
+  ],
+  "killed_posts_log": []
+}
