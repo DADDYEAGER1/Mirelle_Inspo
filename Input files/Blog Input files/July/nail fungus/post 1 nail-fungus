@@ -1,0 +1,459 @@
+# INPUT FILE — BLOG GEN AGENT
+## THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT.
+All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.
+
+---
+
+## SECTION 1 — FILE AUTHORITY
+
+THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.
+
+**Mode:** CLUSTER MODE — cluster context loaded.
+
+---
+
+## SECTION 2 — POST CONSTANTS
+
+| Field | Value |
+|---|---|
+| slug | what-is-nail-fungus |
+| topic_slug | nail-fungus |
+| canonical | https://mirelleinspo.com/blog/nail-fungus/what-is-nail-fungus |
+| post_type | pillar |
+| intent | informational |
+| word_count | 3000 |
+| image_count | 11 (hero + 10 H2s — finalised after phase 6) |
+| template | center |
+| hero_dimensions | 1200x630 |
+| category | Nail Care Guide |
+| publish_date | 2026-06-20 |
+| author | Mirellé Team |
+
+---
+
+## SECTION 3 — CLUSTER SNAPSHOT
+
+| Field | Value |
+|---|---|
+| pillar_slug | what-is-nail-fungus |
+| pillar_title | What Is Nail Fungus: Symptoms, Causes, and When to Treat It |
+| pillar_primary_keyword | nail fungus |
+| this_post_slug | what-is-nail-fungus |
+| this_post_role | pillar |
+| keywords_to_avoid | toenail fungus, nail fungus cure, nail fungus gone forever, nail fungus overnight fix |
+
+---
+
+## SECTION 4 — SERP ANALYSIS
+
+**Competitor gaps — what top-ranking posts are NOT answering:**
+- No competitor clearly explains the *four clinical types* of nail fungus (DLSO, WSO, PSO, endonyx) in accessible language for a lay audience — they either skip type classification entirely or bury it in medical jargon.
+- No competitor addresses the difference between nail fungus and conditions that mimic it (nail psoriasis, keratin granulation from polish, nail trauma) — a significant and underserved question in community forums.
+- Competitors do not address the role of nail colour and skin tone in spotting early symptoms (darker skin tones present differently — brown thickening vs yellow in lighter skin).
+- Very few cover the psychological/social burden — embarrassment at salons, avoiding sandals, hiding feet — which is a dominant theme in real community conversations.
+- No competitor clearly maps the treatment decision pathway: when OTC is enough vs when a GP/dermatologist visit is warranted.
+
+**Missing semantic territory:**
+- Onychomycosis as the clinical name — competitors use it but don't explain it for lay readers.
+- Dermatophyte, Candida, non-dermatophyte mould — the three distinct organism groups — not distinguished for readers.
+- The nail salon risk angle: spreading from/to clients, sterilisation, whether to disclose to a technician.
+- Conditions that look like nail fungus but aren't — a frequently searched but poorly answered topic.
+- Why nail fungus is harder to treat than skin fungus (nail plate as a physical barrier).
+
+**Our strategic approach:**
+This post will be the most complete overview on the SERP for nail fungus — combining clear clinical information with the emotional reality of living with it. Unlike competitors who either over-medicalise or under-explain, this post answers the question "what is this and what do I do next?" in one place, with a clear pathway to treatment and linked spoke posts for depth.
+
+**Image count validation:**
+SERP content for "nail fungus" is heavily text-based with clinical imagery. Pillar rule applies: hero + 1 image per H2. Image count finalised at 11 (1 hero + 10 H2 sections).
+
+---
+
+## SECTION 5 — AUDIENCE INTELLIGENCE
+
+**Who they are:**
+Adults aged 30–65 who have noticed a visual change in one or more nails — typically discolouration, thickening, or crumbling — and want to understand what it is before committing to any action. Many are mildly embarrassed and have been ignoring the issue for months. A secondary segment is people who have been told they may have nail fungus by a GP or podiatrist and want to understand their diagnosis in plain language. Not medically trained. Mix of genders, skewed slightly male in affected population but female in active health research behaviour.
+
+**What they want from this post:**
+A clear, confident explanation of what nail fungus actually is, how to recognise it, why it happened to them (without shame), what the options are at a high level, and a clear signal of whether they need to see a doctor or can manage it themselves. They want to feel informed and in control, not anxious.
+
+**What frustrates them about current content:**
+- Competitor posts are either too brief (a single paragraph) or so medically dense they feel inaccessible.
+- Most articles skip the "is this actually fungus or is it something else?" question — which is a primary anxiety.
+- Treatment sections are vague: "see a doctor" without any signal of urgency or self-care guidance.
+- No empathy for the social discomfort: hiding feet, being embarrassed at nail salons, avoiding open-toed shoes.
+
+**Top 5 pain points:**
+1. Not knowing if what they're seeing is actually nail fungus or something else (psoriasis, injury, keratin granulations from polish).
+2. Shame and embarrassment — particularly around nail salons, swimming pools, and open-toed shoes.
+3. Uncertainty about whether to treat at home or see a doctor, and how urgent it is.
+4. Concern about spreading it to other nails, family members, or surfaces.
+5. Confusion about why it's so hard to treat and why it keeps coming back.
+
+**Exact user phrases (from Quora, community research):**
+- "my nail has gone yellow and thick — is that fungus?"
+- "how do I know if it's nail fungus or just damaged from gel?"
+- "is nail fungus contagious to my family?"
+- "I've had it for years and nothing works"
+- "can I get a pedicure if I have nail fungus?"
+- "should I be embarrassed to show my feet at the salon?"
+- "will it go away on its own if I just keep it clean?"
+- "I can't afford the prescription — are OTC things even worth it?"
+- "why does nail fungus take so long to go away?"
+- "is nail fungus dangerous or just cosmetic?"
+
+**Intent content signals:**
+- Readers want answers before action — this is a research post, not a buying post.
+- They respond to authoritative but non-condescending tone — like a knowledgeable friend, not a medical leaflet.
+- They want validation of their experience (it is common, it is not a hygiene failure) before information.
+- Short, scannable sections with clear H2s — they are looking for their specific question, not reading linearly.
+- They appreciate a clear "when to see a doctor" section — it reduces anxiety.
+- Acknowledging the emotional burden (embarrassment, hiding feet) builds trust before the clinical content.
+
+---
+
+## SECTION 6 — SEMANTIC KEYWORD DATA
+
+**Primary keyword:** nail fungus
+
+**Keyword variations (all cannibalization-cleared):**
+- nail fungus infection
+- fungal nail infection
+- nail fungus signs
+- nail fungus explained
+- what is nail fungus
+- nail fungus overview
+- nail fungus types
+- nail fungus risk factors
+- nail fungus diagnosis
+- onychomycosis overview
+
+**Cluster keywords (cleared — none drift into spoke territory):**
+- onychomycosis
+- tinea unguium
+- fungal nail
+- dermatophyte nail infection
+- nail discolouration fungus
+- thickened nails fungus
+- crumbling nail
+- nail plate infection
+- nail bed infection
+- nail fungus contagious
+- nail fungus spreading
+- nail fungus in adults
+- nail fungus older adults
+- nail fungus risk groups
+- fungal nail signs
+
+**LSI terms (specific to "nail fungus" pillar — not drifting into spoke keywords):**
+- onychomycosis clinical types
+- distal subungual onychomycosis
+- white superficial onychomycosis
+- proximal subungual onychomycosis
+- endonyx onychomycosis
+- Candida nail infection
+- dermatophyte fungi
+- nail plate keratin
+- nail bed hyperkeratosis
+- onycholysis (nail separation)
+- subungual debris
+- fungal nail diagnosis
+- nail fungus vs nail psoriasis
+- nail trauma vs fungus
+- nail fungus in darker skin tones
+- early nail fungus signs
+- nail fungus contagion routes
+- nail fungus and athlete's foot
+- nail fungus immune system
+- nail fungus recurrence
+
+**AEO terms (full question phrases for AI answer engines):**
+- What is nail fungus?
+- What causes nail fungus?
+- What are the symptoms of nail fungus?
+- What does nail fungus look like?
+- Is nail fungus contagious?
+- How do you know if you have nail fungus?
+- What is the difference between nail fungus and nail psoriasis?
+- Who is most at risk of getting nail fungus?
+- Can nail fungus go away on its own?
+- When should I see a doctor for nail fungus?
+- What types of nail fungus are there?
+- How does nail fungus spread?
+
+**Technical terms:**
+- onychomycosis
+- tinea unguium
+- dermatophyte
+- Trichophyton rubrum
+- Candida albicans
+- subungual hyperkeratosis
+- onycholysis
+- nail matrix
+
+**User language (casual phrases from real conversations):**
+- yellow thick nail
+- crumbly nail at the edge
+- white patch under nail
+- nail lifting off
+- nail gone dark underneath
+- nail smells odd
+- nail gone brittle
+- nail looks chalky
+- nail won't grow back normal
+- nails embarrassing at salon
+
+---
+
+## SECTION 7 — VOICE AND AI QUERIES
+
+1. What is nail fungus exactly?
+2. What does nail fungus look like when it starts?
+3. How do you know if a nail is infected with fungus?
+4. Is nail fungus the same as athlete's foot?
+5. Can nail fungus spread to other nails?
+6. Can you get nail fungus from a nail salon?
+7. Is nail fungus dangerous or just cosmetic?
+8. Who gets nail fungus most often?
+9. Why do nails turn yellow with fungus?
+10. Can nail fungus go away without treatment?
+11. What happens if you leave nail fungus untreated?
+12. Is nail fungus contagious to family members?
+13. What is the difference between nail fungus and nail psoriasis?
+14. Why is nail fungus so hard to get rid of?
+15. When should you see a doctor about nail fungus?
+16. Can nail polish cause nail fungus?
+17. Does nail fungus hurt?
+18. What are the types of nail fungus?
+
+---
+
+## SECTION 8 — CONTENT STRUCTURE
+
+**H1:** What Is Nail Fungus: Symptoms, Causes, and When to Treat It
+
+**H2 structure (ordered — 10 H2s):**
+1. What Nail Fungus Actually Is (and Why So Many People Have It)
+2. The Four Types of Nail Fungus — and Why the Type Matters
+3. Early Signs of Nail Fungus: What to Look For
+4. What Causes Nail Fungus and How It Enters the Nail
+5. Who Is Most at Risk of Developing Nail Fungus
+6. Nail Fungus vs Conditions That Look Like It
+7. Can Nail Fungus Spread — to Other Nails, People, or Surfaces?
+8. When to Treat It Yourself and When to See a Doctor
+9. An Overview of Nail Fungus Treatment Options
+10. How to Prevent Nail Fungus From Returning
+
+**Word budget:**
+
+| Section | Budget |
+|---|---|
+| Introduction | 220 words |
+| H2-1: What Nail Fungus Actually Is | 280 words |
+| H2-2: The Four Types | 320 words |
+| H2-3: Early Signs | 280 words |
+| H2-4: What Causes Nail Fungus | 280 words |
+| H2-5: Who Is Most at Risk | 260 words |
+| H2-6: Nail Fungus vs Look-alikes | 280 words |
+| H2-7: Can It Spread | 240 words |
+| H2-8: When to Treat vs See a Doctor | 260 words |
+| H2-9: Treatment Options Overview | 280 words |
+| H2-10: Prevention | 240 words |
+| Conclusion | 160 words |
+| **Total** | **3000 words** |
+
+---
+
+## SECTION 9 — INTERNAL LINKS
+
+| URL | Title | Anchor Text | Placement | Link Type |
+|---|---|---|---|---|
+| /blog/nail-fungus/nail-fungus-symptoms | Nail Fungus Symptoms: What to Look For at Every Stage | nail fungus symptoms | H2-3 (Early Signs) — link out for readers who want deeper symptom detail | cluster-spoke |
+| /blog/nail-fungus/nail-fungus-treatment | Nail Fungus Treatment: OTC, Prescription, and What Actually Works | nail fungus treatment | H2-9 (Treatment Overview) — naturally introduce the treatment spoke | cluster-spoke |
+| /blog/nail-fungus/nail-fungus-prevention | How to Prevent Nail Fungus From Coming Back | nail fungus prevention | H2-10 (Prevention) — direct readers to the prevention spoke for full detail | cluster-spoke |
+| /nail-faqs/can-nail-polish-damage-your-natural-nails | Can Nail Polish Damage Your Natural Nails? | keratin granulations from nail polish | H2-6 (Look-alikes) — relevant to distinguishing nail fungus from polish damage effects | cross-site |
+| /topics/nail-care-guide | The Complete Nail Care Guide | nail care | H2-10 (Prevention) — supports hygiene habits cross-reference | cross-site |
+
+---
+
+## SECTION 10 — VOICE AND TONE
+
+**Recommended voice:** Confident, warm educator
+
+**Tone characteristics:**
+1. Authoritative but never clinical — writes as a knowledgeable ally, not a medical leaflet
+2. Empathetic without being soft — acknowledges the social discomfort of nail fungus without dwelling on it
+3. Direct — gives clear answers rather than hedging with "you should consult a doctor" at every turn
+4. Reassuring — normalises the condition without minimising it
+5. British English throughout — colour, recognise, discolouration, organised
+
+**Language style:**
+Moderate sentence length. Short declarative sentences to open each section, then expand. No jargon without explanation. Uses "you" directly. Avoids medical leaflet phrasing. Avoids excessive qualifying language. No em dashes.
+
+**Audience match:**
+This reader wants to feel informed and not judged. The warm-educator voice provides clinical confidence without condescension, and the empathetic acknowledgment of embarrassment builds trust before the information lands.
+
+---
+
+## SECTION 11 — EXTERNAL LINKS
+
+| URL | Context | Anchor Suggestion |
+|---|---|---|
+| https://www.aad.org/public/diseases/a-z/nail-fungus-overview | American Academy of Dermatology — authoritative source for definition and contagion overview | American Academy of Dermatology |
+| https://www.ncbi.nlm.nih.gov/books/NBK279547/ | NCBI/InformedHealth evidence-based overview — supports treatment timeline and type discussion | clinical overview of nail fungus |
+| https://www.nailpro.com/onychomycosis-types-nail-fungus-causes-and-symptoms/ | Nailpro professional industry coverage — supports nail salon risk and technician perspective section | Nailpro |
+
+---
+
+## SECTION 12 — EXECUTION PLAN
+
+**Blog Gen Agent: READ THIS SECTION FIRST. Lock every value. Execute exactly. Do not recalculate, do not adjust, do not deviate.**
+
+---
+
+### BLOCK 1 — KEYWORD EXECUTION
+
+**Primary keyword:** nail fungus
+**Total mention target:** 3000 × 0.02 = **60 mentions**
+**First 100 words plan:**
+- Mention 1: Sentence 2 of introduction — introduce "nail fungus" by name as the topic
+- Mention 2: Sentence 5–6 of introduction — state how common nail fungus is as context
+
+**First half target (words 1–1500):** 36 mentions — denser in introduction, H2-1 through H2-5
+**Second half target (words 1501–3000):** 24 mentions — lighter in H2-6 through H2-10 and conclusion
+
+**Strong tag rule:** EVERY single mention of "nail fungus" — all 60 — wrapped in `<strong>` tags. No exceptions. Catch each one as it is written.
+
+**Keywords to avoid active:** toenail fungus, nail fungus cure, nail fungus gone forever, nail fungus overnight fix
+
+---
+
+### BLOCK 2 — WORD BUDGET
+
+**Total target:** 3000 words — ±50 words tolerance, never exceed
+
+| Section | Budget | Complexity |
+|---|---|---|
+| Introduction | 220 words | medium |
+| H2-1: What Nail Fungus Actually Is | 280 words | medium |
+| H2-2: The Four Types of Nail Fungus | 320 words | high |
+| H2-3: Early Signs of Nail Fungus | 280 words | medium |
+| H2-4: What Causes Nail Fungus | 280 words | medium |
+| H2-5: Who Is Most at Risk | 260 words | low-medium |
+| H2-6: Nail Fungus vs Conditions That Look Like It | 280 words | high |
+| H2-7: Can Nail Fungus Spread | 240 words | medium |
+| H2-8: When to Treat vs See a Doctor | 260 words | medium |
+| H2-9: Treatment Options Overview | 280 words | medium |
+| H2-10: Prevention | 240 words | low |
+| Conclusion | 160 words | low |
+
+**Tracking rule:** Track running word total at end of every H2 section. If a section runs over budget — cut before moving to the next section.
+
+---
+
+### BLOCK 3 — IMAGE PLAN
+
+**Total images:** 11
+**Hero image:** frontmatter only — NEVER in post body
+**Body images:** 10 (one per H2 section)
+
+| Image # | Place After | Section Context |
+|---|---|---|
+| 1 | H2-1: What Nail Fungus Actually Is | Close-up of a discoloured, thickened nail — classic early-to-mid nail fungus presentation |
+| 2 | H2-2: The Four Types | Clear nail showing white superficial patches or distal discolouration — illustrating a type |
+| 3 | H2-3: Early Signs | Early-stage nail discolouration — yellow or white spot at nail tip |
+| 4 | H2-4: What Causes Nail Fungus | Foot in communal shower or gym environment — contextual cause imagery |
+| 5 | H2-5: Who Is Most at Risk | Older adult's foot or close-up of nail affected by thickening — risk group context |
+| 6 | H2-6: Nail Fungus vs Look-alikes | Side-by-side or single nail showing nail changes that could be confused with fungus |
+| 7 | H2-7: Can It Spread | Nail clippers or shared tools — transmission imagery |
+| 8 | H2-8: When to See a Doctor | Clinical or clean doctor/podiatry setting image |
+| 9 | H2-9: Treatment Options | Antifungal topical product, nail lacquer, or medication pill |
+| 10 | H2-10: Prevention | Clean, trimmed nails or protective footwear — prevention context |
+
+**Image type rule:** ALL body images = real nail health / nail care imagery. NO infographics. NO process diagrams. NO comparison charts.
+**Path rule:** /images/blog/nail-fungus/what-is-nail-fungus/filename.webp
+
+---
+
+### BLOCK 4 — OPENING TECHNIQUE ASSIGNMENTS
+
+**Rule:** No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.
+
+| Section | Technique |
+|---|---|
+| Introduction | Technique 2 — The Empathy Hook (acknowledge embarrassment/normalise before informing) |
+| H2-1: What Nail Fungus Actually Is | Technique 1 — The Claim (clear declarative definition statement) |
+| H2-2: The Four Types | Technique 4 — The Specificity Opener (open with the number: "There are four clinically recognised types") |
+| H2-3: Early Signs | Technique 2 — The Empathy Hook (most people notice something small first) |
+| H2-4: What Causes Nail Fungus | Technique 1 — The Claim (fungi are everywhere — the question is what allows them to take hold) |
+| H2-5: Who Is Most at Risk | Technique 3 — The Reframe (nail fungus is not a hygiene failure — it is a risk profile) |
+| H2-6: Look-alikes | Technique 4 — The Specificity Opener (three conditions are commonly mistaken for nail fungus) |
+| H2-7: Can It Spread | Technique 1 — The Claim (yes, nail fungus spreads — but in predictable ways) |
+| H2-8: When to See a Doctor | Technique 2 — The Empathy Hook (most people wait too long) |
+| H2-9: Treatment Overview | Technique 3 — The Reframe (treatment works — but patience is part of the prescription) |
+| H2-10: Prevention | Technique 1 — The Claim (the habits that prevent nail fungus are simple — the difficulty is consistency) |
+| Conclusion | Technique 1 — The Claim |
+
+---
+
+### BLOCK 5 — LINK PLACEMENTS
+
+| Anchor Text | Full URL | Place In Section | Placement Context | Link Type |
+|---|---|---|---|---|
+| nail fungus symptoms | /blog/nail-fungus/nail-fungus-symptoms | H2-3: Early Signs | After describing early signs, link out: "For a full breakdown by stage, see our guide to nail fungus symptoms." | cluster-spoke |
+| nail fungus treatment | /blog/nail-fungus/nail-fungus-treatment | H2-9: Treatment Overview | After overview paragraph — "For a full comparison of OTC vs prescription options, see our guide to nail fungus treatment." | cluster-spoke |
+| nail fungus prevention | /blog/nail-fungus/nail-fungus-prevention | H2-10: Prevention | Close of section — link to spoke for full prevention protocol | cluster-spoke |
+| keratin granulations from nail polish | /nail-faqs/can-nail-polish-damage-your-natural-nails | H2-6: Look-alikes | In the paragraph distinguishing nail fungus from polish-related nail changes | cross-site |
+| nail care | /topics/nail-care-guide | H2-10: Prevention | Within prevention hygiene advice — contextual mention of broader nail care habits | cross-site |
+
+---
+
+### BLOCK 6 — AEO / GEO PLAN
+
+**AEO assignments:**
+
+| AEO Term | Assigned To | Execution |
+|---|---|---|
+| What is nail fungus? | H2-1: What Nail Fungus Actually Is | Write direct 2–3 sentence answer immediately after H2 heading before elaboration |
+| What are the symptoms of nail fungus? | H2-3: Early Signs | Direct answer paragraph first: list the primary visible signs concisely |
+| What causes nail fungus? | H2-4: What Causes Nail Fungus | Direct 2–3 sentence answer opening the section before detailed explanation |
+| Who is most at risk of getting nail fungus? | H2-5: Who Is Most at Risk | Direct answer paragraph listing the primary risk groups before elaboration |
+| Can nail fungus go away on its own? | H2-8: When to Treat vs See a Doctor | Address this question directly in first paragraph — answer: almost never without treatment |
+| Is nail fungus contagious? | H2-7: Can Nail Fungus Spread | Open with direct yes/no answer + transmission routes in 2–3 sentences |
+| What is the difference between nail fungus and nail psoriasis? | H2-6: Look-alikes | Direct 2–3 sentence differentiator paragraph at section opening |
+| What are the types of nail fungus? | H2-2: The Four Types | Immediate direct answer: four named types + one-line description each |
+
+**GEO entity statements:**
+
+| Entity | Assigned To | Execution |
+|---|---|---|
+| Onychomycosis | H2-1: What Nail Fungus Actually Is | Clear declarative definition: "Onychomycosis is the medical term for nail fungus — a fungal infection that invades the nail plate, nail bed, or surrounding skin." |
+| Dermatophyte | H2-4: What Causes Nail Fungus | Definition sentence: "A dermatophyte is a type of fungus that feeds on keratin, the protein that makes nails hard — and it is responsible for the majority of nail fungus infections." |
+| Distal lateral subungual onychomycosis (DLSO) | H2-2: The Four Types | Definition: "Distal lateral subungual onychomycosis — or DLSO — is the most common form of nail fungus, beginning at the tip or side of the nail and spreading toward the cuticle." |
+| Onycholysis | H2-2 or H2-3 | Definition sentence when the term is used: "Onycholysis is the medical term for when the nail plate separates from the nail bed — a common sign that nail fungus has progressed." |
+
+---
+
+### BLOCK 7 — ACTIVE CONSTRAINTS
+
+**Em dash banned:** Long em dash does not appear anywhere. If one forms while writing — stop, replace with: comma, new sentence, parentheses, "but", or restructure.
+
+**Banned vocab watch (most likely slips for this topic):**
+- "cure" (say "clear" or "resolve" instead)
+- "miraculous" / "amazing"
+- "delve"
+- "crucial"
+- "straightforward"
+- "comprehensive" (ironic — do not use it)
+- "importantly"
+
+**British English active:** colour, recognise, discolouration, organised, practise (verb), licence (noun) — every instance, no exceptions.
+
+**Keyword density reminder:** After every 2 H2 sections — count current keyword mentions. Verify first half is running denser than second half. Adjust if needed.
+
+**Image path reminder:** /images/blog/nail-fungus/what-is-nail-fungus/filename.webp — topic_slug in path always.
+
+**Internal link URL reminder:** Full correct paths only. Cluster links = /blog/nail-fungus/[slug]. Cross-site links = exact URL as discovered. Never bare /slug.
+
+**Hero image reminder:** Hero = frontmatter only. Never place hero image in body.
+
+**Strong tag reminder:** Every primary keyword mention = `<strong>` tags. Scan after every paragraph.
