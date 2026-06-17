@@ -1,0 +1,516 @@
+{
+  "file_authority": "THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.",
+
+  "post_constants": {
+    "slug": "nail-polish-toenail-fungus",
+    "topic_slug": "toenail-fungus",
+    "canonical": "https://mirelleinspo.com/blog/toenail-fungus/nail-polish-toenail-fungus",
+    "post_type": "spoke",
+    "intent": "informational",
+    "word_count": 1800,
+    "image_count": 1,
+    "image_note": "Hero image in frontmatter only. Zero body images.",
+    "template": "split-left",
+    "hero_dimensions": "800x800",
+    "category": "Nail Health",
+    "publish_date": "2026-06-17",
+    "author": "Mirellé Team"
+  },
+
+  "cluster_snapshot": {
+    "pillar_slug": "toenail-fungus",
+    "pillar_title": "Toenail Fungus: Causes, Symptoms & Complete Treatment Guide",
+    "pillar_primary_keyword": "toenail fungus",
+    "this_post_slug": "nail-polish-toenail-fungus",
+    "this_post_role": "spoke",
+    "keywords_to_avoid": [
+      "toenail fungus",
+      "toenail fungus stages",
+      "home remedies for toenail fungus",
+      "is toenail fungus contagious",
+      "best toenail fungus treatment",
+      "laser treatment for toenail fungus cost",
+      "toenail fungus vs nail psoriasis",
+      "prevent toenail fungus from coming back"
+    ]
+  },
+
+  "serp_analysis": {
+    "blog_gen_instruction": "Use competitor gaps and missing semantic territory to fill what competitors miss. Our strategic approach is the angle for the introduction and conclusion.",
+    "top_ranking_content_patterns": [
+      "Drugs.com FAQ format: yes/no answer then caveats",
+      "EMUAID FAQ: short clinical tone, pedicure refusal angle",
+      "DrAntiFungus: dos and don'ts list format",
+      "Cleveland Clinic: moisture-trapping mechanism explained",
+      "Patel Podiatry: spreading via polish bottles angle",
+      "New Step Podiatry: treatment penetration blockage angle"
+    ],
+    "competitor_gaps": [
+      "No competitor clearly differentiates rules by treatment type (ciclopirox vs oral Lamisil vs efinaconazole — each has a different polish rule)",
+      "No competitor addresses the antifungal nail polish category clearly (daniPro, Dr.'s Remedy, JustForToenails) with honest assessment",
+      "Pedicure refusal is mentioned but no competitor explains what a 'safe' cosmetic-only pedicure actually looks like in practice",
+      "Gel nails and acrylic nails over fungal toenails not addressed by most competitors",
+      "No competitor addresses the keratin granulation vs fungus confusion that arises when removing polish",
+      "Most posts don't explain the moisture-trapping mechanism clearly enough for readers to understand why it worsens infection"
+    ],
+    "missing_semantic_territory": [
+      "Antifungal nail polish brands as a category",
+      "Lamisil (oral) vs ciclopirox (topical) — polish rules differ by treatment",
+      "Gel nails over infected toenails",
+      "What to do when you remove polish and discover fungus underneath",
+      "Pedicure safety protocols for fungal toenails",
+      "Base coat as partial protection",
+      "Keratin granulations from polish vs fungal discolouration"
+    ],
+    "our_strategic_approach": "Every competitor answers the surface question — can you or can't you — then moves on. This post goes deeper: it explains exactly when polish is acceptable, when it actively worsens the infection, which specific treatment types prohibit polish entirely, and what a genuinely safe pedicure looks like for someone with active toenail fungus. The nail content site angle gives us credibility on the cosmetic side that purely clinical sites lack.",
+    "depth_signal": "Top results are 600–1200 words. SERP is satisfied with a medium-depth, clearly structured answer. 1800 words is sufficient and competitive — no need to inflate."
+  },
+
+  "audience_intelligence": {
+    "blog_gen_instruction": "This is your primary creative brief. Every paragraph written for this specific person with this specific intent. Satisfy them completely.",
+    "who_they_are": "Primarily women aged 25–55 who have noticed discolouration or thickening in one or more toenails and are either already diagnosed with toenail fungus or strongly suspect it. They are nail-aware — they care about how their feet look, especially in sandals or at the pool. They are not medical patients primarily; they are consumers who want to keep their nail routines going while managing an uncomfortable, embarrassing condition.",
+    "what_they_want_from_this_post": "A direct, honest answer to: can I wear nail polish right now, will it make things worse, can I still get a pedicure, and what should I actually do instead. They want practical permission or clear prohibition — not vague 'consult your doctor' deflection.",
+    "what_frustrates_them": [
+      "Generic 'see a doctor' advice that doesn't answer the specific polish question",
+      "Conflicting information — some sources say yes, others say no, without explaining why",
+      "No acknowledgment that they have events or holidays where bare feet aren't an option",
+      "Silence on what antifungal polishes actually exist and whether they work",
+      "No guidance on whether pedicure salons will even accept them"
+    ],
+    "top_5_pain_points": [
+      "I have a holiday/wedding/pool day and don't want to show bare fungal toenails — what can I use?",
+      "My antifungal treatment says no polish but I don't understand why",
+      "I don't know if salons will refuse me and I don't want the embarrassment",
+      "I removed my polish and found white/yellow damage underneath — is that fungus or just polish damage?",
+      "I want to use antifungal polish but don't know if it actually works"
+    ],
+    "exact_user_phrases": [
+      "can you paint over toenail fungus",
+      "will nail polish make toenail fungus worse",
+      "can I get a pedicure with toenail fungus",
+      "nail polish toenail fungus what to do",
+      "does nail polish hide toenail fungus",
+      "antifungal nail polish does it work",
+      "can I wear gel nails with toenail fungus",
+      "removed polish and found white nails is it fungus",
+      "will salons do pedicures with fungal nails",
+      "can I wear nail polish while taking Lamisil"
+    ],
+    "intent_content_signals": [
+      "They want a scannable answer structure — key question answered in first paragraph",
+      "They respond to practical rules not just clinical mechanism",
+      "They want the antifungal polish category addressed honestly",
+      "They want the pedicure question addressed directly including salon policy",
+      "British English expected (site is Mirellé)",
+      "Warm but authoritative — nail expert who also understands wanting to look good"
+    ]
+  },
+
+  "semantic_keyword_data": {
+    "blog_gen_instruction": "Primary keyword in strong tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.",
+    "primary_keyword": "nail polish toenail fungus",
+    "keyword_variations": [
+      "nail polish with toenail fungus",
+      "can you wear nail polish with toenail fungus",
+      "painting toenails with fungus",
+      "nail varnish toenail fungus",
+      "polish over toenail fungus"
+    ],
+    "cluster_keywords": [
+      "antifungal nail polish",
+      "medicated nail lacquer",
+      "ciclopirox nail lacquer",
+      "pedicure toenail fungus",
+      "toenail fungus nail salon",
+      "gel nails toenail fungus",
+      "onychomycosis nail polish",
+      "nail polish fungal infection",
+      "cosmetic nail polish fungus",
+      "antifungal nail lacquer brands",
+      "toenail polish fungus spread",
+      "nail polish moisture trap"
+    ],
+    "lsi_terms": [
+      "onychomycosis",
+      "nail lacquer",
+      "moisture trap",
+      "keratin granulations",
+      "terbinafine",
+      "efinaconazole",
+      "tavaborole",
+      "Lamisil nail polish",
+      "Jublia polish interaction",
+      "Kerydin polish interaction",
+      "Penlac nail lacquer",
+      "breathable nail polish",
+      "dermatophyte",
+      "nail bed",
+      "fungal nail infection cosmetic cover",
+      "salon refusal fungus",
+      "cosmetic-only pedicure",
+      "base coat fungus protection",
+      "antifungal topical penetration"
+    ],
+    "aeo_terms": [
+      "Can you wear nail polish if you have toenail fungus?",
+      "Does nail polish make toenail fungus worse?",
+      "Can I get a pedicure with toenail fungus?",
+      "Will salons do pedicures on fungal toenails?",
+      "Can I wear nail polish while taking Lamisil?",
+      "Can I wear nail polish while using ciclopirox?",
+      "Does antifungal nail polish actually work?",
+      "Can you put gel nails over toenail fungus?",
+      "Why does nail polish make fungal nails worse?",
+      "What happens if you remove polish and find white nails?"
+    ],
+    "technical_terms": [
+      "onychomycosis",
+      "dermatophytes",
+      "ciclopirox olamine",
+      "efinaconazole (Jublia)",
+      "tavaborole (Kerydin)",
+      "terbinafine (Lamisil)",
+      "keratin granulations",
+      "nail plate occlusion"
+    ],
+    "user_language": [
+      "painting over toenail fungus",
+      "cover up fungal nails",
+      "pedicure with bad toenails",
+      "can salons tell you have fungus",
+      "antifungal polish brands",
+      "white nails after removing polish",
+      "polish and Lamisil together",
+      "breathable nail polish for fungus",
+      "gel nails and fungus risk"
+    ]
+  },
+
+  "voice_and_ai_queries": {
+    "blog_gen_instruction": "Answer every query directly in the relevant H2 section body. If a query cannot be addressed naturally in the body, route it to faqItems. No query left unanswered.",
+    "queries": [
+      "Can you wear nail polish if you have toenail fungus?",
+      "Does nail polish make toenail fungus worse?",
+      "Why does nail polish worsen a fungal nail infection?",
+      "Can I get a pedicure if I have toenail fungus?",
+      "Will a nail salon refuse to do my pedicure if I have toenail fungus?",
+      "Can I wear nail polish while taking Lamisil for toenail fungus?",
+      "Can I wear nail polish while using ciclopirox nail lacquer?",
+      "Does antifungal nail polish actually work on toenail fungus?",
+      "What antifungal nail polish brands actually exist?",
+      "Can you put gel nails or acrylics over toenail fungus?",
+      "What happens if I remove nail polish and find white or yellow nails underneath?",
+      "Is it safe to use a base coat over toenail fungus?",
+      "How long should I wait after treating toenail fungus before using nail polish again?",
+      "Can toenail fungus spread through shared nail polish?"
+    ]
+  },
+
+  "content_structure": {
+    "blog_gen_instruction": "This H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s without user instruction. Word budget per section is set — follow it. H3s may be added at editorial discretion.",
+    "h1": "Can You Wear Nail Polish with Toenail Fungus? What Salons, Doctors and Your Treatment Say",
+    "h2_structure": [
+      "Why Nail Polish and Toenail Fungus Is a Complicated Combination",
+      "Does Nail Polish Make Toenail Fungus Worse?",
+      "Can You Wear Nail Polish While on Treatment?",
+      "Antifungal Nail Polish: Does It Actually Work?",
+      "Can You Get a Pedicure with Toenail Fungus?",
+      "What About Gel Nails or Acrylics Over Infected Toenails?",
+      "You Removed Your Polish and Found White or Yellow Nails — Now What?",
+      "When Can You Safely Wear Nail Polish Again?"
+    ],
+    "word_budget": {
+      "introduction": "200 words",
+      "h2_1_why_complicated": "175 words",
+      "h2_2_does_polish_worsen": "200 words",
+      "h2_3_treatment_rules": "280 words",
+      "h2_4_antifungal_polish": "200 words",
+      "h2_5_pedicure": "220 words",
+      "h2_6_gel_acrylics": "150 words",
+      "h2_7_removed_polish_white_nails": "175 words",
+      "h2_8_when_safe_again": "150 words",
+      "conclusion": "150 words",
+      "total": "1800 words"
+    }
+  },
+
+  "internal_links": {
+    "blog_gen_instruction": "Every link below must appear in the post. Cluster links use anchor texts verbatim — do not rewrite. Cross-site links use the provided anchor. Place each link where the placement note says — woven naturally into prose, never as a standalone CTA.",
+    "all_internal_links": [
+      {
+        "url_or_slug": "/blog/toenail-fungus/toenail-fungus",
+        "title": "Toenail Fungus: Causes, Symptoms & Complete Treatment Guide",
+        "anchor_text": "toenail fungus",
+        "placement_note": "H2-1 (Why Nail Polish and Toenail Fungus Is a Complicated Combination) — first mention of the underlying infection, link naturally on 'toenail fungus'",
+        "link_type": "cluster-pillar"
+      },
+      {
+        "url_or_slug": "/blog/toenail-fungus/toenail-fungus-stages",
+        "title": "Toenail Fungus Stages: What Each Stage Looks Like (With Pictures)",
+        "anchor_text": "toenail fungus stages",
+        "placement_note": "H2-2 (Does Nail Polish Make Toenail Fungus Worse?) — when mentioning severity affecting treatment decisions, link on 'toenail fungus stages'",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/toenail-fungus/is-toenail-fungus-contagious",
+        "title": "Is Toenail Fungus Contagious? How It Spreads and How to Avoid Catching It",
+        "anchor_text": "is toenail fungus contagious",
+        "placement_note": "H2-5 (Can You Get a Pedicure with Toenail Fungus?) — when mentioning risk of spreading to other clients via shared tools, link on 'is toenail fungus contagious'",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/toenail-fungus/toenail-fungus-home-remedies",
+        "title": "Home Remedies for Toenail Fungus: What Actually Works",
+        "anchor_text": "home remedies for toenail fungus",
+        "placement_note": "H2-4 (Antifungal Nail Polish: Does It Actually Work?) — when noting limited efficacy of topical-only approaches and mentioning alternatives, link on 'home remedies for toenail fungus'",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/toenail-fungus/best-toenail-fungus-treatment",
+        "title": "Best Toenail Fungus Treatments Compared: OTC vs Prescription vs Laser",
+        "anchor_text": "best toenail fungus treatment",
+        "placement_note": "H2-3 (Can You Wear Nail Polish While on Treatment?) — when introducing treatment types that have different polish rules, link on 'best toenail fungus treatment'",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/nail-faqs/can-nail-polish-damage-your-natural-nails",
+        "title": "Can Nail Polish Damage Your Natural Nails?",
+        "anchor_text": "nail polish damage your natural nails",
+        "placement_note": "H2-7 (You Removed Your Polish and Found White or Yellow Nails) — when explaining keratin granulations vs fungal damage distinction, link naturally",
+        "link_type": "cross-site"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/nail-faqs/whats-the-difference-between-a-manicure-and-a-pedicure",
+        "title": "What's the Difference Between a Manicure and a Pedicure?",
+        "anchor_text": "pedicure",
+        "placement_note": "H2-5 (Can You Get a Pedicure with Toenail Fungus?) — on first mention of pedicure context, link naturally to give readers full pedicure grounding",
+        "link_type": "cross-site"
+      }
+    ]
+  },
+
+  "voice_tone": {
+    "blog_gen_instruction": "This is the voice for this specific post. Layer on top of Mirellé editorial framework. Do not default to generic AI tone.",
+    "recommended_voice": "Warm clinical authority — the knowledgeable friend who knows nails and knows health, and gives you the honest answer without being preachy",
+    "tone_characteristics": [
+      "Direct and specific — answers the actual question in the opening paragraph",
+      "Empathetic to the cosmetic concern — acknowledges that people want to look good and that bare fungal nails are genuinely distressing",
+      "Honest about limitations — doesn't oversell antifungal polish or dismiss the cosmetic workaround",
+      "Non-judgmental on pedicures — explains the reality without shaming the reader for wanting one",
+      "Clear on the treatment rules — clinical accuracy without clinical coldness"
+    ],
+    "language_style": "Medium sentence length, active voice, occasional second-person 'you', no hedging language. British English throughout: varnish acceptable alongside polish, colour not color, recognise not recognize.",
+    "audience_match": "This reader is nail-literate but not medically trained. They want the same answer a trusted dermatologist friend would give over coffee — honest, specific, and without unnecessary alarm."
+  },
+
+  "external_links": {
+    "blog_gen_instruction": "Include all external links where indicated. Supports E-E-A-T. Use anchor suggestion as guide — write naturally around it.",
+    "links": [
+      {
+        "url": "https://www.drugs.com/medical-answers/wear-nail-polish-nail-fungus-3561257/",
+        "context": "H2-3 when explaining ciclopirox prohibition on cosmetic polish — Drugs.com cites AAD guidance directly",
+        "anchor_suggestion": "American Academy of Dermatology guidance on nail polish during treatment"
+      },
+      {
+        "url": "https://my.clevelandclinic.org/health/diseases/11303-toenail-fungus",
+        "context": "H2-2 when explaining moisture-trapping mechanism — Cleveland Clinic is E-E-A-T authority on this point",
+        "anchor_suggestion": "Cleveland Clinic on how nail polish traps moisture under infected nails"
+      },
+      {
+        "url": "https://www.dermatologyaffiliates.com/blog/nail-fungus-myths-vs-facts",
+        "context": "H2-6 when addressing gel and acrylic nails — cites actual study showing 67/68 patients who removed artificial nails were diagnosed with fungal infection",
+        "anchor_suggestion": "research on artificial nails and fungal nail infections"
+      }
+    ]
+  },
+
+  "execution_plan": {
+    "blog_gen_instruction": "READ THIS SECTION FIRST. Lock every value. Execute exactly. Do not recalculate, do not adjust, do not deviate.",
+
+    "block_1_keyword_execution": {
+      "primary_keyword": "nail polish toenail fungus",
+      "total_mention_target": "1800 x 0.02 = 36 mentions total",
+      "first_100_words_plan": {
+        "mention_1": "Sentence 1–2 of introduction — establish the core question with primary keyword in opening sentence",
+        "mention_2": "Sentence 3–4 of introduction — second natural use in context of what this post covers"
+      },
+      "first_half_target": "22 mentions — first 900 words",
+      "second_half_target": "14 mentions — second 900 words",
+      "strong_tag_rule": "EVERY single mention of 'nail polish toenail fungus' wrapped in <strong> tags. No exceptions.",
+      "keywords_to_avoid_active": [
+        "toenail fungus (as standalone focus term — use only as part of 'nail polish toenail fungus' or in compound phrases)",
+        "toenail fungus stages",
+        "home remedies for toenail fungus",
+        "is toenail fungus contagious",
+        "best toenail fungus treatment",
+        "laser treatment for toenail fungus cost",
+        "toenail fungus vs nail psoriasis",
+        "prevent toenail fungus from coming back"
+      ]
+    },
+
+    "block_2_word_budget": {
+      "total_target": "1800 words — +/-50 words tolerance, never exceed",
+      "introduction": "200 words",
+      "conclusion": "150 words",
+      "h2_budgets": [
+        { "heading": "Why Nail Polish and Toenail Fungus Is a Complicated Combination", "budget": "175 words", "complexity": "low" },
+        { "heading": "Does Nail Polish Make Toenail Fungus Worse?", "budget": "200 words", "complexity": "medium" },
+        { "heading": "Can You Wear Nail Polish While on Treatment?", "budget": "280 words", "complexity": "high" },
+        { "heading": "Antifungal Nail Polish: Does It Actually Work?", "budget": "200 words", "complexity": "medium" },
+        { "heading": "Can You Get a Pedicure with Toenail Fungus?", "budget": "220 words", "complexity": "medium" },
+        { "heading": "What About Gel Nails or Acrylics Over Infected Toenails?", "budget": "150 words", "complexity": "low" },
+        { "heading": "You Removed Your Polish and Found White or Yellow Nails — Now What?", "budget": "175 words", "complexity": "medium" },
+        { "heading": "When Can You Safely Wear Nail Polish Again?", "budget": "150 words", "complexity": "low" }
+      ],
+      "tracking_rule": "Track running word total at the end of every H2 section. If a section is running over budget — cut before moving to the next section. Do not compensate later."
+    },
+
+    "block_3_image_plan": {
+      "total_images": 1,
+      "hero_image": "Frontmatter only — one 800x800 image. NEVER appears in post body.",
+      "body_images": 0,
+      "image_type_rule": "Hero only. No body images whatsoever.",
+      "path_rule": "/images/blog/toenail-fungus/nail-polish-toenail-fungus/hero.webp"
+    },
+
+    "block_4_opening_technique_assignments": {
+      "rule": "No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.",
+      "assignments": [
+        { "section": "Introduction", "technique": "Technique 2 — The Scenario (reader recognises their situation immediately)" },
+        { "section": "Why Nail Polish and Toenail Fungus Is a Complicated Combination", "technique": "Technique 4 — The Contrast (yes you can / but here's why it's not simple)" },
+        { "section": "Does Nail Polish Make Toenail Fungus Worse?", "technique": "Technique 1 — The Claim (direct answer then mechanism)" },
+        { "section": "Can You Wear Nail Polish While on Treatment?", "technique": "Technique 3 — The Reframe (the treatment type, not the fungus, is what decides)" },
+        { "section": "Antifungal Nail Polish: Does It Actually Work?", "technique": "Technique 2 — The Scenario (reader has seen the products in pharmacy)" },
+        { "section": "Can You Get a Pedicure with Toenail Fungus?", "technique": "Technique 1 — The Claim (direct answer on salon policy)" },
+        { "section": "What About Gel Nails or Acrylics Over Infected Toenails?", "technique": "Technique 3 — The Reframe (worst of all options — here's why)" },
+        { "section": "You Removed Your Polish and Found White or Yellow Nails — Now What?", "technique": "Technique 2 — The Scenario (reader's exact moment of discovery)" },
+        { "section": "When Can You Safely Wear Nail Polish Again?", "technique": "Technique 4 — The Contrast (not when the nail looks better — when treatment is complete)" },
+        { "section": "Conclusion", "technique": "Technique 1 — The Claim" }
+      ],
+      "banned_opener_rule": "Check every opener against banned_opening_approaches in blog gen prompt before writing the second sentence"
+    },
+
+    "block_5_link_placements": {
+      "rule": "Every link placed exactly where specified. Anchor texts used verbatim — never rewritten. Links woven into prose naturally — never standalone CTAs.",
+      "links": [
+        {
+          "anchor_text": "toenail fungus",
+          "full_url": "/blog/toenail-fungus/toenail-fungus",
+          "place_in_section": "Why Nail Polish and Toenail Fungus Is a Complicated Combination",
+          "placement_context": "First mention of the underlying infection — 'if you have [toenail fungus], the condition is a fungal infection of the nail plate...'",
+          "link_type": "cluster-pillar"
+        },
+        {
+          "anchor_text": "toenail fungus stages",
+          "full_url": "/blog/toenail-fungus/toenail-fungus-stages",
+          "place_in_section": "Does Nail Polish Make Toenail Fungus Worse?",
+          "placement_context": "When noting severity affects how much polish use matters — 'the more advanced the [toenail fungus stages], the more critical it becomes to avoid occlusion'",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "best toenail fungus treatment",
+          "full_url": "/blog/toenail-fungus/best-toenail-fungus-treatment",
+          "place_in_section": "Can You Wear Nail Polish While on Treatment?",
+          "placement_context": "When introducing the treatment type framework — 'the rules differ depending on which treatment you are using — for a full comparison see [best toenail fungus treatment]'",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "home remedies for toenail fungus",
+          "full_url": "/blog/toenail-fungus/toenail-fungus-home-remedies",
+          "place_in_section": "Antifungal Nail Polish: Does It Actually Work?",
+          "placement_context": "When noting limited efficacy — 'for mild infections, antifungal polish is one option among several — see [home remedies for toenail fungus] for a fuller picture'",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "pedicure",
+          "full_url": "https://mirelleinspo.com/nail-faqs/whats-the-difference-between-a-manicure-and-a-pedicure",
+          "place_in_section": "Can You Get a Pedicure with Toenail Fungus?",
+          "placement_context": "On first mention of pedicure in the section opening — link naturally to support readers who want full pedicure context",
+          "link_type": "cross-site"
+        },
+        {
+          "anchor_text": "is toenail fungus contagious",
+          "full_url": "/blog/toenail-fungus/is-toenail-fungus-contagious",
+          "place_in_section": "Can You Get a Pedicure with Toenail Fungus?",
+          "placement_context": "When noting shared tool risk — 'fungal infections spread readily through shared implements — [is toenail fungus contagious] covers exactly how transmission happens'",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "nail polish damage your natural nails",
+          "full_url": "https://mirelleinspo.com/nail-faqs/can-nail-polish-damage-your-natural-nails",
+          "place_in_section": "You Removed Your Polish and Found White or Yellow Nails — Now What?",
+          "placement_context": "When distinguishing keratin granulations from fungus — 'white patches after removal are often keratin granulations from the polish itself, not fungus — see [nail polish damage your natural nails] for how to tell them apart'",
+          "link_type": "cross-site"
+        }
+      ]
+    },
+
+    "block_6_aeo_geo_plan": {
+      "aeo_assignments": [
+        {
+          "aeo_term": "Can you wear nail polish if you have toenail fungus?",
+          "assigned_to_section": "Why Nail Polish and Toenail Fungus Is a Complicated Combination",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading — before any elaboration. Answer: technically yes for cosmetic polish, but it creates moisture conditions that worsen the infection, and specific treatments prohibit it entirely."
+        },
+        {
+          "aeo_term": "Does nail polish make toenail fungus worse?",
+          "assigned_to_section": "Does Nail Polish Make Toenail Fungus Worse?",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading. Answer: yes, by trapping moisture and creating a warm dark seal — the precise conditions fungi thrive in."
+        },
+        {
+          "aeo_term": "Can I wear nail polish while using ciclopirox?",
+          "assigned_to_section": "Can You Wear Nail Polish While on Treatment?",
+          "execution": "Direct answer: no. Ciclopirox (Penlac) instructions explicitly prohibit cosmetic nail polish. Efinaconazole and tavaborole have different rules. Oral terbinafine (Lamisil) does not prohibit it."
+        },
+        {
+          "aeo_term": "Can you put gel nails or acrylics over toenail fungus?",
+          "assigned_to_section": "What About Gel Nails or Acrylics Over Infected Toenails?",
+          "execution": "Direct answer: no. Gel and acrylic create a thick impermeable seal that accelerates fungal growth and blocks any topical treatment from reaching the nail bed."
+        },
+        {
+          "aeo_term": "What happens if I remove nail polish and find white or yellow nails underneath?",
+          "assigned_to_section": "You Removed Your Polish and Found White or Yellow Nails — Now What?",
+          "execution": "Direct 2-3 sentence answer: white flaky patches are often keratin granulations from the polish, not fungus — they grow out. Yellow/brown discolouration through the nail plate is more likely fungal. Stop polishing and consult a dermatologist or podiatrist."
+        }
+      ],
+      "geo_entity_statements": [
+        {
+          "entity": "ciclopirox nail lacquer",
+          "assigned_to_section": "Can You Wear Nail Polish While on Treatment?",
+          "execution": "Ciclopirox nail lacquer (brand name Penlac) is a prescription antifungal treatment applied directly to the nail — its instructions explicitly prohibit use with cosmetic nail polish, as polish interferes with the treatment's ability to penetrate the nail plate."
+        },
+        {
+          "entity": "antifungal nail polish",
+          "assigned_to_section": "Antifungal Nail Polish: Does It Actually Work?",
+          "execution": "Antifungal nail polish is a cosmetic nail product that contains antifungal ingredients such as tea tree oil or undecylenic acid — it is not a prescription treatment and should not be used in place of medicated nail lacquers such as ciclopirox."
+        },
+        {
+          "entity": "keratin granulations",
+          "assigned_to_section": "You Removed Your Polish and Found White or Yellow Nails — Now What?",
+          "execution": "Keratin granulations are white, chalky patches on the nail surface caused by moisture loss from prolonged nail polish use — they are not fungal and will grow out, though they are commonly mistaken for toenail fungus."
+        }
+      ]
+    },
+
+    "block_7_active_constraints": {
+      "em_dash_banned": "Long em dash does not appear anywhere. Replace with: comma, new sentence, parentheses, 'but', or restructure.",
+      "banned_vocab_watch": [
+        "delve",
+        "crucial",
+        "ensure",
+        "journey",
+        "straightforward",
+        "comprehensive",
+        "transformative",
+        "amazing"
+      ],
+      "british_english_active": "colour, recognise, varnish (acceptable variant of polish), -ise endings, -our endings — every instance, no exceptions",
+      "keyword_density_reminder": "After every 2 H2 sections — count current keyword mentions. Verify first half is running denser than second half.",
+      "image_path_reminder": "/images/blog/toenail-fungus/nail-polish-toenail-fungus/hero.webp — topic_slug in path always. Hero in frontmatter only.",
+      "internal_link_url_reminder": "Cluster links = /blog/toenail-fungus/[slug]. Cross-site links = exact discovered URL. Never bare /slug.",
+      "hero_image_reminder": "Hero = frontmatter only. Never place in body. Zero body images.",
+      "strong_tag_reminder": "Every primary keyword mention 'nail polish toenail fungus' = <strong> tags. Scan after every paragraph."
+    }
+  }
+}
