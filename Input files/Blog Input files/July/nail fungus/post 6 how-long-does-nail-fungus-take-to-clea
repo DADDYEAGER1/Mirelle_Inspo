@@ -1,0 +1,417 @@
+{
+  "section_1_file_authority": {
+    "statement": "THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly."
+  },
+
+  "section_2_post_constants": {
+    "slug": "how-long-does-nail-fungus-take-to-clear",
+    "topic_slug": "nail-fungus",
+    "canonical": "https://mirelleinspo.com/blog/nail-fungus/how-long-does-nail-fungus-take-to-clear",
+    "post_type": "spoke",
+    "intent": "informational",
+    "word_count": 2300,
+    "image_count": 1,
+    "image_override_note": "USER OVERRIDE — hero image only, zero body images. This overrides the prompt's default image_count rules (which would assign 2). Hard instruction for this post only.",
+    "template": "split-left",
+    "hero_dimensions": "800x800",
+    "category": "Nail Fungus",
+    "publish_date": "2026-06-17",
+    "author": "Mirellé Team"
+  },
+
+  "section_3_cluster_snapshot": {
+    "pillar_slug": "what-is-nail-fungus",
+    "pillar_title": "What Is Nail Fungus: Symptoms, Causes, and When to Treat It",
+    "pillar_primary_keyword": "nail fungus",
+    "this_post_slug": "how-long-does-nail-fungus-take-to-clear",
+    "this_post_role": "spoke",
+    "keywords_to_avoid": [
+      "nail fungus cure time",
+      "nail fungus overnight",
+      "toenail fungus",
+      "nail fungus cure",
+      "nail fungus gone forever",
+      "nail fungus overnight fix"
+    ]
+  },
+
+  "section_4_serp_analysis": {
+    "blog_gen_instruction": "Use competitor gaps and missing semantic territory to fill what competitors miss. Our strategic approach is the angle for the introduction and conclusion.",
+    "competitor_gaps": [
+      "No mainstream source clearly separates 'fungus killed' (weeks) from 'nail looks normal' (months-years) as two distinct timelines — most blur them together",
+      "Almost nobody gives a week-by-week or month-by-month visual progress marker so readers can self-assess where they are in the process",
+      "No source addresses the marketing-claim confusion directly (products claiming '2 days' or '1 week' results vs medical reality of 6-18 months)",
+      "Weak coverage of how to tell if treatment is actually working mid-process vs simply not working yet — readers are anxious and checking constantly",
+      "Untreated/no-treatment timeline is rarely addressed head-on — readers want to know what happens if they wait or skip treatment"
+    ],
+    "missing_semantic_territory": [
+      "delineation line / clear line between healthy and infected nail as a concrete progress marker",
+      "relapse risk and why stopping treatment early resets the clock",
+      "direct fingernail vs toenail speed comparison with a clear multiplier (fingernails grow roughly 2-3x faster)",
+      "laser treatment timeline specifically isolated from oral/topical timelines"
+    ],
+    "our_strategic_approach": "Lead with the single most important distinction competitors fail to make clearly: killing the fungus and growing a clear nail are two different clocks. Structure the post as a timeline-by-treatment-type with concrete checkpoints, so readers can map their own situation onto it rather than reading a vague 'it varies' answer.",
+    "recommended_image_count_validation": "SERP visual patterns show competitors using stage-progression photos and timeline graphics extensively (3+ images is the norm). User has hardcoded image_count to 1 (hero only) for this post — flagged as a deliberate deviation from SERP norms, not a research recommendation."
+  },
+
+  "section_5_audience_intelligence": {
+    "blog_gen_instruction": "This is your primary creative brief. Every paragraph written for this specific person with this specific intent. Satisfy them completely.",
+    "who_they_are": "Someone already diagnosed or self-diagnosing nail fungus, usually mid-treatment or about to start, checking in on realistic expectations. Not a first-time symptom-checker (that's the pillar's job) — this reader has moved past 'what is this' into 'okay, when does this actually go away.'",
+    "what_they_want_from_this_post": "A clear, honest timeline broken down by treatment type and nail type, with concrete checkpoints they can compare their own progress against — not a vague 'it depends' answer.",
+    "what_frustrates_them": "Conflicting numbers across sources (some say weeks, some say 18 months), product marketing claiming fast results that contradict medical timelines, and no clear way to tell if their treatment is actually working versus just not working yet.",
+    "top_5_pain_points": [
+      "Confusion between fungus being killed vs nail looking normal again — most content conflates the two",
+      "No way to self-assess progress mid-treatment without a doctor visit",
+      "Distrust of OTC product claims ('clear nails in days') that don't match what they're experiencing",
+      "Uncertainty about whether slow toenail growth means treatment failure or just normal biology",
+      "Fear that stopping treatment too early (once nail looks better) will cause relapse"
+    ],
+    "exact_user_phrases": [
+      "how do I know if it's actually working",
+      "is it dying or did I just stop seeing it",
+      "the box said 1 week and it's been a month",
+      "ugly nail does not mean live fungus",
+      "the slow progress continues",
+      "I have 5 months of treatment to go",
+      "no fun really, but better than the fungus",
+      "be patient, diligent, and follow directions",
+      "the fungus is definitely clearing, just waiting for the healthy nail to grow out",
+      "there is no shortcut"
+    ],
+    "intent_content_signals": [
+      "Readers respond to concrete timeframes (weeks/months) over vague qualifiers like 'eventually' or 'in time'",
+      "A stage-by-stage or treatment-by-treatment breakdown outperforms a single blended average",
+      "Direct answers placed immediately under each heading, not buried in paragraph three",
+      "Reassurance paired with realism — acknowledge the frustration of slow progress without overpromising",
+      "Practical self-check markers (e.g. the delineation line) are highly valued"
+    ]
+  },
+
+  "section_6_semantic_keyword_data": {
+    "blog_gen_instruction": "Primary keyword in strong tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.",
+    "primary_keyword": "how long does nail fungus take to clear",
+    "keyword_variations": [
+      "how long does nail fungus take to heal",
+      "how long does nail fungus take to go away",
+      "nail fungus healing timeline",
+      "nail fungus treatment timeline",
+      "how long until nail fungus is gone",
+      "how long for nail fungus to clear up"
+    ],
+    "cluster_keywords": [
+      "nail fungus recovery time",
+      "fungal nail infection timeline",
+      "antifungal treatment duration",
+      "nail fungus clearing stages",
+      "fungus killed vs nail grown out",
+      "oral antifungal treatment length",
+      "laser nail fungus timeline",
+      "topical nail fungus timeline",
+      "nail regrowth time fungus",
+      "how to know nail fungus is dying",
+      "nail fungus relapse after treatment"
+    ],
+    "lsi_terms": [
+      "delineation line",
+      "terbinafine treatment length",
+      "itraconazole treatment course",
+      "nail matrix regrowth",
+      "mycological cure",
+      "clinical cure vs cosmetic cure",
+      "antifungal nail polish duration",
+      "debridement recovery",
+      "nail growth rate per month",
+      "fungus relapse rate",
+      "fingernail vs toenail growth speed",
+      "early stage vs advanced stage treatment time",
+      "post-treatment nail appearance"
+    ],
+    "aeo_terms": [
+      "how long does it take for nail fungus to clear with treatment",
+      "how long does nail fungus take to go away without treatment",
+      "how long does it take to know if nail fungus treatment is working",
+      "how long does laser treatment take to clear nail fungus",
+      "how long does oral antifungal medication take to clear nail fungus",
+      "does fingernail fungus clear faster than toenail fungus",
+      "how do you know nail fungus is dying",
+      "how long after starting treatment will nail fungus stop spreading",
+      "can nail fungus come back after it clears"
+    ],
+    "technical_terms": [
+      "onychomycosis",
+      "terbinafine",
+      "itraconazole",
+      "dermatophyte",
+      "nail matrix",
+      "mycological cure rate",
+      "debridement"
+    ],
+    "user_language": [
+      "how do I know if it's actually working",
+      "is it dying or did I just stop seeing it",
+      "the box said 1 week and it's been a month",
+      "ugly nail does not mean live fungus",
+      "I have months of treatment to go",
+      "be patient and diligent",
+      "there is no shortcut",
+      "the slow progress continues"
+    ]
+  },
+
+  "section_7_voice_and_ai_queries": {
+    "blog_gen_instruction": "Answer every query directly in the relevant H2 section body. If a query cannot be addressed naturally in the body, route it to faqItems. No query left unanswered.",
+    "queries": [
+      "How long does it take for nail fungus to clear up?",
+      "How long does nail fungus take to heal completely?",
+      "Why does my nail still look infected even though I've been treating it for months?",
+      "How long does oral antifungal medication take to work on nail fungus?",
+      "How long does laser treatment take to clear nail fungus?",
+      "Is fingernail fungus faster to clear than toenail fungus?",
+      "How do I know if my nail fungus treatment is actually working?",
+      "What does it mean when there's a clear line growing out on my nail?",
+      "How long does nail fungus take to go away without any treatment?",
+      "Can nail fungus come back after it finally clears?",
+      "Why does toenail fungus take so much longer to clear than fingernail fungus?",
+      "How soon will I stop seeing new fungus spread once I start treatment?",
+      "Is it normal for nail fungus treatment to take over a year?",
+      "What factors make nail fungus take longer to clear?",
+      "Does stopping treatment early make nail fungus come back faster?"
+    ]
+  },
+
+  "section_8_content_structure": {
+    "blog_gen_instruction": "This H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s without user instruction. Word budget per section is set — follow it. H3s may be added at editorial discretion.",
+    "h1": "How Long Does Nail Fungus Take to Clear? A Realistic Timeline",
+    "h2_structure": [
+      "The Short Answer: Two Different Timelines You Need to Know",
+      "How Long Oral Antifungal Medication Takes to Clear Nail Fungus",
+      "How Long Topical Treatments and Antifungal Polish Take",
+      "How Long Laser Treatment Takes to Show Results",
+      "Fingernail Fungus vs Toenail Fungus: Why One Clears Faster",
+      "How to Know If Your Treatment Is Actually Working",
+      "What Slows Down Nail Fungus Recovery",
+      "What Happens If Nail Fungus Is Left Untreated",
+      "Can Nail Fungus Come Back After It Clears"
+    ],
+    "word_budget": {
+      "introduction": "220 words",
+      "conclusion": "180 words",
+      "per_h2": {
+        "The Short Answer: Two Different Timelines You Need to Know": 280,
+        "How Long Oral Antifungal Medication Takes to Clear Nail Fungus": 280,
+        "How Long Topical Treatments and Antifungal Polish Take": 240,
+        "How Long Laser Treatment Takes to Show Results": 240,
+        "Fingernail Fungus vs Toenail Fungus: Why One Clears Faster": 230,
+        "How to Know If Your Treatment Is Actually Working": 260,
+        "What Slows Down Nail Fungus Recovery": 220,
+        "What Happens If Nail Fungus Is Left Untreated": 190,
+        "Can Nail Fungus Come Back After It Clears": 180
+      }
+    }
+  },
+
+  "section_9_internal_links": {
+    "blog_gen_instruction": "Every link below must appear in the post. Cluster links use anchor texts verbatim — do not rewrite. Cross-site links use the provided anchor. Place each link where the placement note says — woven naturally into prose, never as a standalone CTA.",
+    "all_internal_links": [
+      {
+        "url_or_slug": "/blog/nail-fungus/nail-fungus-treatment",
+        "title": "Nail Fungus Treatment: OTC, Prescription, and What Actually Works",
+        "anchor_text": "nail fungus treatment options",
+        "placement_note": "In 'How Long Oral Antifungal Medication Takes' section, when first introducing the range of treatment types before drilling into timelines",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/nail-fungus/what-is-nail-fungus",
+        "title": "What Is Nail Fungus: Symptoms, Causes, and When to Treat It",
+        "anchor_text": "nail fungus",
+        "placement_note": "In the introduction, on first mention of the condition before narrowing into the timeline angle",
+        "link_type": "cluster-pillar"
+      }
+    ]
+  },
+
+  "section_10_voice_tone": {
+    "blog_gen_instruction": "This is the voice for this specific post. Layer on top of Mirellé editorial framework. Do not default to generic AI tone.",
+    "recommended_voice": "Confident educator with a calm, patient-coach undertone",
+    "tone_characteristics": [
+      "Direct and concrete with numbers — never hides behind 'it varies' without giving a real range",
+      "Validates reader frustration with slow visible progress without being saccharine about it",
+      "Authoritative on medical facts but never clinical-cold; reads like a knowledgeable friend, not a leaflet",
+      "Uses checkpoints and markers (the delineation line, the calendar stages) so the reader feels equipped, not just informed",
+      "No false urgency or fear-mongering about untreated fungus — states real consequences plainly"
+    ],
+    "language_style": "Second person ('you'), short to medium sentences, concrete timeframes over vague qualifiers, occasional direct address to the reader's likely frustration ('if it feels like nothing is happening...')",
+    "audience_match": "This reader is mid-journey and anxious about pace, not new to the topic. The voice needs to slow down and validate that the wait is normal, while still being information-dense enough to function as the definitive answer to 'how long.'"
+  },
+
+  "section_11_external_links": {
+    "blog_gen_instruction": "Include all external links where indicated. Supports E-E-A-T. Use anchor suggestion as guide — write naturally around it.",
+    "links": [
+      {
+        "url": "https://www.aad.org/public/diseases/a-z/nail-fungus-treatment",
+        "context": "When stating oral antifungal treatment duration and the 'fungus gone in 6-12 weeks vs nail growing out over a year' distinction",
+        "anchor_suggestion": "American Academy of Dermatology"
+      },
+      {
+        "url": "https://dermnetnz.org/topics/fungal-nail-infections",
+        "context": "When comparing fingernail vs toenail clearance speed and treatment duration differences",
+        "anchor_suggestion": "DermNet"
+      },
+      {
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK279546/",
+        "context": "When discussing topical treatment effectiveness rates and study-backed cure percentages",
+        "anchor_suggestion": "clinical research on topical antifungal effectiveness"
+      }
+    ]
+  },
+
+  "section_12_execution_plan": {
+    "blog_gen_instruction": "READ THIS SECTION FIRST. Lock every value. Execute exactly. Do not recalculate, do not adjust, do not deviate.",
+    "calculated_by": "Input Gen Agent",
+
+    "block_1_keyword_execution": {
+      "primary_keyword": "how long does nail fungus take to clear",
+      "total_mention_target": "2300 x 0.02 = 46 mentions total",
+      "first_100_words_plan": {
+        "mention_1": "sentence 1 of introduction — opening hook stating the question directly",
+        "mention_2": "sentence 3-4 of introduction — reframing into the 'two timelines' angle"
+      },
+      "first_half_target": "26 mentions — first 1150 words",
+      "second_half_target": "20 mentions — second 1150 words",
+      "strong_tag_rule": "EVERY single mention of the primary keyword — all 46 of them — wrapped in <strong> tags. No exceptions. Catch each one as it is written.",
+      "keywords_to_avoid_active": "nail fungus cure time, nail fungus overnight, toenail fungus, nail fungus cure, nail fungus gone forever, nail fungus overnight fix — never used as focus terms anywhere in the post"
+    },
+
+    "block_2_word_budget": {
+      "total_target": "2300 words — +/-50 words tolerance, never exceed",
+      "introduction": "220 words",
+      "conclusion": "180 words",
+      "h2_budgets": [
+        { "heading": "The Short Answer: Two Different Timelines You Need to Know", "budget": 280, "complexity": "medium" },
+        { "heading": "How Long Oral Antifungal Medication Takes to Clear Nail Fungus", "budget": 280, "complexity": "high" },
+        { "heading": "How Long Topical Treatments and Antifungal Polish Take", "budget": 240, "complexity": "medium" },
+        { "heading": "How Long Laser Treatment Takes to Show Results", "budget": 240, "complexity": "medium" },
+        { "heading": "Fingernail Fungus vs Toenail Fungus: Why One Clears Faster", "budget": 230, "complexity": "low" },
+        { "heading": "How to Know If Your Treatment Is Actually Working", "budget": 260, "complexity": "high" },
+        { "heading": "What Slows Down Nail Fungus Recovery", "budget": 220, "complexity": "medium" },
+        { "heading": "What Happens If Nail Fungus Is Left Untreated", "budget": 190, "complexity": "low" },
+        { "heading": "Can Nail Fungus Come Back After It Clears", "budget": 180, "complexity": "low" }
+      ],
+      "tracking_rule": "Track running word total at the end of every H2 section. If a section is running over budget — cut before moving to the next section. Do not compensate later."
+    },
+
+    "block_3_image_plan": {
+      "total_images": "1 — USER OVERRIDE, hero only, from POST_CONSTANTS image_count",
+      "hero_image": "frontmatter only — NEVER appears in post body",
+      "body_images": "0 — no body images on this post, per explicit user instruction",
+      "assignments": [],
+      "image_type_rule": "N/A — no body images on this post",
+      "path_rule": "/images/blog/nail-fungus/how-long-does-nail-fungus-take-to-clear/filename.webp — topic_slug in path, slug folder, leading slash (applies to hero only)"
+    },
+
+    "block_4_opening_technique_assignments": {
+      "rule": "No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.",
+      "assignments": [
+        { "section": "Introduction", "technique": "Technique 2 — The Direct Question" },
+        { "section": "The Short Answer: Two Different Timelines You Need to Know", "technique": "Technique 1 — The Claim" },
+        { "section": "How Long Oral Antifungal Medication Takes to Clear Nail Fungus", "technique": "Technique 4 — The Scenario" },
+        { "section": "How Long Topical Treatments and Antifungal Polish Take", "technique": "Technique 3 — The Reframe" },
+        { "section": "How Long Laser Treatment Takes to Show Results", "technique": "Technique 1 — The Claim" },
+        { "section": "Fingernail Fungus vs Toenail Fungus: Why One Clears Faster", "technique": "Technique 4 — The Scenario" },
+        { "section": "How to Know If Your Treatment Is Actually Working", "technique": "Technique 2 — The Direct Question" },
+        { "section": "What Slows Down Nail Fungus Recovery", "technique": "Technique 1 — The Claim" },
+        { "section": "What Happens If Nail Fungus Is Left Untreated", "technique": "Technique 3 — The Reframe" },
+        { "section": "Conclusion", "technique": "Technique 1 — The Claim" }
+      ],
+      "banned_opener_rule": "Check every opener against banned_opening_approaches in blog gen prompt before writing the second sentence"
+    },
+
+    "block_5_link_placements": {
+      "rule": "Every link placed exactly where specified. Anchor texts used verbatim — never rewritten. Links woven into prose naturally — never standalone CTAs.",
+      "links": [
+        {
+          "anchor_text": "nail fungus",
+          "full_url": "/blog/nail-fungus/what-is-nail-fungus",
+          "place_in_section": "Introduction",
+          "placement_context": "First mention of the condition before narrowing into the timeline-specific angle",
+          "link_type": "cluster-pillar"
+        },
+        {
+          "anchor_text": "nail fungus treatment options",
+          "full_url": "/blog/nail-fungus/nail-fungus-treatment",
+          "place_in_section": "How Long Oral Antifungal Medication Takes to Clear Nail Fungus",
+          "placement_context": "When introducing the range of treatment types before breaking into specific timelines",
+          "link_type": "cluster-spoke"
+        }
+      ]
+    },
+
+    "block_6_aeo_geo_plan": {
+      "aeo_assignments": [
+        {
+          "aeo_term": "How long does it take for nail fungus to clear with treatment",
+          "assigned_to_section": "The Short Answer: Two Different Timelines You Need to Know",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading — before any elaboration. State the fungus-killed-in-weeks vs nail-grown-out-in-months distinction plainly."
+        },
+        {
+          "aeo_term": "How long does oral antifungal medication take to clear nail fungus",
+          "assigned_to_section": "How Long Oral Antifungal Medication Takes to Clear Nail Fungus",
+          "execution": "Direct answer immediately after heading: course length (6-12 weeks for toenails, shorter for fingernails) and separately, full nail regrowth timeline."
+        },
+        {
+          "aeo_term": "How long does laser treatment take to clear nail fungus",
+          "assigned_to_section": "How Long Laser Treatment Takes to Show Results",
+          "execution": "Direct answer immediately after heading: session count/frequency, then visible-results timeline (2 months to a year+)."
+        },
+        {
+          "aeo_term": "Does fingernail fungus clear faster than toenail fungus",
+          "assigned_to_section": "Fingernail Fungus vs Toenail Fungus: Why One Clears Faster",
+          "execution": "Direct yes/no answer immediately after heading with the growth-rate multiplier, before explaining why."
+        },
+        {
+          "aeo_term": "How do you know nail fungus is dying",
+          "assigned_to_section": "How to Know If Your Treatment Is Actually Working",
+          "execution": "Direct answer immediately after heading naming the delineation line and healthy nail growth at the base as the concrete markers."
+        },
+        {
+          "aeo_term": "How long does nail fungus take to go away without treatment",
+          "assigned_to_section": "What Happens If Nail Fungus Is Left Untreated",
+          "execution": "Direct answer immediately after heading: it does not resolve on its own and typically worsens — state this plainly before elaborating on consequences."
+        },
+        {
+          "aeo_term": "Can nail fungus come back after it clears",
+          "assigned_to_section": "Can Nail Fungus Come Back After It Clears",
+          "execution": "Direct answer immediately after heading with the relapse rate range and the early-stopping-treatment risk factor."
+        }
+      ],
+      "geo_entity_statements": [
+        {
+          "entity": "delineation line",
+          "assigned_to_section": "How to Know If Your Treatment Is Actually Working",
+          "execution": "Write a clear declarative definition: the visible border between new healthy nail growth and the older infected portion, used as the primary self-check marker for progress."
+        },
+        {
+          "entity": "onychomycosis",
+          "assigned_to_section": "The Short Answer: Two Different Timelines You Need to Know",
+          "execution": "Write a clear declarative definition sentence identifying onychomycosis as the medical term for nail fungus, stated confidently with no hedging."
+        },
+        {
+          "entity": "mycological cure",
+          "assigned_to_section": "How Long Oral Antifungal Medication Takes to Clear Nail Fungus",
+          "execution": "Define clearly as the point at which lab testing confirms no living fungus remains, distinct from the nail's cosmetic appearance returning to normal."
+        }
+      ]
+    },
+
+    "block_7_active_constraints": {
+      "em_dash_banned": "Long em dash does not appear anywhere. If one forms while writing — stop, replace with: comma / new sentence / parentheses / but / restructure.",
+      "banned_vocab_watch": "Likely slip-risk words for this topic: 'unfortunately', 'simply', 'in today's world', 'it's important to note', 'delve', 'journey' (used loosely, not as the literal healing-journey framing), 'unleash', 'game-changer'",
+      "british_english_active": "colour, recognise, -ise, -our — every instance, no exceptions",
+      "keyword_density_reminder": "After every 2 H2 sections — count current keyword mentions. Verify first half is running denser than second half. Adjust if needed.",
+      "image_path_reminder": "/images/blog/nail-fungus/how-long-does-nail-fungus-take-to-clear/filename.webp — topic_slug in path always (hero only on this post)",
+      "internal_link_url_reminder": "Full correct paths only. Cluster links = /blog/nail-fungus/[slug]. Never bare /slug.",
+      "hero_image_reminder": "Hero = frontmatter only. Never place hero image in body. This post has NO body images at all — do not generate or reference any image placement inside the post body.",
+      "strong_tag_reminder": "Every primary keyword mention = <strong> tags. Scan after every paragraph."
+    }
+  }
+}
