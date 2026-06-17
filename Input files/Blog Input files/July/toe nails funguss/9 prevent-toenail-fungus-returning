@@ -1,0 +1,430 @@
+{
+  "section_1_file_authority": {
+    "statement": "THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly. NOTE: image_count and word_count below reflect explicit user-approved overrides to the standard rules in the research prompt (hero-only image policy; SERP-driven word count, uncapped)."
+  },
+  "section_2_post_constants": {
+    "slug": "prevent-toenail-fungus-returning",
+    "topic_slug": "toenail-fungus",
+    "canonical": "https://mirelleinspo.com/blog/toenail-fungus/prevent-toenail-fungus-returning",
+    "post_type": "spoke",
+    "intent": "tutorial",
+    "word_count": 2400,
+    "image_count": 1,
+    "image_count_override_note": "USER OVERRIDE: 1 image total = hero only. Zero body images. Standard tutorial rule (5 images) does not apply to this post.",
+    "template": "split-left",
+    "hero_dimensions": "800x800",
+    "category": "Toenail Fungus",
+    "publish_date": "2026-06-18",
+    "author": "Mirellé Team"
+  },
+  "section_3_cluster_snapshot": {
+    "pillar_slug": "toenail-fungus",
+    "pillar_title": "Toenail Fungus: Causes, Symptoms & Complete Treatment Guide",
+    "pillar_primary_keyword": "toenail fungus",
+    "this_post_slug": "prevent-toenail-fungus-returning",
+    "this_post_role": "spoke",
+    "keywords_to_avoid": [
+      "toenail fungus",
+      "toenail fungus stages",
+      "home remedies for toenail fungus",
+      "is toenail fungus contagious",
+      "nail polish toenail fungus",
+      "best toenail fungus treatment",
+      "laser treatment for toenail fungus cost",
+      "toenail fungus vs nail psoriasis"
+    ]
+  },
+  "section_4_serp_analysis": {
+    "blog_gen_instruction": "Use competitor gaps and missing semantic territory to fill what competitors miss. Our strategic approach is the angle for the introduction and conclusion.",
+    "competitor_gaps": [
+      "Most ranking posts (Cleveland Clinic, WebMD, Scripps, Optimum Podiatry, Achilles Foot and Ankle) give the same generic bullet list — wash feet, dry feet, breathable shoes — but almost none give a concrete shoe/sock disinfection PROCEDURE with steps and timing",
+      "Very few articles state the actual recurrence rate (10-50%+ depending on study) upfront, which is what drives the anxious reader to search this exact query — most podiatry sites bury or omit the number",
+      "The athlete's foot reservoir connection (skin fungus reinfecting a treated nail) is mentioned on medical sites but almost never folded into the 'prevent recurrence' articles directly — it's treated as a separate topic",
+      "Few articles give a concrete maintenance timeline post-cure (e.g. weekly topical for X months, insole replacement every 6 months) — most just say 'keep practicing good habits' with no schedule",
+      "No article addresses the psychological pattern of WHY people stop prevention efforts too early (feeling cured = stopping routine) despite this being the most cited cause of recurrence in forums/Quora"
+    ],
+    "missing_semantic_territory": [
+      "Shoe rotation and 24-hour drying cycle as a named, explained step (not just mentioned in passing)",
+      "Sock wash temperature (140°F/60°C) as a specific, citable number",
+      "Recurrence rate framed as a hook/stat, not buried",
+      "The nail polish/post-cure exception (most polish coverage belongs to the dedicated nail-polish spoke — keep mentions minimal and link out rather than re-explain)"
+    ],
+    "our_strategic_approach": "Open with the recurrence rate stat to validate the reader's fear, then deliver a concrete, sequenced maintenance system (skin, shoes, socks, tools, monitoring) rather than a loose bullet list — positioning this post as the 'after you're cured' companion piece the other guides skip.",
+    "recommended_image_count_validation": "Not applicable — image count fixed at 1 (hero) per explicit user override; SERP visual patterns (mostly stock 'feet in shoes' imagery, low differentiation) do not justify additional body images for this post anyway."
+  },
+  "section_5_audience_intelligence": {
+    "blog_gen_instruction": "This is your primary creative brief. Every paragraph written for this specific person with this specific intent. Satisfy them completely.",
+    "who_they_are": "Someone who has already been through (or is finishing) toenail fungus treatment — oral medication, topical lacquer, laser, or nail removal — and is either newly cured or has watched the fungus return before. Not a first-time sufferer; this reader has already done research on causes and treatment and is now in the post-treatment, anxious-maintenance phase.",
+    "what_they_want_from_this_post": "A clear, doable system to stop the fungus from coming back, not a generic hygiene reminder list. They want to know exactly what to do with their shoes, socks, nail tools, and skin, and for how long, because they've already been burned once.",
+    "what_frustrates_them": "Generic advice repeated across nearly every site ('wash feet, dry feet, wear breathable shoes') with no real explanation of why fungus keeps returning despite following that advice, and no concrete schedule for how long maintenance needs to continue after the nail looks clear.",
+    "top_5_pain_points": [
+      "Watched the fungus come back once already (or fears it will) despite finishing treatment, and doesn't trust that 'looking clear' means it's actually gone",
+      "Confused about whether shoes and socks are silently reinfecting them even after the nail itself is treated",
+      "Doesn't realize athlete's foot on the skin can be quietly reseeding a treated nail",
+      "Unsure how long to keep up prevention habits — stops too early because the nail looks normal, not realizing regrowth takes 12-18 months",
+      "Wants a concrete shoe/sock disinfection method, not just 'keep them dry' — current content doesn't explain how to actually disinfect, how often, or with what"
+    ],
+    "exact_user_phrases": [
+      "why does my nail fungus keep coming back",
+      "it always comes back, everytime it got infected",
+      "the new toenail got infected again from your shoes",
+      "I tell him what's going on and he takes me off Lamisil that instant",
+      "most people aren't really willing to do what it takes to cure toenail fungus",
+      "you have to work at it daily for at least a year",
+      "the fungus can live dormant in shoes and socks for a very long time",
+      "could it possibly be reinfected again",
+      "your immune system has been trained to ignore it",
+      "an ounce of prevention is worth a pound of cure"
+    ],
+    "intent_content_signals": [
+      "Tutorial intent: reader wants a sequenced, repeatable routine, not inspiration or comparison framing",
+      "Responds to concrete numbers (recurrence %, wash temperature, replacement intervals) over vague hygiene language",
+      "Wants reassurance the anxiety is valid (recurrence really is common) before being told what to do",
+      "Skeptical of product-only solutions; wants behavior-based steps first, product mentions as support not center",
+      "Prefers a clear timeline (first 3 months vs. ongoing) over an undifferentiated list of tips"
+    ]
+  },
+  "section_6_semantic_keyword_data": {
+    "blog_gen_instruction": "Primary keyword in strong tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.",
+    "primary_keyword": "prevent toenail fungus from coming back",
+    "keyword_variations": [
+      "stop toenail fungus from returning",
+      "toenail fungus recurrence prevention",
+      "keep toenail fungus from coming back",
+      "prevent fungal nail recurrence",
+      "stop toenail fungus from coming back after treatment",
+      "toenail fungus maintenance after treatment"
+    ],
+    "cluster_keywords": [
+      "toenail fungus recurrence rate",
+      "fungal nail reinfection",
+      "shoe disinfection for fungus",
+      "antifungal foot powder",
+      "moisture wicking socks fungus prevention",
+      "post-treatment nail care",
+      "athlete's foot reinfection nail",
+      "UV shoe sanitizer fungus",
+      "nail trimming fungus prevention",
+      "sock washing temperature fungus"
+    ],
+    "lsi_terms": [
+      "reinfection", "recurrence", "fungal spores", "dermatophytes", "moisture-wicking socks",
+      "breathable shoes", "antifungal powder", "shoe rotation", "UV shoe sanitizer", "insole replacement",
+      "nail clippers sterilization", "maintenance antifungal", "weekly topical", "shower shoes",
+      "locker room exposure", "tinea pedis", "foot hygiene routine", "nail regrowth time", "sweaty feet", "flip-flops public showers"
+    ],
+    "aeo_terms": [
+      "how do you stop toenail fungus from coming back after treatment",
+      "why does toenail fungus keep coming back even after treatment",
+      "how long after treatment is toenail fungus still contagious to yourself",
+      "do I need to disinfect my shoes after toenail fungus treatment",
+      "how often should you replace shoes to prevent toenail fungus",
+      "can athlete's foot cause toenail fungus to come back",
+      "what temperature kills fungus in socks when washing",
+      "how long should I keep using antifungal powder after treatment",
+      "is toenail fungus recurrence common",
+      "how do you know if toenail fungus is really gone"
+    ],
+    "technical_terms": [
+      "onychomycosis", "tinea unguium", "tinea pedis", "dermatophyte", "mycotic cure",
+      "reinfection vs relapse", "nail debridement"
+    ],
+    "user_language": [
+      "it always comes back",
+      "the fungus can live dormant in shoes for a very long time",
+      "could it possibly be reinfected again",
+      "your immune system has been trained to ignore it",
+      "you have to work at it daily for at least a year",
+      "an ounce of prevention is worth a pound of cure",
+      "stop putting your feet in fungus-filled shoes",
+      "nobody wants to go through that process again"
+    ]
+  },
+  "section_7_voice_and_ai_queries": {
+    "blog_gen_instruction": "Answer every query directly in the relevant H2 section body. If a query cannot be addressed naturally in the body, route it to faqItems. No query left unanswered.",
+    "queries": [
+      "How do you stop toenail fungus from coming back after treatment?",
+      "Why does toenail fungus keep coming back even after treatment seemed to work?",
+      "Is it normal for toenail fungus to come back more than once?",
+      "How long does it take for a toenail to fully grow back after fungus treatment?",
+      "Do I need to disinfect my shoes after finishing toenail fungus treatment?",
+      "How often should you replace your shoes to prevent toenail fungus from returning?",
+      "Can athlete's foot cause toenail fungus to come back?",
+      "What temperature should you wash socks at to kill fungus?",
+      "How long should you keep using antifungal powder after the nail looks clear?",
+      "How do you know if toenail fungus is actually gone or just hiding?",
+      "Should you throw away old shoes after toenail fungus treatment?",
+      "Can you get toenail fungus again from your own old shoes?",
+      "Is a UV shoe sanitizer worth it for preventing toenail fungus?",
+      "How often should nail clippers be disinfected to avoid reinfecting nails?",
+      "What is the difference between toenail fungus relapse and reinfection?"
+    ]
+  },
+  "section_8_content_structure": {
+    "blog_gen_instruction": "This H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s without user instruction. Word budget per section is set — follow it. H3s may be added at editorial discretion.",
+    "h1": "How to Stop Toenail Fungus From Coming Back After Treatment",
+    "h2_structure": [
+      "Why Toenail Fungus Comes Back So Often",
+      "How to Know If It's Really Gone (Not Just Hiding)",
+      "The Skin Connection: Why Athlete's Foot Brings Fungus Back",
+      "Disinfecting Your Shoes the Right Way",
+      "Washing Socks So Fungus Doesn't Survive",
+      "Your Daily Foot Hygiene Routine, Step by Step",
+      "Nail Tools: The Reinfection Risk You're Probably Ignoring",
+      "How Long to Keep Up Prevention After Treatment Ends",
+      "When to Call a Podiatrist Again"
+    ],
+    "word_budget": {
+      "introduction": "220 words",
+      "conclusion": "180 words",
+      "per_h2": {
+        "Why Toenail Fungus Comes Back So Often": 260,
+        "How to Know If It's Really Gone (Not Just Hiding)": 240,
+        "The Skin Connection: Why Athlete's Foot Brings Fungus Back": 260,
+        "Disinfecting Your Shoes the Right Way": 320,
+        "Washing Socks So Fungus Doesn't Survive": 220,
+        "Your Daily Foot Hygiene Routine, Step by Step": 280,
+        "Nail Tools: The Reinfection Risk You're Probably Ignoring": 210,
+        "How Long to Keep Up Prevention After Treatment Ends": 250,
+        "When to Call a Podiatrist Again": 160
+      }
+    }
+  },
+  "section_9_internal_links": {
+    "blog_gen_instruction": "Every link below must appear in the post. Cluster links use anchor texts verbatim — do not rewrite. Cross-site links use the provided anchor. Place each link where the placement note says — woven naturally into prose, never as a standalone CTA.",
+    "all_internal_links": [
+      {
+        "url_or_slug": "/blog/toenail-fungus/toenail-fungus",
+        "title": "Toenail Fungus: Causes, Symptoms & Complete Treatment Guide",
+        "anchor_text": "toenail fungus treatment guide",
+        "placement_note": "Introduction, when referencing that the reader has likely already gone through diagnosis and treatment covered in the pillar",
+        "link_type": "cluster-pillar"
+      },
+      {
+        "url_or_slug": "/blog/toenail-fungus/is-toenail-fungus-contagious",
+        "title": "Is Toenail Fungus Contagious? How It Spreads and How to Avoid Catching It",
+        "anchor_text": "is toenail fungus contagious",
+        "placement_note": "In 'The Skin Connection' section, when discussing how fungus spreads between feet, shoes, and household members",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/toenail-fungus/toenail-fungus-home-remedies",
+        "title": "Home Remedies for Toenail Fungus: What Actually Works",
+        "anchor_text": "home remedies for toenail fungus",
+        "placement_note": "In 'Daily Foot Hygiene Routine' section, when mentioning natural/at-home antifungal options as part of a maintenance routine",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/toenail-fungus/best-toenail-fungus-treatment",
+        "title": "Best Toenail Fungus Treatments Compared: OTC vs Prescription vs Laser",
+        "anchor_text": "best toenail fungus treatment",
+        "placement_note": "In 'When to Call a Podiatrist Again' section, when the reader needs to restart treatment after a confirmed recurrence",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/toenail-fungus/toenail-fungus-laser-treatment-cost",
+        "title": "Laser Treatment for Toenail Fungus: Cost & What to Expect",
+        "anchor_text": "laser treatment for toenail fungus cost",
+        "placement_note": "In 'When to Call a Podiatrist Again' section, alongside the best-treatment link, as an option for stubborn recurrence",
+        "link_type": "cluster-spoke"
+      }
+    ]
+  },
+  "section_10_voice_tone": {
+    "blog_gen_instruction": "This is the voice for this specific post. Layer on top of Mirellé editorial framework. Do not default to generic AI tone.",
+    "recommended_voice": "Confident educator with a steady, reassuring edge",
+    "tone_characteristics": [
+      "Direct and procedural — gives exact steps and numbers rather than vague reassurance",
+      "Validates the reader's frustration ('it really is common') before instructing",
+      "No fear-mongering, but doesn't downplay the real recurrence risk either",
+      "Speaks like someone who has seen the pattern in many patients, not a first-time guesser",
+      "Practical over clinical — explains the why briefly, then moves straight to the what-to-do"
+    ],
+    "language_style": "Short, declarative sentences for instructions; second person ('you') throughout; light use of concrete analogies (e.g. comparing shoes to a reservoir) rather than medical jargon-heavy explanations.",
+    "audience_match": "This reader has already been through treatment once and doesn't want hand-holding or fear tactics — they want someone who treats their concern as legitimate and gives them an exact system to follow, which this confident, procedural voice delivers without sounding alarmist or dismissive."
+  },
+  "section_11_external_links": {
+    "blog_gen_instruction": "Include all external links where indicated. Supports E-E-A-T. Use anchor suggestion as guide — write naturally around it.",
+    "links": [
+      {
+        "url": "https://www.aafp.org/afp/2013/1201/p762",
+        "context": "When citing the recurrence rate statistic in the opening section",
+        "anchor_suggestion": "recurrence rate of 10% to 50%"
+      },
+      {
+        "url": "https://my.clevelandclinic.org/health/diseases/11303-toenail-fungus",
+        "context": "When discussing nail regrowth timeline and general prevention hygiene",
+        "anchor_suggestion": "Cleveland Clinic"
+      },
+      {
+        "url": "https://www.scripps.org/news_items/7235-which-toenail-fungus-treatment-is-best",
+        "context": "When mentioning the high recurrence rate and when to see a doctor again",
+        "anchor_suggestion": "Scripps Health"
+      }
+    ]
+  },
+  "section_12_execution_plan": {
+    "blog_gen_instruction": "READ THIS SECTION FIRST. Lock every value. Execute exactly. Do not recalculate, do not adjust, do not deviate.",
+    "block_1_keyword_execution": {
+      "primary_keyword": "prevent toenail fungus from coming back",
+      "total_mention_target": "2400 x 0.02 = 48 mentions total",
+      "first_100_words_plan": {
+        "mention_1": "sentence 2 of introduction — immediately after stating the recurrence rate stat, framing the post's purpose",
+        "mention_2": "sentence 4-5 of introduction — when transitioning into what the post will cover"
+      },
+      "first_half_target": "26 mentions — first 1200 words",
+      "second_half_target": "22 mentions — second 1200 words",
+      "strong_tag_rule": "EVERY single mention of the primary keyword — all 48 of them — wrapped in <strong> tags. No exceptions. Catch each one as it is written.",
+      "keywords_to_avoid_active": [
+        "toenail fungus", "toenail fungus stages", "home remedies for toenail fungus",
+        "is toenail fungus contagious", "nail polish toenail fungus", "best toenail fungus treatment",
+        "laser treatment for toenail fungus cost", "toenail fungus vs nail psoriasis"
+      ]
+    },
+    "block_2_word_budget": {
+      "total_target": "2400 words — +/-50 words tolerance, never exceed",
+      "introduction": "220 words",
+      "conclusion": "180 words",
+      "h2_budgets": [
+        { "heading": "Why Toenail Fungus Comes Back So Often", "budget": 260, "complexity": "medium" },
+        { "heading": "How to Know If It's Really Gone (Not Just Hiding)", "budget": 240, "complexity": "medium" },
+        { "heading": "The Skin Connection: Why Athlete's Foot Brings Fungus Back", "budget": 260, "complexity": "medium" },
+        { "heading": "Disinfecting Your Shoes the Right Way", "budget": 320, "complexity": "high" },
+        { "heading": "Washing Socks So Fungus Doesn't Survive", "budget": 220, "complexity": "low" },
+        { "heading": "Your Daily Foot Hygiene Routine, Step by Step", "budget": 280, "complexity": "medium" },
+        { "heading": "Nail Tools: The Reinfection Risk You're Probably Ignoring", "budget": 210, "complexity": "low" },
+        { "heading": "How Long to Keep Up Prevention After Treatment Ends", "budget": 250, "complexity": "medium" },
+        { "heading": "When to Call a Podiatrist Again", "budget": 160, "complexity": "low" }
+      ],
+      "tracking_rule": "Track running word total at the end of every H2 section. If a section is running over budget — cut before moving to the next section. Do not compensate later."
+    },
+    "block_3_image_plan": {
+      "total_images": 1,
+      "hero_image": "frontmatter only — NEVER appears in post body",
+      "body_images": 0,
+      "assignments": [],
+      "image_type_rule": "ALL image content for this post = hero only, per explicit user override. No body images of any kind — no inspirational nail images, no infographics, no diagrams. Zero images appear within the post body.",
+      "path_rule": "/images/blog/toenail-fungus/prevent-toenail-fungus-returning/hero.webp — topic_slug in path, slug folder, leading slash"
+    },
+    "block_4_opening_technique_assignments": {
+      "rule": "No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.",
+      "assignments": [
+        { "section": "Introduction", "technique": "Technique 2 — The Statistic" },
+        { "section": "Why Toenail Fungus Comes Back So Often", "technique": "Technique 1 — The Claim" },
+        { "section": "How to Know If It's Really Gone (Not Just Hiding)", "technique": "Technique 4 — The Question" },
+        { "section": "The Skin Connection: Why Athlete's Foot Brings Fungus Back", "technique": "Technique 3 — The Reframe" },
+        { "section": "Disinfecting Your Shoes the Right Way", "technique": "Technique 1 — The Claim" },
+        { "section": "Washing Socks So Fungus Doesn't Survive", "technique": "Technique 4 — The Question" },
+        { "section": "Your Daily Foot Hygiene Routine, Step by Step", "technique": "Technique 2 — The Statistic" },
+        { "section": "Nail Tools: The Reinfection Risk You're Probably Ignoring", "technique": "Technique 3 — The Reframe" },
+        { "section": "How Long to Keep Up Prevention After Treatment Ends", "technique": "Technique 1 — The Claim" },
+        { "section": "When to Call a Podiatrist Again", "technique": "Technique 4 — The Question" },
+        { "section": "Conclusion", "technique": "Technique 1 — The Claim" }
+      ],
+      "banned_opener_rule": "Check every opener against banned_opening_approaches in blog gen prompt before writing the second sentence"
+    },
+    "block_5_link_placements": {
+      "rule": "Every link placed exactly where specified. Anchor texts used verbatim — never rewritten. Links woven into prose naturally — never standalone CTAs.",
+      "links": [
+        {
+          "anchor_text": "toenail fungus treatment guide",
+          "full_url": "/blog/toenail-fungus/toenail-fungus",
+          "place_in_section": "Introduction",
+          "placement_context": "When acknowledging the reader has likely just finished treatment covered elsewhere",
+          "link_type": "cluster-pillar"
+        },
+        {
+          "anchor_text": "is toenail fungus contagious",
+          "full_url": "/blog/toenail-fungus/is-toenail-fungus-contagious",
+          "place_in_section": "The Skin Connection: Why Athlete's Foot Brings Fungus Back",
+          "placement_context": "When explaining how fungus spreads between feet, shared spaces, or household members",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "home remedies for toenail fungus",
+          "full_url": "/blog/toenail-fungus/toenail-fungus-home-remedies",
+          "place_in_section": "Your Daily Foot Hygiene Routine, Step by Step",
+          "placement_context": "When mentioning natural antifungal options as part of an ongoing maintenance routine",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "best toenail fungus treatment",
+          "full_url": "/blog/toenail-fungus/best-toenail-fungus-treatment",
+          "place_in_section": "When to Call a Podiatrist Again",
+          "placement_context": "When directing the reader to treatment options if recurrence is confirmed",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "laser treatment for toenail fungus cost",
+          "full_url": "/blog/toenail-fungus/toenail-fungus-laser-treatment-cost",
+          "place_in_section": "When to Call a Podiatrist Again",
+          "placement_context": "Alongside the best-treatment link, as a more aggressive option for stubborn recurrence",
+          "link_type": "cluster-spoke"
+        }
+      ]
+    },
+    "block_6_aeo_geo_plan": {
+      "aeo_assignments": [
+        {
+          "aeo_term": "Why does toenail fungus keep coming back even after treatment seemed to work?",
+          "assigned_to_section": "Why Toenail Fungus Comes Back So Often",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading — before any elaboration. This is what gets picked up by AI answer engines."
+        },
+        {
+          "aeo_term": "How do you know if toenail fungus is actually gone or just hiding?",
+          "assigned_to_section": "How to Know If It's Really Gone (Not Just Hiding)",
+          "execution": "Write a direct 2-3 sentence answer paragraph immediately after the H2 heading."
+        },
+        {
+          "aeo_term": "Can athlete's foot cause toenail fungus to come back?",
+          "assigned_to_section": "The Skin Connection: Why Athlete's Foot Brings Fungus Back",
+          "execution": "Write a direct 2-3 sentence answer paragraph immediately after the H2 heading."
+        },
+        {
+          "aeo_term": "Do I need to disinfect my shoes after finishing toenail fungus treatment?",
+          "assigned_to_section": "Disinfecting Your Shoes the Right Way",
+          "execution": "Write a direct 2-3 sentence answer paragraph immediately after the H2 heading, then proceed to the step-by-step method."
+        },
+        {
+          "aeo_term": "What temperature should you wash socks at to kill fungus?",
+          "assigned_to_section": "Washing Socks So Fungus Doesn't Survive",
+          "execution": "Write a direct 2-3 sentence answer paragraph immediately after the H2 heading, citing the 140°F/60°C figure."
+        },
+        {
+          "aeo_term": "How long should you keep using antifungal powder after the nail looks clear?",
+          "assigned_to_section": "How Long to Keep Up Prevention After Treatment Ends",
+          "execution": "Write a direct 2-3 sentence answer paragraph immediately after the H2 heading."
+        }
+      ],
+      "geo_entity_statements": [
+        {
+          "entity": "Onychomycosis recurrence",
+          "assigned_to_section": "Why Toenail Fungus Comes Back So Often",
+          "execution": "Write a clear declarative definition sentence distinguishing recurrence from relapse, citing the cited recurrence rate range confidently, no hedging."
+        },
+        {
+          "entity": "Tinea pedis (athlete's foot) as a fungal reservoir",
+          "assigned_to_section": "The Skin Connection: Why Athlete's Foot Brings Fungus Back",
+          "execution": "Write a clear declarative sentence defining how untreated skin fungus can reseed a treated nail."
+        },
+        {
+          "entity": "UV shoe sanitizer",
+          "assigned_to_section": "Disinfecting Your Shoes the Right Way",
+          "execution": "Write a clear declarative sentence defining what a UV shoe sanitizer does and how it fits into a disinfection routine, extractable by AI as a citation."
+        }
+      ]
+    },
+    "block_7_active_constraints": {
+      "em_dash_banned": "Long em dash does not appear anywhere. If one forms while writing — stop, replace with: comma / new sentence / parentheses / but / restructure.",
+      "banned_vocab_watch": [
+        "elevate", "unlock", "journey", "delve", "game-changer", "seamless", "embark", "navigate"
+      ],
+      "british_english_active": "colour, recognise, -ise, -our — every instance, no exceptions",
+      "keyword_density_reminder": "After every 2 H2 sections — count current keyword mentions. Verify first half is running denser than second half. Adjust if needed.",
+      "image_path_reminder": "/images/blog/toenail-fungus/prevent-toenail-fungus-returning/hero.webp — topic_slug in path always. Hero only, no body images for this post.",
+      "internal_link_url_reminder": "Full correct paths only. Cluster links = /blog/toenail-fungus/[slug]. Never bare /slug.",
+      "hero_image_reminder": "Hero = frontmatter only. Never place hero image in body. This post has no body images at all.",
+      "strong_tag_reminder": "Every primary keyword mention = <strong> tags. Scan after every paragraph."
+    }
+  }
+}
