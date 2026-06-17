@@ -1,0 +1,265 @@
+{
+  "cluster_id": "nail-fungus",
+  "topic_slug": "nail-fungus",
+  "topic_title": "Nail Fungus",
+  "tier": "T1",
+  "cpc_range": "$3–$8",
+  "monthly_searches": "400K–600K",
+  "advertiser_category": "Pharma, podiatry clinics, OTC antifungal brands, supplement brands",
+  "gallery": false,
+  "pillar": {
+    "slug": "what-is-nail-fungus",
+    "title": "What Is Nail Fungus: Symptoms, Causes, and When to Treat It",
+    "primary_keyword": "nail fungus",
+    "search_intent": "informational",
+    "content_type": "guide",
+    "template": "center",
+    "word_count_target": 3000,
+    "image_count": 4,
+    "priority": "publish_first",
+    "canonical": "https://mirelleinspo.com/blog/nail-fungus/what-is-nail-fungus",
+    "topical_boundary": "Full overview of nail fungus: definition, types, symptoms, causes, risk factors, and treatment pathway overview — does not deep-dive any single treatment",
+    "hierarchy_level": 1,
+    "receives_links_from": [
+      "nail-fungus-symptoms",
+      "nail-fungus-causes",
+      "nail-fungus-treatment",
+      "nail-fungus-home-remedies",
+      "fingernail-fungus",
+      "how-long-does-nail-fungus-take-to-clear",
+      "nail-fungus-prevention"
+    ],
+    "links_to": [
+      "nail-fungus-symptoms",
+      "nail-fungus-treatment",
+      "nail-fungus-prevention"
+    ]
+  },
+  "spokes": [
+    {
+      "slug": "nail-fungus-symptoms",
+      "title": "Nail Fungus Symptoms: What to Look For at Every Stage",
+      "primary_keyword": "nail fungus symptoms",
+      "search_intent": "informational",
+      "content_type": "guide",
+      "template": "split-left",
+      "word_count_target": 2000,
+      "image_count": 3,
+      "priority": "high",
+      "publish_order": 2,
+      "canonical": "https://mirelleinspo.com/blog/nail-fungus/nail-fungus-symptoms",
+      "topical_boundary": "Symptoms of nail fungus only — by stage, by nail type, and when symptoms signal severity requiring professional care",
+      "hierarchy_level": 2,
+      "parent_pillar": "what-is-nail-fungus",
+      "links_to": [
+        {
+          "slug": "what-is-nail-fungus",
+          "anchor": "what nail fungus is",
+          "full_url": "/blog/nail-fungus/what-is-nail-fungus"
+        },
+        {
+          "slug": "nail-fungus-treatment",
+          "anchor": "treatment options for nail fungus",
+          "full_url": "/blog/nail-fungus/nail-fungus-treatment"
+        }
+      ],
+      "keywords_to_avoid": ["nail fungus cure", "nail fungus gone"]
+    },
+    {
+      "slug": "nail-fungus-causes",
+      "title": "What Causes Nail Fungus and Who Gets It Most",
+      "primary_keyword": "nail fungus causes",
+      "search_intent": "informational",
+      "content_type": "guide",
+      "template": "split-left",
+      "word_count_target": 1800,
+      "image_count": 2,
+      "priority": "high",
+      "publish_order": 3,
+      "canonical": "https://mirelleinspo.com/blog/nail-fungus/nail-fungus-causes",
+      "topical_boundary": "Causes, risk factors, and transmission of nail fungus only — does not cover treatment or symptoms in depth",
+      "hierarchy_level": 2,
+      "parent_pillar": "what-is-nail-fungus",
+      "links_to": [
+        {
+          "slug": "what-is-nail-fungus",
+          "anchor": "types of nail fungus",
+          "full_url": "/blog/nail-fungus/what-is-nail-fungus"
+        },
+        {
+          "slug": "nail-fungus-prevention",
+          "anchor": "how to prevent nail fungus",
+          "full_url": "/blog/nail-fungus/nail-fungus-prevention"
+        }
+      ],
+      "keywords_to_avoid": ["nail fungus treatment", "nail fungus cure"]
+    },
+    {
+      "slug": "nail-fungus-treatment",
+      "title": "Nail Fungus Treatment: OTC, Prescription, and What Actually Works",
+      "primary_keyword": "nail fungus treatment",
+      "search_intent": "informational",
+      "content_type": "comparison",
+      "template": "split-left",
+      "word_count_target": 2400,
+      "image_count": 3,
+      "priority": "high",
+      "publish_order": 4,
+      "canonical": "https://mirelleinspo.com/blog/nail-fungus/nail-fungus-treatment",
+      "topical_boundary": "OTC vs prescription nail fungus treatments — efficacy, timelines, and when to escalate to a doctor — does not cover home remedies in depth",
+      "hierarchy_level": 2,
+      "parent_pillar": "what-is-nail-fungus",
+      "links_to": [
+        {
+          "slug": "what-is-nail-fungus",
+          "anchor": "types of nail fungus",
+          "full_url": "/blog/nail-fungus/what-is-nail-fungus"
+        },
+        {
+          "slug": "nail-fungus-home-remedies",
+          "anchor": "home remedies for nail fungus",
+          "full_url": "/blog/nail-fungus/nail-fungus-home-remedies"
+        },
+        {
+          "slug": "how-long-does-nail-fungus-take-to-clear",
+          "anchor": "how long nail fungus takes to clear",
+          "full_url": "/blog/nail-fungus/how-long-does-nail-fungus-take-to-clear"
+        }
+      ],
+      "keywords_to_avoid": ["nail fungus cure", "nail fungus home remedy"]
+    },
+    {
+      "slug": "nail-fungus-home-remedies",
+      "title": "Home Remedies for Nail Fungus: What the Evidence Says",
+      "primary_keyword": "home remedies for nail fungus",
+      "search_intent": "informational",
+      "content_type": "guide",
+      "template": "split-left",
+      "word_count_target": 2000,
+      "image_count": 2,
+      "priority": "medium",
+      "publish_order": 5,
+      "canonical": "https://mirelleinspo.com/blog/nail-fungus/nail-fungus-home-remedies",
+      "topical_boundary": "Evidence review of home remedies for nail fungus only — tea tree oil, Vicks, vinegar, baking soda — does not cover prescription treatment",
+      "hierarchy_level": 2,
+      "parent_pillar": "what-is-nail-fungus",
+      "links_to": [
+        {
+          "slug": "nail-fungus-treatment",
+          "anchor": "prescription nail fungus treatment",
+          "full_url": "/blog/nail-fungus/nail-fungus-treatment"
+        },
+        {
+          "slug": "what-is-nail-fungus",
+          "anchor": "nail fungus",
+          "full_url": "/blog/nail-fungus/what-is-nail-fungus"
+        }
+      ],
+      "keywords_to_avoid": ["nail fungus cure", "nail fungus medication"]
+    },
+    {
+      "slug": "fingernail-fungus",
+      "title": "Fingernail Fungus vs Toenail Fungus: What Is Different and Why It Matters",
+      "primary_keyword": "fingernail fungus",
+      "search_intent": "informational",
+      "content_type": "comparison",
+      "template": "split-left",
+      "word_count_target": 1800,
+      "image_count": 2,
+      "priority": "medium",
+      "publish_order": 6,
+      "canonical": "https://mirelleinspo.com/blog/nail-fungus/fingernail-fungus",
+      "topical_boundary": "Fingernail fungus specifically — how it differs from toenail fungus in causes, types, treatment response, and recovery time",
+      "hierarchy_level": 2,
+      "parent_pillar": "what-is-nail-fungus",
+      "links_to": [
+        {
+          "slug": "what-is-nail-fungus",
+          "anchor": "types of nail fungus",
+          "full_url": "/blog/nail-fungus/what-is-nail-fungus"
+        },
+        {
+          "slug": "nail-fungus-treatment",
+          "anchor": "treatment options for nail fungus",
+          "full_url": "/blog/nail-fungus/nail-fungus-treatment"
+        }
+      ],
+      "keywords_to_avoid": ["toenail fungus treatment", "toenail fungus symptoms"]
+    },
+    {
+      "slug": "how-long-does-nail-fungus-take-to-clear",
+      "title": "How Long Does Nail Fungus Take to Clear With Treatment",
+      "primary_keyword": "how long does nail fungus take to clear",
+      "search_intent": "informational",
+      "content_type": "guide",
+      "template": "split-left",
+      "word_count_target": 1600,
+      "image_count": 2,
+      "priority": "medium",
+      "publish_order": 7,
+      "canonical": "https://mirelleinspo.com/blog/nail-fungus/how-long-does-nail-fungus-take-to-clear",
+      "topical_boundary": "Treatment timelines for nail fungus only — OTC vs prescription vs laser, by nail type, with factors that affect speed of recovery",
+      "aeo_priority": true,
+      "hierarchy_level": 2,
+      "parent_pillar": "what-is-nail-fungus",
+      "links_to": [
+        {
+          "slug": "nail-fungus-treatment",
+          "anchor": "nail fungus treatment options",
+          "full_url": "/blog/nail-fungus/nail-fungus-treatment"
+        },
+        {
+          "slug": "what-is-nail-fungus",
+          "anchor": "nail fungus",
+          "full_url": "/blog/nail-fungus/what-is-nail-fungus"
+        }
+      ],
+      "keywords_to_avoid": ["nail fungus cure time", "nail fungus overnight"]
+    },
+    {
+      "slug": "nail-fungus-prevention",
+      "title": "How to Prevent Nail Fungus From Coming Back",
+      "primary_keyword": "nail fungus prevention",
+      "search_intent": "informational",
+      "content_type": "guide",
+      "template": "split-left",
+      "word_count_target": 1600,
+      "image_count": 2,
+      "priority": "medium",
+      "publish_order": 8,
+      "canonical": "https://mirelleinspo.com/blog/nail-fungus/nail-fungus-prevention",
+      "topical_boundary": "Prevention strategies for nail fungus only — hygiene habits, footwear, salon safety, and supplement support — does not cover active treatment",
+      "hierarchy_level": 2,
+      "parent_pillar": "what-is-nail-fungus",
+      "links_to": [
+        {
+          "slug": "nail-fungus-causes",
+          "anchor": "what causes nail fungus",
+          "full_url": "/blog/nail-fungus/nail-fungus-causes"
+        },
+        {
+          "slug": "what-is-nail-fungus",
+          "anchor": "nail fungus",
+          "full_url": "/blog/nail-fungus/what-is-nail-fungus"
+        }
+      ],
+      "keywords_to_avoid": ["nail fungus treatment", "nail fungus cure"]
+    }
+  ],
+  "cluster_keywords_to_avoid_globally": [
+    "toenail fungus",
+    "nail fungus cure",
+    "nail fungus gone forever",
+    "nail fungus overnight fix"
+  ],
+  "all_posts_index": [
+    { "slug": "what-is-nail-fungus", "role": "pillar", "hierarchy_level": 1 },
+    { "slug": "nail-fungus-symptoms", "role": "spoke", "hierarchy_level": 2 },
+    { "slug": "nail-fungus-causes", "role": "spoke", "hierarchy_level": 2 },
+    { "slug": "nail-fungus-treatment", "role": "spoke", "hierarchy_level": 2 },
+    { "slug": "nail-fungus-home-remedies", "role": "spoke", "hierarchy_level": 2 },
+    { "slug": "fingernail-fungus", "role": "spoke", "hierarchy_level": 2 },
+    { "slug": "how-long-does-nail-fungus-take-to-clear", "role": "spoke", "hierarchy_level": 2 },
+    { "slug": "nail-fungus-prevention", "role": "spoke", "hierarchy_level": 2 }
+  ]
+}
