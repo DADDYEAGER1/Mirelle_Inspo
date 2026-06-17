@@ -1,0 +1,361 @@
+THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.
+
+SECTION 1 — FILE AUTHORITY
+This file governs the writing of the nail-fungus-treatment post entirely. Every value below is final. Blog Gen Agent reads Section 12 first, locks all values, then executes. No recalculation. No deviation.
+
+SECTION 2 — POST CONSTANTS
+slug: nail-fungus-treatment
+topic_slug: nail-fungus
+canonical: https://mirelleinspo.com/blog/nail-fungus/nail-fungus-treatment
+post_type: spoke
+intent: informational (comparison sub-type)
+word_count: 2200
+image_count: 1 (hero only — no body images)
+template: split-left
+hero_dimensions: 800x800
+category: Nail Health
+publish_date: YYYY-MM-DD
+author: Mirellé Team
+Word count rationale: SERP for "nail fungus treatment" is dominated by mid-depth clinical guides (GoodRx, WebMD, AAD, Drugs.com) running 1,800–2,600 words. The gap is honest treatment comparison with clear escalation logic — not product lists, not padding. 2,200 words is sufficient to cover OTC, prescription topicals, oral medication, and laser clearly without overreach. Topical_boundary in cluster file confirms: OTC vs prescription comparison + when to escalate, no home remedies depth.
+
+SECTION 3 — CLUSTER SNAPSHOT
+pillar_slug: what-is-nail-fungus
+pillar_title: What Is Nail Fungus: Symptoms, Causes, and When to Treat It
+pillar_primary_keyword: nail fungus
+this_post_slug: nail-fungus-treatment
+this_post_role: spoke
+Keywords to avoid (hard wall — never used as focus terms):
+
+toenail fungus (cluster global ban)
+nail fungus cure (cluster global ban)
+nail fungus gone forever (cluster global ban)
+nail fungus overnight fix (cluster global ban)
+nail fungus home remedy (this post's own list)
+nail fungus cure (repeated — hard wall)
+
+
+SECTION 4 — SERP ANALYSIS
+Competitor gaps — what top-ranking posts miss:
+
+No post clearly explains WHY OTC treatments fail structurally (the nail plate penetration barrier) in plain language
+Most posts either oversell OTC or overwhelm with product lists — no post gives a clean decision framework: mild → OTC, moderate → prescription topical, severe → oral
+Escalation triggers (when to stop trying OTC and see a doctor) are vague or absent in most results
+Laser treatment is either ignored or treated as miracle/scam with no balanced summary
+Cure rates are rarely stated plainly — audiences are left guessing what "works"
+Side effects of oral terbinafine are either glossed over or overemphasised without context
+
+Missing semantic territory:
+
+The structural explanation (keratin barrier / nail plate density) as the core reason treatment hierarchy exists
+Clear time expectations per treatment type in one place
+"Combination therapy" as a real clinical option — barely mentioned
+The distinction between mycologic cure (fungus killed) vs clinical cure (nail looks normal) — audiences don't know these are different
+
+Our strategic approach:
+
+This post is the honest, structured guide that explains the treatment landscape without selling anything. The angle is: here is why the treatment pyramid exists (nail structure), here is where each option fits, here is what real cure rates look like, here is when to escalate. Readers leave knowing exactly what they have, what to try first, and what to say to a doctor.
+Image count validation: SERP shows mostly text-heavy clinical guides with minimal images. 1 hero image is appropriate. No body image requirement confirmed.
+
+SECTION 5 — AUDIENCE INTELLIGENCE
+Who they are:
+
+Adults who have noticed nail discolouration, thickness, or brittleness and have either tried an OTC product that didn't work or are deciding whether to start. They range from people who just noticed something wrong (early stage, not sure if it's fungus) to people who have been dealing with it for months and are frustrated. Many have already spent money on OTC products with limited results. A significant subset is reluctant to see a doctor — either cost, access, or embarrassment. They are not medically trained. They want a clear answer, not clinical hedging.
+What they want from this post:
+
+A straight answer on what treatment options exist and which are most effective
+To understand whether they need a prescription or can manage it themselves
+To know what to expect in terms of timelines — how long before it gets better
+Confidence in a decision: try this first, then escalate if X happens
+
+What frustrates them:
+
+Products that promise results and deliver nothing
+Articles that list ten options without saying which one actually works
+Being told "see a doctor" without any context for when that becomes necessary
+Inconsistency between sources on whether OTC treatments do anything at all
+Not understanding why nail fungus is so hard to clear compared to other infections
+
+Top 5 pain points:
+
+Spent months on OTC treatment with no visible change — don't know if they should keep going or switch
+Worried about the side effects of oral terbinafine, especially liver concerns — want context
+Don't know the difference between topical prescription and OTC — why pay more for a script if OTC has the same active ingredient
+Embarrassment about showing nails — want the fastest credible path to clear nails
+Unsure if what they have is even nail fungus vs nail psoriasis or nail trauma — everything looks similar
+
+Exact user phrases (from real conversations):
+
+"tried everything and nothing works"
+"is lamisil actually worth it"
+"why won't my nail fungus go away"
+"do I really need to see a doctor for toenail fungus"
+"how long does nail fungus treatment take to work"
+"can OTC stuff cure nail fungus or do I need a prescription"
+"oral antifungal scared of liver damage"
+"nail still looks yellow after treatment is it working"
+"what's the difference between jublia and lamisil pills"
+"tried terbinafine cream not working"
+
+Intent content signals:
+
+Wants comparison — not a product list, a clear hierarchy with rationale
+Needs plain-language cure rate data — numbers matter, not vague "may help"
+Wants escalation clarity — when to move from OTC to prescription to doctor
+Short, confident sentences preferred over hedged clinical paragraphs
+Values expert credibility but not jargon density
+Side effects explained proportionally — not catastrophised, not dismissed
+
+
+SECTION 6 — SEMANTIC KEYWORD DATA
+Primary keyword: nail fungus treatment
+Keyword variations (all cannibalization-cleared):
+
+nail fungus treatment options
+nail fungus treatment OTC
+best nail fungus treatment
+prescription nail fungus treatment
+nail fungus treatment that works
+antifungal nail treatment
+fungal nail infection treatment
+nail fungus treatment timeline
+
+Cluster keywords (all cleared — none drift into other posts):
+
+onychomycosis treatment
+terbinafine for nail fungus
+efinaconazole nail solution
+ciclopirox nail lacquer
+oral antifungal medication
+topical antifungal nail
+nail fungus doctor visit
+when to see doctor nail fungus
+nail debridement
+antifungal nail polish prescription
+OTC vs prescription antifungal
+nail fungus how long to clear (links to separate spoke)
+laser nail fungus treatment
+nail fungus recurrence
+
+LSI terms:
+
+onychomycosis
+dermatophytes
+nail plate penetration
+keratin barrier
+nail bed infection
+mycologic cure
+clinical cure
+terbinafine 250mg
+Lamisil tablets
+itraconazole
+Jublia efinaconazole
+Kerydin tavaborole
+Penlac ciclopirox
+undecylenic acid
+fungicidal vs fungistatic
+subungual infection
+nail matrix
+podiatrist referral
+liver function test antifungal
+antifungal efficacy rates
+
+AEO terms (full question phrases):
+
+What is the most effective treatment for nail fungus?
+Does OTC nail fungus treatment actually work?
+How long does it take for nail fungus treatment to work?
+What is the difference between OTC and prescription nail fungus treatment?
+When should I see a doctor for nail fungus?
+What are the side effects of oral antifungal medication for nail fungus?
+Is terbinafine the best treatment for nail fungus?
+Can nail fungus come back after treatment?
+What is efinaconazole and how does it treat nail fungus?
+Why is nail fungus so hard to treat?
+Does laser treatment work for nail fungus?
+Should I try OTC before getting a prescription for nail fungus?
+
+Technical terms:
+
+onychomycosis
+dermatophyte
+terbinafine (allylamide antifungal)
+efinaconazole (azole antifungal)
+ciclopirox lacquer
+tavaborole
+nail debridement
+mycologic cure rate
+
+User language:
+
+"nothing seems to work"
+"tried lamisil cream, didn't do anything"
+"yellow nail won't go away"
+"my nail is thick and crumbly"
+"finally got a prescription"
+"scared of the liver pill"
+"how many months until it clears"
+"is it worth paying for jublia"
+"nail just keeps growing back yellow"
+"podiatrist said I needed the pill"
+
+
+SECTION 7 — VOICE AND AI QUERIES
+
+What is the most effective treatment for nail fungus?
+Does over-the-counter nail fungus treatment actually work?
+What is the difference between OTC and prescription nail fungus treatment?
+How long does nail fungus treatment take to work?
+When should I see a doctor about nail fungus?
+What are the side effects of terbinafine for nail fungus?
+Is oral terbinafine safe for the liver?
+What is efinaconazole and does it work better than ciclopirox?
+Why is nail fungus so hard to get rid of?
+Can nail fungus be cured completely with treatment?
+What happens if I stop nail fungus treatment early?
+Does laser treatment actually work for nail fungus?
+Can nail fungus come back after successful treatment?
+What is the cure rate for oral antifungal medication?
+Should I try OTC treatment before seeing a doctor for nail fungus?
+How do I know if my nail fungus treatment is working?
+
+
+SECTION 8 — CONTENT STRUCTURE
+H1: Nail Fungus Treatment: OTC, Prescription, and What Actually Works
+H2 structure (ordered):
+
+Why Nail Fungus Is So Difficult to Treat
+Over-the-Counter Treatments: What They Can and Cannot Do
+Prescription Topical Treatments: Efinaconazole, Ciclopirox, and Tavaborole
+Oral Antifungal Medication: Terbinafine and When It Is the Right Choice
+Laser Treatment for Nail Fungus: What the Evidence Says
+How Long Does Treatment Take to Work
+When to Stop Self-Treating and See a Doctor
+Can Nail Fungus Come Back After Treatment
+
+Word budget:
+SectionWordsIntroduction220H2-1: Why nail fungus is hard to treat250H2-2: OTC treatments280H2-3: Prescription topicals270H2-4: Oral terbinafine300H2-5: Laser treatment200H2-6: How long treatment takes220H2-7: When to see a doctor200H2-8: Recurrence180Conclusion180Total2,300 (within ±50 tolerance of 2,200)
+
+SECTION 9 — INTERNAL LINKS
+All internal links:
+URLTitleAnchor TextPlacementType/blog/nail-fungus/what-is-nail-fungusWhat Is Nail Fungus: Symptoms, Causes, and When to Treat Ittypes of nail fungusH2-1 (Why it's hard to treat — natural anchor when explaining fungal types affect treatment)cluster-pillar/blog/nail-fungus/nail-fungus-home-remediesHome Remedies for Nail Fungus: What the Evidence Sayshome remedies for nail fungusH2-2 (OTC section — natural transition noting home remedies are a separate topic)cluster-spoke/blog/nail-fungus/how-long-does-nail-fungus-take-to-clearHow Long Does Nail Fungus Take to Clear With Treatmenthow long nail fungus takes to clearH2-6 (Treatment timelines — direct relevance)cluster-spoke
+
+SECTION 10 — VOICE AND TONE
+Recommended voice: Calm, credible guide — the knowledgeable friend who has read the clinical evidence and explains it without jargon or alarm.
+Tone characteristics:
+
+Direct and confident — states cure rates as facts, not hedges
+Proportionate on risk — acknowledges side effects without catastrophising
+Reader-first — always explains why something matters before stating what it is
+Non-selling — never implies a specific product or brand preference
+British English throughout — colour, recognise, -ise suffixes
+
+Language style: Medium-length sentences with occasional short declaratives for emphasis. Active voice. "You" used throughout. No medical jargon without immediate plain-language translation. Never says "it is important to note" or similar filler.
+Audience match: This reader is frustrated, cautious, and wants a decision framework. The tone must feel like it respects their intelligence and gives them real answers — not clinical hedging, not alarm, not a sales pitch.
+
+SECTION 11 — EXTERNAL LINKS
+URLContextAnchor suggestionhttps://www.aad.org/public/diseases/a-z/nail-fungus-treatmentCite when stating terbinafine prescription protocol (6 weeks fingernails, 12 weeks toenails)American Academy of Dermatology guidance on nail fungus treatmenthttps://pmc.ncbi.nlm.nih.gov/articles/PMC10922011/Cite when stating efinaconazole has high efficacy among topical prescription optionspeer-reviewed antifungal selection reviewhttps://www.drugs.com/medical-answers/best-over-counter-nail-fungus-treatment-3564243/Cite when explaining OTC penetration limitations and when prescription becomes necessaryclinical overview of OTC vs prescription nail fungus options
+
+SECTION 12 — EXECUTION PLAN
+Blog Gen Agent reads this section FIRST. Lock every value. Execute exactly.
+
+BLOCK 1 — KEYWORD EXECUTION
+primary_keyword: nail fungus treatment
+total_mention_target: 2200 x 0.02 = 44 mentions total
+first_100_words_plan:
+  mention_1: sentence 2 of introduction — establish the topic directly
+  mention_2: sentence 4–5 of introduction — reinforce before first H2
+first_half_target: 26 mentions — first 1,100 words (denser early)
+second_half_target: 18 mentions — second 1,100 words
+strong_tag_rule: EVERY single mention of "nail fungus treatment" — all 44 — wrapped in <strong> tags. No exceptions. Scan after every paragraph.
+keywords_to_avoid_active: toenail fungus, nail fungus cure, nail fungus gone forever, nail fungus overnight fix, nail fungus home remedy
+
+BLOCK 2 — WORD BUDGET
+total_target: 2200 words — +/-50 tolerance, never exceed
+introduction: 220 words
+H2-1 "Why Nail Fungus Is So Difficult to Treat": 250 words — complexity: HIGH
+H2-2 "Over-the-Counter Treatments: What They Can and Cannot Do": 280 words — complexity: HIGH
+H2-3 "Prescription Topical Treatments: Efinaconazole, Ciclopirox, and Tavaborole": 270 words — complexity: HIGH
+H2-4 "Oral Antifungal Medication: Terbinafine and When It Is the Right Choice": 300 words — complexity: HIGH
+H2-5 "Laser Treatment for Nail Fungus: What the Evidence Says": 200 words — complexity: MEDIUM
+H2-6 "How Long Does Treatment Take to Work": 220 words — complexity: MEDIUM
+H2-7 "When to Stop Self-Treating and See a Doctor": 200 words — complexity: MEDIUM
+H2-8 "Can Nail Fungus Come Back After Treatment": 180 words — complexity: LOW-MEDIUM
+conclusion: 180 words
+tracking_rule: Count running word total at end of every H2. Cut before moving on if over budget.
+
+BLOCK 3 — IMAGE PLAN
+total_images: 1
+hero_image: frontmatter only — NEVER appears in post body
+body_images: 0 — per user instruction, no body images whatsoever
+image_type_rule: Hero only — clean, clinical nail health image. NO product shots. NO before/after.
+path_rule: /images/blog/nail-fungus/nail-fungus-treatment/hero.webp — topic_slug in path, leading slash
+
+BLOCK 4 — OPENING TECHNIQUE ASSIGNMENTS
+rule: No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.
+
+Introduction: Technique 2 — The Tension (open with the reader's frustration: tried something, it didn't work, here's why)
+H2-1 "Why Nail Fungus Is So Difficult to Treat": Technique 3 — The Reframe (reframe the difficulty as structural, not personal failure)
+H2-2 "OTC Treatments": Technique 1 — The Claim (lead with a clear, direct statement of what OTC can and cannot do)
+H2-3 "Prescription Topicals": Technique 2 — The Tension (the gap between promise and penetration)
+H2-4 "Oral Terbinafine": Technique 1 — The Claim (direct statement: this is the most effective treatment available)
+H2-5 "Laser Treatment": Technique 3 — The Reframe (promising technology, but evidence is mixed — not a replacement yet)
+H2-6 "How Long Treatment Takes": Technique 2 — The Tension (patients underestimate timelines — that causes abandonment)
+H2-7 "When to See a Doctor": Technique 1 — The Claim (clear signals — do not wait if these apply)
+H2-8 "Recurrence": Technique 3 — The Reframe (recurrence is common, not a failure — here is what to do)
+Conclusion: Technique 1 — The Claim (clear summary of decision framework)
+
+banned_opener_rule: Check every opener against banned_opening_approaches in blog gen prompt before writing the second sentence.
+
+BLOCK 5 — LINK PLACEMENTS
+Link 1:
+  anchor_text: types of nail fungus
+  full_url: /blog/nail-fungus/what-is-nail-fungus
+  place_in_section: H2-1 "Why Nail Fungus Is So Difficult to Treat"
+  placement_context: When explaining that different types of nail fungus (dermatophytes vs yeast) respond differently to treatment — natural bridge to pillar for full type overview
+  link_type: cluster-pillar
+
+Link 2:
+  anchor_text: home remedies for nail fungus
+  full_url: /blog/nail-fungus/nail-fungus-home-remedies
+  place_in_section: H2-2 "Over-the-Counter Treatments: What They Can and Cannot Do"
+  placement_context: After explaining OTC limitations — note that home remedy approaches are covered separately, linking naturally without derailing the treatment comparison
+  link_type: cluster-spoke
+
+Link 3:
+  anchor_text: how long nail fungus takes to clear
+  full_url: /blog/nail-fungus/how-long-does-nail-fungus-take-to-clear
+  place_in_section: H2-6 "How Long Does Treatment Take to Work"
+  placement_context: Natural inline reference when noting that timelines vary significantly by treatment type — this section goes deeper on the full clearance timeline
+  link_type: cluster-spoke
+
+BLOCK 6 — AEO / GEO PLAN
+AEO assignments (direct answer paragraph immediately after H2 heading — before any elaboration):
+AEO TermAssigned H2ExecutionWhat is the most effective treatment for nail fungus?H2-4 Oral TerbinafineWrite 2–3 sentence direct answer: oral terbinafine is the most effective treatment, achieving mycologic cure in 70–80% of cases. Place immediately after H2 heading.Does OTC nail fungus treatment actually work?H2-2 OTC TreatmentsWrite 2–3 sentence direct answer: OTC works for mild, superficial infections only. Most people start treating too late for OTC to be sufficient. Place immediately after H2 heading.Why is nail fungus so hard to treat?H2-1 DifficultyWrite 2–3 sentence direct answer: the nail plate acts as a physical barrier, most topical treatments cannot penetrate to where the fungus lives in the nail bed. Place immediately after H2 heading.When should I see a doctor for nail fungus?H2-7 See a DoctorWrite 2–3 sentence direct answer: see a doctor if no improvement after 3 months OTC, if multiple nails are affected, if nails are painful or spreading. Place immediately after H2 heading.Can nail fungus come back after treatment?H2-8 RecurrenceWrite 2–3 sentence direct answer: yes — recurrence rates of 10–50% are reported even after successful treatment. Prevention habits are essential after clearing.
+GEO entity statements:
+EntityAssigned H2ExecutionOnychomycosisH2-1Define clearly: onychomycosis is the medical term for a fungal nail infection, most commonly caused by dermatophytes that feed on the keratin in the nail plate.TerbinafineH2-4Define: terbinafine is an allylamide antifungal that works by inhibiting squalene epoxidase, an enzyme the fungus needs to build its cell membrane — it kills the fungus rather than merely slowing its growth.EfinaconazoleH2-3Define: efinaconazole is an azole antifungal approved by the FDA for toenail fungus, applied once daily for 48 weeks — it penetrates the nail better than older topical options.Mycologic cure vs clinical cureH2-4 or H2-6Define the distinction: mycologic cure means lab tests show the fungus is gone; clinical cure means the nail also looks normal. The nail can take a year to look clear even after the infection is killed.
+
+BLOCK 7 — ACTIVE CONSTRAINTS
+em_dash_banned: Long em dash does not appear anywhere. Replace with: comma / new sentence / parentheses / but / restructure.
+
+banned_vocab_watch (most likely to slip for this topic):
+  - "amazing" (avoid in any health context)
+  - "simple" (nail fungus treatment is not simple — don't minimise)
+  - "just" (weakens clinical authority)
+  - "essentially" (filler)
+  - "very" (imprecise — replace with specific data)
+  - "natural" (used as unqualified positive — only use if medically accurate in context)
+  - "overall" (vague filler)
+
+british_english_active: colour, recognise, -ise, -our — every instance, no exceptions
+
+keyword_density_reminder: After every 2 H2 sections — count current "nail fungus treatment" mentions. First half must run denser. Adjust if lagging.
+
+image_path_reminder: /images/blog/nail-fungus/nail-fungus-treatment/hero.webp — topic_slug in path always. Hero in frontmatter only.
+
+internal_link_url_reminder: Full correct paths only. /blog/nail-fungus/[slug] — never bare /slug.
+
+hero_image_reminder: Hero = frontmatter only. NEVER place in body.
+
+strong_tag_reminder: Every "nail fungus treatment" mention = <strong> tags. Scan after every paragraph. All 44 instances.
+
+no_body_images_reminder: Zero body images. Hero only. Do not insert any image tags in the post body under any circumstance.
