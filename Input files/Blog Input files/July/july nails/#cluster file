@@ -1,1 +1,202 @@
 
+{
+  "cluster_metadata": {
+    "cluster_topic": "July Nails",
+    "topic_slug": "july-nails",
+    "target_audience": "Global, Tier 1 countries (US, UK, Canada, Australia)",
+    "total_posts": 3,
+    "intent_breakdown": {
+      "informational": 1,
+      "inspirational": 1,
+      "tutorial": 1,
+      "comparison": 0,
+      "seasonal_trend": 0
+    },
+    "pillar_post_slug": "4th-of-july-nails",
+    "created_date": "2026-06-18"
+  },
+  "existing_site_posts_excluded": [
+    {
+      "url": "https://mirelleinspo.com/blog/zodiac-nails/leo-nails",
+      "title": "Leo Nails: Bold Designs for the Most Dramatic Sign",
+      "inferred_primary_keyword": "leo nails",
+      "inferred_intent": "inspirational",
+      "exclusion_reason": "Already exists on mirelleinspo.com — owns July 23-31 birthdays via zodiac/birthstone (ruby) framing — keyword and angle reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/zodiac-nails/cancer-nails",
+      "title": "Cancer Nails: Dreamy Designs for the Water Sign",
+      "inferred_primary_keyword": "cancer nails",
+      "inferred_intent": "inspirational",
+      "exclusion_reason": "Already exists on mirelleinspo.com — owns June 21-July 22 birthdays via zodiac/birthstone (pearl/iridescent) framing — keyword and angle reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/inspo/summer-nails-2026",
+      "title": "Summer Nails 2026",
+      "inferred_primary_keyword": "summer nails 2026",
+      "inferred_intent": "seasonal_trend",
+      "exclusion_reason": "Already exists — owns broad summer color/technique trend coverage — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/topics/seasonal-trends",
+      "title": "Nail Trends 2026: The Complete Season-by-Season Guide",
+      "inferred_primary_keyword": "nail trends 2026",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — owns the broad month-by-month/season narrative — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/inspo/french-tip-nails-2026",
+      "title": "French Tip Nails 2026",
+      "inferred_primary_keyword": "french tip nails 2026",
+      "inferred_intent": "inspirational",
+      "exclusion_reason": "Already exists — owns the generic French tip gallery — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/holiday-vacation-nails-travel-guide",
+      "title": "Holiday and Vacation Nails: Complete Travel Manicure Guide",
+      "inferred_primary_keyword": "vacation nails",
+      "inferred_intent": "comparison",
+      "exclusion_reason": "Already exists — owns gel vs. acrylic vs. press-on durability comparison for trips/holidays — keyword and angle reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/fruit-nails/cherry-nails",
+      "title": "Cherry Nails: Every Design You Need to See",
+      "inferred_primary_keyword": "cherry nails",
+      "inferred_intent": "inspirational",
+      "exclusion_reason": "Already exists — owns cherry as a nail motif/color, including cherry red — keyword reserved despite cherry being 2026's breakout July 4th shade"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/fruit-nails/watermelon-nails",
+      "title": "Watermelon Nails: Summer Designs That Go Viral",
+      "inferred_primary_keyword": "watermelon nails",
+      "inferred_intent": "inspirational",
+      "exclusion_reason": "Already exists — owns watermelon/fruit motif coverage — keyword reserved"
+    }
+  ],
+  "posts": [
+    {
+      "post_id": 1,
+      "role": "pillar",
+      "title": "4th of July Nails: 50+ Patriotic Designs, Colors & Easy Ideas for 2026",
+      "slug": "4th-of-july-nails",
+      "primary_keyword": "4th of july nails",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Pinterest: 3+ dedicated boards (nailhow, nailpolish20, nailpolishindie) with active related-search clusters",
+        "The Everygirl: '30 Fourth of July Nail Ideas That Feel Fresh for 2026'",
+        "Chaylor & Mads: '25 Patriotic Fourth of July Nail Designs for 2026'",
+        "With Houna: '54 Gorgeous and Classy 4th Of July Nails We Can't Get Over In 2026'",
+        "Modern Nail Design: '4th Of July Nails 2026 – Simple, Cute & Patriotic Nail Designs'",
+        "Women.com: '9 Summer 2026 Pedicure Ideas Perfect For The 4th Of July'",
+        "Nail Fairy NYC: '4th of July Nail Ideas 2026 — Patriotic Nail Art'",
+        "Byrdie / Manucurist / LA Nail Supplies: dedicated 'July nail colors' coverage (absorbed into this post per user direction)"
+      ],
+      "why_included": "Highest-volume, broadest entry point in the cluster — validated across 10+ independent sources. Per user direction, this post absorbs three originally separate angles (short/simple designs, red-white-blue French tip variations, and July's monthly color guide) as dedicated sections rather than splitting into spokes, making it the single definitive resource for the topic.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "firework-nail-art", "anchor_text": "firework nail art tutorial", "type": "spoke" },
+          { "slug": "july-birthday-nails", "anchor_text": "july birthday nails", "type": "spoke" }
+        ],
+        "gallery_link": {
+          "url": "https://mirelleinspo.com/inspo/4th-of-july-nails-inspiration-gallery",
+          "anchor_text": "4th of july nails inspiration gallery"
+        },
+        "receives_links_from": [
+          { "slug": "firework-nail-art", "anchor_text": "4th of july nails" },
+          { "slug": "july-birthday-nails", "anchor_text": "4th of july nails" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 2,
+      "role": "spoke",
+      "title": "Firework Nail Art: How to Paint Fireworks on Your Nails for the 4th of July",
+      "slug": "firework-nail-art",
+      "primary_keyword": "firework nail art",
+      "intent": "tutorial",
+      "search_demand_signals": [
+        "Creative Nails: dedicated 'Fireworks Nail Art Tutorial' blog with 5-step method",
+        "Lemon8: 'DIY Firework Nail Art Tutorial: Easy Designs for Your 4th of July'",
+        "Pinterest: step-by-step firework nail tutorials with active saves",
+        "TikTok (@ballpit_nails): 'Easy Fireworks Nail Hack' gel tutorial",
+        "YouTube Shorts: dedicated firework nail art tutorial videos",
+        "Mr. Kate / Scratch Magazine: dedicated firework nail art DIY tutorials"
+      ],
+      "why_included": "Clear, repeated how-to demand across blog, TikTok, and YouTube — a distinct tutorial intent the inspo-led pillar doesn't cover in depth. Framed explicitly around the 4th of July (daytime sky, patriotic palette) to differentiate from the existing NYE Nails post, which uses firework nail art in a midnight/chrome context.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "4th-of-july-nails", "anchor_text": "4th of july nails", "type": "pillar" }
+        ],
+        "receives_links_from": [
+          { "slug": "4th-of-july-nails", "anchor_text": "firework nail art tutorial" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 3,
+      "role": "spoke",
+      "title": "July Birthday Nails: The Ruby Birthstone Guide for Summer Babies",
+      "slug": "july-birthday-nails",
+      "primary_keyword": "july birthday nails",
+      "intent": "informational",
+      "search_demand_signals": [
+        "Generic birthday-nail-art demand validated across multiple sources (cake, candle, balloon, confetti, number motifs)",
+        "Leo Nails post explicitly confirms ruby/garnet as July's recognized birthstone color, validating reader interest in birthstone-driven nail choices",
+        "Multiple birthday-nail roundups (Kreafolk, Gloss & Vibes, Nail Artistory, Nailspiration) treat birthstone/month framing as distinct from zodiac-sign framing"
+      ],
+      "why_included": "Real demand for birthday-specific nail content, reframed as an informational, explainer-led angle (what July's birthstone is and why, then how to wear it) specifically to avoid duplicating the zodiac-personality angle already owned by Leo Nails and Cancer Nails. This reclassification also restores intent diversity to the cluster after the merge reduced total post count to three.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "4th-of-july-nails", "anchor_text": "4th of july nails", "type": "pillar" }
+        ],
+        "receives_links_from": [
+          { "slug": "4th-of-july-nails", "anchor_text": "july birthday nails" }
+        ]
+      },
+      "status": "approved"
+    }
+  ],
+  "keyword_ownership_registry": {
+    "description": "Master list of all primary keywords — one per post, no overlaps, includes existing site posts",
+    "entries": [
+      { "primary_keyword": "4th of july nails", "owned_by_slug": "4th-of-july-nails", "owned_by_title": "4th of July Nails: 50+ Patriotic Designs, Colors & Easy Ideas for 2026", "source": "new post" },
+      { "primary_keyword": "firework nail art", "owned_by_slug": "firework-nail-art", "owned_by_title": "Firework Nail Art: How to Paint Fireworks on Your Nails for the 4th of July", "source": "new post" },
+      { "primary_keyword": "july birthday nails", "owned_by_slug": "july-birthday-nails", "owned_by_title": "July Birthday Nails: The Ruby Birthstone Guide for Summer Babies", "source": "new post" },
+      { "primary_keyword": "leo nails", "owned_by_slug": "leo-nails", "owned_by_title": "Leo Nails: Bold Designs for the Most Dramatic Sign", "source": "existing site post" },
+      { "primary_keyword": "cancer nails", "owned_by_slug": "cancer-nails", "owned_by_title": "Cancer Nails: Dreamy Designs for the Water Sign", "source": "existing site post" },
+      { "primary_keyword": "summer nails 2026", "owned_by_slug": "summer-nails-2026", "owned_by_title": "Summer Nails 2026", "source": "existing site post" },
+      { "primary_keyword": "nail trends 2026", "owned_by_slug": "seasonal-trends", "owned_by_title": "Nail Trends 2026: The Complete Season-by-Season Guide", "source": "existing site post" },
+      { "primary_keyword": "french tip nails 2026", "owned_by_slug": "french-tip-nails-2026", "owned_by_title": "French Tip Nails 2026", "source": "existing site post" },
+      { "primary_keyword": "vacation nails", "owned_by_slug": "holiday-vacation-nails-travel-guide", "owned_by_title": "Holiday and Vacation Nails", "source": "existing site post" },
+      { "primary_keyword": "cherry nails", "owned_by_slug": "cherry-nails", "owned_by_title": "Cherry Nails: Every Design You Need to See", "source": "existing site post" },
+      { "primary_keyword": "watermelon nails", "owned_by_slug": "watermelon-nails", "owned_by_title": "Watermelon Nails: Summer Designs That Go Viral", "source": "existing site post" }
+    ]
+  },
+  "merged_posts_log": [
+    {
+      "original_topics": ["Simple 4th of July Nails (short nails)", "Red, White & Blue French Tips (Americana Nails)", "July Nail Colors 2026"],
+      "merged_into": "4th of July Nails: 50+ Patriotic Designs, Colors & Easy Ideas for 2026",
+      "reason": "User chose to consolidate three validated but narrower angles into the pillar as dedicated sections, creating one stronger, more comprehensive resource instead of splitting traffic across four separate posts."
+    }
+  ],
+  "killed_posts_log": [
+    {
+      "topic": "Gel vs. Acrylic vs. Press-On Nails for the 4th of July",
+      "reason": "Existing post conflict — mirelleinspo.com already runs this exact comparison template for prom, work, almond shape, and general holiday/vacation travel (Holiday and Vacation Nails guide); a July 4th version would overlap rather than differentiate"
+    },
+    {
+      "topic": "July Nail Trends 2026 (broad monthly trend forecast)",
+      "reason": "Overlap with existing Summer Nails 2026 and Nail Trends 2026 Season-by-Season Guide; narrower validated color angle absorbed into the pillar instead"
+    },
+    {
+      "topic": "Cherry Nails for the 4th of July",
+      "reason": "Existing post conflict — Cherry Nails already owns the cherry motif/color keyword on mirelleinspo.com; cherry can appear as one color option inside the pillar but not as its own post"
+    },
+    {
+      "topic": "Watermelon/Picnic 4th of July Nails",
+      "reason": "Existing post conflict — Watermelon Nails and Fruit Nails already own fruit-motif keywords; can appear as a secondary motif inside the pillar"
+    }
+  ]
+}
