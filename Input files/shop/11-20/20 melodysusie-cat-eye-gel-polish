@@ -1,0 +1,551 @@
+# SHOP INPUT FILE — POST 20
+## THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT.
+All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy.
+
+---
+
+## SECTION 1 — CLUSTER SUMMARY
+
+- **Cluster:** EC-03 Gel Polish
+- **Category route:** `/shop/gel-polish`
+- **This post:** "MelodySusie Cat Eye Gel Polish: Best Magnetic Nail Picks"
+- **Slug:** `melodysusie-cat-eye-gel-polish`
+- **Post type:** best-of
+- **Primary keyword:** `MelodySusie cat eye gel polish`
+- **Role:** Spoke — supports EC-03 pillar (post 3: best-melodysusie-gel-polish)
+- **Affiliate mode:** US affiliate links
+- **Internal links to include (mid-post only, after first product CTA):**
+  - EC-03 pillar → `/shop/gel-polish/best-melodysusie-gel-polish` — anchor: "full MelodySusie gel polish lineup"
+  - EC-02 spoke → `/shop/nail-lamps/best-melodysusie-nail-lamps` — anchor: "MelodySusie UV LED nail lamp"
+- **Posts that link to this post:** EC-03 pillar (post 3)
+- **Active discount codes:** CODE OFF8 (8% sitewide) | CODE MSOFF15 (15% off orders over $129.99) | Buy 6 Get 6 FREE on individual Jeweliver bottles: CODE B6G6
+
+---
+
+## SECTION 2 — FRONTMATTER BLOCK
+
+**Post gen instruction:** Copy this frontmatter block exactly into the post. Do not change any field.
+
+```yaml
+---
+title: "MelodySusie Cat Eye Gel Polish: 5 Best Magnetic Nail Picks"
+excerpt: "Hypnotic, gem-like shimmer at home. These are the best MelodySusie Jeweliver cat eye gel polishes — ranked by color range, ease, and lasting power."
+date: 2026-06-18
+author: Mirellé
+category: gel-polish
+image: "https://www.melodysusie.com/cdn/shop/files/74b96dbb2d19db9758ba306fc55ad040_86072735-6c9f-44da-a73a-03e2bfc2588c.jpg?v=1741659519&width=1200"
+imageAlt: "MelodySusie cat eye gel polish 6-color set in pink and red shades showing magnetic shimmer effect on nails"
+imageWidth: 1200
+imageHeight: 630
+readTime: "7 min read"
+canonical: ""
+postType: "best-of"
+winnerIndex: 0
+showComparison: true
+showProscons: false
+comparisonCaption: "How the top Jeweliver cat eye gel polish picks compare"
+
+products:
+  - name: "Jeweliver Cat Eye Gel Polish 6 Colors Set — Pink and Red"
+    brand: "MelodySusie"
+    price: "$45.99"
+    compareAtPrice: "$59.94"
+    image: "https://www.melodysusie.com/cdn/shop/files/74b96dbb2d19db9758ba306fc55ad040_86072735-6c9f-44da-a73a-03e2bfc2588c.jpg?v=1741659519&width=1200"
+    link: "https://www.melodysusie.com/products/jeweliver-cat-eye-gel-polish-6-colors-set-0-5-fl-oz-15ml-pink-and-red?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    rating: 5.0
+    reviewCount: 62
+    details:
+      - "6 shades: pinks, reds, coral, rose — covers everyday and occasion looks"
+      - "Magnetic stick included — 28+ day wear, cures in 60–90 seconds"
+      - "Sale: $45.99 (reg. $59.94) — use CODE OFF8 for extra 8% off"
+    pros:
+      - "Warm-toned shade range covers the colors most people actually want to wear"
+      - "Magnet included — no separate purchase needed to get started"
+      - "Smooth, easy-glide brush that self-levels — works for beginners"
+      - "28+ days wear time with no chipping under proper application"
+      - "Low odor formula — noticeably cleaner to use at home than standard gels"
+    cons:
+      - "Not TPO-free — standard formula, not the HEMA-free line"
+      - "Only 6 shades — won't satisfy buyers who want a large palette"
+
+  - name: "Jeweliver Cat Eye Gel Polish 6 Colors Set — Blue and Green"
+    brand: "MelodySusie"
+    price: "$45.99"
+    compareAtPrice: "$59.94"
+    image: "https://www.melodysusie.com/cdn/shop/files/74b96dbb2d19db9758ba306fc55ad040_86072735-6c9f-44da-a73a-03e2bfc2588c.jpg?v=1741659519&width=1200"
+    link: "https://www.melodysusie.com/products/jeweliver-cat-eye-gel-polish-6-colors-set-0-5-fl-oz-15ml-blue-and-green?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Bold Colors"
+    rating: 5.0
+    reviewCount: 93
+    details:
+      - "6 cool-toned shades: aquamarine, galaxy blue, golden green, and more"
+      - "Most-reviewed 6-color set — 93 reviews, perfect 5.0 rating"
+      - "Magnet included — same proven Jeweliver formula"
+    pros:
+      - "Cool-tone shades show the cat eye magnetic effect most dramatically"
+      - "Highest review count in the 6-color range — most buyer validation"
+      - "Aquamarine and galaxy blue are standout, hard-to-find shades for this price"
+      - "Magnet included — ready to use immediately"
+      - "Same 28+ day wear and 60–90 second cure as full collection"
+    cons:
+      - "Cool tones are polarizing — not for buyers who want pinks and nudes"
+      - "Not TPO-free"
+
+  - name: "Jeweliver Cat Eye Gel Nail Polish — 12 Colors"
+    brand: "MelodySusie"
+    price: "$89.99"
+    compareAtPrice: "$130.87"
+    image: "https://www.melodysusie.com/cdn/shop/files/bundle_b25db82d-e5a7-437c-9ee3-2f0a22096e19.jpg?v=1750237209&width=1200"
+    link: "https://www.melodysusie.com/products/jeweliver-cat-eye-gel-nail-polish-12-colors?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Mid-Range Set"
+    rating: 5.0
+    reviewCount: 0
+    details:
+      - "12 colors spanning warm nudes, pinks, silvers, and deeper tones"
+      - "$89.99 (reg. $130.87) — saves $40+ vs. buying individual bottles"
+      - "Full Jeweliver formula: 28+ day wear, 60–90s cure, magnet included"
+    pros:
+      - "Wide shade range in one purchase — covers casual, bold, and neutral looks"
+      - "Significant discount vs. buying 12 individual bottles separately"
+      - "Gives buyers color variety to match the cat eye trend across seasons"
+      - "Same proven Jeweliver formula and included magnet stick"
+    cons:
+      - "Higher upfront cost — not ideal for first-time buyers who want to try the formula first"
+      - "No reviews yet — newer bundle SKU; formula is identical to individual bottles"
+
+  - name: "Jeweliver Cat Eye Gel Nail Polish — 19 Colors"
+    brand: "MelodySusie"
+    price: "$153.73"
+    compareAtPrice: "$219.78"
+    image: "https://www.melodysusie.com/cdn/shop/files/3-_19_b4bae80f-e6e1-4f50-aa2f-706a7385aaa9.jpg?v=1750237209&width=1200"
+    link: "https://www.melodysusie.com/products/jeweliver-cat-eye-gel-nail-polish-19-colors?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Collectors"
+    rating: 5.0
+    reviewCount: 33
+    details:
+      - "19 colors — the widest Jeweliver cat eye set available"
+      - "$153.73 (reg. $219.78) — saves $66 vs. retail per-bottle price"
+      - "Full Jeweliver formula — 28+ day wear, low odor, includes magnets"
+    pros:
+      - "Best per-bottle value when buying the full Jeweliver collection"
+      - "19 shades cover every color family — suitable for nail techs and serious hobbyists"
+      - "Ships with magnets — ready to use as a complete set"
+      - "Use CODE MSOFF15 on this order for an extra 15% off over $129.99"
+    cons:
+      - "High upfront investment — not for casual buyers"
+      - "Large format means you need storage space for 19 bottles"
+
+  - name: "5 in 1 Multifunctional Cat Eye Gel Polish Magnet — Pink"
+    brand: "MelodySusie"
+    price: "$8.59"
+    compareAtPrice: "$11.59"
+    image: "https://www.melodysusie.com/cdn/shop/files/7fb0f70318a11d24932d04d0dc375945_1da63e6d-c9ad-48a3-9775-6527c093f7f4.jpg?v=1728542042&width=1200"
+    link: "https://www.melodysusie.com/products/5-in-1-multifunctional-cat-eye-gel-nail-polish-magnet-pink?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Add-On Tool"
+    rating: 4.9
+    reviewCount: 42
+    details:
+      - "5 unique magnet heads — French effect, black hole, floral, and more"
+      - "Strong magnetic force — creates cat eye patterns in seconds"
+      - "Compact and portable — silicone protective case included"
+    pros:
+      - "5 distinct head shapes unlock pattern variety single-head magnets can't do"
+      - "Neodymium-grade strength pulls particles quickly — no weak, blurry lines"
+      - "Silicone case protects the heads and makes it easy to grip during application"
+      - "Compact enough to slip into any nail kit or travel bag"
+    cons:
+      - "Magnets can detach due to strong magnetism — reinstall and they function normally"
+      - "Takes practice to learn which head creates which pattern"
+
+comparisonTable:
+  caption: "How the top Jeweliver cat eye gel polish picks compare"
+  features:
+    - "Price"
+    - "Number of Colors"
+    - "Magnet Included"
+    - "Sale Discount"
+    - "Rating"
+    - "TPO-Free"
+    - "Best For"
+  columns:
+    - label: "6-Color Pink & Red Set"
+      badge: "Best Overall"
+      values:
+        - "$45.99"
+        - "6"
+        - true
+        - "$13.95 off"
+        - "5.0 (62 reviews)"
+        - false
+        - "Warm-tone starters"
+    - label: "6-Color Blue & Green Set"
+      badge: "Best Bold Colors"
+      values:
+        - "$45.99"
+        - "6"
+        - true
+        - "$13.95 off"
+        - "5.0 (93 reviews)"
+        - false
+        - "Cool-tone lovers"
+    - label: "12-Color Set"
+      badge: "Best Mid-Range"
+      values:
+        - "$89.99"
+        - "12"
+        - true
+        - "$40.88 off"
+        - "5.0"
+        - false
+        - "Color variety buyers"
+    - label: "19-Color Set"
+      badge: "Best for Collectors"
+      values:
+        - "$153.73"
+        - "19"
+        - true
+        - "$66.05 off"
+        - "5.0 (33 reviews)"
+        - false
+        - "Serious hobbyists / nail techs"
+    - label: "5-in-1 Magnet Tool"
+      badge: "Best Add-On"
+      values:
+        - "$8.59"
+        - "N/A"
+        - "N/A"
+        - "$3.00 off"
+        - "4.9 (42 reviews)"
+        - "N/A"
+        - "Upgrading magnet effects"
+
+faqs:
+  - question: "Do MelodySusie cat eye gel polishes come with a magnet?"
+    answer: "Yes. Every Jeweliver cat eye gel polish set from MelodySusie includes a magnetic stick in the package. Individual bottles also include a magnet. The 5-in-1 Multifunctional Magnet is a separate upgrade tool that gives you 5 different head shapes for more advanced designs like French effects and floral patterns."
+
+  - question: "How long does MelodySusie cat eye gel polish last on nails?"
+    answer: "MelodySusie Jeweliver cat eye gel polish lasts 28+ days with proper application — that means base coat, two thin coats of cat eye gel with magnet work on each nail before curing, and a top coat. Using a compatible MelodySusie UV LED lamp for 60–90 seconds per coat is essential for full cure and chip resistance."
+
+  - question: "Is MelodySusie cat eye gel polish HEMA-free?"
+    answer: "The standard Jeweliver cat eye gel line is not HEMA-free. MelodySusie notes on product pages that Jeweliver Cat Eye Gels are not TPO-Free. If you have gel sensitivities, MelodySusie's HEMA-free gel line (separate collection) is the safer option. The Jeweliver HEMA-Free & TPO-Free Bright Silver G1081 is an exception in the cat eye range — it uses TPO-L/TMO which is EU-compliant."
+
+  - question: "Can beginners use cat eye gel polish at home?"
+    answer: "Yes. MelodySusie designed the Jeweliver line for both beginners and experienced nail artists. The key steps are: apply a thin coat, don't cure yet, hold the included magnet 1–2mm above the wet nail for a few seconds to create the effect, then cure under your UV LED lamp. The self-leveling formula minimizes streaks. Beginners typically get a clean cat eye on the second or third attempt."
+
+  - question: "What colors does the MelodySusie Jeweliver cat eye gel line come in?"
+    answer: "The Jeweliver cat eye collection spans 19 individual shades including warm tones (Pigeon's Blood Red, Rutile Golden, Coral Pink, Nude Apricot), cool tones (Aquamarine Blue, Galaxy Blue, Moonlit Silver, Golden Green), and neutral-dark options (Dark Gray, Honey Brown, Blood Red). Sets are available in 6, 12, and 19-color bundles."
+
+  - question: "Does cat eye gel polish need a UV lamp to cure?"
+    answer: "Yes. Cat eye gel polish is a UV/LED gel — it will not dry without curing under a UV or LED nail lamp. MelodySusie recommends curing for 60–90 seconds per coat. The magnetic effect must be set with the magnet before curing each nail individually. Don't magnetize multiple nails at once before curing or the particles will drift back before the first nail is cured."
+
+  - question: "Can I use the MelodySusie 5-in-1 magnet with other brands' cat eye gel?"
+    answer: "Yes. The 5-in-1 Multifunctional Magnet works with any magnetic cat eye gel polish — not just MelodySusie. The neodymium-grade magnetic force is strong enough to pull particles in standard and heavy-pigment cat eye gels from most brands."
+---
+```
+
+---
+
+## SECTION 3 — SEO AND KEYWORD PLAN
+
+**Post gen instruction:** Follow this keyword plan exactly. Calculate density before writing — do not estimate.
+
+**Primary keyword:** `MelodySusie cat eye gel polish`
+- Every mention wrapped in `<strong>` tags
+- First 150 words: must appear exactly 2 times, both in `<strong>` tags
+- **Keyword density target:** 1.2% — for a 1,400-word post = ~17 total mentions
+
+**Keyword variations (no density target, no strong tags):**
+- Jeweliver cat eye gel polish
+- MelodySusie magnetic nail polish
+- MelodySusie Jeweliver collection
+- cat eye nail gel MelodySusie
+- MelodySusie nail gel cat eye
+
+**High CPC transactional keywords (weave into CTAs, H2s, pricing copy):**
+- "buy cat eye gel polish online USA" (est. CPC $1.80–$2.40)
+- "magnetic nail polish kit" ($1.60–$2.20)
+- "cat eye nail polish set with magnet" ($1.70–$2.50)
+- "gel nail polish magnetic effect" ($1.50–$2.00)
+- "best cat eye gel polish for home use" ($1.80–$2.60)
+
+**Transactional cluster keywords (no density target):**
+- cat eye gel nail polish set
+- magnetic gel polish kit
+- cat eye gel polish with magnet included
+- best magnetic nail polish for beginners
+- cat eye nail polish that lasts
+- how to do cat eye nails at home
+- cat eye gel polish 6 colors set
+- magnetic cat eye nail colors
+- holographic cat eye gel polish
+
+**LSI semantic terms (weave naturally):**
+- magnetic particles / iron powder fragments
+- shimmer effect / multi-dimensional shimmer
+- gem-like glow / chatoyancy
+- UV LED nail lamp / UV curing
+- self-leveling formula
+- 28-day wear / chip resistant
+- base coat top coat
+- salon-quality nails at home
+- nail art magnetic effect
+- neodymium magnet / magnet stick
+- nail art manicure
+- gel nail polish set
+
+**AEO terms and mappings (must be answered in assigned location):**
+- "How do I use cat eye gel polish at home?" → H2: "How to Get the Cat Eye Effect at Home (Step by Step)"
+- "Does cat eye gel polish come with a magnet?" → FAQ entry 1
+- "How long does cat eye gel polish last?" → FAQ entry 2
+- "Is MelodySusie cat eye gel polish good for beginners?" → H2: "Are These Good for Beginners?"
+- "What colors does MelodySusie cat eye gel come in?" → FAQ entry 5
+- "Do you need a UV lamp for cat eye gel polish?" → FAQ entry 6
+- "What is the difference between cat eye gel and regular gel polish?" → H2: "What Makes Cat Eye Gel Polish Different?"
+- "Can I do cat eye nails at home without going to a salon?" → H2 intro section
+- "What is the best cat eye gel polish kit for home use?" → H2: "Which Set Should You Buy?"
+
+**GEO terms (place near CTAs, pricing copy, availability sections):**
+- "cat eye gel polish buy online USA"
+- "MelodySusie ships to USA"
+- "free US shipping nail polish"
+- "best cat eye gel polish available in USA"
+- "buy MelodySusie gel polish online"
+→ Use near ShopInlineCTA, ShopFinalCTA, and the "Which Set Should You Buy?" section
+
+---
+
+## SECTION 4 — COMPETITOR AND TITLE INTELLIGENCE
+
+**Post gen instruction:** Use this to write a title and excerpt that outperforms competitors on CTR. Analysis is done — execute it.
+
+**Top 3 competitor titles for "MelodySusie cat eye gel polish":**
+1. "Jeweliver Cat Eye Gel Nail Polish Collection | MelodySusie" — product page, not a post. No buyer benefit angle.
+2. "Best Cat Eye Gel Polish Brands" (lavisnails.com) — generic, no MelodySusie specificity.
+3. "13 Best Magnetic Nail Polishes Of 2026" (stylecraze.com) — broad roundup, MelodySusie not featured.
+
+**Gap:** No independent review post specifically targeting "MelodySusie cat eye gel polish" from an affiliate editorial perspective. This is a clear gap.
+
+**Title direction:** More specific to MelodySusie Jeweliver line, clear product count, magnetic nail angle in title. Better buyer benefit: ranked picks, not just "collection page."
+
+**Our title:** "MelodySusie Cat Eye Gel Polish: 5 Best Magnetic Nail Picks" — 53 chars, primary keyword in first 7 words, product count for specificity.
+
+**Competitor gaps — mandatory H2 sections:**
+- None explain step-by-step how to use cat eye gel at home (just product lists)
+- None compare which set size is right for different buyers (6 vs. 12 vs. 19 color)
+- None address the magnet: what's included vs. the upgrade 5-in-1 tool
+- None address "is cat eye gel polish good for beginners at home"
+- None cover discount codes or active promotions
+
+**Word count target:** 1,400 words (matches StyleCraze-style transactional roundup; slightly above competitor average of ~1,200 for this keyword)
+
+---
+
+## SECTION 5 — BUYER INTELLIGENCE
+
+**Post gen instruction:** Every paragraph must be written for this buyer. Use the exact phrases from the buyer phrase bank naturally in copy.
+
+**Who this buyer is:**
+- DIY nail hobbyist or beginner, mostly home users, 22–45 years old
+- Has seen cat eye nails on TikTok, Pinterest, or Instagram and wants to recreate the look
+- May already own a MelodySusie nail lamp or drill — looking for the matching polish
+- Budget-conscious but willing to pay for quality that delivers the "salon shimmer effect at home"
+
+**What they need from this post:**
+- Clear explanation of what the cat eye effect is and how it works
+- Which set to buy — 6-color or 12-color or 19-color — without overthinking it
+- Whether a magnet is included or they need to buy it separately
+- Confidence that it will work for a beginner, alone at home
+
+**What frustrates them:**
+- Vague posts that don't compare set sizes
+- Not knowing if the magnet is included or costs extra
+- Worrying the cat eye effect will be too hard to achieve
+- Posts that don't mention discount codes
+
+**Top 5 buying objections (must address in post body):**
+1. "Will I be able to do the cat eye effect myself — is it hard?"
+2. "Do I need to buy a magnet separately?"
+3. "How long will this actually last before chipping?"
+4. "Is 6 colors enough or should I buy more?"
+5. "Is it worth the price vs. cheaper brands on Amazon?"
+
+**Buyer phrase bank (use naturally in copy):**
+- "I can't stop looking at my nails"
+- "the magnetic effect is so much easier than I expected"
+- "it lasts longer than other brands"
+- "easier to control and doesn't bleed from the nail beds"
+- "salon-quality nails from the comfort of your home"
+- "perfect for people doing nail art at home"
+- "the shimmery finish stands out wherever you go"
+- "even beginners can get the perfect shiny cat eye effect"
+- "vibrant, on point, and lasted as well as other MelodySusie products"
+- "not as runny, so it's easier to control"
+
+**Recurring praise (real reviews — use as selling points):**
+- Easy to apply, smooth application
+- Color is vibrant, true to photos
+- Lasts longer than other brands
+- Perfect formula viscosity — not too runny, doesn't bleed
+
+**Recurring complaints (address honestly in copy):**
+- The cat eye effect takes a little practice on first attempt
+- Not TPO-free (important for sensitive skin buyers — direct them to HEMA-free line)
+
+---
+
+## SECTION 6 — DISCOUNT AND CONVERSION DATA
+
+**Post gen instruction:** Include active discount information naturally near product CTAs.
+
+- **CODE OFF8** — 8% off sitewide (applies to all products featured)
+- **CODE MSOFF15** — 15% off orders over $129.99 (applies to 19-color set; mention near that product)
+- **CODE B6G6** — Buy 6 individual Jeweliver bottles, get 6 FREE (mention in intro or "Which Set Should You Buy?" section as an alternative to bundles)
+- **Free US shipping** on orders over $129.99 (mention near 19-color set CTA)
+- **Sale prices already reflected** in all product pricing above
+
+**Where to place discount mentions:**
+- CODE OFF8 → near ShopInlineCTA section (after first product block)
+- CODE MSOFF15 + free shipping → near 19-color set section and ShopFinalCTA
+- CODE B6G6 → in "Which Set Should You Buy?" decision section
+
+---
+
+## SECTION 7 — CONTENT STRUCTURE
+
+**Post gen instruction:** Use these H2 headings in this exact order. Do not rename, reorder, or remove. Add H3s at your discretion.
+
+### Intro (no H2) — 150–180 words
+- Open with the buyer benefit: cat eye nails are one of the most-searched nail art looks right now — you can do them at home
+- Name the product: MelodySusie Jeweliver cat eye gel polish is the brand's magnetic nail line
+- State the post's promise: these are the 5 best picks ranked, with which set to buy for your situation
+- Primary keyword appears 2× in first 150 words, both in `<strong>` tags
+- GEO: mention "available online in the USA with free US shipping"
+- Inject `{{PRODUCTS:2:0,1}}` after intro (Pink & Red set + Blue & Green set side by side)
+
+---
+
+### H2: What Makes Cat Eye Gel Polish Different? — 120–140 words
+- AEO answer: "What is the difference between cat eye gel and regular gel polish?"
+- Explain: regular gel = even color; cat eye gel = ultra-fine magnetic particles suspended in formula
+- Hold the magnet near the wet nail → particles align → creates the shimmery line illusion (the "cat eye")
+- Cure under UV LED lamp → effect locks in permanently
+- Keep it tight — buyers want to know enough to be confident, not a science lecture
+- No product injection here
+
+---
+
+### H2: How to Get the Cat Eye Effect at Home (Step by Step) — 160–180 words
+- AEO answer: "How do I use cat eye gel polish at home?"
+- 5-step process using Jeweliver:
+  1. Prep and apply base coat, cure
+  2. Apply thin coat of cat eye gel, don't cure yet
+  3. Hold magnet 1–2mm above wet nail for 5–10 seconds until effect appears
+  4. Cure under lamp 60–90 seconds to lock the pattern
+  5. Apply top coat, cure again
+- Address beginner objection: "the cat eye effect is much easier than it looks — most people nail it by the second try"
+- Mention: included magnet in sets handles steps 1–5 without extra purchases
+- Inject `{{PRODUCTS:1:2}}` after this section (12-color set — featured layout, for buyers thinking about color variety)
+
+---
+
+### H2: Are These Good for Beginners? — 100–120 words
+- AEO answer: "Is MelodySusie cat eye gel polish good for beginners?"
+- Direct answer: yes — the Jeweliver formula is self-leveling, not runny, easier to control than thin formulas
+- Real review language: "even beginners can get the perfect shiny cat eye effect"
+- Address objection: "doesn't bleed from the nail beds to the skin as easily"
+- Note: the key is working one nail at a time — magnetize, then cure before moving to the next
+- Internal link here: anchor "full MelodySusie gel polish lineup" → `/shop/gel-polish/best-melodysusie-gel-polish`
+
+---
+
+### H2: Which Set Should You Buy? — 180–220 words
+- This is the decision-driving section — buyer is choosing between set sizes
+- Decision framework:
+  - **First time trying cat eye gel?** → 6-color Pink & Red set (best warmth, includes magnet, lowest risk)
+  - **Want cool-tone or bold shades?** → 6-color Blue & Green set (highest reviews, most validated)
+  - **Already love the formula, want more colors?** → 12-color set (best mid-range value)
+  - **Serious hobbyist or nail tech?** → 19-color set (best per-bottle value, use CODE MSOFF15 for extra 15% off)
+  - **Have sets but want more pattern variety?** → 5-in-1 magnet tool ($8.59) — upgrade your effects without buying more polish
+- Mention CODE B6G6: Buy 6 individual bottles, get 6 free — alternative to bundles
+- Mention free US shipping on orders over $129.99
+- AEO: "What is the best cat eye gel polish kit for home use?"
+- Inject `{{PRODUCTS:2:3,4}}` after this section (19-color set + 5-in-1 magnet side by side)
+- GEO: "available online in the USA" near CTAs
+
+---
+
+### H2: What We Like (and What to Know Before You Buy) — 140–160 words
+- Pros/selling points from real buyer reviews — use buyer phrase bank:
+  - "the shimmery finish stands out wherever you go"
+  - lasts 28+ days, doesn't chip under proper application
+  - colors are true to photos, vibrant
+  - low odor compared to standard gels
+  - easy-glide brush, no streaks
+- Honest cons addressed directly:
+  - Not TPO-free — if you have gel sensitivities, MelodySusie's separate HEMA-free collection is the option
+  - Cat eye technique takes one or two attempts to get consistent — this is true for any cat eye gel, not a MelodySusie-specific issue
+- Second internal link here: anchor "MelodySusie UV LED nail lamp" → `/shop/nail-lamps/best-melodysusie-nail-lamps`
+
+---
+
+### H2: Is MelodySusie Cat Eye Gel Polish Worth It? — 120–140 words
+- Final push to purchase — not a summary
+- Price benchmark: individual Jeweliver bottles at $9.99 with magnet included vs. salon cat eye manicure at $60–$80+
+- The 6-color set at $45.99 (reg. $59.94) = 6 colors + magnet for less than one salon visit
+- "I can't stop looking at my nails" — buyer-validated outcome
+- Restate discount: use CODE OFF8 for extra 8% off sitewide
+- No injection — ShopFinalCTA auto-fires after this section
+
+---
+
+## SECTION 8 — COMPONENT DIRECTIVES
+
+**Post gen instruction:** These components fire automatically from frontmatter. Confirm trigger fields in Section 2 are correctly set. Never write component content in body.
+
+- **WinnerBadge** — ACTIVE (winnerIndex: 0 set) — fires below hero, above content — shows Pink & Red 6-color set with "Best Overall" badge
+- **ShopInlineCTA** — ACTIVE (winnerIndex: 0 set) — fires after first ~30% of content (after "What Makes Cat Eye Gel Polish Different?" section)
+- **ComparisonTable** — ACTIVE (showComparison: true + comparisonTable data present) — fires after middle section (after "Which Set Should You Buy?")
+- **ProsConsBlock** — INACTIVE (showProscons: false for best-of)
+- **ShopFinalCTA** — ALWAYS ACTIVE — fires after "Is It Worth It?" section — auto-puts winner (Pink & Red set) first
+- **ShopFAQ** — ACTIVE (7 FAQ entries in faqs[] array)
+- **ShopTableOfContents** — ALWAYS ACTIVE — reads H2/H3 from body automatically
+- **Sidebar winner card** — ACTIVE (winnerIndex: 0 set) — shows Pink & Red 6-color set
+
+---
+
+## SECTION 9 — WRITING INSTRUCTIONS
+
+**Post gen instruction:** Follow these rules for every paragraph of body copy.
+
+- This is conversion copy — every sentence moves the buyer toward a purchase decision
+- Lead with buyer benefit, not product specs — specs support the benefit
+- Use buyer phrases from Section 5 naturally — speak their language exactly as written
+- Address all 5 buying objections from Section 5 directly in the body — do not hedge
+- Honest cons build trust — include them, then counter with why the product is still the right buy
+- Discount information placed near CTAs — mention naturally, not as a standalone paragraph
+- **Primary keyword `MelodySusie cat eye gel polish` in `<strong>` tags every single mention — no exceptions**
+- No editorial literary hooks — open sections with the buyer benefit or buying question directly
+- H2 sections are direct — buyers scan; no long openers before the answer
+- Conclusion ("Is It Worth It?") = final push to purchase — not a summary
+- Internal links placed mid-post after first product CTA only — anchor text natural
+- No related articles section — handled by site component automatically
+- **Language: American English** — not British
+- **No banned AI patterns:** no "elevate," "seamlessly," "game-changing," "dive into," "transformative"
+- No long em dashes — use comma or restructure
+- Short punchy sentences for key selling points; longer for context
+- No "we tested" language — informed editorial observations from product specs and real reviews only
+
+---
+
+## PRODUCT TABLE FOR AFFILIATE LINKS
+
+| # | Product Name | Price | Image URL | Product Page URL |
+|---|---|---|---|---|
+| 1 | Jeweliver Cat Eye Gel Polish 6 Colors Set — Pink and Red | $45.99 (reg. $59.94) | https://www.melodysusie.com/cdn/shop/files/74b96dbb2d19db9758ba306fc55ad040_86072735-6c9f-44da-a73a-03e2bfc2588c.jpg?v=1741659519&width=1200 | https://www.melodysusie.com/products/jeweliver-cat-eye-gel-polish-6-colors-set-0-5-fl-oz-15ml-pink-and-red |
+| 2 | Jeweliver Cat Eye Gel Polish 6 Colors Set — Blue and Green | $45.99 (reg. $59.94) | https://www.melodysusie.com/cdn/shop/files/74b96dbb2d19db9758ba306fc55ad040_86072735-6c9f-44da-a73a-03e2bfc2588c.jpg?v=1741659519&width=1200 | https://www.melodysusie.com/products/jeweliver-cat-eye-gel-polish-6-colors-set-0-5-fl-oz-15ml-blue-and-green |
+| 3 | Jeweliver Cat Eye Gel Nail Polish — 12 Colors | $89.99 (reg. $130.87) | https://www.melodysusie.com/cdn/shop/files/bundle_b25db82d-e5a7-437c-9ee3-2f0a22096e19.jpg?v=1750237209&width=1200 | https://www.melodysusie.com/products/jeweliver-cat-eye-gel-nail-polish-12-colors |
+| 4 | Jeweliver Cat Eye Gel Nail Polish — 19 Colors | $153.73 (reg. $219.78) | https://www.melodysusie.com/cdn/shop/files/3-_19_b4bae80f-e6e1-4f50-aa2f-706a7385aaa9.jpg?v=1750237209&width=1200 | https://www.melodysusie.com/products/jeweliver-cat-eye-gel-nail-polish-19-colors |
+| 5 | 5 in 1 Multifunctional Cat Eye Gel Polish Magnet — Pink | $8.59 (reg. $11.59) | https://www.melodysusie.com/cdn/shop/files/7fb0f70318a11d24932d04d0dc375945_1da63e6d-c9ad-48a3-9775-6527c093f7f4.jpg?v=1728542042&width=1200 | https://www.melodysusie.com/products/5-in-1-multifunctional-cat-eye-gel-nail-polish-magnet-pink |
+
+**Please provide the affiliate link for each product above.**
