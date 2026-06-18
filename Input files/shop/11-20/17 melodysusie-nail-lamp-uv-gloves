@@ -1,0 +1,344 @@
+# THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT
+# Every field, instruction, product data point, keyword, and component directive must be followed exactly. Nothing left for post gen to decide except writing the copy.
+
+---
+
+## SECTION 1: CLUSTER SUMMARY
+
+**Cluster:** EC-02 Nail Lamps | **Spoke post** | **Route:** `/shop/nail-lamps/melodysusie-nail-lamp-uv-gloves`
+**Primary keyword:** `UV gloves for nail lamp` | **Post type:** best-of | **Region:** USA
+
+**Internal links — mid-post only, after first product CTA:**
+- EC-02 pillar → `/shop/nail-lamps/best-melodysusie-nail-lamps` — anchor: "best MelodySusie nail lamps"
+- EC-02-S1 → `/shop/nail-lamps/melodysusie-cordless-nail-lamp` — anchor: "cordless nail lamp"
+
+**Active discounts (confirmed June 2026):** CODE OFF8 = 8% sitewide. CODE MSOFF15 = 15% off orders over $129.99. Free US shipping over $129.99.
+
+---
+
+## SECTION 2: FRONTMATTER BLOCK
+
+> **Post Gen Instruction:** Copy this frontmatter block exactly. Do not change any field.
+
+```yaml
+---
+title: "Best UV Gloves for Nail Lamp: MelodySusie Picks to Protect Your Skin"
+excerpt: "UV gloves for nail lamps block 99% of rays that age your hands. Here are the best MelodySusie picks — gloves, lamps, and a $23 bundle."
+date: "2026-06-19"
+author: "Mirellé"
+category: "nail-lamps"
+image: "https://www.melodysusie.com/cdn/shop/files/P-Plus30A_2_2fc0b4f1-0b0f-4b90-bafa-384184b556ce.jpg?v=1773111265&width=1600"
+imageAlt: "UV gloves for nail lamp — MelodySusie P-PLUS30A LED UV nail lamp with pink fingerless UV protection gloves for gel manicures"
+imageWidth: 1200
+imageHeight: 630
+readTime: "8 min read"
+canonical: ""
+postType: "best-of"
+winnerIndex: 0
+showComparison: true
+showProscons: false
+comparisonCaption: "How the top MelodySusie UV glove and lamp picks compare"
+
+products:
+  - name: "MelodySusie P-PLUS30A LED/UV Nail Lamp with UV Gloves"
+    brand: "MelodySusie"
+    price: "$23.99"
+    compareAtPrice: "$37.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/P-Plus30A_2_2fc0b4f1-0b0f-4b90-bafa-384184b556ce.jpg?v=1773111265&width=1600"
+    link: "https://www.melodysusie.com/products/p-plus30a-led-uv-nail-lamp-with-uv-gloves-pink?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    rating: 4.8
+    reviewCount: 46
+    details:
+      - "30 UV/LED light beads — fast even cure for all soft gels and rhinestone glue"
+      - "Includes UV gloves — lamp + skin protection in one $23.99 bundle (was $37.99)"
+      - "3 timer settings (30s/60s/90s) + smart auto sensor + LED display"
+    pros:
+      - "Complete setup in one box — lamp and UV gloves, nothing extra to buy"
+      - "Compact C-shaped design fits hands and feet of all sizes comfortably"
+      - "One-touch controls and auto sensor make it beginner-proof"
+      - "Fast curing for soft gels, rhinestone glue, and liner gel polish"
+      - "Exceptional value at $23.99 down from $37.99"
+    cons:
+      - "Corded — buyers who want cordless should choose the P-PLUS30G lamp separately"
+      - "Bundled gloves are standard UPF 50+, not the Premium UPF 80+ tier"
+
+  - name: "MelodySusie UV Shield Manicure Gloves"
+    brand: "MelodySusie"
+    price: "$12.99"
+    compareAtPrice: "$20.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/black_4d66a00c-87ee-4b71-a006-31907196f665.jpg?v=1700040377&width=1500"
+    link: "https://www.melodysusie.com/products/uv-shield-lycra-gloves?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Value Gloves"
+    rating: 5.0
+    reviewCount: 104
+    details:
+      - "UPF 50+ certified — blocks 99% of UV rays from any nail lamp type"
+      - "85% Nylon 15% Spandex LYCRA — moisture-wicking, breathable, one size fits all"
+      - "Multiple colors + packs — single pair to 10-pack available"
+    pros:
+      - "Perfect 5.0 rating across 104 verified reviews"
+      - "UV protection is woven into fabric — machine washable, does not wash out"
+      - "Cooler and drier to wear than bare hands during curing"
+      - "Multi-use: nail lamp, driving, hiking, outdoors"
+      - "Pack options available — stock up for under $13"
+    cons:
+      - "One size only — very large hands may find fit snug"
+      - "Standard UPF 50+ (not the upgraded UPF 80+ Premium version)"
+
+  - name: "MelodySusie Premium UV Shield Manicure Gloves"
+    brand: "MelodySusie"
+    price: "$12.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/Black-01_50f3364a-5662-4659-a5e5-a0cb7ad342a6.jpg?v=1700472707&width=1600"
+    link: "https://www.melodysusie.com/products/premium-uv-shield-manicure-gloves-black?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Protection"
+    rating: 4.8
+    reviewCount: 58
+    details:
+      - "UPF 80+ — higher-rated protection than standard UPF 50+ gloves"
+      - "88% Nylon 12% Spandex super dense mesh — cooler and more breathable"
+      - "Available in Black, Pink, Purple — sized Medium"
+    pros:
+      - "UPF 80+ is a meaningful step up for frequent users or nail professionals"
+      - "Super dense mesh keeps hands noticeably cooler than standard gloves"
+      - "Premium soft LYCRA feels lighter and silkier on skin"
+      - "Quick-dry fabric — washes and dries fast for daily use"
+    cons:
+      - "Available in Medium size only — not ideal for very small or large hands"
+      - "Three color options only — no multi-packs at this tier"
+
+  - name: "MelodySusie P-PLUS30G Rechargeable Cordless UV/LED Nail Lamp"
+    brand: "MelodySusie"
+    price: "$49.99"
+    compareAtPrice: "$59.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/1bc94908bf76a6086d3399c2e0e2fce4_530b31ff-fbc9-4f91-8c67-77e893b66566.jpg?v=1769763710&width=1600"
+    link: "https://www.melodysusie.com/products/p-plus30g-rechargeable-cordless-uv-led-nail-lamp-pink?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Cordless Lamp"
+    rating: 5.0
+    reviewCount: 110
+    details:
+      - "48W cordless — 7800mAh battery cures 300 gel sessions per charge"
+      - "Detachable base fits hands and feet; smart auto sensor + LCD display"
+      - "3 timer settings including 99s low heat mode for sensitive skin"
+    pros:
+      - "Perfect 5.0 rating across 110 reviews — highest-reviewed lamp in the range"
+      - "Cordless with 7800mAh battery — 300 cures before recharge needed"
+      - "Detachable base works for both manicures and pedicures"
+      - "99s low heat mode a genuine benefit for heat-sensitive users"
+      - "Pairs with any MelodySusie UV gloves for a complete safe curing setup"
+    cons:
+      - "Gloves not included — add a pair of UV Shield Gloves separately"
+      - "Higher price than the P-PLUS30A bundle"
+
+comparisonTable:
+  features:
+    - "UPF Rating"
+    - "Lamp Included"
+    - "Gloves Included"
+    - "Price"
+    - "Cordless"
+    - "Timer Settings"
+    - "Machine Washable"
+    - "Colors"
+  columns:
+    - name: "P-PLUS30A + UV Gloves Bundle"
+      values:
+        - "UPF 50+"
+        - "true"
+        - "true"
+        - "$23.99"
+        - "false"
+        - "30s / 60s / 90s"
+        - "true"
+        - "Pink, Purple, White"
+    - name: "UV Shield Gloves (Standard)"
+      values:
+        - "UPF 50+"
+        - "false"
+        - "true"
+        - "$12.99"
+        - "N/A"
+        - "N/A"
+        - "true"
+        - "Black, White, Purple, Pink, Rose + packs"
+    - name: "Premium UV Shield Gloves"
+      values:
+        - "UPF 80+"
+        - "false"
+        - "true"
+        - "$12.99"
+        - "N/A"
+        - "N/A"
+        - "true"
+        - "Black, Pink, Purple"
+    - name: "P-PLUS30G Cordless Lamp"
+      values:
+        - "Add gloves separately"
+        - "true"
+        - "false"
+        - "$49.99"
+        - "true"
+        - "30s / 60s / 99s"
+        - "N/A"
+        - "Pink, Purple, Blue, White, Flower"
+
+faqs:
+  - question: "Do you really need UV gloves for a nail lamp?"
+    answer: "Dermatologists recommend them for regular gel manicure users. Each session delivers a small UV dose, but curing every 2-3 weeks means cumulative UVA exposure adds up and can accelerate skin aging on the backs of your hands. UV gloves with UPF 50+ block 99% of those rays for under $13 — a simple investment in long-term skin health."
+
+  - question: "Do UV gloves interfere with nail curing?"
+    answer: "No. UV nail lamp gloves use a fingerless design that leaves your nail tips fully exposed for curing. The glove covers the back of your hand and wrists — exactly where UV accumulates — while your nails cure completely normally."
+
+  - question: "What is the difference between UPF 50+ and UPF 80+ UV gloves?"
+    answer: "Both block 99% of UV rays, but UPF 80+ provides a higher protection margin. For most home users doing nails every 2-3 weeks, UPF 50+ is sufficient. For professionals or daily users, the Premium UPF 80+ gloves are the stronger choice — and at $12.99, they cost the same as the standard pair."
+
+  - question: "Do LED nail lamps need UV gloves too?"
+    answer: "Yes. LED lamps emit UVA rays in the 365-405nm range. The exposure is lower than traditional UV lamps, but dermatologists recommend UV protection for both types — especially with regular use. Both MelodySusie lamp models featured here are compatible with the UV Shield Gloves."
+
+  - question: "Does washing UV gloves reduce their UV protection?"
+    answer: "No. The UV protection in MelodySusie UV Shield Gloves is woven into the LYCRA fabric — not a spray-on coating. Machine washing does not degrade the UPF rating. They are rated for long-term reusable protection."
+
+  - question: "Can UV nail gloves be used for anything besides gel manicures?"
+    answer: "Yes — buyers regularly use them for driving, hiking, kayaking, and other outdoor activities where hand UV exposure is a concern. The fingerless design works well for any task requiring hand dexterity while blocking UV rays."
+
+  - question: "What is the best MelodySusie option if I want a lamp and UV gloves together?"
+    answer: "The P-PLUS30A LED/UV Nail Lamp with UV Gloves is the best all-in-one pick at $23.99 (down from $37.99). It includes the lamp, UV protection gloves, and everything you need to start curing safely — in one box, from one order."
+---
+```
+
+---
+
+## SECTION 3: SEO AND KEYWORD PLAN
+
+> **Post Gen Instruction:** Follow this keyword plan exactly. Calculate density before writing — do not estimate.
+
+**Primary keyword:** `UV gloves for nail lamp`
+**Keyword density target:** 1.2% — match competitor density + 3 extra mentions in first half
+**Word count target:** 1,600 words
+**Total primary keyword mentions:** ~20 across 1,600 words
+**First 150 words:** Primary keyword exactly 2 times, both in `<strong>` tags
+**ALL primary keyword mentions throughout wrapped in `<strong>` tags — no exceptions**
+
+**Keyword variations (use naturally, no density target, no strong tags):**
+UV protection gloves nail lamp | fingerless UV gloves nail dryer | anti-UV manicure gloves | UV gloves gel manicure | nail lamp skin protection gloves | UPF gloves nail lamp | UV shield gloves nails
+
+**High CPC transactional keywords (weave into CTAs, H2s, mid-copy):**
+- "best UV gloves for nail lamp" (~$1.20 CPC)
+- "nail lamp with UV gloves included" (~$1.50 CPC — bundle buyer intent)
+- "UV nail lamp gloves UPF 50" (~$1.00 CPC)
+- "skin protection gel manicure gloves" (~$0.90 CPC)
+
+**LSI semantic terms (weave naturally):**
+UPF 50+ certification | UVA rays nail dryer | LYCRA fabric breathable | fingerless design | moisture transfer technology | premature skin aging hands | gel polish curing | photoaging hands | age spots manicure | DNA damage UV nails | hand skin protection
+
+**AEO terms mapped to post sections:**
+1. "Do I need UV gloves when using a gel nail lamp at home?" → H2 1
+2. "What UV rating do nail lamp gloves need?" → H2 3
+3. "Will UV gloves stop my nails from curing?" → FAQ
+4. "Do LED nail lamps need UV protection gloves?" → FAQ
+5. "What is the best nail lamp that comes with UV gloves?" → H2 2
+6. "How do I keep my hands from aging from gel nail lamps?" → H2 1
+7. "Does washing UV nail gloves ruin the protection?" → FAQ
+8. "Are UV gloves for nail lamps worth it for home use?" → FAQ
+
+**GEO terms (near CTAs and availability copy):**
+"UV gloves for nail lamp USA" | "fast shipping nail protection gloves USA" | "buy UV nail gloves online USA"
+
+---
+
+## SECTION 4: COMPETITOR AND TITLE INTELLIGENCE
+
+> **Post Gen Instruction:** Write a title and excerpt that outperforms these competitors on CTR.
+
+Top ranking pages for "UV gloves for nail lamp" are all generic roundups (sloweather.com, masksforheroes.com, weatherguard360.com) — none feature MelodySusie by name, none cover the lamp + gloves bundle concept, none compare UPF 50+ vs UPF 80+ clearly, and none address LED lamp UV exposure in body copy.
+
+**Mandatory gaps our post fills:** UPF level comparison for buyers | lamp + gloves bundle as a single buying decision | LED lamps also need UV gloves | cordless lamp + separate gloves pairing.
+
+**Our title advantage:** Primary keyword in first 5 words + brand specificity + buyer benefit = stronger CTR than generic competitor titles.
+
+---
+
+## SECTION 5: BUYER INTELLIGENCE
+
+> **Post Gen Instruction:** Every paragraph must be written for this buyer. Use phrases from the bank naturally in copy.
+
+**Buyer:** Home gel manicure user, 25-45, female, nails every 2-3 weeks. Aware of UV concerns from social media. Practical — wants a solution that doesn't disrupt routine or cost much. May have noticed darkening or a subtle tan line on hands.
+
+**Top 5 objections to address in body copy:**
+1. "My lamp is LED, not UV — do I still need gloves?" → Yes. LED lamps still emit UVA. Cover in body + FAQ.
+2. "Won't gloves get in the way of doing my nails?" → Fingerless design — nails fully accessible. Say it directly.
+3. "I don't do nails often — is it really necessary?" → Cumulative exposure adds up. $12 is insurance for your skin.
+4. "Will the UV protection wash out?" → No — it's woven in, not sprayed on. Machine washable. Say explicitly.
+5. "Why not just use sunscreen?" → Option, but UV gloves are consistent, zero-effort, no residue near nails.
+
+**Buyer phrase bank (use these naturally — do not copy verbatim, but echo the language):**
+"tan line on the back of my hands" | "my hands aging faster than my face" | "cooler and drier than bare hands" | "I use them for driving now too" | "treat your hands like a second face" | "blocks 99% of UV rays" | "just slip them on and cure like normal" | "worth it for the peace of mind" | "machine washable — UV protection stays in" | "doesn't interfere with nail work"
+
+---
+
+## SECTION 6: CONTENT STRUCTURE
+
+> **Post Gen Instruction:** Use these H2 headings in this exact order. Do not rename, reorder, or remove any. Add H3s at your discretion.
+
+**Introduction (175 words)**
+Open with the buyer problem: doing gel nails at home is routine — but most people don't think about what the lamp is doing to the skin on the backs of their hands. Primary keyword appears 2x in first 150 words, both in `<strong>` tags. Set scope: this post covers the best UV gloves for nail lamps from MelodySusie, plus the $23 lamp + gloves bundle and a cordless upgrade option. No product injections in intro.
+
+**H2 1: Why UV Gloves Matter More Than You Think (200 words)**
+AEO: "Do I need UV gloves when using a gel nail lamp at home?" + "How do I keep my hands from aging from gel nail lamps?"
+Cover: nail lamps emit UVA rays → UVA drives photoaging on hands (darkening, age spots, premature wrinkling). Not alarmist — skin cancer risk from gel lamps is low per current evidence, but photoaging is real and cumulative. Both UV and LED lamps emit UVA. Buyer phrase: "treat your hands like a second face."
+→ **`{{PRODUCTS:1:0}}` after this H2 — featured layout, winner**
+
+**H2 2: The Best MelodySusie Nail Lamp + UV Gloves Bundle (200 words)**
+AEO: "What is the best nail lamp that comes with UV gloves included?"
+Sell the P-PLUS30A bundle angle: one $23.99 purchase = lamp + skin protection, everything in the box. Cover specs: 30 UV/LED beads, C-shaped ergonomic design, 3 timers, auto sensor, beginner-friendly. Mention sale price + discount code OFF8. GEO: ships to USA. Mention bundled gloves are UPF 50+ standard — Premium gloves can be added separately.
+→ No product injection here (WinnerBadge + ShopInlineCTA handle this section automatically)
+→ **Internal link to EC-02 pillar** placed in this section
+
+**H2 3: MelodySusie UV Gloves: Standard (UPF 50+) vs Premium (UPF 80+) (250 words)**
+AEO: "What UV rating do nail lamp gloves need to actually protect your skin?"
+Compare UV Shield (5.0★, 104 reviews, $12.99 was $20.99) vs Premium UV Shield (4.8★, 58 reviews, $12.99). Same price — different UPF levels. Buyer decision: occasional home user → UPF 50+ Standard. Frequent or professional → UPF 80+ Premium. Address: fingerless design = full nail access. Address: UV protection woven in, doesn't wash out. Buyer phrase: "cooler and drier than bare hands," "machine washable — UV protection stays in."
+→ **`{{PRODUCTS:2:1,2}}` after this H2 — side-by-side grid**
+→ **Internal link to EC-02-S1 cordless lamp page** placed in this section
+
+**H2 4: Best Cordless Lamp to Pair With UV Gloves (175 words)**
+For buyers who want a cordless lamp. Recommend P-PLUS30G: 48W, 7800mAh, 300 cures per charge, detachable base, 99s low heat mode. Sell the pairing: P-PLUS30G + UV Shield Gloves = complete safe cordless setup. Transparently note gloves aren't included but cost $12.99 to add.
+→ **`{{PRODUCTS:1:3}}` after this H2 — featured layout**
+
+**Conclusion (125 words)**
+Final push to purchase. Not a summary. Frame: "Your hands do your nails. They deserve the same care your nails get." Reinforce: at $12.99 for gloves or $23.99 for the lamp + gloves bundle, this is one of the easiest upgrades in any home nail setup. Primary keyword in `<strong>` once. Mention CODE OFF8 for 8% off. Ship fast in the USA.
+
+**Injection plan:**
+- `{{PRODUCTS:1:0}}` → after H2 1
+- `{{PRODUCTS:2:1,2}}` → after H2 3
+- `{{PRODUCTS:1:3}}` → after H2 4
+
+---
+
+## SECTION 7: COMPONENT DIRECTIVES
+
+> **Post Gen Instruction:** These fire automatically from frontmatter. Never write component content in body.
+
+- **WinnerBadge:** ACTIVE — winnerIndex: 0
+- **ShopInlineCTA:** ACTIVE — winnerIndex: 0
+- **ComparisonTable:** ACTIVE — showComparison: true + comparisonTable data present
+- **ProsConsBlock:** INACTIVE — showProscons: false
+- **ShopFinalCTA:** ALWAYS ACTIVE — products[] populated
+- **ShopFAQ:** ACTIVE — faqs[] has 7 entries
+- **ShopTableOfContents:** ALWAYS ACTIVE
+- **Sidebar winner card:** ACTIVE — winnerIndex: 0
+
+---
+
+## SECTION 8: WRITING INSTRUCTIONS
+
+> **Post Gen Instruction:** Follow these rules for every paragraph of body copy.
+
+- Conversion copy — every sentence moves buyer toward a purchase decision. Lead with buyer benefit, not specs.
+- Use buyer phrases from Section 5 naturally. Address all 5 buying objections in body copy.
+- Honest cons build trust — include them, then counter naturally.
+- CODE OFF8 placed near ShopInlineCTA area and conclusion naturally.
+- Primary keyword in `<strong>` every mention — no exceptions.
+- Open H2s with buyer benefit or buying question directly — no editorial hooks.
+- No "we tested" language. No related articles section. American English. No em dashes.
+- No banned patterns: elevate, seamlessly, game-changing, dive into, transformative.
+- Do NOT write FAQ content in body — ShopFAQ renders from frontmatter.
