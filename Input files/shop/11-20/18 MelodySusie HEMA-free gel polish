@@ -1,0 +1,543 @@
+# THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT
+# All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy.
+
+---
+
+## SECTION 1 — CLUSTER SUMMARY
+
+**Cluster:** EC-03 Gel Polish  
+**Category route:** /shop/gel-polish  
+**Pillar post:** "Best MelodySusie Gel Polish: Every Formula Compared" (post 3)  
+**This post:** Post 18 — spoke  
+**Title:** MelodySusie HEMA-Free Gel Polish: Best Non-Toxic Picks  
+**Slug:** melodysusie-hema-free-gel-polish  
+**Post type:** best-of  
+**Primary keyword:** MelodySusie HEMA-free gel polish  
+**Role:** Spoke — captures sensitive-skin and allergy-aware gel buyers within EC-03 cluster  
+**Affiliate mode:** MelodySusie affiliate — all links include `?aff=3711`  
+**Region:** USA only
+
+**Internal links this post must include (mid-post only, after first product CTA):**
+- Link to EC-03 pillar: /shop/gel-polish/best-melodysusie-gel-polish — anchor text: "full MelodySusie gel polish roundup"
+- Link to post 19 (Fleurwee plant-based standalone): /shop/gel-polish/melodysusie-plant-based-gel-polish-fleurwee — anchor text: "MelodySusie Fleurwee plant-based gel polish"
+
+**Posts that link to this post:** EC-03 pillar (post 3)
+
+---
+
+## SECTION 2 — FRONTMATTER BLOCK
+
+**Post gen instruction: Copy this frontmatter block exactly. Do not change any field. All values are pre-filled.**
+
+```yaml
+---
+title: "MelodySusie HEMA-Free Gel Polish: Best Non-Toxic Picks for Sensitive Skin"
+excerpt: "Sensitive to gel polish? MelodySusie's HEMA-free and plant-based formulas deliver 21–28 days of wear without the allergy risk. Here's what to buy."
+date: "2026-06-18"
+author: "Mirellé"
+category: "gel-polish"
+image: "https://www.melodysusie.com/cdn/shop/files/1_20364f49-551d-451c-a7a7-56752ee672fa.jpg?v=1717036037"
+imageAlt: "MelodySusie HEMA-free gel polish Fleurwee Urban Chic gift box set four bottles with nail brush and dried flowers"
+imageWidth: 1200
+imageHeight: 630
+readTime: "8 min read"
+canonical: ""
+postType: "best-of"
+winnerIndex: 0
+showComparison: true
+showProscons: false
+comparisonCaption: "How MelodySusie's HEMA-free and plant-based gel formulas compare"
+
+products:
+  - name: "Fleurwee Plant-Based Gel Polish Gift Box (Urban Chic) — 4 Colors"
+    brand: "MelodySusie"
+    price: "$49.99"
+    compareAtPrice: "$59.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_20364f49-551d-451c-a7a7-56752ee672fa.jpg?v=1717036037"
+    link: "https://www.melodysusie.com/products/15ml-fleurwee-plant-based-gel-nail-polish-gift-box?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    rating: 5.0
+    reviewCount: 307
+    details:
+      - "HEMA-free, HPMA-free, TPO-free — 21 non-toxic, free of heavy metals and plasticizers"
+      - "Plant-based formula with natural extracts; up to 21 days chip-free wear"
+      - "Includes 4 polishes, nail brush set, decorative vase, dried flowers, and nail stickers"
+    pros:
+      - "Triple-free formula (HEMA, HPMA, TPO) — the safest option for sensitive or reactive skin"
+      - "Plant-based pigments using eco-friendly color paste with nanoscale grinding for smooth, self-leveling application"
+      - "307 reviews at 5.0 stars — consistently praised for formula consistency and opacity"
+      - "Beautiful gift-box packaging — usable for personal stocking or gifting"
+      - "Sale price represents real savings off the regular $59.99 price"
+      - "Nail brush set included — no additional tool purchase needed"
+    cons:
+      - "Only 4 shades per box — buyers wanting more variety need to stack multiple sets or buy the 42-color palette"
+      - "Wear time is 21 days rather than 28 — slightly shorter than standard HEMA-containing gels"
+
+  - name: "HEMA-Free Gel Nail Polish 24 Colors Set"
+    brand: "MelodySusie"
+    price: "$179.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/6_5ac06940-3a6b-4953-a665-97d1bb97e413.jpg?v=1766390333"
+    link: "https://www.melodysusie.com/products/hema-free-gel-nail-polish-24-colors?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Value Set"
+    rating: null
+    reviewCount: 0
+    details:
+      - "24 shades, 15ml each — upgraded HEMA-free formula, low odor, high-gloss saturation"
+      - "Cures in 60–90 seconds under UV/LED; lasts up to 28 days with proper prep"
+      - "Fashionable colors across every season — nudes, pinks, greens, blues, reds, and more"
+    pros:
+      - "24 colors in one purchase — the widest HEMA-free color selection MelodySusie offers as a single set"
+      - "HEMA-free formula reduces allergy risk while maintaining 28-day wear — best durability in this lineup"
+      - "High-gloss, saturated finish with smooth single-coat coverage"
+      - "Low odor formula — comfortable for home use in smaller spaces"
+      - "Strong per-bottle value for buyers wanting a large color library"
+    cons:
+      - "No reviews yet — editorial assessment based on specs and formula pedigree from single-bottle HEMA-free line"
+      - "Note: formula still contains HPMA — for buyers who need HEMA-free only (not triple-free), this works; for the strictest sensitivity needs, choose Fleurwee"
+      - "Higher upfront cost — not ideal for buyers testing gel for the first time"
+
+  - name: "HEMA-Free Gel Nail Polish — Single Bottle 012 Pretty Pink (15ml)"
+    brand: "MelodySusie"
+    price: "$7.99"
+    compareAtPrice: "$9.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/6391ace427ade714b70fb966024ae804_80932183-3f79-4234-bbf3-8adf4d7c5ba2.jpg?v=1722568009"
+    link: "https://www.melodysusie.com/products/012-pretty-pink-hema-free-gel-nail-polish-0-5-fl-oz-15ml?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Budget Pick"
+    rating: 5.0
+    reviewCount: 51
+    details:
+      - "HEMA-free single bottle — 15ml, highly saturated Pretty Pink shade, 28-day wear"
+      - "Cures in 60–90 seconds; 24 shades available as individual bottles across the HEMA-free line"
+      - "Low odor; smooth application with recommended thin coats"
+    pros:
+      - "Lowest entry price to test the HEMA-free formula — 51 reviews at 5.0 stars confirms performance"
+      - "Available in 24 colors — buyers can pick individual shades without buying the full set"
+      - "28-day wear; high-gloss saturated color with a single clean application"
+      - "Sale price under $8 — strong value for single-shade buyers or those building a collection gradually"
+    cons:
+      - "Formula still contains HPMA — not triple-free like Fleurwee; buyers with the most severe sensitivities should note this"
+      - "Single-use quantity — needs separate base coat and top coat purchase"
+
+  - name: "Top Coat & Base Coat — HEMA-Free, HPMA-Free & TPO-Free (15ml)"
+    brand: "MelodySusie"
+    price: "$15.99"
+    compareAtPrice: "$18.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/74b96dbb2d19db9758ba306fc55ad040_6debd56f-bf4e-4b5a-bbe6-0e5df6ed1778.jpg?v=1732603828"
+    link: "https://www.melodysusie.com/products/top-coat-base-coat-hema-free-gel-nail-polish?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Essential Add-On"
+    rating: 5.0
+    reviewCount: 52
+    details:
+      - "Triple-free (HEMA, HPMA, TPO) — 21 non-toxic formula for base and top coat"
+      - "60–90 second cure time; 28-day wear; high-gloss finish with no wipe required on top coat"
+      - "Low odor; smooth self-leveling; compatible with MelodySusie HEMA-free color gels"
+    pros:
+      - "Triple-free formula matches Fleurwee's safety level — full system stays consistent for sensitive-skin users"
+      - "52 reviews at 5.0 stars; buyers consistently note the glossy finish and strong adhesion"
+      - "Pairs with both the Fleurwee plant-based polishes and the standard HEMA-free color gels"
+      - "Sale price under $16 — affordable essential for completing the non-toxic system"
+    cons:
+      - "Sold as a set (base + top coat) — buyers who already own one or the other can't buy individually"
+      - "Single bottle of each — higher-frequency users may need to reorder more often than a full kit would require"
+
+  - name: "Fleurwee Plant-Based Color Palette — 42 Colors (15ml)"
+    brand: "MelodySusie"
+    price: "$339.82"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_42.jpg?v=1775184412"
+    link: "https://www.melodysusie.com/products/fleurwee-plant-based-color-palette-15ml-gel-polish-set-42-colors?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Professionals"
+    rating: null
+    reviewCount: 0
+    details:
+      - "42 colors — full Fleurwee plant-based spectrum; HEMA-free, HPMA-free, TPO-free, 21 non-toxic"
+      - "Nano-milling technology; self-leveling formula; up to 21 days; breathable nail surface finish"
+      - "EU-compliant — uses TPO-L/TMO (different compound from banned TPO)"
+    pros:
+      - "Largest non-toxic color selection available from MelodySusie in one purchase"
+      - "Full triple-free safety across 42 shades — plant-based formula with traceable raw materials"
+      - "Nano-milling technology delivers consistent pigment suspension and professional-grade coverage"
+      - "Eco-friendly color paste — no heavy metals or plasticizers; designed for eco-conscious users"
+      - "Strong value per bottle at scale — ideal for nail techs or power users who go through polish quickly"
+    cons:
+      - "No reviews yet — editorial assessment based on Fleurwee single-bottle formula which has 5.0-star track record"
+      - "High upfront investment — not suited for casual buyers or those new to gel"
+      - "21-day wear rather than 28 days — plant-based formula trades a week of wear for the enhanced safety profile"
+
+comparisonTable:
+  features:
+    - "Formula type"
+    - "HEMA-free"
+    - "HPMA-free"
+    - "TPO-free"
+    - "Color count"
+    - "Wear time"
+    - "Price"
+    - "Reviews"
+    - "Best for"
+  columns:
+    - name: "Fleurwee Gift Box (Urban Chic)"
+      values:
+        - "Plant-based"
+        - true
+        - true
+        - true
+        - "4 curated colors"
+        - "Up to 21 days"
+        - "$49.99"
+        - "307 reviews / 5.0★"
+        - "Sensitive skin, gifting"
+    - name: "HEMA-Free 24-Color Set"
+      values:
+        - "Standard HEMA-free"
+        - true
+        - false
+        - false
+        - "24 colors"
+        - "Up to 28 days"
+        - "$179.99"
+        - "No reviews yet"
+        - "Color variety seekers"
+    - name: "Single Bottle (Pretty Pink)"
+      values:
+        - "Standard HEMA-free"
+        - true
+        - false
+        - false
+        - "1 shade (24 available)"
+        - "Up to 28 days"
+        - "$7.99"
+        - "51 reviews / 5.0★"
+        - "Try-before-you-buy"
+    - name: "HEMA-Free Top/Base Coat"
+      values:
+        - "Triple-free essentials"
+        - true
+        - true
+        - true
+        - "Base + Top coat set"
+        - "Up to 28 days"
+        - "$15.99"
+        - "52 reviews / 5.0★"
+        - "Sensitive-system completion"
+    - name: "Fleurwee 42-Color Palette"
+      values:
+        - "Plant-based"
+        - true
+        - true
+        - true
+        - "42 colors"
+        - "Up to 21 days"
+        - "$339.82"
+        - "No reviews yet"
+        - "Professionals, enthusiasts"
+
+faqs:
+  - question: "What does HEMA-free mean in gel nail polish?"
+    answer: "HEMA (2-Hydroxyethyl Methacrylate) is a monomer used in most traditional gel polishes to help them bond and cure. It's also the leading cause of gel polish allergies — once you develop a HEMA sensitivity, it's permanent. HEMA-free gel polish replaces it with alternative monomers that are less likely to penetrate the skin and trigger a reaction, making the formula safer for sensitive users and people prone to contact dermatitis."
+  - question: "Is MelodySusie HEMA-free gel polish as durable as regular gel?"
+    answer: "Yes. MelodySusie's standard HEMA-free formula delivers up to 28 days of wear with proper prep and thin coats. The Fleurwee plant-based line wears up to 21 days. Both apply and cure the same way as conventional gel — 60–90 seconds under a UV/LED lamp, no extra steps needed."
+  - question: "What is the difference between MelodySusie HEMA-free and Fleurwee plant-based gel?"
+    answer: "MelodySusie's standard HEMA-free line removes HEMA but still contains HPMA. The Fleurwee plant-based series goes further — it's triple-free (HEMA, HPMA, and TPO), uses natural plant extracts and eco-friendly pigments, and is 21 non-toxic. Fleurwee is the better choice for users with the most sensitive skin or those who want the cleanest possible formula."
+  - question: "Can I use MelodySusie HEMA-free gel polish at home without a nail lamp?"
+    answer: "No — like all gel polishes, MelodySusie's HEMA-free formulas require a UV/LED nail lamp to cure. They apply like regular gel, curing in 60–90 seconds under the lamp. You'll also need a base coat and top coat for full protection and longevity."
+  - question: "Does MelodySusie ship HEMA-free gel polish to the USA?"
+    answer: "Yes. MelodySusie ships to the USA and offers free shipping on orders over $129.99. Standard orders qualify for code OFF8 (8% off sitewide) or MSOFF15 (15% off orders over $129.99)."
+  - question: "Is HEMA-free gel polish good for beginners?"
+    answer: "Absolutely. HEMA-free gel polish applies exactly like standard gel — no additional learning curve. The Fleurwee Gift Box and the single-bottle picks are especially good starting points for beginners with sensitive skin, since you can test the formula without committing to a large color set."
+  - question: "What signs indicate a HEMA gel polish allergy?"
+    answer: "Common signs include redness, itching, swelling, or a rash around the cuticles or fingertips, often appearing 24–48 hours after using gel polish. In more severe cases, the reaction can spread to anywhere uncured gel touched skin. If you suspect a HEMA allergy, switch to a HEMA-free formula and consult a dermatologist."
+---
+```
+
+---
+
+## SECTION 3 — SEO AND KEYWORD PLAN
+
+**Post gen instruction: Follow this keyword plan exactly. Calculate density before writing — do not estimate.**
+
+**Primary keyword:** MelodySusie HEMA-free gel polish  
+**Keyword density target:** 1.2% — standard for transactional gel polish content. Add 3 extra mentions in the first half of the post.  
+**Total mention target:** 19 mentions in a 1,600-word post  
+**First 150 words:** Primary keyword must appear exactly 2 times — both wrapped in `<strong>` tags  
+**ALL primary keyword mentions throughout the entire post:** wrapped in `<strong>` tags, no exceptions
+
+**High CPC transactional keywords (weave near CTAs and product sections):**
+- HEMA-free gel polish USA (high CPC — buyers with allergy concerns)
+- non-toxic gel nail polish (broad high-CPC cluster)
+- plant-based gel nail polish (rising CPC — clean beauty buyers)
+- safe gel nail polish for sensitive skin (buyer-intent)
+- HEMA-free gel polish 24 colors (set buyers, high purchase intent)
+- best HEMA-free gel polish to buy online
+
+**Keyword variations (use naturally, no strong tags, no density target):**
+- HEMA free gel nail polish
+- non-toxic gel nail polish
+- hypoallergenic gel nail polish
+- allergy-safe gel polish
+- MelodySusie Fleurwee gel polish
+- plant-based nail gel
+- HEMA HPMA TPO free gel polish
+- safe gel polish for sensitive skin
+- MelodySusie non-toxic nail polish
+
+**Transactional cluster keywords (weave in throughout):**
+- buy HEMA-free gel polish online
+- gel nail polish without HEMA
+- HEMA-free gel polish set
+- HEMA-free gel top coat base coat
+- Fleurwee plant-based gel polish gift box
+- MelodySusie HEMA-free 24 colors
+- MelodySusie gel polish USA shipping
+- non-toxic gel polish starter set
+- HEMA-free gel polish review
+- best plant-based gel nail polish 2026
+
+**LSI semantic terms (weave in naturally):**
+- acrylate allergy
+- contact dermatitis nails
+- sensitization
+- gel polish curing
+- UV LED nail lamp
+- salon-quality at home
+- soak-off gel
+- gel manicure at home
+- 21 non-toxic
+- nail health
+- clean beauty nails
+- eco-friendly nail polish
+- EU cosmetics regulations
+
+**AEO terms — mapped to H2 or FAQ:**
+
+| AEO Question | Maps to |
+|---|---|
+| "What is HEMA in gel nail polish and why is it bad?" | H2: What Is HEMA and Why Should You Avoid It? |
+| "Is HEMA-free gel polish as long-lasting as regular gel?" | H2: Does HEMA-Free Gel Polish Actually Last? |
+| "What is the best HEMA-free gel nail polish to buy in the USA?" | H2: Best MelodySusie HEMA-Free Gel Polish Picks |
+| "What is the difference between HEMA-free and plant-based gel polish?" | H2: Fleurwee Plant-Based vs. Standard HEMA-Free: Which Should You Choose? |
+| "Can I do HEMA-free gel nails at home?" | FAQ |
+| "What does MelodySusie Fleurwee mean?" | FAQ (via plant-based section) |
+| "How do I know if I have a HEMA gel nail allergy?" | FAQ |
+| "Does MelodySusie ship gel polish to the USA?" | FAQ |
+| "Is HEMA-free gel polish better for beginners?" | FAQ |
+
+**GEO terms (place near CTAs, shipping mentions, availability copy):**
+- best non-toxic gel polish to buy in the USA
+- MelodySusie gel polish USA shipping
+- HEMA-free gel polish fast shipping USA
+- where to buy Fleurwee gel polish online
+- plant-based nail polish available in the US
+- free US shipping MelodySusie nail polish
+
+**Buyer phrase bank (weave in naturally across body copy):**
+- "my cuticles were red and itchy after gel"
+- "finally found a gel that doesn't react"
+- "sensitive to gel polish"
+- "swollen skin around my nails"
+- "gel allergy came out of nowhere"
+- "wanted something safer"
+- "no harsh smell"
+- "applies so smoothly"
+- "perfect consistency and very opaque"
+- "loved the formulas"
+- "safe for sensitive skin"
+- "looks great without the reaction"
+- "gel that actually lasts without the burn"
+
+---
+
+## SECTION 4 — COMPETITOR AND TITLE INTELLIGENCE
+
+**Post gen instruction: Use this section to write a title and excerpt that outperforms competitors on CTR. Execute the analysis — don't reproduce it.**
+
+**Top 3 competitor titles for "MelodySusie HEMA-free gel polish":**
+1. "All You Need to Know: HEMA-Free Gel Polish for Healthier, Allergy-Safe Manicure" (melodysusie.com blog) — informational, not transactional
+2. "5 HEMA Free Gel Nail Polish Brands" (lotsoflacquer.com) — brand roundup, not MelodySusie-specific
+3. "Top 5 HEMA-Free Gel Nail Products to Try in 2025" (missgel.com) — generic, dated
+
+**What these miss:**
+- No post ranks on transactional "MelodySusie HEMA-free gel polish" with strong buyer benefit in title
+- None are product-comparison format with clear best-pick recommendation
+- None address the Fleurwee vs. standard HEMA-free distinction that buyers search for
+- None call out USA shipping or sensitive-skin as primary angle
+
+**Title direction:** Front-load primary keyword, call out sensitive skin, signal a clear recommendation  
+→ Title already pre-filled in frontmatter ✓
+
+**Competitor gaps — mandatory H2 sections this post must cover:**
+- What HEMA is and why it matters (no competitor covers this concisely in a product comparison context)
+- Fleurwee (plant-based, triple-free) vs. standard HEMA-free — buyers don't know the difference; this is a major content gap
+- HEMA allergy signs — buyers researching this keyword want validation that they're making the right switch
+- Whether HEMA-free performs the same as regular gel (biggest buyer objection, consistently unaddressed in competitor content)
+- Which MelodySusie HEMA-free product to start with based on need (missing from all competitor roundups)
+
+**Word count target:** 1,600 words (competitor average ~1,200; we go slightly higher to cover the gaps above)
+
+---
+
+## SECTION 5 — BUYER INTELLIGENCE
+
+**Post gen instruction: Every paragraph of copy must be written for this specific buyer. Use the exact phrases listed here naturally in the copy.**
+
+**Who this buyer is:**  
+DIY nail enthusiast, predominantly women 25–45, doing gel nails at home. They've been doing gel manicures for 1–3 years and recently developed a reaction — itchy cuticles, swollen skin, redness — or they've read about HEMA allergies and want to get ahead of it. They're not beginners — they know how to apply gel. They're looking for a replacement formula that performs as well as what they're used to, not a downgrade.
+
+**What they need from this post:**  
+Confirmation that MelodySusie's HEMA-free gel polishes perform as well as standard gel — and a clear steer on which product to start with.
+
+**What frustrates them:**
+- Vague articles that don't name specific products
+- Posts that list 20 brands without comparison
+- No clarity on the difference between HEMA-free and plant-based
+- "It depends" answers when they want a direct recommendation
+- No clear call to action — they want to buy, not just learn
+
+**Top 5 buying objections (address each in the post body):**
+1. "Will HEMA-free gel last as long as regular gel?" → Yes — 28 days for standard HEMA-free; 21 days for Fleurwee plant-based
+2. "Is the color payoff the same without HEMA?" → Yes — MelodySusie uses nano-milling technology for saturated, high-gloss coverage
+3. "I'm on a tight budget — can I try just one bottle?" → Yes — single bottles start at $7.99
+4. "How do I know if I actually have a HEMA allergy?" → Signs: redness, itching, swelling around cuticles; can develop after years of use
+5. "Is this actually non-toxic or just marketing language?" → Fleurwee is 21 non-toxic, free of heavy metals, plasticizers, HEMA, HPMA, and TPO — independently formulated with natural plant pigments
+
+**Recurring praise from real reviews (Fleurwee Gift Box, 307 reviews at 5.0):**
+- "Perfect consistency and very opaque"
+- "Loved the formulas"
+- "Colors were amazing"
+- "Works great for sensitive nails"
+
+**Recurring praise from HEMA-free single bottles (51 reviews at 5.0):**
+- High-gloss finish
+- Smooth application
+- Color accuracy matches swatches
+- Low odor appreciated
+
+**Recurring praise from HEMA-free Top/Base Coat (52 reviews at 5.0):**
+- Strong adhesion
+- Glossy seal
+- Works with both the HEMA-free and Fleurwee color gels
+
+**Known concerns to address honestly:**
+- Standard HEMA-free still contains HPMA — not as clean as Fleurwee for the most sensitive skin
+- Fleurwee wears 21 days rather than 28
+- No reviews yet on the 24-color set or 42-color palette — acknowledge editorially
+
+---
+
+## SECTION 6 — DISCOUNT AND CONVERSION DATA
+
+**Post gen instruction: Include active discount information naturally near CTAs.**
+
+**Active MelodySusie discount codes:**
+- Code **OFF8**: 8% off sitewide (no minimum)
+- Code **MSOFF15**: 15% off orders over $129.99 (excludes gift boxes)
+- Free US shipping on orders over $129.99
+
+**Sale pricing active on:**
+- Fleurwee Urban Chic Gift Box: $49.99 (was $59.99) — 17% off
+- HEMA-free single bottle 012 Pretty Pink: $7.99 (was $9.99) — 20% off
+- HEMA-free Top/Base Coat: $15.99 (was $18.99) — 16% off
+
+**Placement directive:**
+- Mention OFF8 or MSOFF15 naturally near the ShopInlineCTA section (after first product CTA)
+- Mention free US shipping near the ShopFinalCTA area
+- Do NOT create a standalone "Discount" paragraph — fold into flow of body copy
+
+---
+
+## SECTION 7 — CONTENT STRUCTURE
+
+**Post gen instruction: Use these H2 headings in this exact order. Do not rename, reorder, or remove any. Add H3s at your discretion. Each H2 has a directive — follow it.**
+
+### H2 1: Why Gel Polish Is Giving Some People Allergic Reactions
+**Directive:** Open with buyer pain — the itch, the redness, the cuticle swelling that appears after years of gel use. Explain HEMA (2-Hydroxyethyl Methacrylate) in plain language: small molecule, penetrates skin, permanent sensitization once it develops. Cite that 1.5–2.4% of regular gel users develop a reaction. Do not lecture — keep it direct and practical. This section validates the buyer's concern and primes them for the solution.  
+**AEO term answered here:** "What is HEMA in gel nail polish and why is it bad?"  
+**Word budget:** 180–200 words  
+**No product injection here.**
+
+### H2 2: Does HEMA-Free Gel Polish Actually Last?
+**Directive:** Directly address objection #1. The answer is yes. MelodySusie's standard HEMA-free formula lasts up to 28 days. Fleurwee plant-based lasts up to 21 days. Cure time is the same (60–90 seconds under UV/LED). Application is the same — no extra steps. Acknowledge that early HEMA-free formulas (pre-2022) had adhesion issues, but current-generation formulas have resolved this. Speak to the nano-milling technology that keeps pigments saturated and consistent. End with a line that moves the buyer forward.  
+**AEO term answered here:** "Is HEMA-free gel polish as long-lasting as regular gel?"  
+**Word budget:** 150–170 words  
+**No product injection here.**
+
+### H2 3: Best MelodySusie HEMA-Free Gel Polish Picks
+**Directive:** This is the main product section. Lead with a 1–2 sentence buyer-benefit framing. Then inject products. Feature the winner (Fleurwee Gift Box) first, followed by the 24-color set and single bottle as alternatives depending on need.  
+**Injection:** `{{PRODUCTS:1:0}}` (Fleurwee Gift Box — featured layout, winner)  
+Then 2–3 sentences of editorial copy bridging to the next products.  
+**Injection:** `{{PRODUCTS:2:1,2}}` (24-color set + single bottle — side by side grid)  
+**Word budget:** 200–230 words (excluding injected product cards)
+
+### H2 4: Fleurwee Plant-Based vs. Standard HEMA-Free: Which Should You Choose?
+**Directive:** This is the key differentiation section — the content gap no competitor covers. Keep it clean and decision-oriented:
+- Standard HEMA-free: removes HEMA, still has HPMA; 28-day wear; individual bottles from $7.99; great for buyers who've had reactions but aren't severely sensitized
+- Fleurwee plant-based: triple-free (HEMA + HPMA + TPO); 21 non-toxic; natural pigments; 21 days; the safest option for highly reactive skin or eco-conscious buyers  
+Use a simple either/or framing the buyer can follow. End with a direct recommendation line based on skin type.  
+**AEO term answered here:** "What is the difference between HEMA-free and plant-based gel polish?"  
+**Internal link placement:** After this section's first recommendation line → link to "MelodySusie Fleurwee plant-based gel polish" at /shop/gel-polish/melodysusie-plant-based-gel-polish-fleurwee  
+**Word budget:** 180–200 words  
+**No product injection here.**
+
+### H2 5: Complete Your Non-Toxic Gel System
+**Directive:** Short, focused section. The color gel alone isn't enough — buyers need a base coat and top coat that match the same safety standard. Introduce the HEMA-free Top/Base Coat set here. Explain that using a HEMA-free color gel with a standard top coat undermines the whole point. Mention that for Fleurwee users, this triple-free top/base coat set is the right partner.  
+**Injection:** `{{PRODUCTS:1:3}}` (HEMA-free Top/Base Coat — featured layout)  
+**GEO term placement:** "ships free to the USA on orders over $129.99" — fold naturally near the product CTA  
+**Discount mention:** Use OFF8 code naturally here ("code OFF8 takes 8% off your order sitewide")  
+**Word budget:** 120–140 words (excluding injected product card)
+
+### H2 6: Best for Professionals or Power Users: The 42-Color Palette
+**Directive:** Brief section for the high-volume buyer. The Fleurwee 42-color palette is the biggest plant-based color library MelodySusie offers. It's priced for serious buyers — nail techs, enthusiasts who go through multiple shades monthly, or buyers who want the complete non-toxic system in one purchase. Keep editorial, honest about the no-review status (addressed with editorial framing from specs and Fleurwee's existing single-bottle track record).  
+**Injection:** `{{PRODUCTS:1:4}}` (42-color palette — featured layout)  
+**Internal link placement:** After this section → link to "full MelodySusie gel polish roundup" at /shop/gel-polish/best-melodysusie-gel-polish  
+**Word budget:** 120–140 words (excluding injected product card)
+
+### H2 7: Conclusion — The Right MelodySusie HEMA-Free Pick for You
+**Directive:** Decision-driver, not a summary. Map each buyer type to a specific product:
+- Just had a reaction and want to try carefully → single bottle at $7.99
+- Want the cleanest possible formula as a gift or starter → Fleurwee Gift Box at $49.99
+- Want color variety without HEMA → 24-color set
+- Building a full non-toxic system → add the Top/Base Coat set
+- Professional or serious enthusiast → 42-color Fleurwee palette  
+End with a single CTA line toward the winner product.  
+**Word budget:** 100–130 words  
+**No product injection here — ShopFinalCTA fires automatically.**
+
+---
+
+## SECTION 8 — COMPONENT DIRECTIVES
+
+**Post gen instruction: These components fire automatically from frontmatter. Confirm trigger fields in Section 2 are correctly set. Never write component content in body — it auto-renders.**
+
+| Component | Status | Trigger |
+|---|---|---|
+| WinnerBadge | ACTIVE | winnerIndex: 0 set in frontmatter |
+| ShopInlineCTA | ACTIVE | winnerIndex: 0 set in frontmatter |
+| ComparisonTable | ACTIVE | showComparison: true + comparisonTable data present |
+| ProsConsBlock | INACTIVE | showProscons: false |
+| ShopFinalCTA | ALWAYS ACTIVE | products[] exists |
+| ShopFAQ | ACTIVE | faqs[] array has 7 entries |
+| ShopTableOfContents | ALWAYS ACTIVE | reads H2/H3 from body |
+| Sidebar winner card | ACTIVE | winnerIndex: 0 set |
+
+---
+
+## SECTION 9 — WRITING INSTRUCTIONS
+
+**Post gen instruction: Follow these rules for every paragraph of body copy.**
+
+- This is conversion copy — every sentence moves the buyer toward a purchase decision
+- Lead with buyer benefit: "If gel has started causing redness around your cuticles, that's a HEMA reaction — and MelodySusie's HEMA-free line is built for exactly this." Not: "HEMA is a chemical compound commonly found in gel nail polishes."
+- Use buyer phrases from Section 5 naturally — they should feel like the post was written by someone who has read every review and Reddit thread on this topic
+- Address buying objections directly — especially: does HEMA-free last as long? Is HEMA-free as pigmented? What if I'm not sure I have an allergy?
+- Honest cons build trust — include them, then counter with the right context
+- Discount codes placed near CTAs — fold in naturally, not as a separate paragraph
+- Primary keyword in `<strong>` tags every single mention — no exceptions
+- No editorial literary hooks — open sections with the buyer's question or pain point directly
+- Language: American English — not British English
+- No banned AI patterns: no "elevate", "seamlessly", "game-changing", "dive into", "transformative", "delve"
+- No long em dashes — use comma or restructure
+- Vary sentence rhythm — short punchy sentences for key points, longer for context
+- No "we tested" language — for the 24-color set and 42-color palette which have no reviews: write informed editorial observations from specs, Fleurwee's existing track record, and formula pedigree only
+- Internal links mid-post only, after first product CTA — anchor text natural, never forced
+- No related articles section — handled by site component
+- Mention that the Fleurwee Gift Box includes not just polish but a nail brush set, vase, dried flowers, and nail sticker — this is a genuine differentiator that justifies the $49.99 price point to gift buyers
+- Note the important nuance: standard HEMA-free still contains HPMA; only Fleurwee is truly triple-free. This transparency builds trust and helps the buyer pick the right product — don't bury it
