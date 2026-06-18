@@ -1,0 +1,480 @@
+THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.
+
+SECTION 1 — FILE AUTHORITY
+THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.
+
+SECTION 2 — POST CONSTANTS
+slug: soccer-club-nails
+topic_slug: soccer
+canonical: https://mirelleinspo.com/blog/soccer/soccer-club-nails
+post_type: spoke
+intent: inspirational
+word_count: 1900
+image_count: 9
+template: split-left
+hero_dimensions: 800x800
+category: Nail Art Inspiration
+publish_date: 2026-06-18
+author: Mirellé Team
+Word count rationale: SERP depth signal is shallow for "soccer club nails" specifically. Top-ranking content for this exact keyword is short-form (listicle style, product pages, and social posts dominate). No single editorial post covers all 9 clubs with dedicated design sections — the gap is a structured, club-by-club inspirational guide. SERP suggests 1800–2000 words is sufficient and avoids bloat. Set at 1900.
+
+SECTION 3 — CLUSTER SNAPSHOT
+pillar_slug: soccer-nails
+pillar_title: Soccer Nails: 20 Cute Ideas for Every Fan
+pillar_primary_keyword: soccer nails
+this_post_slug: soccer-club-nails
+this_post_role: spoke
+keywords_to_avoid:
+  - soccer nails
+  - world cup nails
+  - flag nail art
+  - soccer player nails
+  - soccer mom nails
+
+SECTION 4 — SERP ANALYSIS
+competitor_gaps:
+
+No existing post covers multiple global clubs in one place with per-club design direction. Content either covers ONE club (Real Madrid tutorials, Arsenal fan posts) or stays generic (team colours = stripes).
+Nobody addresses the colour palette translation problem: how do you turn, say, Dortmund's yellow-black into a nail look that isn't garish? Audience wants this and nobody answers it.
+MLS clubs (Inter Miami, Seattle Sounders) are covered only by product pages (Glamnetic/Fanatics press-on sets), not editorial inspiration.
+No post distinguishes between designs suitable for match day vs everyday wear within a club context.
+Borussia Dortmund is almost entirely absent from nail content despite strong global fan base.
+
+missing_semantic_territory:
+
+Per-club colour palette guidance (exact nail polish shades that match club colours)
+Nail shape recommendations per club aesthetic (Real Madrid = elegant almond; Dortmund = bold coffin)
+Wearability filters (stadium vs office vs everyday)
+Press-on vs salon distinction for club nail art
+Mix-and-match across accent nails (jersey number nail, logo nail, colour block nail as a set)
+
+our_strategic_approach:
+
+This post is the only guide that covers all 9 clubs from the cluster's target list with tailored design direction per club — not generic "use team colours" advice. We give readers a specific, actionable look for each club: the palette, the motif, the nail shape, and when to wear it. The editorial frame is club loyalty meets personal style, not costume fandom.
+recommended_image_count_validation:
+
+SERP is visually sparse for this specific keyword — dominated by product pages and social thumbnails. 9 images (1 hero + 8 body) is appropriate and differentiated.
+
+SECTION 5 — AUDIENCE INTELLIGENCE
+who_they_are:
+
+Club fans — predominantly women 16–35 — who follow a specific team, not just the sport generally. They watch matches, own kit, and want their personal style to reflect club loyalty without looking like they've raided a merchandise stall. Mix of Premier League fans (Arsenal, Chelsea, Tottenham, Man United), La Liga fans (Real Madrid, Barcelona), Bundesliga fans (Dortmund), and MLS fans (Inter Miami, Seattle Sounders). Many are searching specifically around World Cup 2026 season, which has reignited club-pride energy.
+what_they_want_from_this_post:
+
+Design ideas that feel fashion-forward, not costume-y. They want to know exactly what to show their nail tech or how to DIY a look that is recognisably their club without spelling it out in giant letters. Club colour palette translation into a real wearable manicure is the core need.
+what_frustrates_them:
+
+Content that just says "use team colours" — no specificity
+Real Madrid tutorials that are beautiful but only serve Madrid fans
+Generic soccer nail content that ignores club identity entirely
+No guidance on making club nails wearable for daily life, not just match days
+
+top_5_pain_points:
+
+How do I make my club's colours look chic, not like a kit?
+Which nail shape works for my club's aesthetic?
+What do I do if my club's colours are hard to translate (e.g. yellow-heavy Dortmund)?
+Can I show club pride subtly enough for work or school?
+Where do I find press-on sets if I don't want to DIY?
+
+exact_user_phrases:
+
+"Real Madrid nails white and gold"
+"Arsenal nails red and white ideas"
+"Chelsea FC nail art blue"
+"Inter Miami nails pink"
+"Manchester United nails ideas"
+"Barcelona nails blue red"
+"Dortmund nails yellow black"
+"Tottenham nails ideas"
+"soccer club nails design"
+"football team colour nails"
+"how to do team colour nails"
+"club nails for match day"
+
+intent_content_signals:
+
+Visual gallery format expected — reader wants to see before reading
+Club-by-club organisation is essential (they scroll to their team)
+Short paragraphs per club — this is inspiration browsing, not deep reading
+Specific palette guidance (actual colours/shades) valued over generic direction
+Press-on vs DIY distinction appreciated
+Wearability context (match day, everyday) helps decision-making
+
+
+SECTION 6 — SEMANTIC KEYWORD DATA
+primary_keyword: soccer club nails
+keyword_variations:
+
+soccer club nail art
+football club nails
+soccer team nails
+soccer club nail designs
+club football nails
+football team nail art
+soccer club nail ideas
+soccer team nail designs
+
+cluster_keywords (all cannibalization-cleared):
+
+Real Madrid nails
+Arsenal nails
+Chelsea FC nails
+Barcelona nails
+Manchester United nails
+Borussia Dortmund nails
+Inter Miami nails
+Seattle Sounders nails
+Tottenham nails
+football club nail art
+team colour nails
+club colour manicure
+match day nails
+Premier League nails
+MLS nails
+
+lsi_terms:
+
+club badge nail art
+jersey number nails
+team palette manicure
+football crest nails
+accent nail club colours
+colour block team nails
+club French tips
+gold accent sports nails
+short almond sports nails
+press-on club nails
+gel nails for football fans
+supporter nails
+kit-inspired nails
+stadium nails
+squad colour nails
+home kit nail art
+away kit nails
+football fandom nails
+
+aeo_terms:
+
+What nail designs go with Real Madrid colours?
+How do you do Arsenal nails at home?
+What colours are Chelsea FC nails?
+Can you get Inter Miami press-on nails?
+What nail art goes with Manchester United colours?
+How do you make football club nails wearable for everyday?
+What is the best nail shape for soccer club nail art?
+How do I get Barcelona nails in blue and red?
+What nail polish matches Borussia Dortmund yellow?
+Are there official soccer club press-on nail sets?
+How do you do a club crest on nails?
+What nail designs work for multiple Premier League teams?
+
+technical_terms:
+
+colour blocking
+accent nail
+gel extension
+nail decal / water slide decal
+French tip variation
+short almond shape
+squoval
+crest transfer
+
+user_language:
+
+"nails that match my kit"
+"team colour mani"
+"club pride nails"
+"I want my nails to say which team I support"
+"something chic not tacky"
+"show my club without being too loud"
+"match day ready nails"
+"supporter nails"
+"football fan nails"
+"game day nails for my club"
+
+
+SECTION 7 — VOICE AND AI QUERIES
+
+What nail designs work best for Real Madrid fans?
+How do I do Arsenal nails in red and white at home?
+What are the best Chelsea FC nail ideas for match day?
+Can I get official Inter Miami press-on nails?
+What nail art looks good in Manchester United colours?
+How do you make Borussia Dortmund yellow nails look chic?
+What is the best nail shape for football club nail art?
+Are there any press-on nail sets for Premier League clubs?
+How do I show my club pride with nails for everyday wear?
+What nail polish colours match Barcelona's blue and red?
+Can I do soccer club nails on short nails?
+What nail design works for Tottenham Hotspur fans?
+How do you paint a football crest on your nails?
+What nail art looks good in Dortmund's black and yellow?
+How do I do Seattle Sounders nails in green and blue?
+What soccer club nail ideas are wearable for work?
+How do you do colour block nails for a football club?
+What are the most popular soccer club nail designs in 2026?
+
+
+SECTION 8 — CONTENT STRUCTURE
+h1: Soccer Club Nails: 20 Designs for 9 Top Teams
+h2_structure:
+
+What Makes Soccer Club Nails Different From Generic Football Nail Art
+Real Madrid Nails: White, Gold, and Timeless
+Arsenal Nails: Red and White Done Right
+Chelsea FC Nails: Deep Blue and Polished
+Manchester United Nails: Bold Red That Earns It
+Barcelona Nails: The Blue and Red You Actually Want to Wear
+Borussia Dortmund Nails: Making Yellow-Black Work
+Inter Miami and MLS Nails: The New Wave of Club Pride
+
+word_budget:
+introduction: 200 words
+H2-1 (What Makes Soccer Club Nails Different): 175 words
+H2-2 (Real Madrid): 220 words
+H2-3 (Arsenal): 200 words
+H2-4 (Chelsea FC): 200 words
+H2-5 (Manchester United): 175 words
+H2-6 (Barcelona): 175 words
+H2-7 (Borussia Dortmund): 175 words
+H2-8 (Inter Miami and MLS): 200 words
+conclusion: 180 words
+TOTAL: 1900 words
+
+SECTION 9 — INTERNAL LINKS
+all_internal_links:
+
+1.
+url_or_slug: /blog/soccer/soccer-nails
+title: Soccer Nails: 20 Cute Ideas for Every Fan
+anchor_text: soccer nails
+placement_note: Introduction — establish pillar context when introducing the broader category
+link_type: cluster-pillar
+
+2.
+url_or_slug: /blog/soccer/soccer-player-nails
+title: Soccer Player Nails: 15 Ronaldo & Messi Inspired Designs
+anchor_text: soccer player nails
+placement_note: H2-2 Real Madrid section — natural bridge when mentioning player-specific design inspiration
+link_type: cluster-spoke
+
+3.
+url_or_slug: /blog/soccer/soccer-mom-nails
+title: Soccer Mom Nails: 10 Easy Everyday Designs
+anchor_text: soccer mom nails
+placement_note: H2-8 MLS section or conclusion — readers who want a simpler, everyday version of club pride
+link_type: cluster-spoke
+
+4.
+url_or_slug: /blog/soccer/flag-country-nails
+title: Flag Nail Art: 20 Country Designs for World Cup Season
+anchor_text: flag nail art
+placement_note: H2-1 intro/differentiation section — distinguishing club nails from country/flag designs
+link_type: cluster-spoke
+
+5.
+url_or_slug: /blog/soccer/soccer-club-nails — gallery
+title: Soccer Club Nails Inspiration Gallery (n/a — no gallery link in cluster_context for this spoke)
+anchor_text: n/a
+placement_note: n/a — no gallery_link assigned to this spoke post
+link_type: n/a
+
+GALLERY NOTE: No gallery_link listed in internal_linking_map for soccer-club-nails spoke. Do not fabricate one.
+Cross-site discovery: No existing mirelleinspo.com content found for "soccer club nails" or adjacent terms. Zero cross-site links added — relevance filter applies strictly.
+
+SECTION 10 — VOICE AND TONE
+recommended_voice: Warm club insider — writes like a fan who also knows nail art, not a beauty editor who just discovered football
+tone_characteristics:
+
+Knowledgeable without being patronising — assumes reader loves their club
+Specific over vague — "Real Madrid's cream-white and champagne gold" not "light colours"
+Warmly aspirational — the nails should feel achievable and desirable, not intimidating
+Light editorial wit — occasional dry observation about the difficulties of making yellow work (Dortmund), delivered briefly and warmly
+Conversational directness — short declarative sentences, no filler
+
+language_style: Second person throughout. Active, clean sentences. No rhetorical questions used as padding. Palette descriptions precise and sensory. British English throughout.
+audience_match: Reader knows their club. They don't need to be told why they love Arsenal — they need to be told exactly what shade of red to use and where. Voice treats them as a stylish person who happens to support a football club, not a football fan who is trying to be stylish.
+
+SECTION 11 — EXTERNAL LINKS
+links:
+
+1.
+url: https://lesalon.com/blog/world-cup-inspired-nail-art/
+context: Reference in intro or H2-1 when establishing the landscape of football-inspired nail art with credible editorial sourcing
+anchor_suggestion: football-inspired nail art
+
+2.
+url: https://www.glamnetic.com/blogs/news/best-soccer-press-on-nails-in-2026
+context: H2-8 MLS section — reference for Inter Miami and Seattle Sounders official licensed press-on sets (Fanatics x Glamnetic collaboration)
+anchor_suggestion: official MLS press-on nail sets
+
+3.
+url: https://kreafolk.com/blogs/inspirations/football-nail-design
+context: H2-1 or conclusion — broad football nail design reference for further reading on tools and techniques
+anchor_suggestion: football nail design ideas
+
+SECTION 12 — EXECUTION PLAN
+READ THIS SECTION FIRST. Lock every value. Execute exactly.
+
+BLOCK 1 — KEYWORD EXECUTION
+primary_keyword: soccer club nails
+total_mention_target: 1900 x 0.02 = 38 mentions total
+
+first_100_words_plan:
+  mention_1: sentence 2 of introduction — establish primary keyword in context of the post's specific premise
+  mention_2: sentence 5 of introduction — reinforce before moving to what differentiates this post
+
+first_half_target: 22 mentions — first 950 words
+second_half_target: 16 mentions — second 950 words
+
+strong_tag_rule: EVERY single mention of "soccer club nails" — all 38 — wrapped in <strong> tags. No exceptions.
+
+keywords_to_avoid_active:
+  - soccer nails (use "soccer club nails" or specific club names instead)
+  - world cup nails
+  - flag nail art
+  - soccer player nails
+  - soccer mom nails
+
+BLOCK 2 — WORD BUDGET
+total_target: 1900 words — +/-50 tolerance, never exceed
+
+introduction: 200 words
+H2-1 What Makes Soccer Club Nails Different: 175 words [complexity: medium]
+H2-2 Real Madrid Nails: 220 words [complexity: high — most searched, sets the tone]
+H2-3 Arsenal Nails: 200 words [complexity: medium-high]
+H2-4 Chelsea FC Nails: 200 words [complexity: medium-high]
+H2-5 Manchester United Nails: 175 words [complexity: medium]
+H2-6 Barcelona Nails: 175 words [complexity: medium]
+H2-7 Borussia Dortmund Nails: 175 words [complexity: medium — palette challenge angle]
+H2-8 Inter Miami and MLS Nails: 200 words [complexity: medium — includes press-on angle]
+conclusion: 180 words
+
+tracking_rule: Track running word total at end of every H2. Cut before moving forward if over budget.
+
+BLOCK 3 — IMAGE PLAN
+total_images: 9
+hero_image: frontmatter only — NEVER in post body
+body_images: 8
+
+assignments:
+  image 1: place after H2-1 — general soccer club nails inspiration, diverse clubs
+  image 2: place after H2-2 (Real Madrid) — white/gold manicure, elegant almond shape
+  image 3: place after H2-3 (Arsenal) — red and white nail art design
+  image 4: place after H2-4 (Chelsea FC) — deep blue nail design
+  image 5: place after H2-5 (Manchester United) — bold red nails
+  image 6: place after H2-6 (Barcelona) — blue and red colour block nails
+  image 7: place after H2-7 (Borussia Dortmund) — yellow-black nail art
+  image 8: place after H2-8 (Inter Miami/MLS) — pink Inter Miami or MLS-inspired nails
+
+image_type_rule: ALL body images = inspirational nail design images related to each club's colour palette. NO infographics. NO process diagrams. NO comparison charts.
+
+path_rule: /images/blog/soccer/soccer-club-nails/filename.webp
+
+BLOCK 4 — OPENING TECHNIQUE ASSIGNMENTS
+rule: No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.
+
+assignments:
+  Introduction: Technique 2 — The Scene (drop reader into the moment of choosing club nails)
+  H2-1 (What Makes Soccer Club Nails Different): Technique 4 — The Contrast (club nails vs generic football nails)
+  H2-2 (Real Madrid): Technique 1 — The Claim (declarative statement about what Real Madrid nails should feel like)
+  H2-3 (Arsenal): Technique 3 — The Reframe (reframe red as a sophisticated, not aggressive, nail colour)
+  H2-4 (Chelsea FC): Technique 2 — The Scene (arriving at match in deep blue)
+  H2-5 (Manchester United): Technique 1 — The Claim (United red is one of the most recognisable colours in sport)
+  H2-6 (Barcelona): Technique 4 — The Contrast (Barça colours feel bolder than most clubs — here's how to balance them)
+  H2-7 (Borussia Dortmund): Technique 3 — The Reframe (yellow is the problem only if you treat it like yellow)
+  H2-8 (Inter Miami/MLS): Technique 2 — The Scene (Inter Miami pink is unlike anything else in club nail art)
+  Conclusion: Technique 1 — The Claim
+
+banned_opener_rule: Check every opener against banned_opening_approaches before writing second sentence.
+
+BLOCK 5 — LINK PLACEMENTS
+links:
+
+1.
+anchor_text: soccer nails
+full_url: /blog/soccer/soccer-nails
+place_in_section: Introduction
+placement_context: Second paragraph — after establishing what this post covers, bridge to broader category
+link_type: cluster-pillar
+
+2.
+anchor_text: soccer player nails
+full_url: /blog/soccer/soccer-player-nails
+place_in_section: H2-2 Real Madrid Nails
+placement_context: When mentioning player-specific inspiration for Real Madrid fans (Benzema, Bellingham kit era)
+link_type: cluster-spoke
+
+3.
+anchor_text: flag nail art
+full_url: /blog/soccer/flag-country-nails
+place_in_section: H2-1 What Makes Soccer Club Nails Different
+placement_context: Distinguishing club nails from country/flag designs — natural contrast point
+link_type: cluster-spoke
+
+4.
+anchor_text: soccer mom nails
+full_url: /blog/soccer/soccer-mom-nails
+place_in_section: H2-8 Inter Miami/MLS or Conclusion
+placement_context: For readers who want everyday-wearable designs rather than statement club art
+link_type: cluster-spoke
+
+BLOCK 6 — AEO / GEO PLAN
+aeo_assignments:
+
+1.
+aeo_term: What nail designs work best for Real Madrid fans?
+assigned_to_section: H2-2 Real Madrid Nails
+execution: Write a direct 2-3 sentence answer paragraph immediately after H2-2 heading — before elaboration. Example: Real Madrid nail art works best in cream-white and champagne gold. An almond or oval shape keeps the look elegant rather than costume-y. A single gold accent nail alongside cream-white others is the most wearable starting point.
+
+2.
+aeo_term: How do you make football club nails wearable for everyday?
+assigned_to_section: H2-1 What Makes Soccer Club Nails Different
+execution: Direct 2-3 sentence answer early in section. Key: club colour as an accent (one or two nails), not a full-hand statement, keeps the look everyday-ready.
+
+3.
+aeo_term: Can I get official soccer club press-on nails?
+assigned_to_section: H2-8 Inter Miami and MLS Nails
+execution: Direct answer: yes, for MLS clubs via Glamnetic's Fanatics collaboration. European clubs do not have official licensed press-on sets widely available — nail decals are the closest option.
+
+4.
+aeo_term: What is the best nail shape for soccer club nail art?
+assigned_to_section: H2-1 What Makes Soccer Club Nails Different
+execution: Short almond and squoval are the most practical for club nail art — long enough to show detail, short enough for everyday wear.
+
+geo_entity_statements:
+
+1.
+entity: Glamnetic x Fanatics MLS collaboration
+assigned_to_section: H2-8
+execution: Glamnetic partners with Fanatics to produce officially licensed MLS press-on nail sets, including Inter Miami CF and Seattle Sounders, in short almond shapes with team-accurate French tips and logo accents.
+
+2.
+entity: soccer club nails as a distinct category
+assigned_to_section: H2-1
+execution: Soccer club nails are nail designs built around a specific club's identity — colours, crest, or kit details — rather than general football motifs such as the ball or pitch.
+
+BLOCK 7 — ACTIVE CONSTRAINTS
+em_dash_banned: Long em dash does not appear anywhere. Replace with: comma / new sentence / parentheses / but / restructure.
+
+banned_vocab_watch (most likely to slip for this topic):
+  - "stunning" (banned)
+  - "elevate" (banned)
+  - "game-changer" (banned)
+  - "amazing" (banned)
+  - "incredible" (banned)
+  - "effortlessly" (banned)
+  - "seamlessly" (banned)
+
+british_english_active: colour, recognise, favourite, personalise, honour — every instance, no exceptions
+
+keyword_density_reminder: After every 2 H2 sections — count current "soccer club nails" mentions. Verify first half running denser than second half. Adjust if needed.
+
+image_path_reminder: /images/blog/soccer/soccer-club-nails/filename.webp — topic_slug "soccer" in path always
+
+internal_link_url_reminder: Cluster links = /blog/soccer/[slug]. Never bare /slug.
+
+hero_image_reminder: Hero = frontmatter only. Never place hero image in body.
+
+strong_tag_reminder: Every "soccer club nails" mention = <strong> tags. Scan after every paragraph.
