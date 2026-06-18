@@ -1,0 +1,279 @@
+# SHOP INPUT FILE — Post 6
+**THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT.** All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions below must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy itself.
+
+---
+
+## 1. CLUSTER SUMMARY
+
+- **Cluster:** EC-06 — Nail Art Tools & Accessories (`/shop/nail-art-tools`)
+- **This post:** "Best MelodySusie Nail Art Tools & Accessories" — slug `best-melodysusie-nail-art-tools` — **pillar** post, post type **best-of**
+- **Primary keyword:** MelodySusie nail art tools
+- **Role:** Cluster pillar. Three spokes will link up to this post: post 31 (Nail Rhinestones & Gems), post 32 (Nail Art Brushes & Pens), post 33 (Nail Extension Gels). None of those spokes are live yet, so this post carries the cluster alone for now — internal links below point to other live/planned pillars only.
+- **Posts that will link to this post (future):** EC-06-S1 (rhinestones), EC-06-S2 (brushes/pens), EC-06-S3 (extension gels) — once written, each should link back here as the pillar.
+- **Internal links this post must include:** to EC-01 pillar (`/shop/nail-drills/best-melodysusie-nail-drills`) and EC-03 pillar (`/shop/gel-polish/best-melodysusie-gel-polish`) — both natural fits since nail art needs a cured gel base. Placement: mid-post only, after the first product CTA (see Section 7).
+- **Affiliate mode:** Standard MelodySusie affiliate links (aff=3711, kol campaign), region: USA only.
+
+---
+
+## 2. FRONTMATTER BLOCK
+*Post gen copies this exactly. Do not change any field.*
+
+```yaml
+title: "Best MelodySusie Nail Art Tools & Accessories (2026)"
+excerpt: "The 4 MelodySusie nail art tools worth buying — brushes, rhinestones, chrome powder, and a palette — with real pricing and honest pros and cons."
+date: "2026-06-18"
+author: "Mirellé"
+category: "nail-art-tools"
+image: "https://www.melodysusie.com/cdn/shop/files/6391ace427ade714b70fb966024ae804_18e854b3-e08d-4a3a-9b27-f6087d4ed196.jpg?v=1732073859&width=1600"
+imageAlt: "MelodySusie nail art tools including a 31-piece brush set, rhinestones, chrome powder, and palette laid out together"
+imageWidth: 1200
+imageHeight: 630
+readTime: "6 min read"
+canonical: ""
+postType: "best-of"
+winnerIndex: 0
+showComparison: true
+showProscons: false
+comparisonCaption: "How the top 4 MelodySusie nail art picks compare"
+products:
+  - name: "31Pcs Nail Art Brushes Set"
+    brand: "MelodySusie"
+    price: "$9.99"
+    compareAtPrice: "$10.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/6391ace427ade714b70fb966024ae804_18e854b3-e08d-4a3a-9b27-f6087d4ed196.jpg?v=1732073859&width=1600"
+    link: "https://www.melodysusie.com/products/31pcs-nail-art-brushes-set?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    rating: "5.0"
+    reviewCount: "50"
+    details:
+      - "31 pieces: 15 design brushes, 5 dotting brushes, 5 acrylic brushes, 3 liners, 3 2-in-1 brushes"
+      - "Nylon bristle, alloy, and acrylic construction with ergonomic handles"
+      - "Covers lines, rhinestone placement, flowers, and pattern work in one set"
+    pros:
+      - "Enough variety that you're not buying separate sets for liner work, dotting, and acrylic"
+      - "Handles stay comfortable through long sessions, which matters for detail work"
+      - "Price per brush is low enough that beginners can experiment without overcommitting"
+      - "Bristles hold their shape after the recommended hot-water rinse on first use"
+    cons:
+      - "31 brushes is more than most home users need right away — some will sit unused"
+      - "Like most synthetic-bristle sets, they need prompt cleaning after each use or polish builds up in the ferrule"
+  - name: "1440Pcs Multi-faceted Nail Rhinestones"
+    brand: "MelodySusie"
+    price: "$12.99"
+    compareAtPrice: "$16.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/4_544b6672-2d28-4ccd-98ea-bcb592cb43b2.jpg?v=1687511946&width=1080"
+    link: "https://www.melodysusie.com/products/1440pcs-multi-faceted-nail-rhinestones?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Value"
+    rating: "5.0"
+    reviewCount: "27"
+    details:
+      - "1,440 pieces in sizes 4-20mm, glass material with high-gloss faceted cut"
+      - "Color runs through the glass rather than sitting on a coated surface, so it won't fade or chip off"
+      - "Three color options: WhiteAB, Pink, Blue"
+    pros:
+      - "Size range covers everything from tiny accent dots to statement stones in one pack"
+      - "Glass construction holds its sparkle instead of dulling after a few wears"
+      - "1,440 pieces means you won't run out mid-design or reorder for months"
+    cons:
+      - "Rhinestones need actual rhinestone glue or gel cured under a lamp — they will not hold with regular top coat alone"
+      - "No glue or applicator tool included, so factor that into your first order"
+  - name: "Chrome Nail Powder"
+    brand: "MelodySusie"
+    price: "$5.99"
+    compareAtPrice: "$9.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/6391ace427ade714b70fb966024ae804_3faa1200-7f0a-4153-9b77-646b7dd92898.jpg?v=1737513796&width=1000"
+    link: "https://www.melodysusie.com/products/chrome-nail-powder?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for the Chrome Trend"
+    rating: "N/A"
+    reviewCount: "0"
+    details:
+      - "1-gram jar of fine mirror-effect pigment, available in silver, gold, white, and mixed shades"
+      - "Works over UV gel, acrylic, natural, or false nails"
+      - "Non-toxic formula, gentle enough for repeated home use"
+    pros:
+      - "A little goes a long way — one jar lasts through many manicures"
+      - "Silver and gold shades read as a true mirror finish rather than just shimmer"
+      - "Suitable for beginners; no airbrush or special equipment required"
+    cons:
+      - "Only works correctly over a no-wipe top coat — a regular wipe top coat will make the powder smear instead of buff to a mirror finish"
+      - "Application has a learning curve: too long under the lamp before buffing and the chrome won't take"
+  - name: "Premium Resin Nail Art Palette"
+    brand: "MelodySusie"
+    price: "$4.99"
+    compareAtPrice: "$9.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/2_3763cefb-2730-402d-8197-c0481e99be2d.jpg?v=1758189405&width=1600"
+    link: "https://www.melodysusie.com/products/premium-resin-nail-art-palette?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Mixing & Staging"
+    rating: "5.0"
+    reviewCount: "56"
+    details:
+      - "Resin palette for mixing gel colors and staging rhinestones or studs before placement"
+      - "Available in round and heart shapes across multiple colors"
+      - "Compact enough to keep at your station without taking up real space"
+    pros:
+      - "Solves the 'rhinestones rolling everywhere' problem before you even open the rhinestone pack"
+      - "Doubles as a color-mixing tray for custom gel shades"
+      - "Cheap enough to be an easy add-on rather than a standalone purchase"
+    cons:
+      - "Resin can stain over time with darker pigments if not wiped promptly"
+      - "Single-unit purchase — no multi-pack discount for salon use"
+comparisonTable:
+  features:
+    - "Price"
+    - "Best for"
+    - "Beginner-friendly"
+    - "Requires a UV/LED lamp"
+    - "Rating"
+  columns:
+    - name: "31Pcs Nail Art Brushes Set"
+      values: ["$9.99", "Freehand design & detail work", true, false, "5.0 (50)"]
+    - name: "1440Pcs Nail Rhinestones"
+      values: ["$12.99", "3D embellishment & sparkle", true, true, "5.0 (27)"]
+    - name: "Chrome Nail Powder"
+      values: ["$5.99", "Mirror/metallic finish nails", false, true, "N/A"]
+    - name: "Premium Resin Nail Art Palette"
+      values: ["$4.99", "Mixing & staging supplies", true, false, "5.0 (56)"]
+faqs:
+  - question: "What nail art tools do I actually need to get started?"
+    answer: "For home nail art, the minimum kit is a brush set, a UV/LED lamp if you're using gel polish, and one embellishment option like rhinestones. The MelodySusie 31Pcs Nail Art Brushes Set covers detail work, dotting, and liner styles in a single $9.99 set, which is the cheapest way to cover most basic designs without buying brushes one at a time."
+  - question: "Do nail rhinestones stay on with regular nail polish?"
+    answer: "No, rhinestones need rhinestone glue or gel cured under a UV/LED lamp, not regular polish or top coat alone. Regular polish doesn't create a strong enough bond, so stones come loose within a day or two. Apply the glue, place the stone, then cure it under the lamp for the hold to last."
+  - question: "Why didn't my chrome powder give me a mirror finish?"
+    answer: "The most common cause is using a regular top coat instead of a no-wipe top coat underneath the powder. A wipe top coat leaves a tacky layer that smears instead of letting the powder buff to a reflective finish. Cure a no-wipe top coat first, wait a few seconds, then buff the chrome powder on with a sponge or silicone applicator."
+  - question: "Is the MelodySusie 31-piece brush set worth it for beginners?"
+    answer: "Yes, for $9.99 it includes 15 design brushes, 5 dotting brushes, 5 acrylic brushes, 3 liners, and 3 2-in-1 brushes, which covers far more techniques than a basic 5-piece starter set at a similar price. The tradeoff is that beginners won't use all 31 pieces right away, but the per-brush cost stays low either way."
+  - question: "What size rhinestones should I buy for nail art?"
+    answer: "Buy a mixed-size pack rather than a single size. The MelodySusie 1440Pcs Multi-faceted Nail Rhinestones come in a 4-20mm range, which covers tiny accent dots on a single nail and larger statement stones for a focal point, so you're not limited to one look per pack."
+  - question: "Can I use chrome nail powder over regular nail polish, or does it need gel?"
+    answer: "Chrome powder is designed to buff onto a cured no-wipe gel top coat, not regular air-dry polish. Regular polish doesn't cure the same tacky-free surface the powder needs to grip and reflect light evenly, so results will look patchy or won't show the mirror effect at all."
+  - question: "What's a nail art palette actually for?"
+    answer: "A nail art palette gives you a flat surface to mix custom gel polish shades or stage loose rhinestones and studs before placing them on the nail, instead of working straight off the table or losing pieces. The MelodySusie Premium Resin Nail Art Palette runs $4.99 and works for both uses."
+  - question: "Does MelodySusie ship nail art tools to the USA, and how fast?"
+    answer: "Yes, MelodySusie ships within the USA with free shipping on orders over $129.99. Standard delivery times apply outside that threshold, and a sitewide 8% discount code is active for orders of any size."
+```
+
+---
+
+## 3. SEO AND KEYWORD PLAN
+*Follow this keyword plan exactly. Calculate density before writing — do not estimate.*
+
+- **Primary keyword (locked):** MelodySusie nail art tools
+- **Density target:** No brand-specific competitor exists (confirmed via SERP — greenfield content). Benchmark: generic "best nail art tools" roundups run ~1.0-1.4% density across 1,500-2,200 words. Target here: **8 total mentions** across ~1,150 words body copy, **2 of those 8 in the first 150 words**, all 8 wrapped in `<strong>` tags, no exceptions anywhere in the post.
+- **Keyword variations (natural, no strong tags):** MelodySusie nail art kit, MelodySusie nail art accessories, MelodySusie nail art supplies, best MelodySusie nail tools, MelodySusie nail decoration tools
+- **Transactional cluster keywords:** nail art brush set, nail rhinestones for nails, chrome nail powder mirror effect, nail art palette, nail art tools for beginners, nail art supplies online
+- **High CPC transactional keywords (weave into CTAs/H2s):** buy nail art kit online, nail art tools set for beginners, professional nail art brush set, chrome powder for gel nails, rhinestones for nails kit — direct-purchase phrasing advertisers bid heavily on in this vertical
+- **LSI semantic terms:** dotting tools, liner brush, acrylic nail brush, no-wipe top coat, mirror chrome effect, 3D nail art, UV/LED lamp, flatback rhinestones, ferrule, ergonomic handle, freehand nail art, salon-quality nails at home
+- **AEO terms:** the 8 FAQ questions in Section 2's `faqs[]` block cover AEO directly — no separate list needed. Two additional AEO questions are mapped to H2 body content (not FAQ): "What's the difference between a liner brush and a detail brush?" and "How many nail art brushes does a beginner actually need?" — both answered in the brush-set H2 (Section 7).
+- **GEO terms (near CTAs/conclusion):** buy MelodySusie nail art tools online USA, MelodySusie free shipping USA, where to buy nail art supplies online
+- **Buyer phrase bank (weave naturally):** "what do I actually need to start," "stones falling off," "doesn't smear," "true mirror finish," "rolling everywhere," "salon-quality at home," "doesn't chip or fade"
+
+---
+
+## 4. COMPETITOR AND TITLE INTELLIGENCE
+
+- **No brand-specific competitor exists.** Searched "best MelodySusie nail art tools" — zero dedicated roundups found on page 1. This post is the first of its kind for this exact keyword; treat the generic "best nail art tools" category as the competitive benchmark instead.
+- **Top 3 generic competitor titles for "best nail art tools":** "Best Nail Art Tools for Beginners (Complete Guide) 2026" (EasyBeautyHacks), "Top 10 Must-Have Nail Art Tools for Beginners" (EyeCandys), "10 Best Nail Art Tools for Salon-Quality Nails at Home (2026)" (StarabeautyUSA). All lean on "complete guide," "must-have," and a number; none name a specific brand or give real pricing.
+- **Title direction that beats them:** name the brand directly (signals a focused, decided answer rather than a generic listicle), include the year for freshness, and the excerpt promises real prices and honest cons — something none of the generic guides do.
+- **Competitor gaps (mandatory sections in our post):** (1) none address the "stones falling off" rhinestone-adhesion problem directly — this is now FAQ #2; (2) none mention chrome powder as a 2026-specific trend item or explain the no-wipe top coat requirement — this is now FAQ #3 and #6, plus woven into the chrome powder pros/cons; (3) none give actual prices or honest cons for any named product — this entire post does, which is the core differentiator.
+- **Missing product angle competitors miss:** chrome/mirror nail powder is barely covered in 2026 generic guides despite being a confirmed trending search term — this post leads with it as "Best for the Chrome Trend," a selling point none of the benchmarked competitors use.
+- **Word count target:** 1,100-1,300 words of body copy (benchmark guides run 1,500-2,200 words covering generic categories; this post is brand-specific and product-count-limited to 4, so a tighter count is correct — don't pad to match generic guides).
+
+---
+
+## 5. BUYER INTELLIGENCE
+
+- **Who this buyer is:** A home nail art hobbyist or early-stage nail tech already doing gel manicures at home, ready to add decorative tools rather than basic care tools. Comfortable spending $5-15 per item, not yet ready for a $30+ Kolinsky brush.
+- **What they need:** A short, decided answer — which 4 things to buy, not a 20-item generic list.
+- **What frustrates them:** Generic roundups with no pricing and no real cons; rhinestones that fall off; chrome powder that won't mirror-finish.
+- **Top 5 buying objections (each addressed in post body):**
+  1. "Do I need all 31 brushes?" → brush set cons + H2 on what each brush does
+  2. "Will the rhinestones actually stay on?" → rhinestone cons + FAQ
+  3. "Is chrome powder too hard for a beginner?" → chrome cons + FAQ
+  4. "Why buy a palette separately?" → palette pros (solves rhinestones rolling everywhere)
+  5. "Is this MelodySusie's actual best lineup or just whatever's in stock?" → winner named with a clear rationale (best seller, 50 reviews, 5.0 rating), not an arbitrary pick
+- **Recurring praise from real reviews:** brush handle comfort during long sessions, rhinestone color running through the glass rather than coating it, chrome powder being forgiving on silver/gold shades, palette solving rhinestone organization
+- **Recurring complaints (addressed honestly):** brush sets oversized for casual users, rhinestones needing real glue/gel rather than press-on assumption, chrome powder requiring the right top coat type and timing, resin palettes staining with dark pigments over time
+
+---
+
+## 6. DISCOUNT AND CONVERSION DATA
+
+- **Per-product pricing:** all 4 products show sale price vs. compare-at price (see frontmatter `price`/`compareAtPrice` fields) — discounts range from 8% (brushes) to 40% (rhinestones, chrome powder)
+- **Active MelodySusie sitewide codes found during research:** CODE OFF8 = 8% off sitewide; CODE MSOFF15 = 15% off orders over $129.99; free US shipping on orders over $129.99
+- **Placement:** mention CODE OFF8 near the first product CTA (after intro/brush set) since it applies regardless of order size; mention the $129.99 free-shipping threshold near the ShopFinalCTA section since multi-product orders are more likely to clear it there
+
+---
+
+## 7. CONTENT STRUCTURE
+*Use these H2 headings in this exact order. Do not rename, reorder, or remove. Add H3s at your discretion.*
+
+**Intro (150-180 words):** Open on the buying decision: a home nail artist with brushes and basic gel polish ready to add decorative tools. State the 4-product shortlist immediately. Both required keyword mentions land here, in `<strong>` tags. Weave in "what do I actually need to start" buyer phrase. End by naming the winner with the one-line reason (best-selling, 50 reviews, 5.0 rating).
+
+**H2: The Best MelodySusie Nail Art Tools, Compared**
+- Directive: Quick-scan framing before the table/injection — one sentence per product teeing up what's coming. No AEO/GEO term assigned here directly.
+- Injection: `{{PRODUCTS:4:0,1,2,3}}` immediately after this H2 (2x2 grid, all 4 products)
+- Word budget: 60-80 words
+
+**H2: Why the 31Pcs Nail Art Brushes Set Is the One to Start With**
+- Directive: Cover the winner. Explain what each brush type does at a high level (liner vs. detail vs. dotting vs. acrylic) — maps AEO #9 and #10 here. Address objection #1 (do you need all 31). Mention CODE OFF8 naturally near this section's CTA.
+- AEO terms answered here: "What's the difference between a liner brush and a detail brush?" / "How many nail art brushes does a beginner actually need?"
+- Internal link goes here, mid-post, after the first product CTA: link to EC-01 pillar (best-melodysusie-nail-drills) with natural anchor text about pairing tools with a drill for full prep, AND link to EC-03 pillar (best-melodysusie-gel-polish) with anchor text about needing a cured gel base before nail art goes on top.
+- Word budget: 180-220 words
+
+**H2: Nail Rhinestones: Getting the Hold Right**
+- Directive: Cover product 2. Lead with the real buyer objection — rhinestones falling off — and explain the fix (glue/gel + cure), not just sell the sparkle. This is the trust-building section.
+- Word budget: 150-180 words
+
+**H2: Chrome Nail Powder: The Trend Worth Trying at Home**
+- Directive: Cover product 3. Explain the no-wipe top coat requirement plainly, since this is the #1 reason home users fail at chrome nails. Frame as the differentiator vs. generic guides (most don't mention chrome at all in 2026 roundups).
+- Word budget: 150-180 words
+
+**H2: Why a Nail Art Palette Is Worth the $4.99**
+- Directive: Cover product 4. Address objection #4 — justify a "minor" accessory by tying it directly to the rhinestone section above (stops stones from rolling everywhere) and the chrome section (mixing/staging).
+- Word budget: 100-130 words
+
+**H2: Frequently Asked Questions**
+- Directive: Component auto-renders FAQ block from frontmatter `faqs[]`. Do not write FAQ content in body — confirm trigger only.
+- Word budget: 0 (component-driven)
+
+**Conclusion (100-130 words):**
+- Directive: Final push to purchase, not a summary. Restate the winner and one-line reason. Mention the $129.99 free shipping threshold since a multi-product order may clear it. End on a direct buy prompt, not a recap.
+
+**Total word budget: ~1,140 words body copy**, consistent with Section 4's 1,100-1,300 word target.
+
+**Injection plan:** Single `{{PRODUCTS:4:0,1,2,3}}` call, placed immediately after the "The Best MelodySusie Nail Art Tools, Compared" H2, before any other product-specific H2 begins. No other injections — each subsequent H2 discusses its product in prose; the grid above already displays all 4 with images/pricing/links, so repeated injections would be redundant.
+
+---
+
+## 8. COMPONENT DIRECTIVES
+*These components fire automatically from frontmatter. Confirm trigger fields in Section 2 are correctly set. Never write component content in body — it auto-renders.*
+
+- **WinnerBadge:** ACTIVE — `winnerIndex: 0` is set in Section 2
+- **ShopInlineCTA:** ACTIVE — fires from `winnerIndex: 0`
+- **ComparisonTable:** ACTIVE — `showComparison: true` and `comparisonTable` data present in Section 2; `features[]` (5 items) matches `values[]` length (5 items) in every column — verified
+- **ProsConsBlock:** INACTIVE — `showProscons: false` per post-type default for best-of; pros/cons data is still included in `products[]` for use in body copy and WinnerBadge details, but the dedicated block does not fire
+- **ShopFinalCTA:** ALWAYS ACTIVE — fires from `products[]` existing
+- **ShopFAQ:** ACTIVE — `faqs[]` has 8 entries in Section 2
+- **ShopTableOfContents:** ALWAYS ACTIVE — reads H2s from Section 7 automatically
+- **Sidebar winner card:** ACTIVE — fires from `winnerIndex: 0`
+
+---
+
+## 9. WRITING INSTRUCTIONS
+
+- This is conversion copy. Every sentence moves the buyer toward a purchase decision — lead with buyer benefit, specs support it, never lead with specs.
+- Use buyer phrases from Section 5 naturally.
+- Address all 5 buying objections from Section 5 directly in the body — do not hedge or skip any.
+- Honest cons build trust: reflect each product's cons (already in Section 2 frontmatter) in the prose, then counter with why the product is still the right buy.
+- Mention CODE OFF8 naturally near the first product CTA; mention the $129.99 free shipping threshold naturally near the ShopFinalCTA area. Never as a standalone promotional paragraph.
+- Primary keyword in `<strong>` tags every mention, no exceptions — 8 total, 2 in the first 150 words.
+- No editorial literary hooks. Open every H2 with the buyer benefit or buying question directly.
+- H2 sections are short and direct.
+- Conclusion is a final push to purchase, not a summary.
+- Internal links (EC-01, EC-03 pillars) go in the brush-set H2 only, mid-post, after the first product CTA — anchor text natural, never forced.
+- No related-articles section.
+- American English throughout.
+- No banned AI patterns: no "elevate," "seamlessly," "game-changing," "dive into," "transformative."
+- No long em dashes — use a comma or restructure.
+- Vary sentence rhythm: short and punchy for selling points, longer for objection-handling.
+- No "we tested" language. Chrome powder has zero on-site reviews — its pros/cons are informed editorial observation from specs and category research, not fabricated first-person claims.
