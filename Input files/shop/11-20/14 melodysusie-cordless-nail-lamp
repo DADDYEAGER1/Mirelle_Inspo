@@ -1,0 +1,597 @@
+# THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT.
+# All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy.
+
+---
+
+## SECTION 1: CLUSTER SUMMARY
+
+- **Cluster:** EC-02 — Nail Lamps
+- **Post:** Post 14 — MelodySusie Cordless Nail Lamp: Best Rechargeable UV LED Picks
+- **Slug:** `melodysusie-cordless-nail-lamp`
+- **Category route:** `/shop/nail-lamps`
+- **Post type:** best-of
+- **Primary keyword:** `MelodySusie cordless nail lamp`
+- **Role:** Spoke post under EC-02 pillar (Post 2: Best MelodySusie UV LED Nail Lamps)
+- **Affiliate region:** USA
+- **Affiliate mode:** MelodySusie direct affiliate links (aff=3711)
+
+**Internal links this post must include** (mid-post only, after first product CTA — never before):
+- EC-02 Pillar: `/shop/nail-lamps/best-melodysusie-nail-lamps` — anchor: "full MelodySusie nail lamp lineup"
+- EC-04-S1: `/shop/nail-kits/melodysusie-beginner-nail-kit` — anchor: "MelodySusie beginner nail kit"
+- EC-02-S4: `/shop/nail-lamps/melodysusie-nail-lamp-uv-gloves` — anchor: "UV protection gloves for your lamp"
+
+---
+
+## SECTION 2: FRONTMATTER BLOCK
+
+**Post gen instruction: Copy this frontmatter block exactly. Do not change any field.**
+
+```yaml
+---
+title: "Best MelodySusie Cordless Nail Lamp: 5 Rechargeable UV LED Picks Ranked"
+excerpt: "The best MelodySusie cordless nail lamp for home use, travel, or salon work — 5 rechargeable UV LED models compared and ranked."
+date: "2026-06-18"
+author: "Mirellé"
+category: "nail-lamps"
+image: "https://www.melodysusie.com/cdn/shop/files/ea1809cbd788a494639fafa729384a56_b470a6d6-8f22-40ad-8c2e-63d458a03917.jpg?v=1767845823"
+imageAlt: "MelodySusie cordless nail lamp P-PLUS30GT rechargeable UV LED on a white nail table"
+imageWidth: 1200
+imageHeight: 630
+readTime: "9 min read"
+canonical: ""
+postType: "best-of"
+winnerIndex: 0
+showComparison: true
+showProscons: false
+comparisonCaption: "How the top MelodySusie cordless nail lamps compare"
+products:
+  - name: "New Upgraded P-PLUS30GT Rechargeable Cordless UV/LED Nail Lamp"
+    brand: "MelodySusie"
+    price: "$69.99"
+    compareAtPrice: "$79.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/ea1809cbd788a494639fafa729384a56_b470a6d6-8f22-40ad-8c2e-63d458a03917.jpg?v=1767845823"
+    link: "https://www.melodysusie.com/products/new-upgraded-p-plus30gt-rechargeable-cordless-uv-led-nail-lamp-pink?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    rating: 4.8
+    reviewCount: 0
+    details:
+      - "48W | 30 LED beads | 365nm–405nm dual wavelength"
+      - "13,500mAh battery — up to 600 cure cycles on one charge"
+      - "Reflective metal base eliminates dead zones for even curing"
+    pros:
+      - "Upgraded magnetic metal base dramatically improves curing evenness — no missed spots on thumbs or cuticle edges"
+      - "600-cure battery capacity means months of home use without worrying about recharging"
+      - "Cures builder, extension, glitter, and hard gels that cheaper lamps struggle with"
+      - "Ventilation holes prevent the heat buildup that causes the burning sensation mid-cure"
+      - "3 timer settings including 99s low-heat mode — ideal for sensitive skin or thick applications"
+    cons:
+      - "Newest model with limited reviews yet — early adopter product"
+      - "No carrying handle — less suited for mobile nail techs who move between stations"
+
+  - name: "P-PLUS30G Rechargeable Cordless UV/LED Nail Lamp"
+    brand: "MelodySusie"
+    price: "$49.99"
+    compareAtPrice: "$59.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/1bc94908bf76a6086d3399c2e0e2fce4_530b31ff-fbc9-4f91-8c67-77e893b66566.jpg?v=1769763710"
+    link: "https://www.melodysusie.com/products/p-plus30g-rechargeable-cordless-uv-led-nail-lamp-pink?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Value"
+    rating: 4.7
+    reviewCount: 110
+    details:
+      - "48W | 30 enhanced LED beads | 365nm–405nm dual wavelength"
+      - "7,800mAh battery — 300 cure cycles, 2+ hours continuous use"
+      - "Detachable base fits full hand and foot — manicure and pedicure ready"
+    pros:
+      - "110+ verified reviews with consistent praise for curing speed and battery life"
+      - "48W output handles chrome, builder, and glitter gels that mid-tier lamps miss"
+      - "7,800mAh battery recharges in 2 hours and cures 300 times — plenty for daily home users"
+      - "Compatible with KiaraSky, Gelish, DND, and all major gel brands"
+      - "LCD display with 99s low-heat mode makes it beginner-friendly"
+    cons:
+      - "Standard ABS base (not metal) — light reflection slightly less efficient than P-PLUS30GT"
+      - "2+ hours battery runtime can fall short for professional salon volumes"
+
+  - name: "P-Plus20F Innovative UV Protection Rechargeable UV/LED Nail Lamp"
+    brand: "MelodySusie"
+    price: "$74.99"
+    compareAtPrice: "$84.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/381db143255f3e586ea52c1c36d9b5d5_0b184aa9-ce90-4bfa-8350-adc00aff6f30.jpg?v=1736152222"
+    link: "https://www.melodysusie.com/products/p-plus20f-uv-protection-rechargeable-uv-led-nail-lamp?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Skin Safety"
+    rating: 4.6
+    reviewCount: 0
+    details:
+      - "48W | 20 beads | Zoned lighting design physically blocks UV exposure to skin"
+      - "240° rotatable panel fits all hand and foot sizes"
+      - "7,800mAh battery — up to 300 cures; 2025 Red Dot Design Award nominee"
+    pros:
+      - "Physically redirects UV light away from skin — the only MelodySusie lamp with built-in UV protection by design, not just low-heat mode"
+      - "240° rotating panel is genuinely useful for awkward angles and pedicures"
+      - "Compact and lightweight — the easiest of the range to travel with"
+      - "Walmart buyers specifically praise its compact size and portable convenience"
+    cons:
+      - "20 LED beads vs 30 in P-PLUS30G — cures soft gels well but less suited for dense builder gels"
+      - "Only 2 timer settings (35s/65s) vs 3 on other models — less flexibility"
+      - "Higher price for fewer beads — value trade-off only makes sense if UV protection is a priority"
+
+  - name: "P-ART06G Rechargeable & Cordless LED/UV Nail Lamp"
+    brand: "MelodySusie"
+    price: "$19.99"
+    compareAtPrice: "$22.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/ea1809cbd788a494639fafa729384a56_2c310b06-7cdf-4ce0-aeec-58515534a071.jpg?v=1753437560"
+    link: "https://www.melodysusie.com/products/p-art06g-led-uv-nail-lamp?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Beginners"
+    rating: 4.5
+    reviewCount: 0
+    details:
+      - "6 upgraded LED beads | 2 timer settings (45s/75s) | Smart auto sensor"
+      - "3–5 hours use on one charge — longest battery runtime in the range per charge"
+      - "Ultra-compact and lightweight — built for travel and on-the-go touch-ups"
+    pros:
+      - "Under $20 — the lowest barrier to entry in MelodySusie's cordless range"
+      - "Cures Sally Hansen, Beetles, and most retail gel brands reliably"
+      - "3–5 hours battery life makes it the longest-lasting portable in the range per charge"
+      - "Smart sensor operation — no buttons required mid-cure"
+    cons:
+      - "6 beads limits performance on builder gel, extension gel, and thick formulas"
+      - "No LCD display — basic timer-only operation"
+      - "Not suited for professional or salon volume use"
+
+  - name: "EOS 5 (S-Pro27I) Rechargeable LED/UV Nail Lamp"
+    brand: "MelodySusie"
+    price: "$109.99"
+    compareAtPrice: "$119.99"
+    image: "https://www.melodysusie.com/cdn/shop/products/MKT-05-06-001-010165.jpg?v=1682670954"
+    link: "https://www.melodysusie.com/products/eos-5-rechargeable-led-uv-nail-lamp?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Professionals"
+    rating: 4.6
+    reviewCount: 0
+    details:
+      - "45W | Portable handle design | 6 rechargeable batteries | 4 timer settings (15s/30s/45s/60s)"
+      - "Large LCD touch screen | Detachable magnetic tray | Auto sensor"
+      - "Built for mobile nail techs — designed to move between stations"
+    pros:
+      - "Portable handle is the key differentiator — the only model in this roundup designed for mobile nail tech use"
+      - "4 timer settings including a 15s option — faster workflow for professional volume"
+      - "Large curing space accommodates both hands and feet comfortably"
+      - "Detachable magnetic tray keeps the workspace clean between clients"
+      - "Dual light source cures UV gel, UV resin, poly gel, builder gel, and rhinestone glue"
+    cons:
+      - "45W vs 48W on other models — marginally less powerful for thick hard gels"
+      - "Higher price — only justifiable for professional or semi-professional use"
+      - "4-hour initial charge requirement — longer setup than USB-C models"
+
+comparisonTable:
+  features:
+    - "Wattage"
+    - "LED Beads"
+    - "Wavelength"
+    - "Battery Capacity"
+    - "Cure Cycles"
+    - "Timer Settings"
+    - "Low-Heat Mode"
+    - "Detachable Base"
+    - "LCD Display"
+    - "UV Skin Protection"
+    - "Handle / Portable"
+    - "Best For"
+  columns:
+    - label: "P-PLUS30GT"
+      badge: "Best Overall"
+      values:
+        - "48W"
+        - "30 beads"
+        - "365nm–405nm"
+        - "13,500mAh"
+        - "600 cycles"
+        - "30s / 60s / 99s"
+        - true
+        - "Metal (reflective)"
+        - true
+        - false
+        - false
+        - "Advanced home users"
+    - label: "P-PLUS30G"
+      badge: "Best Value"
+      values:
+        - "48W"
+        - "30 beads"
+        - "365nm–405nm"
+        - "7,800mAh"
+        - "300 cycles"
+        - "30s / 60s / 99s"
+        - true
+        - "ABS plastic"
+        - true
+        - false
+        - false
+        - "Home & beginner-intermediate"
+    - label: "P-Plus20F"
+      badge: "Best Safety"
+      values:
+        - "48W"
+        - "20 beads"
+        - "365nm–405nm"
+        - "7,800mAh"
+        - "300 cycles"
+        - "35s / 65s"
+        - false
+        - "240° rotatable"
+        - true
+        - true
+        - false
+        - "Sensitive skin / health-conscious"
+    - label: "P-ART06G"
+      badge: "Best Beginner"
+      values:
+        - "Not specified"
+        - "6 beads"
+        - "365nm–405nm"
+        - "Not specified"
+        - "5hr runtime"
+        - "45s / 75s"
+        - false
+        - false
+        - false
+        - false
+        - false
+        - "Beginners / travel"
+    - label: "EOS 5 (S-Pro27I)"
+      badge: "Best Pro"
+      values:
+        - "45W"
+        - "27 beads"
+        - "365nm–405nm"
+        - "2,000mAh (6 batteries)"
+        - "2hr runtime"
+        - "15s / 30s / 45s / 60s"
+        - false
+        - "Detachable magnetic"
+        - true
+        - false
+        - true
+        - "Mobile nail techs / pros"
+
+faqs:
+  - question: "What is the best MelodySusie cordless nail lamp for home use?"
+    answer: "The P-PLUS30GT is the best MelodySusie cordless nail lamp for home use. At $69.99, it delivers 48W of power with a 13,500mAh battery that supports up to 600 cure cycles — enough for months of weekly manicures. Its reflective metal base ensures even curing across all fingers including the thumb, which cheaper lamps often miss."
+
+  - question: "How long does a MelodySusie cordless nail lamp battery last?"
+    answer: "It depends on the model. The P-PLUS30GT offers the longest capacity at 13,500mAh — up to 600 cure cycles or approximately 2.5 hours of continuous use. The P-PLUS30G provides 300 cycles on a 7,800mAh battery. The P-ART06G has the longest single-charge runtime at 3–5 hours, making it ideal for travel."
+
+  - question: "Can a MelodySusie cordless nail lamp cure builder gel and hard gels?"
+    answer: "Yes, but only the 48W models can do it reliably. The P-PLUS30GT, P-PLUS30G, and P-Plus20F all cure builder gel, extension gel, acrylic gel, and chrome gel polish. The P-ART06G is limited to soft gels and standard color polishes — it is not suited for thick or hard formulas."
+
+  - question: "Is the MelodySusie cordless nail lamp good for sensitive skin?"
+    answer: "The P-Plus20F is the best choice for sensitive skin. It uses a zoned lighting design that physically redirects UV light away from the surrounding skin, reducing UV exposure at the source. All other MelodySusie cordless lamps include a 99s low-heat mode that reduces heat spikes, which helps with the burning sensation but does not reduce UV skin exposure."
+
+  - question: "Does MelodySusie ship cordless nail lamps to the USA?"
+    answer: "Yes. MelodySusie ships to the USA directly from their site. Free US shipping is available on orders over $129.99. Individual lamp orders ship at standard rates. All lamps on this list are available for US delivery."
+
+  - question: "What wattage cordless nail lamp do I need for gel nails at home?"
+    answer: "For standard soft gel polish at home, 36W to 48W is sufficient. All MelodySusie full-hand cordless lamps in this roundup run at 45W–48W, which is enough to cure soft gels in 30–60 seconds. If you use builder gel, polygel, or hard extension gels, choose a 48W model — either the P-PLUS30GT or P-PLUS30G."
+
+  - question: "How do I charge a MelodySusie cordless nail lamp?"
+    answer: "All MelodySusie cordless nail lamps charge via the included DC adapter or USB cable (varies by model). The P-PLUS30GT and P-PLUS30G fully charge in approximately 2–2.5 hours. The EOS 5 requires up to 4 hours on its first charge. MelodySusie recommends using only the original charger included with the lamp."
+---
+```
+
+---
+
+## SECTION 3: SEO AND KEYWORD PLAN
+
+**Post gen instruction: Follow this keyword plan exactly. Calculate density before writing — do not estimate.**
+
+**Primary keyword:** `MelodySusie cordless nail lamp`
+- **Keyword density target:** 1.5% — match competitor average. Add 3 extra mentions in the first half.
+- **Total mention target:** ~26 mentions in a 1,750-word post
+- **First 150 words:** Primary keyword must appear exactly 2 times — both in `<strong>` tags
+- **ALL primary keyword mentions throughout entire post:** wrapped in `<strong>` tags
+
+**High CPC transactional keywords** (estimated CPC $1.50–$4.00 range — weave into H2s, CTAs, mid-post copy):
+- `rechargeable nail lamp for gel nails` — ~$2.80 CPC
+- `best cordless nail lamp 2025` — ~$3.20 CPC
+- `wireless nail lamp for home use` — ~$2.50 CPC
+- `cordless UV LED nail lamp rechargeable` — ~$2.90 CPC
+- `portable nail lamp for gel polish` — ~$2.20 CPC
+
+**Keyword variations** (use naturally, no density target, no strong tags):
+- MelodySusie rechargeable nail lamp
+- MelodySusie wireless nail lamp
+- MelodySusie portable nail lamp
+- MelodySusie rechargeable UV lamp
+- cordless gel nail lamp MelodySusie
+
+**Transactional cluster keywords** (weave throughout — no density target):
+- cordless nail dryer for gel polish
+- rechargeable LED nail lamp
+- best portable UV lamp for gel nails
+- wireless nail curing lamp
+- cordless nail lamp with long battery
+- rechargeable nail lamp for beginners
+- UV LED nail lamp no cord
+- cordless nail lamp with smart sensor
+
+**LSI semantic terms** (weave naturally):
+- gel polish curing lamp
+- UV/LED dual wavelength
+- low-heat mode nail lamp
+- auto sensor nail lamp
+- nail lamp battery life
+- detachable base nail lamp
+- LCD display nail lamp
+- full-hand nail lamp
+- cure builder gel at home
+- 48W nail lamp
+- 365nm 405nm wavelength
+- gel nail polish cure time
+
+**AEO terms — mapped to H2 sections or FAQs:**
+| AEO Term | Mapped To |
+|---|---|
+| "What is the best MelodySusie cordless nail lamp for home use?" | FAQ #1 |
+| "How long does a cordless nail lamp battery last?" | FAQ #2 |
+| "Can a cordless nail lamp cure builder gel?" | FAQ #3 + H2: "Which MelodySusie Cordless Lamp Cures Builder and Hard Gels?" |
+| "Is the MelodySusie cordless nail lamp good for sensitive skin?" | FAQ #4 + H2: "Best MelodySusie Cordless Lamp for Sensitive Skin" |
+| "What wattage nail lamp do I need for gel nails at home?" | FAQ #6 |
+| "How do I charge a MelodySusie nail lamp?" | FAQ #7 |
+| "Does MelodySusie ship nail lamps to the USA?" | FAQ #5 |
+| "What's the difference between the P-PLUS30GT and P-PLUS30G?" | H2: "P-PLUS30GT vs P-PLUS30G: Which Is the Better Buy?" |
+| "Which cordless nail lamp is best for nail techs on the go?" | H2: "Best MelodySusie Cordless Lamp for Mobile Nail Techs" |
+| "Does a cordless nail lamp work as well as a corded one?" | Intro section |
+
+**GEO terms** (place near CTAs, product sections, shipping mentions):
+- best cordless nail lamp in the USA
+- MelodySusie nail lamp free shipping USA
+- where to buy MelodySusie cordless lamp online
+- cordless nail lamp for home use USA
+- fast shipping MelodySusie nail lamp
+
+**Buyer phrase bank** (from Amazon reviews, Quora, TikTok — weave naturally into copy):
+- "the fact that it's cordless is a major plus"
+- "no more dealing with cords"
+- "cures builder gel without any issues"
+- "cures my whole hand without having to do thumbs separately"
+- "easy to use and works as it should"
+- "works great for my gel polish"
+- "perfect for doing nails on the go"
+- "lightweight and compact — fits in my bag"
+- "I love that it's rechargeable"
+- "no need to stay near an outlet"
+- "portable, reliable, and actually performs"
+- "never going back to a corded lamp"
+
+---
+
+## SECTION 4: COMPETITOR AND TITLE INTELLIGENCE
+
+**Post gen instruction: Use this analysis to write a title and excerpt that outperforms these on CTR. The analysis is done — execute it.**
+
+**Top 3 competitor titles for `MelodySusie cordless nail lamp`:**
+1. *"10 Best MelodySusie UV LED Nail Lamps"* (sortra.com) — broad, not cordless-specific, no benefit hook
+2. *"The 10 Best UV Nail Lamps of 2025"* (Who What Wear) — includes MelodySusie but not cordless-specific
+3. *"Best UV & LED Nail Lamps in 2026: Home, Salon & Cordless Options Compared"* (Lab Tests Guide) — covers cordless but not brand-specific
+
+**What they lack:** None rank a cordless-only MelodySusie comparison with buyer-specific benefits (battery life, cure power for hard gels, skin safety). They are either too broad or too generic.
+
+**Title direction:** Our title is already set. It leads with the brand + product type, specifies "5 picks ranked" (specificity), and surfaces the rechargeable angle buyers search by.
+
+**Competitor gaps — mandatory H2 topics our post must cover that competitors miss:**
+1. Metal base vs plastic base — what it means for curing quality (no competitor covers this)
+2. Which cordless lamps cure builder and hard gel vs soft gel only (competitors are vague)
+3. Skin safety differentiation — P-Plus20F UV protection vs low-heat mode (unique to MelodySusie lineup)
+4. Battery capacity in real-world terms — "300 cure cycles" means nothing to a buyer; we explain it
+5. P-PLUS30GT vs P-PLUS30G direct comparison — same wattage, different battery and base
+
+**Word count target:** 1,750 words (competitor average: ~1,600–1,900 words on similar roundups)
+
+---
+
+## SECTION 5: BUYER INTELLIGENCE
+
+**Post gen instruction: Every paragraph must be written for this specific buyer. Use the exact phrases from the phrase bank naturally.**
+
+**Who this buyer is:**
+- Primarily home DIY nail users — intermediate to advanced — who do gel manicures weekly or bi-weekly
+- Secondary: nail tech students and mobile nail techs who need a portable professional setup
+- Tertiary: beginners who want to avoid being tied to an outlet
+- US-based — price-sensitive but willing to pay $50–$110 for quality
+
+**What they need from this post:**
+- Clarity on which model fits their use case — they know they want cordless but don't know which one
+- Honest battery life information in practical terms (not just mAh)
+- Confirmation that a cordless lamp can cure the same gels as a corded one
+- Reassurance that the higher price of the P-PLUS30GT is actually worth it over the P-PLUS30G
+
+**What frustrates them:**
+- Roundups that list specs without explaining what they mean for real-world use
+- Being told a lamp "cures all gels" when it struggles with builder or thick formulas
+- Missing information about battery life in real terms
+- Vague UV safety language — they want to know whether the lamp is actually safer
+
+**Top 5 buying objections — address each in post body:**
+1. "Will a cordless lamp actually cure as well as a corded one?" → Address in intro + comparison section
+2. "Is the P-PLUS30GT worth $20 more than the P-PLUS30G?" → Direct comparison H2
+3. "How long does the battery actually last between charges?" → Battery section with real numbers
+4. "Can this cure my builder gel / extension gel / chrome?" → Dedicated H2 with clear model breakdown
+5. "Is it safe for my skin?" → P-Plus20F section + FAQ
+
+**Recurring buyer praise (from reviews, TikTok, Amazon):**
+- Cordless convenience — "no more cords" is the #1 positive
+- Curing power — surprise that cordless matches corded performance
+- Compact size — buyers love that it fits on a small nail table or in a bag
+- Easy to use — auto sensor praised universally
+
+**Recurring buyer complaints:**
+- Battery anxiety — buyers worry about running out mid-session
+- Thumb curing — buyers report inconsistent curing on thumbs with cheaper lamps (the metal base on P-PLUS30GT solves this)
+- Heat spikes — mentioned frequently for cheap no-brand lamps; MelodySusie's low-heat mode directly addresses this
+
+---
+
+## SECTION 6: DISCOUNT AND CONVERSION DATA
+
+**Post gen instruction: Include active discount information naturally near CTAs — real conversion boosters.**
+
+**Active MelodySusie discount codes (confirmed on site):**
+- `OFF8` — 8% off sitewide, no minimum
+- `MSOFF15` — 15% off orders over $129.99
+
+**Sale pricing on featured products (at time of research):**
+- P-PLUS30GT: $69.99 (was $79.99) — $10 saving
+- P-PLUS30G: $49.99 (was $59.99) — $10 saving
+- P-Plus20F: $74.99 (was $84.99) — $10 saving
+- P-ART06G: $19.99 (was $22.99) — $3 saving
+- EOS 5: $109.99 (was $119.99) — $10 saving
+
+**Free US shipping threshold:** Orders over $129.99
+
+**Placement:**
+- Mention `OFF8` code once near the ShopInlineCTA area (naturally, e.g. "MelodySusie is currently running a sitewide discount — use code **OFF8** at checkout for an extra 8% off")
+- Reference free shipping near ShopFinalCTA for buyers considering multiple products
+
+---
+
+## SECTION 7: CONTENT STRUCTURE
+
+**Post gen instruction: Use these H2 headings in this exact order. Do not rename, reorder, or remove. Add H3s at your discretion.**
+
+**Intro** (150 words)
+- Hook: Corded lamps are fine — until you're doing your nails on the couch, at a friend's place, or in a hotel room. Lead with the freedom angle.
+- Confirm: cordless nail lamps now match corded performance at 48W — the objection is dead
+- State clearly: this post covers 5 MelodySusie cordless nail lamps ranked for different buyers
+- Primary keyword appears twice in `<strong>` tags in this section
+- AEO term answered here: "Does a cordless nail lamp work as well as a corded one?"
+
+---
+
+**H2: The Best MelodySusie Cordless Nail Lamps at a Glance** (~100 words)
+- Quick-reference summary of all 5 models and their badge/buyer type
+- `{{PRODUCTS:2:0,1}}` — P-PLUS30GT and P-PLUS30G side by side
+- No deep specs here — just orientate the buyer
+
+---
+
+**H2: Best Overall: P-PLUS30GT — The Upgraded Cordless Standard** (~200 words)
+- Lead with buyer benefit: metal base + 600-cycle battery = the lamp you buy once and forget about
+- Explain the metal base in plain English: it bounces more light onto the nail surface = no dead zones
+- Address objection #1 (cures as well as corded) and objection #2 (worth $20 more than P-PLUS30G)
+- Cover 99s low-heat mode for buyers with sensitive nails
+- `{{PRODUCTS:1:0}}` — featured layout for winner
+- Mention `OFF8` code here naturally
+
+---
+
+**H2: Best Value: P-PLUS30G — The 48W Workhorse Under $50** (~180 words)
+- Lead with the value proposition: same 48W and 30 beads as the GT, proven by 110+ reviews
+- Explain the practical difference: ABS base vs metal base, 300 vs 600 cycles
+- Who should buy this vs the GT: home users who don't need 600 cycles, anyone on a budget
+- `{{PRODUCTS:1:1}}` — featured layout
+- GEO term: "available now in the USA with fast shipping"
+
+---
+
+**H2: P-PLUS30GT vs P-PLUS30G: Which Is the Better Buy?** (~150 words)
+- Direct side-by-side breakdown in prose (comparison table fires automatically — don't replicate it)
+- Answer the AEO: "What's the difference between the P-PLUS30GT and P-PLUS30G?"
+- Decision rule: buy GT if you use hard or builder gels, do nails 3+ times/week, or want the longest battery; buy 30G if you do standard gel polish 1–2x/week and want to save $20
+- **Internal link placement here:** "See the [full MelodySusie nail lamp lineup](/shop/nail-lamps/best-melodysusie-nail-lamps) if you're also comparing corded models"
+
+---
+
+**H2: Best for Sensitive Skin: P-Plus20F — UV Protection Built In** (~180 words)
+- Explain the physical UV protection design vs low-heat mode — these are different things; many buyers conflate them
+- AEO answered here: "Is the MelodySusie cordless nail lamp good for sensitive skin?"
+- Who buys this: health-conscious buyers, anyone who's had skin reactions near nail lamps, professional salons offering a safer service
+- Note the 2025 Red Dot Design Award nominee status — editorial credibility point
+- Note the limitation: 20 beads vs 30 — best for soft gels, not builder gel
+- `{{PRODUCTS:1:2}}` — featured layout
+- **Internal link placement here:** "Pair it with [UV protection gloves](/shop/nail-lamps/melodysusie-nail-lamp-uv-gloves) for maximum coverage"
+
+---
+
+**H2: Best for Beginners: P-ART06G — Cordless Gel Nails Under $20** (~150 words)
+- Lead with the price — this is a genuine value entry point
+- Cover what it can and cannot do honestly: great for standard soft gel polish and semi-cured strips; not for builder or extension gel
+- Buyer phrase: "easy to use and works as it should" — reflect this language
+- Battery: 3–5 hours per charge is the longest runtime per charge in the lineup — useful for beginners doing nails slowly
+- `{{PRODUCTS:1:3}}` — featured layout
+
+---
+
+**H2: Best for Mobile Nail Techs: EOS 5 — The Professional Portable** (~150 words)
+- Lead with the handle design — the key differentiator; no other model has it
+- AEO answered here: "Which cordless nail lamp is best for nail techs on the go?"
+- 4 timer settings including 15s for fast professional workflows
+- Who this is not for: home users — the $109.99 price only makes sense if you're moving between stations
+- `{{PRODUCTS:1:4}}` — featured layout
+- **Internal link placement here:** "If you're building a full mobile setup, the [MelodySusie beginner nail kit](/shop/nail-kits/melodysusie-beginner-nail-kit) covers drill and accessories too"
+
+---
+
+**H2: What to Look for in a MelodySusie Cordless Nail Lamp** (~150 words)
+- Buying guide section — addresses buyer confusion about specs
+- Cover: wattage (why 48W matters), LED bead count (more = better coverage), battery capacity in practical terms, base material (metal vs ABS), low-heat mode
+- AEO answered here: "What wattage nail lamp do I need for gel nails at home?"
+- Keep it concise — buyers are already close to purchase at this point
+
+---
+
+**Conclusion / Final Push** (~100 words)
+- Reinforce the winner recommendation and the budget pick
+- GEO: mention fast US shipping and active discount code `OFF8`
+- Drive to purchase — not a summary, a decision driver
+- No "In conclusion" opener
+
+---
+
+**Injection plan summary:**
+- After intro: `{{PRODUCTS:2:0,1}}` (Best Overall + Best Value side by side)
+- P-PLUS30GT H2: `{{PRODUCTS:1:0}}`
+- P-PLUS30G H2: `{{PRODUCTS:1:1}}`
+- P-Plus20F H2: `{{PRODUCTS:1:2}}`
+- P-ART06G H2: `{{PRODUCTS:1:3}}`
+- EOS 5 H2: `{{PRODUCTS:1:4}}`
+
+---
+
+## SECTION 8: COMPONENT DIRECTIVES
+
+**Post gen instruction: These components fire automatically from frontmatter. Confirm trigger fields in Section 2 are correctly set. Never write component content in body — it auto-renders.**
+
+| Component | Status | Trigger |
+|---|---|---|
+| WinnerBadge | ACTIVE | winnerIndex: 0 set |
+| ShopInlineCTA | ACTIVE | winnerIndex: 0 set — fires after ~30% of content |
+| ComparisonTable | ACTIVE | showComparison: true + comparisonTable data present |
+| ProsConsBlock | INACTIVE | showProscons: false |
+| ShopFinalCTA | ALWAYS ACTIVE | products[] exists |
+| ShopFAQ | ACTIVE | faqs[] has 7 entries |
+| ShopTableOfContents | ALWAYS ACTIVE | reads H2/H3 from body |
+| Sidebar winner card | ACTIVE | winnerIndex: 0 set |
+
+---
+
+## SECTION 9: WRITING INSTRUCTIONS
+
+**Post gen instruction: Follow these rules for every paragraph of body copy.**
+
+- This is conversion copy — every sentence moves the buyer toward a purchase decision
+- Lead with buyer benefit, not product specs — specs support the benefit, never lead with them
+- Use buyer phrases from Section 5 naturally — speak their language
+- Address the 5 buying objections listed in Section 5 directly — do not hedge or avoid them
+- Honest cons build trust — include them (they're in the frontmatter), then counter with why the product is still the right buy for that buyer type
+- Mention `OFF8` discount code once near ShopInlineCTA area — naturally, not as a standalone paragraph
+- Primary keyword `MelodySusie cordless nail lamp` in `<strong>` tags every mention — no exceptions
+- No editorial literary hooks — open sections with the buyer benefit or buying question directly
+- H2 sections are short and direct — buyers scan, they do not read long intros
+- Conclusion = final push to purchase — not a summary, a decision driver
+- Internal links placed mid-post after first product CTA only — anchor text natural, never forced
+- No related articles section — handled by site component
+- Language: American English only
+- No banned AI patterns: no "elevate," "seamlessly," "game-changing," "dive into," "transformative"
+- No long em dashes — use comma or restructure sentence
+- Sentence rhythm varies — short punchy sentences for key selling points, longer for context
+- No "we tested" language — write informed editorial observations from specs and buyer review language
+- Metal base explanation must be in plain English: a reflective metal base bounces more light back onto the nail surface, reducing the "dead zones" where polish doesn't cure fully — especially on thumbs and cuticle edges
+- Battery life must be explained in practical terms: "300 cure cycles" = approximately one year of weekly 5-nail manicures
