@@ -1,0 +1,513 @@
+# shop_input_file.md
+
+> **THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT.** All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions in this file must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy.
+
+---
+
+## SECTION 1 — CLUSTER SUMMARY
+
+- **Cluster:** EC-07 — Instant & Press-On Nails
+- **Category route:** `/shop/instant-nails`
+- **This post:** Post 7 — pillar post for EC-07
+- **Title:** Best MelodySusie Press-On & Instant Nails: Gel Strips + Press-Ons
+- **Slug:** `best-melodysusie-instant-nails`
+- **Post type:** best-of
+- **Primary keyword:** `MelodySusie press-on nails`
+- **Role:** Cluster PILLAR — top-level post for EC-07. Covers both gel nail strips (Qcoat fully cured) and press-on nails. Spoke post 34 (Qcoat gel strips review) links UP to this pillar.
+- **Internal links to include (mid-post only, after first product CTA):**
+  - Link to post 34: "MelodySusie Qcoat Gel Nail Strips: Do They Actually Work?" → `/shop/instant-nails/melodysusie-qcoat-gel-nail-strips-review` — anchor text: "our in-depth Qcoat strip review"
+  - Link to post 3: "Best MelodySusie Gel Polish" → `/shop/gel-polish/best-melodysusie-gel-polish` — anchor text: "MelodySusie gel polish"
+- **Posts that link to this post:** Post 34 (Qcoat review spoke)
+- **Affiliate mode:** MelodySusie affiliate — aff=3711
+- **Region:** USA only
+
+**Active discount codes to include near CTAs:**
+- `OFF8` — 8% off sitewide
+- `MSOFF15` — 15% off orders over $129.99
+- Free US shipping on orders over $129.99
+
+---
+
+## SECTION 2 — FRONTMATTER BLOCK
+
+> **Post gen instruction:** Copy this frontmatter block exactly into the post. Do not change any field. Image URLs, prices, product names, slugs — all pre-filled here.
+
+```yaml
+---
+title: "Best MelodySusie Press-On & Gel Nail Strips: Every Pick Reviewed"
+excerpt: "Skip the salon. MelodySusie press-on nails and UV-free gel strips deliver up to 2 weeks of wear — no lamp, no mess, no skill required."
+date: "2026-06-18"
+author: "Mirellé"
+category: "instant-nails"
+image: "https://www.melodysusie.com/cdn/shop/files/05-10-595-010922.jpg?v=1780298578&width=1080"
+imageAlt: "MelodySusie press-on nails Aurora Collection gel nail strips in pastel skittle mani and pedi set"
+imageWidth: 1200
+imageHeight: 630
+readTime: "7 min read"
+canonical: ""
+postType: "best-of"
+winnerIndex: 0
+showComparison: true
+showProscons: false
+comparisonCaption: "How MelodySusie's top instant nail picks compare"
+
+products:
+  - name: "Aurora Collection Real Gel Nail Strips"
+    brand: "MelodySusie"
+    price: "$13.99"
+    compareAtPrice: "$25.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/05-10-595-010922.jpg?v=1780298578&width=1080"
+    link: "https://www.melodysusie.com/products/aurora-collection-real-gel-nail-strips?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    rating: null
+    reviewCount: 0
+    details:
+      - "UV-free fully cured gel — no lamp needed, peel-stick-file application"
+      - "30+ colorways including cat eye, glitter, shimmer, jelly, and French styles"
+      - "Mani + pedi combo sets available — up to 2 weeks wear"
+    pros:
+      - "No UV lamp required — fully cured gel is ready to wear right out of the packet"
+      - "Enormous design range — cat eye, glitter, diamond, shimmer, and sheer jelly finishes"
+      - "Mani + pedi combo sets let you do hands and toes from one purchase"
+      - "Thick stretchable gel conforms to uneven nail surfaces, no bubbles"
+      - "Includes nail file and wooden stick — everything in the kit to apply"
+    cons:
+      - "New product line — limited buyer reviews available yet"
+      - "Combo sets cost slightly more than single manicure sets"
+
+  - name: "Classic Collection Real Gel Nail Strips"
+    brand: "MelodySusie"
+    price: "$13.99"
+    compareAtPrice: "$25.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/05-10-595-010933.jpg?v=1780303118&width=1600"
+    link: "https://www.melodysusie.com/products/classic-collection-real-gel-nail-strips?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Everyday Wear"
+    rating: null
+    reviewCount: 0
+    details:
+      - "Solid, French, and patterned designs in timeless colorways — Clay Red, Deep Plum, Dusty Rose"
+      - "UV-free fully cured gel — up to 2 weeks chip-resistant wear"
+      - "Mani + pedi combo sets with 22 manicure + 32 pedicure strips"
+    pros:
+      - "Neutral and classic palette — works for office, events, and everyday wear"
+      - "French, jelly, and solid color options in one collection"
+      - "Waterproof gel top layer resists chips and peeling for up to 2 weeks"
+      - "Beginner-friendly — peel, stick, file; no curing step required"
+    cons:
+      - "Less design drama than Aurora Collection — focused on classic styles"
+      - "New product line — no accumulated buyer reviews yet"
+
+  - name: "Summer Collection Real Gel Nail Strips"
+    brand: "MelodySusie"
+    price: "$13.99"
+    compareAtPrice: "$25.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/05-10-595-010936_02446dd3-43e0-4541-9260-94ff0dd4e0fb.jpg?v=1780304156&width=1080"
+    link: "https://www.melodysusie.com/products/summer-collection-real-gel-nail-strips?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Seasonal Pick"
+    rating: null
+    reviewCount: 0
+    details:
+      - "Baby Pink, Hot Pink, Mint Blue, Peach, Classic Red, and French styles — peak summer palette"
+      - "UV-free gel strips with waterproof top coat — up to 2 weeks wear"
+      - "Available as nail strips, toe strips, or full mani + pedi combo sets"
+    pros:
+      - "Season-appropriate palette — bright, fresh, and wearable for summer occasions"
+      - "French tip options (Pink French, Nude-White French, Blush-White French) perfect for minimalist looks"
+      - "Shimmer and diamond finishes available for evening or vacation wear"
+      - "Pedicure strips included — ready for sandal season"
+    cons:
+      - "Seasonal colorway — less versatile year-round than Classic Collection"
+      - "New release — no buyer reviews yet"
+
+  - name: "Qcoat Fully Cured Gel Nail Strips - Silver Stars"
+    brand: "MelodySusie"
+    price: "$8.99"
+    compareAtPrice: "$11.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/2_b41f53a5-0332-4edf-a5b1-aa53e96f20e5.jpg?v=1723543619&width=1600"
+    link: "https://www.melodysusie.com/products/qcoat-fully-cured-gel-nail-strips-sliver-stars?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Value"
+    rating: null
+    reviewCount: 0
+    details:
+      - "Qcoat pre-cured technology — UV-free, 3D gel craftsmanship, indentation recovery"
+      - "22 strips in 10 sizes — peel, stick, file in 3 steps; no lamp needed"
+      - "Up to 14 days wear at $8.99 per set — cheapest cost-per-manicure in the lineup"
+    pros:
+      - "Lowest price in the lineup at $8.99 — exceptional value for gel nail quality"
+      - "3D gel construction means strips conform and flex with natural nails"
+      - "Indentation recovery technology — surface dents smooth out over time"
+      - "Complete kit: 22 strips, 2 cleaning wipes, wood stick, nail file"
+      - "15 solid colors and 20 design styles available across the Qcoat range"
+    cons:
+      - "Single-set format — no mani + pedi combo option"
+      - "Fewer design styles per SKU than the new Aurora/Classic/Summer collections"
+
+  - name: "Beauty Acrylic Press-On Nails Kit"
+    brand: "MelodySusie"
+    price: "$9.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/2_53344ab1-5482-4fdb-ac1e-b4a3a130b3df.jpg?v=1673404576&width=2048"
+    link: "https://www.melodysusie.com/products/beauty-acrylic-press-on-nails-kits?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Press-On Pick"
+    rating: null
+    reviewCount: 0
+    details:
+      - "ABS resin construction — slim, natural-looking, waterproof, and reusable"
+      - "12 sizes fit 95%+ of nail shapes — jelly glue adhesive tabs, no UV lamp needed"
+      - "24 nails per kit — swap looks in minutes, removable and reusable"
+    pros:
+      - "True instant nails — no filing, no curing, zero skills required"
+      - "Environmentally friendly ABS resin material — safe during pregnancy"
+      - "Reusable — clean the jelly glue and wear them again"
+      - "12 sizes for a natural fit on virtually every nail shape"
+      - "Wide design range across collections — solid, glitter, french, floral styles"
+    cons:
+      - "Shorter wear window than gel strips — 5 to 7 days typical with tabs"
+      - "Adds thickness to the nail — less natural feel than gel strips"
+      - "Sizing takes practice on first application"
+
+comparisonTable:
+  features:
+    - "Type"
+    - "UV lamp required"
+    - "Wear time"
+    - "Application"
+    - "Mani + Pedi set available"
+    - "Price"
+    - "Reusable"
+  columns:
+    - label: "Aurora Gel Strips"
+      values:
+        - "Fully cured gel strips"
+        - "No"
+        - "Up to 2 weeks"
+        - "Peel, stick, file"
+        - "Yes"
+        - "$13.99"
+        - "No"
+    - label: "Classic Gel Strips"
+      values:
+        - "Fully cured gel strips"
+        - "No"
+        - "Up to 2 weeks"
+        - "Peel, stick, file"
+        - "Yes"
+        - "$13.99"
+        - "No"
+    - label: "Summer Gel Strips"
+      values:
+        - "Fully cured gel strips"
+        - "No"
+        - "Up to 2 weeks"
+        - "Peel, stick, file"
+        - "Yes"
+        - "$13.99"
+        - "No"
+    - label: "Qcoat Strips"
+      values:
+        - "Fully cured gel strips"
+        - "No"
+        - "Up to 14 days"
+        - "Peel, stick, file"
+        - "No"
+        - "$8.99"
+        - "No"
+    - label: "Acrylic Press-Ons"
+      values:
+        - "ABS resin press-on"
+        - "No"
+        - "5–7 days"
+        - "Press and hold"
+        - "No"
+        - "$9.99"
+        - "Yes"
+
+faqs:
+  - question: "Do MelodySusie gel nail strips require a UV lamp?"
+    answer: "No. MelodySusie's fully cured gel nail strips — including the Aurora, Classic, Summer, and Qcoat collections — use pre-cured gel technology, meaning the gel is already polymerized before you apply it. No UV or LED lamp is needed. You just peel, stick, and file."
+
+  - question: "How long do MelodySusie press-on nails last?"
+    answer: "The gel nail strips are rated for up to 2 weeks of wear. The acrylic press-on nails typically last 5 to 7 days with jelly glue tabs. Longevity improves significantly with proper nail prep — start with clean, dry, oil-free nails and avoid water for the first hour after application."
+
+  - question: "What is the difference between MelodySusie gel strips and press-on nails?"
+    answer: "Gel strips are thin layers of real pre-cured gel that sit flush with your natural nail for a more natural look and longer wear — up to 2 weeks. Press-on nails are ABS resin tips that add length and shape instantly and are reusable, but typically last 5 to 7 days. Gel strips are better for durability and a natural finish; press-ons are better for dramatic length or quick event wear."
+
+  - question: "Can MelodySusie gel nail strips be applied at home by a beginner?"
+    answer: "Yes. The application is designed for beginners: peel the strip, align it to your cuticle, press firmly, and file off the excess at the tip. No special tools, no UV lamp, and no nail experience required. The kit includes a nail file and wooden stick so you have everything you need."
+
+  - question: "Are MelodySusie press-on nails reusable?"
+    answer: "Yes. The acrylic press-on nails can be reused — remove them carefully, clean the jelly adhesive off the back, and reapply with fresh adhesive. The gel nail strips are single-use, but at $8.99 to $13.99 per set, the cost-per-wear is well below a salon visit."
+
+  - question: "What is the Qcoat technology in MelodySusie gel strips?"
+    answer: "Qcoat is MelodySusie's proprietary pre-curing system. The gel polish is fully cured during manufacturing, so the strip is ready to wear with no UV lamp needed. Qcoat strips also feature indentation recovery — minor surface dents gradually smooth out over time — and a 3D gel construction that conforms to uneven nail surfaces for a bubble-free fit."
+
+  - question: "Do MelodySusie gel strips work on short nails?"
+    answer: "Yes. The strips come in 10 to 15 sizes and are made from stretchable gel, so they conform to short, round, or flat nail shapes. Trim or file any overhang at the tip after application. The gel's flexibility means it adapts to natural nail curves regardless of length."
+
+  - question: "How do you remove MelodySusie gel nail strips?"
+    answer: "Lift the edge of the strip from the tip and peel gently toward the cuticle. If needed, a brief soak in warm water softens adhesion. No acetone required for the press-ons or fully cured gel strips. Nail health is preserved with proper gentle removal."
+---
+```
+
+---
+
+## SECTION 3 — SEO AND KEYWORD PLAN
+
+> **Post gen instruction:** Follow this keyword plan exactly. Calculate density before writing — do not estimate.
+
+**Primary keyword:** `MelodySusie press-on nails`
+- Every mention wrapped in `<strong>` tags — no exceptions
+- First 150 words: primary keyword appears exactly **2 times**, both in `<strong>` tags
+- **Keyword density target:** 1.2% — matches top competitor density plus 3 extra mentions in first half
+- **Word count target:** 1,400 words
+- **Total primary keyword mention target:** ~17 mentions for a 1,400-word post (add 3 extra in first 700 words)
+
+**High CPC transactional keywords** (weave into CTAs, H2s, mid-post copy):
+- `gel nail strips no UV lamp` — high buyer intent, fast-growing search
+- `best gel nail strips 2025` — strong transactional CPC
+- `press-on nails that last 2 weeks` — CPC signal, conversion phrase
+- `at home gel manicure no lamp` — buying intent, strong CPC
+- `instant nails at home` — category buy intent
+
+**Keyword variations** (use naturally, no density target, no `<strong>` tags):
+- MelodySusie gel nail strips
+- MelodySusie instant nails
+- MelodySusie nail strips review
+- MelodySusie Qcoat strips
+- MelodySusie press-ons
+
+**Transactional cluster keywords:**
+- gel nail strips UV free
+- fully cured gel nail strips
+- press-on nails reusable
+- nail wraps for beginners
+- peel and stick gel nails
+- gel nail strips vs press on nails
+- best press-on nails for natural nails
+
+**LSI semantic terms** (weave naturally):
+- at-home manicure
+- salon-quality nails
+- nail strip application
+- pre-cured gel
+- jelly glue adhesive
+- nail prep
+- chip-resistant nails
+- indentation recovery
+- DIY nail art
+- natural nail finish
+- peel stick file
+- nail wrap
+
+**AEO terms — each mapped below:**
+
+| AEO term | Mapped to |
+|---|---|
+| "Do MelodySusie gel nail strips need a UV lamp?" | FAQ #1 |
+| "How long do MelodySusie press-on nails last?" | FAQ #2 |
+| "What is the difference between gel nail strips and press-on nails?" | H2: Gel Strips vs Press-Ons: Which Should You Buy? |
+| "Are MelodySusie gel nail strips good for beginners?" | H2: How to Apply MelodySusie Gel Strips — It's 3 Steps |
+| "What is Qcoat technology in nail strips?" | FAQ #6 |
+| "Can you use gel nail strips on short nails?" | FAQ #7 |
+| "How do you remove MelodySusie gel strips?" | FAQ #8 |
+| "What MelodySusie press-on nails last the longest?" | H2: Best MelodySusie Gel Strips by Style (Winner Section) |
+| "Are press-on nails safe for natural nails?" | H2: Gel Strips vs Press-Ons: Which Should You Buy? |
+| "Where can I buy MelodySusie press-on nails in the USA?" | Near ShopFinalCTA — GEO placement |
+
+**GEO terms** (place near CTAs and availability copy):
+- best press-on nails to buy in the USA
+- MelodySusie ships to USA — free shipping over $129.99
+- gel nail strips online USA
+- fast shipping USA gel nail strips
+- where to buy MelodySusie nail strips online
+
+**Buyer phrase bank** (from Amazon reviews, Quora, competitor content — use naturally in copy):
+- "good quality for your money"
+- "strips go on quickly"
+- "struggled with sizing a bit"
+- "cute designs and bright colors"
+- "they don't harden like they claim" → address honestly as con for semi-cured; frame Qcoat fully cured as the fix
+- "lasted me 5-7 days" → use for press-ons expected wear framing
+- "skip the salon visit"
+- "change my nails in minutes"
+- "no mess, no skills required"
+- "salon quality at home"
+- "just peel, stick, and file"
+- "I've bought 4 sets so far"
+- "shipping is fast to me in the US"
+
+---
+
+## SECTION 4 — COMPETITOR AND TITLE INTELLIGENCE
+
+> **Post gen instruction:** Use this section to write a title and excerpt that outperforms competitors on CTR. The analysis is done — execute it.
+
+**Top competitor title patterns for `MelodySusie press-on nails`:**
+- Generic pattern: "Best MelodySusie Press-On Nails [Year]" — weak, no benefit
+- Pattern 2: "MelodySusie Gel Nail Strips Review" — single product focus, low breadth
+- Pattern 3: "Gel Nail Strips vs Press-On Nails" — comparison intent, not brand-specific
+
+**What competitors miss:**
+- None lead with the UV-free / no lamp angle as a purchase benefit
+- None cover the full lineup (gel strips + press-ons) in one post
+- No competitor covers the new Aurora/Classic/Summer collection launches
+- No competitor covers the Qcoat indentation recovery angle — a differentiating spec
+
+**Title direction:** Lead with the full lineup breadth + the UV-free convenience hook. Current title `Best MelodySusie Press-On & Gel Nail Strips: Every Pick Reviewed` is CTR-optimized — more specific than competitors, covers both product types, signals authority.
+
+**Competitor gaps → mandatory H2 sections:**
+- "Do MelodySusie gel strips need a UV lamp?" — buyers consistently ask this, no competitor answers cleanly
+- Gel strips vs press-ons comparison — buyers are deciding between both; no MelodySusie-specific post covers this
+- How to apply gel strips for first-timers — competitors skip practical steps
+
+**Word count target:** 1,400 words (competitor average ~1,200; we beat by ~200)
+
+---
+
+## SECTION 5 — BUYER INTELLIGENCE
+
+> **Post gen instruction:** Every paragraph of copy must be written for this specific buyer. Use the exact phrases listed here naturally in the copy.
+
+**Who this buyer is:**
+- Age 20–40, home nail enthusiast or busy professional
+- Frustrated with salon costs ($50–$80+ per visit) or with regular polish chipping in days
+- Has tried basic press-ons before, maybe had one pop off — wants something that actually lasts
+- Considers herself beauty-aware but not a professional nail tech
+- Buys beauty products on Amazon and DTC brand sites
+- Context: at-home manicure, on-the-go nails, event/occasion prep
+
+**What she needs from this post:**
+- A clear answer to: do I need a lamp for these? (Biggest barrier to purchase)
+- Which format is right for her: gel strips (for longevity + natural look) vs press-ons (for speed + reusability)
+- Confirmation that application is beginner-friendly — she doesn't want to mess it up
+- Honest durability expectations so she doesn't feel deceived
+
+**Top 5 buying objections — must address in post body:**
+1. "Will it look cheap or fake?" → Address: 3D gel construction, flush fit, no bulk
+2. "How long does it actually last?" → Address: 2 weeks for gel strips, 5–7 days for press-ons with proper prep
+3. "Is application hard?" → Address: 3-step peel-stick-file, no special skills
+4. "Do I need a UV lamp?" → Address directly in intro: NO — fully pre-cured, zero lamp needed
+5. "Will it damage my natural nails?" → Address: ABS resin is safe; gel strips are thin and non-damaging
+
+**Recurring praise from real reviews (use as selling points):**
+- "cute designs and bright colors"
+- "easy to apply and quick"
+- "good quality for your money"
+- "shipping is fast" (US buyers)
+- "I've bought 4 sets so far"
+
+**Recurring complaints to address honestly:**
+- Sizing takes a try or two to get right on first use → address by noting 10–15 sizes per kit
+- Semi-cured strips from other brands don't harden properly → position Qcoat FULLY cured as the fix
+- Press-ons pop off faster than expected → address with proper prep steps (clean, dry nails)
+
+---
+
+## SECTION 6 — DISCOUNT AND CONVERSION DATA
+
+> **Post gen instruction:** Include active discount information naturally in the post — real conversion boosters. Place near product CTAs.
+
+| Product | Sale Price | Compare-At | Savings |
+|---|---|---|---|
+| Aurora Collection Real Gel Nail Strips | $13.99 | $25.99 | $12 off |
+| Classic Collection Real Gel Nail Strips | $13.99 | $25.99 | $12 off |
+| Summer Collection Real Gel Nail Strips | $13.99 | $25.99 | $12 off |
+| Qcoat Fully Cured Gel Nail Strips | $8.99 | $11.99 | $3 off |
+| Beauty Acrylic Press-On Nails Kit | $9.99 | — | — |
+
+**Active sitewide codes:**
+- Code `OFF8` — 8% off sitewide (apply at checkout)
+- Code `MSOFF15` — 15% off orders over $129.99
+- Free US shipping on orders over $129.99
+
+**Placement:** Mention `OFF8` naturally near the ShopInlineCTA section and ShopFinalCTA area. Example: "Use code OFF8 at checkout for an extra 8% off sitewide."
+
+---
+
+## SECTION 7 — CONTENT STRUCTURE
+
+> **Post gen instruction:** Use these H2 headings in this exact order. Do not rename, reorder, or remove. Add H3s at your discretion. Each H2 has a directive — follow it.
+
+### Intro (150 words — before first H2)
+- **Directive:** Open with the buyer's core problem — salon costs, time, chips. Name the solution immediately: **MelodySusie press-on nails** and gel strips that need zero UV lamp. State the post purpose. Primary keyword appears **twice** in `<strong>` tags in this section. Mention the price range ($8.99–$13.99). No editorial literary hooks.
+- **No product injection here.**
+
+---
+
+### H2: Our Top Pick: Aurora Collection Real Gel Nail Strips (150 words)
+- **Directive:** This section sits below the WinnerBadge (auto-rendered). Introduce the Aurora Collection as the best overall pick. Lead with the UV-free benefit. Cover the design range (cat eye, glitter, shimmer, jelly, mani+pedi combos). Mention the $13.99 sale price (down from $25.99). Address objection #1 (looks natural, not cheap). Use buyer phrase: "cute designs and bright colors."
+- **Injection:** `{{PRODUCTS:1:0}}` — featured layout, Aurora Collection as winner
+
+---
+
+### H2: Every MelodySusie Instant Nail Option, Ranked (250 words)
+- **Directive:** Walk through all 5 products. Brief editorial paragraph per product. Differentiate: Aurora (trend designs), Classic (everyday), Summer (seasonal), Qcoat (best value at $8.99), Press-Ons (fastest, reusable). Address the fully cured vs semi-cured confusion — be clear that Qcoat is FULLY cured, not semi-cured, meaning no lamp needed. Use buyer phrases naturally.
+- **Injection:** `{{PRODUCTS:2:1,2}}` after describing Aurora/Classic, then `{{PRODUCTS:2:3,4}}` after describing Qcoat/Press-Ons.
+- **Internal link placement:** After second product injection, place link to post 34: "For a detailed breakdown of the Qcoat strip technology, see our [in-depth Qcoat strip review]."
+
+---
+
+### H2: Gel Strips vs Press-Ons: Which Should You Buy? (200 words)
+- **Directive:** Answer the buyer's core comparison question directly. Structure: if you want 2 weeks wear and a natural flush finish → gel strips. If you want instant length, reusable sets, or event-only wear → press-ons. Address AEO term: "Are press-on nails safe for natural nails?" — ABS resin is gentle, no harsh chemicals. Mention that gel strips last longer per cost (up to 2 weeks vs 5–7 days for press-ons). Use buyer phrase: "peel, stick, file."
+- **No product injection** — this is a decision-guide section.
+- **GEO term:** "Both ship free to the USA on orders over $129.99 — or use code `OFF8` for 8% off any order."
+
+---
+
+### H2: How to Apply MelodySusie Gel Strips — It's 3 Steps (150 words)
+- **Directive:** Answer AEO term: "Are MelodySusie gel nail strips good for beginners?" Describe the 3 application steps: (1) prep nails with alcohol wipe and dry, (2) choose the right size strip and peel, (3) press firmly from cuticle to tip and file off excess at 90 degrees. Address sizing complaint honestly — try 2–3 sizes if unsure, kits include 10–15 size options. Address objection #3 (is it hard?) and #4 (no lamp needed). Use buyer phrase: "no mess, no skills required."
+- **No injection** — this is a how-to section.
+- **Internal link:** Place link to post 3 here naturally — "If you prefer painting your own nails, check out [MelodySusie gel polish] for the brand's full color range."
+
+---
+
+### H2: What Real Buyers Say (100 words)
+- **Directive:** Pull from real review language captured in research. Use editorial framing: "Buyers on MelodySusie's site note..." Use phrases: "I've bought 4 sets so far," "shipping is fast to me in the US," "easy to apply and quick," "good quality for your money." Address the one honest negative: sizing takes a practice run. This section builds E-E-A-T trust.
+- **No product injection.**
+
+---
+
+### H2: Is MelodySusie the Right Brand for Instant Nails? (100 words)
+- **Directive:** Editorially answer whether MelodySusie is worth buying for this category. Lead with: the brand has been in nail tools since 2009. Their Qcoat fully cured technology is a genuine differentiator (no lamp needed, indentation recovery). The new Aurora/Classic/Summer collections expand the design range significantly. Price is strong — $8.99–$13.99 per set. Mention the Mid-Year Sale (up to 50% off). End with a purchase push.
+- **Injection:** `{{PRODUCTS:4:0,1,2,3}}` — 2×2 grid of top 4 picks as final product display before ShopFinalCTA.
+- **GEO + discount:** "Ships fast to the USA — use code `OFF8` for 8% off your order."
+
+---
+
+## SECTION 8 — COMPONENT DIRECTIVES
+
+> **Post gen instruction:** These components fire automatically from frontmatter. Confirm trigger fields in Section 2 are correctly set. Never write component content in body — it auto-renders.
+
+| Component | Status | Trigger |
+|---|---|---|
+| WinnerBadge | **ACTIVE** | `winnerIndex: 0` set in frontmatter |
+| ShopInlineCTA | **ACTIVE** | `winnerIndex: 0` set in frontmatter |
+| ComparisonTable | **ACTIVE** | `showComparison: true` + `comparisonTable` data present |
+| ProsConsBlock | **INACTIVE** | `showProscons: false` — best-of post type |
+| ShopFinalCTA | **ALWAYS ACTIVE** | `products[]` array exists |
+| ShopFAQ | **ACTIVE** | `faqs[]` array has 8 entries |
+| ShopTableOfContents | **ALWAYS ACTIVE** | reads H2/H3 from body |
+| Sidebar winner card | **ACTIVE** | `winnerIndex: 0` set |
+
+---
+
+## SECTION 9 — WRITING INSTRUCTIONS
+
+> **Post gen instruction:** Follow these writing rules for every paragraph of body copy.
+
+1. This is conversion copy — every sentence moves the buyer toward a purchase decision.
+2. Lead with buyer benefit, not product specs. The spec supports the benefit.
+3. Use buyer phrases from Section 5 naturally throughout — don't cluster them.
+4. Address the UV lamp objection in the intro AND in the application H2 — it's the #1 barrier.
+5. Honest cons build trust — mention sizing takes practice, press-ons last less long than gel strips. Then counter with why the product is still the right buy.
+6. Discount information (`OFF8`, sale prices) placed near CTAs — natural mention, not standalone paragraph.
+7. **Every primary keyword mention in `<strong>` tags — no exceptions.**
+8. Open sections with the buyer benefit or buying question directly — no literary intros.
+9. H2 sections are direct and short — buyers scan.
+10. Conclusion = purchase driver, not a summary.
+11. Internal links placed mid-post only (Sections 7 specifies placement) — anchor text natural.
+12. No related articles section in H2 structure.
+13. **American English throughout.** Not British English.
+14. **Banned patterns:** "elevate," "seamlessly," "game-changing," "dive into," "transformative," long em dashes.
+15. No "we tested" language — if no reviews exist, write informed editorial observations from specs only. Example: "The Aurora Collection is built for buyers who want variety without complexity — its 30+ colorways and pre-cured top coat make it the strongest single purchase in the lineup."
+16. Vary sentence rhythm — short punchy sentences for selling points, longer for context.
+17. Word count target: **1,400 words** — do not exceed 1,600.
