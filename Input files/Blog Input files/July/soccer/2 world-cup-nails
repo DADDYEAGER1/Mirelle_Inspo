@@ -1,0 +1,248 @@
+```json
+{
+  "section_1_file_authority": "THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All POST_CONSTANTS are hardcoded. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.",
+
+  "section_2_post_constants": {
+    "slug": "world-cup-nails",
+    "topic_slug": "soccer",
+    "canonical": "https://mirelleinspo.com/blog/soccer/world-cup-nails",
+    "post_type": "spoke",
+    "intent": "seasonal_trend",
+    "word_count": 2900,
+    "image_count": 9,
+    "template": "split-left",
+    "hero_dimensions": "800x800",
+    "category": "Seasonal Trends",
+    "publish_date": "2026-06-18",
+    "author": "Mirellé Team",
+    "note": "word_count exceeds the 2800 spoke cap by explicit user override. image_count locked at 9 (Rule 5 default) per user confirmation — H1 below deliberately drops the cluster file's '30 Ideas' framing since only 9 images back it."
+  },
+
+  "section_3_cluster_snapshot": {
+    "pillar_slug": "soccer-nails",
+    "pillar_title": "Soccer Nails: 20 Cute Ideas for Every Fan",
+    "pillar_primary_keyword": "soccer nails",
+    "this_post_slug": "world-cup-nails",
+    "this_post_role": "spoke",
+    "keywords_to_avoid": ["soccer nails", "flag nail art", "soccer club nails", "soccer player nails", "soccer mom nails"]
+  },
+
+  "section_4_serp_analysis": {
+    "competitor_gaps": "No coverage at all from Byrdie, Allure or Nailpro for this keyword — confirmed via direct site: search, zero results from all three. Existing content is either thin commercial copy (Etsy, Glamnetic, Joyee Nails) or a single deep listicle (thrivinginparenting.com, ~2,000-2,200 actual words) organized strictly by country. Nobody frames 'team colors without a literal flag' as a deliberate style choice. Nobody addresses the press-on vs hand-paint decision directly. Nobody segments content by fan type (player loyalist, club loyalist, parent, general fan) — everyone defaults to country-by-country.",
+    "missing_semantic_territory": "2026 trend language (chrome, jelly finish, squoval practicality for a month-long tournament) is absent from every soccer-specific competitor; it only exists in general nail-trend content disconnected from World Cup. No FAQ content directly answers shape, longevity, or press-on-quality questions.",
+    "our_strategic_approach": "Organize by style and fan type instead of by country, since country-deep-dives belong to flag-country-nails. Pull in 2026 trend vocabulary so the post reads current rather than recycled from 2018/2022 cycles. Use the fan-type section to route readers to the right spoke instead of covering everyone shallowly.",
+    "recommended_image_count_validation": "9 is modest against the one giant competitor listicle (50+ images) but appropriate for an organized, differentiated editorial approach rather than a volume-matching one. No conflict with SERP visual patterns."
+  },
+
+  "section_5_audience_intelligence": {
+    "who_they_are": "Social-media-active fans and casual followers swept up in the tournament moment, skewing female per Pinterest/TikTok signal, Tier-1 English-speaking markets. Treat nails as part of game-day ritual alongside jerseys and watch parties.",
+    "what_they_want_from_this_post": "Fast, low-commitment styling they can execute today or buy same-day, organized by effort level and fan type rather than one single country.",
+    "what_frustrates_them": "Existing content forces a binary: full hand-painted flag art or a generic press-on product page. Nothing organizes by fan type. Most coverage reads recycled from earlier World Cups, not 2026-current.",
+    "top_5_pain_points": [
+      "Want to show team colors without committing to a full flag manicure on every nail",
+      "Time-pressed before kickoff, need options achievable same-day",
+      "Unsure if press-ons read as 'cheap' next to hand-painted art",
+      "Want something that still looks good after the match ends, not just during",
+      "Generic content ignores their specific fan type (parent, club loyalist, player-fan)"
+    ],
+    "exact_user_phrases": [
+      "World Cup begins today — get my nails done",
+      "no one wants a flag on each finger",
+      "easy football inspired mani",
+      "match-ready nails",
+      "stadium energy",
+      "nails as loud as the stadium crowd",
+      "cheer in style",
+      "game-day mani",
+      "search Modelones for your match day mani",
+      "first game of the World Cup!! comment your team"
+    ],
+    "intent_content_signals": [
+      "Short scannable sections outperform one giant listicle for this density of demand",
+      "Explicit press-on callouts convert — strong commercial intent present alongside inspiration intent",
+      "FAQ-format sections perform well (seen on GlossyMuse, MelodySusie)",
+      "Current-year framing ('2026') outperforms generic evergreen phrasing",
+      "Audience actively posting same-day ('World Cup begins today') — urgency framing in intro will land"
+    ]
+  },
+
+  "section_6_semantic_keyword_data": {
+    "primary_keyword": "world cup nails",
+    "keyword_variations": ["world cup nail ideas", "world cup nail designs", "world cup 2026 nails", "FIFA world cup nails", "world cup nail art", "world cup manicure"],
+    "cluster_keywords": ["game day nails", "match day manicure", "tournament nails", "football fan nails", "stadium nails", "watch party nails", "team spirit nails", "World Cup viewing party nails", "football nail art", "national team colors", "FIFA nails", "cheer nails"],
+    "lsi_terms": ["chrome finish nails", "metallic accent nails", "team color palette", "French tip variation", "stadium-ready manicure", "jersey number nail art", "press-on nail set", "glitter star accent", "color-block manicure", "squoval nail shape", "short almond nails", "2026 nail color trends", "watch party manicure", "game day beauty look", "tournament-themed nail art", "national colors manicure", "sporty accent nail", "classic French tip update"],
+    "aeo_terms": [
+      "What nail colors should I wear for the World Cup?",
+      "How do I do easy World Cup nail art at home?",
+      "Are press-on nails good for World Cup game day?",
+      "What is the most popular nail trend for World Cup 2026?",
+      "Can World Cup nails be worn after the tournament ends?",
+      "What nail shape works best for World Cup nail art?",
+      "Do I need a nail artist for World Cup nails?",
+      "What colors represent my team without a full flag design?",
+      "How long do press-on World Cup nails last?",
+      "What is a squoval nail shape?"
+    ],
+    "technical_terms": ["gel polish", "press-on nail set", "striping tape", "dotting tool", "chrome powder", "no-wipe top coat", "squoval shape", "accent nail"],
+    "user_language": ["game-day mani", "match-ready nails", "stadium energy", "cheer in style", "easy football inspired mani", "no flag on every finger", "mix and match after the match"]
+  },
+
+  "section_7_voice_and_ai_queries": {
+    "queries": [
+      "What nail colors should I wear for the World Cup?",
+      "How do I do easy World Cup nail art at home?",
+      "Are press-on nails good for World Cup game day?",
+      "What is the most popular nail trend for World Cup 2026?",
+      "Can World Cup nails be worn after the tournament ends?",
+      "What nail shape works best for World Cup nail art?",
+      "Do I need a nail artist for World Cup nails?",
+      "What colors represent my team without a full flag design?",
+      "How long do press-on World Cup nails last?",
+      "What is a squoval nail shape and why is it practical for summer?",
+      "Is chrome nail polish on trend for summer 2026?",
+      "What's the difference between World Cup nails and soccer nails?",
+      "How do I pick nail colors if my team isn't playing?",
+      "Can kids wear press-on World Cup nails safely?"
+    ]
+  },
+
+  "section_8_content_structure": {
+    "h1": "World Cup Nails 2026: Ideas for Every Kind of Fan",
+    "h2_structure": [
+      "Simple World Cup Nail Ideas for Game Day",
+      "Bold and Glam World Cup Nail Looks",
+      "Team Colors Without Going Full Flag",
+      "Chrome, Jelly and the 2026 Trends Meeting World Cup Season",
+      "Press-On and Sticker Options for Game Day",
+      "Nail Ideas for Every Kind of Fan",
+      "World Cup Nails FAQ"
+    ],
+    "word_budget": {
+      "introduction": "225 words",
+      "conclusion": "175 words",
+      "per_h2": "see block_2 in section_12 for exact per-H2 numbers"
+    }
+  },
+
+  "section_9_internal_links": {
+    "all_internal_links": [
+      { "url_or_slug": "/blog/soccer/soccer-nails", "title": "Soccer Nails: 20 Cute Ideas for Every Fan", "anchor_text": "soccer nails", "placement_note": "Introduction — framing this post as the tournament-specific spin-off of the broader pillar", "link_type": "cluster-pillar" },
+      { "url_or_slug": "/blog/soccer/flag-country-nails", "title": "Flag Nail Art: 20 Country Designs for World Cup Season", "anchor_text": "flag nail art", "placement_note": "Team Colors Without Going Full Flag — for readers who want the full flag treatment instead", "link_type": "cluster-spoke" },
+      { "url_or_slug": "/blog/soccer/soccer-player-nails", "title": "Soccer Player Nails: 15 Ronaldo & Messi Inspired Designs", "anchor_text": "soccer player nails", "placement_note": "Nail Ideas for Every Kind of Fan — routing player-loyalist readers", "link_type": "cluster-spoke" },
+      { "url_or_slug": "/blog/soccer/soccer-mom-nails", "title": "Soccer Mom Nails: 10 Easy Everyday Designs", "anchor_text": "soccer mom nails", "placement_note": "Nail Ideas for Every Kind of Fan — routing parent/sideline readers", "link_type": "cluster-spoke" },
+      { "url_or_slug": "https://mirelleinspo.com/blog/summer-nail-trends-2026", "title": "Summer Nail Trends 2026: Every Look You Need", "anchor_text": "summer nail trends 2026", "placement_note": "Chrome, Jelly and the 2026 Trends section — broader seasonal context beyond soccer", "link_type": "cross-site" },
+      { "url_or_slug": "https://mirelleinspo.com/blog/chrome-nails/chrome-nail-trends-2026", "title": "Chrome Nail Trends 2026: Every Finish Dominating", "anchor_text": "chrome nail trends 2026", "placement_note": "Chrome, Jelly and the 2026 Trends section — supporting the chrome-finish design idea", "link_type": "cross-site" }
+    ]
+  },
+
+  "section_10_voice_tone": {
+    "recommended_voice": "Confident trend-spotter",
+    "tone_characteristics": ["Declarative, not hedgy — states the trend rather than suggesting it might exist", "Second-person direct address", "Specific visual detail over vague adjectives", "Light urgency (tournament is live now), never frantic", "Opinionated organization (style/fan-type) instead of neutral country listing"],
+    "language_style": "Short-to-medium sentences, direct address ('you'), minimal hedging language, no recycled 2018-era World Cup nail clichés",
+    "audience_match": "Matches a social-media-fluent, time-pressed reader who wants a point of view, not a neutral product roundup — distinguishes from the commercial/thin competitor set."
+  },
+
+  "section_11_external_links": {
+    "links": [],
+    "note": "Zero qualifying results from all three mandated sources (site:nailpro.com, site:allure.com, site:byrdie.com) for this keyword, including a broadened 'soccer nails' check on allure.com/byrdie.com. Confirms the editorial-whitespace gap noted in section_4. Do not fabricate external links."
+  },
+
+  "section_12_execution_plan": {
+    "block_1_keyword_execution": {
+      "primary_keyword": "world cup nails",
+      "total_mention_target": "2900 x 0.02 = 58 mentions total",
+      "first_100_words_plan": {
+        "mention_1": "sentence 1 of introduction — confident opening claim naming the keyword directly",
+        "mention_2": "sentence 3-4 of introduction — reinforcing mention tied to the live-tournament urgency hook"
+      },
+      "first_half_target": "35 mentions — first 1450 words",
+      "second_half_target": "23 mentions — second 1450 words",
+      "strong_tag_rule": "Every one of the 58 mentions wrapped in <strong> tags, no exceptions.",
+      "keywords_to_avoid_active": ["soccer nails", "flag nail art", "soccer club nails", "soccer player nails", "soccer mom nails"]
+    },
+    "block_2_word_budget": {
+      "total_target": "2900 words, +/-50 tolerance, never exceed",
+      "introduction": "225 words",
+      "conclusion": "175 words",
+      "h2_budgets": [
+        { "heading": "Simple World Cup Nail Ideas for Game Day", "budget": "380 words", "complexity": "medium" },
+        { "heading": "Bold and Glam World Cup Nail Looks", "budget": "340 words", "complexity": "medium" },
+        { "heading": "Team Colors Without Going Full Flag", "budget": "340 words", "complexity": "high" },
+        { "heading": "Chrome, Jelly and the 2026 Trends Meeting World Cup Season", "budget": "420 words", "complexity": "high" },
+        { "heading": "Press-On and Sticker Options for Game Day", "budget": "300 words", "complexity": "low" },
+        { "heading": "Nail Ideas for Every Kind of Fan", "budget": "380 words", "complexity": "medium" },
+        { "heading": "World Cup Nails FAQ", "budget": "340 words", "complexity": "medium" }
+      ],
+      "tracking_rule": "Track running total after every H2. Cut before moving on if over budget — never compensate later."
+    },
+    "block_3_image_plan": {
+      "total_images": 9,
+      "hero_image": "frontmatter only — never in body",
+      "body_images": 8,
+      "assignments": [
+        { "image_number": 1, "place_after": "Simple World Cup Nail Ideas for Game Day (1st example)", "section_context": "minimalist French tip with small soccer-ball accent nail" },
+        { "image_number": 2, "place_after": "Simple World Cup Nail Ideas for Game Day (2nd example)", "section_context": "clean color-block manicure in two team colors" },
+        { "image_number": 3, "place_after": "Bold and Glam World Cup Nail Looks", "section_context": "maximalist chrome and glitter-star statement set" },
+        { "image_number": 4, "place_after": "Team Colors Without Going Full Flag", "section_context": "national color-story manicure with no literal flag motif" },
+        { "image_number": 5, "place_after": "Chrome, Jelly and the 2026 Trends Meeting World Cup Season", "section_context": "chrome or jelly finish nails in a team color" },
+        { "image_number": 6, "place_after": "Press-On and Sticker Options for Game Day", "section_context": "press-on set styled for game day" },
+        { "image_number": 7, "place_after": "Nail Ideas for Every Kind of Fan", "section_context": "collage-style multi-look fan set" },
+        { "image_number": 8, "place_after": "World Cup Nails FAQ", "section_context": "closing wide shot, hands at a watch party" }
+      ],
+      "image_type_rule": "All body images are inspirational nail design photography. No infographics, no process diagrams, no comparison charts.",
+      "path_rule": "/images/blog/soccer/world-cup-nails/filename.webp"
+    },
+    "block_4_opening_technique_assignments": {
+      "rule": "No two consecutive sections share a technique. Conclusion = Technique 1 (Claim) or Technique 3 (Reframe) only. Exact technique numbers beyond 1 and 3 aren't visible to this agent — descriptive labels below should be matched against the Blog Gen Agent's own numbered list.",
+      "assignments": [
+        { "section": "Introduction", "technique": "Technique 1 — The Claim" },
+        { "section": "Simple World Cup Nail Ideas for Game Day", "technique": "The Direct Address" },
+        { "section": "Bold and Glam World Cup Nail Looks", "technique": "The Contrast" },
+        { "section": "Team Colors Without Going Full Flag", "technique": "Technique 3 — The Reframe" },
+        { "section": "Chrome, Jelly and the 2026 Trends Meeting World Cup Season", "technique": "Technique 1 — The Claim" },
+        { "section": "Press-On and Sticker Options for Game Day", "technique": "The Scene" },
+        { "section": "Nail Ideas for Every Kind of Fan", "technique": "The Question" },
+        { "section": "World Cup Nails FAQ", "technique": "The Direct Address" },
+        { "section": "Conclusion", "technique": "Technique 3 — The Reframe" }
+      ]
+    },
+    "block_5_link_placements": {
+      "links": [
+        { "anchor_text": "soccer nails", "full_url": "/blog/soccer/soccer-nails", "place_in_section": "Introduction", "placement_context": "framing this post against the broader pillar", "link_type": "cluster-pillar" },
+        { "anchor_text": "flag nail art", "full_url": "/blog/soccer/flag-country-nails", "place_in_section": "Team Colors Without Going Full Flag", "placement_context": "routing readers who want full flag designs instead", "link_type": "cluster-spoke" },
+        { "anchor_text": "soccer player nails", "full_url": "/blog/soccer/soccer-player-nails", "place_in_section": "Nail Ideas for Every Kind of Fan", "placement_context": "routing player-loyalist readers", "link_type": "cluster-spoke" },
+        { "anchor_text": "soccer mom nails", "full_url": "/blog/soccer/soccer-mom-nails", "place_in_section": "Nail Ideas for Every Kind of Fan", "placement_context": "routing parent/sideline readers", "link_type": "cluster-spoke" },
+        { "anchor_text": "summer nail trends 2026", "full_url": "https://mirelleinspo.com/blog/summer-nail-trends-2026", "place_in_section": "Chrome, Jelly and the 2026 Trends Meeting World Cup Season", "placement_context": "broader seasonal trend context", "link_type": "cross-site" },
+        { "anchor_text": "chrome nail trends 2026", "full_url": "https://mirelleinspo.com/blog/chrome-nails/chrome-nail-trends-2026", "place_in_section": "Chrome, Jelly and the 2026 Trends Meeting World Cup Season", "placement_context": "supporting the chrome-finish design idea", "link_type": "cross-site" }
+      ]
+    },
+    "block_6_aeo_geo_plan": {
+      "aeo_assignments": [
+        { "aeo_term": "How do I do easy World Cup nail art at home?", "assigned_to_section": "Simple World Cup Nail Ideas for Game Day", "execution": "Direct 2-3 sentence answer immediately after the H2, before elaboration." },
+        { "aeo_term": "What colors represent my team without a full flag design?", "assigned_to_section": "Team Colors Without Going Full Flag", "execution": "Direct 2-3 sentence answer immediately after the H2." },
+        { "aeo_term": "What is the most popular nail trend for World Cup 2026?", "assigned_to_section": "Chrome, Jelly and the 2026 Trends Meeting World Cup Season", "execution": "Direct 2-3 sentence answer immediately after the H2." },
+        { "aeo_term": "Are press-on nails good for World Cup game day?", "assigned_to_section": "Press-On and Sticker Options for Game Day", "execution": "Direct 2-3 sentence answer immediately after the H2." },
+        { "aeo_term": "Can World Cup nails be worn after the tournament ends?", "assigned_to_section": "World Cup Nails FAQ", "execution": "Standalone Q&A pair." },
+        { "aeo_term": "What nail shape works best for World Cup nail art?", "assigned_to_section": "World Cup Nails FAQ", "execution": "Standalone Q&A pair." },
+        { "aeo_term": "Do I need a nail artist for World Cup nails?", "assigned_to_section": "World Cup Nails FAQ", "execution": "Standalone Q&A pair." },
+        { "aeo_term": "How long do press-on World Cup nails last?", "assigned_to_section": "World Cup Nails FAQ", "execution": "Standalone Q&A pair." }
+      ],
+      "geo_entity_statements": [
+        { "entity": "Press-on nail set", "assigned_to_section": "Press-On and Sticker Options for Game Day", "execution": "Confident declarative definition sentence, no hedging." },
+        { "entity": "Squoval nail shape", "assigned_to_section": "World Cup Nails FAQ", "execution": "Confident declarative definition sentence, no hedging." },
+        { "entity": "Chrome powder finish", "assigned_to_section": "Chrome, Jelly and the 2026 Trends Meeting World Cup Season", "execution": "Confident declarative definition sentence, no hedging." }
+      ]
+    },
+    "block_7_active_constraints": {
+      "em_dash_banned": "Long em dash never appears. Replace with comma, new sentence, parentheses, 'but', or restructure.",
+      "banned_vocab_watch": "Inferred from competitor research, not Mirellé's actual list — flag and replace if matched: 'perfect for', 'the perfect way to', 'elevate', 'absolutely' (as filler agreement), 'embraces the excitement', 'stand out', 'takes center stage'.",
+      "british_english_active": "colour, recognise, -ise, -our — every instance, no exceptions.",
+      "keyword_density_reminder": "After every 2 H2s, count mentions. First half must run denser than second half.",
+      "image_path_reminder": "/images/blog/soccer/world-cup-nails/filename.webp — topic_slug in path always.",
+      "internal_link_url_reminder": "Full paths only. Cluster links = /blog/soccer/[slug]. Cross-site = exact discovered URL. Never bare /slug.",
+      "hero_image_reminder": "Hero = frontmatter only. Never in body.",
+      "strong_tag_reminder": "Every primary keyword mention wrapped in <strong>. Scan after every paragraph."
+    }
+  }
+}
+```
