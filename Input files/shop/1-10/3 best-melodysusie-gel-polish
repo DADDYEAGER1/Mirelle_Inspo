@@ -1,0 +1,288 @@
+**THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT.** All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions in this file must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy.
+
+---
+
+## 1. Cluster Summary
+
+- Cluster: EC-03 Gel Polish (evergreen)
+- This post: "Best MelodySusie Gel Polish: Every Formula Compared" — slug `best-melodysusie-gel-polish` — post type: best-of — primary keyword: "best MelodySusie gel polish" — post_id 3
+- Role: Cluster pillar
+- Internal links this post must include (mid-post only, after first product CTA):
+  - `/shop/gel-polish/melodysusie-hema-free-gel-polish` (EC-03-S1)
+  - `/shop/gel-polish/melodysusie-plant-based-gel-polish-fleurwee` (EC-03-S2)
+  - `/shop/gel-polish/melodysusie-cat-eye-gel-polish` (EC-03-S3)
+  - `/shop/gel-polish/melodysusie-glitter-gel-polish` (EC-03-S4)
+- Posts that will link to this pillar: all EC-03 spoke posts (18–23)
+- Affiliate mode: MelodySusie affiliate links, aff=3711. Region: USA.
+
+---
+
+## 2. Frontmatter Block
+
+```yaml
+title: "Best MelodySusie Gel Polish 2026: 4 Formulas Compared"
+excerpt: "We compared MelodySusie's thick gel, plant-based, cat eye, and glitter formulas on pigmentation, cure time, and skin sensitivity."
+date: "2026-06-18"
+author: "Mirellé"
+category: "Gel Polish"
+image: "https://www.melodysusie.com/cdn/shop/products/9_8d1ce4d9-b2ca-46a2-b2d7-68d55814b65d.jpg?v=1695713568&width=1000"
+imageAlt: "Best MelodySusie gel polish formulas lined up including thick gel, plant-based, cat eye, and glitter bottles"
+imageWidth: 1200
+imageHeight: 630
+readTime: "8 min read"
+canonical: ""
+postType: "best-of"
+winnerIndex: 1
+showComparison: true
+showProscons: false
+comparisonCaption: "How MelodySusie's top gel polish formulas compare"
+products:
+  - name: "Melodysusie 15ml TPO-Free Thick Gel Nail Polish"
+    brand: "MelodySusie"
+    price: "$7.99"
+    compareAtPrice: "$9.99"
+    image: "https://www.melodysusie.com/cdn/shop/products/9_8d1ce4d9-b2ca-46a2-b2d7-68d55814b65d.jpg?v=1695713568&width=1000"
+    link: "https://www.melodysusie.com/products/melodysusie-15ml-gel-nail-polish?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Value"
+    rating: "4.8"
+    reviewCount: "210"
+    details:
+      - "High-pigment formula, full opacity in 1-2 thin coats"
+      - "21-day wear, cures 90-120 secs under UV/LED"
+      - "Needs separate base coat and top coat"
+    pros:
+      - "Highly pigmented, even tricky shades like white go on smooth and opaque"
+      - "Thicker consistency gives more control, less flooding at the cuticle"
+      - "Low odor, toxin-conscious ingredient list"
+      - "Budget-friendly price per bottle for the coverage you get"
+    cons:
+      - "Not HEMA-free"
+      - "Base coat and top coat sold separately, adds to total cost"
+  - name: "Fleurwee Plant-Based Gel Nail Polish Gift Box (Urban Chic)"
+    brand: "MelodySusie"
+    price: "$49.99"
+    compareAtPrice: "$59.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_20364f49-551d-451c-a7a7-56752ee672fa.jpg?v=1717036037&width=1000"
+    link: "https://www.melodysusie.com/products/15ml-fleurwee-plant-based-gel-nail-polish-gift-box?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    rating: "5.0"
+    reviewCount: "307"
+    details:
+      - "HEMA-free, HPMA-free, and TPO-free plant-based formula"
+      - "21-day wear with high gloss, no chip"
+      - "Gift box includes nail brush set, vase, dried flowers, and sticker"
+    pros:
+      - "Gentlest formula on this list, suitable for sensitive skin"
+      - "Self-leveling application, smooth even with a slightly thinner brush hand"
+      - "Eco-conscious ingredient story resonates with buyers avoiding harsh chemicals"
+      - "Doubles as a gift thanks to the presentation box and extras"
+    cons:
+      - "Higher price per bottle than the standard thick gel line"
+      - "4 colors per box limits how many shades you get at once"
+  - name: "Jeweliver Cat Eye Gel Polish 6 Colors Set (Pink and Red)"
+    brand: "MelodySusie"
+    price: "$45.99"
+    compareAtPrice: "$59.94"
+    image: "https://www.melodysusie.com/cdn/shop/files/74b96dbb2d19db9758ba306fc55ad040_86072735-6c9f-44da-a73a-03e2bfc2588c.jpg?v=1741659519&width=1000"
+    link: "https://www.melodysusie.com/products/jeweliver-cat-eye-gel-polish-6-colors-set-0-5-fl-oz-15ml-pink-and-red?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Nail Art"
+    rating: "5.0"
+    reviewCount: "62"
+    details:
+      - "Magnetic cat eye effect, includes magnet stick"
+      - "28-day wear, cures 60-90 secs under UV lamp"
+      - "6-color set spans pink and red tones"
+    pros:
+      - "Magnet reacts instantly for a clean shimmer line every time"
+      - "28-day wear claim holds up well with a proper top coat seal"
+      - "Self-leveling brush avoids streaking on the metallic base"
+      - "Set format means you're not committing to one shade"
+    cons:
+      - "Not TPO-free or HEMA-free"
+      - "Requires the magnet tool and a steady hand for best results"
+  - name: "Galaliver Glitter Gel Nail Polish Set (12 Colors)"
+    brand: "MelodySusie"
+    price: "$89.99"
+    compareAtPrice: "$130.87"
+    image: "https://www.melodysusie.com/cdn/shop/files/12_12f31f19-0cdc-4eb9-a379-933da01e890f.jpg?v=1743400237&width=1000"
+    link: "https://www.melodysusie.com/products/galaliver-glitter-gel-nail-polish-set-12-colors?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Special Occasions"
+    rating: "4.9"
+    reviewCount: "32"
+    details:
+      - "12-color glitter set, 21+ day wear"
+      - "Cures 1-2 minutes under UV or LED"
+      - "Best value per bottle when bought as the full 12-color set"
+    pros:
+      - "Wide color range means one set covers most party and holiday looks"
+      - "Low-odor, non-toxic formula despite the glitter load"
+      - "Strong shine payoff after top coat, no dulling"
+      - "Buying the full set is meaningfully cheaper per bottle than singles"
+    cons:
+      - "Not TPO-free or HEMA-free"
+      - "Glitter formulas are harder to soak off than solid colors"
+faqs:
+  - question: "Is MelodySusie gel polish HEMA-free?"
+    answer: "MelodySusie's standard thick gel and Galaliver glitter formulas are not HEMA-free, but the Fleurwee plant-based line is HEMA-free, HPMA-free, and TPO-free. If you have a known HEMA sensitivity, the $49.99 Fleurwee gift box is the formula to buy."
+  - question: "Do I need a base coat and top coat with MelodySusie gel polish?"
+    answer: "Yes, for the thick gel, cat eye, and glitter formulas you need a separate base coat and top coat, which MelodySusie sells individually. The Fleurwee gift box ships with extras but still performs best with a proper top coat seal for full 21-day wear."
+  - question: "How long does MelodySusie gel polish actually last?"
+    answer: "MelodySusie's thick gel and Fleurwee plant-based formulas last around 21 days with proper application and a top coat. The Jeweliver Cat Eye and Galaliver Glitter formulas are rated for 28 and 21+ days respectively when fully cured and sealed."
+  - question: "Can I use MelodySusie gel polish with any UV or LED lamp?"
+    answer: "Yes, MelodySusie gel formulas cure under any standard UV or LED nail lamp, not just MelodySusie's own lamps. Cure times run 60-120 seconds depending on the formula, so check the specific product's curing time before you start."
+  - question: "What's the best MelodySusie gel polish for sensitive skin?"
+    answer: "The Fleurwee plant-based gel polish is the best choice for sensitive skin since it's formulated without HEMA, HPMA, or TPO. It's also the formula MelodySusie markets specifically for buyers with known nail product allergies."
+  - question: "How many coats of MelodySusie gel polish do I need?"
+    answer: "Most MelodySusie gel formulas reach full opacity in 1-2 thin coats thanks to high pigmentation, including tricky shades like white. Applying too much in one coat extends your cure time, so thin coats cured fully each time give the best result."
+  - question: "Is MelodySusie a good gel polish brand?"
+    answer: "Yes, MelodySusie is a established gel polish brand with over a decade in the nail industry and consistently high review ratings across its main formulas, including a 5.0 average on its Fleurwee plant-based line. The brand covers a wide range of buyer needs from budget thick gels to sensitive-skin plant-based options."
+```
+
+---
+
+## 3. SEO and Keyword Plan
+
+Follow this keyword plan exactly. Calculate density before writing, do not estimate.
+
+- Primary keyword (locked): "best MelodySusie gel polish"
+- Keyword density target: no genuine third-party competitor exists for this exact keyword (see Section 4), so use a natural density rather than matching a competitor. Target total mention count: 8 mentions across a 1500-word post (~0.53% density).
+- First 150 words: primary keyword appears exactly 2 times, both wrapped in `<strong>` tags.
+- ALL primary keyword mentions throughout the entire post wrapped in `<strong>` tags, no exceptions.
+- Keyword variations (use naturally, no density target, no strong tags): "MelodySusie gel nail polish," "MelodySusie gel polish formulas," "best gel polish from MelodySusie," "MelodySusie gel polish review"
+- Transactional cluster keywords (use throughout, no density target): "MelodySusie HEMA-free gel polish," "MelodySusie plant-based gel polish," "MelodySusie cat eye gel polish," "MelodySusie glitter gel polish," "MelodySusie gel top coat base coat"
+- LSI semantic terms (weave in naturally): pigmentation, cure time, UV/LED lamp, soak-off gel, TPO-free, base coat, top coat, chip-resistant, self-leveling formula, salon-quality manicure, HEMA allergy, plant-based formula, magnetic cat eye effect, glitter gel polish
+- AEO terms, mapped:
+  - "What is the best MelodySusie gel polish for beginners?" → H2: "Which MelodySusie Gel Polish Formula Should You Buy?"
+  - "Is MelodySusie gel polish HEMA-free?" → FAQ entry 1
+  - "Do I need a base coat and top coat with MelodySusie gel polish?" → FAQ entry 2
+  - "How long does MelodySusie gel polish last?" → FAQ entry 3
+  - "What's the difference between MelodySusie's gel polish formulas?" → H2: "Which MelodySusie Gel Polish Formula Should You Buy?"
+  - "Can I use MelodySusie gel polish with any UV lamp?" → FAQ entry 4
+  - "Is MelodySusie gel polish good for sensitive skin?" → H2: "Fleurwee Plant-Based Gel: Best for Sensitive Skin"
+  - "What is cat eye gel polish and how do you use it?" → H2: "Jeweliver Cat Eye Gel: Best for Nail Art"
+  - "How many coats of gel polish do I need?" → FAQ entry 6
+  - "Is MelodySusie a good gel polish brand?" → FAQ entry 7
+- Buyer phrase bank (weave naturally, paraphrase, never quote): pigmentation strong enough for white and pastel shades in one or two coats; thicker consistency gives more control and avoids cuticle flooding; chip-free wear holding past two to three weeks; HEMA-free formula feels gentler on sensitive skin; magnet reacts instantly for a clean cat eye line; full sets work out cheaper per bottle than buying singles.
+
+---
+
+## 4. Competitor and Title Intelligence
+
+- No genuine third-party "best MelodySusie gel polish" roundup currently exists. Direct SERP results are dominated by MelodySusie's own collection/product pages, Amazon listings, and a single low-quality spam aggregator site that should not be used as a benchmark.
+- Title direction: since there's no real competitor title to beat, win on specificity and buyer benefit instead. Existing content (MelodySusie's own blog, NAILS Magazine feature) uses generic "gel polish" naming with no comparison angle. Beat it by naming the decision axes up front (formula type, cure time, skin sensitivity) so the title signals exactly what the post resolves.
+- Competitor gaps these existing pages do NOT address, now mandatory H2/FAQ coverage in this post: a side-by-side formula comparison (HEMA-free vs. not, cure time, wear length); honest cons for each formula (HEMA content, base/top coat sold separately, glitter removal difficulty); a clear decision framework for which formula fits which buyer.
+- Missing product angles: none of the existing content frames formulas by buyer scenario (sensitive skin, nail art, special occasion, beginner/value). This post owns that framing.
+- Word count target: 1500 words. Thin/no real competition means there's no need to overshoot; full E-E-A-T depth on 4 products at this length is sufficient to win the keyword.
+
+---
+
+## 5. Buyer Intelligence
+
+- Who this buyer is: a DIY at-home gel manicure user, ranging from total beginner to intermediate, comparing MelodySusie's gel polish lines because the brand has multiple distinct formulas and the buyer doesn't know which one matches their skin type, budget, or nail art goals.
+- What they need from this post: a clear answer to "which MelodySusie gel polish formula should I actually buy" based on their specific situation (sensitive skin, budget, nail art ambitions, special occasion).
+- What frustrates them: vague "great polish!" copy with no mention of cure time, HEMA content, or whether base/top coat is included; no honest cons; no real differentiation between MelodySusie's many sub-lines.
+- Top 5 buying objections, each addressed in body copy:
+  1. "Will this actually go on opaque in one or two coats?" → addressed via pigmentation pros in thick gel and Fleurwee sections
+  2. "Do I need to buy more stuff (base/top coat) to make this work?" → addressed explicitly in TPO-Free Thick Gel section and FAQ 2
+  3. "Is this going to irritate my skin?" → addressed in Fleurwee section and FAQ 1/5
+  4. "Will it actually last 2-3 weeks like it claims?" → addressed via real review-sourced wear claims per product
+  5. "Is the cat eye/glitter formula too advanced for me?" → addressed in Cat Eye and Glitter sections with application notes
+- Buyer phrase bank: see Section 3.
+- Recurring praise from real reviews: strong pigmentation even on white/pastel shades; thicker consistency seen as a pro for control; long chip-free wear (2-4 weeks); smooth, self-leveling application; HEMA-free formula feels gentler.
+- Recurring complaints, addressed honestly in pros/cons: base coat and top coat not included on standard formulas; thick formulas need careful thin application; glitter formulas harder to remove; cat eye and glitter formulas not HEMA-free.
+
+---
+
+## 6. Discount and Conversion Data
+
+- TPO-Free Thick Gel Nail Polish: $7.99 sale / $9.99 compare-at
+- Fleurwee Plant-Based Gift Box: $49.99 sale / $59.99 compare-at
+- Jeweliver Cat Eye 6 Colors Set: $45.99 sale / $59.94 compare-at
+- Galaliver Glitter 12 Colors Set: $89.99 sale / $130.87 compare-at
+- Active sitewide codes: OFF8 (8% off sitewide, stacks on top of sale prices), MSOFF15 (15% off orders over $129.99, excludes gift boxes — note this exclusion applies to the Fleurwee gift box specifically)
+- Placement: mention OFF8 near the ShopInlineCTA (after first ~30% of content) and again near ShopFinalCTA. Do not promise MSOFF15 stacking on the Fleurwee gift box since it's excluded; only mention MSOFF15 near the Galaliver and Cat Eye CTAs where the order would plausibly clear $129.99 combined.
+
+---
+
+## 7. Content Structure
+
+Use these H2 headings in this exact order. Do not rename, reorder, or remove. Add H3s under any H2 at your discretion.
+
+1. **H2: Which MelodySusie Gel Polish Formula Should You Buy?**
+   Directive: Quick-answer section right after intro. Briefly frame the 4 formulas by buyer scenario (value/beginner, sensitive skin, nail art, special occasion) before going deep. Answers AEO terms 1 and 5.
+   Internal link: none yet (before first product CTA).
+   Injection: `{{PRODUCTS:4:0,1,2,3}}` directly after this section, full grid.
+   Word budget: ~180 words.
+
+2. **H2: TPO-Free Thick Gel: Best Value Pick**
+   Directive: Cover the standard thick gel formula. Lead with pigmentation/coverage benefit, address base/top coat objection honestly, mention the $7.99/$9.99 pricing and OFF8 code near the end of this section (this is where ShopInlineCTA fires).
+   Internal link: `/shop/gel-polish/melodysusie-hema-free-gel-polish` placed naturally here (first link, right after this section's CTA).
+   Injection: none (already covered in the grid above; this section is text-only deep dive).
+   Word budget: ~280 words.
+
+3. **H2: Fleurwee Plant-Based Gel: Best for Sensitive Skin**
+   Directive: Cover the HEMA-free/plant-based formula. Answers AEO term 7. Address the higher price point honestly, justify it with the sensitivity/eco angle and gift box extras.
+   Internal link: `/shop/gel-polish/melodysusie-plant-based-gel-polish-fleurwee`
+   Injection: none.
+   Word budget: ~280 words.
+
+4. **H2: Jeweliver Cat Eye Gel: Best for Nail Art**
+   Directive: Cover the cat eye formula. Answers AEO term 8. Explain the magnet mechanic briefly, note it's not HEMA-free, mention the 28-day wear claim with sourced confidence.
+   Internal link: `/shop/gel-polish/melodysusie-cat-eye-gel-polish`
+   Injection: none.
+   Word budget: ~260 words.
+   This is the midpoint of the post — ComparisonTable component fires after this section.
+
+5. **H2: Galaliver Glitter Gel: Best for Special Occasions**
+   Directive: Cover the glitter formula. Note the per-bottle savings of buying the 12-color set vs. singles, mention MSOFF15 code here since this product alone or combined easily clears $129.99.
+   Internal link: `/shop/gel-polish/melodysusie-glitter-gel-polish`
+   Injection: none.
+   Word budget: ~260 words.
+
+6. **H2: Final Verdict: Which MelodySusie Gel Polish Wins?**
+   Directive: Conclusion as decision driver, not summary. Restate the winner (Fleurwee, winnerIndex 0-based position 1) and why, with a final push to purchase. Mention OFF8 code again near the end.
+   Internal link: none (links are mid-post only).
+   Injection: none (ShopFinalCTA auto-fires after this).
+   Word budget: ~140 words.
+
+Injection plan recap: `{{PRODUCTS:4:0,1,2,3}}` fires once, immediately after H2 #1. No other manual injections; ComparisonTable and other components auto-render per Section 8.
+
+---
+
+## 8. Component Directives
+
+These components fire automatically from frontmatter. Confirm the trigger fields in Section 2 are correctly set. Never write component content in the body, it auto-renders.
+
+- WinnerBadge: ACTIVE (winnerIndex: 1 set in Section 2)
+- ShopInlineCTA: ACTIVE (winnerIndex set)
+- ComparisonTable: ACTIVE (showComparison: true; comparisonTable data must still be added to frontmatter by post gen using the features below — see note)
+- ProsConsBlock: INACTIVE (showProscons: false, this is a best-of post; pros/cons data in products[] still gets used by WinnerBadge/featured layout, not a separate block)
+- ShopFinalCTA: ALWAYS ACTIVE
+- ShopFAQ: ACTIVE (faqs[] has 7 entries)
+- ShopTableOfContents: ALWAYS ACTIVE
+- Sidebar_winner_card: ACTIVE (winnerIndex set)
+
+Note: comparisonTable data was not pre-built in Section 2 frontmatter. Post gen must add a `comparisonTable` object with `features: ["HEMA-Free", "Cure Time", "Wear Length", "Coats Needed", "Best For"]` and one `columns` entry per product (4 columns), `values[]` length matching `features[]` length exactly (5 each). Use: TPO-Free Thick Gel (false, "90-120 sec", "21 days", "1-2", "Value/Beginners"); Fleurwee (true, "60-90 sec", "21 days", "1-2", "Sensitive Skin"); Cat Eye (false, "60-90 sec", "28 days", "2", "Nail Art"); Galaliver Glitter (false, "60-120 sec", "21+ days", "2", "Special Occasions").
+
+---
+
+## 9. Writing Instructions
+
+Follow these writing rules for every paragraph of body copy.
+
+- This is conversion copy. Every sentence moves the buyer toward a purchase decision.
+- Lead with buyer benefit, not product specs. Specs support the benefit, never lead with them.
+- Use buyer phrases from Section 5 naturally, speak their language without quoting sources verbatim.
+- Address buying objections directly, do not hedge or avoid them.
+- Honest cons build trust. Include them, then counter with why the product is still the right buy for its target buyer.
+- Discount information placed near CTAs, mention naturally, not as a standalone paragraph.
+- Primary keyword in `<strong>` tags every mention, no exceptions.
+- No editorial literary hooks. Open sections with the buyer benefit or the buying question directly.
+- H2 sections are short and direct. Buyers scan, they do not read long intros.
+- Conclusion is a final push to purchase, not a summary.
+- Internal links from Section 1/7 placed mid-post after the first product CTA, anchor text natural, never forced.
+- No related articles section, the site handles this via component.
+- Language: American English, not British English.
+- No banned AI patterns: no "elevate," "seamlessly," "game-changing," "dive into," "transformative."
+- No long em dashes, use commas or restructure.
+- Sentence rhythm varies: short punchy sentences for key selling points, longer for context.
