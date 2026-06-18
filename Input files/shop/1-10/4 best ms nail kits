@@ -1,0 +1,353 @@
+**THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT.** All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions in this file must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy.
+
+---
+
+## 1. Cluster Summary
+
+- **Cluster:** EC-04 — Nail Kits & Starter Sets (`/shop/nail-kits`)
+- **This post:** "Best MelodySusie Nail Kits for Beginners & Pros" — slug `best-melodysusie-nail-kits` — post type: **best-of** — primary keyword: **best MelodySusie nail kit**
+- **Role:** Cluster pillar (post_id 4)
+- **Internal links this post must include** (mid-post only, after first product CTA):
+  - `/shop/nail-kits/melodysusie-beginner-nail-kit` (post 24 — MelodySusie Beginner Nail Kit)
+  - `/shop/nail-kits/melodysusie-nail-gift-sets` (post 25 — MelodySusie Nail Gift Sets)
+  - `/shop/nail-kits/melodysusie-complete-nail-set-bundle` (post 26 — Complete Nail Set Bundle)
+- **Posts that will link to this pillar:** all three EC-04 spokes above, plus EC-01 pillar (Nail Drills) as a related-category link.
+- **Affiliate mode:** MelodySusie affiliate links, `?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol` appended to every product link.
+- **Region:** USA only.
+
+---
+
+## 2. Frontmatter Block
+
+Copy this frontmatter block exactly into the post. Do not change any field.
+
+```yaml
+title: "Best MelodySusie Nail Kit: 5 Picks for Every Skill Level (2026)"
+excerpt: "From a $128 beginner set to a 35,000RPM pro kit—here's the best MelodySusie nail kit for your budget and skill level."
+date: "2026-06-18"
+author: "Mirellé"
+category: "Nail Kits & Starter Sets"
+image: "https://www.melodysusie.com/cdn/shop/files/15_ba903586-c64c-4271-b666-2f03560fe071.jpg?v=1732614394&width=800"
+imageAlt: "Best MelodySusie nail kit lineup showing the SC300F rechargeable nail drill set with dust collector and bits"
+imageWidth: 1200
+imageHeight: 630
+readTime: "8 min read"
+canonical: ""
+postType: "best-of"
+winnerIndex: 0
+showComparison: true
+showProscons: false
+comparisonCaption: "How the top MelodySusie nail kits compare"
+products:
+  - name: "SC300F Rechargeable Nail Drill 30,000RPM Set"
+    brand: "MelodySusie"
+    price: "$128.99"
+    compareAtPrice: "$180.95"
+    image: "https://www.melodysusie.com/cdn/shop/files/15_ba903586-c64c-4271-b666-2f03560fe071.jpg?v=1732614394&width=800"
+    link: "https://www.melodysusie.com/products/sc300f-rechargeable-nail-drill-30000rpm-set?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    rating: "5.0"
+    reviewCount: "56"
+    details:
+      - "30,000RPM adjustable speed, ideal for beginners through pros"
+      - "4000mAh battery runs 8-12 hours per charge"
+      - "Includes dust collector, bits, and nail clipper kit"
+    pros:
+      - "Quiet, low-vibration motor even at full speed"
+      - "Battery easily lasts several manicures between charges"
+      - "Speed knob makes it easy to dial in gentle settings as a beginner"
+      - "Full Set variant bundles a lamp and gloves for one checkout"
+    cons:
+      - "The bundled dust collector is non-rechargeable, a step below MelodySusie's premium models"
+      - "Bit selection is good but not pro-salon-sized"
+  - name: "SM200F Plus Rechargeable 35,000RPM Nail Drill Advanced Kit"
+    brand: "MelodySusie"
+    price: "$189.99"
+    compareAtPrice: "$226.94"
+    image: "https://www.melodysusie.com/cdn/shop/files/4_e931aa6d-13b7-4864-9f69-f98a794889c9.jpg?v=1769746086&width=1000"
+    link: "https://www.melodysusie.com/products/sm200f-plus-rechargeable-35000rpm-nail-drill-set?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Pros"
+    rating: "5.0"
+    reviewCount: "99"
+    details:
+      - "35,000RPM coreless motor with 320gf.cm torque"
+      - "13-18 hour battery life, belt clip for mobile techs"
+      - "Includes mini nail lamp and dust collector"
+    pros:
+      - "Torque holds steady under pressure, no stalling on acrylics"
+      - "Belt-clip design built for techs who travel between clients"
+      - "Battery life comfortably covers a full salon day"
+      - "Pause button and low-heat handpiece reduce client discomfort"
+    cons:
+      - "Higher price point than entry kits"
+      - "Included mini lamp is a single-finger unit, not a full-hand lamp"
+  - name: "PocketNail Manicure Beginner Kit"
+    brand: "MelodySusie"
+    price: "$117.63"
+    compareAtPrice: "$178.94"
+    image: "https://www.melodysusie.com/cdn/shop/files/pocket_bundle1_04293654-abeb-41e8-b1d6-38b4aa06ca9d.jpg?v=1763635485&width=1000"
+    link: "https://www.melodysusie.com/products/pocketnail-manicure-beginner-kit?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Travel"
+    details:
+      - "Pen-shaped 20,000RPM drill with modular, interchangeable design"
+      - "Pocket-sized dust collector weighs just 364g"
+      - "Single-finger rechargeable lamp slips into any bag"
+    pros:
+      - "Entire kit is compact enough for a carry-on or weekend bag"
+      - "Pen-style grip is easier to control for first-timers than clip-on drills"
+      - "Modular power bar means parts can be swapped instead of replaced"
+      - "Lower RPM ceiling is genuinely gentler for nervous beginners"
+    cons:
+      - "20,000RPM tops out lower than the SC300F or SM200F, so it's not built for acrylics or pro use"
+      - "Single-finger lamp cures one nail at a time, slower for full sets"
+  - name: "The Student Training Kit"
+    brand: "MelodySusie"
+    price: "$89.99"
+    compareAtPrice: "$124.93"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_58075890-cc76-4c52-8446-432f37d9de1d.png?v=1774250307&width=1000"
+    link: "https://www.melodysusie.com/products/student-nail-mastery-set?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Students"
+    rating: "4.9"
+    reviewCount: "33"
+    details:
+      - "Multiple variant kits: nail extension, acrylic, and manicure training sets"
+      - "Built for practicing gel application and acrylic extensions"
+      - "Lowest price point in this roundup at under $90"
+    pros:
+      - "Most affordable way to get full practice-ready tools in one order"
+      - "Variant options let students pick acrylic or gel-focused training tools"
+      - "Curated specifically for nail school coursework, not just home use"
+      - "Good stepping stone before investing in a salon-grade drill"
+    cons:
+      - "Drill power is intentionally modest, students will likely upgrade later"
+      - "Not intended for daily professional client work"
+  - name: "SM200F Plus Nail Drill Gift Box"
+    brand: "MelodySusie"
+    price: "$179.98"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_402937e1-6cc7-4ae7-8f0c-2af4c479e220.jpg?v=1769744365&width=1000"
+    link: "https://www.melodysusie.com/products/sm200f-plus-rechargeable-35000rpm-nail-drill-gift-box?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Gift Set"
+    rating: "5.0"
+    reviewCount: "101"
+    details:
+      - "35,000RPM SM200F Plus drill in a presentation-ready gift box"
+      - "Includes bits, sanding bands, nail file, and nail stickers"
+      - "13-18 hour battery life, upgraded pause button"
+    pros:
+      - "Packaging is genuinely gift-worthy, not just a shipping box with a bow"
+      - "Same high-torque motor as the Advanced Kit, in a more giftable format"
+      - "Color variants let buyers add a dust collector or nail lamp at checkout"
+      - "Strong choice for nail-tech friends or gifting a nail school grad"
+    cons:
+      - "Accessories are lighter than the full Advanced Kit"
+      - "Some color variants cost more once a lamp or dust collector is added"
+comparisonTable:
+  features:
+    - "Price"
+    - "Max RPM"
+    - "Battery Life"
+    - "Best For"
+    - "Includes Lamp"
+  columns:
+    - name: "SC300F Set"
+      values:
+        - "$128.99"
+        - "30,000"
+        - "8-12 hrs"
+        - "Beginners & all-rounders"
+        - true
+    - name: "SM200F Plus Advanced Kit"
+      values:
+        - "$189.99"
+        - "35,000"
+        - "13-18 hrs"
+        - "Working pros"
+        - true
+    - name: "PocketNail Beginner Kit"
+      values:
+        - "$117.63"
+        - "20,000"
+        - "Not listed"
+        - "Travel & nervous beginners"
+        - true
+    - name: "Student Training Kit"
+      values:
+        - "$89.99"
+        - "Varies by variant"
+        - "Not listed"
+        - "Nail school students"
+        - false
+    - name: "SM200F Plus Gift Box"
+      values:
+        - "$179.98"
+        - "35,000"
+        - "13-18 hrs"
+        - "Gifting"
+        - false
+faqs:
+  - question: "What's the best MelodySusie nail kit for a complete beginner?"
+    answer: "The SC300F Rechargeable Nail Drill Set is the best starting point. Its 30,000RPM motor has a low-end range gentle enough for first-timers, and the kit includes a dust collector, bits, and a nail clipper so there's nothing extra to buy."
+  - question: "Do MelodySusie nail kits include everything needed for a gel manicure?"
+    answer: "Most kits include the drill, bits, and a dust collector, but not gel polish. Pair any kit here with a base/top coat and gel polish set, or check the Complete Nail Set Bundle, which adds polish to the tool kit."
+  - question: "What RPM nail drill do I need for acrylic nails?"
+    answer: "Acrylics generally need 30,000RPM or higher for efficient filing. The SC300F (30,000RPM) and SM200F Plus (35,000RPM) both handle acrylic work; the PocketNail's 20,000RPM ceiling is better suited to gel and natural nails."
+  - question: "Is the MelodySusie Student Training Kit only for nail school?"
+    answer: "No, though it's built with nail school coursework in mind. It works well for anyone who wants to practice gel application and acrylic extensions before investing in a higher-RPM professional drill."
+  - question: "How long does a MelodySusie nail drill battery last?"
+    answer: "It depends on the model. The SC300F runs 8-12 hours per charge, while the SM200F Plus runs 13-18 hours thanks to its higher-capacity coreless motor. Both charge fully in about 3 hours."
+  - question: "Which MelodySusie kit is best for gifting?"
+    answer: "The SM200F Plus Nail Drill Gift Box is built specifically for gifting, with presentation packaging and the same high-torque motor as the Advanced Kit. It's a strong pick for a nail tech friend or a nail school graduate."
+  - question: "Can I use a MelodySusie nail drill kit without prior experience?"
+    answer: "Yes. Every kit in this roundup includes an adjustable speed dial, and the SC300F and PocketNail kits in particular are designed with low-speed ranges suited to first-time users."
+```
+
+---
+
+## 3. SEO & Keyword Plan
+
+Follow this keyword plan exactly. Calculate density before writing, do not estimate.
+
+- **Primary keyword (locked):** best MelodySusie nail kit
+- **Keyword density target:** No third-party "best MelodySusie nail kit" roundup exists at sufficient depth to extract a competitor density baseline (MelodySusie's own site and a generic AI-aggregator post are the only matches). Use a conservative target of **0.8-1.0% density** with **8-10 total mentions** for an ~1,800-2,000 word post, concentrated with at least 5 mentions in the first half.
+- **First 150 words:** primary keyword appears exactly 2 times, both wrapped in `<strong>` tags.
+- **ALL primary keyword mentions** throughout the entire post wrapped in `<strong>` tags, no exceptions.
+- **Keyword variations** (use naturally, no density target, no strong tags): MelodySusie nail kit, MelodySusie starter kit, MelodySusie nail drill kit, best nail kit for beginners, MelodySusie manicure kit, nail kit for nail techs
+- **Transactional cluster keywords** (use throughout): nail drill kit with bits, gel nail starter kit, at-home manicure kit, rechargeable nail drill kit, nail kit for students, nail tech gift set
+- **LSI semantic terms:** RPM, coreless motor, dust collector, nail drill bits, battery life, acrylic nails, gel nails, manicure at home, nail school, salon-quality, torque, pause button, sanding bands
+- **AEO terms** (mapped below in 3a)
+- **Buyer phrase bank** (from Amazon/Reddit mining, weave naturally): "lightweight design," "long-lasting battery," "whisper-quiet operation," "adjustable speed," "accessible price point," "doesn't disturb anyone while practicing," "practice and patience are key"
+
+### 3a. AEO Mapping
+
+- AEO: "What's the best MelodySusie nail kit for a complete beginner?" → FAQ entry #1
+- AEO: "Do MelodySusie nail kits include everything needed for a gel manicure?" → FAQ entry #2
+- AEO: "What RPM nail drill do I need for acrylic nails?" → FAQ entry #3
+- AEO: "Is the MelodySusie Student Training Kit only for nail school?" → FAQ entry #4
+- AEO: "How long does a MelodySusie nail drill battery last?" → FAQ entry #5
+- AEO: "Which MelodySusie kit is best for gifting?" → FAQ entry #6
+- AEO: "Can I use a MelodySusie nail drill kit without prior experience?" → FAQ entry #7
+- AEO: "What's the difference between the SC300F and SM200F Plus kits?" → H2: "SC300F vs. SM200F Plus: Which Power Level Do You Need?"
+- AEO: "Is a pen-style or clip-on nail drill better for beginners?" → H2: "Best MelodySusie Nail Kit for Complete Beginners"
+- AEO: "What comes in a MelodySusie nail drill kit?" → H2: "What's Actually Inside Each Kit"
+
+---
+
+## 4. Competitor & Title Intelligence
+
+- **Competitor landscape:** No independent third-party site runs a dedicated "best MelodySusie nail kit" roundup. The closest comparable competitive set is general at-home gel nail kit roundups (e.g., a 13-kit comparison covering brands like Gelcare, Modelones, and Bioseaweed, and a separate "Best Gel Nail Kits for Beginners 2026" guide). These cover premium kits up to $246 and budget kits with real performance flaws (gel lifting in two days, slow curing, sticky top coats).
+- **Content gap:** No competitor roundup features MelodySusie at all, and none segments by skill level (beginner vs. pro vs. student vs. gift) within a single trusted brand. This is the differentiation angle: one brand, every skill level, real RPM/battery/price comparisons.
+- **Title direction:** Lead with the brand + a concrete count + the segmentation hook ("for every skill level") rather than a generic "best of" framing competitors use. Specific numbers (5 picks, 2026) and skill-level framing outperform vague superlative titles.
+- **Word count target:** 1,800-2,000 words, slightly above what a typical 5-product best-of roundup runs, since this post also carries a comparison table and FAQ block.
+
+---
+
+## 5. Buyer Intelligence
+
+- **Who this buyer is:** A mix of complete beginners researching their first nail drill kit, nail school students comparing training sets, and working nail techs or DIY enthusiasts upgrading to a higher-RPM kit. Most are price-sensitive and comparing this purchase against doing nails at a salon.
+- **What they need from this post:** A clear answer to "which kit matches my skill level and budget" without having to cross-reference five separate product pages.
+- **What frustrates them:** Vague spec sheets, no honest cons, marketing copy that doesn't say which kit is overkill or underpowered for their use case.
+- **Top 5 buying objections:**
+  1. "Is this powerful enough for acrylics, or just gel/natural nails?" → addressed via RPM comparison table and per-product cons
+  2. "Will the battery die mid-manicure?" → addressed with explicit battery life specs per kit
+  3. "Is this too much kit for a total beginner?" → addressed in dedicated beginner H2 and PocketNail/SC300F positioning
+  4. "Is this actually a good gift, or just a drill in a box?" → addressed in Gift Box section with packaging detail
+  5. "Am I overpaying versus building my own kit piece by piece?" → addressed via compare-at pricing and discount code mention
+- **Recurring praise (from Amazon/Reddit mining):** lightweight design, long-lasting battery life, whisper-quiet operation even at higher speeds, adjustable speed dial good for beginners, accessible pricing relative to salon-grade alternatives.
+- **Recurring complaints to address honestly:** lower-RPM kits (PocketNail, Student Kit) aren't suited to heavy acrylic work; bundled dust collectors in entry kits are non-rechargeable, a step down from MelodySusie's premium dust collector line.
+
+---
+
+## 6. Discount & Conversion Data
+
+- **Sitewide code:** OFF8 — 8% off sitewide
+- **Threshold code:** MSOFF15 — 15% off orders over $129.99 (gift boxes excluded from this code)
+- **Free shipping:** orders over $129.99
+- **Placement:** Mention OFF8 near the ShopInlineCTA (after first 30% of content) as a low-friction nudge. Mention MSOFF15 near the ShopFinalCTA, since the SC300F, SM200F Plus Advanced Kit, and Gift Box all clear the $129.99 threshold on their own.
+
+---
+
+## 7. Content Structure
+
+Use these H2 headings in this exact order. Do not rename, reorder, or remove. Add H3s under any H2 at your discretion.
+
+1. **H2: What Makes a MelodySusie Nail Kit Worth Buying**
+   - Directive: Hook with the buyer's core decision (skill level + budget), establish that MelodySusie covers beginner through pro in one brand. No product injection here. ~150-180 words.
+
+2. **H2: Best MelodySusie Nail Kit Overall — SC300F Rechargeable Set**
+   - Directive: Lead pick. Cover RPM range, battery, what's included, why it suits most buyers first.
+   - Injection: `{{PRODUCTS:1:0}}` directly after this H2.
+   - ~220 words.
+
+3. **H2: SC300F vs. SM200F Plus: Which Power Level Do You Need?**
+   - AEO answered: "What's the difference between the SC300F and SM200F Plus kits?"
+   - Directive: Direct RPM/torque/battery comparison, point pros toward SM200F Plus.
+   - Injection: `{{PRODUCTS:2:0,1}}` after this H2.
+   - ~200 words.
+
+4. **H2: Best MelodySusie Nail Kit for Complete Beginners — PocketNail**
+   - AEO answered: "Is a pen-style or clip-on nail drill better for beginners?"
+   - Directive: Position pen-style as gentler entry point, address portability angle.
+   - Injection: `{{PRODUCTS:1:2}}` after this H2.
+   - Internal link goes here (first one, after the first product CTA has already fired from section 2): link to `/shop/nail-kits/melodysusie-beginner-nail-kit`, natural anchor text like "our full beginner kit breakdown."
+   - ~200 words.
+
+5. **H2: Best MelodySusie Nail Kit for Students — The Student Training Kit**
+   - Directive: Cover variant options (acrylic/extension/manicure), lowest price point positioning.
+   - Injection: `{{PRODUCTS:1:3}}` after this H2.
+   - ~180 words.
+
+6. **H2: Best MelodySusie Nail Kit for Gifting — SM200F Plus Gift Box**
+   - AEO answered: "Which MelodySusie kit is best for gifting?"
+   - Directive: Packaging/presentation focus, who to buy it for.
+   - Injection: `{{PRODUCTS:1:4}}` after this H2.
+   - Internal link: `/shop/nail-kits/melodysusie-nail-gift-sets`, anchor like "see more gift-ready picks."
+   - ~180 words.
+
+7. **H2: What's Actually Inside Each Kit**
+   - AEO answered: "What comes in a MelodySusie nail drill kit?"
+   - Directive: Quick scannable rundown of what's bundled vs. what buyers still need to add (gel polish, lamp if not included).
+   - Internal link: `/shop/nail-kits/melodysusie-complete-nail-set-bundle`, anchor like "the Complete Nail Set Bundle adds polish to the mix."
+   - Comparison table fires after this section (between section 2 and 3 of the auto-split, so place this H2 in roughly the back half of the body).
+   - ~150 words.
+
+8. **H2: Which MelodySusie Nail Kit Should You Buy?**
+   - Directive: Closing decision-driver, restate skill-level mapping, push to final CTA. Not a summary, a purchase nudge.
+   - ~150-180 words.
+
+**Word budget total:** ~1,800-2,000 words across sections above; intro folded into section 1, no separate conclusion H2 beyond section 8.
+
+---
+
+## 8. Component Directives
+
+These components fire automatically from the Section 2 frontmatter. Confirm triggers are correctly set; never write component content in the body.
+
+- **WinnerBadge:** ACTIVE — `winnerIndex: 0` is set (SC300F Set)
+- **ShopInlineCTA:** ACTIVE — fires after first ~30% of content (lands inside section 2 or 3 above)
+- **ComparisonTable:** ACTIVE — `showComparison: true` and `comparisonTable` data present in Section 2
+- **ProsConsBlock:** INACTIVE — `showProscons: false` for this best-of post type (pros/cons data is still in products[] for WinnerBadge/featured display use, per post_type_defaults)
+- **ShopFinalCTA:** ALWAYS ACTIVE — products[] exists
+- **ShopFAQ:** ACTIVE — faqs[] has 7 entries
+- **ShopTableOfContents:** ALWAYS ACTIVE
+- **Sidebar winner card:** ACTIVE — winnerIndex is set
+
+---
+
+## 9. Writing Instructions
+
+- This is conversion copy. Every sentence moves the buyer toward a purchase decision.
+- Lead with buyer benefit, not specs. Specs (RPM, battery hours) support the claim, they don't open the sentence.
+- Use buyer phrases from Section 5 naturally, don't quote them back verbatim as if reviews.
+- Address all 5 buying objections directly in the body, not just implied.
+- Honest cons build trust: state the con, then say why the kit is still the right buy for its target buyer.
+- Discount codes placed near CTAs per Section 6, mentioned naturally in a sentence, not as a standalone callout paragraph.
+- Primary keyword "best MelodySusie nail kit" in `<strong>` tags every single mention, no exceptions.
+- No editorial hooks to open sections. Open with the buyer benefit or buying question directly.
+- H2 sections stay short and scannable. Buyers scan, they don't read long intros.
+- Closing H2 is a decision driver, not a recap.
+- Internal links placed mid-post only, after the first product CTA (section 2 injection), anchor text natural and contextual.
+- No related articles section, the site component handles this.
+- American English throughout. No British spellings.
+- Banned words: elevate, seamlessly, game-changing, dive into, transformative.
+- No em dashes. Use commas or restructure the sentence.
+- Vary sentence rhythm: short punchy sentences for key selling points, longer sentences for context and objection-handling.
