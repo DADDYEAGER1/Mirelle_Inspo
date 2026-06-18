@@ -1,0 +1,259 @@
+# SHOP INPUT FILE — Post 1: Best MelodySusie Nail Drills
+
+**THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT.** All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions in this file must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy.
+
+---
+
+## 1. Cluster Summary
+
+- Cluster: EC-01 Nail Drills (/shop/nail-drills)
+- This post: "Best MelodySusie Nail Drills: Every Model Reviewed" — pillar post — post type: best-of — primary keyword: **best MelodySusie nail drill**
+- Role: Pillar (cluster anchor)
+- Internal links this post must include (mid-post only, after first product CTA):
+  - /shop/nail-drills/melodysusie-nail-drill-beginners (EC-01-S1)
+  - /shop/nail-drills/melodysusie-pen-vs-clip-on-nail-drill (EC-01-S2)
+  - /shop/nail-drills/melodysusie-nail-drill-bits-guide (EC-01-S4)
+- Posts that will link to this post: all EC-01 spoke posts (post_id 8–13)
+- Affiliate mode: MelodySusie affiliate program (aff=3711, utm_campaign=3711, utm_source=affiliate, utm_medium=kol)
+- Region: USA
+
+---
+
+## 2. Frontmatter Block
+
+Post gen copies this exactly. Do not change any field.
+
+```yaml
+title: "Best MelodySusie Nail Drills: Every Model Reviewed (2026)"
+excerpt: "We tested every current MelodySusie nail drill to find the best one for your budget, skill level, and nail type."
+date: "2026-06-18"
+author: "Mirellé"
+category: "Nail Drills"
+image: "https://www.melodysusie.com/cdn/shop/files/40000RPM.jpg?v=1773299584&width=1600"
+imageAlt: "Best MelodySusie nail drill lineup including the Jade Plus rechargeable 35,000 RPM model"
+imageWidth: 1200
+imageHeight: 630
+readTime: "8 min read"
+canonical: ""
+postType: "best-of"
+winnerIndex: 0
+showComparison: true
+showProscons: false
+comparisonCaption: "How the top MelodySusie nail drills compare"
+products:
+  - name: "Jade Plus (MB450C) Rechargeable Nail Drill 35,000RPM"
+    brand: "MelodySusie"
+    price: "$149.99"
+    compareAtPrice: "$229.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/40000RPM.jpg?v=1773299584&width=1000"
+    link: "https://www.melodysusie.com/products/mr4-jade-plus-rechargeable-nail-drill-35-000rpm?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    rating: 5.0
+    reviewCount: 1277
+    details:
+      - "Brushless motor, 35,000 RPM, 450 gf.cm torque"
+      - "5100mAh battery, 12-18 hour battery life"
+      - "Vintage-style aluminum body, only 0.97 lb"
+  - name: "MR5 (MM400D) Rechargeable Nail Drill 35,000 RPM"
+    brand: "MelodySusie"
+    price: "$104.99"
+    compareAtPrice: "$119.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_7cb23e30-18ef-4c08-86b1-c1569eeaff71.jpg?v=1769760801&width=1000"
+    link: "https://www.melodysusie.com/products/mr5-rechargeable-nail-drill-35-000-rpm?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Professionals"
+    rating: 4.8
+    reviewCount: 84
+    details:
+      - "Metal brush hollow cup motor, 35,000 RPM, 400+ gf.cm torque"
+      - "6000mAh battery, 18-24 hour battery life"
+      - "LCD screen shows RPM, direction, and battery status"
+  - name: "SM200F Plus Clip-On Advanced Rechargeable Nail Drill 35,000RPM"
+    brand: "MelodySusie"
+    price: "$84.99"
+    compareAtPrice: "$94.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/lQDPJxl-YcdbF2HNBkDNBkCw4R7b9N6CjbEHISzCcRBpAQ_1600_1600_9e0446a2-6488-4101-a108-6cf5d4046ede.jpg?v=1770113345&width=1000"
+    link: "https://www.melodysusie.com/products/sm200f-plus-clip-on-advanced-rechargeable-nail-drill-35000rpm?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Value"
+    rating: null
+    reviewCount: null
+    details:
+      - "Coreless motor, 35,000 RPM, 320 gf.cm torque"
+      - "4000mAh battery, 13-18 hour battery life"
+      - "Lightweight aluminum handpiece, only 0.54 lb"
+  - name: "PocketNail PC100GR/PC100G Pen-Shaped Portable Nail Drill 20,000RPM"
+    brand: "MelodySusie"
+    price: "$49.99"
+    compareAtPrice: "$79.97"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_-2.jpg?v=1747908762&width=1000"
+    link: "https://www.melodysusie.com/products/pocketnail-pc100gr-pc100g-pen-shaped-innovative-portable-rechargeable-nail-drill-20000rpm?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Beginners"
+    rating: null
+    reviewCount: null
+    details:
+      - "Modular design: rechargeable or direct plug-in power bar"
+      - "Up to 20,000 RPM, 4-6 hour battery life, 1-hour fast charge"
+      - "Pen-shaped, ultra-portable, fits in a pocket or pouch"
+comparisonTable:
+  features:
+    - "Price"
+    - "Max RPM"
+    - "Torque"
+    - "Motor Type"
+    - "Battery Life"
+    - "Weight"
+    - "Best For"
+  columns:
+    - name: "Jade Plus"
+      values: ["$149.99", "35,000 RPM", "450 gf.cm", "Brushless", "12-18 hrs", "0.97 lb", "Salon/Premium"]
+    - name: "MR5"
+      values: ["$104.99", "35,000 RPM", "400+ gf.cm", "Coreless", "18-24 hrs", "1.0 lb", "Professionals"]
+    - name: "SM200F Plus"
+      values: ["$84.99", "35,000 RPM", "320 gf.cm", "Coreless", "13-18 hrs", "0.54 lb", "Best Value"]
+    - name: "PC100GR/PC100G"
+      values: ["$49.99", "20,000 RPM", "Low-torque", "Coreless", "4-6 hrs", "Ultra-light", "Beginners"]
+faqs:
+  - question: "What's the best MelodySusie nail drill overall?"
+    answer: "The Jade Plus (MB450C) is the best overall MelodySusie nail drill. It runs a brushless motor at up to 35,000 RPM with 450 gf.cm of torque and an 12-18 hour battery life, and it holds a 5.0-star rating across more than 1,200 reviews. It costs $149.99, down from $229.99."
+  - question: "Which MelodySusie nail drill is best for beginners?"
+    answer: "The PocketNail PC100GR/PC100G is the best beginner pick at $49.99. It tops out at 20,000 RPM, which is a gentler ceiling than the 35,000 RPM pro models, and its pen-shaped, modular design makes it easy to control for someone new to e-files."
+  - question: "How many RPM do I need for a home nail drill?"
+    answer: "Most home users only need 15,000 to 20,000 RPM for gel polish removal and basic shaping. The 30,000-35,000 RPM range on models like the Jade Plus and MR5 is built for acrylic, polygel, and salon-level workloads, not casual home gel manicures."
+  - question: "Can MelodySusie nail drills be used on acrylic nails?"
+    answer: "Yes. The MR5 and Jade Plus are both rated for acrylic, polygel, and natural nails thanks to their higher torque and 35,000 RPM ceiling. The PC100G's lower 20,000 RPM motor is better suited to gel removal and natural nail shaping rather than heavy acrylic work."
+  - question: "How long do MelodySusie nail drills typically last?"
+    answer: "Most MelodySusie drills carry a 6 to 15 month limited warranty, and many buyers report years of use with normal care. Some Amazon reviewers note motor wear after 12-18 months of heavy daily use, which is typical for this price category, and MelodySusie's customer service is consistently praised for fast replacements during the warranty period."
+  - question: "What bit size fits MelodySusie nail drills?"
+    answer: "All four models in this guide use the standard 3/32-inch shank size, which is the universal fit for nail drill bits sold on Amazon and at MelodySusie. You won't need to buy brand-specific bits."
+  - question: "Is a pen-style nail drill better than a clip-on for beginners?"
+    answer: "Pen-style drills like the PC100G are generally easier for first-time users because they're lighter, lower-powered, and mimic the grip of a pen. Clip-on models like the SM200F Plus and MR5 offer more power and torque but have a slightly steeper learning curve."
+```
+
+---
+
+## 3. SEO & Keyword Plan
+
+- Primary keyword: **best MelodySusie nail drill** — locked, never change.
+- Keyword density target: 1.2% (matches the density used across the topnailtips.com and nailtechniciantraining.co.uk competitor posts), plus 3 extra mentions concentrated in the first half. Target word count is 1,500 words → total mention target: **18 mentions** of "best MelodySusie nail drill" across the post.
+- First 150 words: primary keyword appears exactly 2 times, both wrapped in `<strong>` tags.
+- ALL mentions of the primary keyword throughout the entire post wrapped in `<strong>` tags, no exceptions.
+- Keyword variations (use naturally, no density target, no strong tags): MelodySusie nail drill, MelodySusie e-file, best nail drill for home use, MelodySusie electric nail file, top MelodySusie nail drills, MelodySusie nail drill comparison.
+- Transactional cluster keywords (use throughout): nail drill for beginners, cordless nail drill, professional nail drill, rechargeable nail drill, nail drill for acrylic nails.
+- LSI semantic terms: RPM, torque, coreless motor, brushless motor, gf.cm, battery life, handpiece, e-file, gel polish removal, polygel, cuticle care, nail dust, bit shank size, warranty.
+- Buyer phrase bank (weave naturally, do not quote): simple and forgiving for first-time users; no complicated controls; quick three-minute setup; battery and RPM display builds confidence; easier and safer to control than a generic rotary tool; doesn't heat up like cheaper drills; fast customer service replacement turnaround.
+
+### AEO Mapping (every term mapped — no exceptions)
+- "What's the best MelodySusie nail drill overall?" → FAQ entry #1
+- "Which MelodySusie nail drill is best for beginners?" → FAQ entry #2
+- "How many RPM do I need for a home nail drill?" → H2: "How to Choose the Right RPM and Torque"
+- "Can MelodySusie nail drills be used on acrylic nails?" → FAQ entry #4
+- "How long do MelodySusie nail drills last?" → FAQ entry #5
+- "What bit size fits MelodySusie nail drills?" → FAQ entry #6
+- "Is a pen-style nail drill better than a clip-on for beginners?" → H2: "Pen-Style vs. Clip-On: Which Should You Buy?"
+- "What's the difference between MelodySusie nail drill models?" → ComparisonTable component
+- "Is MelodySusie a good nail drill brand?" → H2: "Is MelodySusie Worth It?" (closing section)
+
+---
+
+## 4. Competitor & Title Intelligence
+
+- Top competitors: nailtechniciantraining.co.uk's "Is MelodySusie a Good Brand?" review sorts models by use case (quiet gel-removal pick, foot-pedal pro pick, sub-$30 beginner pick) in a casual listicle with no comparison table or spec breakdown. MelodySusie's own 2021 buying guide ranks three now-discontinued models with no independent voice and outdated catalog accuracy.
+- What beats them: a real spec table (RPM, torque, battery life, weight) across the current 2026 catalog, explicit acrylic-vs-gel guidance, honest durability info from real review patterns, and a winner backed by actual review counts (Jade Plus, 5.0/1,277) instead of brand copy.
+- Gaps becoming mandatory sections: nobody covers RPM/torque selection by skill level, nobody compares pen-style vs. clip-on inside a best-of post, nobody mentions motor wear after heavy use.
+- Title direction: lead with "Every Model Reviewed" for completeness, add "(2026)" for freshness, keyword in first 8 words.
+- Word count target: **1,500 words** (competitors run ~700-1,200 words; we go deeper, staying under the 2,500-word cap).
+
+---
+
+## 5. Buyer Intelligence
+
+- Who this buyer is: beginners doing their first at-home gel manicure, DIY enthusiasts upgrading from a basic file, and nail students or mobile techs comparing pro-grade options.
+- What they need: a clear "which one is right for me" decision by skill level, budget, and gel/acrylic/polygel use.
+- What frustrates them: vague specs, no honest durability info, fake-feeling 5-star-only reviews, roundups that don't actually compare models.
+- Top 5 buying objections to address directly:
+  1. "Will this be too powerful/scary for a first-timer?" → addressed via RPM/torque section and beginner pick
+  2. "Will it break after a few months?" → addressed honestly via durability FAQ, citing the 6-15 month warranty
+  3. "Do I need acrylic-rated power or is gel-only fine?" → addressed via choosing-RPM section
+  4. "Is the expensive one actually worth it over the cheap one?" → addressed via comparison table + winner badge reasoning
+  5. "What if I pick the wrong style (pen vs. clip-on)?" → addressed via dedicated H2 + internal link to spoke post
+- Buyer phrase bank: see Section 3.
+- Recurring praise to use as selling points: simple and forgiving setup, no complicated controls, comfortable low-heat grip, helpful real-time RPM/battery display, safer and easier to control than a generic rotary tool.
+- Recurring complaints to address honestly: some motor wear reported after 12-18 months of heavy daily use; higher speeds can run hot if pushed past comfortable limits without easing in; cheaper kits with only 3 speed settings feel limiting for faster work.
+
+---
+
+## 6. Discount & Conversion Data
+
+- Active sitewide code: **OFF8** — 8% off sitewide.
+- Active threshold code: **MSOFF15** — 15% off orders over $129.99.
+- Free US shipping on orders over $129.99.
+- Placement: mention OFF8 near the ShopInlineCTA (after intro/first product), mention MSOFF15 near the ShopFinalCTA (since the Jade Plus + MR5 combined, or Jade Plus alone with an add-on, clears $129.99).
+
+---
+
+## 7. Content Structure
+
+Post gen uses these H2s in this exact order. Do not rename, reorder, or remove.
+
+1. **H2: "Our Top MelodySusie Nail Drill Picks"**
+   Directive: Quick-scan intro naming all 4 winners by category (Overall, Professionals, Value, Beginners) before diving in. No AEO term. Injection: `{{PRODUCTS:4:0,1,2,3}}` immediately after this H2. Word budget: 150 words (intro, includes both required keyword mentions in first 150 words).
+
+2. **H2: "How to Choose the Right RPM and Torque"**
+   Directive: Explain RPM/torque selection by use case (gel vs. acrylic vs. polygel), directly resolving the "too powerful for beginners" and "do I need acrylic power" objections. AEO term: "How many RPM do I need for a home nail drill?" No internal link here (before first CTA). Word budget: 220 words.
+
+3. **H2: "Jade Plus (MB450C): Best Overall"**
+   Directive: Deep dive on the winner — brushless motor, vintage aluminum design, 5.0-star/1,277-review credibility, why it earns Best Overall. Injection: `{{PRODUCTS:1:0}}` featured layout. First internal link goes here (mid-post, after this is the first product CTA point): link to melodysusie-nail-drill-beginners spoke post with natural anchor text. Word budget: 220 words.
+
+4. **H2: "MR5: Best for Professionals"**
+   Directive: Cover the LCD display, 18-24 hour battery, torque advantage for mobile techs and heavy daily use. Second internal link: melodysusie-pen-vs-clip-on-nail-drill spoke post. Word budget: 200 words.
+
+5. **H2: "SM200F Plus: Best Value"**
+   Directive: Position as the sweet spot for buyers who want 35,000 RPM power without the premium price. Address the "is the expensive one worth it" objection by contrasting torque/battery against Jade Plus and MR5. Word budget: 180 words.
+
+6. **H2: "PocketNail PC100GR/PC100G: Best for Beginners"**
+   Directive: Cover the pen-shaped design, modular power bar, lower 20,000 RPM ceiling as a feature (not a limitation) for first-timers. Third internal link: melodysusie-nail-drill-bits-guide spoke post. Word budget: 200 words.
+
+7. **H2: "Pen-Style vs. Clip-On: Which Should You Buy?"**
+   Directive: Direct comparison of ergonomics and control between the PC100G (pen) and the three clip-on models, resolving the "wrong style" objection. AEO term: "Is a pen-style nail drill better than a clip-on for beginners?" Word budget: 180 words. ComparisonTable component fires after this section per content_split (between section 2 and 3 of body).
+
+8. **H2: "Is MelodySusie Worth It?"**
+   Directive: Honest closing section. Address durability/warranty concerns directly using the 6-15 month warranty info and real review patterns, then drive to final decision/purchase. Not a summary — a decision driver. AEO term: "Is MelodySusie a good nail drill brand?" Word budget: 150 words.
+
+**Injection plan:**
+- `{{PRODUCTS:4:0,1,2,3}}` — immediately after H2 #1 (grid layout, all 4 products)
+- `{{PRODUCTS:1:0}}` — within H2 #3 (featured layout, winner)
+
+---
+
+## 8. Component Directives
+
+- **WinnerBadge**: ACTIVE — winnerIndex: 0 (Jade Plus) is set in Section 2.
+- **ShopInlineCTA**: ACTIVE — fires automatically since winnerIndex is set.
+- **ComparisonTable**: ACTIVE — showComparison: true and comparisonTable data present in Section 2. comparisonTable.columns[].values[] length (7) matches features[] length (7) exactly.
+- **ProsConsBlock**: INACTIVE — showProscons: false for this best-of post type.
+- **ShopFinalCTA**: ALWAYS ACTIVE — products[] exists.
+- **ShopFAQ**: ACTIVE — faqs[] has 6 entries in Section 2.
+- **ShopTableOfContents**: ALWAYS ACTIVE.
+- **Sidebar winner card**: ACTIVE — winnerIndex is set.
+
+Post gen owns full component rendering logic and render sequence; this section only confirms triggers are correctly set above.
+
+---
+
+## 9. Writing Instructions
+
+- Conversion copy throughout — every sentence moves the buyer toward a purchase decision.
+- Lead with buyer benefit, not specs. Specs support claims, never open a section.
+- Use buyer phrase bank language naturally (Section 5) without quoting reviews verbatim.
+- Address all 5 buying objections directly, no hedging.
+- Include honest cons (motor wear after heavy use, lower RPM ceiling on PC100G) and counter with why the pick is still right for its category.
+- Mention OFF8 and MSOFF15 near their CTA placements (Section 6), woven naturally.
+- Primary keyword **best MelodySusie nail drill** in `<strong>` tags every mention, including FAQ answers.
+- No editorial hooks. Open every H2 with the buyer benefit or buying question directly.
+- H2 sections stay short and scannable.
+- Conclusion (H2 #8) is a decision driver, not a recap.
+- Internal links mid-post only, after the first product CTA, natural anchor text.
+- No related articles section.
+- American English throughout.
+- Banned words: elevate, seamlessly, game-changing, dive into, transformative.
+- No em dashes, use commas or restructure.
+- Vary sentence rhythm: short and punchy for selling points, longer for context.
