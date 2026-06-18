@@ -1,0 +1,540 @@
+# THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT
+# All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions in this file must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy.
+
+---
+
+## SECTION 1 — CLUSTER SUMMARY
+
+- **Cluster:** EC-02 Nail Lamps
+- **Category route:** /shop/nail-lamps
+- **This post:** Post 15
+- **Title:** UV vs LED Nail Lamp: Which Should You Buy? (MelodySusie Options)
+- **Slug:** uv-vs-led-nail-lamp-melodysusie
+- **Post type:** comparison
+- **Primary keyword:** UV vs LED nail lamp
+- **Role:** Spoke post — feeds into EC-02 pillar (best-melodysusie-nail-lamps)
+- **Affiliate mode:** MelodySusie affiliate — aff=3711
+- **Region:** USA
+
+**Internal links this post must include (mid-post only, after first product CTA):**
+1. Link to EC-02 pillar → /shop/nail-lamps/best-melodysusie-nail-lamps — anchor: "best MelodySusie nail lamps"
+2. Link to Post 14 (cordless nail lamp) → /shop/nail-lamps/melodysusie-cordless-nail-lamp — anchor: "cordless nail lamp"
+3. Link to Post 17 (UV gloves) → /shop/nail-lamps/melodysusie-nail-lamp-uv-gloves — anchor: "UV protection gloves"
+
+**Posts that link to this post:** EC-02 pillar (post 2), Post 14 (cordless), Post 17 (UV gloves)
+
+---
+
+## SECTION 2 — FRONTMATTER BLOCK
+
+**POST GEN INSTRUCTION: Copy this frontmatter block exactly into the post. Do not change any field. All values are pre-filled and verified.**
+
+```yaml
+---
+title: "UV vs LED Nail Lamp: Which One Actually Cures Better?"
+excerpt: "UV or LED nail lamp — the answer changes everything about your gel results. Here's exactly which MelodySusie lamp wins for home use."
+date: 2026-06-18
+author: "Mirellé"
+category: "nail-lamps"
+image: "https://www.melodysusie.com/cdn/shop/files/6391ace427ade714b70fb966024ae804_0408d4f9-2576-4498-832d-da00abe41408.jpg?v=1769763110&width=1600"
+imageAlt: "UV vs LED nail lamp comparison — MelodySusie P-PLUS30G cordless UV LED nail lamp in white on clean surface"
+imageWidth: 1200
+imageHeight: 630
+readTime: "8 min read"
+canonical: ""
+postType: "comparison"
+winnerIndex: 0
+showComparison: true
+showProscons: true
+comparisonCaption: "How the top MelodySusie nail lamps compare across curing speed, wattage, portability, and price"
+
+products:
+  - name: "P-PLUS30G Rechargeable Cordless UV/LED Nail Lamp"
+    brand: "MelodySusie"
+    price: "$49.99"
+    compareAtPrice: "$59.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/6391ace427ade714b70fb966024ae804_0408d4f9-2576-4498-832d-da00abe41408.jpg?v=1769763110&width=1600"
+    link: "https://www.melodysusie.com/products/p-plus30g-rechargeable-cordless-uv-led-nail-lamp?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    rating: 5.0
+    reviewCount: 110
+    details:
+      - "48W dual UV/LED beads — cures all gel types in 30–60s"
+      - "7800mAh battery — 300 cures per charge, fully cordless"
+      - "Detachable base for hands and feet, smart auto-sensor"
+    pros:
+      - "Cures every gel type — color gel, builder gel, rhinestone glue, top coat"
+      - "Cordless and powerful — use anywhere without hunting for an outlet"
+      - "99s low-heat mode prevents the burning sensation on sensitive nails"
+      - "LCD display shows battery level and timer at a glance"
+      - "Detachable base makes pedicures just as easy as manicures"
+      - "7800mAh battery handles 300 cure cycles on a single charge"
+    cons:
+      - "Pricier than a basic corded lamp — but cordless freedom justifies the cost"
+      - "Larger footprint than handheld mini lamps — not the most travel-compact option"
+
+  - name: "P-PLUS30F UV/LED Nail Lamp"
+    brand: "MelodySusie"
+    price: "$19.99"
+    compareAtPrice: "$33.59"
+    image: "https://www.melodysusie.com/cdn/shop/files/a57964865d1fc6f29186b5b6ec99641f_4e4de29c-5a5d-4fb9-90d0-a287a1ae9b3c.jpg?v=1739934807&width=1600"
+    link: "https://www.melodysusie.com/products/p-plus30f-uv-led-nail-lamp?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Value"
+    rating: 5.0
+    reviewCount: 97
+    details:
+      - "36W dual UV/LED beads — cures all gel polish types"
+      - "Auto sensor + 30s/60s/99s timer presets"
+      - "Acetone-resistant body, ventilation holes prevent overheating"
+    pros:
+      - "Exceptional value — full dual UV/LED curing under $20"
+      - "30 dual-spectrum beads cure standard gel polish, rhinestone glue, and extension gel"
+      - "Auto-sensor hands-free operation — light on when hands go in, off when they come out"
+      - "Compact acetone-resistant body with ventilation holes for longevity"
+      - "Plugs directly into any outlet — no charging wait time"
+    cons:
+      - "Corded only — you stay tethered to a power source"
+      - "No LCD display or battery indicator"
+
+  - name: "EOS 9 (P-Plus30I) LED/UV Nail Lamp"
+    brand: "MelodySusie"
+    price: "$35.99"
+    compareAtPrice: "$49.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/6391ace427ade714b70fb966024ae804_251d58ec-721c-440f-9ecb-b97df8c13ec1.jpg?v=1700538346&width=1600"
+    link: "https://www.melodysusie.com/products/eos-9-led-uv-nail-lamp-b2b?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Editor's Pick"
+    rating: 5.0
+    reviewCount: 108
+    details:
+      - "54W — 30 dual LED/UV beads at 365nm+395nm wavelength"
+      - "50% faster curing than standard lamps — 30s gel, 60s rhinestone glue"
+      - "ABS premium plastic, lightweight at 550g, L190×W200×H85mm"
+    pros:
+      - "54W high power shortens cure time by 50% compared to standard lamps"
+      - "Dual wavelength (365nm+395nm) cures UV gel, poly gel, builder gel, sculpture gel"
+      - "Auto-sensor plus 30s/60s/90s preset timers"
+      - "Premium ABS build — lightweight, durable, salon-grade quality"
+      - "108 reviews averaging 5.0 — consistent, proven performer"
+    cons:
+      - "Corded design — less portable than rechargeable models"
+      - "No low-heat mode listed — may not suit very sensitive nails"
+
+  - name: "P-Plus20F Innovative UV Protection Rechargeable UV/LED Nail Lamp"
+    brand: "MelodySusie"
+    price: "$112.49"
+    image: "https://www.melodysusie.com/cdn/shop/files/381db143255f3e586ea52c1c36d9b5d5_0b184aa9-ce90-4bfa-8350-adc00aff6f30.jpg?v=1736152222&width=1600"
+    link: "https://www.melodysusie.com/products/p-plus20f-uv-protection-rechargeable-uv-led-nail-lamp?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Skin Safety"
+    rating: 5.0
+    reviewCount: 56
+    details:
+      - "Physical UV protection — zoned light targets nails, not skin"
+      - "240° rotatable panel, 48W, 365nm–405nm dual wavelength"
+      - "2025 Red Dot Design Award winner — charges for 300 uses in 2.5 hrs"
+    pros:
+      - "Only MelodySusie lamp with physical UV skin protection built in — not just low-heat mode"
+      - "Zoned directional light focuses on nail beds while blocking UV from hitting hand skin"
+      - "240° rotatable panel fits all hand sizes and finger lengths"
+      - "Rechargeable — 300 uses per 2.5-hour charge, fully cordless"
+      - "Red Dot Design Award 2025 — validated aesthetic and ergonomic design"
+    cons:
+      - "Premium price point — not the entry option"
+      - "20 beads vs 30 on other models — optimized for targeted curing, not raw wattage"
+
+comparisonTable:
+  caption: "How the top MelodySusie nail lamps compare"
+  features:
+    - "Wattage"
+    - "Power type"
+    - "Lamp beads"
+    - "Wavelength"
+    - "Timer settings"
+    - "Auto sensor"
+    - "Low-heat mode"
+    - "UV skin protection"
+    - "Cure time (color gel)"
+    - "Price"
+  columns:
+    - label: "P-PLUS30G"
+      values:
+        - "48W"
+        - "Rechargeable cordless"
+        - "30 beads"
+        - "365nm–405nm"
+        - "30s / 60s / 99s"
+        - true
+        - true
+        - false
+        - "30–60s"
+        - "$49.99"
+    - label: "P-PLUS30F"
+      values:
+        - "36W"
+        - "Corded"
+        - "30 beads"
+        - "365nm+405nm"
+        - "30s / 60s / 99s"
+        - true
+        - false
+        - false
+        - "30–60s"
+        - "$19.99"
+    - label: "EOS 9"
+      values:
+        - "54W"
+        - "Corded"
+        - "30 beads"
+        - "365nm+395nm"
+        - "30s / 60s / 90s"
+        - true
+        - false
+        - false
+        - "30s"
+        - "$35.99"
+    - label: "P-Plus20F"
+      values:
+        - "48W"
+        - "Rechargeable cordless"
+        - "20 beads"
+        - "365nm–405nm"
+        - "Not specified"
+        - true
+        - false
+        - true
+        - "30–60s"
+        - "$112.49"
+
+faqs:
+  - question: "What is the difference between a UV nail lamp and an LED nail lamp?"
+    answer: "Both cure gel polish using UV wavelengths — the difference is the bulb type and spectrum. Traditional UV lamps use fluorescent tubes emitting a broad 300–410nm spectrum; LED lamps use diodes emitting a narrower, targeted range (typically 365–405nm). LED cures in 30–60 seconds vs 2–4 minutes for old-style UV tubes. All modern MelodySusie lamps are dual UV/LED, meaning they cover both wavelengths and work with every gel formula on the market."
+
+  - question: "Can a UV/LED nail lamp cure all gel polishes?"
+    answer: "A dual UV/LED lamp cures virtually all modern gel polishes, builder gels, poly gels, and rhinestone adhesives. Old-formula gels designed specifically for fluorescent UV tubes may need longer cure times. MelodySusie's lamps emit both 365nm and 405nm wavelengths, which covers both UV-only and LED-optimized formulas — so compatibility is essentially universal."
+
+  - question: "How many watts do I need for a nail lamp at home?"
+    answer: "36W is the minimum for reliable results. 48W is the sweet spot for home use — it cures standard color gel in 30–60 seconds and handles builder gel and thick formulas without issue. The MelodySusie P-PLUS30F at 36W handles everyday gel polish perfectly. If you work with builder or extension gels regularly, step up to the EOS 9 at 54W or the P-PLUS30G at 48W."
+
+  - question: "Is LED or UV safer for your skin during gel manicures?"
+    answer: "LED lamps expose your skin to UV rays for less time because they cure faster — that's the main safety advantage. Both lamp types emit UVA light, which is the same wavelength that causes tanning. Dermatologists recommend applying sunscreen on your hands before curing if you do gel nails frequently. For the highest skin protection available, the MelodySusie P-Plus20F has physical UV-blocking zoned light technology that directs light onto nails while minimizing exposure to surrounding skin."
+
+  - question: "Do MelodySusie nail lamps work with all gel polish brands?"
+    answer: "Yes. MelodySusie lamps emit dual 365nm+405nm wavelengths, which are compatible with virtually every gel polish brand sold in the US — including Beetles, Modelones, Makartt, OPI, and others. The dual-spectrum design means you are not locked into using only MelodySusie gel polish."
+
+  - question: "What does low-heat mode do on a nail lamp?"
+    answer: "Low-heat mode (typically the 99s setting on MelodySusie lamps) starts the lamp at reduced intensity and gradually increases power. This prevents the heat spike that makes some people pull their hand out mid-cure. It is especially useful for builder gel, thick color gels, and anyone with thin or sensitive nails. The P-PLUS30G includes this feature; it is the mode to use when curing gel feels uncomfortable."
+
+  - question: "Can I use a cordless nail lamp at the salon?"
+    answer: "Yes. The MelodySusie P-PLUS30G and P-Plus20F are both rechargeable and fully cordless. The P-PLUS30G handles 300 cure cycles on a single 2-hour charge, making it a practical option for mobile nail techs and salon use without an outlet nearby."
+
+  - question: "Why are some nails not curing properly under my LED lamp?"
+    answer: "The most common causes are insufficient wattage (under 36W), applying gel too thick, using an old formula not optimized for LED wavelengths, or a lamp with poor bead positioning. Make sure your lamp is at least 36W, apply thin even coats, and check that your gel brand specifies LED or dual UV/LED compatibility. MelodySusie's dual-spectrum lamps eliminate the wavelength mismatch issue entirely."
+---
+```
+
+---
+
+## SECTION 3 — SEO AND KEYWORD PLAN
+
+**POST GEN INSTRUCTION: Follow this keyword plan exactly. Calculate density before writing. Do not estimate.**
+
+**Primary keyword:** `UV vs LED nail lamp`
+- **Keyword density target:** 1.2% — match top competitor density + 3 extra mentions in first half
+- **Total mention target:** ~12 mentions in a 1,000-word post
+- **First 150 words:** Primary keyword must appear exactly 2 times — both wrapped in `<strong>` tags
+- **ALL primary keyword mentions throughout entire post:** wrapped in `<strong>` tags, no exceptions
+
+**High CPC transactional keywords** (weave into CTAs, H2s, mid-post copy):
+- `best UV LED nail lamp for home use` — high buyer intent
+- `nail lamp for gel polish` — strong commercial volume
+- `buy nail lamp online USA` — GEO transactional
+- `MelodySusie nail lamp` — branded + purchase intent
+- `professional nail lamp 48W`
+- `cordless nail lamp rechargeable`
+- `dual UV LED nail lamp`
+
+**Keyword variations** (use naturally, no density target, no strong tags):
+- UV or LED nail lamp
+- LED nail lamp vs UV lamp
+- UV LED lamp for nails
+- nail curing lamp LED vs UV
+- gel nail lamp UV LED difference
+- what type of nail lamp to buy
+- UV lamp or LED lamp for gel nails
+
+**Transactional cluster keywords:**
+- nail lamp for gel nails at home
+- gel nail curing lamp USA
+- nail lamp with auto sensor
+- best nail lamp under $50
+- rechargeable nail lamp for home
+- nail lamp 36W vs 48W vs 54W
+- cordless nail lamp cordless
+- nail lamp with low heat mode
+
+**LSI semantic terms** (weave naturally):
+- photoinitiators
+- gel polymerization
+- UV-A wavelength
+- 365nm 405nm nail lamp
+- cure time gel polish
+- lamp beads dual spectrum
+- nail lamp wattage comparison
+- LED bulb lifespan 50000 hours
+- fluorescent UV tubes
+- gel nail compatibility
+- corded vs rechargeable nail lamp
+- nail lamp heat spike
+
+**AEO terms — mapped to H2 or FAQ:**
+| AEO Question | Mapped to |
+|---|---|
+| What is the difference between a UV nail lamp and an LED nail lamp? | FAQ #1 + H2: "UV vs LED Nail Lamp: What's Actually Different?" |
+| Which nail lamp cures gel polish faster? | H2: "Curing Speed: LED Wins Every Time" |
+| How many watts does a nail lamp need to be for home use? | FAQ #3 + H2: "Wattage: What Number Actually Matters?" |
+| Is a UV lamp or LED lamp safer for your skin? | FAQ #4 + H2: "UV Exposure: Which Lamp Is Safer for Your Skin?" |
+| Can one nail lamp cure all gel polish brands? | FAQ #5 + H2: "Compatibility: Will It Work With Your Gel Polish?" |
+| What does low heat mode do on a nail lamp? | FAQ #6 |
+| Can I use a cordless nail lamp for salon work? | FAQ #7 |
+| Why are my gel nails not curing properly? | FAQ #8 |
+| Which MelodySusie nail lamp is best for beginners? | H2: "Which MelodySusie Lamp Should You Actually Buy?" |
+| Do MelodySusie lamps work with all gel polish brands? | FAQ #5 |
+
+**GEO terms** (place near CTAs and shipping/availability mentions):
+- best nail lamp to buy in the USA
+- MelodySusie nail lamp free shipping USA
+- where to buy nail lamp online US
+- nail lamp fast shipping United States
+- MelodySusie ships to USA
+
+**Buyer phrase bank** (weave naturally into copy — exact phrases from real buyers):
+- "I don't feel the need to visit an expensive nail salon anymore"
+- "works like a champ"
+- "dries nails fully with one 60 second setting"
+- "easy to use, the size is great for countertop manicures"
+- "my nails kept peeling off — NOW with THIS lamp, problem solved"
+- "48W cures in under 30 seconds"
+- "I've had an 8W lamp and now a 48W lamp — the curing time difference is night and day"
+- "timers go from 30 seconds to 2 minutes"
+- "low heat mode prevents clients from pulling their hand out"
+- "gel polish runs before it cures" (pain point when wattage is too low)
+
+---
+
+## SECTION 4 — COMPETITOR AND TITLE INTELLIGENCE
+
+**POST GEN INSTRUCTION: Use this section to write a title and excerpt that outperforms competitors on CTR. Analysis is done — execute it.**
+
+**Top 3 competitor titles for `UV vs LED nail lamp`:**
+1. "LED vs UV Nail Lamp: What's the Difference?" (nailtechniciantraining.co.uk) — informational, no buying angle, no brand
+2. "UV vs LED Nail Lamp: What's the Difference and Which Is Best for You?" (btartboxnails.com) — generic, no specifics
+3. "LED vs. UV Nail Lamp: What's Best for Your Manicure?" (dashingdiva.com) — soft, no urgency
+
+**What competitor titles lack:**
+- No answer in the title — they tease, they don't solve
+- No brand specificity — no MelodySusie angle
+- No buyer benefit signal — no "cures better," "faster," "home use"
+
+**Our title direction:** Lead with the decision outcome, not the question. Signal that the answer is in the post. The title pre-filed in Section 2 — "UV vs LED Nail Lamp: Which One Actually Cures Better?" — is sharper than all competitors: implies test, implies answer, implies buyer benefit.
+
+**Competitor gaps** (missing from all top-ranking posts — these become mandatory H2 sections):
+1. Wattage explained in plain language (W matters more than UV vs LED label)
+2. The "modern lamps are all dual UV/LED" truth — buyers don't know this
+3. Which specific lamp to buy at which price point
+4. Low-heat mode — what it is and when to use it
+5. Skin safety specifics beyond just "apply sunscreen"
+
+**Word count target:** 950–1,050 words (matches competitor average; slightly higher for added gaps coverage)
+
+---
+
+## SECTION 5 — BUYER INTELLIGENCE
+
+**POST GEN INSTRUCTION: Every paragraph of copy must be written for this specific buyer. Use the exact phrases listed here naturally in the copy.**
+
+**Who this buyer is:**
+- Women 25–45, at-home DIY gel manicure enthusiast or beginner
+- May be upgrading from cheap lamp or buying first lamp ever
+- Confused by "UV" vs "LED" labels on product pages
+- Often buys gel polish from multiple brands and worried about compatibility
+- Budget-conscious but willing to spend more if they understand why
+
+**What they need from this post:**
+- A definitive answer: which type of lamp should I buy?
+- Wattage explained without tech jargon
+- Confirmation their gel polish brand will work
+- A clear product recommendation at their price point
+
+**What frustrates them:**
+- Vague "it depends" answers that don't commit
+- Posts that explain UV vs LED but never say which one to buy
+- Cheap lamps that don't actually cure gel — waste of money
+- The burning/heat spike sensation mid-cure
+- Gel polish running before it cures because lamp is underpowered
+
+**Top 5 buying objections — each must be addressed in the post body:**
+1. "Will it work with the gel polish brand I already own?" → Address in compatibility H2
+2. "Is the UV light going to damage my skin?" → Address in skin safety H2
+3. "Why do I need 48W when cheaper lamps exist at 12W?" → Address in wattage H2
+4. "Do I really need cordless or is corded fine?" → Address in product section
+5. "What if the curing takes too long or burns?" → Address via low-heat mode mention
+
+**Buyer phrase bank (use these naturally in body copy):**
+- "the curing time difference is night and day" — for wattage section
+- "my nails kept peeling off — until I switched lamps" — for hook/intro
+- "gel runs before it cures" — pain point, low wattage warning
+- "I don't want to burn my clients' fingers" — for low heat mode
+- "works like a champ and paid for itself in one manicure"
+- "I can do a full manicure at home instead of going to the salon"
+- "I don't feel the need to visit an expensive nail salon anymore"
+
+**Recurring praise from real reviews (use as selling points):**
+- Fast curing — multiple buyers cite 30–60s as the standout benefit
+- Auto sensor — hands-free operation praised for convenience
+- Compatibility — cures all gel types without compatibility issues
+- Value — P-PLUS30F praised as exceptional for the price
+
+**Recurring complaints across category (address honestly):**
+- Cheap lamps (not MelodySusie) stop working quickly — builds trust for quality brand
+- Heat spikes from underpowered lamps or thick application
+- Corded design limits where you can do nails
+
+---
+
+## SECTION 6 — DISCOUNT AND CONVERSION DATA
+
+**POST GEN INSTRUCTION: Include active discount info naturally near CTAs — real conversion boosters. Do not block-quote them.**
+
+**Active MelodySusie discount codes (verified on site):**
+- `OFF8` — 8% off sitewide (no minimum)
+- `MSOFF15` — 15% off orders over $129.99
+
+**Sale pricing confirmed:**
+- P-PLUS30G: $49.99 (was $59.99) — $10 off
+- P-PLUS30F: $19.99 (was $33.59) — $13.60 off
+- EOS 9: $35.99 (was $49.99) — $14 off
+- P-Plus20F: $112.49 (no compare-at found)
+
+**Free US shipping:** On orders over $129.99
+
+**Placement:** Mention discount codes naturally near the ShopInlineCTA section and again near ShopFinalCTA. Example placement: "Use code **OFF8** for an extra 8% off at checkout."
+
+---
+
+## SECTION 7 — CONTENT STRUCTURE
+
+**POST GEN INSTRUCTION: Use these H2 headings in this exact order. Do not rename, reorder, or remove any. Add H3s at your discretion within each section.**
+
+**Word count target:** 950–1,050 words total. Distribute as follows:
+
+### INTRO (no H2) — 120–140 words
+- Open with buyer pain point: the gel that won't cure, the lamp that takes forever, the burning sensation
+- State the real problem: "UV vs LED" labeling confuses buyers — but the truth is simpler than the labels suggest
+- Primary keyword in first 2 sentences, both in `<strong>` tags
+- Hook: "Every MelodySusie lamp listed here is actually a dual UV/LED — and that changes the whole conversation"
+- No product injection here
+
+---
+
+### H2: UV vs LED Nail Lamp: What's Actually Different? — 130–150 words
+- **AEO mapped here:** "What is the difference between a UV nail lamp and an LED nail lamp?"
+- Explain the real difference plainly: UV = fluorescent tubes, broad spectrum, slow (2–4 min). LED = diodes, targeted wavelength, fast (30–60s)
+- The key truth to land: modern lamps (including all MelodySusie models) are dual UV/LED — they cover both spectrums
+- No product injection here — education section only
+
+---
+
+### H2: Curing Speed: LED Wins, But Wattage Decides by How Much — 100–120 words
+- **AEO mapped here:** "Which nail lamp cures gel polish faster?"
+- Plain language on wattage: 36W, 48W, 54W — what each delivers
+- Use buyer phrase: "the curing time difference between my old 8W lamp and a 48W is night and day"
+- Quick comparison of MelodySusie wattages across the 4 products
+- **{{PRODUCTS:2:0,2}}** — P-PLUS30G and EOS 9 side by side after this section
+
+---
+
+### H2: UV Exposure: Which Lamp Is Safer for Your Skin? — 100–120 words
+- **AEO mapped here:** "Is a UV lamp or LED lamp safer for your skin?"
+- Both emit UVA — LED exposes skin for less total time because curing is faster
+- Mention low-heat mode (P-PLUS30G) for heat spike prevention
+- Mention P-Plus20F physical UV protection as the premium skin-safe option
+- Practical tip: sunscreen on hands before curing if you do nails weekly+
+- **Internal link:** "UV protection gloves" → /shop/nail-lamps/melodysusie-nail-lamp-uv-gloves — place naturally here
+
+---
+
+### H2: Compatibility: Will It Work With Your Gel Polish? — 80–100 words
+- **AEO mapped here:** "Can one nail lamp cure all gel polish brands?"
+- Answer upfront: yes, dual 365nm+405nm covers everything
+- Reassure buyer: MelodySusie lamps are not locked to MelodySusie gel polish
+- **{{PRODUCTS:2:1,3}}** — P-PLUS30F and P-Plus20F side by side after this section
+
+---
+
+### H2: Which MelodySusie Lamp Should You Actually Buy? — 150–170 words
+- **AEO mapped here:** "Which MelodySusie nail lamp is best for beginners?"
+- Structured buying guide by use case — H3 format recommended:
+  - **H3: Best for beginners and everyday home use** → P-PLUS30F ($19.99) — plug in and go, zero setup
+  - **H3: Best overall for home use** → P-PLUS30G ($49.99) — cordless, 48W, 110 reviews at 5.0
+  - **H3: Best for faster curing and heavier gels** → EOS 9 ($35.99) — 54W, 50% faster
+  - **H3: Best if skin safety is a priority** → P-Plus20F — physical UV protection, Red Dot Award
+- Use code OFF8 mention here naturally
+- **Internal link:** "best MelodySusie nail lamps" → /shop/nail-lamps/best-melodysusie-nail-lamps
+- **Internal link:** "cordless nail lamp" → /shop/nail-lamps/melodysusie-cordless-nail-lamp
+
+---
+
+### CONCLUSION — 80–100 words
+- No summary — a decision driver
+- Reinforce: the UV vs LED debate is mostly settled — dual lamps handle everything
+- What matters: wattage, cordless vs corded, price
+- Clear CTA to the winner (P-PLUS30G) with discount code mention
+- Final buyer-language close: "Stop overpaying at the salon for something you can do in 60 seconds at home"
+
+---
+
+**INJECTION PLAN:**
+| Placement | Syntax | Products |
+|---|---|---|
+| After "Curing Speed" H2 | `{{PRODUCTS:2:0,2}}` | P-PLUS30G (index 0) + EOS 9 (index 2) |
+| After "Compatibility" H2 | `{{PRODUCTS:2:1,3}}` | P-PLUS30F (index 1) + P-Plus20F (index 3) |
+
+---
+
+## SECTION 8 — COMPONENT DIRECTIVES
+
+**POST GEN INSTRUCTION: These components fire automatically from frontmatter. Confirm trigger fields in Section 2 are correctly set. Never write component content in body — it auto-renders.**
+
+| Component | Status | Trigger |
+|---|---|---|
+| WinnerBadge | **ACTIVE** | winnerIndex: 0 is set |
+| ShopInlineCTA | **ACTIVE** | winnerIndex: 0 is set — fires after ~30% of content |
+| ComparisonTable | **ACTIVE** | showComparison: true + comparisonTable data present |
+| ProsConsBlock | **ACTIVE** | showProscons: true — one block per product |
+| ShopFinalCTA | **ALWAYS ACTIVE** | products[] array exists |
+| ShopFAQ | **ACTIVE** | faqs[] array has 8 entries |
+| ShopTableOfContents | **ALWAYS ACTIVE** | reads H2/H3 from body |
+| Sidebar winner card | **ACTIVE** | winnerIndex: 0 is set |
+
+---
+
+## SECTION 9 — WRITING INSTRUCTIONS
+
+**POST GEN INSTRUCTION: Follow these rules for every paragraph of body copy — no exceptions.**
+
+- This is conversion copy — every sentence moves the buyer toward a purchase decision
+- Lead with buyer benefit, not product specs — specs support, never lead
+- Use buyer phrases from Section 5 naturally in the copy
+- Address all 5 buying objections (listed in Section 5) somewhere in the body
+- Honest cons build trust — they are already in the frontmatter; reference them naturally in body when relevant
+- Discount code `OFF8` mentioned near ShopInlineCTA area and conclusion — naturally, not as a standalone call-out
+- Primary keyword `UV vs LED nail lamp` in `<strong>` tags every mention — no exceptions
+- No editorial hooks — open each H2 directly with the buyer benefit or buying answer
+- H2 sections are short and punchy — buyers scan
+- Conclusion = decision driver, not summary
+- Internal links placed mid-post only, after first product CTA — anchors as specified in Section 7
+- Language: American English only
+- No banned patterns: no "elevate," "seamlessly," "game-changing," "dive into," "transformative"
+- No long em dashes — comma or restructure
+- Sentence rhythm varies — short punchy for key points, slightly longer for context
+- No "we tested" — editorial observation tone only
+- GEO terms near CTAs: "ships fast to the US," "available now with free US shipping over $129.99"
