@@ -1,0 +1,548 @@
+# shop_input_file.md — Post 30: MelodySusie Pedicure Tools: Best Foot Care Kit
+
+> **THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT.** All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions in this file must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy.
+
+---
+
+## SECTION 1 — CLUSTER SUMMARY
+
+- **Cluster:** EC-05 Nail Care Tools
+- **Category route:** `/shop/nail-care-tools`
+- **This post:** Post 30 — *MelodySusie Pedicure Tools: Best Foot Care Kit*
+- **Slug:** `melodysusie-pedicure-tools`
+- **Primary keyword:** `MelodySusie pedicure tools`
+- **Post type:** best-of (transactional)
+- **Role:** Spoke post under EC-05 pillar ("Best MelodySusie Nail Care Tools: Files, Clippers & Dust Collectors")
+- **Affiliate mode:** MelodySusie affiliate — `?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol`
+- **Region:** USA
+
+**Internal links this post must include (mid-post only, after first product CTA):**
+- EC-05 pillar → `/shop/nail-care-tools/best-melodysusie-nail-care-tools` — anchor: "MelodySusie nail care tools"
+- EC-01-S1 spoke → `/shop/nail-drills/melodysusie-nail-drill-beginners` — anchor: "MelodySusie nail drill for beginners"
+
+**Posts that link to this post:** EC-05 pillar
+
+**Active discount codes:**
+- `OFF8` — 8% off sitewide
+- `MSOFF15` — 15% off orders over $129.99
+- Free US shipping on orders over $129.99
+
+---
+
+## SECTION 2 — FRONTMATTER BLOCK
+
+> **Post gen instruction:** Copy this frontmatter block exactly into the post. Do not change any field. Image URLs, prices, product names, slugs — all pre-filled here.
+
+```yaml
+---
+title: "Best MelodySusie Pedicure Tools: Callus Removers & Foot Kits Ranked"
+excerpt: "Rough heels, thick toenails, stubborn calluses — MelodySusie's pedicure tools tackle all of it. Here are the best picks for salon-smooth feet at home."
+date: 2026-06-18
+author: Mirellé
+category: nail-care-tools
+image: "https://www.melodysusie.com/cdn/shop/files/1_c5c545f1-80f2-4b5d-9b46-7295c6721e2e.jpg?v=1764920793&width=1600"
+imageAlt: "MelodySusie pedicure tools PC800G electric callus remover in white gold on clean surface"
+imageWidth: 1200
+imageHeight: 630
+readTime: "8 min read"
+canonical: ""
+postType: "best-of"
+winnerIndex: 0
+showComparison: true
+showProscons: false
+comparisonCaption: "How the top MelodySusie pedicure picks compare"
+
+products:
+  - name: "PC800G Rechargeable Feet Callus Remover"
+    brand: "MelodySusie"
+    price: "$29.99"
+    compareAtPrice: "$45.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_c5c545f1-80f2-4b5d-9b46-7295c6721e2e.jpg?v=1764920793&width=1600"
+    link: "https://www.melodysusie.com/products/pc800g-rechargeable-feet-callus-remover-white-gold?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    rating: 4.8
+    reviewCount: 42
+    details:
+      - "IPX7 waterproof — rinse under the tap after every use"
+      - "3 interchangeable roller heads (fine, medium, coarse) + built-in LED light"
+      - "3 adjustable speeds up to 2000RPM, 3-hour cordless battery life"
+    pros:
+      - "Dedicated callus remover design — roller heads are purpose-built for heel and skin work, not nail drilling"
+      - "IPX7 fully waterproof body means you can rinse it clean under running water in seconds"
+      - "Three grit levels cover daily maintenance (fine) through heavy callus removal (coarse)"
+      - "LED light illuminates the work area so you can actually see what you're smoothing"
+      - "Compact and travel-friendly — under 10.5 oz and rechargeable via USB"
+    cons:
+      - "3-hour battery life is shorter than some competitors — not ideal for very extended sessions"
+      - "Roller head design works differently from traditional foot files; takes one or two uses to get the technique right"
+
+  - name: "PC760G Manicure & Pedicure Nail Drill Kit 4,600RPM"
+    brand: "MelodySusie"
+    price: "$29.99"
+    compareAtPrice: "$39.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_22ee0c99-7415-44d4-bce4-9966c65fd252.jpg?v=1742288441&width=1600"
+    link: "https://www.melodysusie.com/products/pc760g-manicure-pedicure-nail-drill-kit-4600-rpm?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Value"
+    rating: 5.0
+    reviewCount: 57
+    details:
+      - "8-in-1 kit: 8 drill bits covering cuticles, dead skin, thick toenails, polish removal"
+      - "360° U-shaped surround LED light — no dark spots during use"
+      - "Cordless, 2000mAh battery, up to 6 hours use, rechargeable"
+    pros:
+      - "Perfect 5.0 rating across 57 reviews — the most-reviewed and top-rated pedicure drill in the lineup"
+      - "8 included bits cover every foot care task: dead skin, toenail polishing, cuticle work, callus removal"
+      - "360° U-shaped LED surrounds the work area so you can see clearly at any angle"
+      - "6-hour cordless battery life — enough for full family foot care sessions"
+      - "Suitable for beginners, seniors, and even pets"
+    cons:
+      - "4,600 RPM cap is lower than the PC650E — may take longer on very thick or stubborn calluses"
+      - "Anti-dust shield needs to be seated correctly or debris can escape"
+
+  - name: "PC650E Manicure & Pedicure Nail Drill Kit 6,000RPM"
+    brand: "MelodySusie"
+    price: "$29.99"
+    compareAtPrice: "$45.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/PC650E_7b3a658f-0e54-4c5c-a0b0-20da839c45f7.jpg?v=1724381462&width=1600"
+    link: "https://www.melodysusie.com/products/pc650e-manicure-pedicure-nail-drill-kit-6000rpm?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Most Powerful"
+    rating: 4.8
+    reviewCount: 26
+    details:
+      - "6,000 RPM + 650 gf.cm torque — highest power in MelodySusie's pedicure drill range"
+      - "20 speed levels across 3 ranges (low/medium/high) with color-coded LED indicators"
+      - "USB Type-C charging, up to 6 hours battery, forward and reverse rotation"
+    pros:
+      - "6,000 RPM at 650 gf.cm torque — the highest-powered pedicure drill in MelodySusie's lineup"
+      - "20 adjustable speed levels with color-coded indicators make it easy to dial in the right setting"
+      - "USB Type-C charging is faster and more universal than older micro-USB connections"
+      - "Forward and reverse rotation accommodates both left and right-handed users"
+      - "Effective for thick calluses, corns, deformed toenails, and dead skin removal"
+    cons:
+      - "Higher RPM means more caution needed — not as beginner-friendly as the PC760G"
+      - "Fewer reviews than the PC760G, though 4.8 rating is still excellent"
+
+  - name: "PS1 (PC500D) Manicure & Pedicure Nail Drill Kit 650RPM"
+    brand: "MelodySusie"
+    price: "$39.99"
+    compareAtPrice: "$47.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/PC500D_74285bbd-1474-40e4-8054-71ca145b2804.jpg?v=1724381433&width=1600"
+    link: "https://www.melodysusie.com/products/p-manicure-pedicure-nail-drill-kit?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Safest for Sensitive Skin"
+    rating: 4.8
+    reviewCount: 59
+    details:
+      - "Ultra-low 650 RPM — safe for direct skin contact without risk of over-grinding"
+      - "500 gf.cm high-torque motor — compensates for low speed with strong cutting force"
+      - "Food-grade silicone anti-slip handle, 8-in-1 bit set, dust shield included"
+    pros:
+      - "650 RPM maximum makes it the safest pedicure drill for sensitive skin, elderly users, and beginners new to electric foot tools"
+      - "500 gf.cm torque is high enough to remove thick calluses even at low speed — won't stall under pressure"
+      - "Food-grade silicone grip is comfortable and non-slip even during longer use sessions"
+      - "8 dedicated pedicure bits included — cuticle, heel, callus, polishing covered"
+      - "4.8 rating across 59 reviews shows consistent user satisfaction"
+    cons:
+      - "650 RPM is intentionally slow — users with very heavy calluses may need more passes than the PC650E"
+      - "Slightly higher price point than the PC760G and PC650E without meaningfully more features"
+
+  - name: "6Pcs Polish Pedicure Nail Drill Bits with 16 Holes Bits Holder Set"
+    brand: "MelodySusie"
+    price: "$9.99"
+    compareAtPrice: "$12.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_622b1ae4-fc00-48bb-a166-bb2ac91e9199.jpg?v=1718359812&width=1600"
+    link: "https://www.melodysusie.com/products/6pcs-polish-pedicure-nail-drill-bits-with-16-holes-bits-holder-set?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Add-On"
+    rating: 5.0
+    reviewCount: 50
+    details:
+      - "6 silicone polishing bits in mixed grits (180–800) for fine foot surface and hand finishing"
+      - "Universal 3/32\" shank — fits all MelodySusie pedicure drills and most standard e-files"
+      - "Compact 16-hole holder keeps bits organized and travel-ready"
+    pros:
+      - "Perfect 5.0 rating across 50 reviews — a best-in-class upgrade add-on"
+      - "Six grit levels from 180 (foot sole) to 800 (ultra-fine polishing) cover every finishing stage"
+      - "Universal 3/32\" shank fits all MelodySusie pedicure drills plus most third-party e-files"
+      - "16-hole compact holder keeps bits sorted and prevents them rolling off the table"
+      - "Under $10 — easy impulse buy that meaningfully upgrades any pedicure drill kit"
+    cons:
+      - "Silicone bits are polishing/finishing tools only — not designed for heavy callus removal"
+      - "Six bits may not be enough for high-frequency salon use; home users will be fine"
+
+comparisonTable:
+  features:
+    - "Price"
+    - "Max Speed"
+    - "Torque"
+    - "Battery Life"
+    - "Bits Included"
+    - "Waterproof"
+    - "LED Light"
+    - "Best For"
+  columns:
+    - name: "PC800G Callus Remover"
+      badge: "Best Overall"
+      values:
+        - "$29.99"
+        - "2,000 RPM"
+        - "High-performance motor"
+        - "3 hours"
+        - "3 roller heads"
+        - "IPX7 fully waterproof"
+        - true
+        - "Cracked heels & calluses"
+    - name: "PC760G Drill Kit"
+      badge: "Best Value"
+      values:
+        - "$29.99"
+        - "4,600 RPM"
+        - "760 gf.cm"
+        - "6 hours"
+        - "8 bits"
+        - false
+        - "360° surround LED"
+        - "All-around beginners"
+    - name: "PC650E Drill Kit"
+      badge: "Most Powerful"
+      values:
+        - "$29.99"
+        - "6,000 RPM"
+        - "650 gf.cm"
+        - "6 hours"
+        - "8 bits"
+        - false
+        - true
+        - "Thick calluses & toenails"
+    - name: "PS1 PC500D"
+      badge: "Safest"
+      values:
+        - "$39.99"
+        - "650 RPM"
+        - "500 gf.cm"
+        - "6 hours"
+        - "8 bits"
+        - false
+        - true
+        - "Sensitive skin & seniors"
+    - name: "Pedicure Bits Set"
+      badge: "Best Add-On"
+      values:
+        - "$9.99"
+        - "N/A"
+        - "N/A"
+        - "N/A"
+        - "6 silicone bits"
+        - false
+        - false
+        - "Finishing & polishing"
+
+faqs:
+  - question: "What are the best MelodySusie pedicure tools for cracked heels?"
+    answer: "The PC800G Electric Callus Remover is the best pick for cracked heels. Its 3-speed roller heads (fine, medium, coarse) and IPX7 waterproof body are purpose-built for heel and dead skin work. It runs at up to 2,000 RPM with a dedicated callus-removal motor — not a converted nail drill — so the roller action is safer and more effective on skin."
+
+  - question: "What is the difference between the PC760G and PC650E pedicure nail drills?"
+    answer: "The PC760G runs at 4,600 RPM with 760 gf.cm torque and a unique 360° U-shaped LED for maximum visibility — it is the better beginner pick. The PC650E runs at 6,000 RPM with 650 gf.cm torque and 20 speed levels — it handles thicker calluses and toenails faster but requires more control. Both are $29.99 on sale."
+
+  - question: "Are MelodySusie pedicure drills safe for home use?"
+    answer: "Yes. MelodySusie designs its pedicure drills specifically for skin use, not just nails. The PC500D runs at a maximum 650 RPM — far below standard nail drills — making it safe for beginners, seniors, and sensitive skin. The PC760G and PC650E cap out at 4,600 and 6,000 RPM respectively but include dust shields and are cordless for comfortable home use."
+
+  - question: "Can I use MelodySusie pedicure tools on thick toenails?"
+    answer: "Yes. The PC760G (8-in-1 bits kit) and PC650E (6,000 RPM) both include drill bits rated for thick toenail grinding. The PS1 PC500D's 500 gf.cm high-torque motor is also effective on thick nails at low speed without risk of overheating or stalling."
+
+  - question: "Do MelodySusie pedicure tools work for men?"
+    answer: "All MelodySusie pedicure tools are unisex and work on any foot type. The PC760G explicitly lists suitability for women, men, kids, seniors, and even pets. For men with heavy calluses or thick toenails, the PC650E's 6,000 RPM is the strongest option."
+
+  - question: "What MelodySusie discount codes are available?"
+    answer: "MelodySusie currently offers code OFF8 for 8% off sitewide, and MSOFF15 for 15% off orders over $129.99. Free US shipping also applies to orders over $129.99. Stacking codes is not supported — apply the one that gives the highest saving for your order total."
+
+  - question: "Can I use MelodySusie pedicure bits with other nail drills?"
+    answer: "Yes. The 6Pcs Polish Pedicure Bits use a universal 3/32-inch shank, which is the industry standard. They fit all MelodySusie pedicure drills and most professional e-files on the market."
+
+  - question: "How long does the MelodySusie callus remover battery last?"
+    answer: "The PC800G Electric Callus Remover delivers up to 3 hours of continuous use on a single charge. The pedicure nail drill kits (PC760G, PC650E, PS1) last up to 6 hours. All models are USB rechargeable."
+---
+```
+
+---
+
+## SECTION 3 — SEO AND KEYWORD PLAN
+
+> **Post gen instruction:** Follow this keyword plan exactly. Calculate density before writing — do not estimate.
+
+**Primary keyword:** `MelodySusie pedicure tools`
+**Keyword density target:** 1.5% — match top competitor average. Add 3 extra mentions in first half.
+**Total mention target:** ~14 mentions for 900-word post (target word count: 900 words — see Section 4).
+**First 150 words:** primary keyword must appear exactly 2 times — both in `<strong>` tags.
+**ALL primary keyword mentions throughout entire post** wrapped in `<strong>` tags.
+
+**Keyword variations (no density target, no strong tags, use naturally):**
+- MelodySusie foot care tools
+- MelodySusie pedicure kit
+- MelodySusie pedicure drill
+- MelodySusie callus remover
+- MelodySusie electric pedicure set
+- MelodySusie foot file
+- MelodySusie toenail care tools
+
+**High CPC transactional cluster keywords (weave into CTAs, H2s, mid-post):**
+- electric callus remover for feet (est. CPC $1.80–$2.40)
+- pedicure tools at home (est. CPC $1.20–$1.60)
+- best callus remover feet 2025 (est. CPC $1.50–$2.00)
+- cordless pedicure foot file (est. CPC $1.40–$1.80)
+- electric foot file cracked heels (est. CPC $1.60–$2.20)
+- pedicure nail drill for thick toenails (est. CPC $1.30–$1.70)
+- rechargeable callus remover (est. CPC $1.50–$2.00)
+- professional pedicure tools home use (est. CPC $1.20–$1.60)
+
+**LSI semantic terms (weave naturally):**
+- cracked heels, dead skin removal, callus removal, thick toenails, corns
+- foot care routine, salon-quality pedicure at home, spa pedicure tools
+- rechargeable foot file, cordless e-file, USB nail drill
+- cuticle care, foot exfoliation, IPX7 waterproof, LED light pedicure
+- foot grinder, toenail grinder, pedicure bits
+
+**AEO terms — mapped to H2 or FAQ:**
+- "What are the best pedicure tools for cracked heels?" → FAQ #1
+- "What is the difference between the PC760G and PC650E?" → FAQ #2 + H2: "PC760G vs PC650E: Which MelodySusie Drill Is Right for You?"
+- "Are electric pedicure drills safe to use at home?" → FAQ #3
+- "What MelodySusie pedicure tools work on thick toenails?" → FAQ #4
+- "Do MelodySusie pedicure tools work for men?" → FAQ #5
+- "How long does the MelodySusie callus remover battery last?" → FAQ #8
+- "What is the best electric foot file for dead skin?" → H2: "The PC800G: Best Electric Callus Remover for Cracked Heels"
+- "How do I do a pedicure at home with electric tools?" → H2: "How to Use MelodySusie Pedicure Tools at Home"
+
+**GEO terms (place near CTAs and availability copy):**
+- best pedicure tools USA
+- callus remover fast shipping USA
+- where to buy MelodySusie pedicure tools online
+- MelodySusie ships to USA
+- pedicure tools available online United States
+
+---
+
+## SECTION 4 — COMPETITOR AND TITLE INTELLIGENCE
+
+> **Post gen instruction:** Use this section to write a title and excerpt that outperforms competitors on CTR.
+
+**SERP landscape for "MelodySusie pedicure tools":**
+- Thin competition — no dominant authority post owns this exact keyword
+- General pedicure tool roundups (Zamberg, GERmaniküre, listful.com, glamsquad.com) rank but none are brand-specific
+- Top competitor format: 5–8 product lists, ~800–1,100 words, manual tool focus
+- Gap 1: No competitor post covers MelodySusie's electric pedicure range specifically
+- Gap 2: No competitor addresses the PC800G callus remover vs drill kit question buyers have
+- Gap 3: No competitor covers the discount/pricing angle (all products $29.99 on sale)
+- Gap 4: No AEO-optimized FAQ section in ranking posts
+
+**Top 3 competitor title patterns:**
+1. "Best Pedicure Kits for 2025" — generic, no brand
+2. "Must-Have Pedicure Tools for an Amazing Home Pedicure" — informational, no transactional signal
+3. "Home Pedicure Kits: 8 Podiatrist Picks" — authority angle but no MelodySusie
+
+**Our title beats them by:** Brand specificity + transactional signal + ranked format
+- Title: *Best MelodySusie Pedicure Tools: Callus Removers & Foot Kits Ranked*
+
+**Mandatory H2 sections from competitor gaps:**
+1. The difference between the PC800G callus remover and the pedicure drill kits (buyers are confused)
+2. Which tool works for thick toenails (addressed by no competitor)
+3. Beginner vs power-user recommendation (addressed vaguely elsewhere)
+
+**Word count target:** 900 words (match competitor average + 10%)
+
+---
+
+## SECTION 5 — BUYER INTELLIGENCE
+
+> **Post gen instruction:** Every paragraph of copy must be written for this specific buyer. Use the exact phrases listed here naturally in the copy.
+
+**Who this buyer is:**
+- Home pedicure user, 25–55, female skew but unisex purchase signal
+- Not a nail tech — a regular person tired of spending $40–$60 at the salon for results that fade in 2 weeks
+- May have cracked heels, rough skin, thick toenails, or neglected feet
+- Browsing in spring/summer (sandal season) or gifting context
+
+**What they need from this post:**
+- Help deciding between an electric callus remover (PC800G) and a pedicure drill kit (PC760G, PC650E, PS1)
+- Confidence the tools are safe to use on skin at home — not just nails
+- Reassurance on battery life, ease of cleaning, and value for money
+
+**Top 5 buying objections:**
+1. "Will this hurt my skin? It looks like a nail drill." → Address: pedicure-specific design, safe speeds
+2. "I don't know which one to buy — they all look the same." → Address: comparison table + clear pick per use case
+3. "Is $30 worth it when I can get a pumice stone for $3?" → Address: electric vs manual efficiency, time saved
+4. "Does the battery last long enough?" → Address: 3–6 hour battery per model
+5. "Can I clean it easily?" → Address: IPX7 waterproof on PC800G, dust shields on drills
+
+**Buyer phrase bank (use naturally in copy):**
+- "smooth out cracked heels"
+- "rough dead skin on my heels"
+- "thick toenails I can't clip properly"
+- "skip the salon trip"
+- "do my pedicure at home"
+- "soft feet without the spa price"
+- "safe to use on skin, not just nails"
+- "cordless so I can use it on the couch"
+- "low noise so it doesn't wake anyone up"
+- "rinse it clean after use"
+- "works on calluses and corns"
+- "USB charging, easy to travel with"
+
+**Recurring praise themes from reviews:**
+- PC760G: "perfect," "works very well," "used it right away" — enthusiasm from first use
+- PC500D/PS1: "safe and comfortable performance" — explicitly validated by MelodySusie review data
+- PC800G: "smooth dead skin, cracked heels, stubborn calluses" — outcome-first language
+- Pedicure bits: 5.0 rating, consistently liked for fit and durability
+
+**Recurring complaints:**
+- PC500D: "lighter tasks only — heavy calluses take longer at 650 RPM"
+- Buyers want waterproofing — the PC800G is the only IPX7 model; flag this as a differentiator
+
+---
+
+## SECTION 6 — DISCOUNT AND CONVERSION DATA
+
+> **Post gen instruction:** Include active discount information naturally in the post near product CTAs.
+
+| Product | Sale Price | Compare-At | Saving |
+|---|---|---|---|
+| PC800G Callus Remover | $29.99 | $45.99 | 35% off |
+| PC760G Drill Kit | $29.99 | $39.99 | 25% off |
+| PC650E Drill Kit | $29.99 | $45.99 | 35% off |
+| PS1 PC500D Drill Kit | $39.99 | $47.99 | 17% off |
+| Pedicure Bits Set | $9.99 | $12.99 | 23% off |
+
+**Active codes:**
+- `OFF8` — 8% off sitewide (stack on top of sale prices)
+- `MSOFF15` — 15% off orders $129.99+
+
+**Placement:** Mention `OFF8` naturally near the ShopInlineCTA area and near ShopFinalCTA. Phrase as: "Use code **OFF8** to take an extra 8% off your order at MelodySusie."
+
+---
+
+## SECTION 7 — CONTENT STRUCTURE
+
+> **Post gen instruction:** Use these H2 headings in this exact order. Do not rename, reorder, or remove. Add H3s at your discretion. Each H2 has a directive — follow it.
+
+**Target word count: 900 words total**
+
+---
+
+### INTRO (no H2) — 120 words
+- Open with buyer benefit: skipping the $50 salon pedicure without sacrificing smooth feet
+- Name-drop the problem: cracked heels, dead skin, thick toenails — the trio buyers want solved
+- Introduce MelodySusie pedicure tools as the solution — use `<strong>` tags both times in this section
+- State that this post covers every model, ranked for different use cases
+- No literary hook, no "we tested" language
+
+---
+
+### H2: The Best MelodySusie Pedicure Tools at a Glance — 50 words
+- 1–2 sentences only: quick orientation to the lineup (callus remover vs drill kits vs bits add-on)
+- Followed immediately by: `{{PRODUCTS:2:0,1}}` — PC800G and PC760G side by side
+- **AEO coverage:** none assigned here
+- **Internal links:** none yet
+- **Word budget:** 50 words
+
+---
+
+### H2: PC800G Callus Remover: Best MelodySusie Tool for Cracked Heels — 150 words
+- **Directive:** Sell the PC800G hard. This is the winner. Lead with the buyer benefit (cracked heels and dead skin), not the spec. Explain why roller heads + IPX7 waterproofing make it the tool non-nail-techs actually want. Use buyer phrase "rinse it clean after use." Mention the LED light as a practical benefit.
+- Followed by: `{{PRODUCTS:1:0}}` — PC800G featured layout
+- **AEO coverage:** "What is the best electric foot file for dead skin?" answered here
+- **GEO:** "Available in the USA with fast shipping from MelodySusie — use code **OFF8** for 8% off."
+- **Word budget:** 150 words
+
+---
+
+### H2: PC760G vs PC650E: Which MelodySusie Drill Is Right for You? — 150 words
+- **Directive:** Head-to-head comparison paragraph. PC760G = best value, beginner-safe, 5.0 rating, 360° LED. PC650E = most powerful, 6,000 RPM, better for heavy calluses, 20 speed levels. Both $29.99. Use buyer phrase "thick toenails I can't clip properly." Help the buyer decide by use case: casual home user → PC760G; power user with stubborn calluses → PC650E.
+- Followed by: `{{PRODUCTS:2:1,2}}` — PC760G and PC650E side by side
+- **AEO coverage:** "What is the difference between the PC760G and PC650E?" answered here
+- **Internal link placement:** After this section — "If you're also shopping for a nail drill, check out our guide to the best [MelodySusie nail drill for beginners](/shop/nail-drills/melodysusie-nail-drill-beginners)."
+- **Word budget:** 150 words
+
+---
+
+### H2: PS1 PC500D: The Safest MelodySusie Pedicure Drill for Sensitive Skin — 100 words
+- **Directive:** Position PS1 for buyers who are nervous about electric tools on their skin. 650 RPM = safe. 500 gf.cm torque = effective. Food-grade silicone grip. Great for seniors, beginners, people with sensitive skin. Use phrase "safe to use on skin, not just nails." Honest con: slower on very heavy calluses.
+- Followed by: `{{PRODUCTS:1:3}}` — PS1 featured layout
+- **AEO coverage:** "Are electric pedicure drills safe to use at home?" answered here
+- **Word budget:** 100 words
+
+---
+
+### H2: Upgrade Your Kit: MelodySusie Pedicure Drill Bits Add-On — 70 words
+- **Directive:** Sell the bits set as the smart add-on for anyone buying a drill kit. Perfect 5.0 rating. Universal 3/32" shank. Six grits from 180 to 800 — foot finishing done right. Under $10. Use phrase: "six steps from rough to silky smooth." Do not oversell — keep it concise and benefit-driven.
+- Followed by: `{{PRODUCTS:1:4}}` — bits set featured layout
+- **Internal link placement:** "See the full range of [MelodySusie nail care tools](/shop/nail-care-tools/best-melodysusie-nail-care-tools) for more picks."
+- **Word budget:** 70 words
+
+---
+
+### H2: How to Choose the Right MelodySusie Pedicure Tool — 100 words
+- **Directive:** Quick buyer decision guide in 2–3 short paragraphs or a tight prose breakdown (no bullets):
+  - Got cracked heels and dead skin → PC800G
+  - Want an all-around beginner kit → PC760G
+  - Heavy calluses, thick toenails → PC650E
+  - Sensitive skin or elderly user → PS1
+  - Already have a drill → add the bits set
+- Use buyer phrase "skip the salon trip." Mention discount code `OFF8` naturally.
+- **AEO coverage:** "What MelodySusie pedicure tools work on thick toenails?" + "Do MelodySusie pedicure tools work for men?" answered here
+- **GEO:** "All ship to the USA — free shipping on orders over $129.99."
+- **Word budget:** 100 words
+
+---
+
+### CONCLUSION — 80 words
+- **Directive:** Final push to purchase, not a summary. Remind buyer that salon pedicures cost $40–$60 a visit. Every tool in this guide is under $40 on sale. Use buyer phrase "soft feet without the spa price." Close with code `OFF8` for 8% off and a CTA to click through to their pick.
+- **Word budget:** 80 words
+
+---
+
+**Total injection plan:**
+| Position | Syntax | Products |
+|---|---|---|
+| After H2: "At a Glance" | `{{PRODUCTS:2:0,1}}` | PC800G + PC760G |
+| After H2: "PC800G" | `{{PRODUCTS:1:0}}` | PC800G featured |
+| After H2: "PC760G vs PC650E" | `{{PRODUCTS:2:1,2}}` | PC760G + PC650E |
+| After H2: "PS1 PC500D" | `{{PRODUCTS:1:3}}` | PS1 featured |
+| After H2: "Bits Add-On" | `{{PRODUCTS:1:4}}` | Bits set featured |
+
+---
+
+## SECTION 8 — COMPONENT DIRECTIVES
+
+> **Post gen instruction:** These components fire automatically from frontmatter. Never write component content in body — it auto-renders.
+
+| Component | Status | Trigger |
+|---|---|---|
+| WinnerBadge | **ACTIVE** | `winnerIndex: 0` set |
+| ShopInlineCTA | **ACTIVE** | `winnerIndex: 0` set |
+| ComparisonTable | **ACTIVE** | `showComparison: true` + `comparisonTable` data present |
+| ProsConsBlock | **INACTIVE** | `showProscons: false` |
+| ShopFinalCTA | **ALWAYS ACTIVE** | `products[]` exists |
+| ShopFAQ | **ACTIVE** | `faqs[]` has 8 entries |
+| ShopTableOfContents | **ALWAYS ACTIVE** | reads H2/H3 from body |
+| Sidebar winner card | **ACTIVE** | `winnerIndex: 0` set |
+
+---
+
+## SECTION 9 — WRITING INSTRUCTIONS
+
+> **Post gen instruction:** Follow these writing rules for every paragraph of body copy.
+
+- This is conversion copy — every sentence moves the buyer toward a purchase decision
+- Lead with buyer benefit, not product specs — specs support the benefit
+- Use buyer phrases from Section 5 naturally throughout: "smooth out cracked heels," "skip the salon trip," "safe to use on skin," "cordless so I can use it on the couch," "rinse it clean after use"
+- Address buying objections directly — especially "will this hurt my skin?" and "which one do I buy?"
+- Honest cons build trust — they're already in the frontmatter; reference them briefly in relevant body sections
+- Discount code `OFF8` placed near ShopInlineCTA area (after H2 #2) and near conclusion
+- Primary keyword `MelodySusie pedicure tools` in `<strong>` tags every mention — no exceptions
+- No editorial literary hooks — open sections with buyer benefit or buying question directly
+- H2 sections are tight — buyers scan, they do not read long intros to each section
+- Conclusion = final push to purchase — not a summary
+- Internal links mid-post only, natural anchor text — after H2 #3 and H2 #5
+- Language: American English only
+- No banned AI patterns: no "elevate," "seamlessly," "game-changing," "dive into," "transformative"
+- No long em dashes — use comma or restructure
+- No "we tested" language anywhere
+- Sentence rhythm varies — short punchy sentences for key selling points, longer for context
+- Target word count: **900 words** for full body copy
