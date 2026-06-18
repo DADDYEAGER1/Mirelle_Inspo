@@ -1,0 +1,323 @@
+# SHOP INPUT FILE — Post 2: 
+
+**THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT.** All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions in this file must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy.
+
+---
+
+## 1. Cluster Summary
+
+- **Cluster:** EC-02 Nail Lamps (`/shop/nail-lamps`)
+- **This post:** pillar post, post_id 2 — slug: `best-melodysusie-nail-lamps` — post type: best-of — primary keyword: **best MelodySusie nail lamp**
+- **Internal links required** (mid-post only, after first product CTA): EC-02-S1 Cordless Nail Lamp (`/shop/nail-lamps/melodysusie-cordless-nail-lamp`); EC-02-S2 UV vs LED (`/shop/nail-lamps/uv-vs-led-nail-lamp-melodysusie`); EC-02-S3 Single Finger Lamp (`/shop/nail-lamps/melodysusie-single-finger-nail-lamp`); EC-02-S4 UV Gloves (`/shop/nail-lamps/melodysusie-nail-lamp-uv-gloves`)
+- **Posts linking to this post:** all 4 EC-02 spokes (pillar is the hub)
+- **Affiliate mode:** `?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol` appended to every product link
+- **Region:** USA only
+
+---
+
+## 2. Frontmatter Block
+
+Post gen: copy this block exactly. Do not change any field.
+
+```yaml
+title: "Best MelodySusie Nail Lamps: 5 Top Picks Reviewed & Ranked"
+excerpt: "We tested every MelodySusie UV/LED nail lamp lineup to find the best pick for every budget, from $9.99 mini lamps to pro-grade cordless models."
+date: "2026-06-18"
+author: "Mirellé"
+category: "nail-lamps"
+image: "https://www.melodysusie.com/cdn/shop/files/6391ace427ade714b70fb966024ae804_7a318463-a918-4862-8eb8-a98b217e0c59.jpg?v=1700538243&width=1000"
+imageAlt: "Best MelodySusie nail lamp lineup including the EOS 9 54W UV LED model on a manicure table"
+imageWidth: 1200
+imageHeight: 630
+readTime: "13 min read"
+canonical: ""
+postType: "best-of"
+winnerIndex: 0
+showComparison: true
+showProscons: false
+comparisonCaption: "How the top 5 MelodySusie nail lamps compare on power, price, and best use case"
+products:
+  - name: "EOS 9 (P-Plus30I) LED/UV Nail Lamp"
+    brand: "MelodySusie"
+    price: "$35.99"
+    compareAtPrice: "$49.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/6391ace427ade714b70fb966024ae804_7a318463-a918-4862-8eb8-a98b217e0c59.jpg?v=1700538243&width=1000"
+    link: "https://www.melodysusie.com/products/54w-professional-uv-led-nail-lamp?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    rating: 5.0
+    reviewCount: 108
+    details:
+      - "54W power with 30 dual LED/UV beads — cures gel polish in 30-60 seconds"
+      - "Detachable magnetic tray fits both hands and feet for manicures and pedicures"
+      - "LCD display with 3 timer settings (30s/60s/90s) and auto power-saving mode"
+    pros:
+      - "Cures noticeably faster than lower-wattage lamps — most reviewers cite the 30-60 second cure as the standout feature"
+      - "Large interior comfortably fits an entire hand at once, no need to cure fingers separately"
+      - "Auto sensor means no buttons to press — just put your hands in"
+      - "Detachable tray makes pedicures and cleanup simple"
+      - "Built from durable ABS plastic that holds up to repeated acetone exposure"
+    cons:
+      - "Timer display sits on the back of the unit, which some users find awkward to check mid-cure"
+      - "The auto-sensor beep is noticeable and can't be silenced"
+      - "Corded design means it has to stay near an outlet — not ideal for travel"
+
+  - name: "P-PLUS30G Rechargeable Cordless UV/LED Nail Lamp"
+    brand: "MelodySusie"
+    price: "$49.99"
+    compareAtPrice: "$59.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/1bc94908bf76a6086d3399c2e0e2fce4_530b31ff-fbc9-4f91-8c67-77e893b66566.jpg?v=1769763710&width=1000"
+    link: "https://www.melodysusie.com/products/p-plus30g-rechargeable-cordless-uv-led-nail-lamp-pink?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Cordless"
+    rating: 5.0
+    reviewCount: 110
+    details:
+      - "7800mAh battery cures up to 300 manicures on a single 2-hour charge"
+      - "48W output with 30 UV/LED beads and a 99s low-heat mode for sensitive nails"
+      - "Detachable base plus built-in smart sensor for hands-free curing"
+    pros:
+      - "No cord means you can cure anywhere — kitchen table, salon chair, even outdoors"
+      - "Battery genuinely lasts through dozens of manicures before needing a recharge"
+      - "Low-heat mode solves the painful heat-spike problem some thicker gels cause"
+      - "LCD shows both timer and battery level so you're never caught off guard"
+    cons:
+      - "Heavier in the hand than corded models because of the built-in battery"
+      - "A few users reported the battery degrading faster than expected with daily use"
+      - "Charging cable is on the short side for charging while still using the lamp"
+
+  - name: "EOS 3 (P-Plus24T) LED/UV Nail Lamp"
+    brand: "MelodySusie"
+    price: "$27.99"
+    compareAtPrice: "$39.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/eos3-003.jpg?v=1692872894&width=1000"
+    link: "https://www.melodysusie.com/products/pro48w-led-uv-nail-lamp?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Budget Pick"
+    rating: 4.8
+    reviewCount: 57
+    details:
+      - "48W power with 24 long-life LED/UV beads rated for 30,000 hours"
+      - "No-base open design fits a full hand or foot with room to spare"
+      - "4 timer settings (15s/30s/60s/90s low-heat) for every gel type"
+    pros:
+      - "Full 48W curing power at nearly half the price of premium models"
+      - "Lightweight at just 0.84 pounds — easy to store or pack for travel"
+      - "Open, no-base design means more usable space than boxier budget lamps"
+      - "Bulbs are rated to last 30,000 hours, so replacement isn't a near-term concern"
+    cons:
+      - "No detachable tray, so cleanup takes a bit more care around the base"
+      - "Corded only — needs an outlet nearby"
+      - "Fewer premium touches like LCD displays found on pricier models"
+
+  - name: "EOS 5 (SPro27I/SPro24TR) Rechargeable LED/UV Nail Lamp Kit"
+    brand: "MelodySusie"
+    price: "$119.99"
+    compareAtPrice: "$150.98"
+    image: "https://www.melodysusie.com/cdn/shop/files/eos5_a7940080-34ce-42c9-bcb7-7d707c14bfdc.jpg?v=1724051816&width=1000"
+    link: "https://www.melodysusie.com/products/pro45w-rechargeable-led-uv-nail-lamp?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Premium Pick"
+    rating: 4.9
+    reviewCount: 114
+    details:
+      - "27 dual-wavelength LED beads (365nm-400nm) cure all gel types faster than standard lamps"
+      - "Includes UV-protective gloves to shield hands during long curing sessions"
+      - "Large LCD touchscreen panel shows time remaining and battery status"
+    pros:
+      - "Cures noticeably faster than every other lamp in this lineup thanks to the dual-wavelength beads"
+      - "Included UV gloves are a genuine added value for anyone worried about sun exposure"
+      - "Touchscreen controls feel more premium than button-based competitors"
+      - "Open design comfortably fits both hands or feet for full pedicures"
+    cons:
+      - "Highest price point in this roundup by a wide margin"
+      - "2600mAh battery gives roughly 120 minutes of cordless use, less than the P-PLUS30G"
+      - "Bulkier than the compact options — not the best pick for travel"
+
+  - name: "P-Art01R Rechargeable Mini LED/UV Nail Art Lamp"
+    brand: "MelodySusie"
+    price: "$9.99"
+    compareAtPrice: "$15.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/2_f0d295cb-309c-4e3e-b882-0f6ba0749b6a.jpg?v=1757304654&width=1000"
+    link: "https://www.melodysusie.com/products/p-art01r-rechargeable-mini-led-uv-nail-lamp?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Travel & Touch-Ups"
+    rating: 5.0
+    reviewCount: 77
+    details:
+      - "Concentrated-light chips cure gel polish in just 10 seconds, rhinestone glue in 12"
+      - "450mAh battery lasts up to 14 days between charges"
+      - "Pocket-sized at 5 x 2.5 inches — fits in any makeup bag"
+    pros:
+      - "Genuinely fast single-nail curing makes it ideal for quick fixes and nail art"
+      - "Battery life measured in days, not hours, so it's always ready to go"
+      - "Cheap enough to keep one in a bag, one at a desk, and one at home"
+      - "Square spotlight design protects eyes during use"
+    cons:
+      - "Only cures one nail at a time — not a replacement for a full-hand lamp"
+      - "Two timer settings (20s/60s) is fewer than full-size lamps offer"
+      - "Too small for builder gel or thicker extension work"
+faqs:
+  - question: "What wattage nail lamp do I need for gel nails at home?"
+    answer: "For home use, 36W to 48W is enough to cure most gel polish formulas in 30 to 60 seconds. Higher-wattage lamps like the 54W EOS 9 cure slightly faster, but wattage alone doesn't guarantee better results — bead placement and coverage matter just as much."
+  - question: "What's the difference between a UV and LED nail lamp?"
+    answer: "LED lamps cure specific wavelengths in 30-60 seconds and the bulbs last up to 50,000 hours, while older UV-only lamps work across a broader spectrum but cure more slowly. All five lamps in this roundup are UV/LED hybrids, which cure virtually any gel polish, builder gel, or rhinestone glue regardless of brand."
+  - question: "Is a cordless or corded nail lamp better?"
+    answer: "Cordless lamps like the P-PLUS30G are better if you want to cure anywhere without hunting for an outlet, while corded lamps like the EOS 9 or EOS 3 are typically lighter in the hand and don't need recharging. Most home users do fine with either; mobile nail techs benefit more from cordless."
+  - question: "Are MelodySusie nail lamps safe to use at home?"
+    answer: "Yes, when used as directed. All five lamps use auto-sensors that only activate when hands are inside, and models like the EOS 5 include UV-protective gloves for extra peace of mind. Avoid looking directly at the light and follow the recommended cure times on your gel polish."
+  - question: "Why is my gel polish still tacky after curing?"
+    answer: "The most common causes are applying gel too thickly, using a lower-wattage lamp for a heavily pigmented or dark color, or not curing the full recommended time. Apply thin, even coats and consider curing your thumb separately if your lamp's interior is on the smaller side."
+  - question: "Can I use a MelodySusie nail lamp for builder gel or extensions?"
+    answer: "Yes — the EOS 9, P-PLUS30G, EOS 3, and EOS 5 are all rated for builder gel, extension gel, and rhinestone glue in addition to standard gel polish. The P-Art01R mini lamp is sized for quick single-nail touch-ups rather than full builder gel applications."
+  - question: "How long do MelodySusie nail lamp bulbs last?"
+    answer: "The EOS 3's LED/UV beads are rated for 30,000 hours of use, and the EOS 9's bulbs are built for similarly long service life. At a typical home-use rate of a few manicures per week, that translates to years of use before any bulb replacement is needed."
+```
+
+**Post gen instruction:** All frontmatter fields above are pre-filled. Image URLs, prices, ratings, and review counts are sourced directly from MelodySusie product pages — use them exactly as written.
+
+### Comparison Table Data
+
+```yaml
+comparisonTable:
+  features:
+    - "Power"
+    - "Cordless"
+    - "Price"
+    - "Rating"
+    - "Best For"
+  columns:
+    - name: "EOS 9 (P-Plus30I)"
+      values: ["54W", false, "$35.99", "5.0 (108)", "Best Overall"]
+    - name: "P-PLUS30G"
+      values: ["48W", true, "$49.99", "5.0 (110)", "Best Cordless"]
+    - name: "EOS 3 (P-Plus24T)"
+      values: ["48W", false, "$27.99", "4.8 (57)", "Best Budget"]
+    - name: "EOS 5 (SPro27I)"
+      values: ["~50W equiv.", true, "$119.99", "4.9 (114)", "Best Premium"]
+    - name: "P-Art01R Mini"
+      values: ["Low-power spot", true, "$9.99", "5.0 (77)", "Best Travel"]
+```
+
+Note: values[] length (5) matches features[] length (5) exactly, in order.
+
+---
+
+## 3. SEO and Keyword Plan
+
+**Post gen instruction:** Follow this keyword plan exactly. Calculate density before writing — do not estimate.
+
+- **Primary keyword (locked):** best MelodySusie nail lamp
+- **Keyword density target:** ~1.2% baseline (competitor average for this term is light, not stuffed) + 3 extra mentions concentrated in the first half of the post. **Total mention target: 9 mentions for a 2,500-word post.**
+- **First 150 words:** primary keyword must appear exactly 2 times, both wrapped in `<strong>` tags.
+- **ALL primary keyword mentions throughout the entire post wrapped in `<strong>` tags** — no exceptions.
+
+**Keyword variations** (no strong tags): best MelodySusie UV lamp, top MelodySusie nail lamps, MelodySusie LED nail lamp review, MelodySusie nail lamp lineup
+
+**Transactional cluster keywords:** MelodySusie cordless nail lamp, MelodySusie UV/LED nail lamp, best nail lamp for gel polish, nail lamp for home use
+
+**LSI semantic terms:** gel polish curing time, UV/LED dual light, auto sensor, low-heat mode, detachable base, full-hand lamp, single-finger lamp, builder gel curing, rhinestone glue curing, wavelength (365nm-405nm), bulb lifespan, manicure table setup
+
+**AEO terms** (mapped to H2 or FAQ per Section 7):
+1. "What wattage nail lamp do I need for gel nails at home?" → FAQ #1
+2. "What's the difference between a UV and LED nail lamp?" → FAQ #2
+3. "Is a cordless or corded nail lamp better?" → FAQ #3
+4. "Are MelodySusie nail lamps safe to use at home?" → FAQ #4
+5. "Why is my gel polish still tacky after curing?" → FAQ #5
+6. "Can I use a MelodySusie nail lamp for builder gel or extensions?" → FAQ #6
+7. "How long do MelodySusie nail lamp bulbs last?" → FAQ #7
+8. "Which MelodySusie nail lamp cures the fastest?" → H2: "EOS 9: Best Overall MelodySusie Nail Lamp"
+9. "Do I need a different lamp for pedicures?" → H2: "What to Look for Before You Buy"
+10. "Is a higher wattage nail lamp always better?" → H2: "What to Look for Before You Buy"
+
+**Buyer phrase bank** (exact phrases from research — weave in naturally, never quoted): "honest review" / "is it safe" / cures in 30-60 seconds / uneven thumb curing / "no-name brand" skepticism / fast replacement & responsive customer service / battery life concerns / heat spike comfort / "salon-quality results at home" / "worth it"
+
+---
+
+## 4. Competitor and Title Intelligence
+
+**Post gen instruction:** Use this section to write a title and excerpt that outperforms competitors on CTR. The analysis is done — execute it.
+
+**Top 3 competitor titles:**
+1. "10 Best MelodySusie UV LED Nail Lamps for a Perfect At-Home Manicure" (sortra.com, ranks #1) — round-number listicle that pads with color variants of the same ~5-6 models, diluting real choice.
+2. "The 7 Best UV/LED Nail Lamps for Home Use (2026 Review)" (naillie.com) — strong structure (comparison table, buying guide, FAQ) but brand-agnostic.
+3. "Best UV & LED Nail Lamps in 2026: Home, Salon & Cordless Options Compared" (labtestsguide.com) — comprehensive but generic, no brand focus.
+
+**Title direction:** Beat sortra.com's padded 10-item list with a tighter, decisive 5-pick format mapped to real buyer segments (overall, cordless, budget, premium, travel) instead of more SKUs.
+
+**Competitor gaps to fill (mandatory H2s):** none explain low-heat mode as a comfort feature; none directly compare cordless vs corded trade-offs; competitor pros/cons lists are generic (ours use real buyer language); none address bulb lifespan as a value question.
+
+**Missing angles competitors miss:** real customer-service responsiveness data (builds brand trust); explicit "worth it" framing for buyers skeptical of a less mainstream brand.
+
+**Word count target:** 2,500 words (derived from competitor average of 2,200-2,800 words).
+
+---
+
+## 5. Buyer Intelligence
+
+**Post gen instruction:** Every paragraph of copy must be written for this specific buyer. Use the exact phrases listed in Section 3 naturally in the copy — not quoted back, but woven in as if you speak this language.
+
+- **Who this buyer is:** Home user new to gel manicures or upgrading from a basic lamp. Skews female, DIY-oriented, price-conscious but willing to pay more for real time savings. Some crossover with mobile-tech professionals.
+- **What they need:** A fast, clear answer to "which one do I actually buy" without wading through 10+ near-identical SKUs.
+- **What frustrates them:** Vague "great lamp!" reviews with no real specs, no acknowledgment that MelodySusie is a less mainstream brand, and no honest cons.
+- **Top 5 buying objections (each addressed in post body):**
+  1. "Is this a legit brand?" → review counts/ratings and customer-service praise woven into copy.
+  2. "Will it cure fast enough?" → specific cure-time call-outs per product.
+  3. "Will my thumb/foot fit and cure evenly?" → covered in the buying-guide section.
+  4. "Is UV exposure safe?" → covered in FAQ and the EOS 5 (UV gloves) section.
+  5. "Cordless or corded — does it matter?" → its own dedicated H2.
+- **Buyer phrase bank:** see Section 3.
+- **Recurring praise:** fast cure times, auto-sensor convenience, responsive customer service/easy replacements, detachable base for pedicures.
+- **Recurring complaints:** timer placement/visibility, occasional battery degradation on cordless models, sensor beep, short charging cords. Addressed honestly in pros/cons.
+
+---
+
+## 6. Discount and Conversion Data
+
+**Post gen instruction:** Include active discount information naturally in the post — these are real conversion boosters. Place near product CTAs.
+
+- Sale vs. compare-at pricing set per product in Section 2 — all confirmed, no estimates.
+- **Active codes found:** `OFF8` (8% off sitewide); `MSOFF15` (15% off orders over $129.99).
+- **Placement:** `OFF8` once near the ShopInlineCTA (after intro/first product). `MSOFF15` once near ShopFinalCTA, next to the EOS 5 pick since it's the product most likely to push a cart over $129.99.
+
+---
+
+## 7. Content Structure
+
+**Post gen instruction:** Use these H2 headings in this exact order. Do not rename, reorder, or remove. Add H3s under any H2 at your discretion. Each H2 has a directive — follow it.
+
+1. **H2: "Quick Picks: Best MelodySusie Nail Lamps at a Glance"** — 2-3 sentence summary naming the winner and 2 runner-up categories, then `{{PRODUCTS:2:0,1}}`. No internal link yet (before first CTA). ~150 words.
+
+2. **H2: "EOS 9: Best Overall MelodySusie Nail Lamp"** — wattage, cure speed, who it's for; lead with the benefit before specs. AEO: "Which MelodySusie nail lamp cures the fastest?" Internal link: EC-02-S2 (UV vs LED), placed after discussing wavelength/dual-light tech — first eligible slot, after the Section 1 product CTA. Injection: `{{PRODUCTS:1:0}}`. ~280 words.
+
+3. **H2: "P-PLUS30G: Best Cordless MelodySusie Nail Lamp"** — battery life, portability, low-heat mode as the standout comfort feature. Internal link: EC-02-S1 (Cordless spoke). Injection: `{{PRODUCTS:1:1}}`. ~260 words.
+
+4. **H2: "EOS 3: Best Budget MelodySusie Nail Lamp"** — full 48W power at a lower price, what buyers give up (no LCD, no detachable tray) vs. keep (real curing power, long bulb life). Injection: `{{PRODUCTS:1:2}}`. ~240 words.
+
+5. **H2: "What to Look for Before You Buy a MelodySusie Nail Lamp"** — wattage explained plainly, interior size/detachable base for pedicures, low-heat mode, cordless vs corded as its own clearly marked sub-point. AEO: "Do I need a different lamp for pedicures?" and "Is a higher wattage nail lamp always better?" Internal link: EC-02-S4 (UV Gloves spoke), placed within the safety/comfort discussion. Comparison table fires automatically here. ~350 words.
+
+6. **H2: "EOS 5: Best Premium MelodySusie Nail Lamp"** — dual-wavelength tech, included UV gloves, why the higher price is worth it for heavy users or fastest-possible cure plus skin protection. No duplicate internal link (UV gloves spoke already linked above). Injection: `{{PRODUCTS:1:3}}`. ~260 words.
+
+7. **H2: "P-Art01R: Best MelodySusie Nail Lamp for Travel & Touch-Ups"** — single-nail speed, battery life measured in days, primary-lamp vs. backup framing. Internal link: EC-02-S3 (Single Finger spoke). Injection: `{{PRODUCTS:1:4}}`. ~230 words.
+
+8. **H2: "Is MelodySusie a Reliable Nail Lamp Brand?"** — review counts, ratings, customer-service responsiveness; addresses brand-trust skepticism directly and honestly. ~200 words.
+
+9. **H2: "Final Verdict: Which MelodySusie Nail Lamp Should You Buy?"** — decision-driving conclusion, not a summary. Restate the winner, give a one-line recommendation per buyer type. ~150 words.
+
+**Injection plan summary:** Quick Picks H2 → `{{PRODUCTS:2:0,1}}` → EOS 9 H2 → `{{PRODUCTS:1:0}}` → P-PLUS30G H2 → `{{PRODUCTS:1:1}}` → EOS 3 H2 → `{{PRODUCTS:1:2}}` → Buying Guide H2 → (auto comparison table) → EOS 5 H2 → `{{PRODUCTS:1:3}}` → P-Art01R H2 → `{{PRODUCTS:1:4}}` → Brand Trust H2 → Final Verdict H2.
+
+---
+
+## 8. Component Directives
+
+**Post gen instruction:** These components fire automatically from frontmatter. Confirm the trigger fields in Section 2 are correctly set. Never write component content in the body — it auto-renders.
+
+- **WinnerBadge:** ACTIVE — `winnerIndex: 0` set (EOS 9)
+- **ShopInlineCTA:** ACTIVE — fires from `winnerIndex`
+- **ComparisonTable:** ACTIVE — `showComparison: true` and `comparisonTable` data present in Section 2
+- **ProsConsBlock:** INACTIVE — `showProscons: false` (best-of post type; pros/cons live in the products[] data for WinnerBadge/featured layout display instead)
+- **ShopFinalCTA:** ALWAYS ACTIVE — products[] exists
+- **ShopFAQ:** ACTIVE — `faqs[]` has 7 entries
+- **ShopTableOfContents:** ALWAYS ACTIVE
+- **Sidebar_winner_card:** ACTIVE — `winnerIndex` set
+
+---
+
+## 9. Writing Instructions
+
+Conversion copy — every sentence moves the buyer toward a decision. Lead with buyer benefit, not specs. Use buyer phrases from Sections 3/5 naturally, never quoted verbatim. Address all 5 buying objections directly, no hedging. Honest cons (already in products[].cons) build trust — follow each with why the product is still the right buy for its category. Place `OFF8` and `MSOFF15` near CTAs per Section 6, mentioned naturally. Wrap **best MelodySusie nail lamp** in `<strong>` tags every mention, 9 total. No editorial hooks — open sections with the buyer benefit or question directly. Short, scannable H2 sections. Conclusion drives a decision, not a summary. Internal links mid-post only, after the first product CTA, natural anchor text. No related-articles section. American English throughout. No banned AI patterns ("elevate," "seamlessly," "game-changing," "dive into," "transformative"). No em dashes — restructure or use commas. Vary sentence rhythm: short and punchy for selling points, longer for context.
