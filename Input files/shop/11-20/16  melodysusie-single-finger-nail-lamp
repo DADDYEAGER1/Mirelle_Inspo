@@ -1,0 +1,530 @@
+# SHOP INPUT FILE — POST 16
+## THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT.
+All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy.
+
+---
+
+## SECTION 1 — CLUSTER SUMMARY
+
+- **Cluster:** EC-02 Nail Lamps
+- **Post title:** Best Single Finger Nail Lamp: MelodySusie Mini Lamp Review
+- **Slug:** `melodysusie-single-finger-nail-lamp`
+- **Post type:** best-of (transactional)
+- **Primary keyword:** `single finger nail lamp MelodySusie`
+- **Category route:** `/shop/nail-lamps`
+- **Role:** Spoke post under EC-02 pillar
+
+**Internal links this post must include (mid-post only, after first product CTA):**
+- Link to EC-02 pillar: `/shop/nail-lamps/best-melodysusie-nail-lamps` — anchor: "MelodySusie UV LED nail lamps"
+- Link to EC-02-S1 cordless lamp post: `/shop/nail-lamps/melodysusie-cordless-nail-lamp` — anchor: "cordless nail lamp"
+
+**Posts that link to this post:**
+- EC-02 pillar (best MelodySusie nail lamps roundup)
+
+**Affiliate mode:** MelodySusie affiliate program (aff=3711)
+**Region:** USA
+
+**Active discount codes:**
+- CODE OFF8 — 8% off sitewide
+- CODE MSOFF15 — 15% off orders over $129.99
+- Free US shipping on orders over $129.99
+
+---
+
+## SECTION 2 — FRONTMATTER BLOCK
+
+**Post gen instruction:** Copy this frontmatter block exactly into the post. Do not change any field.
+
+```yaml
+---
+title: "Best Single Finger Nail Lamps from MelodySusie: 4 Mini Picks Ranked"
+excerpt: "The best MelodySusie single finger nail lamp for rhinestones, gel art, and travel touch-ups — 4 mini picks compared."
+date: "2026-06-18"
+author: "Mirellé"
+category: "nail-lamps"
+image: "https://www.melodysusie.com/cdn/shop/files/2_01e67540-d5a1-4ad3-9bf7-a84aa63b3edf.jpg?v=1759031677&width=1600"
+imageAlt: "Single finger nail lamp MelodySusie P-ART01A pink mini rechargeable UV LED curing lamp for gel nails"
+imageWidth: 1200
+imageHeight: 630
+readTime: "7 min read"
+canonical: ""
+postType: "best-of"
+winnerIndex: 0
+showComparison: true
+showProscons: false
+comparisonCaption: "How the 4 MelodySusie mini nail lamps compare"
+
+products:
+  - name: "MelodySusie P-ART01A Rechargeable LED/UV Nail Lamp"
+    brand: "MelodySusie"
+    price: "$13.99"
+    compareAtPrice: "$24.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/2_01e67540-d5a1-4ad3-9bf7-a84aa63b3edf.jpg?v=1759031677&width=1600"
+    link: "https://www.melodysusie.com/products/p-art01a-rechargeable-led-uv-nail-lamp-pink?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    rating: 5.0
+    reviewCount: 56
+    details:
+      - "3W with 630mAh battery — 90 min continuous cordless use"
+      - "LCD display shows battery life + curing countdown"
+      - "Ergonomic concave design reduces hand fatigue"
+    pros:
+      - "Perfect for rhinestone glue — cures solid nail glue gel and liner gel in seconds"
+      - "LCD display is a standout feature at this price — you always know battery and timer status"
+      - "Fits in a purse pocket; genuinely small enough to travel with"
+      - "90 minutes continuous use on one charge covers a full set"
+      - "Works with OPI, CND, Canni, and most mainstream soft gel brands"
+    cons:
+      - "3W power means it's built for soft gels only — not for hard gels or builder gel"
+      - "Only cures one finger at a time, so full sets take longer than a full-hand lamp"
+
+  - name: "MelodySusie P-Art01R Rechargeable Mini LED/UV Nail Art Lamp"
+    brand: "MelodySusie"
+    price: "$9.99"
+    compareAtPrice: "$15.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/2_f0d295cb-309c-4e3e-b882-0f6ba0749b6a.jpg?v=1757304654&width=1600"
+    link: "https://www.melodysusie.com/products/p-art01r-rechargeable-mini-led-uv-nail-lamp?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Value"
+    rating: 5.0
+    reviewCount: 77
+    details:
+      - "5x concentrated light — gel polish cures in 10s, rhinestone glue in 12s"
+      - "450mAh battery — lasts up to 14 days of normal use per charge"
+      - "20s/60s timer modes; square spotlight protects eyes and lens"
+    pros:
+      - "Fastest curing speed in the lineup — 10 seconds for gel polish is genuinely impressive"
+      - "14-day battery life per charge makes this reliable for everyday nail artists"
+      - "Under $10 — lowest price in the collection with the most reviews (77) and a 5.0 rating"
+      - "Pocket-sized: 5.08 x 2.52 x 0.94 inches — smaller than a lip balm case"
+    cons:
+      - "No LCD display — you can't monitor battery life at a glance"
+      - "20s/60s only — fewer timer options than the P-ART01A"
+
+  - name: "MelodySusie P-ART09F Foldable 2-in-1 LED/UV Nail Lamp"
+    brand: "MelodySusie"
+    price: "$15.99"
+    compareAtPrice: "$24.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/2_b70f4234-075e-4ca8-aca0-c7bfa39e53a4.jpg?v=1761557668&width=1600"
+    link: "https://www.melodysusie.com/products/p-art09f-foldable-standable-2-in-1-design-led-uv-nail-lamp-pink?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Most Versatile"
+    rating: 4.7
+    reviewCount: 52
+    details:
+      - "5W with 1000mAh battery — 2–3 hours cordless use per charge"
+      - "Foldable stand: use handheld OR freestanding on your nail table"
+      - "2-in-1 design: UV curing beads + LED lighting beads"
+    pros:
+      - "Only single-finger lamp in the lineup that can stand independently — frees up your hand"
+      - "1000mAh battery is the largest here; 2–3 hours beats the others by a wide margin"
+      - "Dual-function: UV curing + LED nail lighting in one unit, ideal for nail art in dim setups"
+      - "30s/60s timers; adjustable curing head for long or short nails"
+    cons:
+      - "Slightly larger footprint than handheld-only models because of the foldable stand"
+      - "4 UV curing beads only — less concentrated than the P-Art01R for pure flash curing speed"
+
+  - name: "MelodySusie High-Strength Aluminum Alloy Art01G Rechargeable LED/UV Nail Lamp"
+    brand: "MelodySusie"
+    price: "$15.99"
+    compareAtPrice: "$22.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/6391ace427ade714b70fb966024ae804_e84f7279-c59e-46a0-b858-281b6bb2ff30.jpg?v=1754537618&width=1600"
+    link: "https://www.melodysusie.com/products/high-strength-aluminum-alloy-art01g-rechargeable-led-uv-nail-lamp?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Most Durable"
+    rating: 5.0
+    reviewCount: 53
+    details:
+      - "Aluminum alloy body — 8x concentrated light, cures rhinestone glue in 8–12s"
+      - "450mAh battery — 14 days per charge; PMMA protective cover shields eyes from UV"
+      - "Acetone-resistant body; easy to clean after gel removal sessions"
+    pros:
+      - "Aluminum build is a significant step up in durability — survives drops and acetone splashes"
+      - "8x concentrated light is the most powerful flash curing in this roundup"
+      - "PMMA protective cover adds eye safety without blocking the curing angle"
+      - "Acetone-resistant means it holds up during gel removal — other plastic units can degrade"
+    cons:
+      - "No LCD display; no battery indicator"
+      - "Metal body runs slightly warmer than plastic units during extended sessions"
+
+comparisonTable:
+  features:
+    - "Power"
+    - "Battery"
+    - "Continuous use"
+    - "Cure time (gel polish)"
+    - "Timer settings"
+    - "LCD display"
+    - "Body material"
+    - "Foldable stand"
+    - "Best for"
+  columns:
+    - label: "P-ART01A"
+      badge: "Best Overall"
+      values:
+        - "3W"
+        - "630mAh"
+        - "90 min"
+        - "~20s"
+        - "20s / 60s"
+        - "Yes"
+        - "Plastic"
+        - "No"
+        - "Everyday use + rhinestones"
+    - label: "P-Art01R"
+      badge: "Best Value"
+      values:
+        - "3W"
+        - "450mAh"
+        - "90 min"
+        - "10s"
+        - "20s / 60s"
+        - "No"
+        - "Plastic"
+        - "No"
+        - "Flash curing + budget pick"
+    - label: "P-ART09F"
+      badge: "Most Versatile"
+      values:
+        - "5W"
+        - "1000mAh"
+        - "2–3 hrs"
+        - "~30s"
+        - "30s / 60s"
+        - "No"
+        - "Plastic"
+        - "Yes"
+        - "Nail art setups + travel"
+    - label: "Art01G"
+      badge: "Most Durable"
+      values:
+        - "3W"
+        - "450mAh"
+        - "90 min"
+        - "8–12s"
+        - "20s / 60s"
+        - "No"
+        - "Aluminum alloy"
+        - "No"
+        - "Heavy users + gel removal"
+
+faqs:
+  - question: "Can a single finger nail lamp cure all gel polishes?"
+    answer: "MelodySusie single finger nail lamps cure all soft gels including gel polish, rhinestone glue, liner gel, and base and top coat. They are not designed for hard gels or builder gel, which require higher wattage. For standard soft gel manicures and nail art, any of the four models above will get the job done."
+
+  - question: "How long does a MelodySusie mini nail lamp battery last?"
+    answer: "It depends on the model. The P-ART09F has the largest battery at 1000mAh, giving 2–3 hours of continuous use. The P-ART01A (630mAh) and P-Art01R and Art01G (both 450mAh) deliver around 90 minutes continuous — which is enough for a full set of nails with breaks between fingers."
+
+  - question: "What is a single finger nail lamp used for?"
+    answer: "A single finger nail lamp is built for precision curing — one nail at a time. It's ideal for rhinestone glue application, gel-X nail extensions, 3D nail art details, fixing one broken nail without curing a full hand, and travel manicures where a full-hand lamp isn't practical."
+
+  - question: "Are MelodySusie mini nail lamps worth it?"
+    answer: "Yes, especially at these price points. All four models are priced between $9.99 and $15.99 (after sale pricing), carry 4.7–5.0 ratings, and are built for the specific use case of flash curing and nail art precision work. They are not a replacement for a full-hand lamp if you're doing complete gel sets regularly."
+
+  - question: "Can I use a single finger nail lamp for rhinestone application?"
+    answer: "Yes — this is one of the most popular uses. Flash curing rhinestone glue in 8–12 seconds is exactly what these lamps are designed for. The P-Art01R (10s cure) and Art01G (8–12s cure) are the fastest in this lineup for rhinestone work."
+
+  - question: "Does MelodySusie ship mini nail lamps to the USA?"
+    answer: "Yes. MelodySusie ships to the USA and offers free US shipping on orders over $129.99. Standard shipping is available on smaller orders. Use code OFF8 for 8% off sitewide on any of these lamps."
+
+  - question: "What is the difference between the P-ART01A and P-Art01R?"
+    answer: "The P-ART01A ($13.99) adds an LCD display showing battery life and curing countdown, plus a larger 630mAh battery for 90 minutes of use. The P-Art01R ($9.99) has a faster cure speed (10 seconds vs 20 seconds) and a 14-day battery lifespan per charge, but no display. Choose the P-ART01A if you want visibility; choose the P-Art01R if speed and low price are the priority."
+---
+```
+
+---
+
+## SECTION 3 — SEO AND KEYWORD PLAN
+
+**Post gen instruction:** Follow this keyword plan exactly. Calculate density before writing — do not estimate.
+
+**Primary keyword:** `single finger nail lamp MelodySusie`
+**Keyword density target:** 1.2% — add 3 extra mentions in the first half of the post.
+**Word count target:** 1,400 words (competitor average for this keyword cluster is ~1,200–1,500 words).
+**Total primary keyword mention target:** ~17 mentions for a 1,400-word post.
+**First 150 words:** Primary keyword must appear exactly 2 times — both wrapped in `<strong>` tags.
+**ALL primary keyword mentions throughout entire post:** wrapped in `<strong>` tags.
+
+**Keyword variations (use naturally, no density target, no strong tags):**
+- MelodySusie mini nail lamp
+- MelodySusie handheld nail lamp
+- mini UV nail lamp
+- portable nail lamp single finger
+- rechargeable single finger nail lamp
+- MelodySusie P-ART01A
+- MelodySusie P-Art01R
+
+**High CPC transactional keywords (weave into CTAs, H2s, mid-post copy):**
+- "buy single finger nail lamp" (~$1.40 CPC)
+- "best mini nail lamp for gel nails" (~$1.60 CPC)
+- "mini nail lamp rechargeable" (~$1.20 CPC)
+- "nail lamp for rhinestones" (~$1.80 CPC)
+- "cordless nail lamp portable" (~$1.50 CPC)
+- "flash cure nail lamp" (~$1.90 CPC)
+- "MelodySusie nail lamp sale" (~$0.90 CPC)
+
+**Transactional cluster keywords (use throughout, no density target):**
+- single finger nail dryer
+- mini nail curing lamp
+- handheld gel nail lamp
+- nail lamp for nail art
+- small nail lamp travel
+- nail lamp for rhinestone glue
+- pocket nail lamp
+- nail lamp flash cure
+
+**LSI semantic terms (weave naturally):**
+- gel polish curing
+- rhinestone adhesive
+- nail extension gel
+- gel-X nails
+- soft gel compatibility
+- UV LED dual wavelength
+- nail art touch-up
+- curing time seconds
+- battery-powered nail lamp
+- portable manicure tool
+- DIY nail art at home
+
+**AEO terms — mapped to H2 or FAQ:**
+| AEO Question | Mapped To |
+|---|---|
+| "What is a single finger nail lamp used for?" | FAQ entry |
+| "Can a mini nail lamp cure all gel polishes?" | FAQ entry |
+| "How long does a MelodySusie mini lamp battery last?" | FAQ entry |
+| "What is the best nail lamp for rhinestone application?" | H2: "Best for Rhinestones and Flash Curing" |
+| "Is a single finger nail lamp worth buying?" | H2: intro section + FAQ |
+| "What is the difference between MelodySusie P-ART01A and P-Art01R?" | FAQ entry |
+| "Can I travel with a mini nail lamp?" | H2: "Which One to Buy for Travel" |
+| "Does MelodySusie ship mini nail lamps to the US?" | FAQ entry |
+
+**GEO terms (place near CTAs and pricing/shipping mentions):**
+- "buy MelodySusie mini nail lamp in the USA"
+- "MelodySusie free US shipping"
+- "MelodySusie nail lamp sale price USA"
+- "single finger nail lamp fast delivery USA"
+
+---
+
+## SECTION 4 — COMPETITOR AND TITLE INTELLIGENCE
+
+**Post gen instruction:** Write a title and excerpt that outperforms competitors on CTR. Analysis is done — execute it.
+
+**Top competitor titles for this keyword:**
+1. "Best Mini UV Nail Lamps: Top 10 Picks" (leenailspahampton.com) — generic, no brand specificity, no buyer benefit
+2. "The 16 Best Nail Lamps for a Salon-Quality Manicure at Home" (wwd.com) — full-hand lamp focus, buries mini lamp angle
+3. "Best UV Nail Lamps 2025: Top 10 Picks" (slbeautyco.com) — no single-finger angle at all
+
+**What they lack:** None of the top ranking posts are dedicated to single-finger / mini lamps specifically for MelodySusie. Zero posts address rhinestone curing, travel use, or the difference between models at this price range. Massive content gap.
+
+**Title direction for post gen:** Already written in frontmatter. More specific than all competitors — names the brand, the format (4 picks), and signals a ranking. Outperforms because it's not generic.
+
+**Competitor gaps — mandatory H2 sections:**
+- Which model is best for rhinestones specifically (no competitor addresses this)
+- What the battery life difference actually means in practice (no competitor explains this for single-finger lamps)
+- Whether single-finger lamps work for full sets or only touch-ups (buyers actively confused on this)
+- Travel angle — do these pass TSA? (untapped concern)
+
+**Word count target:** 1,400 words.
+
+---
+
+## SECTION 5 — BUYER INTELLIGENCE
+
+**Post gen instruction:** Every paragraph of copy must be written for this specific buyer. Use the exact phrases listed below naturally in the copy.
+
+**Who this buyer is:**
+- DIY nail enthusiast, beginner to intermediate
+- Does gel nails or gel-X at home, already owns a full-hand lamp OR is supplementing for nail art work
+- Frequently applies rhinestones, 3D gel, or nail tip extensions and needs a focused lamp
+- Travels for work or vacation and wants something TSA-friendly
+- Budget-conscious — spending under $20 and expects it to actually work
+
+**What they need from this post:**
+- Clear answer on which model to buy without reading a spec sheet
+- Confidence that a 3W–5W mini lamp will actually cure their gel (they've been burned by cheap versions that didn't work)
+- Understanding of the battery situation — will it die mid-set?
+- Clarity on rhinestone curing specifically
+
+**What frustrates them:**
+- Vague "works great for on the go!" copy with no specifics
+- No mention of rhinestone curing time (their primary use case)
+- Cheap competitors that stop working after 5 uses (major Amazon complaint pattern)
+- No comparison between models — they want to know which one to pick
+
+**Top 5 buying objections (each must be addressed in the post):**
+1. "Will this actually cure my gel or will it leave it tacky?" — address with cure times and soft gel compatibility
+2. "How long before the battery dies mid-set?" — address with battery specs per model
+3. "Is a mini lamp powerful enough or do I still need my big lamp?" — address honestly: best for flash curing + nail art, not full-set replacement
+4. "Will this lamp last or will it break after a few uses?" — address with Art01G's aluminum build and MelodySusie's brand track record since 2009
+5. "Is this worth the price?" — address: under $16, 5.0 ratings, 50–77 reviews = proven quality
+
+**Buyer phrase bank (use naturally in copy):**
+- "cures one nail at a time"
+- "perfect for flash curing"
+- "small enough to fit in your purse"
+- "I don't want to cure my whole hand just to fix one nail"
+- "rhinestone glue dried instantly"
+- "great for nail art detail work"
+- "battery lasts longer than expected"
+- "easy to use on the go"
+- "compact and lightweight"
+- "works for travel"
+- "does it actually work for thick gels?"
+- "surprised at how fast it cured"
+- "perfect for nail extensions one at a time"
+
+**Recurring praise from MelodySusie reviews:**
+- Compact size genuinely pocket-sized
+- Fast cure speed compared to competitor mini lamps
+- Brand reliability — MelodySusie feels more trustworthy than unknown Amazon brands
+- LCD display on P-ART01A specifically called out as useful feature
+
+**Recurring complaints (category-wide, not MelodySusie specific — address to differentiate):**
+- Cheap mini lamps dying after 3–5 uses (MelodySusie has extended warranty + aluminum option)
+- Short power cords (MelodySusie models are cordless/rechargeable — this objection doesn't apply)
+- Tacky nails = not curing properly (address: use with soft gels, not hard gels)
+
+---
+
+## SECTION 6 — DISCOUNT AND CONVERSION DATA
+
+**Post gen instruction:** Include active discount information naturally in the post — real conversion boosters. Place near product CTAs.
+
+**Pricing summary:**
+- P-ART01A: $13.99 sale (was $24.99) — 44% off
+- P-Art01R: $9.99 sale (was $15.99) — 37% off
+- P-ART09F: $15.99 sale (was $24.99) — 36% off
+- Art01G: $15.99 sale (was $22.99) — 30% off
+
+**Active promotions:**
+- Code **OFF8** = 8% off sitewide (apply at checkout)
+- Code **MSOFF15** = 15% off orders over $129.99
+- Free US shipping on orders over $129.99
+
+**Placement:** Mention OFF8 code once near the ShopInlineCTA area and once near the ShopFinalCTA. Do not write it as a standalone paragraph — weave into the surrounding copy naturally (e.g. "...all currently on sale, and code OFF8 takes another 8% off at checkout").
+
+---
+
+## SECTION 7 — CONTENT STRUCTURE
+
+**Post gen instruction:** Use these H2 headings in this exact order. Do not rename, reorder, or remove. Add H3s at your discretion. Each H2 has a directive — follow it.
+
+---
+
+**INTRO (no H2)** — ~180 words
+- Open with the buyer problem: you have a big lamp for full sets, but you need something precise for rhinestones, nail art detail, or a single broken nail. Or you travel.
+- Introduce `<strong>single finger nail lamp MelodySusie</strong>` in the first two sentences.
+- State the post's purpose: 4 models compared, one clear winner.
+- Place `{{PRODUCTS:1:0}}` (featured layout, P-ART01A winner) immediately after the intro paragraph.
+
+---
+
+**H2: What Makes a Good Single Finger Nail Lamp?** — ~150 words
+- AEO: "What is a single finger nail lamp used for?" answered here.
+- Cover: cure time, battery life, portability, compatibility with soft gels.
+- One sentence on what to avoid: underpowered cheap lamps that leave tacky nails (validates buyer fear without bashing competitors by name).
+- Address objection #1: tacky nails = wrong gel type, not lamp failure.
+- NO product injection here.
+
+---
+
+**H2: The 4 Best MelodySusie Single Finger Nail Lamps Ranked** — ~300 words
+- Introduce all 4 models with brief editorial positioning before injection.
+- P-ART01A = best overall for everyday use
+- P-Art01R = best value, fastest cure speed
+- P-ART09F = best for nail artists who want a freestanding option
+- Art01G = best for durability + heavy rhinestone work
+- Place `{{PRODUCTS:2:1,2}}` (P-Art01R + P-ART09F side by side) after the first 2 product descriptions.
+- Place `{{PRODUCTS:2:3}}` — wait, only 1 product at index 3, use `{{PRODUCTS:1:3}}` after Art01G description.
+- [Note: use `{{PRODUCTS:2:1,2}}` then `{{PRODUCTS:1:3}}` in this section]
+- Internal link to `/shop/nail-lamps/best-melodysusie-nail-lamps` goes in this section, after the first product CTA: anchor "MelodySusie UV LED nail lamps"
+
+---
+
+**H2: Best for Rhinestones and Flash Curing** — ~150 words
+- AEO: "What is the best nail lamp for rhinestone application?" answered here.
+- Highlight P-Art01R (10s) and Art01G (8–12s) for rhinestone use.
+- Use buyer phrase "rhinestone glue dried instantly" naturally.
+- Mention OFF8 discount code here near the CTA.
+- Internal link to `/shop/nail-lamps/melodysusie-cordless-nail-lamp` goes here: anchor "cordless nail lamp"
+- NO product injection — products already shown above.
+
+---
+
+**H2: Which One to Buy for Travel** — ~150 words
+- AEO: "Can I travel with a mini nail lamp?" answered here.
+- All 4 models are rechargeable — no need to pack a charger block, Type-C cable works.
+- P-Art01R is smallest (5.08 x 2.52 x 0.94 in) — the top travel pick.
+- P-ART09F has the largest battery (1000mAh) for longer trips.
+- Address: nail lamps are allowed in carry-on luggage in the USA.
+- Use buyer phrases "small enough to fit in your purse" and "works for travel."
+- GEO: "buy MelodySusie mini nail lamp in the USA — free US shipping on orders over $129.99."
+
+---
+
+**H2: Single Finger vs. Full-Hand Lamp: Which Do You Actually Need?** — ~150 words
+- Answer objection #3 honestly: mini lamps are not a replacement for a full-hand lamp if you're doing complete gel sets every week.
+- Best use cases for single-finger: rhinestones, nail art, gel-X extensions one at a time, touch-ups, travel.
+- If you're doing full sets: use your full-hand lamp and keep a mini for precision work.
+- This sets realistic expectations and builds trust — buyers who understand the use case are more satisfied.
+
+---
+
+**CONCLUSION** — ~120 words
+- Restate winner: P-ART01A for most buyers, P-Art01R if budget is the priority.
+- Final conversion push: all 4 models under $16, currently on sale, code OFF8 saves another 8%.
+- GEO: mention MelodySusie US availability and fast shipping.
+- ShopFinalCTA fires automatically after this — do not write a CTA button manually.
+
+---
+
+**Injection plan summary:**
+- After intro: `{{PRODUCTS:1:0}}` — P-ART01A featured
+- In "4 Best Models" section: `{{PRODUCTS:2:1,2}}` — P-Art01R + P-ART09F side by side
+- In "4 Best Models" section: `{{PRODUCTS:1:3}}` — Art01G featured
+- ShopInlineCTA fires automatically between section 1 and 2 (~30% mark)
+- ComparisonTable fires automatically at ~60% mark
+
+---
+
+## SECTION 8 — COMPONENT DIRECTIVES
+
+**Post gen instruction:** These components fire automatically from frontmatter. Never write component content in the body.
+
+| Component | Status |
+|---|---|
+| WinnerBadge | ACTIVE — winnerIndex: 0 set |
+| ShopInlineCTA | ACTIVE — winnerIndex: 0 set |
+| ComparisonTable | ACTIVE — showComparison: true + comparisonTable data present |
+| ProsConsBlock | INACTIVE — showProscons: false |
+| ShopFinalCTA | ALWAYS ACTIVE |
+| ShopFAQ | ACTIVE — 7 FAQ entries in faqs[] |
+| ShopTableOfContents | ALWAYS ACTIVE |
+| Sidebar winner card | ACTIVE — winnerIndex: 0 set |
+
+---
+
+## SECTION 9 — WRITING INSTRUCTIONS
+
+**Post gen instruction:** Follow these rules for every paragraph of body copy.
+
+- This is conversion copy — every sentence moves the buyer toward a purchase decision
+- Lead with buyer benefit, not specs — specs support the benefit
+- Use buyer phrases from Section 5 naturally — speak their language
+- Address all 5 buying objections listed in Section 5 — no skipping
+- Honest cons build trust — include them, then counter with why the product is still the right buy
+- Discount code OFF8 placed naturally near ShopInlineCTA and ShopFinalCTA areas — not standalone
+- Primary keyword in `<strong>` tags every mention — no exceptions
+- No editorial literary hooks — open sections with buyer benefit or buying question directly
+- H2 sections are short and direct — buyers scan
+- Conclusion = final push to purchase, not a summary
+- Internal links placed mid-post after first product CTA only — anchor text natural, never forced
+- Language: American English only
+- No banned patterns: no "elevate", "seamlessly", "game-changing", "dive into", "transformative"
+- No long em dashes — use comma or restructure sentence
+- No "we tested" language — editorial observations from specs + real review patterns only
+- Sentence rhythm varies — short punchy sentences for key selling points, longer for context
+- Watt the buying objection "will this leave my nails tacky?" — answer directly: soft gels cure fully, hard gels need a full-hand lamp
+
+---
+
+*End of shop_input_file — post 16*
+*Word count of this file: ~2,480 words*
