@@ -1,0 +1,360 @@
+# shop_input_file.md — Post 10
+
+**THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT.** All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions in this file must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy.
+
+---
+
+## 1. Cluster Summary
+
+- **Cluster:** EC-01 Nail Drills (pillar already live)
+- **This post:** "MelodySusie Cordless Nail Drill: Rechargeable Picks Ranked" — slug `best-melodysusie-cordless-nail-drill` — post type: best-of — primary keyword: **best MelodySusie cordless nail drill**
+- **Role:** Spoke (EC-01-S3)
+- **Internal links this post must include** (mid-post only, placed after the first product CTA — never before):
+  - Pillar: "Best MelodySusie Nail Drills: Every Model Reviewed" → `/shop/nail-drills/best-melodysusie-nail-drills`
+  - Sibling spoke: "MelodySusie Nail Drill for Beginners: Which One to Buy" → `/shop/nail-drills/melodysusie-nail-drill-beginners`
+  - Sibling spoke: "MelodySusie Pen Nail Drills vs Clip-On" → `/shop/nail-drills/melodysusie-pen-vs-clip-on-nail-drill`
+- **Posts that link to this post (context):** EC-01 pillar will link down into this spoke; EC-01-S5 (kits/bundles) may cross-link for buyers comparing standalone drills vs bundles.
+- **Affiliate mode:** MelodySusie affiliate links (aff=3711), region: USA only.
+
+---
+
+## 2. Frontmatter Block
+
+Copy this block exactly. Do not change any field.
+
+```yaml
+title: "Best MelodySusie Cordless Nail Drill: 5 Rechargeable Picks Ranked"
+excerpt: "We ranked MelodySusie's best cordless nail drills by battery life, power, and price so you don't have to guess."
+date: "2026-06-18"
+author: "Mirellé"
+category: "nail-drills"
+image: "https://www.melodysusie.com/cdn/shop/files/40000RPM.jpg?v=1773299584&width=1600"
+imageAlt: "Best MelodySusie cordless nail drill lineup featuring the Jade Plus rechargeable nail drill with brushless motor"
+imageWidth: 1200
+imageHeight: 630
+readTime: "9 min read"
+canonical: ""
+postType: "best-of"
+winnerIndex: 0
+showComparison: true
+showProscons: false
+comparisonCaption: "How the top cordless picks compare on battery, motor, and price"
+products:
+  - name: "Jade Plus (MB450C) Rechargeable Nail Drill 35,000RPM"
+    brand: "MelodySusie"
+    price: "$149.99"
+    compareAtPrice: "$229.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/40000RPM.jpg?v=1773299584&width=1600"
+    link: "https://www.melodysusie.com/products/mr4-jade-plus-rechargeable-nail-drill-35-000rpm?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    rating: "5.0"
+    reviewCount: "1277"
+    details:
+      - "Brushless motor up to 35,000 RPM with low heat and low noise"
+      - "5100mAh battery runs 12-18 hours per 2.5-hour charge"
+      - "One of the lightest rechargeable drills on the market"
+    pros:
+      - "Brushless motor stays noticeably cooler and quieter during long sessions"
+      - "Battery genuinely lasts multiple manicures before needing a recharge"
+      - "Vintage-style rounded design feels sturdier than plastic competitors"
+      - "5.0-star rating across 1,277 reviews is the strongest trust signal in this lineup"
+      - "Comes with 6 metal bits covering trimming, grinding, and cuticle work"
+    cons:
+      - "Highest price point in this roundup, though the $80 discount narrows the gap"
+      - "Bit lock mechanism can feel stiff out of the box, loosens with use"
+  - name: "Scamander (SC320H) Rechargeable Nail Drill 30,000RPM"
+    brand: "MelodySusie"
+    price: "$78.99"
+    compareAtPrice: "$84.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_25b32324-a0c1-497f-b813-35b43d3d2395.jpg?v=1775100302&width=1600"
+    link: "https://www.melodysusie.com/products/scamander-rechargeable-nail-drill?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Value"
+    rating: "5.0"
+    reviewCount: "1050"
+    details:
+      - "0-30,000 RPM with high-quality bearing for smooth, stall-free operation"
+      - "Works 7 hours per charge on a 2.5-hour charge time"
+      - "Belt clip design for hands-free portability between clients"
+    pros:
+      - "Best price-to-performance ratio of any drill in this lineup"
+      - "1,050 reviews at a perfect 5.0 rating despite the budget-friendly price"
+      - "Smart LCD screen displays RPM and charge status clearly"
+      - "Lightweight aluminum alloy handpiece reduces hand fatigue"
+    cons:
+      - "30,000 RPM ceiling is lower than the 35,000 RPM drills in this list"
+      - "Battery life trails the higher-priced options by several hours"
+  - name: "MR5 (MM400D) Rechargeable Nail Drill 35,000RPM"
+    brand: "MelodySusie"
+    price: "$104.99"
+    compareAtPrice: "$119.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_7cb23e30-18ef-4c08-86b1-c1569eeaff71.jpg?v=1769760801&width=1600"
+    link: "https://www.melodysusie.com/products/mr5-rechargeable-nail-drill-35-000-rpm?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Longest Battery Life"
+    rating: "4.8"
+    reviewCount: "84"
+    details:
+      - "Coreless motor up to 35,000 RPM with 400 g.cm torque"
+      - "18-24 hour battery life is the longest in this lineup per a 2.5-hour charge"
+      - "ABS and aluminum build keeps weight down at 1.39 lbs"
+    pros:
+      - "Longest runtime of any cordless drill MelodySusie currently sells"
+      - "Ideal for mobile techs doing back-to-back appointments without a charger nearby"
+      - "Standard 3/32 bit compatibility means no proprietary bit lock-in"
+    cons:
+      - "Fewer reviews than the Jade and Scamander, so the track record is shorter"
+      - "No reverse foot pedal option if you want hands-free direction switching"
+  - name: "Jade (SC320C) Rechargeable Nail Drill 30,000RPM"
+    brand: "MelodySusie"
+    price: "$69.99"
+    compareAtPrice: "$89.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/6391ace427ade714b70fb966024ae804_b05d0ae0-9e94-415b-8e02-dd02027de715.jpg?v=1775100841&width=1600"
+    link: "https://www.melodysusie.com/products/s-jade-rechargeable-nail-drill-30-000rpm?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Beginners"
+    rating: "4.9"
+    reviewCount: "1206"
+    details:
+      - "Lightest drill in this lineup at 0.75 lb for less hand fatigue"
+      - "9-13 hour battery life per 2.5-hour charge"
+      - "CE and FCC certified with a 6-month support window"
+    pros:
+      - "Lowest price of any drill in this roundup, ideal for a first purchase"
+      - "1,206 reviews at 4.9 stars shows this is a proven entry point, not an afterthought"
+      - "Compact size makes it easy to pack for travel or a mobile setup"
+      - "Vintage toggle switch gives tactile, satisfying on/off feedback"
+    cons:
+      - "30,000 RPM may feel underpowered for advanced acrylic or builder gel work"
+      - "Smaller handpiece may feel less substantial to users with larger hands"
+  - name: "Sparkle Plus (MM400C) Rechargeable Nail Drill 35,000RPM"
+    brand: "MelodySusie"
+    price: "$94.99"
+    compareAtPrice: "$113.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/618XwbvqjcL._SL1500.jpg?v=1770113473&width=1500"
+    link: "https://www.melodysusie.com/products/sparkle-plus-rechargeable-nail-drill-35-000rpm?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Mobile Techs"
+    rating: "4.8"
+    reviewCount: "136"
+    details:
+      - "Clip-on design with a belt clip for true hands-free mobility"
+      - "6000mAh battery delivers up to 15 hours of use per 2.5-hour charge"
+      - "Coreless motor up to 35,000 RPM with low vibration and low noise"
+    pros:
+      - "Clip-on form factor is the only one in this lineup built for wearing on a belt"
+      - "Aluminum housing feels more durable than the plastic-bodied pen drills"
+      - "Strong middle-ground battery life between the Jade and the MR5"
+    cons:
+      - "Heaviest drill in this lineup at 1.48 lbs, which matters over a full shift"
+      - "Smallest review count of the 35,000 RPM options, though ratings stay high"
+faqs:
+  - question: "What is the best MelodySusie cordless nail drill overall?"
+    answer: "The Jade Plus (MB450C) is the best MelodySusie cordless nail drill overall. It runs a brushless motor up to 35,000 RPM, holds a charge for 12 to 18 hours, and carries a 5.0-star rating across 1,277 reviews, the strongest track record of any cordless model MelodySusie sells."
+  - question: "How long does a MelodySusie cordless nail drill battery last?"
+    answer: "Battery life varies by model. The Jade runs 9 to 13 hours, the Jade Plus runs 12 to 18 hours, the Sparkle Plus runs up to 15 hours, the Scamander runs about 7 hours, and the MR5 runs the longest at 18 to 24 hours. Most models fully recharge in about 2.5 hours."
+  - question: "Is a cordless nail drill as powerful as a corded one?"
+    answer: "Yes, for home and most professional use. MelodySusie's cordless drills reach 30,000 to 35,000 RPM, the same range as their corded models, with coreless or brushless motors that keep heat and vibration low even at full speed."
+  - question: "What's the difference between MelodySusie's pen-style and clip-on cordless drills?"
+    answer: "Pen-style drills like the Jade and Jade Plus are lighter and easier to hold for detail work, while clip-on drills like the Sparkle Plus attach to a belt for hands-free use between clients. Mobile techs doing back-to-back appointments tend to prefer the clip-on style."
+  - question: "Which MelodySusie cordless nail drill is best for beginners?"
+    answer: "The Jade (SC320C) is the best starting point. It's the lightest and most affordable drill in the lineup at $69.99, carries a 4.9-star rating across 1,206 reviews, and its 30,000 RPM ceiling is plenty for natural nails, gel removal, and basic acrylic work."
+  - question: "Can a cordless nail drill damage my natural nails?"
+    answer: "Only if it's used incorrectly. Starting on the lowest speed setting and using the correct bit for the task (not a setting meant for acrylic) prevents damage to natural nails. All five drills in this roundup include adjustable speed control specifically to avoid this."
+  - question: "Does MelodySusie ship cordless nail drills to the USA with free shipping?"
+    answer: "Yes. MelodySusie ships to the USA with free standard shipping on orders over $129.99. Orders under that threshold ship at standard rates, and most cordless drills here ship within 5 to 7 business days."
+  - question: "Is there a discount code for MelodySusie nail drills?"
+    answer: "Yes. Use code OFF8 for 8% off sitewide, or MSOFF15 for 15% off orders over $129.99. Only one code can be applied per order, and codes cannot be combined."
+```
+
+**Post gen instruction for FAQs:** every answer above already opens with a direct answer in sentence one, per FAQ schema rules. Do not rewrite into a question-first or hedging structure.
+
+---
+
+## 3. SEO and Keyword Plan
+
+**Primary keyword (locked):** best MelodySusie cordless nail drill
+
+**Keyword density target:** Top-ranking competitor (polishperfect.co, ranking #1 for "best cordless nail drill") runs roughly 1,600-1,800 words with the head term variant appearing ~8-10 times. Target for this post: **14 total mentions of "best MelodySusie cordless nail drill" or close variant across ~1,900 words** — competitor density plus 3 extra mentions in the first half, per research protocol.
+
+- **First 150 words:** primary keyword must appear exactly 2 times, both wrapped in `<strong>` tags.
+- **All primary keyword mentions throughout the entire post** wrapped in `<strong>` tags, no exceptions.
+
+**Keyword variations (use naturally, no density target, no strong tags):**
+1. best cordless MelodySusie nail drill
+2. MelodySusie rechargeable nail drill
+3. cordless rechargeable nail drill MelodySusie
+4. top MelodySusie cordless drills
+5. MelodySusie wireless nail drill
+6. best rechargeable nail efile MelodySusie
+
+**Transactional cluster keywords (use throughout, no density target):**
+1. best cordless nail drill — high CPC, strong buyer intent
+2. rechargeable nail drill for home use
+3. cordless nail drill for acrylic nails
+4. best nail drill for mobile nail tech — high CPC
+5. nail drill battery life comparison
+6. portable nail drill professional
+7. cordless e-file nail drill
+8. nail drill 35000 RPM
+9. best nail drill under $100
+10. nail drill for gel polish removal
+11. brushless motor nail drill
+12. clip-on nail drill vs pen nail drill
+
+**LSI semantic terms (weave in naturally):**
+coreless motor, brushless motor, mAh battery capacity, charge time, RPM speed range, torque, low vibration, low heat, low noise, nail efile, acrylic nails, gel removal, builder gel, dip powder, cuticle work, belt clip design, LCD display, forward and reverse rotation, 3/32 inch bit shank, manicure and pedicure
+
+**AEO terms (each mapped to an H2 or FAQ entry below):**
+1. "What is the best MelodySusie cordless nail drill overall?" → FAQ
+2. "How long does a MelodySusie cordless nail drill battery last?" → FAQ + H2 "Battery Life Compared: Which Lasts the Longest on One Charge"
+3. "Is a cordless nail drill as powerful as a corded one?" → FAQ
+4. "What's the difference between pen-style and clip-on cordless drills?" → FAQ + H2 "Pen-Style vs Clip-On: Which Cordless Design Fits You"
+5. "Which MelodySusie cordless nail drill is best for beginners?" → FAQ + H2 on the Jade
+6. "Can a cordless nail drill damage my natural nails?" → FAQ
+7. "How many hours does a 5100mAh nail drill battery run?" → H2 "Battery Life Compared"
+8. "What RPM do I need for acrylic nails?" → H2 "How We Ranked These Drills"
+9. "Is it worth paying more for a brushless motor nail drill?" → H2 on the Jade Plus winner section
+10. "Does MelodySusie ship to the USA with free shipping?" → FAQ
+
+**GEO terms (placed near CTAs, ShopInlineCTA, ShopFinalCTA, and availability copy):**
+1. best cordless nail drill to buy in the USA
+2. MelodySusie free shipping USA over $129.99
+3. where to buy MelodySusie nail drill online
+4. MelodySusie nail drill fast shipping USA
+
+**High CPC transactional keywords (weave into CTAs, H2s, mid-post copy):**
+- "best nail drill for mobile nail tech" — high commercial value, mobile techs are repeat high-AOV buyers
+- "professional nail drill for home salon" — strong CPC in beauty equipment vertical
+- "rechargeable nail drill brushless motor" — spec-driven buyers convert at higher rate
+
+**Buyer phrase bank (from Amazon reviews, Quora-adjacent research, and competitor reviews — weave naturally):**
+1. "lightweight and easy to travel with"
+2. "didn't shake like a lawn mower" (low vibration, paraphrase, don't quote)
+3. "no need to worry about keeping it charged"
+4. "powerful yet quiet motor"
+5. "doesn't get hot during extended use"
+6. "great for beginners who don't want to be overwhelmed"
+7. "battery lasts through a full set without dying mid-appointment"
+8. "bit lock can feel too tight at first"
+9. "occasional charging hiccups reported by a small number of buyers"
+10. "perfect for at-home manicures and pedicures"
+
+---
+
+## 4. Competitor and Title Intelligence
+
+**Top competitor for this keyword:** polishperfect.co, "Best Cordless Nail Drill For Mobile Nail Techs" — currently ranks the MelodySusie Scamander #1 overall (9.5/10) ahead of Kiara Sky, Makartt, and several other brands. This is a direct, beatable competitor since it's an affiliate roundup, not a brand page.
+
+**What makes their title work:** specific audience callout ("mobile nail techs"), bracketed freshness signal ([2026]), clear category match.
+
+**What they lack (our title direction):** their title doesn't promise a ranking methodology or quantify the picks. Our title adds a number ("5 Rechargeable Picks Ranked") and "Best" lead position for stronger SERP click-through, while keeping the primary keyword in the first 8 words.
+
+**Competitor gaps — mandatory sections in our post to cover what they miss:**
+- They give vague battery descriptors ("battery life may vary," "moderate battery life") instead of exact hours. We have exact hour ranges and mAh figures straight from MelodySusie's own spec sheet — this is our biggest differentiation point.
+- They have zero real review counts. We have 1,277 / 1,206 / 1,050 / 136 / 84 verified review counts as trust signals.
+- No FAQ schema section on their page.
+- No direct pen-vs-clip-on framing despite covering both styles.
+
+**Missing product angles competitors miss:** brushless vs coreless motor distinction (only the Jade Plus uses brushless, a real differentiator), and exact charge-time-to-runtime ratios as a buying filter.
+
+**Word count target:** ~1,900 words (competitor average ~1,600-1,800, plus increase for deeper spec data and FAQ section).
+
+---
+
+## 5. Buyer Intelligence
+
+**Who this buyer is:** A mix of two overlapping segments: (1) at-home DIY users who already own or are upgrading from a corded/basic drill and want freedom from outlets, and (2) mobile or part-time nail techs who need a drill that survives multiple appointments without recharging. Moderate nail-care knowledge — they know roughly what RPM and bits mean but want a ranked, no-fluff answer, not a buying-guide lecture.
+
+**What they need from this post:** A clear winner pick plus enough spec differentiation (battery hours, motor type, weight) to choose a different model if their priority isn't "best overall."
+
+**What frustrates them:** Vague battery claims ("long-lasting," "all-day power") with no actual hours; affiliate posts that don't disclose real review counts; missing cons that make every product sound flawless.
+
+**Top 5 buying objections (each addressed in body copy):**
+1. "Is cordless really as powerful as corded?" → addressed directly, RPM specs shown side by side.
+2. "Will the battery die mid-manicure?" → addressed with exact hour ranges per model.
+3. "Is this worth more than a $20 Amazon drill?" → addressed via real review counts and motor quality (coreless/brushless vs generic).
+4. "Will the bit lock or charging port fail like some reviews mention?" → addressed honestly in cons, not buried.
+5. "Which one do I actually need if I'm just starting out?" → addressed via the Jade's "Best for Beginners" badge and dedicated callout.
+
+**Recurring praise from real reviews:** lightweight feel, low vibration ("didn't shake"), quiet motor, fast setup, genuinely long battery runtime, beginner-friendly learning curve.
+
+**Recurring complaints (addressed honestly in cons):** bit lock mechanism can be too tight out of the box, occasional charging connection issues reported by a minority of buyers, included bits are basic and some users upgrade them.
+
+---
+
+## 6. Discount and Conversion Data
+
+- **OFF8** — 8% off sitewide, verified live on every MelodySusie product page checked during research.
+- **MSOFF15** — 15% off orders over $129.99, also verified live sitewide.
+- Free US shipping on orders over $129.99.
+- **Placement:** mention OFF8 near the ShopInlineCTA (after the winner section) and mention MSOFF15 near the ShopFinalCTA, since several products in this lineup (Jade Plus at $149.99) clear the $129.99 threshold on their own — this is a real conversion lever, not filler.
+
+---
+
+## 7. Content Structure
+
+Use these H2 headings in this exact order. Do not rename, reorder, or remove. Add H3s at your discretion.
+
+1. **H2: Best MelodySusie Cordless Nail Drill: Our Top 5 Picks** (intro, ~180 words) — Open with the buying decision (cordless vs corded freedom), state the winner up front. First 150 words: 2x `<strong>best MelodySusie cordless nail drill</strong>` mentions here. No injection.
+
+2. **H2: How We Ranked These Cordless Nail Drills** (~120 words) — Explain the ranking criteria: battery life (hours, not vague claims), motor type, price, and real review counts. Answers AEO term "what RPM do I need for acrylic nails." No injection here, sets up trust before the picks.
+
+3. **H2: [Jade Plus product name] — Best Overall** (~220 words) — Winner section. `{{PRODUCTS:1:0}}` featured layout placed here. Cover brushless motor advantage, battery hours, why 1,277 5.0-star reviews matters. Answers AEO term on brushless motor value.
+
+4. **H2: [Scamander product name] — Best Value** (~180 words) — `{{PRODUCTS:2:1,2}}` grid placed here (Scamander + MR5 together since both fall mid-list). First internal link goes here, after this first non-winner product CTA: link to the EC-01 pillar with natural anchor text. **ShopInlineCTA fires automatically after this section per the 30% content split — mention OFF8 discount code naturally nearby.**
+
+5. **H2: [MR5 product name] — Longest Battery Life** (~180 words) — Continuation of the grid injection above; this section is prose around that same injection point. Answers AEO term "how long does battery last." Second internal link goes here: link to "Pen Nail Drills vs Clip-On" spoke with natural anchor text, since this section discusses form factor implicitly via battery trade-offs.
+
+6. **H2: Battery Life Compared: Which Lasts the Longest on One Charge** (~150 words) — This is where `showComparison: true` and the ComparisonTable component fires automatically (between section 2 and 3 per template rules). Do not manually build a table in body copy; write 2-3 sentences of framing text only, the component renders the data.
+
+7. **H2: [Jade product name] — Best for Beginners** (~180 words) — `{{PRODUCTS:1:3}}` featured layout. Third internal link goes here: link to "MelodySusie Nail Drill for Beginners" spoke with natural anchor text.
+
+8. **H2: [Sparkle Plus product name] — Best for Mobile Techs** (~180 words) — `{{PRODUCTS:1:4}}` featured layout. Answers AEO term on pen-style vs clip-on difference.
+
+9. **H2: Pen-Style vs Clip-On: Which Cordless Design Fits You** (~150 words) — Direct buyer-decision section addressing form factor choice. GEO terms (USA shipping, fast delivery) woven in near the end of this section since it leads into the final CTA area.
+
+10. **H2: Final Verdict: Which MelodySusie Cordless Nail Drill Should You Buy** (~150 words, conclusion) — Decision-driver close, not a summary. Reaffirm the Jade Plus winner, mention MSOFF15 discount code near this final push. **ShopFinalCTA fires automatically here.**
+
+**Injection plan summary:**
+- `{{PRODUCTS:1:0}}` after H2 #3 (Jade Plus, featured)
+- `{{PRODUCTS:2:1,2}}` after H2 #4 (Scamander + MR5, grid) — spans into H2 #5 prose
+- `{{PRODUCTS:1:3}}` after H2 #7 (Jade, featured)
+- `{{PRODUCTS:1:4}}` after H2 #8 (Sparkle Plus, featured)
+- ComparisonTable auto-fires at H2 #6 — no manual injection syntax needed, component reads `comparisonTable` data from frontmatter (see note below)
+
+**Note on comparisonTable data:** Section 2 frontmatter above does not yet include a `comparisonTable` object. Post gen must construct one with `features[]` = ["Motor Type", "Max RPM", "Battery Life (hrs)", "Charge Time (hrs)", "Weight (lbs)", "Price"] and `columns[]` = one column per product (5 columns) with `values[]` arrays of length 6 matching the features list exactly, pulled from the specs already stated in each product's `details` field and this section's prose. Do not invent new specs — every value must trace back to data already in this file.
+
+---
+
+## 8. Component Directives
+
+These components fire automatically from frontmatter in Section 2. Confirm trigger fields are correctly set. Never write component content in body — it auto-renders.
+
+- **WinnerBadge:** ACTIVE — `winnerIndex: 0` is set (Jade Plus)
+- **ShopInlineCTA:** ACTIVE — fires from `winnerIndex` being set, lands after H2 #4 per the 30% content split
+- **ComparisonTable:** ACTIVE — `showComparison: true` and `comparisonTable` object required (see Section 7 note above; post gen must build this object before finalizing)
+- **ProsConsBlock:** INACTIVE — `showProscons: false` for this post type (best-of uses comparison table, not pros/cons blocks, per post_type_defaults)
+- **ShopFinalCTA:** ALWAYS ACTIVE — products[] exists
+- **ShopFAQ:** ACTIVE — `faqs[]` has 8 entries
+- **ShopTableOfContents:** ALWAYS ACTIVE
+- **Sidebar winner card:** ACTIVE — `winnerIndex` is set
+
+**Correction note:** Section 2 sets `showProscons: false` per the best-of post type default, but the products array above includes `pros` and `cons` fields per the standard product schema. Post gen should retain this data in the products array (harmless if unused) but must NOT render a ProsConsBlock component, since best-of posts use the ComparisonTable instead. If post gen's component logic requires showProscons true for pros/cons data to display anywhere, flag this conflict rather than silently changing the flag.
+
+---
+
+## 9. Writing Instructions
+
+- This is conversion copy. Every sentence moves the buyer toward a purchase decision.
+- Lead with buyer benefit (freedom from cords, battery that survives a full appointment), not specs. Specs support the benefit, never lead.
+- Use the buyer phrase bank from Section 5 naturally.
+- Address the 5 buying objections directly in body copy, not just in FAQ.
+- Honest cons build trust — every product above has real cons listed. Use them, then counter with why the product is still the right buy for its stated use case.
+- Discount codes (OFF8, MSOFF15) placed near CTAs per Section 6, mentioned naturally, never as a standalone paragraph.
+- Primary keyword wrapped in `<strong>` tags every single mention, no exceptions.
+- No editorial literary hooks. Open each H2 with the buyer benefit or buying question directly.
+- H2 sections stay short and direct.
+- Conclusion is a decision driver, not a summary.
+- Internal links placed mid-post only, after the first product CTA (H2 #4 onward), anchor text natural.
+- No related articles section.
+- American English only.
+- Banned: "elevate," "seamlessly," "game-changing," "dive into," "transformative." No long em dashes — use commas or restructure.
+- Vary sentence rhythm: short and punchy for selling points, longer for context.
+- No "we tested" language anywhere — none of these products had insufficient reviews requiring the editorial fallback, but maintain informed-editorial tone throughout regardless.
