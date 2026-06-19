@@ -1,0 +1,229 @@
+**THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT.** All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions below must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy.
+
+---
+
+## 1. Cluster Summary
+
+- **Cluster:** SC-03 Winter & Holiday (`/shop/winter`)
+- **This post:** Post 48 — "Best MelodySusie Holiday Gel Polish Colors for 2026" — slug `melodysusie-holiday-gel-polish-colors` — **postType: best-of** — primary keyword: **MelodySusie holiday gel polish**
+- **Role:** Spoke (SC-03-S2)
+- **Internal links this post must include** (mid-post only, after first product CTA — never before):
+  1. `/shop/winter/best-melodysusie-holiday-nail-products` (SC-03 pillar) — anchor: "our full MelodySusie holiday gift and nail guide"
+  2. `/shop/gel-polish/melodysusie-glitter-gel-polish` (EC-03-S4) — anchor: "more glitter gel polish picks"
+  3. `/shop/winter/melodysusie-christmas-nail-gift-sets` (Post 47) — anchor: "Christmas gift sets"
+  4. `/shop/gel-polish/best-melodysusie-gel-polish` (EC-03 pillar) — anchor: "every MelodySusie gel polish formula"
+- **Posts that link to this post:** SC-03 pillar (37), EC-03 pillar (3)
+- **Affiliate mode:** Direct MelodySusie affiliate links (see product table). **Region: USA only.**
+
+---
+
+## 2. Frontmatter Block (copy exactly)
+
+```yaml
+title: "Best MelodySusie Holiday Gel Polish Colors for 2026"
+excerpt: "The best MelodySusie holiday gel polish shades for Christmas reds, NYE gold, and glitter sparkle — ranked by rating, price, and wear."
+date: "2026-06-19"
+author: "Mirellé"
+category: "Winter & Holiday"
+image: "https://www.melodysusie.com/cdn/shop/files/74b96dbb2d19db9758ba306fc55ad040_5e497cef-fcf5-4278-bcb4-40a6dc79cb14.jpg?v=1696584311&width=1600"
+imageAlt: "MelodySusie holiday gel polish Christmas 4-piece set with red and gold glitter bottles for a festive manicure"
+imageWidth: 1200
+imageHeight: 630
+readTime: "9 min read"
+canonical: ""
+postType: "best-of"
+winnerIndex: 0
+showComparison: true
+showProscons: false
+comparisonCaption: "How the top 5 MelodySusie holiday gel polish picks compare"
+products:
+  - name: "Christmas 15ml TPO-Free Thick Gel Nail Polish — 4Pcs"
+    brand: "MelodySusie"
+    price: "$21.73"
+    compareAtPrice: "$39.96"
+    image: "https://www.melodysusie.com/cdn/shop/files/74b96dbb2d19db9758ba306fc55ad040_5e497cef-fcf5-4278-bcb4-40a6dc79cb14.jpg?v=1696584311&width=1600"
+    link: "https://www.melodysusie.com/products/christmas-15ml-gel-nail-polish-4pcs?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    rating: "5.0"
+    reviewCount: "20"
+    details: ["4 festive 15ml shades in one box", "5.0★ from 20 reviews", "21+ day wear with proper top coat"]
+    pros: ["4 festive shades in one set", "5.0 rating from real buyers", "Best value per bottle in this roundup", "Covers red, glitter, and metallic in one box", "TPO-L compliant formula"]
+    cons: ["Not HEMA-free", "Colors are fixed — can't mix and match shades", "Best for buyers who want variety, not one signature red"]
+  - name: "Galaliver Glitter Gel Nail Polish 15ml — X01 Hot Red"
+    brand: "MelodySusie"
+    price: "$9.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/6391ace427ade714b70fb966024ae804_08aa7dc4-6ede-4c72-a3fe-3b38ea819deb.jpg?v=1741933191&width=1600"
+    link: "https://www.melodysusie.com/products/galaliver-glitter-gel-nail-polish-x01-hot-red?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Boldest Glitter Red"
+    rating: "4.9"
+    reviewCount: "32"
+    details: ["High-density glitter, 15ml", "21+ day wear", "4.9★ from 32 reviews"]
+    pros: ["High-density glitter packed into every swipe", "21+ day wear", "4.9 rating from 32 reviews", "Bold enough to wear without extra topper layers"]
+    cons: ["Contains HEMA", "No current discount, full price only", "Heavy glitter formula benefits from an extra top coat"]
+  - name: "Z030 Red Glitter — TPO-Free Thick Gel Nail Polish (15ml)"
+    brand: "MelodySusie"
+    price: "$7.99"
+    compareAtPrice: "$9.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/Z030.jpg?v=1711010224&width=1597"
+    link: "https://www.melodysusie.com/products/z030-red-glitter-gel-nail-polish15ml?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Value"
+    rating: "5.0"
+    reviewCount: "62"
+    details: ["5.0★ from 62 reviews — most-reviewed pick here", "$7.99, lowest price in this roundup", "21+ day wear"]
+    pros: ["Highest-rated product in this roundup at 5.0 stars", "62 reviews — the most of any pick here", "Lowest price point", "21+ day wear claim"]
+    cons: ["Not HEMA-free", "Single bottle only, no companion shades", "Glitter finish only, no solid-red option in this bottle"]
+  - name: "Galaliver Glitter Gel Nail Polish 15ml — X02 Noble Gold"
+    brand: "MelodySusie"
+    price: "$9.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/6391ace427ade714b70fb966024ae804_fa6bbcee-8551-4239-a051-84698a7c20be.jpg?v=1741933195&width=1600"
+    link: "https://www.melodysusie.com/products/galaliver-glitter-gel-nail-polish-x02-noble-gold?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for NYE"
+    rating: "4.9"
+    reviewCount: "32"
+    details: ["Metallic gold high-density glitter", "21+ day wear", "4.9★ from 32 reviews"]
+    pros: ["Metallic gold glitter built for NYE sparkle", "4.9 rating, same line as the Hot Red pick", "21+ day wear", "Pairs well with red for a two-tone holiday mani"]
+    cons: ["Contains HEMA", "Full price, no current discount on this shade", "Heavy glitter formula benefits from an extra top coat"]
+  - name: "077 Red Brown — TPO-Free Thick Gel Nail Polish (15ml)"
+    brand: "MelodySusie"
+    price: "$7.99"
+    compareAtPrice: "$9.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/77.jpg?v=1711075519&width=2000"
+    link: "https://www.melodysusie.com/products/077-red-brown-gel-nail-polish15ml?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Classic Red"
+    rating: "4.9"
+    reviewCount: "61"
+    details: ["Classic solid red-brown finish", "4.9★ from 61 reviews", "21+ day wear"]
+    pros: ["Most-reviewed classic red here at 61 reviews", "4.9 rating", "Understated, salon-classic finish for office or family gatherings", "TPO-L compliant"]
+    cons: ["Not HEMA-free", "Brown undertone reads less 'Santa red' in warm light", "Solid finish only, no sparkle"]
+comparisonTable:
+  features: ["Best For", "Finish", "HEMA-Free", "Rating", "Price"]
+  columns:
+    - name: "Christmas 4-Pc Set"
+      values: ["Full holiday mani in one box", "Mixed (cream, glitter, shimmer)", false, "5.0 (20)", "$21.73"]
+    - name: "Galaliver X01 Hot Red"
+      values: ["Bold sparkle statement nails", "High-density glitter", false, "4.9 (32)", "$9.99"]
+    - name: "Z030 Red Glitter"
+      values: ["Budget-friendly sparkle red", "Glitter", false, "5.0 (62)", "$7.99"]
+    - name: "Galaliver X02 Noble Gold"
+      values: ["NYE metallic glam", "High-density glitter/metallic", false, "4.9 (32)", "$9.99"]
+    - name: "077 Red Brown"
+      values: ["Classic understated Christmas red", "Cream/solid", false, "4.9 (61)", "$7.99"]
+faqs:
+  - q: "What's the best gel polish color for Christmas nails?"
+    a: "Classic Christmas red is the most popular pick, but glitter red and metallic gold are close behind for party season. MelodySusie's Z030 Red Glitter is the highest-rated red in this roundup at 5.0 stars, while 077 Red Brown gives a more understated, solid-red finish for office or family settings."
+  - q: "Can I wear gold glitter nail polish for New Year's Eve?"
+    a: "Yes — gold and silver glitter are two of the most requested non-red holiday shades. MelodySusie's Galaliver X02 Noble Gold is a high-density metallic glitter built specifically for that NYE-sparkle look, and it pairs well with a red shade for a two-tone mani."
+  - q: "How long does MelodySusie holiday gel polish last?"
+    a: "With a proper base coat and top coat, MelodySusie's holiday gel shades are rated for 21+ days of wear. All five picks in this roundup carry that same long-wear claim."
+  - q: "Do I need a UV or LED lamp for MelodySusie gel polish?"
+    a: "Yes, MelodySusie gel polish is a true soak-off gel and requires a UV or LED nail lamp to cure — it will not air-dry. Average cure time is 60-120 seconds under an LED lamp."
+  - q: "Is Galaliver glitter gel polish HEMA-free?"
+    a: "No. MelodySusie notes that Galaliver Glitter Gels contain HEMA and are not HEMA-free, unlike some of the brand's other gel lines. If HEMA sensitivity is a concern, patch-test first or look at MelodySusie's dedicated HEMA-Free Gels collection instead."
+  - q: "How do I stop glitter gel polish from getting messy during application?"
+    a: "Apply a thin layer rather than overloading the brush, and cure for the full recommended time before adding a second coat. Most application mess comes from too much product on the brush, not the formula itself."
+  - q: "Does MelodySusie ship gel polish free in the USA?"
+    a: "Yes. MelodySusie offers free US shipping on orders over $129.99, and code MSOFF15 takes 15% off orders over that same threshold (gift boxes excluded)."
+  - q: "What's in the MelodySusie Christmas 4-piece gel polish set?"
+    a: "The Christmas 15ml Gel Nail Polish 4-Pack includes four festive shades spanning cream, glitter, and shimmer finishes in one box, rated 5.0 stars from 20 reviews — the highest-rated multi-color pick in this roundup."
+```
+
+---
+
+## 3. SEO & Keyword Plan
+
+- **Primary keyword (locked):** MelodySusie holiday gel polish
+- **Keyword density target:** Competitor lifestyle roundups (NewBeauty, The Everygirl, Woman&Home) don't target this branded phrase at all — they rank for generic "Christmas nail colors." Set a natural target: **14 total mentions across ~1,800 words (~0.8% density)**, with **2 mentions in the first 150 words, both in `<strong>` tags**. Wrap every mention of the primary keyword in `<strong>` throughout the post.
+- **High CPC transactional keywords** (weave into CTAs/H2s): Christmas gel nail polish set; holiday gel nail polish kit; red glitter gel polish; gold gel nail polish; gel nail polish gift set; best gel polish for Christmas; New Year's Eve nail polish; glitter gel nail polish set.
+- **Keyword variations** (no density target): MelodySusie Christmas gel polish; MelodySusie NYE gel polish; best holiday nail polish MelodySusie; MelodySusie festive gel polish colors; MelodySusie winter gel polish.
+- **Transactional cluster keywords:** holiday manicure at home; Christmas nail polish gift; festive gel polish shades; party-season nail color.
+- **LSI semantic terms:** soak-off gel polish; UV/LED nail lamp; base coat; top coat; cure time; glitter gel formula; non-toxic gel polish; TPO-free; HEMA-free; 21-day wear; holiday manicure; DIY nail art at home; sparkle finish; metallic glitter; festive nail colors.
+- **AEO terms** (mapped — none left unmapped):
+  1. "What color gel polish should I get for Christmas nails?" → H2-2
+  2. "Can I wear gold glitter nail polish for New Year's Eve?" → H2-3
+  3. "How long does MelodySusie holiday gel polish last?" → H2-4 / FAQ
+  4. "Do I need a UV or LED lamp for MelodySusie gel polish?" → FAQ
+  5. "Is Galaliver glitter gel polish HEMA-free?" → FAQ
+  6. "What wattage nail lamp do I need to cure holiday gel polish?" → H2-4
+  7. "How many coats of glitter gel polish do I need for full coverage?" → H2-6
+  8. "How do I keep glitter gel polish from getting messy?" → H2-6 / FAQ
+  9. "Does MelodySusie ship to the USA for free?" → FAQ
+  10. "What's in the MelodySusie Christmas 4-piece gel polish set?" → H2-1 / FAQ
+- **GEO terms** (place near CTAs/shipping mentions): best holiday gel polish to buy in the USA; does MelodySusie ship to USA; MelodySusie free shipping USA orders over $129.99; where to buy Christmas gel nail polish online; MelodySusie holiday gel polish fast shipping.
+- **Buyer phrase bank** (from Amazon/Quora — weave naturally): "long-lasting for 21+ days"; "classic red is festive and timeless"; "silver and gold are always gorgeous"; "easy application, good tenacity"; "low odor formula"; "perfect gift for the holidays"; "high durability and intense pigmentation"; objection to defuse: glitter formulas can feel "messy" if over-applied — counter with thin-layer application tip.
+
+---
+
+## 4. Competitor & Title Intelligence
+
+- **Top competitor titles:** "9 Polishes to Get a Salon-Level Holiday Manicure at Home" (NewBeauty); "25 Christmas Nails That Are Not Red" (The Everygirl); "16 Statement Christmas Nails Gel Lovers Need" (Woman & Home). These work because they're specific (a number + a clear angle) but none are buyer-intent or brand-specific — they're style inspiration, not "which bottle do I buy."
+- **Title direction that beats them:** Lead with the brand + buyer intent ("Best MelodySusie Holiday Gel Polish Colors") since none of the ranking pages target a specific buyable brand lineup — that's the gap.
+- **Competitor gaps (mandatory H2s here):** None of the top-ranking pages mention cure time, lamp wattage, HEMA content, or shipping/buying logistics — pure style inspiration with no purchase guidance. None compare cost-per-bottle or review counts.
+- **Missing product angles competitors miss:** Honest formula disclosure (HEMA status), application mess management, and a buy-ready comparison table.
+- **Word count target:** ~1,800 words (competitor average for this format runs 1,200–1,600 words; we add depth via the buying-guide sections above).
+
+---
+
+## 5. Buyer Intelligence
+
+- **Who:** Home DIY nail enthusiasts, mostly women 20–45, doing their own gel manicures for holiday parties/NYE, plus gift buyers shopping for a specific giftable set.
+- **What they need:** Which exact MelodySusie shades read as "Christmas" vs. "NYE," and reassurance the formula is worth buying over generic Amazon sets.
+- **What frustrates them:** Vague "wear red or green" advice with no actual product to buy; no honest formula disclosure; fear of a messy glitter application.
+- **Top 5 buying objections (each addressed in body):**
+  1. "Will glitter gel polish be messy to apply?" → H2-6
+  2. "Do I need a special lamp for this?" → H2-4
+  3. "Will it actually last through the holidays/NYE?" → H2-4
+  4. "Is it HEMA-free / safe?" → H2-1 and FAQ (honest: it is not)
+  5. "Is the 4-piece set worth it vs. single bottles?" → H2-1
+- **Buyer phrase bank:** see Section 3.
+- **Recurring praise (Amazon-mined):** "easy application and good tenacity," "high durability and intense pigmentation," "perfect gift for the holidays."
+- **Recurring complaints to address honestly:** application gets "messy" when too much product is loaded on the brush; several competing sets are not HEMA-free either, so this is a category-wide tradeoff, not a MelodySusie-specific flaw.
+
+---
+
+## 6. Discount & Conversion Data
+
+- Code **OFF8** = 8% off sitewide (no minimum)
+- Code **MSOFF15** = 15% off orders over $129.99 (gift boxes excluded)
+- **Free US shipping** on orders over $129.99
+- Place all three near the ShopInlineCTA (after section 1) and ShopFinalCTA (end of post) — mention naturally, not as a standalone callout block.
+
+---
+
+## 7. Content Structure (H2s — exact order, do not rename/reorder)
+
+1. **Intro** (no H2) — ~180 words. Hook: holiday party season is here, salon prices add up, here are the 5 MelodySusie shades worth buying, ranked. Primary keyword in `<strong>` x2.
+2. **H2: "Our Top MelodySusie Holiday Gel Polish Picks at a Glance"** — ~220 words. Covers AEO #10 (what's in the 4-piece set). Injection: `{{PRODUCTS:2:0,1}}` (Christmas set + Galaliver Hot Red). *ShopInlineCTA fires automatically after this section.*
+3. **H2: "Best Classic & Glitter Red Shades for a Traditional Christmas Mani"** — ~260 words. Covers AEO #1. Injection: `{{PRODUCTS:2:2,4}}` (Z030 Red Glitter + 077 Red Brown). **Internal link #2** (glitter gel polish spoke) goes here.
+4. **H2: "Best Metallic Gold for New Year's Eve Sparkle"** — ~220 words. Covers AEO #2. Injection: `{{PRODUCTS:1:3}}` (Galaliver Noble Gold). **Internal link #3** (Christmas gift sets) goes here.
+5. **H2: "How Long Does MelodySusie Holiday Gel Polish Actually Last?"** — ~260 words. Covers AEO #3 and #6 (cure time, wattage, 21+ day wear). GEO shipping mention goes here. **Internal link #1** (SC-03 pillar) goes here. *ComparisonTable fires automatically after this section.*
+6. **H2: "Which Holiday Shade Is Right for You?"** — ~150 words, brief framing copy that introduces the auto-rendered comparison table. **Internal link #4** (EC-03 gel polish pillar) goes here.
+7. **H2: "How to Apply Holiday Gel Polish Without the Mess"** — ~280 words. Covers AEO #7/#8 — counters the "messy" Amazon complaint with a thin-layer application tip.
+8. **Conclusion** (no H2) — ~130 words. Final push to buy, mention discount code, restate winner.
+
+---
+
+## 8. Component Directives (confirm only — these fire automatically from Section 2 frontmatter)
+
+- WinnerBadge: ACTIVE (winnerIndex: 0)
+- ShopInlineCTA: ACTIVE (winnerIndex: 0)
+- ComparisonTable: ACTIVE (showComparison: true + comparisonTable data present)
+- ProsConsBlock: INACTIVE (showProscons: false — best-of post type)
+- ShopFinalCTA: ALWAYS ACTIVE
+- ShopFAQ: ACTIVE (8 faqs present)
+- ShopTableOfContents: ALWAYS ACTIVE
+- Sidebar winner card: ACTIVE (winnerIndex: 0)
+
+---
+
+## 9. Writing Instructions
+
+- Conversion copy throughout — every sentence moves the buyer toward a purchase decision. Lead with buyer benefit, specs support it.
+- Use the buyer phrase bank (Section 3) naturally; address all 5 objections (Section 5) directly, no hedging.
+- Primary keyword wrapped in `<strong>` every single mention — no exceptions.
+- Discount codes mentioned naturally near CTAs, not as a standalone block.
+- Internal links placed mid-post only, after the first product CTA, with natural anchor text (see Section 7 placements).
+- No related-articles section — handled by site component.
+- American English. No banned AI patterns ("elevate," "seamlessly," "game-changing," "dive into," "transformative"). No long em dashes — use commas or restructure.
+- Vary sentence rhythm — short, punchy lines for selling points; longer sentences for context.
+- No "we tested" language anywhere — all formula/durability claims are sourced from MelodySusie's own product pages and review counts cited above, framed as informed editorial observation.
+- Honest cons build trust — every product's HEMA status and limitations are stated plainly, then countered with why it's still a strong buy for the stated use case.
