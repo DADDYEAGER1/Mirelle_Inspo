@@ -1,0 +1,477 @@
+# SHOP INPUT FILE — POST 27
+**THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT. All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions in this file must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy.**
+
+---
+
+## SECTION 1 — CLUSTER SUMMARY
+
+**Cluster:** EC-05 Nail Care Tools  
+**Category route:** `/shop/nail-care-tools`  
+**This post:** MelodySusie Nail Dust Collector: HPro vs SPro Compared  
+**Slug:** `melodysusie-nail-dust-collector-review`  
+**Post type:** best-of  
+**Primary keyword:** `MelodySusie nail dust collector`  
+**Role:** Spoke post under EC-05 pillar (Best MelodySusie Nail Care Tools)  
+**Affiliate region:** USA  
+**Affiliate mode:** MelodySusie affiliate links (aff=3711)
+
+**Internal links this post must include (mid-post only, after first product CTA):**
+- Link to EC-05 pillar: `/shop/nail-care-tools/best-melodysusie-nail-care-tools` — anchor: "MelodySusie nail care tools"
+- Link to EC-01 spoke: `/shop/nail-drills/melodysusie-nail-drill-beginners` — anchor: "best MelodySusie nail drill for beginners"
+
+**Posts that link to this post:** EC-05 pillar (best nail care tools roundup)
+
+---
+
+## SECTION 2 — FRONTMATTER BLOCK
+
+**Post gen instruction: Copy this frontmatter block exactly into the post. Do not change any field. All image URLs, prices, product names, and slugs are pre-filled.**
+
+```yaml
+---
+title: "Best MelodySusie Nail Dust Collectors: HPro, SPro & SProR Ranked"
+excerpt: "HPro, SProR, or SPro — which MelodySusie nail dust collector is right for you? Real specs, honest pros and cons, and the pick for home use."
+date: "2026-06-19"
+author: "Mirellé"
+category: "nail-care-tools"
+image: "https://www.melodysusie.com/cdn/shop/files/SPROR_e057af11-90f9-4dbf-8038-b31935f33a24.jpg?v=1763117188&width=1600"
+imageAlt: "MelodySusie nail dust collector SProR cordless model on white nail desk with reusable filter visible"
+imageWidth: 1200
+imageHeight: 630
+readTime: "7 min read"
+canonical: ""
+postType: "best-of"
+winnerIndex: 0
+showComparison: true
+showProscons: false
+comparisonCaption: "How every MelodySusie dust collector stacks up"
+
+products:
+  - name: "SProR Cordless & Rechargeable Nail Dust Collector"
+    brand: "MelodySusie"
+    price: "$69.99"
+    compareAtPrice: "$83.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/SPROR_e057af11-90f9-4dbf-8038-b31935f33a24.jpg?v=1763117188&width=1600"
+    link: "https://www.melodysusie.com/products/spror-cordless-rechargeable-nail-dust-collector-white?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    rating: 4.7
+    reviewCount: 89
+    details:
+      - "Cordless — 5-hour battery life, 2.5-hour charge"
+      - "3500 RPM, 360-degree suction, 3 speeds"
+      - "Reusable magnetic filter, 7.67 × 3.35 inches"
+    pros:
+      - "Fully cordless — use anywhere without hunting for an outlet"
+      - "5 hours of run time handles long at-home sessions without interruption"
+      - "Surprisingly strong suction for a rechargeable unit — catches gel and acrylic dust effectively"
+      - "Compact footprint, doesn't crowd your nail desk"
+      - "Reusable filter saves money — clean with a hairdryer, replace every 3-4 months"
+      - "Low noise keeps your setup comfortable, not distracting"
+    cons:
+      - "Pricier than the corded HPro — pay for the cordless convenience"
+      - "Must fully charge (green light) before first cordless use — red light means plug in"
+
+  - name: "HPro Nail Dust Collector"
+    brand: "MelodySusie"
+    price: "$49.99"
+    compareAtPrice: "$64.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/2_c4defb21-fd34-4312-84b9-7809dd3f84fe.jpg?v=1745207727&width=1600"
+    link: "https://www.melodysusie.com/products/hpro-nail-dust-collector-white?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Home Use"
+    rating: 4.6
+    reviewCount: 312
+    details:
+      - "3800 RPM, 3 suction speeds, button control"
+      - "Reusable magnetic filter, 7.67 × 2.34 inches"
+      - "Corded — plugs into standard US outlet"
+    pros:
+      - "Most popular MelodySusie dust collector — 312+ reviews back it up"
+      - "Simple button controls — perfect for beginners, no learning curve"
+      - "Powerful enough to catch fine gel and acrylic dust at medium speed"
+      - "Slim profile (2.34 inches tall) takes up minimal desk space"
+      - "Reusable filter — clean with hairdryer or brush, replace every 3-4 months"
+      - "Affordable entry into proper dust collection"
+    cons:
+      - "Corded only — cord can get in the way depending on your setup"
+      - "Not suitable for back-to-back client use — designed for home and beginner use"
+
+  - name: "SPro Nail Dust Collector"
+    brand: "MelodySusie"
+    price: "$84.99"
+    compareAtPrice: "$94.99"
+    image: "https://www.melodysusie.com/cdn/shop/products/2_3_7570d9a4-1a92-44df-bb5f-bbdf18a181b7.jpg?v=1686734636&width=1080"
+    link: "https://www.melodysusie.com/products/spro-nail-dust-collector?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Pros"
+    rating: 4.5
+    reviewCount: 178
+    details:
+      - "4000 RPM, 2 suction modes (Low / High), touch panel"
+      - "360-degree capture, large ventilation for heat dissipation"
+      - "Reusable filter — replacement 6-packs available"
+    pros:
+      - "Higher RPM than the HPro — stronger baseline suction for heavier filing sessions"
+      - "Touch panel control — cleaner, more professional feel"
+      - "Handles extended use without overheating — large vent design"
+      - "Dual suction modes keep it simple for quick mode switching mid-session"
+      - "Replacement filter packs available in 2-, 4-, and 6-packs"
+    cons:
+      - "Corded only — no rechargeable option at this tier"
+      - "Overkill for casual home use — HPro delivers similar results for less"
+      - "Higher price doesn't close the gap on professional-grade units like Anemone or Shemax"
+
+  - name: "HProA Nail Dust Collector"
+    brand: "MelodySusie"
+    price: "$35.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/d92e076f69cb1a6f81c9bab8cd8f57a2_68290430-298b-4e92-8b84-12490583ff4e.jpg?v=1763624237&width=1600"
+    link: "https://www.melodysusie.com/products/hproa-nail-dust-collector-white?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Budget Pick"
+    rating: 4.4
+    reviewCount: 203
+    details:
+      - "6000 RPM pocket-sized design, 3 suction modes"
+      - "30 disposable filter papers included"
+      - "Ultra-compact — smallest in the MelodySusie lineup"
+    pros:
+      - "Lowest price in the lineup — best entry point for total beginners"
+      - "6000 RPM motor punches above its size"
+      - "Ships with 30 disposable filter papers — no extra purchase needed to start"
+      - "Tiny footprint fits any desk setup without rearranging"
+      - "Multiple color options (white, pink, green, purple)"
+    cons:
+      - "Disposable filters are an ongoing cost — stock up with 120- or 210-sheet packs"
+      - "Smallest capture area in the lineup — works best when nails are positioned directly over the suction"
+      - "Some users report unit shuts off briefly at highest speed — use medium setting for longer sessions"
+
+comparisonTable:
+  caption: "How every MelodySusie dust collector stacks up"
+  features:
+    - "Price"
+    - "RPM"
+    - "Cordless"
+    - "Suction Speeds"
+    - "Filter Type"
+    - "Best For"
+    - "Dimensions"
+  columns:
+    - name: "SProR"
+      badge: "Best Overall"
+      values:
+        - "$69.99"
+        - "3500 RPM"
+        - true
+        - "3"
+        - "Reusable"
+        - "Home / Mobile Techs"
+        - "7.67 × 3.35 in"
+    - name: "HPro"
+      badge: "Best for Home"
+      values:
+        - "$49.99"
+        - "3800 RPM"
+        - false
+        - "3"
+        - "Reusable"
+        - "Beginners / Home Use"
+        - "7.67 × 2.34 in"
+    - name: "SPro"
+      badge: "Best for Pros"
+      values:
+        - "$84.99"
+        - "4000 RPM"
+        - false
+        - "2"
+        - "Reusable"
+        - "Nail Techs / Salon"
+        - "Compact desktop"
+    - name: "HProA"
+      badge: "Best Budget"
+      values:
+        - "$35.99"
+        - "6000 RPM"
+        - false
+        - "3"
+        - "Disposable (30 included)"
+        - "Total Beginners"
+        - "Pocket-sized"
+
+faqs:
+  - question: "What is the difference between the MelodySusie HPro and SProR nail dust collectors?"
+    answer: "The HPro is corded, slimmer, and costs $49.99 — a reliable plug-in choice for home use. The SProR is cordless, runs on a built-in battery for up to 5 hours, and costs $69.99. If you want the freedom to move around or hate dealing with cords, the SProR is worth the extra $20. If you always work at the same desk with an outlet nearby, the HPro does the job for less."
+
+  - question: "How often do you need to replace the filter on a MelodySusie nail dust collector?"
+    answer: "MelodySusie recommends replacing the reusable filter every 3 to 4 months for optimal suction. Between replacements, clean it by removing the magnetic cover and blowing it out with a hairdryer on cool setting. Never wash the filter with water. The HProA uses disposable paper filters that need swapping more frequently — it ships with 30 to get you started."
+
+  - question: "Is the MelodySusie nail dust collector good enough for acrylic nails?"
+    answer: "Yes, all four models capture acrylic dust effectively for home use. The SPro at 4000 RPM and the HProA at 6000 RPM offer the strongest suction for heavier acrylic filing. For casual gel maintenance and gel removal, the HPro at 3800 RPM is more than sufficient. If you're doing back-to-back acrylic sets professionally, a higher-end unit like Anemone or Shemax is better suited."
+
+  - question: "Does the MelodySusie nail dust collector work for gel nail removal at home?"
+    answer: "Yes. The HPro and SProR both handle gel dust well at medium suction. Position your hand directly over the suction opening for best capture. All MelodySusie models use 360-degree suction designed to pull dust away from your breathing zone during filing, buffing, and gel removal."
+
+  - question: "Is there a MelodySusie nail dust collector that works without being plugged in?"
+    answer: "Yes — the SProR is MelodySusie's cordless nail dust collector. It has a built-in lithium-ion battery, charges fully in 2.5 hours, and runs for up to 5 hours unplugged. It also works while plugged in if the battery runs down. It's the best pick for mobile nail techs or anyone who does nails in different spots around the house."
+
+  - question: "What discount codes work on MelodySusie nail dust collectors?"
+    answer: "MelodySusie currently offers code OFF8 for 8% off sitewide, and code MSOFF15 for 15% off orders over $129.99. Free US shipping applies to orders over $129.99 as well. Codes cannot be combined — use MSOFF15 on larger orders for the better deal."
+
+  - question: "Do MelodySusie nail dust collectors ship to the USA?"
+    answer: "Yes, MelodySusie ships to the USA and offers free US shipping on orders over $129.99. All models featured here are available for purchase and delivery within the United States. Standard delivery times apply — check the product page for current estimated shipping windows."
+---
+```
+
+---
+
+## SECTION 3 — SEO AND KEYWORD PLAN
+
+**Post gen instruction: Follow this keyword plan exactly. Calculate density before writing — do not estimate.**
+
+**Primary keyword:** `MelodySusie nail dust collector`  
+**Keyword density target:** 1.2% — match top competitor density. Add 3 extra mentions in first half.  
+**Total mention target:** ~10 mentions for an 850-word post body.  
+**First 150 words:** Primary keyword must appear exactly 2 times — both in `<strong>` tags.  
+**ALL primary keyword mentions throughout entire post wrapped in `<strong>` tags.**
+
+**High CPC transactional keywords (weave into CTAs, H2s, mid-post):**
+- "nail dust collector for home use" (high buyer intent, $1.50–$2.50 CPC range)
+- "best nail dust collector" (top transactional, $2.00+ CPC)
+- "cordless nail dust collector" (rising, $1.80+ CPC)
+- "nail vacuum for acrylic nails" (strong purchase intent)
+- "nail dust collector USA" (geo-transactional)
+
+**Keyword variations (use naturally, no density target, no strong tags):**
+- MelodySusie dust collector
+- MelodySusie nail vacuum
+- MelodySusie HPro dust collector
+- MelodySusie SProR
+- MelodySusie SPro dust collector
+- nail dust collector MelodySusie review
+
+**Transactional cluster keywords:**
+- best nail dust collector for beginners
+- nail dust collector with reusable filter
+- rechargeable nail dust collector
+- nail dust collector 360-degree suction
+- quiet nail dust collector
+- portable nail dust collector
+- nail dust collector vs dust mask
+- affordable nail dust collector USA
+
+**LSI semantic terms (weave naturally):**
+- nail filing dust
+- acrylic nail dust health
+- gel nail dust removal
+- nail drill dust
+- breathing fine nail particles
+- reusable nail filter
+- nail suction machine
+- 360-degree nail vacuum
+- adjustable suction nail collector
+- magnetic filter nail tool
+- nail tech workspace
+- dust-free manicure environment
+- nail dust health risk
+
+**AEO terms — mapped to H2 or FAQ:**
+| AEO Term | Mapped To |
+|---|---|
+| "What is the difference between MelodySusie HPro and SProR?" | FAQ entry 1 |
+| "How often do I replace the filter on a MelodySusie dust collector?" | FAQ entry 2 |
+| "Is a MelodySusie nail dust collector good enough for acrylic nails?" | FAQ entry 3 + H2: "Does It Work for Acrylics and Gel?" |
+| "Does the MelodySusie dust collector work for gel nail removal?" | FAQ entry 4 |
+| "Is there a cordless MelodySusie nail dust collector?" | H2: "The Cordless Pick: SProR" + FAQ entry 5 |
+| "What discount codes work on MelodySusie?" | FAQ entry 6 |
+| "Does MelodySusie ship nail dust collectors to the USA?" | FAQ entry 7 |
+| "What RPM should a nail dust collector be for home use?" | H2: "How to Choose the Right Model" |
+| "Do I need a nail dust collector if I wear a mask?" | H2: intro section — buyer objection |
+| "How loud are MelodySusie nail dust collectors?" | H2: "How to Choose the Right Model" |
+
+**GEO terms — place near CTAs, availability copy, shipping mentions:**
+- "best nail dust collector to buy in the USA"
+- "MelodySusie free shipping USA"
+- "nail dust collector fast shipping USA"
+- "where to buy MelodySusie nail dust collector online"
+- "nail dust collector available in the US"
+
+**Buyer phrase bank (from Amazon/Walmart/YouTube reviews — use naturally in body copy):**
+- "saving my lungs"
+- "didn't know I needed this until I got it"
+- "collects so much dust even on low setting"
+- "doesn't take up much room on my nail desk"
+- "reusable filter is a lifesaver"
+- "figured out the filter placement from their website"
+- "surprisingly powerful for its size"
+- "low noise, doesn't distract me"
+- "perfect for home use, not for back-to-back clients"
+- "comes with lots of filter papers so you don't need to buy more right away"
+
+---
+
+## SECTION 4 — COMPETITOR AND TITLE INTELLIGENCE
+
+**Post gen instruction: Use this to write a title and excerpt that outperforms competitors on CTR. Analysis is done — execute it.**
+
+**Top 3 competitor titles for "MelodySusie nail dust collector":**
+1. "Our Honest Review of MelodySusie Nail Dust Collector for Beginners" (topprotools24.com) — works on trust + beginner angle, but misses model differentiation
+2. "10 Best MelodySusie Nail Dust Collectors to Keep Your Workspace Clean" (sortra.com) — bloated list, weak CTA angle
+3. "Dust Collectors Anemone (PRO) vs MelodySusie (DIY)" (paolaponcenails.com) — ranks well, strong comparison angle, but third-party brand dilutes MelodySusie-specific traffic
+
+**Title direction:** Our title wins by naming the specific models (HPro, SPro, SProR), using a ranked structure, and targeting the model-comparison buyer intent directly. Competitors either go too generic or too broad.
+
+**Competitor gaps — these are mandatory H2 sections:**
+- None clearly explain which model suits home use vs professional use
+- None explain the SProR cordless option in depth
+- None mention the HProA as a budget entry point
+- None include discount codes or USA shipping information
+- None address the "do I need this if I wear a mask?" objection
+
+**Word count target:** 850 words body copy (competitor average: 700–900 words; we target middle-upper to add value without padding).
+
+---
+
+## SECTION 5 — BUYER INTELLIGENCE
+
+**Post gen instruction: Every paragraph must be written for this buyer. Use the exact phrases listed here naturally in the copy.**
+
+**Who this buyer is:** Primarily at-home gel or acrylic nail enthusiast, beginner to intermediate. Occasionally a mobile nail tech or nail student. US-based. Has a nail drill and UV lamp, now filling out their setup. Health-conscious — aware that nail dust is harmful but hasn't taken action yet.
+
+**What they need from this post:** A clear answer to "which MelodySusie dust collector should I actually buy" — model comparison with honest trade-offs, not a generic buying guide.
+
+**What frustrates them:**
+- Roundups that don't compare models side-by-side
+- Reviews that don't mention whether it works for gel vs acrylic
+- No mention of cord vs cordless trade-offs
+- Vague filter info with no replacement timeline
+- No discount info
+
+**Top 5 buying objections (each addressed in post body):**
+1. "I already wear a mask — do I really need a dust collector?" → Address: masks don't capture fine particles the way a suction unit does; dust settles on your desk and tools too
+2. "Will the suction be strong enough for acrylic?" → Address: HPro and SProR handle home acrylic volume; SPro for heavier use
+3. "Is the filter replacement expensive?" → Address: reusable on 3 of 4 models, replace every 3-4 months, cheap 2-pack available; HProA uses disposables, 30 included
+4. "Is it loud?" → Address: all models operate at low noise; higher settings are louder but manageable
+5. "Is it worth it at this price?" → Address: reusable filter means no ongoing filter cost; discount codes OFF8 and MSOFF15 apply
+
+**Recurring praise from real reviews:**
+- Collects dust immediately even on low setting
+- Reusable filter is a standout feature vs competitors
+- Compact — doesn't take over the desk
+- Low noise across all settings
+- Easy to clean with a hairdryer
+
+**Recurring complaints:**
+- HProA shuts off briefly at max speed — use medium
+- No instructions showing how to insert the filter paper (HProA) — filters go under the metal ring held by magnets
+- Corded models limit portability
+
+---
+
+## SECTION 6 — DISCOUNT AND CONVERSION DATA
+
+**Post gen instruction: Include these naturally near product CTAs — not as a standalone paragraph.**
+
+**Active MelodySusie discount codes (confirmed on product pages):**
+- **OFF8** — 8% off sitewide (no minimum)
+- **MSOFF15** — 15% off orders over $129.99
+- **Free US shipping** on orders over $129.99
+- Codes cannot be combined — one per order
+
+**Sale pricing active (confirmed):**
+- SProR: $69.99 (was $83.99) — $14 off
+- HPro: $49.99 (was $64.99) — $15 off
+- SPro: $84.99 (was $94.99) — $10 off
+- HProA: $35.99 (no compare-at found)
+
+**Where to mention discount:** Near ShopInlineCTA area (after first product intro) and at ShopFinalCTA area (bottom of post). Mention OFF8 as the accessible code since it has no minimum order requirement.
+
+---
+
+## SECTION 7 — CONTENT STRUCTURE
+
+**Post gen instruction: Use these H2 headings in this exact order. Do not rename, reorder, or remove. Add H3s at your discretion. Each H2 has a directive — follow it.**
+
+**Intro (no H2) — 120–150 words**
+- Open with the buyer pain: nail dust is invisible but real — fine particles from gel, acrylic, and buffing stay airborne, land on your desk, your hands, and get breathed in
+- Address the mask objection immediately: a mask helps but doesn't stop dust from coating your workspace or landing on your tools
+- Introduce MelodySusie as the go-to brand for home nail dust collection — four models for different setups and budgets
+- Primary keyword appears twice in `<strong>` tags within first 150 words
+- Place `{{PRODUCTS:2:0,1}}` (SProR + HPro side by side) after intro, before first H2
+
+**H2: Which MelodySusie Nail Dust Collector Is Right for You? — 120 words**
+- Directive: Quick decision matrix — not a full breakdown yet. Home user on a budget → HPro. Want cordless freedom → SProR. Mobile tech or heavier use → SPro. Total beginner trying it for the first time → HProA. Keep it scannable with short decision sentences.
+- AEO answer: "What RPM should a nail dust collector be for home use?" — answer in body: 3500–3800 RPM is plenty for home gel and acrylic filing
+- AEO answer: "How loud are MelodySusie nail dust collectors?" — all models low noise; note higher settings are louder
+
+**H2: The Best Overall: SProR Cordless Nail Dust Collector — 150 words**
+- Directive: This is the winner section. Explain why cordless wins for most home users — no outlet needed, 5-hour battery means any session is covered, compact enough for any setup. Address the charging instruction (red light = plug in, green = ready to go cordless). Use buyer language: "saves your lungs," "surprisingly strong suction."
+- GEO: mention ships free in the USA on orders over $129.99 or use OFF8 for 8% off
+- Place `{{PRODUCTS:1:0}}` featured layout here (SProR solo, featured)
+- Internal link to EC-01 spoke (`/shop/nail-drills/melodysusie-nail-drill-beginners`) goes here with anchor "best MelodySusie nail drill for beginners" — natural context: "If you're pairing this with a nail drill, check out our guide to the best MelodySusie nail drill for beginners"
+
+**H2: Best for Home Use: HPro Nail Dust Collector — 120 words**
+- Directive: Position as the most-reviewed and most-trusted pick for at-home nail enthusiasts. 312+ reviews. Plug it in, set it to medium, file. Reusable filter reduces ongoing costs. Explain the simple button control is ideal for people who don't want to overthink settings. Mention the slim 2.34-inch height.
+- Address objection: corded means less flexibility — but for a fixed home nail desk, it doesn't matter
+- Place `{{PRODUCTS:1:1}}` featured layout here (HPro solo, featured)
+
+**H2: Best for Nail Techs: SPro Nail Dust Collector — 100 words**
+- Directive: Position clearly as the step-up for heavier use, more filing sessions, or nail tech training. 4000 RPM, touch panel. Honest about its limits — not a professional-grade Anemone or Shemax, but solid for semi-pro home setups and nail students. Mention the 6-pack filter replacement option.
+- Place `{{PRODUCTS:1:2}}` featured layout here (SPro solo, featured)
+- Internal link to EC-05 pillar (`/shop/nail-care-tools/best-melodysusie-nail-care-tools`) goes here with anchor "MelodySusie nail care tools" — natural context: "For the full MelodySusie nail care tool lineup, see our complete MelodySusie nail care tools guide"
+
+**H2: Best Budget Pick: HProA Pocket Dust Collector — 90 words**
+- Directive: Position as the lowest barrier-to-entry pick — $35.99, comes with 30 filter papers, 6000 RPM motor. Perfect for someone who just started doing nails and wants to try dust collection before committing more money. Note the one practical tip real users discovered: filters go under the magnetic ring — instructions don't make this obvious.
+- Address the auto-shutoff complaint honestly: use medium speed for uninterrupted sessions
+- Place `{{PRODUCTS:1:3}}` featured layout here (HProA solo, featured)
+
+**H2: Does It Actually Work? What Real Buyers Say — 80 words**
+- Directive: 3–4 paraphrased buyer observations from real reviews (Walmart, Amazon, topprotools24). Focus on: suction power on low setting still impresses, reusable filter praised for saving money, compact size fits any desk, low noise. No "we tested" language — write as informed editorial summaries of customer consensus.
+- One sentence addressing the "not 100% catch rate" reality — works best when hands are positioned close to the suction area
+
+**Conclusion — 80 words**
+- Directive: Final decision push — not a summary. Open with the clear recommendation: SProR for most people, HPro if budget matters and you have a fixed desk. Mention OFF8 code for 8% off, MSOFF15 for bigger orders. Place `{{PRODUCTS:2:0,1}}` (SProR + HPro side by side) here as the final CTA before ShopFinalCTA auto-renders.
+
+---
+
+## SECTION 8 — COMPONENT DIRECTIVES
+
+**Post gen instruction: These components fire automatically from frontmatter. Confirm trigger fields in Section 2 are correctly set. Never write component content in body — it auto-renders.**
+
+| Component | Status | Trigger |
+|---|---|---|
+| WinnerBadge | ACTIVE | `winnerIndex: 0` set in frontmatter |
+| ShopInlineCTA | ACTIVE | `winnerIndex: 0` set in frontmatter |
+| ComparisonTable | ACTIVE | `showComparison: true` + `comparisonTable` data present |
+| ProsConsBlock | INACTIVE | `showProscons: false` |
+| ShopFinalCTA | ALWAYS ACTIVE | `products[]` array present |
+| ShopFAQ | ACTIVE | `faqs[]` array has 7 entries |
+| ShopTableOfContents | ALWAYS ACTIVE | Reads H2/H3 from body automatically |
+| Sidebar winner card | ACTIVE | `winnerIndex: 0` set |
+
+**Injection plan summary:**
+- After intro: `{{PRODUCTS:2:0,1}}` — SProR + HPro side by side (2-product grid)
+- After H2 "The Best Overall: SProR": `{{PRODUCTS:1:0}}` — SProR featured layout
+- After H2 "Best for Home Use: HPro": `{{PRODUCTS:1:1}}` — HPro featured layout
+- After H2 "Best for Nail Techs: SPro": `{{PRODUCTS:1:2}}` — SPro featured layout
+- After H2 "Best Budget Pick: HProA": `{{PRODUCTS:1:3}}` — HProA featured layout
+- In conclusion: `{{PRODUCTS:2:0,1}}` — SProR + HPro final CTA pair
+
+---
+
+## SECTION 9 — WRITING INSTRUCTIONS
+
+**Post gen instruction: Follow these rules for every paragraph of body copy.**
+
+- This is conversion copy — every sentence moves the buyer toward a purchase decision
+- Lead with buyer benefit, not product specs — specs support the benefit, never lead with them
+- Use buyer phrases from Section 5 naturally: "saving my lungs," "doesn't take up much room," "reusable filter is a lifesaver," "surprisingly powerful for its size"
+- Address all 5 buying objections directly — do not hedge or avoid them
+- Honest cons build trust — include them, then counter with why the product is still the right buy
+- Discount codes (OFF8, MSOFF15) placed near CTAs only — mention naturally, not as a standalone paragraph
+- Primary keyword `MelodySusie nail dust collector` in `<strong>` tags every mention — no exceptions
+- No editorial literary hooks — open sections with the buyer benefit or buying decision directly
+- H2 sections are short and direct — buyers scan, they don't read long intros
+- Conclusion = final push to purchase — not a summary, a decision driver
+- Internal links placed only in designated H2 sections per Section 7 — never before first product CTA
+- No related articles section
+- Language: American English only
+- No banned AI patterns: no "elevate," "seamlessly," "game-changing," "dive into," "transformative"
+- No long em dashes — use comma or restructure sentence
+- No "we tested" language — write as informed editorial observations from confirmed buyer consensus
+- Sentence rhythm varies: short punchy sentences for key selling points, longer for context and objections
