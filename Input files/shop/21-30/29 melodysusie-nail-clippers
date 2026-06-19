@@ -1,0 +1,461 @@
+> **AUTHORITY STATEMENT:** THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT. All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions in this file must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy.
+
+---
+
+## 1. CLUSTER SUMMARY
+
+- **Cluster:** EC-05 Nail Care Tools
+- **Cluster pillar:** Best MelodySusie Nail Care Tools: Files, Clippers & Dust Collectors (`/shop/nail-care-tools/best-melodysusie-nail-care-tools`)
+- **This post:** Post 29 — "MelodySusie Nail Clippers: Best Acrylic & Gel Nail Cutters"
+- **Slug:** `melodysusie-nail-clippers`
+- **Route:** `/shop/nail-care-tools/melodysusie-nail-clippers`
+- **Post type:** best-of
+- **Primary keyword (locked):** MelodySusie nail clippers
+- **Role:** Spoke (EC-05-S3)
+- **Affiliate mode / region:** Affiliate links, USA-targeted content, USD pricing
+- **Internal links this post must include** (mid-post only, after first product CTA):
+  - Cluster pillar: `/shop/nail-care-tools/best-melodysusie-nail-care-tools` — anchor: "the full MelodySusie nail care tools lineup"
+  - EC-05-S1: `/shop/nail-care-tools/melodysusie-nail-dust-collector-review` — anchor: "a nail dust collector"
+  - EC-05-S2: `/shop/nail-care-tools/melodysusie-nail-files-buffers` — anchor: "a good nail file"
+  - EC-04 pillar: `/shop/nail-kits/best-melodysusie-nail-kits` — anchor: "a full beginner nail kit"
+- **Posts that link to this post (context only):** EC-05 pillar (best-of nail care tools roundup) will link down to this spoke for clipper-specific buyers.
+
+---
+
+## 2. FRONTMATTER BLOCK
+
+**Post gen instruction:** Copy this frontmatter block exactly into the post. Do not change any field. Image URLs, prices, product names, slugs — all pre-filled here.
+
+```yaml
+title: "MelodySusie Nail Clippers: Best Acrylic & Gel Nail Cutters"
+excerpt: "The best MelodySusie nail clippers for cutting acrylic and gel nails at home without cracking the tip. Reviewed by price and use case."
+date: "2026-06-19"
+author: "Mirellé"
+category: "nail-care-tools"
+image: "https://www.melodysusie.com/cdn/shop/products/SKU-02-WhiteNailClipper.jpg?v=1679644154&width=1600"
+imageAlt: "MelodySusie nail clippers for acrylic nails — rotary adjustable stainless steel clipper with dial measurement tool and removable cap"
+imageWidth: 1200
+imageHeight: 630
+readTime: "9 min read"
+canonical: ""
+postType: "best-of"
+winnerIndex: 0
+showComparison: true
+showProscons: false
+comparisonCaption: "How the top MelodySusie nail clipper picks compare"
+products:
+  - name: "MelodySusie Rotary Adjustable Stainless Steel Acrylic Nail Clippers"
+    brand: "MelodySusie"
+    price: "$8.99"
+    compareAtPrice: "$11.99"
+    image: "https://www.melodysusie.com/cdn/shop/products/SKU-02-WhiteNailClipper.jpg?v=1679644154&width=1600"
+    link: "https://www.melodysusie.com/products/rotary-adjustable-stainless-steel-acrylic-nail-clippers?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    rating: 4.9
+    reviewCount: 64
+    details:
+      - "6-position dial measurement tool for consistent nail length"
+      - "Removable cap catches nail fragments as you cut"
+      - "Stainless steel blade cuts round, straight, or French shapes"
+    pros:
+      - "Cuts cleanly through acrylic and gel without cracking the tip"
+      - "Dial makes every nail come out the same length"
+      - "Removable cap keeps clipped fragments from scattering"
+      - "Comfortable ergonomic handle for long sessions"
+      - "Works on natural, acrylic, gel, and fake nail tips"
+    cons:
+      - "Plastic dial housing feels less premium than the metal blade"
+      - "Six length presets won't suit ultra-long coffin or stiletto extensions"
+
+  - name: "MelodySusie Acrylic Nail Clippers 4 in 1 Kit - Black"
+    brand: "MelodySusie"
+    price: "$16.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/B-4pcsBlackSet-01.jpg?v=1711678406&width=1600"
+    link: "https://www.melodysusie.com/products/acrylic-nail-clippers-4-in-1-kit-black?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Full Kit"
+    rating: 0
+    reviewCount: 0
+    details:
+      - "4-in-1 set: nail tip cutter, cuticle nipper, pusher, and scraper"
+      - "U-shaped blade adjusts tension for round, straight, or well-cut shapes"
+      - "Razor-sharp cuticle nipper closes seamlessly without tearing skin"
+    pros:
+      - "One purchase covers cutting, cuticle care, and gel scraping"
+      - "Sleek black finish suits salon and home counters alike"
+      - "Stainless steel construction holds an edge through repeated use"
+      - "Good value for four tools at this price point"
+    cons:
+      - "No length dial, so cuts rely on hand precision"
+      - "New to the line, so long-term durability data is still building"
+
+  - name: "MelodySusie Acrylic Nail Clipper 4 in 1 Kit - Rainbow"
+    brand: "MelodySusie"
+    price: "$16.99"
+    image: "https://www.melodysusie.com/cdn/shop/products/A-4pcsColorfulSet-01.jpg?v=1677140957&width=1600"
+    link: "https://www.melodysusie.com/products/acrylic-nail-clippers-4-in-1-kit-rainbow?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Gift Pick"
+    rating: 0
+    reviewCount: 0
+    details:
+      - "Same 4-in-1 tool set in a rainbow-coated finish"
+      - "Cuticle pusher and triangle scraper handle polish and cuticle cleanup"
+      - "Coated finish resists rust on the cuticle remover and peeler"
+    pros:
+      - "Bright finish makes it an easy gift for a nail-loving friend"
+      - "Covers cutting, cuticle trimming, and gel scraping in one kit"
+      - "Comfortable to hold for repeated at-home manicure sessions"
+      - "Same blade quality as the black and pink versions"
+    cons:
+      - "Color coating is cosmetic only — doesn't change cutting performance"
+      - "No length dial for precise, repeatable nail sizing"
+
+  - name: "MelodySusie Acrylic Nail Clipper 3 in 1 Kit"
+    brand: "MelodySusie"
+    price: "$12.99"
+    image: "https://www.melodysusie.com/cdn/shop/products/71vTZLR9UnS._SL1500.jpg?v=1622185614&width=1500"
+    link: "https://www.melodysusie.com/products/acrylic-nail-clipper-3-in-1-kit?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Budget Kit"
+    rating: 5.0
+    reviewCount: 3
+    details:
+      - "3-in-1 set: nail tip cutter, cuticle pusher, and triangle scraper"
+      - "U-shaped blade with adjustable tension for custom cut shapes"
+      - "Rainbow-coated finish doubles as a gift-ready set"
+    pros:
+      - "Cheapest way to get a clipper plus cuticle tools together"
+      - "Cutter handles fake, acrylic, artificial, and gel nails"
+      - "Compact enough to toss in a travel or salon bag"
+      - "Simple three-piece set with no extra bulk"
+    cons:
+      - "Fewer tools than the 4-in-1 kits at a similar price gap"
+      - "Small review count means less long-term feedback to lean on"
+
+  - name: "MelodySusie Manicure Nail Care Kit - 14Pcs"
+    brand: "MelodySusie"
+    price: "$12.99"
+    compareAtPrice: "$36.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/6391ace427ade714b70fb966024ae804_c0b76cad-d138-428e-a34d-d07016c774cc.jpg?v=1761723771&width=1600"
+    link: "https://www.melodysusie.com/products/manicure-nail-care-kit-14pcs?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Full Aftercare"
+    rating: 4.7
+    reviewCount: 31
+    details:
+      - "14 pieces: nail clipper, files, sandpaper, pushers, and cuticle oil"
+      - "100/180-grit double-sided files smooth acrylic and gel edges after cutting"
+      - "Honey milk cuticle oil moisturizes skin after trimming"
+    pros:
+      - "Goes beyond cutting with filing and cuticle aftercare in one box"
+      - "Strong 4.7-star rating across 31 reviews"
+      - "Cuticle oil softens skin right after a trim, reducing hangnails"
+      - "Big price drop from $36.99 to $12.99 makes it the best value here"
+    cons:
+      - "The clipper itself is smaller-scale than a dedicated acrylic cutter"
+      - "Best suited to nail care rounds rather than heavy daily acrylic upkeep"
+```
+
+**comparisonTable:**
+
+```yaml
+comparisonTable:
+  caption: "How the top MelodySusie nail clipper picks compare"
+  features:
+    - "Best for"
+    - "Length dial"
+    - "Cuticle tools included"
+    - "Price"
+    - "Rating"
+  columns:
+    - productName: "Rotary Adjustable Clippers"
+      values:
+        - "Precise acrylic/gel cuts"
+        - true
+        - false
+        - "$8.99"
+        - "4.9 (64)"
+    - productName: "4 in 1 Kit - Black"
+      values:
+        - "All-in-one home set"
+        - false
+        - true
+        - "$16.99"
+        - "New"
+    - productName: "4 in 1 Kit - Rainbow"
+      values:
+        - "Gifting"
+        - false
+        - true
+        - "$16.99"
+        - "New"
+    - productName: "3 in 1 Kit"
+      values:
+        - "Budget starter set"
+        - false
+        - true
+        - "$12.99"
+        - "5.0 (3)"
+    - productName: "Manicure Nail Care Kit - 14Pcs"
+      values:
+        - "Cutting plus aftercare"
+        - false
+        - true
+        - "$12.99"
+        - "4.7 (31)"
+```
+
+**faqs:**
+
+```yaml
+faqs:
+  - question: "What are the best nail clippers for acrylic nails?"
+    answer: "The MelodySusie Rotary Adjustable Stainless Steel Acrylic Nail Clippers are the best overall pick at $8.99. The dial measurement tool locks in six length presets so every nail comes out even, and the stainless steel blade cuts cleanly through acrylic and gel without cracking the tip. For buyers who also want cuticle tools, the MelodySusie 4 in 1 Kits add a cuticle nipper and pusher for $16.99."
+
+  - question: "Can you cut acrylic nails with regular nail clippers?"
+    answer: "No. Regular nail clippers are built for thin, flexible natural nail and will crack or splinter acrylic when you clip straight across. Acrylic nail clippers like the MelodySusie Rotary Adjustable Clippers use a stronger, sharper blade and an adjustable angle so the cut stays clean instead of shattering the tip."
+
+  - question: "How do you cut acrylic nails at home without cracking them?"
+    answer: "Use a dedicated acrylic nail clipper, not a regular clipper, and cut from one side toward the center rather than straight across the full width. The MelodySusie Rotary Adjustable Clippers let you set a consistent length with the dial, which reduces the uneven pressure that causes cracking. Finish with a nail file to smooth and thin the cut edge."
+
+  - question: "Do MelodySusie nail clippers work on gel nails too?"
+    answer: "Yes. All five MelodySusie clippers and kits in this guide are built to cut acrylic, gel, fake nail tips, and natural nails. The stainless steel blades hold up against the firmer texture of cured gel as well as acrylic extensions."
+
+  - question: "What comes in the MelodySusie 4 in 1 nail clipper kit?"
+    answer: "The MelodySusie 4 in 1 Kit includes an acrylic nail tip cutter, a cuticle trimmer nipper, a cuticle pusher remover, and a triangle gel polish scraper. It's available in Black, Rainbow, and Pink for $16.99, covering cutting and cuticle cleanup in a single set."
+
+  - question: "Is it better to file or clip acrylic nails?"
+    answer: "Filing is gentler and is what most nail techs recommend for fine-tuning length, but clipping is faster when you need to remove more length at once. The safest approach for home use is to clip most of the excess length with a proper acrylic clipper like the MelodySusie Rotary Adjustable Clippers, then file the edge smooth and thin to avoid lifting or breakage."
+
+  - question: "How much do MelodySusie nail clippers cost?"
+    answer: "MelodySusie nail clipper prices range from $8.99 for the single Rotary Adjustable Clippers to $16.99 for the 4 in 1 kits with added cuticle tools. The 3 in 1 Kit and the 14-piece Manicure Nail Care Kit both sit at $12.99, with the 14-piece kit discounted from $36.99."
+
+  - question: "Do MelodySusie nail clippers ship to the USA?"
+    answer: "Yes. MelodySusie ships to the USA with free shipping on orders over $129.99, and code MSOFF15 takes 15% off orders over $129.99. All five products in this guide are in stock and shipped from MelodySusie's US-facing store."
+```
+
+---
+
+## 3. SEO AND KEYWORD PLAN
+
+**Post gen instruction:** Follow this keyword plan exactly. Calculate density before writing — do not estimate.
+
+- **Primary keyword (locked):** MelodySusie nail clippers
+- **Keyword density target:** SERP for this exact keyword has no long-form competitor content (dominated by Amazon/retailer product pages, not editorial roundups — confirmed content gap). Default to a comprehensive best-of density standard: **14 total mentions** for a ~1,650-word post (≈0.85% density). First 150 words: primary keyword appears exactly 2 times, both wrapped in `<strong>` tags. ALL mentions of "MelodySusie nail clippers" throughout the entire post wrapped in `<strong>` tags.
+- **Word count target:** 1,600–1,750 words (see Section 4 for competitor analysis rationale).
+
+**Keyword variations (use naturally, no density target, no strong tags):**
+- MelodySusie acrylic nail clippers
+- MelodySusie nail clipper kit
+- best acrylic nail clippers
+- nail clippers for acrylic nails
+- adjustable acrylic nail clipper
+- MelodySusie 4 in 1 nail clipper kit
+
+**Transactional cluster keywords (use throughout, no density target):**
+- best nail clippers for acrylic nails
+- acrylic nail clipper kit
+- nail clipper for fake nails
+- professional nail clippers for home use
+- stainless steel acrylic nail clipper
+- nail clipper with dial measurement
+- cuticle nipper and clipper set
+- acrylic nail cutter
+- gel nail clipper
+- best nail trimmer for acrylic nails
+
+**High CPC transactional keywords (weave into CTAs, H2s, mid-post copy):**
+- acrylic nail clippers (high CPC — beauty tools category averages $0.80–$1.50 CPC on Google Ads)
+- nail clipper kit for acrylic nails (high commercial intent, gift-adjacent)
+- professional manicure tools (high CPC — salon supply category)
+- nail care kit with clippers (gift-season high CPC spikes around November–February)
+- best nail cutting tools for home salon
+
+**LSI semantic terms (weave in naturally):**
+- acrylic nail extensions, gel nail tips, cuticle trimmer, cuticle pusher, U-shaped blade, dial measurement tool, removable cap, nail fragment catcher, stainless steel blade, ergonomic handle, nail dust, French-cut, round-cut, straight-cut, salon-quality manicure, DIY nail art, nail technician tools, home manicure kit, nail filing, hangnail
+
+**AEO terms (10) — mapped to H2 or FAQ, none unmapped:**
+1. "What are the best nail clippers for acrylic nails?" → FAQ entry 1
+2. "Can you cut acrylic nails with regular nail clippers?" → FAQ entry 2
+3. "How do you cut acrylic nails at home without cracking them?" → FAQ entry 3 / also H2 "How to Cut Acrylic Nails Without Cracking the Tip"
+4. "Do MelodySusie nail clippers work on gel nails too?" → FAQ entry 4
+5. "What comes in the MelodySusie 4 in 1 nail clipper kit?" → FAQ entry 5
+6. "Is it better to file or clip acrylic nails?" → FAQ entry 6
+7. "How much do MelodySusie nail clippers cost?" → FAQ entry 7
+8. "What's the difference between acrylic nail clippers and regular nail clippers?" → H2 "Why Regular Nail Clippers Crack Acrylic and Gel Nails"
+9. "Which MelodySusie nail clipper is best for beginners?" → H2 "Which MelodySusie Nail Clipper Should You Buy?"
+10. "Do nail clippers work on press-on or fake nails?" → H2 "What to Look for in an Acrylic Nail Clipper" (covered in body)
+
+**GEO terms (8) — placed near CTAs, ShopInlineCTA, ShopFinalCTA, availability copy:**
+1. "Do MelodySusie nail clippers ship to the USA?" → FAQ entry 8
+2. "best nail clippers to buy in the USA" → near ShopFinalCTA
+3. "MelodySusie free shipping USA" → near ShopInlineCTA (orders over $129.99)
+4. "where to buy MelodySusie nail clippers online" → intro / near hero CTA
+5. "MelodySusie USA shipping time" → mid-post near winner CTA
+6. "nail clippers fast shipping USA" → near ShopFinalCTA
+7. "MelodySusie discount code USA" → near ShopInlineCTA (mention MSOFF15)
+8. "buy acrylic nail clippers online USA" → conclusion
+
+**Buyer phrase bank (10 exact phrases/insights from Amazon/Quora/YouTube research — weave naturally):**
+1. "works well, gets the job done" (Amazon recurring praise)
+2. "perfect for use on plastic nails" (Amazon — describes acrylic-specific performance)
+3. "sharp so it cuts the nails quickly" (Amazon — sharpness praise)
+4. "blade is still as sharp as ever and cuts clean" (Amazon — durability praise)
+5. "the lid that catches the nails often slips out" (Amazon — recurring minor complaint, addressed honestly in cons)
+6. "the spring... broke and did not work properly" (Amazon — quality complaint on some units, used to justify "buy from a reputable line" angle, not copied verbatim)
+7. "clipping straight across the nail" causes cracking — top DIY mistake buyers make (from nail-care editorial research)
+8. "the longer your nails grow, the longer your acrylics will become" — explains why buyers need a home clipper between salon visits
+9. "never have to worry about clipper wounds" (Walmart review language — pain point around accidental skin nicks)
+10. "no need to go to a salon for anything" — aspirational buyer motivation (home salon framing)
+
+---
+
+## 4. COMPETITOR AND TITLE INTELLIGENCE
+
+**Post gen instruction:** Use this section to write a title and excerpt that outperforms competitors on CTR. The analysis is done — execute it.
+
+- **SERP finding:** There is no dedicated long-form editorial "best MelodySusie nail clippers" or "best acrylic nail clippers" roundup currently ranking. The keyword is dominated by: (1) Amazon/Walmart individual product listings, (2) MelodySusie's own on-site collection page (thin, no editorial content), (3) generic "best nail clippers" buying guides (Consumer Reports) that don't address acrylic/gel-specific buyer needs. **This is a genuine content gap** — no competitor title to beat directly, so the strategy is to own the specific intersection of "MelodySusie" + "acrylic/gel clippers" + buying decision content.
+- **Adjacent competitor patterns observed:**
+  - Consumer Reports "Best Nail Clippers for Every Need and Every Nail" — generic, no acrylic focus, no brand specificity.
+  - Retailer product pages (Pure Spa Direct, PinkPro Beauty, Beyond Polish) — single-product descriptions, not comparison content, no buying guidance.
+  - Editorial "how to cut acrylic nails at home" posts (Nghia Nippers, Lilac St., Nail Company) — strong on technique and cracking-risk education, but don't recommend specific products.
+- **Title direction:** Combine the technique-education angle (which ranks for buyer-intent terms like "cut acrylic nails without cracking") with the specific MelodySusie product roundup, since no one else has merged these two demand signals.
+- **Competitor gaps (now mandatory H2 sections):**
+  - No one explains *why* regular clippers crack acrylic/gel — covered in H2 "Why Regular Nail Clippers Crack Acrylic and Gel Nails."
+  - No one gives step-by-step technique alongside product recommendations — covered in H2 "How to Cut Acrylic Nails Without Cracking the Tip."
+  - No one compares MelodySusie's specific clipper/kit lineup side by side — covered via comparison table and H2 "Which MelodySusie Nail Clipper Should You Buy?"
+- **Word count target:** 1,600–1,750 words. Since there's no direct long-form competitor to match, this target is set by genre norm for a 5-product best-of with comparison table, FAQ, and buying guidance — long enough to rank and satisfy intent, not bloated.
+
+---
+
+## 5. BUYER INTELLIGENCE
+
+**Post gen instruction:** Every paragraph of copy must be written for this specific buyer. Use the exact phrases listed in Section 3 naturally in the copy.
+
+- **Who this buyer is:** A woman who already wears acrylic or gel nails (salon-applied or DIY) and wants to maintain or trim them at home between fills/salon visits. Mostly home users, some DIY nail art hobbyists and a smaller segment of nail techs/students buying tools for practice or low-cost client work. Comfort level ranges from total beginner ("I've never cut my own acrylics") to experienced DIYer.
+- **What they need from this post:** A clear answer on which clipper actually works on acrylic/gel without cracking it, and which specific MelodySusie product to buy for their situation (just a clipper vs. a full kit vs. gift).
+- **What frustrates them:** Generic "best nail clippers" guides that don't address acrylic/gel at all; not knowing if a clipper will crack their tips; vague specs with no real cutting performance info; not knowing what's actually inside a "kit."
+- **Top 5 buying objections (each addressed in post body):**
+  1. "Will this crack my acrylic instead of cutting it clean?" → addressed in "Why Regular Nail Clippers Crack" H2 + product cons.
+  2. "Do I need the dial, or is a basic clipper enough?" → addressed in winner section + comparison table "Length dial" row.
+  3. "Is a kit worth it over just buying the clipper alone?" → addressed in "Which MelodySusie Nail Clipper Should You Buy?" H2.
+  4. "Will the cheap price mean it breaks fast (spring/blade issues)?" → addressed honestly in cons using the spring-complaint buyer phrase, paraphrased.
+  5. "Does this work for gel nails too, or just acrylic?" → addressed in FAQ 4 and body copy throughout.
+- **Recurring praise (selling points):** sharp clean cuts, works well on "plastic" (acrylic) nails specifically, dial keeps lengths even, comfortable ergonomic handle, holds its edge over time.
+- **Recurring complaints (addressed honestly in cons/body):** the fragment-catching cap/lid can slip or pop off on some units; spring mechanism is the most common point of failure on heavily used units — used to justify recommending the better-reviewed Rotary Adjustable Clippers as the safe default pick rather than glossing over quality variance.
+
+---
+
+## 6. DISCOUNT AND CONVERSION DATA
+
+**Post gen instruction:** Include active discount information naturally in the post — real conversion boosters. Place near product CTAs.
+
+- **Sale vs. compare-at pricing:**
+  - Rotary Adjustable Clippers: $8.99 sale, $11.99 compare-at (25% off)
+  - 4 in 1 Kit (Black/Rainbow): $16.99, no compare-at found
+  - 3 in 1 Kit: $12.99, no compare-at found
+  - Manicure Nail Care Kit - 14Pcs: $12.99 sale, $36.99 compare-at (65% off — strongest discount in the set, worth calling out near its CTA)
+- **Active sitewide codes found during research:**
+  - `OFF8` — 8% off sitewide
+  - `MSOFF15` — 15% off orders over $129.99 (gift boxes excluded)
+  - Free US shipping on orders over $129.99
+- **Placement:** Mention `MSOFF15` and free shipping threshold near the ShopInlineCTA (after winner section) and again near ShopFinalCTA. Call out the 65%-off deal on the 14-piece kit specifically where it appears in the post, since it's the single strongest price anchor in the lineup.
+
+---
+
+## 7. CONTENT STRUCTURE
+
+**Post gen instruction:** Use these H2 headings in this exact order. Do not rename, reorder, or remove. Add H3s at your discretion. Each H2 has a directive — follow it.
+
+1. **Intro (no H2, ~150–180 words)**
+   - Hook with the buyer's actual problem: wanting to trim acrylic/gel nails at home without cracking them.
+   - **MelodySusie nail clippers** appears exactly 2 times in `<strong>` tags within these first 150 words.
+   - GEO term woven in: "where to buy MelodySusie nail clippers online."
+   - No injection here.
+
+2. **H2: Why Regular Nail Clippers Crack Acrylic and Gel Nails** (~180 words)
+   - AEO term answered here: "What's the difference between acrylic nail clippers and regular nail clippers?"
+   - Explain acrylic/gel is harder and less flexible than natural nail; clipping straight across with a standard clipper causes cracking/splintering (buyer phrase: "clipping straight across the nail").
+   - No injection.
+
+3. **H2: What to Look for in an Acrylic Nail Clipper** (~150 words)
+   - Covers blade sharpness, adjustable angle/dial, cuticle tool bundling, material.
+   - AEO term touched: fake/press-on nail compatibility.
+   - No injection.
+
+4. **H2: The Best MelodySusie Nail Clippers, Ranked** (~550 words total across sub-entries)
+   - Intro line, then `{{PRODUCTS:1:0}}` for the winner (Rotary Adjustable Clippers) — featured layout.
+   - WinnerBadge and ShopInlineCTA fire automatically here (winnerIndex: 0). Mention `MSOFF15` + free shipping threshold near this CTA (GEO).
+   - Internal link goes here, mid-post, after this first product CTA: link to **"the full MelodySusie nail care tools lineup"** (EC-05 pillar).
+   - Then `{{PRODUCTS:2:1,2}}` for the two 4-in-1 kits (Black + Rainbow) side by side.
+   - Then `{{PRODUCTS:2:3,4}}` for the 3-in-1 Kit and the 14-piece Manicure Kit side by side.
+   - Weave in buyer phrases: "works well, gets the job done," "perfect for use on plastic nails," "sharp so it cuts the nails quickly."
+   - Call out the 65%-off deal on the 14-piece kit here specifically.
+
+5. **ComparisonTable fires automatically here** (between this section and the next, per template's 30/30/40 split). No manual placement needed — confirm `showComparison: true` and table data are correct in Section 2.
+
+6. **H2: How to Cut Acrylic Nails Without Cracking the Tip** (~220 words)
+   - AEO term answered here: "How do you cut acrylic nails at home without cracking them?"
+   - Step-by-step: cut from one side toward center (not straight across), use the dial for consistent length, finish with a file to thin/smooth the edge.
+   - Internal link goes here: **"a good nail file"** (EC-05-S2).
+   - Buyer phrase: "the longer your nails grow, the longer your acrylics will become" (explains why home trimming between fills matters).
+   - No injection.
+
+7. **H2: Which MelodySusie Nail Clipper Should You Buy?** (~200 words)
+   - AEO term answered here: "Which MelodySusie nail clipper is best for beginners?"
+   - Quick buyer-segment breakdown: just need a clipper → Rotary Adjustable; want cuticle tools too → 4 in 1 Kit; on a budget → 3 in 1 Kit; want full aftercare → 14-piece kit; buying a gift → Rainbow 4 in 1 or 14-piece kit.
+   - Internal link goes here: **"a full beginner nail kit"** (EC-04 pillar), for buyers who need drills/lamps too, not just clippers.
+   - GEO term: "MelodySusie USA shipping time."
+   - No injection.
+
+8. **ProsConsBlock:** Not active for this post (`showProscons: false`, best-of post type). Pros/cons still populated per-product in Section 2 frontmatter for use in the featured/grid product cards, per template behavior.
+
+9. **Conclusion (no H2, ~130 words)**
+   - Final push to purchase, not a summary. Reiterate the winner and the value pick (14-piece kit at 65% off).
+   - GEO terms: "best nail clippers to buy in the USA," "buy acrylic nail clippers online USA."
+   - ShopFinalCTA fires automatically (products exist). Mention `MSOFF15` once more here.
+
+10. **ShopFAQ fires automatically at bottom** (faqs[] populated in Section 2 — 8 entries, all AEO/GEO-mapped per Section 3).
+
+**Injection plan summary:**
+- `{{PRODUCTS:1:0}}` — after "The Best MelodySusie Nail Clippers, Ranked" intro line (featured layout, winner)
+- `{{PRODUCTS:2:1,2}}` — mid-section, 4-in-1 Black + Rainbow side by side
+- `{{PRODUCTS:2:3,4}}` — mid-section, 3-in-1 Kit + 14-piece Kit side by side
+
+---
+
+## 8. COMPONENT DIRECTIVES
+
+**Post gen instruction:** These components fire automatically from frontmatter. Confirm trigger fields in Section 2 are correctly set. Never write component content in body — it auto-renders.
+
+| Component | Status |
+|---|---|
+| WinnerBadge | ACTIVE — `winnerIndex: 0` set in Section 2 |
+| ShopInlineCTA | ACTIVE — `winnerIndex: 0` set in Section 2 |
+| ComparisonTable | ACTIVE — `showComparison: true` + comparisonTable data present in Section 2 |
+| ProsConsBlock | INACTIVE — `showProscons: false` (best-of post type per system defaults) |
+| ShopFinalCTA | ALWAYS ACTIVE — products[] exists |
+| ShopFAQ | ACTIVE — faqs[] has 8 entries in Section 2 |
+| ShopTableOfContents | ALWAYS ACTIVE — reads H2s from Section 7 automatically |
+| Sidebar winner card | ACTIVE — `winnerIndex: 0` set |
+
+---
+
+## 9. WRITING INSTRUCTIONS
+
+**Post gen instruction:** Follow these writing rules for every paragraph of body copy.
+
+- This is conversion copy — every sentence moves the buyer toward a purchase decision.
+- Lead with buyer benefit ("won't crack your acrylic"), not specs ("stainless steel blade") — specs support the benefit, never lead with it.
+- Use buyer phrases from Section 3/5 naturally — speak their language, paraphrased, never copied verbatim from review sources.
+- Address all 5 buying objections from Section 5 directly — no hedging.
+- Be honest about the spring/cap complaints found in research; counter with why the Rotary Adjustable Clippers (highest-rated, 4.9/64 reviews) is the safer default recommendation.
+- Place discount information (MSOFF15, free shipping threshold, 65%-off kit) near CTAs, not as standalone paragraphs.
+- Wrap every mention of **MelodySusie nail clippers** in `<strong>` tags — no exceptions.
+- No editorial literary hooks — open each H2 with the buyer benefit or buying question directly.
+- Keep H2 sections short and direct — buyers scan, they do not read long intros.
+- Conclusion is a final push to purchase, not a summary.
+- Place internal links from Section 1 mid-post only, after the first product CTA — anchor text natural, never forced.
+- No related articles section — handled by site component.
+- American English throughout — not British English.
+- No banned AI patterns: no "elevate," "seamlessly," "game-changing," "dive into," "transformative."
+- No long em dashes — use commas or restructure.
+- Vary sentence rhythm — short punchy sentences for key selling points, longer sentences for context.
+- The 4-in-1 kits and 3-in-1 kit have zero or near-zero reviews (4-in-1s: 0 reviews; 3-in-1: 3 reviews) — use informed editorial observation language for these, not "we tested" language. Example tone: "The 4 in 1 Kit is built for buyers who want cutting and cuticle care in one purchase — its U-shaped adjustable blade and razor-sharp cuticle nipper make it a strong pick for anyone setting up a full at-home nail station without buying tools separately."
