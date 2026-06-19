@@ -1,0 +1,519 @@
+# SHOP INPUT FILE — POST 55
+## THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT.
+All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy.
+
+---
+
+## SECTION 1 — CLUSTER SUMMARY
+
+- **Cluster:** SC-06 Halloween Nails
+- **Season Route:** `/shop/halloween`
+- **Post Title:** Halloween Nail Accessories from MelodySusie: Skulls, Gems & More
+- **Slug:** `melodysusie-halloween-nail-accessories`
+- **Primary Keyword:** `MelodySusie halloween nail accessories`
+- **Post Type:** best-of (transactional)
+- **Role:** Spoke post — SC-06 pillar is "Best MelodySusie Halloween Nail Products & Accessories" (`/shop/halloween/best-melodysusie-halloween-nail-products`)
+- **Peak window:** September–October (publish: first week of September)
+- **Affiliate mode:** USA — affiliate param `?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol`
+
+**Internal links (mid-post only — after first product CTA):**
+- SC-06 Pillar: Best MelodySusie Halloween Nail Products → `/shop/halloween/best-melodysusie-halloween-nail-products`
+- EC-03-S3: MelodySusie Cat Eye Gel Polish → `/shop/gel-polish/melodysusie-cat-eye-gel-polish`
+- EC-06-S1: MelodySusie Nail Rhinestones & Gems → `/shop/nail-art-tools/melodysusie-nail-rhinestones-gems`
+
+---
+
+## SECTION 2 — FRONTMATTER BLOCK
+
+> **Post Gen Instruction:** Copy this frontmatter block exactly into the post. Do not change any field.
+
+```yaml
+---
+title: "Best MelodySusie Halloween Nail Accessories: Skulls, Gems & Stickers"
+excerpt: "Get spooky nails fast. The best MelodySusie Halloween nail accessories — 3D charms, stickers, rhinestones, chrome powder & gem glue ranked."
+date: "2025-09-01"
+author: "Mirellé"
+category: "halloween"
+image: "https://www.melodysusie.com/cdn/shop/products/1580ddb40d0e2cdd15e8dd7dc4a7c7c4_a5953335-ab09-4361-bcfd-9adc24fa4f3f.jpg?v=1676625486&width=2048"
+imageAlt: "MelodySusie halloween nail accessories including 3D skull charms pumpkin gems and spider stickers for DIY nail art"
+imageWidth: 1200
+imageHeight: 630
+readTime: "7 min read"
+canonical: ""
+postType: "best-of"
+winnerIndex: 0
+showComparison: true
+showProscons: false
+comparisonCaption: "How the top MelodySusie Halloween nail accessories compare"
+products:
+  - name: "Halloween Nail Accessories (3D Charms — Skulls, Pumpkins, Spiders, Bloody Eyes)"
+    brand: "MelodySusie"
+    price: "$7.99"
+    image: "https://www.melodysusie.com/cdn/shop/products/1580ddb40d0e2cdd15e8dd7dc4a7c7c4_a5953335-ab09-4361-bcfd-9adc24fa4f3f.jpg?v=1676625486&width=2048"
+    link: "https://www.melodysusie.com/products/halloween-nail-accessories?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    rating: 4.5
+    reviewCount: 0
+    details:
+      - "3D charms: skulls, pumpkins, spiders & bloody eyes — full horror lineup"
+      - "Stick-on adhesive with no irritation — holds through daily wear"
+      - "Works on gel, natural, and press-on nails"
+    pros:
+      - "Multi-design set covers every classic Halloween motif in one pack"
+      - "3D raised effect makes a dramatic visual impact without freehand painting"
+      - "Adhesive bond is skin-safe and stays put through normal activities"
+      - "Beginner-friendly — no special tools or curing required for basic application"
+    cons:
+      - "No dedicated storage box included — keep in original packaging"
+      - "Limited to Halloween season designs — not year-round versatile"
+
+  - name: "Halloween Nail Art Stickers (6 Sheets — Pumpkins, Spider Webs, Cats, Bats, Ghosts)"
+    brand: "MelodySusie"
+    price: "$7.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/0db20a425d14fbedf1886735afa99e9c.jpg?v=1726023576&width=2048"
+    link: "https://www.melodysusie.com/products/halloween-nail-art-stickers?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Beginners"
+    rating: 4.5
+    reviewCount: 0
+    details:
+      - "6 sticker sheets — pumpkins, spider webs, cats, bats, ghosts"
+      - "Works over gel polish, press-on nails, and semi-cured gel strips"
+      - "No visible edges — lies flat on the nail surface"
+    pros:
+      - "Flat sticker format means zero application learning curve"
+      - "6 sheets give you enough designs for multiple manicures or to mix and match"
+      - "Sticks cleanly over any nail surface without lifting edges"
+      - "Cost-effective way to get a full Halloween look — great value at $7.99"
+    cons:
+      - "Flat stickers lack the raised 3D effect of charm accessories"
+      - "Best applied before top coat to seal — extra step for longevity"
+
+  - name: "1440Pcs Multi-Faceted Nail Rhinestones (4–20mm, Glass Crystal)"
+    brand: "MelodySusie"
+    price: "$12.99"
+    compareAtPrice: "$16.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/4_544b6672-2d28-4ccd-98ea-bcb592cb43b2.jpg?v=1687511946&width=2048"
+    link: "https://www.melodysusie.com/products/1440pcs-multi-faceted-nail-rhinestones?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Value"
+    rating: 4.5
+    reviewCount: 0
+    details:
+      - "1440 glass rhinestones in sizes 4–20mm — range for accent nails to full nail coverage"
+      - "Multi-faceted cut catches light for maximum sparkle"
+      - "Multi-color options available for Halloween-specific colorways"
+    pros:
+      - "Massive 1440-piece count means you won't run out mid-manicure"
+      - "Glass crystal construction gives genuine sparkle — not plastic imitation"
+      - "Size range (4–20mm) suits everything from subtle accents to full bling nails"
+      - "On sale at $12.99 (was $16.99) — strong value per rhinestone"
+    cons:
+      - "Rhinestone glue sold separately — needs pairing with Product 5 for best results"
+      - "Small sizes require tweezers for precise placement"
+
+  - name: "Chrome Nail Powder (Mirror Effect — Multiple Colorways incl. Red-Green Aurora)"
+    brand: "MelodySusie"
+    price: "From $6.99"
+    compareAtPrice: "From $9.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/4_544b6672-2d28-4ccd-98ea-bcb592cb43b2.jpg"
+    link: "https://www.melodysusie.com/products/chrome-nail-powder?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Editor's Pick"
+    rating: 4.5
+    reviewCount: 0
+    details:
+      - "Mirror-effect chrome pigment — salon-level finish at home"
+      - "Red-green aurora and unicorn colorways ideal for Halloween gothic looks"
+      - "Ultra-fine powder adheres cleanly — no patchiness"
+    pros:
+      - "Aurora and metallic colorways work perfectly with Halloween dark gel polish bases"
+      - "A small amount goes a long way — one jar covers multiple manicures"
+      - "Creates a high-impact finish that photographs well for social media nail content"
+      - "Can be used over any cured gel color — highly versatile"
+    cons:
+      - "Requires a cured gel base and top coat to seal — not a standalone product"
+      - "Chrome application takes practice to get perfectly smooth coverage"
+
+  - name: "Nail Rhinestone Glue 30g (Super Adhesive Gel — 21+ Day Hold, UV/LED Cure)"
+    brand: "MelodySusie"
+    price: "From $9.99"
+    image: "https://www.melodysusie.com/cdn/shop/products/1580ddb40d0e2cdd15e8dd7dc4a7c7c4_a5953335-ab09-4361-bcfd-9adc24fa4f3f.jpg"
+    link: "https://www.melodysusie.com/products/30g-nail-rhinestone-glue?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Essential Add-On"
+    rating: 4.5
+    reviewCount: 0
+    details:
+      - "30g super-strong adhesive gel — 21+ day hold with UV/LED cure"
+      - "4-in-1: secures rhinestones, charms, gems, decals — also applies chrome powder"
+      - "Natural resin formula — non-yellowing, low odor"
+    pros:
+      - "Holds heavy 3D charms and large gems firmly without lifting"
+      - "21+ day wear time means your Halloween nail art lasts the full season"
+      - "Works on natural nails, press-ons, gel polish nails, and acrylics"
+      - "Doubles as chrome powder applicator — replaces a separate product"
+    cons:
+      - "Requires UV/LED lamp to cure — won't work without a nail lamp"
+      - "30g tube is generous but more than needed for occasional home use"
+
+comparisonTable:
+  features:
+    - "Price"
+    - "Application Method"
+    - "3D Effect"
+    - "Beginner Friendly"
+    - "Works on Gel Nails"
+    - "Works on Press-Ons"
+    - "Halloween Designs"
+    - "Year-Round Use"
+  columns:
+    - label: "3D Charms"
+      values:
+        - "$7.99"
+        - "Adhesive press-on"
+        - true
+        - true
+        - true
+        - true
+        - true
+        - false
+    - label: "Nail Stickers"
+      values:
+        - "$7.99"
+        - "Peel & stick"
+        - false
+        - true
+        - true
+        - true
+        - true
+        - false
+    - label: "Rhinestones 1440pc"
+      values:
+        - "$12.99"
+        - "Glue required"
+        - true
+        - false
+        - true
+        - true
+        - false
+        - true
+    - label: "Chrome Powder"
+      values:
+        - "From $6.99"
+        - "Pigment + gel base"
+        - false
+        - false
+        - true
+        - false
+        - false
+        - true
+    - label: "Rhinestone Glue 30g"
+      values:
+        - "From $9.99"
+        - "Gel tube application"
+        - false
+        - false
+        - true
+        - true
+        - false
+        - true
+
+faqs:
+  - question: "What are the best nail accessories for Halloween nails?"
+    answer: "For a full Halloween nail look, the MelodySusie 3D Halloween Nail Accessories ($7.99) are the best starting point — they include skulls, pumpkins, spiders, and bloody eye charms in one pack. Pair them with rhinestone glue for a hold that lasts 21+ days."
+  - question: "Do MelodySusie nail accessories work on gel nails?"
+    answer: "Yes. All MelodySusie Halloween nail accessories — charms, stickers, and rhinestones — are compatible with gel polish nails. Apply them over cured gel and seal with a gel top coat for maximum longevity."
+  - question: "Do I need a UV lamp to apply MelodySusie Halloween nail charms?"
+    answer: "Not for the 3D charms or stickers — those are press-and-stick. You do need a UV/LED nail lamp if you use the MelodySusie Rhinestone Glue 30g, which requires curing to activate its 21+ day bond."
+  - question: "How do I make Halloween nail accessories stay on longer?"
+    answer: "Apply a thin layer of rhinestone glue under 3D charms and cure with a UV/LED lamp. Finish with a gel top coat over the accessory. Avoid soaking nails in water for 24 hours after application. This method can extend wear to 2–3 weeks."
+  - question: "Can I use MelodySusie nail stickers over press-on nails?"
+    answer: "Yes. The MelodySusie Halloween Nail Art Stickers are designed to work over press-on nails, gel polish, and semi-cured gel strips. Apply them after the base is fully set and seal with a top coat for clean, edge-free results."
+  - question: "What Halloween nail accessories are trending in 2025?"
+    answer: "For 2025, 3D gothic charms (skulls, skeleton hands, spiders), rhinestone spider web accents, and chrome mirror effects in aurora red-green and purple are the top Halloween nail trends. MelodySusie carries all three with their 3D Charms, Rhinestone sets, and Chrome Powder."
+  - question: "Does MelodySusie ship Halloween nail accessories to the USA?"
+    answer: "Yes. MelodySusie ships to the USA with free US shipping on orders over $129.99. Use code OFF8 for 8% off sitewide, or MSOFF15 for 15% off orders over $129.99."
+---
+```
+
+---
+
+## SECTION 3 — SEO AND KEYWORD PLAN
+
+> **Post Gen Instruction:** Follow this keyword plan exactly. Calculate density before writing — do not estimate.
+
+**Primary Keyword:** `MelodySusie halloween nail accessories`
+- **Density target:** 1.2% — competitor average. Add 3 extra mentions in first half.
+- **Total mention target:** ~11 mentions in a 900-word post body
+- **First 150 words:** Primary keyword appears exactly 2 times — both in `<strong>` tags
+- **ALL primary keyword mentions throughout entire post wrapped in `<strong>` tags**
+
+**High CPC Transactional Keywords (weave into CTAs, H2s, and mid-post copy):**
+- `halloween nail charms` (high CPC — strong commercial intent)
+- `3D halloween nail art accessories` (high buy intent)
+- `halloween nail gems` (strong seasonal buyer keyword)
+- `nail rhinestones for halloween nails`
+- `halloween nail stickers for gel nails`
+- `skull nail charms` (year-round goth buyer intent)
+- `gothic nail accessories`
+
+**Keyword Variations (use naturally, no density target, no strong tags):**
+- MelodySusie halloween nail charms
+- MelodySusie halloween nail gems
+- MelodySusie 3D nail accessories halloween
+- halloween nail art accessories MelodySusie
+- spooky nail accessories
+
+**Transactional Cluster Keywords:**
+- best halloween nail charms
+- buy halloween nail accessories online USA
+- halloween nail art kit
+- 3D nail charms for halloween
+- rhinestone nail glue for halloween nails
+
+**LSI Semantic Terms:**
+- skull nail art
+- pumpkin nail charms
+- spider web nail stickers
+- gothic nail design
+- 3D nail art decals
+- chrome nail powder halloween
+- nail gems for acrylic nails
+- halloween nail design ideas 2025
+- DIY halloween nail art
+- spooky nail art at home
+- bat nail stickers
+- ghost nail charms
+
+**AEO Terms (Full Questions — Mapped):**
+
+| AEO Question | Mapped To |
+|---|---|
+| "What are the best nail accessories for Halloween nails?" | FAQ #1 |
+| "Do MelodySusie nail accessories work on gel nails?" | FAQ #2 |
+| "Do I need a UV lamp to apply Halloween nail charms?" | FAQ #3 |
+| "How do I make Halloween nail accessories stay on longer?" | H2: How to Apply Halloween Nail Accessories That Actually Stay |
+| "Can I use nail stickers over press-on nails?" | FAQ #5 |
+| "What Halloween nail accessories are trending in 2025?" | H2: The Halloween Nail Accessory Trends Worth Buying in 2025 |
+| "Does MelodySusie ship Halloween accessories to the USA?" | FAQ #7 |
+| "How do you put 3D charms on gel nails?" | H2: How to Apply Halloween Nail Accessories That Actually Stay |
+| "What nail accessories work for a last-minute Halloween look?" | H2: The Best MelodySusie Halloween Nail Accessories for Every Skill Level |
+
+**GEO Terms (place near CTAs and shipping mentions):**
+- best halloween nail accessories to buy online USA
+- MelodySusie free shipping USA
+- buy halloween nail charms online USA
+- halloween nail accessories fast shipping
+- best halloween nail art supplies USA
+
+---
+
+## SECTION 4 — COMPETITOR AND TITLE INTELLIGENCE
+
+> **Post Gen Instruction:** Use this to write a title and excerpt that outperforms competitors on CTR.
+
+**Top Competitor Titles for `MelodySusie halloween nail accessories`:**
+1. Generic product pages (Amazon/MelodySusie own) — no editorial buying guide angle
+2. Seasonal roundups on nail blogs — vague ("Best Halloween Nail Ideas 2025") — no product specificity
+3. Amazon search results — sorted by price, not intent-matched
+
+**What competitors miss:**
+- No page directly targets "MelodySusie halloween nail accessories" as a buying guide with ranked product picks
+- Competitors do not explain the difference between charms vs stickers vs rhinestones — buyers are confused which format to buy
+- No competitor addresses the "do they stay on?" objection with spec-based answers (hold duration, curing method)
+- No one covers chrome powder as a Halloween accessory — MelodySusie's aurora red-green colorway is an untapped angle
+
+**Title Direction:** Be specific about product types (skulls, gems, stickers) — buyers know what they want. Lead with the format variety, not just "halloween nails."
+
+**Winning Title:** "Best MelodySusie Halloween Nail Accessories: Skulls, Gems & Stickers"
+
+**Word Count Target:** 900–1,000 words (competitor pages are thin; a structured 900-word buying guide with a ranked table wins on topical depth)
+
+**Competitor Gaps — Mandatory H2 Sections:**
+1. Charms vs stickers vs rhinestones — which format to buy (buyers genuinely confused)
+2. How to apply and make them stay (biggest unaddressed buyer objection)
+3. 2025 Halloween trends — what's actually popular right now
+4. Product-by-product ranked picks
+
+---
+
+## SECTION 5 — BUYER INTELLIGENCE
+
+> **Post Gen Instruction:** Every paragraph of copy must be written for this specific buyer. Use exact phrases from the buyer phrase bank naturally.
+
+**Who this buyer is:**
+- DIY home manicure enthusiast, beginner to intermediate skill level
+- Primarily female, 18–35, USA
+- Wants Halloween nails that look impressive without freehand nail art skills
+- Shops September–October; decision is time-sensitive (Halloween deadline)
+- Already has gel polish or press-ons — looking for accessories to add to them
+
+**What they need from this post:**
+- A clear answer to: which MelodySusie halloween accessory should I buy for my skill level and nail type?
+- Confidence that the accessories will stay on (biggest fear: charms falling off)
+- Fast application options (they don't want a 2-hour nail session)
+
+**What frustrates them:**
+- Accessories that fall off after one day
+- Unclear instructions on how to apply
+- Buying stickers when they actually wanted 3D charms (format confusion)
+- Products that only work with gel nails when they have press-ons
+
+**Top 5 Buying Objections (address in body copy):**
+1. "Will they fall off?" → Address with rhinestone glue 21-day hold + curing instructions
+2. "Are they hard to apply?" → Stickers are peel-and-stick; charms just press on
+3. "Will they work on my press-on nails?" → Stickers and charms both explicitly work on press-ons
+4. "Do I need a lamp?" → Only for rhinestone glue; charms and stickers don't require one
+5. "Is $7.99 worth it for a Halloween accessory?" → 6 sticker sheets = multiple manicures; charms are reusable
+
+**Buyer Phrase Bank (use naturally in copy):**
+- "easy halloween nails at home"
+- "halloween nails without freehand painting"
+- "will these stay on"
+- "3D nail charms that don't fall off"
+- "quick halloween nail look"
+- "what nail accessories to buy for halloween"
+- "do nail stickers work on gel nails"
+- "spooky nails without going to a salon"
+- "skulls and gems for nails"
+- "last minute halloween nails"
+- "which is easier — charms or stickers"
+- "gothic nail accessories"
+- "chrome nails for halloween"
+
+**Recurring buyer praise for Halloween nail accessories (general Amazon sentiment):**
+- Easy to apply even for beginners
+- 3D effect looks professional and impressive
+- Love that they work on gel and press-on nails
+- Great way to get festive nails without freehand skill
+
+**Recurring buyer complaints to address honestly:**
+- Accessories fall off without proper glue/sealing
+- Small rhinestones hard to place without tweezers
+- Chrome powder needs practice for smooth application
+
+---
+
+## SECTION 6 — DISCOUNT AND CONVERSION DATA
+
+> **Post Gen Instruction:** Include active discount information naturally near product CTAs.
+
+**Active MelodySusie Discount Codes:**
+- `OFF8` — 8% off sitewide
+- `MSOFF15` — 15% off orders over $129.99
+
+**Sale Pricing:**
+- Rhinestones 1440pc: $12.99 (was $16.99) — ~23% off
+- Chrome Nail Powder: From $6.99 (was $9.99) — ~30% off
+
+**Free Shipping:** Orders over $129.99 ship free to USA
+
+**Where to mention:**
+- Near the ShopInlineCTA section (after first 30% of content)
+- Near ShopFinalCTA (end of post)
+- Naturally in the intro to establish value
+
+---
+
+## SECTION 7 — CONTENT STRUCTURE
+
+> **Post Gen Instruction:** Use these H2 headings in this exact order. Do not rename, reorder, or remove. Add H3s at your discretion.
+
+**Total Word Budget:** 900–1,000 words
+
+---
+
+**INTRO (no H2) — 120–150 words**
+- Open with the buyer's scenario: Halloween is close, you want impressive nails, you don't want to freehand-paint skulls.
+- State what this post covers: the five best MelodySusie halloween nail accessories, ranked by use case.
+- Primary keyword appears 2× in first 150 words — both in `<strong>` tags.
+- GEO: mention USA availability and discount codes OFF8/MSOFF15.
+
+→ **{{PRODUCTS:1:0}}** — Winner featured layout immediately after intro
+
+---
+
+**H2: Charms, Stickers, or Rhinestones — Which Halloween Nail Accessory Should You Buy? — 150 words**
+- Directive: Answer the #1 buyer confusion question directly. Three formats, three use cases.
+  - Charms: most 3D impact, need glue for longevity
+  - Stickers: easiest and fastest, flat finish
+  - Rhinestones: most versatile/reusable but skill required
+- AEO term answered here: "Which is easier — charms or stickers"
+- Buyer objection addressed: format confusion
+
+→ **{{PRODUCTS:2:1,2}}** — Stickers and Rhinestones side by side after format explainer
+
+---
+
+**H2: The Halloween Nail Accessory Trends Worth Buying in 2025 — 120 words**
+- Directive: Establish trend credibility. Cover: 3D gothic charms (skulls/skeleton hands), rhinestone spider web accents, chrome aurora mirror effects.
+- AEO term answered here: "What Halloween nail accessories are trending in 2025?"
+- Reference chrome powder as the stealth Halloween upgrade most buyers overlook.
+- Internal link here: SC-06 Pillar ("see our full Halloween nail guide")
+
+→ **{{PRODUCTS:2:3,4}}** — Chrome Powder and Rhinestone Glue side by side after trend section
+
+---
+
+**H2: How to Apply MelodySusie Halloween Nail Accessories So They Actually Stay — 150 words**
+- Directive: Address the single biggest buyer objection — accessories falling off.
+- Cover step-by-step: clean nail → apply base color → position charm/sticker → apply rhinestone glue → cure with UV/LED lamp → top coat.
+- Call out: stickers and basic charms don't need a lamp; glue + rhinestones do.
+- AEO terms answered here: "How do I make Halloween nail accessories stay on longer?" and "How do you put 3D charms on gel nails?"
+- Internal link here: EC-06-S1 MelodySusie Nail Rhinestones & Gems (anchor: "full rhinestone range")
+
+---
+
+**H2: Best MelodySusie Halloween Nail Accessories Ranked — 150 words**
+- Directive: Brief editorial ranking recap — not a full product repeat. One line per product: who it's best for and why.
+- Conversion copy: mention sale prices and discount codes OFF8/MSOFF15 naturally here.
+- Internal link here: EC-03-S3 MelodySusie Cat Eye Gel Polish (anchor: "cat eye gel polish for Halloween") — position naturally as a base recommendation.
+- GEO: mention free US shipping + availability.
+
+→ **No product injection in this section** — comparison table fires after content automatically
+
+---
+
+**CONCLUSION — 80–100 words**
+- Final push to purchase. Not a summary.
+- Buyer takeaway: you don't need freehand painting skills to get impressive Halloween nails — these accessories do the work.
+- CTA: Start with the 3D Charms ($7.99) and add rhinestone glue if you want 3-week hold.
+- Mention discount code OFF8 one final time.
+
+---
+
+## SECTION 8 — COMPONENT DIRECTIVES
+
+> **Post Gen Instruction:** These components fire automatically from frontmatter. Confirm trigger fields in Section 2 are correctly set. Never write component content in body — it auto-renders.
+
+| Component | Status | Trigger |
+|---|---|---|
+| WinnerBadge | ACTIVE | winnerIndex: 0 set in frontmatter |
+| ShopInlineCTA | ACTIVE | winnerIndex: 0 set in frontmatter |
+| ComparisonTable | ACTIVE | showComparison: true + comparisonTable data present |
+| ProsConsBlock | INACTIVE | showProscons: false |
+| ShopFinalCTA | ALWAYS ACTIVE | products[] exists |
+| ShopFAQ | ACTIVE | faqs[] has 7 entries |
+| ShopTableOfContents | ALWAYS ACTIVE | reads H2/H3 from body |
+| Sidebar winner card | ACTIVE | winnerIndex: 0 set |
+
+---
+
+## SECTION 9 — WRITING INSTRUCTIONS
+
+> **Post Gen Instruction:** Follow these rules for every paragraph of body copy.
+
+- **Conversion copy only** — every sentence moves the buyer toward a decision
+- **Lead with buyer benefit** — specs support, never lead
+- **Use buyer phrases from Section 5 naturally** — "last minute halloween nails," "will they stay on," "without freehand painting"
+- **Address objections directly** — especially the "will they fall off?" concern
+- **Honest cons** — include them, then counter with why the product is still the right buy
+- **Discount info near CTAs** — mention OFF8 code and sale prices at ShopInlineCTA and ShopFinalCTA areas
+- **Primary keyword `MelodySusie halloween nail accessories` in `<strong>` tags every mention — no exceptions**
+- **No editorial literary hooks** — open sections with the buyer benefit or buying question directly
+- **H2 sections are short and direct** — buyers scan; no long intros per section
+- **Conclusion = final purchase push** — not a summary
+- **Internal links mid-post only** — after first product CTA; anchor text natural
+- **No related articles section** — handled by site component
+- **American English** — not British English
+- **No banned AI patterns:** no "elevate," "seamlessly," "game-changing," "dive into," "transformative"
+- **No long em dashes** — use comma or restructure sentence
+- **No "we tested" language** — no MelodySusie halloween accessory pages had live review counts at time of research; write editorial observations from specs and product descriptions
+- **Short punchy sentences for key selling points** — longer sentences for context/explanation
