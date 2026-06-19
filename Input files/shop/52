@@ -1,0 +1,333 @@
+# SHOP INPUT FILE — POST #52
+**THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT.** All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions in this file must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy.
+
+---
+
+## 1. CLUSTER SUMMARY
+
+- **Cluster:** SC-04 Spring Nails (seasonal) — peak months February–April
+- **This post:** "MelodySusie Spring Nail Starter Kit: Everything to Do Your Own Nails" — spoke post under SC-04
+- **Slug:** melodysusie-spring-nail-starter-kit
+- **Post type:** best-of
+- **Primary keyword (LOCKED):** spring nail kit MelodySusie
+- **Role:** Spoke (SC-04-S2) under pillar "Best MelodySusie Spring Nail Products" (post_id 38)
+- **Internal links this post must include** (mid-post only, after first product CTA — never before):
+  - Best MelodySusie Spring Nail Products → /shop/spring/best-melodysusie-spring-nail-products
+  - MelodySusie Beginner Nail Kit: Everything You Need to Start → /shop/nail-kits/melodysusie-beginner-nail-kit
+  - MelodySusie Nail Dust Collector: HPro vs SPro Compared → /shop/nail-care-tools/melodysusie-nail-dust-collector-review
+- **Posts that link to this post (for context):** SC-04 pillar (post 38), EC-04 Nail Kits pillar (post 4)
+- **Affiliate mode:** Direct MelodySusie affiliate links, tracking params appended (`?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol`)
+- **Region:** USA only
+
+---
+
+## 2. FRONTMATTER BLOCK
+**Copy this frontmatter block exactly into the post. Do not change any field.**
+
+```yaml
+title: "Best MelodySusie Spring Nail Kit: Drill, Lamp & Dust Collector Picks"
+excerpt: "The MelodySusie spring nail kit lineup for doing salon-quality gel nails at home — compared by price, power, and what beginners actually need."
+date: "2026-06-19"
+author: "Mirellé"
+category: "spring"
+image: "https://www.melodysusie.com/cdn/shop/files/1_1_744f4dc4-c412-4f3d-bb77-548b72bdb1dc.jpg?v=1768465254&width=1600"
+imageAlt: "MelodySusie spring nail kit featuring the SC320A drill, lamp, and dust-free manicure set"
+imageWidth: 1200
+imageHeight: 630
+readTime: "9 min read"
+canonical: ""
+postType: "best-of"
+winnerIndex: 3
+showComparison: true
+showProscons: false
+comparisonCaption: "How the MelodySusie spring nail kit picks compare"
+products:
+  - name: "SC300F Rechargeable Nail Drill 30,000RPM Set"
+    brand: "MelodySusie"
+    price: "$39.99"
+    compareAtPrice: "$59.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/15_ba903586-c64c-4271-b666-2f03560fe071.jpg?v=1732614394&width=1080"
+    link: "https://www.melodysusie.com/products/sc300f-rechargeable-nail-drill-30000rpm-set?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Budget Pick"
+    rating: 5.0
+    reviewCount: 56
+    details:
+      - "30,000 RPM clip-on drill with stepless speed control"
+      - "4000mAh battery — 8 to 12 hours of use per charge"
+      - "Comes with 6 drill bits and 56 sanding bands"
+    pros:
+      - "Way more power than entry-level drills at this price"
+      - "Simple to operate without reading the manual first"
+      - "Clip-on design straps to your waist for less hand fatigue"
+      - "Removes gel polish and smooths calluses quickly"
+    cons:
+      - "Body feels plasticky compared to pricier MelodySusie drills"
+      - "High torque means new users need a light hand at first"
+  - name: "P-Plus20F Innovative UV Protection Rechargeable UV/LED Nail Lamp"
+    brand: "MelodySusie"
+    price: "$74.99"
+    compareAtPrice: "$84.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/381db143255f3e586ea52c1c36d9b5d5_0b184aa9-ce90-4bfa-8350-adc00aff6f30.jpg?v=1736152222&width=1600"
+    link: "https://www.melodysusie.com/products/p-plus20f-uv-protection-rechargeable-uv-led-nail-lamp?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Skin Protection"
+    rating: 5.0
+    reviewCount: 56
+    details:
+      - "Directional, zoned light focuses on the nail bed, not skin"
+      - "240° rotatable panel fits hands and feet at any angle"
+      - "Low-energy curing system for faster, gentler sessions"
+    pros:
+      - "Skin around the nail gets noticeably less UV exposure"
+      - "Rotating panel makes pedicures easier than fixed lamps"
+      - "Rechargeable battery means no cord clutter at the desk"
+      - "Curing feels faster than older corded lamps"
+    cons:
+      - "Premium pricing compared to basic 6W lamps"
+      - "Smaller footprint than full-hand professional lamps"
+  - name: "SProF Nail Dust Collector Kit"
+    brand: "MelodySusie"
+    price: "$19.99"
+    compareAtPrice: "$83.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/09779350548f0b0155efff1101c71925.jpg?v=1741746614&width=1600"
+    link: "https://www.melodysusie.com/products/sprof-nail-dust-collector-kit?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Clean Air"
+    rating: 5.0
+    reviewCount: 67
+    details:
+      - "100% vacuum efficiency captures dust and fly ash from 360°"
+      - "Touch panel switches between LOW, MIDDLE, HIGH suction"
+      - "Magnetic washable filter — clean with a hairdryer or brush"
+    pros:
+      - "Noticeably cleaner desk air after filing sessions"
+      - "Adjustable suction means it's not too loud on LOW"
+      - "Filter maintenance takes seconds, not a deep clean"
+      - "Compact enough for a small home nail station"
+    cons:
+      - "Needs an outlet nearby — not a cordless model"
+      - "HIGH suction setting has noticeable motor noise"
+  - name: "SC320A Manicure Beginner Set"
+    brand: "MelodySusie"
+    price: "$152.93"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_1_744f4dc4-c412-4f3d-bb77-548b72bdb1dc.jpg?v=1768465254&width=1600"
+    link: "https://www.melodysusie.com/products/sc320a-manicure-beginner-set?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall Starter Kit"
+    rating: 4.9
+    reviewCount: 41
+    details:
+      - "Bundles the SC320A drill with a nail lamp and dust-free setup"
+      - "One cart checkout instead of buying drill, lamp, and collector separately"
+      - "Designed as a complete beginner-to-home-salon starter system"
+    pros:
+      - "Everything arrives matched and ready to use together"
+      - "Saves money compared to buying each tool separately"
+      - "Covers drill, cure, and cleanup in a single spring purchase"
+      - "Beginner-friendly without feeling underpowered"
+    cons:
+      - "Higher upfront cost than buying just one tool"
+      - "Bundle colors are limited compared to standalone product lines"
+faqs:
+  - question: "What do I need for a complete spring nail kit at home?"
+    answer: "A complete spring nail kit needs four things: a nail drill for shaping and gel removal, a UV/LED lamp for curing, a dust collector for cleanup, and gel polish with base and top coat. The MelodySusie SC320A Manicure Beginner Set covers the first three in one purchase, so you only need to add polish."
+  - question: "Do I need a UV lamp for gel nails at home?"
+    answer: "Yes. Real gel polish only cures under a UV or LED lamp — it will not air-dry like regular polish. The MelodySusie P-Plus20F cures gel quickly while using a zoned, directional light that limits UV exposure to the surrounding skin."
+  - question: "Is a nail dust collector necessary for home manicures?"
+    answer: "A nail dust collector is not strictly required, but it makes a real difference if you're filing gel or acrylic regularly. Filing creates fine dust that you would otherwise breathe in or scatter across your desk. The MelodySusie SProF pulls that dust at 100% vacuum efficiency for about $20."
+  - question: "What RPM nail drill is best for beginners?"
+    answer: "For beginners, 30,000 RPM is the sweet spot. It's enough power to remove gel polish and shape nails without being so aggressive that mistakes are hard to recover from. The MelodySusie SC300F runs at 30,000 RPM with stepless speed control, so you can start slow and build confidence."
+  - question: "How much does it cost to set up a home nail station in spring?"
+    answer: "A basic home nail station with a drill, lamp, and dust collector costs between $135 and $155 if bought separately, or as a single bundle like the MelodySusie SC320A Manicure Beginner Set at $152.93. That's less than three salon gel manicures, and the tools are reusable for years."
+  - question: "Is MelodySusie good for beginners or only professionals?"
+    answer: "MelodySusie makes tools for both. Entry-level models like the SC300F are built specifically for beginners and nail students, with simple controls and lower learning curves, while higher-RPM models serve working nail techs. The brand's product line is split clearly by experience level."
+  - question: "What's the difference between a clip-on and pen-style nail drill?"
+    answer: "A clip-on nail drill, like the MelodySusie SC300F and SC320A, attaches to your waistband so the cord doesn't get in the way during long sessions. A pen-style drill is lighter and held like a pen, which some beginners find easier to control at first but less comfortable for extended use."
+```
+
+---
+
+## 3. SEO AND KEYWORD PLAN
+**Follow this keyword plan exactly. Calculate density before writing — do not estimate.**
+
+- **Primary keyword (LOCKED):** spring nail kit MelodySusie
+- **Density target:** Competitor avg ~0.4–0.6% (havenandhome.live, slbeautyco.com). Match 0.5% + 3 extra mentions in first half. For ~1,500 words, target **11 total mentions**, all wrapped in `<strong>` tags.
+- **First 150 words:** primary keyword appears exactly 2x, both bolded.
+
+**High CPC transactional keywords** (weave into CTAs/H2s): gel nail starter kit, at home gel manicure kit, nail drill and lamp set, UV LED nail lamp, professional nail dust collector, best nail drill for beginners
+
+**Keyword variations** (natural use, no density/strong tags): MelodySusie spring nail products, spring nail kit for beginners, MelodySusie nail starter kit, spring manicure kit, MelodySusie drill and lamp bundle
+
+**Transactional cluster keywords:** best MelodySusie nail kit, MelodySusie beginner nail kit, MelodySusie nail dust collector, best MelodySusie cordless nail drill, best MelodySusie nail lamp
+
+**LSI terms:** gel manicure at home, nail filing dust, cuticle care, salon-quality nails, nail drill RPM, UV curing time, vacuum suction levels, home nail station, nail tech tools, manicure setup, gel polish removal, nail bits and sanding bands, spring nail colors, DIY manicure, nail drill battery life
+
+**AEO terms** (mapped — see Section 7):
+1. "What do I need for a complete spring nail kit at home?" → FAQ
+2. "Do I need a UV lamp for gel nails at home?" → FAQ
+3. "Is a nail dust collector necessary for home manicures?" → FAQ
+4. "What RPM nail drill is best for beginners?" → FAQ
+5. "How much does it cost to set up a home nail station in spring?" → FAQ
+6. "Is MelodySusie good for beginners or only professionals?" → FAQ
+7. "What's the difference between a clip-on and pen-style nail drill?" → FAQ
+8. "Why does my home gel manicure peel off faster than the salon?" → H2 1
+9. "How do I keep nail dust off my desk while filing?" → H2 4
+10. "What wattage nail lamp do I need for gel nails at home?" → H2 3
+
+**GEO terms** (near CTAs/availability copy): MelodySusie spring nail kit shipping to USA, buy MelodySusie nail drill online USA, MelodySusie free shipping over $129.99, where to buy MelodySusie nail tools in the USA
+
+**Buyer phrase bank** (from Amazon/Walmart/Quora — weave naturally, don't quote as testimonials): "way more power than my old $10 drill," "didn't even read the instructions but simple to navigate," "salon quality at a fraction of the cost," "still cost less than a full set so it's still a good deal," "honestly been a pretty good tool to learn on," "approachable," "no more breathing in fine particles," "cleaning is effortless"
+
+---
+
+## 4. COMPETITOR AND TITLE INTELLIGENCE
+
+**Top competitor titles for this keyword space:**
+1. "Best At-Home Gel Nail Kits That Actually Last 2 Weeks" (havenandhome.live) — works because it leads with a specific, skeptical-buyer benefit (longevity) rather than a generic superlative.
+2. "13 Best At-Home Gel Nail Kits (2026): Sponsorship Free-Reviews" (slbeautyco.com) — works because "sponsorship free" signals trust, and the number sets a clear scope.
+3. "The Best At-Home Gel Manicure Kits for Long-Lasting Polish" (Harper's Bazaar) — works on brand authority alone; weakest title on specificity.
+
+**Title direction:** None of the top competitors name a brand-plus-tool-category angle. Our title leads with "MelodySusie" (brand search intent already exists per cluster map) and specifies the exact 3 tools (drill, lamp, dust collector) — more specific than any competitor, which all default to vague "kit" framing.
+
+**Competitor gaps (mandatory H2 sections in our post):**
+- No competitor explains nail dust collectors as part of a "starter kit" — this is a MelodySusie-specific differentiator and becomes its own H2.
+- No competitor addresses RPM selection for beginners in plain terms — becomes an H2 with embedded AEO answer.
+- No competitor connects "spring" seasonality to a buying trigger (spring cleaning, sandal season pedicures, fresh-start angle) — becomes the hook H2.
+
+**Missing product angles competitors miss (include as selling points):**
+- UV-zoned lamps that reduce skin exposure (P-Plus20F) — competitors' lamps are framed purely on cure time, not skin safety.
+- Cordless dust collection at this price point — most competitor kits don't include dust management at all.
+
+**Word count target:** 1,450–1,600 words (competitor average across havenandhome.live ~1,400 words and slbeautyco.com ~2,900 words for a 13-product list; since this post features 4 products, not 13, target the lower end with added depth: 1,500 words).
+
+---
+
+## 5. BUYER INTELLIGENCE
+
+**Who this buyer is:** A home nail enthusiast, likely female, 20s–40s, who already gets gel manicures at salons or has tried a basic gel polish kit and wants to upgrade. Spring-motivated — either a New Year's resolution carrying into spring, or a seasonal refresh trigger (sandal season, spring cleaning the beauty routine). Beginner-to-intermediate skill level. Comfortable spending $100–$200 once to avoid $45–$60 salon visits going forward.
+
+**What they need from this post:** Confidence that they're buying the right *combination* of tools, not just one isolated product. They are choosing between buying piecemeal (drill, then lamp, then dust collector separately) versus a bundle.
+
+**What frustrates them:** Vague "kit" reviews that don't say which lamp pairs with which drill, no mention of RPM for beginners, and review sites that don't disclose real cons. They've been burned by competitor kits with cramped lamps and weak acetone (per slbeautyco.com findings) and don't want to repeat that mistake with an unfamiliar brand.
+
+**Top 5 buying objections (each addressed in post body):**
+1. "Is this too powerful/intimidating for a beginner?" → addressed in SC300F section: stepless speed control, training-friendly framing.
+2. "Will the gel actually cure properly, or do I need to buy a separate lamp?" → addressed in P-Plus20F section.
+3. "Is dust collection actually necessary, or is that an upsell?" → addressed directly in dedicated H2 with health-and-cleanliness framing.
+4. "Is it cheaper to buy the bundle or the pieces separately?" → addressed in comparison table and final CTA with real math.
+5. "What if it breaks — does MelodySusie stand behind it?" → addressed briefly using Trustpilot-sourced warranty/customer service language.
+
+**Buyer phrase bank:** see Section 3 above — used naturally in body copy, not flagged as quotes.
+
+**Recurring praise from real reviews:** power-to-price ratio, ease of use without reading instructions, fast and responsive customer service on warranty claims.
+
+**Recurring complaints:** plasticky drill housing on entry-level models, need for a light hand with high-torque drills as a beginner.
+
+---
+
+## 6. DISCOUNT AND CONVERSION DATA
+
+- SC300F: $39.99 sale vs $59.99 compare-at (33% off)
+- P-Plus20F: $74.99 sale vs $84.99 compare-at (12% off)
+- SProF: $19.99 sale vs $83.99 compare-at (76% off — clearance-level discount, strong urgency angle)
+- SC320A Beginner Set: $152.93, no compare-at price found — do not fabricate one
+- **Active sitewide codes confirmed on melodysusie.com:** `OFF8` for 8% off sitewide; `MSOFF15` for 15% off orders over $129.99
+- **Free US shipping** on orders over $129.99
+- **Placement:** Mention OFF8 near the ShopInlineCTA (after SC300F/P-Plus20F sections). Mention MSOFF15 + free shipping threshold near ShopFinalCTA, since the SC320A bundle individually clears $129.99.
+
+---
+
+## 7. CONTENT STRUCTURE
+**Use these H2 headings in this exact order. Do not rename, reorder, or remove. Add H3s at your discretion.**
+
+**Intro (150–200 words):** Hook on spring as the natural reset point for home nail routines. Primary keyword `<strong>spring nail kit MelodySusie</strong>` appears twice here, both bolded. Establish the buying decision: drill + lamp + dust collector, bundled or separate.
+
+**H2 1: Why Spring Is the Right Time to Build Your Nail Station**
+- Covers: seasonal motivation (sandal season, spring cleaning routines, fresh start), frames the four-tool requirement (drill, lamp, dust collector, polish).
+- AEO mapped: "Why does my home gel manicure peel off faster than the salon?" — answered briefly here (prep matters more than tools alone).
+- No internal link yet (before first product CTA).
+- No injection yet.
+- Word budget: ~180 words.
+
+**H2 2: The Nail Drill That Won't Overwhelm a Beginner**
+- Covers: SC300F — RPM, battery life, beginner framing, buyer phrase bank language.
+- Injection: `{{PRODUCTS:1:0}}` (featured layout, SC300F).
+- Word budget: ~220 words.
+
+*[ShopInlineCTA fires here automatically — mention OFF8 code near this point in copy]*
+
+**H2 3: The Lamp That Cures Gel Without Overexposing Skin**
+- Covers: P-Plus20F — zoned UV light, 240° rotation, low-energy curing.
+- AEO mapped: "What wattage nail lamp do I need for gel nails at home?"
+- Internal link #1 placed here: MelodySusie Beginner Nail Kit (mid-post, after first product CTA — compliant).
+- Injection: `{{PRODUCTS:1:1}}` (featured layout, P-Plus20F).
+- Word budget: ~220 words.
+
+**H2 4: The Dust Collector That Keeps Your Setup Clean**
+- Covers: SProF — 360° suction, adjustable levels, filter maintenance.
+- AEO mapped: "How do I keep nail dust off my desk while filing?"
+- Internal link #2 placed here: MelodySusie Nail Dust Collector: HPro vs SPro Compared.
+- Injection: `{{PRODUCTS:1:2}}` (featured layout, SProF).
+- Word budget: ~200 words.
+
+**H2 5: How the Spring Kits Compare**
+- Covers: side-by-side framing leading into ComparisonTable component.
+- Internal link #3 placed here: Best MelodySusie Spring Nail Products (pillar).
+- Comparison table fires automatically (showComparison: true).
+- Word budget: ~120 words.
+
+**H2 6: The All-in-One Pick: SC320A Manicure Beginner Set**
+- Covers: winner product — why bundling beats buying separately, real price math vs piecemeal purchase.
+- Injection: `{{PRODUCTS:1:3}}` (featured layout, SC320A — winner, index 3).
+- Word budget: ~220 words.
+
+**Conclusion (100–150 words):** Final push to purchase. Mention MSOFF15 + free shipping threshold. Direct buyer to the SC320A as the easiest single decision for spring, with SC300F/P-Plus20F/SProF as the build-your-own alternative.
+
+**Injection plan summary:**
+- After H2 2: `{{PRODUCTS:1:0}}`
+- After H2 3: `{{PRODUCTS:1:1}}`
+- After H2 4: `{{PRODUCTS:1:2}}`
+- After H2 6: `{{PRODUCTS:1:3}}`
+- ComparisonTable auto-fires between H2 5 and H2 6 (after middle section, per template default)
+
+---
+
+## 8. COMPONENT DIRECTIVES
+**These components fire automatically from frontmatter. Confirm trigger fields in Section 2 are correctly set.**
+
+| Component | Status | Trigger confirmed |
+|---|---|---|
+| WinnerBadge | ACTIVE | winnerIndex: 3 set in Section 2 |
+| ShopInlineCTA | ACTIVE | winnerIndex: 3 set in Section 2 |
+| ComparisonTable | ACTIVE | showComparison: true + comparisonTable data needed (see note below) |
+| ProsConsBlock | INACTIVE | showProscons: false (best-of post type) |
+| ShopFinalCTA | ALWAYS ACTIVE | products[] exists |
+| ShopFAQ | ACTIVE | faqs[] has 7 entries |
+| ShopTableOfContents | ALWAYS ACTIVE | reads H2/H3 automatically |
+| Sidebar winner card | ACTIVE | winnerIndex: 3 set |
+
+**Note on comparisonTable:** Post gen must build the comparisonTable object with `features[]` and `columns[].values[]` of matching length, using these features: ["Type", "Price", "RPM / Power", "Best For", "Rating"]. Values pulled directly from Section 2 product data — do not invent new specs.
+
+---
+
+## 9. WRITING INSTRUCTIONS
+**Follow these writing rules for every paragraph of body copy.**
+
+1. This is conversion copy — every sentence moves the buyer toward a purchase decision.
+2. Lead with buyer benefit, not specs — specs support the benefit, never lead with it.
+3. Use buyer phrases from Section 5 naturally — speak their language, don't quote them as testimonials.
+4. Address the 5 buying objections directly — no hedging.
+5. Honest cons build trust — state them, then counter with why the product is still the right buy.
+6. Discount codes (OFF8, MSOFF15) placed near CTAs — mentioned naturally, not as standalone paragraphs.
+7. Primary keyword in `<strong>` tags every mention — no exceptions. Target 11 total mentions.
+8. No editorial literary hooks — open each H2 with the buyer benefit or buying question directly.
+9. H2 sections are short and direct — buyers scan, they don't read long intros.
+10. Conclusion = final push to purchase, not a summary.
+11. Internal links placed mid-post after first product CTA only — anchor text natural, never forced.
+12. No related articles section — site handles this via component.
+13. American English only.
+14. Banned AI patterns: no "elevate," "seamlessly," "game-changing," "dive into," "transformative."
+15. No long em dashes — use commas or restructure.
+16. Vary sentence rhythm — short punchy sentences for selling points, longer for context.
+17. No "we tested" language anywhere — all four products use editorial-informed observation language plus real review-sourced pros/cons (per Section 2), since this agent did not physically test products.
+
+---
+
+*End of input file. Ready for Shop Post Gen Agent.*
