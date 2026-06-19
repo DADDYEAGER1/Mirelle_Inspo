@@ -1,0 +1,497 @@
+# THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT
+# All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions in this file must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy.
+
+---
+
+## SECTION 1 — CLUSTER SUMMARY
+
+- **Cluster:** SC-06 Halloween Nails
+- **Post:** Post 40 — SC-06 Pillar
+- **Title:** Best MelodySusie Halloween Nail Products & Accessories
+- **Slug:** best-melodysusie-halloween-nail-products
+- **Category route:** /shop/halloween
+- **Post type:** best-of
+- **Primary keyword:** MelodySusie halloween nail products
+- **Role:** Seasonal pillar — SC-06. This post is the top-level page for the Halloween cluster. SC-06-S1 (post 55) and SC-06-S2 (post 56) are spoke posts that link up to this pillar.
+- **Internal links this post must include:**
+  - Link to post 55 ("Halloween Nail Accessories from MelodySusie") — anchor text: "Halloween nail accessories" — placement: mid-post, after first product CTA
+  - Link to post 56 ("Best Dark Gel Polish for Halloween Nails") — anchor text: "dark gel polish for Halloween" — placement: mid-post, after second product section
+  - Link to EC-03 pillar (/shop/gel-polish/best-melodysusie-gel-polish) — anchor: "MelodySusie gel polish" — placement: toward end, near ShopFinalCTA area
+- **Posts that link to this post:** SC-06-S1 (post 55), SC-06-S2 (post 56)
+- **Affiliate mode:** MelodySusie affiliate — aff=3711
+- **Region:** USA
+
+---
+
+## SECTION 2 — FRONTMATTER BLOCK
+
+**POST GEN INSTRUCTION:** Copy this frontmatter block exactly into the post. Do not change any field. All image URLs, prices, product names, slugs — pre-filled here.
+
+```yaml
+---
+title: "Best MelodySusie Halloween Nail Products: Spooky Picks Ranked"
+excerpt: "MelodySusie halloween nail products ranked — 3D charms, nail art stickers, gel polish kits, and press-ons for the spookiest season."
+date: 2026-09-05
+author: Mirellé
+category: halloween
+image: "https://www.melodysusie.com/cdn/shop/products/1580ddb40d0e2cdd15e8dd7dc4a7c7c4_a5953335-ab09-4361-bcfd-9adc24fa4f3f.jpg?v=1676625486"
+imageAlt: "MelodySusie halloween nail products — 3D skull charms, stickers and gel polish kit on dark surface"
+imageWidth: 1200
+imageHeight: 630
+readTime: "7 min read"
+canonical: ""
+postType: "best-of"
+winnerIndex: 0
+showComparison: true
+showProscons: false
+comparisonCaption: "How the top MelodySusie Halloween picks compare"
+
+products:
+  - name: "Halloween Nail Accessories (3D Charms & Sticker Decals)"
+    brand: "MelodySusie"
+    price: "$7.99"
+    compareAtPrice: "$10.99"
+    image: "https://www.melodysusie.com/cdn/shop/products/1580ddb40d0e2cdd15e8dd7dc4a7c7c4_a5953335-ab09-4361-bcfd-9adc24fa4f3f.jpg?v=1676625486"
+    link: "https://www.melodysusie.com/products/halloween-nail-accessories?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    rating: 4.9
+    reviewCount: 40
+    details:
+      - "3D charms and sticker decals — skulls, pumpkins, spiders, bloody eyes"
+      - "No-irritation adhesion — stays put without lifting or falling off"
+      - "Beginner-friendly — no nail art skills required"
+    pros:
+      - "4.9 stars across 40 reviews — one of the highest-rated Halloween nail products MelodySusie sells"
+      - "Two product types in one: 3D charms box OR sticker decal sheets — choose what you need"
+      - "Designs cover every Halloween vibe — from cute (pumpkins) to spooky (skulls, bloody eyes)"
+      - "Works on natural nails, press-ons, gel, and acrylic — no compatibility issues"
+      - "Priced under $8 — makes them easy to stock up on for parties or client sets"
+    cons:
+      - "Charm box contains 12 pieces — may not be enough for multiple full sets of nails"
+      - "3D charms require gel or top coat to secure — not self-adhesive like sticker version"
+
+  - name: "Halloween Nail Art Stickers (6-Sheet Set)"
+    brand: "MelodySusie"
+    price: "$7.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/0db20a425d14fbedf1886735afa99e9c.jpg?v=1726023576"
+    link: "https://www.melodysusie.com/products/halloween-nail-art-stickers?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Value"
+    rating: 5.0
+    reviewCount: 15
+    details:
+      - "6 sticker sheets — pumpkins, spider webs, cats, bats, ghosts"
+      - "Works over gel polish, press-ons, and semi-cured gel strips"
+      - "No-irritation adhesion, long-lasting — doesn't lift at edges"
+    pros:
+      - "Perfect 5.0 rating across 15 reviews — flawless early signal"
+      - "6 exquisite sheets give multiple design options for the full Halloween season"
+      - "Versatile — layers over gel polish, press-ons, and gel strips without visible edges"
+      - "Great gift option — compact, affordable, and works for any skill level"
+      - "Patterns switch easily — wear different styles each day of October"
+    cons:
+      - "Newer product — fewer reviews than the 3D charms set"
+      - "Sticker-based only — no 3D raised texture like the charms version"
+
+  - name: "Halloween 15ml TPO-Free Thick Gel Polish Kit — 4Pcs"
+    brand: "MelodySusie"
+    price: "$32.99"
+    compareAtPrice: "$39.96"
+    image: "https://www.melodysusie.com/cdn/shop/files/74b96dbb2d19db9758ba306fc55ad040_d74a4192-87f2-44dc-9759-3af88d33182f.jpg?v=1696494331"
+    link: "https://www.melodysusie.com/products/halloween-15ml-gel-nail-polish-set-4pcs?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Gel Kit"
+    rating: 4.9
+    reviewCount: 49
+    details:
+      - "4 Halloween shades — classic orange, charm red, black, and a 4th dark tone"
+      - "TPO-free thick formula — 21+ days wear, non-toxic, low odor"
+      - "15ml bottles — 3x the volume of standard 5ml gel sets"
+    pros:
+      - "4.9 stars across 49 reviews — most-reviewed Halloween product in the lineup"
+      - "15ml bottles are generously sized — enough for multiple sets or salon use"
+      - "TPO-free formula — EU-compliant, lower irritant load than standard gels"
+      - "Classic orange, red, and black cover every Halloween color combo you need"
+      - "21+ day wear — outlasts the Halloween season without chipping"
+    cons:
+      - "Not HEMA-free — not suitable for those with HEMA sensitivity"
+      - "Requires a UV/LED lamp and base/top coat to cure — these are sold separately"
+
+  - name: "Halloween Press-On Nails Kit"
+    brand: "MelodySusie"
+    price: "$9.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/6391ace427ade714b70fb966024ae804_cb10955e-3f37-4eb0-8b5c-e3eb477d7999.jpg?v=1729737507"
+    link: "https://www.melodysusie.com/products/halloween-press-on-nails-kit?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Instant Option"
+    rating: null
+    reviewCount: 0
+    details:
+      - "30 nails in 15 sizes — fits most hand shapes, US only"
+      - "Advanced spray technology — salon-like glossy finish, no fading or chipping"
+      - "Reusable with proper care — lasts up to 2 weeks"
+
+comparisonTable:
+  features:
+    - "Price"
+    - "Rating"
+    - "Best for"
+    - "Application type"
+    - "Nail art level"
+    - "Works with gel polish"
+    - "Reusable"
+    - "Suits beginners"
+  columns:
+    - label: "3D Charms & Decals"
+      values:
+        - "$7.99 (was $10.99)"
+        - "4.9 / 5 (40 reviews)"
+        - "Adding Halloween nail art"
+        - "3D charms or sticker decals"
+        - "Beginner to advanced"
+        - true
+        - false
+        - true
+    - label: "Nail Art Stickers 6-Sheet"
+      values:
+        - "$7.99"
+        - "5.0 / 5 (15 reviews)"
+        - "Quick Halloween designs"
+        - "Peel-and-apply stickers"
+        - "Beginner"
+        - true
+        - false
+        - true
+    - label: "Halloween Gel Kit 4Pcs"
+      values:
+        - "$32.99 (was $39.96)"
+        - "4.9 / 5 (49 reviews)"
+        - "Full gel Halloween manicure"
+        - "Gel polish (lamp required)"
+        - "Intermediate"
+        - true
+        - false
+        - false
+    - label: "Press-On Kit"
+      values:
+        - "$9.99"
+        - "New — no reviews yet"
+        - "Zero-effort Halloween nails"
+        - "Press-on adhesive"
+        - "Beginner"
+        - false
+        - true
+        - true
+
+faqs:
+  - question: "What MelodySusie products are best for Halloween nails?"
+    answer: "The Halloween Nail Accessories set ($7.99) is the top pick — it has a 4.9-star rating across 40 reviews and includes 3D charms and sticker decals with skulls, pumpkins, spiders, and bloody eyes. For a full gel manicure, the Halloween 15ml Gel Polish Kit ($32.99) gives you four Halloween shades including classic orange, red, and black, and it lasts 21+ days."
+
+  - question: "Do MelodySusie Halloween nail accessories work with gel nails?"
+    answer: "Yes. Both the 3D charms and the nail art sticker sheets are compatible with gel polish, press-on nails, and semi-cured gel strips. The sticker version applies directly over any nail surface without visible edges. The 3D charms should be secured with gel or a thick top coat before curing."
+
+  - question: "Does MelodySusie ship Halloween nail products to the USA?"
+    answer: "Yes. MelodySusie ships directly to the USA. Orders over $129.99 qualify for free US shipping. Standard orders ship within a few business days. Use code OFF8 for 8% off sitewide on any order."
+
+  - question: "What gel polish colors work best for Halloween nails?"
+    answer: "Black, orange, and deep red are the classic Halloween trio. MelodySusie's Halloween 4-piece gel kit includes all three plus an additional dark shade. For a spookier look, layering black over orange or adding 3D charms over red gel creates high-impact nail art without advanced skills."
+
+  - question: "Are MelodySusie nail art stickers beginner-friendly?"
+    answer: "Yes. The Halloween Nail Art Stickers (6-sheet set, $7.99) are peel-and-apply — no tools, no gel lamp, and no nail art experience required. They stick over gel polish, regular polish, or press-ons and hold without lifting at the edges."
+
+  - question: "How long do MelodySusie Halloween gel polishes last?"
+    answer: "The Halloween 15ml Thick Gel Kit is rated for 21+ days of wear with proper application — a base coat, two color coats, and a top coat, each cured under a UV/LED lamp. Reviewers note the formula is chip-resistant and holds its color through normal daily wear."
+
+  - question: "Can I use MelodySusie Halloween press-on nails without a lamp?"
+    answer: "Yes. The Halloween Press-On Nails Kit requires no UV lamp, gel, or base coat. They apply with adhesive tabs or solid gel glue (included or available separately), and last up to 2 weeks with proper prep. They're US-only and are the fastest Halloween nail option in the MelodySusie lineup."
+---
+```
+
+---
+
+## SECTION 3 — SEO AND KEYWORD PLAN
+
+**POST GEN INSTRUCTION:** Follow this keyword plan exactly. Calculate density before writing. Do not estimate.
+
+**Primary keyword:** MelodySusie halloween nail products
+**Keyword density target:** 1.2% — match top competitor density. Add 3 extra mentions in first half of post. Total mention target: ~14 mentions in a 1,150-word post.
+**First 150 words:** Primary keyword must appear exactly 2 times — both in `<strong>` tags.
+**ALL primary keyword mentions throughout the entire post:** wrapped in `<strong>` tags.
+
+**Keyword variations (use naturally, no density target, no strong tags):**
+- MelodySusie Halloween nail accessories
+- MelodySusie Halloween nail kit
+- MelodySusie Halloween nail art
+- MelodySusie Halloween gel polish
+- MelodySusie spooky nail products
+- Halloween nail products MelodySusie
+- MelodySusie nail accessories for Halloween
+
+**Transactional cluster keywords (weave into CTAs, H2s, mid-post copy):**
+- halloween nail accessories online USA
+- best halloween nail art products to buy
+- halloween gel nail polish kit
+- halloween 3D nail charms buy online
+- halloween press on nails USA
+- halloween nail sticker sheets
+- halloween nail art for beginners
+- buy halloween nail polish online
+- halloween nail kit under $10
+- spooky nail art accessories online
+
+**High CPC transactional keywords (place near CTAs and pricing sections):**
+- halloween nail art supplies buy online (~$1.80–$2.50 CPC)
+- gel nail polish halloween kit USA (~$2.00–$3.00 CPC)
+- halloween press on nails set ($1.50–$2.20 CPC)
+- 3D halloween nail charms ($1.20–$1.80 CPC)
+
+**LSI semantic terms (weave in naturally throughout body):**
+- skull nail charms
+- pumpkin nail art
+- spooky nail stickers
+- 3D nail accessories
+- nail charms for gel nails
+- spider web nails
+- black gel nail polish
+- orange nail polish Halloween
+- DIY Halloween manicure
+- at-home Halloween nail art
+- beginner Halloween nail designs
+- long-lasting gel nails
+- non-toxic gel polish Halloween
+- Halloween nail ideas at home
+- TPO-free gel polish
+
+**AEO terms (full conversational questions) + mapping:**
+
+| AEO Term | Mapped To |
+|---|---|
+| "What MelodySusie products are good for Halloween nails?" | FAQ #1 |
+| "What nail products do I need for Halloween nail art at home?" | H2: What You Need for Halloween Nails at Home |
+| "Do nail art stickers work on gel polish?" | H2: Halloween Nail Art Stickers — The Zero-Skill Option |
+| "What is the best black and orange gel polish for Halloween?" | H2: Halloween Gel Polish Kit — The Color Foundation |
+| "Are press-on nails good for a Halloween party?" | H2: Halloween Press-On Nails — Party-Ready in Minutes |
+| "What 3D nail charms are best for Halloween?" | H2: Best 3D Halloween Nail Charms — Skulls, Spiders & More |
+| "Does MelodySusie ship to the USA?" | FAQ #3 |
+| "How do I apply 3D nail charms on gel nails?" | FAQ #2 |
+| "How long does Halloween gel polish last?" | FAQ #6 |
+| "What Halloween nail products are beginner-friendly?" | H2: What You Need for Halloween Nails at Home |
+
+**GEO terms (place near CTAs and availability mentions):**
+- MelodySusie halloween nails USA
+- halloween nail products free shipping USA
+- buy halloween nail art online USA
+- MelodySusie US shipping halloween
+- halloween nail kit shipped to USA
+
+---
+
+## SECTION 4 — COMPETITOR AND TITLE INTELLIGENCE
+
+**POST GEN INSTRUCTION:** Use this to write a title and excerpt that outperforms competitors on CTR. The analysis is done — execute it.
+
+**Top 3 competitor title patterns for "MelodySusie halloween nail products":**
+1. Generic "Best Halloween Nail Products" listicles — don't mention brand specifics or ranking logic
+2. Harper's Bazaar / Elle roundups — broad, non-transactional, no clear best pick
+3. Amazon category pages — no editorial voice
+
+**What competitors miss:**
+- No specific MelodySusie product breakdown with rated picks
+- No "beginner vs experienced" buyer segmentation
+- No gel vs accessory vs press-on decision framework for Halloween
+- No mention of price points relative to product type (buyers want to know what's cheap and what's premium)
+
+**Title direction:** Our title wins by (a) leading with "Best" + brand, (b) calling out "Spooky Picks Ranked" for CTR specificity, and (c) staying under 55 chars.
+
+**Competitor gaps that become mandatory H2 sections in our post:**
+- "What do I actually need for Halloween nails at home?" — entry-level buyer question no competitor answers directly
+- The gel polish vs accessories vs press-on decision — no one frames this clearly for buyers
+- Beginner-specific angle — competitors assume nail skill; we address it
+
+**Word count target:** 1,150 words (competitor average sits around 1,000–1,100; we add one additional H2 to edge them on depth).
+
+---
+
+## SECTION 5 — BUYER INTELLIGENCE
+
+**POST GEN INSTRUCTION:** Every paragraph of copy must be written for this specific buyer. Use the exact phrases listed here naturally in the copy.
+
+**Who this buyer is:**
+- Mostly home nail DIYers, ages 18–40 USA
+- Ranges from complete beginners (no gel lamp) to intermediate DIYers who already have a lamp
+- Shopping in September–October; decision window is tight
+- May have bought Halloween nail art from Amazon before but looking for something with more quality and design variety
+
+**What they need from this post:**
+- A clear answer to "what do I buy from MelodySusie to get great Halloween nails?"
+- Decision between accessories/charms vs gel polish vs press-ons
+- Confidence that the products actually work and look good — real ratings matter to them
+
+**What frustrates them:**
+- Products that fall off after a day
+- Blurry or vague product descriptions online
+- Having to buy too many extras (lamp, glue, tools) separately
+- Nail art that looks cheap or tacky in person
+
+**Top 5 buying objections (address each in post body):**
+1. "Will these charms/stickers fall off before Halloween?" → address in charms section: MelodySusie's 3D adhesion is irritation-free and long-lasting; pair with top coat for max hold
+2. "Is the gel kit worth $33 when Amazon has cheaper sets?" → address in gel section: 15ml bottles, 49 reviews at 4.9 stars, TPO-free formula — premium value at a mid-range price
+3. "I don't have a lamp — what can I still use?" → address in press-on and sticker sections
+4. "I've never done nail art before — is this too hard?" → address in sticker section (peel-and-apply) and intro
+5. "Does MelodySusie ship fast enough for Halloween?" → address near CTAs with shipping note + discount code
+
+**Buyer phrase bank (use naturally throughout copy):**
+- "creepy yet subtle Halloween nail look"
+- "give you enough festive vibes"
+- "no nail art skills required"
+- "works for beginners and nail techs alike"
+- "stands out at the party"
+- "easy to switch up styles"
+- "designed for daily wear — not just one night"
+- "no tools needed"
+- "stays put without lifting"
+- "chip-resistant for 21+ days"
+- "DIY Halloween manicure at home"
+- "add 3D drama to any nail look"
+
+**Recurring praise themes from MelodySusie reviews:**
+- Adhesion quality — stickers and charms stay on longer than expected
+- Design variety — multiple Halloween motifs in one pack
+- Value — multiple reviewers note the price-to-quality ratio is strong
+
+---
+
+## SECTION 6 — DISCOUNT AND CONVERSION DATA
+
+**POST GEN INSTRUCTION:** Include active discount information naturally in the post near CTAs.
+
+**Active promotions found on MelodySusie site:**
+- **CODE OFF8** — 8% off sitewide on any order
+- **CODE MSOFF15** — 15% off on orders over $129.99
+- **Free US shipping** on orders over $129.99
+
+**Pricing with sale prices:**
+- Product 1 (3D Charms & Decals): $7.99 sale (was $10.99) — 27% off
+- Product 3 (Gel Kit): $32.99 sale (was $39.96) — 17% off
+- Products 2 and 4: no compare-at price found — show sale price only
+
+**Where to place discount mention:**
+- Near ShopInlineCTA section (after first product CTA) — mention code OFF8 naturally
+- Near ShopFinalCTA area — reinforce free shipping on larger orders
+
+---
+
+## SECTION 7 — CONTENT STRUCTURE
+
+**POST GEN INSTRUCTION:** Use these H2 headings in this exact order. Do not rename, reorder, or remove them. Add H3s at your discretion. Each H2 has a directive — follow it.
+
+**Word count target: 1,150 words total**
+
+---
+
+### INTRO (no H2) — ~150 words
+- Open directly with the buyer's decision: Halloween is close and they want great nails without a salon appointment.
+- Primary keyword appears **2 times** in `<strong>` tags in first 150 words.
+- Name the 4 products briefly — frame the post as a clear buyer's guide covering all angles: accessories, gel polish, and press-ons.
+- No fluff. No "Halloween is the best time of year" editorial opener.
+
+---
+
+### H2: What You Need for Halloween Nails at Home — ~120 words
+- **AEO answered here:** "What nail products do I need for Halloween nail art at home?"
+- Short, direct. Frame the 3 main categories: accessories/charms (add-ons to any nail), gel polish (for those with a lamp), press-ons (zero-skill, no lamp).
+- This section kills the "where do I even start?" objection.
+- No product injection here — context setting only.
+
+---
+
+### H2: Best 3D Halloween Nail Charms — Skulls, Spiders & More — ~200 words
+- **AEO answered here:** "What 3D nail charms are best for Halloween?"
+- Feature Product 1 (3D Charms & Sticker Decals) — winner product.
+- **Injection:** `{{PRODUCTS:1:0}}` — featured layout, directly after this H2 heading and before body text.
+- Body: Address buyer objection #1 (will they fall off?). Reference the 4.9-star rating and 40 reviews. Cover design range (skulls, pumpkins, spiders, bloody eyes). Note both options in the pack: 3D charms box and sticker decal sheets.
+- End section with: natural mention of code OFF8 as a conversion push.
+
+---
+
+### H2: Halloween Nail Art Stickers — The Zero-Skill Option — ~150 words
+- **AEO answered here:** "Do nail art stickers work on gel polish?"
+- Feature Product 2 (6-Sheet Sticker Set).
+- **Injection:** `{{PRODUCTS:1:1}}` — featured layout, directly after this H2.
+- Body: Speak to the beginner buyer who wants Halloween looks without charms or gel. 6 sheets, multiple patterns. Works over gel, press-ons, gel strips. Address objection #3 (no lamp needed).
+- **Internal link here:** "For more Halloween nail accessories from MelodySusie, see our full [Halloween nail accessories](/shop/halloween/melodysusie-halloween-nail-accessories) guide." — place at end of section.
+
+---
+
+### H2: Halloween Gel Polish Kit — The Color Foundation — ~200 words
+- **AEO answered here:** "What is the best black and orange gel polish for Halloween?"
+- Feature Product 3 (Halloween 15ml Gel Kit).
+- **Injection:** `{{PRODUCTS:1:2}}` — featured layout, directly after this H2.
+- Body: Lead with "49 reviews at 4.9 stars" — most-reviewed Halloween product. Hit the 15ml sizing advantage vs standard 5ml. Cover TPO-free formula benefit (non-toxic, low odor). Address objection #2 (is it worth $33?). Call out the 4 shades: orange, red, black. Mention 21+ day wear.
+- Note: Lamp and base/top coat required — be upfront, builds trust.
+- **Internal link here:** "If you want more options on [dark gel polish for Halloween](/shop/halloween/melodysusie-halloween-dark-gel-polish), we've covered the full lineup." — place naturally at section end.
+
+---
+
+### H2: Halloween Press-On Nails — Party-Ready in Minutes — ~150 words
+- **AEO answered here:** "Are press-on nails good for a Halloween party?"
+- Feature Product 4 (Halloween Press-On Nails Kit).
+- **Injection:** `{{PRODUCTS:1:3}}` — featured layout, directly after this H2.
+- Body: Address buyer who has no lamp, no time, no nail skills. 30 nails, 15 sizes, reusable. Salon-glossy finish via spray technology. Lasts up to 2 weeks. Note: US only. Use editorial tone since 0 reviews — "built for buyers who want high-impact Halloween nails in minutes, not hours."
+- Address objection #4 (I've never done nail art — is this too hard?) here.
+
+---
+
+### H2: How to Pick the Right MelodySusie Halloween Nail Product — ~150 words
+- No product injection.
+- **Competitor gap this fills:** None of the competing posts help buyers pick between product types. This is the decision-framework section.
+- Simple breakdown: If you have a lamp → gel kit. If you want nail art add-ons → charms or sticker sheets. If you want zero effort → press-ons. If you want all three → bundle them (still under $51 combined).
+- GEO term placement: mention MelodySusie ships to USA, free shipping on orders over $129.99, code OFF8 for 8% off.
+- **Internal link here:** "For the full MelodySusie gel polish range, visit our [MelodySusie gel polish guide](/shop/gel-polish/best-melodysusie-gel-polish)." — place naturally.
+
+---
+
+### CONCLUSION — ~80 words
+- No H2. No summary. Final push to purchase.
+- Frame: Halloween only comes once a year — buy now so your nails are ready before the rush.
+- Reinforce winner (3D Charms at $7.99 with code OFF8) and gel kit (49 reviews, $32.99).
+- End with a CTA sentence pointing to the ShopFinalCTA component that auto-fires below.
+
+---
+
+## SECTION 8 — COMPONENT DIRECTIVES
+
+**POST GEN INSTRUCTION:** These components fire automatically from frontmatter. Confirm trigger fields in Section 2 are correctly set. Never write component content in body — it auto-renders.
+
+| Component | Status | Trigger |
+|---|---|---|
+| WinnerBadge | **ACTIVE** | winnerIndex: 0 set in frontmatter |
+| ShopInlineCTA | **ACTIVE** | winnerIndex: 0 set in frontmatter |
+| ComparisonTable | **ACTIVE** | showComparison: true + comparisonTable data present |
+| ProsConsBlock | **INACTIVE** | showProscons: false (best-of post type) |
+| ShopFinalCTA | **ALWAYS ACTIVE** | products[] array present |
+| ShopFAQ | **ACTIVE** | faqs[] array has 7 entries |
+| ShopTableOfContents | **ALWAYS ACTIVE** | reads H2/H3 from body automatically |
+| Sidebar winner card | **ACTIVE** | winnerIndex: 0 set |
+
+---
+
+## SECTION 9 — WRITING INSTRUCTIONS
+
+**POST GEN INSTRUCTION:** Follow these writing rules for every paragraph of body copy.
+
+- This is conversion copy — every sentence moves the buyer toward a purchase decision.
+- Lead with buyer benefit, not product specs. Specs support the benefit.
+- Use buyer phrases from Section 5 naturally — speak their language.
+- Address buying objections directly — do not hedge or avoid them.
+- Honest cons build trust — include them, then counter with why the product is still the right buy.
+- Discount code OFF8 placed near ShopInlineCTA section and ShopFinalCTA — mention naturally, not as a standalone paragraph.
+- Primary keyword in `<strong>` tags every mention — no exceptions.
+- No editorial literary hooks — open sections with the buyer benefit or buying question directly.
+- H2 sections are short and direct — buyers scan, they do not read long intros.
+- Conclusion = final push to purchase — not a summary, a decision driver.
+- Internal links placed mid-post after first product CTA only — anchor text natural, never forced.
+- No related articles section — handled by site component.
+- Language: American English only — not British English.
+- No banned AI patterns: no "elevate", "seamlessly", "game-changing", "dive into", "transformative".
+- No long em dashes — use comma or restructure.
+- Sentence rhythm varies — short punchy sentences for key selling points, longer for context.
+- No "we tested" language — product 4 has 0 reviews; use informed editorial observation from specs only.
+- For product 4 (press-ons, 0 reviews): frame editorial observations like: "The Halloween Press-On Kit is built for buyers who want salon-glossy Halloween nails without a lamp, glue, or learning curve — its spray-technology finish and 30-nail set in 15 sizes make it the fastest route to spooky-season nails MelodySusie offers."
