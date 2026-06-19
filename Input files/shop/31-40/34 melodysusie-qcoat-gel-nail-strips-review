@@ -1,0 +1,510 @@
+# SHOP INPUT FILE — POST 34
+## THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT. All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions in this file must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy.
+
+---
+
+## SECTION 1 — CLUSTER SUMMARY
+
+- **Cluster:** EC-07 — Instant & Press-On Nails
+- **Post role:** Spoke post (EC-07-S1)
+- **Cluster pillar:** Best MelodySusie Press-On & Instant Nails (`/shop/instant-nails/best-melodysusie-instant-nails`)
+- **This post:** MelodySusie Qcoat Gel Nail Strips: Do They Actually Work?
+- **Slug:** `melodysusie-qcoat-gel-nail-strips-review`
+- **Category route:** `/shop/instant-nails`
+- **Primary keyword:** MelodySusie gel nail strips
+- **Post type:** comparison (Qcoat fully cured vs MelodySusie semi-cured)
+- **Affiliate mode:** MelodySusie affiliate — region: USA
+- **Internal links to include (mid-post only, after first product CTA):**
+  - Link to EC-07 pillar: `/shop/instant-nails/best-melodysusie-instant-nails` — anchor: "MelodySusie press-on and instant nail options"
+  - Link to EC-03 pillar: `/shop/gel-polish/best-melodysusie-gel-polish` — anchor: "MelodySusie gel polish"
+- **Posts that link to this post:** EC-07 pillar (cluster hub)
+
+---
+
+## SECTION 2 — FRONTMATTER BLOCK
+
+**Post gen instruction:** Copy this frontmatter block exactly into the post. Do not change any field. All product data, images, prices, and slugs are pre-filled.
+
+```yaml
+---
+title: "MelodySusie Gel Nail Strips: Do the Qcoat Strips Actually Work?"
+excerpt: "Honest look at MelodySusie's UV-free Qcoat gel nail strips vs semi-cured strips — longevity, application, and which one to buy."
+date: 2026-06-19
+author: Mirellé
+category: instant-nails
+image: "https://www.melodysusie.com/cdn/shop/files/2_56f55eac-59d5-4b00-ad92-2c3b380824de.jpg?v=1723633313&width=1600"
+imageAlt: "MelodySusie gel nail strips Qcoat milky white UV-free fully cured nail wraps applied on hand"
+imageWidth: 1200
+imageHeight: 630
+readTime: "7 min read"
+canonical: ""
+postType: "comparison"
+winnerIndex: 0
+showComparison: true
+showProscons: true
+comparisonCaption: "Qcoat fully cured vs MelodySusie semi-cured — side-by-side breakdown"
+
+products:
+  - name: "Qcoat Fully Cured Gel Nail Strips — Milky White"
+    brand: "MelodySusie"
+    price: "$8.99"
+    compareAtPrice: "$11.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/2_56f55eac-59d5-4b00-ad92-2c3b380824de.jpg?v=1723633313&width=1600"
+    link: "https://www.melodysusie.com/products/qcoat-fully-cured-gel-nail-strips-milky-white?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    rating: 3.5
+    reviewCount: 12
+    details:
+      - "UV-free — no lamp needed, peel-stick-file in minutes"
+      - "Qcoat tech: thick stretchable gel, indentation recovery, 3D effect"
+      - "22 wraps in multiple sizes + prep pads, file, stick included"
+    pros:
+      - "Zero UV lamp required — the biggest differentiator vs every semi-cured strip"
+      - "Thick gel construction gives nails a more dimensional, non-sticker look"
+      - "High-gloss finish straight out of the pack — no topcoat needed"
+      - "22 wraps covers both hands with spares for fixes"
+      - "Indentation recovery feature helps minor dents self-smooth over time"
+    cons:
+      - "Durability is the real concern — multiple buyers report cracking or chipping within 3–6 days under regular daily use"
+      - "Thickness that prevents easy peeling also makes filing the tips tricky — strips can crack at the free edge when filed aggressively"
+      - "Best treated as a 5–7 day special-occasion manicure, not a 14-day wear"
+
+  - name: "Qcoat Fully Cured Gel Nail Strips — Sliver Stars"
+    brand: "MelodySusie"
+    price: "$8.99"
+    compareAtPrice: "$11.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/6391ace427ade714b70fb966024ae804_19ba502e-0a7d-4676-ad42-a0801d3b2761.jpg?v=1722860404&width=1600"
+    link: "https://www.melodysusie.com/products/qcoat-fully-cured-gel-nail-strips-sliver-stars?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Design Pick"
+    rating: 5.0
+    reviewCount: 1
+    details:
+      - "Glitter star pattern — 3D effect unique to Qcoat thick gel construction"
+      - "UV-free, no lamp needed — same peel-stick-file application"
+      - "22 wraps, prep pads, file, wooden stick included"
+    pros:
+      - "Highest-rated colorway in the Qcoat range — design quality praised"
+      - "3D glitter effect impossible to replicate with standard nail polish"
+      - "UV-free convenience makes this a genuine event-night go-to"
+      - "Salon-looking nail art without any tools or skill required"
+    cons:
+      - "Single verified review — longevity data limited vs solid colorways"
+      - "Patterned strips may show edge lifting more visibly than solid colors"
+      - "Not ideal for hands-intensive jobs — treat as 5–7 day wear"
+
+  - name: "Qcoat Fully Cured Gel Nail Strips — Wine Red"
+    brand: "MelodySusie"
+    price: "$8.99"
+    compareAtPrice: "$11.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/2_95d2e891-2887-494c-9d3b-1bd337bf3e2b.jpg?v=1723632725&width=1600"
+    link: "https://www.melodysusie.com/products/qcoat-fully-cured-gel-nail-strips-wine-red?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Occasions"
+    rating: 3.2
+    reviewCount: 8
+    details:
+      - "Deep wine red — strong pigment, no lamp needed"
+      - "Thick stretchable Qcoat gel, conforms to nail shape"
+      - "22 wraps + full application kit included"
+    pros:
+      - "Rich color payoff in one application — no streaking like traditional polish"
+      - "Dramatically good for date nights, events, holidays — looks intentional and polished"
+      - "UV-free setup: zero wait, zero lamp, done in under 10 minutes"
+      - "Deep tones hide minor imperfections at strip edges better than sheer shades"
+    cons:
+      - "Buyer feedback confirms cracking within 3–6 days under regular use"
+      - "Deep pigments make edge wear and tip chipping more visible than lighter shades"
+      - "Best set expectations at 5–7 days max — not a salon-length wear"
+
+  - name: "32Pcs Semi Cured Gel Toe Nail Strips"
+    brand: "MelodySusie"
+    price: "$13.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/semi-cured-toe-gel-strips.jpg"
+    link: "https://www.melodysusie.com/products/32pcs-semi-cured-gel-toe-nail-strips?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Toes"
+    rating: 4.2
+    reviewCount: 6
+    details:
+      - "Semi-cured — requires UV/LED lamp to cure, lasts up to 2 weeks"
+      - "32 wraps in 16 sizes, dual cuticle shapes for round, square, irregular toes"
+      - "Real gel polish: base + color + topcoat in one layer, toxin-free"
+    pros:
+      - "Longer proven wear vs Qcoat — UV curing creates a proper gel bond for toes"
+      - "16 size options means a genuine fit for every toe shape and size"
+      - "No additional topcoat needed — real gel construction handles durability itself"
+      - "Safe for toes that take more mechanical stress than fingernails"
+      - "Budget-friendly pedicure: 32 wraps covers multiple applications"
+    cons:
+      - "Requires a UV/LED nail lamp — not as grab-and-go as Qcoat strips"
+      - "Application takes longer than fingernail strips — more awkward on toes without a lamp stand"
+
+comparisonTable:
+  caption: "Qcoat fully cured vs semi-cured — what actually matters for buying"
+  features:
+    - "UV lamp required"
+    - "Intended wear time"
+    - "Real-world wear (buyer reports)"
+    - "Strip count"
+    - "Size options"
+    - "Topcoat needed"
+    - "Best use case"
+    - "Price"
+  columns:
+    - label: "Qcoat Milky White"
+      badge: "Best Overall"
+      values:
+        - "No — UV-free"
+        - "14 days (claimed)"
+        - "5–7 days typical"
+        - "22 wraps"
+        - "Multiple"
+        - "No"
+        - "Quick fingernail manicure"
+        - "$8.99"
+    - label: "Qcoat Sliver Stars"
+      values:
+        - "No — UV-free"
+        - "14 days (claimed)"
+        - "5–7 days typical"
+        - "22 wraps"
+        - "Multiple"
+        - "No"
+        - "Events and nail art occasions"
+        - "$8.99"
+    - label: "Qcoat Wine Red"
+      values:
+        - "No — UV-free"
+        - "14 days (claimed)"
+        - "5–7 days typical"
+        - "22 wraps"
+        - "Multiple"
+        - "No"
+        - "Special occasions, date nights"
+        - "$8.99"
+    - label: "Semi-Cured Toe Strips"
+      values:
+        - "Yes — UV/LED lamp"
+        - "14 days"
+        - "Up to 14 days"
+        - "32 wraps"
+        - "16 sizes"
+        - "No"
+        - "Pedicure, longer wear"
+        - "$13.99"
+
+faqs:
+  - question: "Do MelodySusie Qcoat gel nail strips actually work?"
+    answer: "Yes, but with realistic expectations. Qcoat strips apply beautifully and look like gel nails straight out of the pack — high-gloss, dimensional, no UV lamp needed. The honest limitation is longevity: buyer feedback consistently reports 5–7 days of solid wear under regular use, with cracking or chipping more common from day 3–6, especially at the tips. Treat them as a 5–7 day manicure rather than a 14-day one and they deliver well on their promise."
+
+  - question: "Do MelodySusie gel nail strips need a UV lamp?"
+    answer: "It depends on which product. The Qcoat fully cured strips require no UV lamp at all — they are pre-cured before application, so it's peel, stick, file, done. The MelodySusie semi-cured gel strips (including the toe nail strips) require a UV or LED lamp to complete curing and achieve full durability."
+
+  - question: "How long do MelodySusie Qcoat strips last?"
+    answer: "MelodySusie claims up to 14 days. In practice, Amazon buyers report 5–7 days of solid wear before chipping or cracking begins, particularly at the free edge of the nail. Nail prep is critical — push back cuticles, lightly buff, wipe with the included prep pad, and avoid getting lotion or oil on the nail before application. Proper prep can extend wear noticeably."
+
+  - question: "What is the difference between Qcoat fully cured strips and semi-cured gel strips?"
+    answer: "Qcoat strips are fully cured before you apply them — no UV lamp required, and the gel finish is immediate. Semi-cured gel strips are about 60% cured when you apply them; you finish the curing process under a UV or LED lamp. Semi-cured strips generally bond more durably because the curing process happens on your nail, while Qcoat relies on adhesion alone. If you have a lamp, semi-cured strips last longer. If you don't, Qcoat is the more convenient option."
+
+  - question: "Are MelodySusie gel nail strips good for beginners?"
+    answer: "Yes — both the Qcoat and semi-cured strips are beginner-friendly. Each kit includes prep pads, a nail file, and a wooden stick. The Qcoat strips are the easier starting point since they require no lamp. The main beginner mistake is skipping nail prep: oils or moisture on the nail surface cause lifting and early peeling regardless of the product."
+
+  - question: "Can I use MelodySusie gel nail strips on my toenails?"
+    answer: "Yes — MelodySusie makes a dedicated 32-piece semi-cured gel toenail strip set with 16 size options for round, square, and irregular toe shapes. These require a UV or LED lamp to cure and are rated for up to 2 weeks of wear. They're a better fit for toes than the Qcoat fingernail strips since toenails benefit from the stronger bond UV curing provides."
+
+  - question: "How do I make MelodySusie gel nail strips last longer?"
+    answer: "Nail prep is the single biggest factor. Push cuticles back fully, lightly buff the nail surface, and wipe each nail with the included prep pad or rubbing alcohol to remove all oils. Choose a strip size that fits without overlapping the cuticle or skin — any contact with skin causes early lifting. Avoid applying hand cream, oil, or lotion immediately after application."
+---
+```
+
+---
+
+## SECTION 3 — SEO AND KEYWORD PLAN
+
+**Post gen instruction:** Follow this keyword plan exactly. Calculate density before writing — do not estimate.
+
+**Primary keyword:** `MelodySusie gel nail strips`
+- **Density target:** 1.2% — competitor average for this keyword tier. Add 3 extra mentions in first half.
+- **Target post word count:** 1,400 words (competitor average for this category)
+- **Total mention target:** ~17 mentions across 1,400 words
+- **First 150 words:** Primary keyword must appear exactly 2 times — both in `<strong>` tags
+- **ALL primary keyword mentions throughout entire post:** wrapped in `<strong>` tags
+
+**High CPC transactional keywords** (weave into CTAs, H2s, mid-post copy):
+- `gel nail strips that don't need UV light` — high buyer intent, no-lamp buyer segment
+- `UV-free nail strips USA` — GEO + transactional
+- `best gel nail strips for beginners`
+- `semi-cured gel nail strips`
+- `at-home gel manicure strips`
+- `nail strips that last 2 weeks`
+
+**Keyword variations** (use naturally, no density target, no strong tags):
+- MelodySusie Qcoat nail strips
+- MelodySusie nail wraps
+- MelodySusie gel nail stickers
+- MelodySusie UV-free nail strips
+- MelodySusie semi-cured nail strips
+
+**Transactional cluster keywords:**
+- gel nail strips no UV lamp
+- fully cured gel nail strips
+- at-home gel nail strips
+- gel nail wraps beginner
+- nail strip kit with file and prep pad
+- peel and stick gel nails
+
+**LSI semantic terms** (weave naturally):
+- nail prep, nail dehydrator, cuticle push-back
+- indentation recovery
+- pre-cured gel technology
+- chip-resistant, high-gloss finish
+- salon-quality at home
+- free edge, tip wear
+- peel-stick-file, three-step manicure
+- real gel polish layers (base + color + topcoat)
+- nail wrap sizing
+- DIY manicure
+
+**AEO terms — mapped to H2 or FAQ:**
+
+| AEO Term | Mapped To |
+|---|---|
+| "Do MelodySusie gel nail strips actually work?" | FAQ #1 |
+| "Do gel nail strips need a UV lamp?" | H2: "Do You Need a UV Lamp for MelodySusie Gel Nail Strips?" |
+| "How long do MelodySusie Qcoat strips last?" | H2: "How Long Do They Actually Last?" |
+| "What is the difference between Qcoat and semi-cured gel strips?" | H2: "Qcoat vs Semi-Cured: What's the Real Difference?" |
+| "Are gel nail strips good for beginners?" | FAQ #5 |
+| "How do I make gel nail strips last longer?" | H2: "How to Make Them Last Longer" |
+| "Can I use gel nail strips on my toenails?" | FAQ #6 |
+| "Where can I buy MelodySusie gel nail strips in the USA?" | GEO — near ShopFinalCTA |
+
+**GEO terms — placement near CTAs and availability copy:**
+- "ships to USA" / "free US shipping" near product CTAs
+- "buy MelodySusie gel nail strips online USA"
+- "fast shipping USA" near ShopFinalCTA
+
+---
+
+## SECTION 4 — COMPETITOR AND TITLE INTELLIGENCE
+
+**Post gen instruction:** Use this section to write a title and excerpt that outperforms competitors on CTR. Analysis is done — execute it.
+
+**Top competitor titles for this keyword type:**
+1. "Do Gel Nail Strips Actually Work? [Brand] Review" — direct, question-format, works well
+2. "Gel Nail Strips Review: How Long Do They Really Last?" — strong longevity angle
+3. "Semi-Cured Gel Nail Strips: Honest Review After 2 Weeks"
+
+**What they lack:**
+- None name MelodySusie or Qcoat specifically — this post owns that gap entirely
+- None compare Qcoat (UV-free) vs semi-cured in the same post — our comparison angle is unique
+- Competitor posts on gel strips don't answer the Qcoat-specific "does the no-lamp claim actually hold up?" question
+
+**Our title advantage:** Naming Qcoat specifically targets a branded sub-query no competitor covers. The "actually work?" frame signals honest editorial rather than sponsored content — higher CTR trust signal.
+
+**Competitor gaps — mandatory H2 sections:**
+1. The UV lamp question — every buyer of Qcoat strips asks it first
+2. Realistic longevity vs claimed longevity — Amazon reviews reveal a clear gap; competitors don't address this honestly
+3. Nail prep instructions — the #1 reason strips fail early; no competitor fully explains it
+4. Qcoat vs semi-cured distinction — no post makes this comparison clearly for MelodySusie products
+5. Which colorway/type to buy for which use case — comparison decision content
+
+**Word count target:** 1,400 words
+
+---
+
+## SECTION 5 — BUYER INTELLIGENCE
+
+**Post gen instruction:** Every paragraph of copy must be written for this specific buyer. Use the exact phrases listed here naturally in the copy.
+
+**Who this buyer is:**
+- Woman, 25–45, home manicure enthusiast or beginner
+- Doesn't want to invest in a full gel setup (lamp + polish + drill)
+- Saw gel nail strips on TikTok or Amazon; curious but skeptical
+- Main concern: "will these actually stay on or peel off after one day?"
+- Secondary concern: "do I need a UV lamp or not?"
+
+**What they need from this post:**
+- A straight answer on whether Qcoat strips work in real life — not brand marketing copy
+- Clarity on the UV lamp question (Qcoat = no lamp; semi-cured = yes lamp)
+- Realistic wear time expectations
+- Practical tips to make them last as long as possible
+- Clear guidance on which MelodySusie strip to choose for their situation
+
+**What frustrates them:**
+- Posts that just repeat product descriptions without honest wear feedback
+- Vague longevity claims ("up to 14 days") without real-world context
+- No explanation of why strips fail (nail prep skipped)
+- Fake-positive reviews that ignore the cracking and peeling problem
+
+**Top 5 buying objections — address each in post body:**
+1. "Will these actually stick or peel off within hours?" → Address in longevity H2 with honest buyer data + prep tips
+2. "Do I need a UV lamp?" → Dedicated H2 — clear answer: Qcoat no, semi-cured yes
+3. "Are these just stickers or real gel?" → Address in Qcoat vs semi-cured H2 — thick gel construction, not vinyl
+4. "Are they worth $8.99 vs a salon?" → Address near ShopInlineCTA — salon comparison math
+5. "Will they damage my natural nails?" → Address in application/removal section — peel off, no soaking needed
+
+**Buyer phrase bank** (use naturally in copy):
+- "I put these on yesterday and already they've chipped"
+- "Good for a special occasion but not for everyday use"
+- "Not too thick, not too thin — look like salon quality"
+- "Nail prep is the single biggest factor"
+- "Started cracking within 3 days"
+- "Easy to apply and very pretty"
+- "No UV lamp required"
+- "Peel, stick, file — done"
+- "Thick stretchable gel that conforms to your nail"
+- "A fraction of the salon cost"
+
+**Recurring buyer praise:**
+- Beautiful color and gloss finish
+- Easy application for first-timers
+- Designs look genuinely 3D and salon-level — not flat sticker
+- Convenient for events when you need nails fast
+
+**Recurring buyer complaints:**
+- Cracking at free edge from day 3 onward under regular use
+- Strips too thick to file cleanly at tips without cracking
+- Peeling within hours if prep is skipped or skin contact occurs
+- Longevity gap: 14-day claim vs 5–7 day reality under real conditions
+
+---
+
+## SECTION 6 — DISCOUNT AND CONVERSION DATA
+
+**Post gen instruction:** Include active discount information naturally near CTAs — real conversion boosters.
+
+**Active discount codes (MelodySusie sitewide):**
+- `OFF8` — 8% off sitewide
+- `MSOFF15` — 15% off orders over $129.99
+- Free US shipping on orders over $129.99
+
+**Sale pricing:**
+- All 3 Qcoat strips: $8.99 (was $11.99) — 25% off compare-at
+- Toe strips: $13.99 (no compare-at found)
+
+**Conversion placement:**
+- Mention `OFF8` code naturally near ShopInlineCTA section
+- Mention sale price ($8.99 down from $11.99) near first product block
+- Free US shipping mention near ShopFinalCTA
+
+---
+
+## SECTION 7 — CONTENT STRUCTURE
+
+**Post gen instruction:** Use these H2 headings in this exact order. Do not rename, reorder, or remove. Add H3s at your discretion. Each H2 has a directive — follow it.
+
+**Intro (150 words):**
+- Lead with the skeptic's question — "do they actually work?" — not a product description
+- Primary keyword appears exactly 2 times in `<strong>` tags
+- Frame the post as honest editorial, not a brand promotion
+- State what the post covers: Qcoat UV-free strips, semi-cured toe strips, real wear data
+
+---
+
+**H2: What Are MelodySusie Qcoat Gel Nail Strips?** (~120 words)
+- Explain what makes Qcoat different: fully pre-cured = UV lamp not needed
+- Distinguish from semi-cured strips (which do need a lamp)
+- Cover construction: thick stretchable gel, 3D effect, indentation recovery
+- AEO term answered here: "What is Qcoat gel nail strip technology?"
+- Injection: `{{PRODUCTS:1:0}}` — feature Milky White winner
+
+---
+
+**H2: Do You Need a UV Lamp for MelodySusie Gel Nail Strips?** (~100 words)
+- Direct answer first: Qcoat = no lamp. Semi-cured = yes lamp.
+- Cover the practical implication: Qcoat is grab-and-go; semi-cured needs setup
+- Recommend Qcoat for no-lamp buyers, semi-cured for anyone who already owns a MelodySusie lamp
+- AEO term answered: "Do MelodySusie gel nail strips need a UV lamp?"
+
+---
+
+**H2: Qcoat vs Semi-Cured: What's the Real Difference?** (~150 words)
+- Qcoat: fully cured before application, adhesion-based bond, 22 wraps, no lamp
+- Semi-cured: 60% pre-cured, completes curing on nail under UV, stronger bond, longer wear
+- Wire in the semi-cured toe strip as the "if you want longer wear" option
+- AEO term answered: "What is the difference between Qcoat and semi-cured gel strips?"
+- **Internal link placement:** Link to `/shop/gel-polish/best-melodysusie-gel-polish` — anchor: "MelodySusie gel polish" — woven naturally ("if you prefer traditional gel, MelodySusie gel polish is a different system entirely")
+- Injection: `{{PRODUCTS:2:2,3}}` — show Wine Red and Toe Strips side by side
+
+---
+
+**H2: How Long Do They Actually Last?** (~150 words)
+- Address the longevity gap directly: claimed 14 days vs buyer reality of 5–7 days for Qcoat
+- Use real Amazon buyer language (phrases from Section 5)
+- Don't hide this — build trust by being honest, then contextualize: 5–7 days is still great for the price and convenience vs $60+ salon visits
+- Note: semi-cured toe strips consistently hit the claimed 14 days because UV curing creates proper bond
+- AEO term answered: "How long do MelodySusie Qcoat strips last?"
+
+---
+
+**H2: How to Make Them Last Longer** (~150 words)
+- Nail prep is the #1 lever — buyers who skip prep get peeling within hours
+- Step-by-step prep: trim nails, push cuticles back, lightly buff, wipe with prep pad
+- Application: choose strip size that doesn't touch the skin or cuticle — any contact = early lift
+- Filing tip: use the file at a downward angle against the free edge, not across — prevents cracking
+- Don't apply lotion or oil for at least 1 hour after application
+- AEO term answered: "How do I make MelodySusie gel nail strips last longer?"
+
+---
+
+**H2: Which MelodySusie Gel Nail Strip Should You Buy?** (~120 words)
+- Buying guide logic: no lamp = Qcoat. Want nail art/pattern = Sliver Stars. Solid occasion color = Wine Red. Toes = Semi-Cured Toe Strips.
+- Honest framing: Qcoat is a 5–7 day manicure at $8.99 — that's a fair deal for the convenience
+- Mention `OFF8` code here naturally
+- Internal link: `/shop/instant-nails/best-melodysusie-instant-nails` — anchor: "MelodySusie press-on and instant nail options"
+- Injection: `{{PRODUCTS:2:1,0}}` — show Sliver Stars and Milky White side by side
+
+---
+
+**Conclusion (100 words):**
+- Final buying push — not a summary
+- Reinforce honest verdict: Qcoat works well for 5–7 days, semi-cured toe strips go the full 2 weeks
+- Restate the nail prep point as the one thing that changes results
+- End with price anchor ($8.99 down from $11.99, code OFF8) and purchase nudge
+
+---
+
+**Injection plan summary:**
+| Position | Syntax | Products |
+|---|---|---|
+| After intro / Qcoat H2 | `{{PRODUCTS:1:0}}` | Milky White (featured layout) |
+| After Qcoat vs semi-cured H2 | `{{PRODUCTS:2:2,3}}` | Wine Red + Toe Strips |
+| After Which to Buy H2 | `{{PRODUCTS:2:1,0}}` | Sliver Stars + Milky White |
+
+---
+
+## SECTION 8 — COMPONENT DIRECTIVES
+
+**Post gen instruction:** These components fire automatically from frontmatter. Never write their content in the body — they auto-render.
+
+| Component | Status | Trigger |
+|---|---|---|
+| WinnerBadge | **ACTIVE** | winnerIndex: 0 set |
+| ShopInlineCTA | **ACTIVE** | winnerIndex: 0 set |
+| ComparisonTable | **ACTIVE** | showComparison: true + comparisonTable data present |
+| ProsConsBlock | **ACTIVE** | showProscons: true |
+| ShopFinalCTA | **ALWAYS ACTIVE** | products[] present |
+| ShopFAQ | **ACTIVE** | faqs[] has 7 entries |
+| ShopTableOfContents | **ALWAYS ACTIVE** | reads H2/H3 from body |
+| Sidebar winner card | **ACTIVE** | winnerIndex: 0 set |
+
+---
+
+## SECTION 9 — WRITING INSTRUCTIONS
+
+**Post gen instruction:** Follow these rules for every paragraph of body copy.
+
+- This is conversion copy — every sentence moves the buyer toward a decision
+- Lead with buyer benefit, not product description
+- Primary keyword in `<strong>` tags every single mention — no exceptions
+- Address all 5 buying objections from Section 5 across the H2 sections
+- Be honest about the longevity gap — this builds trust, it doesn't hurt conversions
+- Use buyer phrases from Section 5 naturally — not quoted verbatim, woven in
+- Mention `OFF8` discount code once near the "Which to Buy" H2
+- GEO: weave in "ships to the US," "fast US delivery," "available online in the USA" near ShopInlineCTA and ShopFinalCTA areas
+- No "we tested" language — editorial tone based on product specs + buyer review synthesis
+- American English — not British
+- No banned AI patterns: no "elevate," "seamlessly," "game-changing," "dive into," "transformative"
+- No long em dashes — use commas or restructure
+- H2 sections open directly with the buyer benefit or answer — no literary hooks
+- Intro: skeptic-first framing — acknowledge the "do they actually work?" question immediately
+- Conclusion: buying decision driver, not a summary
+- Internal links placed mid-post only — after first product CTA, never in intro or conclusion
