@@ -1,0 +1,428 @@
+# SHOP INPUT FILE — Post #35
+**THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT.** All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions in this file must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy.
+
+---
+
+## 1. CLUSTER SUMMARY
+
+- **Cluster:** SC-01 Summer Nails (seasonal) | Peak months: May–August
+- **This post:** "Best MelodySusie Summer Nail Products" — cluster PILLAR
+- **Slug:** `best-melodysusie-summer-nail-products`
+- **Route:** `/shop/summer/best-melodysusie-summer-nail-products`
+- **Post type:** best-of
+- **Primary keyword (locked):** MelodySusie summer nail products
+- **Role:** Pillar — links down to SC-01 spoke posts (post 42 summer gel polish colors, post 43 summer pedicure kit, post 44 summer nail art tools) once published
+- **Internal links this post must include:** none live yet (spokes 42/43/44 unpublished) — leave placeholder anchor text comments in body marked `<!-- LINK: post 42 -->` etc. at the natural mid-post spot, do not hyperlink until spokes exist
+- **Posts that will link to this post:** SC-01 spokes (42, 43, 44) once written; main `/shop/summer` season landing
+- **Affiliate mode:** standard MelodySusie affiliate links (aff=3711), region: USA only
+
+---
+
+## 2. FRONTMATTER BLOCK
+
+Copy this exactly. Do not change any field.
+
+```yaml
+title: "Best MelodySusie Summer Nail Products: Top Picks for 2026"
+excerpt: "The best MelodySusie summer nail products for vacation-ready color, fast cordless curing, and sandal-season feet — tested specs, real pricing."
+date: "2026-06-19"
+author: "Mirellé"
+category: "summer"
+image: "https://www.melodysusie.com/cdn/shop/files/74b96dbb2d19db9758ba306fc55ad040_0b8da959-2179-40c1-8a4a-3141431810dd.jpg?v=1741659305&width=1600"
+imageAlt: "MelodySusie summer nail products lineup featuring jelly gel polish, cordless UV lamp, and pedicure tools for warm-weather manicures"
+imageWidth: 1200
+imageHeight: 630
+readTime: "12 min read"
+canonical: ""
+postType: "best-of"
+winnerIndex: 0
+showComparison: true
+showProscons: false
+comparisonCaption: "How the top MelodySusie summer picks compare"
+products:
+  - name: "Jeweliver Jelly TPO-Free Gel Nail Polish Set, 6 Colors 15ml — Warm Season"
+    brand: "MelodySusie"
+    price: "$39.99"
+    compareAtPrice: "$59.94"
+    image: "https://www.melodysusie.com/cdn/shop/files/74b96dbb2d19db9758ba306fc55ad040_0b8da959-2179-40c1-8a4a-3141431810dd.jpg?v=1741659305&width=1600"
+    link: "https://www.melodysusie.com/products/jeweliver-jelly-gel-nail-polish-set-6-colors-15ml-warm-season?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    rating: 4.9
+    reviewCount: 38
+    details:
+      - "Sheer jelly finish in 6 warm-season shades, TPO-free formula"
+      - "Built-in UV/LED gel brush for one-step polish + cure"
+      - "30-second LED cure, 60-second UV cure"
+    pros:
+      - "Sheer glass-like jelly finish is the defining 2026 summer nail trend"
+      - "TPO-free formula appeals to sensitive-skin and clean-beauty buyers"
+      - "6-color set covers a full warm-season rotation in one purchase"
+      - "Fast cure time keeps salon visits unnecessary"
+    cons:
+      - "Sheer jelly formula needs 2-3 coats for full opacity on bare nails"
+      - "Shade range leans warm-toned only, no cool pastel options in this set"
+
+  - name: "New Upgraded P-PLUS30GT Rechargeable Cordless UV/LED Nail Lamp — Pink"
+    brand: "MelodySusie"
+    price: "$69.99"
+    compareAtPrice: "$79.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/ea1809cbd788a494639fafa729384a56_b470a6d6-8f22-40ad-8c2e-63d458a03917.jpg?v=1767845823&width=1600"
+    link: "https://www.melodysusie.com/products/new-upgraded-p-plus30gt-rechargeable-cordless-uv-led-nail-lamp-pink?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Travel"
+    rating: 5.0
+    reviewCount: 20
+    details:
+      - "Rechargeable battery — no outlet needed for poolside or vacation curing"
+      - "Full-hand LED/UV curing chamber, low-heat mode"
+      - "LCD display with multiple timer settings"
+    pros:
+      - "Cordless design solves the #1 buyer complaint about curing lamps while traveling"
+      - "Low-heat mode addresses common UV lamp heat-spike concern"
+      - "Long battery life supports multiple manicures per charge"
+      - "Full-hand chamber cures faster than handheld mini lamps"
+    cons:
+      - "Higher price point than a basic plug-in lamp"
+      - "Bulkier than ultra-mini travel lamps, less ideal for carry-on packing"
+
+  - name: "PC760G Manicure & Pedicure Nail Drill Kit, 4,600RPM — Rose Gold"
+    brand: "MelodySusie"
+    price: "$29.99"
+    compareAtPrice: "$39.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_22ee0c99-7415-44d4-bce4-9966c65fd252.jpg?v=1742288441&width=1600"
+    link: "https://www.melodysusie.com/products/pc760g-manicure-pedicure-nail-drill-kit-4600-rpm?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Pedicures"
+    rating: 5.0
+    reviewCount: 57
+    details:
+      - "4,600 RPM motor handles both manicure and pedicure prep"
+      - "Cordless rechargeable, USB charging"
+      - "Includes bit set for filing, buffing, and callus care"
+    pros:
+      - "Doubles as a pedicure tool, key for sandal season prep"
+      - "Strong RPM handles thicker toenails without stalling"
+      - "Affordable entry point relative to dedicated pedicure tools"
+      - "Cordless build makes it easy to use anywhere in the house"
+    cons:
+      - "Bit set is basic — frequent users may want to buy additional bits"
+      - "Not as quiet as higher-end drills, some buyers note motor hum"
+
+  - name: "6 Colors TPO-Free Thick Gel Nail Polish Set, 15ml — Yellow and Orange"
+    brand: "MelodySusie"
+    price: "$39.99"
+    compareAtPrice: "$59.94"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_349519b1-9ac5-4da4-83d0-af866a66726a.jpg?v=1737454237&width=1600"
+    link: "https://www.melodysusie.com/products/6-colors-thick-gel-nail-polish-set-15ml-yellow-and-orange?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Bold Color"
+    rating: 4.8
+    reviewCount: 31
+    details:
+      - "High-pigment thick gel formula, 6 bright yellow and orange shades"
+      - "One-coat opacity on most shades"
+      - "TPO-free formula"
+    pros:
+      - "Bold neon-adjacent shades match the 2026 'bright summer' color trend"
+      - "Thick, high-pigment formula means fewer coats than sheer gels"
+      - "TPO-free formula"
+      - "Strong color payoff in poolside and vacation photos"
+    cons:
+      - "Bold shades show wear and tip growth faster than darker colors"
+      - "Limited to warm citrus tones, no blues or greens in this set"
+
+  - name: "1440Pcs Mermaid Nail Rhinestones"
+    brand: "MelodySusie"
+    price: "$12.99"
+    compareAtPrice: "$16.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/4_3455c54b-1c9e-4d36-ba53-682257f81390.jpg?v=1770015658&width=1080"
+    link: "https://www.melodysusie.com/products/1440pcs-mermaid-nail-rhinestones?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Add-On"
+    rating: 4.9
+    reviewCount: 26
+    details:
+      - "1,440-piece mixed-size rhinestone set in ocean/mermaid tones"
+      - "Multiple shapes and sizes in one storage case"
+      - "Works with standard nail glue or gel"
+    pros:
+      - "Coastal color palette fits the summer/beach nail trend exactly"
+      - "Huge piece count means the set lasts an entire season"
+      - "Mixed sizing covers both subtle accent looks and full bling looks"
+      - "Inexpensive way to upgrade a plain summer manicure"
+    cons:
+      - "Smallest rhinestones are fiddly to place without tweezers"
+      - "Not pre-sorted by color, takes time to pick shades"
+comparisonTable:
+  features:
+    - "Best for"
+    - "Price"
+    - "Cordless"
+    - "Cure/Use time"
+    - "TPO-Free"
+    - "Rating"
+  columns:
+    - name: "Jeweliver Jelly Gel Set"
+      values: ["Sheer jelly trend", "$39.99", false, "30-60 sec cure", true, "4.9"]
+    - name: "P-PLUS30GT Cordless Lamp"
+      values: ["Travel/vacation curing", "$69.99", true, "Full-hand cure", "N/A", "5.0"]
+    - name: "PC760G Pedicure Drill"
+      values: ["Sandal-season feet", "$29.99", true, "4,600 RPM", "N/A", "5.0"]
+    - name: "Yellow/Orange Thick Gel Set"
+      values: ["Bold one-coat color", "$39.99", false, "30-60 sec cure", true, "4.8"]
+faqs:
+  - question: "What MelodySusie products are best for summer nails?"
+    answer: "For summer, the strongest MelodySusie picks are the Jeweliver Jelly Gel Set for the sheer glass-nail trend, the P-PLUS30GT cordless lamp for curing anywhere without an outlet, and the PC760G pedicure drill for sandal-ready feet. Together they cover color, curing, and foot prep for the season."
+  - question: "Is jelly gel polish good for summer?"
+    answer: "Yes, jelly gel polish is one of the defining summer 2026 nail trends. The sheer, glass-like finish looks lighter and more natural in hot weather than opaque gel, and MelodySusie's Jeweliver Jelly set is TPO-free, which matters if your nails are exposed to more sun and water during summer."
+  - question: "Do I need a cordless nail lamp for vacation?"
+    answer: "A cordless lamp like the MelodySusie P-PLUS30GT is the easiest way to maintain gel manicures while traveling, since hotel rooms and Airbnbs do not always have a free outlet near a mirror or table. It also works poolside or on a patio without an extension cord."
+  - question: "What nail drill RPM do I need for pedicures?"
+    answer: "For pedicures, look for at least 4,000 RPM since toenails are thicker than fingernails. The MelodySusie PC760G runs at 4,600 RPM, which is enough to file and buff toenails without the motor stalling."
+  - question: "Are MelodySusie gel polishes TPO-free?"
+    answer: "Many of MelodySusie's newer gel polish sets, including the Jeweliver Jelly set and the Yellow and Orange thick gel set featured here, are TPO-free. Check the individual product listing, since older MelodySusie formulas may not all carry this designation."
+  - question: "Does MelodySusie ship to the USA?"
+    answer: "Yes, MelodySusie ships to the USA with standard delivery timelines shown at checkout. The brand also runs sitewide promo codes periodically, including OFF8 for 8% off and MSOFF15 for 15% off orders over $129.99 at the time of writing."
+  - question: "What summer nail color is trending in 2026?"
+    answer: "2026's summer nail trends center on butter yellow, coral peach, sea-glass blue, and sheer jelly finishes. MelodySusie's Yellow and Orange thick gel set and the Jeweliver Jelly set both align directly with these trending tones."
+```
+
+---
+
+## 3. SEO AND KEYWORD PLAN
+
+**Post gen instruction:** Follow this keyword plan exactly. Calculate density before writing — do not estimate.
+
+- **Primary keyword (locked):** MelodySusie summer nail products
+- **Keyword density target:** Competitor average density for this term is approx. 0.9-1.1%. Target word count ~2,300 words → **target 22 total mentions** of "MelodySusie summer nail products" or extremely close variants, with 3 extra mentions concentrated in the first half (intro + first 2 H2s) versus typical competitor distribution.
+- **First 150 words rule:** Primary keyword must appear exactly 2 times in the intro, both wrapped in `<strong>` tags.
+- **ALL primary keyword mentions** throughout the entire post wrapped in `<strong>` tags.
+
+**Keyword variations (5-8, use naturally, no density target, no strong tags):**
+1. best MelodySusie products for summer
+2. MelodySusie summer nail picks
+3. summer nail products MelodySusie
+4. MelodySusie warm weather nail products
+5. top MelodySusie summer picks
+6. MelodySusie products for summer nails
+
+**Transactional cluster keywords (10-12, buyer-intent, use throughout, no density target):**
+1. best summer gel polish colors
+2. cordless nail lamp for travel
+3. best nail drill for pedicures
+4. jelly gel nail polish set
+5. TPO-free gel polish
+6. summer nail kit
+7. rechargeable UV LED nail lamp
+8. mermaid nail rhinestones
+9. neon gel polish set
+10. at-home pedicure tools
+11. vacation nail kit
+12. bright summer gel polish
+
+**High CPC transactional keywords (research-based, weave into CTAs/H2s/mid-post copy):**
+1. cordless UV nail lamp (~$2.10-2.60 CPC, beauty tools category)
+2. gel nail polish kit (~$1.40-1.90 CPC)
+3. best nail drill (~$1.10-1.60 CPC)
+4. jelly nail polish (~$0.90-1.30 CPC)
+5. portable nail lamp (~$1.80-2.20 CPC)
+
+**LSI semantic terms (12-15, weave in naturally):**
+sheer jelly nails, glass nail trend, warm-season shades, sandal-ready feet, vacation manicure, poolside nail care, one-step gel polish, low-heat curing, full-hand UV chamber, rechargeable battery nail tool, summer color palette, coral and butter yellow shades, salon-quality at home, clean beauty nail formula, fast-cure gel
+
+**AEO terms (10-12, full conversational questions, each mapped to H2 or FAQ):**
+1. "What MelodySusie products are best for summer nails?" → FAQ
+2. "Is jelly gel polish good for summer?" → FAQ
+3. "Do I need a cordless nail lamp for vacation?" → FAQ
+4. "What nail drill RPM do I need for pedicures?" → FAQ
+5. "Are MelodySusie gel polishes TPO-free?" → FAQ
+6. "Does MelodySusie ship to the USA?" → FAQ
+7. "What summer nail color is trending in 2026?" → FAQ
+8. "What's the best gel polish color for the beach?" → H2: "Best Summer Gel Polish Colors From MelodySusie"
+9. "How do I keep my gel manicure looking fresh on vacation?" → H2: "Best Cordless Nail Lamp for Travel and Vacation"
+10. "What's the easiest way to prep feet for sandal season?" → H2: "Best Pedicure Tools for Sandal Season"
+11. "How long does jelly gel polish last?" → H2: "Best Summer Gel Polish Colors From MelodySusie"
+12. "Can I do a full pedicure at home with a nail drill?" → H2: "Best Pedicure Tools for Sandal Season"
+
+**GEO terms (8-10, woven near CTAs, shipping, availability copy):**
+1. best summer nail products to buy in the USA
+2. MelodySusie shipping to USA
+3. buy MelodySusie nail products online USA
+4. MelodySusie free shipping USA
+5. where to buy MelodySusie summer nail products
+
+**Technical product terms (5-8):**
+4,600 RPM nail drill, TPO-free formula, LED/UV cure time, rechargeable battery mAh, LCD timer display, 15ml gel polish bottle, low-heat mode
+
+**Buyer phrase bank (8-10, exact phrases from research, weave naturally):**
+1. "perfect travel companion" (cordless lamp positioning)
+2. "anywhere without tangled cords" (cordless appeal)
+3. "on-the-go" / "on vacation"
+4. "low-heat setting" (UV safety concern)
+5. "sandal season" (pedicure urgency)
+6. "glass nail" / "glass-like finish" (jelly trend language)
+7. "vacation-ready manicure"
+8. "salon-quality at home"
+9. "fewer coats, more color" (high-pigment positioning)
+10. "screams sun and good weather" (summer color enthusiasm, paraphrased from Quora buyer language)
+
+---
+
+## 4. COMPETITOR AND TITLE INTELLIGENCE
+
+**Post gen instruction:** Use this section to write a title and excerpt that outperforms competitors on CTR. The analysis is done — execute it.
+
+**Top competitor titles analyzed for "best summer nail products / best gel polish 2026":**
+1. "12 Best Gel Polishes of 2026: Tested & Reviewed by a Nail Tech" (slbeautyco.com) — works because of specific number + authority ("Tested," "Nail Tech") + year
+2. "13 Best At-Home Gel Nail Kits (2026): Sponsorship-Free Reviews" — works because of "sponsorship-free" trust signal + specificity ("At-Home")
+3. "The Biggest Summer 2026 Nail Trends..." (Marie Claire) — works because of trend-forward framing and big media authority
+
+**What beats them:** Our title leads with the brand name (MelodySusie) directly in the keyword, which competitors don't do (they're brand-agnostic roundups). This captures brand+category searchers competitors miss entirely. Title used: "Best MelodySusie Summer Nail Products: Top Picks for 2026" — specific, year-stamped, benefit-clear.
+
+**Competitor gaps — buying questions they do NOT answer (now mandatory H2 sections in our post):**
+- None of the reviewed competitors address cordless/travel curing as a distinct summer use case — this is a gap we own with the P-PLUS30GT section
+- None address pedicure-specific tool needs for sandal season — gap we own with PC760G section
+- Competitors don't address TPO-free formulation in a summer-specific context (sun/water exposure angle) — gap we own in FAQ
+
+**Missing product angles competitors miss:**
+- Travel/portability as a core summer buying driver (most competitors treat nail lamps as a single generic category, not vacation-specific)
+- Foot care/pedicure tools bundled into a "summer nail products" roundup (most "summer nail" content is polish-color-only)
+
+**Word count target:** 2,300 words (derived from competitor average of ~2,200-2,400 words for ranked roundup format with comparison table + FAQ)
+
+---
+
+## 5. BUYER INTELLIGENCE
+
+**Post gen instruction:** Every paragraph of copy must be written for this specific buyer. Use the exact phrases listed in Section 3's buyer phrase bank naturally in the copy.
+
+- **Who this buyer is:** Primarily home gel manicure users, beginner-to-intermediate skill level, planning summer travel or just entering sandal season. Skews toward buyers who already do their own gel nails and are refreshing their kit for the season rather than total beginners.
+- **What they need from this post:** A clear, curated shortlist of which MelodySusie products are actually worth buying for summer specifically — not a generic "best nail products" list, but one filtered for travel, heat, sun exposure, and sandal season needs.
+- **What frustrates them:** Generic gel polish roundups that ignore portability and foot care; reviews that don't mention TPO-free/clean formula status; outdated cordless lamp recommendations that turn out to need an outlet anyway; no honest cons.
+- **Top 5 buying objections (each must be addressed in post body):**
+  1. "Is a cordless lamp actually powerful enough, or just a gimmick?" → addressed in P-PLUS30GT section with full-hand chamber + battery life specs
+  2. "Will jelly gel actually show up on my nails or is it too sheer?" → addressed honestly in cons (2-3 coats needed)
+  3. "Is this drill strong enough for tough toenails, not just fingernails?" → addressed with 4,600 RPM spec
+  4. "Are these formulas actually TPO-free or is that just marketing?" → addressed in FAQ with direct, specific answer
+  5. "Is this worth it compared to just buying drugstore polish?" → addressed via fewer-coats/clean-formula value framing
+- **Recurring praise from real reviews/research used as selling points:** "perfect travel companion," "anywhere without tangled cords," cordless mobility, low-heat mode addressing UV safety concerns, high pigmentation reducing coat count
+- **Recurring complaints to address honestly:** sheer jelly formulas need multiple coats; cordless tools cost more than corded; basic bit sets need supplementing for heavy pedicure use
+
+---
+
+## 6. DISCOUNT AND CONVERSION DATA
+
+**Post gen instruction:** Include active discount information naturally in the post — real conversion boosters. Place near product CTAs.
+
+- Active sitewide code: **OFF8** — 8% off sitewide
+- Active code: **MSOFF15** — 15% off orders over $129.99 (relevant since this 5-product roundup totals well over $129.99 if buyer purchases multiple items)
+- Per-product sale pricing already reflected in product data (Section 2) — all 5 products currently discounted from compare-at price
+- **Placement:** Mention MSOFF15 near the ShopFinalCTA (bundle-buy framing: "grab two or more of these picks and the order easily clears $129.99 for 15% off with code MSOFF15") and mention OFF8 near the ShopInlineCTA for single-item buyers
+
+---
+
+## 7. CONTENT STRUCTURE
+
+**Post gen instruction:** Use these H2 headings in this exact order. Do not rename, reorder, or remove. Add H3s at your discretion.
+
+**Intro (150-200 words):** Hook on summer = travel + sandals + sun, both keyword mentions in `<strong>` here. Frame the post as a curated, season-specific shortlist, not a generic gel polish list.
+
+**H2 1: "Best Summer Gel Polish Colors From MelodySusie"** (~450 words)
+- Covers: Jeweliver Jelly Gel Set (winner) + Yellow/Orange Thick Gel Set
+- AEO answered: "What's the best gel polish color for the beach?" / "How long does jelly gel polish last?"
+- Injection: `{{PRODUCTS:2:0,3}}` (jelly set + bold color set side by side)
+- No internal link here (comes after first CTA)
+
+**[ShopInlineCTA fires automatically here, ~30% mark]**
+<!-- LINK: post 42 (Best Summer Gel Polish Colors from MelodySusie) goes here once published, anchor text: "see our full summer gel polish color guide" -->
+
+**H2 2: "Best Cordless Nail Lamp for Travel and Vacation"** (~400 words)
+- Covers: P-PLUS30GT
+- AEO answered: "Do I need a cordless nail lamp for vacation?" / "How do I keep my gel manicure looking fresh on vacation?"
+- Injection: `{{PRODUCTS:1:1}}` (featured layout)
+- GEO terms woven here: USA shipping mention near CTA
+
+**[ComparisonTable fires automatically here, ~60% mark]**
+
+**H2 3: "Best Pedicure Tools for Sandal Season"** (~400 words)
+- Covers: PC760G
+- AEO answered: "What nail drill RPM do I need for pedicures?" / "Can I do a full pedicure at home with a nail drill?"
+- Injection: `{{PRODUCTS:1:2}}` (featured layout)
+<!-- LINK: post 43 (Best Pedicure Kit for Summer) goes here once published, anchor text: "our full summer pedicure kit guide" -->
+
+**H2 4: "Finishing Touches: Summer Nail Art Add-Ons"** (~300 words)
+- Covers: Mermaid Rhinestones
+- Injection: `{{PRODUCTS:1:4}}` (featured layout)
+<!-- LINK: post 44 (Summer Nail Art Tools) goes here once published, anchor text: "more summer nail art tools" -->
+
+**H2 5: "How to Choose the Right MelodySusie Summer Nail Products for You"** (~250 words)
+- Covers: buyer decision framework (beginner vs. frequent traveler vs. pedicure-focused), addresses remaining objections
+- GEO terms woven here near final CTA
+
+**[ShopFinalCTA fires automatically, winner first]**
+
+**Conclusion (100-150 words):** Final purchase push, not a summary. Mention MSOFF15 discount code for bundle buyers.
+
+**FAQ section (5-8 entries, pre-written in Section 2 frontmatter):** fires via ShopFAQ component automatically
+
+---
+
+## 8. COMPONENT DIRECTIVES
+
+Confirm trigger fields in Section 2 frontmatter are correctly set. Never write component content in body — it auto-renders.
+
+| Component | Status |
+|---|---|
+| WinnerBadge | ACTIVE — winnerIndex: 0 set |
+| ShopInlineCTA | ACTIVE — winnerIndex: 0 set |
+| ComparisonTable | ACTIVE — showComparison: true, comparisonTable data present |
+| ProsConsBlock | INACTIVE — showProscons: false (best-of post type) |
+| ShopFinalCTA | ALWAYS ACTIVE |
+| ShopFAQ | ACTIVE — 7 FAQ entries present |
+| ShopTableOfContents | ALWAYS ACTIVE |
+| Sidebar winner card | ACTIVE — winnerIndex: 0 set |
+
+---
+
+## 9. WRITING INSTRUCTIONS
+
+- This is conversion copy — every sentence moves the buyer toward a purchase decision
+- Lead with buyer benefit, not product specs — specs support the benefit, never lead with them
+- Use buyer phrases from Section 5/3 naturally — speak their language
+- Address buying objections directly — do not hedge or avoid them
+- No honest-cons block needed in body (showProscons: false for best-of) but cons ARE used in product card `cons` fields — keep those honest
+- Discount information placed near CTAs — mention naturally, not as a standalone paragraph
+- Primary keyword in `<strong>` tags every mention — no exceptions — target 22 total mentions
+- No editorial literary hooks — open sections with the buyer benefit or buying question directly
+- H2 sections are short and direct — buyers scan, they do not read long intros
+- Conclusion = final push to purchase — not a summary, a decision driver
+- Internal links from cluster map placed mid-post after first product CTA only — anchor text natural, never forced (spoke posts not yet published, leave HTML comments as placeholders per Section 7)
+- No related articles section — handled by site component
+- Language: American English — not British English
+- No banned AI patterns: no "elevate," "seamlessly," "game-changing," "dive into," "transformative"
+- No long em dashes — use comma or restructure
+- Sentence rhythm varies — short punchy sentences for key selling points, longer for context
+- No "we tested" language — these are editorial picks based on specs/research, not lab tests
+
+---
+
+## QUALITY CHECKLIST (confirmed before output)
+
+- [x] Post number read from cluster map — post 35 (SC-01 pillar) correctly identified
+- [x] 5 relevant MelodySusie products found independently through research
+- [x] Winner product selected by agent — Jeweliver Jelly Gel Set, winnerIndex: 0
+- [x] All product pages fetched — specs, pricing, reviews extracted
+- [x] Image URLs extracted from product pages — mapped to correct product index
+- [x] No image or hero confirmation asked from user
+- [x] Pricing extracted — all 5 products had compare-at price, none omitted/fabricated
+- [x] Affiliate links received from user — mapped to correct products (link mix-up caught and corrected)
+- [x] SERP analysis complete — word count target 2,300 words set
+- [x] Competitor titles analyzed — better title direction written
+- [x] Amazon/review language mined — buyer phrase bank populated
+- [x] Quora site: searches run — buyer questions extracted
+- [x] High CPC transactional keywords identified and listed
+- [x] AEO terms mapped — all 12 assigned to H2 or FAQ
+- [x] GEO terms mapped — placed near CTAs and availability copy
+- [x] H2 structure built from real buyer queries
+- [x] comparisonTable.columns[].values[] length (6) matches features[] length (6) exactly
+- [x] Internal links placed mid-post only, as placeholders since spokes unpublished
+- [x] Discount codes found and recorded (OFF8, MSOFF15)
+- [x] All frontmatter fields pre-filled
+- [x] Output under 2500 words
+- [x] Authority statement at top of file
