@@ -1,0 +1,435 @@
+# SHOP INPUT FILE — POST 49
+## THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT.
+All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy.
+
+---
+
+## SECTION 1 — CLUSTER SUMMARY
+
+- **Cluster:** SC-03 Winter & Holiday
+- **This post:** Best Nail Gifts Under $50: MelodySusie Holiday Guide
+- **Slug:** `melodysusie-nail-gifts-under-50`
+- **Route:** `/shop/winter/melodysusie-nail-gifts-under-50`
+- **Post type:** best-of
+- **Primary keyword:** nail gifts under 50 MelodySusie
+- **Role:** Spoke — supports SC-03 pillar (`best-melodysusie-holiday-nail-products`)
+- **Internal links this post must include:**
+  - Link to SC-03 pillar (`/shop/winter/best-melodysusie-holiday-nail-products`) — anchor: "MelodySusie holiday nail products" — place mid-post, after first product CTA
+  - Link to EC-03-S1 (`/shop/gel-polish/melodysusie-hema-free-gel-polish`) — anchor: "HEMA-free gel polish" — place in HEMA-free section body
+- **Posts that link to this post:** SC-03 pillar, SC-03-S1 (Christmas gift sets)
+- **Affiliate mode:** MelodySusie affiliate — `?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol`
+- **Region:** USA only
+
+---
+
+## SECTION 2 — FRONTMATTER BLOCK
+
+**Post gen instruction:** Copy this frontmatter block exactly into the post. Do not change any field.
+
+```yaml
+---
+title: "Best MelodySusie Nail Gifts Under $50: Holiday & Christmas Guide"
+excerpt: "The best nail gifts under $50 from MelodySusie — plant-based gel polish sets, clipper kits, and more. Real value for nail lovers this holiday season."
+date: "2026-06-19"
+author: "Mirellé"
+category: "winter"
+image: "https://www.melodysusie.com/cdn/shop/files/1_20364f49-551d-451c-a7a7-56752ee672fa.jpg"
+imageAlt: "Best nail gifts under $50 MelodySusie — Fleurwee plant-based gel polish gift box in holiday packaging"
+imageWidth: 1200
+imageHeight: 630
+readTime: "7 min read"
+canonical: ""
+postType: "best-of"
+winnerIndex: 0
+showComparison: true
+showProscons: false
+comparisonCaption: "How the top MelodySusie nail gifts under $50 compare"
+
+products:
+  - name: "Fleurwee HEMA-Free Plant-Based Gel Polish Gift Box 15ml"
+    brand: "MelodySusie"
+    price: "$49.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_20364f49-551d-451c-a7a7-56752ee672fa.jpg"
+    link: "https://www.melodysusie.com/products/15ml-fleurwee-plant-based-gel-nail-polish-gift-box?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    rating: 4.8
+    reviewCount: 120
+    details:
+      - "HEMA-Free, HPMA-Free & TPO-Free — safe for sensitive skin"
+      - "Lasts 21–28 days with proper application"
+      - "Beautiful gift-ready box — no extra wrapping needed"
+    pros:
+      - "Non-toxic plant-based formula — zero harsh chemicals"
+      - "Packaged in a stunning gift box straight out of the bag"
+      - "High-gloss finish that rivals salon results"
+      - "Works with any LED nail lamp"
+      - "Great range of curated shades in one box"
+    cons:
+      - "Requires a nail lamp to cure — not included"
+      - "At $49.99 it's the top of the under-$50 range"
+
+  - name: "Acrylic Nail Clipper 4-in-1 Kit"
+    brand: "MelodySusie"
+    price: "$16.99"
+    image: "https://www.melodysusie.com/cdn/shop/products/71H0fLtGNeS._SL1500.jpg"
+    link: "https://www.melodysusie.com/products/acrylic-nail-clipper-4-in-1-kit?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Value"
+    rating: 4.6
+    reviewCount: 85
+    details:
+      - "4 tools in 1: nail clipper, cuticle nipper, cuticle pusher, gel scraper"
+      - "U-shaped blade — straight, round, or well-cut shapes"
+      - "Stainless steel construction — professional grade"
+    pros:
+      - "Covers every nail care need in a single kit"
+      - "Razor-sharp cuticle nipper — no tearing or tugging"
+      - "Solid stainless steel holds an edge for long-term use"
+      - "Under $17 — strong value for a complete set"
+    cons:
+      - "No storage pouch included"
+      - "Best for acrylic and gel nails — natural nail users may not need all 4 tools"
+
+  - name: "Stainless Steel Nail Clippers 3-in-1 Kit — Pink"
+    brand: "MelodySusie"
+    price: "$9.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_0e21c57a-fa3c-4d8f-8898-c2cf0b1aa1c9.jpg"
+    link: "https://www.melodysusie.com/products/stainless-steel-nail-clippers-3-in-1-kit-pink?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Stocking Stuffer"
+    rating: 4.5
+    reviewCount: 60
+    details:
+      - "3 pieces: small fingernail clipper, large toenail clipper, glass nail file"
+      - "Fully electroplated blade — rust-resistant, long-lasting"
+      - "Pink colorway — gift-ready out of the box"
+    pros:
+      - "Under $10 — perfect budget stocking stuffer"
+      - "Covers fingernails and toenails in one set"
+      - "Glass nail file gives a smooth, snag-free finish"
+      - "Pink colorway makes it feel like a real gift"
+    cons:
+      - "Basic tool set — not for acrylic or gel nail work"
+      - "No case or packaging beyond product wrapping"
+
+comparisonTable:
+  features:
+    - "Price"
+    - "Formula / Material"
+    - "Gift-Ready Packaging"
+    - "Nail Lamp Required"
+    - "Best For"
+    - "Skill Level"
+  columns:
+    - name: "Fleurwee Gel Polish Gift Box"
+      badge: "Best Overall"
+      values:
+        - "$49.99"
+        - "Plant-based, HEMA/HPMA/TPO-Free"
+        - true
+        - true
+        - "Gel nail enthusiasts"
+        - "Beginner to intermediate"
+    - name: "Acrylic Nail Clipper 4-in-1"
+      badge: "Best Value"
+      values:
+        - "$16.99"
+        - "Stainless steel"
+        - false
+        - false
+        - "Acrylic & gel nail wearers"
+        - "All levels"
+    - name: "Nail Clippers 3-in-1 — Pink"
+      badge: "Best Stocking Stuffer"
+      values:
+        - "$9.99"
+        - "Carbon & stainless steel"
+        - false
+        - false
+        - "Everyday nail maintenance"
+        - "All levels"
+
+faqs:
+  - question: "What are the best nail gifts under $50 from MelodySusie?"
+    answer: "The Fleurwee HEMA-Free Plant-Based Gel Polish Gift Box at $49.99 is the best overall nail gift under $50 from MelodySusie. It comes in gift-ready packaging, lasts 21–28 days, and is completely free of HEMA, HPMA, and TPO — making it safe for sensitive skin. For a smaller budget, the Acrylic Nail Clipper 4-in-1 Kit at $16.99 and the Stainless Steel Nail Clippers 3-in-1 in Pink at $9.99 are excellent stocking-stuffer picks."
+
+  - question: "Does MelodySusie ship to the USA?"
+    answer: "Yes, MelodySusie ships to the USA. Free US shipping is available on orders over $129.99. Orders under that threshold ship at a standard rate. Use code OFF8 for 8% off sitewide, or MSOFF15 for 15% off orders over $129.99."
+
+  - question: "Is MelodySusie gel polish safe for sensitive skin?"
+    answer: "The Fleurwee line from MelodySusie is specifically formulated for sensitive skin. It is HEMA-Free, HPMA-Free, and TPO-Free — the three chemical irritants most commonly linked to gel polish allergic reactions. For anyone who has experienced nail product sensitivity before, the Fleurwee Gift Box is the safest pick in the MelodySusie lineup."
+
+  - question: "Can I gift MelodySusie gel polish without a nail lamp?"
+    answer: "The gel polish gift box requires a UV/LED nail lamp to cure — it is not included. If the recipient doesn't already own a lamp, pair the gift box with a MelodySusie nail lamp or choose the tool sets (4-in-1 Clipper Kit or 3-in-1 Nail Clippers) which need no lamp and work as standalone gifts."
+
+  - question: "What MelodySusie discount codes are active right now?"
+    answer: "MelodySusie currently offers code OFF8 for 8% off sitewide, and MSOFF15 for 15% off orders of $129.99 or more. Free US shipping kicks in at $129.99. These codes are subject to change — check melodysusie.com/pages/deals for the latest offers before checkout."
+
+  - question: "How long does MelodySusie gel polish last?"
+    answer: "With proper application — base coat, two color coats, and no-wipe top coat, fully cured under LED — MelodySusie gel polish lasts 21–28 days without chipping. The Fleurwee plant-based formula is rated for 21–28 days and holds up through everyday activities."
+
+  - question: "Is a $50 nail gift enough for a nail lover?"
+    answer: "Yes — especially with MelodySusie's gift box format. The Fleurwee Gel Polish Gift Box at $49.99 delivers a complete curated color set in beautiful packaging that rivals gifts twice the price. For nail lovers who already have tools, a gel polish gift box is one of the most-loved gifts you can give, since quality gel colors are always needed."
+---
+```
+
+---
+
+## SECTION 3 — SEO & KEYWORD PLAN
+
+**Post gen instruction:** Follow this keyword plan exactly. Calculate density before writing. Do not estimate.
+
+- **Primary keyword:** `nail gifts under 50 MelodySusie`
+- **Keyword density target:** 1.5% — match top-ranking gift guide density. Add 3 extra mentions in first half. Total target: ~21 mentions for a 1,400-word post.
+- **First 150 words:** Primary keyword must appear exactly 2 times — both wrapped in `<strong>` tags.
+- **ALL primary keyword mentions throughout the entire post:** wrapped in `<strong>` tags — no exceptions.
+
+**High CPC transactional keywords** (weave into CTAs, H2s, and mid-post copy):
+- nail gift set for her ($1.80–$2.40 CPC)
+- gel nail polish gift set under $50 ($1.60–$2.20 CPC)
+- MelodySusie discount code ($1.20–$1.80 CPC)
+- best nail stocking stuffers ($1.10–$1.60 CPC)
+- HEMA-free gel polish gift ($1.50–$2.00 CPC)
+- nail kit for beginners gift ($1.20–$1.70 CPC)
+- gel nail polish kit holiday ($1.40–$2.00 CPC)
+
+**Keyword variations** (use naturally, no density target, no strong tags):
+- nail gifts under fifty dollars
+- affordable nail gifts holiday
+- MelodySusie gifts under $50
+- cheap nail gifts that look expensive
+- nail gifts for mom / nail gifts for her / nail gifts for friend
+- gel polish gift box
+- plant-based gel nail gift
+
+**Transactional cluster keywords** (use throughout, no density target):
+- nail gift ideas for women
+- holiday nail kit gift
+- MelodySusie gift set
+- gel nail polish starter gift
+- nail tools gift set
+- stocking stuffer nail lover
+- Christmas nail gifts
+- nail accessories gift
+
+**LSI semantic terms** (weave naturally):
+- at-home gel manicure
+- salon-quality nails at home
+- non-toxic nail products
+- UV LED nail lamp
+- soak-off gel polish
+- cuticle care tools
+- nail care essentials
+- gift-ready packaging
+- plant-based beauty gift
+- sensitive skin nail polish
+
+**AEO terms — mapped:**
+| AEO Question | Mapped To |
+|---|---|
+| What nail gifts can I buy for under $50? | H2: "The Best MelodySusie Nail Gifts Under $50" |
+| What is the best gel nail polish gift set for beginners? | H2: "Best Gel Polish Gift Box Under $50: Fleurwee" |
+| Is MelodySusie gel polish safe for sensitive skin? | FAQ |
+| Does MelodySusie ship to the USA? | FAQ |
+| What nail stocking stuffers are worth buying? | H2: "Best Nail Stocking Stuffers Under $20" |
+| Can you gift gel polish without a nail lamp? | FAQ |
+| What MelodySusie discount codes are active? | FAQ |
+| How long does MelodySusie gel polish last? | FAQ |
+
+**GEO terms** (place near CTAs, shipping mentions, availability copy):
+- MelodySusie ships to USA
+- free US shipping MelodySusie
+- buy MelodySusie online USA
+- nail gifts delivered to USA
+- best nail gift to buy online in the USA
+- fast delivery MelodySusie USA
+
+---
+
+## SECTION 4 — COMPETITOR & TITLE INTELLIGENCE
+
+**Post gen instruction:** Use this to write a title and excerpt that outperforms competitors on CTR. Analysis done — execute it.
+
+**Top competitor titles for "nail gifts under $50":**
+1. "Best Nail Polish Gift Sets Under $50" — generic, no brand, no specificity
+2. "Holiday Nail Gift Ideas for Her Under $50" — soft, no product specifics
+3. "39 Best Gifts Under $50" (BuzzFeed) — too broad, nails buried
+
+**What they lack:** None name MelodySusie specifically. None target the plant-based/non-toxic angle. None call out stocking stuffers explicitly. None show price tiers.
+
+**Title direction:** Lead with primary keyword + price cap + holiday signal + brand specificity. Our title wins by being the only MelodySusie-specific nail gift guide under $50 with a clear budget cap and holiday framing.
+
+**Competitor gaps — mandatory H2 sections:**
+- None of the top pages explain what to gift someone who already owns a lamp vs doesn't
+- None call out HEMA-free as a gifting angle for sensitive-skin recipients
+- None break down by budget tier (stocking stuffer vs main gift)
+- None mention active discount codes near CTAs
+
+**Word count target:** 1,400 words — matches top-ranking gift guide average with slight increase.
+
+---
+
+## SECTION 5 — BUYER INTELLIGENCE
+
+**Post gen instruction:** Every paragraph of copy must be written for this specific buyer. Use the exact phrases listed here naturally in the copy.
+
+**Who this buyer is:**
+- Shopping for someone else — a mom, friend, sister, or Secret Santa recipient who loves nails
+- Budget-conscious but doesn't want the gift to look cheap
+- Often searching in November–December, sometimes January for post-Christmas birthdays
+- May not know much about gel polish — needs reassurance the gift will work and be usable
+
+**What they need from this post:**
+- Quick confidence that this gift will be received well
+- Clarity on what's included so they're not guessing
+- Reassurance that the gel polish is safe (non-toxic, not harsh chemicals)
+- A clear price breakdown so they can match their Secret Santa or budget limit
+
+**Top 5 buying objections — each must be addressed in post body:**
+1. "Will they be able to use this if they don't have a nail lamp?" → Address in intro + FAQ
+2. "Is MelodySusie actually good quality or is it cheap?" → Address in brand trust section
+3. "Will this look like a real gift or a cheap Amazon thing?" → Address in packaging copy
+4. "Are these chemicals safe?" → Address in HEMA-free section
+5. "Will it arrive in time / ship to USA?" → Address near CTAs with GEO terms + discount codes
+
+**Buyer phrase bank** (use naturally in body copy):
+- "looks way more expensive than it is"
+- "no extra wrapping needed"
+- "safe for sensitive skin"
+- "lasts way longer than regular polish"
+- "perfect for someone who does their nails at home"
+- "feels like a real salon gift"
+- "doesn't need a ton of tools to use"
+- "she's going to love this"
+- "actually stays on for weeks"
+- "the packaging is beautiful"
+- "doesn't smell harsh"
+- "great for beginners"
+- "comes with everything"
+- "way better than a candle"
+
+---
+
+## SECTION 6 — DISCOUNT & CONVERSION DATA
+
+**Post gen instruction:** Include discount information naturally near product CTAs — real conversion boosters.
+
+- **Active discount codes:**
+  - `OFF8` — 8% off sitewide
+  - `MSOFF15` — 15% off orders $129.99+
+- **Free US shipping:** on orders over $129.99
+- **Placement:** Mention `OFF8` once near the ShopInlineCTA area (after first product CTA) and once near the ShopFinalCTA area. Do not make it a standalone paragraph — weave it into surrounding copy naturally.
+- **No compareAtPrice found** on any of the 3 products — omit compareAtPrice field. Do not fabricate.
+
+---
+
+## SECTION 7 — CONTENT STRUCTURE
+
+**Post gen instruction:** Use these H2 headings in this exact order. Do not rename, reorder, or remove. Add H3s at your discretion.
+
+### Intro (150 words)
+- Open with the buyer's problem: finding a nail gift that looks great, costs under $50, and actually gets used
+- Primary keyword appears 2× in first 150 words — both in `<strong>` tags
+- Hook: "Most people buying nail gifts end up with something that sits unopened. These MelodySusie picks actually get used."
+- Brief overview of the 3 picks: best gel gift, best tool set, best stocking stuffer
+
+---
+
+### H2: The Best MelodySusie Nail Gifts Under $50 (200 words)
+- AEO: "What nail gifts can I buy for under $50?"
+- Overview of the gift tier breakdown: under $10, under $20, under $50
+- Frame why MelodySusie works as a gift brand — quality, non-toxic formulas, gift-ready packaging
+- **{{PRODUCTS:1:0}}** — featured layout, winner product (Fleurwee Gift Box)
+- Internal cluster link: "MelodySusie holiday nail products" → SC-03 pillar — place here, after first product CTA
+
+---
+
+### H2: Best Gel Polish Gift Box Under $50: Fleurwee (250 words)
+- AEO: "What is the best gel nail polish gift set for beginners?"
+- Deep dive on the Fleurwee Gift Box — plant-based formula, HEMA-free angle, safe for sensitive skin
+- Internal cluster link: "HEMA-free gel polish" → EC-03-S1 — place here
+- Address objection: "Does the recipient need a nail lamp?" — yes, note this honestly, suggest pairing or checking if they own one
+- Use buyer phrases: "looks way more expensive than it is," "the packaging is beautiful," "safe for sensitive skin"
+- **{{PRODUCTS:1:0}}** — featured layout again if needed, or omit if already shown above
+
+---
+
+### H2: Best Nail Stocking Stuffers Under $20 from MelodySusie (200 words)
+- AEO: "What nail stocking stuffers are worth buying?"
+- Cover both tool picks: 4-in-1 Clipper Kit ($16.99) and 3-in-1 Nail Clippers Pink ($9.99)
+- Frame for the gift buyer: "If you're doing a Secret Santa under $20 or need a stocking stuffer that doesn't look cheap"
+- Use buyer phrases: "doesn't need a ton of tools to use," "feels like a real salon gift," "way better than a candle"
+- **{{PRODUCTS:2:1,2}}** — side-by-side grid layout
+
+---
+
+### H2: Is MelodySusie Worth Gifting? What to Know Before You Buy (200 words)
+- Brand trust section — addresses "is MelodySusie actually good quality?" objection directly
+- Key proof points: plant-based line, non-toxic formulas, 21–28 day wear, gift box packaging
+- Mention USA shipping and discount code `OFF8` naturally here
+- GEO term placement: "MelodySusie ships to the USA," "fast US delivery" — near end of section
+
+---
+
+### H2: How to Choose the Right MelodySusie Nail Gift for Her (150 words)
+- Decision tree format — quick and scannable
+- If she does her nails at home + has a lamp → Fleurwee Gift Box
+- If she does acrylic or gel nails → 4-in-1 Clipper Kit
+- If it's a stocking stuffer / small gift → 3-in-1 Nail Clippers Pink
+- End with a reminder to use code `OFF8` before checkout
+
+---
+
+### Conclusion (100 words)
+- Final push to purchase — not a summary
+- Frame: "You don't need to spend $100 to give a nail lover something she'll actually use. These three MelodySusie picks do the job — beautifully."
+- Repeat primary keyword once in `<strong>` tags
+- Drive to ShopFinalCTA naturally — "All three are in stock and ship to the USA."
+
+---
+
+**Injection plan summary:**
+- After intro / H2-1: `{{PRODUCTS:1:0}}` — featured layout, Fleurwee Gift Box (index 0)
+- After H2-3: `{{PRODUCTS:2:1,2}}` — side-by-side, Clipper kits (index 1 and 2)
+- ShopInlineCTA fires automatically between section 1 and 2 (winnerIndex set)
+- ComparisonTable fires automatically after middle section (showComparison: true)
+- ShopFinalCTA fires automatically after pros/cons area
+
+---
+
+## SECTION 8 — COMPONENT DIRECTIVES
+
+**Post gen instruction:** These components fire automatically from frontmatter. Never write their content in the body — it auto-renders.
+
+| Component | Status | Trigger |
+|---|---|---|
+| WinnerBadge | ACTIVE | winnerIndex: 0 set |
+| ShopInlineCTA | ACTIVE | winnerIndex: 0 set |
+| ComparisonTable | ACTIVE | showComparison: true + comparisonTable data present |
+| ProsConsBlock | INACTIVE | showProscons: false |
+| ShopFinalCTA | ALWAYS ACTIVE | products[] exists |
+| ShopFAQ | ACTIVE | faqs[] has 7 entries |
+| ShopTableOfContents | ALWAYS ACTIVE | reads H2/H3 from body |
+| Sidebar winner card | ACTIVE | winnerIndex: 0 set |
+
+---
+
+## SECTION 9 — WRITING INSTRUCTIONS
+
+**Post gen instruction:** Follow these rules for every paragraph of body copy.
+
+- Conversion copy — every sentence moves the buyer toward a purchase decision
+- Lead with buyer benefit, not specs — specs support the benefit
+- Use buyer phrases from Section 5 naturally — speak their language
+- Address all 5 buying objections directly — no hedging
+- Honest cons build trust — include them, then counter
+- Mention `OFF8` discount code near CTAs only — not as a standalone paragraph
+- Primary keyword in `<strong>` tags every mention — no exceptions
+- No editorial literary hooks — open sections with buyer benefit or buying question
+- H2 sections are short and direct — buyers scan, not read
+- Conclusion = final push to purchase, not a summary
+- Internal links mid-post only, after first product CTA — anchor text natural
+- No related articles section — handled by site component
+- American English — not British English
+- No banned phrases: no "elevate," "seamlessly," "game-changing," "dive into," "transformative"
+- No long em dashes — use comma or restructure
+- No "we tested" language — write informed editorial observations from specs and research
+- Sentence rhythm varies: short punchy for key selling points, longer for context
