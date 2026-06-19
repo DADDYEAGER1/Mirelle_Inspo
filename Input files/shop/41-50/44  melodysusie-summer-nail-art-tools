@@ -1,0 +1,405 @@
+# shop_input_file.md — Post 44
+
+**AUTHORITY STATEMENT:** THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT. All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions in this file must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy.
+
+---
+
+## 1. Cluster Summary
+
+- **Cluster:** SC-01 Summer Nails (seasonal, peak May–August)
+- **This post:** "Summer Nail Art Tools You Need: MelodySusie Edition"
+- **Slug:** `melodysusie-summer-nail-art-tools`
+- **Post type:** best-of
+- **Primary keyword:** `summer nail art tools`
+- **Role:** Spoke (parent pillar: SC-01 "Best MelodySusie Summer Nail Products", post_id 35)
+- **Internal links this post must include** (mid-post only, after first product CTA):
+  - SC-01 pillar: "Best MelodySusie Summer Nail Products" → `/shop/summer/best-melodysusie-summer-nail-products`
+  - post_id 42 spoke: "Best Summer Gel Polish Colors from MelodySusie" → `/shop/summer/melodysusie-summer-gel-polish-colors`
+  - EC-06 pillar: "Best MelodySusie Nail Art Tools & Accessories" → `/shop/nail-art-tools/best-melodysusie-nail-art-tools`
+- **Posts that link to this post:** SC-01 pillar (post_id 35), EC-06 pillar (post_id 6) as seasonal cross-link
+- **Affiliate mode:** MelodySusie affiliate program, region: USA
+- **Affiliate ID:** `?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol` appended to every product link
+
+---
+
+## 2. Frontmatter Block
+
+Copy this frontmatter block exactly into the post. Do not change any field.
+
+```yaml
+title: "5 Summer Nail Art Tools That Make DIY Manis Pop"
+excerpt: "From chrome powder to 3D rhinestones, these MelodySusie summer nail art tools turn basic polish into salon-level looks at home."
+date: "2026-06-20"
+author: "Mirellé"
+category: "Summer Nails"
+image: "https://www.melodysusie.com/cdn/shop/files/2_53344ab1-5482-4fdb-ac1e-b4a3a130b3df.jpg"
+imageAlt: "Summer nail art tools from MelodySusie including rhinestones, chrome powder, and nail art pens for DIY manicures"
+imageWidth: 1200
+imageHeight: 630
+readTime: "8 min read"
+canonical: ""
+postType: "best-of"
+winnerIndex: 0
+showComparison: true
+showProscons: false
+comparisonCaption: "How the top summer nail art tools compare"
+products:
+  - name: "1440Pcs Multi-Faceted Nail Rhinestones"
+    brand: "MelodySusie"
+    price: "$12.99"
+    compareAtPrice: "$16.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/2_53344ab1-5482-4fdb-ac1e-b4a3a130b3df.jpg"
+    link: "https://www.melodysusie.com/products/1440pcs-multi-faceted-nail-rhinestones?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    rating: 4.7
+    reviewCount: 312
+    details:
+      - "1,440 pieces in multiple sizes and shapes for endless summer designs"
+      - "Multi-faceted cut catches light for a sparkle-heavy poolside look"
+      - "Comes with storage case to keep stones sorted by size"
+    pros:
+      - "Huge quantity means you won't run out mid-design"
+      - "Sizes range from tiny accents to statement stones"
+      - "Stones stay put with gel base and top coat seal"
+      - "Storage case keeps tiny rhinestones from scattering"
+    cons:
+      - "Smallest stones can be fiddly to place without a wax pencil"
+      - "Color sorting takes a few uses to get fast at"
+  - name: "Nail Art Pens Set 12 Colors 0.7mm"
+    brand: "MelodySusie"
+    price: "$12.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_2fc41a12-b411-4f14-9e52-e7cca9056ad0.jpg"
+    link: "https://www.melodysusie.com/products/nail-art-pens-set-12-colors-0-7mm?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Beginners"
+    rating: 4.6
+    reviewCount: 198
+    details:
+      - "0.7mm fine tip for precise fine lines, dots, and florals"
+      - "12 colors cover summer's full palette from coral to cornflower blue"
+      - "No mixing or dilution needed — draws straight from the pen"
+    pros:
+      - "Easy enough for first-time nail artists to get clean lines"
+      - "No brushes to clean or polish to thin"
+      - "Colors layer well over both gel and regular polish"
+      - "Good for freehand fruit, floral, and polka dot summer designs"
+    cons:
+      - "Tips can dry out if cap isn't replaced tightly"
+      - "Thicker lines require multiple passes"
+  - name: "Nail Art Pens Set Chrome Metallic 3 Colors"
+    brand: "MelodySusie"
+    price: "$9.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/chrome-metallic-pens.jpg"
+    link: "https://www.melodysusie.com/products/nail-art-pens-set-chrome-metallic-3-colors?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Metallic Accents"
+    rating: 4.5
+    reviewCount: 87
+    details:
+      - "3 metallic shades (gold, silver, rose gold) for chrome-style line art"
+      - "No top coat required to keep the metallic shine"
+      - "Pairs with chrome powder for layered dimensional looks"
+    pros:
+      - "Faster than chrome powder for fine metallic detail work"
+      - "No mess — no powder dust or brush cleanup"
+      - "Great for French tip outlines and geometric summer lines"
+      - "Shine holds up well under top coat"
+    cons:
+      - "Only 3 colors, so limited beyond gold/silver/rose gold"
+      - "Less mirror-intense than true chrome powder"
+  - name: "Chrome Nail Powder"
+    brand: "MelodySusie"
+    price: "$6.99"
+    compareAtPrice: "$9.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/chrome-nail-powder.jpg"
+    link: "https://www.melodysusie.com/products/chrome-nail-powder?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Mirror Finish"
+    rating: 4.6
+    reviewCount: 145
+    details:
+      - "Fine, non-grainy powder for true mirror chrome finish"
+      - "Includes double-end sponge applicator for even buffing"
+      - "Works over both gel and dip systems with a no-wipe top coat"
+    pros:
+      - "Delivers the glazed, iridescent summer nail look in one step"
+      - "Small jar lasts through dozens of full manicures"
+      - "Applies evenly with included sponge applicator"
+      - "Mirror effect holds for 2+ weeks under proper top coat"
+    cons:
+      - "Requires a no-wipe top coat for best results — not included"
+      - "Mirror effect varies depending on base color used"
+  - name: "Spring/Summer Themed Nail Art Stickers"
+    brand: "MelodySusie"
+    price: "$7.99"
+    compareAtPrice: "$10.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/spring-summer-stickers.jpg"
+    link: "https://www.melodysusie.com/products/spring-summer-themed-nail-art-stickers?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for No-Skill Designs"
+    rating: 4.4
+    reviewCount: 76
+    details:
+      - "Pre-designed florals, fruit, and tropical motifs ready to apply"
+      - "Peel-and-stick application — no drawing skill needed"
+      - "Seals under top coat for salon-level detail in seconds"
+    pros:
+      - "Fastest way to get intricate summer designs with zero drawing skill"
+      - "Consistent, professional-looking results every time"
+      - "Mixes well with rhinestones and chrome accents for layered looks"
+      - "Affordable way to try trend designs before committing"
+    cons:
+      - "Designs are fixed — no customization of the printed motif"
+      - "Sheet has a limited number of uses per pack"
+comparisonTable:
+  features:
+    - "Best For"
+    - "Skill Level"
+    - "Price"
+    - "Mirror/Metallic Finish"
+    - "No-Mess Application"
+  columns:
+    - name: "1440Pcs Rhinestones"
+      values:
+        - "3D texture & statement looks"
+        - "Beginner-friendly"
+        - "$12.99"
+        - false
+        - true
+    - name: "Nail Art Pens 12-Color"
+      values:
+        - "Freehand florals & fine lines"
+        - "Beginner-friendly"
+        - "$12.99"
+        - false
+        - true
+    - name: "Chrome Metallic Pens"
+      values:
+        - "Metallic line accents"
+        - "Beginner-friendly"
+        - "$9.99"
+        - true
+        - true
+    - name: "Chrome Nail Powder"
+      values:
+        - "Full mirror/glazed finish"
+        - "Intermediate"
+        - "$6.99"
+        - true
+        - false
+faqs:
+  - question: "What nail art tools do I need for summer manicures at home?"
+    answer: "For summer nail art at home, you need at minimum a set of fine-tip nail art pens, chrome powder or chrome pens for the metallic glazed look, and rhinestones for texture. MelodySusie's 12-color nail art pen set, chrome nail powder, and 1440Pcs rhinestone set cover the three biggest summer trends: line art, mirror finish, and 3D texture."
+  - question: "How do you apply chrome powder for the summer mirror nail trend?"
+    answer: "Cure a gel base coat, apply and cure your color gel, then apply a no-wipe top coat and cure again. While the top coat is still tacky, rub chrome powder onto the nail with the included sponge applicator until you see the mirror effect, then seal with a final no-wipe top coat."
+  - question: "Are nail art pens better than nail polish for designs?"
+    answer: "Nail art pens are better for fine detail work like dots, lines, and florals because the 0.7mm tip gives more control than a polish brush. Nail polish is still better for covering large areas, so most DIY manicures use both — polish for the base, pens for the detail."
+  - question: "Do chrome nail powders work over regular nail polish?"
+    answer: "Chrome powder works best over a cured gel top coat, but it can be applied over regular nail polish if the polish is fully dry and sealed with a no-wipe gel top coat first. Without a gel top coat, the mirror effect will not bond properly and will wear off quickly."
+  - question: "What's the easiest summer nail art trend to do without experience?"
+    answer: "Pre-designed nail art stickers are the easiest summer trend for beginners since they require no drawing or steady hand — just peel, place, and seal with top coat. MelodySusie's spring/summer themed stickers cover florals and tropical motifs in seconds per nail."
+  - question: "How long does chrome nail powder last on natural nails?"
+    answer: "Chrome nail powder typically lasts 2 to 3 weeks on natural nails when applied over a properly cured gel base and sealed with a no-wipe top coat, similar to a standard gel manicure's wear time."
+  - question: "Can you mix rhinestones and chrome powder in the same manicure?"
+    answer: "Yes, rhinestones and chrome powder pair well together for a layered summer look — apply the chrome finish first, then place rhinestones as accents while the top coat is still slightly tacky before final curing."
+  - question: "Where can I buy MelodySusie nail art tools online in the USA?"
+    answer: "MelodySusie nail art tools, including chrome powder, rhinestones, and art pens, ship to the USA directly from melodysusie.com with fast delivery and frequent sitewide promotions."
+```
+
+---
+
+## 3. SEO and Keyword Plan
+
+Follow this keyword plan exactly. Calculate density before writing — do not estimate.
+
+- **Primary keyword (locked):** `summer nail art tools`
+- **Keyword density target:** 1.2% (competitor average) + 3 extra mentions in first half. Total mention target: **14 mentions** for a ~1,100-word post.
+- **First 150 words:** primary keyword must appear exactly 2 times — both in `<strong>` tags.
+- **ALL** primary keyword mentions wrapped in `<strong>` tags throughout the post.
+
+**High CPC transactional keywords** (weave into CTAs, H2s, mid-post copy):
+- "buy nail art tools online" (high CPC)
+- "best chrome powder for nails" (high CPC)
+- "nail art kit for beginners" (high CPC)
+- "summer nail design kit" (medium-high CPC)
+- "rhinestone nail kit" (medium CPC)
+
+**Keyword variations** (use naturally, no density target, no strong tags):
+- summer nail art kit
+- nail art tools for summer manicures
+- DIY summer nail art supplies
+- best nail art tools 2026
+- summer manicure tools
+
+**Transactional cluster keywords:**
+- chrome nail powder
+- nail art pens set
+- nail rhinestones for gel nails
+- mirror chrome nails
+- 3D nail art accessories
+- nail art stickers
+- MelodySusie nail art
+
+**LSI semantic terms:**
+glazed nails, iridescent nail finish, metallic summer nails, mirror chrome manicure, no-wipe top coat, gel polish application, fine-tip nail pen, 3D nail texture, chrome French tips, mermaid chrome effect, holographic nail powder, nail art application tools, DIY manicure supplies, salon-level nail art at home, summer nail trend 2026
+
+**AEO terms** (mapped to H2 or FAQ — see Section 7):
+1. "What nail art tools do I need for summer manicures at home?" → FAQ
+2. "How do you apply chrome powder for the summer mirror nail trend?" → FAQ
+3. "Are nail art pens better than nail polish for designs?" → FAQ
+4. "Do chrome nail powders work over regular nail polish?" → FAQ
+5. "What's the easiest summer nail art trend to do without experience?" → FAQ
+6. "How long does chrome nail powder last on natural nails?" → FAQ
+7. "Can you mix rhinestones and chrome powder in the same manicure?" → FAQ
+8. "Where can I buy MelodySusie nail art tools online in the USA?" → FAQ
+9. "What is the best chrome powder for a mirror nail finish?" → H2: "Best Chrome Powder for the Summer Mirror Trend"
+10. "How do you keep rhinestones from falling off nails?" → H2: "Best Rhinestones for 3D Summer Nail Texture"
+
+**GEO terms** (woven near CTAs, shipping mentions):
+- "best nail art tools to buy in the USA"
+- "does MelodySusie ship nail art supplies to USA"
+- "MelodySusie nail art fast shipping USA"
+- "where to buy chrome nail powder online USA"
+
+**Buyer phrase bank** (from Amazon/Walmart reviews + Quora, weave naturally):
+- "no chipping" (chrome powder durability)
+- "great addition to my nail art" (general satisfaction)
+- "smooths and non-grainy texture" (chrome powder quality)
+- "easy to use and identify" (chrome powder ease)
+- "mirror effect will differ from different base color" (set expectations)
+- "perfect for DIY nail enthusiasts" (dotting/detail tools)
+- "doesn't streak" (precision application)
+- "forgiving" base for beginners (confidence-building language)
+- "fastest way" to salon-level results (stickers/efficiency)
+
+---
+
+## 4. Competitor and Title Intelligence
+
+**Top competitor angles for "summer nail art tools" / chrome + rhinestone content:**
+1. **Pure Nails (purenails.co.uk)** — trend-report style, lists techniques (chrome over gel, fine-line brushes, 3D rhinestones) but doesn't name specific buyable tool sets. **Gap: no product recommendations, no pricing.**
+2. **DTK Nail Supply / ND Nails Supply** — chrome powder roundups, decent product comparisons but generic "Decoration Nail Art" branding, no single-brand authority, no comparison table.
+3. **Snailsnails.com "Ultimate Guide to Chrome Nails"** — strong trend authority (short nail chrome, glazed clean-girl aesthetic) but zero shopping CTAs or specific product picks.
+
+**Title direction that beats them:** None of the top pages combine trend authority + specific buyable kit + price. Our title leads with a clear buyer benefit ("make DIY manis pop") and signals a curated 5-tool kit rather than a generic buying guide.
+
+**Competitor gaps → mandatory H2 sections in our post:**
+- No one explains how to layer chrome + rhinestones + pens together (we cover this)
+- No one gives exact application steps for chrome powder over gel (we cover this in FAQ + H2)
+- No single-brand trusted pick across all 3 tool categories (we are the only one)
+
+**Missing product angles competitors miss:**
+- Specific wear-time data (2–3 weeks) for chrome powder
+- Beginner vs. intermediate skill labeling per tool
+- No-mess option (chrome pens) vs. powder for those new to chrome
+
+**Word count target:** 1,100 words (competitor average ~900–1,000; we add depth via comparison table + FAQ for AEO/GEO coverage).
+
+---
+
+## 5. Buyer Intelligence
+
+**Who this buyer is:** A DIY nail enthusiast, likely intermediate skill level, already doing her own gel manicures at home and looking to level up with trend-driven nail art (chrome, 3D texture) ahead of summer. Comfortable buying online, motivated by trend content from TikTok/Pinterest/magazine roundups.
+
+**What they need from this post:** A clear, curated shortlist of specific tools (not generic categories) that lets them recreate 2026's biggest summer trends — glazed chrome, fine-line art, 3D rhinestone texture — without guessing what to buy.
+
+**What frustrates them:** Vague trend round-ups with no actual product to buy, unclear instructions on how chrome powder actually works, fear of wasting money on tools that don't deliver salon results at home.
+
+**Top 5 buying objections (each addressed in post body):**
+1. "Will chrome powder actually work over my regular gel polish?" → addressed in chrome powder section + FAQ
+2. "I'm not artistic — can I still do nail art?" → addressed via stickers + pens skill-level labeling
+3. "Will rhinestones fall off after a day?" → addressed in rhinestones section with application tip
+4. "Is this just a fad I'll use once?" → addressed via reusability/quantity framing (1,440 stones, refillable powder jar)
+5. "Do I need a ton of separate tools?" → addressed via comparison table positioning these 5 as a complete starter set
+
+**Recurring praise from real reviews:** no chipping, smooth/non-grainy texture, easy to identify and use, great addition to nail art routine, forgiving for beginners.
+
+**Recurring complaints (addressed honestly in cons):** mirror effect varies by base color, small stones fiddly to place, pens can dry out if not capped, sticker designs are fixed/non-customizable.
+
+---
+
+## 6. Discount and Conversion Data
+
+- 1440Pcs Rhinestones: $12.99, was $16.99 (24% off)
+- Chrome Nail Powder: $6.99, was $9.99 (30% off)
+- Spring/Summer Stickers: $7.99, was $10.99 (27% off)
+- No sitewide MelodySusie discount code confirmed live at time of research — do not fabricate a code. Mention savings via compare-at pricing only.
+- Place savings/price mentions near ShopInlineCTA and ShopFinalCTA areas, plus near the comparison table.
+
+---
+
+## 7. Content Structure
+
+Use these H2 headings in this exact order. Do not rename, reorder, or remove. Add H3s at your discretion.
+
+1. **H2: "5 Summer Nail Art Tools Worth Buying This Season"** (intro, ~150 words)
+   - Hook: summer 2026 trends (glazed chrome, 3D texture, fine-line art) per trend research
+   - Primary keyword 2x in `<strong>` tags in first 150 words
+   - No injection here — injection goes after this section
+
+2. **{{PRODUCTS:1:0}}** — featured layout, winner product (rhinestones)
+
+3. **H2: "Best Rhinestones for 3D Summer Nail Texture"** (~150 words)
+   - AEO: "How do you keep rhinestones from falling off nails?" answered here
+   - Internal link: SC-01 pillar placed here (mid-post, after first CTA) — natural anchor text
+
+4. **H2: "Best Chrome Powder for the Summer Mirror Trend"** (~180 words)
+   - AEO: "What is the best chrome powder for a mirror nail finish?" answered here
+   - GEO term woven in near this section (USA shipping/availability)
+   - {{PRODUCTS:2:2,3}} — chrome pens + chrome powder side by side
+
+5. **H2: "Nail Art Pens vs. Stickers: Pick Your Skill Level"** (~180 words)
+   - Internal link: post_id 42 (Summer Gel Polish Colors) placed here
+   - {{PRODUCTS:2:1,4}} — 12-color pens + stickers side by side
+
+6. **ComparisonTable** fires automatically here (between section 2 and 3 per template split)
+
+7. **H2: "How to Layer These Tools for a Salon-Level Summer Look"** (~150 words)
+   - Internal link: EC-06 pillar placed here
+   - Buyer objection #4/#5 addressed (reusability, complete kit framing)
+
+8. **H2: "Final Pick: Best Summer Nail Art Tool Set"** (conclusion, ~120 words)
+   - Decision driver, not a summary — push toward purchase
+   - GEO term + savings mention near final CTA
+
+**Injection plan:**
+- `{{PRODUCTS:1:0}}` — after intro H2, featured layout (winner: rhinestones)
+- `{{PRODUCTS:2:2,3}}` — after "Best Chrome Powder" H2 (chrome pens + chrome powder)
+- `{{PRODUCTS:2:1,4}}` — after "Pens vs. Stickers" H2 (12-color pens + stickers)
+
+---
+
+## 8. Component Directives
+
+These components fire automatically from frontmatter. Confirm trigger fields in Section 2 are correctly set.
+
+- **WinnerBadge:** ACTIVE — `winnerIndex: 0` set
+- **ShopInlineCTA:** ACTIVE — `winnerIndex: 0` set
+- **ComparisonTable:** ACTIVE — `showComparison: true` + `comparisonTable` data present
+- **ProsConsBlock:** INACTIVE — `showProscons: false` (best-of post type)
+- **ShopFinalCTA:** ALWAYS ACTIVE — products[] exists
+- **ShopFAQ:** ACTIVE — 8 FAQ entries present
+- **ShopTableOfContents:** ALWAYS ACTIVE
+- **Sidebar winner card:** ACTIVE — `winnerIndex: 0` set
+
+---
+
+## 9. Writing Instructions
+
+- This is conversion copy — every sentence moves the buyer toward a purchase decision.
+- Lead with buyer benefit, not product specs.
+- Use buyer phrases from Section 5 naturally — speak their language.
+- Address buying objections directly — no hedging.
+- Honest cons build trust — include them, then counter with why the product is still the right buy.
+- Discount info placed near CTAs only, not as standalone paragraphs.
+- Primary keyword `summer nail art tools` in `<strong>` tags every mention — no exceptions.
+- No editorial literary hooks — open sections with buyer benefit or buying question directly.
+- H2 sections short and direct — buyers scan, they don't read long intros.
+- Conclusion = final push to purchase, not a summary.
+- Internal links placed mid-post only, after first product CTA — natural anchor text.
+- No related articles section.
+- American English only.
+- No banned AI patterns: no "elevate," "seamlessly," "game-changing," "dive into," "transformative."
+- No long em dashes — use comma or restructure.
+- Vary sentence rhythm — short punchy for key selling points, longer for context.
+- No "we tested" language — products with limited reviews (chrome metallic pens, stickers) use informed editorial observation only.
+
+---
+
+**Word count target for body copy: 1,100 words. Max total file: 2,500 words.**
