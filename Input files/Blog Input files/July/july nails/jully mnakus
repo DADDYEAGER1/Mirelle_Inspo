@@ -1,0 +1,647 @@
+# INPUT FILE: JULY NAILS
+## THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT
+All values in POST_CONSTANTS are hardcoded. Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.
+
+---
+
+## SECTION 1 — FILE AUTHORITY
+
+THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded. Blog Gen Agent does not ask, adjust, or override. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly. No exceptions unless user explicitly overrides during that session.
+
+---
+
+## SECTION 2 — POST CONSTANTS
+
+```
+slug: july-nails
+topic_slug: july-nails
+canonical: https://mirelleinspo.com/blog/july-nails/july-nails
+post_type: spoke
+intent: inspirational
+word_count: 2800
+image_count: 9
+template: split-left
+hero_dimensions: 800x800
+category: Seasonal Nails
+publish_date: 2026-07-01
+author: Mirellé Team
+```
+
+**Word count rationale:** SERP for "july nails" is dominated by long colour-heavy editorial posts (Byrdie 30 designs, NewBeauty 12 colours, ThePinkIssue 30 designs). Audience expects comprehensive seasonal inspiration covering colours, designs, and mood occasions. 2800 hits the depth ceiling for a spoke without padding.
+
+**Image count rationale:** Spoke post, inspirational intent. No X+ pattern in slug. Rule 5 applies: 9 images total including hero.
+
+**Template rationale:** Spoke posts use split-left template per system rules. Hero dimensions 800x800.
+
+---
+
+## SECTION 3 — CLUSTER SNAPSHOT
+
+```
+cluster_topic: july-nails
+pillar_slug: 4th-of-july-nails
+pillar_title: "4th of July Nails: 50+ Patriotic Designs, Colors & Easy Ideas for 2026"
+pillar_primary_keyword: 4th of july nails
+this_post_slug: july-nails
+this_post_primary_keyword: july nails
+this_post_role: cluster spoke
+this_post_hierarchy_level: 2
+```
+
+**Cluster siblings:**
+```
+- slug: firework-nail-art
+  primaryKeyword: firework nail art
+  searchIntent: tutorial
+
+- slug: july-birthday-nails
+  primaryKeyword: july birthday nails
+  searchIntent: informational
+```
+
+**This post's topical boundary:**
+This post covers the full month of July as a seasonal nail moment: colours, design formats, occasions, skin tone guidance, and durability. It does NOT cover 4th of July patriotic designs in depth (pillar owns that), firework nail art technique (firework-nail-art spoke owns that), or ruby birthstone birthday manicures (july-birthday-nails spoke owns that). This is the broad-entry-point post for anyone searching what to wear on their nails in July 2026.
+
+**Keywords to avoid — HARD WALL (cannibalization enforcement):**
+These terms are owned by sibling or parent posts. Never used as focus terms or H2 anchors in this post.
+```
+- 4th of july nails         → pillar
+- fourth of july nails       → pillar
+- independence day nails     → pillar
+- patriotic nails            → pillar
+- firework nail art          → firework-nail-art spoke
+- fireworks nail art         → firework-nail-art spoke
+- DIY firework nails         → firework-nail-art spoke
+- july birthday nails        → july-birthday-nails spoke
+- july birthstone nails      → july-birthday-nails spoke
+- ruby nails july            → july-birthday-nails spoke
+- cancer nails               → separate Mirellé zodiac post
+- leo nails                  → separate Mirellé zodiac post
+```
+
+**Drift enforcement:** The 4th of July can appear once in H2-7 as a referenced occasion within the broader July month narrative. It must not anchor any heading, drive any colour section, or dominate more than one paragraph in the entire post. One mention, one link, then move on.
+
+**Receives links from (context only, not written into this post):**
+```
+- 4th-of-july-nails  → will link here with anchor "july nails"
+- firework-nail-art  → will link here with anchor "july nails"
+- july-birthday-nails → will link here with anchor "july nails"
+```
+
+---
+
+## SECTION 4 — SERP ANALYSIS
+
+**What every competitor covers (baseline):**
+- Colour swatch list (red, blue, coral, pink, yellow, mint)
+- Fourth of July nail ideas embedded mid-article
+- Chrome finishes as a trend call-out
+- 10-30 design gallery with image captions
+
+**Competitor gaps — our opportunity:**
+- No competitor addresses the full emotional arc of July as a month: peak summer energy, vacation window, birthday season, and the quieter back half after the 4th
+- No one segments july nails by distinct occasions within the month (the 4th / vacation week / late-July beach / birthday energy)
+- Colour-by-skin-tone guidance is missing or superficial everywhere
+- Decision paralysis is unaddressed: competitors pile on options with no framework for choosing
+- The durability tension (bold july colour vs. nails that survive pool water and sunscreen) is untouched
+- Jelly finish is name-dropped but never explained as a format choice vs solid colour
+- "July nails that work past the 4th" is touched by one competitor but not owned
+
+**Missing semantic territory:**
+- July nail colour by mood and occasion, not just hue
+- What makes a nail design feel like July specifically (vs. generic summer)
+- The pistachio-to-coral spectrum as the defining July 2026 palette range
+- Jelly and glazed finishes as the format story for July 2026
+- Short nail design angle for low-maintenance July lifestyle
+
+**Our strategic approach:**
+This post positions july nails as the peak-summer manicure moment across the whole month, not just the 4th. We serve the reader who wants a colour answer, a design direction, and an occasion framework for July's distinct emotional landscape. Competitors give lists. We give a navigable guide with verdicts.
+
+**Depth signal:** 2800 words. Top competitors run 1,200-2,000 words of actual content with images carrying the rest. A confident 2800-word piece that answers every colour, format, and occasion question outperforms the gallery-heavy, text-thin competition.
+
+---
+
+## SECTION 5 — AUDIENCE INTELLIGENCE
+
+**Who they are:**
+Nail enthusiasts aged 18-38. Broad spectrum from casual salon regulars to committed gel appointment bookers. Searching "july nails" in the first two weeks of July, about to book or DIY. Some have a 4th of July party Friday. Some are heading on vacation. Some are July birthdays. Skews toward women who have a manicure ritual and use it as a seasonal reset.
+
+**What they want from this post:**
+To open this post and immediately feel seen about what July should look like on their nails. They want colour answers (specific shades, not vague directions), design formats that match what they actually book or do at home, and permission to go a little bolder because it is peak summer. They also want to know what lasts in July heat.
+
+**What frustrates them:**
+- Every post gives 30 options with no way to choose
+- Colour names are brand-specific and unhelpful
+- They have to scroll past walls of 4th of July content to find general july nails ideas
+- No guidance on what works for their skin tone
+- Tips that assume weekly salon visits when they need designs that last
+
+**Top 5 pain points:**
+1. Decision paralysis: too many options, no framework
+2. Colour-skin tone uncertainty: does coral work on my complexion?
+3. The post-4th problem: festive but not tacky, and wearable all month
+4. Durability: july heat, sunscreen, pool water
+5. Bold vs minimal: july energy vs professional life that does not pause
+
+**Exact user phrases (from SERP, Pinterest, YouTube, real audience language):**
+- "what color nails should i get in july"
+- "july nails that aren't just red white and blue"
+- "cute july nails ideas"
+- "best nail color for july 2026"
+- "july nail inspo"
+- "summer nail colors july"
+- "july manicure ideas"
+- "nails for july heat"
+- "what nail color goes with everything in summer"
+- "vacation nails july"
+- "july nails that last"
+- "july nail aesthetic"
+
+**Intent content signals:**
+- Visual-first: scanning, not reading — H2s and image placement do heavy lifting
+- Colour names with plain-English descriptors, not brand names
+- Skin tone guidance woven into colour descriptions, not siloed
+- Occasion framing (for the 4th / vacation / everyday july) is highly valued
+- Short punchy colour verdicts outperform exhaustive descriptions
+- Voice: confident friend, not listicle machine
+
+---
+
+## SECTION 6 — SEMANTIC KEYWORD DATA
+
+**Blog Gen instruction:** Primary keyword in strong tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.
+
+**Primary keyword:** july nails
+
+**Keyword variations (cannibalization-cleared):**
+- july nail ideas
+- july nail colors
+- july nail inspo
+- july nail designs 2026
+- july manicure ideas
+- best nails for july
+- july nail art ideas
+- july nail trends 2026
+- july nail color ideas
+- nails for july
+
+**Cluster keywords (cleared, no drift into sibling posts):**
+- summer nail colors july
+- july nail colors 2026
+- what color nails for july
+- july nail trends
+- july nail aesthetic
+- peak summer nails
+- july gel nails
+- july press on nails
+- july nails short
+- july nails almond
+- july nails coffin
+- vacation nails july
+- july nails for dark skin
+- july nails for fair skin
+- summer manicure july 2026
+
+**LSI terms (cleared, specific to this post):**
+- sky blue nails july
+- coral nails july
+- butter yellow nails july
+- watermelon pink nails
+- pistachio nails summer
+- chrome nails july
+- jelly nails july
+- glazed nails summer
+- sorbet nails
+- fruit nail art summer
+- mermaid chrome nails
+- aura nails july
+- cobalt blue nails summer
+- tomato red nails july
+- mint nails july
+- sunset ombre nails
+- dopamine nails
+- milky nails summer
+- pool blue nails
+- chrome french tip july
+
+**AEO terms (full question phrases for AI answer engines):**
+- What colour nails should I get in July 2026?
+- What are the best nail colours for July?
+- What nail designs are trending for July 2026?
+- What are popular july nail ideas for summer?
+- What is the most popular nail colour for July?
+- Are jelly nails good for July?
+- What nail colours work for a July vacation?
+- What july nail colour looks good on dark skin?
+- What july nail colour looks good on fair skin?
+- How do I choose between bold and subtle nails for July?
+- What are cute july nail ideas that are not 4th of July themed?
+- What nail trends are dominating July 2026?
+
+**Technical terms:**
+- gel polish
+- chrome powder
+- jelly finish
+- glazed finish
+- blooming gel
+- aura technique
+- cat eye magnetic polish
+- squoval shape
+
+**User language (casual, from real conversations):**
+- "peak summer mani"
+- "nails that look expensive in the sun"
+- "something fun but not too extra"
+- "summery but not tacky"
+- "nails that survive pool days"
+- "the colour that just says summer"
+- "nails I won't regret on the 15th"
+- "july nail aesthetic"
+
+---
+
+## SECTION 7 — VOICE AND AI QUERIES
+
+**Blog Gen instruction:** Answer every query directly in the relevant H2 section body. If a query cannot be addressed naturally, route it to faqItems. No query left unanswered.
+
+**Conversational queries:**
+1. What colour nails should I get in July?
+2. What are the best july nail ideas for 2026?
+3. What nail designs are trending for july this year?
+4. What is the most popular nail colour for July?
+5. What are cute july nails that are not just 4th of July?
+6. Are jelly nails a good choice for July?
+7. What july nail colours work on dark skin?
+8. What july nail colours work on fair skin?
+9. What nail colour looks good in summer heat for July?
+10. What are simple july nail ideas for short nails?
+11. How do I pick a nail colour for July if I cannot decide?
+12. What are the best nail designs for a July vacation?
+13. What nail colours are big for July 2026?
+14. Do chrome nails work for july summer manicures?
+15. What are july nails that work for the whole month, not just the 4th?
+16. What are july nail ideas that look good on tanned skin?
+
+---
+
+## SECTION 8 — CONTENT STRUCTURE
+
+**Blog Gen instruction:** This H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s without user instruction. Word budget per section is set. H3s may be added at editorial discretion.
+
+**H1:** July Nails 2026: The Colours, Designs and Trends That Own This Month
+
+**H2 structure:**
+1. What Makes a Nail Design Feel Like July (Not Just Summer)
+2. The July 2026 Colour Palette: What Is Actually Trending Right Now
+3. July Nails by Skin Tone: Which Colours Work for You
+4. The Best July Nail Designs for Vacation and Holiday Weeks
+5. July Nail Art Formats: Jelly, Chrome, Glazed and When to Choose Each
+6. Simple July Nails for Short Nails and Low-Maintenance Summers
+7. July Nails Beyond the 4th: What to Wear the Rest of the Month
+8. How to Make Your July Manicure Last Through Pool Days and Heat
+
+**Word budget:**
+```
+introduction:                                          240 words
+H2-1 (What Makes a Nail Design Feel Like July):       300 words  | complexity: medium
+H2-2 (The July 2026 Colour Palette):                  400 words  | complexity: high
+H2-3 (July Nails by Skin Tone):                       280 words  | complexity: medium
+H2-4 (Best July Nail Designs for Vacation):           300 words  | complexity: medium
+H2-5 (Nail Art Formats — Jelly, Chrome, Glazed):      320 words  | complexity: high
+H2-6 (Simple July Nails for Short Nails):             250 words  | complexity: low
+H2-7 (July Nails Beyond the 4th):                     260 words  | complexity: medium
+H2-8 (How to Make Your July Manicure Last):           250 words  | complexity: low-medium
+conclusion:                                            200 words
+TOTAL:                                                2800 words
+```
+
+---
+
+## SECTION 9 — INTERNAL LINKS
+
+**Blog Gen instruction:** Every link below must appear in the post. Cluster links use anchor texts verbatim — do not rewrite. Cross-site links use the provided anchor. Place each link where the placement note says, woven naturally into prose, never as a standalone CTA.
+
+```
+all_internal_links:
+
+1.
+  url: /blog/july-nails/4th-of-july-nails
+  title: "4th of July Nails: 50+ Patriotic Designs, Colors & Easy Ideas for 2026"
+  anchor_text: 4th of july nails
+  placement_note: H2-7 (July Nails Beyond the 4th) — direct readers to the patriotic design pillar
+  link_type: cluster-pillar
+
+2.
+  url: /blog/july-nails/firework-nail-art
+  title: Firework Nail Art
+  anchor_text: firework nail art
+  placement_note: H2-7 (July Nails Beyond the 4th) — directly alongside the pillar link
+  link_type: cluster-spoke
+
+3.
+  url: /blog/july-nails/july-birthday-nails
+  title: July Birthday Nails
+  anchor_text: july birthday nails
+  placement_note: H2-3 (July Nails by Skin Tone) or end of H2-7 — for July babies wanting a birthstone-specific direction
+  link_type: cluster-spoke
+
+4.
+  url: https://mirelleinspo.com/inspo/summer-nails-2026
+  title: Summer Nails 2026
+  anchor_text: summer nails 2026
+  placement_note: Introduction — after establishing july as peak summer moment
+  link_type: cross-site
+
+5.
+  url: https://mirelleinspo.com/blog/fruit-nails/fruit-nails
+  title: Fruit Nails
+  anchor_text: fruit nail art
+  placement_note: H2-4 (Best July Nail Designs for Vacation) — fruit nails are a confirmed top july vacation design format
+  link_type: cross-site
+```
+
+---
+
+## SECTION 10 — VOICE AND TONE
+
+**Blog Gen instruction:** This is the voice for this specific post. Layer on top of Mirellé editorial framework. Do not default to generic AI tone.
+
+```
+recommended_voice: Confident summer editor — warm, specific, decisive
+
+tone_characteristics:
+  - Opinionated on colour: gives verdicts, not just options ("this is the one to book")
+  - Seasonal specificity: talks about July as a distinct emotional moment, not generic summer
+  - Practical underneath the inspiration: every trend call has a wearability note
+  - Inclusive without being preachy: skin tone guidance woven in, not flagged
+  - Pacing mirrors July energy: bright and quick in colour sections, slower in care section
+
+language_style: >
+  Direct declarative sentences. Short punchy colour verdicts. "You" used freely.
+  No rhetorical questions as openers. Analogies from summer life (iced coffee,
+  pool water, sunset light). British English throughout.
+
+audience_match: >
+  This reader is past the "what is trending" stage. She wants someone to tell
+  her what to actually book. The voice earns trust by being specific rather
+  than comprehensive.
+```
+
+---
+
+## SECTION 11 — EXTERNAL LINKS
+
+**Blog Gen instruction:** Include all external links where indicated. Supports E-E-A-T. Use anchor suggestion as guide — write naturally around it.
+
+```
+links:
+
+1.
+  url: https://www.newbeauty.com/view/best-july-nail-colors-2026
+  context: When citing expert nail artist quotes on july colour trends (sky blue, mint, tomato red)
+  anchor_suggestion: nail artists' top july colour picks
+
+2.
+  url: https://www.marieclaire.com/beauty/nails/summer-2026-nail-trends/
+  context: When referencing jelly finish and glazed nails as the dominant summer 2026 nail format
+  anchor_suggestion: summer 2026 nail trends
+
+3.
+  url: https://nailsami.com/blogs/guides/summer-2026-nail-colors
+  context: When citing skin-tone specific guidance for butter yellow, glazed pearl, aqua chrome
+  anchor_suggestion: summer 2026 nail colours by skin tone
+```
+
+---
+
+## SECTION 12 — EXECUTION PLAN
+
+**Blog Gen Agent reads this section FIRST. Lock every value. Execute exactly. Do not recalculate, do not adjust, do not deviate.**
+
+### BLOCK 1 — KEYWORD EXECUTION
+
+```
+primary_keyword: july nails
+total_mention_target: 2800 x 0.02 = 56 mentions total
+strong_tag_rule: EVERY single mention of "july nails" wrapped in <strong>july nails</strong>. All 56. No exceptions. Scan after every paragraph.
+
+first_100_words_plan:
+  mention_1: sentence 2 of introduction
+  mention_2: sentence 4-5 of introduction — before first image anchor
+
+first_half_target: 34 mentions — first 1400 words
+second_half_target: 22 mentions — second 1400 words
+
+keywords_to_avoid_active:
+  - 4th of july nails
+  - fourth of july nails
+  - independence day nails
+  - patriotic nails
+  - firework nail art
+  - fireworks nail art
+  - DIY firework nails
+  - july birthday nails
+  - july birthstone nails
+  - ruby nails july
+  - cancer nails
+  - leo nails
+```
+
+### BLOCK 2 — WORD BUDGET
+
+```
+total_target: 2800 words — +/-50 tolerance, never exceed
+
+introduction:                                          240 words
+H2-1 (What Makes a Nail Design Feel Like July):       300 words  | complexity: medium
+H2-2 (The July 2026 Colour Palette):                  400 words  | complexity: high
+H2-3 (July Nails by Skin Tone):                       280 words  | complexity: medium
+H2-4 (Best July Nail Designs for Vacation):           300 words  | complexity: medium
+H2-5 (Nail Art Formats — Jelly, Chrome, Glazed):      320 words  | complexity: high
+H2-6 (Simple July Nails for Short Nails):             250 words  | complexity: low
+H2-7 (July Nails Beyond the 4th):                     260 words  | complexity: medium
+H2-8 (How to Make Your July Manicure Last):           250 words  | complexity: low-medium
+conclusion:                                            200 words
+
+tracking_rule: Track running word total at end of every H2. If over budget — cut before moving on. Do not compensate later.
+```
+
+### BLOCK 3 — IMAGE PLAN
+
+```
+total_images: 9 (including hero)
+hero_image: frontmatter only — NEVER in post body
+body_images: 8 images to place in body
+
+image_type_rule: ALL body images = inspirational nail design images. NO infographics. NO process diagrams. NO comparison charts. NO step-by-step visuals.
+
+path_rule: /images/blog/july-nails/july-nails/filename.webp
+
+assignments:
+  image 1: place after introduction — july colour spread (sky blue / coral / watermelon pink on nails)
+  image 2: place after H2-1 — aspirational july mood shot, saturated summer colours
+  image 3: place after H2-2 — colour palette on nails: butter yellow, coral, cobalt blue, pistachio
+  image 4: place after H2-3 — nails shown across diverse skin tones
+  image 5: place after H2-4 — vacation-ready nail set (fruit art, jelly, or glazed finish)
+  image 6: place after H2-5 — chrome french tip or jelly nail close-up
+  image 7: place after H2-6 — short nail set in a clean july colour (squoval or round)
+  image 8: place after H2-8 — polished long-wearing gel set in peak july colour
+```
+
+### BLOCK 4 — OPENING TECHNIQUE ASSIGNMENTS
+
+```
+rule: No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.
+
+introduction:   Technique 2 — The Scene (drop reader into a specific july moment before naming the topic)
+H2-1:           Technique 4 — The Contrast (july nails vs. summer nails generally — what is distinct about july)
+H2-2:           Technique 1 — The Claim (state the 2026 july palette verdict immediately)
+H2-3:           Technique 3 — The Reframe (skin tone guidance is knowing your best angle, not restriction)
+H2-4:           Technique 2 — The Scene (vacation week, about to board a flight — what are your nails doing)
+H2-5:           Technique 1 — The Claim (jelly is the finish format that defines july 2026)
+H2-6:           Technique 4 — The Contrast (short nails in july can do everything long nails do)
+H2-7:           Technique 3 — The Reframe (the month does not end on the 5th — 26 more days of july)
+H2-8:           Technique 2 — The Scene (sunscreen, pool water, rosé — july is the hardest month for nail wear)
+conclusion:     Technique 1 — The Claim
+
+banned_opener_rule: Never open with "When it comes to...", "Whether you...", "If you're looking for...", "In this post..."
+```
+
+### BLOCK 5 — LINK PLACEMENTS
+
+```
+1.
+  anchor_text: summer nails 2026
+  full_url: https://mirelleinspo.com/inspo/summer-nails-2026
+  place_in_section: Introduction
+  placement_context: After establishing july as peak summer — broader seasonal context link
+  link_type: cross-site
+
+2.
+  anchor_text: 4th of july nails
+  full_url: /blog/july-nails/4th-of-july-nails
+  place_in_section: H2-7 (July Nails Beyond the 4th)
+  placement_context: "For the full patriotic design guide, our 4th of july nails post covers every star, stripe and red-white-and-blue format"
+  link_type: cluster-pillar
+
+3.
+  anchor_text: firework nail art
+  full_url: /blog/july-nails/firework-nail-art
+  place_in_section: H2-7 (July Nails Beyond the 4th)
+  placement_context: Natural adjacent mention alongside pillar link — "and if firework nail art is on your list..."
+  link_type: cluster-spoke
+
+4.
+  anchor_text: july birthday nails
+  full_url: /blog/july-nails/july-birthday-nails
+  place_in_section: H2-3 (July Nails by Skin Tone) — close of section
+  placement_context: "July babies wanting something more personal — our july birthday nails guide takes the birthstone ruby angle much deeper"
+  link_type: cluster-spoke
+
+5.
+  anchor_text: fruit nail art
+  full_url: https://mirelleinspo.com/blog/fruit-nails/fruit-nails
+  place_in_section: H2-4 (Best July Nail Designs for Vacation)
+  placement_context: Fruit nails confirmed top july vacation format — natural prose link when mentioning fruit art designs
+  link_type: cross-site
+```
+
+### BLOCK 6 — AEO / GEO PLAN
+
+```
+aeo_assignments:
+
+1.
+  aeo_term: What colour nails should I get in July 2026?
+  assigned_to_section: H2-2 (The July 2026 Colour Palette)
+  execution: >
+    Write a 2-3 sentence direct answer IMMEDIATELY after the H2 heading, before any elaboration.
+    Direction: "The standout july nail colours for 2026 are sky blue, coral, butter yellow,
+    watermelon pink, and pistachio. For most wearers, sky blue or coral is the easiest win —
+    both photograph well outdoors and work across occasions." Then elaborate into full section.
+
+2.
+  aeo_term: What nail designs are trending for July 2026?
+  assigned_to_section: H2-5 (Nail Art Formats — Jelly, Chrome, Glazed)
+  execution: >
+    Direct 2-3 sentence answer immediately after H2 heading:
+    "Jelly finishes, chrome powders, and glazed gel topcoats are the three dominant design
+    formats for july nails in 2026. Jelly is the most wearable option for everyday summer use.
+    Chrome is the statement format for vacations and events." Then elaborate.
+
+3.
+  aeo_term: Are jelly nails good for July?
+  assigned_to_section: H2-5 (Nail Art Formats — Jelly, Chrome, Glazed)
+  execution: Within the jelly subsection — direct 2-sentence answer defining jelly nails and why they suit july specifically.
+
+4.
+  aeo_term: How do I make my July manicure last through pool days and heat?
+  assigned_to_section: H2-8 (How to Make Your July Manicure Last)
+  execution: Direct 2-3 sentence answer immediately after H2 heading covering gel vs regular polish principle and cuticle oil routine.
+
+geo_entity_statements:
+
+1.
+  entity: jelly nails
+  assigned_to_section: H2-5
+  execution: >
+    "Jelly nails are a translucent, high-gloss gel finish that gives nails a sheer,
+    dimensional quality similar to lip gloss — the finish catches light without being opaque."
+    Declarative. Extractable by AI.
+
+2.
+  entity: glazed finish
+  assigned_to_section: H2-5
+  execution: >
+    "A glazed nail finish uses a sheer tinted base topped with a high-gloss gel topcoat
+    to create a polished, almost lacquered effect without heavy pigment."
+    Declarative definition.
+
+3.
+  entity: chrome powder
+  assigned_to_section: H2-5
+  execution: >
+    "Chrome powder is a metallic nail pigment rubbed onto cured gel polish to create
+    a mirror-like or iridescent reflective finish."
+    Declarative. AI-extractable.
+```
+
+### BLOCK 7 — ACTIVE CONSTRAINTS
+
+```
+em_dash_banned: >
+  Long em dash does not appear anywhere. If one forms while writing — stop, replace with:
+  comma / new sentence / parentheses / "but" / restructure.
+
+banned_vocab_watch (highest-risk words for this topic):
+  - "elevate" → banned
+  - "stunning" → banned
+  - "perfect" → banned
+  - "gorgeous" → banned
+  - "amazing" → banned
+  - "vibrant" → overused, avoid unless quoting source
+  - "timeless" → banned
+  - "game-changer" → banned
+
+british_english_active: >
+  colour (not color), recognise, organise, -ise endings, favourite, glamour.
+  Every instance. No exceptions.
+
+keyword_density_reminder: >
+  After every 2 H2 sections — count current "july nails" mentions.
+  Verify first half is running denser than second half. Adjust inline before moving on.
+
+image_path_reminder: /images/blog/july-nails/july-nails/filename.webp — topic_slug in path always. Leading slash.
+
+internal_link_url_reminder: >
+  Cluster links = /blog/july-nails/[slug] — exact paths as listed in Block 5.
+  Cross-site links = exact URLs as listed. Never bare slug alone.
+
+hero_image_reminder: Hero = frontmatter only. Never place hero image in post body.
+
+strong_tag_reminder: Every mention of "july nails" = <strong>july nails</strong>. Scan after every paragraph.
+
+faqItems_note: >
+  Any AEO query that cannot be woven naturally into the H2 body routes to faqItems in frontmatter.
+  Do not force-insert queries where they break prose flow.
+```
