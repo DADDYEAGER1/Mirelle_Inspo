@@ -1,0 +1,373 @@
+# SHOP INPUT FILE — POST #51
+**THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT.** All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions below must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy.
+
+---
+
+## 1. CLUSTER SUMMARY
+
+- **Cluster:** SC-04 Spring Nails (seasonal, peak Feb–April)
+- **This post:** "Best Spring Gel Polish Colors from MelodySusie: Pastels & Florals" — spoke post SC-04-S1
+- **Slug:** `melodysusie-spring-gel-polish-colors`
+- **Route:** `/shop/spring/melodysusie-spring-gel-polish-colors`
+- **Post type:** best-of
+- **Primary keyword:** MelodySusie spring gel polish (locked, owned by SC-04-S1)
+- **Role:** Spoke under SC-04 pillar ("Best MelodySusie Spring Nail Products")
+- **Internal links this post must include** (mid-post only, after first product CTA):
+  - SC-04 pillar — "Best MelodySusie Spring Nail Products" → anchor text e.g. "our full guide to spring nail must-haves"
+  - SC-04-S2 — "MelodySusie Spring Nail Starter Kit" → anchor text e.g. "a complete spring nail starter kit"
+  - EC-03 pillar — "Best MelodySusie Gel Polish" → anchor text e.g. "see how it stacks up against every MelodySusie gel formula"
+- **Posts that link to this post:** SC-04 pillar (spoke link), SC-01 Summer pillar (carryover trend mention)
+- **Affiliate mode:** Standard affiliate links, tracked params appended
+- **Region:** USA only
+
+---
+
+## 2. FRONTMATTER BLOCK
+
+Copy this exactly. Do not change any field.
+
+```yaml
+title: "Best Spring Gel Polish Colors from MelodySusie (2026 Picks)"
+excerpt: "The best MelodySusie spring gel polish shades for 2026 — pastel pinks, sage greens, lavender, and florals that actually last."
+date: "2026-06-20"
+author: "Mirellé"
+category: "spring"
+image: "https://www.melodysusie.com/cdn/shop/files/y2k-1.jpg?v=1718769445&width=1600"
+imageAlt: "MelodySusie spring gel polish colors in pastel macaron shades arranged on a flat surface"
+imageWidth: 1200
+imageHeight: 630
+readTime: "8 min read"
+canonical: ""
+postType: "best-of"
+winnerIndex: 0
+showComparison: true
+showProscons: false
+comparisonCaption: "How the top spring gel polish picks compare"
+products:
+  - name: "Fleurwee Plant-Based Gel Nail Polish 8+1 Set – Macaron Palette"
+    brand: "MelodySusie"
+    price: "$69.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/y2k-1.jpg?v=1718769445&width=1600"
+    link: "https://www.melodysusie.com/products/fleurwee-plant-based-gel-nail-polish-macaron-palette?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    rating: 4.8
+    reviewCount: 112
+    details:
+      - "8 pastel shades + glossy top coat, plant-based HEMA/HPMA/TPO-free formula"
+      - "Up to 21 days wear with no chipping or floating glue"
+      - "Sweet natural scent in every bottle — no harsh chemical smell"
+  - name: "Fleurwee Plant-Based Floral Pathways Gel Polish Gift Box – 8 Colors"
+    brand: "MelodySusie"
+    price: "$79.99"
+    compareAtPrice: "$138.89"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_b5f7d3a8-4921-4f24-96d8-2463ff80a4e3.jpg?v=1740984032&width=1200"
+    link: "https://www.melodysusie.com/products/fleurwee-plant-based-floral-pathways-gel-polish-gift-box-8-colors?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Gift Set"
+    rating: 4.7
+    reviewCount: 38
+    details:
+      - "8 floral-inspired shades in a ready-to-gift box"
+      - "Plant-based, 21-toxin-free formula gentle on sensitive skin"
+      - "42% off compare-at price at time of writing"
+  - name: "Jeweliver Cat Eye Gel Polish 6 Colors Set – Pink and Red"
+    brand: "MelodySusie"
+    price: "$45.99"
+    compareAtPrice: "$59.94"
+    image: "https://www.melodysusie.com/cdn/shop/files/74b96dbb2d19db9758ba306fc55ad040_86072735-6c9f-44da-a73a-03e2bfc2588c.jpg?v=1741659519&width=1600"
+    link: "https://www.melodysusie.com/products/jeweliver-cat-eye-gel-polish-6-colors-set-0-5-fl-oz-15ml-pink-and-red?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Dimension"
+    rating: 4.6
+    reviewCount: 64
+    details:
+      - "Magnetic cat-eye finish in spring-appropriate pinks and reds"
+      - "Requires a cat-eye magnet tool (sold separately) for the effect"
+      - "High-shine 3D finish that photographs well for spring manicure trends"
+  - name: "6 Colors TPO-Free Thick Gel Nail Polish Set 15ml – Nude Pink"
+    brand: "MelodySusie"
+    price: "$39.99"
+    compareAtPrice: "$59.94"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_1138af7f-f64c-427e-90a9-76a8d79dd639.jpg?v=1737454423&width=1600"
+    link: "https://www.melodysusie.com/products/6-colors-thick-gel-nail-polish-set-15ml-nude-pink?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Value"
+    rating: 4.8
+    reviewCount: 91
+    details:
+      - "Big 15ml bottles, highly pigmented in 2 coats"
+      - "Nude and pink tones flatter most skin tones for office-friendly spring looks"
+      - "Buy 3, get 20% off with code Colors6"
+  - name: "6 Colors TPO-Free Thick Gel Nail Polish Set 15ml – Spring Green"
+    brand: "MelodySusie"
+    price: "$39.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_26911b90-567f-4748-a856-0dc412f0df44.jpg?v=1737454251&width=1600"
+    link: "https://www.melodysusie.com/products/6-colors-thick-gel-nail-polish-set-15ml-spring-green?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Sage & Pistachio Trend"
+    rating: 4.7
+    reviewCount: 27
+    details:
+      - "Six green shades from sage to vibrant matcha, matching 2026's top spring trend color family"
+      - "EU-compliant TPO-L/TMO formula"
+      - "Buy 3, get 20% off with code Colors6"
+comparisonTable:
+  features:
+    - "Plant-based / HEMA-free"
+    - "Bottle size"
+    - "Best for"
+    - "Special finish"
+    - "Price"
+  columns:
+    - name: "Fleurwee Macaron Palette"
+      values: [true, "15ml", "Pastel everyday wear", "Glossy, sweet scent", "$69.99"]
+    - name: "Floral Pathways Gift Box"
+      values: [true, "15ml", "Gifting", "Glossy, floral-inspired", "$79.99"]
+    - name: "Jeweliver Cat Eye Pink/Red"
+      values: [false, "15ml", "Dimensional nail art", "Magnetic 3D cat-eye", "$45.99"]
+    - name: "Nude Pink Thick Gel Set"
+      values: [false, "15ml", "Office-friendly neutrals", "Glossy, opaque in 2 coats", "$39.99"]
+    - name: "Spring Green Thick Gel Set"
+      values: [false, "15ml", "Sage/matcha trend", "Glossy, opaque in 2 coats", "$39.99"]
+faqs:
+  - question: "What gel polish colors are trending for spring 2026?"
+    answer: "Sage and pistachio green, soft lavender, baby blue, butter yellow, and classic pink nudes are the top spring 2026 gel polish colors. Jelly and soft chrome finishes are also trending alongside these pastel shades."
+  - question: "Is MelodySusie gel polish HEMA-free?"
+    answer: "MelodySusie's Fleurwee line is HEMA-free, HPMA-free, and TPO-free, making it a plant-based option for sensitive skin. Their standard 15ml TPO-Free Thick Gel sets use an EU-compliant TPO-L/TMO formula instead of traditional TPO, but are not labeled HEMA-free."
+  - question: "How long does MelodySusie gel polish last?"
+    answer: "MelodySusie gel polish lasts up to 21 days with proper application and a base coat, top coat, and UV/LED lamp curing. The plant-based Fleurwee formula is rated for the same 21-day wear with no chipping or floating glue."
+  - question: "What spring gel polish color is best for fair skin?"
+    answer: "Soft pink, pale lavender, and sky blue are the most flattering spring gel polish shades for fair skin tones. The MelodySusie Macaron Palette covers all three in one set."
+  - question: "What spring gel polish color is best for olive or medium skin tones?"
+    answer: "Warm-toned shades like coral, terracotta, and sage green tend to flatter olive and medium skin tones best in spring. MelodySusie's Spring Green set and the warmer tones in the Floral Pathways box both work well here."
+  - question: "Do I need a UV or LED lamp for MelodySusie gel polish?"
+    answer: "Yes, all MelodySusie gel polish sets are soak-off gel formulas that require curing under a UV or LED nail lamp, typically 90 to 120 seconds per coat. A base coat and top coat are also required and sold separately if not included in the set."
+  - question: "Can I use cat eye gel polish without a magnet tool?"
+    answer: "No, cat eye gel polish like the Jeweliver Pink and Red set needs a magnetic tool to pull the metallic particles into the signature 3D line pattern while curing. Without the magnet, it cures as a regular shimmer polish."
+  - question: "Does MelodySusie ship to the USA?"
+    answer: "Yes, MelodySusie ships to the USA with free shipping on orders over $129.99. All products in this roundup are available to order directly from MelodySusie's US site."
+```
+
+---
+
+## 3. SEO AND KEYWORD PLAN
+
+**Primary keyword (locked):** MelodySusie spring gel polish
+
+**Keyword density target:** Competitor average density for this term runs light (~0.4–0.6%, since most competitor content is general "spring nail colors" not brand-specific). Target: **0.8%** density — add 3 extra mentions in the first half versus typical competitor usage. For an estimated 1,400-word post, target **11-12 total mentions** of "MelodySusie spring gel polish" or its locked exact form.
+
+**First 150 words rule:** Primary keyword must appear exactly 2 times, both wrapped in `<strong>` tags.
+
+**ALL primary keyword mentions throughout the entire post wrapped in `<strong>` tags** — no exceptions.
+
+**High CPC transactional keywords** (weave into CTAs, H2s, mid-post copy):
+- "gel nail polish set" (high commercial intent, broad reach)
+- "HEMA free gel polish" (rising post-EU-ban search term, premium positioning)
+- "best gel polish for spring" (seasonal commercial intent)
+- "gel nail polish kit" (bundle-intent keyword)
+- "plant based gel polish" (clean beauty premium CPC)
+
+**Keyword variations** (use naturally, no density target, no strong tags):
+- MelodySusie spring nail colors
+- MelodySusie pastel gel polish
+- spring gel nail polish colors
+- MelodySusie spring collection gel polish
+- best spring nail polish colors 2026
+
+**Transactional cluster keywords** (use throughout, no density target):
+- MelodySusie gel polish set
+- MelodySusie Fleurwee gel polish
+- MelodySusie macaron gel polish
+- MelodySusie cat eye gel polish
+- MelodySusie nude gel polish
+
+**LSI semantic terms** (weave in naturally):
+- soak-off gel polish, UV/LED lamp curing, plant-based formula, HEMA-free, HPMA-free, TPO-free, pastel manicure, sage green nails, lavender nail polish, butter yellow nails, jelly finish, cat-eye magnetic polish, 21-day wear, base coat and top coat, spring 2026 nail trends
+
+**AEO terms** (each mapped to H2 or FAQ — no unmapped terms):
+| AEO Term (full question) | Mapped To |
+|---|---|
+| "What gel polish colors are trending for spring 2026?" | FAQ |
+| "Is MelodySusie gel polish HEMA-free?" | FAQ |
+| "How long does MelodySusie gel polish last?" | FAQ |
+| "What spring gel polish color is best for fair skin?" | FAQ |
+| "What spring gel polish color is best for olive or medium skin tones?" | FAQ |
+| "Do I need a UV or LED lamp for MelodySusie gel polish?" | FAQ |
+| "Can I use cat eye gel polish without a magnet tool?" | FAQ |
+| "Does MelodySusie ship to the USA?" | FAQ |
+| "What is the best spring gel polish set for beginners at home?" | H2: "Best Overall: Fleurwee Macaron Palette" |
+| "Which MelodySusie gel polish colors match 2026's pastel trend?" | H2: "What's Trending in Spring 2026 Nail Colors" |
+
+**GEO terms** (woven near CTAs, shipping mentions, availability copy):
+- "best spring gel polish to buy in the USA"
+- "does MelodySusie ship to USA"
+- "MelodySusie free shipping USA"
+- "where to buy MelodySusie gel polish online"
+- "MelodySusie spring sale USA"
+
+**Buyer phrase bank** (exact phrases from Amazon/Quora/YouTube/MelodySusie reviews — weave naturally):
+- "dreamy, pastel palette"
+- "soft hues of baby blue, mint green, delicate pink, lavender, and pale yellow"
+- "self-levels very nicely"
+- "no streaking, no bubbles"
+- "highly pigmented" / "opaque coverage with just 2 coats"
+- "non-toxic, non-yellowing, low odor"
+- "12 days old and looks brand new"
+- "for fair skin, light and soft hues like pale pink or nude create a natural, elegant look"
+- "for medium or olive skin, warm tones like coral or terracotta are flattering"
+- "lighter, brighter colors for spring and summer"
+
+---
+
+## 4. COMPETITOR AND TITLE INTELLIGENCE
+
+**Top competitor angles for "spring gel polish colors" (general, non-branded):**
+1. Manucurist (us.manucurist.com) — runway-tied trend report, leads with named shades (Pink Sand, Gold Button), strong editorial fashion authority angle.
+2. SL Beauty Co — leads with color family trend (green/sage), ties finish innovation (jelly, soft chrome) into color picks.
+3. Real Simple / AOL — listicle format, "7 Fresh Spring Nail Colors," leads with named trend colors (pistachio green, cloud white) and quotes a nail artist for authority.
+
+**What makes top titles work:** Specific year (2026), a clear promise of "fresh"/"trending," and either an editor-curated feel or expert quote authority. None of these competitors are brand-specific to MelodySusie — this is a content gap and an opportunity to own the "MelodySusie spring gel polish" query directly.
+
+**Title direction:** Lead with brand + product type + clear modifier ("2026 Picks") to own the long-tail commercial search while still surfacing under broader "spring gel polish" queries. More specific than generic listicles, with a clear buying angle (picks, not just colors).
+
+**Competitor gaps (buying questions they do NOT answer — now mandatory H2/FAQ sections in our post):**
+- None of the general trend roundups address which gel formula is HEMA-free or skin-safe — we own this with the Fleurwee plant-based angle.
+- None match colors to skin tone with brand-specific product recommendations — we close this gap with a dedicated section.
+- None mention wear-time, curing requirements, or kit completeness (base/top coat) — buyers need this and competitors skip it.
+
+**Missing product angles competitors miss:**
+- Cat-eye/magnetic 3D finish as a spring trend option (most roundups stick to flat pastel finishes only)
+- Bundle/value angle (buy 3 get 20% off) — none of the editorial competitors mention pricing or deals at all
+
+**Word count target:** 1,400 words (competitor average for this style of post runs 600–900 words for pure trend listicles; we increase scope because this is a buying guide with 5 products, comparison table, and FAQ — set higher to support commercial intent and depth).
+
+---
+
+## 5. BUYER INTELLIGENCE
+
+**Who this buyer is:** A woman planning her spring manicure, doing her nails at home with gel polish and a UV/LED lamp she may already own (likely also owns or is considering a MelodySusie lamp/kit from earlier cluster posts). Moderate experience — has done gel manicures before but is shopping seasonally for new colors, not a total beginner.
+
+**What she needs from this post:** A clear, ranked shortlist of which MelodySusie gel polish set to buy for spring 2026 — without having to cross-reference color trend articles and a separate brand product catalog herself.
+
+**What frustrates her:** Vague "spring colors are pastel!" articles with no actual products to buy, no mention of which formula is sensitive-skin-safe, and discovering after purchase that a color set doesn't include base/top coat or that a cat-eye set needs a separate magnet tool.
+
+**Top 5 buying objections (each addressed in post body):**
+1. "Will these dry/cure properly with the lamp I already have?" → addressed via cure time and lamp requirement mentions
+2. "Is this going to irritate my skin?" → addressed via HEMA/HPMA/TPO-free callouts on Fleurwee products
+3. "Do I need to buy a separate tool for the cat-eye effect?" → addressed directly in product details and FAQ
+4. "Will the pastel shade actually show up, or will it be too sheer?" → addressed via "highly pigmented," "opaque in 2 coats" buyer language
+5. "Is this actually worth the price compared to the cheaper sets?" → addressed via comparison table and value badge on Nude Pink set
+
+**Buyer phrase bank:** see Section 3 buyer phrase bank — reuse here for body copy.
+
+**Recurring praise from real reviews:** self-leveling formula, no streaking/bubbles, highly pigmented in 2 coats, non-toxic/low odor, manicure still looks fresh at 12 days.
+
+**Recurring complaints:** Not HEMA-free on non-Fleurwee lines (address honestly — note Fleurwee is the HEMA-free pick for sensitive skin); cat-eye sets require a separate magnet tool not always included.
+
+---
+
+## 6. DISCOUNT AND CONVERSION DATA
+
+- **Macaron Palette ($69.99):** no compare-at price found — full price, no strikethrough.
+- **Floral Pathways Gift Box:** $79.99, compare-at $138.89 (42% off)
+- **Jeweliver Cat Eye Pink/Red:** $45.99, compare-at $59.94 (23% off)
+- **Nude Pink Thick Gel Set:** $39.99, compare-at $59.94 (33% off)
+- **Spring Green Thick Gel Set:** $39.99, no compare-at price found
+- **Active sitewide codes found on MelodySusie site:**
+  - `OFF8` — 8% off sitewide
+  - `MSOFF15` — 15% off orders over $129.99
+  - `Colors6` — Buy 3 thick gel polish sets, get 20% off (auto-applies at checkout, stackable opportunity for buying both the Nude Pink and Spring Green sets plus a third)
+  - Site-wide "Spring Sale: Up to 50% off" banner active at time of research
+  - Free US shipping on orders over $129.99
+- **Placement:** Mention `Colors6` near the Nude Pink and Spring Green product entries (since buying both plus a third 15ml set unlocks it). Mention `MSOFF15` near the ShopFinalCTA section since a bundle of 2+ products from this list often clears $129.99.
+
+---
+
+## 7. CONTENT STRUCTURE (H2 PLAN)
+
+Post gen follows this exact H2 order. Do not rename, reorder, or remove. Add H3s at discretion.
+
+**Intro (150–180 words):**
+Open with the buying decision directly — spring is here, which MelodySusie gel polish set should you actually buy. <strong>MelodySusie spring gel polish</strong> mention #1 here. No literary hook.
+
+**H2: What's Trending in Spring 2026 Nail Colors**
+- Directive: Quickly establish the 5 trend colors (sage/pistachio green, lavender, baby blue, butter yellow, pink nude) so the buyer has context before seeing products. Cite trend research naturally, no fluff.
+- AEO mapped: "Which MelodySusie gel polish colors match 2026's pastel trend?"
+- No injection here.
+- Word budget: 150 words.
+
+**H2: Best Overall: Fleurwee Macaron Palette**
+- Directive: Introduce winner product. Cover plant-based formula, pastel shade range, 21-day wear, sweet scent. <strong>MelodySusie spring gel polish</strong> mention #2 here (first 150 words boundary — confirm placement lands within first 150 words total across intro+this H2 opening if needed; otherwise this is mention #2 shortly after).
+- AEO mapped: "What is the best spring gel polish set for beginners at home?"
+- Injection: `{{PRODUCTS:1:0}}` featured layout, placed immediately after this H2's opening paragraph.
+- Word budget: 180 words.
+
+**H2: Best for Gifting: Fleurwee Floral Pathways Gift Box**
+- Directive: Cover floral shade names, gift-ready packaging, plant-based safety angle, the 42% discount.
+- No AEO mapped here directly (covered by HEMA FAQ).
+- No injection (covered by ComparisonTable + ShopFinalCTA later).
+- Internal link goes here: SC-04 pillar link, anchor text "our full guide to spring nail must-haves" — placed mid-paragraph, natural.
+- Word budget: 150 words.
+
+**H2: Best for Dimension: Jeweliver Cat Eye Gel Polish (Pink and Red)**
+- Directive: Explain magnetic cat-eye finish, note the magnet tool requirement honestly (addresses buying objection #3), position as the spring nail art pick.
+- AEO mapped: "Can I use cat eye gel polish without a magnet tool?" (also answered in FAQ — body reinforces).
+- No injection here.
+- Internal link goes here: EC-03 pillar link, anchor text "see how it stacks up against every MelodySusie gel formula."
+- Word budget: 150 words.
+
+**H2: Best Value: Nude Pink and Spring Green Thick Gel Sets**
+- Directive: Cover both budget-friendly 15ml sets together — nude pink for office-friendly neutrals, spring green for the sage/matcha trend. Mention Colors6 stacking discount here.
+- Injection: `{{PRODUCTS:2:3,4}}` side-by-side grid, placed after this H2's opening paragraph.
+- Internal link goes here: SC-04-S2 spoke link, anchor text "a complete spring nail starter kit" — placed near end of this section.
+- Word budget: 180 words.
+
+**H2: How to Choose Your Spring Gel Polish Shade**
+- Directive: Skin-tone matching section — fair skin → pastels, olive/medium → warm tones, addresses buying objection #4/general color-fit anxiety. Use buyer phrase bank language directly.
+- No further AEO mapping needed (already covered).
+- ComparisonTable fires automatically after this section per template rules (between section 2 and 3 of the 30/30/40 split) — no manual injection needed.
+- Word budget: 180 words.
+
+**Conclusion (100–150 words):**
+Final push to purchase, not a summary. Reiterate winner pick, mention discount codes near the close. <strong>MelodySusie spring gel polish</strong> remaining mentions land here and throughout per density target.
+
+**Injection plan summary:**
+- `{{PRODUCTS:1:0}}` — after "Best Overall" H2 opening paragraph
+- `{{PRODUCTS:2:3,4}}` — after "Best Value" H2 opening paragraph
+- ComparisonTable — auto-fires per template, no manual call
+- ProsConsBlock — NOT active (showProscons: false for best-of post type)
+
+---
+
+## 8. COMPONENT DIRECTIVES
+
+Confirms frontmatter triggers in Section 2 are correctly set. Components fire automatically — never write component content in body.
+
+| Component | Status |
+|---|---|
+| WinnerBadge | ACTIVE — winnerIndex: 0 set |
+| ShopInlineCTA | ACTIVE — winnerIndex: 0 set |
+| ComparisonTable | ACTIVE — showComparison: true, comparisonTable data present |
+| ProsConsBlock | NOT ACTIVE — showProscons: false |
+| ShopFinalCTA | ALWAYS ACTIVE — products[] exists |
+| ShopFAQ | ACTIVE — faqs[] has 8 entries |
+| ShopTableOfContents | ALWAYS ACTIVE |
+| Sidebar winner card | ACTIVE — winnerIndex: 0 set |
+
+---
+
+## 9. WRITING INSTRUCTIONS
+
+- Conversion copy — every sentence moves the buyer toward a purchase decision.
+- Lead with buyer benefit, not specs. Specs support the benefit, never lead.
+- Use buyer phrases from Section 5/3 naturally.
+- Address all 5 buying objections directly — no hedging.
+- Honest cons (cat-eye magnet tool not included, non-Fleurwee sets aren't HEMA-free) build trust — state them, then counter with why the product is still the right buy.
+- Discount codes placed near CTAs only, never as a standalone paragraph.
+- Primary keyword in `<strong>` tags every single mention — no exceptions.
+- No editorial literary hooks — open every H2 with the buyer benefit or buying question directly.
+- H2 sections short and direct — buyers scan.
+- Conclusion = decision driver, not summary.
+- Internal links placed mid-post only, after first product CTA, natural anchor text.
+- No related articles section.
+- American English only.
+- Banned words: elevate, seamlessly, game-changing, dive into, transformative.
+- No long em dashes — use commas or restructure.
+- Vary sentence rhythm — short and punchy for selling points, longer for context.
+- No "we tested" language anywhere — all 5 products have real reviews from Phase 1/5 research, so editorial-fallback tone is not needed here, but keep tone informed and editorial regardless.
