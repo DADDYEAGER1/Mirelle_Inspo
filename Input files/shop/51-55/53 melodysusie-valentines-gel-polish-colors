@@ -1,0 +1,438 @@
+# SHOP INPUT FILE — POST 53
+**THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT.** All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions in this file must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy.
+
+---
+
+## 1. CLUSTER SUMMARY
+
+- **Cluster:** SC-05 Valentine's Day (seasonal) — peak months January–February
+- **Post:** "Best Valentine's Day Gel Polish Colors: MelodySusie Reds & Pinks"
+- **Slug:** `melodysusie-valentines-gel-polish-colors`
+- **Post type:** best-of
+- **Primary keyword:** `valentines day gel polish MelodySusie`
+- **Role:** Spoke post (SC-05-S1), child of SC-05 pillar "Best MelodySusie Valentine's Day Nail Products"
+- **Internal links this post must include** (mid-post only, after first product CTA):
+  - SC-05 pillar: "Best MelodySusie Valentine's Day Nail Products" → anchor text natural, e.g. "our full Valentine's nail shopping guide"
+  - SC-05-S2 (post 54): "Valentine's Day Nail Gift: Best MelodySusie Sets to Give" → anchor text e.g. "looking for a gift set instead"
+  - EC-03-S3: "MelodySusie Cat Eye Gel Polish" cluster spoke → anchor text e.g. "full cat eye gel polish breakdown"
+- **Posts that link to this post:** SC-05 pillar (hub), post 54 (cross-link)
+- **Affiliate mode:** Standard product links, MelodySusie affiliate program
+- **Region:** USA
+
+---
+
+## 2. FRONTMATTER BLOCK
+
+Copy this block exactly. Do not change any field.
+
+```yaml
+title: "Best Valentine's Day Gel Polish Colors From MelodySusie (2026)"
+excerpt: "The best Valentine's Day gel polish from MelodySusie — cat eye, jelly pink, and classic red sets ranked for the most romantic mani of the year."
+date: "2026-06-20"
+author: "Mirellé"
+category: "gel-polish"
+image: "https://www.melodysusie.com/cdn/shop/files/74b96dbb2d19db9758ba306fc55ad040_86072735-6c9f-44da-a73a-03e2bfc2588c.jpg?v=1741659519&width=1600"
+imageAlt: "Valentines day gel polish MelodySusie cat eye set in pink and red shades displayed with magnet tool for romantic manicure"
+imageWidth: 1200
+imageHeight: 630
+readTime: "9 min read"
+canonical: ""
+postType: "best-of"
+winnerIndex: 0
+showComparison: true
+showProscons: false
+comparisonCaption: "How the top Valentine's Day gel polish picks compare"
+products:
+  - name: "Jeweliver Cat Eye Gel Polish 6 Colors Set — Pink and Red"
+    brand: "MelodySusie"
+    price: "$45.99"
+    compareAtPrice: "$59.94"
+    image: "https://www.melodysusie.com/cdn/shop/files/74b96dbb2d19db9758ba306fc55ad040_86072735-6c9f-44da-a73a-03e2bfc2588c.jpg?v=1741659519&width=1600"
+    link: "https://www.melodysusie.com/products/jeweliver-cat-eye-gel-polish-6-colors-set-0-5-fl-oz-15ml-pink-and-red?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    rating: 5.0
+    reviewCount: 62
+    details:
+      - "Magnetic cat eye effect in 6 pink and red shades made for Valentine's"
+      - "Mesmerizing shimmer shifts under the included magnet tool"
+      - "21+ days of wear with proper base and top coat application"
+    pros:
+      - "Shines like a jewel under light — the magnetic effect is the main draw for buyers"
+      - "6-color set covers every Valentine's mood from soft pink to deep red"
+      - "Thick, well-pigmented formula covers in one to two coats"
+      - "Long-lasting — buyers report 3+ weeks of wear with no chipping"
+      - "Beginner-friendly application even without salon experience"
+    cons:
+      - "Requires practice to angle the magnet for a clean, even cat eye effect"
+      - "Needs a UV/LED lamp and separate base/top coat, sold separately"
+
+  - name: "6 Colors TPO-Free Thick Gel Polish Set — Charm Red"
+    brand: "MelodySusie"
+    price: "$39.99"
+    compareAtPrice: "$59.94"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_5fa62d29-994f-44b2-9fc8-b9e38d1ecf43.jpg?v=1737454212&width=1600"
+    link: "https://www.melodysusie.com/products/6-colors-thick-gel-nail-polish-set-15ml-charm-red?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Classic Red"
+    rating: 5.0
+    reviewCount: 62
+    details:
+      - "6 true red shades from cherry to deep wine for the classic Valentine's look"
+      - "TPO-free thick gel formula needs only a thin layer for full coverage"
+      - "Low odor, non-yellowing formula safe for repeated home use"
+    pros:
+      - "Rich, high-saturation reds in one set — no guessing which red to buy"
+      - "Thick formula self-levels and hides brush strokes"
+      - "Great for traditional Valentine's looks, date nights, and gifting"
+      - "Cures reliably under standard UV/LED lamps"
+    cons:
+      - "Deep reds can look almost black in low light — swatch before committing"
+      - "Not HEMA-free, so those with gel sensitivities should patch test first"
+
+  - name: "Jeweliver Jelly Gel Polish Set 6 Colors — Jelly Pink"
+    brand: "MelodySusie"
+    price: "$39.99"
+    compareAtPrice: "$59.94"
+    image: "https://www.melodysusie.com/cdn/shop/files/74b96dbb2d19db9758ba306fc55ad040_d6ff1810-4534-4d05-98db-14c7cc4edcb3.jpg?v=1741659411&width=1600"
+    link: "https://www.melodysusie.com/products/jeweliver-jelly-gel-nail-polish-set-6-colors-15ml-jelly-pink?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Trend Pick"
+    rating: 5.0
+    reviewCount: 62
+    details:
+      - "Sheer, translucent jelly finish in 6 pink tones for the 2026 jelly nail trend"
+      - "Buildable formula — one coat for a wash of color, two to three for depth"
+      - "Glossy, syrupy finish that lets the natural nail peek through"
+    pros:
+      - "On-trend jelly finish feels fresh next to classic solid reds and pinks"
+      - "Buildable coverage gives buyers control over how sheer or bold they go"
+      - "Pairs beautifully with subtle heart nail art for Valentine's"
+      - "Soft, romantic pink tones flatter most skin tones"
+    cons:
+      - "Sheer formula means more coats needed for fuller opacity, adding cure time"
+      - "Not a true one-coat polish — patience required for an even finish"
+
+  - name: "6 Colors TPO-Free Thick Gel Polish Set — Pink"
+    brand: "MelodySusie"
+    price: "$39.99"
+    compareAtPrice: "$69.93"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_cdb36a29-24d5-472e-a0e0-cf94e3fe97b1.jpg?v=1737454407&width=1600"
+    link: "https://www.melodysusie.com/products/6-colors-thick-gel-nail-polish-set-15ml-pink?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Soft Romantic"
+    rating: 5.0
+    reviewCount: 62
+    details:
+      - "6 soft pink shades from baby pink to dusty rose, 2026's top Valentine's trend"
+      - "Same TPO-free thick formula as the Charm Red set for easy application"
+      - "Versatile pinks work for Valentine's and everyday wear"
+    pros:
+      - "Dusty rose and mauve tones match the most-requested 2026 Valentine's shades"
+      - "Opaque coverage in fewer coats than typical pink gels"
+      - "Soft palette works for both bold and minimalist Valentine's looks"
+      - "Biggest discount of the lineup off the compare-at price"
+    cons:
+      - "Lighter shades show any application unevenness more than reds"
+      - "Some pinks in the set run close in tone, less useful if buyer wants high contrast"
+
+  - name: "Z021 Valentine's Evening — TPO-Free Thick Gel Polish (15ml)"
+    brand: "MelodySusie"
+    price: "$7.99"
+    compareAtPrice: "$9.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/2_893d257e-9410-40ce-9779-09d0b80840d3.jpg?v=1711007545&width=1597"
+    link: "https://www.melodysusie.com/products/z021-valentines-evening-gel-nail-polish15ml?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Single Shade"
+    rating: 4.9
+    reviewCount: 56
+    details:
+      - "Single-bottle shade literally named for the occasion: Valentine's Evening"
+      - "Large 15ml capacity, more product per bottle than most single shades"
+      - "Same long-lasting, low-odor thick gel formula as the full sets"
+    pros:
+      - "Low-commitment way to try MelodySusie gel before buying a full set"
+      - "Generous 15ml size means fewer reorders than smaller single bottles"
+      - "Easy gift add-on at under $8"
+    cons:
+      - "Only one shade, so buyers wanting variety should size up to a set"
+      - "Like the rest of the line, base and top coat are sold separately"
+faqs:
+  - question: "What gel polish colors are best for Valentine's Day?"
+    answer: "Classic red and soft pink are the two go-to Valentine's Day gel polish colors, with deep wine and burgundy as a more grown-up alternative. For 2026, cat eye and jelly finishes in those same shades are the biggest trend, giving the classic red-and-pink palette a fresh, modern twist."
+  - question: "Is cat eye gel polish hard to apply at home?"
+    answer: "Cat eye gel polish takes a little practice but is beginner-friendly with the included magnet. Apply the color coat, hold the magnet close to the nail for a few seconds before curing, and the magnetic particles shift into a glossy, jewel-like pattern. Most buyers get the hang of it within their first one or two manicures."
+  - question: "How long does MelodySusie gel polish last?"
+    answer: "MelodySusie gel polish lasts 21 or more days with proper application, including a base coat, two coats of color, and a top coat, all cured under a UV or LED lamp. Wear time depends on nail prep and how well each layer is cured."
+  - question: "Do I need a UV lamp for these gel polishes?"
+    answer: "Yes, all MelodySusie gel polishes in this roundup are UV gels that require a UV or LED nail lamp to cure, typically 60 to 120 seconds per coat. They are not regular air-dry polish, so a lamp, base coat, and top coat are necessary for a salon-quality result at home."
+  - question: "What is the jelly nail trend everyone is talking about?"
+    answer: "Jelly nails are a sheer, translucent gel polish finish that lets the natural nail show through for a glossy, syrupy look. The trend, inspired by Korean manicures, is one of the biggest nail looks of 2026, and the MelodySusie Jelly Pink set is a direct match for the trend in Valentine's-ready pink tones."
+  - question: "Which MelodySusie gel polish set is best for beginners?"
+    answer: "The 6 Colors Thick Gel Polish Set in Charm Red or Pink is the easiest for beginners because the thick, self-leveling formula hides brush strokes and covers in one to two coats. The cat eye set is also beginner-friendly but takes a bit more practice to master the magnet technique."
+  - question: "Can I buy just one Valentine's Day gel polish color instead of a full set?"
+    answer: "Yes, the Z021 Valentine's Evening shade is sold individually at $7.99 and is a low-commitment way to try MelodySusie's gel formula before investing in a full 6-color set."
+  - question: "Does MelodySusie ship to the USA and offer discounts?"
+    answer: "Yes, MelodySusie ships across the USA and offers free shipping on orders over $129.99. Shoppers can also use code MSOFF15 for 15% off orders over $129.99, or OFF8 for 8% off sitewide on smaller orders."
+comparisonTable:
+  features:
+    - "Finish"
+    - "Colors in Set"
+    - "Price"
+    - "Best For"
+    - "Cure Time"
+  columns:
+    - name: "Jeweliver Cat Eye 6-Color Pink & Red"
+      values:
+        - "Magnetic cat eye shimmer"
+        - "6"
+        - "$45.99"
+        - "Statement Valentine's mani"
+        - "60-90 sec"
+    - name: "Charm Red 6-Color Set"
+      values:
+        - "Solid thick gel"
+        - "6"
+        - "$39.99"
+        - "Classic red Valentine's look"
+        - "30-60 sec"
+    - name: "Jeweliver Jelly Pink 6-Color"
+      values:
+        - "Sheer jelly translucent"
+        - "6"
+        - "$39.99"
+        - "2026 trend, soft romantic look"
+        - "60-90 sec"
+    - name: "Pink 6-Color Set"
+      values:
+        - "Solid thick gel"
+        - "6"
+        - "$39.99"
+        - "Soft, dusty rose Valentine's tones"
+        - "30-60 sec"
+    - name: "Z021 Valentine's Evening Single"
+      values:
+        - "Solid thick gel"
+        - "1"
+        - "$7.99"
+        - "Trying the formula, gifting add-on"
+        - "30-60 sec"
+```
+
+---
+
+## 3. SEO AND KEYWORD PLAN
+
+Follow this keyword plan exactly. Calculate density before writing — do not estimate.
+
+- **Primary keyword (locked):** `valentines day gel polish MelodySusie`
+- **Keyword density target:** Top-ranking Valentine's nail roundups (Glamnetic, IPSY, Manucurist, Virgo and Gem) skew lifestyle/listicle with light keyword repetition — estimated 0.8–1.0% density. Target for this post: **1.1%** density plus 3 extra mentions in the first half. For a ~1,800-word post, that is approximately **18-20 total mentions** of the primary keyword or its exact phrase, with **8-9 of those in the first half** of the post.
+- **First 150 words rule:** Primary keyword must appear exactly 2 times, both wrapped in `<strong>` tags.
+- **All primary keyword mentions** throughout the entire post must be wrapped in `<strong>` tags — no exceptions.
+
+**High CPC transactional keywords** (weave into CTAs, H2s, mid-post copy):
+- "buy MelodySusie gel polish online" (high CPC — direct purchase intent)
+- "MelodySusie gel polish set" (high CPC — set/bundle purchase intent)
+- "cat eye gel polish kit" (high CPC — kit purchase + tool bundling)
+- "best gel polish for Valentine's Day" (high CPC — seasonal gift/purchase intent)
+- "Valentine's Day gel polish set" (high CPC — gifting + bundle intent)
+
+**Keyword variations** (use naturally, no density target, no strong tags):
+- MelodySusie Valentine's gel polish
+- Valentine's Day nail polish colors MelodySusie
+- best red and pink gel polish MelodySusie
+- MelodySusie Valentine's nail colors
+- Valentine's gel polish set MelodySusie
+- MelodySusie cat eye gel polish Valentine's
+
+**Transactional cluster keywords** (use throughout, no density target):
+- cat eye gel polish pink and red
+- jelly gel polish pink
+- TPO-free thick gel polish
+- gel nail polish set 6 colors
+- Valentine's nail colors 2026
+- best red gel polish for nails
+- soft pink gel polish set
+- magnetic gel polish set
+- dusty rose gel polish
+- burgundy gel polish Valentine's
+
+**LSI semantic terms** (weave in naturally):
+- cat eye magnetic effect, jelly nail trend, soak-off gel polish, UV/LED cure time, base coat and top coat, non-yellowing formula, low odor gel, 21-day wear, thick gel formula, self-leveling polish, Korean jelly manicure, magnet tool application, romantic manicure, classic red mani, dusty rose tone, wine red shade
+
+**AEO terms** (each mapped to H2 or FAQ — see Section 7 and FAQ list above):
+1. "What gel polish colors are best for Valentine's Day?" → FAQ
+2. "Is cat eye gel polish hard to apply at home?" → FAQ
+3. "How long does MelodySusie gel polish last?" → FAQ
+4. "Do I need a UV lamp for these gel polishes?" → FAQ
+5. "What is the jelly nail trend everyone is talking about?" → FAQ
+6. "Which MelodySusie gel polish set is best for beginners?" → FAQ
+7. "Can I buy just one Valentine's Day color instead of a full set?" → FAQ
+8. "Does MelodySusie ship to the USA and offer discounts?" → FAQ
+9. "What's the difference between cat eye and jelly gel polish?" → H2: "Cat Eye vs. Jelly vs. Classic: Which Finish Fits Your Valentine's Look?"
+10. "What color gel polish says 'I love you' best?" → H2: "Classic Red: The Heart of Valentine's Day Nails"
+
+**GEO terms** (woven near CTAs, shipping mentions, availability copy):
+- "best Valentine's Day gel polish to buy in the USA"
+- "MelodySusie free shipping USA"
+- "where to buy MelodySusie gel polish online"
+- "MelodySusie Valentine's gel polish fast shipping"
+
+**Buyer phrase bank** (from Amazon/trend research, weave naturally):
+- "shines like a jewel"
+- "sheer wash of color"
+- "syrupy, glossy finish"
+- "natural nail peeking through"
+- "build up the color in two to three coats"
+- "without the need for professional help"
+- "a touch of mystery and romance"
+- "soft, dusty rose tones are the 'it' color"
+- "deep berry, wine, or maroon for a grown-up mood"
+- "glossy finish that looks like a fresh gel manicure"
+
+---
+
+## 4. COMPETITOR AND TITLE INTELLIGENCE
+
+**Top 3 competitor title patterns found in research:**
+1. "Best Valentine's Day Nails in 2026" (Glamnetic) — broad trend-roundup angle, strong on style/shape guidance, weak on specific product picks.
+2. "Valentine's Day Nail Trends 2026: Romantic Gel Polish Ideas for Winter" (Tenteu) — strong on color psychology (red = passion, pink = soft romance) but written for B2B/salon audience, not consumer buyers.
+3. "Valentine's Nail Color Guide 2026: Finding Your Perfect Romantic Shade" (Virgo and Gem) — strong personalization angle ("find your shade") but no single-brand authority.
+
+**Title direction that beats them:** None of the top competitors name a specific trusted brand with real reviews. Our title leads with "MelodySusie" for brand-specific buyer intent and includes the year for freshness — more specific and higher purchase-intent than the generic trend-roundup titles above.
+
+**Competitor gaps (mandatory H2 sections in our post):**
+- None directly answer "is cat eye gel polish hard to apply" — covered in our FAQ and Cat Eye vs. Jelly H2.
+- None explain UV lamp / cure time requirements clearly for beginners — covered in our intro and FAQ.
+- None mention specific pricing or where to buy — covered throughout with CTAs.
+
+**Missing product angles competitors miss:**
+- Magnetic cat eye effect tied specifically to Valentine's romance/mystery angle (MelodySusie's own blog content confirms this works, but no major competitor roundup features it for Valentine's)
+- Jelly nail trend connection to Valentine's soft-pink palette — competitors mention jelly nails as a general 2026 trend but don't connect it to Valentine's Day shopping specifically
+
+**Word count target:** Competitor lifestyle roundups (Glamnetic, IPSY, Virgo and Gem) run 800-1,400 words for listicle-style posts. Target for this post: **1,800 words** (matches competitor average plus increase for product depth and buying guidance).
+
+---
+
+## 5. BUYER INTELLIGENCE
+
+**Who this buyer is:** A woman shopping for Valentine's Day nail colors, likely doing her own gel manicure at home. Ranges from gel-curious beginners to repeat at-home gel users. Wants her nails to look romantic and put-together for Valentine's Day plans (dinner, date night, gift to herself or a friend) without booking a salon appointment.
+
+**What she needs from this post:** A clear, fast answer to "which red or pink gel polish set should I actually buy for Valentine's Day" — with enough product specifics (shades, finish type, price) to feel confident clicking buy.
+
+**What frustrates her:** Vague color advice ("reds and pinks are popular!") without specific product picks, no mention of what tools are needed (lamp, base/top coat), and reviews that feel fake or overly polished with no real cons mentioned.
+
+**Top 5 buying objections (each addressed in post body):**
+1. "Will the cat eye effect actually look good, or is it hard to mess up?" → addressed in Cat Eye vs. Jelly H2 and FAQ
+2. "Do I need extra equipment I don't already have?" → addressed in intro and FAQ (UV lamp requirement)
+3. "Is this just a trend that'll look dated by next year?" → addressed by separating classic red/pink picks from trend picks (cat eye, jelly)
+4. "Will the pink shades wash me out or look too sheer?" → addressed in Pink set and Jelly Pink set descriptions/cons
+5. "Is this worth the price vs. a cheap drugstore set?" → addressed via discount codes, compare-at pricing, and review-backed durability claims
+
+**Buyer phrase bank:** see Section 3 buyer phrase bank — use naturally in copy.
+
+**Recurring praise from real reviews/trend sources:** "shines like a jewel," long-lasting (21-30 days), beginner-friendly with thick self-leveling formula, jelly finish is "fun," "playful," and lets "natural nail peek through."
+
+**Recurring complaints to address honestly:** cat eye magnet technique takes practice; jelly/sheer formulas need 2-3 coats for full opacity; gel sets require separate base/top coat purchase; not HEMA-free (sensitive-skin buyers should patch test).
+
+---
+
+## 6. DISCOUNT AND CONVERSION DATA
+
+- **Sale vs. compare-at pricing per product:** See products array in Section 2 — all five products have confirmed compare-at pricing already populated.
+- **Active MelodySusie discount codes found during research:**
+  - `MSOFF15` — 15% off orders over $129.99
+  - `OFF8` — 8% off sitewide (no minimum)
+  - Free US shipping on orders over $129.99
+- **Placement:** Mention `OFF8` near the ShopInlineCTA section (early-post CTA, smaller cart sizes likely at that point). Mention `MSOFF15` plus free shipping threshold near the ShopFinalCTA section (post-comparison-table, when buyer may be considering bundling multiple sets and crossing $129.99).
+
+---
+
+## 7. CONTENT STRUCTURE
+
+Use these H2 headings in this exact order. Do not rename, reorder, or remove. Add H3s at your discretion.
+
+**Intro (150-200 words):**
+Open with the buying decision directly: choosing the right <strong>valentines day gel polish MelodySusie</strong> color. Establish that 2026's Valentine's nail trends mix classic red/pink with cat eye and jelly finishes. Mention the UV lamp requirement briefly so expectations are set early. First 150 words must contain the primary keyword exactly 2 times, both in `<strong>` tags.
+
+**H2 1: "The Best Valentine's Day Gel Polish Colors From MelodySusie, Ranked"**
+- Covers: Quick-scan ranking intro before the injection. Sets up the winner.
+- AEO/GEO: none specific — general framing section.
+- Internal link: none yet (must come after first product CTA).
+- Injection: `{{PRODUCTS:1:0}}` immediately after this H2 — featured layout for the winner (Cat Eye set).
+- Word budget: ~150 words.
+
+**H2 2: "Classic Red: The Heart of Valentine's Day Nails"**
+- Covers: Why red remains the top Valentine's color; introduces the Charm Red set.
+- AEO: "What color gel polish says 'I love you' best?" answered here.
+- Internal link: SC-05 pillar ("our full Valentine's nail shopping guide") placed here — this is after the first product CTA, so it's allowed.
+- Injection: `{{PRODUCTS:2:0,1}}` showing Cat Eye + Charm Red side by side, OR introduce Charm Red individually — use `{{PRODUCTS:1:1}}` if side-by-side doesn't fit narrative; default to `{{PRODUCTS:1:1}}` featured.
+- Word budget: ~250 words.
+- Discount mention: OFF8 near this section's CTA.
+
+**H2 3: "Cat Eye vs. Jelly vs. Classic: Which Finish Fits Your Valentine's Look?"**
+- Covers: Side-by-side explanation of the three finish types and which buyer each suits.
+- AEO: "What's the difference between cat eye and jelly gel polish?" answered here. Also addresses "Is cat eye gel polish hard to apply at home?" partially (full answer in FAQ).
+- Internal link: EC-03-S3 cat eye cluster spoke ("full cat eye gel polish breakdown") placed here.
+- Injection: none — this is comparison/explanation content; the ComparisonTable component fires automatically between this section and the next per template rules.
+- Word budget: ~300 words.
+
+**H2 4: "Soft & Romantic: Pink and Jelly Pink Picks for 2026"**
+- Covers: The Pink 6-color set and Jelly Pink set together — soft, trend-forward Valentine's looks.
+- AEO: "What is the jelly nail trend everyone is talking about?" answered here.
+- Internal link: post 54 ("looking for a gift set instead") placed here.
+- Injection: `{{PRODUCTS:2:2,3}}` showing Jelly Pink + Pink set side by side.
+- Word budget: ~300 words.
+
+**H2 5: "Just Want One Shade? Try Z021 Valentine's Evening"**
+- Covers: The single-bottle option for low-commitment buyers or gifting add-ons.
+- AEO: "Can I buy just one color instead of a full set?" partially addressed (full answer in FAQ).
+- Injection: `{{PRODUCTS:1:4}}` featured layout.
+- Word budget: ~150 words.
+
+**H2 6: "How to Apply Valentine's Day Gel Polish at Home"**
+- Covers: Quick practical steps — base coat, color, cure time, top coat, magnet technique for cat eye.
+- AEO: "Do I need a UV lamp for these gel polishes?" answered here (also in FAQ for redundancy/AEO coverage).
+- Word budget: ~250 words.
+- GEO terms placed here: shipping/availability mention near any purchase-readiness language.
+
+**Conclusion (100-150 words):**
+Final push to purchase, not a summary. Reiterate the winner pick, mention MSOFF15 and free shipping threshold, drive to ShopFinalCTA.
+
+**FAQ section:** Pre-filled in Section 2 frontmatter — renders automatically via ShopFAQ component. Do not duplicate in body.
+
+---
+
+## 8. COMPONENT DIRECTIVES
+
+These components fire automatically from frontmatter. Confirm trigger fields in Section 2 are correctly set. Never write component content in body — it auto-renders.
+
+- **WinnerBadge:** ACTIVE — `winnerIndex: 0` is set.
+- **ShopInlineCTA:** ACTIVE — fires after first ~30% of content (around end of H2 2).
+- **ComparisonTable:** ACTIVE — `showComparison: true` and `comparisonTable` data present.
+- **ProsConsBlock:** INACTIVE — `showProscons: false` for this best-of post type.
+- **ShopFinalCTA:** ALWAYS ACTIVE — fires automatically, winner shown first.
+- **ShopFAQ:** ACTIVE — `faqs[]` has 8 entries.
+- **ShopTableOfContents:** ALWAYS ACTIVE — reads H2s above automatically.
+- **Sidebar_winner_card:** ACTIVE — `winnerIndex` is set.
+
+---
+
+## 9. WRITING INSTRUCTIONS
+
+Follow these rules for every paragraph of body copy:
+
+- This is conversion copy — every sentence moves the buyer toward a purchase decision.
+- Lead with buyer benefit, not product specs — specs support the benefit, never lead with them.
+- Use buyer phrases from Section 5/3 naturally — speak their language ("shines like a jewel," "sheer wash of color," "natural nail peeking through").
+- Address buying objections directly from Section 5 — do not hedge or avoid them.
+- Honest cons build trust — include them, then counter with why the product is still the right buy.
+- Discount information (OFF8, MSOFF15, free shipping over $129.99) placed near CTAs — mention naturally, not as a standalone paragraph.
+- Primary keyword `valentines day gel polish MelodySusie` in `<strong>` tags every single mention — no exceptions. Target ~18-20 total mentions, 8-9 in the first half.
+- No editorial literary hooks — open each H2 section with the buyer benefit or buying question directly.
+- H2 sections are short and direct — buyers scan, they do not read long intros.
+- Conclusion is a final push to purchase, not a summary.
+- Internal links placed mid-post only, after the first product CTA (H2 2 onward) — anchor text natural, never forced.
+- No related articles section — handled by site component.
+- Language: American English only.
+- No banned AI patterns: no "elevate," "seamlessly," "game-changing," "dive into," "transformative."
+- No long em dashes — use commas or restructure sentences.
+- Vary sentence rhythm — short punchy sentences for key selling points, longer sentences for context.
+- No "we tested" language anywhere in the post.
+
+**Total word count target: 1,800 words. Hard maximum: 2,500 words.**
