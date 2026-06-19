@@ -1,0 +1,104 @@
+//////////////
+topicalMap:
+  position: "pillar"
+  parentPillar: null
+  relatedClusters: []
+  primaryKeyword: "4th of july nails"
+  searchIntent: "inspirational"
+  topicalBoundary: "Comprehensive design gallery and styling guide for 4th of July manicures, organised by classic, short-nail, French tip, subtle, bold, firework, shape, colour, and durability categories."
+  hierarchyLevel: 1
+  secondaryKeywords: ["fourth of july nails", "4th of july nail designs", "4th of july nail ideas", "july 4th nails", "independence day nails", "patriotic nails", "4th of july manicure"]
+  contentType: "showcase"
+  semanticRelationships:
+    technique: ["negative space technique", "micro french tip", "chrome powder application", "striping brush work", "dotting tool application"]
+    style: ["minimalist patriotic", "bold statement nail art", "firework inspired", "classic red white blue", "gingham picnic pattern"]
+    occasions: ["4th of july", "summer barbecue", "pool party", "fireworks display", "july birthday"]
+    relatedTechniques: ["water marble technique", "negative space stars", "glazed chrome finish"]
+  contentMetrics:
+    technicalComplexity: "beginner"
+    timeToImplement: "20-90 min"
+    requiredSkills: ["basic polish application", "striping brush control", "dotting tool control"]
+    requiredTools: ["striping brush", "dotting tool", "no-wipe top coat", "nail stickers (optional)"]
+  childClusters: []
+navigationContext:
+  pillarPost:
+    slug: "4th-of-july-nails"
+    title: "4th of July Nails: 50+ Patriotic Designs, Colors & Easy Ideas for 2026"
+//////////
+topicalMap:
+  position: "cluster"
+  parentPillar: "4th-of-july-nails"
+  relatedClusters:
+    - "4th-of-july-nails"
+  primaryKeyword: "firework nail art"
+  searchIntent: "tutorial"
+  topicalBoundary: "This post covers the specific technique, tools, and variations for creating firework nail art at home, not broader 4th of July nail inspiration."
+  hierarchyLevel: 2
+  secondaryKeywords:
+    - "fireworks nail art"
+    - "fireworks nails design"
+    - "how to do firework nail art"
+    - "firework nail art tutorial"
+    - "DIY firework nails"
+    - "firework nail design"
+  contentType: "tutorial"
+  semanticRelationships:
+    technique:
+      - "toothpick nail art"
+      - "starburst lines"
+      - "glitter gradient"
+      - "negative space"
+    style:
+      - "patriotic nails"
+      - "festive manicure"
+      - "subtle firework nails"
+    occasions:
+      - "4th of July"
+      - "Independence Day"
+      - "New Year's Eve"
+    relatedTechniques:
+      - "dotting tool alternative"
+      - "glitter fade"
+      - "accent nail"
+  contentMetrics:
+    technicalComplexity: "beginner"
+    timeToImplement: "20–45 min"
+    requiredSkills:
+      - "basic polish application"
+      - "steady light touch"
+    requiredTools:
+      - "base coat"
+      - "black or dark polish"
+      - "glitter or metallic polish"
+      - "colour polish of choice"
+      - "toothpick or bobby pin"
+      - "top coat"
+navigationContext:
+  pillarPost:
+    slug: "4th-of-july-nails"
+    title: "4th of July Nails: 50+ Patriotic Designs, Colors & Easy Ideas for 2026"
+//////////////////////
+topicalMap:
+  position: "cluster"
+  parentPillar: "4th-of-july-nails"
+  relatedClusters: []
+  primaryKeyword: "july birthday nails"
+  searchIntent: "informational"
+  topicalBoundary: "This post covers July's birthstone, ruby, translated specifically into nail polish shade, undertone matching, and finish selection for a birthday manicure."
+  hierarchyLevel: 2
+  secondaryKeywords: ["july birthstone nails", "ruby nails for july birthday", "july birthday nail ideas", "ruby birthstone nail design", "july birthday manicure", "birthstone nails for july"]
+  contentType: "guide"
+  semanticRelationships:
+    technique: ["creme finish", "gel polish", "chrome powder", "cat-eye magnetic finish", "press-on nails"]
+    style: ["ruby red", "carnelian orange-red", "gemstone-inspired"]
+    occasions: ["birthday", "everyday wear", "party styling", "office-safe looks"]
+    relatedTechniques: ["undertone matching", "birthstone manicure trend"]
+  contentMetrics:
+    technicalComplexity: "beginner"
+    timeToImplement: "30-90 min"
+    requiredSkills: ["basic polish application or salon booking"]
+    requiredTools: ["ruby red polish or gel", "top coat", "optional chrome powder or cat-eye magnet"]
+navigationContext:
+  pillarPost:
+    slug: "4th-of-july-nails"
+    title: "4th of July Nails: 50+ Patriotic Designs, Colors & Easy Ideas for 2026"
