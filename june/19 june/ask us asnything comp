@@ -1,0 +1,113 @@
+'use client';
+
+// src/components/Faqs/FaqAskQuestion.tsx
+
+import { useState } from 'react';
+
+const SHEET_URL =
+  'https://script.google.com/macros/s/AKfycbyw8DvsOrfIaRTelxEJFhEhNGBJjRACw61VZ8JpyiQGv0udUjMLLnOkA_JqCU6rB5rwxQ/exec';
+
+export default function FaqAskQuestion() {
+  const [email, setEmail] = useState('');
+  const [question, setQuestion] = useState('');
+  const [status, setStatus] = useState<'idle' | 'loading' | 'done' | 'error'>('idle');
+
+  async function handleSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    if (!email.trim() || !question.trim()) return;
+    setStatus('loading');
+    try {
+      await fetch(SHEET_URL, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email: email.trim(), question: question.trim() }),
+      });
+      setStatus('done');
+      setEmail('');
+      setQuestion('');
+    } catch {
+      setStatus('error');
+    }
+  }
+
+  return (
+    <section
+      className="w-full py-16 px-6"
+      style={{ backgroundColor: 'var(--background)' }}
+    >
+      <div className="max-w-2xl mx-auto text-center">
+
+        <h2
+          className="text-[36px] md:text-[42px] leading-tight mb-3"
+          style={{ fontFamily: 'var(--font-heading)', fontWeight: 'normal', color: 'var(--foreground)' }}
+        >
+          Ask Us Anything
+        </h2>
+
+        <p
+          className="text-[17px] leading-relaxed mb-10"
+          style={{ fontFamily: 'var(--font-body)', color: 'var(--foreground)', opacity: 0.7 }}
+        >
+          Can&apos;t find the answer you&apos;re looking for? Drop your question
+          and our editors will tackle it in a future post.
+        </p>
+
+        {status === 'done' ? (
+          <div className="py-10">
+            <p
+              className="text-[28px] mb-2"
+              style={{ fontFamily: 'var(--font-heading)', fontWeight: 'normal', color: 'var(--foreground)' }}
+            >
+              We got you 💅
+            </p>
+            <p
+              className="text-[16px]"
+              style={{ fontFamily: 'var(--font-body)', color: 'var(--foreground)', opacity: 0.6 }}
+            >
+              Your question is in  we&apos;ll get to it soon.
+            </p>
+          </div>
+        ) : (
+          <form onSubmit={handleSubmit} noValidate className="max-w-lg mx-auto flex flex-col gap-3 text-left">
+
+            <input
+              type="email"
+              required
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              placeholder="Enter your email"
+              className="w-full px-6 py-4 text-[16px] outline-none border border-gray-300 focus:ring-2 focus:ring-foreground"
+              style={{ fontFamily: 'var(--font-body)', backgroundColor: 'var(--background)', color: 'var(--foreground)' }}
+            />
+
+            <textarea
+              required
+              value={question}
+              onChange={(e) => setQuestion(e.target.value)}
+              placeholder="Your nail question"
+              rows={4}
+              className="w-full px-6 py-4 text-[16px] outline-none border border-gray-300 focus:ring-2 focus:ring-foreground resize-none"
+              style={{ fontFamily: 'var(--font-body)', backgroundColor: 'var(--background)', color: 'var(--foreground)' }}
+            />
+
+            {status === 'error' && (
+              <p className="text-[13px] text-red-600" style={{ fontFamily: 'var(--font-ui)' }}>
+                Something went wrong. Please try again.
+              </p>
+            )}
+
+            <button
+              type="submit"
+              disabled={status === 'loading'}
+              className="w-full py-4 text-[12px] uppercase tracking-[0.2em] transition-colors hover:bg-gray-800 disabled:opacity-60"
+              style={{ fontFamily: 'var(--font-ui)', backgroundColor: 'var(--foreground)', color: 'var(--background)' }}
+            >
+              {status === 'loading' ? 'Sending...' : 'Send My Question'}
+            </button>
+          </form>
+        )}
+      </div>
+    </section>
+  );
+}
