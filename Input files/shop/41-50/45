@@ -1,0 +1,322 @@
+# SHOP INPUT FILE — Post 45
+
+**THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT.** All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions below must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy.
+
+---
+
+## 1. Cluster Summary
+
+- **Cluster:** SC-02 — Fall Nails (`/shop/fall`)
+- **Post:** "Best Fall Gel Polish Colors from MelodySusie: Browns, Nudes & Burgundy"
+- **Slug:** `melodysusie-fall-gel-polish-colors`
+- **Post type:** best-of
+- **Primary keyword:** `MelodySusie fall gel polish colors` (locked)
+- **Role:** Spoke post (SC-02)
+- **Internal links required (mid-post only, after first product CTA):**
+  1. MelodySusie HEMA-Free Gel Polish post (`/shop/gel-polish/melodysusie-hema-free-gel-polish`) — anchor near Caramel Latte section
+  2. MelodySusie Plant-Based Gel Polish (Fleurwee) post (`/shop/gel-polish/melodysusie-plant-based-gel-polish-fleurwee`) — anchor near Bordeaux Red section
+  3. MelodySusie Top Coat and Base Coat post (`/shop/gel-polish/melodysusie-top-coat-base-coat-gel`) — anchor in application/lamp section
+- **Posts that link to this post (context):** SC-02 pillar "Best MelodySusie Fall Nail Products & Colors," SC-02 spoke "Fall Nail Starter Kit"
+- **Affiliate mode:** Standard affiliate links provided by user, query string `?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol` appended to each product URL
+- **Region:** USA only
+
+⚠️ **Flag for post gen / site owner:** Products 1 and 2 (Autumn Maple and Caramel Latte) share one base product URL with color selected via variant. The affiliate link as provided lands on the default variant, not the specific color. Confirm variant IDs before publishing if exact-color deep links are required.
+
+---
+
+## 2. Frontmatter Block
+
+```yaml
+title: "Best MelodySusie Fall Gel Polish Colors for 2026"
+excerpt: "Browns, nudes, and burgundy MelodySusie gel polish sets ranked for the best fall manicure — plus easy at-home application tips."
+date: "2026-06-20"
+author: "Mirellé"
+category: "fall"
+image: "https://www.melodysusie.com/cdn/shop/files/Autumn_Maple_10Pcs_ad46add4-25ae-4112-8802-9a63c483c52d.jpg?v=1773903429&width=1080"
+imageAlt: "MelodySusie fall gel polish colors in brown, nude, and burgundy from the Autumn Maple plant-based gel set"
+imageWidth: 1200
+imageHeight: 630
+readTime: "11 min read"
+canonical: ""
+postType: "best-of"
+winnerIndex: 0
+showComparison: true
+showProscons: false
+comparisonCaption: "How the top MelodySusie fall gel polish picks compare"
+
+products:
+  - name: "Sweet Scent Plant-Based Gel Nail Polish Set – Autumn Maple (10pc)"
+    brand: "MelodySusie"
+    price: "$39.99"
+    compareAtPrice: "$90.89"
+    image: "https://www.melodysusie.com/cdn/shop/files/Autumn_Maple_10Pcs_ad46add4-25ae-4112-8802-9a63c483c52d.jpg?v=1773903429&width=1080"
+    link: "https://www.melodysusie.com/products/sweet-scent-plant-based-gel-nail-polish-set?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    reviewCount: 0
+    details:
+      - "10 full-size 15ml bottles in warm fall browns, nudes, and deep berry tones"
+      - "HEMA-Free, HPMA-Free, and TPO-Free plant-based formula"
+      - "One set covers a full fall manicure rotation without rebuying"
+    pros:
+      - "Ten coordinated fall shades in one set — no guessing which colors pair well"
+      - "Plant-based, HEMA-free formula is a safer pick for sensitive skin or polish allergies"
+      - "15ml bottles are full-size, not minis, so each color lasts multiple manicures"
+      - "Sweet, subtle scent instead of the sharp chemical smell of standard gels"
+    cons:
+      - "10-bottle set is a bigger upfront cost than a single shade"
+      - "Some colors will see more wear than others depending on personal taste"
+    note: "No reviews yet on this listing — write 2-3 editorial lines from specs/description only. No 'we tested' language."
+
+  - name: "Sweet Scent Plant-Based Gel Nail Polish Set – Caramel Latte (6pc)"
+    brand: "MelodySusie"
+    price: "$26.99"
+    compareAtPrice: "$54.93"
+    image: "https://www.melodysusie.com/cdn/shop/files/Caramel_Latte_6Pcs_0bc3c8bd-500a-43e4-a716-5bf1ee98a6d2.jpg?v=1773903429&width=1080"
+    link: "https://www.melodysusie.com/products/sweet-scent-plant-based-gel-nail-polish-set?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Small Set"
+    reviewCount: 0
+    details:
+      - "6 full-size 15ml bottles in warm latte and caramel-brown tones"
+      - "Same HEMA-Free, plant-based formula as the 10pc Autumn Maple set"
+      - "Lower price point for testing the line before committing to the full set"
+    pros:
+      - "Smaller 6-color set is an easier entry point for a first fall gel order"
+      - "Latte and caramel tones lean wearable and office-friendly"
+      - "Same plant-based, low-odor formula as the larger set"
+    cons:
+      - "Fewer color options than the 10pc Autumn Maple set"
+      - "Skews lighter brown/latte — less coverage of darker espresso or burgundy tones"
+    note: "No reviews yet — editorial fallback applies, same as product 1."
+
+  - name: "6 Colors TPO-Free Thick Gel Nail Polish Set 15ml – Chocolate Brown"
+    brand: "MelodySusie"
+    price: "$39.99"
+    compareAtPrice: "$59.94"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_5d20a1ae-467c-40b5-9427-fa06d361a458.jpg?v=1737454381&width=1600"
+    link: "https://www.melodysusie.com/products/6-colors-thick-gel-nail-polish-set-15ml-chocolate-brown?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best High-Pigment Formula"
+    rating: 5.0
+    reviewCount: 62
+    details:
+      - "High-pigment thick gel formula for full opacity in 1-2 coats"
+      - "6 full-size 15ml bottles in deep chocolate and espresso brown shades"
+      - "TPO-Free formula, rated 5.0 from 62 verified reviews"
+    pros:
+      - "Thick, high-pigment formula covers the nail in fewer coats than sheer gels"
+      - "5.0-star rating across 62 reviews — consistent results, not a fluke"
+      - "Deep espresso and chocolate tones match 2026's darkest fall trend colors"
+    cons:
+      - "Thicker formula needs thin, careful coats to avoid pooling at the cuticle"
+      - "Darker shades show regrowth and chips faster than lighter nudes"
+
+  - name: "377 Nude Brown – TPO-Free Faster UV Curing Gel Nail Polish"
+    brand: "MelodySusie"
+    price: "$7.99"
+    compareAtPrice: "$9.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/6391ace427ade714b70fb966024ae804_0774ecbb-14ed-44f7-9e7f-667ed327ac02.jpg?v=1720672209&width=1600"
+    link: "https://www.melodysusie.com/products/377-nude-brown-faster-uv-curing-gel-nail-polish?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Everyday Nude"
+    reviewCount: 0
+    details:
+      - "Single 15ml bottle in a warm, beige-leaning fall nude"
+      - "Faster UV-curing formula cuts lamp time per coat"
+      - "TPO-Free formula at an entry-level single-bottle price"
+    pros:
+      - "Warm beige-brown nude works for office, beginners, or low-maintenance fall looks"
+      - "Faster-curing formula means less time under the lamp per coat"
+      - "Low price makes it an easy single-shade add-on to a starter kit"
+    cons:
+      - "Single bottle only — no coordinating shades included"
+      - "Needs 2 coats for full opacity since it's a sheerer nude formula"
+    note: "No reviews yet — editorial fallback applies."
+
+  - name: "Fleurwee Plant-Based Gel Nail Polish – P02 Bordeaux Red"
+    brand: "MelodySusie"
+    price: "$8.99"
+    compareAtPrice: "$12.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/P02.jpg?v=1717725952&width=1600"
+    link: "https://www.melodysusie.com/products/fleurwee-gel-nail-polish-plant-based-bordeaux-red?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Burgundy Pick"
+    rating: 5.0
+    reviewCount: 302
+    details:
+      - "Deep, warm-toned Bordeaux red — 2026's defining fall burgundy"
+      - "Plant-based, HEMA-Free Fleurwee formula"
+      - "5.0-star rating from 302 verified reviews — most-reviewed pick on this list"
+    pros:
+      - "302 five-star reviews make this the most trusted single shade on this list"
+      - "Warm Bordeaux leans brown-red, matching this year's 'oxblood, not wine' fall trend"
+      - "Plant-based formula is gentler for repeat wear through the whole season"
+    cons:
+      - "Single bottle — buy a base coat separately since dark reds can stain bare nails"
+      - "Deep pigment means cleanup around the cuticle needs to be precise"
+
+comparisonTable:
+  features:
+    - "Formula Type"
+    - "Set Size"
+    - "Bottle Size"
+    - "Best For"
+    - "UV/LED Lamp Required"
+    - "Price"
+  columns:
+    - name: "Autumn Maple 10pc"
+      values: ["Plant-Based, HEMA-Free", "10 bottles", "15ml each", "Full fall color wardrobe", true, "$39.99"]
+    - name: "Caramel Latte 6pc"
+      values: ["Plant-Based, HEMA-Free", "6 bottles", "15ml each", "Quick fall refresh", true, "$26.99"]
+    - name: "Chocolate Brown 6pc"
+      values: ["TPO-Free Thick Gel", "6 bottles", "15ml each", "Bold, opaque coverage", true, "$39.99"]
+    - name: "377 Nude Brown"
+      values: ["TPO-Free, Faster-Curing", "1 bottle", "15ml", "Everyday nude base", true, "$7.99"]
+    - name: "Bordeaux Red"
+      values: ["Plant-Based, HEMA-Free", "1 bottle", "15ml", "Statement burgundy accent", true, "$8.99"]
+
+faqs:
+  - q: "Is MelodySusie gel polish HEMA-free?"
+    a: "The Sweet Scent plant-based sets (Autumn Maple, Caramel Latte) and the Fleurwee line, including Bordeaux Red, are HEMA-Free, HPMA-Free, and TPO-Free. The Chocolate Brown thick gel set and 377 Nude Brown are TPO-Free but are not labeled HEMA-free, so check the bottle if you have a known HEMA allergy."
+  - q: "How long does MelodySusie gel polish last without chipping?"
+    a: "Most home gel manicures with a proper base coat, two thin color coats, and a sealed top coat last 10-14 days. Thicker, high-pigment formulas like Chocolate Brown can hold up even longer when capped at the free edge each layer."
+  - q: "Can I apply MelodySusie gel polish without a base coat?"
+    a: "No. Skipping base coat is the most common cause of early chipping and staining, especially with dark shades like Bordeaux Red or Chocolate Brown. Always start with a base coat for both adhesion and to protect the natural nail from pigment staining."
+  - q: "Does MelodySusie ship gel polish fast within the USA?"
+    a: "Yes, MelodySusie ships to addresses across the USA, with free shipping available on qualifying order sizes. Exact delivery windows show at checkout based on your zip code."
+  - q: "Is brown or burgundy the more popular fall nail color this year?"
+    a: "Warm brown tones (mocha, chocolate, espresso) are trending slightly ahead of burgundy for fall 2026, but burgundy remains the go-to statement color, especially warmer 'oxblood' shades like Bordeaux Red rather than cooler wine tones."
+  - q: "Is the 6-piece or 10-piece gel polish set better value for fall?"
+    a: "The 10-piece Autumn Maple set is the better value if you want a full rotation of browns, nudes, and berries without rebuying mid-season. The 6-piece Caramel Latte or Chocolate Brown sets are better if you want to try the formula first or only wear lighter, everyday tones."
+```
+
+---
+
+## 3. SEO and Keyword Plan
+
+**Primary keyword (locked):** `MelodySusie fall gel polish colors`
+
+**Word count target:** 1,900–2,200 words. *(Note: no direct competitor currently ranks for this exact brand+season keyword — this is a content gap/blue-ocean term. Target is benchmarked against general "best fall nail colors" editorial roundups from Vampy Varnish, The Everygirl, and Byrdie, which run 1,200–2,500 words.)*
+
+**Keyword density target:** Primary keyword exact-match, ~9 mentions across a ~2,000-word post (~0.45% density). First 150 words: exactly 2 mentions, both wrapped in `<strong>` tags. All other mentions throughout the post also wrapped in `<strong>` tags.
+
+**Keyword variations** (no density target, no strong tags):
+best MelodySusie fall gel polish · MelodySusie fall gel nail polish · MelodySusie fall colors gel polish · fall gel polish colors MelodySusie · MelodySusie autumn gel polish colors · best fall gel polish colors 2026 · MelodySusie fall nail polish shades
+
+**Transactional cluster keywords** (use throughout, no density target):
+best brown gel nail polish · best nude gel nail polish set · burgundy gel nail polish · HEMA-free gel polish set · plant-based gel nail polish · chocolate brown gel polish set · high pigment gel nail polish · gel nail polish set for fall · best gel polish for fall manicure · fall gel polish gift set · TPO-free gel nail polish · gel nail polish set with top coat
+
+**High CPC transactional keywords** (weave into CTAs, H2s, mid-post copy):
+"gel nail polish set" · "best gel nail polish" · "HEMA free gel polish" (rising CPC, clean-beauty trend) · "burgundy gel nail polish" (seasonal CPC spike Sept–Nov) · "nail gift set" (CPC spikes Nov–Dec, relevant near conclusion) · "at home gel manicure kit"
+
+**LSI semantic terms:**
+autumn nail colors · mocha manicure · espresso brown nails · oxblood nail polish · dusty nude polish · tortoiseshell nails · brown French tip · soak-off gel polish · UV/LED cured gel · chip-resistant manicure · salon-quality at home · non-toxic nail polish · vegan nail polish · cruelty-free gel polish · nail polish swatches
+
+**AEO terms** (mapped — no unmapped terms):
+1. "What gel polish colors are trending for fall?" → H2 "Why Brown, Nude & Burgundy Are This Fall's Top Nail Trend"
+2. "Is MelodySusie gel polish HEMA-free?" → FAQ
+3. "How long does MelodySusie gel polish last without chipping?" → FAQ
+4. "What's the difference between a 6-piece and 10-piece gel polish set?" → H2 "Best Small-Batch Set" (Caramel Latte section)
+5. "Do I need a UV or LED lamp for MelodySusie gel polish?" → H2 "How Many Coats (and What Lamp) You Need"
+6. "What nail color is best for fall skin tones?" → H2 "Best Everyday Nude" (377 Nude Brown section)
+7. "Is burgundy or brown more popular for fall nails?" → H2 "Best Burgundy Pick" (Bordeaux Red section)
+8. "Can I apply gel polish without a base coat?" → FAQ
+9. "How many coats of gel polish do I need for full opacity?" → H2 "How Many Coats (and What Lamp) You Need"
+10. "Is plant-based gel polish better for sensitive skin?" → H2 "Best Small-Batch Set" (Caramel Latte section, HEMA-free callout)
+11. "What's the best brown gel polish for beginners?" → H2 "Best Everyday Nude"
+12. "Does MelodySusie ship gel polish fast to the USA?" → FAQ
+
+**GEO terms** (woven near CTAs, shipping mentions, availability copy):
+best gel polish to buy in the USA · MelodySusie gel polish USA shipping · where to buy MelodySusie gel polish online · MelodySusie free shipping USA orders · fall gel polish set USA delivery · buy MelodySusie online USA · fast shipping gel nail polish USA
+
+**Technical product terms:**
+soak-off gel formula · 15ml gel polish bottle · TPO-free formula · HEMA-free / HPMA-free formula · thick high-pigment gel · UV/LED cure time · plant-based resin gel
+
+**Buyer phrase bank** (from Amazon reviews, Quora, editorial fall-color coverage — weave naturally):
+"lasted at least 8 days without a single chip" · "rich and creamy formula" · "opaque color payoff" · "easy to use, even for beginners" · "doesn't smell strong" · "rivals salon results" · "switched because of a HEMA allergy" · "make sure you have the UV light for these" · "highly pigmented in one coat" · "matches your latte" (warm mocha/espresso tone framing) · "milk chocolate to dark espresso" (brown shade range framing) · "oxblood, not the cooler wine-based burgundy" (this year's burgundy direction)
+
+---
+
+## 4. Competitor and Title Intelligence
+
+- **Direct competitor finding:** No major site currently ranks specifically for "MelodySusie fall gel polish colors" — this is a brand+season long-tail gap. Broader "best fall nail colors" content (Vampy Varnish, The Everygirl, Byrdie, ELLE) is the closest comparable competitive set.
+- **What general fall-color roundups do well:** name specific shade families (mocha, espresso, oxblood, dusty nude), give application tips (thin coats, base coat to prevent staining from dark reds), and frame colors around lifestyle ("matches your latte," "cozy sweater weather").
+- **What they miss (our gap to fill):** none feature a specific brand's actual product lineup with real pricing/links — they're inspiration-only, not buyable. None address HEMA-free/sensitive-skin angle for fall darks. None compare set sizes (6pc vs 10pc) as a buying decision.
+- **Title direction:** Win on specificity + buyability. "Best MelodySusie Fall Gel Polish Colors for 2026" beats generic "best fall nail colors" roundups by naming the brand and being explicitly shoppable.
+- **Word count target:** 1,900–2,200 words (see Section 3).
+
+---
+
+## 5. Buyer Intelligence
+
+- **Who this buyer is:** A home gel-manicure user, beginner to intermediate, refreshing her color rotation for fall. Comfortable buying online, price-aware but willing to pay more for pigment quality and skin-safe formulas.
+- **What she needs from this post:** A clear answer to "which MelodySusie set/shade should I buy for fall" without having to cross-reference five different product pages herself.
+- **What frustrates her:** Vague "everyone needs fall colors" content with no real product links, missing info on whether a formula is HEMA-free, sets that turn out to be mini bottles, and reviews that read like marketing copy.
+- **Top 5 buying objections (each addressed in post body):**
+  1. "Will this actually last without chipping?" → addressed via FAQ + buyer phrase bank ("8 days without a single chip")
+  2. "Is this safe if I have a gel/HEMA allergy?" → addressed in HEMA-free callouts + FAQ
+  3. "Do I need special equipment (lamp)?" → addressed in lamp/coats H2
+  4. "Is a 6-piece or 10-piece set better value?" → addressed in comparison table + FAQ
+  5. "Will dark burgundy stain my nails?" → addressed in Bordeaux Red section + base coat FAQ
+- **Recurring praise to use as selling points:** rich/creamy pigment, opaque in one coat, low odor, easy for beginners
+- **Recurring complaints to address honestly:** thick formulas need thin coats to avoid pooling, dark shades stain without base coat, mini-bottle sets feel like poor value (note our picks are full-size 15ml, call this out as a pro)
+
+---
+
+## 6. Discount and Conversion Data
+
+- Sale price vs. compare-at price is already populated per product in Section 2 (all 5 products show a live discount on melodysusie.com).
+- **No verified, currently-active sitewide MelodySusie coupon code was confirmed directly from melodysusie.com.** Third-party coupon aggregator sites list conflicting, unverified codes (ranging 8%–60% off) — do not use any of these in the post, per the no-fabrication rule.
+- **Verified, stable conversion lever:** Free shipping is consistently referenced across multiple sources at the $129.99+ order threshold. Use this as the shipping/conversion mention rather than any specific promo code.
+- **Placement:** Mention free-shipping threshold near the ShopInlineCTA (after the Autumn Maple winner section) and again near ShopFinalCTA in the conclusion — natural phrasing, not a standalone paragraph.
+
+---
+
+## 7. Content Structure
+
+*Post gen: use these H2 headings in this exact order. Do not rename, reorder, or remove. Add H3s at your discretion.*
+
+| Section | Heading | Directive | AEO/GEO mapped | Internal link | Injection | Word budget |
+|---|---|---|---|---|---|---|
+| Intro | — | Hook on fall mani refresh; state the 5 picks upfront; **primary keyword 2x in `<strong>`** | — | — | — | 150–180 |
+| H2 1 | Why Brown, Nude & Burgundy Are This Fall's Top Nail Trend | Frame the 2026 trend: warm browns, dusty nudes, oxblood-leaning burgundy. Use buyer phrase bank ("matches your latte," "milk chocolate to dark espresso") | AEO #1 | — | — | 180 |
+| H2 2 | Best Overall: MelodySusie Autumn Maple Plant-Based Gel Set | Winner spotlight. Lead with benefit (full fall wardrobe in one box), then HEMA-free/plant-based safety angle | — | — | `{{PRODUCTS:1:0}}` | 230–250 |
+| *(ShopInlineCTA auto-fires here — mention free shipping $129.99+ naturally nearby)* | | | | | | |
+| H2 3 | Best Small-Batch Set: Caramel Latte 6pc Plant-Based Gel | Position as lower-commitment entry point; sensitive-skin/HEMA-free angle | AEO #4, AEO #10 | HEMA-Free Gel Polish post (link 1) | `{{PRODUCTS:1:1}}` | 190–210 |
+| H2 4 | Best High-Pigment Formula: Chocolate Brown 6-Color Thick Gel Set | Lead with the 5.0★/62-review proof point, opacity-in-one-coat benefit | — | — | `{{PRODUCTS:1:2}}` | 200–220 |
+| *(ComparisonTable auto-fires here — no H2 needed)* | | | | | | |
+| H2 5 | Best Everyday Nude: 377 Nude Brown | Position for beginners/office wear; address 2-coat sheerness honestly | AEO #6, AEO #11 | — | `{{PRODUCTS:1:3}}` | 180–200 |
+| H2 6 | Best Burgundy Pick: Fleurwee Bordeaux Red | Lead with 302-review trust signal; "oxblood not wine" framing; staining/base-coat warning | AEO #7 | Plant-Based Fleurwee post (link 2) | `{{PRODUCTS:1:4}}` | 200–220 |
+| H2 7 | How Many Coats (and What Lamp) You Need for a Salon-Level Fall Manicure | Practical application section: base coat, 2 thin coats, cure time, top coat | AEO #5, AEO #9 | Top Coat/Base Coat post (link 3) | — | 200–220 |
+| Conclusion | — | Final purchase push, not a summary. Restate winner. Mention USA shipping/free-shipping threshold near ShopFinalCTA | GEO terms here | — | — | 120–150 |
+
+**Injection plan:** `{{PRODUCTS:1:0}}` after H2 2 intro line · `{{PRODUCTS:1:1}}` after H2 3 intro line · `{{PRODUCTS:1:2}}` after H2 4 intro line · `{{PRODUCTS:1:3}}` after H2 5 intro line · `{{PRODUCTS:1:4}}` after H2 6 intro line. All featured (count=1) layout per review-style spotlight, consistent with best-of post type using single-product call-outs per pick.
+
+---
+
+## 8. Component Directives
+
+| Component | Status |
+|---|---|
+| WinnerBadge | ACTIVE — winnerIndex: 0 set in Section 2 |
+| ShopInlineCTA | ACTIVE — winnerIndex: 0 set in Section 2 |
+| ComparisonTable | ACTIVE — showComparison: true, comparisonTable data present in Section 2 |
+| ProsConsBlock | INACTIVE — showProscons: false (best-of post type default) |
+| ShopFinalCTA | ALWAYS ACTIVE — products[] exists |
+| ShopFAQ | ACTIVE — faqs[] has 6 entries in Section 2 |
+| ShopTableOfContents | ALWAYS ACTIVE |
+| Sidebar winner card | ACTIVE — winnerIndex: 0 set |
+
+---
+
+## 9. Writing Instructions
+
+- Conversion copy — every sentence moves the buyer toward a purchase decision, not editorial musing.
+- Lead with buyer benefit, not specs. Specs (HEMA-free, 15ml, TPO-free) support the benefit, never open a section.
+- Use buyer phrase bank from Section 3/5 naturally — speak the buyer's actual language.
+- Address all 5 buying objections from Section 5 directly, no hedging.
+- Honest cons build trust — state them, then counter with why the pick still wins its category.
+- Free-shipping threshold mentioned naturally near both CTAs, not as a standalone paragraph.
+- Every primary keyword mention wrapped in `<strong>` tags, no exceptions.
+- No editorial literary hooks — open each H2 with the buyer benefit or buying question directly.
+- Conclusion drives a decision, not a recap.
+- Internal links placed mid-post only, after the first product CTA, natural anchor text.
+- No related-articles section — handled by site component.
+- American English only. No banned AI patterns (elevate, seamlessly, game-changing, dive into, transformative). No long em dashes.
+- No "we tested" language anywhere — products 1, 2, and 4 have zero reviews; use informed editorial observation from specs only, per the notes in Section 2.
