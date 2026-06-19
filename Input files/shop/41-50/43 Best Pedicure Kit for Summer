@@ -1,0 +1,384 @@
+# SHOP_INPUT_FILE.md — Post 43
+
+**THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT.** All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions in this file must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy.
+
+---
+
+## 1. CLUSTER SUMMARY
+
+- **Cluster:** SC-01 Summer Nails (seasonal, peak months May–August)
+- **This post:** "Best Pedicure Kit for Summer: MelodySusie Picks" — post_id 43, slug `melodysusie-summer-pedicure-kit`
+- **Post type:** best-of
+- **Primary keyword:** `summer pedicure kit MelodySusie` (locked, owned by SC-01-S2)
+- **Role:** Spoke post under SC-01 pillar ("Best MelodySusie Summer Nail Products")
+- **Route:** `/shop/summer/melodysusie-summer-pedicure-kit`
+- **Internal links this post must include** (mid-post only, after first product CTA):
+  - SC-01 pillar — "Best MelodySusie Summer Nail Products" → `/shop/summer/best-melodysusie-summer-nail-products`
+  - SC-01-S1 — "Best Summer Gel Polish Colors from MelodySusie" → `/shop/summer/melodysusie-summer-gel-polish-colors`
+  - EC-05-S1 — "Best MelodySusie Nail Dust Collector" → `/shop/nail-care-tools/melodysusie-nail-dust-collector-review`
+- **Posts that link to this post:** SC-01 pillar (cross-sell from summer hub), EC-05 pillar (nail care tools hub)
+- **Affiliate mode:** Standard MelodySusie affiliate links (aff=3711), USA region only
+
+---
+
+## 2. FRONTMATTER BLOCK
+
+Copy this frontmatter block exactly into the post. Do not change any field.
+
+```yaml
+title: "Best Pedicure Kit for Summer: MelodySusie Tools, Ranked"
+excerpt: "5 MelodySusie picks for sandal-ready feet — callus removers, pedicure drills, and a foot soak that beat salon prices."
+date: "2026-06-19"
+author: "Mirellé"
+category: "summer"
+image: "https://www.melodysusie.com/cdn/shop/files/1_c5c545f1-80f2-4b5d-9b46-7295c6721e2e.jpg?v=1764920793&width=1600"
+imageAlt: "Best summer pedicure kit MelodySusie PC800G callus remover and pedicure tools for sandal-ready feet"
+imageWidth: 1200
+imageHeight: 630
+readTime: "8 min read"
+canonical: ""
+postType: "best-of"
+winnerIndex: 0
+showComparison: true
+showProscons: false
+comparisonCaption: "How the top summer pedicure picks compare"
+products:
+  - name: "PC800G Rechargeable Feet Callus Remover"
+    brand: "MelodySusie"
+    price: "$29.99"
+    compareAtPrice: "$45.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_c5c545f1-80f2-4b5d-9b46-7295c6721e2e.jpg?v=1764920793&width=1600"
+    link: "https://www.melodysusie.com/products/pc800g-rechargeable-feet-callus-remover-white-gold?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    rating: 4.8
+    reviewCount: 42
+    details:
+      - "3 speeds up to 2000RPM with 360° roller heads in 3 grit levels"
+      - "IPX7 waterproof — rinse clean under running water"
+      - "Up to 3 hours cordless use, travel-friendly"
+  - name: "PC760G Manicure & Pedicure Nail Drill Kit 4,600RPM"
+    brand: "MelodySusie"
+    price: "$29.99"
+    compareAtPrice: "$39.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_22ee0c99-7415-44d4-bce4-9966c65fd252.jpg?v=1742288441&width=1600"
+    link: "https://www.melodysusie.com/products/pc760g-manicure-pedicure-nail-drill-kit-4600-rpm?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Value"
+    rating: 5.0
+    reviewCount: 57
+    details:
+      - "8-in-1 bit set covers calluses, thick toenails, and cuticles"
+      - "360° surround LED light, zero dead spots"
+      - "6-hour battery life, 2.5-hour USB-C charge"
+  - name: "PC650E Manicure & Pedicure Nail Drill Kit 6,000RPM"
+    brand: "MelodySusie"
+    price: "$29.99"
+    compareAtPrice: "$45.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/PC650E_7b3a658f-0e54-4c5c-a0b0-20da839c45f7.jpg?v=1724381462&width=1600"
+    link: "https://www.melodysusie.com/products/pc650e-manicure-pedicure-nail-drill-kit-6000rpm?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Stubborn Calluses"
+    rating: 4.8
+    reviewCount: 26
+    details:
+      - "20 adjustable speeds, 0-6000RPM, forward/reverse rotation"
+      - "USB-C charging, up to 6 hours runtime"
+      - "8 grinding bits for heels, corns, and thick nails"
+  - name: "Tea Tree Oil Foot Soak with Sea Salt"
+    brand: "MelodySusie"
+    price: "$16.99"
+    compareAtPrice: "$19.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/6391ace427ade714b70fb966024ae804_b18b9e8c-bc9b-458f-b503-5aed410665a1.jpg?v=1762931845&width=1600"
+    link: "https://www.melodysusie.com/products/tea-tree-oil-foot-soak-with-sea-salt?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Pre-Pedicure Prep"
+    rating: 4.8
+    reviewCount: 26
+    details:
+      - "Tea tree oil plus sea salt softens skin before filing"
+      - "Sweet almond oil and plant extracts for deep moisture"
+      - "15-minute soak, ready in 3 simple steps"
+  - name: "PS1 (PC500D) Manicure & Pedicure Nail Drill Kit 650RPM"
+    brand: "MelodySusie"
+    price: "$39.99"
+    compareAtPrice: "$47.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/PC500D_74285bbd-1474-40e4-8054-71ca145b2804.jpg?v=1724381433&width=1600"
+    link: "https://www.melodysusie.com/products/p-manicure-pedicure-nail-drill-kit?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Gentle Option"
+    rating: 4.8
+    reviewCount: 59
+    details:
+      - "20 N.cm high torque motor at low 650RPM for sensitive feet"
+      - "Food-grade silicone body, anti-slip, shockproof"
+      - "5-hour battery, 8-in-1 kit with dust shield"
+comparisonTable:
+  features:
+    - "Price"
+    - "Rechargeable"
+    - "Waterproof"
+    - "Best For"
+    - "Speed Settings"
+  columns:
+    - name: "PC800G Callus Remover"
+      values: ["$29.99", true, true, "Sandal-ready heels fast", "3 speeds, up to 2000RPM"]
+    - name: "PC760G Drill Kit"
+      values: ["$29.99", true, false, "All-around mani-pedi", "5 speeds, up to 4600RPM"]
+    - name: "PC650E Drill Kit"
+      values: ["$29.99", true, false, "Thick calluses & corns", "20 speeds, up to 6000RPM"]
+    - name: "Tea Tree Foot Soak"
+      values: ["$16.99", false, false, "Pre-treatment softening", "N/A"]
+faqs:
+  - question: "What's the best pedicure kit for summer at home?"
+    answer: "For summer, the MelodySusie PC800G Callus Remover is the top pick — it's rechargeable, IPX7 waterproof, and built for fast heel and callus smoothing before sandal season. Pair it with the PC760G drill kit for nail shaping and a tea tree foot soak for prep, and you've got a full salon-style pedicure at home for under $80."
+  - question: "How often should I use an electric callus remover?"
+    answer: "Once or twice a week is enough for most people during summer, when feet take more daily wear from sandals. Daily use on the same spot can over-thin the skin, so rotate between feet and let calluses build back slightly before the next session."
+  - question: "Do I need to soak my feet before using a callus remover?"
+    answer: "Yes — calluses respond best to dry, callus-remover devices on dry skin, but a 15-minute soak beforehand with something like the MelodySusie Tea Tree Oil Foot Soak softens surrounding skin and makes the whole process more comfortable. Always dry feet completely before using an electric callus remover, since wet skin can clog the roller."
+  - question: "What RPM is best for foot calluses versus fingernails?"
+    answer: "For feet, 2000-6000RPM with a coarse roller head handles thick calluses and heel cracks effectively. For toenail shaping, lower speeds around 650-2000RPM are safer and gentler, which is why kits like the PS1 (PC500D) at 650RPM work well for sensitive skin or beginners."
+  - question: "Are MelodySusie pedicure tools safe for diabetics or sensitive feet?"
+    answer: "MelodySusie's lower-speed models like the PS1 (PC500D) at 650RPM with a 20 N.cm torque motor are gentler on skin, but anyone with diabetes, poor circulation, or skin conditions should consult a podiatrist before using any electric callus remover at home."
+  - question: "How long does a MelodySusie pedicure drill battery last?"
+    answer: "Most MelodySusie pedicure drills run 3 to 6 hours on a full charge. The PC760G and PC650E both offer up to 6 hours after a 2.5-hour USB-C charge, while the PC800G callus remover runs up to 3 hours per charge."
+  - question: "Does MelodySusie ship to the USA, and is shipping free?"
+    answer: "Yes, MelodySusie ships nationwide across the USA, with free shipping on orders over $129.99. Most pedicure tools in this guide ship individually below that threshold, so bundling 2-3 items together is the easiest way to unlock free shipping."
+  - question: "What's the difference between a callus remover and a pedicure nail drill?"
+    answer: "A callus remover like the PC800G is built specifically for rough skin removal with rotating grit rollers. A pedicure nail drill like the PC760G or PC650E is multi-purpose — it handles calluses but also shapes nails, smooths cuticles, and removes old polish using interchangeable bits."
+```
+
+---
+
+## 3. SEO AND KEYWORD PLAN
+
+**Primary keyword (locked):** `summer pedicure kit MelodySusie`
+
+**Keyword density target:** Competitor roundups (Stylist, HuffPost, TODAY, Zamberg, AOL) don't keyword-stuff exact-match phrases — they're loosely structured "best pedicure tools" listicles. Target density: 1.2% of total word count, with 3 extra mentions concentrated in the first half. For a ~1,600-word post, that's **9 total mentions** of the primary keyword (or close variants), all wrapped in `<strong>` tags.
+
+**First 150 words:** Primary keyword must appear exactly 2 times, both in `<strong>` tags.
+
+**Keyword variations (5-8, no density target, use naturally):**
+- summer pedicure essentials
+- best pedicure tools for summer
+- at-home pedicure kit MelodySusie
+- sandal-ready feet routine
+- MelodySusie foot care kit
+- summer foot care tools
+
+**Transactional cluster keywords (10-12, buyer-intent, no density target):**
+- electric callus remover for feet
+- rechargeable pedicure nail drill
+- best foot file for calluses
+- callus remover waterproof
+- pedicure drill kit with bits
+- tea tree foot soak
+- cordless pedicure tools
+- salon-quality pedicure at home
+- foot callus remover cordless
+- pedicure kit under $30
+- best foot care tools 2026
+- pedicure nail drill RPM
+
+**High CPC transactional keywords (research-backed, weave into CTAs/H2s/mid-post copy):**
+- "electric callus remover" — high commercial value, heavily contested by Amopé/Pritech in paid search
+- "pedicure nail drill kit" — strong buyer intent, used across Amazon and DTC ad copy
+- "rechargeable foot file" — recurring high-CPC term in beauty tool advertising
+- "best foot callus remover" — review-intent but high purchase-adjacent value
+
+**LSI semantic terms (12-15, weave naturally):**
+heel cracks, dead skin removal, foot exfoliation, diamond crystal roller, IPX7 waterproof, cordless foot file, sandal season, dry cracked heels, foot spa at home, toe polish, pumice alternative, salon-quality feet, summer footwear prep, USB-C charging, grit levels
+
+**AEO terms (10-12 full conversational questions, each mapped to H2 or FAQ):**
+1. "What's the best pedicure kit for summer at home?" → FAQ
+2. "How often should I use an electric callus remover?" → FAQ
+3. "Do I need to soak my feet before using a callus remover?" → FAQ
+4. "What RPM is best for foot calluses versus fingernails?" → FAQ
+5. "Are MelodySusie pedicure tools safe for diabetics or sensitive feet?" → FAQ
+6. "How long does a MelodySusie pedicure drill battery last?" → FAQ
+7. "Does MelodySusie ship to the USA, and is shipping free?" → FAQ
+8. "What's the difference between a callus remover and a pedicure nail drill?" → FAQ
+9. "Why do my feet need more care in summer than winter?" → H2 "Why Summer Feet Need a Different Pedicure Routine"
+10. "Is an electric callus remover better than a pumice stone?" → H2 "Electric Callus Remover vs. Pumice Stone: What Actually Works"
+11. "What pedicure tools do nail techs recommend for home use?" → H2 "What Pros Use at Home"
+12. "Can electric foot files damage skin if used wrong?" → H2 "How to Use a Callus Remover Without Overdoing It"
+
+**GEO terms (8-10, woven near CTAs/availability copy):**
+- best pedicure kit to buy in the USA
+- MelodySusie free shipping USA
+- pedicure tools fast shipping USA
+- where to buy MelodySusie pedicure kit online
+- MelodySusie USA delivery
+- shop pedicure tools online USA
+
+**Technical product terms (5-8):**
+RPM (rotations per minute), IPX7 waterproof rating, USB-C charging, N.cm torque, grit levels (fine/medium/coarse), forward/reverse rotation, mAh battery capacity
+
+**Buyer phrase bank (8-10 exact phrases from Amazon/Quora/YouTube research, weave naturally):**
+- "salon-quality results from the comfort of home"
+- "could take bark off a tree" (paraphrase as: surprisingly powerful results, not literal quote)
+- "best money I have ever spent" (paraphrase: buyers consistently call this a worthwhile investment)
+- "weak power" as the #1 recurring complaint on competing AA-battery callus removers (use as a counter-angle: MelodySusie's rechargeable motors avoid this)
+- "doesn't feel safe for regular maintenance" worry from cautious buyers → addressed via "gentle on sensitive skin" angle
+- buyers specifically search for "rechargeable" over "battery-powered" — strong signal for MelodySusie's cordless advantage
+- "summer sandals" / "open-toe shoes" as the recurring purchase trigger across nearly every competitor article
+
+---
+
+## 4. COMPETITOR AND TITLE INTELLIGENCE
+
+**Top competitor titles analyzed:**
+1. "How to do an at-home pedicure: plus the best products to use" (Stylist) — generic, no urgency, weak CTR hook
+2. "The Best At-Home Pedicure Products, According To Nail Pros" (HuffPost) — credibility angle but no price/value signal
+3. "Bring the salon home with the best pedicure kits" (AOL) — strong "salon at home" framing, this is the angle to beat
+
+**Title direction:** Beat competitors by combining the "salon at home" value prop with a specific, branded promise and implied ranking ("Ranked"). Avoid generic "at-home pedicure" framing — go straight to product comparison since this is a transactional best-of post, not an educational how-to.
+
+**Competitor gaps (now mandatory H2 sections in our post):**
+- None of the top 5 competitors mention RPM speed differences for calluses vs. nails — this is now H2 "Electric Callus Remover vs. Pumice Stone: What Actually Works"
+- No competitor addresses diabetic/sensitive-skin safety directly — covered in FAQ
+- No competitor compares battery life across multiple devices — covered in comparison table
+- No competitor explains pre-soak vs. dry-use technique — covered in H2 "How to Use a Callus Remover Without Overdoing It"
+
+**Missing product angles competitors miss:**
+- Cordless/rechargeable advantage over AA-battery competitors (Amopé runs on 4 AA batteries — recurring "weak power" Amazon complaint). MelodySusie's rechargeable motors are a clear differentiator.
+- IPX7 waterproof rating allowing shower use — underutilized selling point in competitor content
+
+**Word count target:** Competitor average is ~900-1,400 words for similar product roundups (Zamberg, AOL, TODAY). Target: **1,600 words** — meaningful increase that allows full FAQ and comparison coverage without bloat.
+
+---
+
+## 5. BUYER INTELLIGENCE
+
+**Who this buyer is:** A woman (primarily) prepping for sandal season — switching from boots/sneakers to open-toe shoes and noticing rough heels, calluses, or neglected toenails. Mostly home-use, beginner-to-intermediate skill level. Price-conscious but willing to spend $20-50 for a "salon-quality" result if it saves regular pedicure appointments.
+
+**What they need from this post:** A clear, ranked answer to "which MelodySusie tool should I actually buy" without having to cross-reference five different product pages themselves.
+
+**What frustrates them:** Vague "it depends" advice, no real specs, no mention of battery life or waterproofing, and review roundups that clearly didn't test the products (generic AI-sounding copy).
+
+**Top 5 buying objections (each addressed in body):**
+1. "Will this actually work on thick, stubborn calluses?" → addressed via RPM/torque specs and grit-level explanation
+2. "Is it safe to use, or will I overdo it and hurt my skin?" → addressed in "How to Use a Callus Remover Without Overdoing It" H2
+3. "Is this just going to die after a few uses like cheap battery ones?" → addressed via rechargeable battery life specs, contrasted with AA-battery competitor complaints
+4. "Do I need multiple tools or just one?" → addressed via comparison table and "best for" badges
+5. "Is this actually cheaper than going to a salon?" → addressed near final CTA with price-per-use framing
+
+**Buyer phrase bank:** see Section 3 above.
+
+**Recurring praise from real reviews (selling points):**
+- Rechargeable + cordless convenience repeatedly praised over AA-battery competitors
+- Waterproof/shower-safe use seen as a major plus
+- LED lighting on drill kits called out as genuinely useful for visibility
+
+**Recurring complaints (addressed honestly):**
+- Some buyers note results take "multiple sessions" for very thick calluses — addressed honestly in copy rather than overpromising instant results
+- Pressing too hard can stall the motor — addressed in usage tips H2
+
+---
+
+## 6. DISCOUNT AND CONVERSION DATA
+
+**Active MelodySusie sitewide codes (found during research):**
+- `OFF8` — 8% off sitewide
+- `MSOFF15` — 15% off orders over $129.99 (gift boxes excluded)
+- Free US shipping on orders over $129.99
+
+**Placement instruction:** Mention `MSOFF15` near the ShopInlineCTA section (after first 30% of content) and again near ShopFinalCTA. Frame as: bundling 2-3 products from this list crosses the $129.99 free-shipping/15%-off threshold — directly supports the "do I need multiple tools" objection.
+
+**Pricing per product:** See Section 2 products array — all prices and compare-at prices pre-filled, sourced directly from product pages.
+
+---
+
+## 7. CONTENT STRUCTURE
+
+Use these H2 headings in this exact order. Do not rename, reorder, or remove. Add H3s at your discretion.
+
+**Intro (150-200 words)**
+- Hook: sandal season exposes neglected feet; salon pedicures add up
+- Primary keyword in `<strong>` tags exactly 2x in first 150 words
+- Set up the 5-product lineup
+
+**H2: Why Summer Feet Need a Different Pedicure Routine** (~150 words)
+- AEO #9 answered here
+- Sets up seasonal urgency — sandals, heat, more callus buildup
+- No injection here
+
+**H2: The Best Summer Pedicure Kit, Ranked** (~250 words)
+- {{PRODUCTS:1:0}} — winner featured layout (PC800G)
+- Why it's the top pick: rechargeable, waterproof, 3 grit levels
+- First internal link goes AFTER this CTA: link to SC-01 pillar "Best MelodySusie Summer Nail Products"
+
+**H2: Electric Callus Remover vs. Pumice Stone: What Actually Works** (~200 words)
+- AEO #10 answered here
+- Addresses objection #1 (thick calluses)
+- {{PRODUCTS:2:1,2}} — PC760G and PC650E side by side
+
+**H2: Don't Skip the Soak: Pre-Pedicure Prep** (~150 words)
+- {{PRODUCTS:1:3}} — featured layout for Tea Tree Foot Soak
+- AEO #3 partially addressed here (full answer in FAQ)
+- Second internal link here: SC-01-S1 "Best Summer Gel Polish Colors from MelodySusie" (natural transition — soak/prep before polish)
+
+**H2: What Pros Use at Home** (~150 words)
+- AEO #11 answered here
+- {{PRODUCTS:1:4}} — PS1 (PC500D) gentle option featured
+- Third internal link here: EC-05-S1 "Best MelodySusie Nail Dust Collector" (natural pairing — dust-free pedicure setup)
+
+**H2: How to Use a Callus Remover Without Overdoing It** (~150 words)
+- AEO #12 answered here
+- Addresses objection #2 (safety)
+- No injection — pure educational/trust-building content
+
+**Comparison Table fires automatically here** (between section 2 and 3 per template rules — confirm placement aligns with showComparison: true)
+
+**Conclusion (100-150 words)**
+- Final push to purchase, not a summary
+- Mention MSOFF15 discount code near final CTA
+- GEO terms woven in: USA shipping, fast delivery
+
+**Word budget total: ~1,600 words**
+
+**Injection plan:**
+- {{PRODUCTS:1:0}} after "The Best Summer Pedicure Kit, Ranked" H2
+- {{PRODUCTS:2:1,2}} after "Electric Callus Remover vs. Pumice Stone" H2
+- {{PRODUCTS:1:3}} after "Don't Skip the Soak" H2
+- {{PRODUCTS:1:4}} after "What Pros Use at Home" H2
+
+---
+
+## 8. COMPONENT DIRECTIVES
+
+These components fire automatically from frontmatter. Confirm trigger fields in Section 2 are correctly set. Never write component content in body — it auto-renders.
+
+| Component | Status |
+|---|---|
+| WinnerBadge | ACTIVE — winnerIndex: 0 set |
+| ShopInlineCTA | ACTIVE — winnerIndex: 0 set |
+| ComparisonTable | ACTIVE — showComparison: true, comparisonTable data present |
+| ProsConsBlock | INACTIVE — showProscons: false (best-of post type) |
+| ShopFinalCTA | ALWAYS ACTIVE |
+| ShopFAQ | ACTIVE — 8 FAQ entries present |
+| ShopTableOfContents | ALWAYS ACTIVE |
+| Sidebar_winner_card | ACTIVE — winnerIndex: 0 set |
+
+---
+
+## 9. WRITING INSTRUCTIONS
+
+Follow these writing rules for every paragraph of body copy.
+
+- This is conversion copy — every sentence moves the buyer toward a purchase decision
+- Lead with buyer benefit, not product specs — specs support the benefit, never lead with them
+- Use buyer phrases from Section 5 naturally — speak their language
+- Address buying objections directly — do not hedge or avoid them
+- Honest notes (e.g. "thick calluses may take multiple sessions") build trust — include them, then counter with why the product is still the right buy
+- Discount information (MSOFF15) placed near CTAs — mention naturally, not as a standalone paragraph
+- Primary keyword in `<strong>` tags every mention — no exceptions, target 9 total mentions
+- No editorial literary hooks — open sections with the buyer benefit or buying question directly
+- H2 sections are short and direct — buyers scan, they do not read long intros
+- Conclusion = final push to purchase — not a summary, a decision driver
+- Internal links from cluster map placed mid-post after first product CTA — anchor text natural, never forced
+- No related articles section — handled by site component
+- Language: American English — not British English
+- No banned AI patterns: no "elevate", "seamlessly", "game-changing", "dive into", "transformative"
+- No long em dashes — use comma or restructure
+- Sentence rhythm varies — short punchy sentences for key selling points, longer for context
+- No "we tested" language — all 5 products have sufficient reviews (26-59 each), so use real review-informed language, not editorial fallback
+
+---
+
+**END OF INPUT FILE — POST GEN READY**
