@@ -1,0 +1,467 @@
+# SHOP INPUT FILE — POST 21
+## THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT.
+## All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy.
+
+---
+
+## SECTION 1 — CLUSTER SUMMARY
+
+- **Cluster:** EC-03 Gel Polish
+- **Category route:** `/shop/gel-polish`
+- **Post role:** Spoke (EC-03-S4)
+- **Post title:** MelodySusie Glitter Gel Polish: Best Sparkle Sets
+- **Slug:** `melodysusie-glitter-gel-polish`
+- **Post type:** best-of
+- **Primary keyword:** `MelodySusie glitter gel polish`
+- **Affiliate mode:** MelodySusie affiliate program (aff=3711)
+- **Region:** USA
+
+**Internal links this post must include** (mid-post only, after first product CTA):
+- EC-03 pillar: `/shop/gel-polish/best-melodysusie-gel-polish` — anchor: "best MelodySusie gel polish"
+- EC-03-S3: `/shop/gel-polish/melodysusie-cat-eye-gel-polish` — anchor: "cat eye gel polish"
+
+**Posts that link to this post:** EC-03 pillar (best gel polish roundup)
+
+---
+
+## SECTION 2 — FRONTMATTER BLOCK
+
+Post gen instruction: **Copy this frontmatter block exactly into the post. Do not change any field.**
+
+```yaml
+---
+title: "Best MelodySusie Glitter Gel Polish: Sparkle Sets Ranked"
+excerpt: "The best MelodySusie glitter gel polish picks — from the Galaliver 12-color set to single-bottle budget buys. 21-day sparkle that holds."
+date: "2026-06-19"
+author: "Mirellé"
+category: "gel-polish"
+image: "https://www.melodysusie.com/cdn/shop/files/12_12f31f19-0cdc-4eb9-a379-933da01e890f.jpg"
+imageAlt: "MelodySusie glitter gel polish Galaliver 12-color set bottles arranged showing sparkle shades"
+imageWidth: 1200
+imageHeight: 630
+readTime: "7 min read"
+canonical: ""
+postType: "best-of"
+winnerIndex: 0
+showComparison: true
+showProscons: false
+comparisonCaption: "How the top MelodySusie glitter gel polishes compare"
+
+products:
+  - name: "Galaliver Glitter Gel Nail Polish Set – 12 Colors"
+    brand: "MelodySusie"
+    price: "$89.99"
+    compareAtPrice: "$130.87"
+    image: "https://www.melodysusie.com/cdn/shop/files/12_12f31f19-0cdc-4eb9-a379-933da01e890f.jpg"
+    link: "https://www.melodysusie.com/products/galaliver-glitter-gel-nail-polish-set-12-colors?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    rating: 4.9
+    reviewCount: 32
+    details:
+      - "12 shades × 15ml each — from Hot Red to Starry Blue, Noble Gold to Colorful Silver"
+      - "High-density glitter formula cures in 60–120 sec under UV/LED, lasts 21+ days"
+      - "Non-toxic, low-odor formula — save 31% vs buying singles ($130.87 retail)"
+    pros:
+      - "Best value in the lineup — 12 full-size 15ml bottles for $89.99"
+      - "Color range covers parties, holidays, everyday glam, and nail art accent looks"
+      - "High-density glitter suspends evenly — no settling between coats"
+      - "Rated 4.9 stars — buyers praise rich sparkle payoff and longevity"
+      - "Works as standalone or layered over any base color for custom effects"
+    cons:
+      - "Contains HEMA — not suitable for those with HEMA sensitivity"
+      - "Requires base coat, UV/LED lamp, and top coat — not a standalone kit"
+
+  - name: "Galaliver Glitter Gel Nail Polish 15ml – X01 Hot Red"
+    brand: "MelodySusie"
+    price: "$9.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/6391ace427ade714b70fb966024ae804_08aa7dc4-6ede-4c72-a3fe-3b38ea819deb.jpg"
+    link: "https://www.melodysusie.com/products/galaliver-glitter-gel-nail-polish-x01-hot-red?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Single Shade"
+    rating: 4.9
+    reviewCount: 32
+    details:
+      - "Hot Red with high-density glitter — bold zodiac-inspired sparkle"
+      - "15ml full-size bottle, cures 60–120 sec, 21+ day wear"
+      - "Best entry point — pick one shade before committing to the full set"
+    pros:
+      - "Vivid red glitter — one of the most versatile holiday and party shades"
+      - "Full 15ml — large-capacity bottle that lasts far longer than 7ml competitors"
+      - "Same high-density Galaliver formula as the 12-color set at single-bottle price"
+      - "Low odor, non-toxic ingredients — comfortable for home DIY use"
+    cons:
+      - "No compare-at price — single bottles don't offer set savings"
+      - "Contains HEMA — patch test recommended for sensitive skin"
+
+  - name: "Galaliver Glitter Gel Nail Polish 15ml – X09 Colorful Silver"
+    brand: "MelodySusie"
+    price: "$9.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/6391ace427ade714b70fb966024ae804_8e0641e5-afa1-4a8e-872b-19c4bbc996ea.jpg"
+    link: "https://www.melodysusie.com/products/galaliver-glitter-gel-nail-polish-x09-colorful-silver?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Most Versatile"
+    rating: 4.9
+    reviewCount: 32
+    details:
+      - "Colorful Silver with multicolor reflective glitter — works across all seasons"
+      - "15ml full-size, 21+ day wear, cures under any UV/LED lamp"
+      - "Pairs with any base color — ideal for accent nails and French glitter tips"
+    pros:
+      - "Multi-tonal silver glitter catches light differently in every setting"
+      - "Works as a topper or standalone full-coverage shade"
+      - "Excellent for New Year's, weddings, and everyday glam"
+      - "Same large 15ml bottle as the full set — consistent formula quality"
+    cons:
+      - "Contains HEMA — not HEMA-free"
+      - "Sparkle intensity may be more than expected — swatch test recommended"
+
+  - name: "Z030 Red Glitter – TPO-Free Thick Gel Nail Polish (15ml)"
+    brand: "MelodySusie"
+    price: "$7.99"
+    compareAtPrice: "$9.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/Z030.jpg"
+    link: "https://www.melodysusie.com/products/z030-red-glitter-gel-nail-polish15ml?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Budget Pick"
+    rating: 5.0
+    reviewCount: 62
+    details:
+      - "TPO-Free thick gel formula — high-pigment red glitter in a 15ml bottle"
+      - "Cures in 60–90 sec LED/UV, lasts 21+ days with base and top coat"
+      - "5.0★ from 62 reviews — highest-rated glitter pick in the lineup"
+    pros:
+      - "5.0 stars across 62 reviews — the most reviewed and highest-rated glitter option"
+      - "TPO-L/TMO compliant formula — EU-standard ingredients"
+      - "Thick high-pigment gel covers in fewer coats than standard formulas"
+      - "Best price point — $7.99 (was $9.99) for a full 15ml bottle"
+      - "Made from natural resins — non-toxic, non-yellowing, low odor"
+    cons:
+      - "Not HEMA-free — patch test for sensitive skin"
+      - "Red glitter only — single-shade product, no color variety"
+
+comparisonTable:
+  features:
+    - "Formula type"
+    - "Bottle size"
+    - "Glitter density"
+    - "Cure time"
+    - "Wear time"
+    - "Rating"
+    - "HEMA-free"
+    - "TPO-free"
+    - "Best for"
+  columns:
+    - label: "Galaliver 12-Color Set"
+      values:
+        - "Galaliver glitter gel"
+        - "15ml × 12"
+        - "High-density"
+        - "60–120 sec"
+        - "21+ days"
+        - "4.9★ (32)"
+        - false
+        - false
+        - "Best overall value"
+    - label: "Galaliver X01 Hot Red"
+      values:
+        - "Galaliver glitter gel"
+        - "15ml"
+        - "High-density"
+        - "60–120 sec"
+        - "21+ days"
+        - "4.9★ (32)"
+        - false
+        - false
+        - "Single bold shade"
+    - label: "Galaliver X09 Colorful Silver"
+      values:
+        - "Galaliver glitter gel"
+        - "15ml"
+        - "High-density"
+        - "60–120 sec"
+        - "21+ days"
+        - "4.9★ (32)"
+        - false
+        - false
+        - "Versatile topper"
+    - label: "Z030 Red Glitter TPO-Free"
+      values:
+        - "Thick gel (TPO-L compliant)"
+        - "15ml"
+        - "High-pigment"
+        - "60–90 sec"
+        - "21+ days"
+        - "5.0★ (62)"
+        - false
+        - true
+        - "Budget + EU-safe"
+
+faqs:
+  - question: "What is MelodySusie Galaliver glitter gel polish?"
+    answer: "Galaliver is MelodySusie's dedicated glitter gel polish line. Each 15ml bottle contains a high-density glitter suspended in a clear gel base, inspired by zodiac signs and galaxy themes. It cures under any UV/LED lamp in 60–120 seconds and lasts 21+ days with base and top coat."
+
+  - question: "How long does MelodySusie glitter gel polish last?"
+    answer: "With proper prep — clean nails, thin base coat, 1–2 glitter coats fully cured, and a sealed top coat — MelodySusie glitter gel polish lasts 21 or more days without significant chipping or fading."
+
+  - question: "Do I need a UV lamp for MelodySusie glitter gel polish?"
+    answer: "Yes. All MelodySusie Galaliver and TPO-Free Thick Gel formulas are UV/LED gel polishes. You need a nail lamp to cure them. A standard 36W–48W LED lamp works fine — cure time is 60–120 seconds per coat."
+
+  - question: "Is MelodySusie glitter gel polish safe for sensitive skin?"
+    answer: "The Galaliver line contains HEMA, which can cause allergic reactions in some people. If you have HEMA sensitivity, MelodySusie's HEMA-Free gel polish range is the better option. Always do a patch test before full application."
+
+  - question: "How do you remove MelodySusie glitter gel polish?"
+    answer: "File the top coat lightly, wrap nails in acetone-soaked foil for 10–15 minutes, then gently push off the softened gel with a cuticle pusher. Glitter gels may require slightly longer soak time than regular gels — don't force the removal."
+
+  - question: "What is the best MelodySusie glitter gel polish for beginners?"
+    answer: "The Galaliver 12-Color Set is the best starting point — it gives you 12 full-size 15ml bottles at a significant discount versus buying singles. If you want to test one shade first, the Z030 Red Glitter TPO-Free at $7.99 is the most affordable entry point with 5.0 stars across 62 reviews."
+
+  - question: "Can you buy MelodySusie glitter gel polish in the USA with fast shipping?"
+    answer: "Yes. MelodySusie ships directly to the USA from their website. Orders over $129.99 qualify for free US shipping. Use code OFF8 for 8% off any order, or MSOFF15 for 15% off orders over $129.99."
+---
+```
+
+---
+
+## SECTION 3 — SEO AND KEYWORD PLAN
+
+Post gen instruction: **Follow this keyword plan exactly. Calculate density before writing — do not estimate.**
+
+**Primary keyword:** `MelodySusie glitter gel polish`
+- **Keyword density target:** 1.5% — match competitor average. Add 3 extra mentions in first half.
+- **Total mention target:** ~14 mentions in a 900-word post
+- **First 150 words:** Primary keyword must appear exactly 2 times — both in `<strong>` tags
+- **ALL primary keyword mentions throughout entire post wrapped in `<strong>` tags**
+
+**High CPC transactional keywords** (weave into CTAs, H2s, mid-post copy):
+- "glitter gel nail polish" (~$1.20–1.80 CPC)
+- "sparkle gel nail polish set" (~$1.00–1.50 CPC)
+- "MelodySusie gel polish" (~$0.90–1.40 CPC)
+- "best glitter gel nail polish" (~$1.30–2.00 CPC)
+- "glitter nail polish that lasts" (~$0.80–1.20 CPC)
+
+**Keyword variations** (use naturally, no density target, no strong tags):
+- MelodySusie glitter gel
+- Galaliver gel polish
+- MelodySusie sparkle nail polish
+- glitter gel polish set MelodySusie
+- MelodySusie nail polish glitter
+
+**Transactional cluster keywords:**
+- buy glitter gel nail polish online
+- glitter gel polish 15ml
+- gel nail polish that lasts 21 days
+- glitter nail polish set for home use
+- sparkle gel nail polish USA
+- gel nail glitter set value
+
+**LSI semantic terms** (weave in naturally):
+- high-density glitter
+- soak-off gel polish
+- UV/LED cure
+- 21-day wear
+- non-toxic nail polish
+- galaxy nail art
+- glitter nail art designs
+- accent nail glitter
+- zodiac nail aesthetic
+- French glitter tips
+- gel polish longevity
+- nail sparkle effect
+
+**AEO terms** (mapped below):
+- "What is the best MelodySusie glitter gel polish to buy?" → H2: Which Galaliver Glitter Polish Should You Actually Buy?
+- "How long does glitter gel polish last at home?" → H2: How Long Does MelodySusie Glitter Gel Polish Last?
+- "Is MelodySusie glitter gel polish good quality?" → H2: intro section / first 30%
+- "What glitter gel polish works for nail art?" → H2: What Can You Do With MelodySusie Glitter Gel Polish?
+- "Do you need a UV lamp for glitter gel polish?" → FAQ
+- "What is the cheapest MelodySusie glitter gel polish?" → H2: Which Galaliver Glitter Polish Should You Actually Buy?
+- "Is MelodySusie glitter gel polish safe?" → FAQ
+- "How do you remove glitter gel nail polish?" → FAQ
+- "Can I buy MelodySusie glitter gel polish in the USA?" → FAQ
+
+**GEO terms** (place near CTAs and availability copy):
+- "MelodySusie glitter gel polish USA"
+- "glitter gel nail polish free shipping USA"
+- "buy MelodySusie glitter gel online"
+- "MelodySusie ships to USA"
+- "best sparkle gel polish to buy online in the USA"
+
+**Buyer phrase bank** (weave naturally into copy):
+- "stays on for weeks without chipping"
+- "love how sparkly it looks under lights"
+- "the glitter doesn't settle to the bottom"
+- "looks just as good at day 14 as day 1"
+- "easy to apply — no clumping or streaking"
+- "rich color that covers in 1–2 coats"
+- "feels just like a salon manicure at home"
+- "worth every penny for a full set"
+- "perfect for parties, holidays, and everyday glam"
+- "the 15ml bottle lasts way longer than cheaper brands"
+
+---
+
+## SECTION 4 — COMPETITOR AND TITLE INTELLIGENCE
+
+Post gen instruction: **Use this section to write a title and excerpt that outperforms competitors on CTR.**
+
+**Top 3 competitor titles for this keyword:**
+1. "Best Glitter Gel Nail Polish 2025" — generic, no brand specificity, weak buyer benefit
+2. "MelodySusie Galaliver Review: Is It Worth It?" — review intent, not transactional set focus
+3. "Best Sparkle Gel Polish Sets Ranked" — no brand anchor, misses MelodySusie buyers
+
+**What beats them:** Lead with MelodySusie + glitter gel polish + ranked/sets in first 8 words. Add a specific benefit hook ("Sparkle Sets Ranked" or "21-Day Sparkle Tested"). Our title does this.
+
+**Competitor gaps — mandatory H2 sections to include:**
+- None explain the difference between Galaliver vs TPO-Free Thick Gel glitter lines
+- None address HEMA content honestly and what it means for buyers
+- None give per-bottle vs set value comparison
+- None cover nail art use cases (accent nails, French glitter tips, galaxy nails)
+- None provide discount/promo information
+
+**Missing product angles competitors miss:**
+- The large 15ml bottle size advantage vs 7–10ml competitors
+- Zodiac/galaxy theme storytelling behind Galaliver
+- TPO-L/TMO EU-compliant angle for the Z030 formula
+
+**Word count target:** 900–1,000 words (competitor average ~850, +10%)
+
+---
+
+## SECTION 5 — BUYER INTELLIGENCE
+
+Post gen instruction: **Every paragraph of copy must be written for this specific buyer. Use the exact phrases listed here naturally in the copy.**
+
+**Who this buyer is:**
+- DIY home nail enthusiast, beginner to intermediate skill level
+- Loves sparkle and statement nails — shops for parties, holidays, NYE, everyday glam
+- Primarily buying from melodysusie.com directly (not Amazon)
+- Budget-aware: wants to know if the set is worth it vs buying singles
+- Often has a UV/LED lamp already — just needs the polish
+
+**What they need from this post:**
+- Confirmation that MelodySusie glitter gel polish is quality, long-lasting, and worth buying
+- Clear guidance on which product to buy (set vs single bottle vs budget pick)
+- Honest info on HEMA and what it means
+- Discount codes and shipping info before they click through
+
+**What frustrates them:**
+- Reviews that don't say how long the sparkle actually lasts
+- No info on whether glitter settles in the bottle
+- Vague ingredient warnings without context
+- No mention of what tools they need
+
+**Top 5 buying objections (address all in post body):**
+1. "Is the glitter going to look chunky or clumpy?" → Address: high-density suspension, no settling
+2. "Will it chip within a week?" → Address: 21-day wear with proper application
+3. "Is it worth $89.99 for the set vs buying singles?" → Address: value breakdown
+4. "Is it safe? I've heard HEMA is bad." → Address honestly in a dedicated note
+5. "Does MelodySusie ship fast to the USA?" → Address: free shipping on $129.99+, discount codes
+
+**Recurring buyer praise (use as selling points):**
+- Excellent pigmentation and sparkle payoff
+- Bottle lasts far longer than smaller competitors
+- Colors are exactly as shown — no color-accuracy disappointment
+- Low odor makes home use comfortable
+
+**Recurring buyer concerns (address honestly):**
+- Contains HEMA — be upfront, recommend patch test
+- Requires base coat + lamp + top coat — mention this clearly so buyers aren't surprised
+
+---
+
+## SECTION 6 — DISCOUNT AND CONVERSION DATA
+
+Post gen instruction: **Include active discount information naturally in the post — place near ShopInlineCTA section and ShopFinalCTA area.**
+
+- **Galaliver 12-Color Set:** $89.99 sale price (was $130.87) — 31% off
+- **Z030 Red Glitter:** $7.99 sale price (was $9.99) — 20% off
+- **Active sitewide discount codes:**
+  - `OFF8` — 8% off sitewide, no minimum
+  - `MSOFF15` — 15% off orders over $129.99
+- **Free US shipping:** orders over $129.99
+- **Placement:** Mention OFF8 near ShopInlineCTA. Mention MSOFF15 + free shipping near ShopFinalCTA.
+
+---
+
+## SECTION 7 — CONTENT STRUCTURE
+
+Post gen instruction: **Use these H2 headings in this exact order. Do not rename, reorder, or remove. Add H3s at your discretion.**
+
+### H2 1: What Makes MelodySusie Glitter Gel Polish Different?
+- **What this section covers:** Introduce the Galaliver line and TPO-Free Thick Gel glitter as MelodySusie's two glitter options. Establish the high-density glitter formula angle, 15ml bottle size advantage, 21-day wear. Hook the buyer with the quality story.
+- **AEO term answered here:** "Is MelodySusie glitter gel polish good quality?"
+- **Word budget:** 150 words
+- **Product injection:** `{{PRODUCTS:1:0}}` — featured layout for the 12-Color Set winner
+- **No internal links yet**
+
+### H2 2: The Full Galaliver Lineup: Colors, Finishes, and What to Expect
+- **What this section covers:** Walk through what Galaliver offers — 14 individual shades (X01–X14) plus the 12-color set. Mention standout shades: X01 Hot Red, X09 Colorful Silver, X02 Noble Gold, X11 Starry Blue. Cover the zodiac/galaxy theme briefly. Address the "does glitter settle?" objection.
+- **Word budget:** 150 words
+- **Product injection:** `{{PRODUCTS:2:1,2}}` — X01 Hot Red and X09 Colorful Silver side by side
+
+### H2 3: What Can You Do With MelodySusie Glitter Gel Polish?
+- **What this section covers:** Nail art use cases — all-over glitter, accent nails, French glitter tips, galaxy nail effects. Buyer use case language. Short, punchy. Drive creative aspiration.
+- **AEO term answered here:** "What glitter gel polish works for nail art?"
+- **Word budget:** 100 words
+- **Internal links placed here** (after first product CTA has already appeared):
+  - Link to EC-03 pillar: "best MelodySusie gel polish"
+  - Link to EC-03-S3: "cat eye gel polish"
+
+### H2 4: How Long Does MelodySusie Glitter Gel Polish Last?
+- **What this section covers:** Address durability directly. 21-day wear with proper prep. Thin coats, full cure, sealed top coat. Counter the "will it chip?" objection. Mention buyer reviews praising longevity.
+- **AEO term answered here:** "How long does glitter gel polish last at home?"
+- **GEO terms woven here:** natural mention of buying online in the USA
+- **Word budget:** 100 words
+
+### H2 5: Galaliver vs Z030: Which MelodySusie Glitter Should You Buy?
+- **What this section covers:** Direct comparison of the two MelodySusie glitter formulas. Galaliver = high-density glitter gel, TPO-Free Thick Gel (Z030) = high-pigment thick formula with TPO-L/TMO compliance. Honest note on HEMA. Value breakdown: set vs singles vs budget bottle.
+- **AEO terms answered here:** "What is the cheapest MelodySusie glitter gel polish?" + "Is MelodySusie glitter gel polish safe?"
+- **Word budget:** 150 words
+- **Product injection:** `{{PRODUCTS:1:3}}` — Z030 featured layout
+- **Mention OFF8 discount code here** (near inline CTA area)
+
+### H2 6: Which Galaliver Glitter Polish Should You Actually Buy?
+- **What this section covers:** Final buying recommendation. Clear decision tree: buy the 12-color set for value, pick X01 Hot Red or X09 Silver for a single trial, go Z030 for the budget pick. Close with MSOFF15 and free shipping mention.
+- **AEO terms answered here:** "What is the best MelodySusie glitter gel polish to buy?"
+- **GEO terms woven here:** shipping to USA, buy online
+- **Word budget:** 100 words
+- **Product injection:** `{{PRODUCTS:2:0,3}}` — winner set + Z030 budget pick
+
+---
+
+## SECTION 8 — COMPONENT DIRECTIVES
+
+Post gen instruction: **These components fire automatically from frontmatter. Never write component content in body — it auto-renders. Confirm trigger fields in Section 2 are correctly set.**
+
+| Component | Status | Trigger |
+|---|---|---|
+| WinnerBadge | **ACTIVE** | winnerIndex: 0 set |
+| ShopInlineCTA | **ACTIVE** | winnerIndex: 0 set — fires after ~30% of content (after H2 1) |
+| ComparisonTable | **ACTIVE** | showComparison: true + comparisonTable data present |
+| ProsConsBlock | **INACTIVE** | showProscons: false |
+| ShopFinalCTA | **ALWAYS ACTIVE** | products[] exists |
+| ShopFAQ | **ACTIVE** | faqs[] has 7 entries |
+| ShopTableOfContents | **ALWAYS ACTIVE** | reads H2/H3 from body |
+| Sidebar winner card | **ACTIVE** | winnerIndex: 0 set |
+
+---
+
+## SECTION 9 — WRITING INSTRUCTIONS
+
+Post gen instruction: **Follow these writing rules for every paragraph of body copy.**
+
+- This is conversion copy — every sentence moves the buyer toward a purchase decision
+- Lead with buyer benefit, not product specs
+- Use buyer phrases from Section 5 naturally — speak their language
+- Address all 5 buying objections explicitly in the body
+- Honest cons build trust — include HEMA disclosure, mention it clearly once, move forward
+- OFF8 placed near ShopInlineCTA (H2 5 area); MSOFF15 + free shipping near ShopFinalCTA (H2 6)
+- Primary keyword in `<strong>` tags every mention — no exceptions
+- No editorial literary hooks — open sections with the buyer benefit or question directly
+- H2 sections are short and direct — buyers scan
+- Conclusion = final push to buy, not a summary
+- Internal links mid-post only (H2 3) — anchor text natural
+- No related articles section
+- Language: American English
+- No banned patterns: no "elevate," "seamlessly," "game-changing," "dive into," "transformative"
+- No long em dashes — use comma or restructure
+- No "we tested" language — editorial observation from specs and verified buyer reviews
+- Sentence rhythm varies — short punchy for key selling points, longer for context
+- Word count target: 900–1,000 words
