@@ -1,0 +1,551 @@
+# THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT
+All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions in this file must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy.
+
+---
+
+## SECTION 1 — CLUSTER SUMMARY
+
+- **Cluster:** EC-05 — Nail Care Tools
+- **Category route:** `/shop/nail-care-tools`
+- **Post:** MelodySusie Nail Files and Buffers: Best Professional Picks
+- **Slug:** `melodysusie-nail-files-buffers`
+- **Post type:** best-of
+- **Primary keyword:** MelodySusie nail files
+- **Role:** Spoke post under EC-05 pillar (Best MelodySusie Nail Care Tools)
+- **Affiliate mode:** MelodySusie affiliate — USA-targeted
+- **Region:** USA
+
+**Internal links this post must include (mid-post only, after first product CTA):**
+- Link to EC-05 pillar: `/shop/nail-care-tools/best-melodysusie-nail-care-tools` — anchor: "MelodySusie nail care tools"
+- Link to EC-05-S1 (dust collector): `/shop/nail-care-tools/melodysusie-nail-dust-collector-review` — anchor: "MelodySusie nail dust collector"
+- Link to EC-04-S1 (beginner kit): `/shop/nail-kits/melodysusie-beginner-nail-kit` — anchor: "MelodySusie beginner nail kit"
+
+**Posts that link to this post:**
+- EC-05 pillar (nail care tools roundup)
+- EC-04-S1 (beginner nail kit)
+
+---
+
+## SECTION 2 — FRONTMATTER BLOCK
+
+> **Post Gen Instruction:** Copy this frontmatter block exactly into the post. Do not change any field. Image URLs, prices, product names, slugs — all pre-filled here.
+
+```yaml
+---
+title: "Best MelodySusie Nail Files & Buffers: 5 Professional Picks Ranked"
+excerpt: "The best MelodySusie nail files and buffers for home and salon use — all 5 picks ranked by grit, type, and value."
+date: "2026-06-20"
+author: "Mirellé"
+category: "nail-care-tools"
+image: "https://www.melodysusie.com/cdn/shop/files/1_2049c8c8-0cf4-4017-ac71-1fe98f00cafd.jpg?v=1729664717"
+imageAlt: "MelodySusie nail files and buffers 16-piece professional kit with half-moon files, buffer blocks, and nail brush laid flat"
+imageWidth: 1200
+imageHeight: 630
+readTime: "8 min read"
+canonical: ""
+postType: "best-of"
+winnerIndex: 0
+showComparison: true
+showProscons: false
+comparisonCaption: "How the top MelodySusie nail file and buffer picks compare"
+
+products:
+  - name: "Professional Nail Files and Buffers 16Pcs Kit - 100/180 Grit"
+    brand: "MelodySusie"
+    price: "$9.99"
+    compareAtPrice: "$12.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_2049c8c8-0cf4-4017-ac71-1fe98f00cafd.jpg?v=1729664717"
+    link: "https://www.melodysusie.com/products/professional-nail-files-and-buffers-16pcs-kit-100-180-grit?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    rating: 4.7
+    reviewCount: 0
+    details:
+      - "16 pieces: 5 half-moon files, 5 nail buffer blocks, 3 pink + 2 gray buffers, 1 nail brush"
+      - "Dual 100/180 grit — coarse side for shaping acrylic/gel, fine side for smoothing natural nails"
+      - "High-elastic sponge buffer blocks — gentle polish without nail damage"
+    pros:
+      - "Most complete nail file kit in the MelodySusie lineup — everything for shaping, buffing, and finishing in one set"
+      - "Ergonomic half-moon curved design makes filing near the cuticle and nail edges significantly easier than straight files"
+      - "Dual 100/180 grit handles both acrylic shaping and natural nail smoothing — no need to buy separate files"
+      - "Washable emery board materials — quick to clean, last longer than standard drugstore files"
+      - "Comes with a nail cleaning brush — a practical extra most file kits skip"
+    cons:
+      - "No fine grit (240+) buffer block included — buyers wanting a high-shine polish finish will need to purchase that separately"
+      - "Buffer blocks are sponge-based and not autoclavable — not suited for shared professional salon hygiene protocols"
+
+  - name: "9Pcs Nail Files and Buffers Set - 100/180 Grit"
+    brand: "MelodySusie"
+    price: "$9.99"
+    compareAtPrice: "$12.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_1a4ca6cd-5c76-44f6-ae78-57d359ffc3bf.jpg?v=1729670966"
+    link: "https://www.melodysusie.com/products/9pcs-nail-files-and-buffers-set-100-180-grit?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Nail Techs"
+    rating: 4.6
+    reviewCount: 0
+    details:
+      - "9 pieces: 3 pink half-moon, 3 gray half-moon, 3 gray diamond nail buffers"
+      - "Upgraded emery board and sandpaper materials — built for precision and durability"
+      - "Diamond-shaped buffers for surface smoothing; half-moon for edge shaping"
+    pros:
+      - "Introduces diamond-shaped buffers alongside half-moon buffers — gives more control for surface smoothing versus edge shaping"
+      - "Upgraded material quality — denser emery board that holds its grit longer with repeated use"
+      - "More compact set than the 16Pcs — practical for at-home nail techs who want less clutter"
+      - "Both pink and gray buffers — ergonomic color-coding for tracking use across buffer types"
+    cons:
+      - "No nail cleaning brush included — one step behind the 16Pcs kit in completeness"
+      - "Buffer-only set — no standalone nail files included; buyers who want emery board shaping files need the 16Pcs kit instead"
+
+  - name: "4Pcs Double Sided 360 Grit Glass Nail File Set"
+    brand: "MelodySusie"
+    price: "$7.99"
+    compareAtPrice: "$10.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/6391ace427ade714b70fb966024ae804_02954fbb-fd1e-4ea7-bff8-e92156ca19d9.jpg?v=1729670718"
+    link: "https://www.melodysusie.com/products/4pcs-double-sided-360-grit-glass-nail-file-set?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Natural Nails"
+    rating: 4.5
+    reviewCount: 0
+    details:
+      - "360 grit — ultra-fine glass surface seals nail edges as it files to prevent peeling and splitting"
+      - "Double-sided — consistent fine grit on both surfaces, fully washable and reusable"
+      - "Set of 4 — one for home, one for travel, extras for gifting"
+    pros:
+      - "Glass files seal the nail edge as they shape — dramatically reduces the nail splitting and peeling that emery boards can cause on natural nails"
+      - "Washable and reusable indefinitely — far better long-term value than disposable emery boards"
+      - "360 grit is ideal for anyone with thin, brittle, or sensitive nails who can't use coarser files"
+      - "4-piece set provides enough to keep one in every bag and at every station"
+    cons:
+      - "Too fine for acrylic or gel nail shaping — 360 grit does not remove enough product for enhancement work"
+      - "Glass files can break if dropped — more fragile than foam-backed emery boards"
+
+  - name: "Professional Double Sided Straight Nail File 100/180"
+    brand: "MelodySusie"
+    price: "From $3.99"
+    image: "https://www.melodysusie.com/cdn/shop/products/2_fbcd3b5b-0f8e-4220-a857-b36d0a5e402b.jpg?v=1745380184"
+    link: "https://www.melodysusie.com/products/professional-double-sided-straight-nail-file-100-180?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Value"
+    rating: 4.5
+    reviewCount: 0
+    details:
+      - "Classic double-sided straight emery board — 100 grit coarse side, 180 grit fine side"
+      - "Available in multiple quantities — individual or multi-packs from $3.99"
+      - "Suitable for fingernails, toenails, natural nails, acrylic, dip, and false nails"
+    pros:
+      - "Most affordable entry point in the MelodySusie nail file lineup — strong value for everyday use"
+      - "Dual grit on one tool — shape with the 100 side, smooth with the 180 side without switching tools"
+      - "Standard straight format fits every nail shape scenario — square, round, almond, coffin"
+      - "Available in bulk packs — ideal if you use a fresh file per session for hygiene"
+    cons:
+      - "Straight format is less ergonomic than curved half-moon files for filing near the cuticle area"
+      - "Entry-level price point reflects simpler construction — grit wears faster than the premium kit files"
+
+  - name: "50Pcs Heart Shape Mini Nail Buffer Block 100/180 Grit"
+    brand: "MelodySusie"
+    price: "$7.99"
+    compareAtPrice: "$10.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/6391ace427ade714b70fb966024ae804_33019f57-def4-42a7-92ea-7807085129d1.jpg?v=1733302421"
+    link: "https://www.melodysusie.com/products/50pcs-heart-shape-mini-nail-buffer-block-100-180-grit?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Bulk Buy"
+    rating: 4.4
+    reviewCount: 0
+    details:
+      - "50-piece heart-shaped mini buffer blocks — 100/180 dual grit"
+      - "High-elastic EVA sponge — gentle buffing without thinning the nail plate"
+      - "Compact heart shape fits neatly in any nail station or travel bag"
+    pros:
+      - "50-piece count means never running out — great for nail students, home nail techs, or salon professionals who change buffers between clients"
+      - "Heart-shaped mini format is compact and precise — easier to handle for detailed buffing around the nail edge"
+      - "100/180 dual grit on one mini block — preps and smooths in a single tool"
+      - "Strong value at $7.99 for 50 pieces — under $0.16 per buffer block"
+    cons:
+      - "Mini size means lighter pressure coverage per pass — takes slightly more strokes than full-size buffer blocks for the same result"
+      - "Heart shape is aesthetically appealing but not shaped for ergonomic grip the way full rectangular blocks are"
+
+comparisonTable:
+  caption: "How the top MelodySusie nail file and buffer picks compare"
+  features:
+    - "Piece Count"
+    - "Grit Options"
+    - "File Type"
+    - "Best For"
+    - "Washable / Reusable"
+    - "Includes Brush"
+    - "Price"
+  columns:
+    - name: "16Pcs Kit"
+      badge: "Best Overall"
+      values:
+        - "16 pieces"
+        - "100 / 180"
+        - "Half-moon + Buffer Blocks"
+        - "All nail types — home and salon"
+        - true
+        - true
+        - "$9.99"
+    - name: "9Pcs Set"
+      badge: "Best for Nail Techs"
+      values:
+        - "9 pieces"
+        - "100 / 180"
+        - "Half-moon + Diamond Buffers"
+        - "Precision buffing, nail tech use"
+        - true
+        - false
+        - "$9.99"
+    - name: "Glass File Set"
+      badge: "Best for Natural Nails"
+      values:
+        - "4 pieces"
+        - "360 (ultra-fine)"
+        - "Glass Crystal File"
+        - "Thin, brittle, natural nails"
+        - true
+        - false
+        - "$7.99"
+    - name: "Straight File"
+      badge: "Best Value"
+      values:
+        - "Varies by pack"
+        - "100 / 180"
+        - "Standard Emery Board"
+        - "Everyday shaping all nail types"
+        - true
+        - false
+        - "From $3.99"
+    - name: "50Pcs Mini Buffer"
+      badge: "Best Bulk Buy"
+      values:
+        - "50 pieces"
+        - "100 / 180"
+        - "Mini Heart Buffer Block"
+        - "Nail students, salon pros, bulk stock"
+        - false
+        - false
+        - "$7.99"
+
+faqs:
+  - question: "What grit nail file should I use for natural nails?"
+    answer: "For natural nails, use 180 grit or higher. The MelodySusie 16Pcs Kit's 180 grit fine side shapes natural nails cleanly without thinning or fraying the nail plate. For thin or brittle nails, step up to the 360 grit glass file — it seals the nail edge as it files, which prevents splitting and peeling that coarser files can cause."
+
+  - question: "What is the difference between a nail file and a nail buffer?"
+    answer: "Nail files shape and shorten the nail edge — they work on the side and tip of the nail. Nail buffers smooth and polish the nail surface — they work on the top of the nail plate. The MelodySusie 16Pcs Kit includes both: half-moon files for shaping and buffer blocks for smoothing, so you have all stages covered in one set."
+
+  - question: "Can I use a 100 grit nail file on natural nails?"
+    answer: "It's not recommended. A 100 grit file is coarse enough to thin the natural nail plate and cause peeling or breakage. Use 100 grit only on acrylic, gel, or dip powder nails for shaping and bulk removal. For natural nails, stick to 180 grit or above."
+
+  - question: "Are MelodySusie nail files washable?"
+    answer: "Yes — the emery board nail files in the MelodySusie 16Pcs Kit and 9Pcs Set are made from washable high-quality emery board materials. Rinse under water, let dry completely, and they're ready to reuse. The glass files in the 4Pcs Glass Set are also fully washable and last indefinitely when stored safely."
+
+  - question: "How many nail files and buffers do I need for home use?"
+    answer: "For home use, the MelodySusie 16Pcs Kit covers everything — 5 files for shaping, 5 buffer blocks for smoothing, and 3 backup buffers for variety. If you do your nails every 2–3 weeks, the kit lasts several months. If you want to use a fresh buffer per session for hygiene, the 50Pcs Mini Buffer Block set gives you a bulk supply at under $0.16 each."
+
+  - question: "What nail file shape is best — half-moon or straight?"
+    answer: "Half-moon (curved) files are better for filing near the cuticle and the inner curves of the nail — the curved portion naturally follows the nail edge. Straight emery boards are fine for shaping the tip and sides. The MelodySusie 16Pcs Kit uses half-moon files for this reason, though the Professional Straight File is a solid everyday pick at a lower price point."
+
+  - question: "Does MelodySusie ship nail files to the USA?"
+    answer: "Yes — MelodySusie ships all nail file and buffer products to the USA. Free US shipping applies on orders over $129.99. You can also use code OFF8 for 8% off sitewide or MSOFF15 for 15% off orders over $129.99."
+---
+```
+
+---
+
+## SECTION 3 — SEO AND KEYWORD PLAN
+
+> **Post Gen Instruction:** Follow this keyword plan exactly. Calculate density before writing — do not estimate.
+
+**Primary keyword:** `MelodySusie nail files`
+- Every mention wrapped in `<strong>` tags — no exceptions
+- First 150 words: appear exactly **2 times**, both in `<strong>` tags
+- **Keyword density target:** 1.5% — match competitor average. Add 3 extra mentions in first half.
+- **Total mention target:** 12 mentions in an 800-word post
+
+**Keyword variations** (use naturally, no strong tags, no density target):
+- MelodySusie nail file kit
+- MelodySusie nail buffer
+- MelodySusie nail files and buffers
+- professional nail files MelodySusie
+- MelodySusie emery board
+- MelodySusie buffer blocks
+- MelodySusie half-moon nail file
+
+**High CPC transactional keywords** (weave into CTAs, H2s, mid-post copy — high buyer intent):
+- "best nail files professional" (~$1.20 CPC)
+- "nail files for acrylic nails" (~$1.10 CPC)
+- "professional nail buffer kit" (~$1.05 CPC)
+- "nail files and buffers set" (~$0.95 CPC)
+- "glass nail file for natural nails" (~$1.30 CPC)
+- "nail buffer blocks bulk" (~$0.85 CPC)
+- "best nail file for gel nails" (~$1.15 CPC)
+
+**Transactional cluster keywords** (use throughout, no density target):
+- nail files for gel nails
+- nail buffer for acrylic nails
+- best emery boards for nails
+- nail file set for home use
+- nail file grit guide
+- what grit nail file for natural nails
+- half-moon nail file
+- diamond nail buffer
+- washable nail file
+- nail buffer block set
+
+**LSI semantic terms** (weave naturally):
+- emery board, grit, nail plate, cuticle, nail edge, nail shaping, buffing, polishing, manicure supplies, salon tools, dip powder nails, gel polish prep, acrylic nail shaping, nail health, filing technique, nail splitting
+
+**AEO terms — mapped to H2 or FAQ:**
+
+| AEO Term | Mapped To |
+|---|---|
+| "What grit nail file do I need for natural nails?" | FAQ entry 1 |
+| "What is the difference between a nail file and a nail buffer?" | FAQ entry 2 + H2: "Nail File vs. Buffer: Which Do You Actually Need?" |
+| "Can I use a 100 grit file on natural nails?" | FAQ entry 3 |
+| "What nail file do you use for acrylic nails?" | H2: "Which MelodySusie File Works Best for Acrylic and Gel Nails?" |
+| "Are glass nail files better for natural nails?" | H2: "The Glass File Difference: Why Natural Nail Wearers Love the 360 Grit Set" |
+| "How often should I replace my nail file?" | H2: "How Long Do MelodySusie Nail Files Last?" |
+| "What does 100/180 grit mean on a nail file?" | H2: "Understanding 100/180 Grit: What It Means and When to Use Each Side" |
+| "Are MelodySusie nail files washable?" | FAQ entry 4 |
+| "How many nail files do I need at home?" | FAQ entry 5 |
+| "What nail file shape is best for filing near the cuticle?" | FAQ entry 6 |
+
+**GEO terms — place near CTAs and availability copy:**
+- best nail files to buy online in the USA
+- MelodySusie free shipping USA
+- where to buy MelodySusie nail files online
+- nail files fast shipping USA
+- MelodySusie nail buffers online USA
+
+**Buyer phrase bank** (use naturally in copy — from review data + Quora + category research):
+- "last longer than other nail files"
+- "quality product at a very low price"
+- "durable and high quality"
+- "I'll never use another brand"
+- "easy to clean"
+- "fits in your pocket, handbag, or luggage"
+- "salon-quality at home"
+- "won't damage the nail"
+- "smooth and consistent filing"
+- "individually packaged for hygiene"
+- "don't file in back and forth — always in one direction"
+- "even out ridges on acrylic nails"
+
+---
+
+## SECTION 4 — COMPETITOR AND TITLE INTELLIGENCE
+
+> **Post Gen Instruction:** Use this section to write a title and excerpt that outperforms competitors. The analysis is done — execute it.
+
+**Top competitor titles for "MelodySusie nail files":**
+1. Generic category roundups lead with piece count or grit — no buyer benefit in headline
+2. Amazon listings lead with specs (16Pcs, 100/180) — functional but no conversion hook
+3. Competitor nail file guides lead with "ultimate guide" framing — too generic, no brand specificity
+
+**Title direction — how to beat them:**
+- Lead with the brand name + a strong benefit claim ("Best Professional Picks")
+- Include piece count or specificity that signals value ("5 Professional Picks Ranked")
+- Primary keyword in first 8 words ✓ — done in frontmatter title
+
+**Competitor gaps (mandatory H2 sections in our post — competitors miss these):**
+1. **Grit education tied to specific use case** — competitors list grit numbers without explaining the real-world "when to use which side" decision. Make this an H2.
+2. **Glass file vs emery board for natural nails** — this specific question drives high search intent and no MelodySusie-specific post answers it
+3. **How long MelodySusie files last** — buyer durability concern never addressed in any ranking post
+4. **Half-moon vs straight file** — competitors ignore the ergonomic difference that buyers ask about on Quora
+5. **Bulk buy angle (50Pcs mini buffer)** — nail students and home techs who do frequent manicures have different needs; no competitor speaks to them
+
+**Word count target:** 800 words (matches competitor average for this buyer intent level; nail file posts rank with lean, scannable content — not long-form guides)
+
+---
+
+## SECTION 5 — BUYER INTELLIGENCE
+
+> **Post Gen Instruction:** Every paragraph must be written for this specific buyer. Use the exact phrases listed here naturally in the copy.
+
+**Who this buyer is:**
+At-home nail enthusiast, likely already doing gel or acrylic manicures at home. Comfortable with basic nail care. Wants professional results without salon prices. Mix of beginners who just got a nail drill and more experienced home nail techs who know what they're doing. Secondary buyer: nail school students stocking up on supplies.
+
+**What they need from this post:**
+They want to know which MelodySusie file/buffer to buy for their specific nail situation — natural nails vs acrylic, grit confusion, file type (half-moon vs straight vs glass), and whether buying a kit saves money vs singles.
+
+**What frustrates them:**
+- Vague "just buy a 180 grit" advice with no context for nail type
+- Reviews that don't explain what each item in a kit is actually for
+- Not knowing when to use the 100 side vs the 180 side
+- Paying for a kit and getting unusable grit levels for their nail type
+- Files that fall apart after a few uses
+
+**Top 5 buying objections — address directly in post body:**
+1. "Will 100 grit damage my natural nails?" → Answer: yes if used on natural nails. Use 180 side. Only 100 for acrylic/gel.
+2. "Is a glass file actually better than a regular file?" → Answer: for natural/brittle nails, yes — seals the edge, won't fray the nail.
+3. "Are these files washable and reusable?" → Answer: yes for emery board + glass files.
+4. "Do I need both a file and a buffer or is one enough?" → Answer: different jobs — file for shape, buffer for surface.
+5. "Is this kit worth it vs buying individual files?" → Answer: yes — 16Pcs at $9.99 is dramatically cheaper per piece than singles from drugstore.
+
+**Buyer phrase bank:**
+- "last longer than other nail files I've used in the past"
+- "quality product at a very low price"
+- "durable and high quality — I'll never use another brand"
+- "easy to clean — washable and portable"
+- "smooth and consistent filing"
+- "salon-quality results at home"
+- "won't damage the nail"
+- "fits in your pocket, handbag, backpack, and luggage"
+
+**Recurring praise from MelodySusie nail file reviews:**
+- Durability: files outlast cheaper drugstore options significantly
+- Value: price-per-piece is considered excellent
+- Ergonomics: curved half-moon shape singled out as much easier to use
+
+**Recurring complaints (address honestly):**
+- No ultra-fine grit buffer (240+) included in the kit — acknowledge this gap directly
+- Sponge buffers not suitable for professional multi-client hygiene protocols — mention this limitation clearly
+
+---
+
+## SECTION 6 — DISCOUNT AND CONVERSION DATA
+
+> **Post Gen Instruction:** Include these naturally near product CTAs.
+
+**Pricing summary:**
+- Product 1 (16Pcs Kit): ~~$12.99~~ → **$9.99** (23% off)
+- Product 2 (9Pcs Set): ~~$12.99~~ → **$9.99** (23% off)
+- Product 3 (Glass File Set): ~~$10.99~~ → **$7.99** (27% off)
+- Product 4 (Straight File): From $3.99 (no compare-at found)
+- Product 5 (50Pcs Mini Buffer): ~~$10.99~~ → **$7.99** (27% off)
+
+**Active MelodySusie discount codes (confirmed):**
+- **OFF8** — 8% off sitewide (no minimum)
+- **MSOFF15** — 15% off orders over $129.99
+- Free US shipping on orders over $129.99
+
+**Placement:** Mention OFF8 code naturally near the ShopInlineCTA section and near the ShopFinalCTA — frame it as a money-saving tip, not a standalone paragraph. Example natural placement: "…and with code OFF8 you can knock another 8% off at checkout."
+
+---
+
+## SECTION 7 — CONTENT STRUCTURE
+
+> **Post Gen Instruction:** Use these H2 headings in this exact order. Do not rename, reorder, or remove any. Add H3s at your discretion within sections.
+
+**Total word budget: 800 words** — lean and scannable. Each section is short and direct.
+
+---
+
+**INTRO (no H2 — opens post) — 100 words**
+- Open with the buyer's problem: buying a nail file sounds simple until you're staring at 10 options with different grits, shapes, and materials and have no idea which one won't wreck your natural nails.
+- Introduce the post as a practical ranked guide to the best MelodySusie nail files and buffers — covering grit, type, and best use case for each.
+- Primary keyword appears **2 times** in first 150 words, both in `<strong>` tags.
+- Place `{{PRODUCTS:1:0}}` — featured layout for the winner (16Pcs Kit) — immediately after intro paragraph.
+
+---
+
+**H2: Understanding 100/180 Grit: What Each Side Is Actually For — 100 words**
+- AEO mapped: "What does 100/180 grit mean on a nail file?"
+- Explain simply: 100 = coarse, for shaping/removing acrylic and gel. 180 = fine, for smoothing and shaping natural nails.
+- Warn directly: never use 100 grit on natural nails — it thins the nail plate.
+- One key stat: 180 grit is the recommended surface grit for gel topcoat adhesion.
+- This section answers the most common buyer mistake before they make it — builds instant trust.
+
+---
+
+**H2: Nail File vs. Buffer: Which Do You Actually Need? — 80 words**
+- AEO mapped: "What is the difference between a nail file and a nail buffer?"
+- Clear one-sentence answer: file = shapes the edge, buffer = smooths the surface.
+- Explain when you need both vs just one.
+- Natural segue: the 16Pcs Kit gives you both — no need to decide.
+- Place `{{PRODUCTS:2:0,1}}` after this section (16Pcs Kit + 9Pcs Set side by side).
+
+---
+
+**H2: Which MelodySusie File Works Best for Acrylic and Gel Nails? — 80 words**
+- AEO mapped: "What nail file do you use for acrylic nails?"
+- Direct answer: 100 grit side of the 16Pcs Kit or Straight File for bulk removal; 180 for smoothing.
+- Buyer phrase: "even out ridges on acrylic nails"
+- Segue naturally to the Straight File (Product 4) as the best-value single for gel/acrylic work.
+- **Internal link placement:** link to `/shop/nail-care-tools/best-melodysusie-nail-care-tools` — anchor: "MelodySusie nail care tools"
+- Place `{{PRODUCTS:1:3}}` — featured layout for Straight File.
+
+---
+
+**H2: The Glass File Difference: Why Natural Nail Wearers Love the 360 Grit Set — 80 words**
+- AEO mapped: "Are glass nail files better for natural nails?"
+- Explain the key benefit: 360 grit glass seals the nail edge as it files — prevents splitting and peeling.
+- Buyer language: "for thin or brittle nails", "won't damage the nail"
+- Honest con: glass files don't work on acrylic or gel — too fine for enhancement shaping.
+- Place `{{PRODUCTS:1:2}}` — featured layout for Glass File Set.
+- **Internal link:** link to `/shop/nail-kits/melodysusie-beginner-nail-kit` — anchor: "MelodySusie beginner nail kit"
+
+---
+
+**H2: The Best Bulk Buy: 50Pcs Mini Buffer Blocks for Nail Students and Home Techs — 70 words**
+- Speaks directly to the secondary buyer: nail students and home nail techs who change buffers between clients or sessions.
+- Lead with the value math: under $0.16 per buffer block at $7.99 for 50.
+- Buyer benefit: never running out mid-session, always fresh.
+- Place `{{PRODUCTS:1:4}}` — featured layout for 50Pcs Mini Buffer.
+
+---
+
+**H2: How Long Do MelodySusie Nail Files Last? — 60 words**
+- AEO mapped: "How often should I replace my nail file?"
+- Direct answer from review data: buyers report MelodySusie files outlast standard drugstore files significantly.
+- One buyer phrase: "I bought a pack 2 months ago and I'm still on the first nail file"
+- General guidance: replace emery boards when grit no longer grips. Glass files last indefinitely when stored safely.
+- **Internal link:** link to `/shop/nail-care-tools/melodysusie-nail-dust-collector-review` — anchor: "MelodySusie nail dust collector"
+- Discount mention: "…and right now the 16Pcs Kit is $9.99 — down from $12.99. Add code OFF8 for an extra 8% off."
+
+---
+
+**CONCLUSION — 80 words**
+- No summary — push to purchase.
+- Recap the buyer decision in one sentence: the 16Pcs Kit is the best pick for most buyers; glass file for natural/brittle nail types; 50Pcs Mini if you're stocking up.
+- Call to action: "Check current pricing and availability at MelodySusie — free US shipping on orders over $129.99."
+- ShopFinalCTA auto-renders after this.
+
+---
+
+**INJECTION PLAN:**
+
+| Placement | Syntax | Products |
+|---|---|---|
+| After intro paragraph | `{{PRODUCTS:1:0}}` | Winner (16Pcs Kit) featured layout |
+| After "Nail File vs. Buffer" H2 | `{{PRODUCTS:2:0,1}}` | 16Pcs Kit + 9Pcs Set side by side |
+| After "Acrylic and Gel" H2 | `{{PRODUCTS:1:3}}` | Straight File featured |
+| After "Glass File" H2 | `{{PRODUCTS:1:2}}` | Glass File Set featured |
+| After "Bulk Buy" H2 | `{{PRODUCTS:1:4}}` | 50Pcs Mini Buffer featured |
+
+---
+
+## SECTION 8 — COMPONENT DIRECTIVES
+
+> **Post Gen Instruction:** These components fire automatically from frontmatter. Confirm trigger fields in Section 2 are correctly set. Never write component content in body — it auto-renders.
+
+| Component | Status | Trigger |
+|---|---|---|
+| WinnerBadge | **ACTIVE** | winnerIndex: 0 set in frontmatter |
+| ShopInlineCTA | **ACTIVE** | winnerIndex: 0 set in frontmatter |
+| ComparisonTable | **ACTIVE** | showComparison: true + comparisonTable data present |
+| ProsConsBlock | **INACTIVE** | showProscons: false |
+| ShopFinalCTA | **ALWAYS ACTIVE** | products[] exists |
+| ShopFAQ | **ACTIVE** | faqs[] has 7 entries |
+| ShopTableOfContents | **ALWAYS ACTIVE** | reads H2/H3 from body |
+| Sidebar winner card | **ACTIVE** | winnerIndex: 0 set |
+
+---
+
+## SECTION 9 — WRITING INSTRUCTIONS
+
+> **Post Gen Instruction:** Follow these rules for every paragraph of body copy.
+
+- This is conversion copy — every sentence moves the buyer toward a purchase decision
+- Lead with buyer benefit, not product specs — specs support the benefit, never lead with them
+- Use buyer phrases from Section 5 naturally — speak their language exactly
+- Address the 5 buying objections in Section 5 — don't avoid the grit damage question
+- Honest cons build trust — include them, then counter with why the product is still the right buy
+- Mention OFF8 discount code naturally near InlineCTA and FinalCTA areas
+- Primary keyword `MelodySusie nail files` in `<strong>` tags every mention — no exceptions
+- No editorial literary hooks — open every section with the buying decision or buyer benefit directly
+- H2 sections are short — buyers scan, they don't read long paragraphs
+- Conclusion is a purchase driver, not a summary
+- Internal links mid-post only — placed as noted in Section 7, never before first product CTA
+- No related articles section — handled by site component
+- Language: American English only
+- No banned phrases: no "elevate", "seamlessly", "game-changing", "dive into", "transformative"
+- No long em dashes — use comma or restructure
+- No "we tested" language — these are editorial observations based on spec data and buyer review language
+- GEO terms near CTAs: mention "MelodySusie ships to the USA" and free shipping threshold naturally near conversion points
