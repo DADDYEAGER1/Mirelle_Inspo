@@ -1,0 +1,312 @@
+**THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT.** All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions below must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy.
+
+---
+
+## 1. Cluster Summary
+
+- **Cluster:** SC-07 Mother's Day Nails (`/shop/mothers-day`)
+- **This post:** Post #41 — "Best MelodySusie Mother's Day Nail Gift Ideas" — Role: **Cluster Pillar**
+- **Slug:** `best-melodysusie-mothers-day-nail-gifts`
+- **Post type:** best-of
+- **Primary keyword:** MelodySusie mothers day nail gift
+- **Internal links this post must include (mid-post only, after first product CTA, never before):**
+  - "MelodySusie Nail Gift Sets for Mom: Best Mother's Day Picks" → `/shop/mothers-day/melodysusie-mothers-day-nail-gift-sets` (post 57, spoke of this pillar)
+  - "Best MelodySusie Nail Kits for Beginners & Pros" → `/shop/nail-kits/best-melodysusie-nail-kits` (EC-04 pillar)
+  - "Best MelodySusie Nail Drills: Every Model Reviewed" → `/shop/nail-drills/best-melodysusie-nail-drills` (EC-01 pillar)
+- **Posts that link to this post:** Post 57 (spoke), seasonal nav from `/shop/mothers-day`
+- **Affiliate mode:** Standard affiliate links (aff=3711, utm_campaign=3711, utm_source=affiliate, utm_medium=kol) — already appended to all product links below.
+- **Region:** USA only
+
+---
+
+## 2. Frontmatter Block
+
+```yaml
+title: "MelodySusie Mother's Day Nail Gifts: 5 Top Picks"
+excerpt: "Find the best MelodySusie Mother's Day nail gift for every mom — from drill gift boxes to gentle gel polish sets, ranked and reviewed."
+date: "2026-06-19"
+author: "Mirellé"
+category: "mothers-day"
+image: "https://www.melodysusie.com/cdn/shop/files/1_402937e1-6cc7-4ae7-8f0c-2af4c479e220.jpg?v=1769744365&width=1600"
+imageAlt: "MelodySusie Mother's Day nail gift box: SM200F Plus rechargeable nail drill with bits, sanding bands, and nail file"
+imageWidth: 1200
+imageHeight: 630
+readTime: "10 min read"
+canonical: ""
+postType: "best-of"
+winnerIndex: 0
+showComparison: true
+showProscons: false
+comparisonCaption: "How the top 5 MelodySusie Mother's Day nail gifts compare"
+products:
+  - name: "SM200F Plus Rechargeable 35,000RPM Nail Drill Gift Box"
+    brand: "MelodySusie"
+    price: "$179.98"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_402937e1-6cc7-4ae7-8f0c-2af4c479e220.jpg?v=1769744365&width=1600"
+    link: "https://www.melodysusie.com/products/sm200f-plus-rechargeable-35000rpm-nail-drill-gift-box?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    rating: "5.0"
+    reviewCount: "101"
+    details:
+      - "35,000 RPM coreless motor with 13-18 hour battery life"
+      - "Includes drill bits, sanding bands, polytope nail file, nail stickers"
+      - "Upgraded pause button, low vibration, high heat dissipation"
+    pros:
+      - "Quiet, low-vibration motor that's comfortable for first-time users"
+      - "Long battery life means no mid-manicure charging interruptions"
+      - "Comes ready to gift in a dedicated presentation box"
+      - "Pause button adds an extra layer of beginner-friendly safety"
+    cons:
+      - "Doesn't include a UV/LED lamp, so gel removal needs a separate lamp"
+      - "Bit selection is good but not as extensive as the pro-level MB420G set"
+  - name: "MelodySusie x PrettynDivine SC300F Nail Drill & P-Plus30G Nail Lamp Gift Box"
+    brand: "MelodySusie"
+    price: "$149.99"
+    compareAtPrice: "$189.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/01_e78ca4df-6ced-40c9-889f-c6819049f254.jpg?v=1763964593&width=1600"
+    link: "https://www.melodysusie.com/products/melodysusie-x-prettyndivine-sc300f-nail-drill-p-plus30g-nail-lamp-gift-box?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Complete Set"
+    details:
+      - "Includes SC300F nail drill AND P-Plus30G cordless UV/LED lamp"
+      - "Adds cuticle nipper, nail art brushes, chrome powder, rhinestones"
+      - "Designed as a co-branded 'complete nail art studio in one box'"
+    pros:
+      - "Covers drill, cure, and decorate in a single gift box"
+      - "Cordless lamp works anywhere in the house"
+      - "Bonus nail art extras make it feel extra special"
+      - "Strong savings vs. buying the drill and lamp separately ($40 off)"
+    cons:
+      - "Bigger box and higher item count can feel like a lot for a true beginner"
+      - "Lamp is sized for art touch-ups, not full-hand all-in-one curing"
+  - name: "PM170F Nail Drill Travel Gift Box"
+    brand: "MelodySusie"
+    price: "$159.98"
+    image: "https://www.melodysusie.com/cdn/shop/files/6391ace427ade714b70fb966024ae804_4dd89651-1a1f-4fe0-8f47-127163dda2cc.jpg?v=1739790288&width=1600"
+    link: "https://www.melodysusie.com/products/pm170f-nail-drill-travel-gift-box?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for On-the-Go Moms"
+    rating: "5.0"
+    reviewCount: "34"
+    details:
+      - "Pen-style PM170F drill with slimmer, fatigue-reducing grip"
+      - "Includes P-Art04M mini UV lamp with 60-second auto-sensor cure"
+      - "Comes with a storage bag plus classic Fleurwee gel polishes"
+    pros:
+      - "Pen design is light, easy to control, less hand fatigue"
+      - "Mini lamp auto-senses and cures without pressing buttons"
+      - "Storage bag suits moms who travel or have small counters"
+      - "Includes gel polish, so it's ready to use out of the box"
+    cons:
+      - "Mini lamp cures one hand at a time, not full-hand at once"
+      - "Pen drill has slightly less torque than the clip-on SM200F Plus"
+  - name: "Fleurwee Plant-Based Gel Nail Polish Gift Box (Urban Chic)"
+    brand: "MelodySusie"
+    price: "$49.99"
+    compareAtPrice: "$59.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_20364f49-551d-451c-a7a7-56752ee672fa.jpg?v=1717036037&width=1200"
+    link: "https://www.melodysusie.com/products/15ml-fleurwee-plant-based-gel-nail-polish-gift-box?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Budget & Sensitive-Skin Pick"
+    rating: "5.0"
+    reviewCount: "307"
+    details:
+      - "Plant-based formula free of HEMA, HPMA, TPO, heavy metals, plasticizers"
+      - "4 full-size 15ml gel polishes plus nail brush, vase, and dried flowers"
+      - "Up to 21 days of high-gloss wear"
+    pros:
+      - "Gentlest formula in the lineup — ideal for moms with sensitive skin"
+      - "Lowest price point makes it an easy add-on or standalone gift"
+      - "Presentation (vase, dried flowers) feels personal, not just functional"
+      - "Highest review count of any pick here (307 reviews at 5.0)"
+    cons:
+      - "Needs a UV/LED lamp already on hand — doesn't include one"
+      - "Only 4 colors, so it suits a mom who already knows her palette"
+  - name: "MB420G Rechargeable 40,000RPM Nail Drill Gift Box"
+    brand: "MelodySusie"
+    price: "$212.49"
+    compareAtPrice: "$286.92"
+    image: "https://www.melodysusie.com/cdn/shop/files/3_3c2512f6-3023-4c08-8fb5-849f4bbc96d7.jpg?v=1744797041&width=1080"
+    link: "https://www.melodysusie.com/products/mb420g-rechargeable-40000rpm-nail-drill-gift-box?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Splurge"
+    details:
+      - "40,000 RPM motor — MelodySusie's highest-speed rechargeable drill"
+      - "Largest accessory set of any gift box in this lineup"
+      - "Biggest dollar savings versus buying separately ($74+ off)"
+    pros:
+      - "Top-tier RPM and torque for moms who do acrylics or thick gel regularly"
+      - "Accessory count rivals professional salon kits"
+      - "Feels like a genuine upgrade gift, not just a starter set"
+      - "Best percentage savings of any box in this guide"
+    cons:
+      - "Overkill for a first-time or occasional at-home manicure mom"
+      - "Highest price point in this guide"
+comparisonTable:
+  features:
+    - "Price"
+    - "What's Inside"
+    - "Rechargeable / Cordless"
+    - "Best For"
+    - "Sensitive-Skin Friendly"
+  columns:
+    - name: "SM200F Plus Gift Box"
+      values: ["$179.98", "Nail drill + bits + sanding bands + nail file + stickers", true, "First-time gift buyers who want one do-it-all set", false]
+    - name: "PrettynDivine SC300F + Lamp"
+      values: ["$149.99", "Nail drill + UV/LED lamp + cuticle tools + brushes + rhinestones", true, "Moms who want a full nail art studio in one box", false]
+    - name: "PM170F Travel Gift Box"
+      values: ["$159.98", "Pen drill + mini UV lamp + storage bag + Fleurwee gel polish", true, "Moms who travel or have limited counter space", false]
+    - name: "Fleurwee Plant-Based Gift Box"
+      values: ["$49.99", "4 gel polish colors + nail brush + vase + dried flowers", false, "Budget gifts and sensitive-skin moms", true]
+    - name: "MB420G 40,000RPM Gift Box"
+      values: ["$212.49", "40,000 RPM brushless drill + premium bits + accessories", true, "Moms who already do nails seriously", false]
+faqs:
+  - question: "What's the best MelodySusie Mother's Day nail gift for a mom who's never used a nail drill?"
+    answer: "The SM200F Plus Rechargeable Nail Drill Gift Box ($179.98) is the best starting point. It has a pause button, low vibration, and a simple one-drill, one-set design with no extra accessories to figure out. It's also MelodySusie's highest-reviewed gift box at 5.0 stars from 101 buyers."
+  - question: "Is an at-home nail drill safe to use as a gift for someone new to nail care?"
+    answer: "Yes, when the drill has low-vibration, variable-speed settings like the MelodySusie picks above. Start on the lowest speed setting and let her work up from there. The included instructions walk through safe bit selection for beginners."
+  - question: "Do MelodySusie gift boxes include everything needed for a full manicure, or do I need to buy extras?"
+    answer: "It depends on the box. The PrettynDivine SC300F & Lamp set and the PM170F Travel Gift Box include both a drill and a curing lamp, so they're ready to use. The SM200F Plus and MB420G boxes are drill-focused and need a separate UV/LED lamp and gel polish for a full gel manicure."
+  - question: "Which MelodySusie nail gift is best for a mom with sensitive skin?"
+    answer: "The Fleurwee Plant-Based Gel Nail Polish Gift Box ($49.99) is the safest pick. It's formulated without HEMA, HPMA, TPO, heavy metals, or plasticizers, which makes it the gentlest option in this lineup for sensitive or reactive skin."
+  - question: "Does MelodySusie ship to the USA in time for Mother's Day?"
+    answer: "Yes, MelodySusie ships to the USA and offers free US shipping on orders over $129.99. To guarantee Mother's Day delivery, order at least 7-10 days ahead of the holiday given standard processing and shipping windows."
+  - question: "Is there a MelodySusie discount code for Mother's Day gifts?"
+    answer: "Code OFF8 takes 8% off sitewide and applies to gift boxes. Code MSOFF15 gives 15% off orders over $129.99, but MelodySusie excludes gift boxes from that particular code, so OFF8 is the one to use on any pick in this guide."
+  - question: "What's the difference between MelodySusie's nail drill gift boxes and the gel polish gift box?"
+    answer: "The drill gift boxes (SM200F Plus, PrettynDivine SC300F, PM170F, MB420G) are tools for shaping, filing, and removing gel or acrylic. The Fleurwee gift box is color product only — gel polish to apply and cure, not a tool. Pair a drill box with the Fleurwee box for a complete gift."
+```
+
+---
+
+## 3. SEO & Keyword Plan
+
+**Primary keyword (locked):** MelodySusie mothers day nail gift
+**Keyword density target:** Competitor pages in this niche (MelodySusie's own blog gift guides, Saviland's gift guide) run primary-keyword-light, closer to 0.6-0.8% natural density. Target: **0.9%** with 3 extra mentions in the first half. For a ~1,900-word post, total mention target = **17 mentions**, all wrapped in `<strong>` tags.
+**First 150 words:** Primary keyword must appear exactly 2 times, both in `<strong>` tags.
+
+**High CPC transactional keywords (weave into CTAs, H2s, mid-post copy):**
+best gel nail kit for home, nail drill kit for beginners, at home manicure kit, gel nail polish starter kit, professional nail drill set, manicure pedicure kit gift, rechargeable nail drill, best gifts for mom, self care gift set, nail art kit for women
+
+**Keyword variations (use naturally, no density target):**
+MelodySusie Mother's Day gift set, MelodySusie gift for mom, best nail gift for mom, Mother's Day manicure gift, MelodySusie nail drill gift box, nail gift sets for mom 2026
+
+**Transactional cluster keywords (use throughout, no density target):**
+nail gift sets for mom, manicure gift box, at-home gel manicure kit, nail drill for beginners, UV LED nail lamp gift, HEMA-free gel polish gift, plant-based gel polish
+
+**LSI semantic terms:**
+at-home manicure, gel manicure kit, nail technician tools, cuticle care, salon-quality nails at home, HEMA-free formula, plant-based gel polish, self-care gift, pampering gift, nail art accessories, beginner-friendly nail tools, cordless nail drill, sensitive-skin nail polish, rechargeable nail tools
+
+**AEO terms (mapped — every term assigned to one H2 or FAQ):**
+| AEO question | Mapped to |
+|---|---|
+| What is the best Mother's Day nail gift for someone who's never done her own nails? | H2: "Best for First-Timers: SM200F Plus Gift Box" |
+| Is an at-home nail drill safe to use? | FAQ |
+| What do I need besides a nail drill for a full gel manicure at home? | H2: "How to Choose the Right MelodySusie Gift" |
+| Are MelodySusie gel polishes safe for sensitive skin? | FAQ |
+| How much should I spend on a nail gift for Mother's Day? | H2: "How to Choose the Right MelodySusie Gift" |
+| What's a thoughtful Mother's Day gift besides flowers or jewelry? | H2: intro section "Why a Nail Gift Beats Flowers This Year" |
+| Does MelodySusie ship in time for Mother's Day? | FAQ |
+| What's the difference between a nail drill gift box and a gel polish gift box? | FAQ |
+| Is MelodySusie a good, trustworthy gift brand? | H2: intro/trust mention |
+| What MelodySusie discount code works on Mother's Day gifts? | FAQ |
+| Can I build a custom MelodySusie gift bundle instead of a pre-made box? | H2: "How to Choose the Right MelodySusie Gift" (closing CTA) |
+| Which MelodySusie nail drill gift box has the best reviews? | H2: "Best Overall: SM200F Plus Gift Box" |
+
+**GEO terms (place near CTAs, availability, and pricing copy):**
+best MelodySusie nail gift to buy in the USA, does MelodySusie ship to the USA, MelodySusie Mother's Day gift fast shipping USA, where to buy MelodySusie nail gift sets online, MelodySusie free shipping over $129.99, USA Mother's Day nail gift delivery, buy MelodySusie gift box online USA, MelodySusie nail gift set available in USA
+
+**Buyer phrase bank (from Amazon/Quora/category research — weave naturally):**
+"quiet motor," "low vibration," "all-in-one kit," "easy to carry," "save money from the salon," "spa-like at home," "a gift she'll actually use," "doesn't need an appointment," "gift for the mom who has everything," "alone time / self-care," "treat herself," "no daily effort required"
+
+---
+
+## 4. Competitor & Title Intelligence
+
+**Top competitor pages for this topic:**
+1. MelodySusie's own blog, "MelodySusie's 2026 Nail Gift for the Mom Who Deserves Everything" — strength: official product authority and curated Mother's Day Exclusive Collection messaging; weakness: no independent comparison, no pros/cons, no pricing transparency across options.
+2. MelodySusie's 2025 blog gift guide — same brand-voice limitation, doesn't rank multiple price tiers against each other.
+3. Saviland's "Ultimate Mother's Day Nail Gift Guide" — strength: broad gift framing (acrylic, gel, DIY); weakness: promotes a single competing brand, thin on specific product specs.
+
+**Title direction that beats them:** Independent, ranked, multi-price-tier comparison with a clear winner — something the brand's own blog posts and single-brand competitor guides don't offer. Lead with "5 Top Picks" to signal a decisive, scannable ranking rather than a vague gift list.
+
+**Competitor gaps (now mandatory H2 sections in our post):**
+- No one directly answers "what's actually inside the box" before purchase — we cover this per product.
+- No one addresses sensitive-skin safety for gel polish specifically as a Mother's Day angle — covered via the Fleurwee pick and FAQ.
+- No one clarifies the MSOFF15 discount code exclusion for gift boxes — we cover this explicitly to avoid reader frustration at checkout.
+
+**Word count target:** ~1,900 words (above the brand's own ~700-900 word gift posts, in line with independent multi-product buying guides in this niche).
+
+---
+
+## 5. Buyer Intelligence
+
+**Who this buyer is:** Typically an adult child (most often a daughter) or a partner shopping for a mom in her 30s-60s. Mixed expertise level — buyer is shopping online for someone else's hobby, so they don't always know nail-tool terminology themselves.
+
+**What they need from this post:** A confident, low-risk pick — something visibly impressive as a gift, safe to use, and not redundant with tools she might already own.
+
+**What frustrates them:** Vague "great gift!" copy with no real comparison, no clarity on what's included in the box, hidden fine print on discount codes, and uncertainty about shipping in time for the holiday.
+
+**Top 5 buying objections (each addressed in post body):**
+1. "I don't know if she already has a nail drill" → addressed via tiered picks (tool box vs. polish-only box).
+2. "Is this safe for someone who's never used a nail drill?" → addressed in SM200F Plus section and FAQ.
+3. "Will it actually ship in time?" → addressed via GEO/shipping FAQ.
+4. "Is this too clinical/impersonal as a gift?" → addressed by highlighting presentation details (gift box design, Fleurwee's vase and dried flowers).
+5. "Is it worth the price vs. just buying flowers?" → addressed in intro framing nail gifts as a repeat-use self-care gift vs. a one-day gift.
+
+**Buyer phrase bank:** see Section 3 buyer phrase bank list.
+
+**Recurring praise (used as selling points):** quiet/low-vibration motors, long battery life, all-in-one convenience, presentation-quality gift boxes, no salon appointment needed.
+
+**Recurring complaints to address honestly:** drill-only boxes need a separate lamp; mini lamps cure one hand at a time; higher-RPM drills can be overkill for casual use — all reflected in the cons lists above.
+
+---
+
+## 6. Discount & Conversion Data
+
+- **OFF8:** 8% off sitewide — applies to gift boxes. Use this code as the primary CTA discount.
+- **MSOFF15:** 15% off orders over $129.99 — **excludes gift boxes** per MelodySusie's own product page fine print. Do not advertise MSOFF15 for the picks in this post; flag this distinction in the FAQ to avoid reader frustration at checkout.
+- **Free US shipping** on orders over $129.99 (applies to the SM200F Plus, PrettynDivine, PM170F, and MB420G boxes individually; the $49.99 Fleurwee box would need to be paired with another item to hit the threshold — a natural upsell line near its CTA).
+- **Placement:** Mention OFF8 near the ShopInlineCTA (after the winner section) and again near ShopFinalCTA. Mention the free-shipping threshold near the Fleurwee pick specifically, framed as a pairing suggestion (e.g., bundle with another pick to unlock free shipping).
+
+---
+
+## 7. Content Structure (H2 Plan — follow exactly, in order)
+
+1. **H2: Why a Nail Gift Beats Flowers This Year** — Hook: nail gift sets are reusable self-care, not a one-day gift. Answers AEO "thoughtful gift besides flowers." ~180 words.
+2. **H2: Best Overall: SM200F Plus Nail Drill Gift Box** — Winner deep-dive. WinnerBadge + ShopInlineCTA fire here automatically. `{{PRODUCTS:1:0}}`. Answers "best for first-timers" + "best reviews" AEO terms. ~200 words.
+3. **H2: Best Complete Set: PrettynDivine SC300F & Lamp Gift Box** — `{{PRODUCTS:1:1}}`. ~180 words.
+4. **H2: Best for On-the-Go Moms: PM170F Travel Gift Box** — `{{PRODUCTS:1:2}}`. ~180 words.
+5. **H2: Best Budget & Sensitive-Skin Pick: Fleurwee Plant-Based Gift Box** — `{{PRODUCTS:1:3}}`. Free-shipping pairing note goes here. ~180 words.
+6. **H2: Best Splurge: MB420G 40,000RPM Gift Box** — `{{PRODUCTS:1:4}}`. ~180 words.
+   *(ComparisonTable component fires automatically after this section, per template's 30/30/40 content split.)*
+7. **H2: How to Choose the Right MelodySusie Gift for Your Mom** — Buying-decision guide. Internal links go here (mid-post, after the first product CTA in section 2 — this satisfies the rule). Addresses budget AEO question + custom-bundle AEO question. ~250 words.
+8. **(ShopFAQ auto-renders from frontmatter faqs[])**
+9. **H2: The Bottom Line** — Conclusion, decision driver, not a summary. Repeat OFF8 code, repeat winner pick, push to purchase. ~130 words.
+
+**Injection plan:** `{{PRODUCTS:1:0}}` after H2 #2 intro paragraph; `{{PRODUCTS:1:1}}` after H2 #3 intro; `{{PRODUCTS:1:2}}` after H2 #4 intro; `{{PRODUCTS:1:3}}` after H2 #5 intro; `{{PRODUCTS:1:4}}` after H2 #6 intro.
+
+---
+
+## 8. Component Directives
+
+- **WinnerBadge:** ACTIVE — winnerIndex: 0 set in Section 2.
+- **ShopInlineCTA:** ACTIVE — fires after H2 #2 (winner section), ~30% mark.
+- **ComparisonTable:** ACTIVE — showComparison: true, comparisonTable populated in Section 2, fires after H2 #6.
+- **ProsConsBlock:** INACTIVE — showProscons: false (best-of post type default). Pros/cons data is still included in products[] for reference/future use but will not render as a standalone block.
+- **ShopFinalCTA:** ALWAYS ACTIVE — fires after FAQ, puts SM200F Plus (winner) first.
+- **ShopFAQ:** ACTIVE — 7 entries in Section 2 faqs[].
+- **ShopTableOfContents:** ALWAYS ACTIVE.
+- **Sidebar winner card:** ACTIVE — winnerIndex set.
+
+---
+
+## 9. Writing Instructions
+
+- Open H2 #1 with the buyer benefit (a gift she'll actually use repeatedly) — no literary hooks.
+- Every mention of "MelodySusie mothers day nail gift" and its near-exact variations wrapped in `<strong>` tags, 17 mentions total, 2 in the first 150 words.
+- Lead each product section with the buyer benefit (who it's for, what problem it solves), then support with specs.
+- Use buyer phrase bank language naturally — "quiet motor," "low vibration," "all-in-one," "doesn't need an appointment," etc.
+- Address all 5 buying objections directly in the body, not just implied.
+- State cons honestly, then pivot to why the product still earns its badge.
+- Mention OFF8 discount naturally near both CTAs; explicitly clarify the MSOFF15 gift-box exclusion in the FAQ only (avoid repeating the caveat elsewhere to keep flow clean).
+- American English throughout. No "elevate," "seamlessly," "game-changing," "dive into," "transformative." No em dashes — use commas or restructure.
+- Vary sentence rhythm: short, punchy lines for selling points; longer lines for context and buyer reassurance.
+- No "we tested" language anywhere — all product observations are informed editorial analysis based on specs, official descriptions, and aggregated buyer-review patterns.
+- Conclusion drives to purchase: restate the winner, restate the discount code, end on a clear next action — not a recap of all 5 picks.
