@@ -1,0 +1,544 @@
+# THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT
+# All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions in this file must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy.
+
+---
+
+## SECTION 1 — CLUSTER SUMMARY
+
+- **Cluster:** SC-05 Valentine's Day Nails
+- **Season route:** `/shop/valentines-day`
+- **This post:** Best MelodySusie Valentine's Day Nail Products (SC-05 pillar)
+- **Slug:** `best-melodysusie-valentines-nail-products`
+- **Post type:** best-of
+- **Primary keyword:** `MelodySusie valentines day nail products`
+- **Role:** Seasonal cluster PILLAR — this post anchors SC-05. It must internally link to spokes SC-05-S1 and SC-05-S2 once published.
+- **Internal links this post must include:**
+  - SC-05-S1: "Best Valentine's Day Gel Polish Colors: MelodySusie Reds & Pinks" → `/shop/valentines-day/melodysusie-valentines-gel-polish-colors` — place mid-post, AFTER first product CTA
+  - SC-05-S2: "Valentine's Day Nail Gift: Best MelodySusie Sets to Give" → `/shop/valentines-day/melodysusie-valentines-nail-gift-set` — place mid-post, AFTER first product CTA
+- **Posts that will link to this post:** SC-05-S1 and SC-05-S2 spokes (once written)
+- **Affiliate mode:** MelodySusie affiliate — aff=3711
+- **Region:** USA only
+
+---
+
+## SECTION 2 — FRONTMATTER BLOCK
+
+> **POST GEN INSTRUCTION:** Copy this frontmatter block exactly into the post. Do not change any field. Image URLs, prices, product names, badges — all pre-filled. Do not alter slugs, keywords, or product data.
+
+```yaml
+---
+title: "Best MelodySusie Valentine's Day Nail Products: Pinks, Reds & Gift Sets Ranked"
+excerpt: "The best MelodySusie Valentine's Day nail products — romantic cat eye sets, jelly pinks, glitter, and a ready-to-gift sparkle kit. Shop the top picks."
+date: 2026-01-05
+author: Mirellé
+category: valentines-day
+image: "https://www.melodysusie.com/cdn/shop/files/1_11cde563-0e48-4249-93d6-4cf11c887e9f.jpg?v=1768353159&width=2048"
+imageAlt: "MelodySusie Valentine's Day nail products — Love Sparkle gel polish gift set in pink and red shades for romantic DIY manicures"
+imageWidth: 1200
+imageHeight: 630
+readTime: "7 min read"
+canonical: ""
+postType: "best-of"
+winnerIndex: 0
+showComparison: true
+showProscons: false
+comparisonCaption: "How the top MelodySusie Valentine's Day nail picks compare"
+
+products:
+  - name: "Valentine's Day Gel Nail Polish Love Sparkle Set — 8 Colors"
+    brand: "MelodySusie"
+    price: "$58.81"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_11cde563-0e48-4249-93d6-4cf11c887e9f.jpg?v=1768353159&width=2048"
+    link: "https://www.melodysusie.com/products/valentines-day-gift-box?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    rating: null
+    reviewCount: null
+    details:
+      - "8 romantic gel shades — dreamy pinks, passionate reds, and love-inspired hues"
+      - "Chip-resistant formula lasts up to 28 days with high-gloss finish"
+      - "Ready-to-gift packaging — no wrapping required"
+    pros:
+      - "Complete Valentine's color story in one set — pinks, reds, and shimmers together"
+      - "Gift-box presentation makes it an instant present for her or yourself"
+      - "Long-lasting formula stays chip-free through date nights and beyond"
+      - "Low-odor, non-toxic ingredients prioritize nail health"
+      - "Smooth streak-free application — cures in 60–90 seconds under UV/LED lamp"
+    cons:
+      - "Requires a UV/LED nail lamp and base/top coat to use — not included"
+      - "Higher price point than single-bottle picks — better suited for gifting or collections"
+
+  - name: "Jeweliver Cat Eye Gel Polish 6 Colors Set — Pink and Red"
+    brand: "MelodySusie"
+    price: "$45.99"
+    compareAtPrice: "$59.94"
+    image: "https://www.melodysusie.com/cdn/shop/files/74b96dbb2d19db9758ba306fc55ad040_86072735-6c9f-44da-a73a-03e2bfc2588c.jpg?v=1741659519&width=2048"
+    link: "https://www.melodysusie.com/products/jeweliver-cat-eye-gel-polish-6-colors-set-0-5-fl-oz-15ml-pink-and-red?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Nail Art"
+    rating: 5.0
+    reviewCount: 62
+    details:
+      - "6 magnetic cat eye shades in pink and red — includes magnet stick"
+      - "Ultra-fine magnetic powder creates shifting, jewel-like effect"
+      - "28+ days wear — cures in 60–90 seconds under UV/LED lamp"
+    pros:
+      - "Magnetic cat eye effect looks high-end and salon-professional"
+      - "Pink and red palette is exactly on-trend for Valentine's Day 2026"
+      - "Includes the magnet tool — nothing extra to buy for the effect"
+      - "Large 0.5 fl oz / 15ml bottles — significantly more product per bottle"
+      - "Rated 5.0 — consistent quality reported by buyers"
+    cons:
+      - "Not TPO-Free — buyers with formula sensitivities should note this"
+      - "Cat eye effect requires practice with the magnet — slight learning curve for first-timers"
+
+  - name: "Jeweliver Jelly TPO-Free Gel Polish Set 6 Colors — Jelly Pink"
+    brand: "MelodySusie"
+    price: "$39.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/74b96dbb2d19db9758ba306fc55ad040_d6ff1810-4534-4d05-98db-14c7cc4edcb3.jpg?v=1741659411&width=2048"
+    link: "https://www.melodysusie.com/products/jeweliver-jelly-gel-nail-polish-set-6-colors-15ml-jelly-pink?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Sheer Pink"
+    rating: null
+    reviewCount: null
+    details:
+      - "6 sheer pink jelly shades — glassy see-through effect trending for 2026"
+      - "TPO-Free formula — health-focused, low odor"
+      - "Cures in 60 seconds — lasts up to 28 days"
+    pros:
+      - "Jelly nail trend is one of the biggest Valentine's nail looks for 2026"
+      - "Sheer effect flatters every skin tone — wearable well beyond Valentine's Day"
+      - "TPO-Free formula for buyers prioritizing cleaner ingredients"
+      - "Large 15ml bottles — exceptional value per bottle"
+      - "Easy glide brush makes layering jelly shades simple for beginners"
+    cons:
+      - "Requires base coat and top coat purchased separately — not included"
+      - "Sheer by design — buyers wanting full opaque coverage should choose a different formula"
+
+  - name: "Z021 Valentine's Evening — TPO-Free Thick Gel Nail Polish (15ml)"
+    brand: "MelodySusie"
+    price: "$7.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/2_54c7a77d-8888-44f6-a64a-26998f721867.jpg?v=1694679729&width=2048"
+    link: "https://www.melodysusie.com/products/valentines-evening-gel-nail-polish15ml?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Value"
+    rating: null
+    reviewCount: null
+    details:
+      - "Valentine's-named deep romantic shade — single 15ml bottle at $7.99"
+      - "TPO-Free thick gel — one thin coat delivers full, rich coverage"
+      - "Ergonomic brush for salon-smooth application at home"
+    pros:
+      - "Named for Valentine's Day — the shade is built for the occasion"
+      - "TPO-Free and low-odor formula — healthy ingredients at an entry price"
+      - "Thick gel formula means fewer coats needed for full coverage"
+      - "15ml large-capacity bottle — great for salon owners and frequent users"
+      - "Under $8 — lowest entry price in this roundup"
+    cons:
+      - "Single shade only — buy additional colors separately to build a full collection"
+      - "Cures in 90–120 seconds — slightly longer than other formulas in this guide"
+
+  - name: "Galaliver Glitter Gel Nail Polish Set — 12 Colors"
+    brand: "MelodySusie"
+    price: "$9.99 per bottle"
+    image: "https://www.melodysusie.com/cdn/shop/files/74b96dbb2d19db9758ba306fc55ad040_d6ff1810-4534-4d05-98db-14c7cc4edcb3.jpg?v=1741659411&width=2048"
+    link: "https://www.melodysusie.com/products/galaliver-glitter-gel-nail-polish-set-12-colors?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Glitter"
+    rating: 4.9
+    reviewCount: 32
+    details:
+      - "12 glitter shades — includes X12 Sweet Pink and X14 Romantic Pink for Valentine's"
+      - "High-density glitter formula — lasts 21+ days"
+      - "Non-toxic, low-odor, cruelty-free formula"
+    pros:
+      - "Pink and red glitter shades (Sweet Pink X12, Romantic Pink X14) are perfect Valentine's picks"
+      - "High-density glitter delivers sparkle that's visible and rich — not faint shimmer"
+      - "21+ days durability — longer than most drugstore glitter alternatives"
+      - "Rated 4.9 out of 5 — consistently praised for glitter quality and pigmentation"
+      - "Versatile 12-color range goes well beyond Valentine's Day"
+    cons:
+      - "Glitter gels are not TPO-Free — formula note for sensitive buyers"
+      - "Full set price adds up — best value for buyers who want a complete glitter collection"
+
+comparisonTable:
+  features:
+    - "Price"
+    - "Colors Included"
+    - "Formula Type"
+    - "TPO-Free"
+    - "Bottle Size"
+    - "Wear Time"
+    - "Best For"
+    - "Rating"
+  columns:
+    - label: "Love Sparkle Set"
+      values:
+        - "$58.81"
+        - "8 colors"
+        - "Standard UV gel"
+        - "Yes"
+        - "Standard"
+        - "28 days"
+        - "Gifting & full color story"
+        - "No reviews yet"
+    - label: "Cat Eye Pink & Red"
+      values:
+        - "$45.99"
+        - "6 colors"
+        - "Magnetic cat eye"
+        - "No"
+        - "15ml / 0.5 fl oz"
+        - "28+ days"
+        - "Nail art & dramatic looks"
+        - "5.0 (62 reviews)"
+    - label: "Jelly Pink Set"
+      values:
+        - "$39.99"
+        - "6 colors"
+        - "Sheer jelly"
+        - "Yes"
+        - "15ml"
+        - "28 days"
+        - "Sheer / glass nail trend"
+        - "No reviews yet"
+    - label: "Valentine's Evening"
+      values:
+        - "$7.99"
+        - "1 color"
+        - "Thick TPO-Free gel"
+        - "Yes"
+        - "15ml"
+        - "28 days"
+        - "Budget-friendly single shade"
+        - "No reviews yet"
+    - label: "Galaliver Glitter Set"
+      values:
+        - "$9.99/bottle"
+        - "12 colors"
+        - "High-density glitter"
+        - "No"
+        - "15ml"
+        - "21+ days"
+        - "Sparkle & glam looks"
+        - "4.9 (32 reviews)"
+
+faqs:
+  - question: "What are the best MelodySusie nail products for Valentine's Day?"
+    answer: "The best all-in-one pick is the Valentine's Day Love Sparkle Set at $58.81 — 8 romantic shades in a gift-ready box that covers pinks, reds, and shimmer in one purchase. For a show-stopping nail art effect, the Jeweliver Cat Eye Pink and Red Set at $45.99 is the top choice. If you want the trending jelly nail look, the Jeweliver Jelly Pink Set at $39.99 delivers the glass-nail effect that's everywhere for Valentine's 2026."
+
+  - question: "Do I need a nail lamp to use MelodySusie gel polish?"
+    answer: "Yes. All MelodySusie gel polishes are UV gel — they require a UV or LED nail lamp to cure. Each layer typically cures in 60–90 seconds. You'll also need a base coat and top coat, which are sold separately. MelodySusie's own UV LED lamps are fully compatible with all their gel formulas."
+
+  - question: "Are MelodySusie gel polishes TPO-Free?"
+    answer: "Several are, and several are not. The Valentine's Day Love Sparkle Set, the Jelly Pink Set, and the Z021 Valentine's Evening single shade are all TPO-Free or use EU-compliant alternatives. The Jeweliver Cat Eye Set and Galaliver Glitter Set are not TPO-Free. If formula safety is a priority for you, stick to the TPO-Free picks in this guide."
+
+  - question: "How long do MelodySusie gel polishes last on nails?"
+    answer: "With proper application — using a base coat, two thin color coats, and a top coat, each cured fully — MelodySusie gel formulas last up to 28 days chip-free. Wear time depends on nail prep and your daily activities. The Galaliver Glitter formula is rated for 21+ days. Skipping the base coat or top coat significantly reduces longevity."
+
+  - question: "Is the MelodySusie Valentine's Day gift set good for gifting?"
+    answer: "Yes. The Love Sparkle Set is the strongest gift option in this roundup — it comes in dedicated gift-box packaging, includes 8 curated romantic shades, and requires no additional wrapping. It covers every Valentine's nail look from soft pink to bold red. Use code OFF8 at checkout for 8% off sitewide, or MSOFF15 for 15% off orders over $129.99."
+
+  - question: "What MelodySusie nail products are trending for Valentine's Day 2026?"
+    answer: "Two looks are dominating Valentine's Day 2026: cat eye nails and jelly nails. MelodySusie's Jeweliver Cat Eye Pink and Red Set directly covers the magnetic shimmer trend, while the Jeweliver Jelly Pink Set delivers the glass-nail sheer look that's one of the season's biggest nail trends. Both are long-lasting gel formulas that work for at-home DIY."
+
+  - question: "Does MelodySusie ship to the USA and how fast?"
+    answer: "Yes, MelodySusie ships to the USA. Free US shipping is available on orders over $129.99. Orders under that threshold ship at a standard fee. Delivery times are noted on their site — allow extra time around Valentine's Day peak season and order at least 2 weeks before February 14 to be safe."
+---
+```
+
+---
+
+## SECTION 3 — SEO & KEYWORD PLAN
+
+> **POST GEN INSTRUCTION:** Follow this keyword plan exactly. Calculate primary keyword density before writing. Do not estimate — count.
+
+**Primary keyword:** `MelodySusie valentines day nail products`
+- Wrap EVERY mention in `<strong>` tags — no exceptions
+- First 150 words: must appear exactly **2 times**, both in `<strong>` tags
+- **Density target:** 1.2% — based on competitor analysis. For a 1,400-word post: **17 mentions total**. Add 3 extra mentions in the first half (before the ComparisonTable position)
+
+**Active discount codes to include near CTAs:**
+- `OFF8` — 8% off sitewide
+- `MSOFF15` — 15% off orders over $129.99
+- Free US shipping on orders over $129.99
+
+**Keyword variations (no density target, no `<strong>` tags — use naturally):**
+- MelodySusie Valentine's nail picks
+- MelodySusie Valentine gel polish
+- MelodySusie Valentine's Day nail set
+- best MelodySusie Valentine nail products
+- MelodySusie nail products for Valentine's Day
+- MelodySusie gel polish Valentine's Day
+
+**Transactional cluster keywords (weave throughout, buyer-intent):**
+- valentines day gel nail polish set
+- valentines day nail gift set
+- cat eye gel polish Valentine's Day
+- jelly nail polish pink Valentine's Day
+- glitter gel polish valentines
+- gel nail polish gift for her
+- Valentine's Day nail polish gift box
+- romantic gel nail polish set
+- pink and red gel polish set
+- best gel polish valentines day USA
+- valentines nail set for beginners
+- gel nail polish Valentine's Day colors
+
+**High CPC transactional keywords (weave near CTAs and H2s):**
+- valentines day nail gift set for her
+- best gel nail polish kit gift
+- cat eye gel polish set buy online
+- pink gel polish gift box USA
+- valentines nail products online USA
+
+**LSI semantic terms (weave naturally into body copy):**
+- romantic nail colors
+- jelly nails 2026 trend
+- sheer pink nail polish
+- magnetic nail polish
+- gel polish 28 days wear
+- UV LED nail lamp compatible
+- chip-resistant gel manicure
+- at-home gel manicure
+- non-toxic gel nail polish
+- long-lasting gel color
+- salon quality at home
+- nail polish gift box
+
+**AEO terms — mapped to H2 or FAQ:**
+| AEO Question | Mapped To |
+|---|---|
+| "What are the best MelodySusie nail products for Valentine's Day?" | FAQ entry #1 |
+| "What nail colors are trending for Valentine's Day 2026?" | H2: Valentine's Day 2026 Nail Trends — and What MelodySusie Has for Them |
+| "Do I need a nail lamp to use MelodySusie gel polish?" | FAQ entry #2 |
+| "Is MelodySusie gel polish TPO-Free?" | FAQ entry #3 |
+| "How long does MelodySusie gel polish last?" | FAQ entry #4 |
+| "What is the best Valentine's Day nail gift for her?" | H2: Best MelodySusie Valentine's Day Gift Set for Her |
+| "What is jelly nail polish and why is it trending?" | H2: The Jelly Nail Look: MelodySusie's Sheer Pink Pick |
+| "Does MelodySusie ship to the USA?" | FAQ entry #7 |
+
+**GEO terms — place near CTAs and availability copy:**
+- best valentines day nail products online USA
+- MelodySusie ships to USA free shipping
+- valentines day gel polish free US shipping
+- buy valentines nail gift set USA online
+- MelodySusie gel polish USA delivery
+
+---
+
+## SECTION 4 — COMPETITOR & TITLE INTELLIGENCE
+
+> **POST GEN INSTRUCTION:** Use this to write a title and excerpt that outperforms competitors on CTR. Analysis is done — execute it.
+
+**Top competitor SERP patterns for this keyword space:**
+- Competitor titles tend to be generic: "Best Valentine's Day Nail Products" or "Valentine's Day Nail Ideas 2026" — no brand specificity, no buyer benefit clarity
+- Top Byrdie / Allure content focuses on inspiration boards, not purchase decisions — no transactional product breakdowns
+- No major affiliate roundup currently owns the MelodySusie-specific Valentine's keyword space — this is an open lane
+
+**Title direction (what beats them):**
+- Lead with brand name + occasion + specific product types
+- Add "Ranked" or "Gift Sets" to signal purchase intent, not just inspiration
+- Keep primary keyword in first 7 words
+- Our title: **"Best MelodySusie Valentine's Day Nail Products: Pinks, Reds & Gift Sets Ranked"** — more specific, purchase-intent clear, outperforms generic inspiration titles
+
+**Competitor gaps this post must fill:**
+- No competitor covers MelodySusie-specific Valentine's product types with pricing and specs
+- Cat eye trend for Valentine's 2026 is widely cited in beauty press but no affiliate roundup maps it to specific MelodySusie SKUs
+- Jelly nails as a 2026 Valentine's trend is confirmed by multiple sources (Grazia, Glamnetic, Silcare) — no branded roundup covers this yet
+- TPO-Free buyer concern not addressed by any competitor — our post addresses it in FAQ and product copy
+- USA shipping and ordering timeline guidance missing from all competitor content
+
+**Word count target:** 1,400 words (competitor average for this keyword intent level)
+
+---
+
+## SECTION 5 — BUYER INTELLIGENCE
+
+> **POST GEN INSTRUCTION:** Every paragraph of copy must be written for this specific buyer. Use exact phrases from the buyer phrase bank naturally in the copy.
+
+**Who this buyer is:**
+- Primarily women, ages 22–45, USA
+- DIY nail enthusiast doing their own gel manicures at home
+- Shopping for Valentine's Day: either for themselves ("treating myself") or as a gift for a friend, partner, or mother
+- Aware of MelodySusie as a brand — likely already owns or has researched their drill or lamp
+- Wants to know: which products are right for the occasion, what nail look they'll get, and whether the formula is safe/quality
+
+**What they need from this post:**
+- Clear recommendation — which set is the best overall pick
+- Color story context — what shades/looks each product delivers for Valentine's Day
+- Trust signals — ratings, brand credibility, honest cons
+- Ordering confidence — USA shipping, pricing, and discount codes
+
+**What frustrates them:**
+- Posts that show nail art inspiration but never link to actual products
+- Vague product descriptions with no specs or what the formula actually does
+- No honest cons — feels like an ad, not a recommendation
+- No mention of whether they need additional tools (lamp, base coat) — surprises at checkout
+
+**Top 5 buying objections — address in post body:**
+1. "Do I need a lamp and base/top coat too?" → Address in intro and FAQ
+2. "Will this formula last or chip quickly?" → Address in product details and wear time data
+3. "Is the formula safe / non-toxic?" → Address with TPO-Free callouts
+4. "Is it actually good for gifting, or does it look cheap?" → Address with gift box packaging note
+5. "Will it arrive in time for Valentine's Day?" → Address with shipping note near CTA
+
+**Buyer phrase bank (use these naturally in body copy):**
+- "rich pigmentation"
+- "salon-quality at home"
+- "romantic nail colors"
+- "beautiful, rich colors and thick, premium quality"
+- "doesn't chip or peel for weeks"
+- "easy to apply"
+- "low-odor formula"
+- "nail art without the salon price"
+- "glass nail effect"
+- "magnetic shimmer effect"
+- "cat eye effect on Valentine's Day nails"
+- "treat yourself or gift it"
+- "looks stunning right after the first coat"
+- "perfect for date night"
+
+**Recurring buyer praise (use as selling points):**
+- MelodySusie gel polish praised for rich color payoff and premium texture
+- Buyers note colors look better in person than expected
+- Trustpilot highlights fast, responsive customer service as a key trust factor
+- 28-day wear cited consistently across positive reviews
+
+**Recurring buyer concerns (address honestly):**
+- Durability can vary if base/top coat prep is skipped — be honest about this
+- Cat eye magnet requires a slight technique learning curve for first-timers
+- Some formulas not TPO-Free — buyers with sensitivities need to be directed clearly
+
+---
+
+## SECTION 6 — DISCOUNT & CONVERSION DATA
+
+> **POST GEN INSTRUCTION:** Include active discount information naturally near CTAs — real conversion boosters. Do NOT present discounts as a standalone paragraph. Weave them into product or CTA copy.
+
+**Active MelodySusie promotions (confirmed on site):**
+- **CODE OFF8** — 8% off sitewide (any order)
+- **CODE MSOFF15** — 15% off orders over $129.99
+- **Free US shipping** on orders over $129.99
+
+**Price signals:**
+- Cat Eye Pink & Red Set: marked down from $59.94 → $45.99 (save ~$14)
+- Valentine's Evening single shade: $7.99 — strong budget entry point
+- Galaliver Glitter Set: $9.99/bottle — sold individually or as 12-color full set
+
+**Where to place discount mentions:**
+- Near ShopInlineCTA area (after first 30% of content)
+- Near ShopFinalCTA (bottom of post)
+- Mention ordering timeline near the final CTA: "Order at least 2 weeks before February 14 — use code OFF8 for 8% off your order"
+
+---
+
+## SECTION 7 — CONTENT STRUCTURE
+
+> **POST GEN INSTRUCTION:** Use these H2 headings in this exact order. Do not rename, reorder, or remove. Add H3s at your discretion. Each H2 has a directive — follow it exactly.
+
+**Total word count target: 1,400 words**
+
+---
+
+### INTRO (no H2) — ~150 words
+- Open with the buyer's situation: Valentine's Day is close, they want nails that look intentional and romantic without a salon appointment
+- State the post's promise: five MelodySusie picks ranked by occasion — gifting, nail art, sheer looks, budget, and glitter
+- Primary keyword appears exactly **2 times** in `<strong>` tags in this section
+- No generic hooks. No "Valentine's Day is a time of love" openings. Start with the buyer decision
+
+---
+
+### H2: Valentine's Day 2026 Nail Trends — and What MelodySusie Has for Them — ~120 words
+- **Directive:** Establish trend authority for 2026. Two confirmed Valentine's trends to cover: (1) cat eye magnetic effect, (2) jelly/glass nails. Both backed by Byrdie, Grazia, Glamnetic research.
+- **AEO mapped here:** "What nail colors are trending for Valentine's Day 2026?"
+- Name MelodySusie products that cover each trend directly — this leads buyer into the product picks
+- Primary keyword 1 additional mention here
+
+---
+
+### H2: Best MelodySusie Valentine's Day Gift Set for Her — ~180 words
+**→ {{PRODUCTS:1:0}} — featured layout — Winner product (Valentine's Day Love Sparkle Set)**
+
+- **Directive:** Lead with the winner badge. Write for two buyer scenarios: (1) buying for yourself as a treat, (2) buying as a gift for someone else. Packaging angle = key selling point. Cover: 8 color palette, 28-day wear, low-odor formula, gift-box presentation.
+- **AEO mapped here:** "What is the best Valentine's Day nail gift for her?"
+- Mention discount codes here: "Use code OFF8 for 8% off, or MSOFF15 for 15% off orders over $129.99"
+- **Internal links go here** (mid-post, after first product CTA):
+  - Link to SC-05-S1: "Looking for specific color breakdowns? See our [Best Valentine's Day Gel Polish Colors from MelodySusie](/shop/valentines-day/melodysusie-valentines-gel-polish-colors) guide."
+  - Link to SC-05-S2: "Or browse our [Valentine's Day Nail Gift Sets roundup](/shop/valentines-day/melodysusie-valentines-nail-gift-set) for more gifting options."
+
+---
+
+### H2: Cat Eye Gel Polish for Valentine's Day: The Magnetic Effect Worth Trying — ~150 words
+**→ {{PRODUCTS:1:1}} — featured layout — Jeweliver Cat Eye Pink & Red Set**
+
+- **Directive:** Explain what cat eye nail polish IS (magnetic powder, requires magnet tool) for buyers who've never used it. Then sell why it's the perfect Valentine's Day nail look — romantic, jewel-like shimmer, eye-catching. Cover 6-color pink/red palette, includes magnet, 28+ day wear, 5.0 rating. Address the mild technique learning curve as an honest con.
+- GEO term weave: "ships to the USA — order early for Valentine's Day delivery"
+
+---
+
+### H2: The Jelly Nail Look: MelodySusie's Sheer Pink Pick — ~130 words
+**→ {{PRODUCTS:1:2}} — featured layout — Jelly Pink Set**
+
+- **Directive:** Explain jelly nails in one sentence (sheer, glass-like, light-catching effect). Position as the softer, more romantic alternative to bold reds for buyers who want a delicate Valentine's look. TPO-Free formula = key selling point for this product. Cover 6 shades, 60-second cure, 28-day wear, easy-glide brush for beginners.
+- **AEO mapped here:** "What is jelly nail polish and why is it trending?"
+
+---
+
+### H2: Two More Valentine's Picks Worth Knowing — ~150 words
+**→ {{PRODUCTS:2:3,4}} — 2-product side-by-side grid**
+
+- **Directive:** Present the budget single-shade (Z021 Valentine's Evening) and the Galaliver Glitter Set together. Frame as: (1) the budget buyer who wants ONE perfect Valentine's shade — Z021 is it; (2) the buyer who wants sparkle and drama. Cover pricing ($7.99 and $9.99/bottle), glitter density for Galaliver, 4.9 rating for Galaliver. Keep copy tight — these are secondary picks, not the hero.
+- Weave GEO: "Both ship to the USA — free shipping on orders over $129.99"
+
+---
+
+### H2: What to Know Before You Buy — ~100 words
+- **Directive:** Address the top 3 buying objections in a scannable way. Cover: (1) you need a UV/LED lamp + base/top coat separately; (2) formula differences — TPO-Free vs not; (3) order early for Valentine's Day — at least 2 weeks before Feb 14.
+- No product injection here — this is a pure objection-handling section
+- Short paragraphs or H3 sub-heads are acceptable here
+
+---
+
+### CONCLUSION — ~80 words
+- **Directive:** Final push to purchase — not a summary. Drive the decision. Best overall = Love Sparkle Set. Nail art buyer = Cat Eye Set. Jelly nails buyer = Jelly Pink Set. Budget buyer = Valentine's Evening single shade. End with discount reminder: "Use code OFF8 at checkout for 8% off your order. Free US shipping on orders over $129.99."
+- Do NOT summarize what was already said — this is a decision driver
+
+---
+
+## SECTION 8 — COMPONENT DIRECTIVES
+
+> **POST GEN INSTRUCTION:** These components fire automatically from frontmatter. Confirm trigger fields in Section 2 are correctly set. Never write component content in the body — it auto-renders.
+
+| Component | Status | Trigger |
+|---|---|---|
+| WinnerBadge | **ACTIVE** | `winnerIndex: 0` set in frontmatter |
+| ShopInlineCTA | **ACTIVE** | `winnerIndex: 0` set in frontmatter |
+| ComparisonTable | **ACTIVE** | `showComparison: true` + `comparisonTable` data present |
+| ProsConsBlock | **INACTIVE** | `showProscons: false` — best-of post type |
+| ShopFinalCTA | **ALWAYS ACTIVE** | `products[]` array exists |
+| ShopFAQ | **ACTIVE** | `faqs[]` array has 7 entries |
+| ShopTableOfContents | **ALWAYS ACTIVE** | reads H2/H3 from body automatically |
+| Sidebar winner card | **ACTIVE** | `winnerIndex: 0` set in frontmatter |
+
+---
+
+## SECTION 9 — WRITING INSTRUCTIONS
+
+> **POST GEN INSTRUCTION:** Follow these rules for every paragraph of body copy — no exceptions.
+
+1. This is conversion copy — every sentence moves the buyer toward a purchase decision
+2. Lead with buyer benefit, not product specs — specs support the benefit, never lead with them
+3. Use buyer phrases from Section 5 naturally — "rich pigmentation," "salon-quality at home," "doesn't chip for weeks," "perfect for date night"
+4. Primary keyword `MelodySusie valentines day nail products` in `<strong>` tags every mention — total 17 mentions for 1,400 words
+5. Address buying objections directly — do not hedge or avoid them
+6. Honest cons build trust — include them, then explain why the product is still the right buy
+7. Discount codes placed near CTAs — mention naturally, not as a standalone paragraph
+8. No editorial literary hooks — open sections with the buyer benefit or buying question directly
+9. H2 sections are short and direct — buyers scan, they don't read long intros
+10. Conclusion = final decision driver, not a summary
+11. Internal links placed mid-post AFTER first product CTA only — anchor text natural, never forced
+12. No related articles section in body — handled by site component
+13. Language: **American English** — not British English
+14. No banned AI patterns: no "elevate," "seamlessly," "game-changing," "dive into," "transformative"
+15. No long em dashes — use comma or restructure
+16. Sentence rhythm varies — short punchy sentences for key selling points, longer for context
+17. No "we tested" language — write informed editorial observations from specs and confirmed review data
+18. Valentine's Day is abbreviated "Valentine's Day" throughout — not "V-Day" in body copy (only acceptable in casual aside if needed)
+19. GEO terms woven naturally near CTAs — "ships to the USA," "free US shipping on orders over $129.99," "order early for Valentine's Day delivery"
+20. Intro must not open with: "Valentine's Day is a time for love" or any calendar/occasion preamble — open with the buyer's decision or the nail look goal
