@@ -336,7 +336,7 @@ export function generateEventSchema(post: BlogPost, event: EventData) {
 // ============================================
 export function generateSchemas(config: SchemaConfig) {
   const { post, slug, faqItems, tutorialSteps, tutorialMetadata, videoMetadata, galleryImages } = config;
-  const currentDate = new Date().toISOString();
+  
   const imageUrl = post.image ? `${baseUrl}${post.image}` : `${baseUrl}/og-default.png`;
 
   // Enhanced Article Schema with rich metadata
