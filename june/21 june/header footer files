@@ -1,0 +1,876 @@
+///////////////////////////
+'use client';
+import { useState } from 'react';
+import Link from 'next/link';
+import SearchBar from '@/components/SearchBar';
+
+const ARTICLES_LINKS = [
+  { label: 'World Cup Nails', href: '/blog/soccer/world-cup-nails' },
+  { label: 'FIFA Country Flag Nails', href: '/blog/soccer/flag-country-nails' },
+  { label: '4th of July Nails', href: '/blog/july-nails/4th-of-july-nails' },
+  { label: 'Younger-Looking Hands', href: '/blog/nail-polish-colors-make-hands-look-younger' },
+  { label: 'Wedding Nail Ideas', href: '/blog/wedding-nails/wedding-nail-ideas' },
+  { label: 'Browse All Edits', href: '/blog' },
+];
+
+const SHOP_LINKS = [
+  { label: 'Best Summer Nail Products', href: '/shop/summer/best-melodysusie-summer-nail-products' },
+  { label: 'Summer Gel Polish Colors', href: '/shop/summer/melodysusie-summer-gel-polish-colors' },
+  { label: 'Summer Nail Art Tools', href: '/shop/summer/melodysusie-summer-nail-art-tools' },
+  { label: 'Summer Pedicure Kit', href: '/shop/summer/melodysusie-summer-pedicure-kit' },
+  { label: 'Shop All', href: '/shop' },
+];
+
+const INSPO_LINKS = [
+  { label: 'Almond Nails 2026', href: '/inspo/almond-nails-2026' },
+  { label: 'Fruit Nails', href: '/inspo/fruit-nails-inspiration-gallery' },
+  { label: 'Nails By Color', href: '/inspo/colourful-nails-inspiration-gallery' },
+  { label: 'Holiday Nails', href: '/inspo/holiday-nails-inspiration-gallery' },
+  { label: 'Wedding Nails', href: '/inspo/wedding-nails-inspiration-gallery' },
+  { label: 'View All Collections', href: '/inspo' },
+];
+
+const LONG_READS_LINKS = [
+  { label: 'Seasonal Trends', href: '/topics/seasonal-trends' },
+  { label: 'Nail Care Guide', href: '/topics/nail-care-guide' },
+  { label: 'Nail Art Guide', href: '/topics/nail-art-guides' },
+  { label: 'Professional Nails', href: '/topics/modern-women' },
+  { label: 'Almond Nails Guide', href: '/blog/almond-nails-beginners-guide' },
+  { label: 'Browse All Long Reads', href: '/topics' },
+];
+
+const NAIL_FAQS_LINKS = [
+  { label: 'How To Grow Stronger Healthier Nails', href: '/nail-faqs/how-to-grow-stronger-healthier-nails-naturally' },
+  { label: 'How To Keep Nails Clean & Professional', href: '/nail-faqs/how-to-keep-nails-clean-and-professional-looking-daily' },
+  { label: 'How To Remove Gel Nail Polish At Home', href: '/nail-faqs/whats-the-best-way-to-remove-gel-nail-polish-at-home' },
+  { label: 'Why Do My Nails Hurt After Acrylics', href: '/nail-faqs/why-do-my-nails-hurt-after-getting-acrylics' },
+  { label: 'Should I Get Nails Done Before a Job Interview', href: '/nail-faqs/should-i-get-my-nails-done-before-a-job-interview' },
+  { label: 'Find Your Answers', href: '/nail-faqs' },
+];
+
+// Mobile Dropdown Component
+function MobileDropdown({ 
+  title, 
+  links,
+  isOpen,
+  onToggle 
+}: { 
+  title: string; 
+  links: Array<{ label: string; href: string }>;
+  isOpen: boolean;
+  onToggle: () => void;
+}) {
+  return (
+    <div className="relative">
+      <button
+        onClick={onToggle}
+        style={{ fontFamily: 'General Sans, sans-serif' }}
+        className="text-xs tracking-wider uppercase text-[#f9fafb] hover:opacity-70 transition-opacity flex items-center gap-1"
+      >
+        {title}
+        <svg
+          className={`w-3 h-3 transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
+      {/* Backdrop */}
+      <div 
+        className={`fixed inset-0 bg-black/50 transition-opacity duration-300 ${
+          isOpen ? 'opacity-100 z-[100]' : 'opacity-0 pointer-events-none -z-10'
+        }`}
+        onClick={onToggle}
+      />
+      {/* Dropdown with Animation */}
+      <div 
+        className={`fixed left-0 right-0 bg-[#252220] border-b border-[#f9fafb]/20 shadow-2xl transition-all duration-500 ease-out ${
+          isOpen 
+            ? 'opacity-100 translate-y-0 z-[101]' 
+            : 'opacity-0 -translate-y-4 pointer-events-none -z-10'
+        }`}
+        style={{ top: '7.5rem' }}
+      >
+        <div className="max-w-7xl mx-auto px-6 py-8">
+          <div className="space-y-1">
+            {links.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                onClick={onToggle}
+                style={{ fontFamily: 'General Sans, sans-serif' }}
+                className="block py-3 text-base text-[#f9fafb] hover:opacity-70 hover:pl-2 transition-all duration-300"
+              >
+                {link.label}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// Mobile Search Component (full-width bar)
+function MobileSearch() {
+  const [isOpen, setIsOpen] = useState(false);
+  const [query, setQuery] = useState('');
+  const [results, setResults] = useState<any[]>([]);
+  const [isLoading, setIsLoading] = useState(false);
+  const debounceRef = useState<ReturnType<typeof setTimeout> | null>(null);
+
+  async function handleSearch(q: string) {
+    setQuery(q);
+    if (debounceRef[0]) clearTimeout(debounceRef[0]);
+    if (!q.trim() || q.trim().length < 2) {
+      setResults([]);
+      return;
+    }
+    setIsLoading(true);
+    const timer = setTimeout(async () => {
+      try {
+        const res = await fetch(`/api/search?q=${encodeURIComponent(q)}`);
+        const data = await res.json();
+        setResults(data.results || []);
+      } catch {
+        setResults([]);
+      } finally {
+        setIsLoading(false);
+      }
+    }, 300);
+    // @ts-ignore
+    debounceRef[0] = timer;
+  }
+
+  return (
+    <div className="relative">
+      {!isOpen ? (
+        <button
+          onClick={() => setIsOpen(true)}
+          aria-label="Open search"
+          className="text-[#f9fafb] hover:opacity-70 transition-opacity"
+        >
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round">
+            <circle cx="11" cy="11" r="8" />
+            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+          </svg>
+        </button>
+      ) : (
+        <>
+          {/* Full-width search overlay for mobile */}
+          <div className="fixed inset-0 bg-[#252220] z-[200] flex flex-col">
+            {/* Search Input Row */}
+            <div className="flex items-center gap-3 px-6 h-16 border-b border-[#f9fafb]/20">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round" className="text-[#f9fafb]/50 shrink-0">
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+              </svg>
+              <input
+                autoFocus
+                type="text"
+                value={query}
+                onChange={e => handleSearch(e.target.value)}
+                placeholder="Search Mirellé..."
+                style={{ fontFamily: 'General Sans, sans-serif' }}
+                className="flex-1 bg-transparent text-sm text-[#f9fafb] placeholder:text-[#f9fafb]/40 focus:outline-none"
+              />
+              <button
+                onClick={() => { setIsOpen(false); setQuery(''); setResults([]); }}
+                style={{ fontFamily: 'General Sans, sans-serif' }}
+                className="text-[10px] tracking-widest uppercase text-[#f9fafb]/60 hover:text-[#f9fafb] transition-colors shrink-0"
+              >
+                CLOSE
+              </button>
+            </div>
+
+            {/* Results */}
+            <div className="flex-1 overflow-y-auto">
+              {isLoading && (
+                <div style={{ fontFamily: 'General Sans, sans-serif' }} className="px-6 py-4 text-xs tracking-widest uppercase text-[#f9fafb]/40">
+                  Searching...
+                </div>
+              )}
+              {!isLoading && query.trim().length >= 2 && results.length === 0 && (
+                <div style={{ fontFamily: 'General Sans, sans-serif' }} className="px-6 py-5 text-xs tracking-widest uppercase text-[#f9fafb]/40">
+                  No results for &ldquo;{query}&rdquo;
+                </div>
+              )}
+              {!isLoading && results.map((result, i) => (
+                <Link
+                  key={result.url}
+                  href={result.url}
+                  onClick={() => { setIsOpen(false); setQuery(''); setResults([]); }}
+                  className="flex flex-col gap-0.5 px-6 py-4 border-b border-[#f9fafb]/10 hover:bg-[#f9fafb]/5 transition-colors"
+                >
+                  <span style={{ fontFamily: 'General Sans, sans-serif' }} className="text-sm text-[#f9fafb]">
+                    {result.title}
+                  </span>
+                  {result.excerpt && (
+                    <span style={{ fontFamily: 'General Sans, sans-serif' }} className="text-xs text-[#f9fafb]/45 line-clamp-1">
+                      {result.excerpt}
+                    </span>
+                  )}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </>
+      )}
+    </div>
+  );
+}
+
+export default function Header() {
+  const [openDropdown, setOpenDropdown] = useState<string | null>(null);
+
+  const toggleDropdown = (name: string) => {
+    setOpenDropdown(openDropdown === name ? null : name);
+  };
+
+  return (
+    <header className="bg-[#252220]">
+      {/* Desktop Header */}
+      <div className="hidden md:block">
+        {/* Top Row */}
+        <div className="border-b border-[#f9fafb]/20">
+          <div className="container-standard mx-auto px-16">
+            <div className="flex justify-center items-center h-16 relative">
+              <Link href="/" className="flex items-center">
+                <span 
+                  data-logo="true" 
+                  style={{ fontFamily: 'Larken, Georgia, serif' }} 
+                  className="text-3xl font-bold text-[#f9fafb]"
+                >
+                  Mirellé
+                </span>
+              </Link>
+              <div className="flex items-center gap-6 absolute right-0">
+                {/* Search Bar */}
+                <SearchBar />
+
+                <a 
+                  href="https://mirelleinspo.com/subscribe" 
+                  style={{ fontFamily: 'General Sans, sans-serif' }}
+                  className="text-xs tracking-widest uppercase text-[#f9fafb] hover:opacity-70 transition-opacity border border-[#f9fafb] px-4 py-2"
+                >
+                  NEWSLETTER
+                </a>
+                <Link 
+                  href="/work-with-us"
+                  style={{ fontFamily: 'General Sans, sans-serif' }}
+                  className="text-xs tracking-widest uppercase text-[#f9fafb] hover:opacity-70 transition-opacity"
+                >
+                  WORK WITH US
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Bottom Row - Nav */}
+        <nav className="border-b border-[#f9fafb]/20">
+          <div className="container-standard mx-auto px-16">
+            <div className="flex justify-center items-center h-12 gap-10">
+              
+              <Link 
+                href="/about"
+                style={{ fontFamily: 'General Sans, sans-serif' }}
+                className="text-sm tracking-wider uppercase text-[#f9fafb] hover:opacity-70 transition-opacity"
+              >
+                ABOUT
+              </Link>
+
+              {/* Edits Dropdown */}
+              <div className="relative group">
+                <Link 
+                  href="/blog"
+                  style={{ fontFamily: 'General Sans, sans-serif' }}
+                  className="text-sm tracking-wider uppercase text-[#f9fafb] hover:opacity-70 transition-opacity"
+                >
+                  EDITS
+                </Link>
+                <div className="fixed left-0 right-0 top-[7.5rem] opacity-0 invisible translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-500 ease-out z-50">
+                  <div className="bg-[#252220] border-b border-[#f9fafb]/20 shadow-2xl">
+                    <div className="max-w-7xl mx-auto px-16 py-12">
+                      <div className="space-y-1">
+                        {ARTICLES_LINKS.map((link) => (
+                          <Link
+                            key={link.href}
+                            href={link.href}
+                            style={{ fontFamily: 'General Sans, sans-serif' }}
+                            className="block py-3 text-lg text-[#f9fafb] hover:opacity-70 hover:pl-2 transition-all duration-300"
+                          >
+                            {link.label}
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Shop Dropdown */}
+              <div className="relative group">
+                <Link 
+                  href="/shop"
+                  style={{ fontFamily: 'General Sans, sans-serif' }}
+                  className="text-sm tracking-wider uppercase text-[#f9fafb] hover:opacity-70 transition-opacity"
+                >
+                  SHOP
+                </Link>
+                <div className="fixed left-0 right-0 top-[7.5rem] opacity-0 invisible translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-500 ease-out z-50">
+                  <div className="bg-[#252220] border-b border-[#f9fafb]/20 shadow-2xl">
+                    <div className="max-w-7xl mx-auto px-16 py-12">
+                      <div className="space-y-1">
+                        {SHOP_LINKS.map((link) => (
+                          <Link
+                            key={link.href}
+                            href={link.href}
+                            style={{ fontFamily: 'General Sans, sans-serif' }}
+                            className="block py-3 text-lg text-[#f9fafb] hover:opacity-70 hover:pl-2 transition-all duration-300"
+                          >
+                            {link.label}
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Inspo Dropdown */}
+              <div className="relative group">
+                <Link 
+                  href="/inspo"
+                  style={{ fontFamily: 'General Sans, sans-serif' }}
+                  className="text-sm tracking-wider uppercase text-[#f9fafb] hover:opacity-70 transition-opacity"
+                >
+                  INSPO
+                </Link>
+                <div className="fixed left-0 right-0 top-[7.5rem] opacity-0 invisible translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-500 ease-out z-50">
+                  <div className="bg-[#252220] border-b border-[#f9fafb]/20 shadow-2xl">
+                    <div className="max-w-7xl mx-auto px-16 py-12">
+                      <div className="space-y-1">
+                        {INSPO_LINKS.map((link) => (
+                          <Link
+                            key={link.href}
+                            href={link.href}
+                            style={{ fontFamily: 'General Sans, sans-serif' }}
+                            className="block py-3 text-lg text-[#f9fafb] hover:opacity-70 hover:pl-2 transition-all duration-300"
+                          >
+                            {link.label}
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Long Reads Dropdown */}
+              <div className="relative group">
+                <Link 
+                  href="/topics"
+                  style={{ fontFamily: 'General Sans, sans-serif' }}
+                  className="text-sm tracking-wider uppercase text-[#f9fafb] hover:opacity-70 transition-opacity"
+                >
+                  LONG READS
+                </Link>
+                <div className="fixed left-0 right-0 top-[7.5rem] opacity-0 invisible translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-500 ease-out z-50">
+                  <div className="bg-[#252220] border-b border-[#f9fafb]/20 shadow-2xl">
+                    <div className="max-w-7xl mx-auto px-16 py-12">
+                      <div className="space-y-1">
+                        {LONG_READS_LINKS.map((link) => (
+                          <Link
+                            key={link.href}
+                            href={link.href}
+                            style={{ fontFamily: 'General Sans, sans-serif' }}
+                            className="block py-3 text-lg text-[#f9fafb] hover:opacity-70 hover:pl-2 transition-all duration-300"
+                          >
+                            {link.label}
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Nail FAQs Dropdown */}
+              <div className="relative group">
+                <Link 
+                  href="/nail-faqs"
+                  style={{ fontFamily: 'General Sans, sans-serif' }}
+                  className="text-sm tracking-wider uppercase text-[#f9fafb] hover:opacity-70 transition-opacity"
+                >
+                  NAIL FAQS
+                </Link>
+                <div className="fixed left-0 right-0 top-[7.5rem] opacity-0 invisible translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-500 ease-out z-50">
+                  <div className="bg-[#252220] border-b border-[#f9fafb]/20 shadow-2xl">
+                    <div className="max-w-7xl mx-auto px-16 py-12">
+                      <div className="space-y-1">
+                        {NAIL_FAQS_LINKS.map((link) => (
+                          <Link
+                            key={link.href}
+                            href={link.href}
+                            style={{ fontFamily: 'General Sans, sans-serif' }}
+                            className="block py-3 text-lg text-[#f9fafb] hover:opacity-70 hover:pl-2 transition-all duration-300"
+                          >
+                            {link.label}
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      {/* Mobile Header */}
+      <div className="md:hidden">
+        <div className="border-b border-[#f9fafb]/20">
+          <div className="px-6 h-16 flex items-center justify-between">
+            <Link href="/" className="flex items-center">
+              <span style={{ fontFamily: 'Larken, Georgia, serif' }} className="text-2xl font-bold text-[#f9fafb]">
+                Mirellé
+              </span>
+            </Link>
+            <div className="flex items-center gap-4">
+              {/* Mobile Search Icon */}
+              <MobileSearch />
+
+              <a 
+                href="https://mirelleinspo.com/subscribe"
+                style={{ fontFamily: 'General Sans, sans-serif' }}
+                className="text-[10px] tracking-wider uppercase text-[#f9fafb] hover:opacity-70 transition-opacity border border-[#f9fafb] px-3 py-1.5"
+              >
+                NEWSLETTER
+              </a>
+              <Link 
+                href="/work-with-us"
+                style={{ fontFamily: 'General Sans, sans-serif' }}
+                className="text-[10px] tracking-wider uppercase text-[#f9fafb] hover:opacity-70 transition-opacity"
+              >
+                WORK WITH US
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <div className="border-b border-[#f9fafb]/20 overflow-x-auto scrollbar-hide">
+          <div className="flex gap-8 px-6 h-12 items-center whitespace-nowrap">
+            <Link 
+              href="/about"
+              style={{ fontFamily: 'General Sans, sans-serif' }}
+              className="text-xs tracking-wider uppercase text-[#f9fafb] hover:opacity-70 transition-opacity"
+            >
+              ABOUT
+            </Link>
+            
+            <MobileDropdown
+              title="EDITS"
+              links={ARTICLES_LINKS}
+              isOpen={openDropdown === 'articles'}
+              onToggle={() => toggleDropdown('articles')}
+            />
+
+            <MobileDropdown
+              title="SHOP"
+              links={SHOP_LINKS}
+              isOpen={openDropdown === 'shop'}
+              onToggle={() => toggleDropdown('shop')}
+            />
+            
+            <MobileDropdown
+              title="INSPO"
+              links={INSPO_LINKS}
+              isOpen={openDropdown === 'inspo'}
+              onToggle={() => toggleDropdown('inspo')}
+            />
+            
+            <MobileDropdown
+              title="LONG READS"
+              links={LONG_READS_LINKS}
+              isOpen={openDropdown === 'longreads'}
+              onToggle={() => toggleDropdown('longreads')}
+            />
+
+            <MobileDropdown
+              title="NAIL FAQS"
+              links={NAIL_FAQS_LINKS}
+              isOpen={openDropdown === 'nailfaqs'}
+              onToggle={() => toggleDropdown('nailfaqs')}
+            />
+          </div>
+        </div>
+      </div>
+
+      <style jsx>{`
+        .scrollbar-hide::-webkit-scrollbar {
+          display: none;
+        }
+        .scrollbar-hide {
+          -ms-overflow-style: none;
+          scrollbar-width: none;
+        }
+      `}</style>
+    </header>
+  );
+}
+
+/////////////////////////////
+'use client';
+
+// src/components/FooterClient.tsx
+// "Latest from Mirellé"  collapsed by default on all screens.
+// Uses native <details>/<summary> for guaranteed collapse behavior, no state bugs.
+
+import Link from 'next/link';
+
+interface FooterLink {
+  title: string;
+  url: string;
+}
+
+interface Props {
+  blogs: FooterLink[];
+  shop: FooterLink[];
+  inspo: FooterLink[];
+}
+
+function LinkGrid({ links }: { links: FooterLink[] }) {
+  return (
+    <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-2">
+      {links.map((link) => (
+        <li key={link.url}>
+          <Link
+            href={link.url}
+            className="font-body text-[#f9fafb]/55 hover:text-[#f9fafb] transition-colors text-xs leading-snug block py-1 line-clamp-1"
+          >
+            {link.title}
+          </Link>
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+function SubSection({ title, links }: { title: string; links: FooterLink[] }) {
+  return (
+    <details className="group border-t border-[#f9fafb]/10">
+      <summary className="w-full py-3 flex items-center justify-between text-left cursor-pointer list-none">
+        <span className="font-ui text-xs uppercase tracking-widest text-[#f9fafb]/40">
+          {title}
+        </span>
+        <svg
+          className="w-4 h-4 transition-transform duration-200 group-open:rotate-180"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 9l-7 7-7-7" />
+        </svg>
+      </summary>
+      <div className="pb-5">
+        <LinkGrid links={links} />
+      </div>
+    </details>
+  );
+}
+
+export default function FooterClient({ blogs, shop, inspo }: Props) {
+  return (
+    <details className="group mb-10 border-b border-[#f9fafb]/20 pb-10">
+      <summary className="w-full py-4 flex items-center justify-between text-left cursor-pointer list-none">
+        <h3 className="font-ui text-sm uppercase tracking-widest text-[#f9fafb]">
+          Latest from Mirellé
+        </h3>
+        <svg
+          className="w-4 h-4 transition-transform duration-200 group-open:rotate-180"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 9l-7 7-7-7" />
+        </svg>
+      </summary>
+
+      <div className="mt-1">
+        <SubSection title="Edits" links={blogs} />
+        <SubSection title="Shop" links={shop} />
+        <SubSection title="Inspo" links={inspo} />
+      </div>
+    </details>
+  );
+}
+
+
+
+////////////////////
+
+
+
+
+// src/components/Footer.tsx
+// Server component  fetches latest blog/shop/inspo at build time, zero runtime cost.
+
+import Link from 'next/link';
+import Image from 'next/image';
+import { getAllBlogPosts } from '@/lib/blog';
+import { getAllShopPosts } from '@/lib/shop';
+import { getAllDesignSlugs, getDesignData } from '@/lib/inspo';
+import FooterClient from './FooterClient';
+
+async function getFooterData() {
+  const [allBlogs, allShop] = await Promise.all([
+    getAllBlogPosts(),
+    getAllShopPosts(),
+  ]);
+
+  const blogs = allBlogs.slice(0, 50).map(p => ({
+    title: p.title,
+    url: p.url.replace('https://mirelleinspo.com', ''),
+  }));
+
+  const shop = allShop.slice(0, 40).map(p => ({
+    title: p.title,
+    url: `/shop/${p.slug}`,
+  }));
+
+  const allInspoSlugs = getAllDesignSlugs();
+  const inspoSlugs = allInspoSlugs.slice(-10).reverse();
+  const inspo = inspoSlugs
+    .map(slug => {
+      const d = getDesignData(slug);
+      if (!d) return null;
+      return { title: d.displayName, url: `/inspo/${slug}` };
+    })
+    .filter(Boolean) as { title: string; url: string }[];
+
+  return { blogs, shop, inspo };
+}
+
+const EXPLORE_LINKS = [
+  { href: '/trend-reports',     label: 'Trend Reports'    },
+  { href: '/nail-encyclopedia', label: 'Nail Encyclopedia' },
+  { href: '/blog',              label: 'Edits'            },
+  { href: '/shop',              label: 'Shop'             },
+  { href: '/inspo',             label: 'Designs'          },
+  { href: '/spotlight',         label: 'Spotlight'        },
+  { href: '/work-nails',        label: 'Work Nails'       },
+  { href: '/nail-faqs',         label: 'Nail FAQs'        },
+];
+
+const COMPANY_LINKS = [
+  { href: '/business',          label: 'Business'           },
+  { href: '/about',             label: 'About Us'           },
+  { href: '/authors',           label: 'Our Authors'        },
+  { href: '/work-with-us',      label: 'Work With Us'       },
+  { href: '/press',             label: 'Press'              },
+  { href: '/editorial-policy',  label: 'Editorial Policy'   },
+  { href: '/disclosures',       label: 'Disclosures'        },
+  { href: '/privacy-policy',    label: 'Privacy Policy'     },
+  { href: '/terms',             label: 'Terms & Conditions' },
+  { href: '/user-agreement',    label: 'User Agreement'     },
+  { href: '/contact',           label: 'Contact'            },
+];
+
+function SocialIcons() {
+  return (
+    <ul className="space-y-4">
+      <li>
+        <a
+          href="https://in.pinterest.com/mirelle_inspo/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-3 text-[#f9fafb]/60 hover:text-[#f9fafb] transition-colors"
+          aria-label="Pinterest"
+        >
+          <svg className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 0C5.373 0 0 5.372 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z"/>
+          </svg>
+          <span className="font-ui text-xs uppercase tracking-wide">Pinterest</span>
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://instagram.com/mirelle_inspo"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-3 text-[#f9fafb]/60 hover:text-[#f9fafb] transition-colors"
+          aria-label="Instagram"
+        >
+          <svg className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+          </svg>
+          <span className="font-ui text-xs uppercase tracking-wide">Instagram</span>
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://x.com/mirelleinspo"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-3 text-[#f9fafb]/60 hover:text-[#f9fafb] transition-colors"
+          aria-label="X"
+        >
+          <svg className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+          </svg>
+          <span className="font-ui text-xs uppercase tracking-wide">X</span>
+        </a>
+      </li>
+    </ul>
+  );
+}
+
+export default async function Footer() {
+  const currentYear = new Date().getFullYear();
+  const { blogs, shop, inspo } = await getFooterData();
+
+  return (
+    <footer className="bg-[#252220] text-[#f9fafb]">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+
+        {/* Logo and bio */}
+        <div className="mb-10 pb-10 border-b border-[#f9fafb]/20">
+          <Link href="/" className="inline-flex items-center gap-4 mb-5 group">
+            <div className="relative w-9 h-9 lg:w-11 lg:h-11 rounded-full overflow-hidden flex-shrink-0 ring-1 ring-[#f9fafb]/10">
+              <Image
+                src="/favicon.svg"
+                alt="Mirellé Inspo"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <span
+              className="font-brand text-xl lg:text-2xl tracking-wide"
+              data-logo="true"
+            >
+              Mirellé Inspo
+            </span>
+          </Link>
+          <p className="font-body text-[#f9fafb]/55 text-sm max-w-xs leading-relaxed">
+            Curating so you don&apos;t have to.
+          </p>
+        </div>
+
+        {/* MOBILE ONLY  Socials shown first, never collapsed */}
+        <div className="lg:hidden mb-10">
+          <h3 className="font-ui text-xs uppercase tracking-widest text-[#f9fafb]/40 mb-5">
+            Follow Along
+          </h3>
+          <SocialIcons />
+        </div>
+
+        {/* Latest from Mirellé  collapsible on both, same on all screens */}
+        <FooterClient blogs={blogs} shop={shop} inspo={inspo} />
+
+        {/* MOBILE  Explore + Company collapsible accordions */}
+        <div className="lg:hidden">
+          <details className="group border-b border-[#f9fafb]/20">
+            <summary className="w-full py-4 flex items-center justify-between text-left cursor-pointer list-none">
+              <h3 className="font-ui text-xs uppercase tracking-widest text-[#f9fafb]/40">
+                Explore
+              </h3>
+              <svg className="w-4 h-4 transition-transform duration-200 group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 9l-7 7-7-7" />
+              </svg>
+            </summary>
+            <ul className="space-y-3 pb-5">
+              {EXPLORE_LINKS.map(({ href, label }) => (
+                <li key={href}>
+                  <Link href={href} className="font-body text-[#f9fafb]/60 hover:text-[#f9fafb] transition-colors text-sm block">
+                    {label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </details>
+
+          <details className="group border-b border-[#f9fafb]/20">
+            <summary className="w-full py-4 flex items-center justify-between text-left cursor-pointer list-none">
+              <h3 className="font-ui text-xs uppercase tracking-widest text-[#f9fafb]/40">
+                Company
+              </h3>
+              <svg className="w-4 h-4 transition-transform duration-200 group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 9l-7 7-7-7" />
+              </svg>
+            </summary>
+            <ul className="space-y-3 pb-5">
+              {COMPANY_LINKS.map(({ href, label }) => (
+                <li key={href}>
+                  <Link href={href} className="font-body text-[#f9fafb]/60 hover:text-[#f9fafb] transition-colors text-sm block">
+                    {label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </details>
+        </div>
+
+        {/* DESKTOP ONLY  Follow Along + Explore + Company, 3 columns, never collapsed */}
+        <div className="hidden lg:grid lg:grid-cols-3 lg:gap-16 lg:mt-10">
+
+          <div>
+            <h3 className="font-ui text-xs uppercase tracking-widest text-[#f9fafb]/40 mb-5">
+              Follow Along
+            </h3>
+            <SocialIcons />
+          </div>
+
+          <div>
+            <h3 className="font-ui text-xs uppercase tracking-widest text-[#f9fafb]/40 mb-5">
+              Explore
+            </h3>
+            <ul className="space-y-3">
+              {EXPLORE_LINKS.map(({ href, label }) => (
+                <li key={href}>
+                  <Link href={href} className="font-body text-[#f9fafb]/60 hover:text-[#f9fafb] transition-colors text-sm block">
+                    {label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="font-ui text-xs uppercase tracking-widest text-[#f9fafb]/40 mb-5">
+              Company
+            </h3>
+            <ul className="space-y-3">
+              {COMPANY_LINKS.map(({ href, label }) => (
+                <li key={href}>
+                  <Link href={href} className="font-body text-[#f9fafb]/60 hover:text-[#f9fafb] transition-colors text-sm block">
+                    {label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+      {/* Bottom bar */}
+      <div className="border-t border-[#f9fafb]/20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
+          <p className="font-body text-[#f9fafb]/35 text-xs text-center lg:text-left">
+            © {currentYear} Mirellé Inspo. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  );
+}
+
+
+
+
+
