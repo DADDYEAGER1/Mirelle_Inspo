@@ -1,0 +1,251 @@
+// src/lib/shop.ts
+import 'server-only';
+import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter';
+import { marked } from 'marked';
+import { ShopPost } from '@/types/shop';
+
+// ─── marked config — mirrors blog.ts exactly ─────────────────────────────────
+
+marked.setOptions({
+  breaks: true,
+  gfm: true,
+});
+
+const renderer = new marked.Renderer();
+
+renderer.html = (html: string) => {
+  return html.replace(/src="images\//g, 'src="/images/');
+};
+
+renderer.image = (href: string, title: string | null, text: string) => {
+  const fixedHref = href.startsWith('images/') ? `/${href}` : href;
+  const titleAttr = title ? ` title="${title}"` : '';
+  return `<img src="${fixedHref}" alt="${text}"${titleAttr} loading="lazy" />`;
+};
+
+marked.use({ renderer });
+
+// ─── Cache ────────────────────────────────────────────────────────────────────
+
+interface CacheEntry<T> {
+  data: T;
+  timestamp: number;
+}
+
+class ShopCache {
+  private cache = new Map<string, CacheEntry<any>>();
+  private readonly TTL = 3600000;
+
+  get<T>(key: string): T | null {
+    const entry = this.cache.get(key);
+    if (!entry) return null;
+    if (Date.now() - entry.timestamp > this.TTL) {
+      this.cache.delete(key);
+      return null;
+    }
+    return entry.data as T;
+  }
+
+  set<T>(key: string, data: T): void {
+    this.cache.set(key, { data, timestamp: Date.now() });
+  }
+}
+
+const shopCache = new ShopCache();
+
+// ─── Constants ────────────────────────────────────────────────────────────────
+
+const SHOP_DIR = path.join(process.cwd(), 'src/content/shop');
+
+// ─── Helpers ──────────────────────────────────────────────────────────────────
+
+// Recursively find all .md/.mdx files under SHOP_DIR.
+// Folder structure is content/shop/<productType>/<file>.md
+function getAllShopFilesRecursive(dir: string, base = ''): string[] {
+  let results: string[] = [];
+  let entries: fs.Dirent[];
+
+  try {
+    entries = fs.readdirSync(dir, { withFileTypes: true });
+  } catch {
+    return [];
+  }
+
+  for (const entry of entries) {
+    const relativePath = base ? `${base}/${entry.name}` : entry.name;
+    if (entry.isDirectory()) {
+      results = results.concat(getAllShopFilesRecursive(path.join(dir, entry.name), relativePath));
+    } else if (entry.isFile() && (entry.name.endsWith('.md') || entry.name.endsWith('.mdx'))) {
+      results.push(relativePath);
+    }
+  }
+
+  return results;
+}
+
+// Convert markdown to HTML with H2/H3 IDs for TOC — mirrors blog.ts
+async function markdownToHtml(rawContent: string): Promise<string> {
+  let compiled = await marked(rawContent);
+
+  compiled = compiled.replace(
+    /<h2>(.*?)<\/h2>/g,
+    (_match, text) => {
+      const cleanText = text.replace(/<[^>]*>/g, '');
+      const id = cleanText
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-+|-+$/g, '');
+      return `<h2 id="${id}">${text}</h2>`;
+    }
+  );
+
+  compiled = compiled.replace(
+    /<h3>(.*?)<\/h3>/g,
+    (_match, text) => {
+      const cleanText = text.replace(/<[^>]*>/g, '');
+      const id = cleanText
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-+|-+$/g, '');
+      return `<h3 id="${id}">${text}</h3>`;
+    }
+  );
+
+  return compiled;
+}
+
+// ─── Build post object ─────────────────────────────────────────────────────────
+// slug and productType now come from FRONTMATTER, not the file path.
+// File path (folder name) is only used as a fallback for productType
+// in case it's missing from frontmatter, and purely for organizing files on disk.
+
+function buildPost(
+  data: any,
+  content: string,
+  isMDX: boolean,
+  folderName: string // the productType folder this file physically lives in
+): ShopPost | null {
+  const slug = data.slug;
+  const productType = data.productType || folderName;
+
+  if (!slug) {
+    console.error(`Shop post in folder "${folderName}" is missing required "slug" frontmatter field. Skipping.`);
+    return null;
+  }
+
+  return {
+    slug,
+    productType,
+    title:             data.title             ?? '',
+    excerpt:           data.excerpt           ?? '',
+    date:              data.date              ?? '',
+    author:            data.author            ?? 'jyoti-mirelle', // author SLUG, resolved to full Author object in the template
+    category:          data.category          ?? 'Shop',
+    image:             data.image             ?? '',
+    imageAlt:          data.imageAlt          ?? data.title ?? '',
+    imageWidth:        data.imageWidth        ?? 1200,
+    imageHeight:       data.imageHeight       ?? 630,
+    readTime:          data.readTime          ?? '',
+    canonical:         data.canonical         ?? '',
+    isMDX,
+    content,
+    template:          'shop',
+    postType:          data.postType          ?? 'best-of',
+    winnerIndex:       data.winnerIndex       ?? undefined,
+    showComparison:    data.showComparison    ?? false,
+    showProscons:      data.showProscons      ?? false,
+    comparisonCaption: data.comparisonCaption ?? '',
+    products:          data.products          ?? [],
+    comparisonTable:   data.comparisonTable   ?? null,
+    faqs:              data.faqs              ?? [],
+    tldr:              data.tldr              ?? [],
+  };
+}
+
+// ─── Public API ───────────────────────────────────────────────────────────────
+
+// Look up a post by productType + slug (the two URL segments).
+export async function getShopPost(productType: string, slug: string): Promise<ShopPost | null> {
+  const cacheKey = `shop-post:${productType}/${slug}`;
+  const cached = shopCache.get<ShopPost>(cacheKey);
+  if (cached) return cached;
+
+  const folderPath = path.join(SHOP_DIR, productType);
+  if (!fs.existsSync(folderPath)) return null;
+
+  try {
+    const files = fs.readdirSync(folderPath, { withFileTypes: true })
+      .filter(e => e.isFile() && (e.name.endsWith('.md') || e.name.endsWith('.mdx')));
+
+    for (const file of files) {
+      const filePath = path.join(folderPath, file.name);
+      const raw = fs.readFileSync(filePath, 'utf-8');
+      const { data, content: rawContent } = matter(raw);
+
+      if (data.slug !== slug) continue;
+
+      const isMDX = file.name.endsWith('.mdx');
+      const content = isMDX ? rawContent : await markdownToHtml(rawContent);
+      const post = buildPost(data, content, isMDX, productType);
+
+      if (post) {
+        shopCache.set(cacheKey, post);
+        return post;
+      }
+    }
+
+    return null;
+
+  } catch (err) {
+    console.error(`Error reading shop post ${productType}/${slug}:`, err);
+    return null;
+  }
+}
+
+export async function getAllShopPosts(): Promise<ShopPost[]> {
+  const cacheKey = 'all-shop-posts';
+  const cached = shopCache.get<ShopPost[]>(cacheKey);
+  if (cached) return cached;
+
+  if (!fs.existsSync(SHOP_DIR)) return [];
+
+  try {
+    const files = getAllShopFilesRecursive(SHOP_DIR);
+
+    const posts = await Promise.all(
+      files.map(async relativePath => {
+        const filePath = path.join(SHOP_DIR, relativePath);
+        const raw = fs.readFileSync(filePath, 'utf-8');
+        const { data, content: rawContent } = matter(raw);
+        const isMDX = relativePath.endsWith('.mdx');
+        const content = isMDX ? rawContent : await markdownToHtml(rawContent);
+
+        // folderName = first path segment = content/shop/<folderName>/file.md
+        const folderName = relativePath.split('/')[0];
+
+        return buildPost(data, content, isMDX, folderName);
+      })
+    );
+
+    const validPosts = posts.filter((p): p is ShopPost => p !== null);
+
+    const sorted = validPosts.sort(
+      (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+    );
+
+    shopCache.set(cacheKey, sorted);
+    return sorted;
+
+  } catch (err) {
+    console.error('Error reading shop posts:', err);
+    return [];
+  }
+}
+
+// Used by generateStaticParams — returns [productType, slug] pairs
+export async function getShopStaticParams(): Promise<{ slug: string[] }[]> {
+  const posts = await getAllShopPosts();
+  return posts.map(post => ({ slug: [post.productType, post.slug] }));
+}
