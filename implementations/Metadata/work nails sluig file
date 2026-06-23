@@ -1,0 +1,101 @@
+// src/app/work-nails/[slug]/page.tsx
+import { notFound } from 'next/navigation';
+import { getWorkNailsPost, getAllWorkNailsSlugs } from '@/lib/workNails';
+import type { Metadata } from 'next';
+import { generateSchemas } from '@/lib/generateSchemas';
+
+import CenterTemplate from './templates/CenterTemplate';
+import SplitLeftTemplate from './templates/SplitLeftTemplate';
+export const dynamic = 'force-static'
+export const revalidate = false
+
+interface PageProps {
+  params: Promise<{
+    slug: string;
+  }>;
+}
+
+
+
+export async function generateStaticParams() {
+  const slugs = await getAllWorkNailsSlugs();
+  return slugs.map((slug) => ({ slug }));
+}
+
+ 
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+ 
+  // Replace with your actual data fetch
+  // const post = await getWorkNailPost(slug);
+  const postTitle = slug.replace(/-/g, ' ').replace(/\b\w/g, (l) => l.toUpperCase());
+  const canonicalUrl = `https://mirelleinspo.com/work-nails/${slug}`;
+ 
+  return {
+    title: postTitle,
+    description: `${postTitle} — professional nail inspiration and advice from Mirellé Inspo.`,
+    authors: [{ name: 'Jyotika Verma', url: 'https://mirelleinspo.com/authors/jyoti-mirelle' }],
+    creator: 'Jyotika Verma',
+    alternates: { canonical: canonicalUrl },
+    openGraph: {
+      title: postTitle,
+      description: `${postTitle} — professional nail inspiration from Mirellé Inspo.`,
+      url: canonicalUrl,
+      siteName: 'Mirellé Inspo',
+      type: 'article',
+      locale: 'en_US',
+      images: [{ url: '/logo.png', width: 250, height: 60, alt: `${postTitle} — Mirellé Inspo` }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: postTitle,
+      description: `${postTitle} — professional nail inspiration from Mirellé Inspo.`,
+      creator: '@mirelleinspo',
+      site: '@mirelleinspo',
+      images: ['/logo.png'],
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 },
+    },
+  };
+}
+ 
+
+export default async function WorkNailsPostPage({ params }: PageProps) {
+  const { slug } = await params;
+  const post = await getWorkNailsPost(slug);
+
+  if (!post) notFound();
+
+  const schemas = generateSchemas({
+    post: {
+      ...post,
+      canonical: post.canonical || `https://mirelleinspo.com/work-nails/${slug}`,
+    },
+    slug,
+  });
+
+  const templates = {
+    'center':     CenterTemplate,
+    'split-left': SplitLeftTemplate,
+  } as const;
+
+  const postWithCoverImage = {
+    ...post,
+    coverImage: post.image || '/images/default-blog.jpg',
+  };
+
+  const Template = templates[post.template || 'center'];
+
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.articleSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.websiteSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.organizationSchema) }} />
+      <Template post={postWithCoverImage} />
+    </>
+  );
+}
