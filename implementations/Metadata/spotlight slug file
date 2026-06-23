@@ -1,0 +1,86 @@
+import { notFound } from 'next/navigation';
+import { getSpotlightPost, getAllSpotlightSlugs } from '@/lib/spotlight';
+import type { Metadata } from 'next';
+import { generateSchemas } from '@/lib/generateSchemas';
+import SplitLeftTemplate from '@/app/spotlight/[slug]/templates/SplitLeftTemplate';
+
+
+export const dynamic = 'force-static'
+export const revalidate = false
+
+interface PageProps {
+  params: Promise<{
+    slug: string;
+  }>;
+}
+
+
+
+export async function generateStaticParams() {
+  const slugs = await getAllSpotlightSlugs();
+  return slugs.map((slug) => ({ slug }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+ 
+  // Replace with your actual data fetch
+  // const spotlight = await getSpotlight(slug);
+  const spotlightName = slug.replace(/-/g, ' ').replace(/\b\w/g, (l) => l.toUpperCase());
+  const canonicalUrl = `https://mirelleinspo.com/spotlight/${slug}`;
+ 
+  return {
+    title: spotlightName,
+    description: `${spotlightName} — a Mirellé Inspo spotlight on a nail artist, creator, or tastemaker shaping nail culture.`,
+    authors: [{ name: 'Jyotika Verma', url: 'https://mirelleinspo.com/authors/jyoti-mirelle' }],
+    creator: 'Jyotika Verma',
+    alternates: { canonical: canonicalUrl },
+    openGraph: {
+      title: spotlightName,
+      description: `${spotlightName} — a Mirellé Inspo spotlight on a nail creator shaping nail culture.`,
+      url: canonicalUrl,
+      siteName: 'Mirellé Inspo',
+      type: 'article',
+      locale: 'en_US',
+      images: [{ url: '/logo.png', width: 250, height: 60, alt: `${spotlightName} — Mirellé Inspo Spotlight` }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: spotlightName,
+      description: `${spotlightName} — a Mirellé Inspo spotlight on a nail creator shaping nail culture.`,
+      creator: '@mirelleinspo',
+      site: '@mirelleinspo',
+      images: ['/logo.png'],
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 },
+    },
+  };
+}
+ 
+
+export default async function SpotlightPostPage({ params }: PageProps) {
+  const { slug } = await params;
+  const post = await getSpotlightPost(slug);
+
+  if (!post) notFound();
+
+  const schemas = generateSchemas({ post, slug });
+
+  const postWithCoverImage = {
+    ...post,
+    coverImage: post.image || '/images/default-blog.jpg',
+  };
+
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.articleSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.websiteSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas.organizationSchema) }} />
+      <SplitLeftTemplate post={postWithCoverImage} />
+    </>
+  );
+}
