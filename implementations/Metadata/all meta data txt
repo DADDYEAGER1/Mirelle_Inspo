@@ -1,0 +1,810 @@
+MIRELLÉ INSPO — METADATA FUNCTIONS EXTRACT
+Generated: 2026-06-23T21:06:49.834Z
+════════════════════════════════════════════════════════════════════════════════
+
+FILE: /src/app/about/page.tsx
+
+--- export const metadata ---
+export const metadata: Metadata = {
+  title: 'About | Mirellé',
+  description: 'Mirellé is a research-driven nail editorial platform built by two people who track trends, not follow them. 10K+ monthly readers, 1M monthly Pinterest visitors.',
+  alternates: {
+    canonical: 'https://mirelleinspo.com/about',
+  },
+  openGraph: {
+    title: 'About | Mirellé',
+    description: 'Mirellé is a research-driven nail editorial platform built by two people who track trends, not follow them.',
+    url: 'https://mirelleinspo.com/about',
+    siteName: 'Mirellé',
+    type: 'website',
+  },
+}
+
+────────────────────────────────────────
+
+FILE: /src/app/authors/page.tsx
+
+--- export const metadata ---
+export const metadata: Metadata = {
+  title: 'Meet the Team | Mirellé',
+  description: 'Ri and Jyoti are the co-founders of Mirellé Inspo  a nail publication built on real market research and demand data, covering everything in the nail industry.',
+  alternates: { canonical: 'https://mirelleinspo.com/authors' },
+}
+
+────────────────────────────────────────
+
+FILE: /src/app/authors/[slug]/page.tsx
+
+--- generateMetadata() ---
+export async function generateMetadata({ params }
+
+────────────────────────────────────────
+
+FILE: /src/app/blog/page.tsx
+
+--- export const metadata ---
+export const metadata: Metadata = {
+  title: "Nail Care Blog - Expert Tips & Trends | Mirellé",
+  description: 'Discover trending nail tutorials, seasonal trends, and professional nail care advice. Step-by-step guides and inspiration.',
+}
+
+────────────────────────────────────────
+
+FILE: /src/app/blog/[...slug]/page.tsx
+
+--- generateMetadata() ---
+export async function generateMetadata({ params }
+
+────────────────────────────────────────
+
+FILE: /src/app/business/page.tsx
+
+--- export const metadata ---
+export const metadata: Metadata = {
+  title: 'Work With Us · Mirellé Editorial',
+  description:
+    'Mirellé is an editorial nail platform producing trend-led content, campaign direction, and nail art coverage for brands and salons across key global markets.',
+  alternates: {
+    canonical: 'https://mirelleinspo.com/business',
+  },
+  openGraph: {
+    title: 'Work With Us · Mirellé Editorial',
+    description:
+      'Editorial nail content, campaign direction, and trend coverage for brands and salons worldwide.',
+    url: 'https://mirelleinspo.com/business',
+    type: 'website',
+    siteName: 'Mirellé',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Work With Us · Mirellé Editorial',
+    description:
+      'Editorial nail content, campaign direction, and trend coverage for brands and salons worldwide.',
+  },
+}
+
+────────────────────────────────────────
+
+FILE: /src/app/business/[country]/page.tsx
+
+--- generateMetadata() ---
+export async function generateMetadata(
+  { params }
+
+────────────────────────────────────────
+
+FILE: /src/app/business/[country]/[state]/page.tsx
+
+--- generateMetadata() ---
+export async function generateMetadata(
+  { params }
+
+────────────────────────────────────────
+
+FILE: /src/app/business/[country]/[state]/[clientType]/page.tsx
+
+--- generateMetadata() ---
+export async function generateMetadata(
+  { params }
+
+────────────────────────────────────────
+
+FILE: /src/app/business/[country]/[state]/[clientType]/[slug]/page.tsx
+
+--- generateMetadata() ---
+export async function generateMetadata(
+  { params }
+
+────────────────────────────────────────
+
+FILE: /src/app/contact/layout.tsx
+
+--- export const metadata ---
+export const metadata: Metadata = {
+  title: "Got Questions? We Reply in 24hrs (Collabs Welcome!)",
+  description: "Questions about 2026 nail trends? Brand collab ideas? Email contact@mirelleinspo.com. 24hr response guaranteed. Design requests, partnerships, press inquiries welcome!",
+  keywords: [
+    "contact Mirellé Inspo",
+    "nail blog contact",
+    "brand collaboration nails",
+    "2026 nail trend inquiries",
+    "partnership opportunities",
+    "nail design requests",
+    "press inquiries nails",
+    "Mirellé Inspo email",
+    "business inquiries",
+    "nail influencer contact"
+  ],
+  authors: [{ name: "Mirellé Inspo Team" }],
+  creator: "Mirellé Inspo",
+  publisher: "Mirellé Inspo",
+  alternates: {
+    canonical: "https://mirelleinspo.com/contact",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  openGraph: {
+    title: "Questions? Collabs? We Reply Within 24 Hours!",
+    description: "Got 2026 nail trend questions? Brand collabs? Email contact@mirelleinspo.com. Fast replies guaranteed. Design requests, partnerships, press welcome. Let's chat!",
+    type: "website",
+    url: "https://mirelleinspo.com/contact",
+    siteName: "Mirellé Inspo",
+    locale: "en_US",
+    images: [
+      {
+        url: "https://mirelleinspo.com/og-contact-mirelle.png",
+        width: 1200,
+        height: 630,
+        alt: "Contact Mirellé Inspo for nail trend inquiries, brand collaborations, partnerships - 24hr response time",
+        type: "image/png",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact Mirellé Inspo - 24hr Response Guaranteed",
+    description: "Questions? Collabs? Design ideas? We reply fast! Email contact@mirelleinspo.com. Partnerships welcome →",
+    images: ["https://mirelleinspo.com/twitter-contact.png"],
+    creator: "@mirelleinspo",
+    site: "@mirelleinspo",
+  },
+  other: {
+    "pin:description": "Contact Mirellé Inspo for nail questions, brand collabs, design requests. Fast 24hr response. Email contact@mirelleinspo.com. Partnerships welcome!",
+    "pinterest-rich-pin": "true",
+    "article:publisher": "https://www.pinterest.com/mirelle_inspo",
+    "og:see_also": "https://mirelleinspo.com/contact",
+  },
+}
+
+────────────────────────────────────────
+
+FILE: /src/app/contact/page.tsx
+  ⚠️  NO METADATA FOUND
+
+────────────────────────────────────────
+
+FILE: /src/app/disclosures/page.tsx
+
+--- export const metadata ---
+export const metadata: Metadata = {
+  title: 'Disclosures | Mirellé',
+  description: 'Affiliate, sponsored content, and advertising disclosures for Mirellé.',
+  alternates: {
+    canonical: 'https://mirelleinspo.com/disclosures',
+  },
+  openGraph: {
+    title: 'Disclosures | Mirellé',
+    description: 'Affiliate, sponsored content, and advertising disclosures for Mirellé.',
+    url: 'https://mirelleinspo.com/disclosures',
+    siteName: 'Mirellé',
+    type: 'website',
+  },
+}
+
+────────────────────────────────────────
+
+FILE: /src/app/editorial-policy/page.tsx
+
+--- export const metadata ---
+export const metadata: Metadata = {
+  title: 'Editorial Policy | Mirellé',
+  description: 'How Mirellé researches, plans, and publishes content. Our standards for independence, accuracy, and transparency.',
+  alternates: {
+    canonical: 'https://mirelleinspo.com/editorial-policy',
+  },
+  openGraph: {
+    title: 'Editorial Policy | Mirellé',
+    description: 'How Mirellé researches, plans, and publishes content. Our standards for independence, accuracy, and transparency.',
+    url: 'https://mirelleinspo.com/editorial-policy',
+    siteName: 'Mirellé',
+    type: 'website',
+  },
+}
+
+────────────────────────────────────────
+
+FILE: /src/app/inspo/page.tsx
+
+--- export const metadata ---
+export const metadata: Metadata = {
+  title: '1K+ Designs Taking Over 2026 (Chrome, Cat Claw, Square)',
+  description:
+    'Browse 1,000+ trending designs with tutorials: chrome finishes, cat claw shapes, square tips, milky pastels, 3D art. New designs weekly. 50K+ saving daily. Find yours!',
+  keywords: [
+    'nail design inspiration 2026',
+    'chrome nails 2026',
+    'cat claw nail shape',
+    'square nails trending',
+    'milky nail designs',
+    '3D nail art ideas',
+    'trending nail inspiration',
+  ],
+  alternates: {
+    canonical: 'https://mirelleinspo.com/inspo',
+  },
+  openGraph: {
+    title: '1K+ Designs Dominating 2026 - Chrome, Cat Claw & More',
+    description:
+      'Discover trending nail designs with step-by-step tutorials: chrome, cat claw, square, milky pastels. New designs weekly.',
+    url: 'https://mirelleinspo.com/inspo',
+    siteName: 'Mirellé Inspo',
+    type: 'website',
+    images: [
+      {
+        url: 'https://mirelleinspo.com/images/inspo-hero-2026-trending.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Gallery of 1000+ trending nail designs for 2026',
+      },
+    ],
+  },
+}
+
+────────────────────────────────────────
+
+FILE: /src/app/inspo/[design]/page.tsx
+
+--- generateMetadata() ---
+export async function generateMetadata({
+  params,
+}
+
+────────────────────────────────────────
+
+FILE: /src/app/layout.tsx
+
+--- viewport ---
+export const viewport: Viewport = {
+  themeColor: '#252220',
+  width: 'device-width',
+  initialScale: 1,
+  minimumScale: 1,
+  maximumScale: 5,
+}
+
+--- export const metadata ---
+export const metadata: Metadata = {
+  metadataBase: new URL('https://mirelleinspo.com'),
+
+  title: {
+    default: "Mirellé Inspo | 1K+ Nail Designs Everyone's Saving Right Now",
+    template: '%s | Mirellé Inspo',
+  },
+
+  description:
+    'Browse 1,000+ trending nail designs loved by 50K+ nail enthusiasts. Chrome finishes, cat claw shapes, milky pastels, press-ons from $3.99, and DIY tutorials updated weekly.',
+
+  keywords: [
+    'nail designs 2025',
+    'nail trends 2026',
+    'chrome nails',
+    'cat claw nails',
+    'milky nail trends',
+    'press-on nails',
+    'DIY nail tutorials',
+    'seasonal nail designs',
+    'nail art inspiration',
+    'trending nail ideas',
+  ],
+
+  authors: [
+    { name: 'Jyotika Verma', url: 'https://mirelleinspo.com/authors/jyoti-mirelle' },
+    { name: 'Gaurav Verma',  url: 'https://mirelleinspo.com/authors/ri-mirelle' },
+  ],
+
+  creator: 'Mirellé Inspo',
+  publisher: 'Mirellé Inspo',
+
+  formatDetection: {
+    telephone: false,
+    email: false,
+    address: false,
+  },
+
+  other: {
+    'distribution': 'global',
+    'rating': 'general',
+    'language': 'en-US',
+    'classification': 'Beauty, Fashion, Nail Art, DIY Tutorials, Press-On Nails, Lifestyle',
+    'referrer': 'always',
+    'revisit-after': '7 days',
+    'google-adsense-account': 'ca-pub-1145734682794444',
+    'mobile-web-app-capable': 'yes',
+    'apple-mobile-web-app-capable': 'yes',
+    'apple-mobile-web-app-status-bar-style': 'black-translucent',
+    'apple-mobile-web-app-title': 'Mirellé',
+    'application-name': 'Mirellé',
+  },
+
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://mirelleinspo.com',
+    siteName: 'Mirellé Inspo',
+    title: "Mirellé Inspo | 1K+ Nail Designs Everyone's Saving Right Now",
+    description:
+      'Browse 1,000+ trending nail designs. Chrome, cat claw & milky pastels dominating 2026. Press-ons from $3.99, DIY tutorials, weekly new drops.',
+    images: [
+      {
+        // TODO: create a real 1200×630 OG image and replace this
+        url: '/logo.png',
+        width: 250,
+        height: 60,
+        alt: 'Mirellé Inspo — Nail Art Inspiration & Tutorials',
+      },
+    ],
+  },
+
+  twitter: {
+    card: 'summary_large_image',
+    title: "Mirellé Inspo | 1K+ Nail Designs Trending Right Now",
+    description:
+      'Chrome, cat claw, milky pastels taking over 2026. Press-ons from $3.99, DIY tutorials, trending collections.',
+    // TODO: replace with /twitter-image.jpg once created
+    images: ['/logo.png'],
+    creator: '@mirelleinspo',
+    site: '@mirelleinspo',
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: '48x48' },
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+  },
+
+  manifest: '/site.webmanifest',
+
+  alternates: {
+    languages: {
+      'en-US': 'https://mirelleinspo.com',
+      'en-GB': 'https://mirelleinspo.com',
+      'en-CA': 'https://mirelleinspo.com',
+      'en-AU': 'https://mirelleinspo.com',
+      'en':    'https://mirelleinspo.com',
+    },
+  },
+}
+
+────────────────────────────────────────
+
+FILE: /src/app/nail-encyclopedia/page.tsx
+
+--- export const metadata ---
+export const metadata: Metadata = {
+  title: 'The Nail Encyclopedia  Every Shape, Technique & Style | Mirellé',
+  description:
+    'The complete nail reference  every shape, technique, aesthetic, colour, occasion and care guide on Mirellé in one place. Your starting point for wherever you want to go.',
+  alternates: {
+    canonical: 'https://mirelleinspo.com/nail-encyclopedia',
+  },
+  openGraph: {
+    title: 'The Nail Encyclopedia | Mirellé',
+    description:
+      'Every nail shape, technique, aesthetic, colour guide and FAQ on Mirellé  one page, everything linked.',
+    url: 'https://mirelleinspo.com/nail-encyclopedia',
+    siteName: 'Mirellé',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'The Nail Encyclopedia | Mirellé',
+    description: 'Every nail topic on Mirellé in one place.',
+    site: '@mirelleinspo',
+  },
+}
+
+────────────────────────────────────────
+
+FILE: /src/app/nail-faqs/page.tsx
+
+--- export const metadata ---
+export const metadata: Metadata = {
+  title: 'Nail FAQs | Mirellé',
+  description: 'Real answers to real nail questions  for nail techs, nail lovers, and everyone in between.',
+  alternates: { canonical: 'https://mirelleinspo.com/nail-faqs' },
+}
+
+────────────────────────────────────────
+
+FILE: /src/app/nail-faqs/[slug]/page.tsx
+
+--- generateMetadata() ---
+export async function generateMetadata({ params }
+
+────────────────────────────────────────
+
+FILE: /src/app/page.tsx
+
+--- export const metadata ---
+export const metadata: Metadata = {
+  title: 'Mirellé - Premium Nail Design & Inspiration',
+  description: 'Discover trending nail designs, expert tutorials, and premium press-ons. Your destination for nail art inspiration.',
+  keywords: 'nail designs, nail art, press on nails, nail inspiration, nail tutorials, trending nails',
+  openGraph: {
+    title: 'Mirellé - Premium Nail Design & Inspiration',
+    description: 'Discover trending nail designs, expert tutorials, and premium press-ons.',
+    type: 'website',
+    url: 'https://mirelleinspo.com',
+    siteName: 'Mirellé Inspo',
+  },
+}
+
+────────────────────────────────────────
+
+FILE: /src/app/pinterest/page.tsx
+
+--- export const metadata ---
+export const metadata: Metadata = {
+  title: "2.5M+ Monthly Saves - Join 50K+ on Pinterest",
+  description: "Follow @mirelle_inspo for 2026's hottest nail trends! 500+ boards: chrome, cat claw, square designs, milky pastels. 2.5M+ monthly views. Daily inspiration. Save now!",
+  keywords: "Mirellé Inspo Pinterest, nail trends Pinterest 2026, chrome nails Pinterest, cat claw nails, square nails inspiration, trending nail boards, DIY nail tutorials Pinterest, seasonal nail ideas, viral nail designs, Pinterest nail community, TikTok trending nails, nail art inspiration boards",
+  authors: [{ name: "Mirellé Inspo Team" }],
+  creator: "Mirellé Inspo",
+  publisher: "Mirellé Inspo",
+  alternates: {
+    canonical: "https://mirelleinspo.com/pinterest",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  openGraph: {
+    title: "Follow Mirellé Inspo on Pinterest - 2.5M+ Monthly Views",
+    description: "Join 50K+ on Pinterest for 2026's trending nails! 500+ boards: chrome, cat claw, square, milky pastels. 2.5M+ monthly views. Daily inspiration. Follow @mirelle_inspo!",
+    type: "website",
+    url: "https://mirelleinspo.com/pinterest",
+    siteName: "Mirellé Inspo",
+    locale: "en_US",
+    images: [
+      {
+        url: "https://mirelleinspo.com/og-pinterest-mirelle.png",
+        width: 1200,
+        height: 630,
+        alt: "Mirellé Inspo Pinterest profile featuring 2026 trending nail designs with 2.5M monthly views and 500+ boards",
+        type: "image/png",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "2.5M+ Monthly Pin Views - Follow on Pinterest",
+    description: "500+ boards. 2026 trending nails. Chrome, cat claw, square designs. Daily inspo. Follow @mirelle_inspo →",
+    images: ["https://mirelleinspo.com/twitter-pinterest.png"],
+    creator: "@mirelleinspo",
+    site: "@mirelleinspo",
+  },
+  other: {
+    "pin:description": "Follow @mirelle_inspo on Pinterest for 2026's trending nails! 500+ boards, 2.5M+ monthly views. Chrome, cat claw, square designs. Daily inspiration. Join 50K+ nail lovers!",
+    "pinterest-rich-pin": "true",
+    "article:publisher": "https://www.pinterest.com/mirelle_inspo",
+    "pinterest:category": "Nail Art Inspiration 2026",
+    "og:see_also": "https://mirelleinspo.com/pinterest",
+  },
+}
+
+────────────────────────────────────────
+
+FILE: /src/app/press/page.tsx
+
+--- export const metadata ---
+export const metadata: Metadata = {
+  title: 'Press | Mirellé',
+  description: 'Press information for Mirellé. Stats, team, and contact for media inquiries.',
+  alternates: {
+    canonical: 'https://mirelleinspo.com/press',
+  },
+  openGraph: {
+    title: 'Press | Mirellé',
+    description: 'Press information for Mirellé. Stats, team, and contact for media inquiries.',
+    url: 'https://mirelleinspo.com/press',
+    siteName: 'Mirellé',
+    type: 'website',
+  },
+}
+
+────────────────────────────────────────
+
+FILE: /src/app/privacy-policy/page.tsx
+
+--- export const metadata ---
+export const metadata: Metadata = {
+  title: 'Privacy Policy | Mirellé',
+  description: 'How Mirellé collects, uses, and protects your personal information.',
+  alternates: {
+    canonical: 'https://mirelleinspo.com/privacy-policy',
+  },
+  openGraph: {
+    title: 'Privacy Policy | Mirellé',
+    description: 'How Mirellé collects, uses, and protects your personal information.',
+    url: 'https://mirelleinspo.com/privacy-policy',
+    siteName: 'Mirellé',
+    type: 'website',
+  },
+}
+
+────────────────────────────────────────
+
+FILE: /src/app/shop/page.tsx
+
+--- export const metadata ---
+export const metadata: Metadata = {
+  title: 'Shop | Mirellé',
+  description: 'Curated nail products, tools, and picks from the Mirellé team.',
+  alternates: { canonical: 'https://mirelleinspo.com/shop' },
+}
+
+────────────────────────────────────────
+
+FILE: /src/app/shop/[...slug]/page.tsx
+
+--- generateMetadata() ---
+export async function generateMetadata({ params }
+
+────────────────────────────────────────
+
+FILE: /src/app/spotlight/page.tsx
+
+--- export const metadata ---
+export const metadata: Metadata = {
+  title: 'Spotlight | Mirellé',
+  description: 'We put a spotlight on the nail artists, creators, and tastemakers who deserve to be seen.',
+}
+
+────────────────────────────────────────
+
+FILE: /src/app/spotlight/[slug]/page.tsx
+
+--- generateMetadata() ---
+export async function generateMetadata({ params }
+
+────────────────────────────────────────
+
+FILE: /src/app/subscribe/page.tsx
+
+--- export const metadata ---
+export const metadata: Metadata = {
+  title: "Free 2026 Nail Trends Guide + 20% Off (Join 50K+)",
+  description: "Get weekly 2026 nail secrets: chrome tips, cat claw shaping, square trends. Free trend guide + 20% welcome code. 50K+ getting salon secrets in their inbox!",
+  keywords: "nail newsletter 2026, free nail guide, nail trends email, chrome nails tutorial, cat claw tips, square nails guide, exclusive nail discounts, DIY nail secrets, weekly nail inspiration, nail care tips email, trending designs newsletter, press-on deals, salon secrets free",
+  alternates: {
+    canonical: 'https://mirelleinspo.com/subscribe',
+  },
+  openGraph: {
+    title: "Free 2026 Trend Guide + 20% Off - Join 50K+ Getting Weekly Secrets",
+    description: "Weekly 2026 nail secrets: chrome, cat claw, square trends. Free guide + 20% welcome code. Exclusive designs, pro tips, discounts. 50K+ love it. Join now!",
+    url: 'https://mirelleinspo.com/subscribe',
+    siteName: 'Mirellé Inspo',
+    type: 'website',
+    images: [
+      {
+        url: 'https://mirelleinspo.com/og-subscribe-2026.png',
+        width: 1200,
+        height: 630,
+        alt: 'Join Mirellé Inspo newsletter for free 2026 nail trend guide and 20% off welcome gift',
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Free 2026 Trends + 20% Off (50K+ Subscribed)",
+    description: "Weekly chrome, cat claw, square secrets. Free guide inside. 20% off welcome gift. Join 50K+ →",
+    creator: "@mirelleinspo",
+    site: "@mirelleinspo",
+    images: ['https://mirelleinspo.com/twitter-subscribe.png'],
+  },
+  other: {
+    "pin:description": "Join 50K+ getting weekly 2026 nail secrets! Free trend guide + 20% off welcome code. Chrome, cat claw, square tips delivered to your inbox. Subscribe now!",
+    "pinterest-rich-pin": "true",
+  },
+}
+
+────────────────────────────────────────
+
+FILE: /src/app/terms/page.tsx
+
+--- export const metadata ---
+export const metadata: Metadata = {
+  title: 'Terms & Conditions | Mirellé',
+  description: 'Terms and conditions for using mirelleinspo.com.',
+  alternates: {
+    canonical: 'https://mirelleinspo.com/terms',
+  },
+  openGraph: {
+    title: 'Terms & Conditions | Mirellé',
+    description: 'Terms and conditions for using mirelleinspo.com.',
+    url: 'https://mirelleinspo.com/terms',
+    siteName: 'Mirellé',
+    type: 'website',
+  },
+}
+
+────────────────────────────────────────
+
+FILE: /src/app/topics/page.tsx
+
+--- export const metadata ---
+export const metadata: Metadata = {
+  title: 'Nail Care Topics & Expert Guides | Long Reads on Nail Trends 2026',
+  description: 'In-depth editorial guides on nail care, trending techniques, seasonal styles, and professional tips. Expert journalism for nail enthusiasts.',
+  keywords: 'nail care guides, chrome nails tutorial, nail art techniques, seasonal nail trends, professional manicure tips, nail health editorial, beauty journalism',
+  authors: [{ name: 'Mirellé Editorial Team' }],
+  creator: 'Mirellé Inspo',
+  publisher: 'Mirellé Inspo',
+  alternates: {
+    canonical: 'https://mirelleinspo.com/topics',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  openGraph: {
+    title: 'Nail Care Topics & Expert Guides | Mirellé Inspo',
+    description: 'In-depth editorial guides on nail care, trending techniques, and professional tips.',
+    type: 'website',
+    url: 'https://mirelleinspo.com/topics',
+    siteName: 'Mirellé Inspo',
+    locale: 'en_US',
+    images: [{
+      url: 'https://mirelleinspo.com/og-topics.jpg',
+      width: 1200,
+      height: 630,
+      alt: 'Mirellé Inspo Topics and Editorial Guides',
+    }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Nail Care Topics & Expert Guides | Mirellé Inspo',
+    description: 'In-depth editorial guides on nail care and trending techniques.',
+    images: ['https://mirelleinspo.com/twitter-topics.jpg'],
+    creator: '@mirelleinspo',
+  },
+}
+
+────────────────────────────────────────
+
+FILE: /src/app/topics/[slug]/page.tsx
+
+--- generateMetadata() ---
+export async function generateMetadata({ params }
+
+────────────────────────────────────────
+
+FILE: /src/app/trend-reports/page.tsx
+
+--- export const metadata ---
+export const metadata: Metadata = {
+  title: 'Trend Reports | Mirellé',
+  description: 'Real answers to real nail trends and research  for nail professionals and trend enthusiasts.',
+  alternates: { canonical: 'https://mirelleinspo.com/trend-reports' },
+}
+
+────────────────────────────────────────
+
+FILE: /src/app/trend-reports/[slug]/page.tsx
+
+--- generateMetadata() ---
+export async function generateMetadata({ params }
+
+────────────────────────────────────────
+
+FILE: /src/app/user-agreement/page.tsx
+
+--- export const metadata ---
+export const metadata: Metadata = {
+  title: 'User Agreement | Mirellé',
+  description: 'User agreement for the Mirellé newsletter.',
+  alternates: {
+    canonical: 'https://mirelleinspo.com/user-agreement',
+  },
+  openGraph: {
+    title: 'User Agreement | Mirellé',
+    description: 'User agreement for the Mirellé newsletter.',
+    url: 'https://mirelleinspo.com/user-agreement',
+    siteName: 'Mirellé',
+    type: 'website',
+  },
+}
+
+────────────────────────────────────────
+
+FILE: /src/app/work-nails/page.tsx
+
+--- export const metadata ---
+export const metadata: Metadata = {
+  title: 'Work Nails | Mirellé',
+  description: 'Professional nail inspiration for the modern working woman. Polished, long-lasting, and always appropriate.',
+}
+
+────────────────────────────────────────
+
+FILE: /src/app/work-nails/[slug]/page.tsx
+
+--- generateMetadata() ---
+export async function generateMetadata({ params }
+
+────────────────────────────────────────
+
+FILE: /src/app/work-with-us/page.tsx
+
+--- export const metadata ---
+export const metadata: Metadata = {
+  title: 'Work With Us | Mirellé',
+  description: 'Partner with Mirellé. 10K+ monthly readers, 1M monthly Pinterest visitors. Opportunities for nail salons, artists, and brands.',
+  alternates: {
+    canonical: 'https://mirelleinspo.com/work-with-us',
+  },
+  openGraph: {
+    title: 'Work With Us | Mirellé',
+    description: 'Partner with Mirellé. 10K+ monthly readers, 1M monthly Pinterest visitors. Opportunities for nail salons, artists, and brands.',
+    url: 'https://mirelleinspo.com/work-with-us',
+    siteName: 'Mirellé',
+    type: 'website',
+  },
+}
+
+────────────────────────────────────────
+
+════════════════════════════════════════════════════════════════════════════════
+Total files processed: 38
