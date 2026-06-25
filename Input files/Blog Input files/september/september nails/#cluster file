@@ -1,0 +1,244 @@
+{
+  "cluster_metadata": {
+    "cluster_topic": "September Nails",
+    "topic_slug": "september",
+    "target_audience": "Global, Tier 1 countries (US, UK, Canada, Australia)",
+    "total_posts": 5,
+    "intent_breakdown": {
+      "inspirational": 3,
+      "informational": 2,
+      "tutorial": 0,
+      "seasonal_trend": 0,
+      "comparison": 0
+    },
+    "pillar_post_slug": "september-nails",
+    "created_date": "2026-06-25"
+  },
+
+  "existing_site_posts_excluded": [
+    {
+      "url": "https://mirelleinspo.com/blog/zodiac-nails/virgo-nails",
+      "title": "Virgo Nails",
+      "inferred_primary_keyword": "virgo nails",
+      "inferred_intent": "inspirational",
+      "exclusion_reason": "Already exists on mirelleinspo.com — keyword reserved. New posts must not target 'virgo nails' as primary or close variant."
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/zodiac-nails/libra-nails",
+      "title": "Libra Nails",
+      "inferred_primary_keyword": "libra nails",
+      "inferred_intent": "inspirational",
+      "exclusion_reason": "Already exists on mirelleinspo.com — keyword reserved. Libra season overlaps with late September but this keyword is fully owned."
+    }
+  ],
+
+  "posts": [
+    {
+      "post_id": 1,
+      "role": "pillar",
+      "title": "September Nail Ideas",
+      "slug": "september-nails",
+      "topic_slug": "september",
+      "primary_keyword": "september nails",
+      "secondary_keywords": ["september nail ideas", "september nail designs", "cute september nails", "fall september nails"],
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Pinterest: 220+ dedicated september nails boards, 66+ ideas boards with thousands of saves",
+        "stoleninspiration.com: '30 September Nails Ideas for 2025' — dedicated editorial article with strong organic placement",
+        "naildesigns4u.com: '25 September Nail Designs Ideas for Fall 2025' — dedicated article",
+        "Pinterest boards tagged: september nail designs, september nail colors, cute september nails, short september nails — all distinct sub-boards",
+        "TikTok: #septembernails seasonal spike every August-September"
+      ],
+      "why_included": "Broadest, highest-volume september nail query. Captures the unique summer-to-fall transition moment — a palette and mood no other month post covers. Hub for the entire cluster.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "september-nail-colors", "anchor_text": "september nail colors", "type": "spoke" },
+          { "slug": "september-birthday-nails", "anchor_text": "september birthday nails", "type": "spoke" },
+          { "slug": "september-birthstone-nails", "anchor_text": "september birthstone nails", "type": "spoke" },
+          { "slug": "short-september-nails", "anchor_text": "short september nails", "type": "spoke" }
+        ],
+        "gallery_link": {
+          "url": "https://mirelleinspo.com/inspo/september-nails-inspiration-gallery",
+          "anchor_text": "september nails inspiration gallery"
+        },
+        "receives_links_from": [
+          { "slug": "september-nail-colors", "anchor_text": "september nails" },
+          { "slug": "september-birthday-nails", "anchor_text": "september nails" },
+          { "slug": "september-birthstone-nails", "anchor_text": "september nails" },
+          { "slug": "short-september-nails", "anchor_text": "september nails" }
+        ]
+      },
+      "status": "approved"
+    },
+
+    {
+      "post_id": 2,
+      "role": "spoke",
+      "title": "September Nail Colors",
+      "slug": "september-nail-colors",
+      "topic_slug": "september",
+      "primary_keyword": "september nail colors",
+      "secondary_keywords": ["what color nails for september", "best nail colors for september", "september nail polish colors", "nail colors to wear in september"],
+      "intent": "informational",
+      "search_demand_signals": [
+        "Accio: dedicated september nail colors trend report with multi-source demand data",
+        "manucurist.com: 'On-Trend Nail Colors to Wear This September' — dedicated editorial article",
+        "NewBeauty: 'The Gel Nail Colors Perfect for September' — expert-backed dedicated article",
+        "sistaco.us: dedicated 'September Nail Colors' collection page — commercial demand validation",
+        "Google autocomplete: 'september nail colors' completes immediately — high-volume query"
+      ],
+      "why_included": "September has a uniquely transitional palette — summer shades softening into fall — that no other month captures. Color-intent searchers asking 'what color should I wear in September' are a distinct audience from idea browsers. Validated across 4 editorial and commercial sources.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "september-nails", "anchor_text": "september nails", "type": "pillar" },
+          { "slug": "september-birthstone-nails", "anchor_text": "september birthstone nails", "type": "spoke" },
+          { "slug": "short-september-nails", "anchor_text": "short september nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "september-nails", "anchor_text": "september nail colors" },
+          { "slug": "september-birthstone-nails", "anchor_text": "september nail colors" },
+          { "slug": "short-september-nails", "anchor_text": "september nail colors" }
+        ]
+      },
+      "status": "approved"
+    },
+
+    {
+      "post_id": 3,
+      "role": "spoke",
+      "title": "September Birthday Nails",
+      "slug": "september-birthday-nails",
+      "topic_slug": "september",
+      "primary_keyword": "september birthday nails",
+      "secondary_keywords": ["birthday nails for september", "september bday nails", "nail ideas for september birthday", "cute september birthday nails"],
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Pinterest: dedicated 'September Birthday Nails' board — clear standalone demand",
+        "TikTok: discover page for 'september birthday nail ideas short' — confirmed TikTok search demand",
+        "parade.com: birthday nails article features dedicated sapphire september birthstone set with @_thejadeaesthetic credit",
+        "naildesigns4u.com: dedicated 'September birthday nail designs' section with glitter birthday designs",
+        "nailsblaze.com: month-by-month birthday nails guide includes September as standalone entry"
+      ],
+      "why_included": "Birthday nails is a massive evergreen category. Month-specific birthday nails capture high-intent celebratory searches year-round — someone with a September birthday searches this every year. Distinct from birthstone nails (celebratory vs. gem/color intent). Validated across 4 sources.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "september-nails", "anchor_text": "september nails", "type": "pillar" },
+          { "slug": "september-birthstone-nails", "anchor_text": "september birthstone nails", "type": "spoke" },
+          { "slug": "september-nail-colors", "anchor_text": "september nail colors", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "september-nails", "anchor_text": "september birthday nails" },
+          { "slug": "september-birthstone-nails", "anchor_text": "september birthday nails" },
+          { "slug": "september-nail-colors", "anchor_text": "september birthday nails" }
+        ]
+      },
+      "status": "approved"
+    },
+
+    {
+      "post_id": 4,
+      "role": "spoke",
+      "title": "September Birthstone Nails",
+      "slug": "september-birthstone-nails",
+      "topic_slug": "september",
+      "primary_keyword": "september birthstone nails",
+      "secondary_keywords": ["sapphire nails september", "september sapphire nail ideas", "sapphire birthstone nail art", "blue september nails birthstone"],
+      "intent": "informational",
+      "search_demand_signals": [
+        "Pinterest: dedicated 'September Birthstone Nails' board — standalone search demand confirmed",
+        "thepinkissue.com: 'Birthstone Nails 101' — sapphire named as September's stone with dedicated design guidance and cat-eye trend callout",
+        "parade.com: '35 Best Birthday Nail Ideas' features dedicated sapphire september set — editorial validation",
+        "stoleninspiration.com: sapphire nails called out as 'extra special for September birthdays' — editorial demand signal",
+        "Google autocomplete: 'september birthstone nails' completes as a distinct query from 'september birthday nails'"
+      ],
+      "why_included": "Birthstone nails are a distinct search from birthday nails — different intent (gem color and meaning vs. celebratory designs). Sapphire is September's stone, drives unique deep-blue nail searches tied to both zodiac and birth month identity. Easy-to-rank long-tail with dedicated Pinterest demand.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "september-nails", "anchor_text": "september nails", "type": "pillar" },
+          { "slug": "september-birthday-nails", "anchor_text": "september birthday nails", "type": "spoke" },
+          { "slug": "september-nail-colors", "anchor_text": "september nail colors", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "september-nails", "anchor_text": "september birthstone nails" },
+          { "slug": "september-birthday-nails", "anchor_text": "september birthstone nails" },
+          { "slug": "september-nail-colors", "anchor_text": "september birthstone nails" }
+        ]
+      },
+      "status": "approved"
+    },
+
+    {
+      "post_id": 5,
+      "role": "spoke",
+      "title": "Short September Nails",
+      "slug": "short-september-nails",
+      "topic_slug": "september",
+      "primary_keyword": "short september nails",
+      "secondary_keywords": ["short september nail ideas", "short september nail designs", "september nails for short nails", "cute short september nails"],
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Pinterest: 'September nails 2025 short' tagged boards — distinct sub-category from general september nails",
+        "stoleninspiration.com: short september nails called out as a distinct category within their 30 ideas article",
+        "naildesigns4u.com: dedicated short nails section within september designs — 'shorter September nail ideas are trendy and tasteful'",
+        "Pinterest board withhouna/september-nails: includes 'short September nails' as a named sub-tag",
+        "Broader pattern: short nail sub-posts perform across all month/season clusters — consistent demand signal"
+      ],
+      "why_included": "Short nail searchers do not convert on long-nail inspiration posts. Validated as a distinct sub-category with dedicated Pinterest tags and editorial sections. Follows the same proven pattern as short-fall-nails in the fall cluster.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "september-nails", "anchor_text": "september nails", "type": "pillar" },
+          { "slug": "september-nail-colors", "anchor_text": "september nail colors", "type": "spoke" },
+          { "slug": "september-birthday-nails", "anchor_text": "september birthday nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "september-nails", "anchor_text": "short september nails" },
+          { "slug": "september-nail-colors", "anchor_text": "short september nails" },
+          { "slug": "september-birthday-nails", "anchor_text": "short september nails" }
+        ]
+      },
+      "status": "approved"
+    }
+  ],
+
+  "keyword_ownership_registry": {
+    "description": "Master list of all primary keywords — one per post, no overlaps, includes existing site post keywords reserved",
+    "entries": [
+      { "primary_keyword": "september nails", "owned_by_slug": "september-nails", "owned_by_title": "September Nail Ideas", "source": "new post" },
+      { "primary_keyword": "september nail ideas", "owned_by_slug": "september-nails", "owned_by_title": "September Nail Ideas", "source": "new post — secondary keyword absorbed into pillar" },
+      { "primary_keyword": "september nail designs", "owned_by_slug": "september-nails", "owned_by_title": "September Nail Ideas", "source": "new post — secondary keyword absorbed into pillar" },
+      { "primary_keyword": "september nail colors", "owned_by_slug": "september-nail-colors", "owned_by_title": "September Nail Colors", "source": "new post" },
+      { "primary_keyword": "september birthday nails", "owned_by_slug": "september-birthday-nails", "owned_by_title": "September Birthday Nails", "source": "new post" },
+      { "primary_keyword": "september birthstone nails", "owned_by_slug": "september-birthstone-nails", "owned_by_title": "September Birthstone Nails", "source": "new post" },
+      { "primary_keyword": "short september nails", "owned_by_slug": "short-september-nails", "owned_by_title": "Short September Nails", "source": "new post" },
+      { "primary_keyword": "virgo nails", "owned_by_slug": "zodiac-nails/virgo-nails", "owned_by_title": "Virgo Nails", "source": "existing mirelleinspo.com post" },
+      { "primary_keyword": "libra nails", "owned_by_slug": "zodiac-nails/libra-nails", "owned_by_title": "Libra Nails", "source": "existing mirelleinspo.com post" }
+    ]
+  },
+
+  "merged_posts_log": [
+    {
+      "original_topics": ["september nails", "september nail ideas", "september nail designs"],
+      "merged_into": "September Nail Ideas (pillar)",
+      "reason": "All three target the same inspirational browsing intent with near-identical content. Absorbed as secondary keywords into one authoritative pillar."
+    }
+  ],
+
+  "killed_posts_log": [
+    {
+      "topic": "virgo nails",
+      "reason": "Already exists on mirelleinspo.com at /zodiac-nails/virgo-nails — hard kill. Cannot target this keyword or close variants."
+    },
+    {
+      "topic": "libra nails",
+      "reason": "Already exists on mirelleinspo.com at /zodiac-nails/libra-nails — hard kill. Libra season starts Sept 23 but keyword is fully owned by existing post."
+    },
+    {
+      "topic": "september nail trends 2026",
+      "reason": "Too thin as a standalone post for a single month. Trend content absorbed into the pillar as a section. No dedicated editorial demand found separate from general september nails."
+    },
+    {
+      "topic": "september acrylic nails",
+      "reason": "Format modifier only — content is identical to september nail ideas. No distinct audience or intent. Killed."
+    }
+  ]
+}
