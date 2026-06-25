@@ -1,0 +1,274 @@
+{
+  "cluster_metadata": {
+    "cluster_topic": "Carnival Nails",
+    "topic_slug": "carnival",
+    "target_audience": "Global, Tier 1 countries (US, UK, Canada, Australia)",
+    "total_posts": 7,
+    "intent_breakdown": {
+      "informational": 0,
+      "inspirational": 4,
+      "tutorial": 1,
+      "comparison": 0,
+      "seasonal_trend": 2
+    },
+    "pillar_post_slug": "carnival-nails",
+    "created_date": "2026-06-26"
+  },
+
+  "existing_site_posts_excluded": [
+    {
+      "url": "https://mirelleinspo.com/blog/edc-nails",
+      "title": "EDC Nails: 12 Rave-Ready Designs for 2026",
+      "inferred_primary_keyword": "edc nails",
+      "inferred_intent": "inspirational",
+      "exclusion_reason": "Already exists on mirelleinspo.com — keyword reserved. Mentions carnival stages in passing but is scoped to EDC/rave — no keyword conflict with carnival cluster."
+    }
+  ],
+
+  "posts": [
+    {
+      "post_id": 1,
+      "role": "pillar",
+      "title": "Carnival Nails: 25 Bold Designs for Every Fair & Fest",
+      "slug": "carnival-nails",
+      "primary_keyword": "carnival nails",
+      "topic_slug": "carnival",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Pinterest: dedicated 'Carnival Nails' Ideas page with deep sub-tag clusters including carnival theme nails, fair themed nails, circus theme nails",
+        "Etsy: dedicated carnival nails product and tutorial category",
+        "Multiple blog tutorials covering carnival nail designs across beauty sites"
+      ],
+      "why_included": "Broadest keyword in the space with the widest demand footprint across Pinterest, Etsy, and editorial — anchors the cluster and absorbs general carnival nail styling content.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "circus-nails", "anchor_text": "circus nails", "type": "spoke" },
+          { "slug": "county-fair-nails", "anchor_text": "county fair nails", "type": "spoke" },
+          { "slug": "carnival-nail-art", "anchor_text": "carnival nail art", "type": "spoke" },
+          { "slug": "clown-core-nails", "anchor_text": "clown core nails", "type": "spoke" },
+          { "slug": "carousel-nails", "anchor_text": "carousel nails", "type": "spoke" },
+          { "slug": "summer-carnival-nails", "anchor_text": "summer carnival nails", "type": "spoke" }
+        ],
+        "gallery_link": {
+          "url": "https://mirelleinspo.com/inspo/carnival-nails-inspiration-gallery",
+          "anchor_text": "carnival nails inspiration gallery"
+        },
+        "receives_links_from": [
+          { "slug": "circus-nails", "anchor_text": "carnival nails" },
+          { "slug": "county-fair-nails", "anchor_text": "carnival nails" },
+          { "slug": "carnival-nail-art", "anchor_text": "carnival nails" },
+          { "slug": "clown-core-nails", "anchor_text": "carnival nails" },
+          { "slug": "carousel-nails", "anchor_text": "carnival nails" },
+          { "slug": "summer-carnival-nails", "anchor_text": "carnival nails" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 2,
+      "role": "spoke",
+      "title": "Circus Nails: 20 Big Top Designs That Go All In",
+      "slug": "circus-nails",
+      "primary_keyword": "circus nails",
+      "topic_slug": "carnival",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Pinterest: dedicated 'Circus Nails' and 'Circus Theme Nails' Ideas pages with active saves",
+        "Pinterest Predicts 2026: FunHaus trend explicitly names circus aesthetic with 'bold stripes, sculptural silhouettes and a wink of clownish charm' as a top 2026 prediction"
+      ],
+      "why_included": "Pinterest Predicts 2026 directly validates the circus aesthetic as a named trend; distinct bold maximalist angle from general carnival with its own dedicated Pinterest demand.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "carnival-nails", "anchor_text": "carnival nails", "type": "pillar" },
+          { "slug": "clown-core-nails", "anchor_text": "clown core nails", "type": "spoke" },
+          { "slug": "carnival-nail-art", "anchor_text": "carnival nail art", "type": "spoke" },
+          { "slug": "carousel-nails", "anchor_text": "carousel nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "carnival-nails", "anchor_text": "circus nails" },
+          { "slug": "clown-core-nails", "anchor_text": "circus nails" },
+          { "slug": "carnival-nail-art", "anchor_text": "circus nails" },
+          { "slug": "carousel-nails", "anchor_text": "circus nails" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 3,
+      "role": "spoke",
+      "title": "County Fair Nails: 15 Americana Designs for Summer",
+      "slug": "county-fair-nails",
+      "primary_keyword": "county fair nails",
+      "topic_slug": "carnival",
+      "intent": "seasonal_trend",
+      "search_demand_signals": [
+        "Pinterest: dedicated 'County Fair Nails Ideas' Ideas page with active saves",
+        "Instagram: viral state fair nail content — NC State Fair, Minnesota State Fair nail art featured by regional media and beauty creators",
+        "Etsy: dedicated state fair nails product market with seasonal listings"
+      ],
+      "why_included": "Distinct American summer event angle covering food motifs (corn dogs, funnel cake, ribbons) with its own validated Pinterest and Instagram demand separate from international carnival.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "carnival-nails", "anchor_text": "carnival nails", "type": "pillar" },
+          { "slug": "summer-carnival-nails", "anchor_text": "summer carnival nails", "type": "spoke" },
+          { "slug": "carousel-nails", "anchor_text": "carousel nails", "type": "spoke" },
+          { "slug": "carnival-nail-art", "anchor_text": "carnival nail art", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "carnival-nails", "anchor_text": "county fair nails" },
+          { "slug": "summer-carnival-nails", "anchor_text": "county fair nails" },
+          { "slug": "carousel-nails", "anchor_text": "county fair nails" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 4,
+      "role": "spoke",
+      "title": "Carnival Nail Art: Step-by-Step Stripe & Tent Designs",
+      "slug": "carnival-nail-art",
+      "primary_keyword": "carnival nail art",
+      "topic_slug": "carnival",
+      "intent": "tutorial",
+      "search_demand_signals": [
+        "Pinterest: dedicated 'Carnival Nails Designs' Ideas page with step-by-step saves",
+        "YouTube: multiple nail art tutorial videos on carnival and circus stripe techniques with validated view counts"
+      ],
+      "why_included": "Only tutorial-intent post in the cluster; teaches the signature stripe and tent technique that defines the carnival aesthetic — distinct from inspiration-only posts.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "carnival-nails", "anchor_text": "carnival nails", "type": "pillar" },
+          { "slug": "circus-nails", "anchor_text": "circus nails", "type": "spoke" },
+          { "slug": "summer-carnival-nails", "anchor_text": "summer carnival nails", "type": "spoke" },
+          { "slug": "clown-core-nails", "anchor_text": "clown core nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "carnival-nails", "anchor_text": "carnival nail art" },
+          { "slug": "circus-nails", "anchor_text": "carnival nail art" },
+          { "slug": "summer-carnival-nails", "anchor_text": "carnival nail art" },
+          { "slug": "county-fair-nails", "anchor_text": "carnival nail art" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 5,
+      "role": "spoke",
+      "title": "Clown Core Nails: 15 FunHaus Designs for the Bold",
+      "slug": "clown-core-nails",
+      "primary_keyword": "clown core nails",
+      "topic_slug": "carnival",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Pinterest Predicts 2026: FunHaus trend explicitly named — 'bold stripes, sculptural silhouettes and just a wink of clownish charm'",
+        "Pinterest: dedicated 'Clown Core Nails' saves active within the maximalist nail aesthetic space + TikTok clowncore aesthetic content"
+      ],
+      "why_included": "Pinterest Predicts 2026 directly names this as a top trend; distinct maximalist subculture angle with its own identity separate from general carnival inspiration.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "carnival-nails", "anchor_text": "carnival nails", "type": "pillar" },
+          { "slug": "circus-nails", "anchor_text": "circus nails", "type": "spoke" },
+          { "slug": "carnival-nail-art", "anchor_text": "carnival nail art", "type": "spoke" },
+          { "slug": "summer-carnival-nails", "anchor_text": "summer carnival nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "carnival-nails", "anchor_text": "clown core nails" },
+          { "slug": "circus-nails", "anchor_text": "clown core nails" },
+          { "slug": "carnival-nail-art", "anchor_text": "clown core nails" },
+          { "slug": "summer-carnival-nails", "anchor_text": "clown core nails" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 6,
+      "role": "spoke",
+      "title": "Carousel Nails: 20 Whimsical Designs Inspired by the Ride",
+      "slug": "carousel-nails",
+      "primary_keyword": "carousel nails",
+      "topic_slug": "carnival",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Pinterest: dedicated 'Carousel Nails' Ideas page with active saves — vintage horses, Victorian aesthetic, pastel palettes",
+        "Pinterest related tags: whimsical fairytale nails, Victorian style nails, Bridgerton nail art crossover saves"
+      ],
+      "why_included": "Distinct softer romantic angle within the carnival world — vintage carousel horses, pastels, Victorian aesthetic — completely different audience mood from bold circus or clowncore.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "carnival-nails", "anchor_text": "carnival nails", "type": "pillar" },
+          { "slug": "circus-nails", "anchor_text": "circus nails", "type": "spoke" },
+          { "slug": "county-fair-nails", "anchor_text": "county fair nails", "type": "spoke" },
+          { "slug": "clown-core-nails", "anchor_text": "clown core nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "carnival-nails", "anchor_text": "carousel nails" },
+          { "slug": "circus-nails", "anchor_text": "carousel nails" },
+          { "slug": "county-fair-nails", "anchor_text": "carousel nails" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 7,
+      "role": "spoke",
+      "title": "Summer Carnival Nails: Bright & Colorful Ideas for 2026",
+      "slug": "summer-carnival-nails",
+      "primary_keyword": "summer carnival nails",
+      "topic_slug": "carnival",
+      "intent": "seasonal_trend",
+      "search_demand_signals": [
+        "Pinterest: dedicated 'Summer Carnival Nails' Ideas page with active saves",
+        "Seasonal crossover: summer nail search surge in 2026 combined with carnival aesthetic trending simultaneously via Pinterest Predicts FunHaus"
+      ],
+      "why_included": "Seasonal modifier with its own dedicated Pinterest Ideas page; captures summer-specific carnival demand from users searching at the intersection of summer nails and carnival aesthetics.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "carnival-nails", "anchor_text": "carnival nails", "type": "pillar" },
+          { "slug": "county-fair-nails", "anchor_text": "county fair nails", "type": "spoke" },
+          { "slug": "carnival-nail-art", "anchor_text": "carnival nail art", "type": "spoke" },
+          { "slug": "clown-core-nails", "anchor_text": "clown core nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "carnival-nails", "anchor_text": "summer carnival nails" },
+          { "slug": "county-fair-nails", "anchor_text": "summer carnival nails" },
+          { "slug": "carnival-nail-art", "anchor_text": "summer carnival nails" },
+          { "slug": "clown-core-nails", "anchor_text": "summer carnival nails" }
+        ]
+      },
+      "status": "approved"
+    }
+  ],
+
+  "keyword_ownership_registry": {
+    "description": "Master list of all primary keywords — one per post, no overlaps, includes existing site post exclusions",
+    "entries": [
+      { "primary_keyword": "carnival nails", "owned_by_slug": "carnival-nails", "owned_by_title": "Carnival Nails: 25 Bold Designs for Every Fair & Fest", "source": "new post" },
+      { "primary_keyword": "circus nails", "owned_by_slug": "circus-nails", "owned_by_title": "Circus Nails: 20 Big Top Designs That Go All In", "source": "new post" },
+      { "primary_keyword": "county fair nails", "owned_by_slug": "county-fair-nails", "owned_by_title": "County Fair Nails: 15 Americana Designs for Summer", "source": "new post" },
+      { "primary_keyword": "carnival nail art", "owned_by_slug": "carnival-nail-art", "owned_by_title": "Carnival Nail Art: Step-by-Step Stripe & Tent Designs", "source": "new post" },
+      { "primary_keyword": "clown core nails", "owned_by_slug": "clown-core-nails", "owned_by_title": "Clown Core Nails: 15 FunHaus Designs for the Bold", "source": "new post" },
+      { "primary_keyword": "carousel nails", "owned_by_slug": "carousel-nails", "owned_by_title": "Carousel Nails: 20 Whimsical Designs Inspired by the Ride", "source": "new post" },
+      { "primary_keyword": "summer carnival nails", "owned_by_slug": "summer-carnival-nails", "owned_by_title": "Summer Carnival Nails: Bright & Colorful Ideas for 2026", "source": "new post" },
+      { "primary_keyword": "edc nails", "owned_by_slug": "https://mirelleinspo.com/blog/edc-nails", "owned_by_title": "EDC Nails: 12 Rave-Ready Designs for 2026", "source": "existing site post" }
+    ]
+  },
+
+  "merged_posts_log": [
+    {
+      "original_topics": ["fair nails", "state fair nails"],
+      "merged_into": "County Fair Nails: 15 Americana Designs for Summer",
+      "reason": "'county fair nails' is the stronger evergreen US keyword with a dedicated Pinterest Ideas page; state fair and fair nails absorbed as sections within the same post."
+    }
+  ],
+
+  "killed_posts_log": [
+    {
+      "topic": "Digital Circus Nails",
+      "reason": "Pinterest demand exists but scoped to 'The Amazing Digital Circus' animated show fandom — not a nail aesthetics audience. Single-source niche fandom, failed 2-source validation as a Tier 1 nail topic."
+    },
+    {
+      "topic": "Amusement Park Nails",
+      "reason": "Appears in Pinterest related tags but no dedicated Ideas page found and no second-source demand validation as a standalone keyword."
+    }
+  ]
+}
