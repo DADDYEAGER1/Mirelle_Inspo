@@ -1,0 +1,264 @@
+{
+  "cluster_metadata": {
+    "cluster_topic": "Back to School Nails",
+    "topic_slug": "back-to-school",
+    "target_audience": "Global, Tier 1 countries (US, UK, Canada, Australia)",
+    "total_posts": 6,
+    "intent_breakdown": {
+      "informational": 0,
+      "inspirational": 3,
+      "tutorial": 0,
+      "comparison": 0,
+      "seasonal_trend": 3
+    },
+    "pillar_post_slug": "back-to-school-nails",
+    "created_date": "2026-06-25"
+  },
+
+  "existing_site_posts_excluded": [
+    {
+      "url": "https://mirelleinspo.com/blog/short-summer-nails",
+      "title": "Short Summer Nails",
+      "inferred_primary_keyword": "short summer nails",
+      "inferred_intent": "inspirational",
+      "exclusion_reason": "Already exists — keyword reserved. Simple back to school nails targets school-specific short nail angle only."
+    },
+    {
+      "url": "https://mirelleinspo.com/work-nails/short-nails-for-work",
+      "title": "Short Nails for Work",
+      "inferred_primary_keyword": "short nails for work",
+      "inferred_intent": "inspirational",
+      "exclusion_reason": "Already exists — work nails cluster owned. No overlap with school-specific content."
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/almond-nails-for-work",
+      "title": "Almond Nails for Work",
+      "inferred_primary_keyword": "almond nails for work",
+      "inferred_intent": "inspirational",
+      "exclusion_reason": "Already exists — work nails cluster owned."
+    }
+  ],
+
+  "posts": [
+    {
+      "post_id": 1,
+      "role": "pillar",
+      "title": "Back to School Nails: The Best Ideas for Every Student & Teacher in 2026",
+      "slug": "back-to-school-nails",
+      "primary_keyword": "back to school nails",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Google: spikes annually July 20–Aug 15, one of the largest seasonal nail keyword surges of the year",
+        "Pinterest: 340+ dedicated boards, millions of pins — 'back to school nails' is a top August search term on the platform",
+        "TikTok: #backtoschoolnails generates hundreds of millions of views every August",
+        "YouTube: multiple back to school nail roundup videos hitting 200k–500k views annually",
+        "Reddit: r/Nails and r/femalefashionadvice threads every August asking for BTS nail recs"
+      ],
+      "why_included": "Broadest BTS nail keyword with the highest single-keyword search volume in this cluster. Covers all audiences — students, teachers, college, high school — and links out to every spoke. Peak traffic window is July 20 to August 20.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "back-to-school-nails-for-teachers", "anchor_text": "back to school nails for teachers", "type": "spoke" },
+          { "slug": "college-nails", "anchor_text": "college nails", "type": "spoke" },
+          { "slug": "simple-back-to-school-nails", "anchor_text": "simple back to school nails", "type": "spoke" },
+          { "slug": "first-day-of-school-nails", "anchor_text": "first day of school nails", "type": "spoke" },
+          { "slug": "high-school-nails", "anchor_text": "high school nails", "type": "spoke" }
+        ],
+        "gallery_link": {
+          "url": "https://mirelleinspo.com/inspo/back-to-school-nails-inspiration-gallery",
+          "anchor_text": "back to school nails inspiration gallery"
+        },
+        "receives_links_from": [
+          { "slug": "back-to-school-nails-for-teachers", "anchor_text": "back to school nails" },
+          { "slug": "college-nails", "anchor_text": "back to school nails" },
+          { "slug": "simple-back-to-school-nails", "anchor_text": "back to school nails" },
+          { "slug": "first-day-of-school-nails", "anchor_text": "back to school nails" },
+          { "slug": "high-school-nails", "anchor_text": "back to school nails" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 2,
+      "role": "spoke",
+      "title": "Back to School Nails for Teachers: Professional & Cute Ideas for 2026",
+      "slug": "back-to-school-nails-for-teachers",
+      "primary_keyword": "back to school nails for teachers",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Google: 'back to school nails for teachers' appears as a standalone PAA box and autocomplete suggestion every August",
+        "Pinterest: dedicated teacher nail boards with apple motifs, chalkboard designs, pencil art — consistently high save rates",
+        "TikTok: teacher nail content goes viral every August — nail techs specifically market 'teacher nails' sets",
+        "Multiple major nail sites (Classpop, SolarNailDesign, GlamNails, Chaylor & Mads) publish dedicated teacher nail posts annually"
+      ],
+      "why_included": "Teacher nails is a clearly distinct audience from students — different constraints (professional, school-appropriate), different designs (apples, pencils, chalkboard art, neutral tones), proven annual demand spike. Deserves its own post.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "back-to-school-nails", "anchor_text": "back to school nails", "type": "pillar" },
+          { "slug": "simple-back-to-school-nails", "anchor_text": "simple back to school nails", "type": "spoke" },
+          { "slug": "first-day-of-school-nails", "anchor_text": "first day of school nails", "type": "spoke" },
+          { "slug": "high-school-nails", "anchor_text": "high school nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "back-to-school-nails", "anchor_text": "back to school nails for teachers" },
+          { "slug": "simple-back-to-school-nails", "anchor_text": "back to school nails for teachers" },
+          { "slug": "first-day-of-school-nails", "anchor_text": "back to school nails for teachers" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 3,
+      "role": "spoke",
+      "title": "College Nails: Trendy Manicure Ideas for the New Semester 2026",
+      "slug": "college-nails",
+      "primary_keyword": "college nails",
+      "intent": "seasonal_trend",
+      "search_demand_signals": [
+        "Google: 'college nails' is a distinct search from 'back to school nails' — college audience searches by identity not occasion",
+        "Pinterest: college nail boards skew toward aesthetic-coded manis (clean girl, coquette, preppy, dark academia) — unique content angle",
+        "TikTok: college nail content tied to specific aesthetics — 'college girl nails', 'university nails', 'dorm nails' active hashtags",
+        "The Pink Issue, HeyStyleHey, ShadePax all publish college-specific nail content with high engagement"
+      ],
+      "why_included": "College students are a massive distinct audience who search by their identity ('college nails') not the school occasion. Content skews aesthetic-coded — clean girl, dark academia, coquette, preppy — completely different from high school or teacher content. Zero cannibalization with existing site posts.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "back-to-school-nails", "anchor_text": "back to school nails", "type": "pillar" },
+          { "slug": "simple-back-to-school-nails", "anchor_text": "simple back to school nails", "type": "spoke" },
+          { "slug": "first-day-of-school-nails", "anchor_text": "first day of school nails", "type": "spoke" },
+          { "slug": "high-school-nails", "anchor_text": "high school nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "back-to-school-nails", "anchor_text": "college nails" },
+          { "slug": "high-school-nails", "anchor_text": "college nails" },
+          { "slug": "first-day-of-school-nails", "anchor_text": "college nails" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 4,
+      "role": "spoke",
+      "title": "Simple Back to School Nails: Easy Designs That Last All Week",
+      "slug": "simple-back-to-school-nails",
+      "primary_keyword": "simple back to school nails",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Google: 'simple back to school nails' is a top autocomplete suggestion alongside 'back to school nails' — distinct modifier with own search volume",
+        "Pinterest: 'simple school nails' boards consistently outperform elaborate ones — low-maintenance is the dominant audience need",
+        "TikTok: 'simple nails for school' videos consistently high view counts — students want fast, easy, dress-code-safe looks",
+        "PAA boxes: 'what are simple nails for school' appears in Google PAA for every BTS nail query"
+      ],
+      "why_included": "The largest sub-audience within BTS nails is students who want quick, easy, dress-code-appropriate designs — not themed nail art. 'Simple' is the dominant modifier in this category. Post covers: milky sheer nails, soft French tips, nude/pastel solid colors, minimal art — all school-appropriate and fast to do.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "back-to-school-nails", "anchor_text": "back to school nails", "type": "pillar" },
+          { "slug": "back-to-school-nails-for-teachers", "anchor_text": "back to school nails for teachers", "type": "spoke" },
+          { "slug": "first-day-of-school-nails", "anchor_text": "first day of school nails", "type": "spoke" },
+          { "slug": "high-school-nails", "anchor_text": "high school nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "back-to-school-nails", "anchor_text": "simple back to school nails" },
+          { "slug": "back-to-school-nails-for-teachers", "anchor_text": "simple back to school nails" },
+          { "slug": "college-nails", "anchor_text": "simple back to school nails" },
+          { "slug": "high-school-nails", "anchor_text": "simple back to school nails" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 5,
+      "role": "spoke",
+      "title": "First Day of School Nails: Fresh Manicure Ideas to Start the Year Right",
+      "slug": "first-day-of-school-nails",
+      "primary_keyword": "first day of school nails",
+      "intent": "seasonal_trend",
+      "search_demand_signals": [
+        "Google: 'first day of school nails' spikes sharply in the 48–72 hours before school starts — high-intent moment-based search",
+        "Pinterest: dedicated first day pins go viral every August — users save these right before their school date",
+        "TikTok: 'first day of school nails' content published by nail techs and students peaks in late July to early August",
+        "PAA: 'what nails should I get for the first day of school' appears consistently in Google PAA"
+      ],
+      "why_included": "Moment-based search with distinct high-intent window — users searching this are about to go get nails done or do them at home right now. Different content angle from broad BTS nails: focuses on fresh, confidence-boosting, first-impression designs. High conversion to saves and shares.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "back-to-school-nails", "anchor_text": "back to school nails", "type": "pillar" },
+          { "slug": "back-to-school-nails-for-teachers", "anchor_text": "back to school nails for teachers", "type": "spoke" },
+          { "slug": "college-nails", "anchor_text": "college nails", "type": "spoke" },
+          { "slug": "simple-back-to-school-nails", "anchor_text": "simple back to school nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "back-to-school-nails", "anchor_text": "first day of school nails" },
+          { "slug": "back-to-school-nails-for-teachers", "anchor_text": "first day of school nails" },
+          { "slug": "college-nails", "anchor_text": "first day of school nails" },
+          { "slug": "high-school-nails", "anchor_text": "first day of school nails" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 6,
+      "role": "spoke",
+      "title": "High School Nails: Trending Designs for Every Style in 2026",
+      "slug": "high-school-nails",
+      "primary_keyword": "high school nails",
+      "intent": "seasonal_trend",
+      "search_demand_signals": [
+        "Google: 'high school nails' and 'nails for high school' are consistent autocomplete suggestions — students search by school level",
+        "Pinterest: high school nail boards skew bold and expressive — cherry red, holographic, mix-and-match, Y2K aesthetics",
+        "TikTok: high school nail content is one of the most shared BTS nail categories — students document first day nails by school level",
+        "SolarNailDesign, Classpop, GlamNailDesigns all have dedicated high school nail sections with high engagement"
+      ],
+      "why_included": "High schoolers are the largest BTS nail audience on TikTok and Pinterest — they search by their school level, not just the occasion. Content angle is bolder and more expressive than college (which skews aesthetic-coded) or teacher (which skews professional): cherry red chrome, holographic, Y2K patterns, bold mismatched sets, preppy plaids. Clean differentiation from all other spokes.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "back-to-school-nails", "anchor_text": "back to school nails", "type": "pillar" },
+          { "slug": "college-nails", "anchor_text": "college nails", "type": "spoke" },
+          { "slug": "simple-back-to-school-nails", "anchor_text": "simple back to school nails", "type": "spoke" },
+          { "slug": "first-day-of-school-nails", "anchor_text": "first day of school nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "back-to-school-nails", "anchor_text": "high school nails" },
+          { "slug": "back-to-school-nails-for-teachers", "anchor_text": "high school nails" },
+          { "slug": "college-nails", "anchor_text": "high school nails" },
+          { "slug": "simple-back-to-school-nails", "anchor_text": "high school nails" }
+        ]
+      },
+      "status": "approved"
+    }
+  ],
+
+  "keyword_ownership_registry": {
+    "description": "Master list of all primary keywords — one per post, no overlaps, includes existing site exclusions",
+    "entries": [
+      { "primary_keyword": "back to school nails", "owned_by_slug": "back-to-school-nails", "owned_by_title": "Back to School Nails: The Best Ideas for Every Student & Teacher in 2026", "source": "new post" },
+      { "primary_keyword": "back to school nails for teachers", "owned_by_slug": "back-to-school-nails-for-teachers", "owned_by_title": "Back to School Nails for Teachers: Professional & Cute Ideas for 2026", "source": "new post" },
+      { "primary_keyword": "college nails", "owned_by_slug": "college-nails", "owned_by_title": "College Nails: Trendy Manicure Ideas for the New Semester 2026", "source": "new post" },
+      { "primary_keyword": "simple back to school nails", "owned_by_slug": "simple-back-to-school-nails", "owned_by_title": "Simple Back to School Nails: Easy Designs That Last All Week", "source": "new post" },
+      { "primary_keyword": "first day of school nails", "owned_by_slug": "first-day-of-school-nails", "owned_by_title": "First Day of School Nails: Fresh Manicure Ideas to Start the Year Right", "source": "new post" },
+      { "primary_keyword": "high school nails", "owned_by_slug": "high-school-nails", "owned_by_title": "High School Nails: Trending Designs for Every Style in 2026", "source": "new post" },
+      { "primary_keyword": "short nails for work", "owned_by_slug": "https://mirelleinspo.com/work-nails/short-nails-for-work", "owned_by_title": "Short Nails for Work", "source": "existing site post" },
+      { "primary_keyword": "short summer nails", "owned_by_slug": "https://mirelleinspo.com/blog/short-summer-nails", "owned_by_title": "Short Summer Nails", "source": "existing site post" }
+    ]
+  },
+
+  "merged_posts_log": [],
+
+  "killed_posts_log": [
+    {
+      "topic": "back to school nails for kids",
+      "reason": "Insufficient standalone search volume — kids nail content is niche and low traffic. Kid-specific angle covered briefly inside pillar."
+    },
+    {
+      "topic": "back to school nails for high school students (grade-specific variants)",
+      "reason": "Grade-specific searches (7th grade, 8th grade) have no measurable standalone search volume. Consolidated into high-school-nails post."
+    },
+    {
+      "topic": "school nail colors",
+      "reason": "Not a standalone search term with sufficient volume — covered as a section inside simple-back-to-school-nails and the pillar."
+    },
+    {
+      "topic": "cute back to school nails",
+      "reason": "Near-duplicate of pillar keyword 'back to school nails' — same intent, same SERP. No differentiation. Covered inside pillar as a section."
+    }
+  ]
+}
