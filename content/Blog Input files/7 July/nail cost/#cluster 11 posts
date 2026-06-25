@@ -1,0 +1,469 @@
+{
+  "cluster_metadata": {
+    "cluster_topic": "How Much Do Nails Cost",
+    "topic_slug": "nail-costs",
+    "target_audience": "Global, Tier 1 countries (US, UK, Canada, Australia)",
+    "total_posts": 11,
+    "intent_breakdown": {
+      "informational": 9,
+      "comparison": 1,
+      "tutorial": 1,
+      "inspirational": 0,
+      "seasonal_trend": 0
+    },
+    "pillar_post_slug": "how-much-do-nails-cost",
+    "created_date": "2026-06-26"
+  },
+
+  "existing_site_posts_excluded": [
+    {
+      "url": "https://mirelleinspo.com/blog/gel-vs-acrylic-almond-nails",
+      "title": "Gel vs Acrylic Almond Nails: Which to Get",
+      "inferred_primary_keyword": "gel vs acrylic almond nails",
+      "inferred_intent": "comparison",
+      "exclusion_reason": "Already exists on mirelleinspo.com — keyword reserved. Cost data present as secondary section only."
+    },
+    {
+      "url": "https://mirelleinspo.com/nail-faqs/whats-the-difference-between-a-manicure-and-a-pedicure",
+      "title": "What's the Difference Between a Manicure and a Pedicure?",
+      "inferred_primary_keyword": "manicure vs pedicure difference",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists on mirelleinspo.com — keyword reserved. Cost mentioned incidentally."
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/acrylic-vs-gel-vs-press-on-prom-nails",
+      "title": "Acrylic vs Gel vs Press-On Nails for Prom",
+      "inferred_primary_keyword": "acrylic vs gel vs press-on prom nails",
+      "inferred_intent": "comparison",
+      "exclusion_reason": "Already exists on mirelleinspo.com — keyword reserved."
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/almond-nails-beginners-guide",
+      "title": "Almond Nails for Beginners: Get It Right",
+      "inferred_primary_keyword": "almond nails beginners guide",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists on mirelleinspo.com — keyword reserved. Pricing range mentioned as one section."
+    },
+    {
+      "url": "https://mirelleinspo.com/nail-faqs/why-do-my-nails-hurt-after-getting-acrylics",
+      "title": "Why Do My Nails Hurt After Getting Acrylics?",
+      "inferred_primary_keyword": "why do nails hurt after acrylics",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists on mirelleinspo.com — keyword reserved."
+    },
+    {
+      "url": "https://mirelleinspo.com/work-nails/gel-vs-acrylic-nails-for-work",
+      "title": "Gel vs Acrylic Nails for Work: Which Wins",
+      "inferred_primary_keyword": "gel vs acrylic nails for work",
+      "inferred_intent": "comparison",
+      "exclusion_reason": "Already exists on mirelleinspo.com — keyword reserved."
+    }
+  ],
+
+  "posts": [
+    {
+      "post_id": 1,
+      "role": "pillar",
+      "title": "How Much Do Nails Cost: Complete Pricing Guide",
+      "slug": "how-much-do-nails-cost",
+      "primary_keyword": "how much do nails cost",
+      "intent": "informational",
+      "search_demand_signals": [
+        "Google autocomplete: top suggestion for 'how much do nails' across US, UK, AU, CA",
+        "Competitor pages: Airtasker, StyleSeat, Glitterbels, BTArtbox all target this exact query with dedicated pages",
+        "Search volume: 300K–450K/mo globally"
+      ],
+      "why_included": "Highest-volume cost query in the nail niche globally. Every person researching a salon visit asks this first. Broadest keyword in the cluster — pillar covers all service types at a high level and links out to every spoke.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "gel-nails-cost", "anchor_text": "gel nails cost", "type": "spoke" },
+          { "slug": "acrylic-nails-cost", "anchor_text": "acrylic nails cost", "type": "spoke" },
+          { "slug": "manicure-cost", "anchor_text": "how much does a manicure cost", "type": "spoke" },
+          { "slug": "pedicure-cost", "anchor_text": "how much does a pedicure cost", "type": "spoke" },
+          { "slug": "nail-fills-cost", "anchor_text": "nail fills cost", "type": "spoke" },
+          { "slug": "biab-cost", "anchor_text": "how much does BIAB cost", "type": "spoke" },
+          { "slug": "dip-powder-cost", "anchor_text": "dip powder cost", "type": "spoke" },
+          { "slug": "expensive-nail-salons-worth-it", "anchor_text": "are expensive nail salons worth it", "type": "spoke" },
+          { "slug": "nail-salon-cost-by-state", "anchor_text": "nail salon cost by state", "type": "spoke" },
+          { "slug": "save-money-on-nails", "anchor_text": "how to save money on nails", "type": "spoke" }
+        ],
+        "gallery_link": null,
+        "receives_links_from": [
+          { "slug": "gel-nails-cost", "anchor_text": "how much do nails cost" },
+          { "slug": "acrylic-nails-cost", "anchor_text": "how much do nails cost" },
+          { "slug": "manicure-cost", "anchor_text": "how much do nails cost" },
+          { "slug": "pedicure-cost", "anchor_text": "how much do nails cost" },
+          { "slug": "nail-fills-cost", "anchor_text": "how much do nails cost" },
+          { "slug": "biab-cost", "anchor_text": "how much do nails cost" },
+          { "slug": "dip-powder-cost", "anchor_text": "how much do nails cost" },
+          { "slug": "expensive-nail-salons-worth-it", "anchor_text": "how much do nails cost" },
+          { "slug": "nail-salon-cost-by-state", "anchor_text": "how much do nails cost" },
+          { "slug": "save-money-on-nails", "anchor_text": "how much do nails cost" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 2,
+      "role": "spoke",
+      "title": "How Much Do Gel Nails Cost",
+      "slug": "gel-nails-cost",
+      "primary_keyword": "gel nails cost",
+      "intent": "informational",
+      "search_demand_signals": [
+        "Google autocomplete: consistent suggestion alongside acrylic and manicure pricing queries",
+        "Multiple competitor guides with dedicated pages: StyleSeat, Airtasker, BTArtbox, Glitterbels",
+        "Search volume: 200K–320K/mo globally"
+      ],
+      "why_included": "Most-asked service-specific cost question globally. Gel is the dominant salon service in all Tier 1 markets. Standalone demand is second only to the broad pillar query.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "how-much-do-nails-cost", "anchor_text": "how much do nails cost", "type": "pillar" },
+          { "slug": "acrylic-nails-cost", "anchor_text": "acrylic nails cost", "type": "spoke" },
+          { "slug": "nail-fills-cost", "anchor_text": "nail fills cost", "type": "spoke" },
+          { "slug": "biab-cost", "anchor_text": "how much does BIAB cost", "type": "spoke" }
+        ],
+        "gallery_link": null,
+        "receives_links_from": [
+          { "slug": "how-much-do-nails-cost", "anchor_text": "gel nails cost" },
+          { "slug": "acrylic-nails-cost", "anchor_text": "gel nails cost" },
+          { "slug": "nail-fills-cost", "anchor_text": "gel nails cost" },
+          { "slug": "biab-cost", "anchor_text": "gel nails cost" },
+          { "slug": "dip-powder-cost", "anchor_text": "gel nails cost" },
+          { "slug": "manicure-cost", "anchor_text": "gel nails cost" },
+          { "slug": "nail-salon-cost-by-state", "anchor_text": "gel nails cost" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 3,
+      "role": "spoke",
+      "title": "How Much Do Acrylic Nails Cost",
+      "slug": "acrylic-nails-cost",
+      "primary_keyword": "acrylic nails cost",
+      "intent": "informational",
+      "search_demand_signals": [
+        "Dedicated competitor pages: School of Healthcare, BTArtbox, Maniology all rank for this exact query",
+        "Google PAA: appears consistently alongside gel cost queries",
+        "Search volume: 160K–260K/mo globally"
+      ],
+      "why_included": "Acrylic is the second most popular nail service globally. Massive standalone search demand. US and UK readers frequently compare acrylic vs gel pricing — this post owns the acrylic side of that comparison.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "how-much-do-nails-cost", "anchor_text": "how much do nails cost", "type": "pillar" },
+          { "slug": "gel-nails-cost", "anchor_text": "gel nails cost", "type": "spoke" },
+          { "slug": "nail-fills-cost", "anchor_text": "nail fills cost", "type": "spoke" },
+          { "slug": "expensive-nail-salons-worth-it", "anchor_text": "are expensive nail salons worth it", "type": "spoke" }
+        ],
+        "gallery_link": null,
+        "receives_links_from": [
+          { "slug": "how-much-do-nails-cost", "anchor_text": "acrylic nails cost" },
+          { "slug": "gel-nails-cost", "anchor_text": "acrylic nails cost" },
+          { "slug": "nail-fills-cost", "anchor_text": "acrylic nails cost" },
+          { "slug": "dip-powder-cost", "anchor_text": "acrylic nails cost" },
+          { "slug": "biab-cost", "anchor_text": "acrylic nails cost" },
+          { "slug": "expensive-nail-salons-worth-it", "anchor_text": "acrylic nails cost" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 4,
+      "role": "spoke",
+      "title": "How Much Does a Manicure Cost",
+      "slug": "manicure-cost",
+      "primary_keyword": "manicure cost",
+      "intent": "informational",
+      "search_demand_signals": [
+        "Airtasker dedicated UK and US manicure cost pages — among their highest-traffic nail content",
+        "StyleSeat, House of Beauty, Contour Day Spa all rank dedicated manicure cost pages",
+        "Search volume: 80K–130K/mo globally"
+      ],
+      "why_included": "Basic service cost question with broad audience — from first-timers to regular salon-goers. Covers the entry-level price point that gel and acrylic posts don't own. Note: primary keyword is 'manicure cost' not 'manicure pricing' — the latter is a separate cluster reserved for the standalone manicure-pricing cluster (#4 in the T4 list).",
+      "internal_links": {
+        "links_to": [
+          { "slug": "how-much-do-nails-cost", "anchor_text": "how much do nails cost", "type": "pillar" },
+          { "slug": "pedicure-cost", "anchor_text": "how much does a pedicure cost", "type": "spoke" },
+          { "slug": "gel-nails-cost", "anchor_text": "gel nails cost", "type": "spoke" },
+          { "slug": "save-money-on-nails", "anchor_text": "how to save money on nails", "type": "spoke" }
+        ],
+        "gallery_link": null,
+        "receives_links_from": [
+          { "slug": "how-much-do-nails-cost", "anchor_text": "how much does a manicure cost" },
+          { "slug": "pedicure-cost", "anchor_text": "manicure cost" },
+          { "slug": "nail-salon-cost-by-state", "anchor_text": "manicure cost" },
+          { "slug": "save-money-on-nails", "anchor_text": "manicure cost" },
+          { "slug": "expensive-nail-salons-worth-it", "anchor_text": "manicure cost" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 5,
+      "role": "spoke",
+      "title": "How Much Does a Pedicure Cost",
+      "slug": "pedicure-cost",
+      "primary_keyword": "pedicure cost",
+      "intent": "informational",
+      "search_demand_signals": [
+        "Airtasker, StyleSeat, Contour Day Spa all rank dedicated pedicure cost pages",
+        "Google PAA: consistently paired with manicure cost queries — frequently searched together",
+        "Search volume: 70K–110K/mo globally"
+      ],
+      "why_included": "Almost always searched alongside manicure cost — strong standalone demand. Covers the foot treatment side of the pricing conversation that the manicure post doesn't own. Distinct enough to warrant its own post.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "how-much-do-nails-cost", "anchor_text": "how much do nails cost", "type": "pillar" },
+          { "slug": "manicure-cost", "anchor_text": "how much does a manicure cost", "type": "spoke" },
+          { "slug": "nail-salon-cost-by-state", "anchor_text": "nail salon cost by state", "type": "spoke" },
+          { "slug": "expensive-nail-salons-worth-it", "anchor_text": "are expensive nail salons worth it", "type": "spoke" }
+        ],
+        "gallery_link": null,
+        "receives_links_from": [
+          { "slug": "how-much-do-nails-cost", "anchor_text": "how much does a pedicure cost" },
+          { "slug": "manicure-cost", "anchor_text": "how much does a pedicure cost" },
+          { "slug": "nail-salon-cost-by-state", "anchor_text": "pedicure cost" },
+          { "slug": "save-money-on-nails", "anchor_text": "pedicure cost" },
+          { "slug": "expensive-nail-salons-worth-it", "anchor_text": "pedicure cost" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 6,
+      "role": "spoke",
+      "title": "How Much Do Nail Fills Cost",
+      "slug": "nail-fills-cost",
+      "primary_keyword": "nail fills cost",
+      "intent": "informational",
+      "search_demand_signals": [
+        "StyleSeat and BTArtbox both cover fill pricing as a distinct section with strong engagement signals",
+        "Google autocomplete: 'how much do nail fills cost' appears consistently for gel and acrylic fill queries",
+        "Search volume: 20K–40K/mo — lower volume but very high intent: repeat customers already committed to salon visits"
+      ],
+      "why_included": "Repeat customers search this constantly — every gel and acrylic client needs a fill every 2–3 weeks. High-intent maintenance query. Unique angle not owned by any existing site post.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "how-much-do-nails-cost", "anchor_text": "how much do nails cost", "type": "pillar" },
+          { "slug": "gel-nails-cost", "anchor_text": "gel nails cost", "type": "spoke" },
+          { "slug": "acrylic-nails-cost", "anchor_text": "acrylic nails cost", "type": "spoke" },
+          { "slug": "save-money-on-nails", "anchor_text": "how to save money on nails", "type": "spoke" }
+        ],
+        "gallery_link": null,
+        "receives_links_from": [
+          { "slug": "how-much-do-nails-cost", "anchor_text": "nail fills cost" },
+          { "slug": "gel-nails-cost", "anchor_text": "nail fills cost" },
+          { "slug": "acrylic-nails-cost", "anchor_text": "nail fills cost" },
+          { "slug": "biab-cost", "anchor_text": "nail fills cost" },
+          { "slug": "dip-powder-cost", "anchor_text": "nail fills cost" },
+          { "slug": "save-money-on-nails", "anchor_text": "nail fills cost" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 7,
+      "role": "spoke",
+      "title": "How Much Does BIAB Cost",
+      "slug": "biab-cost",
+      "primary_keyword": "BIAB cost",
+      "intent": "informational",
+      "search_demand_signals": [
+        "Airtasker UK explicitly covers BIAB pricing as a distinct section — signals UK search demand",
+        "Google autocomplete: 'how much does BIAB cost' appears in UK and AU searches — rising trend since 2024",
+        "Search volume: 30K–60K/mo — growing fast, low competition from established nail cost sites"
+      ],
+      "why_included": "BIAB is the fastest-growing nail service in UK and Australia. Low competition window — few nail editorial sites cover BIAB cost as a standalone post. Early mover advantage is real here.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "how-much-do-nails-cost", "anchor_text": "how much do nails cost", "type": "pillar" },
+          { "slug": "gel-nails-cost", "anchor_text": "gel nails cost", "type": "spoke" },
+          { "slug": "nail-fills-cost", "anchor_text": "nail fills cost", "type": "spoke" },
+          { "slug": "acrylic-nails-cost", "anchor_text": "acrylic nails cost", "type": "spoke" }
+        ],
+        "gallery_link": null,
+        "receives_links_from": [
+          { "slug": "how-much-do-nails-cost", "anchor_text": "how much does BIAB cost" },
+          { "slug": "gel-nails-cost", "anchor_text": "how much does BIAB cost" },
+          { "slug": "nail-fills-cost", "anchor_text": "BIAB cost" },
+          { "slug": "expensive-nail-salons-worth-it", "anchor_text": "BIAB cost" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 8,
+      "role": "spoke",
+      "title": "How Much Does Dip Powder Cost",
+      "slug": "dip-powder-cost",
+      "primary_keyword": "dip powder cost",
+      "intent": "informational",
+      "search_demand_signals": [
+        "StyleSeat, Maniology, BTArtbox all include dedicated dip powder pricing sections — signals search demand",
+        "Google autocomplete: 'how much does dip powder cost' appears in US searches alongside gel and acrylic queries",
+        "Search volume: 25K–50K/mo — strong US demand, dip is the third-largest service category"
+      ],
+      "why_included": "Dip powder is the third-largest nail service in the US market. Distinct product with distinct pricing — readers specifically search for dip cost to compare against gel and acrylic. Standalone demand confirmed across multiple sources.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "how-much-do-nails-cost", "anchor_text": "how much do nails cost", "type": "pillar" },
+          { "slug": "acrylic-nails-cost", "anchor_text": "acrylic nails cost", "type": "spoke" },
+          { "slug": "nail-fills-cost", "anchor_text": "nail fills cost", "type": "spoke" },
+          { "slug": "save-money-on-nails", "anchor_text": "how to save money on nails", "type": "spoke" }
+        ],
+        "gallery_link": null,
+        "receives_links_from": [
+          { "slug": "how-much-do-nails-cost", "anchor_text": "dip powder cost" },
+          { "slug": "acrylic-nails-cost", "anchor_text": "dip powder cost" },
+          { "slug": "save-money-on-nails", "anchor_text": "dip powder cost" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 9,
+      "role": "spoke",
+      "title": "Are Expensive Nail Salons Worth It",
+      "slug": "expensive-nail-salons-worth-it",
+      "primary_keyword": "expensive nail salons worth it",
+      "intent": "comparison",
+      "search_demand_signals": [
+        "Google PAA: 'is it worth paying more for nails' and 'are expensive nail salons better' appear consistently in cost SERPs",
+        "Reddit: multiple high-engagement threads on budget vs premium salon decisions — strong organic demand signal",
+        "YouTube: multiple videos on 'cheap vs expensive nail salon' with high view counts"
+      ],
+      "why_included": "Unique comparison intent not covered by any other post in the cluster. Someone who has already understood pricing (from pillar) now wants to know if spending more is worth it. High engagement topic — readers spend significant time on this decision.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "how-much-do-nails-cost", "anchor_text": "how much do nails cost", "type": "pillar" },
+          { "slug": "nail-salon-cost-by-state", "anchor_text": "nail salon cost by state", "type": "spoke" },
+          { "slug": "acrylic-nails-cost", "anchor_text": "acrylic nails cost", "type": "spoke" },
+          { "slug": "manicure-cost", "anchor_text": "how much does a manicure cost", "type": "spoke" }
+        ],
+        "gallery_link": null,
+        "receives_links_from": [
+          { "slug": "how-much-do-nails-cost", "anchor_text": "are expensive nail salons worth it" },
+          { "slug": "acrylic-nails-cost", "anchor_text": "are expensive nail salons worth it" },
+          { "slug": "pedicure-cost", "anchor_text": "are expensive nail salons worth it" },
+          { "slug": "nail-salon-cost-by-state", "anchor_text": "are expensive nail salons worth it" },
+          { "slug": "biab-cost", "anchor_text": "are expensive nail salons worth it" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 10,
+      "role": "spoke",
+      "title": "Nail Salon Cost by State: US Pricing Guide",
+      "slug": "nail-salon-cost-by-state",
+      "primary_keyword": "nail salon cost by state",
+      "intent": "informational",
+      "search_demand_signals": [
+        "StyleSeat publishes state-by-state manicure pricing data — one of their most-referenced resources",
+        "Glitterbels US references StyleSeat state table — signals readers actively seek geographic pricing breakdowns",
+        "Google autocomplete: location-modified cost queries ('how much do nails cost in NYC', 'nail prices California') appear consistently"
+      ],
+      "why_included": "US readers — 47% of Mirellé's audience — want local pricing context that generic guides don't provide. Geographic angle is not covered by any existing site post or any other spoke in this cluster. StyleSeat data proves demand.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "how-much-do-nails-cost", "anchor_text": "how much do nails cost", "type": "pillar" },
+          { "slug": "manicure-cost", "anchor_text": "how much does a manicure cost", "type": "spoke" },
+          { "slug": "gel-nails-cost", "anchor_text": "gel nails cost", "type": "spoke" },
+          { "slug": "expensive-nail-salons-worth-it", "anchor_text": "are expensive nail salons worth it", "type": "spoke" }
+        ],
+        "gallery_link": null,
+        "receives_links_from": [
+          { "slug": "how-much-do-nails-cost", "anchor_text": "nail salon cost by state" },
+          { "slug": "manicure-cost", "anchor_text": "nail salon cost by state" },
+          { "slug": "pedicure-cost", "anchor_text": "nail salon cost by state" },
+          { "slug": "save-money-on-nails", "anchor_text": "nail salon cost by state" },
+          { "slug": "expensive-nail-salons-worth-it", "anchor_text": "nail salon cost by state" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 11,
+      "role": "spoke",
+      "title": "How to Save Money on Nails Without Sacrificing Quality",
+      "slug": "save-money-on-nails",
+      "primary_keyword": "how to save money on nails",
+      "intent": "tutorial",
+      "search_demand_signals": [
+        "Google PAA: 'how to spend less on nails' and 'how to get cheaper nails' appear in PAA boxes for cost queries",
+        "YouTube: multiple high-view videos on nail money-saving tips and salon hacks",
+        "Reddit: saving-on-nails threads consistently high engagement across r/femalefashionadvice and r/frugalfemalefashion"
+      ],
+      "why_included": "Adds the tutorial intent required for 3-intent diversity. Natural next step after someone reads pricing posts and wants to act on the information. Unique angle — moves from passive pricing research to active money-saving strategy. Confirmed demand on YouTube and Reddit.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "how-much-do-nails-cost", "anchor_text": "how much do nails cost", "type": "pillar" },
+          { "slug": "nail-fills-cost", "anchor_text": "nail fills cost", "type": "spoke" },
+          { "slug": "dip-powder-cost", "anchor_text": "dip powder cost", "type": "spoke" },
+          { "slug": "nail-salon-cost-by-state", "anchor_text": "nail salon cost by state", "type": "spoke" }
+        ],
+        "gallery_link": null,
+        "receives_links_from": [
+          { "slug": "how-much-do-nails-cost", "anchor_text": "how to save money on nails" },
+          { "slug": "manicure-cost", "anchor_text": "how to save money on nails" },
+          { "slug": "pedicure-cost", "anchor_text": "how to save money on nails" },
+          { "slug": "nail-fills-cost", "anchor_text": "how to save money on nails" },
+          { "slug": "dip-powder-cost", "anchor_text": "how to save money on nails" }
+        ]
+      },
+      "status": "approved"
+    }
+  ],
+
+  "keyword_ownership_registry": {
+    "description": "Master list of all primary keywords — one per post, no overlaps, includes existing site posts",
+    "entries": [
+      { "primary_keyword": "how much do nails cost", "owned_by_slug": "how-much-do-nails-cost", "owned_by_title": "How Much Do Nails Cost: Complete Pricing Guide", "source": "new post" },
+      { "primary_keyword": "gel nails cost", "owned_by_slug": "gel-nails-cost", "owned_by_title": "How Much Do Gel Nails Cost", "source": "new post" },
+      { "primary_keyword": "acrylic nails cost", "owned_by_slug": "acrylic-nails-cost", "owned_by_title": "How Much Do Acrylic Nails Cost", "source": "new post" },
+      { "primary_keyword": "manicure cost", "owned_by_slug": "manicure-cost", "owned_by_title": "How Much Does a Manicure Cost", "source": "new post" },
+      { "primary_keyword": "pedicure cost", "owned_by_slug": "pedicure-cost", "owned_by_title": "How Much Does a Pedicure Cost", "source": "new post" },
+      { "primary_keyword": "nail fills cost", "owned_by_slug": "nail-fills-cost", "owned_by_title": "How Much Do Nail Fills Cost", "source": "new post" },
+      { "primary_keyword": "BIAB cost", "owned_by_slug": "biab-cost", "owned_by_title": "How Much Does BIAB Cost", "source": "new post" },
+      { "primary_keyword": "dip powder cost", "owned_by_slug": "dip-powder-cost", "owned_by_title": "How Much Does Dip Powder Cost", "source": "new post" },
+      { "primary_keyword": "expensive nail salons worth it", "owned_by_slug": "expensive-nail-salons-worth-it", "owned_by_title": "Are Expensive Nail Salons Worth It", "source": "new post" },
+      { "primary_keyword": "nail salon cost by state", "owned_by_slug": "nail-salon-cost-by-state", "owned_by_title": "Nail Salon Cost by State: US Pricing Guide", "source": "new post" },
+      { "primary_keyword": "how to save money on nails", "owned_by_slug": "save-money-on-nails", "owned_by_title": "How to Save Money on Nails Without Sacrificing Quality", "source": "new post" },
+      { "primary_keyword": "gel vs acrylic almond nails", "owned_by_slug": "https://mirelleinspo.com/blog/gel-vs-acrylic-almond-nails", "owned_by_title": "Gel vs Acrylic Almond Nails: Which to Get", "source": "existing site post" },
+      { "primary_keyword": "manicure vs pedicure difference", "owned_by_slug": "https://mirelleinspo.com/nail-faqs/whats-the-difference-between-a-manicure-and-a-pedicure", "owned_by_title": "What's the Difference Between a Manicure and a Pedicure?", "source": "existing site post" },
+      { "primary_keyword": "acrylic vs gel vs press-on prom nails", "owned_by_slug": "https://mirelleinspo.com/blog/acrylic-vs-gel-vs-press-on-prom-nails", "owned_by_title": "Acrylic vs Gel vs Press-On Nails for Prom", "source": "existing site post" },
+      { "primary_keyword": "almond nails beginners guide", "owned_by_slug": "https://mirelleinspo.com/blog/almond-nails-beginners-guide", "owned_by_title": "Almond Nails for Beginners: Get It Right", "source": "existing site post" },
+      { "primary_keyword": "why do nails hurt after acrylics", "owned_by_slug": "https://mirelleinspo.com/nail-faqs/why-do-my-nails-hurt-after-getting-acrylics", "owned_by_title": "Why Do My Nails Hurt After Getting Acrylics?", "source": "existing site post" },
+      { "primary_keyword": "gel vs acrylic nails for work", "owned_by_slug": "https://mirelleinspo.com/work-nails/gel-vs-acrylic-nails-for-work", "owned_by_title": "Gel vs Acrylic Nails for Work: Which Wins", "source": "existing site post" }
+    ]
+  },
+
+  "merged_posts_log": [
+    {
+      "original_topics": ["luxury nail prices", "high-end nail salon cost"],
+      "merged_into": "Are Expensive Nail Salons Worth It",
+      "reason": "Same comparison intent — one post covers the premium vs budget decision more usefully than two separate posts on luxury pricing"
+    },
+    {
+      "original_topics": ["mani-pedi cost combined"],
+      "merged_into": "Split into manicure-cost and pedicure-cost as separate posts",
+      "reason": "More search surface as separate posts — each term has strong standalone demand and distinct audiences"
+    }
+  ],
+
+  "killed_posts_log": [
+    {
+      "topic": "how much to tip nail tech",
+      "reason": "Existing post on mirelleinspo.com already covers nail tech tipping — cannibalization risk confirmed in site scan"
+    },
+    {
+      "topic": "nail cost UK vs US comparison",
+      "reason": "Too thin as a standalone post — pricing data across markets covered in pillar and state guide"
+    },
+    {
+      "topic": "how much do press-on nails cost",
+      "reason": "Transactional intent drift — leads toward product purchase decisions. Excluded per strategy: no transactional intent posts"
+    }
+  ]
+}
