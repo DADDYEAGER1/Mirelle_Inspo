@@ -1,0 +1,341 @@
+{
+  "cluster_metadata": {
+    "cluster_topic": "Japanese Nails",
+    "topic_slug": "japanese-nails",
+    "target_audience": "Global, Tier 1 countries",
+    "total_posts": 8,
+    "intent_breakdown": {
+      "informational": 1,
+      "inspirational": 5,
+      "tutorial": 1,
+      "comparison": 0,
+      "seasonal_trend": 0
+    },
+    "pillar_post_slug": "japanese-nail-art",
+    "created_date": "2026-06-26"
+  },
+
+  "existing_site_posts_excluded": [
+    {
+      "url": "https://mirelleinspo.com/blog/goth/pastel-goth-nails",
+      "title": "Pastel Goth Nails: 60+ Creepy Cute Ideas",
+      "inferred_primary_keyword": "pastel goth nails",
+      "inferred_intent": "inspirational",
+      "exclusion_reason": "Already exists on mirelleinspo.com — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/how-to-do-ombre-nails-at-home",
+      "title": "How to Do Ombre Nails at Home That Last",
+      "inferred_primary_keyword": "how to do ombre nails at home",
+      "inferred_intent": "tutorial",
+      "exclusion_reason": "Already exists on mirelleinspo.com — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/cat-eye/cat-eye-nails",
+      "title": "Cat Eye Nails: Every Style & Design for 2026",
+      "inferred_primary_keyword": "cat eye nails",
+      "inferred_intent": "inspirational",
+      "exclusion_reason": "Already exists on mirelleinspo.com — keyword reserved"
+    }
+  ],
+
+  "posts": [
+    {
+      "post_id": 1,
+      "role": "pillar",
+      "title": "Japanese Nail Art: Every Style & Design Worth Knowing",
+      "slug": "japanese-nail-art",
+      "primary_keyword": "japanese nail art",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Google Trends: 'japanese nail art' spiked to value 45 in May 2025, rising into 2026",
+        "Pinterest: dedicated boards with 100k+ saves; active search terms 'japanese nail art designs', 'japan nail design'",
+        "TikTok: #japanesenailart active; viral nail salon content from Tokyo",
+        "Who What Wear: published 'L.A., London, Seoul, Tokyo: 12 International Nail Trends' editorial coverage"
+      ],
+      "why_included": "Broadest keyword in the cluster with the widest umbrella — covers every sub-style and technique. No existing Mirellé post targets this keyword. Natural pillar.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "sakura-nails", "anchor_text": "sakura nails", "type": "spoke" },
+          { "slug": "kawaii-nails", "anchor_text": "kawaii nails", "type": "spoke" },
+          { "slug": "japanese-3d-nail-art", "anchor_text": "japanese 3D nail art", "type": "spoke" },
+          { "slug": "japanese-minimalist-nails", "anchor_text": "japanese minimalist nails", "type": "spoke" },
+          { "slug": "japanese-manicure", "anchor_text": "japanese manicure", "type": "spoke" },
+          { "slug": "how-to-do-japanese-nail-art", "anchor_text": "how to do japanese nail art at home", "type": "spoke" },
+          { "slug": "japanese-nail-art-short-nails", "anchor_text": "japanese nail art for short nails", "type": "spoke" }
+        ],
+        "gallery_link": {
+          "url": "https://mirelleinspo.com/inspo/japanese-nail-art-inspiration-gallery",
+          "anchor_text": "japanese nail art inspiration gallery"
+        },
+        "receives_links_from": [
+          { "slug": "sakura-nails", "anchor_text": "japanese nail art" },
+          { "slug": "kawaii-nails", "anchor_text": "japanese nail art" },
+          { "slug": "japanese-3d-nail-art", "anchor_text": "japanese nail art" },
+          { "slug": "japanese-minimalist-nails", "anchor_text": "japanese nail art" },
+          { "slug": "japanese-manicure", "anchor_text": "japanese nail art" },
+          { "slug": "how-to-do-japanese-nail-art", "anchor_text": "japanese nail art" },
+          { "slug": "japanese-nail-art-short-nails", "anchor_text": "japanese nail art" }
+        ]
+      },
+      "status": "approved"
+    },
+
+    {
+      "post_id": 2,
+      "role": "spoke",
+      "title": "Sakura Nails: Cherry Blossom Designs for Every Style",
+      "slug": "sakura-nails",
+      "primary_keyword": "sakura nails",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Pinterest: 50k+ pins across multiple dedicated boards; search terms 'sakura nails', 'sakura nail design', 'sakura nails acrylic', 'sakura nails inspo'",
+        "TikTok: #sakuranails active year-round with tutorials and inspo; sakura nail design TikTok discover page active June 2026",
+        "Etsy: active product demand for sakura/cherry blossom press-on nails",
+        "Google autocomplete: 'sakura nails', 'sakura nail design', 'sakura nails almond'"
+      ],
+      "why_included": "Highest-volume specific sub-topic in the cluster. Evergreen with a spring peak. 'Sakura nails' has its own distinct search identity separate from the broader cherry nails topic already covered in the fruit nails cluster.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "japanese-nail-art", "anchor_text": "japanese nail art", "type": "pillar" },
+          { "slug": "japanese-3d-nail-art", "anchor_text": "japanese 3D nail art", "type": "spoke" },
+          { "slug": "japanese-minimalist-nails", "anchor_text": "japanese minimalist nails", "type": "spoke" },
+          { "slug": "how-to-do-japanese-nail-art", "anchor_text": "how to do japanese nail art at home", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "japanese-nail-art", "anchor_text": "sakura nails" },
+          { "slug": "japanese-3d-nail-art", "anchor_text": "sakura nails" },
+          { "slug": "how-to-do-japanese-nail-art", "anchor_text": "sakura nail designs" }
+        ]
+      },
+      "status": "approved"
+    },
+
+    {
+      "post_id": 3,
+      "role": "spoke",
+      "title": "Kawaii Nails: The Complete Guide to Cute Japanese Nail Art",
+      "slug": "kawaii-nails",
+      "primary_keyword": "kawaii nails",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Pinterest: 140+ pin boards; dedicated 'kawaii nails' category with broad international saves",
+        "TikTok: viral Sanrio/Hello Kitty/kawaii nail content; active hashtags #kawaiinails #kawaiinailart",
+        "Tokyo Weekender and nomakenolife editorial coverage of kawaii nail art salons",
+        "Google autocomplete: 'kawaii nails', 'kawaii nail art', 'kawaii nail charms', 'kawaii 3D nails'"
+      ],
+      "why_included": "Kawaii is a distinct cultural aesthetic with a massive independent global following. Sanrio character nails, pastel 3D charm nails, and gyaru-style nails all fall under this umbrella and generate consistent year-round demand.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "japanese-nail-art", "anchor_text": "japanese nail art", "type": "pillar" },
+          { "slug": "japanese-3d-nail-art", "anchor_text": "japanese 3D nail art", "type": "spoke" },
+          { "slug": "japanese-nail-art-short-nails", "anchor_text": "japanese nail art for short nails", "type": "spoke" },
+          { "slug": "sakura-nails", "anchor_text": "sakura nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "japanese-nail-art", "anchor_text": "kawaii nails" },
+          { "slug": "japanese-3d-nail-art", "anchor_text": "kawaii nail art" },
+          { "slug": "japanese-nail-art-short-nails", "anchor_text": "kawaii nails" }
+        ]
+      },
+      "status": "approved"
+    },
+
+    {
+      "post_id": 4,
+      "role": "spoke",
+      "title": "Japanese 3D Nail Art: Flowers, Gems & Sculptural Designs",
+      "slug": "japanese-3d-nail-art",
+      "primary_keyword": "japanese 3d nail art",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Pinterest: 'short nail 3D flower' (9.8k saves), '3D gel nail art flowers' boards active; 'japanese 3d nail art' search term present",
+        "Google autocomplete: '3D nail art japanese', '3D japanese nail designs'",
+        "TikTok: #3dnailart viral; Japanese salon 3D sculpting content consistently high-performing",
+        "kreafolk.com ranks for '30 best japanese nail design ideas' with 3D as a leading category"
+      ],
+      "why_included": "3D sculpted gel is the defining technical hallmark of Japanese nail art globally. It has its own search lane entirely separate from flat nail art and generates strong visual content demand on Pinterest and TikTok.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "japanese-nail-art", "anchor_text": "japanese nail art", "type": "pillar" },
+          { "slug": "sakura-nails", "anchor_text": "sakura nails", "type": "spoke" },
+          { "slug": "kawaii-nails", "anchor_text": "kawaii nails", "type": "spoke" },
+          { "slug": "how-to-do-japanese-nail-art", "anchor_text": "how to do japanese nail art at home", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "japanese-nail-art", "anchor_text": "japanese 3D nail art" },
+          { "slug": "sakura-nails", "anchor_text": "japanese 3D nail art" },
+          { "slug": "kawaii-nails", "anchor_text": "japanese 3D nail art" },
+          { "slug": "how-to-do-japanese-nail-art", "anchor_text": "japanese 3D nail art techniques" }
+        ]
+      },
+      "status": "approved"
+    },
+
+    {
+      "post_id": 5,
+      "role": "spoke",
+      "title": "Japanese Minimalist Nails: Clean, Simple, Quietly Luxe",
+      "slug": "japanese-minimalist-nails",
+      "primary_keyword": "japanese minimalist nails",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Google Trends 2026 report: 'Korean nail art in 2026 is moving toward beautifully restrained minimalism' — same aesthetic signal applies to Japanese",
+        "Pinterest: 'japanese nails simple', 'simple japanese nails', 'japan style nails' boards active",
+        "Who What Wear international nail trends article: Tokyo minimalist aesthetic cited as distinct from Seoul and LA styles",
+        "nailtrail.com 2026 trends article specifically calls out Japanese minimalist as a 2026 direction"
+      ],
+      "why_included": "The counter-aesthetic to kawaii/3D — quiet luxury meets Japanese precision. Targets a completely different reader who wants restraint, not maximalism. Strong crossover with the 'clean girl' and 'quiet luxury' audiences already active on Mirellé.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "japanese-nail-art", "anchor_text": "japanese nail art", "type": "pillar" },
+          { "slug": "japanese-manicure", "anchor_text": "japanese manicure", "type": "spoke" },
+          { "slug": "japanese-nail-art-short-nails", "anchor_text": "japanese nail art for short nails", "type": "spoke" },
+          { "slug": "sakura-nails", "anchor_text": "sakura nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "japanese-nail-art", "anchor_text": "japanese minimalist nails" },
+          { "slug": "japanese-manicure", "anchor_text": "japanese minimalist nails" },
+          { "slug": "sakura-nails", "anchor_text": "japanese minimalist nails" }
+        ]
+      },
+      "status": "approved"
+    },
+
+    {
+      "post_id": 6,
+      "role": "spoke",
+      "title": "Japanese Manicure: What It Is, How It Works & Why Try It",
+      "slug": "japanese-manicure",
+      "primary_keyword": "japanese manicure",
+      "intent": "informational",
+      "search_demand_signals": [
+        "Refinery29 UK published 'The Japanese Manicure Trend Is The Answer To Weak Nails' — editorial demand signal",
+        "Professional Beauty UK and Professional Beauty AU both published dedicated articles Nov 2025",
+        "Fashion Times: 'Summer Nail Glow Up: Japanese Manicures Driving Viral Trends 2026'",
+        "Google PAA: 'what is a japanese manicure', 'how long does a japanese manicure last', 'japanese manicure vs gel'"
+      ],
+      "why_included": "Entirely separate search intent from the art/inspo side — users want to understand the P.Shine treatment, its benefits, and whether to book it. Growing clean beauty crossover audience. Multiple Tier 1 editorial sources confirm demand.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "japanese-nail-art", "anchor_text": "japanese nail art", "type": "pillar" },
+          { "slug": "japanese-minimalist-nails", "anchor_text": "japanese minimalist nails", "type": "spoke" },
+          { "slug": "japanese-nail-art-short-nails", "anchor_text": "japanese nail art for short nails", "type": "spoke" },
+          { "slug": "how-to-do-japanese-nail-art", "anchor_text": "how to do japanese nail art at home", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "japanese-nail-art", "anchor_text": "japanese manicure" },
+          { "slug": "japanese-minimalist-nails", "anchor_text": "japanese manicure" },
+          { "slug": "how-to-do-japanese-nail-art", "anchor_text": "japanese manicure treatment" }
+        ]
+      },
+      "status": "approved"
+    },
+
+    {
+      "post_id": 7,
+      "role": "spoke",
+      "title": "How to Do Japanese Nail Art at Home",
+      "slug": "how-to-do-japanese-nail-art",
+      "primary_keyword": "how to do japanese nail art",
+      "intent": "tutorial",
+      "search_demand_signals": [
+        "YouTube: high-view tutorials for japanese nail art techniques consistently rank",
+        "TikTok: #japanesenailtutorial active; blooming gel tutorials from Japanese artists go viral",
+        "Google autocomplete: 'how to do japanese nail art at home', 'japanese nail art tutorial'",
+        "Pinterest: dedicated tutorial boards for cherry blossom steps, 3D flower how-tos"
+      ],
+      "why_included": "DIY intent is a completely separate search mode from inspo browsing. Users searching 'how to do' are not looking at inspo galleries — they need step-by-step guidance. Strong multi-platform signal across YouTube, TikTok, Pinterest, and Google autocomplete.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "japanese-nail-art", "anchor_text": "japanese nail art", "type": "pillar" },
+          { "slug": "sakura-nails", "anchor_text": "sakura nail designs", "type": "spoke" },
+          { "slug": "japanese-3d-nail-art", "anchor_text": "japanese 3D nail art techniques", "type": "spoke" },
+          { "slug": "japanese-manicure", "anchor_text": "japanese manicure treatment", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "japanese-nail-art", "anchor_text": "how to do japanese nail art at home" },
+          { "slug": "sakura-nails", "anchor_text": "how to do japanese nail art at home" },
+          { "slug": "japanese-3d-nail-art", "anchor_text": "how to do japanese nail art at home" },
+          { "slug": "japanese-manicure", "anchor_text": "how to do japanese nail art at home" }
+        ]
+      },
+      "status": "approved"
+    },
+
+    {
+      "post_id": 8,
+      "role": "spoke",
+      "title": "Japanese Nail Art Designs for Short Nails",
+      "slug": "japanese-nail-art-short-nails",
+      "primary_keyword": "japanese nail art short nails",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Pinterest: 'short japanese nails', 'short nail 3D flower' (9.8k saves), 'japanese nails simple' boards active",
+        "Google autocomplete: 'japanese nail art short nails', 'japanese nail designs short'",
+        "TikTok: short nail japanese content performing — distinct from long nail content",
+        "Evergreen pain point: short nail audiences consistently self-exclude from general inspo"
+      ],
+      "why_included": "Short nail readers are a large, underserved audience who abandon general inspo posts because they assume the designs require length. Japanese nail art is especially well-suited to short nails (minimalism, small 3D details, sakura micro-art) — making this a genuine content gap.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "japanese-nail-art", "anchor_text": "japanese nail art", "type": "pillar" },
+          { "slug": "kawaii-nails", "anchor_text": "kawaii nails", "type": "spoke" },
+          { "slug": "japanese-minimalist-nails", "anchor_text": "japanese minimalist nails", "type": "spoke" },
+          { "slug": "sakura-nails", "anchor_text": "sakura nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "japanese-nail-art", "anchor_text": "japanese nail art for short nails" },
+          { "slug": "kawaii-nails", "anchor_text": "japanese nail art for short nails" },
+          { "slug": "japanese-minimalist-nails", "anchor_text": "japanese nail art for short nails" }
+        ]
+      },
+      "status": "approved"
+    }
+  ],
+
+  "keyword_ownership_registry": {
+    "description": "Master list of all primary keywords — one per post, no overlaps, includes existing site posts",
+    "entries": [
+      { "primary_keyword": "japanese nail art", "owned_by_slug": "japanese-nail-art", "owned_by_title": "Japanese Nail Art: Every Style & Design Worth Knowing", "source": "new post" },
+      { "primary_keyword": "sakura nails", "owned_by_slug": "sakura-nails", "owned_by_title": "Sakura Nails: Cherry Blossom Designs for Every Style", "source": "new post" },
+      { "primary_keyword": "kawaii nails", "owned_by_slug": "kawaii-nails", "owned_by_title": "Kawaii Nails: The Complete Guide to Cute Japanese Nail Art", "source": "new post" },
+      { "primary_keyword": "japanese 3d nail art", "owned_by_slug": "japanese-3d-nail-art", "owned_by_title": "Japanese 3D Nail Art: Flowers, Gems & Sculptural Designs", "source": "new post" },
+      { "primary_keyword": "japanese minimalist nails", "owned_by_slug": "japanese-minimalist-nails", "owned_by_title": "Japanese Minimalist Nails: Clean, Simple, Quietly Luxe", "source": "new post" },
+      { "primary_keyword": "japanese manicure", "owned_by_slug": "japanese-manicure", "owned_by_title": "Japanese Manicure: What It Is, How It Works & Why Try It", "source": "new post" },
+      { "primary_keyword": "how to do japanese nail art", "owned_by_slug": "how-to-do-japanese-nail-art", "owned_by_title": "How to Do Japanese Nail Art at Home", "source": "new post" },
+      { "primary_keyword": "japanese nail art short nails", "owned_by_slug": "japanese-nail-art-short-nails", "owned_by_title": "Japanese Nail Art Designs for Short Nails", "source": "new post" },
+      { "primary_keyword": "pastel goth nails", "owned_by_slug": "mirelleinspo.com/blog/goth/pastel-goth-nails", "owned_by_title": "Pastel Goth Nails: 60+ Creepy Cute Ideas", "source": "existing site post" },
+      { "primary_keyword": "how to do ombre nails at home", "owned_by_slug": "mirelleinspo.com/blog/how-to-do-ombre-nails-at-home", "owned_by_title": "How to Do Ombre Nails at Home That Last", "source": "existing site post" },
+      { "primary_keyword": "cat eye nails", "owned_by_slug": "mirelleinspo.com/blog/cat-eye/cat-eye-nails", "owned_by_title": "Cat Eye Nails: Every Style & Design for 2026", "source": "existing site post" }
+    ]
+  },
+
+  "merged_posts_log": [
+    {
+      "original_topics": ["sakura nails", "cherry blossom nails"],
+      "merged_into": "Sakura Nails: Cherry Blossom Designs for Every Style",
+      "reason": "Same design, same user intent. 'Sakura nails' is the more ownable keyword. 'Cherry blossom nails' overlaps with the existing cherry nails post in the fruit nails cluster on Mirellé."
+    },
+    {
+      "original_topics": ["anime nails", "sanrio nails"],
+      "merged_into": "Kawaii Nails: The Complete Guide to Cute Japanese Nail Art",
+      "reason": "Both are sub-sets of kawaii aesthetic. Splitting would create keyword cannibalization and thin content. Absorbed as named sections within the kawaii post."
+    }
+  ],
+
+  "killed_posts_log": [
+    {
+      "topic": "harajuku nails",
+      "reason": "Demand signal on Pinterest only — no measurable Google or TikTok volume. Sub-audience of kawaii nails. Merges into Post 3."
+    },
+    {
+      "topic": "japanese gel nails vs acrylic",
+      "reason": "No comparison-intent search demand found on 2+ sources specifically for a Japan-angle comparison. Generic gel vs acrylic comparison already exists broadly; no Japan-specific angle justifies a post."
+    },
+    {
+      "topic": "japan trip nail inspo",
+      "reason": "Pinterest signal only. No Google or TikTok demand. Hyper-niche travel sub-intent with no cluster role."
+    }
+  ]
+}
