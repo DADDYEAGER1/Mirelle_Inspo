@@ -1,0 +1,214 @@
+{
+  "cluster_metadata": {
+    "cluster_topic": "Budget Nail Tools",
+    "topic_slug": "budget",
+    "site_url_pattern": "https://mirelleinspo.com/shop/{topic_slug}/{post_slug}",
+    "category_folder": "budget",
+    "target_audience": "Global, Tier 1 countries (US, UK, Canada, Australia)",
+    "content_type": "transactional shopping only — no tutorials, no buying guides, no vs-comparisons",
+    "brand_policy": "MelodySusie is the only affiliate brand recommended. Brand name NEVER appears in post title, slug, URL, or H1/H2 headers. Brand appears only within body content where specific products are recommended.",
+    "total_posts": 4,
+    "intent_breakdown": {
+      "informational": 0,
+      "inspirational": 0,
+      "tutorial": 0,
+      "comparison": 0,
+      "seasonal_trend": 0,
+      "transactional_shopping": 4
+    },
+    "pillar_post_slug": "best-cheap-gel-nail-polish",
+    "created_date": "2026-06-26"
+  },
+
+  "research_notes": {
+    "methodology_correction": "Initial pass on this cluster stopped after one weak signal (generic 'budget nail tools' largely overlapping the existing nail-drill/kit posts by price filter alone) and proposed shrinking the cluster to a single post. On request, research was redone category-by-category against MelodySusie's actual product lines (drills, lamps, gel polish/kits, clippers) rather than treating 'budget' as one monolithic keyword. This surfaced three genuinely distinct, independently-evidenced angles that the first pass missed.",
+    "key_finding": "'Cheap gel nail polish' is the strongest validated keyword in this entire cluster — 20,000+ bought in past month on Amazon with its own dedicated search page and related-search cluster (gel nail polish kit with uv light, cheap nail polish, gel top coat). This is promoted to pillar, ahead of nail drills, which was the original (and weaker) default assumption.",
+    "honest_exclusion": "Budget/cheap manicure clipper sets show real content volume but are dominated by dedicated steel-tool brands (ZIZZON, Revlon, Topinox, Germanikure) in every independent roundup found. MelodySusie's clipper line is positioned for acrylic nail art, not general steel manicure tool sets, and 'nail clippers' is already a reserved keyword on an existing site post. Killed rather than forced, consistent with the product-fit standard applied elsewhere in this project."
+  },
+
+  "existing_site_posts_excluded": [
+    {
+      "url": "https://mirelleinspo.com/shop/nail-drills/best-melodysusie-nail-drills",
+      "title": "Best Nail Drills (existing post)",
+      "inferred_primary_keyword": "best nail drill",
+      "inferred_intent": "transactional_shopping",
+      "exclusion_reason": "Already exists — reserves the general/feature-led 'best nail drill' keyword. This cluster's drill spoke targets the distinct, separately-evidenced 'budget/cheap nail drill' searcher instead, confirmed via independent dedicated roundup content, not just a price filter on the same search."
+    },
+    {
+      "url": "https://mirelleinspo.com/shop/nail-drills/best-melodysusie-cordless-nail-drill",
+      "title": "Best Cordless Nail Drill (existing post)",
+      "inferred_primary_keyword": "cordless nail drill",
+      "inferred_intent": "transactional_shopping",
+      "exclusion_reason": "Already exists — reserves the cordless/portability angle. Budget spoke in this cluster must not re-center on cordless as its differentiator."
+    },
+    {
+      "url": "https://mirelleinspo.com/shop/nail-lamps/best-melodysusie-nail-lamps",
+      "title": "Best Nail Lamps (existing post)",
+      "inferred_primary_keyword": "best nail lamp",
+      "inferred_intent": "transactional_shopping",
+      "exclusion_reason": "Already exists — reserves the general/feature-led 'best nail lamp' keyword. This cluster's lamp spoke targets the distinct 'cheap/budget UV nail lamp' searcher confirmed via independent dedicated content."
+    },
+    {
+      "url": "https://mirelleinspo.com/shop/gel-polish/best-melodysusie-gel-polish",
+      "title": "Best Gel Polish (existing post)",
+      "inferred_primary_keyword": "best gel polish",
+      "inferred_intent": "transactional_shopping",
+      "exclusion_reason": "Already exists — reserves the general/feature-led gel polish keyword. This cluster's pillar targets the distinct, separately-confirmed 'cheap gel nail polish' price-conscious searcher (own dedicated Amazon search page, 20K+ bought/month)."
+    },
+    {
+      "url": "https://mirelleinspo.com/shop/nail-care-tools/melodysusie-nail-clippers",
+      "title": "Nail Clippers (existing post)",
+      "inferred_primary_keyword": "nail clippers",
+      "inferred_intent": "transactional_shopping",
+      "exclusion_reason": "Already exists — reserves the clipper keyword. Also why a budget clipper/manicure-set spoke was killed for this cluster rather than added (see killed_posts_log)."
+    },
+    {
+      "url": "https://mirelleinspo.com/shop/gel-nail-kits/best-value-gel-nail-polish-sets",
+      "title": "Best Value Gel Nail Polish Sets with Lots of Colors (cluster 1 spoke, already planned)",
+      "inferred_primary_keyword": "gel nail polish set value/color-count bundle",
+      "inferred_intent": "transactional_shopping",
+      "exclusion_reason": "From this project's own Cluster 1 (gel-nail-kits) — targets quantity/value-for-money buyers (more colors per dollar). This cluster's pillar targets price-first buyers ('cheap') searching for the lowest entry cost regardless of color count, which is a distinct primary keyword and angle, but the two are closely adjacent. Cross-link only — do not duplicate content angle."
+    }
+  ],
+
+  "posts": [
+    {
+      "post_id": 1,
+      "role": "pillar",
+      "title": "Best Cheap Gel Nail Polish",
+      "slug": "best-cheap-gel-nail-polish",
+      "url": "https://mirelleinspo.com/shop/budget/best-cheap-gel-nail-polish",
+      "primary_keyword": "cheap gel nail polish",
+      "intent": "transactional_shopping",
+      "search_demand_signals": [
+        "Amazon: 'cheap gel nail polish' has its own dedicated search/category page with 20,000+ units bought in past month on the lead listing, plus a distinct related-search cluster (gel nail polish kit with uv light, gel polish, cheap nail polish, gel top coat) confirming this is a real, separately-searched price-conscious query",
+        "'Cheap gel nail polish set' also independently confirmed with multiple listings in the 1,000-10,000+ bought/month range"
+      ],
+      "why_included": "Single strongest validated keyword across the entire cluster — bigger than the budget-drill or budget-lamp signals. MelodySusie's gel polish and gel kit lines (including value bundles) give genuine, honest product fit at this price point.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "best-budget-nail-drills", "anchor_text": "best budget nail drills", "type": "spoke" },
+          { "slug": "best-cheap-uv-nail-lamps", "anchor_text": "best cheap UV nail lamps", "type": "spoke" },
+          { "slug": "best-affordable-gel-nail-kits", "anchor_text": "best affordable gel nail kits", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "best-budget-nail-drills", "anchor_text": "cheap gel nail polish" },
+          { "slug": "best-cheap-uv-nail-lamps", "anchor_text": "cheap gel nail polish" },
+          { "slug": "best-affordable-gel-nail-kits", "anchor_text": "cheap gel nail polish" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 2,
+      "role": "spoke",
+      "title": "Best Budget Nail Drills",
+      "slug": "best-budget-nail-drills",
+      "url": "https://mirelleinspo.com/shop/budget/best-budget-nail-drills",
+      "primary_keyword": "budget nail drill / cheap nail drill",
+      "intent": "transactional_shopping",
+      "search_demand_signals": [
+        "Multiple independent blog roundups exist specifically under the 'best budget nail drill' framing (not generic 'best nail drill'), confirming a real, recurring distinct content niche",
+        "MelodySusie's Pen-Shaped Portable USB Nail Drill is already an independently-featured top pick in at least two unrelated third-party budget-drill roundups, confirming genuine market positioning in this exact niche, not just theoretical product fit",
+        "Industry data: 70% of top-selling nail drills on Amazon retail under $30, confirming this is a price tier with real sustained transaction volume even if not always isolated as its own keyword"
+      ],
+      "why_included": "Real, independently-confirmed content niche distinct from the existing general 'best nail drill' post. MelodySusie already organically ranks as a recommended pick in this exact framing on third-party sites — strong honest product fit.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "best-cheap-gel-nail-polish", "anchor_text": "cheap gel nail polish", "type": "pillar" },
+          { "slug": "best-cheap-uv-nail-lamps", "anchor_text": "cheap UV nail lamps", "type": "spoke" },
+          { "slug": "best-affordable-gel-nail-kits", "anchor_text": "affordable gel nail kits", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "best-cheap-gel-nail-polish", "anchor_text": "best budget nail drills" },
+          { "slug": "best-cheap-uv-nail-lamps", "anchor_text": "budget nail drills" },
+          { "slug": "best-affordable-gel-nail-kits", "anchor_text": "budget nail drills" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 3,
+      "role": "spoke",
+      "title": "Best Cheap UV Nail Lamps",
+      "slug": "best-cheap-uv-nail-lamps",
+      "url": "https://mirelleinspo.com/shop/budget/best-cheap-uv-nail-lamps",
+      "primary_keyword": "cheap UV nail lamp / budget nail lamp",
+      "intent": "transactional_shopping",
+      "search_demand_signals": [
+        "Dedicated independent article found specifically under 'Best Cheap UV Nail Lamp' framing, distinguishing budget compact/flash-cure lamps from full-size salon lamps as a real, separate buyer decision",
+        "Confirms genuine sub-segment within the broader nail lamp market, not merely a price filter on the same generic searcher"
+      ],
+      "why_included": "Distinct, independently-evidenced content niche from the existing general 'best nail lamp' post. MelodySusie sells multiple lamp tiers (compact handheld units alongside full salon lamps), giving real product range to recommend honestly across this price-conscious angle.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "best-cheap-gel-nail-polish", "anchor_text": "cheap gel nail polish", "type": "pillar" },
+          { "slug": "best-budget-nail-drills", "anchor_text": "budget nail drills", "type": "spoke" },
+          { "slug": "best-affordable-gel-nail-kits", "anchor_text": "affordable gel nail kits", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "best-cheap-gel-nail-polish", "anchor_text": "best cheap UV nail lamps" },
+          { "slug": "best-budget-nail-drills", "anchor_text": "cheap UV nail lamps" },
+          { "slug": "best-affordable-gel-nail-kits", "anchor_text": "cheap UV nail lamps" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 4,
+      "role": "spoke",
+      "title": "Best Affordable Gel Nail Kits",
+      "slug": "best-affordable-gel-nail-kits",
+      "url": "https://mirelleinspo.com/shop/budget/best-affordable-gel-nail-kits",
+      "primary_keyword": "affordable gel manicure kit / budget gel nail kit",
+      "intent": "transactional_shopping",
+      "search_demand_signals": [
+        "Independent blog content found specifically framing the at-home gel manicure kit purchase as a cost-comparison against repeated salon visits (e.g. '$90 salon visit' vs. kit cost), confirming this is a genuinely distinct buyer motivation from both the general gel-kit pillar in Cluster 1 (gel-nail-kits) and the pure price-point pillar in this cluster",
+        "'Cheap gel nail polish set' Amazon search confirmed multiple kit-format listings (with lamp included) in the 1,000-10,000+ bought/month range, distinct from loose-polish-only listings"
+      ],
+      "why_included": "Bridges this cluster's price-first framing with the complete-kit format, distinct from both Cluster 1's color-count/value framing and this cluster's loose-polish pillar. Real, separately-confirmed buyer intent: 'kit that replaces salon visits affordably' rather than 'cheapest polish' or 'most colors for the money.'",
+      "internal_links": {
+        "links_to": [
+          { "slug": "best-cheap-gel-nail-polish", "anchor_text": "cheap gel nail polish", "type": "pillar" },
+          { "slug": "best-budget-nail-drills", "anchor_text": "budget nail drills", "type": "spoke" },
+          { "slug": "best-cheap-uv-nail-lamps", "anchor_text": "cheap UV nail lamps", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "best-cheap-gel-nail-polish", "anchor_text": "best affordable gel nail kits" },
+          { "slug": "best-budget-nail-drills", "anchor_text": "affordable gel nail kits" },
+          { "slug": "best-cheap-uv-nail-lamps", "anchor_text": "affordable gel nail kits" }
+        ]
+      },
+      "status": "approved"
+    }
+  ],
+
+  "keyword_ownership_registry": {
+    "description": "Master list of all primary keywords for this cluster — one per post, cross-checked against existing site posts and against other clusters planned in this same project.",
+    "entries": [
+      { "primary_keyword": "cheap gel nail polish", "owned_by_slug": "best-cheap-gel-nail-polish", "owned_by_title": "Best Cheap Gel Nail Polish", "source": "new post" },
+      { "primary_keyword": "budget nail drill / cheap nail drill", "owned_by_slug": "best-budget-nail-drills", "owned_by_title": "Best Budget Nail Drills", "source": "new post" },
+      { "primary_keyword": "cheap UV nail lamp / budget nail lamp", "owned_by_slug": "best-cheap-uv-nail-lamps", "owned_by_title": "Best Cheap UV Nail Lamps", "source": "new post" },
+      { "primary_keyword": "affordable gel manicure kit / budget gel nail kit", "owned_by_slug": "best-affordable-gel-nail-kits", "owned_by_title": "Best Affordable Gel Nail Kits", "source": "new post" },
+      { "primary_keyword": "best nail drill", "owned_by_slug": "best-melodysusie-nail-drills", "owned_by_title": "Best Nail Drills", "source": "existing mirelleinspo.com post" },
+      { "primary_keyword": "cordless nail drill", "owned_by_slug": "best-melodysusie-cordless-nail-drill", "owned_by_title": "Best Cordless Nail Drill", "source": "existing mirelleinspo.com post" },
+      { "primary_keyword": "best nail lamp", "owned_by_slug": "best-melodysusie-nail-lamps", "owned_by_title": "Best Nail Lamps", "source": "existing mirelleinspo.com post" },
+      { "primary_keyword": "best gel polish", "owned_by_slug": "best-melodysusie-gel-polish", "owned_by_title": "Best Gel Polish", "source": "existing mirelleinspo.com post" },
+      { "primary_keyword": "nail clippers", "owned_by_slug": "melodysusie-nail-clippers", "owned_by_title": "Nail Clippers", "source": "existing mirelleinspo.com post" },
+      { "primary_keyword": "gel nail polish set value/color-count bundle", "owned_by_slug": "best-value-gel-nail-polish-sets", "owned_by_title": "Best Value Gel Nail Polish Sets with Lots of Colors", "source": "this project, Cluster 1 (gel-nail-kits) — adjacent angle, cross-link only" }
+    ]
+  },
+
+  "merged_posts_log": [],
+
+  "killed_posts_log": [
+    {
+      "topic": "Budget/cheap manicure clipper sets or general nail care tool kits",
+      "reason": "Real search and content volume exists ('best manicure set for women', 'nail care kit under $100'), but every independent roundup found is dominated by dedicated steel-tool brands (ZIZZON, Revlon, Topinox, Germanikure, Erbe Solingen) rather than nail-art/gel-tool brands like MelodySusie. Honest product fit is weak — MelodySusie's clipper line is built for acrylic nail art, not general steel manicure tools — and 'nail clippers' is already a reserved keyword on an existing site post. Killed rather than forced."
+    },
+    {
+      "topic": "Generic 'budget nail tools' (all categories) as a single broad pillar",
+      "reason": "Initial research pass treated 'budget' as one monolithic keyword and found it largely overlapped existing best-of posts by price filter alone (e.g. Amazon's 'Under $25' nail drill page showing mostly the same products as the generic bestseller page). Re-researched category-by-category instead, which surfaced three genuinely distinct, independently-evidenced angles (drills, lamps, gel polish/kits) now used as the cluster's actual pillar and spokes. This entry is logged to show the correction, not to discard the topic — the corrected, narrower angles above replace it."
+    }
+  ]
+}
