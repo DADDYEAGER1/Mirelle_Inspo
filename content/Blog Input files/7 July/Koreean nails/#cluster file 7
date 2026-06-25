@@ -1,0 +1,296 @@
+{
+  "cluster_metadata": {
+    "cluster_topic": "Korean Nails",
+    "topic_slug": "korean-nails",
+    "target_audience": "Global, Tier 1 countries",
+    "total_posts": 7,
+    "intent_breakdown": {
+      "informational": 1,
+      "inspirational": 4,
+      "tutorial": 1,
+      "comparison": 0,
+      "seasonal_trend": 1
+    },
+    "pillar_post_slug": "korean-nail-art",
+    "created_date": "2026-06-26"
+  },
+
+  "existing_site_posts_excluded": [
+    {
+      "url": "https://mirelleinspo.com/blog/jelly-nails/korean-jelly-nails",
+      "title": "Korean Jelly Nails",
+      "inferred_primary_keyword": "korean jelly nails",
+      "inferred_intent": "inspirational",
+      "exclusion_reason": "Already exists on mirelleinspo.com — keyword reserved"
+    }
+  ],
+
+  "posts": [
+    {
+      "post_id": 1,
+      "role": "pillar",
+      "title": "Korean Nail Art: Every Style, Finish & Technique Worth Knowing",
+      "slug": "korean-nail-art",
+      "primary_keyword": "korean nail art",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "TikTok: #koreannailart millions of views; #koreannails consistently viral",
+        "Pinterest: 900+ pin boards on Korean nails; top board with 3,540 pins; 'korean nail art design' active search term",
+        "Google Trends: sustained global interest; 'korean nail art' confirmed in accio.com market report as top TikTok/Pinterest search",
+        "Editorial: Yahoo Beauty '10 Korean Nail Trends Everyone's Obsessed With', Who What Wear international nail trends feature"
+      ],
+      "why_included": "Broadest keyword in the cluster — umbrella for every sub-style, finish, and technique. No existing Mirellé post. Natural pillar.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "korean-glass-nails", "anchor_text": "korean glass nails", "type": "spoke" },
+          { "slug": "soap-nails", "anchor_text": "soap nails", "type": "spoke" },
+          { "slug": "korean-nail-trends-2026", "anchor_text": "korean nail trends 2026", "type": "spoke" },
+          { "slug": "how-to-do-korean-nails", "anchor_text": "how to do korean nails at home", "type": "spoke" },
+          { "slug": "korean-nails-short-nails", "anchor_text": "korean nails for short nails", "type": "spoke" },
+          { "slug": "igari-nails", "anchor_text": "igari nails", "type": "spoke" }
+        ],
+        "gallery_link": {
+          "url": "https://mirelleinspo.com/inspo/korean-nail-art-inspiration-gallery",
+          "anchor_text": "korean nail art inspiration gallery"
+        },
+        "receives_links_from": [
+          { "slug": "korean-glass-nails", "anchor_text": "korean nail art" },
+          { "slug": "soap-nails", "anchor_text": "korean nail art" },
+          { "slug": "korean-nail-trends-2026", "anchor_text": "korean nail art" },
+          { "slug": "how-to-do-korean-nails", "anchor_text": "korean nail art" },
+          { "slug": "korean-nails-short-nails", "anchor_text": "korean nail art" },
+          { "slug": "igari-nails", "anchor_text": "korean nail art" }
+        ]
+      },
+      "status": "approved"
+    },
+
+    {
+      "post_id": 2,
+      "role": "spoke",
+      "title": "Korean Glass Nails: The Mirror-Finish Manicure Guide",
+      "slug": "korean-glass-nails",
+      "primary_keyword": "korean glass nails",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Pinterest: dedicated 'korean glass nails' board active",
+        "TikTok: #glassnails #koreanglassnails viral; 'My go at the Korean Glass Nails trend' content performing strongly",
+        "manucurist.com and Diamond Nail Supplies dedicated editorial coverage",
+        "Google autocomplete: 'korean glass nails', 'glass nails korean'"
+      ],
+      "why_included": "Glass nails are the single most-searched Korean nail sub-style globally — ultra-reflective mirror finish is visually distinct from all other finishes and has its own heavy TikTok viral identity.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "korean-nail-art", "anchor_text": "korean nail art", "type": "pillar" },
+          { "slug": "korean-nail-trends-2026", "anchor_text": "korean nail trends 2026", "type": "spoke" },
+          { "slug": "how-to-do-korean-nails", "anchor_text": "how to do korean nails at home", "type": "spoke" },
+          { "slug": "igari-nails", "anchor_text": "igari nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "korean-nail-art", "anchor_text": "korean glass nails" },
+          { "slug": "korean-nail-trends-2026", "anchor_text": "korean glass nails" },
+          { "slug": "how-to-do-korean-nails", "anchor_text": "korean glass nails" }
+        ]
+      },
+      "status": "approved"
+    },
+
+    {
+      "post_id": 3,
+      "role": "spoke",
+      "title": "Soap Nails: Korea's Clean-Girl Manicure Explained",
+      "slug": "soap-nails",
+      "primary_keyword": "soap nails",
+      "intent": "informational",
+      "search_demand_signals": [
+        "nailtrail.com 2026 trends: soap nails dedicated section with description and context",
+        "Yahoo Beauty '10 Korean Nail Trends Everyone's Obsessed With' includes soap nails as named trend",
+        "Pinterest: 'soap nails' boards active; 'soap nails korean' search term present",
+        "Google autocomplete: 'soap nails', 'soap nails korean', 'what are soap nails'"
+      ],
+      "why_included": "Soap nails are a distinct Korean finish (milky, wet-look, sheer nude) with strong informational search intent — users want to understand what they are, not just see inspo. Clean beauty crossover audience. Clearly differentiated from glass and jelly.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "korean-nail-art", "anchor_text": "korean nail art", "type": "pillar" },
+          { "slug": "korean-glass-nails", "anchor_text": "korean glass nails", "type": "spoke" },
+          { "slug": "korean-nails-short-nails", "anchor_text": "korean nails for short nails", "type": "spoke" },
+          { "slug": "korean-nail-trends-2026", "anchor_text": "korean nail trends 2026", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "korean-nail-art", "anchor_text": "soap nails" },
+          { "slug": "korean-nail-trends-2026", "anchor_text": "soap nails" },
+          { "slug": "korean-nails-short-nails", "anchor_text": "soap nails" }
+        ]
+      },
+      "status": "approved"
+    },
+
+    {
+      "post_id": 4,
+      "role": "spoke",
+      "title": "Korean Nail Trends 2026: What's In Right Now",
+      "slug": "korean-nail-trends-2026",
+      "primary_keyword": "korean nail trends 2026",
+      "intent": "seasonal_trend",
+      "search_demand_signals": [
+        "Pinterest: 'korean nail trends 2026' board active with saves",
+        "TikTok: #koreannailtrends2026 tagged content performing",
+        "autumlove.com and nailtrail.com 2026 dedicated articles confirmed",
+        "Google autocomplete: 'korean nail trends 2026', 'korean nails 2026'"
+      ],
+      "why_included": "High-volume annual query that captures users wanting a curated overview rather than a single style. Refreshable year-on-year. Drives traffic to all spoke posts by covering the full trend landscape and linking out to each style.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "korean-nail-art", "anchor_text": "korean nail art", "type": "pillar" },
+          { "slug": "korean-glass-nails", "anchor_text": "korean glass nails", "type": "spoke" },
+          { "slug": "soap-nails", "anchor_text": "soap nails", "type": "spoke" },
+          { "slug": "igari-nails", "anchor_text": "igari nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "korean-nail-art", "anchor_text": "korean nail trends 2026" },
+          { "slug": "korean-glass-nails", "anchor_text": "korean nail trends 2026" },
+          { "slug": "soap-nails", "anchor_text": "korean nail trends 2026" },
+          { "slug": "igari-nails", "anchor_text": "korean nail trends 2026" }
+        ]
+      },
+      "status": "approved"
+    },
+
+    {
+      "post_id": 5,
+      "role": "spoke",
+      "title": "How to Do Korean Nails at Home",
+      "slug": "how-to-do-korean-nails",
+      "primary_keyword": "how to do korean nails",
+      "intent": "tutorial",
+      "search_demand_signals": [
+        "Pinterest: 'how to do korean nails' tutorial boards active; 'how to do korean jelly nails' listed as top related interest by accio.com",
+        "TikTok: S&L Beauty kit tutorial viral; #koreannailstutorial active; DIY Korean nail content consistently high-performing",
+        "accio.com Korean nail art market report: confirms 'How To Do Korean Nails' as top Pinterest related interest",
+        "Google autocomplete: 'how to do korean nails at home', 'how to do korean nails step by step'"
+      ],
+      "why_included": "DIY intent is entirely separate from inspo browsing — users want step-by-step instructions, not galleries. Strong multi-platform signal. TikTok specifically drives at-home Korean nail kit demand.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "korean-nail-art", "anchor_text": "korean nail art", "type": "pillar" },
+          { "slug": "korean-glass-nails", "anchor_text": "korean glass nails", "type": "spoke" },
+          { "slug": "korean-nails-short-nails", "anchor_text": "korean nails for short nails", "type": "spoke" },
+          { "slug": "soap-nails", "anchor_text": "soap nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "korean-nail-art", "anchor_text": "how to do korean nails at home" },
+          { "slug": "korean-glass-nails", "anchor_text": "how to do korean nails at home" },
+          { "slug": "korean-nails-short-nails", "anchor_text": "how to do korean nails at home" }
+        ]
+      },
+      "status": "approved"
+    },
+
+    {
+      "post_id": 6,
+      "role": "spoke",
+      "title": "Korean Nails for Short Nails: Every Style That Actually Works",
+      "slug": "korean-nails-short-nails",
+      "primary_keyword": "korean nails short nails",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Pinterest: 'korean jelly nails short' dedicated board active; 'korean simple nails', 'short nails korean' search terms present",
+        "TikTok: #shortnailskoreannails content active; short nail Korean style content performing",
+        "accio.com notes short nail Korean content as distinct demand segment",
+        "Google autocomplete: 'korean nails short', 'korean nail art short nails'"
+      ],
+      "why_included": "Short nail readers are a large underserved audience who self-exclude from general inspo. Korean finishes (glass, soap, jelly, igari) suit short nails particularly well — genuine content gap with dedicated Pinterest board evidence.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "korean-nail-art", "anchor_text": "korean nail art", "type": "pillar" },
+          { "slug": "soap-nails", "anchor_text": "soap nails", "type": "spoke" },
+          { "slug": "igari-nails", "anchor_text": "igari nails", "type": "spoke" },
+          { "slug": "how-to-do-korean-nails", "anchor_text": "how to do korean nails at home", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "korean-nail-art", "anchor_text": "korean nails for short nails" },
+          { "slug": "soap-nails", "anchor_text": "korean nails for short nails" },
+          { "slug": "how-to-do-korean-nails", "anchor_text": "korean nails for short nails" }
+        ]
+      },
+      "status": "approved"
+    },
+
+    {
+      "post_id": 7,
+      "role": "spoke",
+      "title": "Igari Nails: The Korean Blush Nail Trend Explained",
+      "slug": "igari-nails",
+      "primary_keyword": "igari nails",
+      "intent": "informational",
+      "search_demand_signals": [
+        "Pinterest: 'igari nail' search term active; appears in Japan gel nail art boards and Korean nail boards",
+        "TikTok: igari nail technique videos performing; crosses over with 'blush nails' and 'Korean eyeshadow nails' searches",
+        "accio.com: 'Korean Eyeshadow Nails' listed as top emerging Pinterest related interest for Korean nails",
+        "Google autocomplete: 'igari nails', 'igari nail trend', 'what are igari nails'"
+      ],
+      "why_included": "Igari (the blush-dusted, flushed nail technique from Korea) is a named, distinct technique with its own search identity — not just a colour. Informational intent: users want to understand what it is and how it's done. Strong crossover with the blush/eyeshadow nails search ecosystem.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "korean-nail-art", "anchor_text": "korean nail art", "type": "pillar" },
+          { "slug": "korean-nail-trends-2026", "anchor_text": "korean nail trends 2026", "type": "spoke" },
+          { "slug": "korean-nails-short-nails", "anchor_text": "korean nails for short nails", "type": "spoke" },
+          { "slug": "korean-glass-nails", "anchor_text": "korean glass nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "korean-nail-art", "anchor_text": "igari nails" },
+          { "slug": "korean-nail-trends-2026", "anchor_text": "igari nails" },
+          { "slug": "korean-glass-nails", "anchor_text": "igari nails" },
+          { "slug": "korean-nails-short-nails", "anchor_text": "igari nails" }
+        ]
+      },
+      "status": "approved"
+    }
+  ],
+
+  "keyword_ownership_registry": {
+    "description": "Master list of all primary keywords — one per post, no overlaps, includes existing site posts",
+    "entries": [
+      { "primary_keyword": "korean nail art", "owned_by_slug": "korean-nail-art", "owned_by_title": "Korean Nail Art: Every Style, Finish & Technique Worth Knowing", "source": "new post" },
+      { "primary_keyword": "korean glass nails", "owned_by_slug": "korean-glass-nails", "owned_by_title": "Korean Glass Nails: The Mirror-Finish Manicure Guide", "source": "new post" },
+      { "primary_keyword": "soap nails", "owned_by_slug": "soap-nails", "owned_by_title": "Soap Nails: Korea's Clean-Girl Manicure Explained", "source": "new post" },
+      { "primary_keyword": "korean nail trends 2026", "owned_by_slug": "korean-nail-trends-2026", "owned_by_title": "Korean Nail Trends 2026: What's In Right Now", "source": "new post" },
+      { "primary_keyword": "how to do korean nails", "owned_by_slug": "how-to-do-korean-nails", "owned_by_title": "How to Do Korean Nails at Home", "source": "new post" },
+      { "primary_keyword": "korean nails short nails", "owned_by_slug": "korean-nails-short-nails", "owned_by_title": "Korean Nails for Short Nails: Every Style That Actually Works", "source": "new post" },
+      { "primary_keyword": "igari nails", "owned_by_slug": "igari-nails", "owned_by_title": "Igari Nails: The Korean Blush Nail Trend Explained", "source": "new post" },
+      { "primary_keyword": "korean jelly nails", "owned_by_slug": "mirelleinspo.com/blog/jelly-nails/korean-jelly-nails", "owned_by_title": "Korean Jelly Nails", "source": "existing site post" }
+    ]
+  },
+
+  "merged_posts_log": [
+    {
+      "original_topics": ["korean glass nails", "mirror nails korean"],
+      "merged_into": "Korean Glass Nails: The Mirror-Finish Manicure Guide",
+      "reason": "Same finish, same user. 'Korean glass nails' is the more ownable compound keyword with dedicated search identity."
+    },
+    {
+      "original_topics": ["blush nails korean", "korean ombre nails"],
+      "merged_into": "How to Do Korean Nails at Home (as technique sections) + Igari Nails (as its own post)",
+      "reason": "Blush nails as a standalone had insufficient independent demand. Igari — the named Korean blush technique — has its own search identity and is treated as a separate informational post. Korean ombre absorbed into the tutorial post as a technique."
+    }
+  ],
+
+  "killed_posts_log": [
+    {
+      "topic": "korean jelly nails",
+      "reason": "Existing post at mirelleinspo.com/blog/jelly-nails/korean-jelly-nails — keyword reserved, cannot target"
+    },
+    {
+      "topic": "korean barcode nails",
+      "reason": "Single TikTok trend signal only. No measurable Google or Pinterest search demand at cluster-post level."
+    },
+    {
+      "topic": "k-pop nails / idol nails",
+      "reason": "Fan-driven niche with Pinterest signal only. No measurable Google search volume. Too narrow for a full post."
+    },
+    {
+      "topic": "korean vs japanese nails comparison",
+      "reason": "No comparison-intent search demand found on 2+ sources. Both clusters serve different aesthetic audiences with no significant crossover search behaviour."
+    }
+  ]
+}
