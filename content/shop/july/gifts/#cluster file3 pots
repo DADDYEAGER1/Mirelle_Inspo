@@ -1,0 +1,177 @@
+{
+  "cluster_metadata": {
+    "cluster_topic": "Nail Gift Sets",
+    "topic_slug": "gifts",
+    "site_url_pattern": "https://mirelleinspo.com/shop/{topic_slug}/{post_slug}",
+    "category_folder": "gifts",
+    "target_audience": "Global, Tier 1 countries (US, UK, Canada, Australia)",
+    "content_type": "transactional shopping only — no tutorials, no buying guides, no vs-comparisons",
+    "brand_policy": "MelodySusie is the only affiliate brand recommended. Brand name NEVER appears in post title, slug, URL, or H1/H2 headers. Brand appears only within body content where specific products are recommended.",
+    "total_posts": 3,
+    "intent_breakdown": {
+      "informational": 0,
+      "inspirational": 0,
+      "tutorial": 0,
+      "comparison": 0,
+      "seasonal_trend": 0,
+      "transactional_shopping": 3
+    },
+    "pillar_post_slug": "best-nail-gift-sets",
+    "created_date": "2026-06-26"
+  },
+
+  "research_notes": {
+    "volume_methodology": "Amazon search-bar behavior (ABA/Brand Analytics signals and 'bought in past month' counts) was prioritized over generic blog/Pinterest phrase frequency, per explicit instruction to prioritize trafficable, conversion-relevant keywords.",
+    "key_finding": "'gifts for nail lovers' and 'gifts for nail techs' — the phrasing used in most existing blog content on this topic, including MelodySusie's own holiday gift guide — returned NO confirmed Amazon search-volume number across three separate research passes. This strongly suggests these are Google/Pinterest content-discovery phrases, not how shoppers actually search on Amazon. 'nail gift set' returned a hard, confirmed number (20,000+ bought in past month, dedicated Amazon category) and should be treated as the real traffic-driving keyword. The softer 'gifts for X' phrasing is retained only as supporting on-page language, not as any post's primary keyword.",
+    "scope_decision": "This cluster is intentionally smaller (1 pillar + 2 spokes) than Cluster 1 (gel-nail-kits, 4 posts). A 3rd or 4th spoke was considered (men's grooming gift sets) but volume for that angle, while real, comes with materially weaker MelodySusie product fit — flagged below rather than forced into the cluster at full confidence."
+  },
+
+  "existing_site_posts_excluded": [
+    {
+      "url": "https://mirelleinspo.com/shop/winter/melodysusie-christmas-nail-gift-sets",
+      "title": "Christmas Nail Gift Sets (existing post)",
+      "inferred_primary_keyword": "christmas nail gift set",
+      "inferred_intent": "transactional_shopping",
+      "exclusion_reason": "Already exists — holiday-specific gift framing for Christmas is reserved. This new cluster targets the evergreen, non-holiday-specific 'nail gift set' keyword instead."
+    },
+    {
+      "url": "https://mirelleinspo.com/shop/valentines-day/melodysusie-valentines-nail-gift-set",
+      "title": "Valentine's Nail Gift Set (existing post)",
+      "inferred_primary_keyword": "valentines nail gift set",
+      "inferred_intent": "transactional_shopping",
+      "exclusion_reason": "Already exists — holiday-specific gift framing for Valentine's Day is reserved."
+    },
+    {
+      "url": "https://mirelleinspo.com/shop/mothers-day/best-melodysusie-mothers-day-nail-gifts",
+      "title": "Mother's Day Nail Gifts (existing post)",
+      "inferred_primary_keyword": "mothers day nail gifts",
+      "inferred_intent": "transactional_shopping",
+      "exclusion_reason": "Already exists — holiday-specific gift framing for Mother's Day is reserved."
+    },
+    {
+      "url": "https://mirelleinspo.com/shop/nail-kits/melodysusie-nail-gift-sets",
+      "title": "Nail Gift Sets (existing post, in nail-kits folder)",
+      "inferred_primary_keyword": "nail gift sets",
+      "inferred_intent": "transactional_shopping",
+      "exclusion_reason": "CRITICAL OVERLAP RISK — this existing post's inferred keyword ('nail gift sets') is nearly identical to this new cluster's proposed pillar keyword ('nail gift set'). Flagging for manual review before publishing: confirm with site owner whether this existing post should be merged with, redirected to, or clearly differentiated from the new pillar before the new pillar goes live. Do NOT publish the new pillar without resolving this conflict."
+    },
+    {
+      "url": "https://mirelleinspo.com/shop/nail-care-tools/melodysusie-nail-clippers",
+      "title": "Nail Clippers (existing post)",
+      "inferred_primary_keyword": "nail clippers",
+      "inferred_intent": "transactional_shopping",
+      "exclusion_reason": "Already exists — reserves the general nail clipper keyword. The 'gift sets for men' spoke researched in this cluster must NOT use 'nail clippers' as its primary keyword as a result."
+    }
+  ],
+
+  "posts": [
+    {
+      "post_id": 1,
+      "role": "pillar",
+      "title": "Best Nail Gift Sets",
+      "slug": "best-nail-gift-sets",
+      "url": "https://mirelleinspo.com/shop/gifts/best-nail-gift-sets",
+      "primary_keyword": "nail gift set",
+      "intent": "transactional_shopping",
+      "search_demand_signals": [
+        "Amazon: dedicated 'nail gift set' search/category page with 20,000+ units 'bought in past month' on the top listing alone, plus related-search variants (nail polish gift set, nail kit, nail care gift set, spa gift set) confirming sustained category-level demand",
+        "Multiple competing brands (modelones, OPI, ZIZZON, Morovan) actively merchandise specifically under this exact term, confirming it is a real, targetable shopping query, not just a content phrase"
+      ],
+      "why_included": "Single highest-confidence, hard-numbered keyword found across all gift-related research for this cluster. NOTE: see existing_site_posts_excluded — this keyword closely overlaps an existing site post ('melodysusie-nail-gift-sets' in /nail-kits/). MUST resolve before publishing; do not treat this entry as cleared for launch without that check.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "best-self-care-nail-gift-sets", "anchor_text": "best self-care nail gift sets", "type": "spoke" },
+          { "slug": "best-nail-gift-sets-for-men", "anchor_text": "best nail gift sets for men", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "best-self-care-nail-gift-sets", "anchor_text": "nail gift set" },
+          { "slug": "best-nail-gift-sets-for-men", "anchor_text": "nail gift set" }
+        ]
+      },
+      "status": "needs_review_before_approval"
+    },
+    {
+      "post_id": 2,
+      "role": "spoke",
+      "title": "Best Self-Care Nail Gift Sets",
+      "slug": "best-self-care-nail-gift-sets",
+      "url": "https://mirelleinspo.com/shop/gifts/best-self-care-nail-gift-sets",
+      "primary_keyword": "self care gift set nails / spa gift set",
+      "intent": "transactional_shopping",
+      "search_demand_signals": [
+        "'Spa gift set' surfaced as a directly related search term within the 'nail gift set' Amazon category itself, indicating shoppers cross-shop this framing",
+        "'Mens self care gift set' confirmed real but modest volume (100-800 bought/month range across listings) on Amazon — smaller than the pillar but a genuinely distinct buyer framing (relaxation/wellness motivation vs. pure nail-art gifting)"
+      ],
+      "why_included": "Distinct buyer motivation from the pillar: this shopper is framing the purchase as wellness/relaxation, not nail art or technical tools. MelodySusie has strong genuine product fit here (UV lamp + gel polish + tools gift boxes already exist in their catalog, including the Sweet-Scent Plant-Based line marketed exactly this way).",
+      "internal_links": {
+        "links_to": [
+          { "slug": "best-nail-gift-sets", "anchor_text": "nail gift set", "type": "pillar" },
+          { "slug": "best-nail-gift-sets-for-men", "anchor_text": "nail gift sets for men", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "best-nail-gift-sets", "anchor_text": "best self-care nail gift sets" },
+          { "slug": "best-nail-gift-sets-for-men", "anchor_text": "self-care nail gift sets" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 3,
+      "role": "spoke",
+      "title": "Best Nail Gift Sets for Men",
+      "slug": "best-nail-gift-sets-for-men",
+      "url": "https://mirelleinspo.com/shop/gifts/best-nail-gift-sets-for-men",
+      "primary_keyword": "nail care set for men / men's grooming gift set",
+      "intent": "transactional_shopping",
+      "search_demand_signals": [
+        "Amazon: 'nail care set for men' and 'men manicure set' both show strong confirmed volume, multiple listings at 10,000-20,000+ bought in past month",
+        "CAUTION — this is the strongest raw volume number in the entire cluster, but flagged below for weaker product fit than the numbers alone suggest"
+      ],
+      "why_included": "Highest raw search volume of any keyword researched in this cluster — stronger than the pillar itself in places. Included as a spoke despite weaker product fit (see product_fit_warning) because the volume is too large to dismiss outright; framed narrowly around MelodySusie's genuine general-use clipper/file set rather than overpromising a full men's grooming line.",
+      "product_fit_warning": "HONEST FLAG: the men's nail-care-set market on Amazon is dominated by general grooming/clipper kits (cuticle nippers, toenail clippers, travel cases). MelodySusie's clipper line is primarily built for acrylic/gel nail art (cutting fake nail tips), not general male grooming, with one general-purpose 3-in-1 stainless clipper+file set as the closest honest fit. This post must be written narrowly around real product fit and not stretched to imply MelodySusie sells a dedicated men's grooming range it does not have. Also must avoid 'nail clippers' as primary keyword since that is reserved by an existing site post.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "best-nail-gift-sets", "anchor_text": "nail gift set", "type": "pillar" },
+          { "slug": "best-self-care-nail-gift-sets", "anchor_text": "self-care nail gift sets", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "best-nail-gift-sets", "anchor_text": "best nail gift sets for men" },
+          { "slug": "best-self-care-nail-gift-sets", "anchor_text": "nail gift sets for men" }
+        ]
+      },
+      "status": "needs_review_before_approval"
+    }
+  ],
+
+  "keyword_ownership_registry": {
+    "description": "Master list of all primary keywords for this cluster — one per post, cross-checked against existing site posts.",
+    "entries": [
+      { "primary_keyword": "nail gift set", "owned_by_slug": "best-nail-gift-sets", "owned_by_title": "Best Nail Gift Sets", "source": "new post — FLAGGED: near-duplicate of existing post keyword, see exclusions" },
+      { "primary_keyword": "self care gift set nails / spa gift set", "owned_by_slug": "best-self-care-nail-gift-sets", "owned_by_title": "Best Self-Care Nail Gift Sets", "source": "new post" },
+      { "primary_keyword": "nail care set for men / men's grooming gift set", "owned_by_slug": "best-nail-gift-sets-for-men", "owned_by_title": "Best Nail Gift Sets for Men", "source": "new post" },
+      { "primary_keyword": "christmas nail gift set", "owned_by_slug": "melodysusie-christmas-nail-gift-sets", "owned_by_title": "Christmas Nail Gift Sets", "source": "existing mirelleinspo.com post" },
+      { "primary_keyword": "valentines nail gift set", "owned_by_slug": "melodysusie-valentines-nail-gift-set", "owned_by_title": "Valentine's Nail Gift Set", "source": "existing mirelleinspo.com post" },
+      { "primary_keyword": "mothers day nail gifts", "owned_by_slug": "best-melodysusie-mothers-day-nail-gifts", "owned_by_title": "Mother's Day Nail Gifts", "source": "existing mirelleinspo.com post" },
+      { "primary_keyword": "nail gift sets (near-duplicate)", "owned_by_slug": "melodysusie-nail-gift-sets", "owned_by_title": "Nail Gift Sets", "source": "existing mirelleinspo.com post — CONFLICT FLAGGED" },
+      { "primary_keyword": "nail clippers", "owned_by_slug": "melodysusie-nail-clippers", "owned_by_title": "Nail Clippers", "source": "existing mirelleinspo.com post" }
+    ]
+  },
+
+  "merged_posts_log": [],
+
+  "killed_posts_log": [
+    {
+      "topic": "'Gifts for nail lovers' / 'gifts for nail techs' as the primary keyword for the pillar",
+      "reason": "No confirmed Amazon search-volume number across three separate research passes, despite being the dominant phrasing in existing competitor and even MelodySusie's own blog content. Judged to be a content/Pinterest discovery phrase rather than an actual high-frequency purchase search. Demoted to supporting on-page language only; 'nail gift set' used as the real primary keyword instead since it has confirmed hard volume."
+    },
+    {
+      "topic": "4th spoke — broader exploration of additional gift sub-angles",
+      "reason": "Researched but no further angle cleared the volume bar with the rigor applied to Cluster 1. Rather than inventing a 4th post without real evidence, this cluster is kept at 3 posts (1 pillar + 2 spokes)."
+    }
+  ],
+
+  "action_required_before_publish": [
+    "Resolve keyword/title overlap between proposed pillar 'best-nail-gift-sets' (primary keyword: nail gift set) and existing post 'melodysusie-nail-gift-sets' in /shop/nail-kits/. Options: (a) significantly differentiate the new pillar's angle from the existing post, (b) redirect/retire the existing post into this new cluster, or (c) drop this pillar and re-center the cluster on a different primary keyword. Do not generate input files or blog content for this pillar until resolved.",
+    "Confirm comfort with the men's nail gift set spoke given the honest product-fit gap noted above before approving it for content generation."
+  ]
+}
