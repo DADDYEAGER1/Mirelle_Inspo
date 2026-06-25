@@ -1,0 +1,354 @@
+{
+  "cluster_metadata": {
+    "cluster_topic": "Work Nails — New Additions",
+    "topic_slug": "work-nails",
+    "target_audience": "Global, Tier 1 countries (US, UK, Canada, Australia)",
+    "total_posts": 3,
+    "note": "These are standalone additions under the existing /work-nails hub. Internal links reference only topically relevant existing posts — not the full 17-post work-nails cluster.",
+    "intent_breakdown": {
+      "informational": 3,
+      "inspirational": 1,
+      "tutorial": 0,
+      "comparison": 0,
+      "seasonal_trend": 0
+    },
+    "pillar_post_slug": "work-nails",
+    "created_date": "2026-06-26"
+  },
+
+  "existing_site_posts_excluded": [
+    {
+      "url": "https://mirelleinspo.com/work-nails",
+      "title": "Work Nails Hub",
+      "inferred_primary_keyword": "work nails",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Existing hub — new posts link TO it but it is not re-created"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/nails-for-different-professions",
+      "title": "Nails for Different Professions",
+      "inferred_primary_keyword": "nails for different professions",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already covers nurse/dental/PT rules at a high level — new nurse post goes deeper on style and product"
+    },
+    {
+      "url": "https://mirelleinspo.com/work-nails/short-nails-for-work",
+      "title": "Short Nails for Work",
+      "inferred_primary_keyword": "short nails for work",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Existing post — used as internal link target from nurses post"
+    },
+    {
+      "url": "https://mirelleinspo.com/work-nails/work-appropriate-nail-colors",
+      "title": "Work-Appropriate Nail Colors",
+      "inferred_primary_keyword": "work appropriate nail colors",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Existing post — used as internal link target from all three new posts"
+    },
+    {
+      "url": "https://mirelleinspo.com/work-nails/neutral-nails-for-work",
+      "title": "Neutral Nails for Work",
+      "inferred_primary_keyword": "neutral nails for work",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Existing post — used as internal link target from nurses and teachers posts"
+    },
+    {
+      "url": "https://mirelleinspo.com/work-nails/gel-nail-polish-for-work",
+      "title": "Best Gel Nail Polish for Work",
+      "inferred_primary_keyword": "gel nail polish for work",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Existing post — used as internal link target from nail strengthener post"
+    },
+    {
+      "url": "https://mirelleinspo.com/work-nails/nail-shapes-for-work",
+      "title": "Nail Shapes for Work",
+      "inferred_primary_keyword": "nail shapes for work",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Existing post — used as internal link target from nurses and teachers posts"
+    },
+    {
+      "url": "https://mirelleinspo.com/work-nails/work-appropriate-nail-art",
+      "title": "Work-Appropriate Nail Art",
+      "inferred_primary_keyword": "work appropriate nail art",
+      "inferred_intent": "inspirational",
+      "exclusion_reason": "Existing post — used as internal link target from teachers post"
+    },
+    {
+      "url": "https://mirelleinspo.com/topics/nail-care-guide",
+      "title": "The Complete Nail Care Guide",
+      "inferred_primary_keyword": "nail care guide",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Existing post — used as internal link target from nail strengthener post"
+    }
+  ],
+
+  "posts": [
+    {
+      "post_id": 1,
+      "role": "spoke",
+      "title": "Nails for Nurses: What You Can Actually Wear on Shift",
+      "slug": "nails-for-nurses",
+      "url": "https://mirelleinspo.com/work-nails/nails-for-nurses",
+      "primary_keyword": "nails for nurses",
+      "intent": "informational",
+      "search_demand_signals": [
+        "TikTok: 2.1M posts on 'nails for a nurse ideas' — one of the most searched profession nail topics on the platform",
+        "TikTok: 13M posts on 'clear nail ideas for nurses', 7.2M on 'hospital approved nails'",
+        "Pinterest: dedicated boards for nurse nails, nurse-approved press-ons, BIAB for nurses with strong saves",
+        "Google: multiple articles ranking on 'nails for nurses' and 'nurse nails ideas'",
+        "Etsy: active nurse nail product market — press-ons, structured gel kits specifically marketed to healthcare workers"
+      ],
+      "why_included": "Massive multi-platform demand. Distinct from the existing /nails-for-different-professions post which covers rules at a high level — this post goes deep on what nurses can actually wear (BIAB, structured gel, press-ons between shifts, colour within policy), with specific product and style guidance. One of the most searched profession-specific nail topics on TikTok globally.",
+      "internal_links": {
+        "links_to": [
+          {
+            "slug": "work-nails",
+            "url": "https://mirelleinspo.com/work-nails",
+            "anchor_text": "work nails",
+            "type": "hub"
+          },
+          {
+            "slug": "nail-strengthener-for-nurses",
+            "url": "https://mirelleinspo.com/work-nails/nail-strengthener-for-nurses",
+            "anchor_text": "nail strengthener for nurses",
+            "type": "new spoke"
+          },
+          {
+            "slug": "short-nails-for-work",
+            "url": "https://mirelleinspo.com/work-nails/short-nails-for-work",
+            "anchor_text": "short nails for work",
+            "type": "existing spoke"
+          },
+          {
+            "slug": "nail-shapes-for-work",
+            "url": "https://mirelleinspo.com/work-nails/nail-shapes-for-work",
+            "anchor_text": "nail shapes for work",
+            "type": "existing spoke"
+          }
+        ],
+        "receives_links_from": [
+          {
+            "slug": "work-nails",
+            "url": "https://mirelleinspo.com/work-nails",
+            "anchor_text": "nails for nurses"
+          },
+          {
+            "slug": "nail-strengthener-for-nurses",
+            "url": "https://mirelleinspo.com/work-nails/nail-strengthener-for-nurses",
+            "anchor_text": "nails for nurses"
+          },
+          {
+            "slug": "nails-for-different-professions",
+            "url": "https://mirelleinspo.com/blog/nails-for-different-professions",
+            "anchor_text": "nails for nurses"
+          }
+        ]
+      },
+      "status": "approved"
+    },
+
+    {
+      "post_id": 2,
+      "role": "spoke",
+      "title": "Nails for Teachers: Practical, Polished, and Classroom-Ready",
+      "slug": "nails-for-teachers",
+      "url": "https://mirelleinspo.com/work-nails/nails-for-teachers",
+      "primary_keyword": "nails for teachers",
+      "intent": "informational",
+      "search_demand_signals": [
+        "TikTok: dedicated discover page for 'teacher nail designs' — active community with strong engagement",
+        "Pinterest: 'cute teacher nails' boards with consistent saves across multiple boards",
+        "Google: articles ranking on 'nails for teachers' and 'teacher nail ideas' — confirmed indexable demand",
+        "Reddit: teacher communities discuss nail practicality (chalk, whiteboard markers, small children grabbing hands)"
+      ],
+      "why_included": "Active multi-platform demand with a genuinely distinct angle from all existing work-nails posts. Teachers have no colour or style restriction but face real practical constraints (durability through a full school day, chalk residue, children). Fun and expressive nail art is fully on the table — completely different reader and different advice from the nurses post or the conservative workplace posts.",
+      "internal_links": {
+        "links_to": [
+          {
+            "slug": "work-nails",
+            "url": "https://mirelleinspo.com/work-nails",
+            "anchor_text": "work nails",
+            "type": "hub"
+          },
+          {
+            "slug": "work-appropriate-nail-art",
+            "url": "https://mirelleinspo.com/work-nails/work-appropriate-nail-art",
+            "anchor_text": "work appropriate nail art",
+            "type": "existing spoke"
+          },
+          {
+            "slug": "work-appropriate-nail-colors",
+            "url": "https://mirelleinspo.com/work-nails/work-appropriate-nail-colors",
+            "anchor_text": "work appropriate nail colors",
+            "type": "existing spoke"
+          },
+          {
+            "slug": "nail-shapes-for-work",
+            "url": "https://mirelleinspo.com/work-nails/nail-shapes-for-work",
+            "anchor_text": "nail shapes for work",
+            "type": "existing spoke"
+          }
+        ],
+        "receives_links_from": [
+          {
+            "slug": "work-nails",
+            "url": "https://mirelleinspo.com/work-nails",
+            "anchor_text": "nails for teachers"
+          },
+          {
+            "slug": "nails-for-different-professions",
+            "url": "https://mirelleinspo.com/blog/nails-for-different-professions",
+            "anchor_text": "nails for teachers"
+          },
+          {
+            "slug": "work-appropriate-nail-art",
+            "url": "https://mirelleinspo.com/work-nails/work-appropriate-nail-art",
+            "anchor_text": "nails for teachers"
+          }
+        ]
+      },
+      "status": "approved"
+    },
+
+    {
+      "post_id": 3,
+      "role": "spoke",
+      "title": "Best Nail Strengthener for Nurses and Healthcare Workers",
+      "slug": "nail-strengthener-for-nurses",
+      "url": "https://mirelleinspo.com/work-nails/nail-strengthener-for-nurses",
+      "primary_keyword": "nail strengthener for nurses",
+      "intent": "informational",
+      "cpc_note": "High-CPC post — OPI, Essie, Zoya, CND, BIAB brands bid on adjacent terms. Estimated CPC $2–5. Product-adjacent secondary keywords: 'best nail polish for healthcare workers', 'BIAB for nurses', 'cuticle oil for nurses', 'nail hardener for hand washing'. Natural affiliate/product recommendation vehicle.",
+      "search_demand_signals": [
+        "TikTok: nurses actively recommending specific polishes and treatments for hand-wash damage — active niche community",
+        "Google: OPI Infinite Shine, Essie Gel Couture, Zoya explicitly recommended and marketed to healthcare workers in ranking articles",
+        "Pinterest: boards for nurse nail care, BIAB for nurses, 'hospital approved nails' with product focus",
+        "Amazon/Etsy: nurse-specific nail product searches active — press-ons, strengtheners, cuticle oils marketed to healthcare workers",
+        "TikTok: 'best nail polish for nurses', 'BIAB nails for nurses', 'cuticle care nurses' — product recommendation content performs strongly"
+      ],
+      "why_included": "The single biggest CPC gap in the work-nails cluster. Every existing work-nails post discusses what to wear — none addresses nail health recovery under professional strain. Nurses destroy their nails through constant hand-washing, sanitiser, and glove use. This post captures product-purchase intent from that reader and connects the nails-for-nurses post to a high-CPC destination. Unique angle not covered by the generic /topics/nail-care-guide.",
+      "internal_links": {
+        "links_to": [
+          {
+            "slug": "work-nails",
+            "url": "https://mirelleinspo.com/work-nails",
+            "anchor_text": "work nails",
+            "type": "hub"
+          },
+          {
+            "slug": "nails-for-nurses",
+            "url": "https://mirelleinspo.com/work-nails/nails-for-nurses",
+            "anchor_text": "nails for nurses",
+            "type": "new spoke"
+          },
+          {
+            "slug": "gel-nail-polish-for-work",
+            "url": "https://mirelleinspo.com/work-nails/gel-nail-polish-for-work",
+            "anchor_text": "gel nail polish for work",
+            "type": "existing spoke"
+          },
+          {
+            "slug": "nail-care-guide",
+            "url": "https://mirelleinspo.com/topics/nail-care-guide",
+            "anchor_text": "complete nail care guide",
+            "type": "existing spoke"
+          }
+        ],
+        "receives_links_from": [
+          {
+            "slug": "work-nails",
+            "url": "https://mirelleinspo.com/work-nails",
+            "anchor_text": "nail strengthener for nurses"
+          },
+          {
+            "slug": "nails-for-nurses",
+            "url": "https://mirelleinspo.com/work-nails/nails-for-nurses",
+            "anchor_text": "nail strengthener for nurses"
+          },
+          {
+            "slug": "gel-nail-polish-for-work",
+            "url": "https://mirelleinspo.com/work-nails/gel-nail-polish-for-work",
+            "anchor_text": "nail strengthener for nurses"
+          }
+        ]
+      },
+      "status": "approved"
+    }
+  ],
+
+  "keyword_ownership_registry": {
+    "description": "Primary keywords for new posts only — cross-checked against all existing mirelleinspo.com work-nails posts. Zero conflicts.",
+    "entries": [
+      {
+        "primary_keyword": "nails for nurses",
+        "owned_by_slug": "nails-for-nurses",
+        "owned_by_url": "https://mirelleinspo.com/work-nails/nails-for-nurses",
+        "owned_by_title": "Nails for Nurses: What You Can Actually Wear on Shift",
+        "source": "new post"
+      },
+      {
+        "primary_keyword": "nails for teachers",
+        "owned_by_slug": "nails-for-teachers",
+        "owned_by_url": "https://mirelleinspo.com/work-nails/nails-for-teachers",
+        "owned_by_title": "Nails for Teachers: Practical, Polished, and Classroom-Ready",
+        "source": "new post"
+      },
+      {
+        "primary_keyword": "nail strengthener for nurses",
+        "owned_by_slug": "nail-strengthener-for-nurses",
+        "owned_by_url": "https://mirelleinspo.com/work-nails/nail-strengthener-for-nurses",
+        "owned_by_title": "Best Nail Strengthener for Nurses and Healthcare Workers",
+        "source": "new post"
+      }
+    ]
+  },
+
+  "keyword_do_not_use": {
+    "description": "Keywords already owned by existing mirelleinspo.com posts — must not be used as primary keyword in any new post",
+    "entries": [
+      { "keyword": "work nails", "reserved_for": "https://mirelleinspo.com/work-nails" },
+      { "keyword": "nails for different professions", "reserved_for": "https://mirelleinspo.com/blog/nails-for-different-professions" },
+      { "keyword": "short nails for work", "reserved_for": "https://mirelleinspo.com/work-nails/short-nails-for-work" },
+      { "keyword": "work appropriate nail colors", "reserved_for": "https://mirelleinspo.com/work-nails/work-appropriate-nail-colors" },
+      { "keyword": "neutral nails for work", "reserved_for": "https://mirelleinspo.com/work-nails/neutral-nails-for-work" },
+      { "keyword": "gel nail polish for work", "reserved_for": "https://mirelleinspo.com/work-nails/gel-nail-polish-for-work" },
+      { "keyword": "nail shapes for work", "reserved_for": "https://mirelleinspo.com/work-nails/nail-shapes-for-work" },
+      { "keyword": "work appropriate nail art", "reserved_for": "https://mirelleinspo.com/work-nails/work-appropriate-nail-art" },
+      { "keyword": "nail care guide", "reserved_for": "https://mirelleinspo.com/topics/nail-care-guide" },
+      { "keyword": "best nail polish for work", "reserved_for": "https://mirelleinspo.com/work-nails/best-nail-polish-for-work" },
+      { "keyword": "corporate girl nails", "reserved_for": "https://mirelleinspo.com/blog/corporate-girl-nails" },
+      { "keyword": "french tip nails for work", "reserved_for": "https://mirelleinspo.com/work-nails/french-tip-nails-for-work" },
+      { "keyword": "gel vs acrylic nails for work", "reserved_for": "https://mirelleinspo.com/work-nails/gel-vs-acrylic-nails-for-work" },
+      { "keyword": "nails for conservative vs creative workplaces", "reserved_for": "https://mirelleinspo.com/work-nails/nails-for-conservative-vs-creative-workplaces" },
+      { "keyword": "nails for job interview", "reserved_for": "https://mirelleinspo.com/nails-for-job-interview" },
+      { "keyword": "professional nail length for work", "reserved_for": "https://mirelleinspo.com/work-nails/professional-nail-length-for-work" },
+      { "keyword": "new job nails", "reserved_for": "https://mirelleinspo.com/work-nails/new-job-nails" },
+      { "keyword": "almond nails for work", "reserved_for": "https://mirelleinspo.com/blog/almond-nails-for-work" }
+    ]
+  },
+
+  "merged_posts_log": [],
+
+  "killed_posts_log": [
+    {
+      "topic": "nails for lawyers",
+      "reason": "No standalone search demand on 2+ sources. Adequately covered by existing /nails-for-conservative-vs-creative-workplaces and /nails-for-different-professions posts."
+    },
+    {
+      "topic": "nails for receptionists",
+      "reason": "Pinterest boards exist but weak standalone Google/TikTok demand. Insufficient signal on 2+ sources for a standalone post."
+    },
+    {
+      "topic": "nails for flight attendants",
+      "reason": "Pinterest board only — no meaningful TikTok or Google demand found. Killed for insufficient multi-source validation."
+    },
+    {
+      "topic": "nails for remote work",
+      "reason": "Niche, weak signal, no dedicated content found on 2+ sources."
+    },
+    {
+      "topic": "press-on nails for work",
+      "reason": "Good demand confirmed but already referenced as a subtopic inside /nails-for-job-interview. Deferred — could be a future standalone post once nurses/teachers posts are live and cross-linking is established."
+    }
+  ]
+}
