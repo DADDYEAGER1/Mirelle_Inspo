@@ -1,0 +1,148 @@
+{
+  "cluster_overview": {
+    "cluster_topic": "August Nails",
+    "topic_slug": "august",
+    "pillar_slug": "august-nails",
+    "pillar_title": "August Nails: The Best Ideas, Colors & Designs for Late Summer 2026",
+    "pillar_primary_keyword": "august nails",
+    "total_posts": 4,
+    "inspiration_gallery_url": "https://mirelleinspo.com/inspo/august-nails-inspiration-gallery"
+  },
+
+  "all_posts_index": [
+    {
+      "post_id": 1,
+      "title": "August Nails: The Best Ideas, Colors & Designs for Late Summer 2026",
+      "slug": "august-nails",
+      "topic_slug": "august",
+      "primary_keyword": "august nails",
+      "intent": "inspirational",
+      "role": "pillar"
+    },
+    {
+      "post_id": 2,
+      "title": "August Nail Trends 2026: Colors, Finishes & Styles Dominating Late Summer",
+      "slug": "august-nail-trends-2026",
+      "topic_slug": "august",
+      "primary_keyword": "august nail trends 2026",
+      "intent": "seasonal_trend",
+      "role": "spoke"
+    },
+    {
+      "post_id": 3,
+      "title": "August Birthday Nails: Stunning Manicure Ideas for Leo & Virgo Birthdays",
+      "slug": "august-birthday-nails",
+      "topic_slug": "august",
+      "primary_keyword": "august birthday nails",
+      "intent": "inspirational",
+      "role": "spoke"
+    },
+    {
+      "post_id": 4,
+      "title": "Peridot Nails: August Birthstone Nail Ideas in Every Shade of Green",
+      "slug": "peridot-nails",
+      "topic_slug": "august",
+      "primary_keyword": "peridot nails",
+      "intent": "seasonal_trend",
+      "role": "spoke"
+    }
+  ],
+
+  "internal_linking_map": {
+    "description": "Complete hardcoded linking map. Use all slugs and anchor texts verbatim. Do not rewrite anchor text.",
+    "entries": [
+      {
+        "post_slug": "august-nails",
+        "role": "pillar",
+        "links_to": [
+          { "slug": "august-nail-trends-2026", "anchor_text": "august nail trends 2026", "type": "spoke" },
+          { "slug": "august-birthday-nails", "anchor_text": "august birthday nails", "type": "spoke" },
+          { "slug": "peridot-nails", "anchor_text": "peridot nails", "type": "spoke" }
+        ],
+        "gallery_link": {
+          "url": "https://mirelleinspo.com/inspo/august-nails-inspiration-gallery",
+          "anchor_text": "august nails inspiration gallery"
+        },
+        "receives_links_from": [
+          { "slug": "august-nail-trends-2026", "anchor_text": "august nails" },
+          { "slug": "august-birthday-nails", "anchor_text": "august nails" },
+          { "slug": "peridot-nails", "anchor_text": "august nails" }
+        ]
+      },
+      {
+        "post_slug": "august-nail-trends-2026",
+        "role": "spoke",
+        "links_to": [
+          { "slug": "august-nails", "anchor_text": "august nails", "type": "pillar" },
+          { "slug": "august-birthday-nails", "anchor_text": "august birthday nails", "type": "spoke" },
+          { "slug": "peridot-nails", "anchor_text": "peridot nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "august-nails", "anchor_text": "august nail trends 2026" },
+          { "slug": "august-birthday-nails", "anchor_text": "august nail trends 2026" },
+          { "slug": "peridot-nails", "anchor_text": "august nail trends 2026" }
+        ]
+      },
+      {
+        "post_slug": "august-birthday-nails",
+        "role": "spoke",
+        "links_to": [
+          { "slug": "august-nails", "anchor_text": "august nails", "type": "pillar" },
+          { "slug": "august-nail-trends-2026", "anchor_text": "august nail trends 2026", "type": "spoke" },
+          { "slug": "peridot-nails", "anchor_text": "peridot nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "august-nails", "anchor_text": "august birthday nails" },
+          { "slug": "august-nail-trends-2026", "anchor_text": "august birthday nails" },
+          { "slug": "peridot-nails", "anchor_text": "august birthday nails" }
+        ]
+      },
+      {
+        "post_slug": "peridot-nails",
+        "role": "spoke",
+        "links_to": [
+          { "slug": "august-nails", "anchor_text": "august nails", "type": "pillar" },
+          { "slug": "august-nail-trends-2026", "anchor_text": "august nail trends 2026", "type": "spoke" },
+          { "slug": "august-birthday-nails", "anchor_text": "august birthday nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "august-nails", "anchor_text": "peridot nails" },
+          { "slug": "august-nail-trends-2026", "anchor_text": "peridot nails" },
+          { "slug": "august-birthday-nails", "anchor_text": "peridot nails" }
+        ]
+      }
+    ]
+  },
+
+  "keyword_do_not_use": {
+    "description": "Never use any of these as a focus term or primary keyword in any post in this cluster.",
+    "entries": [
+      { "keyword": "august nails", "reserved_for": "august-nails", "source": "new cluster post" },
+      { "keyword": "august nail trends 2026", "reserved_for": "august-nail-trends-2026", "source": "new cluster post" },
+      { "keyword": "august nail colors", "reserved_for": "august-nail-trends-2026", "source": "new cluster post — merged" },
+      { "keyword": "august birthday nails", "reserved_for": "august-birthday-nails", "source": "new cluster post" },
+      { "keyword": "peridot nails", "reserved_for": "peridot-nails", "source": "new cluster post" },
+      { "keyword": "summer nail ideas", "reserved_for": "https://mirelleinspo.com/blog/summer-nail-ideas", "source": "existing mirelleinspo.com post" },
+      { "keyword": "summer nail colors", "reserved_for": "https://mirelleinspo.com/blog/summer-nail-colors", "source": "existing mirelleinspo.com post" },
+      { "keyword": "summer nail trends 2026", "reserved_for": "https://mirelleinspo.com/blog/summer-nail-trends-2026", "source": "existing mirelleinspo.com post" },
+      { "keyword": "green nails", "reserved_for": "https://mirelleinspo.com/blog/nails-by-color/green-nails", "source": "existing mirelleinspo.com post" },
+      { "keyword": "summer nail art designs", "reserved_for": "https://mirelleinspo.com/blog/summer-nail-art-designs", "source": "existing mirelleinspo.com post" },
+      { "keyword": "neon summer nails", "reserved_for": "https://mirelleinspo.com/blog/neon-summer-nails", "source": "existing mirelleinspo.com post" }
+    ]
+  },
+
+  "frontmatter_guidance": {
+    "description": "Rules for Blog Gen Agent when writing any post in this cluster.",
+    "rules": [
+      "Write this post's own primary keyword (from all_posts_index) into title, slug, and meta description",
+      "topic field in frontmatter = 'august' (the locked topic_slug for this entire cluster)",
+      "Every spoke links to the pillar once — use anchor text from internal_linking_map links_to entry where type = pillar",
+      "Pillar links to ALL 3 spokes — use exact anchor texts from internal_linking_map links_to entries",
+      "Pillar links to inspiration gallery — use anchor text 'august nails inspiration gallery' and URL https://mirelleinspo.com/inspo/august-nails-inspiration-gallery",
+      "Each spoke links to all other 2 spokes — exact slugs and anchor texts from internal_linking_map links_to entries where type = spoke",
+      "Never use any keyword from keyword_do_not_use as a focus term",
+      "All anchor texts are hardcoded in internal_linking_map — use them verbatim, do not rewrite",
+      "No spoke links to the inspiration gallery — gallery link is pillar only"
+    ]
+  }
+}
