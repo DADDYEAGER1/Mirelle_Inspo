@@ -1,0 +1,428 @@
+{
+  "cluster_metadata": {
+    "cluster_topic": "Coffin Nails",
+    "target_audience": "Global, Tier 1 countries (US, UK, Canada, Australia)",
+    "total_posts": 11,
+    "intent_breakdown": {
+      "informational": 2,
+      "inspirational": 3,
+      "tutorial": 2,
+      "transactional": 0,
+      "comparison": 1,
+      "seasonal_trend": 1,
+      "mixed": 2
+    },
+    "pillar_post_slug": "coffin-nails-guide",
+    "created_date": "2026-05-23"
+  },
+
+  "posts": [
+    {
+      "post_id": 1,
+      "role": "pillar",
+      "title": "Coffin Nails: The Ultimate Guide to Designs, Shapes & Styles",
+      "slug": "coffin-nails-guide",
+      "primary_keyword": "coffin nails",
+      "intent": "informational",
+      "search_demand_signals": [
+        "Pinterest: 900+ active boards dedicated to coffin nails",
+        "TikTok: 11M+ posts under #coffinnails",
+        "Beauty editorials: mass coverage across greenweddingshoes, livinggorgeous, mirellé inspo",
+        "Google autocomplete: 'coffin nails' is root term with dozens of modifiers"
+      ],
+      "why_included": "Broadest keyword in the cluster with the highest aggregate demand across all sources. Serves as the hub post linking out to all spokes and receiving inbound links from every spoke.",
+      "internal_links": {
+        "links_to": [
+          "coffin-nail-ideas",
+          "short-coffin-nails",
+          "long-coffin-nails",
+          "coffin-nail-designs",
+          "how-to-shape-coffin-nails",
+          "coffin-acrylic-nails-tutorial",
+          "coffin-ombre-nails",
+          "french-tip-coffin-nails",
+          "coffin-nails-vs-almond-nails",
+          "coffin-nail-trends-2026"
+        ],
+        "receives_links_from": [
+          "coffin-nail-ideas",
+          "short-coffin-nails",
+          "long-coffin-nails",
+          "coffin-nail-designs",
+          "how-to-shape-coffin-nails",
+          "coffin-acrylic-nails-tutorial",
+          "coffin-ombre-nails",
+          "french-tip-coffin-nails",
+          "coffin-nails-vs-almond-nails",
+          "coffin-nail-trends-2026"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 2,
+      "role": "spoke",
+      "title": "50+ Coffin Nail Ideas You'll Want to Screenshot Right Now",
+      "slug": "coffin-nail-ideas",
+      "primary_keyword": "coffin nail ideas",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Pinterest: top autocomplete suggestion when typing 'coffin nail'",
+        "Google autocomplete: 'coffin nail ideas' appears as top-3 suggestion",
+        "Beauty editorial sites: 'ideas' format posts consistently rank #1-3 for this term"
+      ],
+      "why_included": "Pure browse and inspiration intent — the largest audience segment for nail content. Distinct from 'designs' (which skews toward specific technique/occasion) in that this post targets open-ended discovery.",
+      "internal_links": {
+        "links_to": [
+          "coffin-nails-guide",
+          "coffin-nail-designs",
+          "coffin-ombre-nails",
+          "french-tip-coffin-nails",
+          "coffin-nail-trends-2026"
+        ],
+        "receives_links_from": [
+          "coffin-nails-guide",
+          "short-coffin-nails",
+          "long-coffin-nails",
+          "coffin-nail-trends-2026"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 3,
+      "role": "spoke",
+      "title": "Short Coffin Nails: Designs, Shapes & Why They're Trending",
+      "slug": "short-coffin-nails",
+      "primary_keyword": "short coffin nails",
+      "intent": "informational",
+      "search_demand_signals": [
+        "Google PAA: 'short coffin nails' appears in People Also Ask for coffin nail SERPs",
+        "Walmart: dedicated 'short coffin nails' product search category with active listings",
+        "Multiple beauty editorials (iwdecor, naildesignsjournal) published dedicated short coffin posts",
+        "TikTok: 'XS coffin nails' and 'short coffin' content with high view counts"
+      ],
+      "why_included": "Length-specific intent is a genuinely separate search behavior — users who want short nails will not convert from long-nail content. Strong product + editorial demand on 2+ sources confirms standalone viability.",
+      "internal_links": {
+        "links_to": [
+          "coffin-nails-guide",
+          "coffin-nail-ideas",
+          "coffin-nails-vs-almond-nails",
+          "how-to-shape-coffin-nails"
+        ],
+        "receives_links_from": [
+          "coffin-nails-guide",
+          "coffin-nails-vs-almond-nails",
+          "how-to-shape-coffin-nails",
+          "coffin-nail-designs"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 4,
+      "role": "spoke",
+      "title": "Long Coffin Nails: Bold Designs & How to Pull Them Off",
+      "slug": "long-coffin-nails",
+      "primary_keyword": "long coffin nails",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Amazon: dedicated 'long coffin nails' product category with hundreds of listings",
+        "TikTok: tutorials specifically tagged for long coffin acrylic nails with high engagement",
+        "Beauty editorials: thenailboard.com, livinggorgeous.com dedicated long coffin content",
+        "Walmart: 'long coffin nail tips' product search returns active category"
+      ],
+      "why_included": "Length-opposite of Post 3 with a clearly distinct audience (maximalist, statement-making). Strong product demand on Amazon/Walmart and dedicated editorial content confirm it's a separate, validated search cluster.",
+      "internal_links": {
+        "links_to": [
+          "coffin-nails-guide",
+          "coffin-nail-ideas",
+          "coffin-acrylic-nails-tutorial",
+          "coffin-nail-designs",
+          "coffin-nail-trends-2026"
+        ],
+        "receives_links_from": [
+          "coffin-nails-guide",
+          "coffin-acrylic-nails-tutorial",
+          "coffin-nail-trends-2026",
+          "coffin-nail-designs"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 5,
+      "role": "spoke",
+      "title": "Coffin Nail Designs: 40+ Ideas for Every Style & Occasion",
+      "slug": "coffin-nail-designs",
+      "primary_keyword": "coffin nail designs",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Google autocomplete: 'coffin nail designs' is an immediate top suggestion",
+        "Beauty editorial sites: fayona.org, thenailboard.com, aol.com all rank with this exact term",
+        "Walmart/Amazon: 'coffin nail designs' used as product filter term with active listings"
+      ],
+      "why_included": "Design-focused browsing intent is distinct from open-ended 'ideas' — users searching 'designs' are looking for specific styles (geometric, chrome, marble) for specific occasions. High commercial proximity makes this a strong internal link receiver for the comparison and tutorial posts.",
+      "internal_links": {
+        "links_to": [
+          "coffin-nails-guide",
+          "coffin-ombre-nails",
+          "french-tip-coffin-nails",
+          "short-coffin-nails",
+          "long-coffin-nails"
+        ],
+        "receives_links_from": [
+          "coffin-nails-guide",
+          "coffin-nail-ideas",
+          "coffin-ombre-nails",
+          "french-tip-coffin-nails",
+          "coffin-nail-trends-2026"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 6,
+      "role": "spoke",
+      "title": "How to Shape Coffin Nails at Home (Step-by-Step)",
+      "slug": "how-to-shape-coffin-nails",
+      "primary_keyword": "how to shape coffin nails",
+      "intent": "tutorial",
+      "search_demand_signals": [
+        "IPSY blog: dedicated step-by-step shaping guide ranking for this term",
+        "MindBodyGarden: expert nail artist tutorial published and ranking",
+        "TikTok: coffin shape tutorials with millions of views",
+        "YouTube: multiple high-view tutorial videos on coffin shaping technique"
+      ],
+      "why_included": "Celebrity nail artists confirm shaping is one of the most-requested nail looks. The 'how to shape' query captures distinct intent from 'how to do acrylic' — users with natural or existing nails who want the shape without full extensions.",
+      "internal_links": {
+        "links_to": [
+          "coffin-nails-guide",
+          "coffin-acrylic-nails-tutorial",
+          "short-coffin-nails",
+          "coffin-nails-vs-almond-nails"
+        ],
+        "receives_links_from": [
+          "coffin-nails-guide",
+          "coffin-acrylic-nails-tutorial",
+          "short-coffin-nails",
+          "coffin-nails-vs-almond-nails"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 7,
+      "role": "spoke",
+      "title": "How to Do Coffin Acrylic Nails: Beginner's Full Tutorial",
+      "slug": "coffin-acrylic-nails-tutorial",
+      "primary_keyword": "coffin acrylic nails",
+      "intent": "tutorial",
+      "search_demand_signals": [
+        "TikTok: #coffinacrylic has millions of posts; dedicated tutorial content with high engagement",
+        "Amazon: acrylic coffin nail tip kits are top-selling products with thousands of reviews",
+        "Nailicy.com: dedicated acrylic coffin step-by-step guide ranking",
+        "YouTube: 'coffin acrylic nails' videos with 100K+ views"
+      ],
+      "why_included": "Acrylic-specific tutorial is distinct from shaping (Post 6) — different process, different products (acrylic powder, forms, primer), different user skill level. Amazon product demand confirms users are actively buying to DIY this look.",
+      "internal_links": {
+        "links_to": [
+          "coffin-nails-guide",
+          "how-to-shape-coffin-nails",
+          "long-coffin-nails",
+          "coffin-ombre-nails",
+          "coffin-nail-designs"
+        ],
+        "receives_links_from": [
+          "coffin-nails-guide",
+          "how-to-shape-coffin-nails",
+          "long-coffin-nails",
+          "coffin-ombre-nails"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 8,
+      "role": "spoke",
+      "title": "Coffin Ombre Nails: Ideas, How-To & Color Combos",
+      "slug": "coffin-ombre-nails",
+      "primary_keyword": "coffin ombre nails",
+      "intent": "mixed",
+      "search_demand_signals": [
+        "Pinterest: 'coffin ombre nails' is an evergreen board topic with massive pin volume",
+        "Amazon: dedicated 'ombre coffin nails' product search returns active category",
+        "Beauty editorial sites: multiple roundup posts specifically for coffin ombre",
+        "TikTok: ombre coffin tutorial content with strong engagement"
+      ],
+      "why_included": "Ombré on coffin is one of the most-searched specific nail techniques — distinct design method (gradient/blending) that requires its own tutorial content. Evergreen demand on Pinterest + Amazon product demand confirms sustained interest.",
+      "internal_links": {
+        "links_to": [
+          "coffin-nails-guide",
+          "coffin-nail-designs",
+          "coffin-acrylic-nails-tutorial",
+          "french-tip-coffin-nails"
+        ],
+        "receives_links_from": [
+          "coffin-nails-guide",
+          "coffin-nail-ideas",
+          "coffin-nail-designs",
+          "coffin-acrylic-nails-tutorial",
+          "french-tip-coffin-nails"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 9,
+      "role": "spoke",
+      "title": "French Tip Coffin Nails: Classic & Modern Looks",
+      "slug": "french-tip-coffin-nails",
+      "primary_keyword": "french tip coffin nails",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Walmart: dedicated 'short coffin nails French tip' search category with active product listings",
+        "Amazon: 'French tip coffin nails' product category with hundreds of results",
+        "TikTok: French tip coffin content with millions of views",
+        "Beauty roundups: multiple dedicated French-tip-on-coffin editorial posts ranking"
+      ],
+      "why_included": "French tip on coffin is its own visual search category — users specifically want the classic French aesthetic on coffin shape, distinct from general French tip posts and general coffin design posts. Strong product + editorial demand on 4 sources.",
+      "internal_links": {
+        "links_to": [
+          "coffin-nails-guide",
+          "coffin-nail-designs",
+          "coffin-ombre-nails",
+          "coffin-nail-ideas"
+        ],
+        "receives_links_from": [
+          "coffin-nails-guide",
+          "coffin-nail-ideas",
+          "coffin-nail-designs",
+          "coffin-ombre-nails",
+          "coffin-nail-trends-2026"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 10,
+      "role": "spoke",
+      "title": "Coffin Nails vs Almond Nails: Which Shape Is Right for You?",
+      "slug": "coffin-nails-vs-almond-nails",
+      "primary_keyword": "coffin nails vs almond nails",
+      "intent": "comparison",
+      "search_demand_signals": [
+        "TikTok discover page: 'almond vs coffin nails' is an active discovery topic",
+        "Joyee Nails: dedicated comparison article ranking for this exact query",
+        "L'Oréal Paris, Belle Beauty, Groupon: all published nail shape comparison guides featuring this matchup",
+        "Lemon8: user-generated comparison content trending on this topic"
+      ],
+      "why_included": "High-intent decision content — users comparing shapes are close to booking a salon or buying products. Multiple independent sites publishing dedicated comparison articles confirms standalone search demand. Strong internal link receiver from informational and inspirational posts.",
+      "internal_links": {
+        "links_to": [
+          "coffin-nails-guide",
+          "short-coffin-nails",
+          "how-to-shape-coffin-nails",
+          "coffin-nail-designs"
+        ],
+        "receives_links_from": [
+          "coffin-nails-guide",
+          "short-coffin-nails",
+          "how-to-shape-coffin-nails",
+          "coffin-nail-trends-2026"
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 11,
+      "role": "spoke",
+      "title": "Coffin Nail Trends 2026: What's New, What's Hot",
+      "slug": "coffin-nail-trends-2026",
+      "primary_keyword": "coffin nail trends 2026",
+      "intent": "seasonal_trend",
+      "search_demand_signals": [
+        "Living Gorgeous: published dedicated '2026 coffin nails' editorial in March 2026",
+        "Mirellé Inspo: '90+ Coffin Nails 2026' article with 2026-specific trend coverage",
+        "Fayona.org: 'Best Coffin Nail Shapes & Designs 2026' published January 2026",
+        "Google Trends: year-tagged nail trend searches spike annually Q1-Q2"
+      ],
+      "why_included": "Annual trend post captures a time-specific keyword that resets every year — owns 'coffin nail trends 2026' permanently and can be refreshed to '2027' for ongoing traffic. Multiple publishers already targeting this confirms real annual demand.",
+      "internal_links": {
+        "links_to": [
+          "coffin-nails-guide",
+          "coffin-nail-ideas",
+          "coffin-nail-designs",
+          "long-coffin-nails",
+          "french-tip-coffin-nails",
+          "coffin-nails-vs-almond-nails"
+        ],
+        "receives_links_from": [
+          "coffin-nails-guide",
+          "coffin-nail-ideas",
+          "coffin-nail-designs",
+          "long-coffin-nails"
+        ]
+      },
+      "status": "approved"
+    }
+  ],
+
+  "keyword_ownership_registry": {
+    "description": "Master list of all primary keywords — one per post, no overlaps",
+    "entries": [
+      { "primary_keyword": "coffin nails", "owned_by_slug": "coffin-nails-guide", "owned_by_title": "Coffin Nails: The Ultimate Guide to Designs, Shapes & Styles" },
+      { "primary_keyword": "coffin nail ideas", "owned_by_slug": "coffin-nail-ideas", "owned_by_title": "50+ Coffin Nail Ideas You'll Want to Screenshot Right Now" },
+      { "primary_keyword": "short coffin nails", "owned_by_slug": "short-coffin-nails", "owned_by_title": "Short Coffin Nails: Designs, Shapes & Why They're Trending" },
+      { "primary_keyword": "long coffin nails", "owned_by_slug": "long-coffin-nails", "owned_by_title": "Long Coffin Nails: Bold Designs & How to Pull Them Off" },
+      { "primary_keyword": "coffin nail designs", "owned_by_slug": "coffin-nail-designs", "owned_by_title": "Coffin Nail Designs: 40+ Ideas for Every Style & Occasion" },
+      { "primary_keyword": "how to shape coffin nails", "owned_by_slug": "how-to-shape-coffin-nails", "owned_by_title": "How to Shape Coffin Nails at Home (Step-by-Step)" },
+      { "primary_keyword": "coffin acrylic nails", "owned_by_slug": "coffin-acrylic-nails-tutorial", "owned_by_title": "How to Do Coffin Acrylic Nails: Beginner's Full Tutorial" },
+      { "primary_keyword": "coffin ombre nails", "owned_by_slug": "coffin-ombre-nails", "owned_by_title": "Coffin Ombre Nails: Ideas, How-To & Color Combos" },
+      { "primary_keyword": "french tip coffin nails", "owned_by_slug": "french-tip-coffin-nails", "owned_by_title": "French Tip Coffin Nails: Classic & Modern Looks" },
+      { "primary_keyword": "coffin nails vs almond nails", "owned_by_slug": "coffin-nails-vs-almond-nails", "owned_by_title": "Coffin Nails vs Almond Nails: Which Shape Is Right for You?" },
+      { "primary_keyword": "coffin nail trends 2026", "owned_by_slug": "coffin-nail-trends-2026", "owned_by_title": "Coffin Nail Trends 2026: What's New, What's Hot" }
+    ]
+  },
+
+  "merged_posts_log": [
+    {
+      "original_topics": ["coffin nail colors", "coffin nail designs"],
+      "merged_into": "Coffin Nail Designs: 40+ Ideas for Every Style & Occasion",
+      "reason": "Colors is a sub-section of designs — no standalone demand signal on 2+ sources to justify a separate post"
+    },
+    {
+      "original_topics": ["coffin gel nails", "coffin acrylic nails"],
+      "merged_into": "How to Do Coffin Acrylic Nails: Beginner's Full Tutorial",
+      "reason": "Gel-specific coffin posts lack standalone demand on 2+ sources; gel covered as technique comparison within the acrylic tutorial"
+    },
+    {
+      "original_topics": ["coffin nail art", "coffin nail ideas"],
+      "merged_into": "50+ Coffin Nail Ideas You'll Want to Screenshot Right Now",
+      "reason": "'Nail art' modifier adds no distinct intent — same user, same SERP, would cannibalize the ideas post"
+    }
+  ],
+
+  "killed_posts_log": [
+    {
+      "topic": "coffin nails for beginners",
+      "reason": "Intent fully covered by Post 6 (how to shape) and Post 7 (acrylic tutorial) — a standalone beginner post would cannibalize both"
+    },
+    {
+      "topic": "coffin nails with rhinestones",
+      "reason": "Sub-topic only — no dedicated search demand on 2+ sources; covered as a design variant inside coffin nail designs post"
+    },
+    {
+      "topic": "coffin nails for short nail beds",
+      "reason": "Too niche — demand signal found on only 1 source; no dedicated editorial or product category"
+    },
+    {
+      "topic": "matte coffin nails",
+      "reason": "Single-modifier design topic with no standalone search volume separation from general coffin designs"
+    },
+    {
+      "topic": "best press-on coffin nails",
+      "reason": "Removed per user instruction — transactional post excluded from this cluster"
+    }
+  ]
+}

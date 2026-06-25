@@ -1,0 +1,422 @@
+{
+  "file_authority": {
+    "statement": "THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All keywords, H2 structure, audience intelligence, internal links, intent signals, image count recommendation, and tone defined here must be followed exactly. Do not override, reinterpret, or ignore any section unless the user explicitly instructs you to during the Blog Gen session."
+  },
+
+  "metadata": {
+    "topic": "How to Find Your Skin Undertone (And Pick the Right Nail Color)",
+    "primary_keyword": "skin undertone nail color",
+    "post_type": "Guide / How-To",
+    "intent": "INFORMATIONAL",
+    "recommended_image_count": "10-12 images — informational intent with strong how-to sections benefits from annotated test visuals (vein photos, jewelry test, paper test), undertone reference swatches, and per-tone nail color examples. Visual references reduce confusion and increase comprehension for this audience.",
+    "mode": "CLUSTER",
+    "target_audience": "Women aged 20-45, all skin tones globally, who struggle to identify their undertone and want to translate that knowledge into nail color choices — gateway readers who land here before visiting tone-specific spoke posts",
+    "research_date": "2026-05-07"
+  },
+
+  "cluster_snapshot": {
+    "pillar_title": "The Complete Guide to Nail Colors for Every Skin Tone",
+    "pillar_slug": "nail-colors-for-every-skin-tone",
+    "this_post_slug": "skin-undertone-nail-color-guide",
+    "internal_links_to_include": [
+      {
+        "target_slug": "nail-colors-for-every-skin-tone",
+        "target_title": "The Complete Guide to Nail Colors for Every Skin Tone",
+        "linking_note": "Link in the intro or conclusion — as the definitive hub this post feeds into"
+      },
+      {
+        "target_slug": "nail-colors-for-fair-skin",
+        "target_title": "Best Nail Colors for Fair Skin",
+        "linking_note": "Link when covering cool undertone + fair skin shade direction — 'for a full edit of shades'"
+      },
+      {
+        "target_slug": "nail-colors-for-medium-skin-tone",
+        "target_title": "Best Nail Colors for Medium Skin Tone",
+        "linking_note": "Link when covering warm undertone + medium/tan skin shade direction"
+      },
+      {
+        "target_slug": "nail-colors-for-olive-skin",
+        "target_title": "Best Nail Colors for Olive Skin",
+        "linking_note": "Link when explaining neutral/warm undertone complexities — olive is often misidentified"
+      },
+      {
+        "target_slug": "nail-colors-for-dark-skin",
+        "target_title": "Best Nail Colors for Dark Skin Tone",
+        "linking_note": "Link when covering cool or warm undertone on deep complexions — 'for the full shade guide'"
+      },
+      {
+        "target_slug": "nail-colors-for-indian-skin-tone",
+        "target_title": "Best Nail Colors for Indian Skin Tone",
+        "linking_note": "Link in the warm undertone section — wheatish/dusky skin often misread as neutral"
+      }
+    ],
+    "cross_site_internal_links": [
+      {
+        "url": "https://mirelleinspo.com/topics/skin-tones",
+        "title": "Nail Colors for Every Skin Tone: The Ultimate 2026 Matching Guide",
+        "relevance_reason": "Mirellé's own pillar on skin tone and nail color — natural companion link from the undertone guide",
+        "placement_note": "Intro or summary section — 'For tone-by-tone shade edits by complexion'"
+      },
+      {
+        "url": "https://mirelleinspo.com/blog/almond-nail-colors-skin-tone",
+        "title": "Best Almond Nail Colours for Every Skin Tone",
+        "relevance_reason": "Demonstrates how undertone interacts with nail shape — adds a practical extension of this post's logic",
+        "placement_note": "Near the finish section or a 'going further' moment — 'nail shape also changes how undertone reads'"
+      },
+      {
+        "url": "https://mirelleinspo.com/topics/seasonal-trends",
+        "title": "2026 Seasonal Nail Calendar",
+        "relevance_reason": "Seasonal colour directions are undertone-split throughout — natural bridge from 'know your undertone' to 'apply it seasonally'",
+        "placement_note": "Near the end — 'once you know your undertone, applying it to seasonal trends becomes instinctive'"
+      }
+    ],
+    "receives_links_from": [
+      "nail-colors-for-every-skin-tone",
+      "nail-colors-for-fair-skin",
+      "nail-colors-for-dark-skin",
+      "nail-colors-for-olive-skin",
+      "nail-colors-for-medium-skin-tone",
+      "best-nude-nail-color-for-skin-tone",
+      "best-red-nail-color-for-skin-tone",
+      "gel-nail-colors-for-skin-tone",
+      "nail-colors-for-indian-skin-tone"
+    ],
+    "keywords_to_avoid": [
+      "nail colors for skin tone",
+      "nail colors for fair skin",
+      "nail colors for dark skin",
+      "nail colors for olive skin",
+      "nail colors for medium skin tone",
+      "nude nail color for skin tone",
+      "red nail color for skin tone",
+      "nail color trends 2026 skin tone",
+      "nail colors that look good on every skin tone",
+      "gel nail colors for skin tone",
+      "nail colors for redheads",
+      "nail colors for blondes",
+      "nail colors for brunettes",
+      "nail colors for indian skin tone"
+    ]
+  },
+
+  "serp_analysis": {
+    "competitor_summary": {
+      "common_h2_topics": [
+        "What is skin undertone? (definition)",
+        "Cool vs warm vs neutral undertone (three-bucket explanation)",
+        "How to find your undertone / the vein test",
+        "Jewelry test (gold vs silver)",
+        "White paper or white cloth test",
+        "Sun reaction / tanning test",
+        "Nail colors for cool undertones",
+        "Nail colors for warm undertones",
+        "Nail colors for neutral undertones",
+        "The difference between skin tone and undertone",
+        "Tips for choosing polish in-store"
+      ],
+      "content_approach": "Competitors run a formulaic three-step structure: define undertone, explain the tests (usually just the vein test), then list shade buckets per category. Most treat the topic as a one-time lookup rather than a living skill. They ignore the confusion real readers experience — multiple conflicting test results, olive skin misread as neutral, the difference between undertone and skin depth — and provide zero help for the reader who has done the vein test and still isn't sure.",
+      "visual_patterns": "Most competitors use 6-8 images: a flat undertone chart, vein comparison photo, and product shots per category. Manucurist and LA Nail Supplies use richer visual layouts. TikTok and Pinterest content shows readers actively want to see the tests demonstrated on real hands.",
+      "recommended_image_count": "10-12 images — this post needs the vein test and alternative tests shown visually on real hands, an undertone identification reference, and at least one shade direction visual per undertone category. Informational how-to content with heavy test steps has higher comprehension when images are embedded at each step."
+    },
+    "competitor_gaps": {
+      "unanswered_questions": [
+        "What if my vein test and jewelry test give different results — which one do I trust?",
+        "I have olive skin — am I warm, neutral, or something else entirely?",
+        "What does 'neutral undertone' actually mean for nail color — does it mean I can wear everything, or do I still have shade boundaries?",
+        "My veins are hard to see because of deep skin — what do I do instead?",
+        "I got my undertone identified but the polish still looks wrong. Why?",
+        "Does my undertone change if I tan in summer?",
+        "How do I use undertone logic when I'm buying polish online without swatching?",
+        "What's the difference between my undertone and my nail bed colour — do they matter separately?"
+      ],
+      "missing_semantic_territory": [
+        "Olive undertone — treated as its own fourth category, not just neutral with green",
+        "Undertone permanence vs skin tone seasonality (undertone doesn't change, tone does)",
+        "How finish (gloss, matte, chrome) interacts with undertone — same colour reads differently by finish",
+        "Conflicting test results — none of the competitors address this practically",
+        "Deep skin vein test reliability issues — standard vein test is harder on darker complexions",
+        "Nail bed tone as a secondary undertone cue (Benefit Cosmetics mentions this, others miss it)",
+        "Lighting impact on polish perception — artificial vs natural light changes how undertone interacts with colour",
+        "Warm vs warm-leaning neutral — the grey zone most readers actually land in"
+      ],
+      "audience_blind_spots": [
+        "The reader who has done two or three tests and gotten mixed signals — they are stuck and no content helps them",
+        "The warm-skin reader who has been wearing cool-toned shades because they were trending — the 'game changer' moment",
+        "The reader with deep or dark skin who can't clearly see their veins",
+        "The reader who confuses olive skin with neutral skin — olive has its own logic",
+        "The reader who knows their undertone from makeup shopping but doesn't know how to apply it to nail colour"
+      ]
+    },
+    "our_strategic_approach": {
+      "differentiation": "We do not teach the vein test and stop there. We treat undertone identification as a multi-test diagnostic that accounts for conflicting results, addresses the olive-as-its-own-category question, handles deep skin test limitations, and then bridges directly to each spoke post for the full shade edit. This post is the gateway — it should leave no reader stuck.",
+      "structure_plan": "Lead with why undertone matters more than surface tone for nail colour, then walk through all four reliable tests with clear outcome guidance for readers who get mixed results. Cover warm, cool, neutral, and olive as distinct categories with their unique nail colour logic, then link to each spoke for depth. Do not duplicate the shade guides that live in the spoke posts — sketch the direction and pass the reader on.",
+      "tone_direction": "Calm, trustworthy educator — the kind of friend who actually knows colour theory but explains it without making you feel like you should have known already."
+    }
+  },
+
+  "audience_intelligence": {
+    "blog_gen_instruction": "This section is your primary creative brief. Use this audience data to inform every paragraph, every sentence, every word choice. You are writing for this specific person with this specific intent. Satisfy them completely.",
+    "intent_specific_audience_profile": {
+      "who_they_are": "Primarily women 20-45, all ethnicities, all skin depths. Mix of beauty novices and intermediate-level beauty readers. Many have encountered undertone language in foundation or lipstick shopping but have never mapped it to nail colour specifically. A significant portion are beauty-aware but not colour-theory-literate — they know the words but don't trust themselves to apply the concept correctly.",
+      "what_they_want_from_this_post": "A clear, definitive way to identify their undertone using simple at-home tests, followed by a clear map of which nail colour directions belong to them — not just 'cool tones wear blue-based shades' but enough practical direction that they can stand at a nail salon or shop online and pick confidently.",
+      "what_satisfies_them": "Confidence. They want to finish this post knowing exactly what they are and what that means for their next polish choice. They also want acknowledgement that tests can conflict and guidance on what to do when that happens — this is the single biggest unmet need in the category.",
+      "what_frustrates_them": "Generic content that lists the vein test, produces three colour buckets, and leaves them exactly where they started. Also: being told they are 'neutral' as if that's a complete answer, when in practice neutral skin still has shade boundaries. And being handed a product recommendation list they can't verify without seeing it on their own skin."
+    },
+    "top_5_pain_points": [
+      "My vein test and jewelry test are giving different results — I have no idea which one to trust or if I'm doing it wrong",
+      "I think I might have olive skin but everyone tells me olive is just a skin tone not an undertone — I'm confused about where I fit",
+      "I've bought shades that are supposed to suit my undertone and they still look off on my hands — what am I missing?",
+      "My skin is deep and I literally cannot see my veins clearly enough to tell the colour — the vein test doesn't work for me",
+      "I know I'm 'warm' from foundation shopping but I have no idea what that actually means for picking a nail colour — those seem like different systems"
+    ],
+    "user_sentiment": "Undertone-curious but test-fatigued — readers have heard the concept many times, attempted the tests, and are still not confident enough to act on it.",
+    "exact_user_phrases": [
+      "my veins look both blue and green I can't tell",
+      "I think I'm neutral but nothing ever looks right",
+      "what undertone do I have quiz",
+      "vein test doesn't work on dark skin",
+      "olive skin undertone warm or cool",
+      "I wore the wrong red for years and didn't know why",
+      "how do I know if I'm warm or cool toned nails",
+      "what nail color makes hands look better",
+      "gold jewelry looks better on me what undertone",
+      "skin tone vs undertone what's the difference nails",
+      "why does this nail colour look different on me than online",
+      "wheatish skin undertone nail color"
+    ],
+    "intent_content_signals": [
+      "Readers want step-by-step test instructions they can follow right now — not theory",
+      "They want acknowledgement that tests can give conflicting results, with guidance on tiebreaking",
+      "They want brief but clear shade direction per undertone — not an exhaustive list, just enough to orient them",
+      "They respond strongly to 'before and after' logic — 'I wore this, it looked wrong, I switched, game changer'",
+      "Deep skin readers specifically need alternative test methods when the vein test is not visible",
+      "They want to be pointed to the right spoke post for their undertone — they do not expect this post to be the full shade guide",
+      "They prefer practical language — not colour theory vocabulary like 'chromatic harmony', but 'it makes your skin look alive vs flat'"
+    ]
+  },
+
+  "semantic_keyword_data": {
+    "blog_gen_instruction": "Use these terms naturally throughout the post. AEO terms should trigger direct answer paragraphs. User language should appear in conversational moments. Do not keyword-stuff — weave these in where they serve the reader.",
+    "primary_keyword": "skin undertone nail color",
+    "keyword_variations": [
+      "skin undertone nail colour",
+      "undertone and nail color",
+      "nail color for your undertone",
+      "nail polish based on skin undertone",
+      "how to choose nail color by undertone",
+      "undertone nail polish guide",
+      "matching nail color to undertone",
+      "cool warm neutral undertone nail",
+      "nail shade for my undertone"
+    ],
+    "cluster_keywords": [
+      "how to find skin undertone for nails",
+      "warm vs cool undertone nail color",
+      "how to determine undertone nail polish",
+      "vein test nail color undertone",
+      "nail color for warm undertone",
+      "nail color for cool undertone",
+      "nail color for neutral undertone",
+      "olive skin undertone nail polish",
+      "skin tone vs undertone nails",
+      "undertone identification at home",
+      "jewelry test skin undertone",
+      "white paper test undertone",
+      "nail polish for pink undertone skin",
+      "nail polish for golden undertone skin",
+      "deep skin undertone nail color"
+    ],
+    "lsi_terms": [
+      "undertone",
+      "cool undertone",
+      "warm undertone",
+      "neutral undertone",
+      "olive undertone",
+      "vein test",
+      "jewelry test",
+      "gold vs silver jewelry skin tone",
+      "white paper test skin",
+      "nail bed colour",
+      "nail polish undertone",
+      "blue-based red nails",
+      "orange-based red nails",
+      "nail colour theory",
+      "colour analysis nails",
+      "complexion",
+      "skin depth",
+      "surface skin tone",
+      "blue veins cool undertone",
+      "green veins warm undertone"
+    ],
+    "aeo_terms": [
+      "how do I find out my skin undertone for nail color",
+      "what nail colors suit warm undertones",
+      "what nail colors suit cool undertones",
+      "how do I know if I have a warm or cool undertone",
+      "what is the difference between skin tone and undertone for nails",
+      "can my undertone change with a tan",
+      "how to do the vein test for skin undertone",
+      "what undertone is olive skin",
+      "which nail polish colors go with neutral undertones",
+      "how to choose nail color when tests give conflicting results",
+      "what nail colour suits pink undertone skin",
+      "can I trust the vein test for dark skin"
+    ],
+    "technical_terms": [
+      "melanin",
+      "haemoglobin",
+      "carotene",
+      "chromatic undertone",
+      "colour temperature",
+      "blue-based pigment",
+      "yellow-based pigment"
+    ],
+    "user_language": [
+      "my veins look both colours",
+      "what undertone am I",
+      "the vein test doesn't work for me",
+      "I thought I was neutral but nothing looks right",
+      "gold jewelry girl or silver jewelry girl",
+      "washed out nails",
+      "my nails look muddy",
+      "game changer shade",
+      "the right red for my skin"
+    ]
+  },
+
+  "voice_and_ai_queries": {
+    "blog_gen_instruction": "These are the exact questions your readers are asking search engines and AI assistants. Answer them directly within the content — these drive featured snippets and AI answer placements.",
+    "queries": [
+      "how do I find my skin undertone at home",
+      "what is the vein test for undertone",
+      "are my veins blue or green undertone",
+      "what nail color suits warm undertones",
+      "what nail color suits cool undertones",
+      "what nail color looks good on neutral skin",
+      "does olive skin have warm or cool undertones",
+      "can undertone change with sun exposure",
+      "what undertone am I if I look good in gold jewelry",
+      "how to choose nail polish if tests are contradictory",
+      "why does my nail color look different on me than on the model",
+      "what nail color should I wear if I have pink undertones",
+      "is the vein test accurate for dark skin",
+      "how do I use undertone to pick nail polish online",
+      "what is the difference between skin tone and undertone nails",
+      "can two people with the same skin depth have different undertones",
+      "what does neutral undertone mean for nail color",
+      "how do I know if a nail polish shade has a warm or cool base"
+    ]
+  },
+
+  "content_structure": {
+    "blog_gen_instruction": "This H2 structure is research-driven and must be followed. Each heading reflects a real audience query or intent signal. Do not rename, reorder, or replace H2s without user instruction. You may add H3s under each H2 based on your editorial research.",
+    "h1": "How to Find Your Skin Undertone — and Pick the Nail Colour That Actually Works",
+    "h2_structure": [
+      "H2 #1: Why Undertone Matters More Than Your Skin Tone for Nail Colour",
+      "H2 #2: The Four Tests You Can Do Right Now (And How to Read Them)",
+      "H2 #3: What If Your Tests Give Different Results?",
+      "H2 #4: Cool Undertone — What It Looks Like and Which Nail Colours Belong to You",
+      "H2 #5: Warm Undertone — What It Looks Like and Which Nail Colours Belong to You",
+      "H2 #6: Neutral Undertone — What It Means and Why It Doesn't Mean You Can Wear Everything",
+      "H2 #7: Olive Skin — Its Own Undertone Logic (And Why It's Routinely Misread)",
+      "H2 #8: Why the Same Shade Can Look Completely Different on Two People with the Same Undertone",
+      "H2 #9: How to Apply Your Undertone When Shopping for Polish Online or In-Store"
+    ],
+    "structure_reasoning": "The structure solves the actual reader journey: establish why undertone is the variable that matters (not surface tone), run the tests with real guidance on conflicting results, then deliver the four undertone categories with enough shade direction to act on. H2 #7 (olive) and H2 #8 (finish/lighting) address the two biggest gaps competitors leave unaddressed. H2 #9 bridges from education to purchase action. Each H2 links naturally to one or more spoke posts without replacing their depth."
+  },
+
+  "internal_links": {
+    "blog_gen_instruction": "All links below — cluster links and cross-site links — must appear in the post. Place each link naturally where the placement note suggests. Write them into the content editorially — not as standalone CTAs. The link should feel like a natural continuation for the reader, not an interruption.",
+    "all_internal_links": [
+      {
+        "url_or_slug": "nail-colors-for-every-skin-tone",
+        "title": "The Complete Guide to Nail Colors for Every Skin Tone",
+        "placement_note": "Intro or closing — the pillar is where readers go for the full tone-by-tone overview once they know their undertone",
+        "link_type": "cluster"
+      },
+      {
+        "url_or_slug": "nail-colors-for-fair-skin",
+        "title": "Best Nail Colors for Fair Skin",
+        "placement_note": "H2 #4 (Cool undertone) — most fair-skin readers have cool undertones; direct them to the full fair skin shade edit",
+        "link_type": "cluster"
+      },
+      {
+        "url_or_slug": "nail-colors-for-medium-skin-tone",
+        "title": "Best Nail Colors for Medium Skin Tone",
+        "placement_note": "H2 #5 (Warm undertone) — medium/tan skin readers with warm undertones go here for their full colour palette",
+        "link_type": "cluster"
+      },
+      {
+        "url_or_slug": "nail-colors-for-olive-skin",
+        "title": "Best Nail Colors for Olive Skin",
+        "placement_note": "H2 #7 (Olive) — close with 'for the full olive skin shade edit, this is where to go'",
+        "link_type": "cluster"
+      },
+      {
+        "url_or_slug": "nail-colors-for-dark-skin",
+        "title": "Best Nail Colors for Dark Skin Tone",
+        "placement_note": "H2 #4 or #5 depending on undertone — when covering deep skin with cool or warm undertone, link to the dark skin spoke",
+        "link_type": "cluster"
+      },
+      {
+        "url_or_slug": "nail-colors-for-indian-skin-tone",
+        "title": "Best Nail Colors for Indian Skin Tone",
+        "placement_note": "H2 #5 (Warm undertone) — wheatish and dusky skin is frequently warm-undertoned; link for the specific South Asian shade edit",
+        "link_type": "cluster"
+      },
+      {
+        "url": "https://mirelleinspo.com/topics/skin-tones",
+        "title": "Nail Colors for Every Skin Tone: The Ultimate 2026 Matching Guide",
+        "placement_note": "Intro or conclusion — as the broader surface-tone-level guide that complements the undertone-specific logic here",
+        "link_type": "cross-site"
+      },
+      {
+        "url": "https://mirelleinspo.com/blog/almond-nail-colors-skin-tone",
+        "title": "Best Almond Nail Colours for Every Skin Tone",
+        "placement_note": "H2 #8 (why the same shade looks different) — nail shape is a second variable; this post explores it in depth",
+        "link_type": "cross-site"
+      },
+      {
+        "url": "https://mirelleinspo.com/topics/seasonal-trends",
+        "title": "2026 Seasonal Nail Calendar",
+        "placement_note": "H2 #9 (applying undertone to polish shopping) — seasonal palettes are split by undertone throughout; natural next step",
+        "link_type": "cross-site"
+      }
+    ]
+  },
+
+  "voice_tone_recommendation": {
+    "blog_gen_instruction": "This is the voice for this specific post and intent. Layer it on top of Mirellè's editorial framework. Do not default to a generic AI tone — this audience and this intent require this specific voice.",
+    "recommended_voice": "Calm, knowledgeable educator — the beauty-literate friend who genuinely knows colour theory and explains it in plain language without condescension",
+    "tone_characteristics": [
+      "Reassuring without being hand-holdy — acknowledges that the tests are imperfect and many people are genuinely confused, without amplifying the confusion",
+      "Precise without being technical — uses correct vocabulary (undertone, blue-based, warm pigment) but always immediately follows with plain English",
+      "Direct and confident — makes clear recommendations rather than hedging ('most people with blue-purple veins have cool undertones' not 'you might possibly perhaps have')",
+      "Editorially grounded — speaks from experience rather than from a chart; this is a trusted guide not a colour theory lecture",
+      "Action-oriented — every explanation closes with what the reader should actually do next"
+    ],
+    "language_style": "Sentences are mostly short to medium length, with occasional longer explanatory sentences when building a concept. Uses 'you' throughout. Avoids beauty-speak clichés ('complement your complexion', 'enhance your natural radiance'). Favours concrete imagery ('think of undertone as the lighting in the room — it changes how the surface colour reads') over abstract colour theory. No em dashes. British English spelling throughout.",
+    "audience_match": "Readers want to learn — this is an informational post — but they want to learn something they can immediately use. The voice must feel like expertise delivered by someone who is on their side, not testing their colour literacy."
+  },
+
+  "external_links": {
+    "blog_gen_instruction": "Include these external links where indicated. They support E-E-A-T and reader trust. Use the suggested anchor text as a guide — write naturally around it.",
+    "links": [
+      {
+        "url": "https://www.benefitcosmetics.com/en-us/articles/face/how-to-determine-your-skin-undertone.html",
+        "context": "When explaining the nail bed tone test in H2 #2 — Benefit Cosmetics is one of few sources that document this additional test method",
+        "anchor_suggestion": "nail bed tone as a secondary undertone cue"
+      },
+      {
+        "url": "https://www.maybelline.com/makeup-tips/face/face-makeup-tutorials-for-beginners/how-to-find-your-skin-undertone",
+        "context": "When listing the four tests — Maybelline's guide is a reliable mainstream reference readers recognise",
+        "anchor_suggestion": "how the white vs cream clothing test works"
+      },
+      {
+        "url": "https://www.revlon.com/blogs/makeup/how-to-identify-your-skin-undertones",
+        "context": "When explaining why two reds can look completely different — Revlon uses the VINYLUX cool vs warm red example which is exactly what this section needs",
+        "anchor_suggestion": "the same red polish reading differently by undertone"
+      }
+    ]
+  }
+}
