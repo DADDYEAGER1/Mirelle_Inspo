@@ -1,0 +1,367 @@
+{
+  "file_type": "cluster_map_addendum",
+  "description": "Addendum to existing soccer cluster. Adds 10 new spoke posts. Pillar (soccer-nails) and original 5 spokes are UNCHANGED. Only receives_links_from on flag-country-nails and soccer-player-nails are updated to reflect new inbound links.",
+  "cluster_metadata": {
+    "cluster_topic": "Soccer Nails",
+    "topic_slug": "soccer",
+    "target_audience": "Global, Tier 1 countries (US, UK, Canada, Australia)",
+    "addendum_posts_count": 10,
+    "pillar_post_slug": "soccer-nails",
+    "addendum_created_date": "2026-06-26"
+  },
+
+  "existing_cluster_updates": {
+    "description": "Append these receives_links_from entries to the existing posts listed below. Do not change anything else in those posts.",
+    "updates": [
+      {
+        "slug": "flag-country-nails",
+        "append_to_receives_links_from": [
+          { "slug": "argentina-nails", "anchor_text": "flag nail art" },
+          { "slug": "brazil-nails", "anchor_text": "flag nail art" },
+          { "slug": "colombia-nails", "anchor_text": "flag nail art" },
+          { "slug": "france-nails", "anchor_text": "flag nail art" },
+          { "slug": "england-nails", "anchor_text": "flag nail art" },
+          { "slug": "spain-nails", "anchor_text": "flag nail art" },
+          { "slug": "portugal-nails", "anchor_text": "flag nail art" },
+          { "slug": "germany-nails", "anchor_text": "flag nail art" }
+        ]
+      },
+      {
+        "slug": "soccer-player-nails",
+        "append_to_receives_links_from": [
+          { "slug": "messi-nails", "anchor_text": "soccer player nails" },
+          { "slug": "ronaldo-nails", "anchor_text": "soccer player nails" }
+        ]
+      },
+      {
+        "slug": "soccer-nails",
+        "append_to_receives_links_from": [
+          { "slug": "argentina-nails", "anchor_text": "soccer nails" },
+          { "slug": "brazil-nails", "anchor_text": "soccer nails" },
+          { "slug": "colombia-nails", "anchor_text": "soccer nails" },
+          { "slug": "france-nails", "anchor_text": "soccer nails" },
+          { "slug": "england-nails", "anchor_text": "soccer nails" },
+          { "slug": "spain-nails", "anchor_text": "soccer nails" },
+          { "slug": "portugal-nails", "anchor_text": "soccer nails" },
+          { "slug": "germany-nails", "anchor_text": "soccer nails" },
+          { "slug": "messi-nails", "anchor_text": "soccer nails" },
+          { "slug": "ronaldo-nails", "anchor_text": "soccer nails" }
+        ]
+      },
+      {
+        "slug": "world-cup-nails",
+        "append_to_receives_links_from": [
+          { "slug": "argentina-nails", "anchor_text": "world cup nails" },
+          { "slug": "brazil-nails", "anchor_text": "world cup nails" },
+          { "slug": "colombia-nails", "anchor_text": "world cup nails" },
+          { "slug": "france-nails", "anchor_text": "world cup nails" },
+          { "slug": "england-nails", "anchor_text": "world cup nails" },
+          { "slug": "spain-nails", "anchor_text": "world cup nails" },
+          { "slug": "portugal-nails", "anchor_text": "world cup nails" },
+          { "slug": "germany-nails", "anchor_text": "world cup nails" },
+          { "slug": "messi-nails", "anchor_text": "world cup nails" },
+          { "slug": "ronaldo-nails", "anchor_text": "world cup nails" }
+        ]
+      }
+    ]
+  },
+
+  "new_posts": [
+    {
+      "post_id": 7,
+      "role": "spoke",
+      "title": "Argentina Nails: 20 Blue & White Designs for Every Fan",
+      "slug": "argentina-nails",
+      "primary_keyword": "argentina nails",
+      "topic_slug": "soccer",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Pinterest Trends: argentina nails +2,000% yearly change",
+        "World Cup 2026: Argentina active in knockout rounds, Messi breaking records"
+      ],
+      "why_included": "Argentina trending +2,000% yearly driven by World Cup 2026 momentum and Messi hype; distinct from flag-country-nails which covers flags generically.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "soccer-nails", "anchor_text": "soccer nails", "type": "pillar" },
+          { "slug": "world-cup-nails", "anchor_text": "world cup nails", "type": "spoke" },
+          { "slug": "flag-country-nails", "anchor_text": "flag nail art", "type": "spoke" },
+          { "slug": "messi-nails", "anchor_text": "messi nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "messi-nails", "anchor_text": "argentina nails" },
+          { "slug": "brazil-nails", "anchor_text": "argentina nails" },
+          { "slug": "colombia-nails", "anchor_text": "argentina nails" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 8,
+      "role": "spoke",
+      "title": "Brazil Nails: 20 Green & Gold Designs to Show Your Pride",
+      "slug": "brazil-nails",
+      "primary_keyword": "brazil nails",
+      "topic_slug": "soccer",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "World Cup 2026: Brazil in knockout rounds, Vinicius Jr. scoring run generating massive coverage",
+        "Pinterest: brazil nails Ideas pages with flag and jersey-inspired designs"
+      ],
+      "why_included": "Brazil is one of the most searched WC teams globally; strong Tier 1 search demand for country-specific nail designs.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "soccer-nails", "anchor_text": "soccer nails", "type": "pillar" },
+          { "slug": "world-cup-nails", "anchor_text": "world cup nails", "type": "spoke" },
+          { "slug": "flag-country-nails", "anchor_text": "flag nail art", "type": "spoke" },
+          { "slug": "argentina-nails", "anchor_text": "argentina nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "argentina-nails", "anchor_text": "brazil nails" },
+          { "slug": "colombia-nails", "anchor_text": "brazil nails" },
+          { "slug": "france-nails", "anchor_text": "brazil nails" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 9,
+      "role": "spoke",
+      "title": "Colombia Nails: 20 Red, Blue & Yellow Designs for Fans",
+      "slug": "colombia-nails",
+      "primary_keyword": "colombia nails",
+      "topic_slug": "soccer",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Pinterest Trends: colombia nails +500% yearly, +700% monthly",
+        "World Cup 2026: Colombia active in tournament"
+      ],
+      "why_included": "Colombia nails spiking on Pinterest trends data with strong monthly and yearly growth; large Spanish-speaking Tier 1 audience in US.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "soccer-nails", "anchor_text": "soccer nails", "type": "pillar" },
+          { "slug": "world-cup-nails", "anchor_text": "world cup nails", "type": "spoke" },
+          { "slug": "flag-country-nails", "anchor_text": "flag nail art", "type": "spoke" },
+          { "slug": "brazil-nails", "anchor_text": "brazil nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "argentina-nails", "anchor_text": "colombia nails" },
+          { "slug": "brazil-nails", "anchor_text": "colombia nails" },
+          { "slug": "spain-nails", "anchor_text": "colombia nails" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 10,
+      "role": "spoke",
+      "title": "France Nails: 20 Blue, White & Red Designs for Les Bleus Fans",
+      "slug": "france-nails",
+      "primary_keyword": "france nails",
+      "topic_slug": "soccer",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "World Cup 2026: France in knockout rounds, Mbappe high profile",
+        "Pinterest: france nails and french football nails Ideas pages with validated saves"
+      ],
+      "why_included": "France has one of the largest global fanbases; Tier 1 UK/Canada audience overlap strong; Mbappe drives additional search pull.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "soccer-nails", "anchor_text": "soccer nails", "type": "pillar" },
+          { "slug": "world-cup-nails", "anchor_text": "world cup nails", "type": "spoke" },
+          { "slug": "flag-country-nails", "anchor_text": "flag nail art", "type": "spoke" },
+          { "slug": "england-nails", "anchor_text": "england nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "england-nails", "anchor_text": "france nails" },
+          { "slug": "germany-nails", "anchor_text": "france nails" },
+          { "slug": "brazil-nails", "anchor_text": "france nails" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 11,
+      "role": "spoke",
+      "title": "England Nails: 20 Red & White Designs for Three Lions Fans",
+      "slug": "england-nails",
+      "primary_keyword": "england nails",
+      "topic_slug": "soccer",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "World Cup 2026: England active in knockout rounds",
+        "Pinterest: england nails and england football nails dedicated Ideas pages with strong UK saves"
+      ],
+      "why_included": "England has the largest Tier 1 nail audience of any football nation (UK); strong evergreen demand beyond the tournament.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "soccer-nails", "anchor_text": "soccer nails", "type": "pillar" },
+          { "slug": "world-cup-nails", "anchor_text": "world cup nails", "type": "spoke" },
+          { "slug": "flag-country-nails", "anchor_text": "flag nail art", "type": "spoke" },
+          { "slug": "france-nails", "anchor_text": "france nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "france-nails", "anchor_text": "england nails" },
+          { "slug": "germany-nails", "anchor_text": "england nails" },
+          { "slug": "portugal-nails", "anchor_text": "england nails" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 12,
+      "role": "spoke",
+      "title": "Spain Nails: 20 Red & Yellow Designs for La Roja Fans",
+      "slug": "spain-nails",
+      "primary_keyword": "spain nails",
+      "topic_slug": "soccer",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "World Cup 2026: Spain defending champions, Lamine Yamal driving huge search interest",
+        "Pinterest: spain nails and spanish football nails Ideas pages with validated saves"
+      ],
+      "why_included": "Spain are defending World Cup champions with Lamine Yamal as breakout star driving massive search pull globally.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "soccer-nails", "anchor_text": "soccer nails", "type": "pillar" },
+          { "slug": "world-cup-nails", "anchor_text": "world cup nails", "type": "spoke" },
+          { "slug": "flag-country-nails", "anchor_text": "flag nail art", "type": "spoke" },
+          { "slug": "colombia-nails", "anchor_text": "colombia nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "portugal-nails", "anchor_text": "spain nails" },
+          { "slug": "colombia-nails", "anchor_text": "spain nails" },
+          { "slug": "germany-nails", "anchor_text": "spain nails" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 13,
+      "role": "spoke",
+      "title": "Portugal Nails: 20 Red & Green Designs for Selecao Fans",
+      "slug": "portugal-nails",
+      "primary_keyword": "portugal nails",
+      "topic_slug": "soccer",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "World Cup 2026: Portugal active in tournament with Ronaldo",
+        "Pinterest: portugal nails Ideas pages with flag and jersey-inspired designs"
+      ],
+      "why_included": "Portugal demand driven by Ronaldo's global fanbase; strong evergreen search pull beyond the tournament.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "soccer-nails", "anchor_text": "soccer nails", "type": "pillar" },
+          { "slug": "world-cup-nails", "anchor_text": "world cup nails", "type": "spoke" },
+          { "slug": "flag-country-nails", "anchor_text": "flag nail art", "type": "spoke" },
+          { "slug": "ronaldo-nails", "anchor_text": "ronaldo nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "ronaldo-nails", "anchor_text": "portugal nails" },
+          { "slug": "spain-nails", "anchor_text": "portugal nails" },
+          { "slug": "england-nails", "anchor_text": "portugal nails" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 14,
+      "role": "spoke",
+      "title": "Germany Nails: 20 Black, Red & Gold Designs for Die Mannschaft Fans",
+      "slug": "germany-nails",
+      "primary_keyword": "germany nails",
+      "topic_slug": "soccer",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "World Cup 2026: Germany strong performer in group stage",
+        "Pinterest: germany nails Ideas pages with flag-inspired nail designs"
+      ],
+      "why_included": "Germany has large Tier 1 diaspora audience in US, UK, Canada, Australia; strong nail demand from European football fans.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "soccer-nails", "anchor_text": "soccer nails", "type": "pillar" },
+          { "slug": "world-cup-nails", "anchor_text": "world cup nails", "type": "spoke" },
+          { "slug": "flag-country-nails", "anchor_text": "flag nail art", "type": "spoke" },
+          { "slug": "england-nails", "anchor_text": "england nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "england-nails", "anchor_text": "germany nails" },
+          { "slug": "france-nails", "anchor_text": "germany nails" },
+          { "slug": "spain-nails", "anchor_text": "germany nails" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 15,
+      "role": "spoke",
+      "title": "Messi Nails: 20 Argentina-Inspired Designs for the GOAT's Fans",
+      "slug": "messi-nails",
+      "primary_keyword": "messi nails",
+      "topic_slug": "soccer",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Pinterest: dedicated Messi Nails and Uñas de Messi Ideas pages with active saves",
+        "World Cup 2026: Messi breaking WC goal records, 100-year-old superfan story going viral globally"
+      ],
+      "why_included": "Messi is the most searched football player globally; WC 2026 record-breaking run generating peak search demand right now.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "soccer-nails", "anchor_text": "soccer nails", "type": "pillar" },
+          { "slug": "world-cup-nails", "anchor_text": "world cup nails", "type": "spoke" },
+          { "slug": "argentina-nails", "anchor_text": "argentina nails", "type": "spoke" },
+          { "slug": "ronaldo-nails", "anchor_text": "ronaldo nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "argentina-nails", "anchor_text": "messi nails" },
+          { "slug": "ronaldo-nails", "anchor_text": "messi nails" },
+          { "slug": "soccer-player-nails", "anchor_text": "messi nails" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 16,
+      "role": "spoke",
+      "title": "Ronaldo Nails: 20 Portugal-Inspired Designs for CR7 Fans",
+      "slug": "ronaldo-nails",
+      "primary_keyword": "ronaldo nails",
+      "topic_slug": "soccer",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Pinterest: dedicated Ronaldo Nails and Cristiano Ronaldo Nails Ideas pages with strong saves",
+        "World Cup 2026: Portugal active in tournament; Ronaldo has largest social media following of any athlete globally"
+      ],
+      "why_included": "Ronaldo has evergreen global search demand independent of any tournament; CR7 fanbase is one of the largest on earth across all Tier 1 markets.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "soccer-nails", "anchor_text": "soccer nails", "type": "pillar" },
+          { "slug": "world-cup-nails", "anchor_text": "world cup nails", "type": "spoke" },
+          { "slug": "portugal-nails", "anchor_text": "portugal nails", "type": "spoke" },
+          { "slug": "messi-nails", "anchor_text": "messi nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "portugal-nails", "anchor_text": "ronaldo nails" },
+          { "slug": "messi-nails", "anchor_text": "ronaldo nails" },
+          { "slug": "soccer-player-nails", "anchor_text": "ronaldo nails" }
+        ]
+      },
+      "status": "approved"
+    }
+  ],
+
+  "keyword_ownership_addendum": {
+    "description": "Append these entries to the existing keyword_ownership_registry. No conflicts with existing 6 keywords confirmed.",
+    "new_entries": [
+      { "primary_keyword": "argentina nails", "owned_by_slug": "argentina-nails", "owned_by_title": "Argentina Nails: 20 Blue & White Designs for Every Fan", "source": "new post" },
+      { "primary_keyword": "brazil nails", "owned_by_slug": "brazil-nails", "owned_by_title": "Brazil Nails: 20 Green & Gold Designs to Show Your Pride", "source": "new post" },
+      { "primary_keyword": "colombia nails", "owned_by_slug": "colombia-nails", "owned_by_title": "Colombia Nails: 20 Red, Blue & Yellow Designs for Fans", "source": "new post" },
+      { "primary_keyword": "france nails", "owned_by_slug": "france-nails", "owned_by_title": "France Nails: 20 Blue, White & Red Designs for Les Bleus Fans", "source": "new post" },
+      { "primary_keyword": "england nails", "owned_by_slug": "england-nails", "owned_by_title": "England Nails: 20 Red & White Designs for Three Lions Fans", "source": "new post" },
+      { "primary_keyword": "spain nails", "owned_by_slug": "spain-nails", "owned_by_title": "Spain Nails: 20 Red & Yellow Designs for La Roja Fans", "source": "new post" },
+      { "primary_keyword": "portugal nails", "owned_by_slug": "portugal-nails", "owned_by_title": "Portugal Nails: 20 Red & Green Designs for Selecao Fans", "source": "new post" },
+      { "primary_keyword": "germany nails", "owned_by_slug": "germany-nails", "owned_by_title": "Germany Nails: 20 Black, Red & Gold Designs for Die Mannschaft Fans", "source": "new post" },
+      { "primary_keyword": "messi nails", "owned_by_slug": "messi-nails", "owned_by_title": "Messi Nails: 20 Argentina-Inspired Designs for the GOAT's Fans", "source": "new post" },
+      { "primary_keyword": "ronaldo nails", "owned_by_slug": "ronaldo-nails", "owned_by_title": "Ronaldo Nails: 20 Portugal-Inspired Designs for CR7 Fans", "source": "new post" }
+    ]
+  }
+}
