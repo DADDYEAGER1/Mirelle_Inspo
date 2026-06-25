@@ -1,0 +1,366 @@
+{
+  "cluster_metadata": {
+    "cluster_topic": "Nails by Mood",
+    "topic_slug": "mood-nails",
+    "target_audience": "Global, Tier 1 countries (US, UK, Canada, Australia)",
+    "total_posts": 8,
+    "intent_breakdown": {
+      "informational": 3,
+      "inspirational": 5,
+      "tutorial": 0,
+      "comparison": 0,
+      "seasonal_trend": 0
+    },
+    "pillar_post_slug": "nails-by-mood",
+    "created_date": "2026-06-26"
+  },
+
+  "existing_site_posts_excluded": [
+    {
+      "url": "https://mirelleinspo.com/blog/goth/witchy-nails",
+      "title": "Witchy Nails for Every Aesthetic",
+      "inferred_primary_keyword": "witchy nails",
+      "inferred_intent": "inspirational",
+      "exclusion_reason": "Already exists on mirelleinspo.com — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/goth/goth-nails",
+      "title": "Goth Nails: The Complete Dark Aesthetic Guide",
+      "inferred_primary_keyword": "goth nails",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists on mirelleinspo.com — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/goth/pastel-goth-nails",
+      "title": "Pastel Goth Nails: 60+ Creepy Cute Ideas",
+      "inferred_primary_keyword": "pastel goth nails",
+      "inferred_intent": "inspirational",
+      "exclusion_reason": "Already exists on mirelleinspo.com — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/aesthetic-nails/mob-wife-nails",
+      "title": "Mob Wife Nails: Bold Glamorous Almond Designs",
+      "inferred_primary_keyword": "mob wife nails",
+      "inferred_intent": "inspirational",
+      "exclusion_reason": "Already exists on mirelleinspo.com — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/nails-by-color/blue-nails",
+      "title": "Blue Nails: Every Shade from Sky to Midnight",
+      "inferred_primary_keyword": "blue nails",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists on mirelleinspo.com — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/coffin-nails/coffin-ombre-nails",
+      "title": "Coffin Ombre Nails: 30+ Ideas & Colour Guide",
+      "inferred_primary_keyword": "coffin ombre nails",
+      "inferred_intent": "inspirational",
+      "exclusion_reason": "Already exists on mirelleinspo.com — keyword reserved"
+    }
+  ],
+
+  "posts": [
+    {
+      "post_id": 1,
+      "role": "pillar",
+      "title": "Nails by Mood: The Complete Guide to Choosing Your Colour by How You Feel",
+      "slug": "nails-by-mood",
+      "primary_keyword": "nails by mood",
+      "intent": "informational",
+      "search_demand_signals": [
+        "2025 survey: 68% of respondents say their nail color directly reflects their current mood",
+        "Pinterest: dedicated 'Mood nails' and 'Nail mood board' category pages with 900+ saves boards",
+        "Beetles Gel, Glamnetic, Semilac, Liberation Nails all publish mood-based nail color guides",
+        "Google: 'what color should I paint my nails' is a documented search query with full articles targeting it",
+        "Gen Z 38% more likely to use beauty as emotional connection (Pinterest Predicts 2026)"
+      ],
+      "why_included": "Broadest keyword in the cluster with the widest emotional framing. No competitor post on mirelleinspo.com owns this entry point. Acts as the hub that maps every major human emotion to a nail aesthetic, linking out to every spoke.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "dopamine-nails", "anchor_text": "dopamine nails", "type": "spoke" },
+          { "slug": "heartbreak-nail-designs", "anchor_text": "heartbreak nail designs", "type": "spoke" },
+          { "slug": "nails-for-confidence", "anchor_text": "nails for confidence", "type": "spoke" },
+          { "slug": "romantic-nails", "anchor_text": "romantic nails", "type": "spoke" },
+          { "slug": "dark-feminine-nails", "anchor_text": "dark feminine nails", "type": "spoke" },
+          { "slug": "nail-color-psychology", "anchor_text": "nail color psychology", "type": "spoke" },
+          { "slug": "happy-nails", "anchor_text": "happy nails", "type": "spoke" }
+        ],
+        "gallery_link": {
+          "url": "https://mirelleinspo.com/inspo/nails-by-mood-inspiration-gallery",
+          "anchor_text": "nails by mood inspiration gallery"
+        },
+        "receives_links_from": [
+          { "slug": "dopamine-nails", "anchor_text": "nails by mood" },
+          { "slug": "heartbreak-nail-designs", "anchor_text": "nails by mood" },
+          { "slug": "nails-for-confidence", "anchor_text": "nails by mood" },
+          { "slug": "romantic-nails", "anchor_text": "nails by mood" },
+          { "slug": "dark-feminine-nails", "anchor_text": "nails by mood" },
+          { "slug": "nail-color-psychology", "anchor_text": "nails by mood" },
+          { "slug": "happy-nails", "anchor_text": "nails by mood" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 2,
+      "role": "spoke",
+      "title": "Dopamine Nails: Colors That Actually Boost Your Mood",
+      "slug": "dopamine-nails",
+      "primary_keyword": "dopamine nails",
+      "intent": "informational",
+      "search_demand_signals": [
+        "Semilac, multiple beauty blogs publish dedicated 'dopamine nails' articles — confirmed keyword",
+        "Pinterest: dopamine dressing + dopamine nails is a documented cross-category trend with active boards",
+        "Color psychology research confirms bright colors (yellow, orange, pink) trigger dopamine response — editorial hooks available",
+        "Google autocomplete: 'dopamine nails' appears as a standalone search query"
+      ],
+      "why_included": "Dopamine nails is the happy-energy, science-backed sub-angle of mood nails. It's a specific keyword with its own search identity — different from generic 'happy nails' because it carries the color psychology framing people are actively searching for.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "nails-by-mood", "anchor_text": "nails by mood", "type": "pillar" },
+          { "slug": "happy-nails", "anchor_text": "happy nails", "type": "spoke" },
+          { "slug": "nail-color-psychology", "anchor_text": "nail color psychology", "type": "spoke" },
+          { "slug": "romantic-nails", "anchor_text": "romantic nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "nails-by-mood", "anchor_text": "dopamine nails" },
+          { "slug": "happy-nails", "anchor_text": "dopamine nails" },
+          { "slug": "nail-color-psychology", "anchor_text": "dopamine nails" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 3,
+      "role": "spoke",
+      "title": "Nails for When You're Heartbroken: Dark, Beautiful, and Unapologetically You",
+      "slug": "heartbreak-nail-designs",
+      "primary_keyword": "heartbreak nail designs",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Pinterest: dedicated 'heartbreak nail designs', 'breakup nails', and 'post breakup nails' category pages with active saves",
+        "TikTok: #breakupnails content with nail techs asking 'what would you do for breakup nails?' — proven community engagement",
+        "Sad girl aesthetic (TikTok, Medium) has millions of views; nails are a core component of this mood",
+        "Emotionally specific search: 'heartbreak nails' appears in Pinterest related searches alongside 'dark valentine nails'"
+      ],
+      "why_included": "The heartbreak/sad mood is one of the most emotionally charged nail search moments — people actively seek nail inspo as self-expression and comfort after a breakup. Proven Pinterest demand with dedicated boards. Totally uncovered on mirelleinspo.com.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "nails-by-mood", "anchor_text": "nails by mood", "type": "pillar" },
+          { "slug": "dark-feminine-nails", "anchor_text": "dark feminine nails", "type": "spoke" },
+          { "slug": "nail-color-psychology", "anchor_text": "nail color psychology", "type": "spoke" },
+          { "slug": "nails-for-confidence", "anchor_text": "nails for confidence", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "nails-by-mood", "anchor_text": "heartbreak nail designs" },
+          { "slug": "dark-feminine-nails", "anchor_text": "heartbreak nail designs" },
+          { "slug": "nails-for-confidence", "anchor_text": "heartbreak nail designs" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 4,
+      "role": "spoke",
+      "title": "Nails When You Feel Like a Main Character: Bold, Confident, Powerful",
+      "slug": "nails-for-confidence",
+      "primary_keyword": "nails for confidence",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Pinterest: dedicated 'Confident nails' category page exists with active saves",
+        "nailsforconfidence.com is a standalone site — confirms this keyword has enough demand to anchor a whole domain",
+        "Color psychology studies confirm red and dark colors increase confidence — editorial angle backed by research",
+        "TikTok: 'main character nails', 'villain era nails', 'power nails' language all clusters around confidence mood"
+      ],
+      "why_included": "Confidence is one of the top emotional entry points for nail choice — backed by psychology research and a dedicated Pinterest category. The 'main character energy' framing connects to a culturally resonant 2025/2026 concept that elevates search relevance.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "nails-by-mood", "anchor_text": "nails by mood", "type": "pillar" },
+          { "slug": "dark-feminine-nails", "anchor_text": "dark feminine nails", "type": "spoke" },
+          { "slug": "heartbreak-nail-designs", "anchor_text": "heartbreak nail designs", "type": "spoke" },
+          { "slug": "nail-color-psychology", "anchor_text": "nail color psychology", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "nails-by-mood", "anchor_text": "nails for confidence" },
+          { "slug": "dark-feminine-nails", "anchor_text": "nails for confidence" },
+          { "slug": "heartbreak-nail-designs", "anchor_text": "nails for confidence" },
+          { "slug": "nail-color-psychology", "anchor_text": "nails for confidence" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 5,
+      "role": "spoke",
+      "title": "Nails That Match Your Romantic Mood: Soft, Dreamy, Feminine",
+      "slug": "romantic-nails",
+      "primary_keyword": "romantic nails",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Pinterest: floral, blush, soft girl, cottagecore nail boards all cluster around romantic mood — massive save volume",
+        "mirelleinspo.com's Bruno Mars Nails post confirms 'romantic' is a defined nail aesthetic the audience searches and engages with",
+        "Pinterest Predicts 2026: 'Vamp Romantic' named as a rising dark-romantic aesthetic — romantic mood nail search is growing",
+        "Romantic nail art (florals, blush, pearls) is cited across Vogue Scandinavia, Beetles, nail trend roundups as a top 2025-2026 category"
+      ],
+      "why_included": "Romantic is a distinct, high-save mood category on Pinterest with its own visual language (florals, blush, pearls, soft chrome). Evergreen demand year-round with peaks around Valentine's, anniversaries, date nights. Clearly differentiated from other spokes.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "nails-by-mood", "anchor_text": "nails by mood", "type": "pillar" },
+          { "slug": "happy-nails", "anchor_text": "happy nails", "type": "spoke" },
+          { "slug": "dopamine-nails", "anchor_text": "dopamine nails", "type": "spoke" },
+          { "slug": "heartbreak-nail-designs", "anchor_text": "heartbreak nail designs", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "nails-by-mood", "anchor_text": "romantic nails" },
+          { "slug": "happy-nails", "anchor_text": "romantic nails" },
+          { "slug": "dopamine-nails", "anchor_text": "romantic nails" },
+          { "slug": "heartbreak-nail-designs", "anchor_text": "romantic nails" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 6,
+      "role": "spoke",
+      "title": "Nails for Your Villain Era: Dark Feminine, Moody, Unapologetic",
+      "slug": "dark-feminine-nails",
+      "primary_keyword": "dark feminine nails",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "TikTok: millions of posts under #darkfeminineenergy and #darkfemininenails — one of the biggest mood-driven nail categories on the platform",
+        "Pinterest: dedicated 'Dark feminine energy nails' and 'Dark feminine aesthetic nails' category pages with high save volumes",
+        "Nail Encyclopedia on mirelleinspo.com references 'dark feminine nails' as a linked guide — confirms audience searches this from the site already",
+        "Pinterest Predicts 2026: 'Vamp Romantic' (+180% gothic coffin nails) signals dark feminine mood nails are on a growth curve"
+      ],
+      "why_included": "Dark feminine / villain era is one of the most culturally resonant mood-driven nail categories for Gen Z and millennials in 2025-2026. Differentiated from existing goth posts by the mood and power framing rather than aesthetic genre. Nail Encyclopedia reference confirms site audience is already searching this.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "nails-by-mood", "anchor_text": "nails by mood", "type": "pillar" },
+          { "slug": "nails-for-confidence", "anchor_text": "nails for confidence", "type": "spoke" },
+          { "slug": "heartbreak-nail-designs", "anchor_text": "heartbreak nail designs", "type": "spoke" },
+          { "slug": "nail-color-psychology", "anchor_text": "nail color psychology", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "nails-by-mood", "anchor_text": "dark feminine nails" },
+          { "slug": "nails-for-confidence", "anchor_text": "dark feminine nails" },
+          { "slug": "heartbreak-nail-designs", "anchor_text": "dark feminine nails" },
+          { "slug": "nail-color-psychology", "anchor_text": "dark feminine nails" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 7,
+      "role": "spoke",
+      "title": "What Your Nail Color Says About You: Color Psychology Decoded",
+      "slug": "nail-color-psychology",
+      "primary_keyword": "nail color psychology",
+      "intent": "informational",
+      "search_demand_signals": [
+        "Google: 'psychology of nail colors' and 'what your nail color says about you' are confirmed search queries with full articles on Glamnetic, F(VEX), ArtNailNYC, Liberation Nails, Vocal Media, Medium",
+        "2025 survey data (68% mood-color link) gives this post unique citable anchor",
+        "Pinterest: color psychology in nail art is a documented interest category",
+        "Multiple nail spas publish on this topic — signals it's a common client question = real search demand"
+      ],
+      "why_included": "The intellectual backbone of the cluster — explains the science and psychology behind why people choose nail colors based on feelings. Different intent from the pillar (which curates looks) and the spokes (which inspire). Proven search keyword with consistent multi-source coverage.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "nails-by-mood", "anchor_text": "nails by mood", "type": "pillar" },
+          { "slug": "dopamine-nails", "anchor_text": "dopamine nails", "type": "spoke" },
+          { "slug": "dark-feminine-nails", "anchor_text": "dark feminine nails", "type": "spoke" },
+          { "slug": "nails-for-confidence", "anchor_text": "nails for confidence", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "nails-by-mood", "anchor_text": "nail color psychology" },
+          { "slug": "dopamine-nails", "anchor_text": "nail color psychology" },
+          { "slug": "heartbreak-nail-designs", "anchor_text": "nail color psychology" },
+          { "slug": "nails-for-confidence", "anchor_text": "nail color psychology" },
+          { "slug": "dark-feminine-nails", "anchor_text": "nail color psychology" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 8,
+      "role": "spoke",
+      "title": "Nails for When You're Feeling Happy: Joyful, Playful, Bright",
+      "slug": "happy-nails",
+      "primary_keyword": "happy nails",
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Pinterest: Byrdie article '16 Happy Nail Art Designs That'll Boost Your Mood' is actively pinned and saved — confirms search intent",
+        "Google autocomplete: 'happy nail designs', 'nails that make you happy', 'cheerful nail ideas' are discoverable queries",
+        "Color psychology articles confirm yellow/orange/bright pink = joy and optimism — gives this post strong editorial anchoring",
+        "TikTok: joyful, bright, playful aesthetics (fruitcore, pastel rainbow, skittle nails) consistently cluster under happiness mood language"
+      ],
+      "why_included": "The purely joyful counterpart to heartbreak. Distinct from dopamine nails (which is science-framed) — this is pure bright inspiration for someone feeling good and wanting their nails to match. Pinterest-proven demand via Byrdie pin activity. Completes the emotional spectrum of the cluster.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "nails-by-mood", "anchor_text": "nails by mood", "type": "pillar" },
+          { "slug": "dopamine-nails", "anchor_text": "dopamine nails", "type": "spoke" },
+          { "slug": "romantic-nails", "anchor_text": "romantic nails", "type": "spoke" },
+          { "slug": "nails-for-confidence", "anchor_text": "nails for confidence", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "nails-by-mood", "anchor_text": "happy nails" },
+          { "slug": "dopamine-nails", "anchor_text": "happy nails" },
+          { "slug": "romantic-nails", "anchor_text": "happy nails" }
+        ]
+      },
+      "status": "approved"
+    }
+  ],
+
+  "keyword_ownership_registry": {
+    "description": "Master list of all primary keywords — one per post, no overlaps, includes existing site post exclusions",
+    "entries": [
+      { "primary_keyword": "nails by mood", "owned_by_slug": "nails-by-mood", "owned_by_title": "Nails by Mood: The Complete Guide to Choosing Your Colour by How You Feel", "source": "new post" },
+      { "primary_keyword": "dopamine nails", "owned_by_slug": "dopamine-nails", "owned_by_title": "Dopamine Nails: Colors That Actually Boost Your Mood", "source": "new post" },
+      { "primary_keyword": "heartbreak nail designs", "owned_by_slug": "heartbreak-nail-designs", "owned_by_title": "Nails for When You're Heartbroken: Dark, Beautiful, and Unapologetically You", "source": "new post" },
+      { "primary_keyword": "nails for confidence", "owned_by_slug": "nails-for-confidence", "owned_by_title": "Nails When You Feel Like a Main Character: Bold, Confident, Powerful", "source": "new post" },
+      { "primary_keyword": "romantic nails", "owned_by_slug": "romantic-nails", "owned_by_title": "Nails That Match Your Romantic Mood: Soft, Dreamy, Feminine", "source": "new post" },
+      { "primary_keyword": "dark feminine nails", "owned_by_slug": "dark-feminine-nails", "owned_by_title": "Nails for Your Villain Era: Dark Feminine, Moody, Unapologetic", "source": "new post" },
+      { "primary_keyword": "nail color psychology", "owned_by_slug": "nail-color-psychology", "owned_by_title": "What Your Nail Color Says About You: Color Psychology Decoded", "source": "new post" },
+      { "primary_keyword": "happy nails", "owned_by_slug": "happy-nails", "owned_by_title": "Nails for When You're Feeling Happy: Joyful, Playful, Bright", "source": "new post" },
+      { "primary_keyword": "witchy nails", "owned_by_slug": "mirelleinspo.com/blog/goth/witchy-nails", "owned_by_title": "Witchy Nails for Every Aesthetic", "source": "existing site post" },
+      { "primary_keyword": "goth nails", "owned_by_slug": "mirelleinspo.com/blog/goth/goth-nails", "owned_by_title": "Goth Nails: The Complete Dark Aesthetic Guide", "source": "existing site post" },
+      { "primary_keyword": "pastel goth nails", "owned_by_slug": "mirelleinspo.com/blog/goth/pastel-goth-nails", "owned_by_title": "Pastel Goth Nails: 60+ Creepy Cute Ideas", "source": "existing site post" },
+      { "primary_keyword": "mob wife nails", "owned_by_slug": "mirelleinspo.com/blog/aesthetic-nails/mob-wife-nails", "owned_by_title": "Mob Wife Nails: Bold Glamorous Almond Designs", "source": "existing site post" },
+      { "primary_keyword": "blue nails", "owned_by_slug": "mirelleinspo.com/blog/nails-by-color/blue-nails", "owned_by_title": "Blue Nails: Every Shade from Sky to Midnight", "source": "existing site post" },
+      { "primary_keyword": "coffin ombre nails", "owned_by_slug": "mirelleinspo.com/blog/coffin-nails/coffin-ombre-nails", "owned_by_title": "Coffin Ombre Nails: 30+ Ideas & Colour Guide", "source": "existing site post" }
+    ]
+  },
+
+  "merged_posts_log": [
+    {
+      "original_topics": ["sad nails", "heartbreak nails"],
+      "merged_into": "Nails for When You're Heartbroken: Dark, Beautiful, and Unapologetically You",
+      "reason": "'Sad nails' has no standalone search demand signal. 'Heartbreak nail designs' is the specific emotional trigger with proven Pinterest boards and TikTok content. Merged into the stronger keyword."
+    },
+    {
+      "original_topics": ["angry nails", "villain era nails", "dark feminine energy nails"],
+      "merged_into": "Nails for Your Villain Era: Dark Feminine, Moody, Unapologetic",
+      "reason": "'Angry nails' has zero standalone search demand. 'Villain era' and 'dark feminine' are the culturally resonant expressions of this mood with proven TikTok and Pinterest demand. Merged into the strongest combined keyword."
+    }
+  ],
+
+  "killed_posts_log": [
+    {
+      "topic": "Mood-changing nail polish (temperature-reactive)",
+      "reason": "Transactional intent — people searching this want to buy a product, not read inspiration content. Excluded per cluster rules."
+    },
+    {
+      "topic": "Nails for anxiety (standalone)",
+      "reason": "Low demand signal on only one source. Overlaps thematically with nails-for-confidence (the inverse emotional state). Coverage absorbed into pillar post."
+    },
+    {
+      "topic": "Nails for your cozy/calm mood",
+      "reason": "Only one demand source found. Too niche to stand alone as a spoke. Content can be referenced within the pillar as part of the broader mood map."
+    },
+    {
+      "topic": "Nails that match the seasons by mood",
+      "reason": "Would cannibalize existing seasonal posts on mirelleinspo.com (spring nails, summer nail ideas, summer nail trends 2026 etc.) — keyword conflict with existing site content."
+    }
+  ]
+}
