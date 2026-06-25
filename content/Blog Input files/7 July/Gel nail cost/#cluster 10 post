@@ -1,0 +1,431 @@
+{
+  "cluster_metadata": {
+    "cluster_topic": "Gel Nails Cost",
+    "topic_slug": "gel-nails-cost",
+    "target_audience": "Global, Tier 1 countries (US, UK, Canada, Australia)",
+    "total_posts": 10,
+    "intent_breakdown": {
+      "informational": 6,
+      "comparison": 2,
+      "tutorial": 1,
+      "inspirational": 0,
+      "seasonal_trend": 0
+    },
+    "pillar_post_slug": "gel-nails-cost",
+    "created_date": "2026-06-26"
+  },
+
+  "existing_site_posts_excluded": [
+    {
+      "url": "https://mirelleinspo.com/blog/gel-vs-acrylic-almond-nails",
+      "title": "Gel vs Acrylic Almond Nails: Which to Get",
+      "inferred_primary_keyword": "gel vs acrylic almond nails",
+      "inferred_intent": "comparison",
+      "exclusion_reason": "Already exists on mirelleinspo.com — keyword reserved. Gel pricing appears as one section only."
+    },
+    {
+      "url": "https://mirelleinspo.com/work-nails/gel-nail-polish-for-work",
+      "title": "Best Gel Nail Polish for Work: Lasts a Full Fortnight",
+      "inferred_primary_keyword": "gel nail polish for work",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists on mirelleinspo.com — keyword reserved. Cost mentioned incidentally."
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/blooming-gel-nails",
+      "title": "Blooming Gel Nails: Easy Watercolor Nail Art Tutorial 2025",
+      "inferred_primary_keyword": "blooming gel nails tutorial",
+      "inferred_intent": "tutorial",
+      "exclusion_reason": "Already exists on mirelleinspo.com — keyword reserved. Salon cost comparison mentioned once."
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/acrylic-vs-gel-vs-press-on-prom-nails",
+      "title": "Acrylic vs Gel vs Press-On Nails for Prom",
+      "inferred_primary_keyword": "acrylic vs gel vs press-on prom nails",
+      "inferred_intent": "comparison",
+      "exclusion_reason": "Already exists on mirelleinspo.com — keyword reserved. Cost is one comparison column."
+    }
+  ],
+
+  "posts": [
+    {
+      "post_id": 1,
+      "role": "pillar",
+      "title": "How Much Do Gel Nails Cost: Full Pricing Guide",
+      "slug": "gel-nails-cost",
+      "primary_keyword": "gel nails cost",
+      "intent": "informational",
+      "search_demand_signals": [
+        "Dedicated competitor pages: StyleSeat, Airtasker, VBP, EasyNailTech, PolishPops all publish standalone gel cost guides",
+        "Google autocomplete: top suggestion across US, UK, AU, CA for gel nail pricing queries",
+        "Search volume: 200K–320K/mo globally"
+      ],
+      "why_included": "Second-highest volume cost query in the nail niche globally after the broad pillar. Covers all gel types at a high level — gel polish, extensions, Gel-X, Shellac, BIAB — and links out to every spoke for deeper pricing by service type.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "gel-manicure-cost", "anchor_text": "gel manicure cost", "type": "spoke" },
+          { "slug": "gel-nail-extensions-cost", "anchor_text": "gel nail extensions cost", "type": "spoke" },
+          { "slug": "gel-x-cost", "anchor_text": "how much does Gel-X cost", "type": "spoke" },
+          { "slug": "shellac-cost", "anchor_text": "how much does Shellac cost", "type": "spoke" },
+          { "slug": "gel-nails-worth-cost", "anchor_text": "are gel nails worth the cost", "type": "spoke" },
+          { "slug": "gel-nail-removal-cost", "anchor_text": "gel nail removal cost", "type": "spoke" },
+          { "slug": "gel-nails-annual-cost", "anchor_text": "gel nails annual cost", "type": "spoke" },
+          { "slug": "diy-gel-nails-vs-salon-cost", "anchor_text": "DIY gel nails vs salon cost", "type": "spoke" },
+          { "slug": "how-to-make-gel-nails-last-longer", "anchor_text": "how to make gel nails last longer", "type": "spoke" }
+        ],
+        "gallery_link": null,
+        "receives_links_from": [
+          { "slug": "gel-manicure-cost", "anchor_text": "gel nails cost" },
+          { "slug": "gel-nail-extensions-cost", "anchor_text": "gel nails cost" },
+          { "slug": "gel-x-cost", "anchor_text": "gel nails cost" },
+          { "slug": "shellac-cost", "anchor_text": "gel nails cost" },
+          { "slug": "gel-nails-worth-cost", "anchor_text": "gel nails cost" },
+          { "slug": "gel-nail-removal-cost", "anchor_text": "gel nails cost" },
+          { "slug": "gel-nails-annual-cost", "anchor_text": "gel nails cost" },
+          { "slug": "diy-gel-nails-vs-salon-cost", "anchor_text": "gel nails cost" },
+          { "slug": "how-to-make-gel-nails-last-longer", "anchor_text": "gel nails cost" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 2,
+      "role": "spoke",
+      "title": "How Much Does a Gel Manicure Cost",
+      "slug": "gel-manicure-cost",
+      "primary_keyword": "gel manicure cost",
+      "intent": "informational",
+      "search_demand_signals": [
+        "StyleSeat dedicated gel manicure cost page — one of their highest-traffic nail content pieces",
+        "HerMoney 'is gel manicure worth it' article — signals cost-adjacent demand from the same audience",
+        "Search volume: 80K–140K/mo globally — gel polish on natural nails is the most common first gel service"
+      ],
+      "why_included": "Most-searched gel service type — gel polish applied to natural nails. Distinct from extensions. Massive first-timer audience who specifically search 'gel manicure cost' rather than the broader 'gel nails cost'.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "gel-nails-cost", "anchor_text": "gel nails cost", "type": "pillar" },
+          { "slug": "gel-nail-extensions-cost", "anchor_text": "gel nail extensions cost", "type": "spoke" },
+          { "slug": "shellac-cost", "anchor_text": "how much does Shellac cost", "type": "spoke" },
+          { "slug": "gel-nails-worth-cost", "anchor_text": "are gel nails worth the cost", "type": "spoke" }
+        ],
+        "gallery_link": null,
+        "receives_links_from": [
+          { "slug": "gel-nails-cost", "anchor_text": "gel manicure cost" },
+          { "slug": "gel-nail-extensions-cost", "anchor_text": "gel manicure cost" },
+          { "slug": "gel-x-cost", "anchor_text": "gel manicure cost" },
+          { "slug": "shellac-cost", "anchor_text": "gel manicure cost" },
+          { "slug": "gel-nails-worth-cost", "anchor_text": "gel manicure cost" },
+          { "slug": "gel-nails-annual-cost", "anchor_text": "gel manicure cost" },
+          { "slug": "diy-gel-nails-vs-salon-cost", "anchor_text": "gel manicure cost" },
+          { "slug": "how-to-make-gel-nails-last-longer", "anchor_text": "gel manicure cost" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 3,
+      "role": "spoke",
+      "title": "How Much Do Gel Nail Extensions Cost",
+      "slug": "gel-nail-extensions-cost",
+      "primary_keyword": "gel nail extensions cost",
+      "intent": "informational",
+      "search_demand_signals": [
+        "UKCosts.net dedicated gel nail extensions cost page ranking in UK SERPs",
+        "VBP dedicated extensions pricing section with strong engagement signals",
+        "Search volume: 40K–80K/mo — distinct from gel polish demand, higher-spend audience"
+      ],
+      "why_included": "Extensions are a distinct, higher-cost service with their own search demand. Readers searching this have already decided they want length — they're not confused with gel polish. Hard gel merged in as same service type.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "gel-nails-cost", "anchor_text": "gel nails cost", "type": "pillar" },
+          { "slug": "gel-manicure-cost", "anchor_text": "gel manicure cost", "type": "spoke" },
+          { "slug": "gel-x-cost", "anchor_text": "how much does Gel-X cost", "type": "spoke" },
+          { "slug": "gel-nail-removal-cost", "anchor_text": "gel nail removal cost", "type": "spoke" }
+        ],
+        "gallery_link": null,
+        "receives_links_from": [
+          { "slug": "gel-nails-cost", "anchor_text": "gel nail extensions cost" },
+          { "slug": "gel-manicure-cost", "anchor_text": "gel nail extensions cost" },
+          { "slug": "gel-x-cost", "anchor_text": "gel nail extensions cost" },
+          { "slug": "gel-nails-worth-cost", "anchor_text": "gel nail extensions cost" },
+          { "slug": "gel-nail-removal-cost", "anchor_text": "gel nail extensions cost" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 4,
+      "role": "spoke",
+      "title": "How Much Does Gel-X Cost",
+      "slug": "gel-x-cost",
+      "primary_keyword": "gel-x cost",
+      "intent": "informational",
+      "search_demand_signals": [
+        "Beyond Polish dedicated Gel-X cost page ranking well in US/UK SERPs with salon vs DIY breakdown",
+        "Google autocomplete: 'how much does gel-x cost' appearing as named search — branded demand rising since 2024",
+        "Search volume: 20K–40K/mo — growing fast as Gel-X becomes mainstream across US, UK, AU"
+      ],
+      "why_included": "Gel-X is now a mainstream named service with its own search demand. Clients ask for it by name. Distinct from generic gel extensions — different system, different pricing structure (no fills), different audience.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "gel-nails-cost", "anchor_text": "gel nails cost", "type": "pillar" },
+          { "slug": "gel-nail-extensions-cost", "anchor_text": "gel nail extensions cost", "type": "spoke" },
+          { "slug": "gel-manicure-cost", "anchor_text": "gel manicure cost", "type": "spoke" },
+          { "slug": "gel-nail-removal-cost", "anchor_text": "gel nail removal cost", "type": "spoke" }
+        ],
+        "gallery_link": null,
+        "receives_links_from": [
+          { "slug": "gel-nails-cost", "anchor_text": "how much does Gel-X cost" },
+          { "slug": "gel-nail-extensions-cost", "anchor_text": "how much does Gel-X cost" },
+          { "slug": "diy-gel-nails-vs-salon-cost", "anchor_text": "Gel-X cost" },
+          { "slug": "gel-nail-removal-cost", "anchor_text": "Gel-X cost" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 5,
+      "role": "spoke",
+      "title": "How Much Does Shellac Cost",
+      "slug": "shellac-cost",
+      "primary_keyword": "shellac cost",
+      "intent": "informational",
+      "search_demand_signals": [
+        "EasyNailTech covers Shellac pricing as a distinct section — 'shellac manicures' named separately from gel polish",
+        "CND Shellac is a globally recognised brand name — clients book by name in UK and AU especially",
+        "Search volume: 25K–50K/mo — branded named search distinct from generic gel manicure queries"
+      ],
+      "why_included": "Shellac is a branded gel system with its own named search demand, particularly strong in UK and Australia where CND Shellac dominates salon menus. Readers searching 'shellac cost' are not searching 'gel manicure cost' — distinct intent and audience.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "gel-nails-cost", "anchor_text": "gel nails cost", "type": "pillar" },
+          { "slug": "gel-manicure-cost", "anchor_text": "gel manicure cost", "type": "spoke" },
+          { "slug": "gel-nails-worth-cost", "anchor_text": "are gel nails worth the cost", "type": "spoke" },
+          { "slug": "how-to-make-gel-nails-last-longer", "anchor_text": "how to make gel nails last longer", "type": "spoke" }
+        ],
+        "gallery_link": null,
+        "receives_links_from": [
+          { "slug": "gel-nails-cost", "anchor_text": "how much does Shellac cost" },
+          { "slug": "gel-manicure-cost", "anchor_text": "how much does Shellac cost" },
+          { "slug": "gel-nails-worth-cost", "anchor_text": "Shellac cost" },
+          { "slug": "how-to-make-gel-nails-last-longer", "anchor_text": "Shellac cost" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 6,
+      "role": "spoke",
+      "title": "Gel Nails vs Regular Nails: Is the Extra Cost Worth It",
+      "slug": "gel-nails-worth-cost",
+      "primary_keyword": "are gel nails worth the cost",
+      "intent": "comparison",
+      "search_demand_signals": [
+        "HerMoney dedicated article 'Is a Gel Manicure Worth the Money?' — strong organic engagement signals",
+        "Google PAA: 'is gel worth it', 'are gel nails worth the price' appear consistently in gel cost SERPs",
+        "Reddit: high-engagement threads on gel vs regular polish value — confirmed organic demand"
+      ],
+      "why_included": "High-intent decision post for someone on the fence about upgrading from regular polish. Unique comparison intent — not about which gel type, but whether gel is worth it at all. Confirmed PAA and editorial demand.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "gel-nails-cost", "anchor_text": "gel nails cost", "type": "pillar" },
+          { "slug": "gel-manicure-cost", "anchor_text": "gel manicure cost", "type": "spoke" },
+          { "slug": "gel-nails-annual-cost", "anchor_text": "gel nails annual cost", "type": "spoke" },
+          { "slug": "diy-gel-nails-vs-salon-cost", "anchor_text": "DIY gel nails vs salon cost", "type": "spoke" }
+        ],
+        "gallery_link": null,
+        "receives_links_from": [
+          { "slug": "gel-nails-cost", "anchor_text": "are gel nails worth the cost" },
+          { "slug": "gel-manicure-cost", "anchor_text": "are gel nails worth the cost" },
+          { "slug": "shellac-cost", "anchor_text": "are gel nails worth the cost" },
+          { "slug": "gel-nails-annual-cost", "anchor_text": "are gel nails worth the cost" },
+          { "slug": "diy-gel-nails-vs-salon-cost", "anchor_text": "are gel nails worth the cost" },
+          { "slug": "gel-nail-extensions-cost", "anchor_text": "are gel nails worth the cost" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 7,
+      "role": "spoke",
+      "title": "How Much Does Gel Nail Removal Cost",
+      "slug": "gel-nail-removal-cost",
+      "primary_keyword": "gel nail removal cost",
+      "intent": "informational",
+      "search_demand_signals": [
+        "StyleSeat covers gel removal pricing as a distinct section — $10–$20 range cited across multiple sources",
+        "EasyNailTech dedicated removal cost section with strong reader engagement",
+        "Search volume: 15K–30K/mo — every gel client eventually needs this, high-repeat search"
+      ],
+      "why_included": "Removal is an evergreen cost question — every gel client asks this at end of cycle. Distinct from application pricing. Often an unexpected cost for first-timers. Confirmed demand across multiple sources.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "gel-nails-cost", "anchor_text": "gel nails cost", "type": "pillar" },
+          { "slug": "gel-manicure-cost", "anchor_text": "gel manicure cost", "type": "spoke" },
+          { "slug": "gel-nail-extensions-cost", "anchor_text": "gel nail extensions cost", "type": "spoke" },
+          { "slug": "how-to-make-gel-nails-last-longer", "anchor_text": "how to make gel nails last longer", "type": "spoke" }
+        ],
+        "gallery_link": null,
+        "receives_links_from": [
+          { "slug": "gel-nails-cost", "anchor_text": "gel nail removal cost" },
+          { "slug": "gel-manicure-cost", "anchor_text": "gel nail removal cost" },
+          { "slug": "gel-nail-extensions-cost", "anchor_text": "gel nail removal cost" },
+          { "slug": "gel-x-cost", "anchor_text": "gel nail removal cost" },
+          { "slug": "shellac-cost", "anchor_text": "gel nail removal cost" },
+          { "slug": "how-to-make-gel-nails-last-longer", "anchor_text": "gel nail removal cost" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 8,
+      "role": "spoke",
+      "title": "Gel Nails Annual Cost: What You Actually Spend in a Year",
+      "slug": "gel-nails-annual-cost",
+      "primary_keyword": "gel nails annual cost",
+      "intent": "informational",
+      "search_demand_signals": [
+        "HerMoney article explicitly discusses annual spending math on gel nails — high editorial engagement",
+        "Reddit: multiple high-upvote threads calculating yearly nail spend — strong organic demand signal",
+        "PolishPops article references monthly spending exceeding $100 — signals readers actively calculating annual cost"
+      ],
+      "why_included": "Unique angle no competitor publishes as a standalone post — the full annual math including fills, removals, and hidden costs. High time-on-page potential. Booking platforms love this audience: someone calculating annual spend is ready to optimise it.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "gel-nails-cost", "anchor_text": "gel nails cost", "type": "pillar" },
+          { "slug": "gel-nails-worth-cost", "anchor_text": "are gel nails worth the cost", "type": "spoke" },
+          { "slug": "diy-gel-nails-vs-salon-cost", "anchor_text": "DIY gel nails vs salon cost", "type": "spoke" },
+          { "slug": "how-to-make-gel-nails-last-longer", "anchor_text": "how to make gel nails last longer", "type": "spoke" }
+        ],
+        "gallery_link": null,
+        "receives_links_from": [
+          { "slug": "gel-nails-cost", "anchor_text": "gel nails annual cost" },
+          { "slug": "gel-nails-worth-cost", "anchor_text": "gel nails annual cost" },
+          { "slug": "diy-gel-nails-vs-salon-cost", "anchor_text": "gel nails annual cost" },
+          { "slug": "how-to-make-gel-nails-last-longer", "anchor_text": "gel nails annual cost" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 9,
+      "role": "spoke",
+      "title": "DIY Gel Nails vs Salon: Which Is Actually Cheaper",
+      "slug": "diy-gel-nails-vs-salon-cost",
+      "primary_keyword": "DIY gel nails vs salon cost",
+      "intent": "comparison",
+      "search_demand_signals": [
+        "Fairy Glamor covers full DIY cost breakdown including lamp and product costs — strong reader engagement",
+        "PolishPops covers DIY vs salon angle directly — signals monetised demand from this query",
+        "YouTube: high view counts on DIY gel vs salon cost comparison videos — confirmed demand"
+      ],
+      "why_included": "Strong comparison demand — readers want the real cost math between DIY and salon including startup costs, per-set costs, and break-even point. Distinct from all other posts in the cluster. Confirmed across YouTube and editorial sources.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "gel-nails-cost", "anchor_text": "gel nails cost", "type": "pillar" },
+          { "slug": "gel-nails-worth-cost", "anchor_text": "are gel nails worth the cost", "type": "spoke" },
+          { "slug": "gel-nails-annual-cost", "anchor_text": "gel nails annual cost", "type": "spoke" },
+          { "slug": "how-to-make-gel-nails-last-longer", "anchor_text": "how to make gel nails last longer", "type": "spoke" }
+        ],
+        "gallery_link": null,
+        "receives_links_from": [
+          { "slug": "gel-nails-cost", "anchor_text": "DIY gel nails vs salon cost" },
+          { "slug": "gel-nails-worth-cost", "anchor_text": "DIY gel nails vs salon cost" },
+          { "slug": "gel-nails-annual-cost", "anchor_text": "DIY gel nails vs salon cost" },
+          { "slug": "gel-x-cost", "anchor_text": "DIY gel nails vs salon cost" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 10,
+      "role": "spoke",
+      "title": "How to Make Gel Nails Last Longer Between Salon Visits",
+      "slug": "how-to-make-gel-nails-last-longer",
+      "primary_keyword": "how to make gel nails last longer",
+      "intent": "tutorial",
+      "search_demand_signals": [
+        "Google PAA: 'how do I make my gel nails last longer' appears consistently across gel cost SERPs",
+        "YouTube: multiple high-view tutorials on gel nail longevity tips — confirmed high demand",
+        "Reddit: frequent threads on extending gel wear time to save money — strong organic signal"
+      ],
+      "why_included": "Adds the required tutorial intent for 3-intent diversity. Cost-adjacent angle — extending wear time = fewer salon visits = real money saved. Confirmed PAA and YouTube demand. Natural progression for a reader who has researched gel pricing and wants to optimise their spend.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "gel-nails-cost", "anchor_text": "gel nails cost", "type": "pillar" },
+          { "slug": "gel-manicure-cost", "anchor_text": "gel manicure cost", "type": "spoke" },
+          { "slug": "gel-nail-removal-cost", "anchor_text": "gel nail removal cost", "type": "spoke" },
+          { "slug": "gel-nails-annual-cost", "anchor_text": "gel nails annual cost", "type": "spoke" }
+        ],
+        "gallery_link": null,
+        "receives_links_from": [
+          { "slug": "gel-nails-cost", "anchor_text": "how to make gel nails last longer" },
+          { "slug": "gel-manicure-cost", "anchor_text": "how to make gel nails last longer" },
+          { "slug": "shellac-cost", "anchor_text": "how to make gel nails last longer" },
+          { "slug": "gel-nail-removal-cost", "anchor_text": "how to make gel nails last longer" },
+          { "slug": "gel-nails-annual-cost", "anchor_text": "how to make gel nails last longer" },
+          { "slug": "diy-gel-nails-vs-salon-cost", "anchor_text": "how to make gel nails last longer" }
+        ]
+      },
+      "status": "approved"
+    }
+  ],
+
+  "keyword_ownership_registry": {
+    "description": "Master list of all primary keywords — one per post, no overlaps, includes existing site posts",
+    "entries": [
+      { "primary_keyword": "gel nails cost", "owned_by_slug": "gel-nails-cost", "owned_by_title": "How Much Do Gel Nails Cost: Full Pricing Guide", "source": "new post" },
+      { "primary_keyword": "gel manicure cost", "owned_by_slug": "gel-manicure-cost", "owned_by_title": "How Much Does a Gel Manicure Cost", "source": "new post" },
+      { "primary_keyword": "gel nail extensions cost", "owned_by_slug": "gel-nail-extensions-cost", "owned_by_title": "How Much Do Gel Nail Extensions Cost", "source": "new post" },
+      { "primary_keyword": "gel-x cost", "owned_by_slug": "gel-x-cost", "owned_by_title": "How Much Does Gel-X Cost", "source": "new post" },
+      { "primary_keyword": "shellac cost", "owned_by_slug": "shellac-cost", "owned_by_title": "How Much Does Shellac Cost", "source": "new post" },
+      { "primary_keyword": "are gel nails worth the cost", "owned_by_slug": "gel-nails-worth-cost", "owned_by_title": "Gel Nails vs Regular Nails: Is the Extra Cost Worth It", "source": "new post" },
+      { "primary_keyword": "gel nail removal cost", "owned_by_slug": "gel-nail-removal-cost", "owned_by_title": "How Much Does Gel Nail Removal Cost", "source": "new post" },
+      { "primary_keyword": "gel nails annual cost", "owned_by_slug": "gel-nails-annual-cost", "owned_by_title": "Gel Nails Annual Cost: What You Actually Spend in a Year", "source": "new post" },
+      { "primary_keyword": "DIY gel nails vs salon cost", "owned_by_slug": "diy-gel-nails-vs-salon-cost", "owned_by_title": "DIY Gel Nails vs Salon: Which Is Actually Cheaper", "source": "new post" },
+      { "primary_keyword": "how to make gel nails last longer", "owned_by_slug": "how-to-make-gel-nails-last-longer", "owned_by_title": "How to Make Gel Nails Last Longer Between Salon Visits", "source": "new post" },
+      { "primary_keyword": "gel vs acrylic almond nails", "owned_by_slug": "https://mirelleinspo.com/blog/gel-vs-acrylic-almond-nails", "owned_by_title": "Gel vs Acrylic Almond Nails: Which to Get", "source": "existing site post" },
+      { "primary_keyword": "gel nail polish for work", "owned_by_slug": "https://mirelleinspo.com/work-nails/gel-nail-polish-for-work", "owned_by_title": "Best Gel Nail Polish for Work: Lasts a Full Fortnight", "source": "existing site post" },
+      { "primary_keyword": "blooming gel nails tutorial", "owned_by_slug": "https://mirelleinspo.com/blog/blooming-gel-nails", "owned_by_title": "Blooming Gel Nails: Easy Watercolor Nail Art Tutorial 2025", "source": "existing site post" },
+      { "primary_keyword": "acrylic vs gel vs press-on prom nails", "owned_by_slug": "https://mirelleinspo.com/blog/acrylic-vs-gel-vs-press-on-prom-nails", "owned_by_title": "Acrylic vs Gel vs Press-On Nails for Prom", "source": "existing site post" }
+    ]
+  },
+
+  "merged_posts_log": [
+    {
+      "original_topics": ["hard gel cost", "gel nail extensions cost"],
+      "merged_into": "How Much Do Gel Nail Extensions Cost",
+      "reason": "Hard gel is the product used to create gel extensions — same service, same intent, same audience. One post owns both."
+    },
+    {
+      "original_topics": ["gel nail cost by state", "gel nail cost by city"],
+      "merged_into": "How Much Do Gel Nails Cost: Full Pricing Guide (pillar)",
+      "reason": "Geographic pricing data belongs as a section of the comprehensive pillar, not a standalone spoke. Cross-cluster link to nail-costs/nail-salon-cost-by-state handles the full US state breakdown."
+    }
+  ],
+
+  "killed_posts_log": [
+    {
+      "topic": "BIAB cost (within gel cluster)",
+      "reason": "BIAB already has its own dedicated cluster in the nail-costs pillar cluster (slug: biab-cost). Including it here would cause cross-cluster keyword cannibalization."
+    },
+    {
+      "topic": "gel nail kit cost / DIY product costs",
+      "reason": "Transactional intent drift — leads toward product purchase decisions. Excluded per strategy: no transactional intent posts."
+    }
+  ],
+
+  "cross_cluster_links": {
+    "note": "These links connect this cluster to the nail-costs cluster already built. Blog Gen Agent should include these when writing the pillar post.",
+    "this_cluster_pillar_receives_from": {
+      "source_slug": "how-much-do-nails-cost",
+      "source_cluster": "nail-costs",
+      "anchor_text": "gel nails cost"
+    },
+    "this_cluster_pillar_links_to": {
+      "target_slug": "how-much-do-nails-cost",
+      "target_cluster": "nail-costs",
+      "anchor_text": "how much do nails cost",
+      "note": "Pillar of this cluster should link to the nail-costs pillar once as the broader pricing hub"
+    }
+  }
+}
