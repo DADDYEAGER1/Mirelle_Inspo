@@ -1,0 +1,499 @@
+{
+  "cluster_metadata": {
+    "cluster_topic": "Fall Nails",
+    "topic_slug": "fall",
+    "target_audience": "Global, Tier 1 countries (US, UK, Canada, Australia)",
+    "total_posts": 11,
+    "intent_breakdown": {
+      "inspirational": 3,
+      "informational": 4,
+      "tutorial": 2,
+      "seasonal_trend": 2,
+      "comparison": 0
+    },
+    "pillar_post_slug": "fall-nail-ideas",
+    "created_date": "2026-06-25"
+  },
+
+  "existing_site_posts_excluded": [
+    {
+      "url": "https://mirelleinspo.com/blog/aesthetic-nails/old-money-nails-fall-winter",
+      "title": "Old Money Nails Fall Winter",
+      "inferred_primary_keyword": "old money nails fall winter",
+      "inferred_intent": "inspirational",
+      "exclusion_reason": "Already exists on mirelleinspo.com — keyword reserved. New posts must not target 'old money fall nails' as primary."
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/vampire-nails-2025",
+      "title": "Vampire Nails 2025",
+      "inferred_primary_keyword": "vampire nails",
+      "inferred_intent": "inspirational",
+      "exclusion_reason": "Already exists on mirelleinspo.com — Halloween-adjacent fall keyword reserved."
+    }
+  ],
+
+  "posts": [
+    {
+      "post_id": 1,
+      "role": "pillar",
+      "title": "Fall Nail Ideas",
+      "slug": "fall-nail-ideas",
+      "topic_slug": "fall",
+      "primary_keyword": "fall nail ideas",
+      "secondary_keywords": ["fall nail designs", "cute fall nails", "autumn nail ideas", "fall nails"],
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Google autocomplete: 'fall nail ideas' is the #1 autocomplete for 'fall n...'",
+        "Pinterest: 900+ pin boards dedicated to fall nail ideas — massive save volume",
+        "Google Trends: peaks Aug-Nov annually, consistent 5-year pattern",
+        "Every major beauty publication (TheEverygirl, Who What Wear, Vogue, Marie Claire) has a dedicated fall nail ideas article",
+        "Accio data: 'fall nail designs' normalized search volume peaked at 81 in Sept 2025 — absorbed as secondary"
+      ],
+      "why_included": "Broadest, highest-volume fall nail query. Merged with 'fall nail designs' (secondary keyword) to create one authoritative hub that captures both browsing and design-specific intent. Pillar for the entire cluster.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "fall-nail-colors", "anchor_text": "fall nail colors", "type": "spoke" },
+          { "slug": "fall-nail-trends-2026", "anchor_text": "fall nail trends 2026", "type": "spoke" },
+          { "slug": "short-fall-nails", "anchor_text": "short fall nails", "type": "spoke" },
+          { "slug": "fall-nail-art", "anchor_text": "fall nail art", "type": "spoke" },
+          { "slug": "burgundy-fall-nails", "anchor_text": "burgundy nails for fall", "type": "spoke" },
+          { "slug": "brown-nails-fall", "anchor_text": "brown nails for fall", "type": "spoke" },
+          { "slug": "fall-ombre-nails", "anchor_text": "fall ombre nails", "type": "spoke" },
+          { "slug": "fall-french-tip-nails", "anchor_text": "fall french tip nails", "type": "spoke" },
+          { "slug": "fall-pedicure-colors", "anchor_text": "fall pedicure colors", "type": "spoke" },
+          { "slug": "tortoiseshell-nails-fall", "anchor_text": "tortoiseshell nails for fall", "type": "spoke" }
+        ],
+        "gallery_link": {
+          "url": "https://mirelleinspo.com/inspo/fall-nail-ideas-inspiration-gallery",
+          "anchor_text": "fall nail ideas inspiration gallery"
+        },
+        "receives_links_from": [
+          { "slug": "fall-nail-colors", "anchor_text": "fall nail ideas" },
+          { "slug": "fall-nail-trends-2026", "anchor_text": "fall nail ideas" },
+          { "slug": "short-fall-nails", "anchor_text": "fall nail ideas" },
+          { "slug": "fall-nail-art", "anchor_text": "fall nail ideas" },
+          { "slug": "burgundy-fall-nails", "anchor_text": "fall nail ideas" },
+          { "slug": "brown-nails-fall", "anchor_text": "fall nail ideas" },
+          { "slug": "fall-ombre-nails", "anchor_text": "fall nail ideas" },
+          { "slug": "fall-french-tip-nails", "anchor_text": "fall nail ideas" },
+          { "slug": "fall-pedicure-colors", "anchor_text": "fall nail ideas" },
+          { "slug": "tortoiseshell-nails-fall", "anchor_text": "fall nail ideas" }
+        ]
+      },
+      "status": "approved"
+    },
+
+    {
+      "post_id": 2,
+      "role": "spoke",
+      "title": "Fall Nail Colors",
+      "slug": "fall-nail-colors",
+      "topic_slug": "fall",
+      "primary_keyword": "fall nail colors",
+      "secondary_keywords": ["fall nail polish colors", "autumn nail colors", "best nail colors for fall", "fall nail color ideas"],
+      "intent": "informational",
+      "search_demand_signals": [
+        "Google autocomplete: 'fall nail colors' is a top 3 result for 'fall nail c...'",
+        "OPI, TheEverygirl, Who What Wear, WWD, sNails all have dedicated fall nail colors articles",
+        "Accio data: 'fall nail polish colors' normalized at 20 in Sept 2025 — absorbed as secondary",
+        "Pinterest: 'fall nail colors 2025' boards with thousands of pins",
+        "Google Trends: consistent annual spike Aug-Nov matching fall nail designs pattern"
+      ],
+      "why_included": "Color-intent searchers are a distinct audience from design-intent. 'What color should I paint my nails for fall?' is a separate query from 'what fall nail designs exist'. Validated across 5+ editorial sources.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "fall-nail-ideas", "anchor_text": "fall nail ideas", "type": "pillar" },
+          { "slug": "burgundy-fall-nails", "anchor_text": "burgundy nails for fall", "type": "spoke" },
+          { "slug": "brown-nails-fall", "anchor_text": "brown nails for fall", "type": "spoke" },
+          { "slug": "fall-nail-trends-2026", "anchor_text": "fall nail trends 2026", "type": "spoke" },
+          { "slug": "fall-pedicure-colors", "anchor_text": "fall pedicure colors", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "fall-nail-ideas", "anchor_text": "fall nail colors" },
+          { "slug": "burgundy-fall-nails", "anchor_text": "fall nail colors" },
+          { "slug": "brown-nails-fall", "anchor_text": "fall nail colors" },
+          { "slug": "fall-nail-trends-2026", "anchor_text": "fall nail colors" },
+          { "slug": "fall-pedicure-colors", "anchor_text": "fall nail colors" }
+        ]
+      },
+      "status": "approved"
+    },
+
+    {
+      "post_id": 3,
+      "role": "spoke",
+      "title": "Fall Nail Trends 2026",
+      "slug": "fall-nail-trends-2026",
+      "topic_slug": "fall",
+      "primary_keyword": "fall nail trends 2026",
+      "secondary_keywords": ["autumn nail trends 2026", "fall manicure trends 2026", "nail trends for fall 2026"],
+      "intent": "seasonal_trend",
+      "search_demand_signals": [
+        "Google Trends: 'fall nail trends' normalized search value hit 85 in Sept 2024 and 79 in Oct 2024 — confirmed annual spike",
+        "Accio data: search interest for fall nail trends surges in August as pre-season research begins",
+        "Dedicated 2026 fall trend articles: yourgirlknows.com, excellencemedicalclinic.com, coveteur.com NYFW FW2026 coverage",
+        "Who What Wear nail colour trends 2026 article — multi-source editorial validation",
+        "TikTok: #fallnailtrends spikes every August-September"
+      ],
+      "why_included": "Year-tagged trend content captures early researchers (July-Aug) before season peaks. Distinct from evergreen 'fall nail ideas' — this post has a defined shelf life and targets the trend-curious searcher who wants to know what's NEW this year.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "fall-nail-ideas", "anchor_text": "fall nail ideas", "type": "pillar" },
+          { "slug": "fall-nail-colors", "anchor_text": "fall nail colors", "type": "spoke" },
+          { "slug": "tortoiseshell-nails-fall", "anchor_text": "tortoiseshell nails for fall", "type": "spoke" },
+          { "slug": "fall-nail-art", "anchor_text": "fall nail art", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "fall-nail-ideas", "anchor_text": "fall nail trends 2026" },
+          { "slug": "fall-nail-colors", "anchor_text": "fall nail trends 2026" },
+          { "slug": "tortoiseshell-nails-fall", "anchor_text": "fall nail trends 2026" },
+          { "slug": "fall-nail-art", "anchor_text": "fall nail trends 2026" }
+        ]
+      },
+      "status": "approved"
+    },
+
+    {
+      "post_id": 4,
+      "role": "spoke",
+      "title": "Short Fall Nails",
+      "slug": "short-fall-nails",
+      "topic_slug": "fall",
+      "primary_keyword": "short fall nails",
+      "secondary_keywords": ["short fall nail ideas", "short fall nail designs", "fall nails for short nails"],
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "Pinterest: dedicated 'Short Fall Gel Nails Ideas' boards with high save counts",
+        "thepinkissue.com: '30 Short Fall Nails That Are Perfect for Sweater Weather' — dedicated editorial article",
+        "Women.com: '8 Short Nail Ideas For Fall 2025' — format-specific coverage",
+        "Google autocomplete: 'short fall nails' completes immediately after 'short f...'",
+        "PAA boxes: 'What nail designs work on short nails for fall?' consistently appears"
+      ],
+      "why_included": "Short nail searchers do not convert on long-nail inspiration posts — they need format-specific content. Clear audience split validated across Pinterest + multiple dedicated editorial articles.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "fall-nail-ideas", "anchor_text": "fall nail ideas", "type": "pillar" },
+          { "slug": "fall-nail-art", "anchor_text": "fall nail art ideas for short nails", "type": "spoke" },
+          { "slug": "fall-french-tip-nails", "anchor_text": "fall french tip nails", "type": "spoke" },
+          { "slug": "fall-ombre-nails", "anchor_text": "fall ombre nails on short nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "fall-nail-ideas", "anchor_text": "short fall nails" },
+          { "slug": "fall-nail-art", "anchor_text": "short fall nails" },
+          { "slug": "fall-french-tip-nails", "anchor_text": "short fall nails" },
+          { "slug": "fall-ombre-nails", "anchor_text": "short fall nails" }
+        ]
+      },
+      "status": "approved"
+    },
+
+    {
+      "post_id": 5,
+      "role": "spoke",
+      "title": "Fall Nail Art",
+      "slug": "fall-nail-art",
+      "topic_slug": "fall",
+      "primary_keyword": "fall nail art",
+      "secondary_keywords": ["fall nail art ideas", "fall nail art designs", "autumn nail art", "DIY fall nail art"],
+      "intent": "tutorial",
+      "search_demand_signals": [
+        "YouTube: 'fall nail art' tutorial videos with millions of combined views",
+        "TikTok: #fallnailart is a major hashtag with consistent seasonal spikes",
+        "Google autocomplete: 'fall nail art' is a distinct autocomplete from 'fall nail ideas'",
+        "Accio data: 'fall nail art' normalized at 13 in Sept 2025 — lower than designs but distinct tutorial intent",
+        "Reddit r/Nails: fall nail art DIY posts get high engagement every August-October"
+      ],
+      "why_included": "Tutorial intent is entirely distinct from inspirational browsing. 'Fall nail art' searchers want step-by-step guidance, not just photos. Validated across YouTube, TikTok, and Reddit — the DIY platforms.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "fall-nail-ideas", "anchor_text": "fall nail ideas", "type": "pillar" },
+          { "slug": "fall-ombre-nails", "anchor_text": "fall ombre nails tutorial", "type": "spoke" },
+          { "slug": "short-fall-nails", "anchor_text": "short fall nails", "type": "spoke" },
+          { "slug": "fall-nail-trends-2026", "anchor_text": "fall nail trends 2026", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "fall-nail-ideas", "anchor_text": "fall nail art" },
+          { "slug": "fall-ombre-nails", "anchor_text": "fall nail art" },
+          { "slug": "short-fall-nails", "anchor_text": "fall nail art ideas for short nails" },
+          { "slug": "fall-nail-trends-2026", "anchor_text": "fall nail art" }
+        ]
+      },
+      "status": "approved"
+    },
+
+    {
+      "post_id": 6,
+      "role": "spoke",
+      "title": "Burgundy Nails for Fall",
+      "slug": "burgundy-fall-nails",
+      "topic_slug": "fall",
+      "primary_keyword": "burgundy fall nails",
+      "secondary_keywords": ["burgundy nail ideas for fall", "burgundy autumn nails", "dark red fall nails", "wine nails fall"],
+      "intent": "informational",
+      "search_demand_signals": [
+        "Parade: dedicated '35 Best Burgundy Nail Ideas for Fall and Winter 2025' article",
+        "Glamnetic blog: 'Best Fall Burgundy Nails in 2025' — major press-on brand validation",
+        "Who What Wear: burgundy named as #1 predicted fall nail colour for 2025 by nail experts",
+        "Google Trends: burgundy nails spikes every September-November without fail — perennial demand",
+        "Pinterest: burgundy fall nails boards are among the most-saved fall nail content"
+      ],
+      "why_included": "Burgundy is the single most searched fall nail color by editorial consensus across 5+ sources. Deserves a standalone deep-dive post rather than being buried in the colors post.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "fall-nail-ideas", "anchor_text": "fall nail ideas", "type": "pillar" },
+          { "slug": "fall-nail-colors", "anchor_text": "fall nail colors", "type": "spoke" },
+          { "slug": "fall-french-tip-nails", "anchor_text": "fall french tip nails", "type": "spoke" },
+          { "slug": "tortoiseshell-nails-fall", "anchor_text": "tortoiseshell nails for fall", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "fall-nail-ideas", "anchor_text": "burgundy nails for fall" },
+          { "slug": "fall-nail-colors", "anchor_text": "burgundy nails for fall" },
+          { "slug": "fall-french-tip-nails", "anchor_text": "burgundy fall nails" },
+          { "slug": "tortoiseshell-nails-fall", "anchor_text": "burgundy nails for fall" }
+        ]
+      },
+      "status": "approved"
+    },
+
+    {
+      "post_id": 7,
+      "role": "spoke",
+      "title": "Brown Nails for Fall",
+      "slug": "brown-nails-fall",
+      "topic_slug": "fall",
+      "primary_keyword": "brown nails fall",
+      "secondary_keywords": ["chocolate brown nails fall", "mocha nails fall", "espresso nails fall", "brown fall nail ideas"],
+      "intent": "informational",
+      "search_demand_signals": [
+        "TheEverygirl: brown/espresso named as top fall nail color for 2025 with dedicated section",
+        "Pantone Color of the Year 2025: Mocha Mousse — drove massive brown nail search spike",
+        "Who What Wear: 'cosy dark brown tones trending not just as a nail colour but in clothing and makeup' — expert quote",
+        "OPI dedicated brown fall nail section in their fall trends guide",
+        "Pinterest: 'chocolate brown nails fall' boards with high save volume distinct from burgundy boards"
+      ],
+      "why_included": "Brown is the breakout fall nail color of 2025-2026 — elevated by Pantone's Mocha Mousse Color of the Year. Distinct from burgundy in audience intent: brown searchers want earthy/neutral, burgundy searchers want vampy/dramatic.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "fall-nail-ideas", "anchor_text": "fall nail ideas", "type": "pillar" },
+          { "slug": "fall-nail-colors", "anchor_text": "fall nail colors", "type": "spoke" },
+          { "slug": "fall-ombre-nails", "anchor_text": "fall ombre nails", "type": "spoke" },
+          { "slug": "fall-pedicure-colors", "anchor_text": "fall pedicure colors", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "fall-nail-ideas", "anchor_text": "brown nails for fall" },
+          { "slug": "fall-nail-colors", "anchor_text": "brown nails for fall" },
+          { "slug": "fall-ombre-nails", "anchor_text": "brown fall nail ombre" },
+          { "slug": "fall-pedicure-colors", "anchor_text": "brown nails fall" }
+        ]
+      },
+      "status": "approved"
+    },
+
+    {
+      "post_id": 8,
+      "role": "spoke",
+      "title": "Fall Ombre Nails",
+      "slug": "fall-ombre-nails",
+      "topic_slug": "fall",
+      "primary_keyword": "fall ombre nails",
+      "secondary_keywords": ["autumn ombre nails", "fall gradient nails", "fall ombre nail ideas", "fall nail ombre tutorial"],
+      "intent": "tutorial",
+      "search_demand_signals": [
+        "momooze.com: '37+ Fall Ombre Nails' dedicated article with strong organic placement",
+        "stoleninspiration.com: dedicated fall ombre section in their 65-idea fall nails roundup",
+        "belliata.com: fall ombre nails listed as one of top fall nail art techniques",
+        "Pinterest: 'fall ombre nails' boards distinct from general fall nail boards",
+        "PAA boxes: 'How do you do ombre nails for fall?' consistently appears in search"
+      ],
+      "why_included": "Ombre is consistently cited as a top fall nail technique across editorial and Pinterest. Tutorial intent (how to achieve the gradient) is distinct from inspirational browsing. Long-tail rankable with low competition.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "fall-nail-ideas", "anchor_text": "fall nail ideas", "type": "pillar" },
+          { "slug": "fall-nail-art", "anchor_text": "fall nail art", "type": "spoke" },
+          { "slug": "brown-nails-fall", "anchor_text": "brown fall nail ombre", "type": "spoke" },
+          { "slug": "short-fall-nails", "anchor_text": "short fall nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "fall-nail-ideas", "anchor_text": "fall ombre nails" },
+          { "slug": "fall-nail-art", "anchor_text": "fall ombre nails tutorial" },
+          { "slug": "brown-nails-fall", "anchor_text": "fall ombre nails" },
+          { "slug": "short-fall-nails", "anchor_text": "fall ombre nails on short nails" }
+        ]
+      },
+      "status": "approved"
+    },
+
+    {
+      "post_id": 9,
+      "role": "spoke",
+      "title": "Fall French Tip Nails",
+      "slug": "fall-french-tip-nails",
+      "topic_slug": "fall",
+      "primary_keyword": "fall french tip nails",
+      "secondary_keywords": ["autumn french tip nails", "fall french manicure", "fall colored french tips", "fall french nail ideas"],
+      "intent": "inspirational",
+      "search_demand_signals": [
+        "TheEverygirl: fall French tip featured as a major trend with dedicated section and moody green French tip example",
+        "Green Wedding Shoes: micro French tip fall nail design listed in top trending",
+        "stoleninspiration.com: bronze French tips and wine-tip French nails featured prominently",
+        "belliata.com: 'Update a classic French tip with fall nail colors' — dedicated guidance section",
+        "PAA boxes: 'What are good fall colors for French tip nails?' appears consistently"
+      ],
+      "why_included": "French tip is the #2 most searched nail design globally — the fall version is a distinct, rankable long-tail. Captures users who want a classic look with seasonal colors, separate from full fall nail art searchers.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "fall-nail-ideas", "anchor_text": "fall nail ideas", "type": "pillar" },
+          { "slug": "burgundy-fall-nails", "anchor_text": "burgundy fall nails", "type": "spoke" },
+          { "slug": "short-fall-nails", "anchor_text": "short fall nails", "type": "spoke" },
+          { "slug": "fall-nail-colors", "anchor_text": "fall nail colors", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "fall-nail-ideas", "anchor_text": "fall french tip nails" },
+          { "slug": "burgundy-fall-nails", "anchor_text": "fall french tip nails" },
+          { "slug": "short-fall-nails", "anchor_text": "fall french tip nails" },
+          { "slug": "fall-nail-colors", "anchor_text": "fall french tip nails" }
+        ]
+      },
+      "status": "approved"
+    },
+
+    {
+      "post_id": 10,
+      "role": "spoke",
+      "title": "Fall Pedicure Colors",
+      "slug": "fall-pedicure-colors",
+      "topic_slug": "fall",
+      "primary_keyword": "fall pedicure colors",
+      "secondary_keywords": ["fall toenail colors", "autumn pedicure colors", "best pedicure colors for fall", "fall toe nail colors"],
+      "intent": "informational",
+      "search_demand_signals": [
+        "Who What Wear: '10 Fall Pedicure Colors Fashion People Are Wearing in 2025' — dedicated editorial",
+        "NewBeauty: '8 Pedicure Trends Dominating This Fall' and 'Best Colors for Summer-to-Fall Pedicure Transition' — two dedicated articles",
+        "Marie Claire: '5 Best Fall 2025 Pedicure Colors' — editorial validation",
+        "Pinterest: 'Fall Pedicure Colors Toenails' board with dedicated saves separate from fingernail boards",
+        "Booksy blog: 'Fall Pedicure Trends 2025: Colors, Designs & Ideas' — industry demand validation"
+      ],
+      "why_included": "Pedicure searchers are a distinct audience from manicure searchers — many opt for bold colors on toes while keeping fingernails neutral. Clear editorial demand across 5 sources with dedicated articles separate from general fall nail content.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "fall-nail-ideas", "anchor_text": "fall nail ideas", "type": "pillar" },
+          { "slug": "fall-nail-colors", "anchor_text": "fall nail colors", "type": "spoke" },
+          { "slug": "brown-nails-fall", "anchor_text": "brown nails fall", "type": "spoke" },
+          { "slug": "burgundy-fall-nails", "anchor_text": "burgundy nails for fall", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "fall-nail-ideas", "anchor_text": "fall pedicure colors" },
+          { "slug": "fall-nail-colors", "anchor_text": "fall pedicure colors" },
+          { "slug": "brown-nails-fall", "anchor_text": "fall pedicure colors" },
+          { "slug": "burgundy-fall-nails", "anchor_text": "fall pedicure colors" }
+        ]
+      },
+      "status": "approved"
+    },
+
+    {
+      "post_id": 11,
+      "role": "spoke",
+      "title": "Tortoiseshell Nails Fall",
+      "slug": "tortoiseshell-nails-fall",
+      "topic_slug": "fall",
+      "primary_keyword": "tortoiseshell nails fall",
+      "secondary_keywords": ["tortoise shell fall nails", "tortoise tip nails fall", "fall tortoiseshell nail art", "tortoise nails autumn"],
+      "intent": "seasonal_trend",
+      "search_demand_signals": [
+        "WWD: 'tortoise tips' named as a breakout NEW fall 2025 nail design trend — featured in fall trend roundup",
+        "stoleninspiration.com: tortoiseshell nails featured prominently in their 65 fall nail ideas article",
+        "Women.com: tortoiseshell specifically called out as a fall 2025 chic classic with customization options",
+        "Marie Claire: tortoiseshell designs featured in Oct 2025 nail looks of the week",
+        "Pinterest: tortoiseshell nail art boards with strong fall-specific saves"
+      ],
+      "why_included": "Tortoiseshell is the breakout design trend for fall 2025-2026 specifically — not a year-round query. Validated across 4 editorial sources as a named emerging trend. Easy-to-rank long-tail with clear seasonal peak.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "fall-nail-ideas", "anchor_text": "fall nail ideas", "type": "pillar" },
+          { "slug": "fall-nail-trends-2026", "anchor_text": "fall nail trends 2026", "type": "spoke" },
+          { "slug": "burgundy-fall-nails", "anchor_text": "burgundy nails for fall", "type": "spoke" },
+          { "slug": "fall-nail-art", "anchor_text": "fall nail art", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "fall-nail-ideas", "anchor_text": "tortoiseshell nails for fall" },
+          { "slug": "fall-nail-trends-2026", "anchor_text": "tortoiseshell nails fall" },
+          { "slug": "burgundy-fall-nails", "anchor_text": "tortoiseshell nails for fall" },
+          { "slug": "fall-nail-art", "anchor_text": "tortoiseshell fall nail art" }
+        ]
+      },
+      "status": "approved"
+    }
+  ],
+
+  "keyword_ownership_registry": {
+    "description": "Master list of all primary keywords — one per post, no overlaps, includes existing site post keywords reserved",
+    "entries": [
+      { "primary_keyword": "fall nail ideas", "owned_by_slug": "fall-nail-ideas", "owned_by_title": "Fall Nail Ideas", "source": "new post" },
+      { "primary_keyword": "fall nail designs", "owned_by_slug": "fall-nail-ideas", "owned_by_title": "Fall Nail Ideas", "source": "new post — secondary keyword, merged into pillar" },
+      { "primary_keyword": "fall nail colors", "owned_by_slug": "fall-nail-colors", "owned_by_title": "Fall Nail Colors", "source": "new post" },
+      { "primary_keyword": "fall nail trends 2026", "owned_by_slug": "fall-nail-trends-2026", "owned_by_title": "Fall Nail Trends 2026", "source": "new post" },
+      { "primary_keyword": "short fall nails", "owned_by_slug": "short-fall-nails", "owned_by_title": "Short Fall Nails", "source": "new post" },
+      { "primary_keyword": "fall nail art", "owned_by_slug": "fall-nail-art", "owned_by_title": "Fall Nail Art", "source": "new post" },
+      { "primary_keyword": "burgundy fall nails", "owned_by_slug": "burgundy-fall-nails", "owned_by_title": "Burgundy Nails for Fall", "source": "new post" },
+      { "primary_keyword": "brown nails fall", "owned_by_slug": "brown-nails-fall", "owned_by_title": "Brown Nails for Fall", "source": "new post" },
+      { "primary_keyword": "fall ombre nails", "owned_by_slug": "fall-ombre-nails", "owned_by_title": "Fall Ombre Nails", "source": "new post" },
+      { "primary_keyword": "fall french tip nails", "owned_by_slug": "fall-french-tip-nails", "owned_by_title": "Fall French Tip Nails", "source": "new post" },
+      { "primary_keyword": "fall pedicure colors", "owned_by_slug": "fall-pedicure-colors", "owned_by_title": "Fall Pedicure Colors", "source": "new post" },
+      { "primary_keyword": "tortoiseshell nails fall", "owned_by_slug": "tortoiseshell-nails-fall", "owned_by_title": "Tortoiseshell Nails Fall", "source": "new post" },
+      { "primary_keyword": "old money nails fall winter", "owned_by_slug": "aesthetic-nails/old-money-nails-fall-winter", "owned_by_title": "Old Money Nails Fall Winter", "source": "existing mirelleinspo.com post" },
+      { "primary_keyword": "vampire nails", "owned_by_slug": "vampire-nails-2025", "owned_by_title": "Vampire Nails 2025", "source": "existing mirelleinspo.com post" }
+    ]
+  },
+
+  "merged_posts_log": [
+    {
+      "original_topics": ["fall nail ideas", "fall nail designs"],
+      "merged_into": "Fall Nail Ideas (pillar)",
+      "reason": "Same inspirational audience, near-identical SERP intent. 'Fall nail designs' absorbed as secondary keyword. One authoritative pillar ranks better than two thin overlapping posts."
+    }
+  ],
+
+  "killed_posts_log": [
+    {
+      "topic": "fall acrylic nails",
+      "reason": "Content overlaps 90% with fall nail ideas — acrylic is a format modifier, not a distinct topic. Thin standalone post. Killed to avoid cannibalization."
+    },
+    {
+      "topic": "fall gel nails",
+      "reason": "Same issue as fall acrylic — format-based query with near-identical content to fall nail ideas. Killed."
+    },
+    {
+      "topic": "fall nail polish colors",
+      "reason": "Normalized search volume at 20 vs fall nail designs at 81. Overlaps directly with fall nail colors post. Absorbed as secondary keyword into fall-nail-colors."
+    },
+    {
+      "topic": "fall nail colors for dark skin",
+      "reason": "Too thin as a standalone post. Absorbed as a dedicated section within fall-nail-colors where it adds value without diluting the cluster."
+    },
+    {
+      "topic": "halloween nails",
+      "reason": "Own cluster — spooky aesthetic, costume-driven, entirely different audience and content strategy. Does not belong in a fall nails cluster."
+    },
+    {
+      "topic": "thanksgiving nails",
+      "reason": "Own cluster — holiday-specific aesthetic separate from general fall nails. Killed."
+    },
+    {
+      "topic": "september nails",
+      "reason": "Month-specific posts to be handled as a separate cluster per user instruction."
+    },
+    {
+      "topic": "october nails",
+      "reason": "Month-specific posts to be handled as a separate cluster per user instruction."
+    },
+    {
+      "topic": "november nails",
+      "reason": "Month-specific posts to be handled as a separate cluster per user instruction."
+    },
+    {
+      "topic": "old money fall nails",
+      "reason": "Already exists on mirelleinspo.com at /aesthetic-nails/old-money-nails-fall-winter. Hard kill — cannibalization risk."
+    }
+  ]
+}
