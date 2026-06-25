@@ -1,0 +1,214 @@
+{
+  "cluster_metadata": {
+    "cluster_topic": "Gel Nail Polish Sets with UV Light",
+    "topic_slug": "gel-nail-kits",
+    "site_url_pattern": "https://mirelleinspo.com/shop/{topic_slug}/{post_slug}",
+    "category_folder": "gel-nail-kits",
+    "target_audience": "Global, Tier 1 countries (US, UK, Canada, Australia)",
+    "content_type": "transactional shopping only — no tutorials, no buying guides, no vs-comparisons",
+    "brand_policy": "MelodySusie is the only affiliate brand recommended. Brand name NEVER appears in post title, slug, URL, or H1/H2 headers. Brand appears only within body content where specific products are recommended.",
+    "total_posts": 4,
+    "intent_breakdown": {
+      "informational": 0,
+      "inspirational": 0,
+      "tutorial": 0,
+      "comparison": 0,
+      "seasonal_trend": 0,
+      "transactional_shopping": 4
+    },
+    "pillar_post_slug": "best-gel-nail-polish-sets",
+    "created_date": "2026-06-26"
+  },
+
+  "existing_site_posts_excluded": [
+    {
+      "url": "https://mirelleinspo.com/shop/nail-kits/melodysusie-beginner-nail-kit",
+      "title": "Beginner Nail Kit (existing post)",
+      "inferred_primary_keyword": "beginner gel nail kit",
+      "inferred_intent": "transactional_shopping",
+      "exclusion_reason": "Already exists on mirelleinspo.com — beginner-kit angle is reserved. This cluster's pillar and spokes deliberately avoid the 'beginner' framing to prevent cannibalization."
+    },
+    {
+      "url": "https://mirelleinspo.com/shop/gel-polish/best-melodysusie-gel-polish",
+      "title": "Best Gel Polish (existing post)",
+      "inferred_primary_keyword": "best gel polish",
+      "inferred_intent": "transactional_shopping",
+      "exclusion_reason": "Already exists — covers loose/individual gel polish color shopping. This cluster targets 'set/kit with lamp' buyer intent specifically, which is a distinct keyword and bundle-purchase intent from single-color shopping."
+    },
+    {
+      "url": "https://mirelleinspo.com/shop/gel-polish/melodysusie-cat-eye-gel-polish",
+      "title": "Cat Eye Gel Polish (existing post)",
+      "inferred_primary_keyword": "cat eye gel polish",
+      "inferred_intent": "transactional_shopping",
+      "exclusion_reason": "Already exists — specific color/effect category, reserved keyword, not part of this kit-with-lamp cluster."
+    },
+    {
+      "url": "https://mirelleinspo.com/shop/gel-polish/melodysusie-glitter-gel-polish",
+      "title": "Glitter Gel Polish (existing post)",
+      "inferred_primary_keyword": "glitter gel polish",
+      "inferred_intent": "transactional_shopping",
+      "exclusion_reason": "Already exists — specific color category, reserved keyword."
+    },
+    {
+      "url": "https://mirelleinspo.com/shop/gel-polish/melodysusie-jelly-gel-polish-jeweliver",
+      "title": "Jelly Gel Polish (existing post)",
+      "inferred_primary_keyword": "jelly gel polish",
+      "inferred_intent": "transactional_shopping",
+      "exclusion_reason": "Already exists — specific color/texture category, reserved keyword."
+    },
+    {
+      "url": "https://mirelleinspo.com/shop/gel-polish/melodysusie-top-coat-base-coat-gel",
+      "title": "Top Coat & Base Coat Gel (existing post)",
+      "inferred_primary_keyword": "gel top coat base coat",
+      "inferred_intent": "transactional_shopping",
+      "exclusion_reason": "Already exists — component-level product, reserved keyword."
+    }
+  ],
+
+  "posts": [
+    {
+      "post_id": 1,
+      "role": "pillar",
+      "title": "Best Gel Nail Polish Sets with UV Light",
+      "slug": "best-gel-nail-polish-sets",
+      "url": "https://mirelleinspo.com/shop/gel-nail-kits/best-gel-nail-polish-sets",
+      "primary_keyword": "gel nail polish set",
+      "intent": "transactional_shopping",
+      "search_demand_signals": [
+        "Amazon Brand Analytics: 'gel nail polish set' recorded ~23,505 weekly US searches, Search Frequency Rank #5,625 (Mar 2026 data) — by far the highest-volume keyword researched in this cluster",
+        "Dedicated Amazon 'Nail Studio Sets' and 'Nail Decoration Kits' bestseller categories exist specifically for this product type, confirming sustained large-scale demand",
+        "Top-ranked ASIN for this keyword recorded 40,000+ monthly orders"
+      ],
+      "why_included": "Largest validated search volume of any keyword researched across this entire cluster topic. MelodySusie sells multiple genuine 'kit with lamp' bundle products (P-PLUS30F, P-ART06F, Super Value HEMA-Free Bundle, plant-based gift boxes) giving strong, honest product fit for the pillar's broad buyer.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "best-gel-nail-kits-complete-manicure", "anchor_text": "best gel nail kits for a complete manicure", "type": "spoke" },
+          { "slug": "best-hema-free-gel-nail-polish-sets", "anchor_text": "best HEMA-free gel nail polish sets", "type": "spoke" },
+          { "slug": "best-value-gel-nail-polish-sets", "anchor_text": "best value gel nail polish sets with lots of colors", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "best-gel-nail-kits-complete-manicure", "anchor_text": "gel nail polish set" },
+          { "slug": "best-hema-free-gel-nail-polish-sets", "anchor_text": "gel nail polish set" },
+          { "slug": "best-value-gel-nail-polish-sets", "anchor_text": "gel nail polish set" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 2,
+      "role": "spoke",
+      "title": "Best Gel Nail Kits for a Complete Manicure",
+      "slug": "best-gel-nail-kits-complete-manicure",
+      "url": "https://mirelleinspo.com/shop/gel-nail-kits/best-gel-nail-kits-complete-manicure",
+      "primary_keyword": "gel nail kits",
+      "intent": "transactional_shopping",
+      "search_demand_signals": [
+        "Amazon Brand Analytics: 'gel nail kits' recorded ~1,194 weekly US searches, Search Frequency Rank #158,825 (Dec 2025/Jan 2026 data) — smaller than pillar but a genuinely distinct, real keyword, not a variant of the same search",
+        "710 tracked competing products on Amazon for this exact keyword, with the top ASIN recording 40,000+ monthly orders — confirms real purchase volume behind the search term"
+      ],
+      "why_included": "Distinct buyer framing from the pillar: 'kits' search intent skews toward shoppers wanting an all-in-one tool+polish+accessories bundle (files, cuticle tools, etc.) rather than just a polish color set. Real, separately-trackable search volume confirmed via Amazon data.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "best-gel-nail-polish-sets", "anchor_text": "gel nail polish set", "type": "pillar" },
+          { "slug": "best-hema-free-gel-nail-polish-sets", "anchor_text": "HEMA-free gel nail polish sets", "type": "spoke" },
+          { "slug": "best-value-gel-nail-polish-sets", "anchor_text": "value gel nail polish sets with lots of colors", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "best-gel-nail-polish-sets", "anchor_text": "best gel nail kits for a complete manicure" },
+          { "slug": "best-hema-free-gel-nail-polish-sets", "anchor_text": "gel nail kits for a complete manicure" },
+          { "slug": "best-value-gel-nail-polish-sets", "anchor_text": "gel nail kits for a complete manicure" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 3,
+      "role": "spoke",
+      "title": "Best HEMA-Free Gel Nail Polish Sets",
+      "slug": "best-hema-free-gel-nail-polish-sets",
+      "url": "https://mirelleinspo.com/shop/gel-nail-kits/best-hema-free-gel-nail-polish-sets",
+      "primary_keyword": "hema free gel polish",
+      "intent": "transactional_shopping",
+      "search_demand_signals": [
+        "No single hard Amazon volume number surfaced, but dedicated Amazon search categories and filter tags exist specifically for 'HEMA-free gel polish' / 'HEMA-free gel polish kit', confirming sustained, trackable demand",
+        "Multiple competing brands (Aimeili, Madam Glam, Manucurist, Modelones, GLOSS, Beetles) run dedicated HEMA-free product lines and content, confirming a real and growing market segment",
+        "Clinical source confirms HEMA is a documented contact allergen affecting roughly 1.5-2.4% of dermatology-tested patients, giving the underlying buyer motivation real, citable substance rather than a marketing trend"
+      ],
+      "why_included": "Distinct, underserved buyer intent (safety/allergy-conscious shopper) with no direct competitor post in mirelleinspo's existing 49 URLs. MelodySusie has a genuine plant-based / HEMA-free / TPO-free product line to recommend honestly. Lower competition than the pillar keyword, useful long-tail traffic even without a single confirmed high volume number.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "best-gel-nail-polish-sets", "anchor_text": "gel nail polish set", "type": "pillar" },
+          { "slug": "best-gel-nail-kits-complete-manicure", "anchor_text": "gel nail kits for a complete manicure", "type": "spoke" },
+          { "slug": "best-value-gel-nail-polish-sets", "anchor_text": "value gel nail polish sets with lots of colors", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "best-gel-nail-polish-sets", "anchor_text": "best HEMA-free gel nail polish sets" },
+          { "slug": "best-gel-nail-kits-complete-manicure", "anchor_text": "HEMA-free gel nail polish sets" },
+          { "slug": "best-value-gel-nail-polish-sets", "anchor_text": "HEMA-free gel nail polish sets" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 4,
+      "role": "spoke",
+      "title": "Best Value Gel Nail Polish Sets with Lots of Colors",
+      "slug": "best-value-gel-nail-polish-sets",
+      "url": "https://mirelleinspo.com/shop/gel-nail-kits/best-value-gel-nail-polish-sets",
+      "primary_keyword": "gel nail polish set [number]-color value bundle (e.g. 24/32/55 colors)",
+      "intent": "transactional_shopping",
+      "search_demand_signals": [
+        "Repeated high-volume product listings across Amazon research specifically branded by color count (24-color, 32-color, 55-color, 60-piece sets), indicating shoppers actively search and filter by color-count/value rather than just 'gel nail polish set' generically",
+        "Top competing ASINs in this exact sub-segment recorded 30,000-40,000+ monthly orders",
+        "MelodySusie sells its own large-format Super Value HEMA-Free Bundle (24 colors + lamp + tools) and a 24-Color Gel Polish Kit collection, giving genuine product fit"
+      ],
+      "why_included": "Distinct buyer intent from the pillar: this shopper is comparing kits by sheer color quantity/value-for-money, not just 'does it include a lamp.' Embedded within the pillar's overall search volume but trackable as its own purchase decision pattern across multiple competing listings.",
+      "internal_links": {
+        "links_to": [
+          { "slug": "best-gel-nail-polish-sets", "anchor_text": "gel nail polish set", "type": "pillar" },
+          { "slug": "best-gel-nail-kits-complete-manicure", "anchor_text": "gel nail kits for a complete manicure", "type": "spoke" },
+          { "slug": "best-hema-free-gel-nail-polish-sets", "anchor_text": "HEMA-free gel nail polish sets", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "best-gel-nail-polish-sets", "anchor_text": "best value gel nail polish sets with lots of colors" },
+          { "slug": "best-gel-nail-kits-complete-manicure", "anchor_text": "value gel nail polish sets with lots of colors" },
+          { "slug": "best-hema-free-gel-nail-polish-sets", "anchor_text": "value gel nail polish sets with lots of colors" }
+        ]
+      },
+      "status": "approved"
+    }
+  ],
+
+  "keyword_ownership_registry": {
+    "description": "Master list of all primary keywords for this cluster — one per post, no overlaps, cross-checked against existing site posts.",
+    "entries": [
+      { "primary_keyword": "gel nail polish set", "owned_by_slug": "best-gel-nail-polish-sets", "owned_by_title": "Best Gel Nail Polish Sets with UV Light", "source": "new post" },
+      { "primary_keyword": "gel nail kits", "owned_by_slug": "best-gel-nail-kits-complete-manicure", "owned_by_title": "Best Gel Nail Kits for a Complete Manicure", "source": "new post" },
+      { "primary_keyword": "hema free gel polish", "owned_by_slug": "best-hema-free-gel-nail-polish-sets", "owned_by_title": "Best HEMA-Free Gel Nail Polish Sets", "source": "new post" },
+      { "primary_keyword": "gel nail polish set value/color-count bundle", "owned_by_slug": "best-value-gel-nail-polish-sets", "owned_by_title": "Best Value Gel Nail Polish Sets with Lots of Colors", "source": "new post" },
+      { "primary_keyword": "beginner gel nail kit", "owned_by_slug": "melodysusie-beginner-nail-kit", "owned_by_title": "Beginner Nail Kit", "source": "existing mirelleinspo.com post" },
+      { "primary_keyword": "best gel polish", "owned_by_slug": "best-melodysusie-gel-polish", "owned_by_title": "Best Gel Polish", "source": "existing mirelleinspo.com post" },
+      { "primary_keyword": "cat eye gel polish", "owned_by_slug": "melodysusie-cat-eye-gel-polish", "owned_by_title": "Cat Eye Gel Polish", "source": "existing mirelleinspo.com post" },
+      { "primary_keyword": "glitter gel polish", "owned_by_slug": "melodysusie-glitter-gel-polish", "owned_by_title": "Glitter Gel Polish", "source": "existing mirelleinspo.com post" },
+      { "primary_keyword": "jelly gel polish", "owned_by_slug": "melodysusie-jelly-gel-polish-jeweliver", "owned_by_title": "Jelly Gel Polish", "source": "existing mirelleinspo.com post" },
+      { "primary_keyword": "gel top coat base coat", "owned_by_slug": "melodysusie-top-coat-base-coat-gel", "owned_by_title": "Top Coat & Base Coat Gel", "source": "existing mirelleinspo.com post" }
+    ]
+  },
+
+  "merged_posts_log": [],
+
+  "killed_posts_log": [
+    {
+      "topic": "Beginner gel nail kit (separate post in this cluster)",
+      "reason": "Already owned by existing site post melodysusie-beginner-nail-kit — would directly cannibalize. Pillar and spokes in this cluster deliberately avoid beginner framing."
+    },
+    {
+      "topic": "Travel / mini gel nail kit (separate spoke)",
+      "reason": "Real but thin demand signal — appeared only as an Amazon 'related search' suggestion, not its own dedicated bestseller category or content ecosystem. Did not clear the bar for a standalone post; folded as a minor mention inside the pillar instead."
+    },
+    {
+      "topic": "Gel nail tips / Gel-X kits",
+      "reason": "Confirmed real volume (~6,188/week for 'gel nail tips') but this is a structurally different product (press-on tip extensions, not polish-and-lamp kits) — not part of this cluster's scope. Flagged separately as a possible future cluster opportunity, not killed for lack of demand."
+    }
+  ]
+}
