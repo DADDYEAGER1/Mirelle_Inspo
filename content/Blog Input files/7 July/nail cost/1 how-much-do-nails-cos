@@ -1,0 +1,479 @@
+# INPUT FILE — BLOG GEN AGENT
+## Post: How Much Do Nails Cost: Complete Pricing Guide
+
+---
+
+## SECTION 1 — FILE AUTHORITY
+
+THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly. Author: jyoti-mirelle.
+
+---
+
+## SECTION 14 — EXECUTION PLAN *(Read This First)*
+
+### Block 1: Keyword Execution
+- **primary_keyword:** how much do nails cost
+- **top_3_density_baseline:** 14 mentions (average across StyleSeat ~12, Airtasker ~16, BTArtbox ~14)
+- **total_mention_target:** 17 mentions (baseline 14 + 3). Hard target. Not a percentage.
+- **first_100_words_plan:**
+  - Mention 1: Opening sentence — primary keyword as the anchor of the first sentence
+  - Mention 2: Sentence 3-4 — repeating in context of "the answer depends on what service you book"
+- **first_half_target:** 10 mentions — first 1,750 words run denser
+- **second_half_target:** 7 mentions — second 1,750 words
+- **strong_tag_rule:** EVERY single mention of "how much do nails cost" (or closest natural form: "how much nails cost") wrapped in `<strong>` tags. All 17. Scan after every paragraph.
+- **keywords_to_avoid_active:** gel nails cost | acrylic nails cost | manicure cost | pedicure cost | nail fills cost | BIAB cost | dip powder cost | expensive nail salons worth it | nail salon cost by state | how to save money on nails | gel vs acrylic almond nails | manicure vs pedicure difference | acrylic vs gel vs press-on prom nails | almond nails beginners guide | why do nails hurt after acrylics | gel vs acrylic nails for work
+
+### Block 2: Word Budget
+- **total_target:** 3,200 words (+/- 50 words tolerance — never exceed 3,500)
+- **introduction:** 230 words
+- **conclusion:** 175 words
+- **H2 budgets:**
+  | H2 Heading | Budget | Complexity |
+  |---|---|---|
+  | What Does the Average Nail Appointment Actually Cost? | 380 words | High |
+  | How Much Do Gel Nails Cost? | 280 words | Medium |
+  | How Much Do Acrylic Nails Cost? | 270 words | Medium |
+  | How Much Does a Manicure Cost? | 240 words | Medium |
+  | How Much Does a Pedicure Cost? | 220 words | Medium |
+  | How Much Do Nail Fills Cost? | 210 words | Low-Medium |
+  | How Much Does BIAB Cost? | 200 words | Low-Medium |
+  | How Much Does Dip Powder Cost? | 180 words | Low |
+  | What Factors Actually Affect How Much You Pay for Nails? | 320 words | High |
+  | How Much Do Nails Cost in the UK, Australia, and Canada? | 270 words | Medium |
+  | How Much Can You Save by Doing Your Nails at Home? | 220 words | Low |
+
+### Block 3: Image Plan
+- **total_images:** 12 (hero = 1 + 11 H2s = 12 total; pillar rule applied)
+- **hero_image:** frontmatter only — NEVER in post body
+- **body_images:** 11 images placed after each H2 section
+- **assignments:**
+  | Image # | Place After | Context |
+  |---|---|---|
+  | 1 | H2-1 (average cost) | Clean salon manicure flatlay showing various service stages |
+  | 2 | H2-2 (gel nails) | Glossy gel manicure on natural hand |
+  | 3 | H2-3 (acrylic nails) | Long acrylic set, shaped and polished |
+  | 4 | H2-4 (manicure) | Classic manicure in-progress at salon |
+  | 5 | H2-5 (pedicure) | Pedicure foot soak and polish |
+  | 6 | H2-6 (nail fills) | Close-up of gel fill regrowth zone |
+  | 7 | H2-7 (BIAB) | BIAB overlay on short natural nails |
+  | 8 | H2-8 (dip powder) | Dip powder process with powder dipping |
+  | 9 | H2-9 (factors) | Nail technician at salon workstation |
+  | 10 | H2-10 (UK/AU/CA) | Styled manicure flatlay with international currency hint |
+  | 11 | H2-11 (DIY) | At-home gel kit with lamp and polish |
+- **image_type_rule:** ALL body images = inspirational/editorial nail images related to topic. NO infographics. NO comparison charts. NO step-by-step visuals.
+- **path_rule:** /images/blog/nail-costs/how-much-do-nails-cost/filename.webp
+
+### Block 4: Opening Technique Assignments
+- **Introduction:** Technique 1 (The Claim) — bold direct statement of the full cost range upfront
+- **H2-1 (average cost):** Technique 3 (The Reframe) — reframe the "simple question" angle
+- **H2-2 (gel nails):** Technique 2 (The Contrast) — budget vs premium gel
+- **H2-3 (acrylic nails):** Technique 1 (The Claim) — direct price statement
+- **H2-4 (manicure):** Technique 4 (The Question) — posed as reader's perspective
+- **H2-5 (pedicure):** Technique 3 (The Reframe)
+- **H2-6 (nail fills):** Technique 2 (The Contrast)
+- **H2-7 (BIAB):** Technique 1 (The Claim)
+- **H2-8 (dip powder):** Technique 4 (The Question)
+- **H2-9 (factors):** Technique 3 (The Reframe)
+- **H2-10 (international):** Technique 2 (The Contrast)
+- **H2-11 (DIY):** Technique 1 (The Claim)
+- **Conclusion:** Technique 3 (The Reframe)
+- **banned_opener_rule:** No "Are you...", "Have you ever...", "If you're looking for...", "In this post...", "Welcome to..."
+
+### Block 5: Link Placements
+| Anchor Text | Full URL | Place In Section | Context |
+|---|---|---|---|
+| gel nails cost | /blog/nail-costs/gel-nails-cost | H2-2 (gel nails) | Natural mention when directing reader to deeper gel coverage |
+| acrylic nails cost | /blog/nail-costs/acrylic-nails-cost | H2-3 (acrylic nails) | Natural mention for fuller acrylic breakdown |
+| how much does a manicure cost | /blog/nail-costs/manicure-cost | H2-4 (manicure) | When stating full coverage available in dedicated post |
+| how much does a pedicure cost | /blog/nail-costs/pedicure-cost | H2-5 (pedicure) | Directing to dedicated pedicure pricing post |
+| nail fills cost | /blog/nail-costs/nail-fills-cost | H2-6 (nail fills) | Directing to dedicated fills breakdown |
+| how much does BIAB cost | /blog/nail-costs/biab-cost | H2-7 (BIAB) | Directing to BIAB-specific deep dive |
+| dip powder cost | /blog/nail-costs/dip-powder-cost | H2-8 (dip powder) | Directing to dip powder post |
+| are expensive nail salons worth it | /blog/nail-costs/expensive-nail-salons-worth-it | H2-9 (factors) | Natural at the premium salon pricing point |
+| nail salon cost by state | /blog/nail-costs/nail-salon-cost-by-state | H2-10 (international/US) | When referencing US state-level variation |
+| how to save money on nails | /blog/nail-costs/save-money-on-nails | H2-11 (DIY/savings) | Natural close of the DIY/savings section |
+
+### Block 6: AEO / GEO Plan
+| AEO Term | Assigned Section | Execution |
+|---|---|---|
+| How much does it cost to get your nails done? | Intro / H2-1 | Direct 2-sentence answer in first 150 words |
+| What is the average price of a manicure in the US? | H2-4 (manicure) | Direct answer paragraph immediately after H2 |
+| How much does gel nail polish cost at a salon? | H2-2 (gel nails) | 2-sentence direct answer at top of section |
+| Are acrylic nails more expensive than gel nails? | H2-3 (acrylic) | Direct comparison answer paragraph |
+| Why do nail prices vary so much? | H2-9 (factors) | Direct 2-3 sentence answer at section open |
+| How much do nail fills cost? | H2-6 (fills) | Direct answer at section open |
+| How much does BIAB cost in the UK? | H2-7 (BIAB) | Direct 2-sentence answer |
+| How much do nails cost in the UK vs USA? | H2-10 (international) | Direct comparison answer |
+
+**GEO entity statements:**
+- BIAB (Builder in a Bottle): define clearly in H2-7 — "BIAB (Builder in a Bottle) is a structured gel overlay applied to the natural nail and cured under LED light. It is the dominant nail service in UK and Australian salons."
+- Gel fill: define in H2-6 — "A gel fill is a maintenance appointment where the technician applies fresh product to the regrowth area only, avoiding a full removal and reapplication."
+- Dip powder: define in H2-8 — "Dip powder nails use a resin-and-powder bonding system instead of monomer liquid, creating a hard finish that falls between gel and acrylic in flexibility."
+
+### Block 7: Active Constraints
+- **em_dash_banned:** Long em dash (—) does not appear anywhere. Use: comma, new sentence, parentheses, or "but / and / which".
+- **banned_vocab_watch for this topic:** "amazing", "stunning", "game-changer", "perfect", "luxurious", "fabulous", "pampering" (overused in nail cost content — avoid), "simply", "journey"
+- **british_english_active:** colour, recognise, practise (verb), -ise endings, -our endings — every instance, no exceptions
+- **keyword_density_reminder:** After every 2 H2 sections, count current keyword mentions. First half must run denser than second half. Adjust if needed.
+- **image_path_reminder:** /images/blog/nail-costs/how-much-do-nails-cost/filename.webp — topic_slug "nail-costs" in path always
+- **internal_link_url_reminder:** Full correct paths only. Cluster links = /blog/nail-costs/[slug]. Never bare /slug.
+- **hero_image_reminder:** Hero = frontmatter only. Never place hero image in body.
+- **strong_tag_reminder:** Every primary keyword mention = `<strong>` tags. Scan after every paragraph.
+
+---
+
+## SECTION 2 — POST CONSTANTS
+
+```
+slug: how-much-do-nails-cost
+topic_slug: nail-costs
+canonical: https://mirelleinspo.com/blog/nail-costs/how-much-do-nails-cost
+post_type: pillar
+intent: informational
+word_count: 3200
+image_count: 12
+template: center
+hero_dimensions: 1200x630
+category: Nail Care Guide
+publish_date: 2026-06-27
+author: jyoti-mirelle
+```
+
+---
+
+## SECTION 3 — CLUSTER SNAPSHOT
+
+```
+pillar_slug: how-much-do-nails-cost
+pillar_title: How Much Do Nails Cost: Complete Pricing Guide
+pillar_primary_keyword: how much do nails cost
+this_post_slug: how-much-do-nails-cost
+this_post_role: pillar
+```
+
+**keywords_to_avoid (hard wall — never use as focus terms):**
+gel nails cost | acrylic nails cost | manicure cost | pedicure cost | nail fills cost | BIAB cost | dip powder cost | expensive nail salons worth it | nail salon cost by state | how to save money on nails | gel vs acrylic almond nails | manicure vs pedicure difference | acrylic vs gel vs press-on prom nails | almond nails beginners guide | why do nails hurt after acrylics | gel vs acrylic nails for work
+
+---
+
+## SECTION 4 — SERP ANALYSIS
+
+**Top 3 competitor word count estimates:**
+- StyleSeat (styleseat.com/blog/how-much-nails-cost): ~2,800 words — covers all service types, state pricing table, FAQs
+- Airtasker US (airtasker.com — manicure cost): ~3,100 words — very detailed, segmented by service type, very current (May 2026)
+- BTArtbox (btartboxnails.com/cost-to-get-your-nails-done): ~2,600 words — service-by-service breakdown, state table reference
+- **Average: ~2,833 words → floor set at 3,200 (above average, within 3,500 pillar ceiling)**
+
+**Competitor keyword density baseline:**
+- StyleSeat: ~12 primary keyword mentions
+- Airtasker: ~16 primary keyword mentions
+- BTArtbox: ~14 primary keyword mentions
+- **Average: 14 mentions → total target set at 17 (14 + 3)**
+
+**Competitor gaps (demand-validated on 2+ sources):**
+1. No competitor addresses 2026 tariff impact on salon pricing (confirmed: joinblvd.com Jan 2026 + multiple Reddit threads flagging surprise price rises) — validated 2+ sources
+2. No competitor provides clear UK + US + AU + CA cost comparison in one table format (Quora threads repeatedly ask this; Airtasker covers markets separately, never together) — validated 2+ sources
+3. No competitor explains the real annual cost of maintaining a set (fills × 52 weeks + removal + new sets) — flagged on Quora, Reddit, and YouTube comments repeatedly — validated 2+ sources
+4. No consumer-facing competitor addresses why prices rose 12% in 2024 (Zenoti data) and what that means for 2026 budgeting — validated: Zenoti + ROXO Hub both cite this
+5. Competitors do not address tipping as part of total cost — Quora and Airtasker both reference tipping as a cost factor readers forget — validated 2+ sources
+
+**Missing semantic territory:**
+- Annual running cost calculation for nail maintenance (absent from all top 3)
+- Regional price tiers clearly named (metro vs suburban vs rural) in one digestible table
+- Tariff and supply cost impact on 2026 prices
+- Tip as a line item in total cost
+
+**Our strategic approach:**
+This post wins by being the only consumer-facing pricing guide that (1) covers all services in one post with current 2026 pricing, (2) includes a four-country comparison table, and (3) gives the reader the real annual maintenance cost they'll spend — the number no competitor mentions. The angle is: "here is everything you actually need to know before you walk into any salon."
+
+**image_count_validation:** Top competitors all use 6-12 images. 12 total (pillar rule: 1 hero + 11 H2s) is consistent with SERP visual patterns. ✅
+
+---
+
+## SECTION 5 — AUDIENCE INTELLIGENCE
+
+**Who they are:**
+Women aged 20-45, predominantly in the US, UK, Australia, Canada. Mix of first-time salon visitors nervous about being surprised at checkout, and regular salon clients who are reconsidering their service choice due to rising prices. Strong cohort of "beauty-aware but price-conscious" — they want good nails but do not want to overpay. High mobile usage; many are in a salon car park or on the bus looking this up before they go in.
+
+**What they want from this post:**
+A clear, honest breakdown of every service cost in one place — no guessing, no "it depends" without a follow-up number, no editorial fluff. They want to know what they'll pay before they sit down. They also want to know if they're being charged fairly.
+
+**What frustrates them in current content:**
+- Generic "prices vary" answers with no numbers
+- Content clearly written for nail techs pricing their services, not consumers
+- Prices that are obviously outdated (2019-2022 data presented as current)
+- No international coverage — UK readers can't use US-only guides
+- Missing the ongoing cost (fills, maintenance) — only first visit covered
+
+**Top 5 pain points:**
+1. Fear of walking in and being shocked by the final bill (add-ons, removal fees, design extras)
+2. Uncertainty about which service is worth the higher price (gel vs acrylic vs dip — what's the actual price difference for what you get)
+3. Not knowing how much they'll spend across a full year, not just one visit
+4. Not understanding why prices at different salons vary so much for what looks like the same service
+5. UK and Australian readers unable to use US-centric guides — need localised numbers
+
+**Exact user phrases (from Quora, Reddit, YouTube):**
+- "I walked in expecting $35 and walked out $85 lighter"
+- "how much should nails actually cost, I feel like I'm being ripped off"
+- "is it normal for gel to cost that much more than regular"
+- "what do I say when I don't know what I want or what it costs"
+- "I pay $50 for a dip and it takes 45 minutes, is that right"
+- "pedicures between $25-$35, manicure between $15-35 — is that still accurate"
+- "if you're in NYC or LA everything will cost $50 and up"
+- "I don't have them but acrylics cost about $60 to put on — are these still 2019 prices"
+- "fills every 3 weeks at $30 each — that's $520 a year just for maintenance"
+- "how much does it cost for 2 people to get nails done"
+
+**Intent content signals:**
+- They respond to tables — service-by-service price breakdowns in scannable rows
+- They need current year in the headline or they distrust the data
+- Short direct sentences outperform editorial prose for this intent
+- Country-specific pricing increases engagement for non-US readers significantly
+- They want to know hidden extras upfront (removal fees, design add-ons, tips)
+- Annual cost calculation gets high engagement on YouTube — it surprises people
+
+---
+
+## SECTION 6 — SEMANTIC KEYWORD DATA
+
+**primary_keyword:** how much do nails cost
+
+**keyword_variations (all cannibalization-cleared):**
+- how much do nails cost at a salon
+- how much does it cost to get your nails done
+- how much do nails cost in 2026
+- nail salon pricing guide
+- how much are nails at a salon
+- nail service cost breakdown
+- nail appointment cost
+- how much do you pay for nails
+- how much do nails cost per visit
+- nail prices at salon
+
+**cluster_keywords (all cleared, none drift into spoke territory):**
+- nail service pricing
+- salon nail prices 2026
+- basic manicure price
+- gel polish price
+- acrylic nail price
+- nail enhancement cost
+- salon appointment cost
+- nail maintenance cost
+- nail art cost add-on
+- tip for nail technician
+- nail salon price list
+- service menu nail salon
+- nail type price comparison
+- annual nail care cost
+- nail pricing by country
+
+**lsi_terms (all cleared, specific to this keyword, not parent):**
+- cuticle care cost
+- polish change cost
+- UV LED gel curing
+- nail removal fee
+- builder gel price
+- nail fill appointment
+- paraffin wax treatment price
+- Russian manicure cost
+- French tip add-on price
+- nail art surcharge
+- shellac price
+- spa pedicure price
+- nail technician experience level
+- salon location premium
+- tariff impact nail prices 2026
+- chrome finish surcharge
+- press-on vs salon cost
+- nail appointment add-ons
+- nail service tipping standard
+- nail longevity cost per day
+
+**aeo_terms (12 full question phrases for AI answer engines):**
+1. How much does it cost to get your nails done at a salon?
+2. What is the average price of a manicure in the US?
+3. How much do gel nails cost compared to acrylic?
+4. Why do nail salon prices vary so much between locations?
+5. How much should I tip my nail technician?
+6. What is included in the price of a gel manicure?
+7. How much do nails cost per year if you get them done regularly?
+8. How much do nails cost in the UK compared to the US?
+9. Is it cheaper to do your nails at home or at a salon?
+10. What is the most affordable nail service at a salon?
+11. How much does a full set of acrylic nails cost in 2026?
+12. What extra fees should I expect at a nail salon?
+
+**technical_terms:**
+- monomer and powder polymer (acrylic system)
+- UV/LED lamp curing (gel application)
+- soak-off gel (removal method)
+- builder gel overlay
+- nail plate prep
+- cuticle nipping vs pushing
+- nail enhancements
+
+**user_language (casual phrases from real conversations):**
+- "what will I actually pay"
+- "charged at checkout"
+- "is that normal for gel"
+- "walk in without a clue"
+- "fills every few weeks"
+- "it added up fast"
+- "they charged me extra for removal"
+- "cheaper to just do them at home"
+- "depends where you go"
+- "I had no idea it would cost that much"
+
+---
+
+## SECTION 7 — VOICE AND AI QUERIES
+
+**12 conversational full-sentence queries locked to primary keyword:**
+
+1. How much does it cost to get your nails done at a salon in 2026?
+2. What's the average price of a basic manicure in the US right now?
+3. How much do gel nails cost compared to regular polish?
+4. Why is there such a big difference in nail prices between salons?
+5. How much do acrylic nails cost including fills every few weeks?
+6. What's the total cost of getting nails done over a full year?
+7. How much do nails cost in the UK versus the US?
+8. What hidden fees should I expect when I get my nails done?
+9. How much does a pedicure typically cost at a nail salon?
+10. Is it actually cheaper to do your nails at home?
+11. How much do you tip a nail technician and does that add to the cost?
+12. What's the price difference between dip powder and gel nails?
+13. How much do BIAB nails cost and why are they more expensive in the UK?
+14. How much does nail art add to the cost of a manicure?
+15. What's the most affordable nail service at a salon?
+16. How much more expensive are nails in New York compared to other cities?
+17. Do nail prices include removal of the previous service?
+18. What's the cost breakdown for a full acrylic set including maintenance?
+
+---
+
+## SECTION 8 — HOOK AND CTR
+
+**selected_trigger:** Trigger 3 — Specificity / Numbers
+
+**trigger_rationale:** Reader is in decision mode before a salon visit — they want a defined, specific promise ("here is the actual number") not emotional aspiration. Specificity trigger matches the informational intent and their fear of being surprised at checkout.
+
+**title:** How Much Do Nails Cost: Complete Pricing Guide
+**title_char_count:** 48 characters ✅ (within 55-60 cap; primary keyword in first 4 words; informational pillar — no year tag required per rules: not a trend/ideas/seasonal page)
+
+**meta_description:** Gel nails, acrylics, fills, BIAB — here's what every nail service costs in 2026 across the US, UK, Australia and Canada, with no-surprise pricing breakdowns.
+**meta_char_count:** 154 characters ✅ (within 120-155 cap; PAS formula: problem = confusing pricing, answer = breakdown by service and country, differentiator = international coverage; does not repeat title)
+
+**intro_hook_brief:** Open with the full pricing spectrum stated immediately and directly — from $15 basic polish to $100+ sculpted sets — then reframe the real question as not "how much" but "which service and where." The reader landed here because they are about to spend money and don't want to guess. Give them the answer in the first sentence.
+
+**first_h2_hook_direction:** First H2 should open as a voice-search-style question that directly mirrors what the reader typed: "What does the average nail appointment actually cost?" — then answer it in the next 2-3 sentences before any elaboration. Subtle curiosity gap: the "actually" signals that the real answer is more nuanced than the simple range they've already seen.
+
+---
+
+## SECTION 9 — SEARCH JOURNEY
+
+**reader_arrival_state:** About to book or already on the way to a salon — budget-conscious, slightly anxious about being surprised by the bill, and looking for a number they can trust.
+
+**journey_arc:**
+1. Open with the full range immediately — land the answer before they scroll
+2. Walk service by service with prices — gel, acrylic, manicure, pedicure, fills, BIAB, dip
+3. Surface the hidden cost factors — the things that make the final bill different from the headline price
+4. Broaden to international context and US state variation — "here's what it costs where you are"
+5. Close with the savings angle and a clear next step — links to deeper spoke posts
+
+**promise_to_deliver:** A complete, honest, current breakdown of what every nail service costs in 2026 — globally, with no hidden surprises.
+
+**exit_state:** Reader leaves knowing exactly what to budget for their next appointment, understanding why prices differ, and knowing where to go for deeper information on any specific service.
+
+---
+
+## SECTION 10 — CONTENT STRUCTURE
+
+**h1:** How Much Do Nails Cost: Complete Pricing Guide
+
+**h2_structure (ordered — do not rename, reorder, or remove):**
+1. What Does the Average Nail Appointment Actually Cost?
+2. How Much Do Gel Nails Cost?
+3. How Much Do Acrylic Nails Cost?
+4. How Much Does a Manicure Cost?
+5. How Much Does a Pedicure Cost?
+6. How Much Do Nail Fills Cost?
+7. How Much Does BIAB Cost?
+8. How Much Does Dip Powder Cost?
+9. What Factors Actually Affect How Much You Pay for Nails?
+10. How Much Do Nails Cost in the UK, Australia, and Canada?
+11. How Much Can You Save by Doing Your Nails at Home?
+
+**word_budget:**
+- Introduction: 230 words
+- H2-1 (average cost): 380 words
+- H2-2 (gel nails): 280 words
+- H2-3 (acrylic nails): 270 words
+- H2-4 (manicure): 240 words
+- H2-5 (pedicure): 220 words
+- H2-6 (nail fills): 210 words
+- H2-7 (BIAB): 200 words
+- H2-8 (dip powder): 180 words
+- H2-9 (factors): 320 words
+- H2-10 (international): 270 words
+- H2-11 (DIY/savings): 220 words
+- Conclusion: 175 words
+- **Total: 3,195 words ✅**
+
+---
+
+## SECTION 11 — INTERNAL LINKS
+
+**Cluster links (anchor texts verbatim from cluster_context.json — do not rewrite):**
+
+| URL | Title | Anchor Text | Placement | Type |
+|---|---|---|---|---|
+| /blog/nail-costs/gel-nails-cost | How Much Do Gel Nails Cost | gel nails cost | H2-2 | cluster-spoke |
+| /blog/nail-costs/acrylic-nails-cost | How Much Do Acrylic Nails Cost | acrylic nails cost | H2-3 | cluster-spoke |
+| /blog/nail-costs/manicure-cost | How Much Does a Manicure Cost | how much does a manicure cost | H2-4 | cluster-spoke |
+| /blog/nail-costs/pedicure-cost | How Much Does a Pedicure Cost | how much does a pedicure cost | H2-5 | cluster-spoke |
+| /blog/nail-costs/nail-fills-cost | How Much Do Nail Fills Cost | nail fills cost | H2-6 | cluster-spoke |
+| /blog/nail-costs/biab-cost | How Much Does BIAB Cost | how much does BIAB cost | H2-7 | cluster-spoke |
+| /blog/nail-costs/dip-powder-cost | How Much Does Dip Powder Cost | dip powder cost | H2-8 | cluster-spoke |
+| /blog/nail-costs/expensive-nail-salons-worth-it | Are Expensive Nail Salons Worth It | are expensive nail salons worth it | H2-9 | cluster-spoke |
+| /blog/nail-costs/nail-salon-cost-by-state | Nail Salon Cost by State | nail salon cost by state | H2-10 | cluster-spoke |
+| /blog/nail-costs/save-money-on-nails | How to Save Money on Nails | how to save money on nails | H2-11 | cluster-spoke |
+
+**Note:** All 10 cluster spokes are mandatory internal links. Total = 10 links. This exceeds the 4-6 guideline but is required by the pillar's linking architecture as defined in cluster_context.json. Blog Gen Agent distributes them naturally across the 11 H2 sections — one per relevant section, never bunched. No link is forced — each sits at the exact H2 where the topic is addressed.
+
+**gallery_link:** null (not applicable — no gallery URL in cluster_context.json for this cluster)
+
+**Cross-site discovery links:** 0 added — total link count is already at 10 cluster links; adding cross-site links would exceed natural density. Cross-site links skipped in favour of link quality over quantity for this pillar.
+
+---
+
+## SECTION 12 — VOICE AND TONE
+
+**recommended_voice:** Informed friend — the knowledgeable woman who has been to dozens of salons and knows exactly what things should cost, giving you the honest version that the salon's website never will.
+
+**tone_characteristics:**
+1. Direct — prices stated upfront, no hedging or "it depends" without a number following
+2. Current — 2026 data referenced explicitly, reader should feel this is today's information
+3. Practical-warm — informative without being clinical; written for someone about to spend their own money
+4. British English throughout — colour, recognise, practise — consistent with Mirellé editorial standard
+5. Trustworthy authority — no hyperbole, no brand cheerleading, no soft-sells; reader trust is built through specificity
+
+**language_style:** Short to medium sentences. Heavy use of "you" as direct address. Price ranges stated as clean numbers, not approximations where possible. Tables for multi-service price comparisons. British spellings. No em dashes. No banned vocabulary (amazing, stunning, game-changer, pampering).
+
+**audience_match:** This reader is pragmatic — they want numbers, not inspiration. The informed-friend voice delivers authority without condescension, and the directness matches the intent of someone who typed a cost query into Google because they want a straight answer.
+
+---
+
+## SECTION 13 — EXTERNAL LINKS
+
+**links:**
+
+| URL | Context | Anchor Suggestion |
+|---|---|---|
+| https://www.nailpro.com/business/article/21157274/howto-price-your-nail-services | When explaining how nail techs set prices — the $1/minute rule from Precision Nails owner Jaime Schrabeck (Nailpro) validates the labour-cost explanation in H2-9 | nail service pricing principles |
+| https://www.zenoti.com/thecheckin/nail-salon-prices | When citing the 12% price rise in 2024 and 2026 US benchmark data in H2-9 (factors section) | 2026 nail salon price benchmarks |
+| https://www.styleseat.com/blog/how-much-nails-cost | When referencing the most-cited US state-by-state pricing data in H2-10 or H2-9 | StyleSeat US nail price data |
+
+---
+
+*End of Input File — Post 1: How Much Do Nails Cost (Pillar)*
+*Research mode: CLUSTER MODE | All constraints extracted from cluster_context.json | Author: jyoti-mirelle*
