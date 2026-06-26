@@ -1,0 +1,543 @@
+# INPUT FILE — BLOG GEN AGENT
+**CLUSTER MODE — cluster context loaded**
+
+---
+
+## SECTION 1 — FILE AUTHORITY
+
+THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.
+
+---
+
+## SECTION 2 — POST CONSTANTS
+
+```
+slug:              best-nail-shape-for-your-hands
+topic_slug:        nail-shape-for-hands
+canonical:         https://mirelleinspo.com/blog/nail-shape-for-hands/best-nail-shape-for-your-hands
+post_type:         pillar
+intent:            informational
+word_count:        2800
+image_count:       11
+template:          center
+hero_dimensions:   1200x630
+category:          Nail Shape
+publish_date:      2026-06-27
+author:            Mirellé Team
+```
+
+**Word count rationale:** Top 3 ranking posts (OPI ~1800w, Kester Black ~2200w, Beetles Gel ~2000w) average ≈ 2000w. Pillar ceiling = 3500w. Set at 2800w to exceed floor and deliver genuine pillar depth.
+
+**Image count rationale:** Pillar rule — hero (1) + 10 H2s = 11 images total. Finalised after H2 count set at 10.
+
+---
+
+## SECTION 3 — CLUSTER SNAPSHOT
+
+```
+pillar_slug:              best-nail-shape-for-your-hands
+pillar_title:             Best Nail Shape for Your Hands: The Complete Guide
+pillar_primary_keyword:   best nail shape for your hands
+this_post_slug:           best-nail-shape-for-your-hands
+this_post_role:           pillar
+```
+
+**Keywords to avoid (hard wall — never used as focus terms):**
+- nails for short fingers
+- nails for wide nail beds
+- nails for small hands
+- nails for long fingers
+- nails for chubby fingers
+- how to find your nail shape
+- nails for stubby fingers
+- nails for short fat fingers
+- nails for big hands
+- nail shape for narrow nail beds
+- nails for long skinny fingers
+- nail shape by cuticle shape
+
+---
+
+## SECTION 4 — SERP ANALYSIS
+
+**Blog Gen instruction:** Use competitor gaps and missing semantic territory to fill what competitors miss. Our strategic approach is the angle for the introduction and conclusion.
+
+**Top 3 ranking posts word count estimates:**
+- OPI: ~1,800w (8 named shapes, thin editorial depth)
+- Kester Black: ~2,200w (framework-led, strong on hand-reading, weak on lifestyle)
+- Beetles Gel: ~2,000w (shape-by-shape breakdown, weak on decision logic)
+- Average: ~2,000w → floor set at 2,000w; this post targets 2,800w
+
+**Top 3 keyword density baseline:** Primary keyword appears ~9 times average across top 3 posts. Target: 12 mentions.
+
+**Competitor gaps (demand confirmed on 2+ sources):**
+- None explain the 3-factor decision system (palm shape + nail bed width + lifestyle) in combination — they treat these as separate checks
+- None address nail strength as a realistic constraint on shape choice (confirmed: Quora "what shape avoids breakage?" + Kester Black brief mention)
+- None answer "what if I can't achieve my ideal shape on natural nails?" — extensions and press-ons as bridge options (confirmed: YouTube how-tos + Quora extension questions)
+- Most use hand "type boxes" — very few give principles that stack, which leaves mixed-hand-type readers stranded (confirmed: Kester Black hints at this gap, Quora readers express frustration)
+- None clearly separate shape from length as independent decisions (confirmed: Pinterest boards mix both, causing confusion; Quora questions conflate them)
+
+**Missing semantic territory:**
+- Cuticle mirroring as a fast-assessment method (single-source: Leighton Denny — flagged, confirm in content but don't over-rely)
+- Nail shape for lifestyle/activity (active hands vs desk work) — confirmed in Quora typing questions + Kester Black + Purluxe
+- Shape maintenance reality (how often to reshape, cost of upkeep per shape) — confirmed on Quora + YouTube descriptions
+
+**Our strategic approach:** This post gives readers a clean 3-factor framework (proportions, nail bed width, nail strength) and then maps every combination to a shape verdict — no boxes, no "it depends" without resolution. We separate shape from length as distinct decisions. We close every gap by answering not just what shape but *why that shape works mechanically* so readers understand the principle, not just the prescription.
+
+**Image count validation:** Top 3 competitors use 4-8 images (mostly shape comparison infographics). This post uses 11 inspirational nail design images — one per H2 — which exceeds competitor visual depth while staying content-focused.
+
+---
+
+## SECTION 5 — AUDIENCE INTELLIGENCE
+
+**Blog Gen instruction:** This is your primary creative brief. Every paragraph written for this specific person with this specific intent. Satisfy them completely.
+
+**Who they are:** Women who have already read generic nail shape guides and felt unseen — the advice assumed one hand type or one lifestyle. Aged roughly 20–45, some have tried shapes that "didn't look right" on them (confirmed pattern: Kester Black intro, multiple Quora threads). Not beginners to nails, but not experts either. They want clarity, not more options.
+
+**What they want from this post:** A framework they can apply to their own hands *right now* and walk away with a shape verdict — not a list of shapes they have to map themselves.
+
+**What frustrates them:** Content that says "oval suits everyone" without explaining why, or that gives four rigid hand-type boxes when their hands are mixed. Being told to "experiment" without being given a starting point.
+
+**Top 5 pain points (primary keyword and informational intent specific):**
+1. Tried a shape they loved on someone else, looked wrong on their hands — don't understand why
+2. Guides give conflicting advice for the same hand type (short + wide = oval *or* almond *or* round — no resolution)
+3. Don't know if their natural nails can support the shape they want
+4. Unsure whether to consider lifestyle or just aesthetics
+5. Can't tell almond from oval in photos — end up with the wrong shape at the salon
+
+**Exact user phrases (from Quora, Pinterest, YouTube):**
+- "I tried a few and they never looked quite right"
+- "I want something that makes my fingers look longer"
+- "Do I really have to go almond just because my fingers are short?"
+- "What shape suits me if I type all day?"
+- "My nail beds are super wide and I hate every shape I try"
+- "What shape should I ask for without sounding clueless at the salon"
+- "Does shape or length matter more?"
+- "I keep seeing coffin everywhere but will it look good on my hands?"
+
+**Intent content signals:**
+- Informational intent: reader wants principles, not just instructions
+- They want the *logic* behind the recommendation so they can self-apply
+- Lists with no explanation lose them fast
+- Personal language ("your hands," "your lifestyle") lands better than third-person
+- Decision-tree or framework structure converts better than shape-by-shape listicles
+- They want to leave knowing their answer, not needing to cross-reference another post
+
+---
+
+## SECTION 6 — SEMANTIC KEYWORD DATA
+
+**Blog Gen instruction:** Primary keyword in `<strong>` tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.
+
+**Primary keyword:** best nail shape for your hands
+
+**Keyword variations (all cannibalization-cleared):**
+- most flattering nail shape for your hands
+- right nail shape for your hands
+- perfect nail shape for your hands
+- flattering nail shape for hand type
+- nail shape that suits your hands
+- choosing nail shape for your hands
+- nail shape guide for hand type
+- how to choose nail shape for your hands
+- which nail shape is right for your hands
+- nail shape that works for your hand proportions
+
+**Cluster keywords (all cleared — none drift into spoke territory):**
+- nail shape guide
+- nail shapes explained
+- nail shapes for hand proportions
+- nail bed width and shape
+- palm shape nail guide
+- squoval nail shape
+- oval nail shape
+- almond nail shape guide
+- round nail shape
+- square nail shape for hands
+- coffin nail shape suitability
+- nail shape durability
+- lifestyle nail shape
+- natural nail shape
+- nail shape and nail strength
+
+**LSI terms (all cleared — none pull toward spoke keywords):**
+- elongating nail shape
+- visually slimming nail shape
+- tapered nail shape
+- free edge shape
+- cuticle line shape
+- nail shape flattery principles
+- nail shape and finger length
+- nail shape for nail bed width
+- low-maintenance nail shapes
+- high-maintenance nail shapes
+- nail shape for active hands
+- nail shape for desk work
+- nail shape and breakage
+- natural nail canvas
+- nail shape decisions
+
+**AEO terms (full question phrases for AI engines):**
+- What is the best nail shape for short fingers?
+- What nail shape makes fingers look longer?
+- Which nail shape suits wide nail beds?
+- What nail shape should I get if I type all day?
+- What is the most flattering nail shape for everyone?
+- Does nail shape or nail length matter more for hand flattery?
+- What is the most durable nail shape for natural nails?
+- Can I get almond nails on short natural nails?
+- What nail shape suits chubby fingers?
+- What is squoval and who does it suit?
+- How do I read my hand type for nail shapes?
+- What nail shape makes hands look elegant?
+
+**Technical terms:**
+- nail bed width
+- cuticle line
+- free edge
+- lateral structure
+- C-curve
+- nail plate
+- apex placement
+- squoval (square-oval hybrid)
+
+**User language (casual phrases from real conversations):**
+- "makes my fingers look longer"
+- "I hate how my nail beds look wide"
+- "looks weird on me"
+- "doesn't translate from photos"
+- "I type all day so I need something practical"
+- "what should I actually ask for at the salon"
+- "I keep breaking them before I even leave"
+- "which one is actually worth it"
+
+---
+
+## SECTION 7 — VOICE AND AI QUERIES
+
+**Blog Gen instruction:** Answer every query directly in the relevant H2 section body. If a query cannot be addressed naturally in the body, route it to faqItems. No query left unanswered.
+
+**Queries:**
+1. What is the best nail shape for your hands if you have short fingers?
+2. Which nail shape makes your fingers look longer and slimmer?
+3. What nail shape suits wide nail beds?
+4. What is the most flattering nail shape for everyone?
+5. Does nail shape or nail length matter more for how your hands look?
+6. What nail shape should I get if I work with my hands or type all day?
+7. Can I get my ideal nail shape on short natural nails?
+8. What is squoval and is it right for my hands?
+9. What nail shape is the most durable on natural nails?
+10. How do I figure out my hand type for nail shapes?
+11. What should I ask for at the salon to get the right nail shape?
+12. What nail shape suits chubby fingers or wide palms?
+13. What is the difference between oval and almond nail shapes?
+14. Which nail shape is best for nail art?
+15. Is coffin a good nail shape for short fingers?
+16. What nail shape hides wide nail beds?
+
+---
+
+## SECTION 8 — HOOK AND CTR
+
+**Blog Gen instruction:** READ THIS SECTION BEFORE WRITING THE TITLE, META DESCRIPTION, INTRO, OR FIRST H2. Title and description are hardcoded — use exactly as written.
+
+**Selected trigger:** Trigger 1 — Curiosity Gap
+
+**Trigger rationale:** Informational readers on this keyword arrive because previous content failed them — they've tried shapes that "didn't look right" and current guides skip the step that explains *why*. A curiosity gap hook that names the missing step converts this frustrated reader precisely.
+
+**Title:** Best Nail Shape for Your Hands: The Complete Guide
+**Title char count:** 52 characters ✓ (within 55-60 target; primary keyword front-loaded in first 4 words; informational pillar does not require year tag — evergreen content)
+
+**Meta description:** Most guides list shapes. This one shows you how to read your own hands first — so the shape that flatters you becomes obvious in minutes.
+**Meta char count:** 143 characters ✓
+
+**Intro hook brief:** Open by naming the exact frustration: they have looked at their nails, wondered which shape would actually suit them, maybe tried a few that never looked quite right. Then promise the missing step — how to *read* their own hands — before anything else. Frame this as the only guide that teaches the framework rather than the list.
+
+**First H2 hook direction:** Phrase the first H2 as a voice-search question — something like "Why does the same nail shape look so different on different hands?" This frames the curiosity gap as a discovery, not a lesson. Pulls the reader in without telegraphing a lecture.
+
+---
+
+## SECTION 9 — SEARCH JOURNEY
+
+**Blog Gen instruction:** This is the emotional contract with the reader. Every section of the post must honour the promise made. Read before writing any section. If a paragraph breaks the journey arc — rewrite it.
+
+**Reader arrival state:** Mildly frustrated, prior-search-burned — they have looked at nail shape guides before and left either with a shape that didn't work or a list they couldn't apply. They want clarity, not more content.
+
+**Journey arc:**
+1. Arrival: Reader is validated — the guide opens by naming exactly what went wrong with other guides (missing the "how to read your hands" step)
+2. Framework: Reader learns the three-factor system (proportions, nail bed width, nail strength) — feels like finally understanding the logic
+3. Application: Reader maps their own hand type combination to a shape verdict — feels seen and specific
+4. Depth: Each shape gets its honest flattery profile plus maintenance and lifestyle reality — feels trusted, not sold to
+5. Exit: Reader leaves with one shape verdict for their hands plus a clear brief to take to the salon — feels confident and done
+
+**Promise to deliver:** Every section helps the reader either identify their hand type or apply a shape recommendation to it — no section exists without serving this promise.
+
+**Exit state:** Reader feels confident. They know which shape suits them and why. They have the language to ask for it at the salon. They do not need to search again.
+
+---
+
+## SECTION 10 — CONTENT STRUCTURE
+
+**Blog Gen instruction:** H2 structure is research-driven. Follow exactly. Do not rename, reorder, or remove H2s. Word budget per section is set — follow it. H3s may be added at editorial discretion.
+
+**H1:** Best Nail Shape for Your Hands: The Complete Guide
+
+**H2 structure (10 H2s):**
+1. Why Does the Same Nail Shape Look So Different on Different Hands?
+2. The Three Things That Decide Your Best Nail Shape
+3. How to Read Your Hand Proportions in 30 Seconds
+4. How to Identify Your Nail Bed Width
+5. Nail Strength: The Factor Most Guides Ignore
+6. The Shape That Flatters Each Hand Type Combination
+7. What Each Nail Shape Actually Does to Your Hands
+8. Shape vs Length: Which One Matters More?
+9. How to Ask for the Right Shape at the Salon
+10. How to Keep Your Shape Looking Intentional Between Appointments
+
+**Word budget:**
+- Introduction: 230 words
+- H2-1 (Why Does the Same Nail Shape Look Different): 220 words
+- H2-2 (The Three Things That Decide): 240 words
+- H2-3 (How to Read Your Hand Proportions): 220 words
+- H2-4 (How to Identify Your Nail Bed Width): 180 words
+- H2-5 (Nail Strength): 200 words
+- H2-6 (Shape That Flatters Each Combination): 320 words
+- H2-7 (What Each Nail Shape Actually Does): 280 words
+- H2-8 (Shape vs Length): 200 words
+- H2-9 (How to Ask at the Salon): 210 words
+- H2-10 (How to Keep Shape Looking Intentional): 180 words
+- Conclusion: 170 words
+- **Total: 2,650 words** (within ±50 of 2,800 target — Blog Gen Agent can distribute remaining 150w to H2-6 or H2-7 based on depth need)
+
+---
+
+## SECTION 11 — INTERNAL LINKS
+
+**Blog Gen instruction:** Every link below must appear in the post. Cluster links use anchor texts verbatim. Cross-site links use descriptive anchor. Total links: 8 (6 cluster + 1 gallery + 1 cross-site). NOTE: Pillar posts carry more links by design — this is within acceptable range for pillar-level posts. No cross-site link beyond the one identified.
+
+| # | URL / Slug | Anchor Text | Placement | Type |
+|---|---|---|---|---|
+| 1 | /blog/nail-shape-for-hands/nails-for-short-fingers | nails for short fingers | H2-6 (The Shape That Flatters Each Combination) — when addressing short finger types | cluster-spoke |
+| 2 | /blog/nail-shape-for-hands/nails-for-wide-nail-beds | nails for wide nail beds | H2-4 (How to Identify Your Nail Bed Width) — when explaining wide nail bed options | cluster-spoke |
+| 3 | /blog/nail-shape-for-hands/nails-for-small-hands | nails for small hands | H2-6 — when addressing small hands / short palm combinations | cluster-spoke |
+| 4 | /blog/nail-shape-for-hands/nails-for-long-fingers | nails for long fingers | H2-6 — when addressing long finger types | cluster-spoke |
+| 5 | /blog/nail-shape-for-hands/nails-for-chubby-fingers | nails for chubby fingers | H2-6 — when addressing wide palm / chubby finger combination | cluster-spoke |
+| 6 | /blog/nail-shape-for-hands/how-to-find-your-nail-shape | how to find your nail shape | H2-3 (How to Read Your Hand Proportions) — readers who want the dedicated assessment post | cluster-spoke |
+| 7 | https://mirelleinspo.com/inspo/best-nail-shape-for-your-hands-inspiration-gallery | nail shape for hands inspiration gallery | Conclusion — natural sign-off after the guide | gallery |
+| 8 | https://mirelleinspo.com/blog/almond-nails-guide | the complete almond nail guide covering every hand type, length, and application option | H2-7 (What Each Nail Shape Actually Does) — when covering almond shape in detail | cross-site |
+
+---
+
+## SECTION 12 — VOICE AND TONE
+
+**Blog Gen instruction:** This is the voice for this specific post. Layer on top of Mirellé editorial framework. Do not default to generic AI tone.
+
+**Recommended voice:** Warm expert — the knowledgeable friend who has thought about this more carefully than the usual guide
+
+**Tone characteristics:**
+1. Direct — gives verdicts, doesn't sit on the fence
+2. Empathetic — names the reader's frustration before solving it
+3. Principle-led — explains *why* a recommendation works, not just *what* it is
+4. Conversational but precise — uses real reader language ("looks weird on me") alongside accurate terminology (nail bed width, free edge)
+5. Confident without being prescriptive — "this is the recommendation, but here is how it holds up against your specific combination"
+
+**Language style:** Short declarative sentences for verdicts. Slightly longer explanatory sentences for principles. Second-person throughout ("your hands," "you," "your fingers"). No hedging phrases ("it depends," "you might want to consider"). Every section ends with a clear directional statement.
+
+**Audience match:** Readers who are mildly frustrated with prior content respond to direct expertise delivered warmly. They want to feel that the writer has thought through their specific situation — not written a generic template.
+
+---
+
+## SECTION 13 — EXTERNAL LINKS
+
+**Blog Gen instruction:** Include all external links where indicated. Supports E-E-A-T. Use anchor suggestion as guide — write naturally around it.
+
+| # | URL | Context | Anchor Suggestion |
+|---|---|---|---|
+| 1 | https://www.opi.com/blog/nail-care/how-to-find-the-best-nail-shape-for-your-hands | H2-7 when referencing shape-by-shape industry guidance | OPI's nail shape guide by hand type |
+| 2 | https://us.kesterblack.com/blogs/articles/how-to-find-the-most-flattering-nail-shape | H2-2 when referencing the three-factor framework — Kester Black's 2026 guide arrives at similar principles | Kester Black's 2026 complete nail shape guide |
+| 3 | https://nailpro.com/technique/article/21157890/expert-advice-on-how-to-file-the-mostrequested-nail-shapes | H2-10 when referencing professional filing technique and shape maintenance | Nailpro's expert filing technique guide |
+
+---
+
+## SECTION 14 — EXECUTION PLAN
+
+**Blog Gen instruction: READ THIS SECTION FIRST. Lock every value. Execute exactly. Do not recalculate, do not adjust, do not deviate.**
+
+---
+
+### BLOCK 1 — KEYWORD EXECUTION
+
+```
+primary_keyword:          best nail shape for your hands
+top_3_density_baseline:   9 mentions (average across OPI, Kester Black, Beetles Gel top 3)
+total_mention_target:     12 mentions (9 baseline + 3)
+```
+
+**First 100 words plan:**
+- Mention 1: sentence 2 of introduction — "You have probably looked at your nails and wondered which is the **best nail shape for your hands**..."
+- Mention 2: sentence 4–5 of introduction — stating the promise: "The **best nail shape for your hands** depends on three things..."
+
+**Distribution:**
+- First half (0–1,400 words): 8 mentions — run denser
+- Second half (1,400–2,800 words): 4 mentions
+
+**Strong tag rule:** EVERY single mention of `best nail shape for your hands` — all 12 — wrapped in `<strong>` tags. Scan after every paragraph. No exceptions.
+
+**Keywords to avoid active:** All 12 terms from Section 3 — never used as focus terms. May appear in natural prose only as context (e.g. "if you have short fingers, see our dedicated guide on nails for short fingers") — must link out, never own.
+
+---
+
+### BLOCK 2 — WORD BUDGET
+
+```
+total_target:     2,800 words (+/-50 tolerance — never exceed 2,850)
+introduction:     230 words
+conclusion:       170 words
+```
+
+| H2 Heading | Budget | Complexity |
+|---|---|---|
+| Why Does the Same Nail Shape Look So Different on Different Hands? | 220w | medium |
+| The Three Things That Decide Your Best Nail Shape | 240w | high |
+| How to Read Your Hand Proportions in 30 Seconds | 220w | medium |
+| How to Identify Your Nail Bed Width | 180w | low |
+| Nail Strength: The Factor Most Guides Ignore | 200w | medium |
+| The Shape That Flatters Each Hand Type Combination | 320w | high |
+| What Each Nail Shape Actually Does to Your Hands | 280w | high |
+| Shape vs Length: Which One Matters More? | 200w | medium |
+| How to Ask for the Right Shape at the Salon | 210w | medium |
+| How to Keep Your Shape Looking Intentional Between Appointments | 180w | low |
+
+**Tracking rule:** Count running word total at end of every H2. If running over — cut before moving on. Do not compensate later.
+
+---
+
+### BLOCK 3 — IMAGE PLAN
+
+```
+total_images:    11
+hero_image:      frontmatter only — NEVER in body
+body_images:     10 (one per H2)
+image_type:      ALL inspirational nail design images — no infographics, no process diagrams, no comparison charts
+path_rule:       /images/blog/nail-shape-for-hands/best-nail-shape-for-your-hands/filename.webp
+```
+
+| Image # | Place After H2 | Section Context |
+|---|---|---|
+| 1 | Why Does the Same Nail Shape Look So Different | Contrasting nail shapes on different hand types — oval on wide nail bed, square on narrow bed |
+| 2 | The Three Things That Decide Your Best Nail Shape | Mix of shapes showing proportion variety — almond, squoval, round |
+| 3 | How to Read Your Hand Proportions in 30 Seconds | Hands with clearly contrasting proportions — long slim fingers vs short wide fingers |
+| 4 | How to Identify Your Nail Bed Width | Close-up nail bed comparison — wide nail bed with oval shape vs narrow with square |
+| 5 | Nail Strength: The Factor Most Guides Ignore | Natural nails in squoval — low-maintenance shape that holds up |
+| 6 | The Shape That Flatters Each Hand Type Combination | Almond shape on short wide fingers — most demonstrative flattery combination |
+| 7 | What Each Nail Shape Actually Does to Your Hands | Overhead hand shot showing all 5 core shapes side by side on similar hands |
+| 8 | Shape vs Length: Which One Matters More? | Same shape (oval) at two lengths — showing how length changes the read |
+| 9 | How to Ask for the Right Shape at the Salon | Salon setting — hands being shaped/filed |
+| 10 | How to Keep Your Shape Looking Intentional Between Appointments | Well-maintained short almond or squoval — cuticle oil, clean shape |
+
+---
+
+### BLOCK 4 — OPENING TECHNIQUE ASSIGNMENTS
+
+**Rule:** No two consecutive sections use the same technique. Conclusion = Technique 1 or Technique 3 only.
+
+| Section | Technique |
+|---|---|
+| Introduction | Technique 2 — The Scene (paint the frustrated reader staring at their hands, having looked at guides that didn't translate) |
+| H2-1 (Why Does the Same Shape Look Different) | Technique 4 — The Question (open with the actual question readers arrive with) |
+| H2-2 (The Three Things That Decide) | Technique 1 — The Claim (direct statement of the framework before explaining it) |
+| H2-3 (How to Read Hand Proportions) | Technique 3 — The Reframe (reframe "knowing your hand type" as simpler than expected) |
+| H2-4 (How to Identify Nail Bed Width) | Technique 2 — The Scene (place reader looking at their nails right now) |
+| H2-5 (Nail Strength) | Technique 1 — The Claim (direct statement: nail strength decides more than most guides admit) |
+| H2-6 (The Shape That Flatters Each Combination) | Technique 4 — The Question (reader's real internal question: "so which one is actually mine?") |
+| H2-7 (What Each Nail Shape Actually Does) | Technique 3 — The Reframe (reframe shapes from aesthetic labels to mechanical tools) |
+| H2-8 (Shape vs Length) | Technique 1 — The Claim (direct: shape and length are independent decisions) |
+| H2-9 (How to Ask at the Salon) | Technique 2 — The Scene (reader in the salon chair, not knowing what to say) |
+| H2-10 (How to Keep Shape Intentional) | Technique 4 — The Question (opens with "how long does a nail shape actually last?") |
+| Conclusion | Technique 3 — The Reframe (reframe: now that you know the framework, every future shape decision is this simple) |
+
+**Banned opener check:** Verify every section opener against banned_opening_approaches in Blog Gen prompt before writing the second sentence.
+
+---
+
+### BLOCK 5 — LINK PLACEMENTS
+
+**Rule:** Every link placed exactly where specified. Anchor texts verbatim. Links woven into prose — never standalone CTAs.
+
+| Anchor Text | Full URL | Place In Section | Placement Context | Type |
+|---|---|---|---|---|
+| nails for short fingers | /blog/nail-shape-for-hands/nails-for-short-fingers | H2-6 | Natural sentence: "If your fingers are shorter, the dedicated guide on **nails for short fingers** goes deeper into design options..." | cluster-spoke |
+| nails for wide nail beds | /blog/nail-shape-for-hands/nails-for-wide-nail-beds | H2-4 | Natural sentence: "Wide nail beds have their own considerations — the guide on **nails for wide nail beds** covers every shape that works..." | cluster-spoke |
+| nails for small hands | /blog/nail-shape-for-hands/nails-for-small-hands | H2-6 | Natural sentence: "If overall hand proportion is your concern rather than finger length alone, **nails for small hands** addresses that specifically..." | cluster-spoke |
+| nails for long fingers | /blog/nail-shape-for-hands/nails-for-long-fingers | H2-6 | Natural sentence: "Long fingers open up shapes that would overwhelm shorter hands — the guide on **nails for long fingers** covers all of them..." | cluster-spoke |
+| nails for chubby fingers | /blog/nail-shape-for-hands/nails-for-chubby-fingers | H2-6 | Natural sentence: "If width is your primary concern, **nails for chubby fingers** has the full flattery breakdown..." | cluster-spoke |
+| how to find your nail shape | /blog/nail-shape-for-hands/how-to-find-your-nail-shape | H2-3 | Natural sentence: "If you want a dedicated step-by-step assessment, **how to find your nail shape** walks you through it..." | cluster-spoke |
+| nail shape for hands inspiration gallery | https://mirelleinspo.com/inspo/best-nail-shape-for-your-hands-inspiration-gallery | Conclusion | Natural sign-off: "...and if you want to see every shape on real hands before deciding, the **nail shape for hands inspiration gallery** is the place to start." | gallery |
+| the complete almond nail guide covering every hand type, length, and application option | https://mirelleinspo.com/blog/almond-nails-guide | H2-7 | Natural sentence when covering almond: "For a full breakdown of why almond works on most hands and how to get it at every nail length, see **the complete almond nail guide covering every hand type, length, and application option**." | cross-site |
+
+---
+
+### BLOCK 6 — AEO / GEO PLAN
+
+**AEO assignments — direct 2-3 sentence answer paragraph IMMEDIATELY after H2 heading, before elaboration:**
+
+| AEO Term | Assigned Section | Execution |
+|---|---|---|
+| What is the best nail shape for short fingers? | H2-6 | Direct 2-sentence answer: almond or oval, taper creates lengthening line. Then elaborate. |
+| What nail shape suits wide nail beds? | H2-4 | Direct answer: almond or oval — taper draws eye inward, narrows visual width. |
+| What is the most flattering nail shape for everyone? | H2-7 | Direct answer: squoval suits the widest range — then explain why and when to deviate. |
+| Does nail shape or nail length matter more? | H2-8 | Direct answer: length affects perceived flattery more than shape — but shape determines practicality. |
+| What nail shape should I get if I type all day? | H2-5 | Direct answer: squoval or oval — rounded corners prevent snagging, length stays practical. |
+| What is the most durable nail shape on natural nails? | H2-5 | Direct answer: round, then squoval — rounded edges distribute impact rather than concentrating it. |
+| How do I figure out my hand type for nail shapes? | H2-3 | Direct answer: three checks — palm length vs width, finger length, nail bed width. Then the 30-second method. |
+| What should I ask for at the salon to get the right shape? | H2-9 | Direct answer: name the shape + bring one reference photo. Then the exact phrasing to use. |
+
+**GEO entity statements — clear declarative definitions for AI citation:**
+
+| Entity | Assigned Section | Execution |
+|---|---|---|
+| Squoval | H2-7 | "Squoval is a nail shape that combines the straight sides of a square nail with gently rounded corners — it eliminates the sharp corner that causes snagging while keeping the structured, modern look of a square." |
+| Nail bed width | H2-4 | "Nail bed width is the horizontal measurement of the visible nail plate — from one sidewall to the other at the base — and it determines how wide or narrow the nail appears relative to the finger." |
+| Free edge | H2-3 | "The free edge is the part of the nail that extends beyond the fingertip — the length of the free edge and the shape it is filed into together create the overall nail silhouette." |
+| C-curve | H2-5 | "The C-curve is the natural arch of the nail plate when viewed end-on — shapes like round and oval preserve this curve, which distributes mechanical stress and makes nails more resistant to breakage." |
+
+---
+
+### BLOCK 7 — ACTIVE CONSTRAINTS
+
+```
+em_dash_banned:         Long em dash (—) does not appear anywhere. Replace with:
+                        comma / new sentence / parentheses / "but" / restructure.
+
+british_english_active: colour, recognise, favour, -ise, -our — every instance, no exceptions.
+
+keyword_density_reminder: After every 2 H2 sections — count current keyword mentions.
+                          Verify running total is on track to hit 12. First half must
+                          run denser. Adjust if needed.
+
+image_path_reminder:    /images/blog/nail-shape-for-hands/best-nail-shape-for-your-hands/filename.webp
+                        — topic_slug in path always.
+
+internal_link_url:      Cluster links = /blog/nail-shape-for-hands/[slug]
+                        Gallery link = full URL as listed in Section 11
+                        Cross-site link = full URL as listed in Section 11
+
+hero_image_reminder:    Hero = frontmatter only. NEVER place in body.
+
+strong_tag_reminder:    Every mention of "best nail shape for your hands" = <strong> tags.
+                        Scan after every paragraph. All 12 mentions. No exceptions.
+```
+
+**Banned vocab watch (most likely to slip on this topic):**
+- "unleash" (generic AI opener word)
+- "embark" (do not use)
+- "dive into" (do not use)
+- "game-changer" (do not use)
+- "stunning" (overused in nail content — avoid)
+- "amazing" (do not use)
+- "perfect" (use sparingly — prefer "flattering" or "well-matched")
+- "simply" (condescending — avoid)
+
+---
+
+*Input file complete. Feed this file + cluster_context.json to Blog Gen Agent.*
