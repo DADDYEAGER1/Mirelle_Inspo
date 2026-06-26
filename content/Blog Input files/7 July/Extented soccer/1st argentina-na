@@ -1,0 +1,552 @@
+# BLOG GEN AGENT INPUT FILE — ARGENTINA NAILS
+**THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.**
+
+---
+
+## SECTION 1 — FILE AUTHORITY
+
+THIS INPUT FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. Every keyword, H2 structure, audience insight, internal link, word count, image count, intent signal, and tone recommendation defined in this file must be followed exactly. Nothing overridden or reinterpreted unless user explicitly instructs Blog Gen Agent during that session.
+
+---
+
+## SECTION 2 — POST CONSTANTS
+
+> Blog Gen Agent reads this section FIRST and locks all values before doing anything else. These are not recommendations — they are hard instructions.
+
+```
+slug:             argentina-nails
+topic_slug:       soccer
+canonical:        https://mirelleinspo.com/blog/soccer/argentina-nails
+post_type:        spoke
+intent:           inspirational
+word_count:       1800
+image_count:      9
+template:         split-left
+hero_dimensions:  800x800
+category:         Soccer Nails
+publish_date:     2026-06-27
+author:           Mirellé Team
+```
+
+**Word count rationale:** Top 3 ranking posts for "argentina nails" are primarily product pages and Pinterest-aggregator content (est. 400–800 words). The only editorial-quality result (The Pink Issue) runs ~900 words on Argentina within a broader roundup. Floor = ~900 words for a dedicated post. Spoke ceiling = 2800. Target set at 1800 to significantly outperform thin competitors while staying lean and scannable for an inspirational-intent reader.
+
+**Image count rationale:** Post slug does not contain X+ pattern. Post role = spoke. Intent = inspirational. Rule 5 applies: 9 images total (including hero).
+
+---
+
+## SECTION 3 — CLUSTER SNAPSHOT
+
+```
+pillar_slug:              soccer-nails
+pillar_title:             Soccer Nails: 20 Cute Ideas Every Fan Will Love
+pillar_primary_keyword:   soccer nails
+this_post_slug:           argentina-nails
+this_post_role:           spoke
+```
+
+**Keywords to avoid (hard wall — never use as focus terms):**
+- soccer nails
+- world cup nails
+- flag nail art / flag country nails
+- messi nails
+- soccer player nails
+- ronaldo nails
+- brazil nails
+- colombia nails
+- france nails
+- england nails
+- spain nails
+- portugal nails
+- germany nails
+
+---
+
+## SECTION 4 — SERP ANALYSIS
+
+> Blog Gen Agent: Use competitor gaps and missing semantic territory to fill what competitors miss. Our strategic approach is the angle for the introduction and conclusion.
+
+**Top 3 ranking competitors for "argentina nails":**
+1. Pinterest aggregator pages — zero editorial depth, no design breakdowns, ~200 words
+2. Etsy/product pages (Joyee Nails, 365nails) — product-focused, no inspirational content
+3. Hola.com / GlossyMuse roundups — Argentina mentioned in 1–2 paragraphs within a larger WC roundup, ~100 words on Argentina specifically
+
+**Top 3 estimated word counts:** ~200 / ~400 / ~900 → avg ~500 words. Floor = 900 (best editorial competitor). We target 1800.
+
+**Top 3 keyword density baseline:** Primary keyword "argentina nails" appears ~3–5 times in top posts. Baseline = 4 mentions. Target = 4 + 3 = **7 total mentions**.
+
+**Competitor gaps (demand validated on 2+ sources):**
+- No post dedicated entirely to argentina nails designs — gap confirmed on Pinterest (1,000+ saves on argentina nails boards) and YouTube (argentina nail art tutorial videos)
+- No post explains the exact sky-blue shade needed (confirmed gap: flag-country-nails on mirelleinspo notes "the wrong shade reads Serbian rather than Argentinian"; Pinterest shows repeated saves for "powder blue vs sky blue" nail confusion)
+- No post addresses wearability beyond game day — confirmed gap on GlossyMuse ("can football nails be worn beyond game day?") and Pinterest (saves spanning post-tournament months)
+- No post covers the Messi number 10 accent nail as a distinct design category — confirmed on Pinterest (dedicated "Messi Nails Design" + "Argentina Nails Design" boards co-saved) and YouTube tutorials
+- No competitor addresses both DIY and press-on options for argentina nails in the same post — confirmed gap on Pinterest (press-on searches) and Etsy listings
+
+**Missing semantic territory:**
+- Sol de Mayo / sun of May accent nail treatment
+- Chrome and gold finish applied to Albiceleste palette
+- How to distinguish from Serbian or Greek blue-and-white nails (shade specificity)
+- Post-tournament wearability of sky blue and white designs
+- Short nail versions of argentina designs (Pinterest: argentina nails design on almond/coffin)
+
+**Our strategic approach:** Most content on argentina nails is either a two-sentence mention buried in a World Cup roundup or a product page. No post has built 20 dedicated argentina nail design ideas with explanations, shade guidance, and wearability advice. We own that white space entirely, timed to the peak of World Cup 2026 demand when Argentina is ranked #1 globally and Messi is breaking all-time records.
+
+**Image count validation:** Pinterest boards show 20+ pins per argentina nails board; inspirational content is highly visual. 9 images (including hero) confirmed appropriate for a 20-ideas spoke post.
+
+---
+
+## SECTION 5 — AUDIENCE INTELLIGENCE
+
+> Blog Gen Agent: This is your primary creative brief. Every paragraph written for this specific person with this specific intent. Satisfy them completely.
+
+**Who they are:** Primarily women aged 18–35 in the US, UK, Canada, and Australia. Argentina fans attending watch parties, stadium events, or looking to celebrate the tournament through beauty. Two clear sub-audiences: (1) diehard fans who want to rep La Albiceleste properly, and (2) Messi fans who love him more than they love football and want the aesthetic. Many are looking for designs they can wear for weeks, not just one game.
+
+**What they want from this post:** 20 clear, visual-inspiration-ready argentina nail ideas — not generic blue-and-white nails. They want designs that read unmistakably as Argentina. They want to know what shade of blue to use, what the gold accent options are, and whether they need a nail tech or can DIY.
+
+**What frustrates them:** Generic blue-and-white nail content that doesn't say "Argentina." Articles that mention argentina nails in passing within a broader roundup. No guidance on the specific pale sky-blue shade vs wrong blues. No Messi number 10 ideas. No acknowledgement that they want the look to survive beyond the final whistle.
+
+**Top 5 pain points:**
+1. Can't find the right shade of sky blue — pale powder blue vs too-electric vs too-navy
+2. Don't know how to execute the Argentina stripe cleanly without the tape bleeding
+3. Want designs that look Albiceleste, not just "blue and white"
+4. Unsure whether to add the Sol de Mayo sun or leave it out
+5. Want designs that are wearable past the tournament, not costume-level
+
+**Exact user phrases (from Pinterest, Etsy, YouTube research):**
+- "argentina nails blue and white"
+- "argentina flag nails"
+- "argentina nails design world cup"
+- "messi nails design"
+- "argentina nails ideas"
+- "sky blue and white nails albiceleste"
+- "uñas argentina mundial"
+- "argentina nails with gold"
+- "argentina nail art gel"
+- "how to do argentina nails at home"
+- "argentina nails press on"
+- "sol de mayo nail art"
+
+**Intent content signals:**
+- High visual volume is essential — 20 named design ideas, not 5 with padding
+- Named designs work better than numbered lists for this audience (found on Pinterest saves of named styles)
+- Shade specificity is a genuine differentiator — no competitor explains the exact blue
+- Wearability context doubles the content shelf-life ("wear these through summer")
+- Short callouts per design (2–3 sentences each) outperform long paragraphs
+- Press-on options should be acknowledged — high Etsy demand confirms this audience
+- Spanish-language crossover terms (Sol de Mayo, Albiceleste, uñas argentina) signal bilingual-aware audience in US
+
+---
+
+## SECTION 6 — SEMANTIC KEYWORD DATA
+
+> Blog Gen Agent: Primary keyword in strong tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.
+
+**Primary keyword:** argentina nails *(LOCKED)*
+
+**Keyword variations (all cannibalization-cleared):**
+- argentina nail designs
+- argentina nail art
+- argentina nail ideas
+- argentina nails blue and white
+- argentina nail set
+- albiceleste nails
+- argentina manicure
+- argentina flag nail art
+- argentina themed nails
+- argentina inspired nails
+
+**Cluster keywords (all cleared — none drift into other posts' territory):**
+- sky blue and white nails
+- pale blue and white nail designs
+- Albiceleste nail art
+- Sol de Mayo nail art
+- Argentina fan manicure
+- blue and white gel nails
+- Argentine football nails
+- number 10 accent nail
+- argentina press on nails
+- gold sun nail accent
+- powder blue nails
+- Argentina World Cup 2026 nails
+- stripe nail art blue white
+- Messi-inspired nail art (cleared — messi nails slug = messi-nails, this term is thematic not the primary keyword)
+
+**LSI terms (all cleared, specific to this keyword not the parent):**
+- pale Albiceleste stripes
+- sky blue nail polish
+- baby blue gel polish
+- Sol de Mayo sun motif
+- three-stripe nail pattern
+- gold chrome accent nail
+- striping tape nail technique
+- colour-block nail design
+- blue and white French tip
+- GelX extensions sky blue
+- press-on argentina nails
+- gold star nail art
+- number 10 nail art
+- milky base blue blooming technique
+- tape-friendly stripe design
+- Argentina kit colours
+- powder blue vs sky blue nails
+- white accent nail
+- gold swirl nail detail
+- Albiceleste blue shade
+
+**AEO terms (8–12 full question phrases for AI answer engines):**
+1. What colours are Argentina nails?
+2. What shade of blue is used for Argentina nail designs?
+3. How do you do Argentina nails at home?
+4. What is the difference between Argentina nails and Greek nails?
+5. Can I wear Argentina nails after the World Cup?
+6. What does the Sol de Mayo look like on nails?
+7. How many stripes do Argentina flag nails have?
+8. What is the easiest Argentina nail design for beginners?
+9. Do Argentina nails need gold accents?
+10. What nail shape works best for Argentina nails?
+11. Are Argentina nails only for football fans?
+12. How do you get the Albiceleste blue colour right?
+
+**Technical terms:**
+- Albiceleste (Argentina's official team name/kit)
+- Sol de Mayo (the sun emblem on Argentina's flag — 32 rays)
+- striping tape
+- GelX extensions
+- blooming gel technique
+- chrome powder
+- gel topcoat
+
+**User language (from real conversations — Pinterest, Etsy, YouTube):**
+- "sky blue and white"
+- "the Messi look"
+- "number 10 nail"
+- "gold star nails"
+- "uñas argentina"
+- "the albiceleste vibe"
+- "just needs to say Argentina without screaming it"
+- "wearable beyond the match"
+- "tape the stripes"
+- "sol de mayo accent"
+
+---
+
+## SECTION 7 — VOICE AND AI QUERIES
+
+> Blog Gen Agent: Answer every query directly in the relevant H2 section body. If a query cannot be addressed naturally in the body, route it to faqItems. No query left unanswered.
+
+**Conversational and AI search queries (12–18):**
+1. What colours do you need for Argentina nails?
+2. How do you do argentina nails at home without going to a salon?
+3. What is the right shade of blue for argentina nail designs?
+4. Are argentina nails just blue and white or do they need gold?
+5. What nail shape looks best with argentina flag nails?
+6. How do you keep argentina nails looking fresh for the whole tournament?
+7. Can I get argentina nails as press-ons?
+8. What is the Sol de Mayo and how do I paint it on my nails?
+9. How do I make sure my argentina nails look Albiceleste and not Greek or Serbian?
+10. What is the easiest argentina nail design for someone who can't freehand?
+11. Can I wear argentina-inspired nails even if I'm not going to a match?
+12. How many stripes should Argentina flag nails have?
+13. What does a Messi number 10 nail look like?
+14. Are there minimal argentina nail designs that aren't too sporty?
+15. How long do argentina nails last?
+16. What nail art goes with argentina nails on the accent finger?
+17. Do argentina nails work on short nails?
+18. What is the best blue nail polish for an argentina manicure?
+
+---
+
+## SECTION 8 — HOOK AND CTR
+
+> Blog Gen Agent: READ THIS SECTION BEFORE WRITING THE TITLE, META DESCRIPTION, INTRO, OR FIRST H2. The title and description are hardcoded here — use them exactly. The intro hook brief and first H2 hook direction are your creative brief for those specific elements. Do not deviate.
+
+**Selected trigger:** Trigger 3 — Specificity / Numbers
+
+**Trigger rationale:** The reader is in inspiration mode searching a volume-promise keyword — she wants to see 20 named designs, not opinions. Specificity (20 designs, exact shade names, clear design breakdowns) is what converts a scroll into a save.
+
+**Title:** Argentina Nails: 20 Blue & White Designs for Every Fan
+**Title char count:** 53 characters ✅ (within 55–60 range, primary keyword front-loaded in first 2 words, year tag not applied — post title follows existing cluster title convention per cluster_context.json)
+
+**Meta description:** Discover 20 argentina nails ideas in sky blue and white, from easy stripe designs to gold Sol de Mayo accents. For every skill level and nail shape.
+**Meta char count:** 153 characters ✅
+
+**Intro hook brief:** Open by grounding the reader in the specific moment — Argentina ranked #1 in the world, Messi breaking records, and the sky-blue-and-white palette is having its biggest beauty moment in years. The hook is abundance and specificity: 20 real, named designs that actually read Albiceleste, not just blue and white. Start with the visual promise immediately.
+
+**First H2 hook direction:** Phrase the first H2 as a practical starting question: frame it around what makes argentina nails actually look like Argentina (shade specificity), not just any blue-and-white set. Make it feel like the question the reader already has in her head before she starts scrolling designs.
+
+---
+
+## SECTION 9 — SEARCH JOURNEY
+
+> Blog Gen Agent: This is the emotional contract with the reader. Every section of the post must honour the promise made. Read this before writing any section. If a paragraph breaks the journey arc — rewrite it.
+
+**Reader arrival state:** Excited, trend-aware, and slightly overwhelmed — she wants to rep Argentina, loves the aesthetic of the sky-blue-and-white palette, and is looking for a post that gives her 20 real options rather than three generic mentions in a roundup.
+
+**Journey arc:**
+1. Land on the post and immediately feel she's found what she was looking for — volume, specificity, Argentina-specific
+2. Get grounded in the shade and technique basics so she knows she can actually do this
+3. Browse through design categories (minimal to maximal, beginner to salon-level) and find her version
+4. Understand how to make the designs last and wear them beyond the match
+5. Leave with a clear decision on which design she's booking or DIY-ing
+
+**Promise to deliver:** 20 real argentina nail design ideas with enough specificity on shade, technique, and accent options that she can walk into a salon or open her polish drawer and know exactly what to ask for.
+
+**Exit state:** Confident, inspired, and decisive — she knows which design she wants and exactly how to describe it to a nail tech or execute at home.
+
+---
+
+## SECTION 10 — CONTENT STRUCTURE
+
+> Blog Gen Agent: This H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s without user instruction. Word budget per section is set — follow it. H3s may be added at editorial discretion.
+
+**H1:** Argentina Nails: 20 Blue & White Designs to Show Your Albiceleste Pride
+
+**H2 structure (ordered):**
+1. What Makes Argentina Nails Actually Look Like Argentina?
+2. The Simple Stripe: Classic Albiceleste Nails for Every Level
+3. Sol de Mayo Accent Nails (and When to Add Them)
+4. Messi Number 10 Nails: The Fan-Favourite Accent
+5. Gold Chrome and Metallic Argentina Nail Designs
+6. Minimal Argentina Nails for Everyday Wear
+7. Short and Coffin Argentina Nail Designs That Work
+8. Press-On Argentina Nails for Game Day in Seconds
+
+**Word budget:**
+```
+Introduction:                  220 words
+H2-1 — What Makes Argentina Nails...:  200 words
+H2-2 — The Simple Stripe:             250 words
+H2-3 — Sol de Mayo Accent Nails:      200 words
+H2-4 — Messi Number 10 Nails:         200 words
+H2-5 — Gold Chrome and Metallic:      200 words
+H2-6 — Minimal Argentina Nails:       200 words
+H2-7 — Short and Coffin Designs:      180 words
+H2-8 — Press-On Argentina Nails:      200 words
+Conclusion:                    150 words
+TOTAL:                         2000 words (target: 1800 ±50 → trim H2-2, H2-3 if needed)
+```
+
+*Note: If total runs over, trim H2-2 and H2-3 by 25 words each first. Target is 1800 words.*
+
+---
+
+## SECTION 11 — INTERNAL LINKS
+
+> Blog Gen Agent: Every link below must appear in the post. Cluster links use anchor texts verbatim — do not rewrite. Cross-site links use the provided descriptive anchor. Place each link where the placement note says — woven naturally into prose, never as a standalone CTA. Total internal links must not exceed 6.
+
+| # | URL / Slug | Anchor Text | Placement Note | Link Type |
+|---|-----------|-------------|----------------|-----------|
+| 1 | /blog/soccer/soccer-nails | soccer nails | Introduction — when referencing broader fan nail trends | cluster-pillar |
+| 2 | /blog/soccer/world-cup-nails | world cup nails | H2-1 or H2-2 — when referencing tournament-specific context | cluster-spoke |
+| 3 | /blog/soccer/flag-country-nails | flag nail art | H2-3 — when recommending the reader compare flag techniques across countries | cluster-spoke |
+| 4 | /blog/soccer/messi-nails | messi nails | H2-4 — natural handoff when covering the number 10 accent nail | cluster-spoke |
+
+**Cross-site discovery links (max 2):**
+
+| # | URL | Anchor Text | Placement Note | Link Type |
+|---|-----|-------------|----------------|-----------|
+| 5 | https://mirelleinspo.com/blog/soccer/soccer-player-nails | how to style a player-tribute nail for Messi or Ronaldo | H2-4 — when discussing how to take the number 10 nail further into a full player tribute set | cross-site |
+| 6 | https://mirelleinspo.com/blog/soccer/world-cup-nails | what shade of blue Argentina fans should look for in a World Cup manicure | H2-1 — when specifying the exact Albiceleste shade | cross-site |
+
+*Note: Link 6 duplicates the world-cup-nails slug from link 2 above. Blog Gen Agent should use only ONE of these two world-cup-nails links — use whichever placement feels most natural. Total links = 5 maximum if this reduces the count.*
+
+---
+
+## SECTION 12 — VOICE AND TONE
+
+> Blog Gen Agent: This is the voice for this specific post. Layer on top of Mirellé editorial framework. Do not default to generic AI tone.
+
+**Recommended voice:** Warm aspirational guide — like a friend who knows nails AND football and is genuinely excited about both converging right now.
+
+**Tone characteristics:**
+- Confident and specific — never vague ("sky blue" is not enough; "a pale powder blue, cooler than sky blue, closer to a wash of ice" is the level of specificity needed)
+- Fan-literate — acknowledges the Albiceleste, Messi, La Scaloneta without over-explaining
+- Warm and inclusive — not gatekeeping fandom, not assuming she's been following Argentina for 20 years
+- Wearability-forward — always acknowledges these designs work beyond the tournament
+- Visually descriptive — every design described so vividly she can picture it before she sees the image
+
+**Language style:** Conversational but precise. Short sentences for design descriptions. Longer sentences for context and shade explanation. Use "you" and "your" throughout. No jargon without a one-clause explanation. British English throughout (colour, recognise, -ise, -our).
+
+**Audience match:** This voice fits a reader who is excited by the tournament aesthetic but doesn't want to feel like she's reading a football forum — she wants the beauty angle with enough football knowledge woven in that she feels seen as a fan.
+
+---
+
+## SECTION 13 — EXTERNAL LINKS
+
+> Blog Gen Agent: Include all external links where indicated. Supports E-E-A-T. Use anchor suggestion as guide — write naturally around it.
+
+| # | URL | Context | Anchor Suggestion |
+|---|-----|---------|------------------|
+| 1 | https://www.joyeenails.com/products/fifa-argentina-world-cup-2026-soccer-nails | H2-8 Press-On section — reference as example of a handcrafted press-on option with Sol de Mayo detail | Argentina World Cup 2026 press-on nail sets |
+| 2 | https://thepinkissue.com/world-cup-nail-designs/ | H2-2 or Intro — when referencing editorial coverage of Argentina nails at the 2026 tournament | World Cup 2026 nail designs |
+
+---
+
+## SECTION 14 — EXECUTION PLAN
+
+> Blog Gen Agent: READ THIS SECTION FIRST. Lock every value. Execute exactly. Do not recalculate, do not adjust, do not deviate.
+
+---
+
+### BLOCK 1 — KEYWORD EXECUTION
+
+```
+primary_keyword:            argentina nails
+top_3_density_baseline:     4 mentions (avg across top 3 ranking posts)
+total_mention_target:       7 mentions (4 baseline + 3 additional)
+```
+
+**First 100 words plan:**
+- Rule: Primary keyword MUST appear TWICE in the first 100 words. Mandatory.
+- Mention 1: Sentence 1–2 of introduction — open with "argentina nails" as the subject
+- Mention 2: Sentence 3–5 of introduction — refer back as "the argentina nails trend" or "argentina nails in 2026"
+
+**First half target:** 4 mentions — first 900 words (intro + H2-1 through H2-4)
+**Second half target:** 3 mentions — second 900 words (H2-5 through conclusion)
+
+**Strong tag rule:** EVERY single mention of "argentina nails" — all 7 of them — wrapped in `<strong>` tags. No exceptions. Scan after every paragraph.
+
+**Keywords to avoid (active hard wall):** soccer nails / world cup nails / flag nail art / messi nails / soccer player nails / ronaldo nails / brazil nails / colombia nails / france nails / england nails / spain nails / portugal nails / germany nails — never used as focus terms anywhere in the post.
+
+---
+
+### BLOCK 2 — WORD BUDGET
+
+```
+total_target:     1800 words (+/- 50 words tolerance)
+
+Introduction:             220 words
+H2-1 What Makes...:       200 words
+H2-2 The Simple Stripe:   250 words
+H2-3 Sol de Mayo:         200 words
+H2-4 Messi Number 10:     200 words
+H2-5 Gold Chrome:         200 words
+H2-6 Minimal Designs:     200 words
+H2-7 Short and Coffin:    180 words
+H2-8 Press-On:            200 words
+Conclusion:               150 words
+TOTAL:                    2000 words
+```
+
+**Trim instruction:** If running at 2000+, trim H2-2 and H2-3 by 25 words each to land at target 1800. Track running word total at the end of every H2. Do not compensate later.
+
+---
+
+### BLOCK 3 — IMAGE PLAN
+
+```
+total_images:   9
+hero_image:     frontmatter only — NEVER appears in post body
+body_images:    8 images to place in body
+```
+
+| Image # | Place After | Section Context |
+|---------|-------------|-----------------|
+| 1 | Introduction | Argentina nail flat lay — sky blue and white set, minimal, clean. Hero-adjacent vibe. |
+| 2 | H2-1 — What Makes... | Close-up of correct Albiceleste blue shade versus wrong blues — shade comparison |
+| 3 | H2-2 — Simple Stripe | Classic three-stripe argentina nail set in pale blue and white, clean tape lines |
+| 4 | H2-3 — Sol de Mayo | Accent nail with gold Sol de Mayo sun motif on sky blue base |
+| 5 | H2-4 — Messi Number 10 | Number 10 on sky blue accent nail with white or gold lettering |
+| 6 | H2-5 — Gold Chrome | Chrome gold accent over argentina blue base — elevated editorial look |
+| 7 | H2-6 — Minimal | Minimal sky blue and white nails — no stripe, just palette, everyday wearable |
+| 8 | H2-7 — Short Coffin | Short coffin or almond argentina nails — demonstrating shape suitability |
+| 9 | H2-8 — Press-On | Press-on argentina nail set product-style shot |
+
+**Image type rule:** ALL body images = inspirational argentina nail design images. NO infographics. NO process diagrams. NO comparison charts.
+
+**Path rule:** `/images/blog/soccer/argentina-nails/filename.webp` — topic_slug in path, slug folder, leading slash.
+
+---
+
+### BLOCK 4 — OPENING TECHNIQUE ASSIGNMENTS
+
+No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.
+
+| Section | Technique |
+|---------|-----------|
+| Introduction | Technique 2 — The Scene (drop reader into the moment: Argentina #1, Messi record-breaking, the blue-and-white aesthetic at peak cultural relevance) |
+| H2-1 — What Makes Argentina Nails...: | Technique 4 — The Question (pose the shade question directly as an opener) |
+| H2-2 — The Simple Stripe | Technique 1 — The Claim (lead with a confident design statement) |
+| H2-3 — Sol de Mayo | Technique 3 — The Reframe (reframe from "complicated emblem" to "one dotting tool") |
+| H2-4 — Messi Number 10 | Technique 2 — The Scene |
+| H2-5 — Gold Chrome | Technique 1 — The Claim |
+| H2-6 — Minimal | Technique 4 — The Question |
+| H2-7 — Short Coffin | Technique 3 — The Reframe |
+| H2-8 — Press-On | Technique 1 — The Claim |
+| Conclusion | Technique 3 — The Reframe (reframe from "tournament look" to "summer palette that lives beyond the final") |
+
+**Banned opener rule:** Check every opener against banned_opening_approaches in blog gen prompt before writing the second sentence.
+
+---
+
+### BLOCK 5 — LINK PLACEMENTS
+
+| Anchor Text | Full URL | Place In Section | Placement Context | Link Type |
+|-------------|----------|-----------------|------------------|-----------|
+| soccer nails | /blog/soccer/soccer-nails | Introduction | Natural mention when positioning argentina nails within the broader fan nail trend | cluster-pillar |
+| world cup nails | /blog/soccer/world-cup-nails | H2-1 | When directing reader to tournament-specific guide for longevity and general WC manicure context | cluster-spoke |
+| flag nail art | /blog/soccer/flag-country-nails | H2-3 | When mentioning that the Sol de Mayo technique is explained alongside other national flag nail techniques | cluster-spoke |
+| messi nails | /blog/soccer/messi-nails | H2-4 | Natural handoff — "if you want to take the number 10 nail into a full Messi-dedicated set, see messi nails for 20 designs built around him specifically" | cluster-spoke |
+| how to style a player-tribute nail for Messi or Ronaldo | https://mirelleinspo.com/blog/soccer/soccer-player-nails | H2-4 | Secondary link in same section — only include if word budget allows a second link naturally | cross-site |
+
+*Total links: 4–5 maximum. Use the soccer-player-nails cross-site link only if it fits naturally and doesn't create link density.*
+
+---
+
+### BLOCK 6 — AEO / GEO PLAN
+
+**AEO assignments:**
+
+| AEO Term | Assigned Section | Execution |
+|----------|-----------------|-----------|
+| What shade of blue is used for argentina nail designs? | H2-1 | Write a direct 2–3 sentence answer paragraph IMMEDIATELY after the H2 heading — before any elaboration: "The correct blue for argentina nails is a pale powder blue — cooler and softer than sky blue, closer to a wash of ice. It sits between baby blue and sky blue on the spectrum. The wrong shade reads as Serbian or Greek rather than Argentinian." |
+| How many stripes do Argentina flag nails have? | H2-2 | Direct answer paragraph: "Argentina flag nails have three horizontal stripes: pale blue, white, pale blue — from base to tip. The centre stripe is always white. The outer stripes are always the same shade of pale Albiceleste blue." |
+| What is the Sol de Mayo and how do I paint it on my nails? | H2-3 | Direct answer: "The Sol de Mayo is the golden sun emblem on Argentina's flag. It has 32 rays alternating straight and wavy. For nail art, a simplified version using a dotting tool to create a central golden circle is enough — the eye reads it as the sun without needing all 32 rays." |
+| What is the easiest argentina nail design for beginners? | H2-2 or H2-8 | Direct answer: route to H2-2 (simple stripe) as the beginner answer. |
+| Can I wear argentina nails after the World Cup? | H2-6 | Direct answer at opening of H2-6: "Yes. Sky blue and white is a summer palette in its own right — it reads as coastal, clean, and fresh outside any tournament context." |
+
+**GEO entity statements:**
+
+| Entity | Assigned Section | Execution |
+|--------|-----------------|-----------|
+| Albiceleste | H2-1 | "La Albiceleste is Argentina's nickname — it translates as 'the sky blue and white,' referring directly to the colours of the national kit and flag." |
+| Sol de Mayo | H2-3 | "The Sol de Mayo is a stylised sun with 32 alternating straight and wavy rays, used on the Argentine national flag since 1818." |
+| GelX extensions | H2-7 | Define briefly: "GelX extensions are soft gel tips cured under UV light, offering a thinner, more flexible finish than acrylics." |
+
+---
+
+### BLOCK 7 — ACTIVE CONSTRAINTS
+
+```
+em_dash_banned:        Long em dash (—) does not appear anywhere. Replace with: comma, new sentence,
+                       parentheses, 'but', or restructure.
+
+british_english_active: colour, recognise, -ise, -our — every instance, no exceptions.
+
+keyword_density:       After every 2 H2 sections — count current keyword mentions.
+                       Verify running total is on track to hit 7. First half (900 words) must
+                       contain 4 mentions. Adjust before moving on.
+
+image_path:            /images/blog/soccer/argentina-nails/filename.webp — topic_slug in path always.
+
+internal_link_urls:    Full correct paths only. Cluster links = /blog/soccer/[slug].
+                       Cross-site = exact URL. Never bare /slug.
+
+hero_image:            Frontmatter only. Never place hero image in body.
+
+strong_tag:            Every "argentina nails" mention = <strong>argentina nails</strong>. Scan after
+                       every paragraph. All 7 mentions. Zero misses.
+
+banned_vocab_watch:    Most likely banned words for this specific topic to catch as they form:
+                       - "stunning" → replace with specific descriptor
+                       - "beautiful" → replace with specific descriptor
+                       - "amazing" → replace with specific descriptor
+                       - "perfect" → replace with specific descriptor
+                       - "absolutely" → cut
+                       - "really" → cut
+                       - "very" → cut
+                       - "iconic" → avoid unless quoting a source
+```
+
+---
+
+*End of input file. Blog Gen Agent proceeds to frontmatter and content generation using all values above.*
