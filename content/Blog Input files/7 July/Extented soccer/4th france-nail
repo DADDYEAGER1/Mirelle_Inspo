@@ -1,0 +1,528 @@
+# INPUT FILE — FRANCE NAILS SPOKE
+## THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT.
+All values in POST_CONSTANTS are hardcoded. Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.
+
+**CLUSTER MODE — cluster context loaded. Post 4 of 10 new spokes: france-nails.**
+
+---
+
+## SECTION 1 — FILE AUTHORITY
+THIS INPUT FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. Every keyword, H2 structure, audience insight, internal link, word count, image count, intent signal, and tone recommendation defined in this file must be followed exactly.
+
+---
+
+## SECTION 2 — POST CONSTANTS
+Blog Gen Agent reads this section FIRST and locks all values before doing anything else.
+
+```
+slug:              france-nails
+topic_slug:        soccer
+canonical:         https://mirelleinspo.com/blog/soccer/france-nails
+post_type:         spoke
+intent:            inspirational
+word_count:        1800
+image_count:       9
+template:          split-left
+hero_dimensions:   800x800
+category:          Soccer Nails
+publish_date:      2026-06-27
+author:            Mirellé Team
+```
+
+**Word count rationale:** Top 3 ranking posts for "france nails" (soccer/football fan angle) average ~1500–1700 words. Ceiling for spokes = 2800. Floor = 1700. Set at 1800 — above floor, well within ceiling.
+**Image count rationale:** Spoke, not X+ slug, not tutorial, not comparison → Rule 5 = 9 images (including hero).
+
+---
+
+## SECTION 3 — CLUSTER SNAPSHOT
+```
+pillar_slug:             soccer-nails
+pillar_primary_keyword:  soccer nails
+this_post_slug:          france-nails
+this_post_role:          spoke
+```
+
+**keywords_to_avoid (hard wall — never use as focus terms):**
+soccer nails, world cup nails, flag nail art, flag country nails, soccer player nails, argentina nails, brazil nails, colombia nails, england nails, spain nails, portugal nails, germany nails, messi nails, ronaldo nails
+
+---
+
+## SECTION 4 — SERP ANALYSIS
+**Blog Gen Agent instruction:** Use competitor gaps and missing semantic territory to fill what competitors miss. Strategic approach is the angle for intro and conclusion.
+
+**Competitor gaps (demand-validated on 2+ sources):**
+- No post isolates France specifically with a full 20-design editorial gallery; existing coverage is generic World Cup roundups where France gets 1–2 images
+- Colour specificity missing: competitors say "blue, white, red" without distinguishing French navy (deep blue-navy) from electric blue — readers getting wrong shade
+- The Tricolore vs other techniques gap: no post explains why France's flag is beginner-friendly vs England's cross or Brazil's crest
+- Mbappe jersey number (10) nail angle covered only in passing; no dedicated section despite high search volume for player-detail designs
+- Post-tournament wearability angle entirely absent — none address how to keep the look after the final whistle
+- "Chic" vs "costume" tension absent — France fans in UK/Canada skew fashion-conscious; they want inspiration that doesn't look like face paint
+
+**Missing semantic territory (demand-validated):**
+- France Tricolore colour story framed as a standalone palette (navy + white + red is genuinely chic outside football)
+- Gold accent integration — the French rooster (le coq), WC trophy, gold star details are Joyee Nails' standout feature but no editorial post covers it
+- Chrome finish in navy applied to France designs — seen on melodysusie.com and Mirellé's world-cup-nails post as "glossy France blue chrome" specifically
+
+**Our strategic approach:** This post goes beyond "paint the flag on your nails" — it positions France nail designs as inherently fashion-forward because the Tricolore palette is both football-coded and genuinely chic. We deliver 20 specific design concepts across the spectrum from minimal (tricolore French tip) to maximal (gold rooster accent nail), showing UK and Canada fans that a France manicure looks elevated even after the tournament ends.
+
+**Top 3 word count estimates:** ~1500 / ~1700 / ~1600 → average 1600. Floor = 1600. Set at 1800.
+**Top 3 keyword density baseline:** Primary keyword "france nails" mentioned avg ~8 times across top 3 posts.
+
+---
+
+## SECTION 5 — AUDIENCE INTELLIGENCE
+**Blog Gen Agent instruction:** This is your primary creative brief. Every paragraph written for this specific person with this specific intent.
+
+**Who they are:** Women (primarily UK, Canada, Australia) who follow Les Bleus or have French heritage; some are tournament-casuals drawn in by Mbappe's profile; they are fashion-aware and will not wear nails that look like a novelty item; age range 18–35; searching during tournament knockout rounds.
+
+**What they want from this post:** 20 clearly described France nail designs across difficulty levels — at least some options they can recreate at home with tape; designs that are chic enough to wear to work after the tournament; specific colour guidance (which navy, which red).
+
+**What frustrates them:** Current content shows generic World Cup collages with France as one of 10 countries getting one image; they cannot find France-specific editorial depth; they can't find the right shade of French blue described specifically enough to shop for it.
+
+**Top 5 pain points:**
+1. Can't find 20 designs specifically for France fans — only generic WC roundups
+2. No guidance on which exact shade of navy blue reads as "French" (not electric, not royal — true navy)
+3. Don't know how to balance three colours (navy/white/red) without looking cluttered
+4. Want Mbappe/player-coded detail (jersey "10") but no post shows how to do it elegantly
+5. Worried designs will look costume-y; want fashion-forward options they can actually wear past July
+
+**Exact user phrases (from real sources):**
+- "france football nails" / "Les Bleus nails"
+- "french flag nails world cup"
+- "blue white red nail ideas for France"
+- "france nails world cup 2026"
+- "tricolore nails"
+- "mbappe nail art"
+- "france soccer nails designs"
+- "france nails blue and white"
+- "france world cup manicure ideas"
+- "navy blue red white nail designs for game day"
+
+**Intent content signals:**
+- Needs gallery volume (20 designs with names and descriptions — not just photos)
+- Wants colour specificity (which blue, which red, hex-level guidance)
+- Needs difficulty tiering (beginner → advanced)
+- Wants wearability context (match day vs everyday)
+- Fashion framing resonates (these are readers who identify as style-aware, not novelty-fan)
+- Short descriptions per design with clear "how it reads" guidance
+
+---
+
+## SECTION 6 — SEMANTIC KEYWORD DATA
+**Blog Gen Agent instruction:** Primary keyword in strong tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.
+
+**Primary keyword:** france nails *(LOCKED)*
+
+**Total mention target:** Baseline 8 + 3 = **11 total mentions**. First half denser (7), second half (4).
+
+**First 100 words rule:** Primary keyword MUST appear TWICE in the first 100 words.
+
+**Keyword variations (cleared against do-not-use list):**
+- france nails 2026
+- france nail designs
+- france nail art
+- france nail ideas
+- France football nails
+- Les Bleus nails
+- france soccer nails
+- french football nail art
+- france world cup nails
+
+**Cluster keywords (cleared — none drift into reserved territory):**
+- tricolore nails
+- navy blue white red nails
+- blue white red nail art
+- football fan nails france
+- france match day nails
+- Bleu Blanc Rouge nails
+- france nail colour palette
+- gold accent nails france
+- france jersey nails
+- Mbappe nail art
+- france game day nails
+- france inspired nail design
+- france national team nails
+- french flag nail art (distinct from flag-country-nails' "flag nail art" — specific to France)
+- france watch party nails
+
+**LSI terms (cleared, specific to france nails not parent):**
+- navy blue gel polish
+- warm red nail colour
+- tricolore stripe nails
+- gold star nail detail
+- le coq nail art (French rooster)
+- jersey number nail detail
+- colour block nail art
+- chrome navy nails
+- soccer ball accent nail
+- Mbappe number 10 nail
+- french football supporter nails
+- deep navy nail base
+- red white navy manicure
+- game day nail set
+- press-on nails france
+- gold accent nail set
+- ombre tricolore nails
+- football French tip
+- blue chrome nail finish
+- world cup fan manicure
+
+**AEO terms (full question phrases for AI answer engines):**
+- What colours should I use for france nails at the World Cup?
+- How do I make france nails look chic and not costume-y?
+- What is the best navy blue nail polish for france nails?
+- Can I do france nails at home without a nail tech?
+- What design should I get for france nails at the World Cup?
+- How do I do a Tricolore stripe nail at home?
+- What france nail designs work for everyday wear after the tournament?
+- Are there easy france nail ideas for beginners?
+- What nail design shows you're a France fan without going overboard?
+- How many times have France won the World Cup and how can I add that to my nails?
+- What do france nails look like with a chrome finish?
+- What's the most popular france nail design for World Cup 2026?
+
+**Technical terms:**
+- gel polish
+- chrome powder
+- striping tape
+- smile line
+- accent nail
+- press-on nails
+- colour block
+- ombre gradient
+
+**User language:**
+- "game day nails"
+- "watching the match"
+- "football girlfriend nails"
+- "Les Bleus fan"
+- "Bleu Blanc Rouge"
+- "my nails for the France game"
+- "supporter nails"
+- "can't pick a design"
+- "want something chic not costumey"
+- "france nail inspo"
+
+---
+
+## SECTION 7 — VOICE AND AI QUERIES
+**Blog Gen Agent instruction:** Answer every query directly in the relevant H2 section body. If a query cannot be addressed naturally in body, route to faqItems. No query left unanswered.
+
+1. What colours do I need for france nails?
+2. What's the difference between French navy and regular blue for nail art?
+3. Can I do france nails at home without a nail technician?
+4. What does a Tricolore stripe nail look like on short nails?
+5. How do I add Mbappe's number 10 to my france nails?
+6. What france nail design looks good for everyday wear after the World Cup?
+7. Are there france nail ideas that aren't just the flag on every finger?
+8. What's the chic way to do france nails without looking costumey?
+9. What kind of tape do I need to do france nails at home?
+10. Can I mix navy and chrome for france nails?
+11. What are the best france nail designs for short nails?
+12. What gold details work on france nails?
+13. How do I make france nails look fashion-forward?
+14. What nail shapes work best for france nail designs?
+15. How long will france nails last for the whole tournament?
+16. Do france nails work on coffin and almond shapes?
+17. What france nail designs use all three colours without looking busy?
+18. Are press-on sets available for france nails world cup 2026?
+
+---
+
+## SECTION 8 — HOOK AND CTR
+**Blog Gen Agent instruction:** READ THIS SECTION BEFORE WRITING TITLE, META DESCRIPTION, INTRO, OR FIRST H2. Title and description are hardcoded — use exactly as written.
+
+**Selected trigger:** Trigger 3 — Specificity / Numbers
+
+**Trigger rationale:** This reader is in inspiration mode, browsing for a defined volume of designs specific to their team; the number promise ("20 designs") resolves the frustration of generic World Cup roundups where France gets one image.
+
+**Title:** France Nails: 20 Blue & White Designs for Les Bleus Fans 2026
+**Title char count:** 60 characters ✓
+
+**Meta description:** Want france nails that look chic, not like face paint? See 20 blue, white and red designs from simple stripe tips to gold rooster accents — for every skill level.
+**Meta char count:** 155 characters ✓
+
+**Intro hook brief:** Open by validating that France fans are underserved in every World Cup nail roundup — one image if they're lucky. This post fixes that with 20 designs ranging from a beginner-friendly Tricolore stripe to a full gold-rooster accent set. Tone: warm, slightly conspiratorial ("you already know the flag looks better on nails than a scarf").
+
+**First H2 hook direction:** Frame the first H2 as what to actually wear, not just "what the colours are" — phrase as a voice query: "What colours do france nails actually need?" Tone: direct, quietly authoritative.
+
+---
+
+## SECTION 9 — SEARCH JOURNEY
+**Blog Gen Agent instruction:** This is the emotional contract with the reader. Every section must honour the promise made. Read before writing any section.
+
+**Reader arrival state:** Slightly frustrated — she's a France fan who's already Googled "france nails" and found three generic World Cup roundups where France gets one photo. She clicked this title because it promised 20 designs specifically hers.
+
+**Journey arc:**
+1. Opening validates her frustration and immediately delivers on the promise of volume and specificity
+2. Colour section resolves the shade confusion (which navy, which red) — removes her biggest practical barrier
+3. Design gallery sections deliver the 20 designs in logical tiers (minimal → statement → maximal), giving her genuine options across skill level
+4. Player/detail section (Mbappe, le coq, gold stars) gives the fashion-forward reader the elevated options she wasn't sure existed
+5. Wearability close: reassures her the palette works beyond the tournament — navy/white/red is just a chic summer manicure
+
+**Promise to deliver:** 20 specific France nail designs that are both football-coded and genuinely wearable, across skill levels, with enough colour specificity to actually shop for them.
+
+**Exit state:** She closes the post knowing exactly which design she wants, what colours to buy or ask for at the salon, and feeling like france nails are actually a chic choice, not a novelty.
+
+---
+
+## SECTION 10 — CONTENT STRUCTURE
+**Blog Gen Agent instruction:** This H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s. H3s may be added at editorial discretion.
+
+**H1:** France Nails: 20 Blue, White & Red Designs for Les Bleus Fans
+
+**H2 structure (ordered):**
+
+1. What Colours Do France Nails Actually Need?
+2. Simple France Nail Ideas Anyone Can Do at Home
+3. Tricolore Stripe Nails: The Classic Design, Done Right
+4. Navy Chrome and Metallic France Nail Designs
+5. Gold Accent and Rooster Detail Nails for France Fans
+6. Mbappe and Jersey-Inspired France Nail Designs
+7. France Nails That Work Beyond the Tournament
+8. France Nail Designs for Short Nails
+
+**Word budget:**
+```
+Introduction:                    220 words
+H2-1 (Colours):                  180 words
+H2-2 (Simple Ideas):             250 words
+H2-3 (Tricolore Stripe):         220 words
+H2-4 (Chrome/Metallic):          200 words
+H2-5 (Gold Accent/Rooster):      180 words
+H2-6 (Mbappe/Jersey):            170 words
+H2-7 (Beyond the Tournament):    190 words
+H2-8 (Short Nails):              200 words
+Conclusion:                      190 words
+Total:                          1800 words
+```
+
+---
+
+## SECTION 11 — INTERNAL LINKS
+**Blog Gen Agent instruction:** Every link below must appear in the post. Cluster links use anchor texts verbatim. Cross-site links use descriptive anchor. Place each where the placement note says — woven naturally into prose.
+
+| # | URL | Anchor Text | Placement | Type |
+|---|-----|-------------|-----------|------|
+| 1 | /blog/soccer/soccer-nails | soccer nails | Intro or H2-1 — first natural mention of the broader trend | cluster-pillar |
+| 2 | /blog/soccer/world-cup-nails | world cup nails | H2-2 or H2-3 — when mentioning the tournament context | cluster-spoke |
+| 3 | /blog/soccer/flag-country-nails | flag nail art | H2-3 (Tricolore section) — when mentioning full flag technique | cluster-spoke |
+| 4 | /blog/soccer/england-nails | england nails | H2-7 or H2-8 — mention as companion post for readers with cross-allegiance | cluster-spoke |
+| 5 | /blog/french-nails/french-tip-nail-designs | the full range of French tip nail designs in 2026 | H2-3 or H2-7 — when discussing the Tricolore French tip angle (the style overlaps with the broader French tip trend) | cross-site |
+
+**Total internal links: 5** ✓ (within 4–6 cap)
+
+---
+
+## SECTION 12 — VOICE AND TONE
+**Blog Gen Agent instruction:** Layer this on top of Mirellé editorial framework.
+
+**Recommended voice:** Warm style editor who happens to be a football fan
+
+**Tone characteristics:**
+1. Fashion-first — designs described in terms of how they look, not just what they represent
+2. Confident without being superior — knows the palette inside out, shares it without condescension
+3. Inclusive across skill levels — never makes DIY options sound like a lesser choice
+4. Lightly playful around the football context ("of course the French make fan nails look effortless")
+5. Specific — colour descriptions name the shade, never just "blue"
+
+**Language style:** Medium sentence length; frequent use of "you"; precise colour naming (navy, warm red, true white); occasional witty aside about the French tendency to make anything chic
+
+**Audience match:** UK and Canada women who are football fans but also nail-aware; they will not respect generic content; they need specificity and fashion credibility to trust the post
+
+---
+
+## SECTION 13 — EXTERNAL LINKS
+**Blog Gen Agent instruction:** Include where indicated. Supports E-E-A-T. Use anchor suggestion as guide — write naturally around it.
+
+| URL | Context | Anchor suggestion |
+|-----|---------|-------------------|
+| https://www.hola.com/us/beauty/20260617908019/world-cup-nails/ | H2-4 or intro — reference World Cup nail trend coverage | World Cup nail trend coverage for 2026 |
+| https://www.joyeenails.com/products/fifa-france-world-cup-2026-soccer-nails | H2-5 (Gold Accent section) — reference the FIFA France press-on set as a concrete product example | handmade FIFA France press-on nail set |
+| https://salon1150.com/blog/football-nail-ideas/ | H2-2 or conclusion — reference broader football nail roundup for readers who want more | football nail ideas for every fan |
+
+---
+
+## SECTION 14 — EXECUTION PLAN
+**Blog Gen Agent reads this section FIRST. Lock every value. Execute exactly.**
+
+### BLOCK 1 — KEYWORD EXECUTION
+```
+primary_keyword:           france nails
+top_3_density_baseline:    8 mentions (average across top 3 ranking posts)
+total_mention_target:      11 mentions (8 + 3)
+strong_tag_rule:           EVERY mention of "france nails" = <strong>france nails</strong>. Zero misses.
+
+first_100_words_plan:
+  mention_1: Sentence 2 of introduction — "france nails" in the hook about being underserved in WC roundups
+  mention_2: Sentence 4 of introduction — restatement of the post's promise ("this post changes that with 20 france nails...")
+
+first_half_target:   7 mentions in first 900 words
+second_half_target:  4 mentions in second 900 words
+
+keywords_to_avoid_active: soccer nails, world cup nails, flag nail art, flag country nails,
+  soccer player nails, argentina nails, brazil nails, colombia nails, england nails,
+  spain nails, portugal nails, germany nails, messi nails, ronaldo nails
+  (these may appear as internal link anchor texts only — not as focus terms in body copy)
+```
+
+### BLOCK 2 — WORD BUDGET
+```
+total_target: 1800 words (+/- 50 words tolerance)
+
+Introduction:              220 words
+H2-1 (Colours):            180 words
+H2-2 (Simple Ideas):       250 words
+H2-3 (Tricolore Stripe):   220 words
+H2-4 (Chrome/Metallic):    200 words
+H2-5 (Gold Accent):        180 words
+H2-6 (Mbappe/Jersey):      170 words
+H2-7 (Beyond Tournament):  190 words
+H2-8 (Short Nails):        200 words
+Conclusion:                190 words
+
+Tracking rule: Count running total at end of every H2. If over — cut before moving on.
+```
+
+### BLOCK 3 — IMAGE PLAN
+```
+total_images:  9 (including hero)
+hero_image:    frontmatter only — NEVER appears in post body
+body_images:   8
+
+assignments:
+  Image 1: After H2-1 (Colours) — a flat-lay or nail-on-hand showing navy/white/red palette tools or gel swatches
+  Image 2: After H2-2 (Simple Ideas) — minimal france nail design, clean tape stripe, beginner look
+  Image 3: After H2-3 (Tricolore Stripe) — full Tricolore vertical stripe nail set, well-executed
+  Image 4: After H2-4 (Chrome/Metallic) — chrome navy nails or metallic blue France fan set
+  Image 5: After H2-5 (Gold Accent/Rooster) — gold accent detail, rooster or star motif on navy base
+  Image 6: After H2-6 (Mbappe/Jersey) — jersey number "10" nail detail or france kit-inspired set
+  Image 7: After H2-7 (Beyond Tournament) — everyday-wearable navy/white/red manicure, non-football context
+  Image 8: After H2-8 (Short Nails) — short nail france design with Tricolore tip or colour-block
+
+image_type_rule: ALL body images = inspirational nail design images. NO infographics. NO step-by-step diagrams.
+path_rule: /images/blog/soccer/france-nails/filename.webp
+```
+
+### BLOCK 4 — OPENING TECHNIQUE ASSIGNMENTS
+```
+No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.
+
+Introduction:              Technique 2 — The Scene (put the reader in the moment of searching and finding nothing)
+H2-1 (Colours):            Technique 4 — The Direct Answer (answer the AEO query in first 2-3 sentences)
+H2-2 (Simple Ideas):       Technique 3 — The Reframe (reframe "simple" as a confident choice, not a limitation)
+H2-3 (Tricolore Stripe):   Technique 1 — The Claim ("The Tricolore is the easiest three-colour flag nail in this tournament")
+H2-4 (Chrome/Metallic):    Technique 2 — The Scene (a chrome navy nail catching light in a stadium)
+H2-5 (Gold Accent):        Technique 4 — The Direct Answer
+H2-6 (Mbappe/Jersey):      Technique 3 — The Reframe
+H2-7 (Beyond Tournament):  Technique 1 — The Claim
+H2-8 (Short Nails):        Technique 4 — The Direct Answer
+Conclusion:                Technique 1 — The Claim
+
+banned_opener_rule: Check every opener against banned_opening_approaches in blog gen prompt before writing second sentence.
+```
+
+### BLOCK 5 — LINK PLACEMENTS
+```
+Link 1:
+  anchor_text:       soccer nails
+  full_url:          /blog/soccer/soccer-nails
+  place_in_section:  Introduction
+  context:           After establishing france nails as part of the wider WC moment — "part of the bigger soccer nails wave"
+  type:              cluster-pillar
+
+Link 2:
+  anchor_text:       world cup nails
+  full_url:          /blog/soccer/world-cup-nails
+  place_in_section:  H2-2 (Simple Ideas)
+  context:           When referencing tournament-ready designs more broadly
+  type:              cluster-spoke
+
+Link 3:
+  anchor_text:       flag nail art
+  full_url:          /blog/soccer/flag-country-nails
+  place_in_section:  H2-3 (Tricolore Stripe)
+  context:           "For the full technique walkthrough, the flag nail art post covers the Tricolore step-by-step"
+  type:              cluster-spoke
+
+Link 4:
+  anchor_text:       england nails
+  full_url:          /blog/soccer/england-nails
+  place_in_section:  H2-7 (Beyond Tournament)
+  context:           Mention as companion for readers supporting multiple teams (UK audience crossover)
+  type:              cluster-spoke
+
+Link 5:
+  anchor_text:       the full range of French tip nail designs in 2026
+  full_url:          /blog/french-nails/french-tip-nail-designs
+  place_in_section:  H2-3 (Tricolore Stripe)
+  context:           When discussing the Tricolore French tip as a standalone manicure style beyond football
+  type:              cross-site
+```
+
+### BLOCK 6 — AEO / GEO PLAN
+```
+AEO assignments:
+
+AEO-1: "What colours do france nails actually need?"
+  assigned_to: H2-1
+  execution: Write a direct 2–3 sentence answer immediately after the H2 heading.
+  content: Navy is a true deep navy (not electric, not royal) — closest reference is indigo-navy. Red is a warm, slightly brick-toned red. White is clean white. Three polishes, no more needed for the base designs.
+
+AEO-2: "Can I do france nails at home without a nail tech?"
+  assigned_to: H2-2
+  execution: Direct 2–3 sentence answer at the top of the section before design list.
+
+AEO-3: "How do I do a Tricolore stripe nail at home?"
+  assigned_to: H2-3
+  execution: Direct 2–3 sentence answer before technique detail. Uses striping tape, three equal vertical thirds, remove tape while wet.
+
+AEO-4: "What france nail design works for everyday wear after the tournament?"
+  assigned_to: H2-7
+  execution: Direct answer — navy base with gold accent reads as chic summer nail, not football-coded.
+
+AEO-5: "What are the best france nail designs for short nails?"
+  assigned_to: H2-8
+  execution: Direct answer — colour-block (one nail each colour in rotation) and Tricolore French tip work best on short nails.
+
+GEO entities:
+
+Entity: Tricolore (bleu, blanc, rouge)
+  assigned_to: H2-1
+  execution: "The Tricolore — France's national flag in three equal vertical stripes of navy blue, white, and red — is the design anchor for every france nail set in this post."
+
+Entity: Le coq gaulois (French rooster motif)
+  assigned_to: H2-5
+  execution: "Le coq gaulois — the Gallic rooster that appears on the French Football Federation crest — is the design detail that separates a France nail from a generic tricolore manicure."
+
+Entity: Chrome navy finish
+  assigned_to: H2-4
+  execution: "A chrome navy finish is a deep blue-black gel base with chrome powder applied on top, producing a mirror-like metallic effect in the darkest shade of the Tricolore."
+```
+
+### BLOCK 7 — ACTIVE CONSTRAINTS
+```
+em_dash_banned:        Long em dash (—) does not appear anywhere. Replace with: comma / new sentence / parentheses / but / restructure.
+
+banned_vocab_watch (most likely to slip for this topic):
+  - "stunning" (replace with: striking, considered, polished, elevated)
+  - "amazing" (replace with: striking, unexpected, chic)
+  - "perfect" (replace with: ideal, right, correct, best-suited)
+  - "effortless" (allowed ONLY in the phrase "effortlessly chic" used max once — otherwise replace)
+  - "vibrant" (replace with: warm, rich, saturated, strong)
+  - "gorgeous" (replace with: polished, elevated, chic, striking)
+  - "delve" (banned — use: explore, cover, look at)
+
+british_english_active:   colour, recognise, -ise, -our — every instance, no exceptions
+
+keyword_density_reminder:  After every 2 H2 sections — count current "france nails" mentions.
+  First half target (900 words): 7 mentions. Second half: 4. Adjust if needed.
+
+image_path_reminder:       /images/blog/soccer/france-nails/filename.webp — topic_slug "soccer" always in path
+
+internal_link_url_reminder: Cluster links = /blog/soccer/[slug]. Cross-site = /blog/french-nails/french-tip-nail-designs. Never bare /slug.
+
+hero_image_reminder:       Hero = frontmatter only. Never place in body.
+
+strong_tag_reminder:       Every "france nails" mention = <strong>france nails</strong>. Scan after every paragraph.
+```
