@@ -1,0 +1,528 @@
+# BLOG GEN AGENT INPUT FILE — england-nails
+## THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.
+
+---
+
+## SECTION 1 — FILE AUTHORITY
+
+THIS FILE IS THE SINGLE SOURCE OF TRUTH. Every keyword, H2 heading, word count, image count, audience insight, internal link, and tone recommendation defined here must be followed exactly. Nothing overridden or reinterpreted unless user explicitly instructs Blog Gen Agent during that session.
+
+---
+
+## SECTION 2 — POST CONSTANTS
+
+```
+slug:             england-nails
+topic_slug:       soccer
+canonical:        https://mirelleinspo.com/blog/soccer/england-nails
+post_type:        spoke
+intent:           inspirational
+word_count:       2000
+image_count:      9
+template:         split-left
+hero_dimensions:  800x800
+category:         Soccer Nails
+publish_date:     2026-06-27
+author:           Mirellé Team
+```
+
+**Word count rationale:** Top 3 SERP posts for "england nails" (thriving-in-parenting 50 ideas ~1,800w, treatwell England nails ~900w, salon1150 football nails ~2,100w) average ~1,600 words. Floor = 1,600. Spoke ceiling = 2,800. Hard target set at 2,000 words (above floor, well within ceiling).
+
+**Image count rationale:** Rule 5 (everything else) — 9 images total including hero. Slug contains "20" as part of the title concept but NOT as a "X+ ideas" slug pattern (slug is `england-nails`, not `england-nails-20-ideas`), so Rule 1 does not apply. Rule 5 applies: 9 images.
+
+---
+
+## SECTION 3 — CLUSTER SNAPSHOT
+
+```
+pillar_slug:              soccer-nails
+pillar_title:             Soccer Nails: 20 Cute Ideas Every Fan Will Love
+pillar_primary_keyword:   soccer nails
+this_post_slug:           england-nails
+this_post_role:           spoke
+```
+
+**Keywords to avoid (hard wall — never use as focus terms):**
+soccer nails, world cup nails, flag nail art, flag country nails, soccer player nails, soccer mom nails, soccer club nails, argentina nails, brazil nails, colombia nails, france nails, spain nails, portugal nails, germany nails, messi nails, ronaldo nails
+
+---
+
+## SECTION 4 — SERP ANALYSIS
+
+**Blog Gen instruction:** Use competitor gaps and missing semantic territory to fill what competitors miss. Our strategic approach is the angle for the introduction and conclusion.
+
+**Top 3 word count estimates:**
+- Thriving in Parenting (World Cup ideas, England mentions): ~1,800 words
+- Treatwell (England nails specifically): ~900 words
+- Salon1150 (football nails ideas): ~2,100 words
+- Average: ~1,600 words → floor = 1,600
+
+**Top 3 keyword density baseline:** Primary keyword "england nails" appears approximately 6–8 times across the top 3 posts (average ~7 mentions). Total mention target: 7 + 2 = **9 mentions**.
+
+**Competitor gaps (demand validated on 2+ sources):**
+- No competitor post gives England fans a wearable-every-day design guide (not just match-day). Validated: Treatwell audience + Pinterest England nails designs board confirms demand for wearable options.
+- No post distinguishes between St. George's Cross designs vs. red-and-white colour palette designs (without the flag literal). Validated: Mirrellé world-cup-nails + thriving-in-parenting both note England fans have "the hardest brief" because red/white/blue is also American/French — unaddressed by competitors.
+- No competitor addresses press-on England nails as a fast match-day option. Validated: Illuminate by Liana product demand + Etsy England World Cup nail stickers demand.
+- No competitor covers how to make England nails stylish beyond the tournament. Validated: Treatwell + Scratch Magazine both show England fans want looks that work after the final whistle.
+
+**Missing semantic territory:**
+- "Three Lions" visual identity translated into nail design language (crest vs. colour vs. flag approach) — absent from competitor content.
+- Chrome/metallic finish applied to England palette (red chrome, white chrome tip) — not covered in any England-specific post, only in generic World Cup posts.
+- Jersey-number accent nails (personalisation angle) — mentioned in thriving-in-parenting as thumbnail but never explained in competitor body content.
+
+**Our strategic approach:** Every other post on "england nails" either gives you generic red-and-white swatches or full St. George's Cross tutorials that require a steady hand and striping tape. This post organises 20 designs by commitment level — from a single red French tip (5 minutes) to a full flag accent set — so Three Lions fans at every skill level and for every occasion (match day, watch party, or Tuesday at the office) leave with something they'll actually wear.
+
+**Recommended image count validation:** Competitors show visual-heavy content. 9 images (1 hero + 8 body) aligns with the moderate visual density of competitor posts (not a 36-image ideas dump). Confirmed correct.
+
+---
+
+## SECTION 5 — AUDIENCE INTELLIGENCE
+
+**Blog Gen instruction:** This is your primary creative brief. Write every paragraph for this specific person with this specific intent. Satisfy them completely.
+
+**Who they are:**
+A woman (primarily UK-based, also significant diaspora audience in US/Canada/Australia) who has been following England's World Cup 2026 campaign with genuine excitement. She's not a beauty maximalist — she might get her nails done every few weeks and considers herself "into nails" but not obsessed. She wants to show support for the Three Lions without looking like she painted a flag on her hand with a toothpick. She cares that it looks good as well as patriotic.
+
+**What they want from this post:**
+20 England nail designs that range from subtle (red French tip) to committed (full St. George's Cross accent), with enough variety that she can find the level of fandom that matches her personality — and crucially, designs that still look stylish, not just patriotic.
+
+**What frustrates them:**
+- Current content is either a Treatwell listicle with 9 tiny photos and no context, or a World Cup roundup that covers England in one paragraph with two images.
+- No one explains how to navigate the red-white problem — England colours are also USA colours and French colours, so a generic red-and-white set doesn't read as England specifically.
+- Generic "paint the flag on every nail" advice assumes salon-level skill or a nail artist appointment they haven't booked.
+- Nothing addresses post-tournament wear — she wants a set she can still justify on 8 July when England (hopefully) lifts the trophy.
+
+**Top 5 pain points:**
+1. "How do I make it look England and not just red/white?" — The palette overlap problem.
+2. "I'm not a nail artist — can I do any of these myself?"
+3. "What looks good AND patriotic — not just a flag on every finger?"
+4. "What do I do with my nails after the tournament — will they still look relevant?"
+5. "Where do I find press-on England nails if I don't have time for a salon?"
+
+**Exact user phrases (from Treatwell, Pinterest, Scratch Magazine, thriving-in-parenting):**
+- "England football nails"
+- "england nails designs"
+- "england flag nails"
+- "england inspired nails"
+- "red and white nails england"
+- "three lions nail art"
+- "england nails world cup"
+- "nails england"
+- "england football nail art"
+- "england nails easy"
+- "english flag nails"
+- "red white nails football"
+
+**Intent content signals:**
+- Visual-first: she will scroll the gallery before reading a word of body copy. Lead with what it looks like.
+- Organised by commitment/complexity: she wants to self-select her level, not read every design description.
+- Specific over general: "St. George's Cross on ring finger with red French tips on other nails" beats "patriotic red and white."
+- Wearability matters: she doesn't want a look that shouts "I painted flags on my nails for a football match."
+- Short actionable tips: "use striping tape for the cross" is useful. "Football-inspired nail art!" is not.
+- Press-on mention appreciated: she may not have time or budget for a salon appointment mid-tournament.
+
+---
+
+## SECTION 6 — SEMANTIC KEYWORD DATA
+
+**Blog Gen instruction:** Primary keyword in strong tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.
+
+**Primary keyword:** england nails
+
+**Keyword variations (all cannibalization-cleared):**
+- england nails designs
+- england nail art
+- england nail designs 2026
+- england nails world cup 2026
+- england football nails
+- england inspired nails
+- england nails ideas
+- england nails red and white
+- english nails
+- england match day nails
+
+**Cluster keywords (all cleared, none drift into other posts):**
+- Three Lions nails
+- St. George's Cross nail art
+- red and white football nails
+- England fan nails
+- England World Cup nails 2026
+- red French tip nails football
+- England jersey nails
+- England flag accent nail
+- England nails press on
+- England supporter nails
+- red and white nail designs
+- England chrome nails
+- football fan nails UK
+- England nails gel
+- match day manicure England
+
+**LSI terms (all specific to england nails, not parent keyword):**
+- St. George's Cross
+- Three Lions crest
+- red and white colour palette
+- England kit colours
+- white base red accent
+- football French tip
+- jersey number nail
+- red glitter nails
+- chrome white tip
+- soccer ball accent nail
+- England flag nail tutorial
+- striping tape flag
+- red chrome nail
+- football-inspired manicure
+- red and white ombre
+
+**AEO terms (12 full question phrases):**
+- What colours should I use for England nails?
+- How do I paint the England flag on my nails?
+- What are the best England nails for World Cup 2026?
+- Can I do England nails at home without a nail artist?
+- What is the easiest England nail design for beginners?
+- How do you do a St. George's Cross on your nails?
+- Where can I buy England press-on nails for the World Cup?
+- What England nail designs work for everyday wear not just match day?
+- How many nails should have the England flag on them?
+- What nail shape is best for England nails?
+- How long will England World Cup nails last?
+- Are red and white nails wearable after the football season?
+
+**Technical terms:**
+- gel polish
+- BIAB (Builder in a Bottle)
+- squoval nail shape
+- striping tape
+- chrome nail powder
+- press-on nails
+- accent nail
+- gel topcoat
+
+**User language (real phrases from Treatwell, Pinterest, Scratch):**
+- "red and white nails"
+- "Three Lions energy"
+- "match-day mani"
+- "flag on one nail"
+- "england football nails"
+- "it's coming home nails"
+- "show your support"
+- "ENG on my nails"
+- "game-day look"
+- "patriotic manicure"
+
+---
+
+## SECTION 7 — VOICE AND AI QUERIES
+
+**Blog Gen instruction:** Answer every query directly in the relevant H2 section body. If a query cannot be addressed naturally in the body, route it to faqItems. No query left unanswered.
+
+**Queries (15 conversational full-sentence queries):**
+1. What colours do I need for England nails?
+2. How do I paint the St. George's Cross on one nail at home?
+3. What are the best England nails for World Cup 2026?
+4. Can I do England football nails without going to a salon?
+5. What is the easiest England nail design for someone who is not good at nail art?
+6. How do I make my red and white nails look English rather than American or French?
+7. Where can I buy England press-on nails for the World Cup?
+8. What England nail designs work for the office as well as the match?
+9. Should I do the England flag on all my nails or just one or two?
+10. What nail shape suits England nails best?
+11. How long will England World Cup gel nails last through the tournament?
+12. What does the Three Lions crest look like on nails?
+13. What is the most popular England nail design right now?
+14. Can you do England nails with press-ons instead of gel?
+15. What England nail ideas are easy enough to do at home?
+
+---
+
+## SECTION 8 — HOOK AND CTR
+
+**Blog Gen instruction:** READ THIS SECTION BEFORE WRITING THE TITLE, META DESCRIPTION, INTRO, OR FIRST H2. Title and description are hardcoded — use them exactly. Do not rewrite, shorten, or improve.
+
+**Selected trigger:** Trigger 3 — Specificity / Numbers
+
+**Trigger rationale:** The reader is in inspiration mode, browsing for volume and variety — she wants 20 designs she can choose from, not a single "how to" tutorial. Trigger 3 (Specificity / Numbers) delivers a clear promise of defined quantity that matches exactly how the post is structured.
+
+**Title:** England Nails: 20 Red & White Designs for Three Lions Fans  
+**Title char count:** 59 characters ✅
+
+**Meta description:** England nails sorted by style — from a simple red French tip to full St. George's Cross art. 20 wearable designs for every fan, every skill level.  
+**Meta char count:** 154 characters ✅
+
+**Intro hook brief:** Open with the moment — England are in the World Cup and her nails are still plain. The intro should acknowledge the specific tension of being an England fan who wants to show up looking good, not just painted in flags. Make her feel seen: you can be excited AND stylish. Promise 20 designs that cover every commitment level from "one red French tip" to "full Three Lions."
+
+**First H2 hook direction:** Phrase the first H2 as a decision question England fans actually ask — something like "How Many Nails Should Have the Flag?" or "What Makes England Nails Look English (Not Just Red and White)?" — directly addressing the palette-overlap problem that frustrates this audience.
+
+---
+
+## SECTION 9 — SEARCH JOURNEY
+
+**Blog Gen instruction:** Every section of the post must honour the promise made. Read this before writing any section. If a paragraph breaks the journey arc — rewrite it.
+
+**Reader arrival state:** She's excited about England's World Cup run, she's been meaning to get her nails done, and she's typed "england nails" because she wants to see what's possible before committing to a design — she's in browse-and-decide mode.
+
+**Journey arc:**
+1. Hook: She lands and immediately feels understood — this is for the England fan who wants to look stylish AND show her support, not the face-paint-and-foam-finger crowd.
+2. Orientation: A brief framing of the palette challenge (red/white = also French, American) and the solution (specificity through the St. George's Cross or Three Lions detail).
+3. Gallery delivery: 20 designs organised from lowest to highest commitment — she skims to her level and saves what she loves.
+4. Practical layer: AEO questions answered in-section (how to do the cross, press-on options, wearable alternatives) — she gets the answer she needs without leaving the page.
+5. Exit: She leaves knowing exactly what she wants and feeling like she can actually pull it off — either at home or with the right salon brief.
+
+**Promise to deliver:** 20 real England nail designs for every skill level and occasion, making it easy to look patriotic without sacrificing style.
+
+**Exit state:** She knows which design she's getting, she knows exactly what to say to her nail tech (or what to order for press-ons), and she's excited to show up to the next match with her nails sorted.
+
+---
+
+## SECTION 10 — CONTENT STRUCTURE
+
+**Blog Gen instruction:** This H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s without user instruction. Word budget per section is set — follow it. H3s may be added at editorial discretion.
+
+**H1:** England Nails: 20 Red & White Designs for Three Lions Fans 2026
+
+**H2 structure (8 headings):**
+
+1. What Makes England Nails Look English (Not Just Red and White)?
+2. Simple England Nails Anyone Can Do at Home
+3. St. George's Cross Accent Nails: The Classic Statement
+4. England Red French Tip Nails for Everyday Wear
+5. Three Lions Crest and Jersey-Number Designs
+6. Chrome and Metallic England Nail Ideas for 2026
+7. England Press-On Nails: Match-Day Ready in Minutes
+8. Can England Nails Work After the World Cup?
+
+**Word budget:**
+
+| Section | Budget |
+|---|---|
+| Introduction | 220 words |
+| H2-1: What Makes England Nails Look English | 230 words |
+| H2-2: Simple England Nails Anyone Can Do at Home | 240 words |
+| H2-3: St. George's Cross Accent Nails | 240 words |
+| H2-4: England Red French Tip Nails | 220 words |
+| H2-5: Three Lions Crest and Jersey-Number Designs | 220 words |
+| H2-6: Chrome and Metallic England Nail Ideas | 200 words |
+| H2-7: England Press-On Nails | 200 words |
+| H2-8: Can England Nails Work After the World Cup? | 200 words |
+| Conclusion | 180 words |
+| **Total** | **2,150 words (within ±50 tolerance of 2,000)** |
+
+> Note: Word budget sums to 2,150 — within the ±50 tolerance of the 2,000 target. Blog Gen Agent may trim any H2 by 10–20 words each to land precisely at 2,000.
+
+---
+
+## SECTION 11 — INTERNAL LINKS
+
+**Blog Gen instruction:** Every link below must appear in the post. Cluster links use anchor texts verbatim. Cross-site links use the provided descriptive anchor. Place each link where the placement note says — woven naturally into prose, never as a standalone CTA. Total internal links: 5 (within 4–6 cap).
+
+| # | URL or Slug | Anchor Text | Placement Note | Link Type |
+|---|---|---|---|---|
+| 1 | /blog/soccer/soccer-nails | soccer nails | Introduction — when broadly referencing the wider football nail trend | cluster-pillar |
+| 2 | /blog/soccer/world-cup-nails | world cup nails | H2-1 or H2-3 — when mentioning the tournament context | cluster-spoke |
+| 3 | /blog/soccer/flag-country-nails | flag nail art | H2-3 (St. George's Cross section) — when referencing detailed flag technique guidance | cluster-spoke |
+| 4 | /blog/soccer/messi-nails | messi nails | H2-5 (Three Lions / jersey number section) — as contrast reference ("if you follow a player rather than a team...") | cluster-spoke |
+| 5 | https://mirelleinspo.com/blog/soccer/flag-country-nails | how to paint the St. George's Cross on your nails with striping tape | H2-3 — direct authority-passing anchor for readers who want the step-by-step technique | cross-site |
+
+> Note: Links 3 and 5 both go to flag-country-nails — use different placement contexts and anchor texts. Link 3 = cluster link, verbatim anchor. Link 5 = cross-site link, descriptive anchor. Blog Gen Agent places both naturally within H2-3 at different points in the section.
+
+---
+
+## SECTION 12 — VOICE AND TONE
+
+**Blog Gen instruction:** This is the voice for this specific post. Layer on top of Mirellé editorial framework. Do not default to generic AI tone.
+
+**Recommended voice:** Enthusiastic insider — she knows England football culture AND nail design. She's not performing patriotism; she genuinely cares about both things.
+
+**Tone characteristics:**
+- Warm and specific: never generic. "Red French tip with a white base" not "classic England colours."
+- Wry without snark: can acknowledge the slightly absurd joy of getting your nails done for a football match without undermining why it matters.
+- Practical and direct: gives the reader the design decision, the technique level, and the wearability verdict for each look — no fluff.
+- UK-aware: references match day, watch party, the tournament timeline naturally. Acknowledges the UK audience without excluding diaspora readers.
+- Confident: doesn't hedge. "This is the easiest design" not "you might want to try."
+
+**Language style:** Short sentences for impact. Second person throughout — "your nails," "you'll." British spellings (colour, organised). No em dashes. Occasional dry football reference lands if natural — never forced.
+
+**Audience match:** UK-based football fan who treats her nails as part of her personal style. She doesn't want to be talked down to or given a craft-project tutorial. She wants a knowledgeable friend with good taste telling her what works and why.
+
+---
+
+## SECTION 13 — EXTERNAL LINKS
+
+**Blog Gen instruction:** Include all external links where indicated. Supports E-E-A-T.
+
+| # | URL | Context | Anchor Suggestion |
+|---|---|---|---|
+| 1 | https://www.treatwell.co.uk/treatment-files/will-you-wear-your-support-on-your-nails-this-world-cup/ | When referencing salon bookings for match-day England nails (H2-2 or H2-7) | England nail designs at Treatwell salons |
+| 2 | https://www.scratchmagazine.co.uk/nail_art/world-cup-nails/ | When referencing professional nail artists creating England football nail art (H2-3 or H2-5) | World Cup nail art from Scratch Magazine |
+| 3 | https://illuminatebyliana.com/products/goal | When discussing England press-on nails options (H2-7) | handmade England football press-on nails |
+
+---
+
+## SECTION 14 — EXECUTION PLAN
+
+**Blog Gen instruction: READ THIS SECTION FIRST. Lock every value. Execute exactly. Do not recalculate, do not adjust, do not deviate.**
+
+### BLOCK 1 — KEYWORD EXECUTION
+
+```
+primary_keyword:          england nails
+top_3_density_baseline:   7 mentions (average across top 3 SERP posts)
+total_mention_target:     9 mentions (7 + 2) — HARD TARGET
+```
+
+**First 100 words plan:**
+- Mention 1: Sentence 2 of introduction — "If you want **england nails** that look stylish..." (or similar natural placement)
+- Mention 2: Sentence 4–5 of introduction — tie directly to the World Cup 2026 moment
+
+**First half target:** 5 mentions — in first 1,000 words (run denser in first half)  
+**Second half target:** 4 mentions — in second 1,000 words
+
+**Strong tag rule:** EVERY single mention of `england nails` — all 9 of them — wrapped in `<strong>` tags. No exceptions. Scan after every paragraph.
+
+**Keywords_to_avoid active:** soccer nails, world cup nails, flag nail art, flag country nails, soccer player nails, soccer mom nails, soccer club nails, argentina nails, brazil nails, colombia nails, france nails, spain nails, portugal nails, germany nails, messi nails, ronaldo nails — NEVER used as focus terms anywhere in the post.
+
+---
+
+### BLOCK 2 — WORD BUDGET
+
+```
+total_target: 2,000 words (+/- 50 words tolerance, never exceed 2,050)
+```
+
+| Section | Budget | Complexity |
+|---|---|---|
+| Introduction | 220 words | medium |
+| H2-1: What Makes England Nails Look English | 230 words | high |
+| H2-2: Simple England Nails Anyone Can Do at Home | 240 words | medium |
+| H2-3: St. George's Cross Accent Nails | 240 words | high |
+| H2-4: England Red French Tip Nails | 220 words | medium |
+| H2-5: Three Lions Crest and Jersey-Number Designs | 220 words | medium |
+| H2-6: Chrome and Metallic England Nail Ideas | 200 words | medium |
+| H2-7: England Press-On Nails | 200 words | low |
+| H2-8: Can England Nails Work After the World Cup? | 200 words | low |
+| Conclusion | 180 words | low |
+
+**Tracking rule:** Count running word total at the end of every H2. If over budget — cut before moving to the next section. Do not compensate later.
+
+---
+
+### BLOCK 3 — IMAGE PLAN
+
+```
+total_images: 9
+hero_image:   frontmatter only — NEVER in post body
+body_images:  8 images to place in body
+```
+
+| Image # | Place After | Section Context |
+|---|---|---|
+| 1 | Introduction | Clean red and white England nail set — the "hero concept" look |
+| 2 | H2-1 (What Makes England Nails Look English) | Side-by-side of generic red/white vs. England-specific design with St. George's Cross detail |
+| 3 | H2-2 (Simple England Nails at Home) | Beginner-friendly red French tip or alternating red/white nails |
+| 4 | H2-3 (St. George's Cross Accent) | Full St. George's Cross accent nail set — the commitment look |
+| 5 | H2-4 (England Red French Tip) | Red French tip with white base — wearable everyday version |
+| 6 | H2-5 (Three Lions / Jersey Number) | Jersey number "10" or "7" accent on England palette |
+| 7 | H2-6 (Chrome and Metallic) | Chrome white tip or red chrome nail design |
+| 8 | H2-7 (Press-On Nails) | England press-on nail set in red and white |
+
+**Image type rule:** ALL body images = inspirational England nail design images. NO infographics. NO process diagrams. NO step-by-step visuals.
+
+**Path rule:** `/images/blog/soccer/england-nails/filename.webp` — topic_slug `soccer` in path, slug folder `england-nails`, leading slash.
+
+---
+
+### BLOCK 4 — OPENING TECHNIQUE ASSIGNMENTS
+
+**Rule:** No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.
+
+| Section | Technique |
+|---|---|
+| Introduction | Technique 2 — The Scene (paint the match-day moment) |
+| H2-1: What Makes England Nails Look English | Technique 4 — The Question (address the reader's palette confusion directly) |
+| H2-2: Simple England Nails at Home | Technique 3 — The Reframe (easy does not mean basic) |
+| H2-3: St. George's Cross Accent Nails | Technique 2 — The Scene (one accent nail, whole look changes) |
+| H2-4: Red French Tip | Technique 1 — The Claim (the red French tip is the most wearable England design that exists) |
+| H2-5: Three Lions / Jersey Number | Technique 4 — The Question (which number goes on your nail?) |
+| H2-6: Chrome and Metallic | Technique 3 — The Reframe (chrome is not flashy — it is how England fans do elevated) |
+| H2-7: Press-On Nails | Technique 1 — The Claim (press-ons are the smartest England nail decision mid-tournament) |
+| H2-8: Post-World Cup Wearability | Technique 4 — The Question (what happens to your England nails on 8 July?) |
+| Conclusion | Technique 1 — The Claim |
+
+**Banned opener rule:** Check every opener against banned_opening_approaches in Blog Gen Agent prompt before writing the second sentence.
+
+---
+
+### BLOCK 5 — LINK PLACEMENTS
+
+| Anchor Text | Full URL | Place In Section | Placement Context | Link Type |
+|---|---|---|---|---|
+| soccer nails | /blog/soccer/soccer-nails | Introduction | "...part of the wider [soccer nails] moment this summer." Woven into sentence referencing the tournament trend. | cluster-pillar |
+| world cup nails | /blog/soccer/world-cup-nails | H2-1 | When explaining that England's palette problem (red/white/blue) is covered in the broader tournament guide — cross-reference. | cluster-spoke |
+| flag nail art | /blog/soccer/flag-country-nails | H2-3 | "For country-by-country flag technique breakdowns, our [flag nail art] guide covers ten nations." | cluster-spoke |
+| messi nails | /blog/soccer/messi-nails | H2-5 | "If player loyalty rather than country pride drives your nail choice, [messi nails] is a whole other conversation." | cluster-spoke |
+| how to paint the St. George's Cross on your nails with striping tape | https://mirelleinspo.com/blog/soccer/flag-country-nails | H2-3 | After explaining the technique challenge — "For a full walkthrough, our guide on [how to paint the St. George's Cross on your nails with striping tape] takes you through it step by step." | cross-site |
+
+---
+
+### BLOCK 6 — AEO / GEO PLAN
+
+**AEO assignments:**
+
+| AEO Term | Assigned To | Execution |
+|---|---|---|
+| What colours should I use for England nails? | H2-1 | Write a direct 2–3 sentence answer IMMEDIATELY after the H2 heading: "The two colours are red and white — specifically the warm, bright red of England's home kit, not a cool crimson, and a clean white base. The St. George's Cross, a red cross on white, is the one visual that makes the palette read as England rather than any of the other red-white-blue nations." |
+| How do I paint the St. George's Cross on my nails? | H2-3 | Write a direct 2–3 sentence answer immediately after H2-3 heading before elaboration: "Use two strips of striping tape in a cross configuration on a white base nail, paint the exposed quadrants red, and lift the tape while the polish is still wet. Both lines must intersect at the centre of the nail — slightly off-centre reads wrong in photos." |
+| What is the easiest England nail design for beginners? | H2-2 | Direct answer immediately after H2-2: "Alternating red and white nails — five nails solid red, five nails solid white — is the easiest England nail design and requires only two polishes and no art tools at all." |
+| Where can I buy England press-on nails for the World Cup? | H2-7 | Direct answer after H2-7 heading: "UK-based nail artists on Etsy and Illuminate by Liana make handmade England football press-on nails in gel finish, available in multiple shapes and sizes with customisation options." |
+| Are red and white nails wearable after the football season? | H2-8 | Direct answer after H2-8: "Red nails are a year-round classic. The design that makes a set read as 'England World Cup' is the St. George's Cross detail — drop that element and you have a bold red manicure that works for autumn, Christmas, Valentine's Day, and everywhere in between." |
+
+**GEO entity statements:**
+
+| Entity | Assigned To | Execution |
+|---|---|---|
+| St. George's Cross | H2-3 | "The St. George's Cross is England's national flag: a bold red cross on a plain white background, divided into four equal white quadrants by two perpendicular red lines." — Clear declarative definition. |
+| Three Lions | H2-5 | "The Three Lions is the emblem of the England national football team, featuring three golden lions passant on a red shield — a symbol dating to the 12th century and still the most recognisable emblem in English sport." |
+
+---
+
+### BLOCK 7 — ACTIVE CONSTRAINTS
+
+```
+em_dash_banned:          Long em dash (—) does not appear anywhere. Replace with:
+                         comma / new sentence / parentheses / but / restructure.
+
+banned_vocab_watch:      Most likely banned words for this topic:
+                         - "stunning" (flag it)
+                         - "elevate" (flag it)
+                         - "amazing" (flag it)
+                         - "perfect" (flag it, except in AEO direct answers where it reads naturally)
+                         - "vibrant" (flag it)
+                         - "iconic" (use sparingly, max once if genuinely earned)
+                         - "showcase" (flag it)
+                         - "celebrate" (flag it)
+
+british_english_active:  colour, organised, recognise, -ise, -our — every instance, no exceptions.
+                         "colour" not "color". "recognised" not "recognized".
+
+keyword_density_reminder: After every 2 H2 sections — count current mentions of "england nails".
+                          Verify running total is on track for 9 total mentions.
+                          First half (1–1,000 words) must have 5 mentions.
+                          Second half (1,001–2,000 words) must have 4 mentions.
+
+image_path_reminder:     /images/blog/soccer/england-nails/filename.webp
+                         topic_slug "soccer" in path always.
+
+internal_link_url:       Cluster links = /blog/soccer/[slug]
+                         Cross-site link = https://mirelleinspo.com/blog/soccer/flag-country-nails
+                         Never bare /slug.
+
+hero_image_reminder:     Hero = frontmatter only. Never place in body.
+
+strong_tag_reminder:     Every mention of "england nails" = <strong>england nails</strong>.
+                         Scan after every paragraph. Zero misses.
+```
+
+---
+
+*Input file complete. Feed to Blog Gen Agent alongside cluster_context.json.*
