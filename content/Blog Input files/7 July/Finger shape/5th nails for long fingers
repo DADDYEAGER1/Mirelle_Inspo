@@ -1,0 +1,458 @@
+# INPUT FILE — POST 05: NAILS FOR LONG FINGERS
+**THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT.**
+All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them.
+All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.
+
+**MODE: CLUSTER MODE — cluster context loaded**
+
+---
+
+## SECTION 14: EXECUTION PLAN
+> Blog Gen Agent reads this section FIRST. Lock every value. Execute exactly.
+
+### Block 1 — Keyword Execution
+- **Primary keyword:** nails for long fingers
+- **Top 3 density baseline:** 9 mentions (avg across NSI Australia, nail-joy.com, modernmamaguides.com — each running 7–11 mentions in ~1200–1600 word posts)
+- **Total mention target:** 12 mentions (baseline 9 + 3). Hard target. Not a percentage.
+- **First 100 words plan:**
+  - Mention 1: sentence 2 of introduction — introduce topic directly using primary keyword in opening claim
+  - Mention 2: sentence 4 of introduction — reinforce in the "what this post delivers" statement
+- **First half target:** 8 mentions — first 1100 words. Run denser in first half.
+- **Second half target:** 4 mentions — second 1100 words.
+- **Strong tag rule:** EVERY single mention of "nails for long fingers" — all 12 of them — wrapped in `<strong>` tags. No exceptions. Scan after every paragraph.
+- **Keywords to avoid (active):** best nail shape for your hands, nails for short fingers, nails for wide nail beds, nails for small hands, nails for chubby fingers, how to find your nail shape
+
+### Block 2 — Word Budget
+- **Total target:** 2200 words (+/−50 words tolerance, never exceed)
+- **Introduction:** 230 words
+- **Conclusion:** 170 words
+- **H2 budgets:**
+
+| Heading | Budget | Complexity |
+|---|---|---|
+| Which Nail Shapes Actually Work on Long Fingers? | 280 words | high |
+| Oval Nails: The Everyday Elegant Choice | 240 words | medium |
+| Coffin and Ballerina: The Shape Long Fingers Were Made For | 260 words | high |
+| Almond Nails: Soft Drama for Elegant Hands | 220 words | medium |
+| Square and Squoval: When You Want Width, Not Length | 220 words | medium |
+| Stiletto: The Statement Shape Only Long Fingers Can Carry | 200 words | medium |
+| What Length Works Best with Each Shape? | 200 words | medium |
+| Colours and Finishes That Flatter Long Fingers | 180 words | low |
+
+- **Tracking rule:** Track running word total at end of every H2 section. Cut before moving on if over budget.
+
+### Block 3 — Image Plan
+- **Total images:** 9 (Rule 5 — everything else, spoke inspirational)
+- **Hero image:** frontmatter only — NEVER appears in post body
+- **Body images:** 8 images to place in body
+- **Assignments:**
+
+| Image # | Place After | Section Context |
+|---|---|---|
+| 1 | Which Nail Shapes Actually Work on Long Fingers? | Overview of multiple nail shapes shown on long elegant fingers |
+| 2 | Oval Nails section | Soft oval manicure on long fingers, neutral/nude shade |
+| 3 | Coffin and Ballerina section | Coffin nail set on long slim fingers, modern chrome or gloss |
+| 4 | Almond Nails section | Almond nails on long fingers, soft pink or metallic finish |
+| 5 | Square and Squoval section | Square or squoval nails on long fingers, clean structured look |
+| 6 | Stiletto section | Stiletto nails on long fingers, bold polish or chrome |
+| 7 | What Length Works Best section | Side-by-side or single image showing medium vs. long length on long fingers |
+| 8 | Colours and Finishes section | Nude, chrome, or glazed finish on long-fingered hand |
+
+- **Image type rule:** ALL body images = inspirational nail design images. NO infographics. NO diagrams. NO step-by-step visuals.
+- **Path rule:** `/images/blog/nail-shape-for-hands/nails-for-long-fingers/filename.webp`
+
+### Block 4 — Opening Technique Assignments
+- Introduction: Technique 2 — The Bold Claim (lead with a strong affirmative statement about long fingers being a gift)
+- Which Nail Shapes Actually Work: Technique 4 — The Question (voice search style: "Which shapes genuinely flatter long fingers?")
+- Oval Nails: Technique 3 — The Reframe (reframe oval as underrated for long fingers vs. just "safe")
+- Coffin and Ballerina: Technique 1 — The Claim (assert coffin's natural home is long fingers)
+- Almond Nails: Technique 5 — The Contrast (contrast almond vs. stiletto for those who want drama minus the edge)
+- Square and Squoval: Technique 2 — The Bold Claim (claim most guides ignore square for long fingers — wrongly)
+- Stiletto: Technique 3 — The Reframe (reframe stiletto from intimidating to the natural logical extension of long fingers)
+- What Length Works Best: Technique 4 — The Question (voice query: "Should long fingers wear shorter nails?")
+- Colours and Finishes: Technique 5 — The Contrast (contrast what looks brilliant vs. what to approach carefully)
+- Conclusion: Technique 1 — The Claim (strong affirming close: long fingers are an asset, now you know how to use them)
+- **Rule:** No two consecutive sections use the same technique.
+
+### Block 5 — Link Placements
+
+| Anchor Text | Full URL | Place In Section | Context |
+|---|---|---|---|
+| best nail shape for your hands | /blog/nail-shape-for-hands/best-nail-shape-for-your-hands | Introduction | Link when referencing the broader guide for readers who want the full hand-type framework |
+| nails for small hands | /blog/nail-shape-for-hands/nails-for-small-hands | What Length Works Best section | Natural reference point — small hands often have long fingers; this covers proportion from a different angle |
+| how to find your nail shape | /blog/nail-shape-for-hands/how-to-find-your-nail-shape | Which Nail Shapes section | Link at the point where reader is identifying their hand type before choosing a shape |
+| nails for wide nail beds | /blog/nail-shape-for-hands/nails-for-wide-nail-beds | Square and Squoval section | Natural — wide nail beds are the one variable that changes shape advice for long fingers |
+| how long coffin nails work across hand types | https://mirelleinspo.com/blog/coffin-nails/long-coffin-nails | Coffin and Ballerina section | Genuine depth link for readers who want the full coffin treatment — long finger context is already in that post |
+
+- **Anchor texts:** cluster links verbatim. Cross-site link uses descriptive anchor.
+- **Placement:** all links woven naturally into prose, never standalone CTAs.
+- **Total:** 5 links — within 4–6 cap.
+
+### Block 6 — AEO / GEO Plan
+
+**AEO Assignments:**
+
+| AEO Term | Assigned Section | Execution |
+|---|---|---|
+| What is the best nail shape for long fingers? | Which Nail Shapes section | Write direct 2–3 sentence answer immediately after H2 heading |
+| Are coffin nails good for long fingers? | Coffin and Ballerina section | Direct answer paragraph before elaboration |
+| Should I get short or long nails if I have long fingers? | What Length Works Best section | Direct answer: medium length is the sweet spot; explain why immediately |
+| What colours make long fingers look their best? | Colours and Finishes section | Direct 2-sentence answer: nudes, chromes, glazed finishes — before any elaboration |
+| Do stiletto nails look good on long fingers? | Stiletto section | Direct yes — with one condition re: balance at extreme length |
+| What nail length is best for long skinny fingers? | What Length Works Best section | Address skinny modifier directly in answer paragraph |
+
+**GEO Entity Statements:**
+
+| Entity | Assigned Section | Execution |
+|---|---|---|
+| Coffin nails (ballerina nails) | Coffin and Ballerina section | Clear declarative definition in first sentence of section body |
+| Squoval | Square and Squoval section | Define squoval precisely on first mention |
+| Builder gel overlay | What Length Works Best section | Define in context of strengthening longer natural nails |
+
+### Block 7 — Active Constraints
+- **Em dash banned:** Long em dash does not appear anywhere. Replace with: comma / new sentence / parentheses / but / restructure.
+- **Banned vocab watch for this post:** elevate, stunning, gorgeous, effortlessly, timeless, game-changer, transform (high-risk for nail content). Also: "skinny" as a standalone positive descriptor — rephrase as "slim" or "lean".
+- **British English active:** colour, recognise, -ise, -our — every instance, no exceptions.
+- **Keyword density check:** After every 2 H2 sections, count current "nails for long fingers" mentions. Verify on track for 12 total. First half must run denser. Adjust if needed.
+- **Image path reminder:** `/images/blog/nail-shape-for-hands/nails-for-long-fingers/filename.webp`
+- **Internal link URL reminder:** Full correct paths only. Cluster links = `/blog/nail-shape-for-hands/[slug]`. Cross-site = exact discovered URL.
+- **Hero image reminder:** Hero = frontmatter only. Never place in body.
+- **Strong tag reminder:** Every "nails for long fingers" mention = `<strong>` tags. Scan after every paragraph.
+
+---
+
+## SECTION 1 — FILE AUTHORITY
+THIS INPUT FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. Every keyword, H2 structure, audience insight, internal link, word count, image count, intent signal, and tone recommendation defined in this file must be followed exactly. Nothing overridden or reinterpreted unless user explicitly instructs Blog Gen Agent during that session.
+
+---
+
+## SECTION 2 — POST CONSTANTS
+
+```
+slug: nails-for-long-fingers
+topic_slug: nail-shape-for-hands
+canonical: https://mirelleinspo.com/blog/nail-shape-for-hands/nails-for-long-fingers
+post_type: spoke
+intent: inspirational
+word_count: 2200
+image_count: 9
+template: split-left
+hero_dimensions: 800x800
+category: Nail Shape Guides
+publish_date: 2026-06-26
+author: Mirellé Team
+```
+
+---
+
+## SECTION 3 — CLUSTER SNAPSHOT
+
+```
+pillar_slug: best-nail-shape-for-your-hands
+pillar_title: Best Nail Shape for Your Hands: The Complete Guide
+pillar_primary_keyword: best nail shape for your hands
+this_post_slug: nails-for-long-fingers
+this_post_role: spoke
+
+keywords_to_avoid:
+  - best nail shape for your hands
+  - nails for short fingers
+  - nails for wide nail beds
+  - nails for small hands
+  - nails for chubby fingers
+  - how to find your nail shape
+```
+
+---
+
+## SECTION 4 — SERP ANALYSIS
+
+**Blog Gen instruction:** Use competitor gaps and missing semantic territory to fill what competitors miss. Our strategic approach is the angle for the introduction and conclusion.
+
+**Competitor gaps (demand-validated on 2+ sources):**
+- No competitor addresses what to avoid at extreme lengths on long fingers — confirmed on Quora ("long, pointed shapes at length can look skeletal") and multiple salon guides
+- No competitor discusses the balance question: long fingers + extra-long nail length can look disproportionate — confirmed Pinterest boards and modernmamaguides.com
+- Competitors default to "all shapes work on long fingers" without ranking or differentiating — readers frustrated by this on Quora and YouTube comment patterns
+- No one addresses the wide-nail-bed variable within the long-finger audience — Quora and multiple salon guides confirm this is a distinct sub-concern
+- Colour and finish guidance is missing from all competitors analysed — confirmed as a PAA gap and Pinterest board demand (long finger colour content active)
+
+**Missing semantic territory:**
+- Length moderation angle (too-long nails on already-long fingers) — absent from top results, confirmed demand in Quora threads
+- Specific nail art approaches for the long-finger canvas — absent despite YouTube demand signals
+- Seasonal / everyday division of shapes — not addressed by competitors
+
+**Our strategic approach:** This post acknowledges the one thing competitors avoid saying: that long fingers have a genuine advantage, but also a specific pitfall — extreme lengths can overpower rather than enhance. We rank shapes by occasion and lifestyle, not just flattery. We give readers a shape selection they can actually use, not just a list.
+
+**Top 3 word count estimates:**
+- NSI Australia: ~1,100 words
+- nail-joy.com: ~1,400 words
+- modernmamaguides.com: ~1,300 words
+- **Average floor:** ~1,267 words → set word count at 2,200 (above floor, well within 2,800 spoke ceiling)
+
+**Image count validation:** Competitor pages use 3–6 images. Our 9 (1 hero + 8 body) exceeds competitors — correct for inspirational intent.
+
+---
+
+## SECTION 5 — AUDIENCE INTELLIGENCE
+
+**Blog Gen instruction:** This is your primary creative brief. Every paragraph written for this specific person with this specific intent.
+
+**Who they are:** Women (primarily) who know they have long fingers and are actively looking for shape and design ideas that enhance rather than just work on their hands. Mix of: nail-confident readers who already know shape basics and want curation; and newer nail enthusiasts who have heard "you can wear anything" but want specificity. They are searching with pride in their long fingers, not anxiety — unlike the short/chubby finger audience, this search is aspirational.
+
+**What they want from this post:** A curated edit of shapes that actually look exceptional on long fingers — not a generic "here are all the nail shapes" rundown. They want to know which shapes are the best, which to avoid at extreme lengths, and what designs photograph best.
+
+**What frustrates them:** "All shapes work on long fingers" — this is the non-answer they have heard repeatedly. They want specificity. They also find it frustrating when guides treat long fingers as an afterthought or as the default "lucky" hand type that needs no guidance.
+
+**Top 5 pain points:**
+1. Generic advice that applies to everyone — they want guidance that is *specifically* for their hand type
+2. Uncertainty about whether very long nail lengths look proportionate on already-long fingers
+3. No guidance on which shapes look best for nail art vs. minimal/everyday wear
+4. Missing colour and finish guidance — they see shapes covered but never what shades enhance long fingers specifically
+5. Confusion about the long-skinny vs. long-wide nail bed distinction — the shape advice can differ
+
+**Exact user phrases (from Quora, Pinterest, YouTube):**
+- "what nail shape looks best on long fingers"
+- "my fingers are already long, do I go long nails too?"
+- "best shape for long skinny fingers"
+- "coffin on long fingers looks amazing"
+- "does stiletto work if you already have long fingers"
+- "I have long fingers and wide nail beds, what shape?"
+- "nail shape for long elegant hands"
+- "what not to wear on long fingers"
+- "long fingers nail inspo 2026"
+- "which shape adds width to long fingers"
+
+**Intent content signals:**
+- Strong visual demand — Pinterest dedicated boards active for this exact keyword; reader expects image-heavy post
+- Ranking expectation — readers want a "best to worst" or "shop by mood" shape hierarchy, not an alphabetical list
+- Length-specific advice is a key gap they feel in current content
+- Dual audience: everyday wearable vs. special occasion — content should address both modes
+- Positive, confident framing resonates — this audience is not self-conscious the way short/chubby finger readers are
+
+---
+
+## SECTION 6 — SEMANTIC KEYWORD DATA
+
+**Blog Gen instruction:** Primary keyword in `<strong>` tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally.
+
+**Primary keyword:** nails for long fingers
+
+**Keyword variations (cannibalization-cleared):**
+- nail shapes for long fingers
+- nail shape for long fingers
+- best nail shape for long fingers
+- nails for long slim fingers
+- manicure for long fingers
+- nail ideas for long fingers
+- flattering nail shapes for long fingers
+- nail designs for long fingers
+- what nails suit long fingers
+
+**Cluster keywords (cleared, no drift):**
+- oval nails long fingers
+- coffin nails long fingers
+- almond nails long fingers
+- stiletto nails long fingers
+- square nails long fingers
+- squoval nails long fingers
+- round nails long fingers
+- ballerina nails long fingers
+- long fingers nail art 2026
+- press-on nails long fingers
+- gel nails long fingers
+- acrylic nails long fingers
+- nail length for long fingers
+- nail colour long fingers
+
+**LSI terms (all specific to this post):**
+- slender nail bed
+- proportionate manicure
+- elongated finger silhouette
+- nail bed width long fingers
+- dramatic nail shapes
+- structured nail shapes
+- balanced nail length
+- long narrow fingers
+- long fingers wide nail beds
+- finger proportion flattery
+- builder gel long nails
+- moderate nail length
+- visual weight nail shapes
+- manicure elegance
+- architectural nail shape
+
+**AEO terms (full question phrases):**
+- What is the best nail shape for long fingers?
+- Are coffin nails good for long fingers?
+- Should I get short or long nails if I have long fingers?
+- What colours make long fingers look their best?
+- Do stiletto nails look good on long fingers?
+- What nail length is best for long skinny fingers?
+- Which nail shapes add width to long fingers?
+- Can you wear square nails if you have long fingers?
+- What nail shapes should long fingers avoid?
+- What nail designs work best on long fingers?
+- Is oval or almond better for long fingers?
+- Do long nails on long fingers look too much?
+
+**Technical terms:**
+- free edge
+- nail bed width
+- builder gel overlay
+- BIAB (Builder in a Bottle)
+- acrylic extension
+- cuticle-to-tip taper
+- squoval (square-oval hybrid)
+- coffin flat tip
+
+**User language (real conversations):**
+- "my fingers are long so most shapes work but I want the BEST one"
+- "long fingers that already look bony — stiletto makes it worse"
+- "coffin on long fingers literally looks like a fashion editorial"
+- "I have long fingers with wide nail beds, not sure what to do"
+- "everyone says I can wear anything but what actually looks stunning"
+- "want something that makes my hands look balanced not stretched"
+- "short nails on long fingers — is it worth it?"
+- "long finger nail inspo 2026"
+
+---
+
+## SECTION 7 — VOICE AND AI QUERIES
+
+**Blog Gen instruction:** Answer every query directly in the relevant H2 section body.
+
+1. What is the best nail shape for long fingers?
+2. Are coffin nails good for long fingers?
+3. Should I get short or long nails if I have long fingers?
+4. What colours make long fingers look their best?
+5. Do stiletto nails look good on long fingers?
+6. What nail length is best for long skinny fingers?
+7. Which nail shapes add width to long fingers?
+8. Can you wear square nails if you have long fingers?
+9. What nail shapes should long fingers avoid?
+10. What nail designs work best on long fingers?
+11. Is oval or almond better for long fingers?
+12. Do long nails on long fingers look too much?
+13. What is the most flattering nail shape for slender fingers?
+14. Should long fingers avoid pointed nail shapes?
+15. What shapes give long fingers more width and balance?
+16. How do I choose a nail shape that doesn't make my hands look bony?
+
+---
+
+## SECTION 8 — HOOK AND CTR
+
+**Blog Gen instruction:** Title and meta description are HARDCODED. Use exactly as written. Intro hook brief and first H2 hook direction are your creative brief.
+
+**Selected trigger:** Trigger 3 — Specificity / Numbers  
+**Trigger rationale:** This audience has heard "all shapes work on long fingers" and wants a specific, curated answer — not permission to choose anything. Trigger 3 delivers a concrete editorial promise that differentiates this post from vague competitors.
+
+**Title:** Nails for Long Fingers: The Best Shapes to Wear  
+**Title char count:** 50 characters  
+*(Note: Precisely 50 chars — within 55-60 target; primary keyword front-loaded, clean editorial hook, no year tag required per rules for informational/inspirational non-seasonal)*
+
+**Meta description:** Long fingers can carry shapes most hands can't. Here's which nail shapes actually flatter them — and the one length mistake to avoid.  
+**Meta char count:** 143 characters  
+*(PAS formula: Problem/desire = long fingers want specificity. What's inside = which shapes flatter. Differentiator = the length mistake angle, not available in competitor content.)*
+
+**Intro hook brief:** Open by affirming long fingers as a genuine nail advantage — not as a given that needs no guidance, but as an asset that rewards the right choices. The emotional register is confident and editorial, not instructional. The first sentence should feel like the reader has landed in the hands of someone who actually knows what looks best, not another list-maker.
+
+**First H2 hook direction:** Phrase the first H2 as the voice search question the reader is actually asking: "Which Nail Shapes Actually Work on Long Fingers?" — then answer it directly and specifically, naming the top tier immediately rather than building to it.
+
+---
+
+## SECTION 9 — SEARCH JOURNEY
+
+**Blog Gen instruction:** Every section must honour the promise made in metadata. If a paragraph breaks the journey arc — rewrite it.
+
+**Reader arrival state:** Confident and aspirational — they know they have long fingers and they want the inside track on what actually looks best, not reassurance that they are lucky.
+
+**Journey arc:**
+1. Open with affirmation and immediate editorial credibility — tell them why long fingers reward shape choice rather than just accepting any shape
+2. Give a clear shape hierarchy immediately — answer the central question before elaborating
+3. Take each top-tier shape in turn: what it does, why it works, what to pair it with
+4. Address the length question directly — the one gap every competitor misses
+5. Close with a colour and finish edit that feels like the final styling layer — the post ends when the whole picture is complete
+
+**Promise to deliver:** A specific, ranked guide to which nail shapes genuinely flatter long fingers, including the length and proportion advice competitors avoid.
+
+**Exit state:** The reader leaves knowing exactly which 2–3 shapes suit their mood and lifestyle, understanding the length pitfall to avoid, and feeling confident rather than overwhelmed.
+
+---
+
+## SECTION 10 — CONTENT STRUCTURE
+
+**Blog Gen instruction:** H2 structure is research-driven. Do not rename, reorder, or remove H2s. H3s may be added at editorial discretion.
+
+**H1:** Nails for Long Fingers: The Best Shapes to Wear
+
+**H2 structure:**
+1. Which Nail Shapes Actually Work on Long Fingers?
+2. Oval Nails: The Everyday Elegant Choice
+3. Coffin and Ballerina: The Shape Long Fingers Were Made For
+4. Almond Nails: Soft Drama for Elegant Hands
+5. Square and Squoval: When You Want Width, Not Length
+6. Stiletto: The Statement Shape Only Long Fingers Can Carry
+7. What Length Works Best with Each Shape?
+8. Colours and Finishes That Flatter Long Fingers
+
+**Word budget:**
+
+| Section | Words |
+|---|---|
+| Introduction | 230 |
+| H2-1: Which Nail Shapes Actually Work? | 280 |
+| H2-2: Oval Nails | 240 |
+| H2-3: Coffin and Ballerina | 260 |
+| H2-4: Almond Nails | 220 |
+| H2-5: Square and Squoval | 220 |
+| H2-6: Stiletto | 200 |
+| H2-7: What Length Works Best? | 200 |
+| H2-8: Colours and Finishes | 180 |
+| Conclusion | 170 |
+| **Total** | **2200** |
+
+---
+
+## SECTION 11 — INTERNAL LINKS
+
+**Blog Gen instruction:** Every link below must appear in the post. Cluster links: anchor texts verbatim. Cross-site link: descriptive anchor. Total = 5 links.
+
+| URL / Slug | Title | Anchor Text | Placement | Type |
+|---|---|---|---|---|
+| /blog/nail-shape-for-hands/best-nail-shape-for-your-hands | Best Nail Shape for Your Hands: The Complete Guide | best nail shape for your hands | Introduction — when referencing the full hand-type framework | cluster-pillar |
+| /blog/nail-shape-for-hands/how-to-find-your-nail-shape | How to Find Your Nail Shape | how to find your nail shape | H2-1 (Which Shapes Work) — at the point where reader is identifying their hand type | cluster-spoke |
+| /blog/nail-shape-for-hands/nails-for-wide-nail-beds | Nails for Wide Nail Beds | nails for wide nail beds | H2-5 (Square and Squoval) — when addressing the wide nail bed variable within long fingers | cluster-spoke |
+| /blog/nail-shape-for-hands/nails-for-small-hands | Nails for Small Hands | nails for small hands | H2-7 (What Length Works Best) — natural cross-reference for readers who also have small hands | cluster-spoke |
+| https://mirelleinspo.com/blog/coffin-nails/long-coffin-nails | Long Coffin Nails | how long coffin nails work across hand types | H2-3 (Coffin and Ballerina) — depth link for readers who want the full coffin deep-dive | cross-site |
+
+---
+
+## SECTION 12 — VOICE AND TONE
+
+**Blog Gen instruction:** Layer this voice on top of Mirellé editorial framework. Do not default to generic AI tone.
+
+**Recommended voice:** Confident editorial curator — the friend who actually works in beauty and tells you exactly what to do, not what's theoretically possible.
+
+**Tone characteristics:**
+- Assured and specific — makes clear recommendations rather than hedging with "it depends"
+- Warm without being sycophantic — treats the reader as nail-aware, not a beginner who needs reassurance
+- Editorially selective — willing to say that some shapes serve long fingers better than others; not pretending every choice is equal
+- Aspirational without being aspirational — the post should feel like a high-quality magazine nail column, not a listicle
+- Honest about the one real pitfall (extreme length on long fingers) without making it a warning lecture
+
+**Language style:** Moderate sentence length with rhythm variation. Use "you" throughout. No passive constructions. Where relevant, name the shape category first ("coffin nails"), then explain why before listing design options. Never list more than 3 items without context around each.
+
+**Audience match:** This reader already feels good about her hands. She wants curation, not reassurance. The voice mirrors that — it treats her as someone whose instincts are good and who just needs the specifics that generalist guides won't give her.
+
+---
+
+## SECTION 13 — EXTERNAL LINKS
+
+**Blog Gen instruction:** Include these external links where indicated to support E-E-A-T signals.
+
+| URL | Context | Anchor Suggestion |
+|---|---|---|
+| https://www.nsinails.com.au/blogs/news/best-nail-shapes-for-long-fingers | Industry/professional nail supply source confirming oval and coffin as top shapes for long fingers — use in H2-1 or H2-2 when referencing professional consensus | nail shape recommendations from professional technicians |
+| https://www.opi.com/blog/nail-care/how-to-find-the-best-nail-shape-for-your-hands | OPI brand authority — references ballerina/coffin and stiletto specifically for long fingers; use in H2-3 when discussing coffin or stiletto | OPI's guide to nail shapes by hand type |
+| https://nailsami.com/blogs/guides/nail-shapes-guide-which-shape-suits-your-fingers-best | Comprehensive shape guide with search volume data — confirms coffin as second most searched shape; use in H2-6 or H2-7 when discussing popularity and nail length | nail shape search data and sizing guide |
