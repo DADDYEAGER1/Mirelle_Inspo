@@ -1,0 +1,454 @@
+# INPUT FILE — BLOG GEN AGENT
+## CLUSTER MODE — cluster context loaded
+
+---
+
+## SECTION 1 — FILE AUTHORITY
+
+THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.
+
+---
+
+## SECTION 2 — POST CONSTANTS
+
+| Field | Value |
+|---|---|
+| slug | nail-colors-for-women-over-60 |
+| topic_slug | nails-for-older-women |
+| canonical | https://mirelleinspo.com/blog/nails-for-older-women/nail-colors-for-women-over-60 |
+| post_type | spoke |
+| intent | inspirational |
+| word_count | 2200 |
+| image_count | 9 |
+| template | split-left |
+| hero_dimensions | 800x800 |
+| category | Nail Colors |
+| publish_date | 2026-07-01 |
+| author | Mirellé Team |
+
+**Word count rationale:** Top 3 ranking posts (Parade Jan 2026 ~1,800w, Glazeme 2026 ~2,100w, Journee ~1,600w) average ≈1,833w. Ceiling for spokes = 2,800. Hard target set at 2,200 — above the floor, well within ceiling.
+
+**Image count rationale:** Rule 5 (everything else) applies — no number in slug, not a pillar, not tutorial, not comparison. 9 images total including hero.
+
+---
+
+## SECTION 3 — CLUSTER SNAPSHOT
+
+| Field | Value |
+|---|---|
+| pillar_slug | nails-for-older-women |
+| pillar_title | Best Nail Colors for Women Over 50 |
+| pillar_primary_keyword | nails for older women |
+| this_post_slug | nail-colors-for-women-over-60 |
+| this_post_role | spoke |
+
+**Keywords to avoid (hard wall — never use as focus terms):**
+nails for older women · nail colors for women over 40 · nail colors for mature hands · nail colors that age your hands · nail trends for women over 50 2026 · best nail shape for mature hands · nail shapes that make fingers look longer · brittle nails after 50 · nail care routine for mature hands · elegant nail art for mature hands · french manicure for women over 50 · gel nails vs acrylic for mature hands · nail color for skin tone over 50 · nail ridges after 50 · nail polish to hide veins on hands · nail colors to make hands look younger
+
+---
+
+## SECTION 4 — SERP ANALYSIS
+
+**Competitor gaps** (demand confirmed 2+ sources):
+
+- No post addresses the specific skin-tone shift at 60+ (skin yellows, undertones change post-menopause) — confirmed via Glazeme, Parade, Journee
+- No competitor explains *why* glossy finishes outperform matte on skin over 60 (light reflection science) — confirmed via Glazeme and 40PlusStyle forums
+- Competitors list colours but rarely give a "morning light test" or practical at-home undertone identification method specific to skin at 60 — confirmed Quora + Parade
+- Missing: the milky/chrome finish angle for 60+ — these are trending but competitors don't address them for this age group specifically — confirmed Parade (milky chrome pick) and YouTube titles
+- Colours-to-avoid section exists on Glam and Women.com but those are separate posts — an integrated "what works AND what to skip" in one post is a confirmed gap for this primary keyword
+
+**Missing semantic territory:**
+- Finish type guidance (gloss vs matte vs sheer vs shimmer) for skin at 60 specifically
+- The "your nails but better" sheer/milky category — relevant to 60+ but not surfaced in top results
+- Skin undertone change post-menopause as a reason previous nail colours stopped working
+
+**Our strategic approach:**
+This post wins by combining the inspirational gallery of colours with the practical *why* — skin science, undertone shifts at 60, finish rules — that competitors either skip or place in separate posts. Every colour recommendation includes a direct signal about what it does for the specific concerns of skin at 60 (veins, age spots, yellowing, texture). The post reads as knowledgeable without being clinical.
+
+**Recommended image count validation:** Competitors use 6–12 images. 9 confirmed appropriate for a spoke inspirational post.
+
+---
+
+## SECTION 5 — AUDIENCE INTELLIGENCE
+
+**Who they are:**
+Women aged 60–72, globally (US, UK, CA, AU). Many have recently noticed their old favourite colours no longer look the way they expect. They've often moved through perimenopause and post-menopause, and their skin tone has shifted. They are style-aware, not trend-chasing. They want to feel polished and put-together, not like they're "trying too hard."
+
+**What they want from this post:**
+A concrete, opinionated list of colours that will genuinely flatter their hands at 60 — with a clear reason for each pick, not just a vague "this looks elegant." They also want permission to enjoy colour without anxiety about looking age-inappropriate.
+
+**What frustrates them about current content:**
+- Generic "nudes and reds" advice that applies to any age — not specific enough to 60+
+- Lists without the *why* — no explanation of what each shade actually does for mature skin
+- Content that tells them to "play it safe" without explaining the logic, which feels patronising
+- The same stock nudist-beige suggestions they've seen for a decade
+
+**Top 5 pain points:**
+1. Colours they loved at 40 look wrong now and they don't know why
+2. Neon and bright shades highlighting veins and age spots
+3. Dark colours drawing attention to texture and prominent knuckles
+4. Not knowing if the French manicure is still right for them at 60
+5. Feeling limited to beige and nude — bored but afraid of going wrong
+
+**Exact user phrases (real conversations):**
+- "what nail color should a 60 year old wear"
+- "nail polish that doesn't make old hands look worse"
+- "I feel like my nails are aging me but I don't know which color to pick"
+- "can I still wear red nails at 60"
+- "what colors hide veins on hands"
+- "nail colors for women over 60 that don't look frumpy"
+- "is dark nail polish bad for older women"
+- "short nails over 60 what color looks good"
+- "nail polish colors that make hands look younger after 60"
+- "what nail finish is best for older hands"
+
+**Intent content signals:**
+- Wants a visual, browsable post — this is an inspirational intent, not tutorial
+- Responds to manicurist quotes and expert authority
+- Values specific product name references (OPI, Essie, Zoya) alongside colour descriptions
+- Wants both what TO wear AND a concise what-to-avoid section
+- Short to medium nail length assumed — no coffin/stiletto content relevant
+- Expects skin-tone guidance to be woven in, not separated into a different post
+
+---
+
+## SECTION 6 — SEMANTIC KEYWORD DATA
+
+**Primary keyword:** nail colors for women over 60
+
+**Keyword variations** (all cannibalization-cleared):
+- nail polish colors for women over 60
+- nail colours for women over 60
+- best nail colors for women over 60
+- nail polish for women over 60
+- nail shades for women over 60
+- flattering nail colors for 60 year olds
+- nail color ideas for women over 60
+- nail colors for 60 year old woman
+- manicure colors for women over 60
+
+**Cluster keywords** (none drift into adjacent post territory):
+- flattering nail shades for mature women
+- nail polish for older women
+- nail colors for aging hands
+- best nail polish for skin over 60
+- classy nail colors for older women
+- sophisticated nail shades over 60
+- nail colors that complement older skin
+- nail polish shades for women in their 60s
+- manicure ideas for 60+
+- elegant nail polish for mature women
+- nail colors for 60 year old woman with short nails
+
+**LSI terms:**
+- creamy finish nail polish
+- glossy finish nails mature skin
+- sheer nail polish older hands
+- milky nail trend
+- soft chrome nails
+- undertone nail color matching
+- warm nude nails
+- rose pink nail polish
+- sheer berry nail polish
+- medium mauve nails
+- soft coral nails
+- classic red nails over 60
+- age spots hands nail colour
+- visible veins nail polish
+- skin undertone nails over 60
+- pale skin nail polish
+- nail polish anti-aging
+- creamy nudes mature hands
+- nail colour skin tone over 60
+
+**AEO terms** (full question phrases for AI answer engines):
+- What nail colors are most flattering for women over 60?
+- What nail polish should a 60-year-old woman wear?
+- Can women over 60 wear red nail polish?
+- What nail color makes hands look younger after 60?
+- Should women over 60 wear dark nail polish?
+- What nail finish is best for older hands?
+- Why do some nail colors look bad on older hands?
+- What nail polish colours hide veins on hands?
+- Are bright nail colors appropriate for women over 60?
+- What nail shades suit grey hair for women over 60?
+- Is milky nail polish good for women over 60?
+- What nail colors work for women over 60 with dark skin?
+
+**Technical terms:**
+- undertone (warm/cool/neutral)
+- creamy finish
+- sheer formula
+- gloss vs matte
+- milky chrome
+- ridge-filling base coat
+- colour-safe top coat
+
+**User language** (real phrases):
+- "nails that don't age your hands"
+- "classy not frumpy"
+- "polished without trying too hard"
+- "colors that work with grey hair"
+- "nail polish that doesn't look old-fashioned"
+- "something sophisticated"
+- "your nails but better"
+- "looks expensive"
+- "not boring but not OTT"
+
+---
+
+## SECTION 7 — VOICE AND AI QUERIES
+
+1. What are the most flattering nail colors for women over 60?
+2. What nail polish should a 60-year-old woman wear?
+3. Can a 60-year-old woman wear red nail polish?
+4. What nail colors make older hands look younger?
+5. What nail polish finish is best for mature hands?
+6. Should women over 60 avoid dark nail polish?
+7. What nail color hides veins on hands?
+8. What nail colors work with grey hair?
+9. Why does my old favourite nail color look wrong now that I'm 60?
+10. Is milky nail polish a good choice for older women?
+11. Are bright nail colors okay for women over 60?
+12. What nail colors suit fair skin over 60?
+13. What are the best nail shades for women over 60 with dark skin?
+14. What nail polish is most flattering for mature hands with age spots?
+15. What nail color looks classy but not boring for a 60-year-old?
+16. Is nude nail polish the only safe choice for women over 60?
+
+---
+
+## SECTION 8 — HOOK AND CTR
+
+**Selected trigger:** Trigger 3 — Specificity / Numbers
+
+**Trigger rationale:** The reader is in inspiration mode, browsing for a defined list of approved colours — she wants a specific, confident answer, not a vague guide.
+
+**Title:** Nail Colors for Women Over 60: 9 Shades That Flatter
+**Title char count:** 57
+
+**Meta description:** Most lists give you beige and call it done. Here are 9 nail colors for women over 60 that actually flatter — with the reason each one works for mature skin.
+**Meta char count:** 153
+
+**Intro hook brief:** Open with the specific moment this reader knows: she looked down at a colour she's worn for years and it looked wrong on her hands. Not because she's wrong — because her skin changed. Name that shift, then immediately promise this post fixes it.
+
+**First H2 hook direction:** Frame the first H2 as a warm, confident statement that positions the post as a friendly expert — e.g. "What Actually Makes a Nail Colour Flattering After 60?" (voice-search query phrasing, addresses the underlying mechanism before revealing the colour list).
+
+---
+
+## SECTION 9 — SEARCH JOURNEY
+
+**Reader arrival state:** She's slightly frustrated — she knows nudes and reds exist but wants a confident, specific answer she can act on from someone who actually understands skin at 60.
+
+**Journey arc:**
+1. Hook: validation that her skin *did* change, and that changes what works — removes self-doubt
+2. Quick science: why certain colours work (finish, undertone, light reflection) — gives her a framework, not just a list
+3. The core colour list — 7–9 shades with a one-line "why it works" for each
+4. What to avoid and why — converts anxiety into clarity
+5. Skin-tone angle: a brief filter so she can pick from the list with confidence for her specific complexion
+
+**Promise to deliver:** A specific, expert-backed list of colours for skin at 60, with clear logic behind each pick.
+
+**Exit state:** She feels confident about what to choose at her next salon visit or when buying online. She has a shortlist, not a vague principle.
+
+---
+
+## SECTION 10 — CONTENT STRUCTURE
+
+**H1:** Nail Colors for Women Over 60: The 9 Most Flattering Shades, Ranked
+
+**H2 structure:**
+1. What Actually Makes a Nail Colour Flattering After 60?
+2. The Best Nude and Beige Nail Colours for Women Over 60
+3. Best Pink Nail Colours for Women Over 60
+4. Classic Red Nails After 60: Which Shades Work and Which Don't
+5. Soft Mauve and Berry Nails Over 60: The Middle-Ground Shades Nobody Talks About
+6. Are Dark Nail Colours Too Harsh for Women Over 60?
+7. What Nail Polish Finish Works Best on Mature Hands?
+8. Nail Colours to Avoid If You're Over 60 (And Why)
+
+**Word budget:**
+| Section | Budget |
+|---|---|
+| Introduction | 230 words |
+| H2-1: What Actually Makes a Nail Colour Flattering After 60? | 280 words |
+| H2-2: Best Nude and Beige Nail Colours | 250 words |
+| H2-3: Best Pink Nail Colours | 220 words |
+| H2-4: Classic Red Nails After 60 | 220 words |
+| H2-5: Mauve and Berry Shades | 200 words |
+| H2-6: Are Dark Nail Colours Too Harsh? | 200 words |
+| H2-7: What Nail Polish Finish Works Best? | 220 words |
+| H2-8: Colours to Avoid | 220 words |
+| Conclusion | 160 words |
+| **Total** | **2,200 words** |
+
+---
+
+## SECTION 11 — INTERNAL LINKS
+
+| Anchor Text | URL | Placement | Type |
+|---|---|---|---|
+| nails for older women | /blog/nails-for-older-women/nails-for-older-women | H2-1 — when first mentioning the broader category | cluster-pillar |
+| nail colors for mature hands | /blog/nails-for-older-women/nail-colors-for-mature-hands | H2-2 — within nude/beige discussion where mature hand skin conditions are raised | cluster-spoke |
+| nail polish to hide veins on hands | /blog/nails-for-older-women/nail-polish-to-hide-veins-and-age-spots | H2-2 or H2-8 — naturally relevant to colour choices around veins | cluster-spoke |
+| best nail shape for mature hands | /blog/nails-for-older-women/best-nail-shape-for-mature-hands | H2-7 (finish section) — shape and finish are raised together for mature hands | cluster-spoke |
+| how skin undertone affects which nail colours look best at every age | https://mirelleinspo.com/blog/skin-tone/nail-colors-that-look-good-on-every-skin-tone | H2-1 or H2-2 — when undertone matching is first introduced | cross-site |
+
+**Total internal links: 5 — within 4–6 cap.**
+
+---
+
+## SECTION 12 — VOICE AND TONE
+
+**Recommended voice:** Warm Expert
+
+**Tone characteristics:**
+- Confident but never dismissive — this reader doesn't want to be told what to do, she wants to understand why
+- Conversational authority — uses "here's the thing" and similar constructions, not cold listicle tone
+- Specific not vague — every claim supported by logic or named manicurist/source signal
+- Treats 60 as a starting point, not a limitation
+- British English throughout (colour, recognise, -ise spellings)
+
+**Language style:** Medium-short sentences. Uses "you" directly throughout. Analogies welcome (e.g. "think of finish as makeup primer for your nails"). No hedging. Avoids "ladies" — use "women" always.
+
+**Audience match:** This reader has decades of style experience. She doesn't need to be told basics. She needs clarity and the *specific* answer. A tone that respects her intelligence while being warm enough to feel like a helpful friend.
+
+---
+
+## SECTION 13 — EXTERNAL LINKS
+
+| URL | Context | Anchor suggestion |
+|---|---|---|
+| https://parade.com/shopping/best-nail-colors-for-women-over-60 | Celebrity manicurist recommendations section — reference when citing expert picks | manicurist-recommended nail shades for women over 60 |
+| https://glazeme.com.au/blogs/nail-polish-guide/best-nail-colors-for-mature-hands-complete-anti-aging-guide-2026 | Skin science section — when explaining why certain shades age or flatter mature skin | dermatologist-backed guide to nail colours for mature hands |
+| https://purespadirect.com/blogs/pure-spa-direct-blog/what-nail-trends-are-good-for-over-60-expert-tips-on-colors-shapes-and-styles | Shape and finish section — professional nail salon perspective on older clients | nail expert tips for women over 60 |
+
+---
+
+## SECTION 14 — EXECUTION PLAN
+
+**Blog Gen Agent reads this section FIRST. Lock all values. Execute exactly.**
+
+---
+
+### BLOCK 1 — KEYWORD EXECUTION
+
+- **Primary keyword:** nail colors for women over 60
+- **Top 3 density baseline:** Parade ~12 mentions, Glazeme ~15 mentions, Journee ~10 mentions → average = 12
+- **Total mention target:** 12 + 3 = **15 mentions total** (hard target)
+- **First 100 words plan:**
+  - Mention 1: sentence 2–3 of introduction — name the post topic directly as "nail colors for women over 60"
+  - Mention 2: sentence 4–6 of introduction — use in the promise statement ("the right nail colors for women over 60 change everything")
+- **First half target:** 9 mentions in first 1,100 words (run denser)
+- **Second half target:** 6 mentions in final 1,100 words
+- **Strong tag rule:** EVERY mention of "nail colors for women over 60" wrapped in `<strong>` tags. Zero misses. Scan after every paragraph.
+- **Keywords to avoid active:** full list from Section 3 — never used as focus terms
+
+---
+
+### BLOCK 2 — WORD BUDGET
+
+| Section | Budget | Complexity |
+|---|---|---|
+| Introduction | 230 words | Medium |
+| H2-1: What Actually Makes a Nail Colour Flattering After 60? | 280 words | High |
+| H2-2: Best Nude and Beige Nail Colours | 250 words | Medium |
+| H2-3: Best Pink Nail Colours | 220 words | Medium |
+| H2-4: Classic Red Nails After 60 | 220 words | Medium |
+| H2-5: Mauve and Berry Shades | 200 words | Low |
+| H2-6: Are Dark Nail Colours Too Harsh? | 200 words | Medium |
+| H2-7: What Nail Polish Finish Works Best? | 220 words | High |
+| H2-8: Colours to Avoid | 220 words | Medium |
+| Conclusion | 160 words | Low |
+| **Total** | **2,200 words** | |
+
+**Tracking rule:** Track running word total at end of every H2. If over budget — cut before moving on. Do not compensate later.
+
+---
+
+### BLOCK 3 — IMAGE PLAN
+
+- **Total images:** 9
+- **Hero image:** frontmatter only — NEVER in body
+- **Body images:** 8
+
+| Image # | Place after | Section context |
+|---|---|---|
+| 1 | H2-2 (Nudes and Beiges) | Warm beige-pink nude on short rounded nails — polished, elegant |
+| 2 | H2-3 (Pinks) | Soft rose pink or milky sheer pink on mature hands |
+| 3 | H2-4 (Reds) | Classic medium red — not neon, not dark burgundy — on short nails |
+| 4 | H2-5 (Mauves and Berries) | Sheer berry or medium mauve — sophisticated, wearable |
+| 5 | H2-6 (Dark Colours) | Deep plum or warm burgundy — example of done-right dark for 60+ |
+| 6 | H2-7 (Finish) | Glossy finish close-up — light reflection on mature hand |
+| 7 | H2-8 (Colours to Avoid) | Example of what washes out or ages — stark white or chalky pastel |
+| 8 | Conclusion | Polished, well-groomed hand — any of the recommended shades |
+
+- **Image type rule:** ALL body images = inspirational nail photos. NO infographics. NO process diagrams.
+- **Path rule:** `/images/blog/nails-for-older-women/nail-colors-for-women-over-60/filename.webp`
+
+---
+
+### BLOCK 4 — OPENING TECHNIQUE ASSIGNMENTS
+
+| Section | Technique |
+|---|---|
+| Introduction | Technique 2 — The Scene (drop reader into the specific moment of realising a colour looks wrong) |
+| H2-1 | Technique 4 — The Question (direct voice-search style question as opener) |
+| H2-2 | Technique 1 — The Claim (confident opening statement about nudes) |
+| H2-3 | Technique 3 — The Reframe (pinks aren't just safe — they're strategic) |
+| H2-4 | Technique 2 — The Scene (the specific red mistake that ages hands) |
+| H2-5 | Technique 1 — The Claim |
+| H2-6 | Technique 4 — The Question |
+| H2-7 | Technique 3 — The Reframe (finish matters as much as colour) |
+| H2-8 | Technique 1 — The Claim |
+| Conclusion | Technique 1 — The Claim |
+
+**Rule:** No two consecutive sections use the same technique. Conclusion = Technique 1 ✅
+**Banned opener rule:** Check every opener against banned_opening_approaches in blog gen prompt before writing the second sentence.
+
+---
+
+### BLOCK 5 — LINK PLACEMENTS
+
+| Anchor text | Full URL | Place in section | Context |
+|---|---|---|---|
+| nails for older women | /blog/nails-for-older-women/nails-for-older-women | H2-1 | Naturally references the pillar when first giving broader category context |
+| nail colors for mature hands | /blog/nails-for-older-women/nail-colors-for-mature-hands | H2-2 | When discussing the skin-condition framing alongside nude shades |
+| nail polish to hide veins on hands | /blog/nails-for-older-women/nail-polish-to-hide-veins-and-age-spots | H2-8 | When addressing veins in the colours-to-avoid section |
+| best nail shape for mature hands | /blog/nails-for-older-women/best-nail-shape-for-mature-hands | H2-7 | When noting that shape and finish work together for mature hands |
+| how skin undertone affects which nail colours look best at every age | https://mirelleinspo.com/blog/skin-tone/nail-colors-that-look-good-on-every-skin-tone | H2-1 | When first introducing undertone as the key decision factor |
+
+---
+
+### BLOCK 6 — AEO AND GEO PLAN
+
+**AEO assignments:**
+
+| AEO term | Assigned to | Execution |
+|---|---|---|
+| What actually makes a nail colour flattering after 60? | H2-1 | Direct 2–3 sentence answer immediately after the heading: undertone match + finish that reflects light + avoiding harsh contrast |
+| What nail polish finish works best on mature hands? | H2-7 | Direct answer paragraph: gloss reflects light and softens texture; matte absorbs light and emphasises it |
+| Should women over 60 avoid dark nail polish? | H2-6 | Direct answer: not all dark shades — depth vs. darkness; warm plums and deep berries are fine; stark black or blue-based darks are the issue |
+| What nail colors hide veins on hands? | H2-8 | Direct answer: warm nudes, sheer pinks, and medium tones camouflage best; cool dark shades draw the eye to veins |
+| Can women over 60 wear red nail polish? | H2-4 | Direct answer: yes — with the right undertone red. Warm-based reds work; blue-based reds highlight veins |
+
+**GEO entity statements:**
+
+| Entity | Assigned to | Execution |
+|---|---|---|
+| Creamy finish | H2-7 | Clear definition: "A creamy finish is an opaque, non-glitter polish with a smooth, high-shine surface. On mature hands, it creates an even, light-reflective surface that minimises texture." |
+| Sheer formula | H2-2 | Clear definition: "A sheer formula is semi-translucent — it lets the natural nail show through while adding a wash of colour. On hands over 60, sheer formulas create a 'your nails but better' effect without harsh contrast." |
+| Warm undertone red | H2-4 | Clear definition: "A warm undertone red has orange or coral base notes — think tomato red or poppy red. It is distinct from blue-based reds like burgundy or wine, which lean cooler." |
+
+---
+
+### BLOCK 7 — ACTIVE CONSTRAINTS
+
+- **Em dash banned:** Long em dash does not appear anywhere. Replace with: comma / new sentence / parentheses / but / restructure.
+- **Banned vocab watch** (most likely to slip for this specific topic): amazing · stunning · timeless · effortlessly · game-changer · secret · transform · empower · ageless · defy
+- **British English active:** colour, recognise, -ise, -our — every instance, no exceptions
+- **Keyword density reminder:** After every 2 H2 sections — count current "nail colors for women over 60" mentions. Verify running total is on track toward 15. First half must run denser. Adjust if needed.
+- **Image path reminder:** `/images/blog/nails-for-older-women/nail-colors-for-women-over-60/filename.webp` — topic_slug in path always
+- **Internal link URL reminder:** Full correct paths only. Cluster links = /blog/nails-for-older-women/[slug]. Cross-site links = exact discovered URL. Never bare /slug.
+- **Hero image reminder:** Hero = frontmatter only. Never place in body.
+- **Strong tag reminder:** Every "nail colors for women over 60" mention = `<strong>` tags. Scan after every paragraph.
