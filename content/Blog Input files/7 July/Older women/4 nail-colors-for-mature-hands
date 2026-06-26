@@ -1,0 +1,511 @@
+# INPUT FILE — BLOG GEN AGENT
+## CLUSTER MODE — cluster context loaded
+
+---
+
+## SECTION 1 — FILE AUTHORITY
+
+THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.
+
+---
+
+## SECTION 2 — POST CONSTANTS
+
+> **READ THIS SECTION FIRST. Lock every value. Execute exactly. Do not recalculate.**
+
+| Field | Value |
+|---|---|
+| slug | `nail-colors-for-mature-hands` |
+| topic_slug | `nails-for-older-women` |
+| canonical | `https://mirelleinspo.com/blog/nails-for-older-women/nail-colors-for-mature-hands` |
+| post_type | spoke |
+| intent | informational |
+| word_count | **2400** (±50 words tolerance — never exceed) |
+| image_count | **9** (hero + 8 body images) |
+| template | split-left |
+| hero_dimensions | 800×800 |
+| category | Nails for Older Women |
+| publish_date | 2026-07-05 |
+| author | Mirellé Team |
+
+---
+
+## SECTION 3 — CLUSTER SNAPSHOT
+
+| Field | Value |
+|---|---|
+| pillar_slug | `nails-for-older-women` |
+| pillar_title | Best Nail Colors for Women Over 50 |
+| pillar_primary_keyword | nails for older women |
+| this_post_slug | `nail-colors-for-mature-hands` |
+| this_post_role | spoke |
+
+**Keywords to avoid (hard wall — never use as focus terms):**
+nails for older women · nail colors for women over 60 · nail colors for women over 40 · nail colors that age your hands · nail trends for women over 50 2026 · best nail shape for mature hands · nail shapes that make fingers look longer · brittle nails after 50 · nail care routine for mature hands · elegant nail art for mature hands · french manicure for women over 50 · gel nails vs acrylic for mature hands · nail color for skin tone over 50 · nail ridges after 50 · nail polish to hide veins on hands · nail colors to make hands look younger
+
+---
+
+## SECTION 4 — SERP ANALYSIS
+
+**Blog Gen Instruction:** Use competitor gaps and missing semantic territory to fill what competitors miss. Our strategic approach is the angle for the introduction and conclusion.
+
+**Top 3 ranking posts estimated word counts:**
+- Glazeme.com "Best Nail Colors for Mature Hands: Complete Anti-Aging Guide 2026" — ~2800 words
+- StyleCraze "15 Best Nail Polish Colors For Older Hands" — ~2200 words
+- 40PlusStyle "How to choose the right nail color and avoid Old Lady hands" — ~1800 words
+- **Average: ~2267 words → word count floor set at 2400 (within 2800 spoke ceiling)**
+
+**Top 3 keyword density baseline:** ~11 mentions of "nail colors for mature hands" (or close variants) across top 3 posts. **Total mention target: 13.**
+
+**Competitor gaps (demand-validated on 2+ sources):**
+- None explain the *why* behind finish choice (creamy vs matte vs glitter) in a genuinely accessible, non-clinical way — they list rules without the reasoning (confirmed: Quora + Pinterest + 40PlusStyle forum comments)
+- No competitor addresses the skin-tone-within-mature-hands intersection at depth — they say "match your undertone" without showing how this works specifically as skin changes with age (confirmed: Glazeme gaps + StyleCraze + Quora audience questions)
+- No post addresses what to do when your go-to colour suddenly stops working — the "my nude stopped looking right" frustration specific to mature skin changes (confirmed: 40PlusStyle forum + Quora)
+- Competitors give colour lists without prioritisation — readers can't tell what to try first (confirmed: multiple Quora questions + Pinterest saves on "where to start" type content)
+- No competitor addresses finish degradation on mature nails specifically — why matte ages hands, why chunky glitter settles into skin texture (confirmed: Glazeme mentions it briefly but doesn't explain the mechanism; Quora audiences ask about this)
+
+**Missing semantic territory:**
+- The "optical illusion" mechanism of colour and finish — why certain shades draw the eye to the nail rather than the skin
+- Warm undertone ageing shift — how skin undertones read differently as skin thins and yellows with age
+- Finish as a factor separate from colour — most posts collapse finish into colour advice
+- The "one universal rule" angle — readers want a clear starting point, not 15 equal options
+
+**Our strategic approach:** This post takes an explanatory-first approach — for each recommendation, it gives the reason *why* it works on mature skin specifically, not just what to wear. It frames the topic around the optical logic behind colour and finish choices, giving readers a reusable decision framework rather than a list to memorise. It also addresses the common frustration of colours that used to look right no longer working, validating the reader's experience before solving it.
+
+**Image count validation:** Top ranking posts use 5–12 images. 9 images (hero + 8 body) is appropriate and aligns with SERP visual pattern for this intent type.
+
+---
+
+## SECTION 5 — AUDIENCE INTELLIGENCE
+
+**Blog Gen Instruction:** This is your primary creative brief. Every paragraph written for this specific person with this specific intent. Satisfy them completely.
+
+**Who they are:**
+Women aged 45–65, primarily post-40 and often post-50. Not beauty novices — they have been wearing nail polish for decades. The frustration is not with nails generally but with the fact that shades and styles they wore confidently in their 30s and 40s are no longer working as well. They notice the difference but haven't been given a framework for understanding why. Many describe themselves as "not into beauty blogs" but actively search this question. Equal mix of home-manicure and salon clients. Searching with genuine curiosity, not vanity anxiety — they want to look polished and intentional, not necessarily younger.
+
+**What they want from this post:**
+- A clear explanation of *why* certain colours and finishes work (not just a list)
+- Practical starting points — where to begin if overwhelmed by options
+- Validation that their instincts (something feels off about a colour they used to love) are correct
+- Specific colour families they can look for in stores without needing brand names
+- Finish guidance they've never been given clearly
+
+**What frustrates them about current content:**
+- Lists of 15 shades with no priority order — they don't know where to start
+- Advice that works for young skin repackaged with an "over 50" label
+- Patronising tone that implies they should only wear neutrals
+- Clinical language without practical application
+- No explanation of the "why" — just rules without reasoning
+
+**Top 5 pain points (informational intent, primary keyword specific):**
+1. "My nude stopped looking right on my hands — it used to look so elegant and now it looks dull or slightly off"
+2. "Dark colours make my hands look older but I love deep shades — what can I actually wear?"
+3. "I don't know if matte is ageing or not — I keep getting conflicting advice"
+4. "Every guide tells me to wear nudes and pinks — I want to know what actually works on MY skin tone as it is now"
+5. "Glitter and shimmer — where's the line between elegant and making things worse?"
+
+**Exact user phrases (from real conversations):**
+- "what nail color makes mature hands look younger"
+- "nail polish colors for older hands"
+- "what color nails look good on aging hands"
+- "does dark nail polish make hands look older"
+- "best nail color for wrinkled hands"
+- "what nail color hides veins"
+- "my nude polish looks grey on my hands now"
+- "can women over 50 wear dark nail polish"
+- "nail colors that draw attention away from veins"
+- "flattering nail polish for hands with age spots"
+
+**Intent content signals:**
+- They want explanation, not prescription — answer the "why" before the "what"
+- Medium depth preferred — thorough but not clinical
+- Real-world framing: "hold the bottle next to your wrist" type of practical direction
+- They respond to expert validation (manicurist quotes, dermatologist perspective)
+- British English, warm tone — not condescending, not trend-obsessed
+- They want permission to wear colours they actually like, with caveats they can apply themselves
+- Comparison logic helps (X does this, Y does that, here's when to choose each)
+
+---
+
+## SECTION 6 — SEMANTIC KEYWORD DATA
+
+**Blog Gen Instruction:** Primary keyword in `<strong>` tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.
+
+**Primary keyword:** `nail colors for mature hands`
+
+**Keyword variations (all cannibalization-cleared):**
+- nail polish colors for mature hands
+- best nail colors for mature hands
+- flattering nail colors for mature hands
+- nail colour for mature hands (British English variant)
+- nail polish for aging hands
+- nail colors for older hands
+- manicure colors for mature hands
+- nail shades for mature hands
+- polish colors for ageing hands
+- anti-aging nail colors
+
+**Cluster keywords (cleared — none drift into reserved posts):**
+- mature skin nail colour
+- nail finish for older hands
+- creamy nail finish
+- optical illusion nail colour
+- warm undertone nails
+- cool undertone nails mature
+- nail colour and skin tone ageing
+- sheer nail polish older women
+- vein-minimising nail colour
+- age spot flattering nail polish
+- matte vs glossy mature nails
+- nail colour undertone shift with age
+- classic red nails mature women
+- coral nails older hands
+- nude nail polish mature skin
+
+**LSI terms (specific to this keyword, cleared):**
+- crepey skin nail polish
+- age spots on hands nail colour
+- hand veins nail colour
+- skin discolouration nails
+- nail polish finish mature skin
+- creamy polish finish
+- sheer formula nails
+- warm beige nails
+- rose pink nails older women
+- medium mauve flattering
+- champagne shimmer nails
+- glitter settles into skin texture
+- matte finish ageing effect
+- high gloss nail highlights wrinkles
+- nail polish optical illusion
+- skin-matching nude nails
+- colour contrast ageing hands
+- nail polish yellowing skin
+- burgundy nails mature hands
+- coral peach nails anti-ageing
+
+**AEO terms (full question phrases for AI answer engines):**
+- What nail colors look best on mature hands?
+- Do dark nail colors make older hands look older?
+- What is the most flattering nail colour for aging skin?
+- Should women over 50 wear matte or glossy nail polish?
+- What nail polish finish is best for mature hands?
+- What nail colors hide veins on older hands?
+- Can mature women wear dark nail polish?
+- What colour nails make hands look younger?
+- Is shimmer nail polish flattering on older hands?
+- What is the best nude nail colour for mature skin?
+- Why does my usual nail colour look different now I'm older?
+- What finish should I avoid on mature nails?
+
+**Technical terms:**
+- undertone (warm/cool/neutral)
+- creamy finish (creme formula)
+- sheer formula
+- satin finish
+- melanin distribution
+- age-related skin thinning
+- optical contrast
+- nail bed colour
+
+**User language (from real conversations):**
+- "hands look older than they are"
+- "drawing attention to veins"
+- "used to love this colour, now it looks wrong"
+- "nothing seems to flatter anymore"
+- "don't want to look like I'm trying too hard"
+- "want to look polished, not ageless"
+- "my nails just disappear into my skin now"
+- "dark colours make my knuckles stand out"
+- "go-to nude isn't working"
+- "feel confident and put-together"
+
+---
+
+## SECTION 7 — VOICE AND AI QUERIES
+
+**Blog Gen Instruction:** Answer every query directly in the relevant H2 section body. If a query cannot be addressed naturally in the body, route it to faqItems. No query left unanswered.
+
+**Queries (12–18 conversational, full-sentence):**
+
+1. What nail colors look best on mature hands?
+2. What nail polish colors make aging hands look younger?
+3. Should women over 50 wear matte or glossy nail polish on their nails?
+4. Do dark nail polishes make older hands look older?
+5. What nail color is most flattering for hands with visible veins?
+6. What is the best finish for nail polish on mature skin?
+7. Can women with mature hands wear bold or dark nail colors?
+8. Why does my go-to nude nail color look different on my hands now?
+9. What nail colors draw attention away from age spots?
+10. Is shimmer or glitter nail polish flattering on older hands?
+11. What is the best nude nail color for aging skin?
+12. What colors should older women avoid on their nails?
+13. Does the finish of nail polish matter more than the color for mature hands?
+14. How do I choose a nail color that flatters my skin tone as it changes with age?
+15. What nail polish colors make hands look more slender and elongated?
+16. Are there nail colors that are universally flattering for mature hands?
+
+---
+
+## SECTION 8 — HOOK AND CTR
+
+**Blog Gen Instruction:** READ THIS SECTION BEFORE WRITING THE TITLE, META DESCRIPTION, INTRO, OR FIRST H2. The title and description are hardcoded here — use them exactly. The intro hook brief and first H2 hook direction are your creative brief for those specific elements. Do not deviate.
+
+**Selected trigger:** Trigger 1 — Curiosity Gap
+
+**Trigger rationale:** This reader suspects their instincts are right — that something has changed and the rules they knew no longer apply. The curiosity gap ("what most guides get wrong") validates that feeling and promises a real explanation rather than another list.
+
+**Title:** `Nail Colors for Mature Hands: What Actually Flatters`
+
+**Title char count:** 53 characters ✓ (within 55–60 hard cap)
+
+**Meta description:** `Most nail guides give you a list. This one explains why certain colours and finishes flatter mature hands — and which ones work against you.`
+
+**Meta char count:** 141 characters ✓ (within 120–155 hard cap)
+
+**Intro hook brief:** Open by validating the reader's experience — the feeling that shades they've worn for years have stopped working, without being told why. Frame this as a colour and finish logic problem that has a clear explanation, not a matter of age or taste. The hook is: you're not wrong, the rules have changed, and here's why.
+
+**First H2 hook direction:** Frame the first H2 as the mechanism question — why skin changes how colour reads. Phrase it as a real audience question to capture voice search. Example direction: "Why Does Nail Colour Look Different on Mature Skin?" — grounds the post in explanation before moving to recommendations.
+
+---
+
+## SECTION 9 — SEARCH JOURNEY
+
+**Blog Gen Instruction:** This is the emotional contract with the reader. Every section of the post must honour the promise made. Read this before writing any section. If a paragraph breaks the journey arc — rewrite it.
+
+**Reader arrival state:** Slightly frustrated, pragmatic — she has tried nail colour advice before and found it either too generic or too restrictive. She wants to understand, not just be told what to do.
+
+**Journey arc:**
+1. **Validate** — confirm her experience that something has changed, and that it's explainable
+2. **Explain** — give her the mechanism: why skin changes how colour reads, why finish matters as much as colour
+3. **Recommend** — move from principle to specific colour families, each with a clear reason
+4. **Clarify** — tackle the dark-colour debate honestly; answer what she's actually worried about
+5. **Empower** — give her a decision framework she can use in the aisle or at the salon, without needing to remember a list
+
+**Promise to deliver:** Every section must honour the implicit promise: you'll leave understanding *why* these colours and finishes work, not just memorising a list.
+
+**Exit state:** She feels equipped — not restricted. She understands the logic well enough to apply it to any bottle she picks up.
+
+---
+
+## SECTION 10 — CONTENT STRUCTURE
+
+**Blog Gen Instruction:** This H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s without user instruction. Word budget per section is set — follow it. H3s may be added at editorial discretion.
+
+**H1:** Nail Colors for Mature Hands: What Actually Flatters (and Why)
+
+**H2 Structure (ordered):**
+
+1. Why Does Nail Colour Look Different on Mature Skin?
+2. The Finish Question Nobody Talks About
+3. Colour Families That Flatter Mature Hands
+4. The Nude Problem — and How to Fix It
+5. Can Mature Hands Wear Dark Nail Polish?
+6. What About Shimmer and Glitter?
+7. Colours to Approach with Caution
+8. How to Choose at the Salon or in the Aisle
+
+**Word budget:**
+
+| Section | Budget |
+|---|---|
+| Introduction | 220 words |
+| H2-1: Why Does Nail Colour Look Different on Mature Skin? | 280 words |
+| H2-2: The Finish Question Nobody Talks About | 280 words |
+| H2-3: Colour Families That Flatter Mature Hands | 340 words |
+| H2-4: The Nude Problem — and How to Fix It | 260 words |
+| H2-5: Can Mature Hands Wear Dark Nail Polish? | 240 words |
+| H2-6: What About Shimmer and Glitter? | 200 words |
+| H2-7: Colours to Approach with Caution | 200 words |
+| H2-8: How to Choose at the Salon or in the Aisle | 200 words |
+| Conclusion | 180 words |
+| **Total** | **2400 words** |
+
+---
+
+## SECTION 11 — INTERNAL LINKS
+
+**Blog Gen Instruction:** Every link below must appear in the post. Cluster links use anchor texts verbatim — do not rewrite. Cross-site links use the provided descriptive anchor. Place each link where the placement note says — woven naturally into prose, never as a standalone CTA. Total internal links must not exceed 6.
+
+| # | URL / Slug | Title | Anchor Text | Placement Note | Type |
+|---|---|---|---|---|---|
+| 1 | `/blog/nails-for-older-women/nails-for-older-women` | Best Nail Colors for Women Over 50 | nails for older women | H2-3 (Colour Families) — natural mention when broadening to the full colour range | cluster-pillar |
+| 2 | `/blog/nails-for-older-women/nail-colors-for-women-over-60` | Nail Colors for Women Over 60 | nail colors for women over 60 | H2-3 (Colour Families) — when noting that deeper skin tones in the 60+ range have different starting points | cluster-spoke |
+| 3 | `/blog/nails-for-older-women/nail-polish-to-hide-veins-and-age-spots` | How to Hide Veins and Age Spots with Nail Polish | nail polish to hide veins on hands | H2-7 (Colours to Approach with Caution) — natural link when discussing vein-highlighting shades | cluster-spoke |
+| 4 | `/blog/nails-for-older-women/nail-color-for-skin-tone-over-50` | Best Nail Color for Your Skin Tone Over 50 | nail color for skin tone over 50 | H2-8 (How to Choose) — when directing reader to undertone matching in depth | cluster-spoke |
+| 5 | `/blog/skin-tone/nail-colors-for-every-skin-tone` | Nail Colors for Every Skin Tone | the full guide to nail colours by skin tone and undertone | H2-1 (Why Nail Colour Looks Different) — natural cross-site link when explaining undertone mechanism | cross-site |
+| 6 | `/blog/nails-for-older-women/elegant-nail-art-for-mature-hands` | Elegant Nail Art for Mature Hands | elegant nail art for mature hands | Conclusion — forward link for readers who want to go beyond colour into nail art | cluster-spoke |
+
+---
+
+## SECTION 12 — VOICE AND TONE
+
+**Blog Gen Instruction:** This is the voice for this specific post. Layer on top of Mirellé editorial framework. Do not default to generic AI tone.
+
+**Recommended voice:** Warm expert — knowledgeable without being clinical, experienced without being prescriptive.
+
+**Tone characteristics:**
+- Explanatory first — always give the reason before the rule
+- Validating without patronising — acknowledge the frustration without amplifying it
+- Direct and specific — avoid "it depends" without a resolution; always land on an answer
+- Conversational but considered — write like a manicurist who actually explains things, not a beauty blogger recycling tips
+- Never restrictive — frame everything as tools for choice, not rules that limit
+
+**Language style:** Medium-length sentences. Active voice throughout. Use "you" and "your" naturally. Avoid hedging language ("some might say," "it could be argued"). When comparing options, resolve the comparison — don't leave the reader in the middle. British English: colour, recognise, flatter, -ise endings.
+
+**Audience match:** This reader is experienced, not a beginner. She doesn't need explanation of what "undertone" means in broad terms — but she does need explanation of how undertone *shifts* with age, which is a subtler point most posts miss. Respect her intelligence while filling the gap.
+
+---
+
+## SECTION 13 — EXTERNAL LINKS
+
+**Blog Gen Instruction:** Include all external links where indicated. Supports E-E-A-T. Use anchor suggestion as guide — write naturally around it.
+
+| URL | Context | Anchor suggestion |
+|---|---|---|
+| `https://glazeme.com.au/blogs/nail-polish-guide/best-nail-colors-for-mature-hands-complete-anti-aging-guide-2026` | H2-1 — when referencing dermatologist-backed view on how skin yellows with age affecting colour choice | dermatologist anti-aging nail colour research |
+| `https://www.glam.com/1669841/nail-colors-avoid-older-hands/` | H2-7 — when citing celebrity manicurist Vanessa Sanchez McCullough's expert input on colours to avoid | celebrity manicurist guidance on nail colours and ageing hands |
+| `https://drdananails.com/blogs/on-the-nail/spring-2026-nail-trends-that-actually-work-after-40` | H2-3 or H2-8 — when referencing Dr Dana's insight on condition-first approach and cashmere nude warmth | Dr Dana's nail health guidance for women over 40 |
+
+---
+
+## SECTION 14 — EXECUTION PLAN
+
+> **Blog Gen Agent reads this section FIRST. Lock every value. Execute exactly. Do not recalculate.**
+
+---
+
+### BLOCK 1 — KEYWORD EXECUTION
+
+| Field | Value |
+|---|---|
+| Primary keyword | `nail colors for mature hands` |
+| Top 3 density baseline | 11 mentions (average across Glazeme ~14, StyleCraze ~11, 40PlusStyle ~8) |
+| **Total mention target** | **13 mentions** (baseline + 2) |
+| First 100 words rule | Primary keyword MUST appear TWICE in the first 100 words |
+| Mention 1 | Sentence 2–3 of introduction — the opening validation statement names the exact problem: finding **nail colors for mature hands** that actually work |
+| Mention 2 | Sentence 5–6 of introduction — the promise statement: this post explains why certain **nail colors for mature hands** flatter and others don't |
+| First half target | 8 mentions — first 1200 words. Run denser in first half. |
+| Second half target | 5 mentions — second 1200 words |
+| Strong tag rule | EVERY single mention of `nail colors for mature hands` — all 13 of them — wrapped in `<strong>` tags. No exceptions. Scan after every paragraph. |
+| Keywords to avoid active | See Section 3 — full list. Never used as focus terms anywhere in the post. |
+
+---
+
+### BLOCK 2 — WORD BUDGET
+
+**Total target: 2400 words ±50. Never exceed.**
+
+| Section | Budget | Complexity |
+|---|---|---|
+| Introduction | 220 words | medium |
+| H2-1: Why Does Nail Colour Look Different on Mature Skin? | 280 words | high |
+| H2-2: The Finish Question Nobody Talks About | 280 words | high |
+| H2-3: Colour Families That Flatter Mature Hands | 340 words | medium |
+| H2-4: The Nude Problem — and How to Fix It | 260 words | medium |
+| H2-5: Can Mature Hands Wear Dark Nail Polish? | 240 words | medium |
+| H2-6: What About Shimmer and Glitter? | 200 words | low |
+| H2-7: Colours to Approach with Caution | 200 words | low |
+| H2-8: How to Choose at the Salon or in the Aisle | 200 words | medium |
+| Conclusion | 180 words | low |
+| **Total** | **2400 words** | |
+
+**Tracking rule:** Track running word total at end of every H2. If over budget — cut before moving to next section. Do not compensate later.
+
+---
+
+### BLOCK 3 — IMAGE PLAN
+
+**Total images: 9. Hero = frontmatter only. Body images: 8.**
+
+| Image # | Place after | Section context |
+|---|---|---|
+| Hero | Frontmatter only — NEVER in post body | Flattering manicure on mature hands — soft rose pink or warm nude |
+| 1 | Introduction | Elegant hands showing a creamy warm-toned manicure — close-up |
+| 2 | H2-1: Why Does Nail Colour Look Different | Split visual — two mature hands showing how the same shade reads differently on different skin depths |
+| 3 | H2-2: The Finish Question | Mature hands showing glossy vs matte finish contrast side-by-side |
+| 4 | H2-3: Colour Families That Flatter | Mature hands with soft rose pink or warm coral — flattering example |
+| 5 | H2-4: The Nude Problem | Close-up of mature hands with well-matched warm nude that reads elegantly |
+| 6 | H2-5: Can Mature Hands Wear Dark Polish? | Mature hands wearing a classic medium burgundy or deep red — showing it can work |
+| 7 | H2-6: Shimmer and Glitter | Mature hands with a subtle satin or fine shimmer — sophisticated not juvenile |
+| 8 | H2-7: Colours to Approach with Caution | Mature hands with a neutral contextual image — well-lit, focused on hand texture |
+| 9 | H2-8: How to Choose | Mature hands at a salon or with bottles — choosing a colour |
+
+**Image type rule:** ALL body images = inspirational nail design images related to the topic. NO infographics. NO process diagrams. NO comparison charts. NO step-by-step visuals.
+
+**Path rule:** `/images/blog/nails-for-older-women/nail-colors-for-mature-hands/filename.webp` — topic_slug in path, slug folder, leading slash.
+
+---
+
+### BLOCK 4 — OPENING TECHNIQUE ASSIGNMENTS
+
+**Rule:** No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.
+
+| Section | Technique |
+|---|---|
+| Introduction | Technique 2 — The Scene (set the familiar frustration in one specific moment) |
+| H2-1: Why Does Nail Colour Look Different | Technique 4 — The Question (open with the question the reader is already asking) |
+| H2-2: The Finish Question | Technique 1 — The Claim (direct declarative statement the reader hasn't heard stated this clearly) |
+| H2-3: Colour Families That Flatter | Technique 3 — The Reframe (reframe from "what to wear" to "why these work") |
+| H2-4: The Nude Problem | Technique 2 — The Scene (the specific moment: picking up a nude that used to look right) |
+| H2-5: Can Mature Hands Wear Dark Polish? | Technique 1 — The Claim (direct yes/no answer upfront — do not hedge) |
+| H2-6: Shimmer and Glitter | Technique 4 — The Question |
+| H2-7: Colours to Approach with Caution | Technique 3 — The Reframe |
+| H2-8: How to Choose | Technique 1 — The Claim |
+| Conclusion | Technique 3 — The Reframe |
+
+**Banned opener rule:** Check every opener against banned_opening_approaches in blog gen prompt before writing the second sentence.
+
+---
+
+### BLOCK 5 — LINK PLACEMENTS
+
+**Rule:** Every link placed exactly where specified. Anchor texts used verbatim — never rewritten. Links woven into prose naturally — never standalone CTAs.
+
+| Anchor text | Full URL | Place in section | Placement context | Type |
+|---|---|---|---|---|
+| nails for older women | `/blog/nails-for-older-women/nails-for-older-women` | H2-3: Colour Families That Flatter | When noting that the broader colour palette across all age groups is covered in the cluster hub — natural forward reference | cluster-pillar |
+| nail colors for women over 60 | `/blog/nails-for-older-women/nail-colors-for-women-over-60` | H2-3: Colour Families That Flatter | When acknowledging that deeper skin changes at 60+ shift the starting point slightly | cluster-spoke |
+| nail polish to hide veins on hands | `/blog/nails-for-older-women/nail-polish-to-hide-veins-and-age-spots` | H2-7: Colours to Approach with Caution | When discussing how certain shades highlight veins — natural handoff to the dedicated post | cluster-spoke |
+| nail color for skin tone over 50 | `/blog/nails-for-older-women/nail-color-for-skin-tone-over-50` | H2-8: How to Choose | When directing reader to undertone-matching depth — a natural "go further here" moment | cluster-spoke |
+| the full guide to nail colours by skin tone and undertone | `https://mirelleinspo.com/blog/skin-tone/nail-colors-for-every-skin-tone` | H2-1: Why Does Nail Colour Look Different | When introducing the undertone concept and noting that a full undertone framework exists | cross-site |
+| elegant nail art for mature hands | `/blog/nails-for-older-women/elegant-nail-art-for-mature-hands` | Conclusion | Natural forward link for readers who want to go beyond colour into nail art choices | cluster-spoke |
+
+---
+
+### BLOCK 6 — AEO / GEO PLAN
+
+**AEO assignments — write a direct 2–3 sentence answer paragraph IMMEDIATELY after the H2 heading, before any elaboration:**
+
+| AEO term | Assigned to section | Execution |
+|---|---|---|
+| What nail colors look best on mature hands? | H2-3: Colour Families That Flatter | Direct 2–3 sentence answer: warm nudes, soft rose pinks, corals, and classic reds in creamy finishes are the most universally flattering for mature hands. Follow immediately with the expanded reasoning. |
+| Should women over 50 wear matte or glossy nail polish? | H2-2: The Finish Question | Direct answer: creamy/glossy finishes are more flattering on mature hands than matte, which emphasises dryness and texture. Then explain the mechanism. |
+| Do dark nail polishes make older hands look older? | H2-5: Can Mature Hands Wear Dark Polish? | Direct answer: not necessarily — the right dark shade in the right depth can be worn beautifully. What matters is undertone match and finish, not darkness alone. |
+| Is shimmer nail polish flattering on older hands? | H2-6: What About Shimmer and Glitter? | Direct answer: fine shimmer and satin finishes are flattering; chunky glitter and holographic finishes are not. |
+| What nail colors draw attention away from age spots? | H2-7: Colours to Approach with Caution | Direct answer embedded: warm-toned shades that match or slightly contrast skin tone draw the eye to the nail rather than the skin — stark contrasts (very pale, very dark) do the opposite. |
+
+**GEO entity statements — write a clear declarative definition for each:**
+
+| Entity | Assigned to section | Execution |
+|---|---|---|
+| Creamy finish | H2-2: The Finish Question | "A creamy finish — also called a creme formula — delivers opaque, smooth colour with a soft gloss that reflects light without creating the mirror-like sheen of a high-gloss polish. On mature skin, this is the most consistently flattering finish." |
+| Optical contrast on aging skin | H2-1: Why Nail Colour Looks Different | "As skin thins with age, high-contrast nail colours — very dark against very pale skin, or very pale against discoloured skin — draw the eye to the boundary between nail and hand rather than to the nail itself. Lower-contrast choices create a unified, polished appearance." |
+| Undertone shift with age | H2-1: Why Nail Colour Looks Different | "Skin undertones do not change with age, but the way they read on the surface does. As skin thins and loses fat, cool undertones can become more visible through the skin, and warm undertones may appear slightly more yellow or dull. This is why a shade that worked at 35 can look different at 55 — the skin has moved, not the polish." |
+
+---
+
+### BLOCK 7 — ACTIVE CONSTRAINTS
+
+| Constraint | Detail |
+|---|---|
+| Em dash banned | Long em dash does not appear anywhere. Replace with: comma / new sentence / parentheses / but / restructure. |
+| Banned vocab watch | Most likely offenders for this specific post: "stunning," "gorgeous," "amazing," "timeless," "transform," "youthful glow," "anti-aging magic" — catch them as they form. |
+| British English active | colour, recognise, flatter, -ise, -our — every instance, no exceptions. |
+| Keyword density reminder | After every 2 H2 sections — count current keyword mentions. Verify running total is on track to hit 13. First half must run denser than second half. |
+| Image path reminder | `/images/blog/nails-for-older-women/nail-colors-for-mature-hands/filename.webp` — topic_slug in path always. |
+| Internal link URL reminder | Full correct paths only. Cluster links = `/blog/nails-for-older-women/[slug]`. Cross-site links = exact URL as discovered. Never bare /slug. |
+| Hero image reminder | Hero = frontmatter only. Never place hero image in body. |
+| Strong tag reminder | Every primary keyword mention = `<strong>` tags. Scan after every paragraph. |
+| No restrictive framing | Never write as if mature women should only wear neutrals. Frame every section as expanding choice, not limiting it. |
+| Informational intent hold | This is an informational post — no transactional CTAs, no product recommendations, no "shop now" language. Explain and educate only. |
