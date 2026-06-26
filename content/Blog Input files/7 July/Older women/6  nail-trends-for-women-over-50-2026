@@ -1,0 +1,509 @@
+# INPUT FILE — POST 06
+## CLUSTER MODE — cluster context loaded
+
+---
+
+## SECTION 1 — FILE AUTHORITY
+
+THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.
+
+---
+
+## SECTION 2 — POST CONSTANTS
+
+```
+slug:               nail-trends-for-women-over-50-2026
+topic_slug:         nails-for-older-women
+canonical:          https://mirelleinspo.com/blog/nails-for-older-women/nail-trends-for-women-over-50-2026
+post_type:          spoke
+intent:             seasonal_trend
+word_count:         2200
+image_count:        9
+template:           split-left
+hero_dimensions:    800x800
+category:           Nail Trends
+publish_date:       2026-06-27
+author:             Mirellé Team
+```
+
+**Word count rationale:** Top 3 ranking posts (Dressed for My Day ~1,800w, Dr. Dana ~1,600w, trendsbydesigners ~1,700w) average ~1,700 words. Floor = 1,700. Set at 2,200 — above floor, well within 2,800 spoke ceiling.
+
+**Image count rationale:** Rule 5 (everything else) — 9 images total including hero.
+
+---
+
+## SECTION 3 — CLUSTER SNAPSHOT
+
+```
+pillar_slug:              nails-for-older-women
+pillar_title:             Best Nail Colors for Women Over 50
+pillar_primary_keyword:   nails for older women
+this_post_slug:           nail-trends-for-women-over-50-2026
+this_post_role:           spoke
+```
+
+**Keywords to avoid (hard wall — never use as focus terms):**
+nails for older women | nail colors for women over 60 | nail colors for women over 40 | nail colors for mature hands | nail colors that age your hands | best nail shape for mature hands | nail shapes that make fingers look longer | brittle nails after 50 | nail care routine for mature hands | elegant nail art for mature hands | french manicure for women over 50 | gel nails vs acrylic for mature hands | nail color for skin tone over 50 | nail ridges after 50 | nail polish to hide veins on hands | nail colors to make hands look younger
+
+---
+
+## SECTION 4 — SERP ANALYSIS
+
+**blog_gen_instruction:** Use competitor gaps and missing semantic territory to fill what competitors miss. Our strategic approach is the angle for the introduction and conclusion.
+
+**Competitor gaps (demand validated on 2+ sources):**
+- None of the top 3 posts address *which specific 2026 trends to avoid* for mature hands — they list what to try but not what skips badly on older skin. Dr. Dana covers this partially but without practical substitute guidance. (Confirmed: Dr. Dana + 40PlusStyle forum)
+- None explain how to decode whether a trend suits your specific hand concerns (ridges, veins, age spots) before booking — generic editorial with no personalisation filter. (Confirmed: NewBeauty + Quora pattern of "what works for MY hands")
+- No competitor addresses the **finish/texture distinction** — why the same colour in matte vs gloss vs chrome looks completely different on mature hands. (Confirmed: women.com expert quotes + YouTube comment patterns)
+- No competitor covers the **quiet luxury overlap** — how the dominant 2026 nail aesthetic happens to align almost perfectly with what manicurists have always recommended for mature hands. (Confirmed: Dr. Dana + women.com + Marie Claire)
+
+**Missing semantic territory:**
+- Soft chrome on mature skin (neutral/pearl chrome — not bold mirror chrome)
+- Minimalist nail art vs complex nail art for mature hands in 2026
+- Shape + trend pairing (which 2026 trend works on which shape for mature hands)
+- Trend longevity — which 2026 trends will still look right in 6 months
+
+**Our strategic approach:** While every competitor lists trends, none curates them through the lens of what mature hands actually need. This post goes further: for each trend, it explains *why* it works (or doesn't) on mature hands specifically, and gives a practical decision framework so the reader knows what to ask for at the salon. The angle is "these trends were made for you, even if nobody told you that."
+
+**Top 3 word count estimates:** ~1,700 words average (floor set at this level)
+
+**Top 3 keyword density baseline:** Primary keyword appears approximately 8–10 times across top 3 posts. Baseline = 9.
+
+---
+
+## SECTION 5 — AUDIENCE INTELLIGENCE
+
+**blog_gen_instruction:** This is your primary creative brief. Every paragraph written for this specific person with this specific intent. Satisfy them completely.
+
+**Who they are:** Women 48–65, style-conscious and informed, slightly behind on current trends by design (not by ignorance). They are not anti-trend — they are selective. They have experienced feeling "talked out of" trends they liked, or have tried a trend from general content only to have it land badly on their hands. They want a trusted edit, not a full trend dump.
+
+**What they want from this post:** A confident, curated answer to "which of this year's nail trends are actually worth doing on hands like mine" — with specific looks named, not just vague categories. They want to leave with a salon appointment in mind.
+
+**What frustrates them:** Content that says "women over 50 can wear any colour" (unhelpfully permissive) OR content that says "stick to nudes" (condescending and boring). They want real specifics. They also find it frustrating when a post calls something a "trend for mature women" that looks dated to anyone paying attention.
+
+**Top 5 pain points (seasonal_trend intent, primary keyword specific):**
+1. Not knowing which mainstream 2026 trends translate to mature hands vs which will look wrong
+2. Feeling behind or out of touch — watching TikTok nail trends and unsure which apply
+3. Previous bad experiences: tried a trend, it highlighted their ridges, veins, or age spots
+4. Conflicting advice: one source says avoid darks, another recommends burgundy
+5. Not knowing what to actually *ask for* at the salon — the gap between seeing a trend and communicating it
+
+**Exact user phrases (from YouTube, NewBeauty comments, Pinterest descriptions, Dressed for My Day context):**
+- "which nail trends actually work for older hands"
+- "I'm 56 and don't want to look like I'm trying too hard"
+- "can women over 50 do chrome nails"
+- "what's in for mature women's nails right now"
+- "I tried the glazed donut and it highlighted every ridge"
+- "nail trends that don't age your hands"
+- "trendy nails that still look elegant at my age"
+- "the French manicure always looks good but is it still current"
+- "soft chrome or milky nails for over 50"
+- "what nail trends should women over 50 skip in 2026"
+
+**Intent content signals:**
+- Needs trend names + specific colour/finish recommendations, not just categories
+- Wants validation that certain trends are appropriate, not just permission
+- Responds to expert authority (celebrity manicurist quotes resonate)
+- Needs the "what NOT to do" as much as what to try — builds trust
+- Short-to-medium nail shape assumed; content should not default to long nails
+- Seasonal framing matters — "right now in 2026" language, not evergreen generalities
+
+---
+
+## SECTION 6 — SEMANTIC KEYWORD DATA
+
+**blog_gen_instruction:** Primary keyword in strong tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.
+
+**Primary keyword (LOCKED):** nail trends for women over 50 2026
+
+**Keyword variations (all cannibalization-cleared):**
+- nail trends over 50 2026
+- manicure trends for women over 50 2026
+- nail trends for 50 year old women
+- trendy nails over 50 in 2026
+- 2026 nail trends mature women
+- latest nail trends for women over 50
+- chic nail trends over 50 2026
+- what nail trends suit women over 50 in 2026
+
+**Cluster keywords (all cleared — none drift into other posts' territory):**
+- quiet luxury nails 2026
+- milky nude nails 2026
+- soft chrome nails for mature hands
+- pearl finish nails 2026
+- modern French manicure 2026
+- minimalist nail art 2026 older women
+- short squoval nails 2026
+- champagne metallic nails 2026
+- sheer gloss nails mature
+- glazed finish nails over 50
+- sophisticated nail colour 2026
+- understated nail trends 2026
+- wearable nail art 2026
+- refined nail aesthetics mature women
+
+**LSI terms (all cleared, specific to this keyword):**
+- milky white nails 2026
+- sheer nude nail polish
+- soft chrome overlay
+- pearl shimmer finish
+- squoval nail shape
+- short almond mature hands
+- micro French manicure update
+- dusty rose nail trend
+- lavender grey nails
+- champagne gold nails mature
+- negative space nail art
+- glass nail finish
+- skin-tone nude nails
+- barely-there nail colour
+- glazed nail aesthetic 2026
+- muted pastel nails over 50
+- nail health aesthetic 2026
+- refined metallic accent nail
+- tinted gloss nails
+
+**AEO terms (full question phrases for AI answer engines):**
+1. What nail trends are best for women over 50 in 2026?
+2. Which 2026 nail trends work on mature hands?
+3. Can women over 50 wear chrome nails in 2026?
+4. What nail colours are trending for older women in 2026?
+5. Are milky nails good for women over 50?
+6. What nail trends should women over 50 avoid in 2026?
+7. Is the quiet luxury nail trend flattering for mature hands?
+8. What is the best nail shape for women over 50 in 2026?
+9. Are French manicures still trending in 2026 for older women?
+10. What does a modern manicure look like for a woman over 50?
+11. Is pearl chrome flattering on mature hands?
+12. What nail colour makes hands look younger in 2026?
+
+**Technical terms:**
+- squoval (square-oval hybrid shape)
+- chrome powder overlay
+- BIAB (builder-in-a-bottle gel base)
+- negative space manicure
+- gel top coat
+- sheer tinted polish
+- magnetic gel (cat-eye effect)
+- smoothing base coat
+
+**User language (from real conversations):**
+- "I don't want to look like I'm trying too hard"
+- "still feel current without going over the top"
+- "something my 30-year-old daughter would approve of"
+- "trendy but not embarrassing"
+- "I want the look, not the fuss"
+- "the kind of nails people notice but don't comment on"
+- "I book the same thing every time because it works"
+- "just tell me what to ask for"
+
+---
+
+## SECTION 7 — VOICE AND AI QUERIES
+
+**blog_gen_instruction:** Answer every query directly in the relevant H2 section body. Route to faqItems if it cannot be addressed naturally in the body. No query left unanswered.
+
+**Queries:**
+1. What nail trends are best for women over 50 in 2026?
+2. Which 2026 manicure styles actually flatter mature hands?
+3. Can women over 50 wear chrome nails right now?
+4. What is the quiet luxury nail trend and does it work for older women?
+5. Are milky nails good for women with ridges or veins showing?
+6. What nail trends should women over 50 skip this year?
+7. Is the soft French manicure still current in 2026?
+8. What nail colour makes hands look younger in 2026?
+9. What nail shape works best with 2026 trends for women over 50?
+10. How do I choose between milky nails and chrome nails as an older woman?
+11. Are pearl shimmer nails flattering on mature skin?
+12. What does a sophisticated 2026 manicure look like for a woman in her 50s?
+13. Why do some nail trends look bad on older hands?
+14. Is the glazed donut nail trend still going in 2026 and is it good for mature hands?
+15. What nail trends look elegant and not trying too hard for women over 50?
+16. How do I know if a 2026 nail trend will highlight my ridges or age spots?
+
+---
+
+## SECTION 8 — HOOK AND CTR
+
+**blog_gen_instruction:** READ THIS SECTION BEFORE WRITING THE TITLE, META DESCRIPTION, INTRO, OR FIRST H2. Title and description are hardcoded — use exactly as written.
+
+**Selected trigger:** Trigger 2 — FOMO / Trend Urgency
+
+**Trigger rationale:** This reader is trend-aware and slightly behind — she watches what's happening but hasn't yet decoded which 2026 trends apply to her. Trigger 2 matches this state perfectly: she fears missing what's actually right for her, and the title confirms there *are* trends worth getting right now.
+
+**Title:** Nail Trends for Women Over 50 in 2026: What's Worth It
+**Title char count:** 56 ✅
+
+**Meta description:** Not every 2026 nail trend was made for mature hands — but several were made for yours. See which ones flatter and which to skip this season.
+**Meta char count:** 138 ✅
+
+**Intro hook brief:** Open with the reframe — there are more 2026 trends working in her favour than she realises, but not because "any colour goes at any age." The quiet luxury wave that took over fashion has arrived at the nail salon and it happens to align almost perfectly with what manicurists have always recommended for mature hands. This is her moment. Open with that energy: the trends finally caught up to her.
+
+**First H2 hook direction:** Phrase as a recognition moment: "Why 2026 Is Actually a Great Year for Nail Trends Over 50" — frames the seasonal trend as a discovery for the reader, not a catch-up exercise. Voice search phrasing: answers the implicit query "is 2026 good for nail trends for women over 50?"
+
+---
+
+## SECTION 9 — SEARCH JOURNEY
+
+**blog_gen_instruction:** This is the emotional contract with the reader. Every section must honour the promise made.
+
+**Reader arrival state:** She's trend-curious and slightly uncertain — she's seen 2026 nail content but most of it wasn't made with her in mind. She wants someone to cut through the noise and tell her which trends are actually hers to claim.
+
+**Journey arc:**
+1. **Land and orient** — confirm she's in the right place; the 2026 trend landscape has something real for her
+2. **Reframe** — the dominant 2026 aesthetic (quiet luxury, milky, minimal) is precisely what flatters mature hands; she's not compromising, she's winning
+3. **Deliver the edit** — specific trends with clear "why this works for you" reasoning per trend
+4. **The skip list** — what to avoid and why, with honest practical alternatives; builds trust
+5. **Exit with confidence** — she leaves knowing exactly what to request at her next salon appointment
+
+**Promise to deliver:** A curated, specific edit of which 2026 nail trends are worth doing on mature hands — with enough practical detail to walk into a salon and ask for it by name.
+
+**Exit state:** Confident and ready to book — she knows her 2026 nail direction and feels it was chosen, not settled for.
+
+---
+
+## SECTION 10 — CONTENT STRUCTURE
+
+**blog_gen_instruction:** H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s. H3s may be added at editorial discretion.
+
+**H1:** Nail Trends for Women Over 50 in 2026: The Edit Worth Bookmarking
+
+**H2 Structure:**
+1. Why 2026 Is Actually a Great Year for Nail Trends Over 50
+2. The Quiet Luxury Nail: Why This Trend Was Made for Mature Hands
+3. Milky and Sheer Nudes: The Biggest Trend That Flatters Every Mature Hand
+4. Soft Chrome and Pearl Finishes: How to Do Metallics Without Looking Overdone
+5. The Updated French Manicure: Why 2026's Version Is Better Than Any Before It
+6. Minimalist Nail Art for Mature Hands: Small Details, Big Payoff
+7. 2026 Nail Trends to Skip If You're Over 50 (And What to Book Instead)
+8. What Shape to Pair With Each 2026 Trend for the Most Flattering Result
+
+**Word budget:**
+
+| Section | Words |
+|---|---|
+| Introduction | 220 |
+| H2-1: Why 2026 Is Actually a Great Year | 220 |
+| H2-2: Quiet Luxury Nail | 280 |
+| H2-3: Milky and Sheer Nudes | 280 |
+| H2-4: Soft Chrome and Pearl Finishes | 260 |
+| H2-5: Updated French Manicure | 240 |
+| H2-6: Minimalist Nail Art | 230 |
+| H2-7: Trends to Skip | 280 |
+| H2-8: Shape to Pair With Each Trend | 220 |
+| Conclusion | 170 |
+| **Total** | **2,200** |
+
+---
+
+## SECTION 11 — INTERNAL LINKS
+
+**blog_gen_instruction:** Every link must appear in the post. Cluster links use anchor texts verbatim — do not rewrite. Cross-site links use provided descriptive anchor. Total internal links: 5. Placed where noted — woven into prose naturally, never standalone CTAs.
+
+| # | URL / Slug | Anchor Text | Placement | Type |
+|---|---|---|---|---|
+| 1 | /blog/nails-for-older-women/nails-for-older-women | nails for older women | H2-2 (Quiet Luxury) — after naming the broader theme, link naturally to the pillar as the full guide | cluster-pillar |
+| 2 | /blog/nails-for-older-women/nail-colors-for-women-over-40 | nail colors for women over 40 | H2-3 (Milky Nudes) — when mentioning that these shades work across age groups | cluster-spoke |
+| 3 | /blog/nails-for-older-women/elegant-nail-art-for-mature-hands | elegant nail art for mature hands | H2-6 (Minimalist Art) — link as "if you want to go further with this" context | cluster-spoke |
+| 4 | /blog/nails-for-older-women/french-manicure-for-women-over-50 | french manicure for women over 50 | H2-5 (Updated French) — natural deepdive link within that section | cluster-spoke |
+| 5 | https://mirelleinspo.com/blog/chrome-nails/chrome-nail-trends-2026 | how neutral chrome nail trends are dominating 2026 salons | H2-4 (Soft Chrome) — cross-site link into the chrome trends 2026 post for readers who want to go deeper on chrome | cross-site |
+
+---
+
+## SECTION 12 — VOICE AND TONE
+
+**blog_gen_instruction:** This is the voice for this specific post. Layer on top of Mirellé editorial framework.
+
+**Recommended voice:** Confident trend editor who respects her reader's intelligence and taste
+
+**Tone characteristics:**
+- Assured and specific — names things precisely, no vague hedging
+- Editorially warm — not a lecture, not a list read-out; feels like a knowledgeable friend giving the inside track
+- Mildly anti-condescension — never frames anything as "appropriate for your age"; frames everything as "this is why this works"
+- Seasonal urgency — light FOMO energy; this is what's happening *now*
+- Practical — every trend observation ends with something actionable (what to ask for, what finish, what shape)
+
+**Language style:** Confident declarative sentences. Short to medium length. Direct use of "you." Specific product language where it lands naturally (milky, squoval, chrome overlay, BIAB). No hedging verbs (might, could, possibly). British English throughout.
+
+**Audience match:** This reader responds to expertise delivered without authority-signalling. She knows what she likes; she wants confirmation and direction, not permission.
+
+---
+
+## SECTION 13 — EXTERNAL LINKS
+
+**blog_gen_instruction:** Include all external links where indicated. Supports E-E-A-T. Use anchor suggestion as guide — write naturally around it.
+
+| # | URL | Context | Anchor Suggestion |
+|---|---|---|---|
+| 1 | https://dressedformyday.com/2026-nail-trends-every-woman-over-50-will-love/ | In H2-1 or intro — when citing the editorial consensus on 2026 tone | 2026 nail trends for women over 50 |
+| 2 | https://drdananails.com/blogs/on-the-nail/spring-2026-nail-trends-that-actually-work-after-40 | In H2-7 (Trends to Skip) — when backing up which trends work against mature hands | nail expert guidance on spring 2026 trends after 40 |
+| 3 | https://www.newbeauty.com/view/best-winter-nail-colors-for-women-over-50 | In H2-3 (Milky Nudes) — when citing manicurist expert backing for sheer tones | NewBeauty's guide to nail colours for women over 50 |
+
+---
+
+## SECTION 14 — EXECUTION PLAN
+
+**blog_gen_instruction:** READ THIS SECTION FIRST. Lock every value. Execute exactly. Do not recalculate, do not adjust, do not deviate.
+
+---
+
+### BLOCK 1 — KEYWORD EXECUTION
+
+```
+primary_keyword:              nail trends for women over 50 2026
+top_3_density_baseline:       9 mentions (average across top 3 ranking posts)
+total_mention_target:         12 mentions (baseline 9 + 3)
+```
+
+**First 100 words plan:**
+- Mention 1: Sentence 2–3 of introduction — opening orientation sentence naming the topic directly
+- Mention 2: Sentence 4–5 of introduction — reinforcing the seasonal framing ("...the **nail trends for women over 50 2026** landscape has shifted in a direction that actually suits you")
+
+**First half target (0–1,100 words):** 7 mentions — run denser in first half
+**Second half target (1,100–2,200 words):** 5 mentions
+
+**Strong tag rule:** EVERY single mention of `nail trends for women over 50 2026` — all 12 of them — wrapped in `<strong>` tags. No exceptions. Scan after every paragraph.
+
+**Keywords to avoid active:** Full list from Section 3 — never used as focus terms anywhere in the post.
+
+---
+
+### BLOCK 2 — WORD BUDGET
+
+```
+total_target: 2,200 words (+/-50 tolerance, never exceed)
+```
+
+| Section | Budget | Complexity |
+|---|---|---|
+| Introduction | 220 | Medium |
+| H2-1: Why 2026 Is Actually a Great Year | 220 | Low-Medium |
+| H2-2: The Quiet Luxury Nail | 280 | High |
+| H2-3: Milky and Sheer Nudes | 280 | High |
+| H2-4: Soft Chrome and Pearl Finishes | 260 | High |
+| H2-5: The Updated French Manicure | 240 | Medium |
+| H2-6: Minimalist Nail Art | 230 | Medium |
+| H2-7: 2026 Trends to Skip | 280 | High |
+| H2-8: Shape Pairing Guide | 220 | Medium |
+| Conclusion | 170 | Low |
+
+**Tracking rule:** Count running word total at end of every H2. If over budget — cut before moving to next section. Do not compensate later.
+
+---
+
+### BLOCK 3 — IMAGE PLAN
+
+```
+total_images:   9 (from POST_CONSTANTS)
+hero_image:     frontmatter only — NEVER appears in post body
+body_images:    8 images to place in body
+```
+
+| Image # | Place After | Section Context |
+|---|---|---|
+| 1 | H2-1 | Short squoval nails in a milky nude — 2026's defining shape and finish |
+| 2 | H2-2 | Quiet luxury manicure — sheer pink or glazed neutral on short almond |
+| 3 | H2-3 | Milky white or sheer cream nails — close-up flattering on mature hands |
+| 4 | H2-4 | Pearl chrome or soft neutral chrome on squoval nails |
+| 5 | H2-5 | Modern soft French — thin ivory tip on sheer base, short almond |
+| 6 | H2-6 | Minimalist nail art — single gold detail or micro dot on neutral base |
+| 7 | H2-7 | Example of a flattering alternative to a skipped trend (e.g. soft burgundy vs harsh black) |
+| 8 | H2-8 | Shape comparison — squoval vs oval vs almond on mature hands |
+
+**Image type rule:** ALL body images = inspirational nail design images related to the topic. NO infographics. NO process diagrams. NO comparison charts. NO step-by-step visuals.
+
+**Path rule:** `/images/blog/nails-for-older-women/nail-trends-for-women-over-50-2026/filename.webp`
+
+---
+
+### BLOCK 4 — OPENING TECHNIQUE ASSIGNMENTS
+
+**Rule:** No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.
+
+| Section | Technique |
+|---|---|
+| Introduction | Technique 2 — The Counterintuitive Statement (reframe: the trends caught up with her) |
+| H2-1: Why 2026 Is a Great Year | Technique 4 — The Observation (name what's happening in culture right now) |
+| H2-2: The Quiet Luxury Nail | Technique 3 — The Reframe (quiet luxury was never a trend, it was always the right answer) |
+| H2-3: Milky and Sheer Nudes | Technique 1 — The Claim (milky nails are the single most flattering trend for mature hands in years) |
+| H2-4: Soft Chrome and Pearl | Technique 2 — The Counterintuitive Statement (chrome isn't as bold as you think — in 2026 it's the subtlest metallic option) |
+| H2-5: Updated French Manicure | Technique 4 — The Observation (the French manicure in 2026 looks nothing like the version from the 90s) |
+| H2-6: Minimalist Nail Art | Technique 3 — The Reframe (less detail is more impact on mature nails) |
+| H2-7: Trends to Skip | Technique 1 — The Claim (some 2026 trends will actively work against mature hands — this is which ones) |
+| H2-8: Shape Pairing | Technique 2 — The Counterintuitive Statement (the shape you choose matters as much as the trend) |
+| Conclusion | Technique 1 — The Claim |
+
+**Banned opener rule:** Check every opener against banned_opening_approaches in blog gen prompt before writing the second sentence.
+
+---
+
+### BLOCK 5 — LINK PLACEMENTS
+
+| Anchor Text | Full URL | Place In Section | Placement Context | Type |
+|---|---|---|---|---|
+| nails for older women | /blog/nails-for-older-women/nails-for-older-women | H2-2 | After introducing the quiet luxury theme — "for the full guide to colours and styles that flatter across every season, see [anchor]" | cluster-pillar |
+| nail colors for women over 40 | /blog/nails-for-older-women/nail-colors-for-women-over-40 | H2-3 | When noting these shades work broadly — "including our full edit of [anchor]" | cluster-spoke |
+| french manicure for women over 50 | /blog/nails-for-older-women/french-manicure-for-women-over-50 | H2-5 | At close of section — "for every variation worth knowing, see [anchor]" | cluster-spoke |
+| elegant nail art for mature hands | /blog/nails-for-older-women/elegant-nail-art-for-mature-hands | H2-6 | "If you want to explore nail art further beyond the minimal edit, [anchor] covers it" | cluster-spoke |
+| how neutral chrome nail trends are dominating 2026 salons | https://mirelleinspo.com/blog/chrome-nails/chrome-nail-trends-2026 | H2-4 | After the practical chrome recommendation — "for the full breakdown of this season's chrome options, see [anchor]" | cross-site |
+
+---
+
+### BLOCK 6 — AEO / GEO PLAN
+
+**AEO assignments:**
+
+| AEO Term | Assigned To | Execution |
+|---|---|---|
+| What nail trends are best for women over 50 in 2026? | H2-1 | Direct 2–3 sentence answer paragraph immediately after H2 heading before any elaboration |
+| Can women over 50 wear chrome nails in 2026? | H2-4 | Direct answer: yes — soft chrome and pearl chrome specifically, not mirror chrome |
+| What nail trends should women over 50 avoid in 2026? | H2-7 | Direct answer paragraph naming 3–4 specific trends and why they work against mature hands |
+| Is the quiet luxury nail trend flattering for mature hands? | H2-2 | Direct answer: yes — and explain the specific reason (condition emphasis over colour) |
+| What is the best nail shape for women over 50 in 2026? | H2-8 | Direct answer: squoval or short almond — name both with one-sentence rationale each |
+| Are French manicures still trending in 2026 for older women? | H2-5 | Direct answer: yes — the 2026 soft French is the best version of this look in decades |
+
+**GEO entity statements:**
+
+| Entity | Assigned To | Execution |
+|---|---|---|
+| Quiet luxury nails | H2-2 | Clear declarative definition: "Quiet luxury nails are manicures defined by sheer neutrals, minimal art, and finish quality over colour saturation — the opposite of maximalist nail art." |
+| Soft chrome | H2-4 | Define clearly: "Soft chrome is a chrome powder applied over a neutral or milky base, producing a pearl-like light-reflecting finish rather than a mirror metallic effect." |
+| Squoval nail shape | H2-8 | Define: "A squoval is a square nail with rounded corners — it has the clean structure of a square shape without the sharp edges that can emphasise knuckle width on mature hands." |
+| Modern French manicure (2026 version) | H2-5 | Define: "The 2026 French manicure uses a barely-there tip — 1–2mm wide, in ivory or cream rather than stark white — over a sheer pink or milky base, producing a finish far more refined than its 1990s predecessor." |
+
+---
+
+### BLOCK 7 — ACTIVE CONSTRAINTS
+
+```
+em_dash_banned:        Long em dash (—) does not appear anywhere. Replace with: comma / 
+                       new sentence / parentheses / but / and / restructure.
+
+british_english_active: colour, recognise, flattering, -ise, -our — every instance, 
+                        no exceptions.
+
+keyword_density_reminder: After every 2 H2 sections — count current primary keyword 
+                          mentions. Verify running total is on track to hit 12. 
+                          First half (words 1–1,100) must reach 7 mentions. 
+                          Adjust if needed.
+
+image_path_reminder:   /images/blog/nails-for-older-women/nail-trends-for-women-over-50-2026/filename.webp
+
+internal_link_url_reminder: Cluster links = /blog/nails-for-older-women/[slug]. 
+                             Cross-site = exact URL as discovered. Never bare /slug.
+
+hero_image_reminder:   Hero = frontmatter only. Never place hero image in body.
+
+strong_tag_reminder:   Every primary keyword mention = <strong> tags. 
+                       Scan after every paragraph.
+```
+
+**Banned vocab watch — most likely slip-ins for this topic:**
+- "amazing" — ban
+- "stunning" — ban
+- "gorgeous" — ban
+- "fabulous" — ban
+- "timeless" (acceptable once, not repeatedly)
+- "ageless" — acceptable once in intro if earned, not as a filler word
+- "game-changer" — ban
+- "effortlessly" — ban (use "easily" or restructure)
