@@ -1,0 +1,180 @@
+# INPUT FILE — CARNIVAL NAILS (PILLAR) — SOURCE OF TRUTH FOR BLOG GEN AGENT
+
+**MODE: CLUSTER MODE — cluster context loaded (carnival_cluster_file)**
+
+All values below are hardcoded research outputs. Blog Gen Agent does not ask, adjust, or override anything in this file unless the user explicitly instructs otherwise during the session.
+
+---
+
+## SECTION 2 — POST_CONSTANTS
+- slug: `carnival-nails`
+- topic_slug: `carnival`
+- canonical: `https://mirelleinspo.com/blog/carnival/carnival-nails`
+- post_type: pillar
+- intent: inspirational
+- word_count: **2800**
+- image_count: **10** (1 hero + 9 H2 images, finalised after H2 count below)
+- template: center
+- hero_dimensions: 1200x630
+- category: Nail Art Guide / Seasonal Trends
+- publish_date: 2026-06-27
+- author: Jyoti Mirellé
+
+## SECTION 3 — CLUSTER SNAPSHOT
+- pillar_slug: carnival-nails
+- pillar_title: Carnival Nails: 25 Bold Designs for Every Fair & Fest
+- pillar_primary_keyword: carnival nails
+- this_post_slug: carnival-nails
+- this_post_role: pillar
+- keywords_to_avoid: circus nails, county fair nails, carnival nail art, clown core nails, carousel nails, summer carnival nails, edc nails
+
+## SECTION 4 — SERP ANALYSIS
+**competitor_gaps** (2+ source validated):
+- No editorial source clearly separates "street carnival" (Trinidad/Notting Hill/Rio) from "carnival cruise" nails — confirmed gap across Pinterest, TikTok and blog results; readers conflate the two.
+- Durability through a full carnival day (heat, sweat, costume changes) is almost never addressed — confirmed via TikTok captions + product-site copy.
+- No source builds a single hub connecting circus, county fair, clown-core and carousel sub-styles under one umbrella — confirmed via Pinterest related-tag clustering and TikTok hashtag overlap.
+
+**missing_semantic_territory**: global carnival traditions (Trinidad, Notting Hill, Rio, Jamaica) as nail-design inspiration; carnival mask motifs (harlequin, feathers); kid-friendly carnival nail options.
+
+**our_strategic_approach**: Position this post as the single hub for every carnival nail occasion — street carnival, cruise, festival, fair — organised by colour, shape, and durability rather than a flat idea-dump, then route readers into the deeper spoke posts for each specific aesthetic.
+
+**top_3_word_count_estimates**: ~650–900 words (Scratch Magazine creative challenge, PicsNails tutorials, Perfect Nails Company trend roundup). Average ≈ 750 words.
+**top_3_keyword_density_baseline**: ≈6 mentions of "carnival nails" per piece.
+
+## SECTION 5 — AUDIENCE INTELLIGENCE
+**who_they_are**: Women aged 18–40 planning for a specific dated event — a carnival parade (Trinidad/Notting Hill style), a carnival cruise, a county/state fair, or a costume party — searching broadly before they've settled on a specific sub-style.
+**what_they_want**: A wide visual entry point that helps them figure out which "kind" of carnival nail fits their event before diving into a niche style.
+**what_frustrates_them**: Pinterest results mix cruise-ship manicures with street-carnival and clown content with no explanation of which applies to their occasion; no guidance on longevity through a full day of heat/dancing/costume.
+**top_5_pain_points**: (1) Confusing carnival cruise nails with carnival festival nails, (2) Not knowing which colours suit their specific carnival tradition, (3) Worrying nail art won't survive a full parade day, (4) Wanting kid-appropriate options for family carnival days, (5) Uncertain how to match nails to elaborate costumes/masks.
+**exact_user_phrases**: "carnival nails vs circus nails," "what color nails for carnival," "carnival cruise nail ideas," "carnival nails that last all day," "carnival nails for kids," "Trinidad carnival nails," "Notting Hill carnival nails," "carnival mask nail art," "easy carnival nails at home," "carnival nails not too much."
+**intent_content_signals**: Wants visual variety up front, short scannable sections, occasion-based grouping (not just a numbered idea list), confidence-building durability tips.
+
+## SECTION 6 — SEMANTIC KEYWORD DATA
+- primary_keyword: **carnival nails**
+- keyword_variations: carnival nail designs, carnival nail ideas, carnival nail art ideas, carnival inspired nails, carnival theme nails, carnival manicure
+- cluster_keywords: festival nails, fair nails, party nails, carnival cruise nails, Trinidad carnival nails, Notting Hill carnival nails, Rio carnival nails, Jamaica carnival nails, masquerade nails, harlequin nails, glitter carnival nails, bright summer nails, costume nails
+- lsi_terms: striped nail art, polka dot nails, neon nail polish, holographic chrome nails, rhinestone nail art, gold and black nails, feather nail design, mask-inspired nails, festival manicure, press-on nails for events, gel nail durability, almond nail shape for carnival, glitter gradient nails, tropical nail colors, costume-matching manicure
+- aeo_terms: "what are carnival nails," "what colors are used for carnival nails," "how long do carnival nails last," "are carnival nails the same as circus nails," "what nail shape is best for carnival," "how do I match my nails to my carnival costume," "can kids wear carnival nails," "what is the difference between carnival cruise nails and carnival nails"
+- technical_terms: gel-X, press-on tabs, chrome powder, builder gel, nail wraps, UV top coat, foil transfer
+- user_language: "carnival nails that won't chip," "easy carnival nails at home," "carnival nails for beginners," "matching my nails to my costume," "carnival nails on a budget," "subtle carnival nails," "carnival nails for the whole family," "what do I even ask for at the salon"
+
+## SECTION 7 — VOICE & AI QUERIES
+1. What exactly counts as carnival nails?
+2. What colors are traditionally used for carnival nails?
+3. How long do carnival nails typically last through a parade day?
+4. Are carnival nails and circus nails the same thing?
+5. What nail shape works best for carnival costumes?
+6. How do I pick nail colors that match a feathered carnival costume?
+7. What's the difference between carnival cruise nails and street carnival nails?
+8. Can children wear carnival-themed nail designs?
+9. How do I keep glitter carnival nails from shedding?
+10. What's an easy carnival nail design I can do at home?
+11. Do carnival nails work for a county fair too?
+12. What nail finish photographs best under carnival parade lighting?
+13. How far in advance should I book carnival nails?
+14. What's a subtle carnival nail option for people who don't want to go bold?
+
+## SECTION 8 — HOOK & CTR
+- selected_trigger: Trigger 2 — FOMO / Trend Urgency
+- trigger_rationale: Readers are trend-aware and browsing ahead of a dated event (carnival season), so urgency and volume outperform a curiosity-gap hook.
+- title: **Carnival Nails: 25 Bold Designs for Every Fair & Fest in 2026** (58 chars)
+- title_char_count: 58
+- meta_description: **Planning carnival nails? See 25 bold designs for street carnival, cruises, fairs, and parties — plus colors, shapes, and tips that survive a full day.** (153 chars)
+- meta_char_count: 153
+- intro_hook_brief: Open by naming the confusion (cruise vs. street carnival vs. fair) and promise this is the one hub that sorts it all by occasion.
+- first_h2_hook_direction: Frame the first H2 as a direct voice-search definition: "What Are Carnival Nails, Exactly?"
+
+## SECTION 9 — SEARCH JOURNEY
+- reader_arrival_state: Excited but slightly overwhelmed, scrolling broad "carnival nails" results without knowing which sub-style fits their specific event.
+- journey_arc: Define the category → sort by colour/shape → show design variety by occasion (street, cruise, fair, kids) → reassure on durability → close with "pick your lane" confidence.
+- promise_to_deliver: A single hub that organises every carnival nail occasion so the reader leaves knowing exactly which style and which spoke post to explore next.
+- exit_state: Confident and ready to book, with a clear next click toward the specific aesthetic (circus, county fair, clown-core, carousel) that matches their event.
+
+## SECTION 10 — CONTENT STRUCTURE
+**H1**: Carnival Nails: 25 Bold Designs for Every Fair & Fest
+
+**H2 Structure** (9 H2s):
+1. What Are Carnival Nails, Exactly? (300w)
+2. Carnival Nail Colors and Palettes That Work Best (320w)
+3. Best Nail Shapes and Lengths for Carnival (280w)
+4. Classic Carnival Nail Designs: Stripes, Dots & Masks (340w)
+5. Global Carnival Inspiration: Trinidad, Notting Hill, Rio & Jamaica (340w)
+6. Carnival Cruise Nails vs. Street Carnival Nails (300w)
+7. How Long Do Carnival Nails Last Through a Parade Day? (280w)
+8. Carnival Nails for Kids and Family Fair Days (260w)
+9. How to Match Your Carnival Nails to Your Costume (280w)
+
+Word budget: Introduction 220w / Conclusion 180w / H2s as listed above (totals ≈2800).
+
+## SECTION 11 — INTERNAL LINKS
+1. /blog/carnival/circus-nails — "circus nails" — placement: Section 4 (Classic Designs) — cluster-spoke
+2. /blog/carnival/county-fair-nails — "county fair nails" — placement: Section 7 (Durability) — cluster-spoke
+3. /blog/carnival/carnival-nail-art — "carnival nail art" — placement: Section 4 (Classic Designs) — cluster-spoke
+4. /blog/carnival/clown-core-nails — "clown core nails" — placement: Section 5 (Global Inspiration) — cluster-spoke
+5. /blog/carnival/carousel-nails — "carousel nails" — placement: Section 5 (Global Inspiration) — cluster-spoke
+6. /blog/carnival/summer-carnival-nails — "summer carnival nails" — placement: Section 2 (Colors) — cluster-spoke
+- Gallery link: https://mirelleinspo.com/inspo/carnival-nails-inspiration-gallery — "carnival nails inspiration gallery" — placement: Intro
+- Cross-site: https://mirelleinspo.com/blog/holiday-vacation-nails-travel-guide — anchor: "the full guide to picking nails for any vacation or cruise" — placement: Section 6 (Cruise vs. Street) — cross-site
+- Cross-site: https://mirelleinspo.com/blog/neon-summer-nails — anchor: "the complete neon nail design guide for bold summer colour" — placement: Section 2 (Colors) — cross-site
+
+*(Note: 8 total links slightly exceeds the 4-6 cap — Blog Gen Agent should drop the two least-load-bearing cluster links if needed to stay within 6, prioritising circus-nails, carnival-nail-art, the gallery link, and one cross-site link.)*
+
+## SECTION 12 — VOICE & TONE
+- recommended_voice: Aspirational guide with a confident, organising hand
+- tone_characteristics: Energetic but not breathless; decisive ("here's which one is yours"); visually descriptive; warm toward beginners; never costume-mocking
+- language_style: Short-to-medium sentences, direct "you," light use of analogy (comparing carnival traditions), second person throughout
+- audience_match: Matches a browsing, slightly overwhelmed reader who wants a confident guide to sort the category for her, not a lecture
+
+## SECTION 13 — EXTERNAL LINKS
+1. Notting Hill Carnival official event info (TfL/visitlondon-type source) — context: when discussing UK street carnival dates/scale — anchor suggestion: "Europe's largest street festival"
+2. Wikipedia — Notting Hill Carnival — context: historical/cultural grounding for global carnival section — anchor suggestion: "rooted in Trinidad Carnival traditions"
+
+## SECTION 14 — EXECUTION PLAN
+
+**Block 1 — Keyword Execution**
+- primary_keyword: carnival nails
+- top_3_density_baseline: 6
+- total_mention_target: **9** mentions
+- first_100_words_plan: Mention 1 in sentence 2 of intro (defining the category); Mention 2 in sentence 4–5 of intro (the promise/hub framing)
+- first_half_target: 5 mentions (first ~1400 words) / second_half_target: 4 mentions (remaining ~1400 words)
+- strong_tag_rule: every one of the 9 mentions wrapped in `<strong>` tags
+- keywords_to_avoid_active: circus nails, county fair nails, carnival nail art, clown core nails, carousel nails, summer carnival nails, edc nails
+
+**Block 2 — Word Budget**
+- total_target: 2800 (±50)
+- introduction: 220 / conclusion: 180
+- H2 budgets: as listed in Section 10 (300/320/280/340/340/300/280/260/280)
+- tracking_rule: check running total after every H2; trim before moving on if over
+
+**Block 3 — Image Plan**
+- total_images: 10 (hero + 9 body)
+- hero_image: frontmatter only, never in body
+- assignments: Image 1 after intro (collage/hero-style carnival mood); 2–10 placed after each respective H2, each an inspirational nail-design photo matching that section's theme (colors, shapes, classic stripes/dots, global carnival looks, cruise vs street, durability-friendly design, kids' carnival nails, costume-matched set)
+- image_type_rule: all body images = inspirational nail design photography only — no infographics/diagrams/charts
+- path_rule: /images/blog/carnival/carnival-nails/filename.webp
+
+**Block 4 — Opening Technique Assignments**
+- Introduction: Technique 2 (FOMO/trend framing)
+- Section 1 (What Are Carnival Nails): Technique 4 (definition/entity statement)
+- Section 4 (Classic Designs): Technique 3 (reframe — "classic doesn't mean basic")
+- Section 6 (Cruise vs Street): Technique 1 (the claim — "these are not the same thing")
+- Conclusion: Technique 1 (the claim, reinforcing the hub promise)
+
+**Block 5 — Link Placements**: see Section 11 (full table above), used verbatim.
+
+**Block 6 — AEO/GEO Plan**
+- AEO "What are carnival nails?" → Section 1, direct 2–3 sentence answer immediately after heading
+- AEO "How long do carnival nails last through a parade day?" → Section 7, direct answer paragraph
+- AEO "What's the difference between carnival cruise nails and street carnival nails?" → Section 6, direct answer paragraph
+- GEO entity: "harlequin nail art" → Section 4, clear declarative definition
+- GEO entity: "press-on nails" (as a format) → Section 7, clear declarative definition
+
+**Block 7 — Active Constraints**
+- em_dash_banned: yes, replace with comma/parentheses/restructure
+- banned_vocab_watch: "elevate," "unleash," "vibrant" (overused in this niche), "must-have," "game-changer," "stunning" (overused), "perfect for"
+- british_english_active: colour, recognise, -ise, -our throughout
+- keyword_density_reminder: recount after every 2 H2s, front-load density in first half
+- image_path_reminder: /images/blog/carnival/carnival-nails/filename.webp
+- internal_link_url_reminder: full paths only, /blog/carnival/[slug] for cluster links
+- hero_image_reminder: frontmatter only
+- strong_tag_reminder: scan after every paragraph for unwrapped keyword mentions
