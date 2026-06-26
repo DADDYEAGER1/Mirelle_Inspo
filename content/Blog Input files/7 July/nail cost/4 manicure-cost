@@ -1,0 +1,498 @@
+# SEO RESEARCH INPUT FILE — POST 4: MANICURE COST
+**CLUSTER MODE — cluster context loaded**
+
+---
+
+## THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT.
+All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.
+
+---
+
+## SECTION 14: EXECUTION PLAN ← READ THIS FIRST
+
+### BLOCK 1: KEYWORD EXECUTION
+- **primary_keyword:** manicure cost
+- **top_3_density_baseline:** 14 mentions (average across Airtasker US, overlandparknails.com, otsnj.com — top 3 ranking posts each average 12–16 primary keyword mentions)
+- **total_mention_target:** 17 mentions (baseline 14 + 3). Hard target. Not a percentage.
+- **first_100_words_plan:**
+  - Rule: Primary keyword MUST appear TWICE in the first 100 words. Mandatory.
+  - Mention 1: Sentence 1–2 of introduction — state the manicure cost range immediately as the opening hook
+  - Mention 2: Sentence 4–5 of introduction — reinforce in context of why prices vary so much
+- **first_half_target:** 10 mentions — first 1100 words. Run denser in first half.
+- **second_half_target:** 7 mentions — second 1100 words
+- **strong_tag_rule:** EVERY single mention of "manicure cost" — all 17 of them — wrapped in `<strong>` tags. No exceptions. Scan after every paragraph.
+- **keywords_to_avoid_active:** how much do nails cost / gel nails cost / acrylic nails cost / pedicure cost / nail fills cost / BIAB cost / dip powder cost / expensive nail salons worth it / nail salon cost by state / how to save money on nails / gel vs acrylic almond nails / manicure vs pedicure difference / acrylic vs gel vs press-on prom nails / almond nails beginners guide / why do nails hurt after acrylics / gel vs acrylic nails for work
+
+### BLOCK 2: WORD BUDGET
+- **total_target:** 2200 words (±50 words tolerance, never exceed)
+- **introduction:** 230 words
+- **conclusion:** 175 words
+
+| H2 Heading | Budget | Complexity |
+|---|---|---|
+| What Does a Basic Manicure Cost at a Salon? | 260 words | medium |
+| How Much Does a Gel Manicure Cost? | 250 words | medium |
+| How Much Does a French Manicure Cost? | 180 words | low |
+| How Much Does a Spa or Deluxe Manicure Cost? | 200 words | medium |
+| What Factors Affect the Manicure Cost the Most? | 260 words | high |
+| How Much Does a Manicure Cost in the UK, Australia, and Canada? | 270 words | high |
+| How Much Should You Tip for a Manicure? | 175 words | low |
+
+- **tracking_rule:** Track running word total at the end of every H2. Cut before moving to the next section if running over.
+
+### BLOCK 3: IMAGE PLAN
+- **total_images:** 9 (post role = spoke, intent = informational — Rule 5 applies)
+- **hero_image:** frontmatter only — NEVER in post body
+- **body_images:** 8 images to place in body
+- **image_type_rule:** ALL body images = inspirational nail imagery relevant to manicure styles shown in context (basic manicure, gel manicure, French manicure, spa manicure). NO infographics, NO pricing tables as images, NO comparison charts.
+- **path_rule:** /images/blog/nail-costs/manicure-cost/filename.webp
+
+| Image # | Place After | Section Context |
+|---|---|---|
+| 1 | Introduction | Classic polished manicure on hands — establishes the subject |
+| 2 | H2: Basic Manicure Cost | Clean, simple polish — regular salon manicure |
+| 3 | H2: Gel Manicure Cost | High-gloss gel nails — shows the chip-free finish |
+| 4 | H2: French Manicure Cost | Elegant French tip — classic style |
+| 5 | H2: Spa/Deluxe Manicure Cost | Luxurious hands treatment — spa context |
+| 6 | H2: Factors Affecting Cost | Close-up of detailed nail work — skill and product quality |
+| 7 | H2: International Pricing | Polished neutral set — universally applicable |
+| 8 | H2: Tipping | Nail tech working on client — service context |
+
+### BLOCK 4: OPENING TECHNIQUE ASSIGNMENTS
+- **Rule:** No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.
+
+| Section | Technique |
+|---|---|
+| Introduction | Technique 2 — The Scenario (place reader in the moment of pricing confusion) |
+| H2-1: Basic Manicure Cost | Technique 3 — The Reframe (what "basic" actually gets you) |
+| H2-2: Gel Manicure Cost | Technique 1 — The Claim (direct cost statement that anchors the section) |
+| H2-3: French Manicure Cost | Technique 4 — The Question (why does French cost more?) |
+| H2-4: Spa/Deluxe Cost | Technique 3 — The Reframe (what the premium is actually paying for) |
+| H2-5: Factors Affecting Cost | Technique 1 — The Claim (one factor outweighs all others) |
+| H2-6: International Pricing | Technique 2 — The Scenario (reader in UK/AU/CA context) |
+| H2-7: Tipping | Technique 4 — The Question (how much is actually expected?) |
+| Conclusion | Technique 1 — The Claim |
+- **banned_opener_rule:** Check every opener against banned_opening_approaches in blog gen prompt before writing the second sentence
+
+### BLOCK 5: LINK PLACEMENTS
+
+| Anchor Text | Full URL | Place In Section | Placement Context | Link Type |
+|---|---|---|---|---|
+| how much do nails cost | /blog/nail-costs/how-much-do-nails-cost | H2: Basic Manicure Cost | After establishing basic price range — link pillar for broader overview | cluster-pillar |
+| how much does a pedicure cost | /blog/nail-costs/pedicure-cost | H2: Spa/Deluxe Manicure Cost | Natural comparison — reader may want foot treatment pricing too | cluster-spoke |
+| gel nails cost | /blog/nail-costs/gel-nails-cost | H2: Gel Manicure Cost | After introducing gel pricing — link for deeper gel-specific breakdown | cluster-spoke |
+| how to save money on nails | /blog/nail-costs/save-money-on-nails | H2: Factors Affecting Cost | After discussing cost drivers — natural next step for budget-conscious reader | cluster-spoke |
+| how long do different types of manicures last | https://mirelleinspo.com/nail-faqs/how-long-do-different-types-of-manicures-last | H2: Gel Manicure Cost | After noting gel lasts 2–3 weeks — reader wants to know longevity by service type | cross-site |
+| how to choose the right nail salon near you | https://mirelleinspo.com/nail-faqs/how-to-choose-the-right-nail-salon-near-me | H2: Factors Affecting Cost | After explaining how salon reputation affects price — guides reader to evaluate salons confidently | cross-site |
+
+**Total internal links: 6 — at maximum. Do not add any further.**
+
+### BLOCK 6: AEO / GEO PLAN
+
+**AEO Assignments:**
+
+| AEO Term | Assigned Section | Execution |
+|---|---|---|
+| How much does a basic manicure cost at a nail salon? | H2: Basic Manicure Cost | Write a direct 2–3 sentence answer paragraph IMMEDIATELY after the H2 heading — before elaboration |
+| How much does a gel manicure cost compared to a regular manicure? | H2: Gel Manicure Cost | Write direct 2–3 sentence answer immediately after H2 heading |
+| What is included in a manicure? | H2: Basic Manicure Cost | Answer clearly in a short paragraph within section — defines what the service covers |
+| What factors affect the cost of a manicure? | H2: Factors Affecting Cost | Write direct 2–3 sentence answer immediately after H2 heading |
+| How much do you tip for a manicure? | H2: Tipping | Write direct 2–3 sentence answer immediately after H2 heading |
+| Is a gel manicure worth the extra cost? | H2: Gel Manicure Cost | Answer directly in 2 sentences inside the section body |
+
+**GEO Entity Statements:**
+
+| Entity | Assigned Section | Execution |
+|---|---|---|
+| Gel manicure | H2: Gel Manicure Cost | Clear declarative definition: "A gel manicure is a service where gel-based polish is applied to the natural nail and cured under a UV or LED lamp, producing a chip-resistant finish that lasts two to three weeks." |
+| Standard / basic manicure | H2: Basic Manicure Cost | Clear definition of what this service includes — nail trim, shape, cuticle care, standard polish |
+| Spa / deluxe manicure | H2: Spa Cost | Clear definition distinguishing it from basic — includes exfoliation, longer massage, paraffin wax or mask |
+| French manicure | H2: French Manicure Cost | Define precisely: a natural or sheer base with a white-tipped free edge — available in regular or gel finish |
+
+### BLOCK 7: ACTIVE CONSTRAINTS
+- **em_dash_banned:** Long em dash (—) does not appear anywhere in the post body. Replace with: comma / new sentence / parentheses / "but" / restructure.
+- **banned_vocab_watch for this topic:** "comprehensive", "delve", "dive into", "unveil", "stunning", "amazing", "transform", "elevate", "game-changer" — most likely to slip in for a pricing/informational post. Catch them as they form.
+- **british_english_active:** colour, recognise, -ise, -our, moisturising, specialised — every instance, no exceptions
+- **keyword_density_reminder:** After every 2 H2 sections — count current keyword mentions. Verify running total is on track to hit 17. First half must run denser (10 mentions in first 1100 words). Adjust if needed.
+- **image_path_reminder:** /images/blog/nail-costs/manicure-cost/filename.webp — topic_slug "nail-costs" in path always
+- **internal_link_url_reminder:** Cluster links = /blog/nail-costs/[slug]. Cross-site links = exact URL as discovered. Never bare /slug.
+- **hero_image_reminder:** Hero = frontmatter only. Never place hero image in body.
+- **strong_tag_reminder:** Every "manicure cost" mention = `<strong>` tags. Scan after every paragraph.
+
+---
+
+## SECTION 1: FILE AUTHORITY
+THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. Every keyword, H2 structure, audience insight, internal link, word count, image count, intent signal, and tone recommendation defined here must be followed exactly.
+
+---
+
+## SECTION 2: POST CONSTANTS
+
+```
+slug: manicure-cost
+topic_slug: nail-costs
+canonical: https://mirelleinspo.com/blog/nail-costs/manicure-cost
+post_type: spoke
+intent: informational
+word_count: 2200
+image_count: 9
+template: split-left
+hero_dimensions: 800x800
+category: Nail Costs
+publish_date: 2026-07-07
+author: jyoti-mirelle
+```
+
+---
+
+## SECTION 3: CLUSTER SNAPSHOT
+
+```
+pillar_slug: how-much-do-nails-cost
+pillar_title: How Much Do Nails Cost: Complete Pricing Guide
+pillar_primary_keyword: how much do nails cost
+this_post_slug: manicure-cost
+this_post_role: spoke
+```
+
+**Keywords to avoid (hard wall — never used as focus terms):**
+how much do nails cost / gel nails cost / acrylic nails cost / pedicure cost / nail fills cost / BIAB cost / dip powder cost / expensive nail salons worth it / nail salon cost by state / how to save money on nails / gel vs acrylic almond nails / manicure vs pedicure difference / acrylic vs gel vs press-on prom nails / almond nails beginners guide / why do nails hurt after acrylics / gel vs acrylic nails for work / manicure pricing (reserved for separate cluster)
+
+---
+
+## SECTION 4: SERP ANALYSIS
+
+**Top 3 ranking posts and estimated word counts:**
+1. Airtasker US manicure cost page — est. 1,900 words
+2. overlandparknails.com "Manicure Cost Guide 2026" — est. 2,100 words
+3. otsnj.com "How Much Is a Manicure?" — est. 1,850 words
+**Average: ~1,950 words. Floor = 1,950. Hard target set at 2,200.**
+
+**Competitor gaps (demand-validated on 2+ sources):**
+- None of the top 3 posts break out international pricing (UK/AU/CA) in the same post as US pricing — readers in global markets leave unsatisfied (confirmed: Airtasker UK is a separate page, Canada confirmed on Quora, AU confirmed on Quora and YouTube)
+- No competitor clearly answers "is gel worth the extra cost" with a direct cost-per-day-of-wear framing — Quora and YouTube both show readers asking this with no definitive answer in editorial content
+- Tipping guidance is missing or vague in most competitor posts despite Quora and YouTube showing it as a top follow-up question
+- No competitor addresses what's actually included step by step in a basic manicure before discussing price — leaves first-time readers confused (confirmed: multiple Quora threads and YouTube videos where first-timers express confusion)
+
+**Missing semantic territory:**
+- Cost-per-wear framing for gel vs regular (gel at $40 for 3 weeks = $1.90/day; regular at $20 for 7 days = $2.86/day) — not addressed by any top competitor
+- Annual manicure cost calculation — mentioned once on nailsbyaina.com for Canada but absent from US editorial content
+- What "removal included" vs "removal extra" means for total cost — flagged as a hidden cost driver in overlandparknails.com but not fully explained elsewhere
+
+**Our strategic approach:** This post owns the manicure cost conversation for the first-time salon visitor who has never booked before, and the experienced client who wants clarity on whether gel is actually better value. Unlike competitors who list prices without context, this post frames every price point around value — cost per wear, what's included, what hidden charges to watch for — across all four major Tier 1 markets. The global multi-market breakdown in one post is the differentiator no top competitor has.
+
+**Recommended image count validation:** Top competitor pages average 4–7 images. Our 9 images (including hero) exceed this, adding visual richness that supports engagement and dwell time.
+
+---
+
+## SECTION 5: AUDIENCE INTELLIGENCE
+
+**Who they are:**
+Two distinct sub-audiences, both captured by this post. First: first-timers who have never booked a manicure and want to know what to expect before they walk in — price shock is a real fear. Second: regular salon-goers (mostly 22–45 women) who want to validate whether they're paying a fair price and whether upgrading to gel is worth it. Both audiences are in research mode before booking.
+
+**What they want from this post:**
+A clear, honest breakdown of what every type of manicure costs — with no vague "it depends" hedging. They want a number they can walk into a salon with and feel informed. They also want to understand what they're actually paying for, not just the price tag.
+
+**What frustrates them:**
+- Guides that give huge price ranges ($15–$100) with no context
+- Posts that only cover the US when they're in the UK or Australia
+- Being surprised by extra charges (removal fee, nail art upcharge, French tip premium) they didn't know existed
+- Ambiguity about tipping — how much, whether it's mandatory, whether to tip the salon owner
+
+**Top 5 pain points:**
+1. Not knowing if they're being overcharged at a local salon
+2. Uncertainty about whether gel is worth the premium over regular polish
+3. Hidden fees — removal, nail art, paraffin wax — not listed on the menu
+4. No idea what "basic" vs "deluxe" actually means in practice
+5. Tipping confusion — how much is expected, when to tip more or less
+
+**Exact user phrases (from Quora, YouTube, SalonGeek):**
+- "I went downtown once and it was $50 just for a basic mani and pedi — I nearly choked"
+- "It depends on the area and how skilled the nail tech is"
+- "Call and ask questions before booking"
+- "I've been getting my nails done every week for ten years and I've never paid more than $25"
+- "Why is a basic mani suddenly a luxury service? A $5 set of supplies turns into a $130 appointment"
+- "Does that include removal or is that extra?"
+- "How much should I tip — is 20% expected?"
+- "Gel lasts longer so isn't it actually cheaper in the long run?"
+- "I feel like I can't trust online price lists because every salon is different"
+
+**Intent content signals:**
+- Reader wants specific numbers, not ranges without context
+- Informational intent: they read to budget and decide, not to browse
+- Short scannable sections with clear price anchors work best
+- Global audience means UK, AU, CA pricing data is as important as US
+- First-timer questions (what's included, what to expect) must be answered within the pricing context
+- Direct statements beat hedged "it depends" language throughout
+
+---
+
+## SECTION 6: SEMANTIC KEYWORD DATA
+
+**primary_keyword:** manicure cost *(locked)*
+
+**keyword_variations** (all cannibalization-cleared):
+- how much does a manicure cost
+- manicure price
+- cost of a manicure
+- how much is a manicure
+- manicure prices at salons
+- average manicure cost
+- salon manicure cost
+- regular manicure cost
+- professional manicure cost
+
+**cluster_keywords** (all cleared — none drift into other posts):
+- basic manicure cost
+- gel manicure cost [links to gel-nails-cost spoke — not used as primary focus here]
+- French manicure cost
+- spa manicure cost
+- deluxe manicure cost
+- nail salon manicure price
+- manicure price by type
+- manicure cost UK
+- manicure cost Australia
+- manicure cost Canada
+- how much to tip for a manicure
+- manicure removal cost
+- manicure add-on cost
+- manicure cost first-time
+
+**lsi_terms** (all specific to manicure cost, not parent keyword):
+- cuticle care cost
+- nail trim and shape
+- Polish application
+- paraffin wax treatment price
+- nail art upcharge
+- salon service menu pricing
+- standard polish vs gel comparison
+- UV/LED lamp curing service
+- French tip surcharge
+- manicure appointment length
+- nail technician skill level
+- walk-in vs booked appointment pricing
+- salon location pricing factor
+- boutique salon vs budget salon price difference
+- cost per wear calculation
+- manicure maintenance frequency
+- annual nail spend
+- soak-off removal included
+- mani-pedi bundle pricing
+- weekday salon discount
+
+**aeo_terms** (full question phrases for AI answer engines):
+- How much does a basic manicure cost at a nail salon?
+- What is included in a standard manicure?
+- How much does a gel manicure cost compared to a regular manicure?
+- Is a gel manicure worth the extra cost?
+- What factors affect the cost of a manicure?
+- How much do you tip for a manicure?
+- How much does a manicure cost in the UK?
+- How much does a manicure cost in Australia?
+- How much does a manicure cost in Canada?
+- Why do some salons charge more for a French manicure?
+- What is the difference between a basic and deluxe manicure?
+- How often should you get a manicure and what does that cost per year?
+
+**technical_terms:**
+- UV/LED curing
+- soak-off removal
+- gel overlay
+- cuticle debridement
+- nail dehydration (prep step)
+- free edge sealing
+- nail plate prep
+- builder base
+
+**user_language** (casual phrases from real conversations):
+- "how much should I expect to pay"
+- "is that price with or without tip"
+- "does that include taking the old gel off"
+- "why is it so much more expensive downtown"
+- "I just want a basic polish, nothing fancy"
+- "is gel actually worth it or is it a waste of money"
+- "how often do I need to go back in"
+- "do I have to tip the owner too"
+- "I don't want to get overcharged as a first-timer"
+- "what's actually the difference between basic and deluxe"
+
+---
+
+## SECTION 7: VOICE AND AI QUERIES
+
+**12–18 conversational queries for this primary keyword:**
+
+1. How much does a basic manicure cost at a nail salon?
+2. What is the average manicure cost in the United States?
+3. How much does a gel manicure cost compared to a regular manicure?
+4. Is a gel manicure worth paying more for?
+5. What is included in a standard salon manicure?
+6. How much does a French manicure cost and why is it more expensive?
+7. What factors affect how much a manicure costs?
+8. How much does a manicure cost in the UK?
+9. How much does a manicure cost in Australia?
+10. How much does a manicure cost in Canada?
+11. How much should you tip for a manicure?
+12. What is the difference between a basic and a deluxe manicure?
+13. Why do manicures cost more in big cities than small towns?
+14. Does a salon manicure include removal of old polish?
+15. How much does a spa manicure cost?
+16. Is it cheaper to get a manicure or do your own nails at home?
+17. How much does a manicure cost per year if I go every two weeks?
+18. Why do different salons charge such different prices for the same manicure?
+
+---
+
+## SECTION 8: HOOK AND CTR
+
+**selected_trigger:** Trigger 1 — Curiosity Gap
+
+**trigger_rationale:** The reader is in decision mode — about to book or currently frustrated by price confusion between salons. They suspect there's something they're missing about why prices vary so much and whether they're being overcharged. The curiosity gap trigger resolves that anxiety and rewards them with the clarity they came for.
+
+**title:** Manicure Cost: What You're Actually Paying For in 2026
+**title_char_count:** 53 characters ✓
+
+**meta_description:** Salon menus never explain why gel costs double or what "deluxe" actually adds. Real manicure cost ranges for the US, UK, AU, and CA — plus what to tip and watch for.
+**meta_char_count:** 163 characters
+
+*Note: Meta is 163 chars — trim as follows for hard compliance:*
+**meta_description (trimmed):** Salon menus rarely explain why gel costs double. Real manicure cost ranges for the US, UK, AU, and CA, what's actually included, and what to tip.
+**meta_char_count (trimmed):** 148 characters ✓
+
+**intro_hook_brief:** Open with the specific confusion moment: reader is standing in front of two salon menus, one charges $25, the other $48 for what looks like the same service. The hook is that they're probably not comparing the same thing at all — and by the end they'll know exactly what they're paying for and whether it's fair.
+
+**first_h2_hook_direction:** Phrase the first H2 as a voice search query framing the answer the reader wants: "What Does a Basic Manicure Cost at a Salon?" — then open the section with a direct 2–3 sentence answer before elaborating. Subtle application of the curiosity gap: lead with the definitive number they came for before layering in the context.
+
+---
+
+## SECTION 9: SEARCH JOURNEY
+
+**reader_arrival_state:** The reader is mildly anxious and information-hungry — they want to book a manicure but feel underprepared; they've seen prices vary wildly and do not want to walk into a salon without knowing what's fair.
+
+**journey_arc:**
+1. Arrive with pricing confusion → intro immediately resolves it with a clear number range
+2. Basic service grounded → reader now knows what "standard" means in price and service terms
+3. Upgrade options explained → gel and French costs contextualised, cost-per-wear framing resolves the "is it worth it" anxiety
+4. Hidden variables unpacked → reader understands why prices differ and how to read a salon menu
+5. Global readers served → UK/AU/CA readers get their numbers without being redirected
+6. Exit with confidence → tipping guidance completes the picture; reader knows exactly what to expect and what to budget
+
+**promise_to_deliver:** This post promises to turn pricing confusion into complete clarity — every manicure type, every market, every variable explained with honest numbers.
+
+**exit_state:** Reader leaves feeling informed and ready to book — they know what service to ask for, what it will cost, what to tip, and whether gel is worth the upgrade for their lifestyle.
+
+---
+
+## SECTION 10: CONTENT STRUCTURE
+
+**h1:** Manicure Cost: What You're Actually Paying For in 2026
+
+**H2 structure (ordered, research-driven, query-locked):**
+1. What Does a Basic Manicure Cost at a Salon?
+2. How Much Does a Gel Manicure Cost?
+3. How Much Does a French Manicure Cost?
+4. How Much Does a Spa or Deluxe Manicure Cost?
+5. What Factors Affect the Manicure Cost the Most?
+6. How Much Does a Manicure Cost in the UK, Australia, and Canada?
+7. How Much Should You Tip for a Manicure?
+
+**word_budget:**
+
+| Section | Budget |
+|---|---|
+| Introduction | 230 words |
+| H2-1: Basic Manicure Cost | 260 words |
+| H2-2: Gel Manicure Cost | 250 words |
+| H2-3: French Manicure Cost | 180 words |
+| H2-4: Spa/Deluxe Cost | 200 words |
+| H2-5: Factors Affecting Cost | 260 words |
+| H2-6: International Pricing | 270 words |
+| H2-7: Tipping | 175 words |
+| Conclusion | 175 words |
+| **TOTAL** | **2,000 words body + 200 flex = 2,200** |
+
+---
+
+## SECTION 11: INTERNAL LINKS
+
+**All internal links — Blog Gen Agent places every one of these:**
+
+1. **cluster-pillar**
+   - url: /blog/nail-costs/how-much-do-nails-cost
+   - title: How Much Do Nails Cost: Complete Pricing Guide
+   - anchor_text: how much do nails cost
+   - placement_note: H2-1 (Basic Manicure Cost) — after introducing the basic price range, link to pillar for reader wanting the full service overview
+   - link_type: cluster-pillar
+
+2. **cluster-spoke**
+   - url: /blog/nail-costs/gel-nails-cost
+   - title: How Much Do Gel Nails Cost
+   - anchor_text: gel nails cost
+   - placement_note: H2-2 (Gel Manicure Cost) — at the end of the section, for readers who want a deeper gel-specific breakdown
+   - link_type: cluster-spoke
+
+3. **cluster-spoke**
+   - url: /blog/nail-costs/pedicure-cost
+   - title: How Much Does a Pedicure Cost
+   - anchor_text: how much does a pedicure cost
+   - placement_note: H2-4 (Spa/Deluxe Cost) — natural companion read for someone considering a full treatment
+   - link_type: cluster-spoke
+
+4. **cluster-spoke**
+   - url: /blog/nail-costs/save-money-on-nails
+   - title: How to Save Money on Nails Without Sacrificing Quality
+   - anchor_text: how to save money on nails
+   - placement_note: H2-5 (Factors Affecting Cost) — after explaining cost drivers, readers motivated to reduce spend are directed here
+   - link_type: cluster-spoke
+
+5. **cross-site**
+   - url: https://mirelleinspo.com/nail-faqs/how-long-do-different-types-of-manicures-last
+   - title: How Long Do Different Types of Manicures Last?
+   - anchor_text: how long do different types of manicures last
+   - placement_note: H2-2 (Gel Manicure Cost) — after the cost-per-wear framing, reader naturally wants to know longevity by type
+   - link_type: cross-site
+
+6. **cross-site**
+   - url: https://mirelleinspo.com/nail-faqs/how-to-choose-the-right-nail-salon-near-me
+   - title: How to Choose the Right Nail Salon Near Me
+   - anchor_text: how to choose the right nail salon near you
+   - placement_note: H2-5 (Factors Affecting Cost) — after explaining that salon reputation and quality directly drive price, link to salon selection guide
+   - link_type: cross-site
+
+**Total: 6 internal links — at maximum cap.**
+
+---
+
+## SECTION 12: VOICE AND TONE
+
+**recommended_voice:** Confident, practical educator — the friend who works in beauty and gives you the straight answer before your appointment
+
+**tone_characteristics:**
+- Direct and honest — gives actual numbers without hedging with "it depends" unless the dependency is immediately explained
+- Empathetic to first-timers — acknowledges the anxiety of walking into a salon underprepared without being condescending
+- Respectful of the reader's intelligence — explains the why behind pricing without over-simplifying
+- Calm authority — no hype, no filler, no superlatives
+- Warm without being cheerful — this is a research read, not an inspirational post
+
+**language_style:** Short declarative sentences for price statements. Medium-length sentences for explanations. British English throughout (colour, recognise, specialised, moisturising). Uses "you" naturally. No first-person "I" — Mirellé editorial voice, not personal blog. No rhetorical filler. No opening sentences that begin with "When it comes to" or "In today's world."
+
+**audience_match:** This voice matches a reader who is cautious, budget-aware, and wants to feel like they've done their homework before they sit in the salon chair. They want the answer, not a performance of answering.
+
+---
+
+## SECTION 13: EXTERNAL LINKS
+
+1. **Airtasker US — manicure cost data**
+   - url: https://www.airtasker.com/us/costs/manicure/manicure-cost/
+   - context: Use when citing US average manicure price ranges — Airtasker is a recognised pricing platform with 2026 data
+   - anchor_suggestion: average manicure cost in the US
+
+2. **Airtasker UK — manicure cost data**
+   - url: https://www.airtasker.com/uk/costs/manicure/manicure-cost/
+   - context: Use in the international pricing section — authoritative 2026 UK data
+   - anchor_suggestion: average manicure cost in the UK
+
+3. **StyleSeat — nail pricing breakdown**
+   - url: https://www.styleseat.com/blog/how-much-nails-cost/
+   - context: Use for US city-level pricing data (NYC at $67 average, West Virginia at $24 average) — StyleSeat state-level data is widely cited
+   - anchor_suggestion: how much nails cost by US city
