@@ -1,0 +1,501 @@
+# SEO RESEARCH INPUT FILE — BLOG GEN AGENT
+## POST 9 | CLUSTER: nail-costs | CLUSTER MODE
+
+---
+
+## SECTION 1 — FILE AUTHORITY
+
+THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.
+
+---
+
+## SECTION 2 — POST CONSTANTS
+
+```
+slug:             expensive-nail-salons-worth-it
+topic_slug:       nail-costs
+canonical:        https://mirelleinspo.com/blog/nail-costs/expensive-nail-salons-worth-it
+post_type:        spoke
+intent:           comparison
+word_count:       2100
+image_count:      8
+template:         split-left
+hero_dimensions:  800x800
+category:         Nail Costs
+publish_date:     2026-06-27
+author:           jyoti-mirelle
+```
+
+**Word count rationale:** Top 3 ranking pages (thelocalgem.com ~2,200w, eluxemagazine.com ~1,900w, businessinsuranceusa.com ~1,700w) average ~1,933 words. Floor = 1,933. Set at 2,100 (within 2,800 spoke ceiling). Image count: post intent = comparison → Rule 4 = 8 images total including hero.
+
+---
+
+## SECTION 3 — CLUSTER SNAPSHOT
+
+```
+pillar_slug:              how-much-do-nails-cost
+pillar_title:             How Much Do Nails Cost: Complete Pricing Guide
+pillar_primary_keyword:   how much do nails cost
+this_post_slug:           expensive-nail-salons-worth-it
+this_post_role:           spoke
+```
+
+**Keywords to avoid (hard wall — never use as focus terms):**
+how much do nails cost | gel nails cost | acrylic nails cost | manicure cost | pedicure cost | nail fills cost | BIAB cost | dip powder cost | nail salon cost by state | how to save money on nails | gel vs acrylic almond nails | manicure vs pedicure difference | acrylic vs gel vs press-on prom nails | almond nails beginners guide | why do nails hurt after acrylics | gel vs acrylic nails for work
+
+---
+
+## SECTION 4 — SERP ANALYSIS
+
+**Top 3 competitor word count estimates:**
+- thelocalgem.com/blog/luxury-nail-salon-vs-budget: ~2,200 words
+- eluxemagazine.com (stopped going to cheap nail salons): ~1,900 words
+- businessinsuranceusa.com (deep dive cost guide): ~1,700 words
+- **Average: ~1,933 → Floor set at 1,933 → Post set at 2,100**
+
+**Top 3 keyword density baseline:** Primary keyword "expensive nail salons worth it" appears approximately 6–8 times across top 3 posts (phrase used sparingly; competitors use variations). Baseline: 7 mentions average.
+
+**Competitor gaps (demand-validated on 2+ sources):**
+
+1. **The annual cost maths breakdown** — no competitor calculates the true yearly cost of budget vs premium salons side by side. Quora threads and Reddit repeatedly ask "does cheaper salon actually save money in the long run?" — confirmed on 2+ sources (Quora + Reddit engagement signals).
+
+2. **Signs a salon is genuinely worth the price vs just expensive** — readers on SalonGeek and Quora express frustration that high price ≠ quality. No competitor gives a clear checklist to evaluate whether *this specific* expensive salon deserves the premium. Confirmed: SalonGeek + Quora (2+ sources).
+
+3. **When budget salons are the smarter choice** — current content defaults to "expensive = better." Audience on TikTok and Quora frequently argues budget salons can match quality. Confirmed: TikTok engagement data + Quora threads (2+ sources).
+
+4. **The nail health and safety angle tied to price** — competitors mention sanitation but don't build it as a standalone decision framework. Quora infection questions + SalonGeek safety threads confirm demand (2+ sources).
+
+**Missing semantic territory:**
+- The "worth it calculator" angle — annual spend comparison, not just per-visit
+- Independent nail tech vs luxury salon vs budget chain as a three-way comparison (not just two-tier)
+- Specific red flags that reveal a salon is overcharging without delivering
+
+**Our strategic approach:** This post delivers what competitors avoid — a verdict. Rather than "it depends," we give readers a framework to evaluate any specific salon against its price tag, including an annual cost comparison that shows when budget wins and when premium genuinely saves money. We address the health and hygiene angle not as a caution but as the core decision variable.
+
+**Image count validation:** Competitors use 6–10 images in comparison posts. 8 images confirmed correct for this intent.
+
+---
+
+## SECTION 5 — AUDIENCE INTELLIGENCE
+
+**Who they are:** Regular salon-goers (monthly or more frequent) who have experienced both budget and higher-priced salons and are trying to decide whether to commit to spending more — or justify the spend they're already making. They know the basics of gel and acrylics. They have had at least one disappointing experience at either price point. Equal mix of US and UK readers, ages 25–45. They are not first-timers.
+
+**What they want from this post:** A clear, honest answer with real reasoning — not a hedge. They want to know exactly what the extra money buys, whether those things matter to them specifically, and a framework they can use to evaluate *any* salon, not just a generic "premium is better" recommendation.
+
+**What frustrates them about current content:**
+- Every post says "it depends" without resolving the decision
+- Competitors list benefits of luxury salons in vague terms ("better experience") without being specific
+- No content addresses the cumulative annual cost comparison
+- Most guides don't address what "expensive" actually means — some $80 salons are terrible, some $40 salons are excellent
+
+**Top 5 pain points (comparison-intent specific):**
+
+1. Paid premium prices and still left with nails that chipped in a week — questioning whether the higher price guaranteed anything
+2. Budget salon did great work but had a hygiene red flag that made them nervous — unsure whether to keep going
+3. Want to switch to a more expensive salon but can't justify the monthly cost increase without knowing what they're actually getting
+4. Have heard horror stories about nail infections and are trying to understand whether expensive = safer
+5. Feel loyal to their budget salon tech but wonder if they're missing out on better products and longevity
+
+**Exact user phrases (from Quora, SalonGeek, TikTok):**
+- "is it worth paying more for nails"
+- "does a $100 manicure last longer than a $30 one"
+- "how can I tell if a nail salon is actually good or just expensive"
+- "what am I actually paying for at a luxury nail salon"
+- "my cheap salon does better nails than the expensive one I tried"
+- "is price a good indicator of nail quality"
+- "do expensive salons really use better products"
+- "what to look for to know if a nail salon is worth it"
+- "luxury nail salon vs budget which is better"
+- "nice nails ain't cheap but cheap nails ain't always bad"
+
+**Intent content signals:**
+- Readers want a definitive answer, not a pros/cons list that goes nowhere
+- Side-by-side comparison format is expected and trusted for this query
+- Real price figures increase credibility — vague ranges are not trusted
+- Health/safety angle is a major motivator — not just aesthetics
+- "When to choose X" sections convert better than "pros of X" for comparison intent
+
+---
+
+## SECTION 6 — SEMANTIC KEYWORD DATA
+
+**Primary keyword:** expensive nail salons worth it
+
+**Keyword variations (cannibalization-cleared):**
+- are expensive nail salons worth it
+- is it worth paying more for nails
+- luxury nail salon vs budget
+- high-end nail salon worth the price
+- paying more for nail salon quality
+- premium nail salon value
+- is a luxury manicure worth it
+- should I pay more for a nail salon
+- high-end vs cheap nail salon
+- does price matter at nail salons
+
+**Cluster keywords (cleared — none drift into reserved keywords):**
+- nail salon quality indicators
+- budget nail salon vs luxury
+- nail salon sanitation standards
+- what expensive nail salons offer
+- nail salon product quality difference
+- longevity of nails at expensive salon
+- nail technician experience levels
+- what does a nail salon's price include
+- premium nail brands OPI CND Gelish
+- autoclave sterilisation nail salon
+- nail salon hygiene red flags
+- salon ambience versus nail quality
+- annual cost of nail maintenance
+- independent nail tech vs salon chain
+- how to evaluate nail salon quality
+
+**LSI terms (specific to this post — cleared):**
+- autoclave sterilisation
+- gel longevity comparison
+- nail polish brand quality tiers
+- CND Shellac vs generic gel
+- manicure station hygiene
+- fungal nail infection risk
+- pedicure basin liner replacement
+- nail tech continuing education
+- high-end salon product allocation
+- budget salon cost breakdown
+- salon price vs skill correlation
+- nail service value for money
+- repeat client economics
+- upscale salon overhead costs
+- price-to-quality relationship nails
+
+**AEO terms (full question phrases for AI answer engines):**
+- are expensive nail salons actually better quality
+- what do you get at a luxury nail salon that you don't get at a budget one
+- does paying more for nails mean they last longer
+- how do I know if a nail salon is worth the price
+- is a high-end nail salon safer than a budget one
+- what is the difference between a $30 manicure and a $100 manicure
+- do expensive nail salons use better products
+- how much longer do luxury salon nails last compared to budget
+- is the pampering experience at a luxury salon worth the extra cost
+- when is a budget nail salon the better choice
+- how can you tell if a nail salon is overpriced
+- what makes a nail salon worth paying more for
+
+**Technical terms:**
+- autoclave sterilisation
+- ethyl methacrylate (EMA)
+- Barbicide disinfection
+- gel photopolymerisation
+- methacrylate sensitiser
+- nail plate adhesion
+- UV/LED lamp curing
+
+**User language (from real conversations):**
+- "get what you pay for"
+- "worth it or nah"
+- "nails lasted two weeks at the expensive place vs one week at my regular salon"
+- "couldn't tell the difference honestly"
+- "the vibe at the fancy salon was actually relaxing"
+- "ripped off at a place with designer decor and mediocre nails"
+- "my $25 lady does better nails than anyone I've tried at double the price"
+- "nice nails ain't cheap, cheap nails ain't nice"
+- "sanitation is the one thing I won't compromise on"
+- "if it lasts longer it's cheaper in the long run"
+
+---
+
+## SECTION 7 — VOICE AND AI QUERIES
+
+1. Are expensive nail salons actually worth the extra money?
+2. What do you get at a luxury nail salon that you don't get at a budget one?
+3. Does paying more for a nail salon mean your nails will last longer?
+4. How do I know if a nail salon is worth the price it charges?
+5. Is a high-end nail salon safer than a budget nail salon?
+6. What is the difference between a $30 manicure and a $100 manicure?
+7. Do expensive nail salons really use better products?
+8. How much longer do nails last at a luxury salon compared to a budget salon?
+9. Is the experience at a luxury nail salon worth the extra cost if you just want nice nails?
+10. When is a budget nail salon actually the better choice?
+11. How can you tell if a nail salon is genuinely good or just overpriced?
+12. What should I look for to know if a nail salon is worth paying more for?
+13. Can a cheap nail salon do the same quality work as an expensive one?
+14. What red flags tell you an expensive salon isn't worth it?
+15. Is there a real quality difference between budget and premium nail products at a salon?
+16. How do I calculate whether a more expensive salon is worth it annually?
+
+---
+
+## SECTION 8 — HOOK AND CTR
+
+**Selected trigger:** Trigger 1 — Curiosity Gap
+
+**Trigger rationale:** This reader is in decision mode — uncertain, slightly burned by past experiences at both price points, and comparing. They suspect something they're missing or getting wrong in how they evaluate salons. The curiosity gap ("what most guides don't tell you") matches their frustration with content that never resolves.
+
+**Title:** Are Expensive Nail Salons Worth It? The Honest Answer
+**Title char count:** 55 characters ✅
+
+**Meta description:** Most nail guides say it depends. This one doesn't. We break down exactly what the extra money buys, when it's genuinely worth it, and when to save.
+**Meta char count:** 153 characters ✅
+
+**Intro hook brief:** Open by acknowledging the reader's frustration directly — they've read five articles on this and every single one ended with "it depends." Promise this post won't. The hook should validate that the answer IS there; it just requires knowing the right three things to look at rather than the price alone.
+
+**First H2 hook direction:** Frame as a voice-search question the reader would actually type: "What does the extra money actually go towards?" — this pulls the reader in by reframing from "is it worth it" (vague) to "what am I buying" (concrete).
+
+---
+
+## SECTION 9 — SEARCH JOURNEY
+
+**Reader arrival state:** Mildly frustrated and uncertain. She has spent more than she wanted to at a premium salon and is questioning whether it was worth it — or she's been going to a budget salon and a recent experience (chipping, hygiene concern, or a friend's recommendation) has made her wonder if she's missing something.
+
+**Journey arc:**
+1. Arrives wanting a verdict. First section validates her frustration and promises a real answer.
+2. Understands what the price premium actually covers — broken down concretely (products, tech skill, sanitation, ambience).
+3. Understands when higher price genuinely buys better outcomes (longevity, nail health, safety) vs when it doesn't (ambience, branding, location premium).
+4. Runs through the real annual cost comparison and realises the maths isn't as simple as per-visit price.
+5. Gets a clear personal decision framework — not "it depends" but "choose premium if X, choose budget if Y" — and leaves knowing how to evaluate any salon she walks into.
+
+**Promise to deliver:** By the end of this post, the reader will know exactly what separates a genuinely good salon from an overpriced one, what the extra £30–£50 actually buys, and which choice makes more sense for her specific situation.
+
+**Exit state:** Clear-headed and equipped. She has a framework, a set of specific questions to ask before booking, and a genuine answer to the question she came with — not a hedge.
+
+---
+
+## SECTION 10 — CONTENT STRUCTURE
+
+**H1:** Are Expensive Nail Salons Worth It? The Honest Answer
+
+**H2 structure (ordered):**
+
+1. What Does the Extra Money Actually Go Towards?
+2. Do Expensive Nail Salons Really Use Better Products?
+3. Does a Higher Price Mean Your Nails Will Last Longer?
+4. Is a More Expensive Salon Safer and More Hygienic?
+5. The Annual Cost Maths: When Budget Salons Actually Cost More
+6. When Is a Budget Nail Salon the Better Choice?
+7. How to Tell If a Salon Is Worth Its Price — Before You Book
+
+**Word budget:**
+
+```
+Introduction:                         220 words
+H2-1: What Does the Extra Money...    280 words
+H2-2: Do Expensive Salons Use...      260 words
+H2-3: Does Higher Price Mean...       260 words
+H2-4: Is a More Expensive Salon...    280 words
+H2-5: Annual Cost Maths               260 words
+H2-6: When Budget Is Better           220 words
+H2-7: How to Tell If Worth It         160 words
+Conclusion:                           160 words
+TOTAL:                               2,100 words
+```
+
+---
+
+## SECTION 11 — INTERNAL LINKS
+
+**All internal links (cluster links verbatim, cross-site links with descriptive anchors):**
+
+| # | URL/Slug | Title | Anchor Text | Placement | Type |
+|---|----------|-------|-------------|-----------|------|
+| 1 | /blog/nail-costs/how-much-do-nails-cost | How Much Do Nails Cost | how much do nails cost | H2-1 intro sentence referencing general pricing context | cluster-pillar |
+| 2 | /blog/nail-costs/nail-salon-cost-by-state | Nail Salon Cost by State | nail salon cost by state | H2-5 (annual cost section) — "prices vary significantly by location, see our..." | cluster-spoke |
+| 3 | /blog/nail-costs/acrylic-nails-cost | How Much Do Acrylic Nails Cost | acrylic nails cost | H2-1 or H2-3 when discussing service-specific pricing | cluster-spoke |
+| 4 | /blog/nail-costs/manicure-cost | How Much Does a Manicure Cost | how much does a manicure cost | H2-6 (when budget is better) — referencing entry-level pricing options | cluster-spoke |
+| 5 | /nail-faqs/how-to-choose-the-right-nail-salon-near-me | How to Choose the Right Nail Salon Near Me | how to choose the right nail salon near you — from hygiene to portfolio | H2-7 (how to tell if worth it) — excellent cross-site relevance confirmed by mirelleinspo.com search | cross-site |
+
+**Total links: 5** ✅ (within 4–6 cap)
+
+**Note on cross-site link:** mirelleinspo.com/nail-faqs/how-to-choose-the-right-nail-salon-near-me is confirmed live, covers identical decision territory (hygiene, portfolio, how to evaluate), and fits naturally in H2-7. No second cross-site link needed — one highly relevant link is cleaner than two forced ones.
+
+---
+
+## SECTION 12 — VOICE AND TONE
+
+**Recommended voice:** Confident educator with a direct, opinion-led style — Mirellé's expert friend who has actually done the research and will give a real answer.
+
+**Tone characteristics:**
+- Direct and verdict-led — no sitting on the fence, no "both have merits" without resolution
+- Warm but not precious — acknowledges the frustration without dwelling on it
+- Specific over vague — real price figures, named product brands, concrete percentages where available
+- Occasionally wry — this is a topic where readers have been genuinely misled by vague content; a dry acknowledgement of that lands well
+- Authoritative without being preachy — states what the data shows, then trusts the reader to apply it
+
+**Language style:** Medium sentence length. Second person throughout. Direct assertions ("the biggest difference is…", "this is what the extra money actually pays for"). No rhetorical questions that don't get answered. Short punchy statements for key verdicts. British English throughout.
+
+**Audience match:** This reader is informed and a bit tired of wishy-washy content. She wants someone to tell her what they actually think. The confident educator voice — warm but willing to take a position — matches exactly what she came looking for and what every competitor fails to provide.
+
+---
+
+## SECTION 13 — EXTERNAL LINKS
+
+| URL | Context | Anchor suggestion |
+|-----|---------|-------------------|
+| https://confessionsofanailtechblog.wordpress.com | H2-1 or H2-2 — professional nail tech perspective on product cost and why prices differ | a nail technician's breakdown of what salon pricing actually covers |
+| https://www.thelocalgem.com/blog/luxury-nail-salon-vs-budget | H2-3 or H2-5 — data on gel longevity difference (3–4 weeks luxury vs 2–3 weeks budget) | research comparing gel longevity at luxury vs budget salons |
+| https://eluxemagazine.com/beauty/nails/l-bt-why-i-stopped-going-to-cheap-nail-salons-the-7-things-i-now-look-for-before-i-book-anywhere/ | H2-4 — real first-person account of nail infection from improper sterilisation | one writer's account of switching from cheap to quality salons after an infection |
+
+---
+
+## SECTION 14 — EXECUTION PLAN
+
+**READ THIS SECTION FIRST. Lock every value. Execute exactly.**
+
+---
+
+### BLOCK 1 — KEYWORD EXECUTION
+
+```
+primary_keyword:            expensive nail salons worth it
+top_3_density_baseline:     7 mentions (average across top 3 ranking posts)
+total_mention_target:       10 mentions (7 baseline + 3 additional)
+```
+
+**First 100 words plan:**
+- Mention 1: Sentence 1–2 of introduction — state the primary keyword in the opening claim ("expensive nail salons worth it is one of those questions…" or equivalent natural phrasing)
+- Mention 2: Sentence 4–5 of introduction — restate as the promise of what this post resolves ("whether expensive nail salons are worth it depends on exactly three things…")
+
+```
+first_half_target:     6 mentions — first 1,050 words (run denser in first half)
+second_half_target:    4 mentions — second 1,050 words
+strong_tag_rule:       EVERY mention of "expensive nail salons worth it" → <strong> tags. No exceptions. Scan after every paragraph.
+keywords_to_avoid_active: [full list from Section 3]
+```
+
+---
+
+### BLOCK 2 — WORD BUDGET
+
+```
+total_target:       2,100 words (+/- 50 tolerance, never exceed)
+introduction:       220 words
+conclusion:         160 words
+```
+
+**H2 budgets:**
+
+| Heading | Budget | Complexity |
+|---------|--------|------------|
+| What Does the Extra Money Actually Go Towards? | 280 words | high |
+| Do Expensive Nail Salons Really Use Better Products? | 260 words | medium |
+| Does a Higher Price Mean Your Nails Will Last Longer? | 260 words | medium |
+| Is a More Expensive Salon Safer and More Hygienic? | 280 words | high |
+| The Annual Cost Maths: When Budget Salons Actually Cost More | 260 words | medium |
+| When Is a Budget Nail Salon the Better Choice? | 220 words | medium |
+| How to Tell If a Salon Is Worth Its Price — Before You Book | 160 words | low |
+
+**Tracking rule:** Count running word total at end of every H2 section. If over budget — cut before moving on. Do not compensate later.
+
+---
+
+### BLOCK 3 — IMAGE PLAN
+
+```
+total_images:    8 (from POST_CONSTANTS — comparison intent rule)
+hero_image:      frontmatter only — NEVER in post body
+body_images:     7 images to place in body
+```
+
+**Assignments:**
+
+| # | Place after | Section context |
+|---|-------------|-----------------|
+| 1 | Introduction | Aspirational salon environment — polished, clean, premium feel |
+| 2 | H2-1: What Does the Extra Money Go Towards? | Product display — professional-grade nail polish brands (OPI, CND, Gelish) |
+| 3 | H2-2: Do Expensive Salons Use Better Products? | Close-up of high-quality gel nail finish — glossy, clean edges |
+| 4 | H2-3: Does Higher Price Mean Nails Last Longer? | Before/after longevity comparison or pristine nails at 3 weeks |
+| 5 | H2-4: Is a More Expensive Salon Safer? | Autoclave sterilisation equipment or clean nail tech workstation |
+| 6 | H2-5: Annual Cost Maths | Premium salon environment showing the experience component |
+| 7 | H2-7: How to Tell If Worth It | Nail tech demonstrating precise application — skilled hands at work |
+
+**Image type rule:** ALL body images = inspirational nail or salon environment images. NO infographics. NO process diagrams. NO comparison charts.
+
+**Path rule:** /images/blog/nail-costs/expensive-nail-salons-worth-it/filename.webp
+
+---
+
+### BLOCK 4 — OPENING TECHNIQUE ASSIGNMENTS
+
+**Rule:** No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.
+
+| Section | Technique |
+|---------|-----------|
+| Introduction | Technique 2 — The Contradiction (acknowledge what every other guide does, then subvert it) |
+| H2-1: Extra Money Goes Towards | Technique 3 — The Reframe (reframe "price" as a breakdown of four specific cost components) |
+| H2-2: Better Products | Technique 1 — The Claim (direct statement: yes, products do differ, and here's specifically how) |
+| H2-3: Nails Last Longer | Technique 4 — The Statistic (open with the longevity data: 2–3 weeks vs 3–4 weeks) |
+| H2-4: Safer and More Hygienic | Technique 2 — The Contradiction (price does not guarantee safety — but this one thing does) |
+| H2-5: Annual Cost Maths | Technique 3 — The Reframe (reframe the per-visit price comparison as annual spend) |
+| H2-6: When Budget Is Better | Technique 1 — The Claim (direct: there are real scenarios where budget is the right answer) |
+| H2-7: How to Tell If Worth It | Technique 4 — The Statistic or question lead |
+| Conclusion | Technique 1 — The Claim (verdict summary, direct and clear) |
+
+**Banned opener rule:** Check every opener against banned_opening_approaches in blog gen prompt before writing the second sentence.
+
+---
+
+### BLOCK 5 — LINK PLACEMENTS
+
+| Anchor text | Full URL | Place in section | Placement context | Type |
+|-------------|----------|-----------------|-------------------|------|
+| how much do nails cost | /blog/nail-costs/how-much-do-nails-cost | H2-1 | "For a full breakdown of what each service costs at different price points, see our guide to how much do nails cost" — woven naturally after the price range is introduced | cluster-pillar |
+| acrylic nails cost | /blog/nail-costs/acrylic-nails-cost | H2-3 | "If your main service is acrylics, the longevity question plays out slightly differently — our full acrylic nails cost breakdown covers fill intervals and their impact on annual spend" | cluster-spoke |
+| nail salon cost by state | /blog/nail-costs/nail-salon-cost-by-state | H2-5 | "Because what counts as 'expensive' varies significantly by city, our nail salon cost by state guide gives US readers the regional pricing context this calculation needs" | cluster-spoke |
+| how much does a manicure cost | /blog/nail-costs/manicure-cost | H2-6 | In the "when budget is fine" scenario for occasional manicures — "for the full range of what to expect to pay at this level, see how much does a manicure cost" | cluster-spoke |
+| how to choose the right nail salon near you — from hygiene to portfolio | /nail-faqs/how-to-choose-the-right-nail-salon-near-me | H2-7 | After the checklist, natural handoff: "For a deeper guide to the full evaluation process, our post on how to choose the right nail salon near you — from hygiene to portfolio — covers every step" | cross-site |
+
+---
+
+### BLOCK 6 — AEO AND GEO PLAN
+
+**AEO assignments:**
+
+| AEO term | Assigned to | Execution |
+|----------|-------------|-----------|
+| What is the difference between a $30 manicure and a $100 manicure? | H2-1: What Does the Extra Money Go Towards? | Write a direct 2–3 sentence answer immediately after the H2 heading: "A $30 manicure and a $100 manicure cover the same physical service — shape, cuticle work, colour. What differs is what each salon allocates money to in order to reach that price: products, technician experience, sanitation equipment, and environment. At a budget salon, those allocations are smaller. At a luxury salon, they are the service." |
+| Do expensive nail salons really use better products? | H2-2: Do Expensive Nail Salons Really Use Better Products? | Direct answer first: "Yes, in most cases. Luxury salons typically stock professional-grade brands such as OPI, CND, and Gelish, which are formulated for longevity, colour consistency, and nail health. Budget salons often use unbranded or lower-tier products that chip faster and sit less comfortably on the nail." |
+| How much longer do nails last at a luxury salon? | H2-3: Does a Higher Price Mean Nails Last Longer? | Direct answer first: "Gel manicures at quality salons using premium products last 3–4 weeks without chipping. At budget salons using lower-grade gel, expect 2–3 weeks. That one-week difference means approximately 4–6 fewer appointments per year." |
+| Is a more expensive nail salon safer? | H2-4: Is a More Expensive Salon Safer and More Hygienic? | Direct answer first: "Price is not a reliable indicator of safety. What matters is sterilisation practice — specifically whether the salon autoclaves metal tools, uses new disposable files per client, and replaces pedicure basin liners between clients. Some budget salons meet this standard. Some expensive ones do not." |
+| When is a budget nail salon the better choice? | H2-6: When Is a Budget Nail Salon the Better Choice? | Direct answer first: "A budget salon is the right choice when you visit infrequently (a few times a year), want a quick colour refresh without extensions, or have found a specific technician there whose work you trust and whose hygiene standards you have verified." |
+
+**GEO entity statements:**
+
+| Entity | Assigned to | Execution |
+|--------|-------------|-----------|
+| Autoclave sterilisation | H2-4 | "Autoclave sterilisation uses high-temperature steam to kill bacteria, fungi, and viruses on metal tools. It is the gold standard for nail salon hygiene — more effective than liquid disinfectant alone and the method used by medical and dental facilities." |
+| OPI / CND / Gelish (professional-grade polish brands) | H2-2 | "OPI, CND (Shellac), and Gelish are the three most widely recognised professional-grade gel brands used in quality nail salons. Their formulas are designed for salon longevity, consistent pigment, and minimal nail damage during removal." |
+| EMA (ethyl methacrylate) | H2-2 or H2-4 (as relevant) | "Ethyl methacrylate (EMA) is the monomer used in professional-grade acrylic systems. Higher-quality salons use EMA-based products; older or cheaper alternatives may still use the more aggressive MMA (methyl methacrylate), which is banned for cosmetic use in several countries and associated with nail damage." |
+
+---
+
+### BLOCK 7 — ACTIVE CONSTRAINTS
+
+```
+em_dash_banned:         Long em dash does not appear anywhere. Replace with: comma / new sentence / parentheses / but / restructure.
+
+banned_vocab_watch:     Most likely slip words for this post topic:
+                        - "stunning" (banned)
+                        - "amazing" (banned)
+                        - "absolutely" (banned)
+                        - "perfect" (banned)
+                        - "seamlessly" (banned)
+                        - "delve" (banned)
+                        - "game-changer" (banned)
+
+british_english_active: colour, recognise, -ise, -our, organise, sanitise — every instance, no exceptions
+
+keyword_density_reminder:
+                        After every 2 H2 sections — count current "expensive nail salons worth it" mentions.
+                        Target: 6 mentions in first 1,050 words, 4 in second 1,050 words.
+                        Total target: 10 mentions. Adjust cadence if running light.
+
+image_path_reminder:    /images/blog/nail-costs/expensive-nail-salons-worth-it/filename.webp — topic_slug in path always
+
+internal_link_url_reminder:
+                        Cluster links = /blog/nail-costs/[slug]
+                        Cross-site = exact URL as discovered: /nail-faqs/how-to-choose-the-right-nail-salon-near-me
+                        Never bare /slug.
+
+hero_image_reminder:    Hero = frontmatter only. Never place hero image in body.
+
+strong_tag_reminder:    Every "expensive nail salons worth it" mention = <strong> tags. Scan after every paragraph.
+```
