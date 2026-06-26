@@ -1,0 +1,435 @@
+# SEO INPUT FILE — BLOG GEN AGENT
+## CLUSTER MODE — cluster context loaded
+
+---
+
+## SECTION 1 — FILE AUTHORITY
+
+THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.
+
+---
+
+## SECTION 2 — POST CONSTANTS
+
+| Field | Value |
+|---|---|
+| slug | germany-nails |
+| topic_slug | soccer |
+| canonical | https://mirelleinspo.com/blog/soccer/germany-nails |
+| post_type | spoke |
+| intent | inspirational |
+| word_count | 1800 |
+| image_count | 9 |
+| template | split-left |
+| hero_dimensions | 800x800 |
+| category | Soccer Nails |
+| publish_date | 2026-06-27 |
+| author | Mirellé Team |
+
+**Word count rationale:** Top 3 SERP results for "germany nails" are a Joyee Nails product page (~600 words), a Dirndl Delights Oktoberfest guide (~1400 words), and a Pinterest Ideas page (non-editorial). Editorial competitor average estimated at ~1200 words. Spoke ceiling is 2800. Floor set at 1200, target raised to 1800 to outcompete on depth. Image count: no X+ slug trigger, not pillar, not tutorial, not comparison → Rule 5: 9 images (including hero).
+
+---
+
+## SECTION 3 — CLUSTER SNAPSHOT
+
+| Field | Value |
+|---|---|
+| pillar_slug | soccer-nails |
+| pillar_title | Soccer Nails: 20 Cute Ideas Every Fan Will Love |
+| pillar_primary_keyword | soccer nails |
+| this_post_slug | germany-nails |
+| this_post_role | spoke |
+
+**keywords_to_avoid (hard wall — never use as focus terms):**
+soccer nails, world cup nails, flag nail art, flag country nails, soccer player nails, argentina nails, brazil nails, colombia nails, france nails, england nails, spain nails, portugal nails, messi nails, ronaldo nails
+
+---
+
+## SECTION 4 — SERP ANALYSIS
+
+**competitor_gaps** (demand validated on 2+ sources):
+- No competitor covers germany nails specifically as a World Cup 2026 fan inspiration post — editorial gap confirmed (Pinterest + TikTok signal, no editorial coverage found)
+- No competitor addresses the black/red/gold palette as wearable beyond match day — gap confirmed (Dirndl Delights + flag tutorial sites cover only technique, not styling)
+- No competitor covers Die Mannschaft jersey-inspired nail approaches vs flag-only designs — confirmed gap (Pinterest tags "German tips nails" and "nails for Germany" as distinct searches)
+- No competitor addresses how to do germany nails for short nails specifically — gap on 2+ sources (Pinterest short nail queries + TikTok comments)
+
+**missing_semantic_territory:**
+- Schwarz-Rot-Gold as a fashion colour palette beyond football context
+- Gold chrome as a modern update to the flag palette
+- Die Mannschaft kit (chevron/white base) as nail inspo alternative to pure flag look
+- Press-on germany nails for fans who don't want to DIY
+
+**our_strategic_approach:** Every existing result for "germany nails" is either a product page, a generic flag tutorial, or an Oktoberfest nail post. This post owns the World Cup 2026 fan inspiration angle — 20 designs across DIY, press-on, and salon-level, covering flag, kit, and colour-story approaches. The black, red, and gold palette is positioned as genuinely chic, not just costume-coded.
+
+**top_3_word_count_estimates:** ~600, ~1400, non-editorial. Editorial average: ~1000 words. Floor: 1000. Target set at 1800.
+
+**top_3_keyword_density_baseline:** Estimated 6 mentions average across top editorial results.
+
+---
+
+## SECTION 5 — AUDIENCE INTELLIGENCE
+
+**who_they_are:** Women in Tier 1 markets (primarily UK, US, Canada, Australia) who identify as Germany football fans, German diaspora, or general World Cup followers who want to represent Die Mannschaft. They are active during World Cup 2026 knockout rounds. Mix of nail art beginners wanting a simple flag look and more experienced fans wanting something elevated. The diaspora segment is significant — large German-origin communities in all four Tier 1 markets.
+
+**what_they_want_from_this_post:** 20 germany nails designs they can actually replicate or bring to a salon, spanning easy (striping tape flag), mid (colour-block with accent), and elevated (chrome gold, press-on sets). They want options for short and medium nail lengths. They want the designs to feel current and wearable, not like a face-painted football fan.
+
+**what_frustrates_them:** Current content is either: (a) basic flat flag tutorials from 2014–2016, (b) Oktoberfest-specific with beer mugs and pretzels (irrelevant during World Cup), or (c) product pages selling press-on sets with no styling inspiration. Nothing exists that treats germany nails with the same editorial care as other trend-led nail content.
+
+**top_5_pain_points:**
+1. Flag nails look messy without the right technique — striping tape tips missing from most tutorials
+2. The black/red/gold palette feels heavy and costume-like — no guidance on making it wearable
+3. No options for short nails — all examples show long coffin or almond shapes
+4. Difficulty distinguishing "warm gold" from yellow — wrong gold reads as cartoon, not flag
+5. No press-on options shown — fans who can't DIY have nowhere to go in this content category
+
+**exact_user_phrases (from Pinterest, TikTok, community sources):**
+- "nails for germany world cup"
+- "german flag nails black red gold"
+- "germany nails 2026"
+- "die mannschaft nails"
+- "black red gold nails world cup"
+- "schwarz rot gold nails"
+- "nails for germany game"
+- "easy german flag nails at home"
+- "germany football nails"
+- "how to do germany nails striping tape"
+
+**intent_content_signals:**
+- Visual gallery format — readers want to browse 20 designs, not read technique-heavy tutorials
+- Short technique notes per design (1–2 sentences) — enough to replicate, not a full tutorial
+- Organisation by difficulty level or design type is expected
+- Press-on callout valued — a segment can't DIY and needs to know where to go
+- "Wearable" signal is strong — they want designs that work beyond the 90 minutes
+
+---
+
+## SECTION 6 — SEMANTIC KEYWORD DATA
+
+**primary_keyword:** germany nails
+
+**keyword_variations** (cannibalization-cleared):
+- germany nails 2026
+- germany nail designs
+- germany nail art
+- german flag nails
+- nails for germany
+- germany football nails
+- germany world cup nails
+- germany nail ideas
+- german nails
+- black red gold nails
+
+**cluster_keywords** (cleared, no drift into other posts):
+- schwarz rot gold nails
+- die mannschaft nails
+- germany game day nails
+- germany fan nails
+- germany nail colours
+- black and gold nail art
+- red and gold nails
+- germany press-on nails
+- germany nail inspo
+- germany inspired nails
+- match day nails germany
+- germany watch party nails
+
+**lsi_terms:**
+- striping tape nail art
+- colour-block nails
+- matte black nails
+- warm gold nail polish
+- signal red nails
+- accent nail designs
+- gel nail ideas
+- chrome gold nails
+- short nail designs
+- horizontal stripe nails
+- flag-inspired nail art
+- football fan manicure
+- Schwarz-Rot-Gold colour palette
+- press-on nails game day
+- beginner nail art techniques
+- nail art for fans
+- tournament manicure
+- diagonal stripe nails
+
+**aeo_terms:**
+- What colours are germany nails?
+- How do you do germany nails at home?
+- What nail colours represent Germany?
+- How do you paint the german flag on your nails?
+- What polish colours do I need for germany nails?
+- Are germany nails easy to do at home?
+- What nail shape is best for germany nails?
+- Can I do germany nails on short nails?
+- What is the difference between gold and yellow in germany nail art?
+- How long do germany nails take to do?
+- What are the best press-on germany nails for the World Cup?
+
+**technical_terms:**
+- striping tape
+- gel polish
+- chrome powder
+- accent nail
+- colour-block technique
+- squoval nail shape
+- gel top coat
+
+**user_language:**
+- "nails for the germany game"
+- "german flag on my nails"
+- "I want black red and gold nails"
+- "what gold nail polish for germany"
+- "doing my nails for the germany match"
+- "easy germany nails no freehand"
+- "die mannschaft inspired nails"
+- "germany nails short nails"
+
+---
+
+## SECTION 7 — VOICE AND AI QUERIES
+
+1. What colours do you need for germany nails?
+2. How do you paint germany nails at home with striping tape?
+3. What nail shape works best for germany flag nails?
+4. Can you do germany nails on short nails?
+5. What is the difference between gold and yellow in germany nail art?
+6. How do you make germany nails look wearable and not too costumey?
+7. What are some easy germany nails for beginners?
+8. Are there press-on germany nails for the World Cup 2026?
+9. How do you do germany nails without making the stripes bleed?
+10. What nail designs represent Die Mannschaft?
+11. Can you wear germany nails to work?
+12. What is the best technique for german flag nails at home?
+13. How many coats of each colour do you need for germany nails?
+14. What are the trendiest germany nail designs for 2026?
+15. How do you do a gold chrome accent on germany nails?
+16. How long does it take to do germany nails at home?
+
+---
+
+## SECTION 8 — HOOK AND CTR
+
+**selected_trigger:** Trigger 3 — Specificity / Numbers
+
+**trigger_rationale:** The reader is in inspiration mode, browsing for design options to wear for the Germany match — they want volume and specificity (20 designs), not a problem-solution hook or identity mirror.
+
+**title:** Germany Nails: 20 Black, Red & Gold Designs 2026  
+**title_char_count:** 55
+
+**meta_description:** Germany nails in 2026 go beyond the basic flag. Browse 20 black, red, and gold designs for short nails, press-ons, and salon looks that last the whole tournament.  
+**meta_char_count:** 155
+
+**intro_hook_brief:** Open by establishing that germany nails are having a moment — the palette (Schwarz-Rot-Gold) is more versatile than fans realise, and this post delivers 20 designs from quick DIY to elevated salon looks for every World Cup game.
+
+**first_h2_hook_direction:** Frame the first H2 as a practical audience question: "What colours do you actually need for germany nails?" — sets up the palette section as a direct answer, voice-search optimised, and separates this post from flag tutorials that assume knowledge.
+
+---
+
+## SECTION 9 — SEARCH JOURNEY
+
+**reader_arrival_state:** A Germany fan (football supporter or diaspora) who wants match-ready nails for World Cup 2026 and is frustrated that all existing content is either a 2014 tutorial or an Oktoberfest post.
+
+**journey_arc:**
+1. Arrive: confirm they're in the right place — germany nails 2026, 20 designs, all options
+2. Build: establish the colour palette and what makes it work (warm gold not yellow, matte black option)
+3. Deliver: gallery of designs by type — flag, colour-block, chrome, press-on
+4. Layer: technique tips so they can actually replicate at home
+5. Exit: close with the confidence that their nails will look intentional, not like a face-paint costume
+
+**promise_to_deliver:** 20 germany nails designs that work for every skill level, nail length, and time frame — from five-minute press-on to salon-level chrome.
+
+**exit_state:** Reader feels equipped and excited — they know exactly which design to book or buy, and they know their germany nails will look current, not costumey.
+
+---
+
+## SECTION 10 — CONTENT STRUCTURE
+
+**h1:** Germany Nails: 20 Black, Red & Gold Designs for Die Mannschaft Fans
+
+**h2_structure:**
+1. What Colours Do You Actually Need for Germany Nails?
+2. Easy Germany Nails: Flag Stripe Designs for Beginners
+3. Colour-Block Germany Nails That Work on Any Length
+4. Chrome and Metallic Germany Nails for a Modern Look
+5. Germany Nails for Short Nails
+6. Press-On Germany Nails for Match Day
+7. Germany Nails Beyond the Flag: Kit-Inspired Designs
+
+**word_budget:**
+- Introduction: 220 words
+- H2-1 (Colour palette): 200 words
+- H2-2 (Easy flag designs): 270 words
+- H2-3 (Colour-block): 220 words
+- H2-4 (Chrome/metallic): 220 words
+- H2-5 (Short nails): 180 words
+- H2-6 (Press-ons): 180 words
+- H2-7 (Kit-inspired): 180 words
+- Conclusion: 130 words
+- **Total: 1800 words**
+
+---
+
+## SECTION 11 — INTERNAL LINKS
+
+| URL/Slug | Title | Anchor Text | Placement | Type |
+|---|---|---|---|---|
+| /blog/soccer/soccer-nails | Soccer Nails: 20 Cute Ideas Every Fan Will Love | soccer nails | Introduction — natural mention of the wider category | cluster-pillar |
+| /blog/soccer/world-cup-nails | World Cup Nails 2026 | world cup nails | H2-1 (Colours section) — referencing tournament context | cluster-spoke |
+| /blog/soccer/flag-country-nails | Flag Nail Art: 20 Country Designs for World Cup | flag nail art | H2-2 (Flag stripe section) — reader may want multi-country reference | cluster-spoke |
+| /blog/soccer/england-nails | England Nails: 20 Red & White Designs for Three Lions Fans | england nails | H2-3 (Colour-block) — natural crosslink as Germany's rival with similarly graphic palette | cluster-spoke |
+
+**Total internal links: 4** (within 4–6 cap)
+
+---
+
+## SECTION 12 — VOICE AND TONE
+
+**recommended_voice:** Aspirational guide with editorial confidence
+
+**tone_characteristics:**
+- Warm but knowledgeable — treats the reader as a fan who wants to look good, not a nail novice who needs hand-holding
+- Direct on technique (no vague "apply the polish") — specific tool and colour advice
+- Celebratory of the palette — positions Schwarz-Rot-Gold as genuinely stylish, not just patriotic
+- Inclusive of diaspora identity — Germany fans outside Germany are the core audience
+- Lightly festive — World Cup energy without being breathless
+
+**language_style:** Second-person "you" throughout. Sentences run short to medium. No jargon without explanation. Analogies drawn to fashion (palette, not flag) rather than sport.
+
+**audience_match:** The reader is a fan who wants stylish nails — she is not coming to learn about football. The tone respects that she knows why she wants germany nails; it just gives her the best version of them.
+
+---
+
+## SECTION 13 — EXTERNAL LINKS
+
+| URL | Context | Anchor Suggestion |
+|---|---|---|
+| https://www.joyeenails.com/products/fifa-germany-world-cup-2026-soccer-nails | Press-on section — product reference for readers who want a ready-made set | FIFA Germany World Cup 2026 press-on nails |
+| https://dirndldelights.com/blogs/blog/oktoberfest-nail-art-designs-and-themes | Colour technique section — referencing German flag colour guidance | Oktoberfest nail art colour guide |
+
+---
+
+## SECTION 14 — EXECUTION PLAN
+
+> **Blog Gen Agent reads this section FIRST. Lock every value. Execute exactly.**
+
+### BLOCK 1 — KEYWORD EXECUTION
+
+- **primary_keyword:** germany nails
+- **top_3_density_baseline:** 6 mentions (estimated average across editorial top 3)
+- **total_mention_target:** 9 mentions (baseline 6 + 3). Hard target. Not a percentage.
+- **first_100_words_plan:**
+  - Mention 1: sentence 1 of introduction — "germany nails" in the opening hook statement
+  - Mention 2: sentence 3 of introduction — reinforce in the "what this post covers" statement
+- **first_half_target:** 6 mentions — first 900 words. Run denser in first half.
+- **second_half_target:** 3 mentions — second 900 words
+- **strong_tag_rule:** EVERY single mention of "germany nails" — all 9 of them — wrapped in `<strong>` tags. No exceptions. Scan after every paragraph.
+- **keywords_to_avoid_active:** soccer nails, world cup nails, flag nail art, flag country nails, soccer player nails, argentina nails, brazil nails, colombia nails, france nails, england nails, spain nails, portugal nails, messi nails, ronaldo nails
+
+---
+
+### BLOCK 2 — WORD BUDGET
+
+- **total_target:** 1800 words (+/−50 words tolerance, never exceed)
+
+| Section | Budget | Complexity |
+|---|---|---|
+| Introduction | 220 words | Medium |
+| H2-1: What Colours Do You Actually Need for Germany Nails? | 200 words | Medium |
+| H2-2: Easy Germany Nails: Flag Stripe Designs for Beginners | 270 words | High |
+| H2-3: Colour-Block Germany Nails That Work on Any Length | 220 words | Medium |
+| H2-4: Chrome and Metallic Germany Nails for a Modern Look | 220 words | Medium |
+| H2-5: Germany Nails for Short Nails | 180 words | Low |
+| H2-6: Press-On Germany Nails for Match Day | 180 words | Low |
+| H2-7: Germany Nails Beyond the Flag: Kit-Inspired Designs | 180 words | Low |
+| Conclusion | 130 words | Low |
+
+**tracking_rule:** Track running word total at the end of every H2. If running over — cut before moving to next section.
+
+---
+
+### BLOCK 3 — IMAGE PLAN
+
+- **total_images:** 9
+- **hero_image:** frontmatter only — NEVER in post body
+- **body_images:** 8 images in body
+
+| Image # | Place After | Section Context |
+|---|---|---|
+| 1 | Introduction | Germany nails overview — flag stripe full-hand shot |
+| 2 | H2-1 | Black, red, gold colour palette swatches on nails |
+| 3 | H2-2 | Easy beginner flag stripe design |
+| 4 | H2-2 | Second flag stripe variation (different nail shape) |
+| 5 | H2-3 | Colour-block germany nails — bold solid colour example |
+| 6 | H2-4 | Chrome gold accent germany nails |
+| 7 | H2-5 | Germany nails on short square/squoval nails |
+| 8 | H2-7 | Kit-inspired germany nails — Schwarz-Rot-Gold chevron detail |
+
+**image_type_rule:** ALL body images = inspirational nail design images related to germany nails. NO infographics. NO process diagrams. NO step-by-step visuals.
+
+**path_rule:** /images/blog/soccer/germany-nails/filename.webp — topic_slug in path, slug folder, leading slash
+
+---
+
+### BLOCK 4 — OPENING TECHNIQUE ASSIGNMENTS
+
+| Section | Technique |
+|---|---|
+| Introduction | Technique 2 — The Scene (drop reader into the moment: World Cup 2026, match day energy) |
+| H2-1 | Technique 3 — The Reframe (the palette isn't just patriotic — it's actually a great colour story) |
+| H2-2 | Technique 1 — The Claim (the flag stripe is the most beginner-friendly football nail in any colour system) |
+| H2-3 | Technique 4 — The Question (which colour do you lead with?) |
+| H2-4 | Technique 2 — The Scene (chrome gold over matte black: not football, just beautiful) |
+| H2-5 | Technique 1 — The Claim (short nails work better for germany nails than most people expect) |
+| H2-6 | Technique 3 — The Reframe (press-ons are not a compromise — they are the answer for match-day timing) |
+| H2-7 | Technique 4 — The Question (what if you wore the kit, not the flag?) |
+| Conclusion | Technique 1 — The Claim |
+
+**banned_opener_rule:** Check every opener against banned_opening_approaches in blog gen prompt before writing the second sentence.
+
+---
+
+### BLOCK 5 — LINK PLACEMENTS
+
+| Anchor Text | Full URL | Place In Section | Placement Context | Type |
+|---|---|---|---|---|
+| soccer nails | /blog/soccer/soccer-nails | Introduction | After establishing germany nails as the focus — "for the full range of football-inspired designs, the soccer nails guide covers every angle" | cluster-pillar |
+| world cup nails | /blog/soccer/world-cup-nails | H2-1 (Colours) | When referencing tournament context — "if you want designs for the whole tournament, world cup nails covers every fan type" | cluster-spoke |
+| flag nail art | /blog/soccer/flag-country-nails | H2-2 (Flag stripe) | After covering Germany flag technique — "the flag nail art guide covers ten nations if you want to cross between countries" | cluster-spoke |
+| england nails | /blog/soccer/england-nails | H2-3 (Colour-block) | When noting that the red/white palette of England shares the graphic logic — "england nails uses a similar two-tone approach" | cluster-spoke |
+
+---
+
+### BLOCK 6 — AEO / GEO PLAN
+
+**AEO Assignments:**
+
+| AEO Term | Assigned Section | Execution |
+|---|---|---|
+| What colours do you actually need for germany nails? | H2-1 | Write a direct 2–3 sentence answer immediately after the H2 heading: black, signal red, and warm gold — three polishes, nothing else required. |
+| How do you paint the german flag on your nails at home? | H2-2 | Direct answer paragraph immediately after H2: striping tape method, two lines, three equal bands, remove tape while wet. |
+| Can you do germany nails on short nails? | H2-5 | Direct answer immediately after H2: yes — horizontal stripes compress better on short nails than vertical designs, and colour-block works on any length. |
+| What are the best press-on germany nails for the World Cup? | H2-6 | Direct answer: mention the Joyee Nails FIFA Germany set as a named option, plus the general spec readers should look for. |
+
+**GEO Entity Statements:**
+
+| Entity | Assigned Section | Execution |
+|---|---|---|
+| Schwarz-Rot-Gold | H2-1 | Clear declarative definition: "Schwarz-Rot-Gold is the German name for the national flag's three colours — black, red, and gold — and the palette that defines every germany nails design." |
+| Striping tape | H2-2 | Define clearly: "Striping tape is thin adhesive tape applied before the second colour to mask a clean boundary line — the tool that makes flag stripes crisp rather than freehand-blurred." |
+| Die Mannschaft | H2-7 | Define: "Die Mannschaft is the informal name for the German national football team, and their 2026 World Cup home kit — white with a black-red-gold chevron chest graphic — offers a second design direction beyond the flag itself." |
+
+---
+
+### BLOCK 7 — ACTIVE CONSTRAINTS
+
+- **em_dash_banned:** Long em dash (—) does not appear anywhere in the post body. Replace with: comma / new sentence / parentheses / "but" / restructure. (Note: this execution plan itself uses em dashes for formatting only — post body must not.)
+- **banned_vocab_watch** (most likely to slip for this topic): "stunning", "gorgeous", "amazing", "perfect", "elevate", "game-changer", "fierce", "vibrant"
+- **british_english_active:** colour, recognise, -ise, -our — every instance, no exceptions
+- **keyword_density_reminder:** After every 2 H2 sections — count current "germany nails" mentions. Must be on track for 9 total. First 900 words = 6 mentions. Adjust in real time.
+- **image_path_reminder:** /images/blog/soccer/germany-nails/filename.webp — topic_slug "soccer" always in path
+- **internal_link_url_reminder:** Cluster links = /blog/soccer/[slug]. Never bare /slug. No https:// prefix for internal links.
+- **hero_image_reminder:** Hero = frontmatter only. Never place in body.
+- **strong_tag_reminder:** Every "germany nails" mention = `<strong>germany nails</strong>`. Scan after every paragraph. All 9 mentions. No misses.
+
+ENDOFFILE
