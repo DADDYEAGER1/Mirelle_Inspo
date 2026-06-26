@@ -1,0 +1,476 @@
+# INPUT FILE — BLOG GEN AGENT
+## Post: How Much Do Acrylic Nails Cost | Cluster: nail-costs
+## MODE: CLUSTER MODE — cluster context loaded
+## Author: jyoti-mirelle
+
+---
+
+## SECTION 1 — FILE AUTHORITY
+
+THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.
+
+---
+
+## SECTION 2 — POST CONSTANTS
+
+| Field | Value |
+|---|---|
+| slug | acrylic-nails-cost |
+| topic_slug | nail-costs |
+| canonical | https://mirelleinspo.com/blog/nail-costs/acrylic-nails-cost |
+| post_type | spoke |
+| intent | informational |
+| word_count | 2200 |
+| image_count | 9 |
+| template | split-left |
+| hero_dimensions | 800x800 |
+| category | Nail Costs |
+| publish_date | 2026-07-05 |
+| author | jyoti-mirelle |
+
+**Word count rationale:** Top 3 ranking posts (YoungNails blog ~2,100w, SchoolOfHealthcare ~1,900w, BTArtbox ~2,000w) average 2,000 words. Floor = 2,000. Set at 2,200 — within spoke ceiling of 2,800.
+**Image count rationale:** Spoke, non-tutorial, non-comparison, no X+ slug → Rule 5 applies → 9 images total including hero.
+
+---
+
+## SECTION 3 — CLUSTER SNAPSHOT
+
+| Field | Value |
+|---|---|
+| pillar_slug | how-much-do-nails-cost |
+| pillar_title | How Much Do Nails Cost: Complete Pricing Guide |
+| pillar_primary_keyword | how much do nails cost |
+| this_post_slug | acrylic-nails-cost |
+| this_post_role | spoke |
+
+**Keywords to avoid (hard wall — never use as focus terms):**
+how much do nails cost · gel nails cost · manicure cost · pedicure cost · nail fills cost · BIAB cost · dip powder cost · expensive nail salons worth it · nail salon cost by state · how to save money on nails · gel vs acrylic almond nails · manicure vs pedicure difference · acrylic vs gel vs press-on prom nails · almond nails beginners guide · why do nails hurt after acrylics · gel vs acrylic nails for work
+
+---
+
+## SECTION 4 — SERP ANALYSIS
+
+**Competitor gaps (confirmed on 2+ sources):**
+- No competitor provides clear multi-country pricing in a single post (US + UK + AU + Canada). All rank US-only or UK-only. Confirmed gap: Quora threads + Airtasker AU data both confirm global audience asking this.
+- No competitor breaks down the true annual cost of acrylics (initial set + fills + repairs + removal over 12 months). Polished Cary Nails touches it but buries it; Quora threads repeatedly ask this. Gap confirmed on Quora + YouTube.
+- No competitor addresses the "why did my bill end up so much higher than the menu price?" hidden add-on problem. Confirmed on Quora (multiple threads) + Reddit signals + Polished Cary blog.
+- No competitor gives a clear salon-tier pricing matrix (budget nail bar vs mid-range spa vs high-end boutique) as a structured comparison rather than generic prose. Confirmed need: Quora + BTArtbox both dance around it without delivering it cleanly.
+
+**Missing semantic territory:**
+- Acrylic nail cost by shape (coffin vs almond vs stiletto) — touched by StyleSeat but not owned clearly
+- True cost of maintaining acrylics vs just the first set price
+- What a suspiciously cheap price actually signals (quality/safety risk angle)
+
+**Our strategic approach:**
+This post goes beyond quoting a price range. It gives the reader a complete financial picture — full set, fills, repairs, removal, and annual total — across US, UK, AU, and Canada, with a clear salon-tier matrix so they know exactly what drives the gap between $25 and $120. No other ranking post combines global pricing, hidden add-ons, and annual cost in one place.
+
+**Recommended image count validation:** Competitors average 6–10 images. Our 9 (including hero) = 8 body images. Appropriate for an informational pricing post without an ideas gallery.
+
+---
+
+## SECTION 5 — AUDIENCE INTELLIGENCE
+
+**Who they are:**
+Women aged 18–40, primarily first-timers or occasional acrylic clients, researching before booking. They may be in US, UK, AU, or Canada. They have a specific salon booking in mind or just finished seeing a friend's nails and want to know if they can afford it. Expertise level: beginner to intermediate. They know what acrylic nails are but do not understand the full pricing structure.
+
+**What they want from this post:**
+A trustworthy number they can plan around before they walk into a salon — not a vague range, but real prices for full sets, fills, shapes, and add-ons, plus what to expect in their country or city tier.
+
+**What frustrates them:**
+- Every post gives ranges so wide ($25–$120) they are useless for budgeting
+- No one explains why the menu price differs from the final bill
+- No one tells them the annual cost — they discover it only after committing
+- Most posts only cover the US; non-US readers hit a wall
+
+**Top 5 pain points:**
+1. Walking in expecting to pay $35 and walking out $85 lighter because of add-ons they did not know about
+2. Not understanding the difference between a full set, a fill, and a repair — and what each costs
+3. No sense of whether the price they were quoted is fair or inflated
+4. No clear signal of what a dangerously cheap price actually means for their nail health
+5. Wanting to know if acrylics make financial sense long-term vs alternatives
+
+**Exact user phrases (Quora / real conversations):**
+- "how much should I actually expect to pay for a full set"
+- "my bill was way more than I expected, was I overcharged"
+- "what's included in the base price and what costs extra"
+- "is $25 for acrylics too cheap to be safe"
+- "I get fills every 2 weeks, how much am I spending a year"
+- "do expensive salons give better results or are you just paying for the vibe"
+- "how much extra for coffin vs square"
+- "does adding gel polish really cost $25 more"
+
+**Intent content signals:**
+- Wants real numbers, not ranges described as "it depends"
+- Needs a breakdown by service type (full set / fill / repair / removal)
+- Responds to country-specific price data, not only US-centric content
+- Values warnings about hidden add-ons and how to avoid being caught out
+- Appreciates an honest annual cost calculation
+- Does not need design inspiration here — this is a decision/budget post
+
+---
+
+## SECTION 6 — SEMANTIC KEYWORD DATA
+
+**Primary keyword:** acrylic nails cost
+
+**Keyword variations (all cannibalization-cleared):**
+- how much do acrylic nails cost
+- acrylic nails price
+- how much are acrylic nails
+- cost of acrylic nails
+- acrylic nail prices
+- full set acrylic nails cost
+- how much does a full set of acrylics cost
+- acrylic nail cost UK
+- acrylic nail cost Australia
+- acrylic nails price 2026
+
+**Cluster keywords (cleared — none drift into reserved posts):**
+- acrylic fill cost
+- acrylic nail fill price
+- acrylic nail removal cost
+- acrylic nail repair cost
+- pink and white acrylic nail cost
+- coffin acrylic nail price
+- stiletto acrylic nail cost
+- acrylic nail add-on prices
+- salon acrylic nail prices
+- budget vs high-end acrylic nails
+- acrylic nail annual cost
+- acrylic nails vs gel cost comparison
+- cheap acrylic nails risk
+- nail salon pricing by tier
+- how much do acrylic nail fills cost
+
+**LSI terms (specific to acrylic nails cost — none drift into parent/cluster):**
+- monomer and polymer powder mix
+- liquid monomer application
+- acrylic enhancement full set
+- nail tip extension price
+- sculpted acrylic nails cost
+- gel top coat on acrylics price
+- nail art add-on cost
+- chrome powder acrylic add-on
+- nail extension refill price
+- acrylic overlay cost
+- nail tech experience and pricing
+- salon location price difference
+- budget nail bar pricing
+- premium nail salon pricing
+- Swarovski crystal nail add-on
+- acrylic set with ombre price
+- salon tier pricing matrix
+- acrylic nail annual spend
+- nail repair price per nail
+- professional acrylic nail removal
+
+**AEO terms (full question phrases for AI answer engines):**
+- How much does a full set of acrylic nails cost in 2026?
+- What is the average price of acrylic nails in the UK?
+- How much do acrylic nail fills cost?
+- How much does it cost to get acrylic nails removed?
+- What affects the price of acrylic nails?
+- Why is my acrylic nail bill higher than the menu price?
+- How much do acrylic nails cost in Australia?
+- Is it worth paying more for acrylic nails at a higher-end salon?
+- How much do I spend on acrylic nails per year?
+- How much extra does nail art cost on top of acrylics?
+- What is the difference between a cheap and expensive acrylic nail set?
+- How often do you need acrylic nail fills and how much do they cost?
+
+**Technical terms:**
+- liquid monomer
+- polymer powder
+- acrylic enhancement
+- nail plate prep
+- EMA (ethyl methacrylate)
+- apex placement
+- nail infill / rebalance
+- acrylic nail tip
+
+**User language (casual, from real conversations):**
+- "a full set"
+- "get my acrylics done"
+- "fill appointment"
+- "clicked into the nail bar"
+- "ended up so much more expensive"
+- "how much a year am I spending on nails"
+- "is that price normal"
+- "the salon quoted me X"
+
+---
+
+## SECTION 7 — VOICE AND AI QUERIES
+
+**12–18 conversational queries for AEO optimisation (all locked to acrylic nails cost):**
+
+1. How much does a full set of acrylic nails cost in 2026?
+2. What is the average acrylic nails cost in the UK right now?
+3. How much do acrylic nails cost in Australia?
+4. What does a full set of acrylic nails include in the price?
+5. Why did my acrylic nail bill come out so much higher than expected?
+6. How much extra does gel polish cost on top of acrylic nails?
+7. How much do coffin-shaped acrylic nails cost compared to square?
+8. How often do I need fills and how much does each fill cost?
+9. How much does acrylic nail removal cost at a salon?
+10. What does a single acrylic nail repair cost?
+11. How much do I spend on acrylic nails per year if I get regular fills?
+12. Is a $25 full set of acrylic nails too cheap?
+13. What is the price difference between budget nail bars and high-end salons for acrylics?
+14. How much do French tip acrylic nails cost compared to a plain set?
+15. How much does nail art cost added onto an acrylic set?
+16. What is included in an acrylic nail fill appointment?
+17. How much do acrylic nails cost in Canada?
+18. Why do acrylic nail prices vary so much between salons?
+
+---
+
+## SECTION 8 — HOOK AND CTR
+
+**Selected trigger:** Trigger 1 — Curiosity Gap
+
+**Trigger rationale:** The reader is researching before booking and suspects they may be walking into a situation they do not fully understand — specifically the gap between advertised menu price and final bill. This audience is in decision mode, not inspiration mode. Trigger 1 directly addresses that anxiety.
+
+**Title:** Acrylic Nails Cost: What You'll Actually Pay in 2026
+**Title char count:** 52 characters ✓
+
+**Meta description:** Most salons quote a base price that doesn't match your final bill. Here's the complete acrylic nails cost breakdown — full set, fills, add-ons, and annual spend — across US, UK, and AU.
+**Meta char count:** 183 characters
+
+> **Note to Blog Gen Agent:** Meta is 183 chars — trim to 155 max. Suggested trim: "Most salons quote a base price that doesn't match your final bill. Full set, fills, add-ons, and annual spend — US, UK, and AU prices explained."
+> **Trimmed meta char count:** 145 characters ✓
+
+**Intro hook brief:** Open by naming the exact frustration — you looked up the price, thought you knew what you were paying, then the final number at the till was a shock. That gap is real and explainable. This post is the explanation before the appointment.
+
+**First H2 hook direction:** Phrase the first H2 as a direct answer to the most common voice search: "How much does a full set of acrylic nails cost?" — then deliver the answer in the first two sentences of the section body before elaborating.
+
+---
+
+## SECTION 9 — SEARCH JOURNEY
+
+**Reader arrival state:** Slightly cautious and budget-aware — they want acrylics but they have heard stories about unexpected bills and want to walk in with their eyes open.
+
+**Journey arc:**
+1. Land with the hook that names their exact situation (priced it, still unsure what they'll actually pay)
+2. Get the core answer immediately — full set prices by country and salon tier
+3. Understand what drives the price up — fills, shapes, add-ons, hidden charges
+4. See the full annual picture so they can decide if acrylics are the right long-term choice
+5. Leave knowing exactly what questions to ask at the salon and what a fair price looks like
+
+**Promise to deliver:** By the end of this post, the reader knows the real cost of acrylic nails — not just the menu price, but fills, add-ons, removal, and what a year of acrylics actually costs — so they can budget with confidence.
+
+**Exit state:** Informed and in control — no longer worried about walking into a surprise bill. Ready to book with a clear budget in mind.
+
+---
+
+## SECTION 10 — CONTENT STRUCTURE
+
+**H1:** Acrylic Nails Cost: What You'll Actually Pay in 2026
+
+**H2 structure (ordered, query-driven):**
+
+1. How much does a full set of acrylic nails cost?
+2. Acrylic nail prices by country: US, UK, Australia, and Canada
+3. What actually drives the price up? The main cost factors explained
+4. How much do acrylic nail fills cost — and how often do you need one?
+5. Add-ons that change the final bill: shapes, art, polish, and extras
+6. How much does acrylic nail removal cost?
+7. What does a year of acrylic nails actually cost?
+8. Is a suspiciously cheap set worth the risk?
+
+**Word budget:**
+
+| Section | Budget |
+|---|---|
+| Introduction | 230 words |
+| H2-1: Full set cost | 240 words |
+| H2-2: Prices by country | 280 words |
+| H2-3: What drives the price | 250 words |
+| H2-4: Fill cost and frequency | 220 words |
+| H2-5: Add-ons | 230 words |
+| H2-6: Removal cost | 150 words |
+| H2-7: Annual cost | 240 words |
+| H2-8: Cheap set risk | 200 words |
+| Conclusion | 160 words |
+| **Total** | **2,200 words** |
+
+---
+
+## SECTION 11 — INTERNAL LINKS
+
+**All internal links — Blog Gen Agent places all of these exactly as specified. Anchor texts verbatim. Total = 6 links.**
+
+| # | URL / Slug | Anchor Text | Placement Note | Type |
+|---|---|---|---|---|
+| 1 | /blog/nail-costs/how-much-do-nails-cost | how much do nails cost | H2-1 (full set cost) — first natural mention of comparing service types | cluster-pillar |
+| 2 | /blog/nail-costs/gel-nails-cost | gel nails cost | H2-3 (cost factors) — when comparing acrylic to gel costs naturally | cluster-spoke |
+| 3 | /blog/nail-costs/nail-fills-cost | nail fills cost | H2-4 (fills section) — "for a full breakdown of fill pricing across service types, see our guide to nail fills cost" | cluster-spoke |
+| 4 | /blog/nail-costs/expensive-nail-salons-worth-it | are expensive nail salons worth it | H2-8 (cheap set risk) — natural transition from cheap vs expensive pricing discussion | cluster-spoke |
+| 5 | https://mirelleinspo.com/blog/gel-vs-acrylic-almond-nails | whether gel or acrylic extensions are right for your nail type and lifestyle | H2-3 (cost factors) — when mentioning gel vs acrylic as a decision point beyond just cost | cross-site |
+| 6 | https://mirelleinspo.com/nail-faqs/why-do-my-nails-hurt-after-getting-acrylics | what to expect after your first acrylic appointment including soreness and aftercare | H2-8 (cheap set risk) — connect to nail health consequences of poor application | cross-site |
+
+---
+
+## SECTION 12 — VOICE AND TONE
+
+**Recommended voice:** Trusted informed friend — the kind of person who has done their research so you don't have to be surprised at the till.
+
+**Tone characteristics:**
+- Direct and number-led — gives real figures, not vague ranges
+- Warm but matter-of-fact — not preachy about cheap salons, just clear
+- Globally aware — acknowledges UK, AU, and Canada pricing, not just US-centric
+- Protective without being alarmist — the section on cheap sets is honest, not scaremongering
+- Confident — states things as facts, avoids "it depends" without a resolution
+
+**Language style:** Short-to-medium sentences. Uses "you" naturally and frequently. No jargon without explanation. Numbers presented cleanly in prose, not buried in qualifying language. British English throughout (colour, recognise, -ise).
+
+**Audience match:** This reader is making a financial decision. They want someone to give them real numbers and tell them what to watch for. A warm, no-nonsense tone matches the decision-mode mindset perfectly.
+
+---
+
+## SECTION 13 — EXTERNAL LINKS
+
+| URL | Context | Anchor Suggestion |
+|---|---|---|
+| https://www.styleseat.com/blog/how-much-nails-cost/ | Reference for US pricing data and state-level acrylic price variation | StyleSeat's nationwide nail pricing data |
+| https://www.youngnails.com/blogs/news/how-much-do-acrylic-nails-cost | Industry-side pricing breakdown from professional acrylic product brand | Young Nails acrylic cost breakdown |
+| https://schoolofhealthcare.net/how-much-does-it-cost-for-acrylic-nails/ | UK-specific acrylic pricing data — reliable secondary source | UK acrylic nail pricing guide |
+
+---
+
+## SECTION 14 — EXECUTION PLAN
+
+> **Blog Gen Agent reads this section FIRST. Lock every value. Execute exactly.**
+
+---
+
+### BLOCK 1 — KEYWORD EXECUTION
+
+- **Primary keyword:** acrylic nails cost
+- **Top 3 density baseline:** YoungNails ~14 mentions / SchoolOfHealthcare ~12 mentions / BTArtbox ~13 mentions → average = 13 mentions
+- **Total mention target:** 13 + 2 = **15 mentions** (hard target — not a percentage)
+- **First 100 words plan:**
+  - Mention 1: Sentence 2–3 of introduction — name the primary keyword in the opening framing sentence ("The base price of **acrylic nails cost** at most salons…")
+  - Mention 2: Sentence 5–6 — repeat naturally when stating what this post covers ("everything that goes into **acrylic nails cost** — not just the menu price")
+- **First half target:** 9 mentions in first 1,100 words (run denser early)
+- **Second half target:** 6 mentions in final 1,100 words
+- **Strong tag rule:** EVERY single mention of "acrylic nails cost" — all 15 — wrapped in `<strong>` tags. No exceptions. Scan after every paragraph.
+- **Keywords to avoid active:** Full list from Section 3. In particular: gel nails cost / nail fills cost / BIAB cost / manicure cost / dip powder cost — never used as focus terms anywhere in this post.
+
+---
+
+### BLOCK 2 — WORD BUDGET
+
+- **Total target:** 2,200 words ± 50 words. Never exceed 2,250.
+- **Introduction:** 230 words
+- **Conclusion:** 160 words
+
+| H2 Heading | Budget | Complexity |
+|---|---|---|
+| How much does a full set of acrylic nails cost? | 240 words | Medium |
+| Acrylic nail prices by country: US, UK, Australia, and Canada | 280 words | High |
+| What actually drives the price up? | 250 words | Medium |
+| How much do acrylic nail fills cost? | 220 words | Low-Medium |
+| Add-ons that change the final bill | 230 words | Medium |
+| How much does acrylic nail removal cost? | 150 words | Low |
+| What does a year of acrylic nails actually cost? | 240 words | Medium |
+| Is a suspiciously cheap set worth the risk? | 200 words | Medium |
+
+**Tracking rule:** Track running word total at the end of every H2. If a section runs over — cut before moving on. Do not compensate later.
+
+---
+
+### BLOCK 3 — IMAGE PLAN
+
+- **Total images:** 9 (including hero)
+- **Hero image:** frontmatter only — NEVER appears in post body
+- **Body images:** 8 images placed in body
+
+| # | Place After | Section Context |
+|---|---|---|
+| 1 | H2-1 (full set cost) | Clean, polished acrylic nail set — neutral colour, showing pristine application |
+| 2 | H2-2 (prices by country) | Close-up of freshly done acrylic nails in a salon setting |
+| 3 | H2-3 (cost drivers) | Acrylic nails with nail art / design — shows add-on visual context |
+| 4 | H2-4 (fills) | Nail showing grown-out acrylic with visible regrowth gap — fill context |
+| 5 | H2-5 (add-ons) | Acrylic nails with chrome powder or ombré — represents add-on upgrade |
+| 6 | H2-6 (removal) | Acetone soak-off acrylic removal process |
+| 7 | H2-7 (annual cost) | Woman looking at nails — self-care / decision-making visual |
+| 8 | H2-8 (cheap set risk) | Close-up of well-applied quality acrylic set — implies craftsmanship matters |
+
+**Image type rule:** ALL body images = inspirational/illustrative nail images related to the topic. NO infographics. NO charts. NO comparison tables as images.
+**Path rule:** /images/blog/nail-costs/acrylic-nails-cost/filename.webp — topic_slug in path, slug folder, leading slash.
+
+---
+
+### BLOCK 4 — OPENING TECHNIQUE ASSIGNMENTS
+
+> No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.
+
+| Section | Technique |
+|---|---|
+| Introduction | Technique 2 — The Scenario (place reader in the exact moment of the frustration) |
+| H2-1: Full set cost | Technique 3 — The Reframe (reframe what "base price" actually means) |
+| H2-2: Prices by country | Technique 1 — The Claim (state the country-specific price with confidence) |
+| H2-3: Cost drivers | Technique 4 — The Question (what actually pushes the bill higher?) |
+| H2-4: Fill cost | Technique 2 — The Scenario (you're 2 weeks in, nails are growing out…) |
+| H2-5: Add-ons | Technique 1 — The Claim (add-ons are where most surprise bills come from) |
+| H2-6: Removal cost | Technique 3 — The Reframe (removal is not optional — it is part of the real cost) |
+| H2-7: Annual cost | Technique 4 — The Question (have you ever totalled what you spend on acrylics in a year?) |
+| H2-8: Cheap set risk | Technique 2 — The Scenario (you saw a full set for £15 / $20 — here is what that price signals) |
+| Conclusion | Technique 1 — The Claim |
+
+**Banned opener rule:** Check every opener against banned_opening_approaches in blog gen prompt before writing the second sentence.
+
+---
+
+### BLOCK 5 — LINK PLACEMENTS
+
+| Anchor Text | Full URL | Place In Section | Placement Context | Type |
+|---|---|---|---|---|
+| how much do nails cost | /blog/nail-costs/how-much-do-nails-cost | H2-1 | "For a full comparison of every service type and what drives pricing across the board, the complete guide to how much do nails cost covers every format in one place." | cluster-pillar |
+| gel nails cost | /blog/nail-costs/gel-nails-cost | H2-3 | When mentioning gel vs acrylic pricing as a natural cost comparison: "gel nails cost typically runs slightly lower for basic sets but higher over time due to removal fees" | cluster-spoke |
+| nail fills cost | /blog/nail-costs/nail-fills-cost | H2-4 | "For a deeper breakdown of fill pricing across all service types, our dedicated guide to nail fills cost covers both acrylic and gel infill pricing in full." | cluster-spoke |
+| are expensive nail salons worth it | /blog/nail-costs/expensive-nail-salons-worth-it | H2-8 | Natural bridge after discussing cheap vs quality: "If you're weighing up whether the premium is actually worth paying, we cover that question in full: are expensive nail salons worth it." | cluster-spoke |
+| whether gel or acrylic extensions are right for your nail type and lifestyle | https://mirelleinspo.com/blog/gel-vs-acrylic-almond-nails | H2-3 | When cost factors include material choice: "If you're also weighing up whether gel or acrylic extensions are right for your nail type and lifestyle, that comparison goes deeper than price." | cross-site |
+| what to expect after your first acrylic appointment including soreness and aftercare | https://mirelleinspo.com/nail-faqs/why-do-my-nails-hurt-after-getting-acrylics | H2-8 | After mentioning poor application risks: "Poor prep at a cheap salon is also the most common cause of post-appointment pain — if you want to know what to expect after your first acrylic appointment including soreness and aftercare, that's covered separately." | cross-site |
+
+---
+
+### BLOCK 6 — AEO / GEO PLAN
+
+**AEO assignments:**
+
+| AEO Term | Assigned To | Execution |
+|---|---|---|
+| How much does a full set of acrylic nails cost in 2026? | H2-1 | Write a direct 2–3 sentence answer paragraph IMMEDIATELY after the H2 heading. "A full set of acrylic nails costs between $30 and $60 at most US salons in 2026. High-end salons and major cities push that to $80–$120. UK clients typically pay £25–£50 for a standard set outside London." — before any elaboration. |
+| What affects the price of acrylic nails? | H2-3 | Direct 2–3 sentence answer at section open: "The final price is set by five things: salon location and tier, nail shape, polish type, add-ons, and the technician's experience. Each one stacks independently — which is why two people can pay very different amounts for the same service." |
+| How much do acrylic nail fills cost and how often do you need them? | H2-4 | Direct answer first: "Acrylic fills cost between $20 and $40 in the US and £20–£35 in the UK. Most clients need one every two to three weeks as the natural nail grows." |
+| How much does acrylic nail removal cost? | H2-6 | Direct answer at open: "Professional acrylic nail removal costs $10–$30 in the US and £10–£20 in the UK, depending on the salon and the finish on the nail." |
+| How much do I spend on acrylic nails per year? | H2-7 | Direct answer: "At $30 per fill every three weeks, the annual maintenance alone comes to around $520. Add two new full sets and one repair, and a realistic annual spend is $650–$800." |
+
+**GEO entity statements:**
+
+| Entity | Assigned To | Execution |
+|---|---|---|
+| Acrylic nail full set | H2-1 | "A full set of acrylic nails is the application of acrylic extensions to all ten nails, starting from bare or cleaned-down natural nails. It is the most time-intensive and most expensive acrylic service." |
+| Acrylic nail fill (infill) | H2-4 | "An acrylic nail fill — also called an infill or rebalance — is a maintenance appointment where the nail technician fills in the gap of new nail growth near the cuticle, without removing and redoing the entire set." |
+| Nail salon tier pricing | H2-3 | "Nail salons operate at three broad price tiers: budget nail bars offering fast, affordable services; mid-range spas with a more structured experience; and premium boutique salons charging significantly more for product quality and technician skill." |
+
+---
+
+### BLOCK 7 — ACTIVE CONSTRAINTS
+
+- **Em dash banned:** Long em dash does not appear anywhere in the post. If one forms while writing — stop, replace with: a comma, a new sentence, parentheses, "but", or restructure the sentence.
+- **Banned vocab watch — most likely slip words for this topic:** "amazing" / "elevate" / "stunning" / "transform" / "game-changer" / "deep dive" / "comprehensive" — catch these as they form.
+- **British English active:** colour, recognise, -ise suffixes, -our endings — every instance, no exceptions.
+- **Keyword density reminder:** After every 2 H2 sections — count current "acrylic nails cost" mentions. Verify running total is on track to hit 15. First half (1,100 words) must carry 9 mentions. Adjust if behind.
+- **Image path reminder:** /images/blog/nail-costs/acrylic-nails-cost/filename.webp — topic_slug (nail-costs) always in path.
+- **Internal link URL reminder:** Cluster links = /blog/nail-costs/[slug]. Cross-site links = exact URLs as listed in Block 5. Never bare slugs.
+- **Hero image reminder:** Hero = frontmatter only. Never place hero image in body.
+- **Strong tag reminder:** Every mention of the primary keyword "acrylic nails cost" = `<strong>acrylic nails cost</strong>`. Scan after every paragraph. Zero misses.
+- **No transactional intent:** This is an informational post. No "buy now," no product recommendations, no affiliate product links.
+- **Year tag:** 2026 is in the title — maintain temporal accuracy throughout. Do not reference pricing data older than 2025.
+
+---
+
+*End of Input File — acrylic-nails-cost | nail-costs cluster | jyoti-mirelle*
