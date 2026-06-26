@@ -1,0 +1,497 @@
+# BLOG GEN AGENT INPUT FILE
+## THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT.
+All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.
+
+---
+
+## SECTION 1 — FILE AUTHORITY
+
+THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. Every keyword, H2 structure, audience insight, internal link, word count, image count, intent signal, and tone recommendation defined in this file must be followed exactly. Nothing overridden or reinterpreted unless user explicitly instructs Blog Gen Agent during that session.
+
+**CLUSTER MODE — cluster context loaded.** Post #7 of 16.
+
+---
+
+## SECTION 2 — POST CONSTANTS
+
+> Blog Gen Agent reads this section FIRST and locks all values before doing anything else.
+
+| Field | Value |
+|---|---|
+| slug | `best-nail-shape-for-mature-hands` |
+| topic_slug | `nails-for-older-women` |
+| canonical | `https://mirelleinspo.com/blog/nails-for-older-women/best-nail-shape-for-mature-hands` |
+| post_type | spoke |
+| intent | informational |
+| word_count | **2200** (hard number — ±50 words tolerance, never exceed) |
+| image_count | **9** (rule 5: informational spoke not matching rules 1–4) |
+| template | split-left |
+| hero_dimensions | 800×800 |
+| category | Nail Shapes |
+| publish_date | 2026-06-27 |
+| author | Mirellé Team |
+
+---
+
+## SECTION 3 — CLUSTER SNAPSHOT
+
+| Field | Value |
+|---|---|
+| pillar_slug | `nails-for-older-women` |
+| pillar_title | Best Nail Colors for Women Over 50 |
+| pillar_primary_keyword | nails for older women |
+| this_post_slug | `best-nail-shape-for-mature-hands` |
+| this_post_role | spoke |
+
+**Keywords to avoid (hard wall — never use as focus terms):**
+nails for older women · nail colors for women over 60 · nail colors for women over 40 · nail colors for mature hands · nail colors that age your hands · nail trends for women over 50 2026 · nail shapes that make fingers look longer · brittle nails after 50 · nail care routine for mature hands · elegant nail art for mature hands · french manicure for women over 50 · gel nails vs acrylic for mature hands · nail color for skin tone over 50 · nail ridges after 50 · nail polish to hide veins on hands · nail colors to make hands look younger
+
+---
+
+## SECTION 4 — SERP ANALYSIS
+
+> Use competitor gaps and missing semantic territory to fill what competitors miss. Our strategic approach is the angle for the introduction and conclusion.
+
+**Top 3 ranking posts (word count estimates):**
+- Pure Spa Direct — "What Nail Shape Is Most Flattering for Older Hands?" — approx. 650 words (short, surface-level)
+- Parade/AOL — "The Best Nail Shape for Mature Hands, According to a Celebrity Manicurist" — approx. 800 words (interview format, lacks depth)
+- Hello Magazine — "Chic and Easy Nail Art for Mature Hands" — approx. 1,100 words (but shape section is a subsection, not dedicated post)
+
+**Top 3 average: ~850 words → word count floor is 850 → set hard target at 2200 (well above floor, under 2800 spoke ceiling).**
+
+**Top 3 keyword density baseline:** Primary keyword appears approximately 4–5 times per post on average. Baseline = 5. Total mention target = 5 + 2 = **7 mentions**.
+
+**Competitor gaps (demand-validated on 2+ sources):**
+- No post addresses how nail shape interacts with the specific changes that happen to hands after 50 (thinner skin, wider knuckles, nail bed narrowing with age) — confirmed gap on Quora, Parade, Dr Dana
+- No post gives a clear shape-by-hand-type framework for mature hands specifically (existing guides are generic, not age-specific) — confirmed gap on Pinterest boards, Hello Magazine
+- No post addresses what length to pair with each shape on mature hands — confirmed on Glazeme, Dr Dana, Parade
+- No post addresses how brittle nails after 50 affect which shapes are achievable — confirmed on GoodRx, Reddit health forums
+
+**Missing semantic territory (demand-validated):**
+- "squoval nails for older women" — present in Glam and Journée Mondiale but never its own framing in mature hands context
+- "oval vs almond for mature hands" — comparison angle missing from all competitor posts; both shapes recommended but never directly compared for this audience
+- "nail length for mature hands" — always mentioned in passing but never given a dedicated treatment
+
+**Our strategic approach:** Most competitor posts on this topic are one-size-fits-all lists that name oval, almond, and round without explaining *why* softened shapes work on ageing hands or *how* to choose between them. This post will give the reader a clear decision framework built around the specific changes that happen to hands after 50 — thinner skin, nail bed changes, brittle nails affecting shape durability — so she leaves knowing exactly which shape suits her specific hands, not just a generic recommendation.
+
+**Recommended image count validation:** Competitors use 2–4 images; 9 images is above average but appropriate for an informational post with multiple shape comparisons. Confirmed correct.
+
+---
+
+## SECTION 5 — AUDIENCE INTELLIGENCE
+
+> This is your primary creative brief. Every paragraph written for this specific person with this specific intent. Satisfy them completely.
+
+**Who they are:** Women aged 45–65, primarily 50–60 bracket, who have noticed their hands starting to look different and are actively reassessing their nail choices. They are informed beauty consumers, not beginners — they know what oval and almond are — but they feel uncertain about what actually works *for their hands specifically* now that they are older. Many have been wearing the same nail shape for years (often square or squoval from professional habit) and are wondering if it is still the right choice.
+
+**What they want from this post:** A clear, confident answer to "which shape is actually best for my mature hands, and why" — not a list with no rationale. They want to understand the visual logic so they can make the right call at the salon. They also want to know what to avoid and why, and whether length matters as much as shape.
+
+**What frustrates them:** Generic guides that give the same oval/almond/round list without explaining the reasoning. Guides that do not account for the specific challenges of mature hands (brittle nails, wider knuckles, thinning skin). No guidance on the oval vs almond decision — both are always recommended, but nobody tells you which to choose for your specific hand type.
+
+**Top 5 pain points:**
+1. Nails are more brittle now — does that limit which shapes are achievable?
+2. Fingers look shorter and wider than they used to — which shape actually helps?
+3. They've been wearing square for years at work and aren't sure if it is ageing them
+4. Not sure whether long nails are still an option or whether short is the only sensible choice after 50
+5. Oval vs almond — both are always recommended but nobody explains which one to choose
+
+**Exact user phrases (from Quora, Parade, Hello Magazine, Dr Dana research):**
+- "what nail shape is most flattering for older hands"
+- "does nail shape make hands look younger"
+- "should women over 50 avoid square nails"
+- "oval or almond for mature hands"
+- "do long nails make older hands look worse"
+- "I've noticed my knuckles are more prominent — what shape helps"
+- "my nails break more easily now, does that mean I have to change shape"
+- "best nail shape for wide nail beds over 50"
+- "soft square or squoval for mature hands"
+- "what shapes age your hands"
+- "nail shape that makes fingers look longer after 50"
+- "celebrity manicurist recommendation nail shape older women"
+
+**Intent content signals:**
+1. Informational with a practical decision outcome — reader will go to the salon with this information
+2. Wants clear verdicts, not "it depends" without resolution
+3. Responds to expert authority (celebrity manicurists, dermatologists cited by name)
+4. Visual comparison language helpful — shape-by-shape breakdown
+5. Appreciates the "avoid this" framing — confirms their suspicions about square/stiletto
+6. Short-to-medium reading depth tolerance — scan-friendly with clear H2s but wants enough detail to feel educated
+
+---
+
+## SECTION 6 — SEMANTIC KEYWORD DATA
+
+> Primary keyword in strong tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.
+
+**Primary keyword:** best nail shape for mature hands
+
+**Total mention target:** 7 mentions. First 100 words: 2 mentions mandatory.
+
+**Keyword variations (all cannibalization-cleared):**
+- most flattering nail shape for mature hands
+- nail shape for older hands
+- nail shapes for ageing hands
+- best nail shape for hands over 50
+- flattering nail shapes for older women
+- nail shape for women over 50
+- what nail shape suits mature hands
+- nail shape for ageing fingers
+- nail shape for older women over 50
+- nail shape for hands that show age
+
+**Cluster keywords (cleared — none drift into reserved territory):**
+- oval nail shape for older hands
+- almond nail shape for mature hands
+- squoval nails for mature hands
+- round nails for older women
+- short nail shapes for mature hands
+- soft square nails for ageing hands
+- nail shape and finger length over 50
+- elongating nail shapes
+- nail shapes that soften hands
+- nail shape for wide knuckles
+- nail bed changes with age
+- nail shape for brittle nails
+- nail shape for thinning skin on hands
+- manicure shape for older women
+- age-appropriate nail shapes
+
+**LSI terms (specific to this post — none drift to parent keyword territory):**
+- visual elongation of fingers
+- soft tapered nail shape
+- nail bed narrowing with age
+- prominent knuckles nails
+- rounded nail tip
+- nail shape and vein visibility
+- harsh angular shapes on ageing hands
+- nail shape durability
+- short to medium nail length
+- finger slimming effect
+- graceful nail silhouette
+- softer nail shapes
+- nail shape and skin thinning
+- oval vs almond decision
+- nail shape maintenance for older women
+- filing technique for mature nails
+- shape and nail strength
+- youthful nail silhouette
+- structured gel overlay for shape durability
+- practical nail shape for daily life
+
+**AEO terms (full question phrases for AI answer engines):**
+- what is the best nail shape for mature hands
+- does nail shape make older hands look younger
+- should women over 50 avoid square nails
+- what nail shape makes fingers look longer on older hands
+- is oval or almond better for mature hands
+- what nail shapes age your hands
+- what nail length is most flattering for mature hands
+- can you wear long nails after 50
+- what nail shape works best for wide nail beds over 50
+- why do celebrity manicurists recommend oval for mature hands
+- does nail shape matter more than nail colour for older hands
+- what nail shape is best if my nails are brittle
+
+**Technical terms:**
+- free edge
+- nail bed
+- cuticle line
+- squoval
+- taper / tapered silhouette
+- structured gel overlay
+- BIAB (Builder in a Bottle)
+- nail plate
+
+**User language (from real conversations):**
+- "my hands are starting to show my age"
+- "I've been wearing square for years"
+- "my nails break all the time now"
+- "I want something elegant, not frumpy"
+- "my knuckles are way more visible now"
+- "I don't want to look like I'm trying too hard"
+- "something that looks polished but practical"
+- "soft and feminine without being too young"
+- "I just want something that flatters, not fights me"
+- "I always get told oval but never know which oval"
+
+---
+
+## SECTION 7 — VOICE AND AI QUERIES
+
+> Answer every query directly in the relevant H2 section body. If a query cannot be addressed naturally in the body, route it to faqItems. No query left unanswered.
+
+**Queries (12–18 conversational full-sentence queries):**
+1. What is the best nail shape for mature hands?
+2. Does the shape of my nails actually make my hands look younger?
+3. Should women over 50 stop wearing square nails?
+4. Which nail shape makes fingers look longer after 50?
+5. Is oval or almond better for mature hands?
+6. What nail shapes should I avoid if I have older hands?
+7. My nails break more easily now — does that limit which shapes I can wear?
+8. What nail length is most flattering for mature hands?
+9. Can women over 50 still wear long nails?
+10. What is a squoval nail and is it good for older hands?
+11. Why do manicurists always recommend oval for older women?
+12. What nail shape works best if my knuckles are more prominent?
+13. Does nail shape matter more than nail colour for making hands look younger?
+14. How do I choose between oval and almond for my hand type?
+15. What nail shape is best for wide nail beds on mature hands?
+16. Is almond a good nail shape for women over 50?
+17. How short should I keep my nails after 50?
+18. What is the most elegant nail shape for older women?
+
+---
+
+## SECTION 8 — HOOK AND CTR
+
+> READ THIS SECTION BEFORE WRITING THE TITLE, META DESCRIPTION, INTRO, OR FIRST H2. The title and description are hardcoded here — use them exactly. Do not deviate.
+
+**Selected trigger:** Trigger 1 — Curiosity Gap
+
+**Trigger rationale:** This reader suspects she may be wearing the wrong shape — either still on the square she's had for years, or confused by generic oval/almond advice that never tells her which to choose. A curiosity gap hook confirms that suspicion and promises a clear resolution, matching the informational intent exactly.
+
+**Title:** Best Nail Shape for Mature Hands: What Actually Works
+**Title char count:** 54
+
+**Meta description:** Most guides recommend oval and almond, but never explain which one suits your hands — or why square may be adding years. This is the shape guide built for hands over 50.
+**Meta char count:** 158
+
+> Note: Meta is 158 chars — 3 chars over the 155 ceiling. Trim to: "Most guides name oval and almond but never explain which one suits your hands — or why square may be adding years. Built for hands over 50." (141 chars)
+
+**Corrected meta description:** Most guides name oval and almond but never explain which one suits your hands — or why square may be adding years. Built for hands over 50.
+**Corrected meta char count:** 141
+
+**Intro hook brief:** Open by confirming the reader's suspicion — most shape advice exists, but almost none of it is built specifically for the changes that happen to hands after 50. The hook should position this post as the one that finally gives a clear answer, not a list.
+
+**First H2 hook direction:** Frame the first H2 as a direct answer to the core question, phrased as a voice search query. E.g. "What Is the Best Nail Shape for Mature Hands?" — this signals an immediate, authoritative answer to the most searched intent in this post.
+
+---
+
+## SECTION 9 — SEARCH JOURNEY
+
+> This is the emotional contract with the reader. Every section of the post must honour the promise made.
+
+**Reader arrival state:** She is mildly frustrated — she knows she should probably change her nail shape or at least verify her current one is still working for her, but every guide she finds gives the same vague oval/almond answer without telling her *which* one and *why*.
+
+**Journey arc:**
+1. Arrive and feel immediately seen — yes, this post is specifically about her situation, not generic nail shapes
+2. Get the core answer directly and confidently — no hedging, no "it depends"
+3. Understand the visual logic — why softer shapes work on mature hands, what the changes after 50 actually mean for shape choice
+4. Navigate the oval vs almond question — finally get a clear framework for her specific hand type
+5. Know what to avoid and why — square, stiletto, coffin confirmed as ageing, with the reasoning explained
+6. Leave with a specific shape recommendation she can take to her next salon appointment
+
+**Promise to deliver:** The title and description promise a clear, specific shape answer built for mature hands — not a generic guide. Every section must stay loyal to that specificity.
+
+**Exit state:** She should leave knowing exactly which shape to ask for at her next appointment, why it works for her hands, and which shapes are worth dropping.
+
+---
+
+## SECTION 10 — CONTENT STRUCTURE
+
+> This H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s without user instruction. H3s may be added at editorial discretion.
+
+**H1:** Best Nail Shape for Mature Hands: What Actually Flatters After 50
+
+**H2 structure (ordered):**
+1. What Is the Best Nail Shape for Mature Hands?
+2. Why Softer Shapes Work: What Happens to Hands After 50
+3. Oval Nails: The Classic Choice for Older Hands
+4. Almond Nails: When to Choose This Over Oval
+5. Squoval Nails: The Practical Option That Still Looks Polished
+6. Round Nails: The Low-Maintenance Shape Worth Considering
+7. Nail Shapes to Avoid on Mature Hands (and Why)
+8. How Nail Length Changes Everything After 50
+
+**Word budget:**
+
+| Section | Words |
+|---|---|
+| Introduction | 225 |
+| H2-1: What Is the Best Nail Shape for Mature Hands? | 175 |
+| H2-2: Why Softer Shapes Work: What Happens to Hands After 50 | 250 |
+| H2-3: Oval Nails: The Classic Choice for Older Hands | 225 |
+| H2-4: Almond Nails: When to Choose This Over Oval | 225 |
+| H2-5: Squoval Nails: The Practical Option That Still Looks Polished | 175 |
+| H2-6: Round Nails: The Low-Maintenance Shape Worth Considering | 150 |
+| H2-7: Nail Shapes to Avoid on Mature Hands (and Why) | 225 |
+| H2-8: How Nail Length Changes Everything After 50 | 175 |
+| Conclusion | 175 |
+| **Total** | **2200** |
+
+---
+
+## SECTION 11 — INTERNAL LINKS
+
+> Every link below must appear in the post. Cluster links use anchor texts verbatim — do not rewrite. Cross-site links use the provided descriptive anchor. Place each link where the placement note says. Total internal links: 5.
+
+| # | URL / Slug | Title | Anchor Text | Placement | Type |
+|---|---|---|---|---|---|
+| 1 | `/blog/nails-for-older-women/nails-for-older-women` | Best Nail Colors for Women Over 50 | nails for older women | Introduction or H2-1 — natural cluster reference | cluster-pillar |
+| 2 | `/blog/nails-for-older-women/nail-shapes-that-make-fingers-look-longer` | Nail Shapes That Make Fingers Look Longer | nail shapes that make fingers look longer | H2-3 or H2-4 — when discussing finger elongation effect of oval/almond | cluster-spoke |
+| 3 | `/blog/nails-for-older-women/nail-colors-for-women-over-60` | Nail Colors for Women Over 60 | nail colors for women over 60 | H2-3 or H2-5 — when referencing colour pairing with shape | cluster-spoke |
+| 4 | `/blog/nails-for-older-women/elegant-nail-art-for-mature-hands` | Elegant Nail Art for Mature Hands | elegant nail art for mature hands | H2-7 or H2-8 — when noting what to do once shape is confirmed | cluster-spoke |
+| 5 | `https://mirelleinspo.com/blog/almond-nails-guide` | Almond Nails: The Complete Shape Guide | the full almond nail shape guide for every hand type | H2-4 — directly after almond section, reader wants more detail | cross-site |
+
+---
+
+## SECTION 12 — VOICE AND TONE
+
+> This is the voice for this specific post. Layer on top of Mirellé editorial framework. Do not default to generic AI tone.
+
+**Recommended voice:** Warm expert — a knowledgeable friend who knows nails and also knows what it feels like to reassess your look after 50.
+
+**Tone characteristics:**
+1. Confident and direct — gives clear verdicts, never sits on the fence
+2. Empathetic without being patronising — acknowledges the reader's specific situation without making her feel singled out for being older
+3. Practical — every aesthetic point connected to a real-world consideration (salon appointment, daily life, nail health)
+4. Grounded in expert authority — references celebrity manicurists and dermatologists naturally, not as decoration
+5. Quietly encouraging — the subtext is always "you have good options, here is how to use them"
+
+**Language style:** Conversational British English prose. Short-to-medium sentences. Uses "you" directly. No jargon without immediate explanation. Analogies welcome when they clarify visual concepts. No hedging — if the research supports a verdict, give it.
+
+**Audience match:** This reader wants to feel like she is talking to someone who actually understands her situation — not a beauty writer who has never thought about how ageing affects the nail shape decision. The warm expert voice earns trust quickly and holds it through the whole post.
+
+---
+
+## SECTION 13 — EXTERNAL LINKS
+
+> Include all external links where indicated. Supports E-E-A-T. Use anchor suggestion as guide — write naturally around it.
+
+| URL | Context | Anchor suggestion |
+|---|---|---|
+| `https://parade.com/living/best-nail-shape-for-mature-hands-according-to-a-celebrity-manicurist` | H2-3 or H2-4 — referencing celebrity manicurist Julie Kandalec's recommendation | celebrity manicurist Julie Kandalec |
+| `https://purespadirect.com/blogs/pure-spa-direct-blog/what-nail-shape-is-most-flattering-for-older-hands` | H2-1 or H2-2 — general nail professional consensus on softer shapes | nail professionals consistently recommend |
+| `https://www.hellomagazine.com/healthandbeauty/858830/simple-nail-art-for-mature-hands/` | H2-3 — referencing nail expert Leighton Denny MBE on oval for mature hands | nail expert Leighton Denny MBE |
+
+---
+
+## SECTION 14 — EXECUTION PLAN
+
+> Blog Gen Agent reads this section FIRST. Lock every value. Execute exactly. Do not recalculate, do not adjust, do not deviate.
+
+---
+
+### BLOCK 1 — KEYWORD EXECUTION
+
+- **Primary keyword:** best nail shape for mature hands
+- **Top 3 density baseline:** 5 mentions (average across Parade, Pure Spa Direct, Hello Magazine top 3)
+- **Total mention target:** 7 mentions (5 + 2). This is the hard target. Not a percentage.
+- **First 100 words plan:**
+  - Mention 1: sentence 2 of introduction — establish the topic directly ("finding the **best nail shape for mature hands**…")
+  - Mention 2: sentence 4 of introduction — reinforce intent ("…this guide exists because **best nail shape for mature hands** advice is almost always too generic…")
+- **First half target:** 4 mentions — first 1,100 words
+- **Second half target:** 3 mentions — second 1,100 words
+- **Strong tag rule:** EVERY single one of the 7 mentions wrapped in `<strong>` tags. No exceptions. Scan after every paragraph.
+- **Keywords to avoid active:** Full list from Section 3 — never used as focus terms anywhere in the post.
+
+---
+
+### BLOCK 2 — WORD BUDGET
+
+- **Total target:** 2200 words ±50. Never exceed 2250.
+- **Introduction:** 225 words
+- **Conclusion:** 175 words
+- **H2 budgets:**
+
+| Heading | Budget | Complexity |
+|---|---|---|
+| H2-1: What Is the Best Nail Shape for Mature Hands? | 175 words | low — direct answer paragraph |
+| H2-2: Why Softer Shapes Work: What Happens to Hands After 50 | 250 words | high — visual logic explanation |
+| H2-3: Oval Nails: The Classic Choice for Older Hands | 225 words | medium |
+| H2-4: Almond Nails: When to Choose This Over Oval | 225 words | medium |
+| H2-5: Squoval Nails: The Practical Option That Still Looks Polished | 175 words | medium |
+| H2-6: Round Nails: The Low-Maintenance Shape Worth Considering | 150 words | low |
+| H2-7: Nail Shapes to Avoid on Mature Hands (and Why) | 225 words | high — multiple shapes, specific reasoning |
+| H2-8: How Nail Length Changes Everything After 50 | 175 words | medium |
+
+**Tracking rule:** Track running word total at end of every H2 section. If over budget — cut before moving on.
+
+---
+
+### BLOCK 3 — IMAGE PLAN
+
+- **Total images:** 9 (including hero)
+- **Hero image:** frontmatter only — NEVER in post body
+- **Body images:** 8 images to place in body
+
+| Image # | Place after | Section context |
+|---|---|---|
+| 1 | Introduction | Mature hands close-up with soft oval or almond nails — flattering shape example |
+| 2 | H2-1 | Comparison of shape options on mature hands — oval, almond, squoval side by side |
+| 3 | H2-2 | Elegant mature hands close-up showing soft tapered nails against skin |
+| 4 | H2-3 | Oval nails on mature hands — creamy or neutral finish |
+| 5 | H2-4 | Almond nails on mature hands — mid-length, elegant finish |
+| 6 | H2-5 | Squoval nails on mature hands — practical polished look |
+| 7 | H2-6 | Round short nails on mature hands — natural, low-maintenance finish |
+| 8 | H2-7 | Square or stiletto nails on hands showing why to avoid — contrasting example |
+
+**Image type rule:** ALL body images = inspirational nail design images related to the topic. NO infographics. NO process diagrams. NO comparison charts. NO step-by-step visuals.
+
+**Path rule:** `/images/blog/nails-for-older-women/best-nail-shape-for-mature-hands/filename.webp`
+
+---
+
+### BLOCK 4 — OPENING TECHNIQUE ASSIGNMENTS
+
+> No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.
+
+| Section | Technique |
+|---|---|
+| Introduction | Technique 2 — The Observation (state something the reader already suspects but hasn't seen confirmed) |
+| H2-1 | Technique 1 — The Claim (direct, confident answer) |
+| H2-2 | Technique 3 — The Reframe (shift perspective on why shape works on ageing hands) |
+| H2-3 | Technique 1 — The Claim |
+| H2-4 | Technique 2 — The Observation |
+| H2-5 | Technique 3 — The Reframe |
+| H2-6 | Technique 1 — The Claim |
+| H2-7 | Technique 2 — The Observation |
+| H2-8 | Technique 3 — The Reframe |
+| Conclusion | Technique 1 — The Claim |
+
+**Banned opener rule:** Check every opener against banned_opening_approaches in blog gen prompt before writing the second sentence.
+
+---
+
+### BLOCK 5 — LINK PLACEMENTS
+
+| Anchor text | Full URL | Place in section | Placement context | Type |
+|---|---|---|---|---|
+| nails for older women | `/blog/nails-for-older-women/nails-for-older-women` | Introduction | Natural early reference to the cluster pillar — "…alongside colour choice, covered in our guide to **nails for older women**…" | cluster-pillar |
+| nail shapes that make fingers look longer | `/blog/nails-for-older-women/nail-shapes-that-make-fingers-look-longer` | H2-3 | When discussing oval's finger-elongating effect — "…for the full breakdown on elongating silhouettes see our post on **nail shapes that make fingers look longer**…" | cluster-spoke |
+| nail colors for women over 60 | `/blog/nails-for-older-women/nail-colors-for-women-over-60` | H2-5 | When squoval section mentions colour pairing — "…pair squoval with a classic neutral from our **nail colors for women over 60** guide…" | cluster-spoke |
+| elegant nail art for mature hands | `/blog/nails-for-older-women/elegant-nail-art-for-mature-hands` | H2-8 | Once shape and length are confirmed — "…once you have the right shape, our **elegant nail art for mature hands** post gives you the design inspiration…" | cluster-spoke |
+| the full almond nail shape guide for every hand type | `https://mirelleinspo.com/blog/almond-nails-guide` | H2-4 | End of almond section — "…for a deeper dive, see **the full almond nail shape guide for every hand type**…" | cross-site |
+
+---
+
+### BLOCK 6 — AEO / GEO PLAN
+
+**AEO assignments:**
+
+| AEO term | Assigned to section | Execution |
+|---|---|---|
+| What is the best nail shape for mature hands? | H2-1 | Write a direct 2–3 sentence answer paragraph immediately after the H2 heading — before elaboration. "The best nail shape for mature hands is oval, followed closely by almond and squoval. These shapes create a softened, elongated silhouette that works with the visual changes that come with ageing — without drawing attention to thinning skin or prominent veins." |
+| Is oval or almond better for mature hands? | H2-4 | Write a direct 2–3 sentence answer immediately after H2 heading. "Oval is the safer default for most mature hands — it works across all hand types without needing much length. Almond is the better choice if your nail beds are wide and you want a more defined taper; it requires slightly more free edge to read correctly." |
+| What nail shapes age your hands? | H2-7 | Write a direct 2–3 sentence answer immediately after H2 heading. "Square, stiletto, and coffin nails all draw attention to the hands in ways that emphasise signs of ageing. Their angular or dramatic geometry creates contrast against thinning skin and prominent veins, pulling the eye to the hand rather than away from it." |
+| What nail length is most flattering for mature hands? | H2-8 | Write a direct 2–3 sentence answer immediately after H2 heading. "Short to medium length — where the free edge extends no more than 2–3mm beyond the fingertip — is the most flattering for mature hands. Long nails emphasise knuckle width, visible tendons, and prominence in ways that shape alone cannot counteract." |
+
+**GEO entity statements:**
+
+| Entity | Assigned to section | Execution |
+|---|---|---|
+| Squoval | H2-5 | "Squoval is a hybrid nail shape that combines the straight sides of a square nail with softly rounded corners — giving structure without the harsh right angles that make square nails ageing on mature hands." |
+| Nail bed narrowing with age | H2-2 | "As hands age, the nail bed tends to narrow slightly and the free edge can become thinner and more brittle — changes that affect which shapes are both flattering and structurally achievable." |
+
+---
+
+### BLOCK 7 — ACTIVE CONSTRAINTS
+
+- **Em dash banned:** Long em dash does not appear anywhere. Replace with: comma / new sentence / parentheses / but / restructure.
+- **Banned vocab watch (most likely to slip for this topic):** lovely, stunning, amazing, perfect, basically, totally, effortlessly, timeless, transformative, flawless
+- **British English active:** colour, recognise, -ise, -our — every instance, no exceptions. "Ageing" not "aging". "Favourite" not "favorite". "Practise" (verb) vs "practice" (noun).
+- **Keyword density reminder:** After every 2 H2 sections — count current keyword mentions. Verify running total is on track to hit 7. First half must run denser. Adjust if needed.
+- **Image path reminder:** `/images/blog/nails-for-older-women/best-nail-shape-for-mature-hands/filename.webp` — topic_slug in path always.
+- **Internal link URL reminder:** Full correct paths only. Cluster links = `/blog/nails-for-older-women/[slug]`. Cross-site = exact URL as discovered. Never bare `/slug`.
+- **Hero image reminder:** Hero = frontmatter only. Never place hero image in body.
+- **Strong tag reminder:** Every primary keyword mention = `<strong>` tags. Scan after every paragraph.
