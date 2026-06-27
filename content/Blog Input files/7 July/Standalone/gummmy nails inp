@@ -1,0 +1,502 @@
+{
+  "THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT": "All values in POST_CONSTANTS are hardcoded. Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.",
+
+  "section_1_file_authority": {
+    "statement": "THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly."
+  },
+
+  "section_2_post_constants": {
+    "slug": "gummy-nails",
+    "topic_slug": "gummy-nails",
+    "canonical": "https://mirelleinspo.com/blog/gummy-nails",
+    "post_type": "standalone",
+    "intent": "seasonal_trend",
+    "word_count": 2400,
+    "image_count": 9,
+    "template": "center",
+    "hero_dimensions": "1200x630",
+    "category": "Nail Trends",
+    "publish_date": "2026-06-28",
+    "author": "Mirellé Team"
+  },
+
+  "section_3_cluster_snapshot": "OMITTED — solo mode, no cluster context",
+
+  "section_4_serp_analysis": {
+    "blog_gen_instruction": "Use competitor gaps and missing semantic territory to fill what competitors miss. Our strategic approach is the angle for the introduction and conclusion.",
+    "competitor_gaps": [
+      "No ranking post clearly separates the THREE distinct expressions of gummy nails (3D domed texture vs jelly-candy gloss finish vs gummy bear charms) — every competitor blurs these into one vague aesthetic",
+      "No competitor post explains syrup gel specifically — what it is, why regular gel polish fails to achieve the gummy depth, what to ask for at the salon",
+      "No ranking post addresses which nail shapes carry the 3D gummy texture best and why (oval and almond mirror the dome shape; squoval is the best short-nail route confirmed by The Nail Aesthetic)",
+      "Gap: dark gummy territory (blackcurrant, deep grape, cola) is absent from all competitor content — all competitors default to candy-bright palette only",
+      "Gap: no competitor post explains the cultural context of Gimme Gummy at the depth needed — the ASMR-tactile shift, the NYX pop-up, the post-digital-fatigue driver — validated across Pinterest Predicts, BeautyMatter, First Look Fashion"
+    ],
+    "missing_semantic_territory": [
+      "'Syrup gel' — the specific gel formula that creates gummy depth (confirmed: The Nail Aesthetic, thenailaesthetic.com)",
+      "'Rubberised nail art' — Pinterest's own language for this trend, used in the official Predicts report",
+      "Tactile/sensory beauty as the cultural driver — no competitor post explains why this is a 2026 moment beyond 'it's trending'",
+      "Gummy bear colour block (different colour per nail mimicking a bag of gummies) — Pinterest saves signal high demand, no editorial post covers it as a named design format",
+      "DIY feasibility split — no competitor tells readers clearly what they can achieve at home vs what genuinely requires a skilled technician"
+    ],
+    "our_strategic_approach": "This post establishes gummy nails as three distinct aesthetics (3D domed texture, jelly-candy gloss, charm-based) and gives the reader the editorial clarity to know exactly which version they want before they book an appointment. Every competitor treats gummy nails as a monolith. We treat it as a vocabulary — one the reader needs before walking into a salon. The cultural grounding (Gimme Gummy, Julie Kandalec, NYX pop-up) gives authority; the design specificity gives utility.",
+    "recommended_image_count_validation": "Top competitor posts are predominantly image-heavy (Pinterest boards, TikTok screenshots, design galleries). 9 images confirmed as correct per Rule 5 (standalone, not ideas slug, not tutorial, not comparison)."
+  },
+
+  "section_5_audience_intelligence": {
+    "blog_gen_instruction": "This is your primary creative brief. Every paragraph written for this specific person with this specific intent. Satisfy them completely.",
+    "who_they_are": "Nail enthusiasts aged 18–30, trend-forward, who discovered gummy nails through Pinterest Predicts 2026 or the Gimme Gummy aesthetic on TikTok. They are visually literate and open to statement nail art but want editorial guidance on making it look elevated rather than gimmicky. Many know the word 'gummy nails' from Pinterest saves but are unclear whether it refers to 3D sculpture, a finish, or the charm-based look they've seen on TikTok.",
+    "what_they_want_from_this_post": "To understand what gummy nails actually means — not a vague trend piece but a clear explanation of what finish, what technique, which version is which, and which one they actually want. They want enough vocabulary to describe what they're looking for to a nail tech, and enough design inspiration to know which version fits their aesthetic.",
+    "what_frustrates_them": "Posts that use 'gummy nails' and 'jelly nails' interchangeably without explaining the difference. Posts that show beautiful images but give no guidance on what to ask for. Posts that treat it as a single monolithic trend when it clearly has multiple distinct forms (they've seen domed 3D versions AND flat glossy ones AND charm-based ones and don't know these are different things).",
+    "top_5_pain_points": [
+      "Not knowing if gummy nails = jelly nails or something different (confusion confirmed across Pinterest comments, TikTok descriptions, thenailaesthetic.com FAQ)",
+      "Wanting to know which version is doable at home vs salon-only before committing",
+      "Not knowing what to tell the nail tech — lacking the technical vocabulary ('syrup gel', '3D domed build', 'builder gel')",
+      "Unsure which nail shapes work with the gummy look, especially for shorter nails",
+      "Wanting the trend context — why is this a 2026 thing, is it actually happening or just Pinterest hype?"
+    ],
+    "exact_user_phrases": [
+      "'what are gummy nails exactly'",
+      "'gummy nails vs jelly nails difference'",
+      "'how to get gummy nails at home'",
+      "'3D gummy nail designs'",
+      "'gummy bear nails ideas 2026'",
+      "'what to ask for gummy nails salon'",
+      "'gummy nail colors'",
+      "'gimme gummy nails trend'",
+      "'syrup gel nails'",
+      "'rubberised nails'",
+      "'gummy nails short nails'",
+      "'do gummy bear charms stay on nails'"
+    ],
+    "intent_content_signals": [
+      "Trend-anchored framing is essential — this reader wants confirmation the trend is real and 2026 is its moment before investing time/money",
+      "Design specificity over generic inspiration — they want named formats (domed single-colour, gummy bag colour block, jelly-candy gloss) not just images",
+      "Salon vs DIY split is a high-priority need — flag this early and return to it per design type",
+      "Technical vocabulary should be taught, not assumed — define 'syrup gel', 'builder gel', '3D dome' as you use them",
+      "Visual descriptions must be genuinely dimensional — readers who can't see images need enough description to picture it"
+    ]
+  },
+
+  "section_6_semantic_keyword_data": {
+    "blog_gen_instruction": "Primary keyword in strong tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.",
+    "primary_keyword": "gummy nails",
+    "keyword_variations": [
+      "gummy nail designs",
+      "gummy nail trend",
+      "gummy nails 2026",
+      "3D gummy nails",
+      "gummy bear nails",
+      "gummy nail aesthetic",
+      "gummy nail look",
+      "gummy nail finish",
+      "rubberised nail art",
+      "gimme gummy nails"
+    ],
+    "cluster_keywords": [
+      "syrup gel nails",
+      "gummy bear charm nails",
+      "3D nail texture",
+      "jelly-candy finish",
+      "builder gel nails",
+      "tactile nail art",
+      "edible nails aesthetic",
+      "gummy bag colour block nails",
+      "dome-shaped gel nails",
+      "candy nail colours",
+      "squished gel nails",
+      "hard candy nails",
+      "translucent coloured nails",
+      "ASMR nail aesthetic",
+      "Gimme Gummy trend"
+    ],
+    "lsi_terms": [
+      "UV/LED nail lamp",
+      "gel nail layers",
+      "nail tech vocabulary",
+      "raised gel texture",
+      "candy-bright nail colours",
+      "cherry red nails",
+      "grape purple nails",
+      "lemon yellow nails",
+      "watermelon pink nails",
+      "lime green nails",
+      "pastel gummy nails",
+      "dark gummy nails",
+      "nail shape for gummy",
+      "squoval nails",
+      "almond nail shape",
+      "nail art 2026",
+      "Pinterest Predicts 2026",
+      "sensory beauty trend",
+      "edible-looking manicure",
+      "soft squishy nail finish"
+    ],
+    "aeo_terms": [
+      "What are gummy nails?",
+      "What is the difference between gummy nails and jelly nails?",
+      "How are 3D gummy nails made?",
+      "Can you do gummy nails at home?",
+      "What nail shape is best for gummy nails?",
+      "What colours work best for gummy nails?",
+      "Why are gummy nails trending in 2026?",
+      "What is syrup gel and why do you need it for gummy nails?",
+      "Are gummy bear charm nails the same as gummy nails?",
+      "How long do gummy nails last?",
+      "What should I ask my nail tech for gummy nails?",
+      "Do gummy nails work on short nails?"
+    ],
+    "technical_terms": [
+      "builder gel",
+      "syrup gel",
+      "3D gel dome",
+      "non-wipe gel",
+      "UV/LED cure",
+      "gel curing lamp",
+      "gel layering technique",
+      "hard gel sculpt"
+    ],
+    "user_language": [
+      "nails that look like you could eat them",
+      "that squishy-looking manicure",
+      "nails that look like a gummy bear",
+      "the juicy nail look",
+      "nails with depth",
+      "that edible nail trend",
+      "looks like candy on your nails",
+      "the rubberised nail thing",
+      "dimensional nails",
+      "gummy candy vibes"
+    ]
+  },
+
+  "section_7_voice_and_ai_queries": {
+    "blog_gen_instruction": "Answer every query directly in the relevant H2 section body. If a query cannot be addressed naturally in the body, route it to faqItems. No query left unanswered.",
+    "queries": [
+      "What are gummy nails exactly?",
+      "What is the difference between gummy nails and jelly nails?",
+      "Why are gummy nails trending in 2026?",
+      "How do you make nails look like gummy bears?",
+      "What is syrup gel and do I need it for gummy nails?",
+      "What are 3D gummy nails?",
+      "Can I do gummy nails at home without a UV lamp?",
+      "What nail shape works best for 3D gummy nails?",
+      "Do gummy nails work on short nails?",
+      "What colours should I choose for gummy nails?",
+      "What is the dark gummy nail trend?",
+      "Are gummy bear charm nails the same as gummy nails?",
+      "How long do 3D gummy nails last?",
+      "What do I say to my nail tech to get gummy nails?",
+      "What is the Gimme Gummy trend on Pinterest?",
+      "Can you get gummy nails on coffin shape?",
+      "What is the difference between gummy nails and candy nails?",
+      "Are gummy nails hard to remove?"
+    ]
+  },
+
+  "section_8_hook_and_ctr": {
+    "blog_gen_instruction": "READ THIS SECTION BEFORE WRITING THE TITLE, META DESCRIPTION, INTRO, OR FIRST H2. The title and description are hardcoded here — use them exactly. The intro hook brief and first H2 hook direction are your creative brief for those specific elements. Do not deviate.",
+    "selected_trigger": "Trigger 2 — FOMO / Trend Urgency",
+    "trigger_rationale": "This reader arrived trend-aware but uncertain — they've seen the aesthetic on Pinterest or TikTok and want to confirm they're in the right place and that this is real. FOMO/trend urgency plus the '2026' signal is precisely what converts them from curiosity to investment.",
+    "title": "Gummy Nails: The Juicy 3D Trend Taking Over 2026",
+    "title_char_count": 51,
+    "meta_description": "Gummy nails are 2026's most tactile nail trend — three distinct looks, one juicy aesthetic. See every design and what to ask your nail tech.",
+    "meta_char_count": 133,
+    "intro_hook_brief": "Open by confirming this is the trend they spotted and establishing that 2026 is genuinely its moment — use the Pinterest Predicts 'Gimme Gummy' signal and Julie Kandalec's Tokyo Nail Expo quote as immediate authority. Then immediately define what gummy nails actually are in one crisp sentence before any further context.",
+    "first_h2_hook_direction": "Phrase the first H2 as a direct answer to the question the reader is already asking: frame it as 'What Are Gummy Nails?' — phrased as a voice search query, establishing the vocabulary the reader needs before anything else."
+  },
+
+  "section_9_search_journey": {
+    "blog_gen_instruction": "This is the emotional contract with the reader. Every section of the post must honour the promise made. Read this before writing any section. If a paragraph breaks the journey arc — rewrite it.",
+    "reader_arrival_state": "Trend-curious and slightly uncertain — they've saved the aesthetic but aren't fully sure what they're looking at or which version they want.",
+    "journey_arc": [
+      "Confirm they're in the right place: this is a real 2026 trend, here's the evidence, here's what it actually means",
+      "Clarify the three distinct expressions — give them the vocabulary to understand what they've been saving",
+      "Show them each design format in enough detail they can identify their version",
+      "Guide them through colour, shape, and the salon vs DIY split so they know exactly what to do next",
+      "Close with the exact language to use with their nail tech — the 'this is what to get' moment"
+    ],
+    "promise_to_deliver": "By the end of this post, the reader knows exactly what gummy nails are, which version they want, and what to say to make it happen.",
+    "exit_state": "Confident, specific, ready to book — with a reference image saved and the vocabulary to describe it."
+  },
+
+  "section_10_content_structure": {
+    "blog_gen_instruction": "This H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s without user instruction. Word budget per section is set — follow it. H3s may be added at editorial discretion.",
+    "h1": "Gummy Nails: The Juicy 3D Trend Taking Over 2026",
+    "h2_structure": [
+      "What Are Gummy Nails? (And Why 2026 Is Their Moment)",
+      "Gummy Nails vs Jelly Nails: What's Actually Different",
+      "3D Gummy Texture Nails: The Domed, Squishy-Looking Build",
+      "Jelly-Candy Gloss Gummy Nails: The Wearable Version",
+      "Gummy Bear Charm Nails: When to Choose the Charm Route",
+      "Gummy Nail Colours: The Full Palette From Classic to Dark",
+      "Which Nail Shapes Work Best for Gummy Nails",
+      "Salon vs DIY: What You Can Actually Do at Home",
+      "What to Tell Your Nail Tech"
+    ],
+    "word_budget": {
+      "introduction": "230 words",
+      "h2_1_what_are_gummy_nails": "280 words",
+      "h2_2_gummy_vs_jelly": "220 words",
+      "h2_3_3d_texture": "280 words",
+      "h2_4_jelly_candy_gloss": "250 words",
+      "h2_5_charm_nails": "200 words",
+      "h2_6_colours": "250 words",
+      "h2_7_nail_shapes": "200 words",
+      "h2_8_salon_vs_diy": "230 words",
+      "h2_9_what_to_tell_tech": "210 words",
+      "conclusion": "170 words"
+    }
+  },
+
+  "section_11_internal_links": {
+    "blog_gen_instruction": "Every link below must appear in the post. Use the provided anchor text exactly. Place each link where the placement note says — woven naturally into prose, never as a standalone CTA. Total internal links must not exceed 6.",
+    "all_internal_links": [
+      {
+        "url_or_slug": "/blog/jelly-nails",
+        "title": "Jelly Nails",
+        "anchor_text": "jelly nails",
+        "placement_note": "H2-2 (Gummy Nails vs Jelly Nails) — when explaining the overlap and how jelly nails are the sheer translucent predecessor that gummy nails evolved from",
+        "link_type": "cross-site"
+      },
+      {
+        "url_or_slug": "/blog/candy-nails",
+        "title": "Candy Nails",
+        "anchor_text": "candy nails",
+        "placement_note": "H2-1 (What Are Gummy Nails) — when anchoring gummy within the broader candy nail aesthetic family",
+        "link_type": "cross-site"
+      },
+      {
+        "url_or_slug": "/blog/fruit-nails/fruit-nails",
+        "title": "Fruit Nails",
+        "anchor_text": "fruit nails",
+        "placement_note": "H2-3 (3D Gummy Texture) — when referencing 3D sculptural techniques and the broader 3D nail art moment that gummy nails sit within",
+        "link_type": "cross-site"
+      },
+      {
+        "url_or_slug": "/blog/summer-nail-trends-2026",
+        "title": "Summer Nail Trends 2026",
+        "anchor_text": "summer nail trends 2026",
+        "placement_note": "H2-1 (What Are Gummy Nails / Why 2026 Is Their Moment) — when contextualising gummy nails within the wider summer 2026 tactile nail moment",
+        "link_type": "cross-site"
+      },
+      {
+        "url_or_slug": "/blog/jelly-nails/neon-jelly-nails",
+        "title": "Neon Jelly Nails",
+        "anchor_text": "neon jelly nails",
+        "placement_note": "H2-6 (Gummy Nail Colours) — when covering the neon candy-bright palette (cherry, lime, citrus) that bridges neon jelly and gummy aesthetics",
+        "link_type": "cross-site"
+      }
+    ]
+  },
+
+  "section_12_voice_tone": {
+    "blog_gen_instruction": "This is the voice for this specific post. Layer on top of Mirellé editorial framework. Do not default to generic AI tone.",
+    "recommended_voice": "Confident trend authority with editorial restraint — knowledgeable about technique, specific about design, never hype-y",
+    "tone_characteristics": [
+      "Specific over vague — names designs, names techniques, never says 'so cute' or 'gorgeous'",
+      "Trend-grounded — every trendiness claim backed by a named signal (Julie Kandalec, Pinterest Predicts, NYX pop-up)",
+      "Reader-serving — the post gives vocabulary and confidence, not just inspiration",
+      "Tactile in language — descriptions should make the reader feel the finish, not just picture it",
+      "Editorial pace — sentences earn their length; no padding, no filler"
+    ],
+    "language_style": "Confident declarative sentences with no hedging. Use 'you' naturally but don't over-personalise. Technical terms taught in context, not assumed. British English throughout — colour, recognise, translucent rather than see-through.",
+    "audience_match": "This reader is sophisticated enough to want real information and young enough to want it delivered with a point of view. They respond to confidence and specificity, not listicle energy or generic enthusiasm."
+  },
+
+  "section_13_external_links": {
+    "blog_gen_instruction": "Include all external links where indicated. Supports E-E-A-T. Use anchor suggestion as guide — write naturally around it.",
+    "links": [
+      {
+        "url": "https://www.whowhatwear.com/beauty/nails/2026-nail-trends",
+        "context": "When citing Julie Kandalec's Tokyo Nail Expo quote about 3D gummy nails in H2-1 or H2-3",
+        "anchor_suggestion": "celebrity nail artist Julie Kandalec"
+      },
+      {
+        "url": "https://business.pinterest.com/pinterest-predicts/2026/gimme-gummy/",
+        "context": "When referencing the official Pinterest Predicts 2026 Gimme Gummy trend data (jelly candy aesthetic +100%, gummy bears aesthetic +50%) in H2-1",
+        "anchor_suggestion": "Pinterest Predicts 2026 Gimme Gummy report"
+      },
+      {
+        "url": "https://cosmeticsbusiness.com/nyx-pinterest-predicts-popup-gimme-gummy-trend-LA-westfield",
+        "context": "When citing the NYX x Pinterest Gimme Gummy Bar pop-up as brand-spend evidence the trend is real — use in H2-1 or conclusion",
+        "anchor_suggestion": "NYX Professional Makeup and Pinterest's Gimme Gummy Bar pop-up"
+      }
+    ]
+  },
+
+  "section_14_execution_plan": {
+    "blog_gen_instruction": "READ THIS SECTION FIRST. Lock every value. Execute exactly. Do not recalculate, do not adjust, do not deviate.",
+
+    "block_1_keyword_execution": {
+      "primary_keyword": "gummy nails",
+      "top_3_density_baseline": 10,
+      "total_mention_target": 13,
+      "first_100_words_plan": {
+        "rule": "Primary keyword MUST appear TWICE in the first 100 words. Mandatory. No exceptions.",
+        "mention_1": "Sentence 1–2 of introduction — in the opening statement defining what gummy nails are",
+        "mention_2": "Sentence 3–5 of introduction — when confirming 2026 as the year gummy nails broke through"
+      },
+      "first_half_target": "8 mentions — first 1200 words. Run denser in first half.",
+      "second_half_target": "5 mentions — second 1200 words",
+      "strong_tag_rule": "EVERY single mention of 'gummy nails' — all 13 of them — wrapped in <strong> tags. No exceptions. Scan after every paragraph.",
+      "keywords_to_avoid_active": [
+        "jelly nails (as focus term — may be used as a reference point once in H2-2 with internal link, never as a competing keyword focus)",
+        "pink jelly nails",
+        "neon jelly nails (as focus term — internal link anchor only)",
+        "jelly french tip nails",
+        "candy nails (as focus term — internal link anchor only)"
+      ]
+    },
+
+    "block_2_word_budget": {
+      "total_target": "2400 words — +/-50 words tolerance, never exceed",
+      "introduction": "230 words",
+      "conclusion": "170 words",
+      "h2_budgets": [
+        { "heading": "What Are Gummy Nails? (And Why 2026 Is Their Moment)", "budget": "280 words", "complexity": "high" },
+        { "heading": "Gummy Nails vs Jelly Nails: What's Actually Different", "budget": "220 words", "complexity": "medium" },
+        { "heading": "3D Gummy Texture Nails: The Domed, Squishy-Looking Build", "budget": "280 words", "complexity": "high" },
+        { "heading": "Jelly-Candy Gloss Gummy Nails: The Wearable Version", "budget": "250 words", "complexity": "medium" },
+        { "heading": "Gummy Bear Charm Nails: When to Choose the Charm Route", "budget": "200 words", "complexity": "medium" },
+        { "heading": "Gummy Nail Colours: The Full Palette From Classic to Dark", "budget": "250 words", "complexity": "medium" },
+        { "heading": "Which Nail Shapes Work Best for Gummy Nails", "budget": "200 words", "complexity": "low" },
+        { "heading": "Salon vs DIY: What You Can Actually Do at Home", "budget": "230 words", "complexity": "medium" },
+        { "heading": "What to Tell Your Nail Tech", "budget": "210 words", "complexity": "low" }
+      ],
+      "tracking_rule": "Track running word total at the end of every H2 section. If a section is running over budget — cut before moving to the next section. Do not compensate later."
+    },
+
+    "block_3_image_plan": {
+      "total_images": 9,
+      "hero_image": "frontmatter only — NEVER appears in post body",
+      "body_images": 8,
+      "assignments": [
+        { "image_number": 1, "place_after": "Introduction", "section_context": "Full gummy nails set — ideally 3D domed texture in candy-bright colours showing the dimensional, squishy-looking finish" },
+        { "image_number": 2, "place_after": "What Are Gummy Nails? (And Why 2026 Is Their Moment)", "section_context": "Close-up showing the gummy aesthetic's depth and translucency — edible quality" },
+        { "image_number": 3, "place_after": "Gummy Nails vs Jelly Nails: What's Actually Different", "section_context": "Side-by-side or single image clearly showing gummy dimensional depth vs a sheer jelly finish" },
+        { "image_number": 4, "place_after": "3D Gummy Texture Nails: The Domed, Squishy-Looking Build", "section_context": "Clear 3D domed gel nail set showing the raised surface and light catching at edges — ideally in cherry or grape" },
+        { "image_number": 5, "place_after": "Jelly-Candy Gloss Gummy Nails: The Wearable Version", "section_context": "Ultra-high-gloss jelly-candy finish in saturated colour — glossy, dimensional, no 3D elements" },
+        { "image_number": 6, "place_after": "Gummy Bear Charm Nails: When to Choose the Charm Route", "section_context": "Gummy bear charm accent nails — 1-2 charms per hand, elevated rather than maximalist" },
+        { "image_number": 7, "place_after": "Gummy Nail Colours: The Full Palette From Classic to Dark", "section_context": "Flat lay or set showing colour range — classic gummy bag colours or dark gummy (blackcurrant, deep grape)" },
+        { "image_number": 8, "place_after": "Which Nail Shapes Work Best for Gummy Nails", "section_context": "Almond or oval shaped gummy nails showing how the rounded shape mirrors the gummy dome aesthetic" }
+      ],
+      "image_type_rule": "ALL body images = inspirational nail design images related to gummy nails. NO infographics. NO process diagrams. NO comparison charts. NO step-by-step visuals.",
+      "path_rule": "/images/blog/gummy-nails/gummy-nails/filename.webp — topic_slug in path, slug folder, leading slash"
+    },
+
+    "block_4_opening_technique_assignments": {
+      "rule": "No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.",
+      "assignments": [
+        { "section": "Introduction", "technique": "Technique 2 — The Scene-Set (place the reader in the trend moment)" },
+        { "section": "What Are Gummy Nails? (And Why 2026 Is Their Moment)", "technique": "Technique 1 — The Claim (direct definitional statement)" },
+        { "section": "Gummy Nails vs Jelly Nails: What's Actually Different", "technique": "Technique 3 — The Reframe (reframe the assumption that they're the same thing)" },
+        { "section": "3D Gummy Texture Nails: The Domed, Squishy-Looking Build", "technique": "Technique 1 — The Claim (define the finish with precision)" },
+        { "section": "Jelly-Candy Gloss Gummy Nails: The Wearable Version", "technique": "Technique 2 — The Scene-Set" },
+        { "section": "Gummy Bear Charm Nails: When to Choose the Charm Route", "technique": "Technique 3 — The Reframe (reframe charms from gimmick to intentional accent)" },
+        { "section": "Gummy Nail Colours: The Full Palette From Classic to Dark", "technique": "Technique 1 — The Claim" },
+        { "section": "Which Nail Shapes Work Best for Gummy Nails", "technique": "Technique 2 — The Scene-Set" },
+        { "section": "Salon vs DIY: What You Can Actually Do at Home", "technique": "Technique 3 — The Reframe" },
+        { "section": "What to Tell Your Nail Tech", "technique": "Technique 1 — The Claim" },
+        { "section": "Conclusion", "technique": "Technique 1 — The Claim" }
+      ],
+      "banned_opener_rule": "Check every opener against banned_opening_approaches in blog gen prompt before writing the second sentence"
+    },
+
+    "block_5_link_placements": {
+      "rule": "Every link placed exactly where specified. Anchor texts used verbatim — never rewritten. Links woven into prose naturally — never standalone CTAs.",
+      "links": [
+        {
+          "anchor_text": "candy nails",
+          "full_url": "/blog/candy-nails",
+          "place_in_section": "What Are Gummy Nails? (And Why 2026 Is Their Moment)",
+          "placement_context": "When placing gummy nails within the broader candy nail aesthetic family — 'gummy nails sit within the wider candy nails aesthetic but push it into tactile, dimensional territory'",
+          "link_type": "cross-site"
+        },
+        {
+          "anchor_text": "summer nail trends 2026",
+          "full_url": "/blog/summer-nail-trends-2026",
+          "place_in_section": "What Are Gummy Nails? (And Why 2026 Is Their Moment)",
+          "placement_context": "When contextualising gummy nails within the broader summer season nail moment",
+          "link_type": "cross-site"
+        },
+        {
+          "anchor_text": "jelly nails",
+          "full_url": "/blog/jelly-nails",
+          "place_in_section": "Gummy Nails vs Jelly Nails: What's Actually Different",
+          "placement_context": "Direct reference: 'For the full picture of the jelly nail finish, [jelly nails] covers every format and colour direction'",
+          "link_type": "cross-site"
+        },
+        {
+          "anchor_text": "fruit nails",
+          "full_url": "/blog/fruit-nails/fruit-nails",
+          "place_in_section": "3D Gummy Texture Nails: The Domed, Squishy-Looking Build",
+          "placement_context": "When referencing the wider 3D sculpting moment in nail art — 'the same sculptural builder gel technique behind the 3D fruit nail moment'",
+          "link_type": "cross-site"
+        },
+        {
+          "anchor_text": "neon jelly nails",
+          "full_url": "/blog/jelly-nails/neon-jelly-nails",
+          "place_in_section": "Gummy Nail Colours: The Full Palette From Classic to Dark",
+          "placement_context": "When covering the neon-bright end of the candy palette — cherry, lime, citrus — 'the neon candy-bright end of this palette crosses into [neon jelly nails] territory'",
+          "link_type": "cross-site"
+        }
+      ]
+    },
+
+    "block_6_aeo_geo_plan": {
+      "aeo_assignments": [
+        {
+          "aeo_term": "What are gummy nails?",
+          "assigned_to_section": "What Are Gummy Nails? (And Why 2026 Is Their Moment)",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading — before any elaboration. Define gummy nails as a 2026 nail aesthetic defined by tactile, dimensional quality — nails that look like they were dipped in gelatin or moulded from a gummy bear. The defining characteristic is texture and depth. This is what gets picked up by AI answer engines."
+        },
+        {
+          "aeo_term": "What is the difference between gummy nails and jelly nails?",
+          "assigned_to_section": "Gummy Nails vs Jelly Nails: What's Actually Different",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading. State: jelly nails are sheer and translucent — the nail bed shows through. Gummy nails are about depth and dimension — they can be translucent OR fully saturated, but they always have a three-dimensional quality that makes the nail look like an object rather than a coating."
+        },
+        {
+          "aeo_term": "What is syrup gel and why do you need it for gummy nails?",
+          "assigned_to_section": "Jelly-Candy Gloss Gummy Nails: The Wearable Version",
+          "execution": "Define syrup gel directly: a tinted, buildable gel formula with higher pigment-to-translucency ratio than standard sheer gel, creating a juicy depth-filled colour that light can pass through without looking flat. This is the product that makes the jelly-candy gloss version of gummy nails work."
+        },
+        {
+          "aeo_term": "What should I ask my nail tech for gummy nails?",
+          "assigned_to_section": "What to Tell Your Nail Tech",
+          "execution": "Write a direct answer paragraph: specify the version (3D domed build vs jelly-candy flat gloss vs charm-based), state whether you want texture or finish, name the colour family, and if you want 3D domes, ask for 'builder gel or hard gel domed over colour base'. This is the practical vocabulary paragraph."
+        }
+      ],
+      "geo_entity_statements": [
+        {
+          "entity": "Gimme Gummy (Pinterest Predicts 2026 trend)",
+          "assigned_to_section": "What Are Gummy Nails? (And Why 2026 Is Their Moment)",
+          "execution": "Write a clear declarative sentence: 'Gimme Gummy is one of Pinterest's official 2026 Predicts trends — the platform's annual forecast with an 80% accuracy rate — and it specifically calls out rubberised nail art and 3D jewellery as the tactile obsession of the year.'"
+        },
+        {
+          "entity": "syrup gel",
+          "assigned_to_section": "Jelly-Candy Gloss Gummy Nails: The Wearable Version",
+          "execution": "Define clearly as a named product category: 'Syrup gel is a tinted buildable gel formula — distinct from standard sheer gel polish — specifically formulated to create a deeply saturated, light-passing jelly depth without opacity.'"
+        }
+      ]
+    },
+
+    "block_7_active_constraints": {
+      "em_dash_banned": "Long em dash (—) does not appear anywhere in the post body. If one forms — stop, replace with: comma / new sentence / parentheses / but / restructure.",
+      "banned_vocab_watch": [
+        "obsessed (most likely to slip in when describing the Gimme Gummy trend)",
+        "cute (most likely to slip in when describing gummy bear charms)",
+        "gorgeous (most likely to slip in when describing colour designs)",
+        "amazing (generic filler — flag immediately)",
+        "stunning (same as above)",
+        "elevate/elevated (overused trend vocabulary — rephrase specifically)",
+        "perfect for (vague endorsement — replace with specific suitability statement)"
+      ],
+      "british_english_active": "colour, recognise, -ise, -our spellings throughout — every instance, no exceptions",
+      "keyword_density_reminder": "After every 2 H2 sections — count current 'gummy nails' mentions. Verify running total is on track to hit 13. First half (1200 words) must carry 8 mentions. Adjust if needed.",
+      "image_path_reminder": "/images/blog/gummy-nails/gummy-nails/filename.webp — topic_slug in path always",
+      "internal_link_url_reminder": "Full correct paths only: /blog/jelly-nails, /blog/candy-nails, /blog/fruit-nails/fruit-nails, /blog/summer-nail-trends-2026, /blog/jelly-nails/neon-jelly-nails. Never bare /slug.",
+      "hero_image_reminder": "Hero = frontmatter only. Never place hero image in post body.",
+      "strong_tag_reminder": "Every 'gummy nails' mention = <strong>gummy nails</strong>. All 13. Scan after every paragraph."
+    }
+  }
+}
