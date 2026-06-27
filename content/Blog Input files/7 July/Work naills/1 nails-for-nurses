@@ -1,0 +1,524 @@
+{
+  "section_1_file_authority": {
+    "statement": "THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly. ROUTE OVERRIDE ACTIVE: canonical URL uses /work-nails/[slug] — no topic_slug in URL. Image paths use /images/work-nails/[slug]/ — no topic_slug in path. topic_slug appears in POST_CONSTANTS as category label only."
+  },
+
+  "section_2_post_constants": {
+    "slug": "nails-for-nurses",
+    "topic_slug": "work-nails",
+    "canonical": "https://mirelleinspo.com/work-nails/nails-for-nurses",
+    "post_type": "spoke",
+    "intent": "informational",
+    "word_count": 2400,
+    "image_count": 9,
+    "template": "split-left",
+    "hero_dimensions": "800x800",
+    "category": "Professional Nails",
+    "publish_date": "2026-07-07",
+    "author": "Mirell\u00e9 Team"
+  },
+
+  "section_3_cluster_snapshot": {
+    "pillar_slug": "work-nails",
+    "pillar_title": "Work Nails Hub",
+    "pillar_primary_keyword": "work nails",
+    "this_post_slug": "nails-for-nurses",
+    "this_post_role": "spoke",
+    "keywords_to_avoid": [
+      "work nails","nails for different professions","short nails for work",
+      "work appropriate nail colors","neutral nails for work","gel nail polish for work",
+      "nail shapes for work","work appropriate nail art","nail care guide",
+      "best nail polish for work","corporate girl nails","french tip nails for work",
+      "gel vs acrylic nails for work","nails for conservative vs creative workplaces",
+      "nails for job interview","professional nail length for work","new job nails",
+      "almond nails for work"
+    ]
+  },
+
+  "section_4_serp_analysis": {
+    "blog_gen_instruction": "Use competitor gaps and missing semantic territory to fill what competitors miss. Our strategic approach is the angle for the introduction and conclusion.",
+    "competitor_gaps": [
+      "No competitor clearly addresses BIAB as a specific on-shift option — confirmed demand on TikTok nurse communities and one NHS Trust dress code policy explicitly permits it",
+      "Almost no competitor distinguishes between WHO-standard hospitals vs CDC-guided facilities vs low-acuity/LTC settings — nurses desperate for this clarity (confirmed Quora + allnurses.com)",
+      "No competitor covers the off-shift strategy clearly — press-ons between shifts, nail recovery, cuticle care — confirmed demand TikTok + Pinterest",
+      "Competitors uniformly treat gel polish as banned; nuance that SHEA/research distinguishes gel polish from gel enhancements is missing — confirmed allnurses.com professional forums",
+      "No competitor covers specialty-by-specialty differences: OR vs ICU vs LTC vs non-direct-care admin have different rules — confirmed Quora + allnurses.com",
+      "The regular polish lifespan problem is universally under-addressed: nurses report polish chips within hours due to sanitiser exposure — confirmed allnurses.com + TikTok"
+    ],
+    "missing_semantic_territory": [
+      "BIAB for nurses — specific product category with real demand",
+      "Nurse nail care between shifts and nail recovery from hand-washing damage",
+      "Policy variance by unit type (OR, ICU, LTC, non-clinical) — no one maps this clearly",
+      "Nail colour rules by facility type",
+      "Press-on nails for off-shift use",
+      "Sanitiser-resistance of different nail finishes"
+    ],
+    "our_strategic_approach": "Every competing article collapses nurse nail rules into a single answer — no artificial nails, keep them short, check your policy. This post maps the rules by setting (OR vs ICU vs LTC vs admin), explains which modern options actually work on shift versus which belong off-shift, and gives nurses real product and style guidance. The reader leaves knowing exactly what she can wear tomorrow, not a vague directive to check with her employer.",
+    "top_3_word_count_estimates": {
+      "jerseycollege_edu": 900,
+      "nursa_com": 1200,
+      "nailicy_com": 1100,
+      "average": 1067,
+      "word_count_floor": 1067,
+      "set_to": 2400
+    },
+    "top_3_keyword_density_baseline": 12,
+    "recommended_image_count_validation": "Top competitor posts carry 5 to 9 images. 9 images (1 hero + 8 body) aligns with SERP visual patterns."
+  },
+
+  "section_5_audience_intelligence": {
+    "blog_gen_instruction": "This is your primary creative brief. Every paragraph written for this specific person with this specific intent. Satisfy them completely.",
+    "who_they_are": "Working nurses and nursing students — primarily direct patient care staff (RN, LPN, CNA) but also student nurses preparing for clinicals. Globally distributed with heaviest demand from US, UK, Canada, Australia. They care about their appearance, have been told to check their facility policy repeatedly, and are frustrated that nobody gives them a clear practical answer.",
+    "what_they_want_from_this_post": "A definitive, specific answer: what nails can I actually wear on shift without getting sent home, without compromising patient safety, and without my polish dissolving from hand sanitiser by lunch. They also want off-shift ideas.",
+    "what_frustrates_them": [
+      "Every article says check your facility policy and gives them nothing useful",
+      "Articles either treat all nail polish as banned OR treat everything as fine — neither is accurate",
+      "Nobody explains what BIAB is or why it might be a better on-shift option than gel polish",
+      "Press-on content ignores nurses entirely",
+      "Nobody addresses why regular polish lasts approximately 4 hours on a nurse's hands",
+      "Inspirational nail art content shows elaborate styles nurses physically cannot wear on shift"
+    ],
+    "top_5_pain_points": [
+      "Getting sent home or disciplined for nail policy violations they did not fully understand",
+      "Regular polish not lasting through a single shift due to alcohol hand sanitiser breakdown",
+      "Wanting to feel polished and put together despite the physical demands of the job",
+      "Not knowing whether BIAB, gel polish, or dip powder is permitted under their specific facility guidelines",
+      "Nails being destroyed by constant hand-washing, glove use, and sanitiser"
+    ],
+    "exact_user_phrases": [
+      "can nurses wear gel nails",
+      "what nails can nurses have",
+      "hospital approved nails",
+      "nurse friendly nails that actually last",
+      "BIAB for nurses",
+      "can nurses wear press on nails",
+      "nurse nail ideas short",
+      "clear nails for nurses",
+      "nails that survive a nursing shift",
+      "what colour nails can nurses wear",
+      "can nurses have painted nails",
+      "nurse nails ideas that are work appropriate"
+    ],
+    "intent_content_signals": [
+      "Wants policy clarity first before style content",
+      "Responds to specificity: OR nurses cannot wear X lands better than most hospitals prohibit X",
+      "Values practical product-level guidance: specific finish types, not just short and clean",
+      "Wants the off-shift angle covered",
+      "Heavy mobile readership — nurses search on phones, often mid-break or commute",
+      "Trusts content that cites real guidelines (CDC, WHO, AORN, Joint Commission) by name",
+      "Responds to tone that treats them as capable professionals, not rule-breakers to be corrected"
+    ]
+  },
+
+  "section_6_semantic_keyword_data": {
+    "blog_gen_instruction": "Primary keyword in strong tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.",
+    "primary_keyword": "nails for nurses",
+    "keyword_variations": [
+      "nurse nails",
+      "nails for a nurse",
+      "nursing nails",
+      "nurse nail ideas",
+      "nails nurses can wear",
+      "nurse appropriate nails",
+      "hospital approved nails",
+      "nails for healthcare workers",
+      "nurse friendly nails"
+    ],
+    "cluster_keywords": [
+      "nurse nail polish",
+      "can nurses wear nail polish",
+      "BIAB for nurses",
+      "gel nails for nurses",
+      "press on nails for nurses",
+      "nurse nail colour",
+      "short nails nurse",
+      "nail care nurse",
+      "dip powder nails nursing",
+      "nail polish nursing shift",
+      "nurse manicure",
+      "healthcare worker nails",
+      "nursing nail guidelines",
+      "what colour nails can nurses wear",
+      "clear nails for nurses"
+    ],
+    "lsi_terms": [
+      "infection control",
+      "hand hygiene",
+      "CDC nail guidelines",
+      "WHO hand hygiene guidelines",
+      "AORN nail policy",
+      "artificial nails healthcare",
+      "subungual bacteria",
+      "acrylic nails nursing",
+      "direct patient care",
+      "hospital dress code nails",
+      "nail polish chipping",
+      "alcohol hand sanitiser nails",
+      "glove integrity nails",
+      "nursing school nail policy",
+      "clinical placement nails",
+      "nail length healthcare",
+      "nurse scrubs professional appearance",
+      "perioperative nail standards",
+      "natural nails healthcare",
+      "builder gel natural nail"
+    ],
+    "aeo_terms": [
+      "Can nurses wear nail polish at work?",
+      "What nails can nurses wear on shift?",
+      "Are gel nails allowed in hospitals?",
+      "Can nurses have acrylic nails?",
+      "What nail length is allowed for nurses?",
+      "Can nurses wear BIAB nails?",
+      "Are press-on nails allowed for nurses?",
+      "What nail colour can nurses wear?",
+      "Can nurses have painted nails in the NHS?",
+      "Why can't nurses have long nails?",
+      "What does the CDC say about nurse nails?",
+      "Can nurses wear dip powder nails?"
+    ],
+    "technical_terms": [
+      "BIAB (Builder in a Bottle)",
+      "subungual region",
+      "gram-negative bacteria",
+      "healthcare-associated infections (HAIs)",
+      "infection control protocol",
+      "AORN (Association of periOperative Registered Nurses)",
+      "alcohol-based hand rub (ABHR)",
+      "squoval nail shape"
+    ],
+    "user_language": [
+      "hospital approved nails",
+      "nurse friendly nails that actually last",
+      "nails that survive a shift",
+      "short but cute nurse nails",
+      "clear nails for nurses",
+      "nurse nails ideas",
+      "nails I can wear to work as a nurse",
+      "polish that doesn't melt off from sanitiser",
+      "cute nails for off shift",
+      "what can I get done at the salon as a nurse"
+    ]
+  },
+
+  "section_7_voice_and_ai_queries": {
+    "blog_gen_instruction": "Answer every query directly in the relevant H2 section body. Route any query not naturally addressed in the body to faqItems. No query left unanswered.",
+    "queries": [
+      "Can nurses wear nail polish at work?",
+      "What nails can nurses actually wear on a hospital shift?",
+      "Are gel nails allowed for nurses in hospitals?",
+      "Can nurses have acrylic nails or extensions?",
+      "What does the CDC say about nail length for nurses?",
+      "What is the WHO guideline on nails for healthcare workers?",
+      "Can nurses wear BIAB nails at work?",
+      "Are press-on nails allowed for nurses?",
+      "What nail colour can nurses wear on shift?",
+      "Can nurses wear dip powder nails?",
+      "Why do nurse nails chip so fast on shift?",
+      "What nail shape is best for nurses?",
+      "Can nursing students wear nail polish at clinicals?",
+      "Do OR nurses have stricter nail rules than ward nurses?",
+      "Can nurses wear nail art?",
+      "What are the best nails for nurses who want to look polished?",
+      "Can NHS nurses wear gel nails?",
+      "What are the best press-on nails for nurses on days off?"
+    ]
+  },
+
+  "section_8_hook_and_ctr": {
+    "blog_gen_instruction": "READ THIS SECTION BEFORE WRITING THE TITLE, META DESCRIPTION, INTRO, OR FIRST H2. Title and description are hardcoded — use them exactly. Do not deviate.",
+    "selected_trigger": "Trigger 1 — Curiosity Gap",
+    "trigger_rationale": "The nurse reader is actively confused and frustrated — she has been told to check her facility policy repeatedly without anyone explaining what most policies actually allow, making her suspect she is missing real, usable information.",
+    "title": "Nails for Nurses: What You Can Actually Wear on Shift",
+    "title_char_count": 51,
+    "meta_description": "Most nurse nail guides say check your policy and stop there. This one doesn't. Find out exactly what nails nurses can wear on shift, by setting.",
+    "meta_char_count": 143,
+    "intro_hook_brief": "Open by naming the frustration directly: every article tells nurses to check their policy and gives them nothing useful. Establish immediately that this post does the opposite — it maps what most policies actually allow, by setting type, so the reader finishes knowing exactly what she can book at her salon before her next shift.",
+    "first_h2_hook_direction": "Phrase the first H2 as the question the reader is actually asking — 'What nail rules actually apply to nurses?' — then deliver a direct, structured answer that cuts through the generic advice. Voice-search friendly phrasing."
+  },
+
+  "section_9_search_journey": {
+    "blog_gen_instruction": "This is the emotional contract with the reader. Every section of the post must honour the promise made. Read this before writing any section.",
+    "reader_arrival_state": "Frustrated and slightly resigned — she has Googled this before, been told to check her facility policy by every article she found, and is trying one more time hoping someone will finally give her a real answer.",
+    "journey_arc": [
+      "Hook: name her exact frustration in the opening — validate that every other article fails her",
+      "Clarify: explain the policy landscape clearly — CDC vs WHO, what they actually say, what most facilities do",
+      "Navigate: map the rules by setting (OR/ICU vs ward vs LTC vs admin) so she can find herself",
+      "Practical: give specific guidance on what finishes work on shift and why (BIAB, regular polish, what to avoid)",
+      "Release: give her the off-shift content she actually wants — express herself when she is not working"
+    ],
+    "promise_to_deliver": "The reader will finish knowing exactly what nails she can wear at her specific type of facility, why the rules exist, and what her best practical options are — both on shift and off.",
+    "exit_state": "Informed, relieved, and ready to book — she knows what to ask for at her salon and what to save for her days off."
+  },
+
+  "section_10_content_structure": {
+    "blog_gen_instruction": "This H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s without user instruction. Word budget per section is set — follow it.",
+    "h1": "Nails for Nurses: What You Can Actually Wear on Shift",
+    "h2_structure": [
+      "What nail rules actually apply to nurses?",
+      "Why most nurse nail guides get it wrong",
+      "Nails by nursing setting: OR, ICU, ward, LTC, and non-clinical",
+      "Can nurses wear gel nails or BIAB on shift?",
+      "What nail colours can nurses wear at work?",
+      "What about press-on nails and nail art for nurses?",
+      "How to make your nails last through a 12-hour shift",
+      "The best nails for nurses on days off"
+    ],
+    "word_budget": {
+      "introduction": "230 words",
+      "h2_1": "280 words",
+      "h2_2": "250 words",
+      "h2_3": "350 words",
+      "h2_4": "320 words",
+      "h2_5": "250 words",
+      "h2_6": "250 words",
+      "h2_7": "280 words",
+      "h2_8": "220 words",
+      "conclusion": "170 words"
+    }
+  },
+
+  "section_11_internal_links": {
+    "blog_gen_instruction": "Every link below must appear in the post. Cluster links use anchor texts verbatim — do not rewrite. Cross-site links use the provided descriptive anchor. Place each link where the placement note says — woven naturally into prose, never as a standalone CTA. Total internal links must not exceed 6.",
+    "all_internal_links": [
+      {
+        "url_or_slug": "https://mirelleinspo.com/work-nails",
+        "title": "Work Nails Hub",
+        "anchor_text": "work nails",
+        "placement_note": "H2-1 (What nail rules apply) — natural reference when pointing reader to the broader professional nail framework",
+        "link_type": "hub"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/work-nails/nail-strengthener-for-nurses",
+        "title": "Best Nail Strengthener for Nurses and Healthcare Workers",
+        "anchor_text": "nail strengthener for nurses",
+        "placement_note": "H2-7 (How to make nails last) — natural fit when discussing how to keep nails healthy under hand-washing pressure",
+        "link_type": "new spoke"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/work-nails/short-nails-for-work",
+        "title": "Short Nails for Work",
+        "anchor_text": "short nails for work",
+        "placement_note": "H2-3 (Nails by setting) — when discussing the professional case for short nails beyond clinical compliance",
+        "link_type": "existing spoke"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/work-nails/nail-shapes-for-work",
+        "title": "Nail Shapes for Work",
+        "anchor_text": "nail shapes for work",
+        "placement_note": "H2-4 (Gel/BIAB section) — when recommending squoval or round as the clinical-compliant shape",
+        "link_type": "existing spoke"
+      }
+    ]
+  },
+
+  "section_12_voice_tone": {
+    "blog_gen_instruction": "This is the voice for this specific post. Layer on top of Mirell\u00e9 editorial framework. Do not default to generic AI tone.",
+    "recommended_voice": "Confident educator with professional respect",
+    "tone_characteristics": [
+      "Treats the reader as a capable professional who deserves a real answer, not vague disclaimers",
+      "Cites actual guidelines (CDC, WHO, AORN, Joint Commission) by name — earns trust through specificity",
+      "Direct and efficient — nurses are busy, every paragraph earns its place",
+      "Warm without being patronising — acknowledges the frustration of the restrictions without overdoing sympathy",
+      "Practical over aspirational — this reader wants to know what to do, not be inspired"
+    ],
+    "language_style": "Short-to-medium sentences. Active voice throughout. Use 'you' consistently. No hedging phrases like 'it depends' without immediately following with the answer. Cite sources by name when making policy claims. Avoid medical jargon unless defining the term immediately after.",
+    "audience_match": "A frustrated nurse who has been misled by vague content deserves directness and specificity. The confident educator voice earns trust precisely because it does not moralise or hedge — it explains and moves forward."
+  },
+
+  "section_13_external_links": {
+    "blog_gen_instruction": "Include all external links where indicated. Supports E-E-A-T. Use anchor suggestion as guide — write naturally around it.",
+    "links": [
+      {
+        "url": "https://www.jointcommission.org/en-us/knowledge-library/support-center/standards-interpretation/standards-faqs/000001558",
+        "context": "H2-1 or H2-2 — when explaining the CDC vs WHO framework and what facility accreditation means for nurse nail policy",
+        "anchor_suggestion": "Joint Commission guidance on artificial nails and gels"
+      },
+      {
+        "url": "https://www.jerseycollege.edu/nursing-school-guide/nails-in-nursing",
+        "context": "H2-1 — when summarising the CDC guideline on nail length for direct care providers",
+        "anchor_suggestion": "CDC guidelines on nail length for healthcare workers"
+      },
+      {
+        "url": "https://nursingcecentral.com/infection-control-hates-your-manicure/",
+        "context": "H2-4 — when discussing the 2018 study finding that gel polish interferes with alcohol hand rub effectiveness",
+        "anchor_suggestion": "research on gel manicures and hand hygiene in clinical settings"
+      }
+    ]
+  },
+
+  "section_14_execution_plan": {
+    "blog_gen_instruction": "READ THIS SECTION FIRST. Lock every value. Execute exactly. Do not recalculate, do not adjust, do not deviate.",
+    "calculated_by": "Input Gen Agent — calculated after all other sections complete",
+
+    "block_1_keyword_execution": {
+      "primary_keyword": "nails for nurses",
+      "top_3_density_baseline": 12,
+      "total_mention_target": 15,
+      "first_100_words_plan": {
+        "rule": "Primary keyword MUST appear TWICE in the first 100 words. Mandatory. No exceptions.",
+        "mention_1": "Sentences 1 to 2 of introduction — in the direct statement of what this post is about",
+        "mention_2": "Sentences 4 to 6 of introduction — reinforcing the specific focus before moving to the hook"
+      },
+      "first_half_target": "9 mentions — first 1200 words. Run denser in policy and setting sections.",
+      "second_half_target": "6 mentions — second 1200 words",
+      "strong_tag_rule": "EVERY single mention of nails for nurses — all 15 — wrapped in <strong> tags. No exceptions. Scan after every paragraph.",
+      "keywords_to_avoid_active": [
+        "work nails","nails for different professions","short nails for work",
+        "work appropriate nail colors","neutral nails for work","gel nail polish for work",
+        "nail shapes for work","work appropriate nail art","nail care guide",
+        "best nail polish for work","corporate girl nails","french tip nails for work",
+        "gel vs acrylic nails for work","nails for conservative vs creative workplaces",
+        "nails for job interview","professional nail length for work","new job nails",
+        "almond nails for work"
+      ]
+    },
+
+    "block_2_word_budget": {
+      "total_target": "2400 words — plus or minus 50 words tolerance, never exceed",
+      "introduction": "230 words",
+      "conclusion": "170 words",
+      "h2_budgets": [
+        { "heading": "What nail rules actually apply to nurses?", "budget": "280 words", "complexity": "high" },
+        { "heading": "Why most nurse nail guides get it wrong", "budget": "250 words", "complexity": "medium" },
+        { "heading": "Nails by nursing setting: OR, ICU, ward, LTC, and non-clinical", "budget": "350 words", "complexity": "high" },
+        { "heading": "Can nurses wear gel nails or BIAB on shift?", "budget": "320 words", "complexity": "high" },
+        { "heading": "What nail colours can nurses wear at work?", "budget": "250 words", "complexity": "medium" },
+        { "heading": "What about press-on nails and nail art for nurses?", "budget": "250 words", "complexity": "medium" },
+        { "heading": "How to make your nails last through a 12-hour shift", "budget": "280 words", "complexity": "medium" },
+        { "heading": "The best nails for nurses on days off", "budget": "220 words", "complexity": "low" }
+      ],
+      "tracking_rule": "Track running word total at the end of every H2 section. If a section is running over budget — cut before moving to the next section."
+    },
+
+    "block_3_image_plan": {
+      "total_images": 9,
+      "hero_image": "frontmatter only — NEVER appears in post body",
+      "body_images": 8,
+      "assignments": [
+        { "image_number": 1, "place_after": "Introduction", "section_context": "Short, clean, squoval nails in a neutral nude or clear finish — hands in clinical or scrubs context" },
+        { "image_number": 2, "place_after": "What nail rules actually apply to nurses?", "section_context": "Short natural nails — clean, minimal polish or bare — professional healthcare aesthetic" },
+        { "image_number": 3, "place_after": "Nails by nursing setting: OR, ICU, ward, LTC, and non-clinical", "section_context": "Short rounded nails in muted nude — suggests a ward or LTC nurse environment" },
+        { "image_number": 4, "place_after": "Can nurses wear gel nails or BIAB on shift?", "section_context": "BIAB-style natural nail — glossy, thin, short squoval — polished but clearly natural length" },
+        { "image_number": 5, "place_after": "What nail colours can nurses wear at work?", "section_context": "Flat lay of neutral nail polishes — nudes, pinks, pale lavender — short nails background" },
+        { "image_number": 6, "place_after": "What about press-on nails and nail art for nurses?", "section_context": "Press-on nails in neutral shades — suggesting off-shift application, clean aesthetic" },
+        { "image_number": 7, "place_after": "How to make your nails last through a 12-hour shift", "section_context": "Hands applying cuticle oil or hand cream — nail care maintenance for healthcare workers" },
+        { "image_number": 8, "place_after": "The best nails for nurses on days off", "section_context": "Bolder nail design — short nails but with colour or subtle art — clearly off-shift aesthetic" }
+      ],
+      "image_type_rule": "ALL body images = nail design or nail care imagery relevant to nurses. NO infographics. NO process diagrams. NO step-by-step visuals.",
+      "path_rule": "/images/work-nails/nails-for-nurses/filename.webp — leading slash, no topic_slug in path"
+    },
+
+    "block_4_opening_technique_assignments": {
+      "rule": "No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.",
+      "assignments": [
+        { "section": "Introduction", "technique": "Technique 2 — The Provocation (name the frustration, challenge the status quo answer)" },
+        { "section": "What nail rules actually apply to nurses?", "technique": "Technique 3 — The Reframe (reframe what knowing the rules actually means)" },
+        { "section": "Why most nurse nail guides get it wrong", "technique": "Technique 1 — The Claim (direct declarative statement about what other guides miss)" },
+        { "section": "Nails by nursing setting: OR, ICU, ward, LTC, and non-clinical", "technique": "Technique 4 — The Scenario (place the reader in their specific setting)" },
+        { "section": "Can nurses wear gel nails or BIAB on shift?", "technique": "Technique 3 — The Reframe (reframe the gel nails question properly)" },
+        { "section": "What nail colours can nurses wear at work?", "technique": "Technique 1 — The Claim" },
+        { "section": "What about press-on nails and nail art for nurses?", "technique": "Technique 2 — The Provocation" },
+        { "section": "How to make your nails last through a 12-hour shift", "technique": "Technique 4 — The Scenario" },
+        { "section": "The best nails for nurses on days off", "technique": "Technique 1 — The Claim" },
+        { "section": "Conclusion", "technique": "Technique 3 — The Reframe" }
+      ],
+      "banned_opener_rule": "Check every opener against banned_opening_approaches in blog gen prompt before writing the second sentence"
+    },
+
+    "block_5_link_placements": {
+      "rule": "Every link placed exactly where specified. Anchor texts used verbatim — never rewritten. Links woven into prose naturally — never standalone CTAs.",
+      "links": [
+        {
+          "anchor_text": "work nails",
+          "full_url": "https://mirelleinspo.com/work-nails",
+          "place_in_section": "What nail rules actually apply to nurses?",
+          "placement_context": "When referencing the broader professional nail framework — part of a wider set of professional nail standards covered in our guide to work nails",
+          "link_type": "hub"
+        },
+        {
+          "anchor_text": "nail strengthener for nurses",
+          "full_url": "https://mirelleinspo.com/work-nails/nail-strengthener-for-nurses",
+          "place_in_section": "How to make your nails last through a 12-hour shift",
+          "placement_context": "When discussing how to maintain nail health under constant hand-washing — we cover the best options in detail in our guide to nail strengthener for nurses",
+          "link_type": "new spoke"
+        },
+        {
+          "anchor_text": "short nails for work",
+          "full_url": "https://mirelleinspo.com/work-nails/short-nails-for-work",
+          "place_in_section": "Nails by nursing setting: OR, ICU, ward, LTC, and non-clinical",
+          "placement_context": "When making the case for short nails as the professional power move — the broader case for short nails for work is worth reading beyond the clinical context",
+          "link_type": "existing spoke"
+        },
+        {
+          "anchor_text": "nail shapes for work",
+          "full_url": "https://mirelleinspo.com/work-nails/nail-shapes-for-work",
+          "place_in_section": "Can nurses wear gel nails or BIAB on shift?",
+          "placement_context": "When recommending squoval or round as the optimal nurse nail shape — for the full guide on professional nail shapes, nail shapes for work covers every setting",
+          "link_type": "existing spoke"
+        }
+      ]
+    },
+
+    "block_6_aeo_geo_plan": {
+      "aeo_assignments": [
+        {
+          "aeo_term": "Can nurses wear nail polish at work?",
+          "assigned_to_section": "What nail rules actually apply to nurses?",
+          "execution": "Write a direct 2 to 3 sentence answer paragraph IMMEDIATELY after the H2 heading — before any elaboration. Answer: yes in many facilities, with conditions — short natural nails, no chipped polish, no artificial enhancements in most direct care settings."
+        },
+        {
+          "aeo_term": "Can nurses wear gel nails or BIAB on shift?",
+          "assigned_to_section": "Can nurses wear gel nails or BIAB on shift?",
+          "execution": "Direct answer paragraph immediately after H2: BIAB on natural nails is explicitly permitted in some NHS Trust policies; gel polish on natural nails is facility-dependent and differs from gel enhancements; traditional gel extensions are prohibited under CDC/WHO guidance."
+        },
+        {
+          "aeo_term": "What nail colours can nurses wear at work?",
+          "assigned_to_section": "What nail colours can nurses wear at work?",
+          "execution": "Direct 2 to 3 sentence answer: most facilities that allow polish require neutral or light colours — nudes, pinks, pale lavender, clear. Bright colours and nail art are generally not permitted in direct patient care settings."
+        },
+        {
+          "aeo_term": "Are press-on nails allowed for nurses?",
+          "assigned_to_section": "What about press-on nails and nail art for nurses?",
+          "execution": "Direct answer: press-on nails are classified as artificial nail enhancements and are not permitted on shift under CDC/WHO guidance. They are a compliant off-shift option only."
+        }
+      ],
+      "geo_entity_statements": [
+        {
+          "entity": "BIAB (Builder in a Bottle)",
+          "assigned_to_section": "Can nurses wear gel nails or BIAB on shift?",
+          "execution": "Clear declarative definition: BIAB, or Builder in a Bottle, is a thin, flexible gel overlay applied directly over the natural nail — it adds strength without adding artificial length and is distinct from gel extensions or acrylic enhancements."
+        },
+        {
+          "entity": "CDC nail length guideline for nurses",
+          "assigned_to_section": "What nail rules actually apply to nurses?",
+          "execution": "The CDC recommends healthcare personnel not wear artificial nails and keep natural nails to less than one quarter inch in length when caring for patients at high risk of acquiring infections."
+        },
+        {
+          "entity": "WHO nail guideline for healthcare workers",
+          "assigned_to_section": "What nail rules actually apply to nurses?",
+          "execution": "The WHO is more stringent: its hand hygiene guidelines identify artificial fingernails as an infection risk factor and prohibit artificial nails and extenders for all healthcare workers, not only those in high-risk settings."
+        }
+      ]
+    },
+
+    "block_7_active_constraints": {
+      "em_dash_banned": "Long em dash does not appear anywhere. Replace with: comma, new sentence, parentheses, but, or restructure.",
+      "banned_vocab_watch": [
+        "showcasing",
+        "delve",
+        "elevate",
+        "journey",
+        "seamlessly",
+        "game-changer",
+        "transformative"
+      ],
+      "british_english_active": "colour, recognise, -ise, -our — every instance, no exceptions",
+      "keyword_density_reminder": "After every 2 H2 sections — count current keyword mentions. Verify running total is on track to hit 15 mentions. First half (1200 words) must contain at least 9 mentions.",
+      "image_path_reminder": "/images/work-nails/nails-for-nurses/filename.webp — no topic_slug in path, slug folder only",
+      "internal_link_url_reminder": "Hub link = https://mirelleinspo.com/work-nails (no trailing slug). Spoke links = https://mirelleinspo.com/work-nails/[slug]. Never bare /slug.",
+      "hero_image_reminder": "Hero = frontmatter only. Never place hero image in body.",
+      "strong_tag_reminder": "Every primary keyword mention = <strong>nails for nurses</strong>. Scan after every paragraph. 15 total — no misses."
+    }
+  }
+}
