@@ -1,0 +1,665 @@
+{
+  "section_1_file_authority": {
+    "statement": "THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly."
+  },
+
+  "section_2_post_constants": {
+    "slug": "nails-for-confidence",
+    "topic_slug": "mood-nails",
+    "canonical": "https://mirelleinspo.com/blog/mood-nails/nails-for-confidence",
+    "post_type": "spoke",
+    "intent": "inspirational",
+    "word_count": 2200,
+    "image_count": 9,
+    "template": "split-left",
+    "hero_dimensions": "800x800",
+    "category": "Mood Nails",
+    "publish_date": "2026-06-27",
+    "author": "Mirellé Team",
+    "_word_count_rationale": "Top 3 ranking posts for 'nails for confidence': nailsforconfidence.com (est. 1400w), eyecandys.com boost post (est. 1000w), nina-nailedit.com confidence post (est. 1600w). Average ~1333w. Spoke ceiling = 2800w. Setting at 2200 — well above floor, leaves room for depth without padding.",
+    "_image_count_rationale": "Not an X+ ideas slug. Not a pillar. Not tutorial or comparison. Rule 5 applies: 9 images total (including hero)."
+  },
+
+  "section_3_cluster_snapshot": {
+    "pillar_slug": "nails-by-mood",
+    "pillar_title": "Nails by Mood: The Complete Guide to Choosing Your Colour by How You Feel",
+    "pillar_primary_keyword": "nails by mood",
+    "this_post_slug": "nails-for-confidence",
+    "this_post_role": "spoke",
+    "keywords_to_avoid": [
+      "nails by mood",
+      "dopamine nails",
+      "heartbreak nail designs",
+      "romantic nails",
+      "dark feminine nails",
+      "nail color psychology",
+      "happy nails",
+      "witchy nails",
+      "goth nails",
+      "pastel goth nails",
+      "mob wife nails",
+      "blue nails",
+      "coffin ombre nails"
+    ]
+  },
+
+  "section_4_serp_analysis": {
+    "blog_gen_instruction": "Use competitor gaps and missing semantic territory to fill what competitors miss. Our strategic approach is the angle for the introduction and conclusion.",
+    "competitor_gaps": [
+      "No competitor directly maps confidence nail choices to specific life moments (interview, first date, big presentation, breakup recovery, new chapter) — they list colors but don't connect them to emotional context",
+      "Nobody addresses the 'what if confidence looks different for me' question — most posts push red/black as universal confidence colors but don't account for introverted or understated confidence",
+      "The 'main character energy' and 'villain era' language is everywhere on TikTok but barely integrated into top SEO results for this keyword — huge gap",
+      "No competitor explains the psychological mechanism behind why nails boost confidence (the self-perception loop, the 2023 Frontiers in Psychology salon study) beyond surface-level mentions",
+      "Shape as a confidence signal is entirely missed — nearly all competitors focus only on colour, ignoring that short nail theory (2026 TikTok trend) reframes short nails as a power move",
+      "No competitor addresses occasion-specific confidence nails: what gives confidence for a job interview vs a first date vs a creative presentation vs a difficult conversation"
+    ],
+    "missing_semantic_territory": [
+      "Self-perception theory applied to manicures — the internal confidence loop, not just external validation",
+      "Red Nail Theory (102M+ TikTok posts) as confidence mechanism — demand confirmed across TikTok + Google autocomplete + Pinterest",
+      "Short nail theory as confidence signal — 'baddies wear short nails' angle confirmed on TikTok + NewBeauty",
+      "Main character energy / 'I'm the protagonist' framing — confirmed on TikTok + Pinterest boards labelled 'main character nails'",
+      "Chrome and mirror finishes as confidence amplifiers — demand confirmed on Pinterest + YouTube tutorials",
+      "Occasion mapping: which confidence nail for which high-stakes moment"
+    ],
+    "our_strategic_approach": "While competitors list red and black as confidence colours and leave it there, this post maps nails for confidence across the full emotional spectrum: from understated power (quiet confidence nails) to bold declarations (main character energy nails). It connects specific design choices to specific high-stakes moments, explains the self-perception psychology briefly but accessibly, and acknowledges that confidence looks different on different women — validating the reader's own version of it.",
+    "top_3_word_count_estimates": {
+      "nailsforconfidence_com": 1400,
+      "eyecandys_confidence_post": 1000,
+      "nina_nailedit_confidence": 1600,
+      "average_floor": 1333
+    },
+    "top_3_keyword_density_baseline": {
+      "estimated_average_mentions": 9,
+      "note": "Posts use 'confidence', 'confident nails', 'nails for confidence' interchangeably — primary keyword 'nails for confidence' appears approximately 7-11 times across top 3"
+    },
+    "recommended_image_count_validation": "Top competitor posts use 6-12 images. 9 (our target including hero) sits squarely in the visual range expected for this keyword. Confirmed."
+  },
+
+  "section_5_audience_intelligence": {
+    "blog_gen_instruction": "This is your primary creative brief. Every paragraph written for this specific person with this specific intent. Satisfy them completely.",
+    "who_they_are": "A woman, 22-38, who uses beauty intentionally as a mood management and self-preparation tool. She's about to do something hard — a job interview, a big meeting, a first date after a rough patch, walking back into a room where she needs to feel powerful. She knows a fresh manicure changes how she carries herself. She's not shopping for a look; she's arming herself.",
+    "what_they_want_from_this_post": "Specific, validated nail choices that match the confidence she needs to project — not a generic list of 'bold colours'. She wants to feel seen in her specific moment, and she wants the visual inspo to confirm she's making the right choice.",
+    "what_frustrates_them": [
+      "Posts that say 'red nails give confidence' and nothing else — she already knows that, she wants more nuance",
+      "Inspiration that only shows long coffin nails when she has short nails or can't maintain a long set",
+      "No acknowledgement that confidence can look understated — she doesn't always want to scream",
+      "Color guides with no context for when or why — just a list of shades with no emotional framing",
+      "Posts that feel generic and AI-produced — she can tell immediately and bounces"
+    ],
+    "top_5_pain_points": [
+      "She wants to feel ready for something specific, not just 'inspired' — general inspo posts don't help",
+      "She's unsure if bold confidence nails will read as try-hard in her specific context (office, date, etc.)",
+      "She struggles to find confidence nail inspo that works for her length/shape without extensions",
+      "She doesn't know if her instinct (going quieter rather than louder) is a legitimate confidence move or playing small",
+      "She wants the psychological backing — why does a fresh manicure actually change how she feels and performs?"
+    ],
+    "exact_user_phrases": [
+      "'nails that make me feel powerful'",
+      "'what to get when I need to feel like a baddie'",
+      "'main character nails'",
+      "'villain era nails'",
+      "'nails to wear to a job interview for confidence'",
+      "'what nail colour makes you feel the most confident'",
+      "'bold nails for when I need to feel myself'",
+      "'nails that give you confidence without trying too hard'",
+      "'power nails for women'",
+      "'I want nails that scream I'm that girl'"
+    ],
+    "intent_content_signals": [
+      "She responds to emotional framing before visual inspo — hook with the feeling, then show the looks",
+      "She wants to be validated: her instinct about what makes her feel confident is correct",
+      "She appreciates the 'why' (color psychology, self-perception loop) but briefly — she's not here for a lecture",
+      "She responds strongly to occasion-based organisation: confidence nails for specific moments",
+      "She wants to see short nail options alongside long — inclusivity of length is valued",
+      "High-quality visual inspo is non-negotiable: she'll leave if the images feel stock or Pinterest-scrape quality"
+    ]
+  },
+
+  "section_6_semantic_keyword_data": {
+    "blog_gen_instruction": "Primary keyword in strong tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.",
+    "primary_keyword": "nails for confidence",
+    "keyword_variations": [
+      "confident nail designs",
+      "confidence-boosting nails",
+      "powerful nail looks",
+      "nails that boost confidence",
+      "bold nails for confidence",
+      "empowering nail art",
+      "nail colour for confidence",
+      "manicure for confidence",
+      "strong nail designs"
+    ],
+    "cluster_keywords": [
+      "main character nails",
+      "power nails",
+      "villain era nails",
+      "boss lady nails",
+      "red nail theory",
+      "bold manicure ideas",
+      "confidence nail colour",
+      "nails that make you feel powerful",
+      "I'm that girl nails",
+      "baddie nails",
+      "high-stakes occasion nails",
+      "self-expression nail art",
+      "nails for a job interview",
+      "empowerment manicure",
+      "power colour nails"
+    ],
+    "lsi_terms": [
+      "colour psychology",
+      "self-perception theory",
+      "red nails",
+      "black nails",
+      "burgundy nails",
+      "cherry cola red",
+      "chrome nails",
+      "mirror finish nails",
+      "deep plum nails",
+      "coffin nails confidence",
+      "almond nails power",
+      "matte black nails",
+      "glossy finish nails",
+      "self-care manicure",
+      "fresh set confidence",
+      "bold colour psychology",
+      "nail art self-esteem",
+      "Frontiers in Psychology nail study",
+      "nail colour personality"
+    ],
+    "aeo_terms": [
+      "What nail colour gives you the most confidence?",
+      "What nails make you feel like a main character?",
+      "What colour nails are most powerful?",
+      "Do nails actually boost your confidence?",
+      "What nail design makes you feel like a baddie?",
+      "What nails should I get when I need to feel powerful?",
+      "What nail colour is best for a job interview to feel confident?",
+      "Are red nails actually more confident?",
+      "What does it mean when you wear black nails?",
+      "What is the red nail theory?",
+      "Can getting your nails done improve your mood?",
+      "What nail shapes look the most powerful?"
+    ],
+    "technical_terms": [
+      "gel overlay",
+      "BIAB (builder in a bottle)",
+      "chrome powder",
+      "cat-eye magnetic gel",
+      "high-gloss top coat",
+      "matte top coat",
+      "colour psychology",
+      "self-perception loop"
+    ],
+    "user_language": [
+      "'that girl energy'",
+      "'I'm the main character'",
+      "'villain era'",
+      "'baddie nails'",
+      "'nails that hit different'",
+      "'walking in like I own the place'",
+      "'my hands are having a whole moment'",
+      "'nails that do the talking'",
+      "'just booked the appointment, no thoughts, main character only'"
+    ]
+  },
+
+  "section_7_voice_and_ai_queries": {
+    "blog_gen_instruction": "Answer every query directly in the relevant H2 section body. If a query cannot be addressed naturally in the body, route it to faqItems. No query left unanswered.",
+    "queries": [
+      "What nail colour gives you the most confidence?",
+      "What nails make you feel like a main character?",
+      "What colour nails are the most powerful?",
+      "Do nails actually boost your confidence?",
+      "What nail design makes you feel like a baddie?",
+      "What nails should I get when I need to feel powerful?",
+      "What nail colour is best for a job interview to feel confident?",
+      "Are red nails actually more confident?",
+      "What does it mean when you wear black nails?",
+      "What is the red nail theory and does it actually work?",
+      "Can getting your nails done improve your mood and self-esteem?",
+      "What nail shapes look the most powerful?",
+      "What are main character nails?",
+      "What nails are good for your villain era?",
+      "What nail colour makes you feel unstoppable?",
+      "Do I need long nails to look confident?",
+      "What is the best confident nail colour for dark skin tones?"
+    ]
+  },
+
+  "section_8_hook_and_ctr": {
+    "blog_gen_instruction": "READ THIS SECTION BEFORE WRITING THE TITLE, META DESCRIPTION, INTRO, OR FIRST H2. The title and description are hardcoded here — use them exactly. The intro hook brief and first H2 hook direction are your creative brief for those specific elements. Do not deviate.",
+    "selected_trigger": "Trigger 4 — Identity Mirroring",
+    "trigger_rationale": "The reader searching 'nails for confidence' is not browsing for colour options — she's confirming her own identity as someone who uses beauty intentionally and powerfully; she wants a post that sees her as that woman and speaks directly to her sense of self.",
+    "title": "Nails for Confidence: Designs for Women Who Own the Room",
+    "title_char_count": 57,
+    "meta_description": "Nails for confidence aren't just bold colours. They're the designs that change how you walk in. See 2026's most powerful manicure ideas by mood and moment.",
+    "meta_char_count": 152,
+    "intro_hook_brief": "Open by naming the feeling she arrives with — that specific energy of needing to walk into a room ready. Not generic confidence, but the pre-game ritual of choosing a manicure that arms her. Validate that this is real, intentional, and worth taking seriously before showing a single design.",
+    "first_h2_hook_direction": "Frame the first H2 as a question the reader is already asking herself — something like 'What nail colour actually makes you feel powerful?' — using voice-search phrasing to pull the AEO answer directly beneath it."
+  },
+
+  "section_9_search_journey": {
+    "blog_gen_instruction": "This is the emotional contract with the reader. Every section of the post must honour the promise made. Read this before writing any section. If a paragraph breaks the journey arc — rewrite it.",
+    "reader_arrival_state": "She arrives purposeful and slightly urgent — she has something coming up, or she's in a moment where she needs to feel like herself again, and she's here to figure out what nails will get her there.",
+    "journey_arc": [
+      "Step 1 — Hook: Name her exact feeling. She's not browsing; she's preparing. Validate the ritual of choosing nails for a specific moment of power.",
+      "Step 2 — The science (briefly): Confirm the feeling is real with a one-paragraph psychological anchor — the 2023 study, the self-perception loop. She already knows nails change her; now she has the reason.",
+      "Step 3 — Colour by confidence type: Map the power colours to their specific emotional register. Red = bold external confidence. Black = internal power and mystery. Deep burgundy = composed authority. Chrome = main character energy. Give her the vocabulary to match her version of confident.",
+      "Step 4 — Occasion mapping: This is where she gets specific. High-stakes meeting vs first date vs creative presentation vs reclaiming herself after a setback — each moment calls for a different nail.",
+      "Step 5 — Shape as a confidence signal: Address the short nail theory. Short nails as a power move, not a compromise. Validate her choice whatever length she's at.",
+      "Step 6 — Exit with identity: Close with the frame that this is not about what others see — it's about what she sees when she looks down. The manicure is the last thing she checks before she walks in."
+    ],
+    "promise_to_deliver": "By the end of this post, she will know exactly which nail design matches her specific version of confidence, in her specific moment — and she will feel seen for using beauty this intentionally.",
+    "exit_state": "She closes the post already knowing what she's going to book — not because she was told what to do, but because the post confirmed what she already felt was right."
+  },
+
+  "section_10_content_structure": {
+    "blog_gen_instruction": "This H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s without user instruction. Word budget per section is set — follow it. H3s may be added at editorial discretion.",
+    "h1": "Nails for Confidence: Designs for Women Who Own the Room",
+    "h2_structure": [
+      "What nail colour actually makes you feel powerful?",
+      "Why a fresh manicure genuinely changes how you carry yourself",
+      "Red nails and the confidence effect: what the science actually says",
+      "The full power colour guide for nails for confidence",
+      "Main character nails: when you need to walk in like you own it",
+      "Short nails as a power move (and why it works)",
+      "Nails for confidence by occasion: matching your manicure to the moment",
+      "Nail shapes that signal confidence"
+    ],
+    "word_budget": {
+      "introduction": 220,
+      "h2_1_what_nail_colour_actually": 220,
+      "h2_2_why_fresh_manicure": 180,
+      "h2_3_red_nails_confidence_effect": 200,
+      "h2_4_full_power_colour_guide": 300,
+      "h2_5_main_character_nails": 220,
+      "h2_6_short_nails_power_move": 200,
+      "h2_7_by_occasion": 280,
+      "h2_8_nail_shapes": 200,
+      "conclusion": 180,
+      "total_target": 2200
+    }
+  },
+
+  "section_11_internal_links": {
+    "blog_gen_instruction": "Every link below must appear in the post. Cluster links use anchor texts verbatim — do not rewrite. Cross-site links use the provided descriptive anchor. Place each link where the placement note says — woven naturally into prose, never as a standalone CTA. Total internal links must not exceed 6.",
+    "all_internal_links": [
+      {
+        "url_or_slug": "/blog/mood-nails/nails-by-mood",
+        "title": "Nails by Mood: The Complete Guide to Choosing Your Colour by How You Feel",
+        "anchor_text": "nails by mood",
+        "placement_note": "H2-1 (What nail colour actually makes you feel powerful?) — when introducing the broader mood-nail framework before narrowing to confidence specifically",
+        "link_type": "cluster-pillar"
+      },
+      {
+        "url_or_slug": "/blog/mood-nails/dark-feminine-nails",
+        "title": "Nails for Your Villain Era: Dark Feminine, Moody, Unapologetic",
+        "anchor_text": "dark feminine nails",
+        "placement_note": "H2-4 (The full power colour guide) — when discussing black and deep moody tones as confidence choices, this spoke naturally extends the dark power palette",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/mood-nails/heartbreak-nail-designs",
+        "title": "Nails for When You're Heartbroken: Dark, Beautiful, and Unapologetically You",
+        "anchor_text": "heartbreak nail designs",
+        "placement_note": "H2-7 (By occasion: matching manicure to the moment) — when addressing confidence nails after a difficult personal moment, this transition to heartbreak designs fits naturally",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/mood-nails/nail-color-psychology",
+        "title": "What Your Nail Color Says About You: Color Psychology Decoded",
+        "anchor_text": "nail color psychology",
+        "placement_note": "H2-2 (Why a fresh manicure genuinely changes how you carry yourself) — when referencing the science/psychology briefly, this spoke is the deep dive and deserves a natural mention",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/work-nails/nails-for-job-interview",
+        "title": "Nails for a Job Interview: Colours & Styles That Work",
+        "anchor_text": "what nail colours actually read as powerful in a professional context without drawing the wrong attention",
+        "placement_note": "H2-7 (By occasion: matching manicure to the moment) — specifically in the 'job interview / high-stakes meeting' sub-section where this internal guide is directly relevant",
+        "link_type": "cross-site"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/blog/aesthetic-nails/mob-wife-nails",
+        "title": "Mob Wife Nails: Bold Glamorous Almond Designs",
+        "anchor_text": "mob wife nail aesthetic where power dressing and bold colour meet",
+        "placement_note": "H2-5 (Main character nails) — the mob wife post directly explores the intersection of visible confidence and maximalist nail choices; fits naturally in the main character energy section",
+        "link_type": "cross-site"
+      }
+    ]
+  },
+
+  "section_12_voice_tone": {
+    "blog_gen_instruction": "This is the voice for this specific post. Layer on top of Mirellé editorial framework. Do not default to generic AI tone.",
+    "recommended_voice": "Assured guide who has already decided she's confident — and is helping the reader arrive at the same place",
+    "tone_characteristics": [
+      "Warm but unwavering — this is not a tentative post; it makes decisions and the reader trusts that",
+      "Validating without being sycophantic — she already knows what she's doing; the post confirms it",
+      "Editorial with a lightness — serious about the emotional stakes but never heavy-handed",
+      "Direct and specific — no 'it depends' without resolution; commit to a recommendation then acknowledge exceptions",
+      "Culturally fluent — 'main character energy', 'villain era', 'I'm that girl' land naturally without forcing slang"
+    ],
+    "language_style": "Medium-length sentences that land clean. Occasional short declarative. 'You' throughout — never 'women' as a third-person group. Analogies grounded in how the reader experiences getting ready for something important.",
+    "audience_match": "She is purposeful, not passive. She uses beauty as a tool. A post that tells her what to do without explaining why will lose her. A post that validates the ritual and then gives her the specific vocabulary to act on it will earn her complete trust."
+  },
+
+  "section_13_external_links": {
+    "blog_gen_instruction": "Include all external links where indicated. Supports E-E-A-T. Use anchor suggestion as guide — write naturally around it.",
+    "links": [
+      {
+        "url": "https://www.frontiersin.org/journals/psychology",
+        "context": "H2-2 (Why a fresh manicure changes how you carry yourself) — when citing the 2023 Frontiers in Psychology study on nail care boosting self-esteem and mood",
+        "anchor_suggestion": "2023 study in Frontiers in Psychology on the psychological effects of nail care"
+      },
+      {
+        "url": "https://www.glamnetic.com/blogs/news/psychology-nail-colors",
+        "context": "H2-3 (Red nails and the confidence effect) — when referencing the 2025 survey data that 42% use nail colour specifically to project confidence in professional settings",
+        "anchor_suggestion": "2025 survey on nail colour and confidence in professional settings"
+      },
+      {
+        "url": "https://www.newbeauty.com/view/every-nail-theory-explained",
+        "context": "H2-6 (Short nails as a power move) — when citing the short nail theory and the NewBeauty/nail expert perspective on short nails as a confidence signal",
+        "anchor_suggestion": "nail expert commentary on short nail theory and confidence"
+      }
+    ]
+  },
+
+  "section_14_execution_plan": {
+    "purpose": "Blog Gen Agent reads this section FIRST — before frontmatter, before writing a single word. Every value here is pre-calculated from the input file data. Blog Gen Agent locks all values and executes them exactly.",
+    "blog_gen_instruction": "READ THIS SECTION FIRST. Lock every value. Execute exactly. Do not recalculate, do not adjust, do not deviate.",
+
+    "block_1_keyword_execution": {
+      "primary_keyword": "nails for confidence",
+      "top_3_density_baseline": 9,
+      "total_mention_target": 12,
+      "total_mention_note": "9 baseline + 3 additional = 12 total mentions of 'nails for confidence' across the full post",
+      "first_100_words_plan": {
+        "rule": "Primary keyword MUST appear TWICE in the first 100 words. Mandatory. No exceptions.",
+        "mention_1": "Sentence 1-2 of introduction — in the opening hook framing the reader's intention: 'You're here because you know what nails for confidence actually feel like.'",
+        "mention_2": "Sentence 3-5 of introduction — reinforcing the search intent before expanding: 'nails for confidence aren't just bold colours — they are the last thing you look at before you walk in.'"
+      },
+      "first_half_target": "7 mentions — first 1100 words. Run denser in the first half.",
+      "second_half_target": "5 mentions — second 1100 words",
+      "strong_tag_rule": "EVERY single mention of 'nails for confidence' — all 12 of them — wrapped in <strong> tags. No exceptions. Catch each one as it is written. Scan after every paragraph.",
+      "keywords_to_avoid_active": [
+        "nails by mood",
+        "dopamine nails",
+        "heartbreak nail designs",
+        "romantic nails",
+        "dark feminine nails",
+        "nail color psychology",
+        "happy nails",
+        "witchy nails",
+        "goth nails",
+        "pastel goth nails",
+        "mob wife nails",
+        "blue nails",
+        "coffin ombre nails"
+      ]
+    },
+
+    "block_2_word_budget": {
+      "total_target": 2200,
+      "tolerance": "+/- 50 words",
+      "introduction": "220 words",
+      "conclusion": "180 words",
+      "h2_budgets": [
+        {
+          "heading": "What nail colour actually makes you feel powerful?",
+          "budget": "220 words",
+          "complexity": "medium"
+        },
+        {
+          "heading": "Why a fresh manicure genuinely changes how you carry yourself",
+          "budget": "180 words",
+          "complexity": "medium"
+        },
+        {
+          "heading": "Red nails and the confidence effect: what the science actually says",
+          "budget": "200 words",
+          "complexity": "medium"
+        },
+        {
+          "heading": "The full power colour guide for nails for confidence",
+          "budget": "300 words",
+          "complexity": "high"
+        },
+        {
+          "heading": "Main character nails: when you need to walk in like you own it",
+          "budget": "220 words",
+          "complexity": "medium"
+        },
+        {
+          "heading": "Short nails as a power move (and why it works)",
+          "budget": "200 words",
+          "complexity": "medium"
+        },
+        {
+          "heading": "Nails for confidence by occasion: matching your manicure to the moment",
+          "budget": "280 words",
+          "complexity": "high"
+        },
+        {
+          "heading": "Nail shapes that signal confidence",
+          "budget": "200 words",
+          "complexity": "medium"
+        }
+      ],
+      "tracking_rule": "Track running word total at the end of every H2 section. If a section is running over budget — cut before moving to the next section. Do not compensate later."
+    },
+
+    "block_3_image_plan": {
+      "total_images": 9,
+      "hero_image": "frontmatter only — NEVER appears in post body",
+      "body_images": 8,
+      "assignments": [
+        {
+          "image_number": 1,
+          "place_after": "H2-1: What nail colour actually makes you feel powerful?",
+          "section_context": "Bold red or deep burgundy nails — the classic power colour; clean almond or coffin shape, high-gloss finish"
+        },
+        {
+          "image_number": 2,
+          "place_after": "H2-3: Red nails and the confidence effect",
+          "section_context": "Close-up of deep cherry red or crimson nails — glossy, dramatic, clearly intentional"
+        },
+        {
+          "image_number": 3,
+          "place_after": "H2-4: The full power colour guide",
+          "section_context": "Collage or flat-lay showing the power colour spectrum: red, black, burgundy, deep plum, chrome — showing range"
+        },
+        {
+          "image_number": 4,
+          "place_after": "H2-4 continued (power colour guide)",
+          "section_context": "Matte black nails — sleek, sophisticated, minimal — the internal power colour option"
+        },
+        {
+          "image_number": 5,
+          "place_after": "H2-5: Main character nails",
+          "section_context": "Chrome or mirror-finish nails — silver or rose gold — high impact main character energy, almond or coffin"
+        },
+        {
+          "image_number": 6,
+          "place_after": "H2-6: Short nails as a power move",
+          "section_context": "Short, immaculate nails — could be rich red or deep burgundy on short square/squoval — intentional and polished, not minimalist by default"
+        },
+        {
+          "image_number": 7,
+          "place_after": "H2-7: Nails for confidence by occasion",
+          "section_context": "Professional power nails — deep red or burgundy on medium almond, clean glossy — could be worn in a boardroom"
+        },
+        {
+          "image_number": 8,
+          "place_after": "H2-8: Nail shapes that signal confidence",
+          "section_context": "Shape comparison or feature shot — almond or coffin nails in a bold solid colour showing how shape itself communicates power"
+        }
+      ],
+      "image_type_rule": "ALL body images = inspirational nail design images related to the topic. NO infographics. NO process diagrams. NO comparison charts. NO step-by-step visuals.",
+      "path_rule": "/images/blog/mood-nails/nails-for-confidence/filename.webp — topic_slug in path, slug folder, leading slash"
+    },
+
+    "block_4_opening_technique_assignments": {
+      "rule": "No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.",
+      "assignments": [
+        {
+          "section": "Introduction",
+          "technique": "Technique 4 — Identity Mirror (open by reflecting exactly who the reader is and why she's here)"
+        },
+        {
+          "section": "H2-1: What nail colour actually makes you feel powerful?",
+          "technique": "Technique 2 — Direct Answer (answer the AEO question immediately in 2-3 sentences before elaborating)"
+        },
+        {
+          "section": "H2-2: Why a fresh manicure genuinely changes how you carry yourself",
+          "technique": "Technique 3 — The Reframe (reframe the act of choosing a confidence manicure from vanity to self-management)"
+        },
+        {
+          "section": "H2-3: Red nails and the confidence effect",
+          "technique": "Technique 1 — The Claim (open with a confident declarative about red and what it actually does)"
+        },
+        {
+          "section": "H2-4: The full power colour guide",
+          "technique": "Technique 2 — Direct Answer (anchor the section with a direct colour-to-confidence map)"
+        },
+        {
+          "section": "H2-5: Main character nails",
+          "technique": "Technique 3 — The Reframe (reframe 'main character energy' from a TikTok phrase to a real internal shift)"
+        },
+        {
+          "section": "H2-6: Short nails as a power move",
+          "technique": "Technique 1 — The Claim (open with the counter-intuitive claim: short nails are not a compromise)"
+        },
+        {
+          "section": "H2-7: By occasion",
+          "technique": "Technique 2 — Direct Answer (open by naming the occasions and promising a specific answer for each)"
+        },
+        {
+          "section": "H2-8: Nail shapes that signal confidence",
+          "technique": "Technique 3 — The Reframe (shape is often ignored in confidence nail discussions; reframe it as equally important as colour)"
+        },
+        {
+          "section": "Conclusion",
+          "technique": "Technique 1 — The Claim (close with a definitive statement about what nails for confidence actually mean)"
+        }
+      ],
+      "banned_opener_rule": "Check every opener against banned_opening_approaches in blog gen prompt before writing the second sentence"
+    },
+
+    "block_5_link_placements": {
+      "rule": "Every link placed exactly where specified. Anchor texts used verbatim — never rewritten. Links woven into prose naturally — never standalone CTAs.",
+      "links": [
+        {
+          "anchor_text": "nails by mood",
+          "full_url": "/blog/mood-nails/nails-by-mood",
+          "place_in_section": "H2-1: What nail colour actually makes you feel powerful?",
+          "placement_context": "When referencing that confidence is one specific point on the broader emotional map of nail choices",
+          "link_type": "cluster-pillar"
+        },
+        {
+          "anchor_text": "nail color psychology",
+          "full_url": "/blog/mood-nails/nail-color-psychology",
+          "place_in_section": "H2-2: Why a fresh manicure genuinely changes how you carry yourself",
+          "placement_context": "When pointing toward the deeper science of colour and mood after briefly mentioning the self-perception research",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "dark feminine nails",
+          "full_url": "/blog/mood-nails/dark-feminine-nails",
+          "place_in_section": "H2-4: The full power colour guide",
+          "placement_context": "When discussing black and deep moody tones as the internal confidence palette — the dark feminine register of power",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "mob wife nail aesthetic where power dressing and bold colour meet",
+          "full_url": "https://mirelleinspo.com/blog/aesthetic-nails/mob-wife-nails",
+          "place_in_section": "H2-5: Main character nails",
+          "placement_context": "When describing the maximalist, fully committed version of main character energy nails — the mob wife post is the natural extension for readers who want that register",
+          "link_type": "cross-site"
+        },
+        {
+          "anchor_text": "heartbreak nail designs",
+          "full_url": "/blog/mood-nails/heartbreak-nail-designs",
+          "place_in_section": "H2-7: Nails for confidence by occasion",
+          "placement_context": "In the 'reclaiming yourself after a setback' micro-section — confidence after heartbreak or a difficult period naturally leads to this spoke",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "what nail colours actually read as powerful in a professional context without drawing the wrong attention",
+          "full_url": "https://mirelleinspo.com/work-nails/nails-for-job-interview",
+          "place_in_section": "H2-7: Nails for confidence by occasion",
+          "placement_context": "In the job interview / high-stakes meeting sub-section — this cross-site post is the exact deep dive for that specific confidence moment",
+          "link_type": "cross-site"
+        }
+      ]
+    },
+
+    "block_6_aeo_geo_plan": {
+      "aeo_assignments": [
+        {
+          "aeo_term": "What nail colour actually makes you feel powerful?",
+          "assigned_to_section": "H2-1: What nail colour actually makes you feel powerful?",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading — before any elaboration. Example: 'Red, black, and deep burgundy consistently rank as the top colours women reach for when they need to feel powerful. Red triggers an external confidence signal; black operates as internal authority; burgundy sits between the two, composed and commanding. Which one works for you depends on whether your confidence needs to be felt or seen.'"
+        },
+        {
+          "aeo_term": "Do nails actually boost your confidence?",
+          "assigned_to_section": "H2-2: Why a fresh manicure genuinely changes how you carry yourself",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading. Example: 'Yes — and there is research to support it. A 2023 study published in Frontiers in Psychology found that engaging in nail care, alongside light self-disclosure, provided a measurable positive boost to psychological state and self-esteem. The mechanism is what psychologists call the self-perception loop: when you see your hands looking intentional and cared for, your brain updates its self-image accordingly.'"
+        },
+        {
+          "aeo_term": "What is the red nail theory and does it actually work?",
+          "assigned_to_section": "H2-3: Red nails and the confidence effect: what the science actually says",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading. Define clearly: 'The red nail theory is the TikTok-popularised idea — now with over 102 million posts — that red nails make the wearer more noticeable and attractive. The psychological reality is more interesting than the viral version: red is a physical stimulant that triggers feelings of energy and assertiveness in the wearer, not just attention from others. The confidence shift comes from the inside first.'"
+        },
+        {
+          "aeo_term": "What are main character nails?",
+          "assigned_to_section": "H2-5: Main character nails: when you need to walk in like you own it",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading. Define clearly: 'Main character nails are designs chosen specifically to amplify the feeling that you are the protagonist of your own story — typically high-impact, intentional, and unapologetic. Chrome and mirror finishes, bold solid colours, and statement shapes (almond, coffin) all fall under this. The defining trait is commitment: main character nails do not hedge.'"
+        },
+        {
+          "aeo_term": "Do I need long nails to look confident?",
+          "assigned_to_section": "H2-6: Short nails as a power move (and why it works)",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading. Define clearly: 'No — and the current cultural conversation is actively reversing that assumption. Short nail theory, which gained significant traction on TikTok in 2025-2026, positions immaculate short nails as a marker of confidence, not compromise. A short nail in a saturated, intentional colour communicates self-assurance more effectively than a long nail that is clearly inconvenient to maintain.'"
+        }
+      ],
+      "geo_entity_statements": [
+        {
+          "entity": "Red Nail Theory",
+          "assigned_to_section": "H2-3",
+          "execution": "Write a clear declarative definition: 'The Red Nail Theory is the widely discussed social media concept — originating on TikTok and now generating over 102 million posts — that red nail polish significantly increases the wearer's perceived confidence, attractiveness, and presence, with the mechanism rooted in colour psychology rather than external validation.'"
+        },
+        {
+          "entity": "Self-perception loop in nail care",
+          "assigned_to_section": "H2-2",
+          "execution": "Write a clear declarative definition: 'The self-perception loop in the context of nail care describes the psychological mechanism by which seeing one's hands looking intentional, cared for, and deliberate causes the brain to update its self-image — reinforcing the feeling of being put-together, in control, and ready, which then influences behaviour and confidence in real situations.'"
+        },
+        {
+          "entity": "Main character nails",
+          "assigned_to_section": "H2-5",
+          "execution": "Write a clear declarative definition as stated in AEO assignment above — then elaborate into the design specifics."
+        }
+      ]
+    },
+
+    "block_7_active_constraints": {
+      "em_dash_banned": "Long em dash does not appear anywhere. If one forms while writing — stop, replace with: comma / new sentence / parentheses / but / restructure.",
+      "banned_vocab_watch": [
+        "delve",
+        "vibrant",
+        "stunning",
+        "unleash",
+        "empower (overused — use 'power', 'confidence', 'authority' instead)",
+        "showcase",
+        "elevate (unless in specific design context)",
+        "game-changer"
+      ],
+      "british_english_active": "colour, recognise, -ise, -our — every instance, no exceptions. 'colour' not 'color' in body text (even when referencing search terms like 'nail color psychology' — use British spelling in prose around it).",
+      "keyword_density_reminder": "After every 2 H2 sections — count current keyword mentions. Verify running total is on track to hit 12. First half (1100 words) must contain 7 mentions. Adjust if needed.",
+      "image_path_reminder": "/images/blog/mood-nails/nails-for-confidence/filename.webp — topic_slug = mood-nails in path always",
+      "internal_link_url_reminder": "Cluster links = /blog/mood-nails/[slug]. Cross-site links = exact URL as discovered. Never bare /slug.",
+      "hero_image_reminder": "Hero = frontmatter only. Never place hero image in body.",
+      "strong_tag_reminder": "Every 'nails for confidence' mention = <strong>nails for confidence</strong>. All 12. Scan after every paragraph.",
+      "cannibalization_watch": "Never use 'dark feminine nails', 'nail color psychology', 'dopamine nails', 'romantic nails', 'happy nails' as standalone focus terms or H2 subjects — these belong to other spokes. Reference them only as natural, contextual mentions."
+    }
+  }
+}
