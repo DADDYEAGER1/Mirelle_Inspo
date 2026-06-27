@@ -1,0 +1,522 @@
+{
+  "file_authority": {
+    "statement": "THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.",
+    "route_overrides_active": "WORK-NAILS CLUSTER OVERRIDES IN EFFECT: No topic_slug in canonical URL or image paths. Canonical = https://mirelleinspo.com/work-nails/[slug]. Image path = /images/work-nails/[slug]/filename.webp."
+  },
+
+  "section_2_post_constants": {
+    "slug": "nails-for-teachers",
+    "topic_slug": "work-nails",
+    "canonical": "https://mirelleinspo.com/work-nails/nails-for-teachers",
+    "post_type": "spoke",
+    "intent": "informational",
+    "word_count": 2100,
+    "image_count": 9,
+    "template": "split-left",
+    "hero_dimensions": "800x800",
+    "category": "Work Nails",
+    "publish_date": "2026-07-07",
+    "author": "Mirellé Team"
+  },
+
+  "section_3_cluster_snapshot": {
+    "pillar_slug": "work-nails",
+    "pillar_title": "Work Nails Hub",
+    "pillar_primary_keyword": "work nails",
+    "this_post_slug": "nails-for-teachers",
+    "this_post_role": "spoke",
+    "keywords_to_avoid": [
+      "work nails",
+      "nails for different professions",
+      "short nails for work",
+      "work appropriate nail colors",
+      "neutral nails for work",
+      "gel nail polish for work",
+      "nail shapes for work",
+      "work appropriate nail art",
+      "nail care guide",
+      "best nail polish for work",
+      "corporate girl nails",
+      "french tip nails for work",
+      "gel vs acrylic nails for work",
+      "nails for conservative vs creative workplaces",
+      "nails for job interview",
+      "professional nail length for work",
+      "new job nails",
+      "almond nails for work"
+    ]
+  },
+
+  "section_4_serp_analysis": {
+    "blog_gen_instruction": "Use competitor gaps and missing semantic territory to fill what competitors miss. Our strategic approach is the angle for the introduction and conclusion.",
+    "top_3_ranking_posts": [
+      { "source": "whatisbuildergel.com", "estimated_words": 2800, "angle": "35 design ideas with builder gel focus, strong practical advice" },
+      { "source": "huesofdelahaye.com", "estimated_words": 1800, "angle": "20+ ideas gallery, outfit pairing suggestions, light on practical" },
+      { "source": "boredteachers.com", "estimated_words": 1200, "angle": "Pure inspiration gallery, summer-focused, no durability guidance" }
+    ],
+    "top_3_average_word_count": 1933,
+    "top_3_keyword_density_baseline": 12,
+    "competitor_gaps": [
+      "No competitor differentiates advice by school level (preschool vs elementary vs secondary) — teachers face genuinely different practical demands at each level; confirmed on Pinterest boards and TikTok community discussions",
+      "No competitor addresses the chalk + whiteboard marker residue problem specifically — mentioned repeatedly in teacher community discussions on Reddit and TikTok; dual-source confirmed",
+      "No competitor addresses what finishes hold up through classroom art projects, wet paper handling, and glue — active Pinterest and TikTok pain point; dual-source confirmed",
+      "No competitor provides durability system comparison (gel vs BIAB vs press-ons) specifically framed for the teacher's lifestyle — confirmed gap across all top 3 pages",
+      "No competitor addresses subject-specific nail ideas beyond surface-level mentions (art teacher vs maths teacher vs early years teacher) — Pinterest boards exist per subject, TikTok content confirms demand; dual-source"
+    ],
+    "missing_semantic_territory": [
+      "Nail art that doubles as a classroom conversation starter — confirmed on TikTok and Pinterest",
+      "Budget angle for teachers — press-ons as financial strategy, not just convenience; confirmed on Butterfly Teacher blog and TikTok teacher community",
+      "On-your-feet-all-day comfort framing — shape and length advice from a physical stamina angle, not just aesthetics"
+    ],
+    "our_strategic_approach": "Every competitor either gives an inspo gallery with no practical context, or gives generic professional advice that could apply to any job. This post is built around the specific realities of teaching: no formal nail rules, but real physical constraints (chalk dust, glue, art supplies, small grabby hands) that make durability the actual priority. It differentiates by school level and subject type — advice that reads as written by someone who understands what a day in a classroom actually looks like.",
+    "recommended_image_count_validation": "Top 3 ranking pages use 9-35 images. Rule 5 (everything else) = 9 images. Confirmed appropriate."
+  },
+
+  "section_5_audience_intelligence": {
+    "blog_gen_instruction": "This is your primary creative brief. Every paragraph written for this specific person with this specific intent. Satisfy them completely.",
+    "who_they_are": "A female teacher, typically 24-45, who has more freedom with her nails than most professional women but has discovered the hard way that pretty nails and a classroom don't always co-operate. She ranges from an NQT worried about first impressions to a veteran who just wants something that survives until Friday. She's not asking 'can I do this?' — she already knows she can — she's asking 'what actually works?'",
+    "what_they_want_from_this_post": "Practical permission plus actual recommendations. She wants to feel confident that beautiful nails are completely fine in a classroom, and she wants specific guidance on what holds up through a full school week of chalk, glue, art supplies, and children grabbing her hands.",
+    "what_frustrates_them": "Every 'professional nails' guide tells her to keep it neutral and understated, as if she works in a bank. She doesn't. Teachers have more creative freedom than almost any other profession — and the content doesn't reflect that. At the same time, inspo galleries give her 35 pictures with zero guidance on what actually survives a Thursday afternoon Year 3 painting session.",
+    "top_5_pain_points": [
+      "Nails chip or peel by Wednesday — whatever system she used wasn't durable enough for chalk, cleaning desks, and handling wet art paper all day",
+      "She loves the idea of themed nail art (apples, chalkboards, book-inspired) but doesn't know if it reads as fun or unprofessional to parents and senior staff",
+      "She doesn't know whether to invest in salon gel when press-ons from a pharmacy hold up just as long given her school week",
+      "She teaches a specific subject or age group (e.g. preschool, PE, art) and generic advice doesn't account for what her hands actually do all day",
+      "She's spending money at the salon every two weeks because her nails aren't surviving — she needs a system that actually lasts, not just looks good on day one"
+    ],
+    "exact_user_phrases": [
+      "what nails are good for teachers",
+      "nails that survive a week of teaching",
+      "cute nails for back to school teacher",
+      "can I have acrylics as a teacher",
+      "nail ideas for first day back at school teacher",
+      "teacher nail inspo professional but fun",
+      "what nail length for a teacher",
+      "do teachers have nail restrictions",
+      "nails that last through chalk and glue",
+      "cute but practical nails for the classroom",
+      "press on nails for teachers",
+      "BIAB nails for teachers do they last"
+    ],
+    "intent_content_signals": [
+      "She responds to content that validates her freedom before giving practical guidance — lead with permission, then practicality",
+      "Subject-specific and school-level breakdowns perform well on Pinterest (dedicated boards for preschool teachers, art teachers, elementary teachers)",
+      "She saves posts that give both design inspo AND a durability verdict — not one or the other",
+      "Budget framing resonates strongly (teacher salary is a real constraint, press-on content performs well in teacher TikTok communities)",
+      "She engages with 'before and after Friday' durability language — she needs nails that look good on Monday AND Friday",
+      "First-day-back-at-school framing drives significant August/September search spikes"
+    ]
+  },
+
+  "section_6_semantic_keyword_data": {
+    "blog_gen_instruction": "Primary keyword in strong tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.",
+    "primary_keyword": "nails for teachers",
+    "keyword_variations": [
+      "teacher nails",
+      "teacher nail ideas",
+      "cute nails for teachers",
+      "classroom nails",
+      "nails for school teachers",
+      "teacher nail designs",
+      "back to school nails for teachers",
+      "nail ideas for teachers",
+      "practical nails for teachers"
+    ],
+    "cluster_keywords": [
+      "teacher-friendly nail art",
+      "classroom-appropriate nails",
+      "teacher nail inspo",
+      "nail durability for teachers",
+      "nail ideas for educators",
+      "preschool teacher nails",
+      "elementary school teacher nails",
+      "nails for the classroom",
+      "professional nails for teachers",
+      "nail designs for back to school",
+      "apple nail art teacher",
+      "chalk-resistant nail polish",
+      "gel nails for educators",
+      "press-on nails for teachers",
+      "BIAB nails teacher durability"
+    ],
+    "lsi_terms": [
+      "nail art for educators",
+      "school-themed nail designs",
+      "teacher-approved manicure",
+      "durable nails for classroom",
+      "chalk and whiteboard marker nails",
+      "colourful nails classroom",
+      "nail length for teachers",
+      "squoval nails teaching",
+      "oval nails classroom",
+      "gel polish durability school week",
+      "builder gel for teachers",
+      "press on nails classroom",
+      "accent nail teacher",
+      "apple accent nail",
+      "teacher nail art ideas subject-themed",
+      "French tip teacher nails",
+      "back to school manicure teacher",
+      "fun nail art classroom appropriate",
+      "nail ideas first day school teacher"
+    ],
+    "aeo_terms": [
+      "What nails are appropriate for teachers?",
+      "Can teachers wear acrylic nails in the classroom?",
+      "What nail length is best for teachers?",
+      "Do teachers have restrictions on nail polish?",
+      "What nail designs are classroom-appropriate?",
+      "How long do gel nails last for teachers?",
+      "Are press-on nails good for teachers?",
+      "What nail shape is best for teaching?",
+      "Can preschool teachers have long nails?",
+      "What nail art is professional enough for a teacher?",
+      "How do I stop my nails chipping as a teacher?",
+      "What are the most durable nails for classroom work?"
+    ],
+    "technical_terms": [
+      "builder gel (BIAB)",
+      "gel polish overlay",
+      "soft gel system",
+      "squoval nail shape",
+      "nail plate",
+      "free edge",
+      "no-chip manicure",
+      "gel curing under LED lamp"
+    ],
+    "user_language": [
+      "nails that actually last the week",
+      "cute teacher vibes",
+      "classroom-ready nails",
+      "teacher-approved mani",
+      "first day back nails",
+      "nails my kids will notice",
+      "practical but still pretty",
+      "press-ons are a lifesaver",
+      "something that survives art class",
+      "nails without spending a fortune"
+    ]
+  },
+
+  "section_7_voice_and_ai_queries": {
+    "blog_gen_instruction": "Answer every query directly in the relevant H2 section body. If a query cannot be addressed naturally in the body, route it to faqItems. No query left unanswered.",
+    "queries": [
+      "What nail designs are best for teachers?",
+      "Can teachers wear any colour nail polish?",
+      "What nail length works best for teaching all day?",
+      "Are acrylic nails allowed for teachers?",
+      "What nail shape is most practical for classroom work?",
+      "How do I make my nails last through a whole school week?",
+      "Are press-on nails a good idea for teachers?",
+      "What are the best nails for preschool teachers?",
+      "Can teachers have nail art or is it unprofessional?",
+      "What nail ideas work for a first day back at school?",
+      "Do gel nails last through chalk and whiteboard marker?",
+      "What is BIAB and is it good for teachers?",
+      "How long should teachers keep their nails?",
+      "What nail colours are appropriate for a classroom?",
+      "Are themed nail designs like apples professional for teachers?",
+      "What nail designs work for different teaching subjects?",
+      "Do nail restrictions for teachers vary by school?",
+      "What are the most durable nail systems for active hands?"
+    ]
+  },
+
+  "section_8_hook_and_ctr": {
+    "blog_gen_instruction": "READ THIS SECTION BEFORE WRITING THE TITLE, META DESCRIPTION, INTRO, OR FIRST H2. The title and description are hardcoded here — use them exactly.",
+    "selected_trigger": "Trigger 1 — Curiosity Gap",
+    "trigger_rationale": "The teacher reader isn't unsure whether she's allowed nice nails — she suspects she's been making her manicure harder than it needs to be, choosing the wrong system and suffering for it by Wednesday; Trigger 1 resolves that specific frustration.",
+    "title": "Nails for Teachers: What Actually Survives the Week",
+    "title_char_count": 51,
+    "meta_description": "Nails for teachers with no formal rules — but real classroom enemies: chalk, glue, art supplies. Here's what holds up and what looks great doing it.",
+    "meta_char_count": 152,
+    "intro_hook_brief": "Open by acknowledging the paradox: teachers have more nail freedom than almost any professional woman — no infection control rules, no client-facing conservatism — yet most teacher nail content either gives them an inspo gallery with no guidance, or generic professional advice that treats them like a banker. The frustration isn't permission; it's durability and confidence. This post solves both.",
+    "first_h2_hook_direction": "Frame the first H2 as a question that addresses the real permission gap — something like 'Do teachers actually have nail restrictions?' — answer it in two direct sentences, then move immediately into practical territory. Voice-search phrasing, confident resolution."
+  },
+
+  "section_9_search_journey": {
+    "blog_gen_instruction": "This is the emotional contract with the reader. Every section of the post must honour the promise made.",
+    "reader_arrival_state": "She knows she's allowed nice nails in theory, but she's been burned enough times by chipped gel and broken acrylics that she's approaching this with 'convince me something will actually work' scepticism — she wants practicality first, inspiration second.",
+    "journey_arc": [
+      "Open by confirming her freedom is real — no formal nail restrictions for most teachers — and reframe durability as the only real constraint worth caring about",
+      "Answer the foundational questions fast (length, shape, what to avoid) so she can make a system decision before getting into design ideas",
+      "Deliver design inspiration organised by school level and subject — this is where she gets excited and screenshots",
+      "Give her a specific durability system recommendation so she stops wasting money at the salon every ten days",
+      "Close with the 'first day back' angle — the moment she most often searches this topic and when she most wants to feel polished and prepared"
+    ],
+    "promise_to_deliver": "Practical permission plus specific guidance — she will leave knowing exactly what to book, what length to choose, and which designs will still look good on Friday afternoon.",
+    "exit_state": "Confident and decisive — she knows what she's getting at her next appointment and she has a clear screenshot saved for her nail tech."
+  },
+
+  "section_10_content_structure": {
+    "blog_gen_instruction": "This H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s without user instruction. Word budget per section is set — follow it.",
+    "h1": "Nails for Teachers: What Actually Survives the Week",
+    "h2_structure": [
+      "Do teachers actually have nail restrictions?",
+      "What nail length and shape work best for teaching?",
+      "Which nail system holds up through chalk, glue, and art supplies?",
+      "Nail ideas for teachers by school level",
+      "Subject-themed nail designs that are actually classroom-appropriate",
+      "Colourful and fun teacher nail designs that don't look unprofessional",
+      "First day back at school nails for teachers",
+      "Press-on nails for teachers: honest verdict"
+    ],
+    "word_budget": {
+      "introduction": 230,
+      "h2_1_do_teachers_actually_have_nail_restrictions": 200,
+      "h2_2_what_nail_length_and_shape": 230,
+      "h2_3_which_nail_system_holds_up": 280,
+      "h2_4_nail_ideas_by_school_level": 280,
+      "h2_5_subject_themed_nail_designs": 230,
+      "h2_6_colourful_and_fun_designs": 230,
+      "h2_7_first_day_back_nails": 230,
+      "h2_8_press_on_nails_honest_verdict": 220,
+      "conclusion": 170
+    }
+  },
+
+  "section_11_internal_links": {
+    "blog_gen_instruction": "Every link below must appear in the post. Cluster links use anchor texts verbatim — do not rewrite. Cross-site links use the provided descriptive anchor. Place each link where the placement note says — woven naturally into prose, never as a standalone CTA. Total internal links must not exceed 6.",
+    "all_internal_links": [
+      {
+        "url_or_slug": "https://mirelleinspo.com/work-nails",
+        "title": "Work Nails Hub",
+        "anchor_text": "work nails",
+        "placement_note": "Introduction or H2-1 — natural reference to the broader work nails context when establishing that teachers have unusual freedom compared to most professions",
+        "link_type": "hub"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/work-nails/work-appropriate-nail-art",
+        "title": "Work-Appropriate Nail Art",
+        "anchor_text": "work appropriate nail art",
+        "placement_note": "H2-6 (colourful and fun designs) — natural reference for readers who want to explore bolder nail art options beyond what's covered here",
+        "link_type": "existing spoke"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/work-nails/work-appropriate-nail-colors",
+        "title": "Work-Appropriate Nail Colors",
+        "anchor_text": "work appropriate nail colors",
+        "placement_note": "H2-4 or H2-6 — when discussing colour choice by school level, reference for teachers who want a deeper colour guide",
+        "link_type": "existing spoke"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/work-nails/nail-shapes-for-work",
+        "title": "Nail Shapes for Work",
+        "anchor_text": "nail shapes for work",
+        "placement_note": "H2-2 (nail length and shape) — after giving the teacher-specific shape verdict, reference for readers who want the full professional shape breakdown",
+        "link_type": "existing spoke"
+      }
+    ]
+  },
+
+  "section_12_voice_tone": {
+    "blog_gen_instruction": "This is the voice for this specific post. Layer on top of Mirellé editorial framework. Do not default to generic AI tone.",
+    "recommended_voice": "Warm expert with a classroom-insider perspective",
+    "tone_characteristics": [
+      "Validating before advising — acknowledge the paradox of teacher nail freedom before diving into practical guidance",
+      "Confident and specific — no 'it depends' without immediate resolution; she's read enough vague professional nail advice",
+      "Slightly playful — teachers are a community that appreciates humour and a relaxed register; this is not a corporate nail guide",
+      "Practical-first — every design recommendation is anchored in whether it will survive the week, not just look good in the photo",
+      "Non-condescending — she knows more about her classroom than any nail guide does; position as a peer with better nail knowledge, not a superior"
+    ],
+    "language_style": "Medium-length sentences, direct subject-verb construction. Use 'you' freely. Light humour around the realities of teaching (chalk, glue, small children). No jargon without definition. British English throughout.",
+    "audience_match": "This reader is used to content that either talks down to her (conservative professional advice) or ignores her real constraints (pure inspo galleries). A warm, knowing voice that respects her intelligence and her actual workday lands immediately."
+  },
+
+  "section_13_external_links": {
+    "blog_gen_instruction": "Include all external links where indicated. Supports E-E-A-T.",
+    "links": [
+      {
+        "url": "https://whatisbuildergel.com/teacher-nails-ideas/",
+        "context": "H2-3 (nail system durability) — when referencing BIAB as the teacher durability standard; cite the 3-5 week wear claim for busy hands",
+        "anchor_suggestion": "builder gel wear time for working hands"
+      },
+      {
+        "url": "https://dipnailz.com/can-teachers-have-acrylic-nails/",
+        "context": "H2-1 (do teachers have restrictions) — when confirming acrylic nails are generally acceptable for teachers with the caveat of school policy check",
+        "anchor_suggestion": "whether acrylics are permitted in most school dress codes"
+      }
+    ]
+  },
+
+  "section_14_execution_plan": {
+    "blog_gen_instruction": "READ THIS SECTION FIRST. Lock every value. Execute exactly. Do not recalculate, do not adjust, do not deviate.",
+
+    "block_1_keyword_execution": {
+      "primary_keyword": "nails for teachers",
+      "top_3_density_baseline": 12,
+      "total_mention_target": 15,
+      "first_100_words_plan": {
+        "rule": "Primary keyword MUST appear TWICE in the first 100 words. Mandatory. No exceptions.",
+        "mention_1": "Sentence 1-2 of introduction — in the opening hook establishing that teachers searching 'nails for teachers' have more freedom than almost any other professional woman",
+        "mention_2": "Sentence 3-5 of introduction — in the reframe sentence that sets up the post's unique angle (freedom is real, durability is the only genuine constraint)"
+      },
+      "first_half_target": "9 mentions — first 1050 words. Run denser in first half.",
+      "second_half_target": "6 mentions — second 1050 words.",
+      "strong_tag_rule": "EVERY single mention of 'nails for teachers' — all 15 of them — wrapped in <strong> tags. No exceptions. Scan after every paragraph.",
+      "keywords_to_avoid_active": [
+        "work nails (as focus term)",
+        "nails for different professions",
+        "short nails for work",
+        "work appropriate nail colors (as focus term — use only as anchor text)",
+        "neutral nails for work",
+        "gel nail polish for work",
+        "nail shapes for work (as focus term — use only as anchor text)",
+        "work appropriate nail art (as focus term — use only as anchor text)",
+        "nail care guide",
+        "best nail polish for work",
+        "corporate girl nails",
+        "french tip nails for work",
+        "gel vs acrylic nails for work",
+        "nails for conservative vs creative workplaces",
+        "nails for job interview",
+        "professional nail length for work",
+        "new job nails",
+        "almond nails for work"
+      ]
+    },
+
+    "block_2_word_budget": {
+      "total_target": "2100 words — +/-50 words tolerance, never exceed 2150",
+      "introduction": "230 words",
+      "conclusion": "170 words",
+      "h2_budgets": [
+        { "heading": "Do teachers actually have nail restrictions?", "budget": "200 words", "complexity": "low" },
+        { "heading": "What nail length and shape work best for teaching?", "budget": "230 words", "complexity": "medium" },
+        { "heading": "Which nail system holds up through chalk, glue, and art supplies?", "budget": "280 words", "complexity": "high" },
+        { "heading": "Nail ideas for teachers by school level", "budget": "280 words", "complexity": "high" },
+        { "heading": "Subject-themed nail designs that are actually classroom-appropriate", "budget": "230 words", "complexity": "medium" },
+        { "heading": "Colourful and fun teacher nail designs that don't look unprofessional", "budget": "230 words", "complexity": "medium" },
+        { "heading": "First day back at school nails for teachers", "budget": "230 words", "complexity": "medium" },
+        { "heading": "Press-on nails for teachers: honest verdict", "budget": "220 words", "complexity": "medium" }
+      ],
+      "tracking_rule": "Track running word total at the end of every H2 section. If a section is running over budget — cut before moving to the next section. Do not compensate later."
+    },
+
+    "block_3_image_plan": {
+      "total_images": 9,
+      "hero_image": "frontmatter only — NEVER appears in post body",
+      "body_images": 8,
+      "assignments": [
+        { "image_number": 1, "place_after": "Introduction", "section_context": "Polished, colourful short teacher nails — warm tones, squoval shape, classroom setting implied" },
+        { "image_number": 2, "place_after": "Do teachers actually have nail restrictions?", "section_context": "Clean professional nails on a teacher's hand, writing or holding something classroom-related" },
+        { "image_number": 3, "place_after": "What nail length and shape work best for teaching?", "section_context": "Short squoval or oval nails — neat, maintained, subtle colour" },
+        { "image_number": 4, "place_after": "Which nail system holds up through chalk, glue, and art supplies?", "section_context": "Builder gel / BIAB finish on short nails — glossy, structured look" },
+        { "image_number": 5, "place_after": "Nail ideas for teachers by school level", "section_context": "Playful but professional nail set — pastel tones or mild nail art suitable for elementary level" },
+        { "image_number": 6, "place_after": "Subject-themed nail designs that are actually classroom-appropriate", "section_context": "Apple accent nail, chalkboard art, pencil design — recognisable teacher-themed nail art on short nails" },
+        { "image_number": 7, "place_after": "Colourful and fun teacher nail designs that don't look unprofessional", "section_context": "Colourful but tidy short nails — vivid solid colours or subtle nail art, not overlong or elaborate" },
+        { "image_number": 8, "place_after": "First day back at school nails for teachers", "section_context": "First-day-back energy: fresh, polished, seasonal — soft pastels or clean neutrals with a single accent" }
+      ],
+      "image_type_rule": "ALL body images = inspirational nail design images related to the topic. NO infographics. NO process diagrams. NO comparison charts. NO step-by-step visuals.",
+      "path_rule": "/images/work-nails/nails-for-teachers/filename.webp — no topic_slug in path structure beyond the folder name, leading slash always"
+    },
+
+    "block_4_opening_technique_assignments": {
+      "rule": "No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.",
+      "assignments": [
+        { "section": "Introduction", "technique": "Technique 2 — The Contradiction (establish the paradox: maximum freedom + maximum chip frustration)" },
+        { "section": "Do teachers actually have nail restrictions?", "technique": "Technique 4 — The Direct Answer (two-sentence resolution, then move on)" },
+        { "section": "What nail length and shape work best for teaching?", "technique": "Technique 3 — The Reframe (reframe 'short nails' from a limitation to the confident choice)" },
+        { "section": "Which nail system holds up through chalk, glue, and art supplies?", "technique": "Technique 1 — The Claim (open with a direct verdict on which system wins)" },
+        { "section": "Nail ideas for teachers by school level", "technique": "Technique 2 — The Contradiction (what works for a preschool teacher doesn't work for a secondary teacher)" },
+        { "section": "Subject-themed nail designs that are actually classroom-appropriate", "technique": "Technique 4 — The Direct Answer (lead with what qualifies as appropriate, then demonstrate)" },
+        { "section": "Colourful and fun teacher nail designs that don't look unprofessional", "technique": "Technique 3 — The Reframe (reframe 'professional' — teachers aren't in a law firm)" },
+        { "section": "First day back at school nails for teachers", "technique": "Technique 1 — The Claim (strong seasonal hook, confidence framing)" },
+        { "section": "Press-on nails for teachers: honest verdict", "technique": "Technique 2 — The Contradiction (the beauty world says press-ons are temporary; teacher TikTok says otherwise)" },
+        { "section": "Conclusion", "technique": "Technique 1 — The Claim (close on the permission statement + system recommendation)" }
+      ],
+      "banned_opener_rule": "Check every opener against banned_opening_approaches in blog gen prompt before writing the second sentence"
+    },
+
+    "block_5_link_placements": {
+      "rule": "Every link placed exactly where specified. Anchor texts used verbatim — never rewritten. Links woven into prose naturally — never standalone CTAs.",
+      "links": [
+        {
+          "anchor_text": "work nails",
+          "full_url": "https://mirelleinspo.com/work-nails",
+          "place_in_section": "Introduction or H2-1",
+          "placement_context": "When establishing that teachers sit at the most permissive end of the professional nail spectrum — natural reference to the broader hub",
+          "link_type": "hub"
+        },
+        {
+          "anchor_text": "nail shapes for work",
+          "full_url": "https://mirelleinspo.com/work-nails/nail-shapes-for-work",
+          "place_in_section": "H2-2 (What nail length and shape work best for teaching?)",
+          "placement_context": "After giving the teacher-specific shape verdict (squoval, oval, short round), reference for readers who want the complete professional shape breakdown across all industries",
+          "link_type": "existing spoke"
+        },
+        {
+          "anchor_text": "work appropriate nail art",
+          "full_url": "https://mirelleinspo.com/work-nails/work-appropriate-nail-art",
+          "place_in_section": "H2-6 (Colourful and fun teacher nail designs that don't look unprofessional)",
+          "placement_context": "After establishing that teachers have broad creative latitude, reference for readers who want to explore bolder nail art within professional norms more broadly",
+          "link_type": "existing spoke"
+        },
+        {
+          "anchor_text": "work appropriate nail colors",
+          "full_url": "https://mirelleinspo.com/work-nails/work-appropriate-nail-colors",
+          "place_in_section": "H2-4 (Nail ideas for teachers by school level)",
+          "placement_context": "When discussing colour choices by school level, reference the colour guide for readers who want a deeper professional colour framework",
+          "link_type": "existing spoke"
+        }
+      ]
+    },
+
+    "block_6_aeo_geo_plan": {
+      "aeo_assignments": [
+        {
+          "aeo_term": "What nails are appropriate for teachers?",
+          "assigned_to_section": "Do teachers actually have nail restrictions?",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading — before any elaboration. State that unlike nursing or food service, there is no regulatory framework governing teacher nail standards; most school dress codes omit nail guidance entirely, leaving the practical demands of the classroom — not policy — as the real constraint."
+        },
+        {
+          "aeo_term": "What nail length is best for teachers?",
+          "assigned_to_section": "What nail length and shape work best for teaching?",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading. State the specific verdict: short to medium (2-4mm free edge), squoval or oval shape, before expanding on the why."
+        },
+        {
+          "aeo_term": "How do I stop my nails chipping as a teacher?",
+          "assigned_to_section": "Which nail system holds up through chalk, glue, and art supplies?",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading. Name BIAB (builder gel) as the durability winner for teachers, state 3-5 week wear claim, before expanding the comparison."
+        },
+        {
+          "aeo_term": "Are press-on nails good for teachers?",
+          "assigned_to_section": "Press-on nails for teachers: honest verdict",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading. State clearly that press-ons are a genuinely practical option for teachers — not a compromise — with the right adhesive method lasting a full school week."
+        }
+      ],
+      "geo_entity_statements": [
+        {
+          "entity": "BIAB (Builder in a Bottle)",
+          "assigned_to_section": "Which nail system holds up through chalk, glue, and art supplies?",
+          "execution": "Write a clear declarative definition sentence: 'BIAB, or Builder in a Bottle, is a structured gel overlay applied over the natural nail that adds thickness and durability without adding fake length — making it the most practical salon system for women whose hands are in constant active use.' Confident, no hedging. Extractable by AI."
+        },
+        {
+          "entity": "classroom-appropriate nail art",
+          "assigned_to_section": "Subject-themed nail designs that are actually classroom-appropriate",
+          "execution": "Write a clear declarative definition: 'Classroom-appropriate nail art for teachers is defined by scale and subtlety — small, recognisable motifs on a neutral or single-colour base that spark conversation without competing with the learning environment.' Cite the ring finger placement tip for art durability."
+        }
+      ]
+    },
+
+    "block_7_active_constraints": {
+      "em_dash_banned": "Long em dash does not appear anywhere. If one forms while writing — stop, replace with: comma / new sentence / parentheses / but / restructure.",
+      "banned_vocab_watch": [
+        "utilize",
+        "seamlessly",
+        "elevate",
+        "curated",
+        "delve",
+        "comprehensive",
+        "game-changer",
+        "stunning"
+      ],
+      "british_english_active": "colour, recognise, -ise, -our — every instance, no exceptions. 'favourite', 'practise' (verb), 'organise', 'jewellery'.",
+      "keyword_density_reminder": "After every 2 H2 sections — count current keyword mentions. Verify running total is on track to hit 15. First half must run denser (target 9 in first 1050 words). Adjust if needed.",
+      "image_path_reminder": "/images/work-nails/nails-for-teachers/filename.webp — no topic_slug folder nesting beyond work-nails",
+      "internal_link_url_reminder": "Hub = https://mirelleinspo.com/work-nails. Existing spokes = https://mirelleinspo.com/work-nails/[slug]. Never bare /slug.",
+      "hero_image_reminder": "Hero = frontmatter only. Never place hero image in body.",
+      "strong_tag_reminder": "Every 'nails for teachers' mention = <strong> tags. All 15. Scan after every paragraph."
+    }
+  }
+}
