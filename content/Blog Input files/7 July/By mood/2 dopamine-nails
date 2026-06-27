@@ -1,0 +1,528 @@
+{
+  "section_1_file_authority": {
+    "statement": "THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly. Mode: CLUSTER MODE — cluster context loaded."
+  },
+
+  "section_2_post_constants": {
+    "slug": "dopamine-nails",
+    "topic_slug": "mood-nails",
+    "canonical": "https://mirelleinspo.com/blog/mood-nails/dopamine-nails",
+    "post_type": "spoke",
+    "intent": "informational",
+    "word_count": 2200,
+    "image_count": 9,
+    "template": "split-left",
+    "hero_dimensions": "800x800",
+    "category": "Nails by Mood",
+    "publish_date": "2026-07-01",
+    "author": "Mirellé Team"
+  },
+
+  "section_3_cluster_snapshot": {
+    "pillar_slug": "nails-by-mood",
+    "pillar_title": "Nails by Mood: The Complete Guide to Choosing Your Colour by How You Feel",
+    "pillar_primary_keyword": "nails by mood",
+    "this_post_slug": "dopamine-nails",
+    "this_post_role": "spoke",
+    "keywords_to_avoid": [
+      "nails by mood",
+      "heartbreak nail designs",
+      "nails for confidence",
+      "romantic nails",
+      "dark feminine nails",
+      "nail color psychology",
+      "happy nails",
+      "witchy nails",
+      "goth nails",
+      "pastel goth nails",
+      "mob wife nails",
+      "blue nails",
+      "coffin ombre nails"
+    ]
+  },
+
+  "section_4_serp_analysis": {
+    "blog_gen_instruction": "Use competitor gaps and missing semantic territory to fill what competitors miss. Our strategic approach is the angle for the introduction and conclusion.",
+    "top_3_ranking_posts": [
+      "Semilac USA — 'Dopamine Nails Trend: Colors That Instantly Boost Your Mood' (~900 words, light on science depth, heavy on product push, minimal skin tone guidance)",
+      "Bustle — 'TikTok's Colorful Dopamine Nail Trend Will Boost Your Mood' (~1,100 words, image-heavy gallery format, no color psychology depth, no how-to framework)",
+      "The Pink Issue — 'What Is the Dopamine Nails Trend? 20+ Mood-Boosting Designs' (~1,000 words, trend history only, no skin-tone guidance, no science anchoring)"
+    ],
+    "top_3_word_count_estimates": [900, 1100, 1000],
+    "top_3_average_word_count": 1000,
+    "top_3_keyword_density_baseline": 9,
+    "competitor_gaps": [
+      "No competitor explains the actual neuroscience behind why color triggers a dopamine response — gap confirmed on Semilac, Bustle, The Pink Issue",
+      "No competitor addresses which specific dopamine nail colours actually work by skin tone — confirmed gap across all 3 top posts (multi-source: Semilac, Bustle, Marie Claire all omit this)",
+      "No competitor distinguishes between 'quiet dopamine nails' (subtle single-bright approach) vs. full maximalist dopamine sets — audience asks this on TikTok and in community comments (multi-source: TikTok comments, ND Nails Supply reader language)",
+      "No competitor addresses work-appropriate dopamine nails specifically — Semilac FAQ acknowledges it exists but offers no real guidance; NewBeauty mentions 'professional enough for the office' but doesn't build it into an H2 (multi-source: Semilac FAQ, NewBeauty)"
+    ],
+    "missing_semantic_territory": [
+      "Color theory applied specifically to dopamine nail design — complementary vs. analogous pairings for maximum joy (Light Elegance covers this professionally but no consumer post does)",
+      "The distinction between dopamine nails vs. skittle nails vs. jelly nails — audience confusion confirmed across TikTok and Bustle comment language",
+      "The self-care/mental health angle beyond 'it makes you happy' — IJSR April 2025 paper confirms manicure-dopamine link scientifically, no consumer post cites this"
+    ],
+    "our_strategic_approach": "Lead with the science — not as a lecture but as a confident hook that gives dopamine nails legitimacy beyond trend talk. Map colour choices to emotional outcome, then give practical skin-tone-aware colour guidance no competitor provides. Close with the framework: any colour that makes YOU feel good qualifies, which is the permission slip competitors never give clearly enough.",
+    "recommended_image_count_validation": "Top 3 posts average 9-20 images. Post slug contains no X+ number pattern. Post role is spoke. Rule 5 (everything else) applies: 9 images total including hero. Confirmed."
+  },
+
+  "section_5_audience_intelligence": {
+    "blog_gen_instruction": "This is your primary creative brief. Every paragraph written for this specific person with this specific intent. Satisfy them completely.",
+    "who_they_are": "Primarily Gen Z and younger Millennials (18–32), aware of colour trends, already familiar with dopamine dressing from fashion, now applying it to nails. Some are veteran nail art followers curious about the science behind why their bright manicure actually does lift their mood. Others are neutrals-wearers who have heard 'dopamine nails' everywhere and want to understand what it actually means before committing. Mix of DIY home painters and regular salon clients.",
+    "what_they_want_from_this_post": "A clear definition of what dopamine nails actually are (not just 'bright and fun'), the colour science that makes them work, specific colour combinations they can screenshot and take to the salon, and reassurance that there is a version for them — even if they're hesitant about full neon maximalism.",
+    "what_frustrates_them": "Every article says 'choose what makes you happy' without giving any actual framework. No guidance on which colours genuinely stimulate dopamine vs. which are just bright. No skin-tone advice. The constant conflation of dopamine nails with 'skittle nails' when they're different aesthetics. Feeling like dopamine nails aren't for them if they have a conservative job or prefer quieter aesthetics.",
+    "top_5_pain_points": [
+      "1. 'What actually ARE dopamine nails — is it just anything bright?' — audience regularly asks this across TikTok and beauty forums",
+      "2. 'Will bright colours actually make me feel better or is this just a trend?' — science curiosity confirmed across ND Nails Supply reader language and IJSR research interest",
+      "3. 'Which colours should I actually pick for my skin tone?' — zero competitor answers this for dopamine nails specifically",
+      "4. 'Can I do dopamine nails for work without looking unprofessional?' — confirmed in Semilac FAQ, NewBeauty, Bustle audience",
+      "5. 'I want to try but I'm scared of bold colour — where do I start?' — Semilac FAQ addresses this as top reader question; confirmed in Marie Claire reader language"
+    ],
+    "exact_user_phrases": [
+      "'POV: using my nails as a dopamine hit during the day'",
+      "'bright nails are so good for my mental health'",
+      "'bonus dopamine if they are sparkly'",
+      "'choose what your dopamine gremlin demands'",
+      "'I can't decide on just one colour'",
+      "'colour therapy at my fingertips'",
+      "'it's like giving your inner child a massive box of crayons'",
+      "'a colourful little ritual that makes every day feel a bit brighter'",
+      "'I was convinced my nails triggered a release of dopamine'",
+      "'I swore I'd never paint my nails green — most colours aren't as scary as they seem'"
+    ],
+    "intent_content_signals": [
+      "Reader wants the 'why it works' explained — not just inspiration, but grounded understanding",
+      "Reader responds to personal permission-giving — 'you cannot fail at dopamine nails' resonates strongly",
+      "Reader wants colour names and combinations, not just vague advice",
+      "Reader is open to skin-tone guidance when framed inclusively",
+      "Reader wants to see the quiet/subtle version validated alongside the maximalist version",
+      "Reader responds to community language — real quotes from TikTok creators carry more weight than expert quotes alone",
+      "Post should feel like a knowledgeable friend explaining, not a beauty article lecturing"
+    ]
+  },
+
+  "section_6_semantic_keyword_data": {
+    "blog_gen_instruction": "Primary keyword in <strong> tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.",
+    "primary_keyword": "dopamine nails",
+    "total_mention_target": 12,
+    "first_100_words_rule": "Primary keyword MUST appear TWICE in the first 100 words — mandatory, no exceptions.",
+    "keyword_variations": [
+      "dopamine nail trend",
+      "dopamine nail art",
+      "dopamine nail colours",
+      "dopamine nail designs",
+      "dopamine nail ideas",
+      "dopamine nail manicure",
+      "dopamine-inducing nails",
+      "mood-boosting nail colours",
+      "dopamine nails 2026"
+    ],
+    "cluster_keywords": [
+      "colour psychology nails",
+      "mood-lifting manicure",
+      "feel-good nail colours",
+      "vibrant nail art",
+      "bright nail designs",
+      "joyful manicure",
+      "bold colourful nails",
+      "self-expression nail art",
+      "maximalist nails",
+      "neon nail colours",
+      "skittle manicure",
+      "rainbow manicure",
+      "playful nail designs",
+      "colour therapy nails",
+      "feel-good ritual manicure"
+    ],
+    "lsi_terms": [
+      "dopamine dressing",
+      "colour psychology",
+      "feel-good hormone",
+      "brain reward system",
+      "chromotherapy",
+      "mismatched nails",
+      "neon polish",
+      "bright pigments",
+      "saturated shades",
+      "pastel blends",
+      "gel polish",
+      "nail art self-care",
+      "colourful nail tips",
+      "emoji nails",
+      "fruit nail art",
+      "smiley face nails",
+      "rainbow French tips",
+      "complementary colour theory",
+      "electric yellow nails",
+      "hot pink nails"
+    ],
+    "aeo_terms": [
+      "What are dopamine nails?",
+      "Do dopamine nails actually boost your mood?",
+      "What colours count as dopamine nails?",
+      "What is the difference between dopamine nails and skittle nails?",
+      "Can you wear dopamine nails to work?",
+      "What are the best dopamine nail colours for dark skin?",
+      "What are the best dopamine nail colours for fair skin?",
+      "How do you choose a colour for dopamine nails?",
+      "Where did the dopamine nail trend come from?",
+      "Can you do dopamine nails if you prefer subtle colours?",
+      "What nail designs count as dopamine nails?"
+    ],
+    "technical_terms": [
+      "dopamine neurotransmitter",
+      "chromotherapy",
+      "brain reward circuit",
+      "colour saturation",
+      "complementary colour pairing",
+      "analogous colour palette",
+      "gel polish formulation",
+      "pigment saturation"
+    ],
+    "user_language": [
+      "a dopamine hit every time I look down",
+      "colour therapy at your fingertips",
+      "your dopamine gremlin",
+      "bright nails are so good for my mental health",
+      "a colourful little ritual",
+      "giving your inner child a box of crayons",
+      "it's about doing what makes you feel best",
+      "you cannot fail at dopamine nails",
+      "a pocket-sized protest",
+      "feel-good fingertips"
+    ]
+  },
+
+  "section_7_voice_and_ai_queries": {
+    "blog_gen_instruction": "Answer every query directly in the relevant H2 section body. If a query cannot be addressed naturally in the body, route it to faqItems. No query left unanswered.",
+    "queries": [
+      "What are dopamine nails?",
+      "Do dopamine nails actually boost your mood?",
+      "What colours should I choose for dopamine nails?",
+      "What is the science behind dopamine nails?",
+      "What are the most popular dopamine nail designs right now?",
+      "What is the difference between dopamine nails and skittle nails?",
+      "Can I wear dopamine nails to work?",
+      "What are the best dopamine nail colours for my skin tone?",
+      "How do I start with dopamine nails if I'm scared of bold colour?",
+      "Are dopamine nails still trending in 2026?",
+      "What nail art designs count as dopamine nails?",
+      "How many colours do you need for dopamine nails?",
+      "Can dopamine nails be subtle?",
+      "What is dopamine dressing and how does it relate to nail art?",
+      "What are the best gel polish shades for dopamine nails?"
+    ]
+  },
+
+  "section_8_hook_and_ctr": {
+    "blog_gen_instruction": "READ THIS SECTION BEFORE WRITING THE TITLE, META DESCRIPTION, INTRO, OR FIRST H2. The title and description are hardcoded — use them exactly. The intro hook brief and first H2 hook direction are your creative brief for those specific elements. Do not deviate.",
+    "selected_trigger": "Trigger 1 — Curiosity Gap",
+    "trigger_rationale": "The reader knows the name 'dopamine nails' but is genuinely uncertain whether there is real science behind it or if it is just a trend label — the curiosity gap between 'I've heard of this' and 'I actually understand why it works' is the emotional entry point this post owns.",
+    "title": "Dopamine Nails: The Colours That Actually Boost Your Mood",
+    "title_char_count": 56,
+    "meta_description": "Most bright nail guides skip the science. Dopamine nails work because of colour psychology — here's which shades actually trigger joy and which ones just look good.",
+    "meta_char_count": 155,
+    "intro_hook_brief": "Open by acknowledging the reader already knows the name — then immediately deliver the thing competitors never give: the actual explanation of why colour on your nails creates a measurable emotional response. Set up the post as the intelligent guide, not the 40th trend roundup.",
+    "first_h2_hook_direction": "First H2 should answer the definition question as a voice search query — something like 'What Are Dopamine Nails, Exactly?' — then deliver a crisp, citable 2-sentence answer immediately after the heading, before elaborating."
+  },
+
+  "section_9_search_journey": {
+    "blog_gen_instruction": "This is the emotional contract with the reader. Every section of the post must honour the promise made. Read this before writing any section. If a paragraph breaks the journey arc — rewrite it.",
+    "reader_arrival_state": "Curious and slightly sceptical — they've heard 'dopamine nails' everywhere and want to know if there is something real behind the name, or if it is just another way of saying 'colourful nails'.",
+    "journey_arc": [
+      "1. Land: confirm this is the post that will actually explain dopamine nails properly, not just show pretty pictures",
+      "2. Understand: deliver the science clearly and confidently — why colour creates a genuine emotional response",
+      "3. Choose: give colour-specific guidance so the reader knows exactly what to pick for their mood and skin tone",
+      "4. Explore: show the range — from maximalist rainbow sets to quiet single-bright approaches — so the reader finds their version",
+      "5. Exit: feel empowered to walk into a salon (or reach for a polish) with a specific plan and genuine confidence"
+    ],
+    "promise_to_deliver": "By the end of this post the reader will understand why dopamine nails work, which specific colours will lift their mood, and exactly how to translate that into a manicure they are actually excited to wear.",
+    "exit_state": "Informed and motivated — the reader finishes knowing what to get, why it will work, and feeling like they have just been given permission to choose colour for themselves rather than for a trend."
+  },
+
+  "section_10_content_structure": {
+    "blog_gen_instruction": "This H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s without user instruction. Word budget per section is set — follow it. H3s may be added at editorial discretion.",
+    "h1": "Dopamine Nails: The Colours That Actually Boost Your Mood",
+    "h2_structure": [
+      "H2-1: What Are Dopamine Nails, Exactly?",
+      "H2-2: Why Do Bright Colours Make You Feel Better? The Science",
+      "H2-3: Which Colours Actually Trigger a Dopamine Response?",
+      "H2-4: How to Build a Dopamine Nail Colour Palette",
+      "H2-5: The Best Dopamine Nail Designs in 2026",
+      "H2-6: Dopamine Nails for Your Skin Tone",
+      "H2-7: Can You Wear Dopamine Nails to Work?",
+      "H2-8: Quiet Dopamine Nails — If You're Not Ready for Full Neon"
+    ],
+    "word_budget": {
+      "introduction": 220,
+      "h2_1_what_are_dopamine_nails": 200,
+      "h2_2_science": 280,
+      "h2_3_colours_that_trigger_response": 260,
+      "h2_4_build_a_palette": 230,
+      "h2_5_best_designs_2026": 260,
+      "h2_6_skin_tone": 260,
+      "h2_7_work": 200,
+      "h2_8_quiet_dopamine": 220,
+      "conclusion": 170,
+      "total_target": 2300,
+      "tolerance_note": "±50 words. Never exceed 2350. Floor 2150."
+    }
+  },
+
+  "section_11_internal_links": {
+    "blog_gen_instruction": "Every link below must appear in the post. Cluster links use anchor texts verbatim — do not rewrite. Cross-site links use the provided descriptive anchor. Place each link where the placement note says — woven naturally into prose, never as a standalone CTA. Total internal links must not exceed 6.",
+    "all_internal_links": [
+      {
+        "url_or_slug": "/blog/mood-nails/nails-by-mood",
+        "title": "Nails by Mood: The Complete Guide to Choosing Your Colour by How You Feel",
+        "anchor_text": "nails by mood",
+        "placement_note": "H2-1 (What Are Dopamine Nails) — when contextualising this post within the broader emotion-colour connection concept",
+        "link_type": "cluster-pillar"
+      },
+      {
+        "url_or_slug": "/blog/mood-nails/happy-nails",
+        "title": "Nails for When You're Feeling Happy: Joyful, Playful, Bright",
+        "anchor_text": "happy nails",
+        "placement_note": "H2-5 (Best Designs 2026) — when discussing the joyful, playful aesthetic angle and signposting the reader to pure inspiration content",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/mood-nails/nail-color-psychology",
+        "title": "What Your Nail Color Says About You: Color Psychology Decoded",
+        "anchor_text": "nail color psychology",
+        "placement_note": "H2-2 (Science) or H2-3 (Colours) — when the science angle calls for a deeper psychological deep-dive link",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/mood-nails/romantic-nails",
+        "title": "Nails That Match Your Romantic Mood: Soft, Dreamy, Feminine",
+        "anchor_text": "romantic nails",
+        "placement_note": "H2-8 (Quiet Dopamine Nails) — when discussing softer, blush-toned colours as a quieter dopamine entry point",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/blog/neon-summer-nails",
+        "title": "Neon Summer Nails: Bold Colours & Designs for 2026",
+        "anchor_text": "neon nail colours and the science of why they register so differently to the eye",
+        "placement_note": "H2-3 (Colours That Trigger Response) — when discussing how neon/fluorescent pigments create a physically different visual stimulus",
+        "link_type": "cross-site"
+      }
+    ],
+    "total_link_count": 5,
+    "note": "5 internal links total — within 4-6 cap. No gallery link (spoke, not pillar)."
+  },
+
+  "section_12_voice_tone": {
+    "blog_gen_instruction": "This is the voice for this specific post. Layer on top of Mirellé editorial framework. Do not default to generic AI tone.",
+    "recommended_voice": "Confident educator with warmth — the knowledgeable friend who actually did the research so you don't have to",
+    "tone_characteristics": [
+      "Informed without being clinical — the science is explained in plain, grounded terms, never academic",
+      "Permissive and inclusive — this post gives the reader explicit permission to choose colour for themselves, not for a trend",
+      "Direct — answers questions clearly at the top of each section before elaborating",
+      "Slightly playful — reflects the joyful nature of the subject without being breathless or hypey",
+      "Inclusive — actively acknowledges the reader who is hesitant about bold colour, not just the maximalist convert"
+    ],
+    "language_style": "Medium-short sentences. Second-person 'you' throughout. Occasional real community phrases woven in naturally. No hedging ('it depends', 'it can be') without resolution. Analogies welcome — this topic suits them.",
+    "audience_match": "This reader is curious and intelligent but not deeply schooled in colour science — they want understanding, not a lecture. The warm-educator voice gives them both knowledge and permission in equal measure."
+  },
+
+  "section_13_external_links": {
+    "blog_gen_instruction": "Include all external links where indicated. Supports E-E-A-T. Use anchor suggestion as guide — write naturally around it.",
+    "links": [
+      {
+        "url": "https://www.ijsr.net/getabstract.php?paperid=SR25415081034",
+        "context": "H2-2 (Science section) — cite when explaining the peer-reviewed research link between manicures and the brain's dopamine reward system",
+        "anchor_suggestion": "a 2025 study published in the International Journal of Science and Research"
+      },
+      {
+        "url": "https://lightelegance.com/blogs/les-hottest-nail-art-trends/dopamine-nail-trend",
+        "context": "H2-4 (Building a Palette) — cite when explaining complementary and analogous colour theory for dopamine nail design",
+        "anchor_suggestion": "colour theory principles used by professional nail technicians"
+      },
+      {
+        "url": "https://semilacusa.com/blogs/semilac-blog/dopamine-nails-trend-colors-that-instantly-boost-your-mood",
+        "context": "H2-3 (Colours That Trigger Response) — cite when listing specific colour-to-emotion psychology (pink, yellow, orange, purple, green)",
+        "anchor_suggestion": "colour-to-emotion mapping from Semilac's mood-boosting colour guide"
+      }
+    ]
+  },
+
+  "section_14_execution_plan": {
+    "purpose": "Blog Gen Agent reads this section FIRST — before frontmatter, before writing a single word. Every value here is pre-calculated. Lock all values. Execute exactly.",
+    "blog_gen_instruction": "READ THIS SECTION FIRST. Lock every value. Execute exactly. Do not recalculate, do not adjust, do not deviate.",
+
+    "block_1_keyword_execution": {
+      "primary_keyword": "dopamine nails",
+      "top_3_density_baseline": 9,
+      "total_mention_target": 12,
+      "first_100_words_plan": {
+        "rule": "Primary keyword MUST appear TWICE in the first 100 words. Mandatory. No exceptions.",
+        "mention_1": "Sentence 1-2 of introduction — establish the subject immediately: 'dopamine nails have been...'",
+        "mention_2": "Sentence 4-5 of introduction — reaffirm with the science hook: 'what makes dopamine nails different is...'"
+      },
+      "first_half_target": "7 mentions — first 1,100 words. Run denser in first half.",
+      "second_half_target": "5 mentions — second 1,100 words.",
+      "strong_tag_rule": "EVERY single mention of 'dopamine nails' — all 12 of them — wrapped in <strong> tags. No exceptions. Scan after every paragraph.",
+      "keywords_to_avoid_active": [
+        "nails by mood", "heartbreak nail designs", "nails for confidence",
+        "romantic nails", "dark feminine nails", "nail color psychology",
+        "happy nails", "witchy nails", "goth nails", "pastel goth nails",
+        "mob wife nails", "blue nails", "coffin ombre nails"
+      ]
+    },
+
+    "block_2_word_budget": {
+      "total_target": 2200,
+      "tolerance": "+/-50 words. Hard cap 2250. Floor 2150.",
+      "introduction": 220,
+      "conclusion": 170,
+      "h2_budgets": [
+        { "heading": "What Are Dopamine Nails, Exactly?", "budget": 200, "complexity": "medium" },
+        { "heading": "Why Do Bright Colours Make You Feel Better? The Science", "budget": 280, "complexity": "high" },
+        { "heading": "Which Colours Actually Trigger a Dopamine Response?", "budget": 260, "complexity": "high" },
+        { "heading": "How to Build a Dopamine Nail Colour Palette", "budget": 230, "complexity": "medium" },
+        { "heading": "The Best Dopamine Nail Designs in 2026", "budget": 260, "complexity": "medium" },
+        { "heading": "Dopamine Nails for Your Skin Tone", "budget": 260, "complexity": "high" },
+        { "heading": "Can You Wear Dopamine Nails to Work?", "budget": 200, "complexity": "low" },
+        { "heading": "Quiet Dopamine Nails — If You're Not Ready for Full Neon", "budget": 220, "complexity": "medium" }
+      ],
+      "tracking_rule": "Track running word total at the end of every H2 section. If a section is running over budget — cut before moving to the next section. Do not compensate later."
+    },
+
+    "block_3_image_plan": {
+      "total_images": 9,
+      "hero_image": "frontmatter only — NEVER appears in post body",
+      "body_images": 8,
+      "assignments": [
+        { "image_number": 1, "place_after": "Introduction", "section_context": "Eye-catching mismatched bright colour manicure — the definitive dopamine nail look, multiple vivid shades on each nail" },
+        { "image_number": 2, "place_after": "What Are Dopamine Nails, Exactly?", "section_context": "Classic dopamine nail set — bright neons, possibly skittle-style or rainbow French tips" },
+        { "image_number": 3, "place_after": "Why Do Bright Colours Make You Feel Better? The Science", "section_context": "Vibrant neon or electric yellow/orange manicure — high saturation shades that illustrate the science point" },
+        { "image_number": 4, "place_after": "Which Colours Actually Trigger a Dopamine Response?", "section_context": "Colour palette flat-lay or multi-shade set showing pink, orange, yellow, purple, green in dopamine context" },
+        { "image_number": 5, "place_after": "How to Build a Dopamine Nail Colour Palette", "section_context": "A cohesive dopamine palette manicure — complementary or analogous colour combination on nails" },
+        { "image_number": 6, "place_after": "The Best Dopamine Nail Designs in 2026", "section_context": "Viral 2026 dopamine nail design — rainbow Frenchies, smiley face nails, or fruit art set" },
+        { "image_number": 7, "place_after": "Dopamine Nails for Your Skin Tone", "section_context": "Dopamine nails shown on a deeper skin tone — jewel-bright colours or electric neons that show inclusivity" },
+        { "image_number": 8, "place_after": "Quiet Dopamine Nails — If You're Not Ready for Full Neon", "section_context": "Subtle dopamine nail approach — single bright accent nail on otherwise neutral set, or soft pastel version" }
+      ],
+      "image_type_rule": "ALL body images = inspirational nail design images. NO infographics. NO process diagrams. NO comparison charts.",
+      "path_rule": "/images/blog/mood-nails/dopamine-nails/filename.webp — topic_slug in path always"
+    },
+
+    "block_4_opening_technique_assignments": {
+      "rule": "No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.",
+      "assignments": [
+        { "section": "Introduction", "technique": "Technique 2 — The Scene-Set (place reader in the moment of the dopamine nail experience before explaining it)" },
+        { "section": "What Are Dopamine Nails, Exactly?", "technique": "Technique 3 — The Reframe (challenge the assumption that this is 'just colourful nails')" },
+        { "section": "Why Do Bright Colours Make You Feel Better? The Science", "technique": "Technique 1 — The Claim (open with a confident declarative statement about the brain reward connection)" },
+        { "section": "Which Colours Actually Trigger a Dopamine Response?", "technique": "Technique 2 — The Scene-Set (paint the picture of what choosing the 'right' colour actually feels like)" },
+        { "section": "How to Build a Dopamine Nail Colour Palette", "technique": "Technique 3 — The Reframe (reframe palette-building from overwhelming to a two-step framework)" },
+        { "section": "The Best Dopamine Nail Designs in 2026", "technique": "Technique 1 — The Claim (state definitively what the most sought-after designs are right now)" },
+        { "section": "Dopamine Nails for Your Skin Tone", "technique": "Technique 2 — The Scene-Set (describe the moment of choosing a colour that actually looks right on your hand)" },
+        { "section": "Can You Wear Dopamine Nails to Work?", "technique": "Technique 3 — The Reframe (flip the assumption that bright = unprofessional)" },
+        { "section": "Quiet Dopamine Nails — If You're Not Ready for Full Neon", "technique": "Technique 1 — The Claim (open with clear permission: dopamine nails have a quiet version and it is equally valid)" },
+        { "section": "Conclusion", "technique": "Technique 1 — The Claim (close with a confident summary statement about what dopamine nails actually are and why they work)" }
+      ],
+      "banned_opener_rule": "Check every opener against banned_opening_approaches in blog gen prompt before writing the second sentence"
+    },
+
+    "block_5_link_placements": {
+      "rule": "Every link placed exactly where specified. Anchor texts used verbatim — never rewritten. Links woven into prose naturally — never standalone CTAs.",
+      "links": [
+        {
+          "anchor_text": "nails by mood",
+          "full_url": "/blog/mood-nails/nails-by-mood",
+          "place_in_section": "What Are Dopamine Nails, Exactly?",
+          "placement_context": "When explaining that dopamine nails are one specific emotional entry point in a broader spectrum of colour-by-feeling choices — transition naturally into the pillar link",
+          "link_type": "cluster-pillar"
+        },
+        {
+          "anchor_text": "nail color psychology",
+          "full_url": "/blog/mood-nails/nail-color-psychology",
+          "place_in_section": "Why Do Bright Colours Make You Feel Better? The Science",
+          "placement_context": "After introducing the science framing, point reader to the deeper psychological breakdown — 'for the full picture of what different shades communicate about you, see nail color psychology'",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "neon nail colours and the science of why they register so differently to the eye",
+          "full_url": "https://mirelleinspo.com/blog/neon-summer-nails",
+          "place_in_section": "Which Colours Actually Trigger a Dopamine Response?",
+          "placement_context": "When explaining how fluorescent/neon pigments literally register differently in the brain — cross-site to the neon summer nails post for readers who want to go deeper on neon specifically",
+          "link_type": "cross-site"
+        },
+        {
+          "anchor_text": "happy nails",
+          "full_url": "/blog/mood-nails/happy-nails",
+          "place_in_section": "The Best Dopamine Nail Designs in 2026",
+          "placement_context": "When pointing reader toward the pure joyful inspiration gallery — 'for the full inspo edit see happy nails'",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "romantic nails",
+          "full_url": "/blog/mood-nails/romantic-nails",
+          "place_in_section": "Quiet Dopamine Nails — If You're Not Ready for Full Neon",
+          "placement_context": "When discussing blush, soft pink and dreamy pastels as a quieter dopamine entry point — transition to romantic nails for readers who identify with that softer palette",
+          "link_type": "cluster-spoke"
+        }
+      ]
+    },
+
+    "block_6_aeo_geo_plan": {
+      "aeo_assignments": [
+        {
+          "aeo_term": "What are dopamine nails?",
+          "assigned_to_section": "What Are Dopamine Nails, Exactly?",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading. Definition: Dopamine nails are a nail trend rooted in colour psychology — choosing shades and designs that trigger positive emotion and a sense of joy, based on the same principle as dopamine dressing in fashion. The name comes from dopamine, the brain's feel-good neurotransmitter. No filler before this answer."
+        },
+        {
+          "aeo_term": "Do dopamine nails actually boost your mood?",
+          "assigned_to_section": "Why Do Bright Colours Make You Feel Better? The Science",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading. Yes — and there is research to anchor it. A 2025 paper in the International Journal of Science and Research confirmed a theoretical and practical link between manicures and the brain's reward system. Vibrant saturated colour stimulates positive emotional response via dopamine release."
+        },
+        {
+          "aeo_term": "Can you wear dopamine nails to work?",
+          "assigned_to_section": "Can You Wear Dopamine Nails to Work?",
+          "execution": "Direct 2-sentence answer at the top: Yes — work-appropriate dopamine nails exist and are more common than people think. The key is choosing one or two mood-boosting colours in a soft formula rather than full maximalist rainbow art."
+        },
+        {
+          "aeo_term": "Can dopamine nails be subtle?",
+          "assigned_to_section": "Quiet Dopamine Nails — If You're Not Ready for Full Neon",
+          "execution": "Direct answer at opening: Absolutely. Dopamine nails are defined by the emotional effect, not the intensity of colour — one vivid accent nail on an otherwise neutral set qualifies fully."
+        }
+      ],
+      "geo_entity_statements": [
+        {
+          "entity": "Dopamine nails",
+          "assigned_to_section": "What Are Dopamine Nails, Exactly?",
+          "execution": "Dopamine nails are a manicure approach built on colour psychology: deliberately choosing nail shades that create a positive emotional response by stimulating the brain's dopamine reward circuit. Write as a clean declarative sentence — extractable by AI as a citation."
+        },
+        {
+          "entity": "Dopamine dressing",
+          "assigned_to_section": "What Are Dopamine Nails, Exactly?",
+          "execution": "Dopamine dressing is the fashion movement — popularised around 2022 — of intentionally wearing bright, saturated colours to boost mood. Define clearly; dopamine nails are its direct nail-world extension."
+        },
+        {
+          "entity": "Skittle manicure",
+          "assigned_to_section": "How to Build a Dopamine Nail Colour Palette",
+          "execution": "A skittle manicure is a nail style in which each nail is painted a different colour from a coordinated palette, named for the Skittles candy. Distinguish from dopamine nails: a skittle mani is a design format; dopamine nails is a mood-led philosophy. They overlap but are not the same thing."
+        }
+      ]
+    },
+
+    "block_7_active_constraints": {
+      "em_dash_banned": "Long em dash does not appear anywhere. Replace with: comma, new sentence, parentheses, 'but', or restructure.",
+      "banned_vocab_watch": [
+        "stunning",
+        "vibrant (overused — vary with: saturated, electric, vivid, bold, joyful)",
+        "amazing",
+        "beautiful",
+        "elevate / elevated",
+        "unleash"
+      ],
+      "british_english_active": "colour, recognise, -ise, -our endings — every instance, no exceptions. 'Colour' not 'color' in body copy (meta description may use 'color' to mirror search term).",
+      "keyword_density_reminder": "After every 2 H2 sections — count current keyword mentions. Target: 7 mentions by word 1100. 12 total by end. First half must run denser. Adjust if needed.",
+      "image_path_reminder": "/images/blog/mood-nails/dopamine-nails/filename.webp — topic_slug 'mood-nails' in path always",
+      "internal_link_url_reminder": "Full correct paths only. Cluster links = /blog/mood-nails/[slug]. Cross-site = exact discovered URL. Never bare /slug.",
+      "hero_image_reminder": "Hero = frontmatter only. Never place hero image in body.",
+      "strong_tag_reminder": "Every 'dopamine nails' mention = <strong>dopamine nails</strong>. Scan after every paragraph. All 12 mentions."
+    }
+  }
+}
