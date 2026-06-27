@@ -1,0 +1,541 @@
+{
+  "file_authority": {
+    "statement": "THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly."
+  },
+
+  "post_constants": {
+    "slug": "shellac-cost",
+    "topic_slug": "gel-nails-cost",
+    "canonical": "https://mirelleinspo.com/blog/gel-nails-cost/shellac-cost",
+    "post_type": "spoke",
+    "intent": "informational",
+    "word_count": 2100,
+    "image_count": 9,
+    "template": "split-left",
+    "hero_dimensions": "800x800",
+    "category": "Nail Cost Guides",
+    "publish_date": "2026-07-01",
+    "author": "Mirellé Team"
+  },
+
+  "cluster_snapshot": {
+    "pillar_slug": "gel-nails-cost",
+    "pillar_title": "How Much Do Gel Nails Cost: Full Pricing Guide",
+    "pillar_primary_keyword": "gel nails cost",
+    "this_post_slug": "shellac-cost",
+    "this_post_role": "spoke",
+    "keywords_to_avoid": [
+      "gel nails cost",
+      "gel manicure cost",
+      "gel nail extensions cost",
+      "gel-x cost",
+      "are gel nails worth the cost",
+      "gel nail removal cost",
+      "gel nails annual cost",
+      "DIY gel nails vs salon cost",
+      "how to make gel nails last longer",
+      "gel vs acrylic almond nails",
+      "gel nail polish for work",
+      "blooming gel nails tutorial",
+      "acrylic vs gel vs press-on prom nails"
+    ]
+  },
+
+  "serp_analysis": {
+    "blog_gen_instruction": "Use competitor gaps and missing semantic territory to fill what competitors miss. Our strategic approach is the angle for the introduction and conclusion.",
+    "top_3_ranking_posts_estimated": [
+      {
+        "source": "Nailicy.com",
+        "url": "https://nailicy.com/article/how-much-does-shellac-cost-at-a-nail-salon",
+        "estimated_word_count": 1400,
+        "estimated_primary_keyword_mentions": 9
+      },
+      {
+        "source": "Beautique Bar",
+        "url": "https://beautiquebar.com/blog/cost-of-shellac-manicures/",
+        "estimated_word_count": 1900,
+        "estimated_primary_keyword_mentions": 11
+      },
+      {
+        "source": "NailSalonPrices.com",
+        "url": "https://nailsalonprices.com/shellac-nails-prices/",
+        "estimated_word_count": 1700,
+        "estimated_primary_keyword_mentions": 10
+      }
+    ],
+    "top_3_average_word_count": 1667,
+    "top_3_keyword_density_baseline": 10,
+    "competitor_gaps": [
+      "No competitor provides a clear country-by-country price table covering US, UK, Australia, and Canada in one post — readers in non-US markets feel poorly served",
+      "None address the core confusion: 'Is Shellac the same as gel polish?' at the top of the post, leaving readers unsure if they are comparing the right services",
+      "None explain what is actually included at the base price vs what attracts hidden add-on fees (soak-off, cuticle care, French tips, nail art) — a top audience frustration confirmed across Yelp and SalonGeek",
+      "No competitor addresses Shellac removal cost as a standalone cost within the same article — readers must find it elsewhere",
+      "No competitor explains why Shellac costs more in the UK and Australia than in the US despite being the same brand — a clear semantic gap confirmed on Treatwell and J.Aesthetic",
+      "None address the CND certified salon premium — readers do not know that authentic CND Shellac costs more than a salon offering 'Shellac' with a non-CND brand"
+    ],
+    "missing_semantic_territory": [
+      "CND brand premium vs generic gel polish sold as Shellac — a confusion-driven search that surfaces on Yelp and SalonGeek",
+      "Shellac pedicure cost vs Shellac manicure cost as a named price point",
+      "Shellac removal cost bundled vs standalone — confirmed audience pain point in multiple sources",
+      "How Shellac cost compares to standard gel manicure cost at the same salon",
+      "Cost difference between express Shellac (colour only) and full Shellac manicure (cuticle work, shaping, massage)",
+      "French tip Shellac surcharge — mentioned on multiple real salon price lists"
+    ],
+    "our_strategic_approach": "This post owns the global pricing angle no competitor publishes — a clean US/UK/AU/CA price table in a single place, paired with a clear explanation of what Shellac actually is vs generic gel polish (the number one reader confusion). We answer the hidden-cost question upfront rather than burying it at the end, and we address the CND certified salon premium that explains why prices vary more than readers expect.",
+    "recommended_image_count_validation": "Top-ranking competitors use 3–6 images. Our 9-image count exceeds competitors and adds visual depth. Rule 5 (everything else) applies — 9 images confirmed."
+  },
+
+  "audience_intelligence": {
+    "blog_gen_instruction": "This is your primary creative brief. Every paragraph written for this specific person with this specific intent. Satisfy them completely.",
+    "who_they_are": "Primarily women aged 25–45 in the US, UK, Australia, and Canada who know the word 'Shellac' from salon menus or friends but are unsure whether it is a brand, a type of gel, or a different service altogether. They are budgeting for a first or repeat Shellac appointment and want to know if the quoted price is fair before they book — not after they arrive.",
+    "what_they_want_from_this_post": "A definitive, honest price range they can trust for their specific country, a clear explanation of what they are paying for, and confirmation of any hidden costs (removal, nail art add-ons, tip) before they walk in.",
+    "what_frustrates_them": "Competitor content that gives only US dollar prices when they are in the UK or Australia; posts that bury the removal cost at the bottom; confusion between Shellac (CND brand) and generic gel polish being sold as Shellac by salons not using CND products; vague ranges like '$25–$70' with no guidance on which end of the range applies to them.",
+    "top_5_pain_points": [
+      "Not knowing if the Shellac price quoted includes soak-off removal or whether that is charged separately at next appointment",
+      "Uncertainty about whether a salon offering 'Shellac' is actually using CND Shellac or a cheaper generic gel polish under the same name",
+      "Confusion about whether Shellac costs the same as a regular gel manicure at the same salon",
+      "No clear price guide for UK and Australia — nearly all content quotes US dollars only",
+      "Not knowing what add-ons (French tips, nail art, cuticle oil) will inflate the final bill beyond the advertised price"
+    ],
+    "exact_user_phrases": [
+      "how much does shellac cost at a nail salon",
+      "shellac nails how much",
+      "is shellac the same as gel",
+      "what is included in a shellac manicure",
+      "why is shellac more expensive than regular polish",
+      "how much does shellac removal cost",
+      "shellac price UK",
+      "shellac manicure cost Australia",
+      "how long does shellac last",
+      "is shellac worth the extra cost",
+      "does shellac price include removal",
+      "what's the difference between shellac and gel price"
+    ],
+    "intent_content_signals": [
+      "Wants real numbers, not wide ranges — a single confident average is more useful than '$25–$70'",
+      "Responds to country-specific pricing presented in a table or clearly labelled sections",
+      "Wants the hidden cost question answered upfront, not as a footnote",
+      "Trusts content that explains why prices vary (CND vs generic, salon tier, location) rather than just stating that they do",
+      "Responds well to a brief 'what Shellac actually is' definition at the start — removes the gel vs Shellac confusion before it derails the price research",
+      "Wants to know longevity-to-cost value alongside the price — they are calculating cost-per-week in their head",
+      "Does not want to wade through history of the brand — direct informational delivery preferred"
+    ]
+  },
+
+  "semantic_keyword_data": {
+    "blog_gen_instruction": "Primary keyword in strong tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.",
+    "primary_keyword": "shellac cost",
+    "total_mention_target": 13,
+    "first_100_words_rule": "Primary keyword MUST appear twice in the first 100 words. Mandatory. No exceptions.",
+    "keyword_variations": [
+      "shellac manicure cost",
+      "CND Shellac cost",
+      "shellac nails cost",
+      "how much does Shellac cost",
+      "Shellac nail price",
+      "price of a Shellac manicure",
+      "Shellac polish cost",
+      "cost of Shellac nails"
+    ],
+    "cluster_keywords": [
+      "CND Shellac",
+      "Power Polish",
+      "hybrid nail polish",
+      "soak-off removal",
+      "gel polish brand",
+      "nail salon pricing",
+      "semi-permanent nail polish",
+      "Shellac removal cost",
+      "French tip Shellac",
+      "Shellac pedicure cost",
+      "express Shellac manicure",
+      "luxury Shellac manicure",
+      "certified CND salon",
+      "UV LED lamp curing",
+      "Shellac wear time"
+    ],
+    "lsi_terms": [
+      "chip-resistant finish",
+      "14-day wear",
+      "acetone soak-off",
+      "base coat",
+      "colour coat",
+      "top coat",
+      "cuticle care",
+      "nail shaping",
+      "Creative Nail Design",
+      "gel-polish hybrid",
+      "nail technician expertise",
+      "salon tier premium",
+      "nail art add-on",
+      "Treatwell booking",
+      "urban salon pricing",
+      "salon menu",
+      "mani-pedi package",
+      "regular polish comparison",
+      "Shellac vs gel polish",
+      "nail health post-removal"
+    ],
+    "aeo_terms": [
+      "How much does a Shellac manicure cost in the US?",
+      "How much does Shellac cost in the UK?",
+      "How much does Shellac cost in Australia?",
+      "Is Shellac the same as gel nails?",
+      "Does the shellac price include removal?",
+      "Why is Shellac more expensive than regular nail polish?",
+      "How much does Shellac removal cost on its own?",
+      "How long does Shellac last compared to regular polish?",
+      "What is included in a Shellac manicure?",
+      "Is Shellac cheaper than gel extensions?",
+      "How much does a Shellac pedicure cost?",
+      "Does a Shellac manicure include nail shaping and cuticle care?"
+    ],
+    "technical_terms": [
+      "UV3 technology",
+      "photoinitiators",
+      "CND (Creative Nail Design)",
+      "LED curing lamp",
+      "soak-off gel system",
+      "Power Polish",
+      "gel-traditional hybrid formula",
+      "acetone wrap removal"
+    ],
+    "user_language": [
+      "shellac nails",
+      "getting shellac done",
+      "shellac at the salon",
+      "is shellac worth it",
+      "shellac vs gel which is better",
+      "does shellac ruin your nails",
+      "how long does shellac last",
+      "shellac off at home"
+    ]
+  },
+
+  "voice_and_ai_queries": {
+    "blog_gen_instruction": "Answer every query directly in the relevant H2 section body. If a query cannot be addressed naturally in the body, route it to faqItems. No query left unanswered.",
+    "queries": [
+      "How much does a Shellac manicure cost at a nail salon?",
+      "How much does Shellac cost in the UK?",
+      "How much does Shellac cost in Australia?",
+      "How much does Shellac cost in Canada?",
+      "Is Shellac the same as gel nail polish?",
+      "What is included in the price of a Shellac manicure?",
+      "Does a Shellac manicure price include removal?",
+      "How much extra is it to get a French tip with Shellac?",
+      "Why does Shellac cost more than regular nail polish?",
+      "How much does it cost to remove Shellac nails at the salon?",
+      "How long does Shellac last before needing to be redone?",
+      "Is Shellac cheaper than gel nail extensions?",
+      "How much does a Shellac pedicure cost?",
+      "What is the difference between CND Shellac and generic gel polish in terms of cost?",
+      "How do I know if a salon is using real CND Shellac or a generic version?",
+      "Is Shellac cheaper or more expensive than regular gel manicure?"
+    ]
+  },
+
+  "hook_and_ctr": {
+    "blog_gen_instruction": "READ THIS SECTION BEFORE WRITING THE TITLE, META DESCRIPTION, INTRO, OR FIRST H2. The title and description are hardcoded here — use them exactly. The intro hook brief and first H2 hook direction are your creative brief for those specific elements. Do not deviate.",
+    "selected_trigger": "Trigger 1 — Curiosity Gap",
+    "trigger_rationale": "The reader searching 'shellac cost' is confused about what she is actually paying for — she suspects something is being obscured (hidden removal fees, generic brands sold as Shellac, price differences across countries) — and a curiosity gap trigger resolves that anxiety while promising clarity.",
+    "title": "Shellac Cost: What Salons Don't Tell You (2026)",
+    "title_char_count": 50,
+    "meta_description": "Shellac manicures cost $30–$60 in the US, £25–£45 in the UK, and A$40–A$80 in Australia — but that's before hidden fees. Here's the full price breakdown.",
+    "meta_char_count": 154,
+    "intro_hook_brief": "Open by naming the exact confusion the reader arrived with — she has seen 'Shellac' on a salon menu and is not quite sure if it costs the same as a gel manicure, more, or less, and whether the price she has been quoted is all-in. Immediately signal that this post resolves that, country by country, with no buried surprises.",
+    "first_h2_hook_direction": "The first H2 should answer the most fundamental question before anything else: what Shellac actually is, defined briefly and confidently, because if she does not know whether it is a brand or a service type, the prices that follow mean nothing. Phrase it as a voice query: 'What Is Shellac — and Is It the Same as a Gel Manicure?'"
+  },
+
+  "search_journey": {
+    "blog_gen_instruction": "This is the emotional contract with the reader. Every section of the post must honour the promise made. Read this before writing any section. If a paragraph breaks the journey arc — rewrite it.",
+    "reader_arrival_state": "Mildly confused and slightly suspicious — she has seen 'Shellac' on a salon menu or been quoted a price by a friend, but she does not know if the figure is standard, whether it includes removal, or why prices seem to vary so much.",
+    "journey_arc": [
+      "Arrive: clear up the Shellac vs gel question immediately so the rest of the pricing information lands without confusion",
+      "Build confidence: deliver a country-by-country price table with specific figures that feel authoritative and honest",
+      "Address anxiety: name and explain the hidden costs (removal, add-ons, tips) before she has to ask",
+      "Provide context: explain why prices vary (salon tier, location, CND-certified vs generic) so she knows which end of the range applies to her",
+      "Exit with clarity: confirm cost-per-wear value and signal where to read more about the full gel nails cost picture"
+    ],
+    "promise_to_deliver": "The exact Shellac price she should expect to pay in her country, what that price includes, and what it does not — so she walks into the salon informed, not ambushed.",
+    "exit_state": "She feels informed, unambushed, and confident she now knows what a fair Shellac price looks like in her market and what questions to ask before she books."
+  },
+
+  "content_structure": {
+    "blog_gen_instruction": "This H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s without user instruction. Word budget per section is set — follow it. H3s may be added at editorial discretion.",
+    "h1": "How Much Does Shellac Cost? The Complete 2026 Price Guide",
+    "h2_structure": [
+      "What Is Shellac — and Is It the Same as a Gel Manicure?",
+      "How Much Does Shellac Cost in the US?",
+      "How Much Does Shellac Cost in the UK?",
+      "How Much Does Shellac Cost in Australia and Canada?",
+      "What Is (and Isn't) Included in the Shellac Price?",
+      "Hidden Shellac Costs Most Salons Don't Mention Upfront",
+      "Why Does Shellac Cost More at Some Salons Than Others?",
+      "How Does Shellac Cost Compare to Regular Gel Polish?"
+    ],
+    "word_budget": {
+      "introduction": "230 words",
+      "h2_1_what_is_shellac": "220 words",
+      "h2_2_us_price": "250 words",
+      "h2_3_uk_price": "220 words",
+      "h2_4_au_ca_price": "220 words",
+      "h2_5_whats_included": "220 words",
+      "h2_6_hidden_costs": "240 words",
+      "h2_7_why_prices_vary": "220 words",
+      "h2_8_shellac_vs_gel": "180 words",
+      "conclusion": "180 words",
+      "total": "2180 words (within 2100 +/- 50 tolerance)"
+    }
+  },
+
+  "internal_links": {
+    "blog_gen_instruction": "Every link below must appear in the post. Cluster links use anchor texts verbatim — do not rewrite. Cross-site links use the provided descriptive anchor. Place each link where the placement note says — woven naturally into prose, never as a standalone CTA. Total internal links must not exceed 6.",
+    "all_internal_links": [
+      {
+        "url_or_slug": "/blog/gel-nails-cost/gel-nails-cost",
+        "title": "How Much Do Gel Nails Cost: Full Pricing Guide",
+        "anchor_text": "gel nails cost",
+        "placement_note": "H2-8 (Shellac vs gel cost comparison) — natural when discussing where Shellac sits in the broader gel pricing picture",
+        "link_type": "cluster-pillar"
+      },
+      {
+        "url_or_slug": "/blog/gel-nails-cost/gel-manicure-cost",
+        "title": "How Much Does a Gel Manicure Cost",
+        "anchor_text": "gel manicure cost",
+        "placement_note": "H2-8 (Shellac vs gel cost comparison) — natural when comparing Shellac price to a standard gel manicure at the same salon",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/gel-nails-cost/gel-nails-worth-cost",
+        "title": "Gel Nails vs Regular Nails: Is the Extra Cost Worth It",
+        "anchor_text": "are gel nails worth the cost",
+        "placement_note": "H2-8 or conclusion — natural when noting that Shellac sits at the lower end of the gel cost spectrum and readers wondering about value can go deeper",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/gel-nails-cost/how-to-make-gel-nails-last-longer",
+        "title": "How to Make Gel Nails Last Longer Between Salon Visits",
+        "anchor_text": "how to make gel nails last longer",
+        "placement_note": "H2-6 (hidden costs) — natural after mentioning that Shellac typically lasts 10–14 days and extending wear reduces per-appointment cost",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/work-nails/gel-nail-polish-for-work",
+        "title": "Best Gel Nail Polish for Work: Lasts a Full Fortnight",
+        "anchor_text": "how CND Shellac compares to other gel polish systems for longevity and nail health",
+        "placement_note": "H2-1 (What Is Shellac) — natural when referencing that Shellac is a specific brand within the gel polish category, and the existing site post already explains the differences between systems",
+        "link_type": "cross-site"
+      }
+    ]
+  },
+
+  "voice_tone": {
+    "blog_gen_instruction": "This is the voice for this specific post. Layer on top of Mirellé editorial framework. Do not default to generic AI tone.",
+    "recommended_voice": "Confident, clear-eyed educator with a slight edge of consumer advocacy",
+    "tone_characteristics": [
+      "Transparent — names the things salons gloss over (hidden fees, generic vs CND, removal costs) without being alarmist",
+      "Precise — gives real numbers and does not hide behind vague ranges",
+      "Efficient — this reader did not come for story, she came for facts; every paragraph earns its place",
+      "Reassuring — the tone acknowledges her confusion rather than making her feel uninformed for having it",
+      "Globally aware — acknowledges UK/AU/CA readers as equal to US readers, not an afterthought"
+    ],
+    "language_style": "Short declarative sentences for price facts. 'You' used throughout. No jargon without definition. Analogies avoided — this is a pricing post, not a lifestyle post. Sentence rhythm: statement → detail → implication.",
+    "audience_match": "Fits the reader who is informed enough to know what Shellac is by name but uncertain enough to need anchoring on what is normal to pay — she does not want to be talked down to but she does want someone to be straight with her."
+  },
+
+  "external_links": {
+    "blog_gen_instruction": "Include all external links where indicated. Supports E-E-A-T. Use anchor suggestion as guide — write naturally around it.",
+    "links": [
+      {
+        "url": "https://www.cnd.com/pages/cost-per-service",
+        "context": "H2-7 (Why prices vary) — when explaining that CND publishes suggested salon pricing guidelines for the US and Canada, and that certified salons follow them",
+        "anchor_suggestion": "CND's official cost-per-service guidelines"
+      },
+      {
+        "url": "https://www.cnd.com/",
+        "context": "H2-1 (What Is Shellac) — when defining CND as the manufacturer and the brand's original Power Polish designation",
+        "anchor_suggestion": "Creative Nail Design (CND)"
+      },
+      {
+        "url": "https://www.treatwell.co.uk/places/brand-cnd-c-shellac/in-london-uk/",
+        "context": "H2-3 (UK prices) — when citing that booking platforms like Treatwell list CND Shellac as a distinct service category from standard gel polish in UK salons",
+        "anchor_suggestion": "CND-certified salons listed on Treatwell"
+      }
+    ]
+  },
+
+  "execution_plan": {
+    "blog_gen_instruction": "READ THIS SECTION FIRST. Lock every value. Execute exactly. Do not recalculate, do not adjust, do not deviate.",
+
+    "block_1_keyword_execution": {
+      "primary_keyword": "shellac cost",
+      "top_3_density_baseline": 10,
+      "total_mention_target": 13,
+      "first_100_words_plan": {
+        "rule": "Primary keyword MUST appear TWICE in the first 100 words. Mandatory. No exceptions.",
+        "mention_1": "Sentence 2 of introduction — when stating what this post covers e.g. 'The shellac cost question comes up because...'",
+        "mention_2": "Sentence 4 or 5 of introduction — when signalling the country breakdown e.g. '...a complete shellac cost guide covering US, UK, Australia, and Canada'"
+      },
+      "first_half_target": "8 mentions in the first 1050 words",
+      "second_half_target": "5 mentions in the second 1050 words",
+      "strong_tag_rule": "EVERY single mention of the primary keyword — all 13 of them — wrapped in <strong> tags. No exceptions. Catch each one as it is written. Scan after every paragraph.",
+      "keywords_to_avoid_active": [
+        "gel nails cost", "gel manicure cost", "gel nail extensions cost", "gel-x cost",
+        "are gel nails worth the cost", "gel nail removal cost", "gel nails annual cost",
+        "DIY gel nails vs salon cost", "how to make gel nails last longer",
+        "gel vs acrylic almond nails", "gel nail polish for work",
+        "blooming gel nails tutorial", "acrylic vs gel vs press-on prom nails"
+      ]
+    },
+
+    "block_2_word_budget": {
+      "total_target": "2100 words — +/-50 words tolerance, never exceed 2150",
+      "introduction": "230 words",
+      "conclusion": "180 words",
+      "h2_budgets": [
+        { "heading": "What Is Shellac — and Is It the Same as a Gel Manicure?", "budget": "220 words", "complexity": "medium" },
+        { "heading": "How Much Does Shellac Cost in the US?", "budget": "250 words", "complexity": "high" },
+        { "heading": "How Much Does Shellac Cost in the UK?", "budget": "220 words", "complexity": "medium" },
+        { "heading": "How Much Does Shellac Cost in Australia and Canada?", "budget": "220 words", "complexity": "medium" },
+        { "heading": "What Is (and Isn't) Included in the Shellac Price?", "budget": "220 words", "complexity": "medium" },
+        { "heading": "Hidden Shellac Costs Most Salons Don't Mention Upfront", "budget": "240 words", "complexity": "high" },
+        { "heading": "Why Does Shellac Cost More at Some Salons Than Others?", "budget": "220 words", "complexity": "medium" },
+        { "heading": "How Does Shellac Cost Compare to Regular Gel Polish?", "budget": "180 words", "complexity": "low" }
+      ],
+      "tracking_rule": "Track running word total at the end of every H2 section. If a section is running over budget — cut before moving to the next section. Do not compensate later."
+    },
+
+    "block_3_image_plan": {
+      "total_images": 9,
+      "hero_image": "frontmatter only — NEVER appears in post body",
+      "body_images": 8,
+      "assignments": [
+        { "image_number": 1, "place_after": "Introduction", "section_context": "Glossy, natural-length Shellac nails on a clean neutral colour — establishes the service being discussed" },
+        { "image_number": 2, "place_after": "What Is Shellac — and Is It the Same as a Gel Manicure?", "section_context": "Close-up of CND Shellac bottle or application — reinforces brand identity" },
+        { "image_number": 3, "place_after": "How Much Does Shellac Cost in the US?", "section_context": "Shellac nails on natural nails, classic colour — represents the service being priced" },
+        { "image_number": 4, "place_after": "How Much Does Shellac Cost in the UK?", "section_context": "Shellac nails in a neutral or blush tone — UK aesthetic alignment" },
+        { "image_number": 5, "place_after": "How Much Does Shellac Cost in Australia and Canada?", "section_context": "Shellac nails in a summer-ready tone — fits AU/CA context" },
+        { "image_number": 6, "place_after": "What Is (and Isn't) Included in the Shellac Price?", "section_context": "Nail technician applying Shellac — reinforces the service components being described" },
+        { "image_number": 7, "place_after": "Hidden Shellac Costs Most Salons Don't Mention Upfront", "section_context": "Shellac removal process or foil wraps — visually supports the removal cost discussion" },
+        { "image_number": 8, "place_after": "Why Does Shellac Cost More at Some Salons Than Others?", "section_context": "Upscale salon setting or premium Shellac finish — reinforces the salon tier point" }
+      ],
+      "image_type_rule": "ALL body images = inspirational nail images related to Shellac manicures on natural nails. NO infographics. NO price comparison charts. NO step-by-step diagrams.",
+      "path_rule": "/images/blog/gel-nails-cost/shellac-cost/filename.webp — topic_slug in path, slug folder, leading slash"
+    },
+
+    "block_4_opening_technique_assignments": {
+      "rule": "No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.",
+      "assignments": [
+        { "section": "Introduction", "technique": "Technique 2 — The Provocative Question (name the exact confusion the reader has)" },
+        { "section": "What Is Shellac — and Is It the Same as a Gel Manicure?", "technique": "Technique 4 — The Direct Definition (authoritative declarative sentence)" },
+        { "section": "How Much Does Shellac Cost in the US?", "technique": "Technique 3 — The Reframe (reframe the price range as covering distinct service tiers)" },
+        { "section": "How Much Does Shellac Cost in the UK?", "technique": "Technique 1 — The Claim (state the UK average as a confident single figure first)" },
+        { "section": "How Much Does Shellac Cost in Australia and Canada?", "technique": "Technique 2 — The Provocative Question (why do AU prices sit higher than US despite same brand?)" },
+        { "section": "What Is (and Isn't) Included in the Shellac Price?", "technique": "Technique 4 — The Direct Definition (define what 'base price' covers in a single sentence)" },
+        { "section": "Hidden Shellac Costs Most Salons Don't Mention Upfront", "technique": "Technique 1 — The Claim (state the hidden cost problem directly as the opener)" },
+        { "section": "Why Does Shellac Cost More at Some Salons Than Others?", "technique": "Technique 3 — The Reframe (reframe price variation as logical once three key factors are understood)" },
+        { "section": "How Does Shellac Cost Compare to Regular Gel Polish?", "technique": "Technique 2 — The Provocative Question (is shellac actually cheaper than gel?) " },
+        { "section": "Conclusion", "technique": "Technique 1 — The Claim (state a confident summary of the fair price range)" }
+      ],
+      "banned_opener_rule": "Check every opener against banned_opening_approaches in blog gen prompt before writing the second sentence"
+    },
+
+    "block_5_link_placements": {
+      "rule": "Every link placed exactly where specified. Anchor texts used verbatim — never rewritten. Links woven into prose naturally — never standalone CTAs.",
+      "links": [
+        {
+          "anchor_text": "gel nails cost",
+          "full_url": "/blog/gel-nails-cost/gel-nails-cost",
+          "place_in_section": "How Does Shellac Cost Compare to Regular Gel Polish?",
+          "placement_context": "When noting that Shellac sits within the broader gel pricing spectrum — 'for the full picture on what different gel services cost, see the complete gel nails cost guide'",
+          "link_type": "cluster-pillar"
+        },
+        {
+          "anchor_text": "gel manicure cost",
+          "full_url": "/blog/gel-nails-cost/gel-manicure-cost",
+          "place_in_section": "How Does Shellac Cost Compare to Regular Gel Polish?",
+          "placement_context": "When directly comparing Shellac price to a standard gel manicure at the same salon",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "are gel nails worth the cost",
+          "full_url": "/blog/gel-nails-cost/gel-nails-worth-cost",
+          "place_in_section": "Conclusion",
+          "placement_context": "When noting that for readers still weighing up whether gel or Shellac is a smart spend, the value question is answered separately",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "how to make gel nails last longer",
+          "full_url": "/blog/gel-nails-cost/how-to-make-gel-nails-last-longer",
+          "place_in_section": "Hidden Shellac Costs Most Salons Don't Mention Upfront",
+          "placement_context": "After noting that extending wear from 10 to 14+ days reduces per-appointment cost — 'if that matters, there is a full guide on how to make gel nails last longer'",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "how CND Shellac compares to other gel polish systems for longevity and nail health",
+          "full_url": "https://mirelleinspo.com/work-nails/gel-nail-polish-for-work",
+          "place_in_section": "What Is Shellac — and Is It the Same as a Gel Manicure?",
+          "placement_context": "After the brand definition — when noting that Shellac's hybrid formula makes it behave differently from standard gel, and the existing post covers those system differences in detail",
+          "link_type": "cross-site"
+        }
+      ]
+    },
+
+    "block_6_aeo_geo_plan": {
+      "aeo_assignments": [
+        {
+          "aeo_term": "How much does a Shellac manicure cost in the US?",
+          "assigned_to_section": "How Much Does Shellac Cost in the US?",
+          "execution": "Write a direct 2–3 sentence answer paragraph IMMEDIATELY after the H2 heading — before any elaboration. 'A Shellac manicure in the US costs between $30 and $60 at most salons. The national average for a standard application is around $35–$45. In major cities like New York or Los Angeles, prices typically start at $45 and can reach $70 at high-end salons.' This is what gets picked up by AI answer engines."
+        },
+        {
+          "aeo_term": "How much does Shellac cost in the UK?",
+          "assigned_to_section": "How Much Does Shellac Cost in the UK?",
+          "execution": "Write a direct 2–3 sentence answer paragraph IMMEDIATELY after the H2 heading. 'In the UK, a Shellac manicure typically costs between £25 and £45. London salons generally start at £35, with premium or Russian manicure-paired services reaching £50 or above.'"
+        },
+        {
+          "aeo_term": "Is Shellac the same as gel nail polish?",
+          "assigned_to_section": "What Is Shellac — and Is It the Same as a Gel Manicure?",
+          "execution": "Write a direct 2–3 sentence answer paragraph IMMEDIATELY after the H2 heading. 'Shellac is not the same as generic gel polish — it is a specific brand of hybrid nail polish created by CND (Creative Nail Design). All Shellac is gel, but not all gel is Shellac. When a salon uses the word Shellac without the CND brand, they may be using a different gel system under the same name.'"
+        },
+        {
+          "aeo_term": "Does the shellac price include removal?",
+          "assigned_to_section": "Hidden Shellac Costs Most Salons Don't Mention Upfront",
+          "execution": "Write a direct 2–3 sentence answer paragraph IMMEDIATELY after the H2 heading. 'Whether removal is included in the Shellac price depends on the salon. Many salons include soak-off removal when you are rebooking for the same service. When removal is charged separately, expect $10–$15 in the US or £5–£10 in the UK as a standalone fee.'"
+        }
+      ],
+      "geo_entity_statements": [
+        {
+          "entity": "CND Shellac",
+          "assigned_to_section": "What Is Shellac — and Is It the Same as a Gel Manicure?",
+          "execution": "Write a clear declarative definition sentence: 'CND Shellac is a patented hybrid nail polish system created by Creative Nail Design — it combines the chip resistance of gel with the thin, flexible finish of traditional nail polish, and is cured under a UV or LED lamp.'"
+        },
+        {
+          "entity": "Shellac removal cost",
+          "assigned_to_section": "Hidden Shellac Costs Most Salons Don't Mention Upfront",
+          "execution": "Write a clear declarative sentence: 'Shellac removal costs between $10 and $20 as a standalone service in the US, or $5–$15 when combined with a new application at the same appointment.'"
+        }
+      ]
+    },
+
+    "block_7_active_constraints": {
+      "em_dash_banned": "Long em dash does not appear anywhere. If one forms while writing — stop, replace with: comma / new sentence / parentheses / but / restructure.",
+      "banned_vocab_watch": [
+        "stunning",
+        "amazing",
+        "perfect",
+        "transform",
+        "elevate",
+        "game-changer",
+        "must-have",
+        "ultimately"
+      ],
+      "british_english_active": "colour, recognise, -ise, -our — every instance, no exceptions",
+      "keyword_density_reminder": "After every 2 H2 sections — count current keyword mentions. Verify running total is on track to hit 13. First half must run denser. Adjust if needed.",
+      "image_path_reminder": "/images/blog/gel-nails-cost/shellac-cost/filename.webp — topic_slug in path always",
+      "internal_link_url_reminder": "Full correct paths only. Cluster links = /blog/gel-nails-cost/[slug]. Cross-site links = exact URL as discovered. Never bare /slug.",
+      "hero_image_reminder": "Hero = frontmatter only. Never place hero image in body.",
+      "strong_tag_reminder": "Every primary keyword mention = <strong> tags. Scan after every paragraph."
+    }
+  }
+}
