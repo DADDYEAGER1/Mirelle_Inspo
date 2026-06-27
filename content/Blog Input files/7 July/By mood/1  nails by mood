@@ -1,0 +1,599 @@
+{
+  "section_1_file_authority": {
+    "statement": "THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly."
+  },
+
+  "section_2_post_constants": {
+    "slug": "nails-by-mood",
+    "topic_slug": "mood-nails",
+    "canonical": "https://mirelleinspo.com/blog/mood-nails/nails-by-mood",
+    "post_type": "pillar",
+    "intent": "informational",
+    "word_count": 3200,
+    "image_count": 11,
+    "template": "center",
+    "hero_dimensions": "1200x630",
+    "category": "Mood Nails",
+    "publish_date": "2026-06-27",
+    "author": "Mirellé Team"
+  },
+
+  "section_3_cluster_snapshot": {
+    "pillar_slug": "nails-by-mood",
+    "pillar_title": "Nails by Mood: The Complete Guide to Choosing Your Colour by How You Feel",
+    "pillar_primary_keyword": "nails by mood",
+    "this_post_slug": "nails-by-mood",
+    "this_post_role": "pillar",
+    "keywords_to_avoid": [
+      "witchy nails",
+      "goth nails",
+      "pastel goth nails",
+      "mob wife nails",
+      "blue nails",
+      "coffin ombre nails",
+      "dopamine nails",
+      "heartbreak nail designs",
+      "nails for confidence",
+      "romantic nails",
+      "dark feminine nails",
+      "nail color psychology",
+      "happy nails"
+    ]
+  },
+
+  "section_4_serp_analysis": {
+    "blog_gen_instruction": "Use competitor gaps and missing semantic territory to fill what competitors miss. Our strategic approach is the angle for the introduction and conclusion.",
+    "top_3_competitor_posts": [
+      {
+        "source": "Beetles Gel — 'What Color Should I Paint My Nails?' — est. 1800 words, 8 H2s, primary keyword mentioned ~6 times",
+        "angle": "Color-to-mood mapping with product recommendations woven throughout"
+      },
+      {
+        "source": "Liberation Nails — 'How Can Nail Color Affect Your Mood?' — est. 1200 words, 7 H2s, primary keyword mentioned ~5 times",
+        "angle": "Colour-by-colour breakdown with brand polish references"
+      },
+      {
+        "source": "Glamnetic — 'The Psychology of Nail Colors' — est. 1500 words, 6 H2s, primary keyword mentioned ~4 times",
+        "angle": "Psychology and personality framing, press-on product integration"
+      }
+    ],
+    "top_3_word_count_estimates": {
+      "post_1": 1800,
+      "post_2": 1200,
+      "post_3": 1500,
+      "average": 1500,
+      "word_count_floor": 1500,
+      "word_count_set": 3200,
+      "note": "Pillar ceiling is 3500. Set at 3200 to deliver comprehensive hub coverage while commanding topical authority."
+    },
+    "top_3_keyword_density_baseline": {
+      "estimated_avg_mentions": 5,
+      "note": "Top 3 posts average ~5 mentions of the primary keyword or its direct variants. Our target = 5 + 3 = 8 mentions total."
+    },
+    "competitor_gaps": [
+      "No competitor maps ALL major human emotions (happy, sad, confident, heartbroken, romantic, dark/villain, anxious, calm) in a single comprehensive hub — they cover 4-6 colours then stop",
+      "None frame the guide around the reader's emotional STATE first, then the colour second — all lead with colour, not feeling",
+      "No competitor provides internal pathways from the pillar to deeper mood-specific posts (spoke links) — purely standalone articles",
+      "No post uses the 2025 survey data (68% link nail colour to mood) as an authority anchor — confirmed multi-source demand signal",
+      "No competitor addresses the 'I don't know what I'm feeling' reader — someone who needs a mood diagnostic before a colour recommendation",
+      "None reference Gen Z emotional expression through beauty (Pinterest Predicts 2026: 38% more likely to use beauty as emotional connection) — confirmed Pinterest + editorial source"
+    ],
+    "missing_semantic_territory": [
+      "Colour-as-emotional-reset framing — using a manicure to SHIFT mood, not just reflect it (confirmed: Beetles, Semilac, Liberation Nails all hint at this but none own it)",
+      "The concept of 'mood stacking' — wearing colours that represent where you WANT to feel, not where you are (Pinterest boards + Quora discussions confirm this reader mindset)",
+      "Finish and texture as mood signals — matte = serious/controlled, gloss = optimistic/open, chrome = bold/untouchable (confirmed across editorial sources 2026)",
+      "The self-expression ritual angle — the act of choosing and applying nail colour as intentional emotional self-care (Salongeek community threads + Glamnetic editorial confirmed)"
+    ],
+    "our_strategic_approach": "While every competitor maps nail colour to existing mood, Mirellé will own the position of choosing nail colour to CHOOSE your mood. The pillar frames nails as an active emotional instrument — not a passive reflection. Every H2 answers: 'What do you want to feel?' and maps directly to the spoke posts that go deeper. This post is the emotional map of the cluster.",
+    "recommended_image_count_validation": "Top 3 competitors average 6-8 images. Pillar rule: hero + 1 per H2 = 1 + 10 H2s = 11. Confirmed correct."
+  },
+
+  "section_5_audience_intelligence": {
+    "blog_gen_instruction": "This is your primary creative brief. Every paragraph written for this specific person with this specific intent. Satisfy them completely.",
+    "who_they_are": "Women aged 18-35, globally (US, UK, Canada, Australia), who use their manicure as a form of intentional self-expression. They are beauty-aware, trend-literate, and emotionally intelligent. They search 'nails by mood' because they already intuitively understand the colour-feeling connection and want a guide that validates and deepens it. Some are casual nail enthusiasts; others book regular gel appointments. A meaningful segment is Gen Z and younger millennials who use beauty as emotional connection (Pinterest Predicts 2026 data confirmed).",
+    "what_they_want_from_this_post": "A comprehensive, emotionally intelligent guide that maps every major human feeling to a specific nail aesthetic — one they can return to each time they sit at the salon or reach for a polish. They want validation that their nail choices mean something, practical colour direction per mood, and pathways to go deeper into their specific emotional moment.",
+    "what_frustrates_them": [
+      "Guides that only cover 4-6 colours with a one-line emotion each — too shallow to be useful",
+      "Posts that map colour to personality type (who you ARE) rather than how you FEEL right now — wrong framing for mood-based search intent",
+      "Articles that feel like they're selling products rather than genuinely helping them choose",
+      "Content that gives identical advice regardless of mood depth or nuance — 'wear red for confidence' repeated everywhere with zero new insight",
+      "No acknowledgement that the same person feels completely differently on a Tuesday than a Saturday"
+    ],
+    "top_5_pain_points": [
+      "Standing at the salon wall of 200 colours with no emotional framework for choosing — overwhelm is real",
+      "Choosing a colour that doesn't match how they feel and then feeling worse — the post-mani regret",
+      "Not knowing that finish and texture carry as much emotional weight as colour — gap in their knowledge",
+      "Being stuck in a nail colour comfort zone because they don't have a system for exploring beyond it",
+      "Wanting their nails to do emotional work for them — signal confidence in a meeting, feel romantic on a date, mark a fresh start — but not knowing how to execute it"
+    ],
+    "exact_user_phrases": [
+      "what nail color should I paint based on my mood",
+      "nails that match how I feel",
+      "what color nails for confidence",
+      "I want my nails to say something",
+      "nails for when you're feeling yourself",
+      "what color to paint my nails when I'm sad",
+      "nail colors that boost your mood",
+      "choosing nail color by vibe",
+      "nails for your current era",
+      "paint nails to match energy",
+      "mood board nails",
+      "what my nail color says about me"
+    ],
+    "intent_content_signals": [
+      "Informational intent — reader wants a complete reference guide to return to, not a one-time how-to",
+      "Responds to emotional framing over technical instruction — feeling-first language throughout",
+      "Expects depth and genuine knowledge, not surface-level colour-meaning bullet points",
+      "Wants to be understood as a person who uses beauty with intention",
+      "Pinterest-trained visually — every H2 should conjure a specific, vivid image",
+      "Expects internal pathways to go deeper into specific moods — spoke links are genuinely valued",
+      "British English preferred for Mirellé editorial tone — colour, recognise, -ise endings"
+    ]
+  },
+
+  "section_6_semantic_keyword_data": {
+    "blog_gen_instruction": "Primary keyword in strong tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.",
+    "primary_keyword": "nails by mood",
+    "total_mention_target": 8,
+    "first_100_words_rule": "Primary keyword MUST appear TWICE in the first 100 words. Mandatory.",
+    "keyword_variations": [
+      "nail colour by mood",
+      "nails for your mood",
+      "nail colour for your mood",
+      "mood-based nails",
+      "mood nail colour guide",
+      "choosing nail colour by mood",
+      "nail colour mood guide",
+      "paint nails by mood"
+    ],
+    "cluster_keywords": [
+      "nail colour and emotions",
+      "mood-matching manicure",
+      "nail colour self-expression",
+      "colour psychology nails",
+      "emotional nail colour",
+      "nail colour for your energy",
+      "nail colour for your vibe",
+      "manicure and mood",
+      "nail colour mood board",
+      "choosing nail colour by feeling",
+      "nail colour and personality",
+      "nail colour as self-care",
+      "mood-boosting nail colours",
+      "nail colour emotional reset",
+      "expressive nail colour 2026"
+    ],
+    "lsi_terms": [
+      "colour psychology",
+      "dopamine dressing",
+      "self-expression through nails",
+      "manicure ritual",
+      "nail polish and mood",
+      "emotional connection beauty",
+      "feel-good nails",
+      "nail colour meaning",
+      "warm colours confidence",
+      "cool colours calm",
+      "dark nail polish power",
+      "pastel nails softness",
+      "vibrant nail colours joy",
+      "red nails boldness",
+      "blue nails serenity",
+      "matte finish nails",
+      "gel polish colours",
+      "nail colour selection",
+      "beauty and emotions",
+      "nail polish ritual self-care"
+    ],
+    "aeo_terms": [
+      "What nail colour should I wear when I'm feeling sad?",
+      "What colour nails should I get when I want to feel confident?",
+      "Do nail colours actually affect your mood?",
+      "What is the best nail colour to boost your mood?",
+      "What does your nail colour say about how you feel?",
+      "How do I choose a nail colour based on my mood?",
+      "What colour nails are good for when you're feeling anxious?",
+      "What nail colour is best for feeling romantic?",
+      "Can changing your nail colour help you feel better?",
+      "What are mood nails?",
+      "What nail colours represent happiness?",
+      "What nail polish colour is best for your villain era?"
+    ],
+    "technical_terms": [
+      "colour psychology",
+      "dopamine response",
+      "chromotherapy",
+      "gel polish",
+      "nail lacquer",
+      "pigment saturation",
+      "matte finish",
+      "chrome finish"
+    ],
+    "user_language": [
+      "nails that match your vibe",
+      "nails for your era",
+      "what your nails say about you",
+      "paint nails to feel something",
+      "choosing nails like choosing an outfit",
+      "nails for your current mood",
+      "nail colour that hits different",
+      "nails that do the talking for you",
+      "nail colour for how you actually feel",
+      "mood board nails"
+    ]
+  },
+
+  "section_7_voice_and_ai_queries": {
+    "blog_gen_instruction": "Answer every query directly in the relevant H2 section body. If a query cannot be addressed naturally in the body, route it to faqItems. No query left unanswered.",
+    "queries": [
+      "What nail colour should I wear when I'm feeling sad?",
+      "What colour nails should I get when I want to feel confident?",
+      "Do nail colours actually affect your mood?",
+      "What is the best nail colour to boost your mood?",
+      "What does your nail colour say about how you feel?",
+      "How do I choose a nail colour based on my mood?",
+      "What colour nails are good for when you're feeling anxious?",
+      "What nail colour is best for feeling romantic?",
+      "Can changing your nail colour help you feel better?",
+      "What are mood nails?",
+      "What nail colours represent happiness?",
+      "What nail polish colour is best for your villain era?",
+      "What colour nails should I get when I want to feel calm?",
+      "Are there nail colours that make you feel more powerful?",
+      "What is the science behind nail colour and mood?",
+      "What nail colour should I choose when I want a fresh start?",
+      "Why do I feel different when I change my nail colour?"
+    ]
+  },
+
+  "section_8_hook_and_ctr": {
+    "blog_gen_instruction": "READ THIS SECTION BEFORE WRITING THE TITLE, META DESCRIPTION, INTRO, OR FIRST H2. The title and description are hardcoded here — use them exactly. The intro hook brief and first H2 hook direction are your creative brief for those specific elements. Do not deviate.",
+    "selected_trigger": "Trigger 1 — Curiosity Gap",
+    "trigger_rationale": "The informational reader searching 'nails by mood' suspects there is a system or framework they are missing — they are making nail colour decisions randomly and want a smarter approach; the curiosity gap trigger positions this post as the answer that finally explains what everyone else is doing intuitively.",
+    "title": "Nails by Mood: The Colour Guide for How You Feel",
+    "title_char_count": 51,
+    "meta_description": "Not sure what colour to paint your nails? This guide maps every mood — happy, heartbroken, confident, romantic — to the exact nail colour that fits. Finally, a system that makes the choice easy.",
+    "meta_char_count": 192,
+    "meta_description_corrected": "Not sure what colour to paint your nails? Map every mood to the perfect colour — from bold reds for confidence to soft blush for romance. Your complete guide.",
+    "meta_char_count_corrected": 161,
+    "intro_hook_brief": "Open with the universal moment every nail-wearer knows: standing at the salon colour wall, feeling something specific, and having no framework for translating that feeling into a colour choice. The hook is the relief of finally having a system — not just options, but a map. Frame 'nails by mood' as the thing they have always done instinctively but never had words for.",
+    "first_h2_hook_direction": "First H2 should function as a voice search query: 'Do nail colours actually affect how you feel?' — answer it directly, confidently, in 2-3 sentences before expanding. This sets the authoritative, science-informed tone for the full post without feeling clinical."
+  },
+
+  "section_9_search_journey": {
+    "blog_gen_instruction": "This is the emotional contract with the reader. Every section of the post must honour the promise made. Read this before writing any section. If a paragraph breaks the journey arc — rewrite it.",
+    "reader_arrival_state": "The reader arrives curious and slightly frustrated — they make nail colour decisions every few weeks but lack a meaningful system, and they sense that their nails could say more about how they feel if they knew how to choose intentionally.",
+    "journey_arc": [
+      "Hook: validate that the nail colour-mood connection is real and science-backed — remove any sense that this is frivolous",
+      "Foundation: establish the emotional colour framework (warm = energy and action; cool = calm and clarity; dark = power and depth; neutral = control and clarity) — give them the map",
+      "Expansion: walk through every major emotional state with specific colour, finish, and aesthetic direction — the practical meat of the guide",
+      "Connection: show how each mood maps to a deeper spoke post for readers who are living in a specific emotional chapter right now",
+      "Close: reframe the nail colour ritual as intentional emotional self-care — leave the reader feeling that their manicure choices are meaningful, not random"
+    ],
+    "promise_to_deliver": "By the end of this post, the reader will never stand at a nail colour wall confused again — they will have a complete emotional map that translates every feeling into a specific, beautiful nail choice.",
+    "exit_state": "The reader should feel genuinely informed, emotionally seen, and practically equipped — they should want to go book a manicure immediately and know exactly which colour to ask for."
+  },
+
+  "section_10_content_structure": {
+    "blog_gen_instruction": "This H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s without user instruction. Word budget per section is set — follow it. H3s may be added at editorial discretion.",
+    "h1": "Nails by Mood: The Complete Guide to Choosing Your Colour by How You Feel",
+    "h2_structure": [
+      "Do nail colours actually affect how you feel?",
+      "How to use this guide: what mood are you in right now?",
+      "Nails for when you want to feel happy and full of energy",
+      "Nails for when you want to feel confident and powerful",
+      "Nails for when you are feeling romantic and soft",
+      "Nails for when you are heartbroken or going through it",
+      "Nails for when you want to go dark and untouchable",
+      "Nails for when you need to feel calm and grounded",
+      "What does your nail colour finish say about your mood?",
+      "How to use your nails as an emotional reset"
+    ],
+    "word_budget": {
+      "introduction": 250,
+      "h2_1_do_nail_colours_affect": 280,
+      "h2_2_how_to_use_this_guide": 220,
+      "h2_3_happy_energy": 330,
+      "h2_4_confident_powerful": 330,
+      "h2_5_romantic_soft": 310,
+      "h2_6_heartbroken": 320,
+      "h2_7_dark_untouchable": 320,
+      "h2_8_calm_grounded": 280,
+      "h2_9_nail_colour_finish": 250,
+      "h2_10_emotional_reset": 230,
+      "conclusion": 180,
+      "total": 3300,
+      "note": "Target 3200 words ±50. Slight over-budget per section is the cushion."
+    }
+  },
+
+  "section_11_internal_links": {
+    "blog_gen_instruction": "Every link below must appear in the post. Cluster links use anchor texts verbatim — do not rewrite. Cross-site links use the provided descriptive anchor. Place each link where the placement note says — woven naturally into prose, never as a standalone CTA. Total internal links must not exceed 6.",
+    "all_internal_links": [
+      {
+        "url_or_slug": "/blog/mood-nails/dopamine-nails",
+        "title": "Dopamine Nails: Colors That Actually Boost Your Mood",
+        "anchor_text": "dopamine nails",
+        "placement_note": "H2: 'Nails for when you want to feel happy and full of energy' — introduce dopamine nails as the science-backed sub-category of mood-boosting colour",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/mood-nails/heartbreak-nail-designs",
+        "title": "Nails for When You're Heartbroken: Dark, Beautiful, and Unapologetically You",
+        "anchor_text": "heartbreak nail designs",
+        "placement_note": "H2: 'Nails for when you are heartbroken or going through it' — direct link to the full spoke at the close of that section",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/mood-nails/nails-for-confidence",
+        "title": "Nails When You Feel Like a Main Character: Bold, Confident, Powerful",
+        "anchor_text": "nails for confidence",
+        "placement_note": "H2: 'Nails for when you want to feel confident and powerful' — link to the deeper spoke as the natural next step for this reader",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/mood-nails/romantic-nails",
+        "title": "Nails That Match Your Romantic Mood: Soft, Dreamy, Feminine",
+        "anchor_text": "romantic nails",
+        "placement_note": "H2: 'Nails for when you are feeling romantic and soft' — link to the full spoke at the close of that section",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/mood-nails/dark-feminine-nails",
+        "title": "Nails for Your Villain Era: Dark Feminine, Moody, Unapologetic",
+        "anchor_text": "dark feminine nails",
+        "placement_note": "H2: 'Nails for when you want to go dark and untouchable' — link to the spoke as the extension of this mood",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/inspo/nails-by-mood-inspiration-gallery",
+        "title": "Nails by Mood Inspiration Gallery",
+        "anchor_text": "nails by mood inspiration gallery",
+        "placement_note": "Conclusion section — direct the reader to the visual gallery as the natural companion to the guide they have just read",
+        "link_type": "gallery"
+      }
+    ]
+  },
+
+  "section_12_voice_tone": {
+    "blog_gen_instruction": "This is the voice for this specific post. Layer on top of Mirellé editorial framework. Do not default to generic AI tone.",
+    "recommended_voice": "Warm expert — a knowledgeable friend who takes beauty seriously as self-expression",
+    "tone_characteristics": [
+      "Emotionally intelligent — speaks to the reader's actual feeling state, never dismisses the connection between nails and emotions",
+      "Confident and specific — never hedges with 'it depends' without immediately resolving the dependency; always ends in a clear recommendation",
+      "Celebratory of intention — frames the reader's nail choices as meaningful decisions, not frivolous ones",
+      "Conversational but editorial — uses 'you' throughout, reads like thoughtful beauty editorial rather than product copy",
+      "Restrained on the data — references the 68% mood-colour survey and colour psychology research lightly, as authority support, not as the main attraction"
+    ],
+    "language_style": "Medium sentence length with varied rhythm — longer sentences for emotional context, shorter sentences for colour and finish recommendations. 'You' used throughout. Occasional rhetorical question that immediately gets answered. No jargon without instant plain-English translation. British English throughout: colour, recognise, -ise, -our.",
+    "audience_match": "This reader already believes nails mean something — this voice meets her at that belief and elevates it into a framework, rather than convincing her from scratch."
+  },
+
+  "section_13_external_links": {
+    "blog_gen_instruction": "Include all external links where indicated. Supports E-E-A-T. Use anchor suggestion as guide — write naturally around it.",
+    "links": [
+      {
+        "url": "https://www.glamnetic.com/blogs/news/psychology-nail-colors",
+        "context": "H2: 'Do nail colours actually affect how you feel?' — when referencing the 2025 survey data (68% of respondents link nail colour directly to mood)",
+        "anchor_suggestion": "2025 colour psychology survey"
+      },
+      {
+        "url": "https://semilacusa.com/blogs/semilac-blog/dopamine-nails-trend-colors-that-instantly-boost-your-mood",
+        "context": "H2: 'Nails for when you want to feel happy and full of energy' — when explaining the dopamine dressing connection and colour-mood science for bright/vibrant shades",
+        "anchor_suggestion": "colour and dopamine dressing research"
+      },
+      {
+        "url": "https://www.liberation-nails.com/blogs/color-stories/how-nail-color-affect-mood",
+        "context": "H2: 'What does your nail colour finish say about your mood?' — when referencing the emotional meaning of individual colour choices beyond just mood categories",
+        "anchor_suggestion": "how nail colour affects mood"
+      }
+    ]
+  },
+
+  "section_14_execution_plan": {
+    "blog_gen_instruction": "READ THIS SECTION FIRST. Lock every value. Execute exactly. Do not recalculate, do not adjust, do not deviate.",
+
+    "block_1_keyword_execution": {
+      "primary_keyword": "nails by mood",
+      "top_3_density_baseline": 5,
+      "total_mention_target": 8,
+      "first_100_words_plan": {
+        "rule": "Primary keyword MUST appear TWICE in the first 100 words. Mandatory. No exceptions.",
+        "mention_1": "Sentence 1-2 of introduction — open with the concept of 'nails by mood' as the thing readers have always done instinctively",
+        "mention_2": "Sentence 3-5 of introduction — use again when framing the guide's purpose: 'This is your complete nails by mood reference'"
+      },
+      "first_half_target": "5 mentions — first 1600 words. Run denser in first half.",
+      "second_half_target": "3 mentions — second 1600 words.",
+      "strong_tag_rule": "EVERY single mention of 'nails by mood' — all 8 of them — wrapped in <strong> tags. No exceptions. Scan after every paragraph.",
+      "keywords_to_avoid_active": [
+        "witchy nails",
+        "goth nails",
+        "pastel goth nails",
+        "mob wife nails",
+        "blue nails",
+        "coffin ombre nails",
+        "dopamine nails",
+        "heartbreak nail designs",
+        "nails for confidence",
+        "romantic nails",
+        "dark feminine nails",
+        "nail color psychology",
+        "happy nails"
+      ]
+    },
+
+    "block_2_word_budget": {
+      "total_target": 3200,
+      "tolerance": "±50 words. Never exceed 3250.",
+      "introduction": 250,
+      "conclusion": 180,
+      "h2_budgets": [
+        { "heading": "Do nail colours actually affect how you feel?", "budget": 280, "complexity": "medium" },
+        { "heading": "How to use this guide: what mood are you in right now?", "budget": 220, "complexity": "low" },
+        { "heading": "Nails for when you want to feel happy and full of energy", "budget": 330, "complexity": "high" },
+        { "heading": "Nails for when you want to feel confident and powerful", "budget": 330, "complexity": "high" },
+        { "heading": "Nails for when you are feeling romantic and soft", "budget": 310, "complexity": "high" },
+        { "heading": "Nails for when you are heartbroken or going through it", "budget": 320, "complexity": "high" },
+        { "heading": "Nails for when you want to go dark and untouchable", "budget": 320, "complexity": "high" },
+        { "heading": "Nails for when you need to feel calm and grounded", "budget": 280, "complexity": "medium" },
+        { "heading": "What does your nail colour finish say about your mood?", "budget": 250, "complexity": "medium" },
+        { "heading": "How to use your nails as an emotional reset", "budget": 230, "complexity": "medium" }
+      ],
+      "tracking_rule": "Track running word total at the end of every H2 section. If a section runs over budget — cut before moving to the next. Do not compensate later."
+    },
+
+    "block_3_image_plan": {
+      "total_images": 11,
+      "hero_image": "Frontmatter only — NEVER appears in post body",
+      "body_images": 10,
+      "assignments": [
+        { "image_number": 1, "place_after": "Introduction", "section_context": "A mood-board-style flat lay of nail colours arranged by emotional family — warm, cool, dark, neutral" },
+        { "image_number": 2, "place_after": "Do nail colours actually affect how you feel?", "section_context": "A close-up of hands with a vibrant, clearly mood-expressive manicure — illustrates the emotional impact of colour choice" },
+        { "image_number": 3, "place_after": "Nails for when you want to feel happy and full of energy", "section_context": "Bright dopamine-dressing inspired nails — yellow, neon pink, orange, or skittle set" },
+        { "image_number": 4, "place_after": "Nails for when you want to feel confident and powerful", "section_context": "Bold red or deep burgundy nails on a clean, polished set — assertive and powerful" },
+        { "image_number": 5, "place_after": "Nails for when you are feeling romantic and soft", "section_context": "Soft blush, floral, or pearl nail set — dreamy and feminine" },
+        { "image_number": 6, "place_after": "Nails for when you are heartbroken or going through it", "section_context": "Dark, moody, beautiful nails — deep plum, midnight blue, or charcoal with shimmer" },
+        { "image_number": 7, "place_after": "Nails for when you want to go dark and untouchable", "section_context": "Dark feminine nail set — black, deep burgundy, or vampire-red; powerful and untouchable" },
+        { "image_number": 8, "place_after": "Nails for when you need to feel calm and grounded", "section_context": "Soft sage green, foggy blue, or warm nude nails — serene and grounding" },
+        { "image_number": 9, "place_after": "What does your nail colour finish say about your mood?", "section_context": "A side-by-side or split showing matte vs gloss vs chrome finishes on the same colour — illustrates finish as mood signal" },
+        { "image_number": 10, "place_after": "How to use your nails as an emotional reset", "section_context": "A serene, intentional nail moment — hands resting, fresh manicure, conveys the ritual self-care message" }
+      ],
+      "image_type_rule": "ALL body images = inspirational nail design images related to the topic. NO infographics. NO process diagrams. NO comparison charts. NO step-by-step visuals.",
+      "path_rule": "/images/blog/mood-nails/nails-by-mood/filename.webp — topic_slug in path, slug folder, leading slash"
+    },
+
+    "block_4_opening_technique_assignments": {
+      "rule": "No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.",
+      "assignments": [
+        { "section": "Introduction", "technique": "Technique 2 — The Scene (drop reader into the universal nail salon colour wall moment)" },
+        { "section": "Do nail colours actually affect how you feel?", "technique": "Technique 1 — The Claim (open with a confident declarative statement backed by data)" },
+        { "section": "How to use this guide: what mood are you in right now?", "technique": "Technique 3 — The Reframe (reframe 'what colour should I pick' as 'what do I want to feel')" },
+        { "section": "Nails for when you want to feel happy and full of energy", "technique": "Technique 2 — The Scene (paint a picture of the energy this mood embodies before the colour)" },
+        { "section": "Nails for when you want to feel confident and powerful", "technique": "Technique 1 — The Claim (confidence has a colour and there is science behind why)" },
+        { "section": "Nails for when you are feeling romantic and soft", "technique": "Technique 3 — The Reframe (romantic is not just for Valentine's Day — reframe it as a year-round emotional state)" },
+        { "section": "Nails for when you are heartbroken or going through it", "technique": "Technique 2 — The Scene (the emotional weight of this moment, held with care not pity)" },
+        { "section": "Nails for when you want to go dark and untouchable", "technique": "Technique 1 — The Claim (darkness is a power move, not a mood collapse)" },
+        { "section": "Nails for when you need to feel calm and grounded", "technique": "Technique 3 — The Reframe (calm is not boring — reframe it as the most underrated nail mood)" },
+        { "section": "What does your nail colour finish say about your mood?", "technique": "Technique 2 — The Scene (introduce a scenario where two people chose the same colour but different finishes — different mood signals)" },
+        { "section": "How to use your nails as an emotional reset", "technique": "Technique 1 — The Claim (your next manicure can be the moment you decide to feel differently)" },
+        { "section": "Conclusion", "technique": "Technique 3 — The Reframe (reframe the entire act of choosing nail colour as intentional emotional self-care)" }
+      ],
+      "banned_opener_rule": "Check every opener against banned_opening_approaches in blog gen prompt before writing the second sentence."
+    },
+
+    "block_5_link_placements": {
+      "rule": "Every link placed exactly where specified. Anchor texts used verbatim — never rewritten. Links woven into prose naturally — never standalone CTAs.",
+      "links": [
+        {
+          "anchor_text": "dopamine nails",
+          "full_url": "/blog/mood-nails/dopamine-nails",
+          "place_in_section": "Nails for when you want to feel happy and full of energy",
+          "placement_context": "When introducing the science-backed sub-category of vibrant, joy-stimulating colours — 'this is where [dopamine nails] come in'",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "heartbreak nail designs",
+          "full_url": "/blog/mood-nails/heartbreak-nail-designs",
+          "place_in_section": "Nails for when you are heartbroken or going through it",
+          "placement_context": "Close of section — 'if you are in this chapter right now, [heartbreak nail designs] goes deeper into exactly what to wear and why'",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "nails for confidence",
+          "full_url": "/blog/mood-nails/nails-for-confidence",
+          "place_in_section": "Nails for when you want to feel confident and powerful",
+          "placement_context": "Close of section — natural handoff to the spoke for readers who want to go further into confidence nail choices",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "romantic nails",
+          "full_url": "/blog/mood-nails/romantic-nails",
+          "place_in_section": "Nails for when you are feeling romantic and soft",
+          "placement_context": "Close of section — 'for the full collection of soft, dreamy looks, [romantic nails] has everything'",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "dark feminine nails",
+          "full_url": "/blog/mood-nails/dark-feminine-nails",
+          "place_in_section": "Nails for when you want to go dark and untouchable",
+          "placement_context": "Mid-section or close — 'this is the territory of [dark feminine nails] — a full guide to the villain era aesthetic'",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "nails by mood inspiration gallery",
+          "full_url": "https://mirelleinspo.com/inspo/nails-by-mood-inspiration-gallery",
+          "place_in_section": "Conclusion",
+          "placement_context": "Final paragraph — 'every look described in this guide is waiting for you in the [nails by mood inspiration gallery]'",
+          "link_type": "gallery"
+        }
+      ]
+    },
+
+    "block_6_aeo_geo_plan": {
+      "aeo_assignments": [
+        {
+          "aeo_term": "Do nail colours actually affect how you feel?",
+          "assigned_to_section": "Do nail colours actually affect how you feel?",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading — before any elaboration. 'Yes — and the science behind it is more substantial than most people expect. A 2025 survey found that 68% of respondents directly link their nail colour choice to their current mood. Colour psychology research confirms that warm, saturated hues trigger dopamine responses, while cool, muted tones lower cortisol levels and promote calm.'"
+        },
+        {
+          "aeo_term": "What nail colour should I wear when I'm feeling sad?",
+          "assigned_to_section": "Nails for when you are heartbroken or going through it",
+          "execution": "Direct 2-3 sentence answer immediately after the H2: 'When you are going through a hard time, the most powerful nail choice is one that reflects rather than fights your mood. Deep plum, midnight blue, and charcoal with shimmer all carry the weight of what you are feeling while keeping it beautiful. Dark, considered nails in this moment are not self-punishment — they are a form of self-respect.'"
+        },
+        {
+          "aeo_term": "What colour nails should I get when I want to feel confident?",
+          "assigned_to_section": "Nails for when you want to feel confident and powerful",
+          "execution": "Direct 2-3 sentence answer immediately after the H2: 'For confidence, reach for bold red, deep burgundy, or a high-gloss black. Studies suggest red-wearers are perceived as more assertive and outgoing, making it one of the most empirically supported nail choices for moments when you need to command a room. If red feels too much, a deep wine or cherry with a glossy finish delivers the same psychological signal.'"
+        },
+        {
+          "aeo_term": "What are mood nails?",
+          "assigned_to_section": "How to use this guide: what mood are you in right now?",
+          "execution": "Direct 2-3 sentence answer: 'Mood nails is the practice of choosing your nail colour intentionally based on how you feel — or how you want to feel. Rather than picking what is currently trending or what you wore last time, you use colour psychology to select a shade that either mirrors your emotional state or helps shift it. It is one of the most personal forms of self-expression in beauty.'"
+        },
+        {
+          "aeo_term": "What does your nail colour finish say about your mood?",
+          "assigned_to_section": "What does your nail colour finish say about your mood?",
+          "execution": "Direct 2-3 sentence answer immediately after the H2: 'The finish of your nail polish communicates just as much as the colour. A matte finish signals control, seriousness, and emotional containment. A high-gloss finish reads as optimistic, open, and socially engaged. Chrome or metallic says untouchable — you are not here to be approached, you are here to be admired.'"
+        }
+      ],
+      "geo_entity_statements": [
+        {
+          "entity": "Colour psychology in nail polish",
+          "assigned_to_section": "Do nail colours actually affect how you feel?",
+          "execution": "Write a clear declarative definition: 'Colour psychology in beauty is the documented study of how pigment choices influence emotional states, self-perception, and the perceptions of others — and it applies as directly to nail polish as it does to paint on a wall.'"
+        },
+        {
+          "entity": "Dopamine dressing — applied to nail colour",
+          "assigned_to_section": "Nails for when you want to feel happy and full of energy",
+          "execution": "Define clearly: 'Dopamine dressing is the intentional use of bright, saturated colours to stimulate positive emotional responses — and applied to nails, it means choosing vibrant yellows, neons, and bold pinks specifically to trigger a mood lift rather than simply to match an outfit.'"
+        },
+        {
+          "entity": "Emotional reset via manicure",
+          "assigned_to_section": "How to use your nails as an emotional reset",
+          "execution": "Define confidently: 'An emotional reset via manicure is the deliberate act of changing your nail colour to mark an internal shift — using the ritual of a fresh manicure as a physical signal to yourself that a new emotional chapter is beginning.'"
+        }
+      ]
+    },
+
+    "block_7_active_constraints": {
+      "em_dash_banned": "Long em dash (—) does not appear anywhere in the post body. If one forms while writing — stop, replace with: comma / new sentence / parentheses / but / restructure. The only em dash allowed is in this input file itself.",
+      "banned_vocab_watch": [
+        "vibrant (overused — replace with: vivid, saturated, bold, rich)",
+        "stunning (replace with: striking, beautiful, arresting)",
+        "perfect (replace with: right, ideal, considered)",
+        "amazing (banned — no replacement needed, cut entirely)",
+        "journey (overused in this context — replace with: chapter, shift, move)",
+        "empower (replace with: strengthen, ground, charge)",
+        "elevate (replace with: deepen, sharpen, move)"
+      ],
+      "british_english_active": "colour, recognise, -ise, -our — every instance, no exceptions. 'Color' never appears.",
+      "keyword_density_reminder": "After every 2 H2 sections — count current keyword mentions. Verify running total is on track to hit 8 total. First half must run denser (5 mentions by word 1600). Adjust if needed.",
+      "image_path_reminder": "/images/blog/mood-nails/nails-by-mood/filename.webp — topic_slug in path always.",
+      "internal_link_url_reminder": "Full correct paths only. Cluster links = /blog/mood-nails/[slug]. Gallery = full URL as specified. Never bare /slug.",
+      "hero_image_reminder": "Hero = frontmatter only. Never place hero image in body.",
+      "strong_tag_reminder": "Every 'nails by mood' mention = <strong>nails by mood</strong>. Scan after every paragraph.",
+      "note_on_keywords_to_avoid": "The keywords_to_avoid are the PRIMARY KEYWORDS of the spoke posts. They must never appear as focus terms or H2 headings. However, the concepts (e.g. 'dark feminine', 'heartbreak', 'romantic', 'confidence') can and should appear in their respective H2 sections as DESCRIPTIVE LANGUAGE — just not as the primary keyword anchor. The internal links carry the anchor text for the spokes."
+    }
+  }
+}
