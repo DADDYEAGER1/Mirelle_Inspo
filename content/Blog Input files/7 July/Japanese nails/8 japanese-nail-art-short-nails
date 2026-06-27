@@ -1,0 +1,533 @@
+{
+  "section_1_file_authority": {
+    "statement": "THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly."
+  },
+
+  "section_2_post_constants": {
+    "slug": "japanese-nail-art-short-nails",
+    "topic_slug": "japanese-nails",
+    "canonical": "https://mirelleinspo.com/blog/japanese-nails/japanese-nail-art-short-nails",
+    "post_type": "spoke",
+    "intent": "inspirational",
+    "word_count": 2200,
+    "image_count": 9,
+    "template": "split-left",
+    "hero_dimensions": "800x800",
+    "category": "Nail Art",
+    "publish_date": "2026-06-30",
+    "author": "Mirellé Team"
+  },
+
+  "section_3_cluster_snapshot": {
+    "pillar_slug": "japanese-nail-art",
+    "pillar_title": "Japanese Nail Art: Every Style & Design Worth Knowing",
+    "pillar_primary_keyword": "japanese nail art",
+    "this_post_slug": "japanese-nail-art-short-nails",
+    "this_post_role": "spoke",
+    "keywords_to_avoid": [
+      "japanese nail art",
+      "sakura nails",
+      "kawaii nails",
+      "japanese 3d nail art",
+      "japanese minimalist nails",
+      "japanese manicure",
+      "how to do japanese nail art",
+      "pastel goth nails",
+      "how to do ombre nails at home",
+      "cat eye nails"
+    ]
+  },
+
+  "section_4_serp_analysis": {
+    "blog_gen_instruction": "Use competitor gaps and missing semantic territory to fill what competitors miss. Our strategic approach is the angle for the introduction and conclusion.",
+    "competitor_gaps": [
+      "No competitor addresses WHICH specific Japanese nail art styles work best at short lengths vs which to avoid — all treat short nails as a vague afterthought",
+      "No post explains WHY short nails are actually a better canvas for certain Japanese techniques (e.g. nuance gel, negative space, micro sakura) — the positive design logic is completely missing",
+      "Zero posts cover shape-specific design guidance for Japanese nail art on short nails (squoval vs oval vs round and which Japanese style suits each)",
+      "No competitor directly answers 'can you get Japanese 3D nail art on short nails' with nuance — they either exclude or vaguely affirm",
+      "Competitors ignore the 'how to brief your nail tech' angle — readers find inspo but don't know what to actually say at the salon",
+      "No post covers the 2026 Japanese nail aesthetic shift toward shorter lengths as a cultural signal — yet NAILS Magazine confirmed Tokyo salon clients are requesting 2mm free edge maximum"
+    ],
+    "missing_semantic_territory": [
+      "Nuance nails on short nails — the specific Japanese gel gradation technique that is optimised for short lengths",
+      "Micro sakura designs specifically adapted for short nails with scale guidance",
+      "Negative space Japanese nail art for short nails — the wabi-sabi aesthetic where emptiness is intentional",
+      "Blooming gel technique on short nails — watercolour florals that suit small canvases",
+      "Japanese nail stickers and decals as short-nail-friendly alternative to 3D sculpting",
+      "Seigaiha (wave pattern) and asanoha (hemp leaf) scaled to short nails"
+    ],
+    "our_strategic_approach": "Most Japanese nail art content either ignores short nails entirely or offers a generic 'yes it works' with no design intelligence. This post takes the opposite position: short nails are not a limitation for Japanese nail art — several Japanese techniques were effectively designed for short canvases. We will name the specific styles that work best at short lengths, explain the design logic behind each one, and give readers a complete brief they can take to their nail tech. This is the post for the reader who has been saving Japanese nail inspo on Pinterest and assuming none of it applies to her.",
+    "recommended_image_count_validation": "Top 3 ranking posts are image-heavy inspirational roundups (kreafolk.com ~30 images, cuded.com 65 images, itsallbee.com 24 images). Spoke post image_count of 9 is correct per the rules (not an X+ slug post, not pillar, not tutorial). 9 images confirmed."
+  },
+
+  "section_5_audience_intelligence": {
+    "blog_gen_instruction": "This is your primary creative brief. Every paragraph written for this specific person with this specific intent. Satisfy them completely.",
+    "who_they_are": "Short-nail women aged 20–40, primarily in Tier 1 English-speaking markets. She keeps her nails short by choice or necessity (job, lifestyle, preference) and has been quietly collecting Japanese nail inspo on Pinterest for months — sakura designs, 3D gel art, nuance pastels — but has been self-excluding because every image features long almond or coffin extensions. She is aesthetically informed, drawn to the precision and elegance of Japanese nail art, but deeply unsure whether any of it is actually achievable on her nails.",
+    "what_they_want_from_this_post": "Concrete proof and a curated selection that Japanese nail art works at short lengths — with specific design names, not vague encouragement. She wants to leave with a clear brief for her nail tech and enough confidence to book the appointment.",
+    "what_frustrates_them": "Every Japanese nail art post she finds is photographed on long almond nails. Generic posts that say 'yes short nails work too!' without showing HOW or WHICH designs. Pinterest boards that are aspirational but inaccessible. Content that gives the same 5 designs (sakura, dots, kawaii characters) without any depth. No guidance on what to actually tell a nail tech to get Japanese nail art on a short nail correctly.",
+    "top_5_pain_points": [
+      "Feeling excluded from Japanese nail art inspo because all viral images show long nails",
+      "Not knowing which specific Japanese nail art styles suit short nails vs which require length",
+      "Saving inspo but arriving at the salon unable to articulate what they want at their nail length",
+      "Assuming 3D Japanese nail art is impossible on short nails (it is not, with the right micro approach)",
+      "Finding 'short nail' posts that are generic (dots, plain colours) rather than genuinely Japanese in aesthetic"
+    ],
+    "exact_user_phrases": [
+      "'japanese nail designs for short nails'",
+      "'can you get japanese nail art on short nails'",
+      "'short nail japanese inspo'",
+      "'japanese nails short simple'",
+      "'short japanese nails aesthetic'",
+      "'japanese nail art short round nails'",
+      "'cute japanese nails short'",
+      "'japanese minimalist short nails'",
+      "'sakura nails short'",
+      "'japanese gel nails short'",
+      "'3D japanese nails short nails'",
+      "'what japanese nail art works on short nails'"
+    ],
+    "intent_content_signals": [
+      "High image count is expected — this is a visual inspo post and readers will scroll, not read every word",
+      "Design names matter — readers want to know what to call the style so they can search for it and request it",
+      "Shape-specific guidance adds immediate value — squoval vs oval vs short round is genuinely useful",
+      "Brief-your-nail-tech section is a conversion driver — it solves the 'now what?' problem after inspo",
+      "The tone should validate the choice to keep nails short, not frame short nails as a limitation to work around",
+      "Seasonal/trend framing helps — Japanese salons themselves are trending shorter in 2026, which validates the reader's aesthetic"
+    ]
+  },
+
+  "section_6_semantic_keyword_data": {
+    "blog_gen_instruction": "Primary keyword in strong tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.",
+    "primary_keyword": "japanese nail art short nails",
+    "keyword_variations": [
+      "japanese nail art for short nails",
+      "japanese nail designs short nails",
+      "japanese nails short",
+      "short nail japanese nail art",
+      "japanese nail art short",
+      "japanese gel nails short nails",
+      "japanese short nail designs 2026",
+      "short japanese nails",
+      "japanese style nails short nails"
+    ],
+    "cluster_keywords": [
+      "japanese nail art designs for short nails",
+      "sakura nails short nails",
+      "nuance nails short",
+      "blooming gel short nails",
+      "japanese micro floral nails",
+      "negative space japanese nails",
+      "japanese nail stickers short nails",
+      "mini 3D nail embellishments",
+      "japanese gel nail art short",
+      "seigaiha nails short nails",
+      "japanese nail designs squoval",
+      "wabi-sabi nail art",
+      "japanese soft gel short nails",
+      "tokyo nail trends short nails 2026",
+      "japanese nail art for round nails"
+    ],
+    "lsi_terms": [
+      "nuance nail",
+      "blooming gel",
+      "soft potted gel",
+      "micro floral nail art",
+      "negative space nail design",
+      "nail stickers decals",
+      "Japanese nail salon",
+      "nailu aato",
+      "gold foil nail accent",
+      "rhinestone nail embellishment",
+      "gradient gel nails",
+      "cherry blossom nail design",
+      "watercolour floral nails",
+      "neutral nail base",
+      "nail proportions",
+      "delicate nail art",
+      "precision nail artistry",
+      "compact nail canvas",
+      "short oval nails",
+      "squoval nails design"
+    ],
+    "aeo_terms": [
+      "can you get japanese nail art on short nails?",
+      "what japanese nail art designs work best on short nails?",
+      "does japanese 3D nail art work on short nails?",
+      "what is nuance nail art and does it suit short nails?",
+      "which japanese nail styles are best for very short nails?",
+      "what nail shape is best for japanese nail art on short nails?",
+      "are sakura nails possible on short nails?",
+      "what is blooming gel and can it be done on short nails?",
+      "how do you ask for japanese nail art on short nails at a salon?",
+      "do japanese nail salons do designs on short nails?",
+      "what is negative space japanese nail art?",
+      "is japanese nail art better on short or long nails?"
+    ],
+    "technical_terms": [
+      "nuance gel",
+      "blooming gel",
+      "soft potted gel",
+      "UV-cured gel",
+      "seigaiha pattern",
+      "asanoha pattern",
+      "nailu aato (Japanese nail art)",
+      "Japanese nail sticker (seal)"
+    ],
+    "user_language": [
+      "short nail japanese inspo",
+      "japanese nails short and simple",
+      "cute japanese nails short",
+      "short japanese aesthetic nails",
+      "japanese nail vibes short nails",
+      "tokyo nails short",
+      "japanese nail designs that actually work on short nails",
+      "japanese nails without extensions",
+      "short round japanese nails",
+      "dainty japanese nail art"
+    ]
+  },
+
+  "section_7_voice_and_ai_queries": {
+    "blog_gen_instruction": "Answer every query directly in the relevant H2 section body. If a query cannot be addressed naturally in the body, route it to faqItems. No query left unanswered.",
+    "queries": [
+      "Can you get japanese nail art on short nails?",
+      "What japanese nail art designs work best on short nails?",
+      "Does japanese 3D nail art work on short nails?",
+      "What is nuance nail art and does it suit short nails?",
+      "Which japanese nail styles are best for very short natural nails?",
+      "What nail shape is best for japanese nail art on short nails?",
+      "Are sakura designs possible on short nails?",
+      "What is blooming gel and can it be done on short nails?",
+      "How do you ask for japanese nail art on short nails at a salon?",
+      "Do japanese nail salons do designs on short nails?",
+      "What is negative space japanese nail art?",
+      "Is japanese nail art better suited to short or long nails?",
+      "What japanese nail designs make short nails look longer?",
+      "Can I do japanese nail art at home on short nails?",
+      "What is the difference between nuance nails and ombre nails?",
+      "What colours work best for japanese nail art on short nails?",
+      "How many designs can you fit on a short nail for japanese art?",
+      "What are the most popular japanese nail designs for short nails in 2026?"
+    ]
+  },
+
+  "section_8_hook_and_ctr": {
+    "blog_gen_instruction": "READ THIS SECTION BEFORE WRITING THE TITLE, META DESCRIPTION, INTRO, OR FIRST H2. The title and description are hardcoded here — use them exactly. The intro hook brief and first H2 hook direction are your creative brief for those specific elements. Do not deviate.",
+    "selected_trigger": "Trigger 1 — Curiosity Gap",
+    "trigger_rationale": "This reader has been quietly assuming Japanese nail art is not for her because every image she saves features long nails — the curiosity gap ('what most content gets completely wrong') is the perfect lever to flip that assumption and pull her in immediately.",
+    "title": "Japanese Nail Art for Short Nails: 2026 Designs That Work",
+    "title_char_count": 57,
+    "meta_description": "Short nails don't limit Japanese nail art — some styles were made for them. See which designs actually work, which shapes to request, and how to brief your nail tech.",
+    "meta_char_count": 154,
+    "intro_hook_brief": "Open by naming the assumption this reader carries — that Japanese nail art is for long nails only — and immediately dismantle it. The hook should feel like relief, not reassurance. Lead with the insight that Tokyo nail salons themselves are requesting shorter lengths in 2026 and that certain Japanese techniques (nuance gel, micro sakura, negative space) work better on short nails than on long ones. This reader has been self-excluding from her own Pinterest saves — give her permission and a reason to stop.",
+    "first_h2_hook_direction": "Apply the curiosity gap subtly to the first H2 — frame it as answering the question the reader arrived with. Phrase as a voice query: 'Which Japanese nail art styles actually work on short nails?' — this sets up the curated, intelligence-led answer the rest of the post delivers."
+  },
+
+  "section_9_search_journey": {
+    "blog_gen_instruction": "This is the emotional contract with the reader. Every section of the post must honour the promise made. Read this before writing any section. If a paragraph breaks the journey arc — rewrite it.",
+    "reader_arrival_state": "She arrives curious and slightly sceptical — she wants this to work for her short nails but has been let down by generic content before and half-expects the same vague encouragement with no real design depth.",
+    "journey_arc": [
+      "1. HOOK: Dismantle the assumption — Japanese nail art was never only for long nails; certain styles suit short nails specifically",
+      "2. CONFIRM: Show the styles that work best at short lengths with clear design logic (nuance, micro sakura, negative space, blooming gel, mini embellishments)",
+      "3. DEEPEN: Layer in shape-specific guidance and practical proportion rules — squoval vs oval, what to scale down vs what to avoid",
+      "4. EMPOWER: Give her the salon brief — exactly what to say, what to show, what to request by name",
+      "5. EXIT: Close with the identity payoff — this is not a compromised version of Japanese nail art; this is its most wearable, most considered expression"
+    ],
+    "promise_to_deliver": "Specific, named Japanese nail art designs that work on short nails — with the design logic behind each one, shape guidance, and a complete salon brief.",
+    "exit_state": "She leaves with design names, shape guidance, a salon brief, and the confidence that her short nails are not a limitation — they are a canvas suited to the most precise and elegant Japanese nail art available."
+  },
+
+  "section_10_content_structure": {
+    "blog_gen_instruction": "This H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s without user instruction. Word budget per section is set — follow it. H3s may be added at editorial discretion.",
+    "h1": "Japanese Nail Art for Short Nails: The Designs That Actually Work in 2026",
+    "h2_structure": [
+      "Which Japanese Nail Art Styles Actually Work on Short Nails?",
+      "Nuance Nails: The Japanese Technique Built for Short Canvases",
+      "Micro Sakura Designs That Suit Short Nail Lengths",
+      "Negative Space Japanese Nail Art: Why Less Works Better Here",
+      "Mini 3D Embellishments and Blooming Gel on Short Nails",
+      "The Best Nail Shapes for Japanese Nail Art on Short Nails",
+      "What to Ask Your Nail Tech: The Short Nail Japanese Art Brief",
+      "Japanese Nail Art Short Nails: Designs to Save in 2026"
+    ],
+    "word_budget": {
+      "introduction": "220 words",
+      "h2_1_which_styles_work": "280 words",
+      "h2_2_nuance_nails": "260 words",
+      "h2_3_micro_sakura": "230 words",
+      "h2_4_negative_space": "220 words",
+      "h2_5_mini_3d_blooming": "230 words",
+      "h2_6_nail_shapes": "250 words",
+      "h2_7_salon_brief": "260 words",
+      "h2_8_designs_to_save": "280 words",
+      "conclusion": "170 words"
+    }
+  },
+
+  "section_11_internal_links": {
+    "blog_gen_instruction": "Every link below must appear in the post. Cluster links use anchor texts verbatim — do not rewrite. Cross-site links use the provided descriptive anchor. Place each link where the placement note says — woven naturally into prose, never as a standalone CTA. Total internal links must not exceed 6.",
+    "all_internal_links": [
+      {
+        "url_or_slug": "/blog/japanese-nails/japanese-nail-art",
+        "title": "Japanese Nail Art: Every Style & Design Worth Knowing",
+        "anchor_text": "japanese nail art",
+        "placement_note": "H2-1 (Which styles work) — when introducing the broader category this post sits within",
+        "link_type": "cluster-pillar"
+      },
+      {
+        "url_or_slug": "/blog/japanese-nails/kawaii-nails",
+        "title": "Kawaii Nails: The Complete Guide to Cute Japanese Nail Art",
+        "anchor_text": "kawaii nails",
+        "placement_note": "H2-5 (Mini 3D & blooming gel) — when mentioning kawaii-style mini embellishments and charm elements",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/japanese-nails/japanese-minimalist-nails",
+        "title": "Japanese Minimalist Nails: Clean, Simple, Quietly Luxe",
+        "anchor_text": "japanese minimalist nails",
+        "placement_note": "H2-4 (Negative space) — when discussing restrained, precision-led Japanese nail aesthetics that overlap with negative space",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/japanese-nails/sakura-nails",
+        "title": "Sakura Nails: Cherry Blossom Designs for Every Style",
+        "anchor_text": "sakura nails",
+        "placement_note": "H2-3 (Micro sakura) — linking to the full sakura post when introducing the design category",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/blog/short-mothers-day-nails",
+        "title": "Short Mothers Day Nails: Designs That Impress",
+        "anchor_text": "how to adapt nail art designs proportionally for short nail beds",
+        "placement_note": "H2-6 (Nail shapes) — when discussing proportion rules and what works at shorter lengths; this cross-site page covers similar short-nail design logic in depth",
+        "link_type": "cross-site"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/blog/short-almond-nails",
+        "title": "Short Almond Nails: The Shape Having a Moment",
+        "anchor_text": "short almond nails as a shape choice for Japanese nail art",
+        "placement_note": "H2-6 (Nail shapes) — when recommending short almond as a top shape for Japanese nail art; links to the dedicated shape guide naturally",
+        "link_type": "cross-site"
+      }
+    ]
+  },
+
+  "section_12_voice_tone": {
+    "blog_gen_instruction": "This is the voice for this specific post. Layer on top of Mirellé editorial framework. Do not default to generic AI tone.",
+    "recommended_voice": "Warm expert with editorial precision — the knowledgeable friend who keeps her nails short by choice and knows exactly which Japanese nail art works and why",
+    "tone_characteristics": [
+      "Validating without being patronising — she does not need to be told 'short nails are beautiful too'; she needs design intelligence",
+      "Specific over general — always names the technique, the style, the shape; never vague encouragement",
+      "Quietly confident — this post corrects a widely-held assumption; the tone carries that certainty without being combative",
+      "Visually fluent — describes designs in a way that the reader can picture them and that a nail tech could follow",
+      "British English throughout — colour, recognise, organised"
+    ],
+    "language_style": "Clear, direct sentences. Occasional short fragment for emphasis. 'You' used naturally. Analogies only when they sharpen understanding (e.g. comparing the nuance nail canvas to a close-up painting rather than a mural). No filler adjectives.",
+    "audience_match": "This reader is aesthetically informed and has done her own Pinterest research — she does not need basic explanations of what Japanese nail art is. She needs design specificity and proportion intelligence applied to her specific nail length. The voice meets her at that level."
+  },
+
+  "section_13_external_links": {
+    "blog_gen_instruction": "Include all external links where indicated. Supports E-E-A-T. Use anchor suggestion as guide — write naturally around it.",
+    "links": [
+      {
+        "url": "https://www.nailsmag.com/383855/10-japanese-nail-trends-to-watch",
+        "context": "H2-1 or intro — when citing that Tokyo nail salons are trending toward shorter nail lengths in 2026; provides industry authority (NAILS Magazine) behind the claim",
+        "anchor_suggestion": "NAILS Magazine on Japanese nail length trends"
+      },
+      {
+        "url": "https://paolaponcenails.com/the-3-most-popular-gel-nail-art-styles-japanese-gel-nail-fundamentals-series-07/",
+        "context": "H2-2 (Nuance nails) — when explaining nuance/gradation gel technique for professional credibility; Paola Ponce Nails is a certified Japanese gel specialist",
+        "anchor_suggestion": "nuance nail technique explained by a Japanese gel specialist"
+      },
+      {
+        "url": "https://www.tokyoweekender.com/art_and_culture/fashion/kawaii-japanese-nail-art/",
+        "context": "H2-5 (Mini 3D & blooming gel) — when referencing Tokyo salon innovation and mini embellishment techniques; Tokyo Weekender is authoritative on Japanese fashion",
+        "anchor_suggestion": "how Tokyo nail salons approach 3D embellishments"
+      }
+    ]
+  },
+
+  "section_14_execution_plan": {
+    "purpose": "Blog Gen Agent reads this section FIRST — before frontmatter, before writing a single word. Every value here is pre-calculated from the input file data. Blog Gen Agent locks all values and executes them exactly.",
+    "blog_gen_instruction": "READ THIS SECTION FIRST. Lock every value. Execute exactly. Do not recalculate, do not adjust, do not deviate.",
+
+    "block_1_keyword_execution": {
+      "primary_keyword": "japanese nail art short nails",
+      "top_3_density_baseline": 9,
+      "total_mention_target": 12,
+      "first_100_words_plan": {
+        "rule": "Primary keyword MUST appear TWICE in the first 100 words. Mandatory. No exceptions.",
+        "mention_1": "Sentence 1–2 of introduction — open with a direct statement about japanese nail art short nails being the post subject",
+        "mention_2": "Sentence 4–5 of introduction — reinforce within the hook paragraph before the first transition"
+      },
+      "first_half_target": "7 mentions — first 1100 words. Run denser in first half.",
+      "second_half_target": "5 mentions — second 1100 words",
+      "strong_tag_rule": "EVERY single mention of the primary keyword — all 12 of them — wrapped in <strong> tags. No exceptions. Catch each one as it is written. Scan after every paragraph.",
+      "keywords_to_avoid_active": [
+        "japanese nail art (standalone — belongs to pillar)",
+        "sakura nails (standalone — belongs to spoke post 2)",
+        "kawaii nails (standalone — belongs to spoke post 3)",
+        "japanese 3d nail art (standalone — belongs to spoke post 4)",
+        "japanese minimalist nails (standalone — belongs to spoke post 5)",
+        "japanese manicure (belongs to spoke post 6)",
+        "how to do japanese nail art (belongs to spoke post 7)",
+        "pastel goth nails",
+        "how to do ombre nails at home",
+        "cat eye nails"
+      ]
+    },
+
+    "block_2_word_budget": {
+      "total_target": "2200 words — +/- 50 words tolerance, never exceed",
+      "introduction": "220 words",
+      "conclusion": "170 words",
+      "h2_budgets": [
+        { "heading": "Which Japanese Nail Art Styles Actually Work on Short Nails?", "budget": "280 words", "complexity": "high" },
+        { "heading": "Nuance Nails: The Japanese Technique Built for Short Canvases", "budget": "260 words", "complexity": "high" },
+        { "heading": "Micro Sakura Designs That Suit Short Nail Lengths", "budget": "230 words", "complexity": "medium" },
+        { "heading": "Negative Space Japanese Nail Art: Why Less Works Better Here", "budget": "220 words", "complexity": "medium" },
+        { "heading": "Mini 3D Embellishments and Blooming Gel on Short Nails", "budget": "230 words", "complexity": "medium" },
+        { "heading": "The Best Nail Shapes for Japanese Nail Art on Short Nails", "budget": "250 words", "complexity": "high" },
+        { "heading": "What to Ask Your Nail Tech: The Short Nail Japanese Art Brief", "budget": "260 words", "complexity": "medium" },
+        { "heading": "Japanese Nail Art Short Nails: Designs to Save in 2026", "budget": "280 words", "complexity": "medium" }
+      ],
+      "tracking_rule": "Track running word total at the end of every H2 section. If a section is running over budget — cut before moving to the next section. Do not compensate later."
+    },
+
+    "block_3_image_plan": {
+      "total_images": 9,
+      "hero_image": "frontmatter only — NEVER appears in post body",
+      "body_images": 8,
+      "assignments": [
+        { "image_number": 1, "place_after": "Introduction", "section_context": "Short nails with elegant Japanese nail art — establishing shot, nuance or micro sakura design on squoval or oval short nails" },
+        { "image_number": 2, "place_after": "Which Japanese Nail Art Styles Actually Work on Short Nails?", "section_context": "Overview image showing 2–3 different Japanese nail art styles on short nails side by side" },
+        { "image_number": 3, "place_after": "Nuance Nails: The Japanese Technique Built for Short Canvases", "section_context": "Close-up of nuance/gradation gel nails on short natural nails — pastel gradient, clean finish" },
+        { "image_number": 4, "place_after": "Micro Sakura Designs That Suit Short Nail Lengths", "section_context": "Micro sakura cherry blossom design on short nails — single accent floral on nude or pale pink base" },
+        { "image_number": 5, "place_after": "Negative Space Japanese Nail Art: Why Less Works Better Here", "section_context": "Negative space Japanese nail art on short nails — geometric or wabi-sabi design with visible nail plate" },
+        { "image_number": 6, "place_after": "Mini 3D Embellishments and Blooming Gel on Short Nails", "section_context": "Mini 3D crystal or gold foil embellishments on short nails; or blooming gel watercolour floral on short nail" },
+        { "image_number": 7, "place_after": "The Best Nail Shapes for Japanese Nail Art on Short Nails", "section_context": "Side-by-side of squoval vs short oval nails with Japanese nail art — shape comparison" },
+        { "image_number": 8, "place_after": "Japanese Nail Art Short Nails: Designs to Save in 2026", "section_context": "Curated 2026 inspo image — Japanese nail art on short nails, modern aesthetic (nuance, gold accents, or micro floral)" }
+      ],
+      "image_type_rule": "ALL body images = inspirational nail design images related to the topic. NO infographics. NO process diagrams. NO comparison charts. NO step-by-step visuals.",
+      "path_rule": "/images/blog/japanese-nails/japanese-nail-art-short-nails/filename.webp — topic_slug in path, slug folder, leading slash"
+    },
+
+    "block_4_opening_technique_assignments": {
+      "rule": "No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.",
+      "assignments": [
+        { "section": "Introduction", "technique": "Technique 2 — The Provocation (challenge the assumption this reader holds)" },
+        { "section": "Which Japanese Nail Art Styles Actually Work on Short Nails?", "technique": "Technique 3 — The Reframe (reframe 'short nails as limitation' into 'short nails as suited canvas')" },
+        { "section": "Nuance Nails: The Japanese Technique Built for Short Canvases", "technique": "Technique 1 — The Claim (direct declarative about why nuance nails suit short lengths specifically)" },
+        { "section": "Micro Sakura Designs That Suit Short Nail Lengths", "technique": "Technique 4 — The Scene (paint the specific sakura nail micro-design the reader can picture)" },
+        { "section": "Negative Space Japanese Nail Art: Why Less Works Better Here", "technique": "Technique 3 — The Reframe (reframe emptiness as a design choice, not a short-nail compromise)" },
+        { "section": "Mini 3D Embellishments and Blooming Gel on Short Nails", "technique": "Technique 1 — The Claim (direct statement on what mini embellishments do for short nails)" },
+        { "section": "The Best Nail Shapes for Japanese Nail Art on Short Nails", "technique": "Technique 2 — The Provocation (most content says 'any shape works' — this one is specific)" },
+        { "section": "What to Ask Your Nail Tech: The Short Nail Japanese Art Brief", "technique": "Technique 4 — The Scene (imagine the salon appointment — she has the brief, she knows exactly what to say)" },
+        { "section": "Japanese Nail Art Short Nails: Designs to Save in 2026", "technique": "Technique 3 — The Reframe (2026 context: shorter is the Japanese aesthetic direction right now)" },
+        { "section": "Conclusion", "technique": "Technique 1 — The Claim (close with a confident statement about what short nails unlock in Japanese nail art)" }
+      ],
+      "banned_opener_rule": "Check every opener against banned_opening_approaches in blog gen prompt before writing the second sentence"
+    },
+
+    "block_5_link_placements": {
+      "rule": "Every link placed exactly where specified. Anchor texts used verbatim — never rewritten. Links woven into prose naturally — never standalone CTAs.",
+      "links": [
+        {
+          "anchor_text": "japanese nail art",
+          "full_url": "/blog/japanese-nails/japanese-nail-art",
+          "place_in_section": "Which Japanese Nail Art Styles Actually Work on Short Nails?",
+          "placement_context": "When introducing the cluster context — 'the full spectrum of japanese nail art includes styles at every length'",
+          "link_type": "cluster-pillar"
+        },
+        {
+          "anchor_text": "kawaii nails",
+          "full_url": "/blog/japanese-nails/kawaii-nails",
+          "place_in_section": "Mini 3D Embellishments and Blooming Gel on Short Nails",
+          "placement_context": "When referencing Sanrio character charms and kawaii mini embellishments as one route for short nails",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "japanese minimalist nails",
+          "full_url": "/blog/japanese-nails/japanese-minimalist-nails",
+          "place_in_section": "Negative Space Japanese Nail Art: Why Less Works Better Here",
+          "placement_context": "When the negative space aesthetic connects naturally to the broader Japanese minimalist aesthetic",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "sakura nails",
+          "full_url": "/blog/japanese-nails/sakura-nails",
+          "place_in_section": "Micro Sakura Designs That Suit Short Nail Lengths",
+          "placement_context": "When introducing micro sakura and directing readers to the full sakura design post for more options",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "how to adapt nail art designs proportionally for short nail beds",
+          "full_url": "https://mirelleinspo.com/blog/short-mothers-day-nails",
+          "place_in_section": "The Best Nail Shapes for Japanese Nail Art on Short Nails",
+          "placement_context": "When covering proportion rules — referencing the short nail proportion guidance from another Mirellé post",
+          "link_type": "cross-site"
+        },
+        {
+          "anchor_text": "short almond nails as a shape choice for Japanese nail art",
+          "full_url": "https://mirelleinspo.com/blog/short-almond-nails",
+          "place_in_section": "The Best Nail Shapes for Japanese Nail Art on Short Nails",
+          "placement_context": "When recommending short almond as a top shape — link to the dedicated shape guide for readers who want to explore that shape first",
+          "link_type": "cross-site"
+        }
+      ]
+    },
+
+    "block_6_aeo_geo_plan": {
+      "aeo_assignments": [
+        {
+          "aeo_term": "can you get japanese nail art on short nails?",
+          "assigned_to_section": "Which Japanese Nail Art Styles Actually Work on Short Nails?",
+          "execution": "Write a direct 2–3 sentence answer paragraph IMMEDIATELY after the H2 heading — before any elaboration. Answer: Yes. Several Japanese nail art techniques — nuance gel, micro floral, negative space, blooming gel — are specifically suited to short nail canvases and produce a better result at shorter lengths than at longer ones."
+        },
+        {
+          "aeo_term": "what is nuance nail art and does it suit short nails?",
+          "assigned_to_section": "Nuance Nails: The Japanese Technique Built for Short Canvases",
+          "execution": "Write a direct 2–3 sentence definition immediately after the H2 heading. Nuance nails are a Japanese gel nail technique using soft gradation and tonal layering to create subtle colour transitions across the nail. They suit short nails because the effect reads as refined and complete even on a compact canvas — no surface area is wasted and no motif is crowded."
+        },
+        {
+          "aeo_term": "what nail shape is best for japanese nail art on short nails?",
+          "assigned_to_section": "The Best Nail Shapes for Japanese Nail Art on Short Nails",
+          "execution": "Write a direct answer immediately after the H2 heading: squoval and short oval are the two best shapes for japanese nail art short nails. Squoval gives a flat surface that suits geometric and stripe designs. Short oval provides a natural curve that suits floral and gradient work."
+        },
+        {
+          "aeo_term": "how do you ask for japanese nail art on short nails at a salon?",
+          "assigned_to_section": "What to Ask Your Nail Tech: The Short Nail Japanese Art Brief",
+          "execution": "Write a direct 2–3 sentence answer immediately after the H2 heading. Give the reader a template brief: shape name + technique name + design detail. Example: 'Squoval shape, nuance gel in soft pink and white, one accent nail with a micro sakura detail.'"
+        }
+      ],
+      "geo_entity_statements": [
+        {
+          "entity": "nuance nail (Japanese gel technique)",
+          "assigned_to_section": "Nuance Nails: The Japanese Technique Built for Short Canvases",
+          "execution": "Write a clear declarative definition: 'Nuance nails are a Japanese gel nail technique that uses layered gradation to create a soft, tonal colour transition across the nail — closer to a watercolour wash than a standard ombre.' No hedging. Extractable by AI."
+        },
+        {
+          "entity": "blooming gel",
+          "assigned_to_section": "Mini 3D Embellishments and Blooming Gel on Short Nails",
+          "execution": "Write a clear declarative definition: 'Blooming gel is a Japanese nail technique where a thin layer of specially formulated gel is applied over uncured colour gel — when a detail is painted into it, the pigment spreads organically to create a watercolour or ink-bleed effect.' Directly followable by a sentence on why it suits short nails."
+        },
+        {
+          "entity": "seigaiha pattern",
+          "assigned_to_section": "Japanese Nail Art Short Nails: Designs to Save in 2026",
+          "execution": "Define inline: 'Seigaiha is the traditional Japanese overlapping wave or scale pattern, named after the ancient music piece meaning blue-green sea waves.' Then note it scales cleanly to short nails as a single repeated motif."
+        }
+      ]
+    },
+
+    "block_7_active_constraints": {
+      "em_dash_banned": "Long em dash does not appear anywhere. If one forms while writing — stop, replace with: comma / new sentence / parentheses / but / restructure.",
+      "banned_vocab_watch": "Most likely banned words for this specific post: stunning, effortlessly, beautiful, perfect, amazing, adorable, gorgeous. Catch them as they form.",
+      "british_english_active": "colour, recognise, organise, favourite, jewellery — every instance, no exceptions",
+      "keyword_density_reminder": "After every 2 H2 sections — count current keyword mentions. Verify running total is on track to hit 12. First half (1100 words) must have 7 mentions. Adjust if needed.",
+      "image_path_reminder": "/images/blog/japanese-nails/japanese-nail-art-short-nails/filename.webp — topic_slug 'japanese-nails' in path always",
+      "internal_link_url_reminder": "Full correct paths only. Cluster links = /blog/japanese-nails/[slug]. Cross-site links = exact URLs as discovered. Never bare /slug.",
+      "hero_image_reminder": "Hero = frontmatter only. Never place hero image in body.",
+      "strong_tag_reminder": "Every primary keyword mention = <strong> tags. All 12. Scan after every paragraph."
+    }
+  }
+}
