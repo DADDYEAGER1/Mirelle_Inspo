@@ -1,0 +1,525 @@
+{
+  "section_1_file_authority": {
+    "statement": "THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly."
+  },
+
+  "section_2_post_constants": {
+    "slug": "igari-nails",
+    "topic_slug": "korean-nails",
+    "canonical": "https://mirelleinspo.com/blog/korean-nails/igari-nails",
+    "post_type": "spoke",
+    "intent": "informational",
+    "word_count": 1800,
+    "image_count": 9,
+    "template": "split-left",
+    "hero_dimensions": "800x800",
+    "category": "Korean Nails",
+    "publish_date": "2026-06-28",
+    "author": "Mirellé Team"
+  },
+
+  "section_3_cluster_snapshot": {
+    "pillar_slug": "korean-nail-art",
+    "pillar_title": "Korean Nail Art: Every Style, Finish & Technique Worth Knowing",
+    "pillar_primary_keyword": "korean nail art",
+    "this_post_slug": "igari-nails",
+    "this_post_role": "spoke",
+    "keywords_to_avoid": [
+      "korean nail art",
+      "korean glass nails",
+      "soap nails",
+      "korean nail trends 2026",
+      "how to do korean nails",
+      "korean nails short nails",
+      "korean jelly nails"
+    ]
+  },
+
+  "section_4_serp_analysis": {
+    "blog_gen_instruction": "Use competitor gaps and missing semantic territory to fill what competitors miss. Our strategic approach is the angle for the introduction and conclusion.",
+    "competitor_gaps": [
+      "No competitor clearly explains igari nails as distinct from blush nails and aura nails — they conflate all three, leaving readers confused about what specifically makes igari nails igari",
+      "No competitor addresses the J-Beauty/K-Beauty crossover clearly: igari is Japanese in origin (from makeup artist Shinobu Igari) but the nail application was adopted and popularised in Korea — this origin story goes untold",
+      "No competitor explains the cheek nail (볼터치 네일) Korean salon term — readers who walk into a Korean nail salon do not know what to ask for",
+      "No competitor addresses which nail shapes, lengths, and colours work best for igari nails specifically",
+      "No competitor explains how igari nails differ from the cold girl nail trend, aurora nails, or soap nails — all similar aesthetics that cause search confusion",
+      "No competitor has a skin tone section for igari nail colour selection — which blush shade to choose based on undertone is universally missed"
+    ],
+    "missing_semantic_territory": [
+      "The blooming gel technique vs actual makeup blush application — two distinct methods that produce different results",
+      "Longevity comparison: makeup blush on nails vs gel polish method",
+      "The emotional and cultural root of igari as hangover aesthetic translated to nails",
+      "What to tell your nail tech if you want igari nails (exact language gap)",
+      "Igari nails on different nail shapes — round, almond, short square"
+    ],
+    "our_strategic_approach": "This post is the only one that clearly separates igari nails from its lookalike trends (aura nails, blush nails, soap nails) and explains the Japanese origin adopted by Korean nail culture. It also gives readers the exact salon language — cheek nails or 볼터치 네일 — to get the look they want, plus skin-tone-specific colour guidance that every other post ignores.",
+    "top_3_word_count_estimates": {
+      "estimate_1": "makeup.com blush nails article: approx 900 words",
+      "estimate_2": "ndnailsupply.com blush nails article: approx 1200 words",
+      "estimate_3": "naildesignsdaily.com korean blush nails: approx 1000 words",
+      "average": 1033,
+      "word_count_floor": 1033,
+      "word_count_set": "1800 — above floor, within 2800 spoke ceiling"
+    },
+    "top_3_keyword_density_baseline": {
+      "estimate": "Top 3 ranking pages average approx 8 primary keyword mentions each",
+      "baseline": 8
+    },
+    "recommended_image_count_validation": "Top ranking pages are light on images for this informational keyword — mostly 3 to 5 images. 9 images (rule 5: everything else) is above average and creates a competitive visual advantage."
+  },
+
+  "section_5_audience_intelligence": {
+    "blog_gen_instruction": "This is your primary creative brief. Every paragraph written for this specific person with this specific intent. Satisfy them completely.",
+    "who_they_are": "Someone who has seen igari nails labelled on TikTok, Pinterest, or a Korean beauty account and does not know what exactly makes them igari — or how they differ from blush nails, aura nails, or soap nails. Likely already a K-beauty or J-beauty follower. Expertise level: intermediate nail follower, not a professional. They want to understand the trend properly before booking or attempting it.",
+    "what_they_want_from_this_post": "A clear, confident explanation of what igari nails actually are, where the name comes from, how the look is achieved (including the specific technique), what makes them different from similar trends, and which colours or shades work for them specifically. They also want to know if they can DIY it or need a salon.",
+    "what_frustrates_them": "Every search result either conflates igari nails with blush nails, skips the origin, does not tell them what to ask for at a salon, or rushes into a DIY tutorial without explaining the concept first. They also feel abandoned by skin-tone guidance — most content uses one set of hands as the reference.",
+    "top_5_pain_points": [
+      "They do not know the difference between igari nails, blush nails, and aura nails — and no one explains it clearly",
+      "They do not know the Korean salon term to ask for — walking in blind",
+      "They do not know if their skin tone can pull off the blush colours shown on pale hands in references",
+      "They do not know which technique (actual makeup blush, blooming gel, sponge polish method) produces the best result or lasts longest",
+      "They do not know which nail shape or length works best for igari nails — most inspo shows one look"
+    ],
+    "exact_user_phrases": [
+      "what are igari nails exactly",
+      "are igari nails the same as blush nails",
+      "how do you do igari nails at home",
+      "igari nails vs aura nails difference",
+      "what colour blush for igari nails dark skin",
+      "igari nail trend Korea or Japan",
+      "igari nails how long do they last",
+      "cheek nails korean salon",
+      "igari nails short nails does it work",
+      "what is the igari blush nail technique",
+      "igari nails TikTok explained",
+      "how to ask for igari nails at the salon"
+    ],
+    "intent_content_signals": [
+      "Informational intent — answer the what and why fully before moving to how",
+      "Readers want the origin story — it is part of the intrigue",
+      "Clear comparison to lookalike trends is essential — must definitively separate igari from blush and aura",
+      "Skin tone section is a genuine gap and will be read thoroughly",
+      "Salon language section will be saved — high practical utility",
+      "DIY feasibility must be addressed honestly — readers want to know if this is at-home-viable",
+      "Keep technical terms explained in plain language — no jargon without immediate definition",
+      "Moderate depth preferred: this is not a person looking for a 500-word explainer but also not a nail professional"
+    ]
+  },
+
+  "section_6_semantic_keyword_data": {
+    "blog_gen_instruction": "Primary keyword in strong tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.",
+    "primary_keyword": "igari nails",
+    "keyword_variations": [
+      "igari nail trend",
+      "igari nail technique",
+      "igari blush nails",
+      "igari nail look",
+      "igari nail aesthetic"
+    ],
+    "cluster_keywords": [
+      "cheek nails",
+      "볼터치 네일",
+      "korean blush nails",
+      "blush nail technique",
+      "hangover makeup nails",
+      "korean eyeshadow nails",
+      "flushed nail look",
+      "J-beauty nail trend",
+      "milky blush nails",
+      "centre gradient nails",
+      "soft glow manicure",
+      "diffused blush manicure",
+      "shinobu igari nails",
+      "blooming gel nails",
+      "syrup blush nails"
+    ],
+    "lsi_terms": [
+      "sheer nude base coat",
+      "blush powder nail application",
+      "centre nail gradient",
+      "blooming gel technique",
+      "diffused nail colour",
+      "eyeshadow brush nail art",
+      "makeup sponge nail technique",
+      "milky gel base",
+      "flushed aesthetic nail",
+      "doll-like nail finish",
+      "dewy nail look",
+      "minimalist K-beauty nail",
+      "translucent nail base",
+      "peach blush nails",
+      "rose pink nail gradient",
+      "nail bloom effect",
+      "innocence nail aesthetic",
+      "soft round nails igari",
+      "Korean clean girl nail art",
+      "gel top coat nail seal"
+    ],
+    "aeo_terms": [
+      "What are igari nails?",
+      "Are igari nails the same as blush nails?",
+      "Where did igari nails come from?",
+      "How do you do igari nails at home?",
+      "What is the difference between igari nails and aura nails?",
+      "What colour blush should I use for igari nails?",
+      "How long do igari nails last?",
+      "Can you do igari nails on short nails?",
+      "What nail shapes work best for igari nails?",
+      "What do I ask for at the salon to get igari nails?",
+      "Is igari a Korean or Japanese nail trend?",
+      "What is the blooming gel technique for igari nails?"
+    ],
+    "technical_terms": [
+      "blooming gel",
+      "BIAB (Builder In A Bottle)",
+      "sheer gel formula",
+      "sponge gradient technique",
+      "centre-diffuse application",
+      "J-beauty",
+      "K-beauty",
+      "cheek nail (볼터치 네일)"
+    ],
+    "user_language": [
+      "that flushed nail look from TikTok",
+      "nails that look like your cheeks are blushing",
+      "the hangover nail aesthetic",
+      "blush powder on nails",
+      "nails that look dewy and soft",
+      "the pink glow nail thing",
+      "Korean rosy nails",
+      "that innocent doll nail look"
+    ]
+  },
+
+  "section_7_voice_and_ai_queries": {
+    "blog_gen_instruction": "Answer every query directly in the relevant H2 section body. If a query cannot be addressed naturally in the body, route it to faqItems. No query left unanswered.",
+    "queries": [
+      "What are igari nails?",
+      "Are igari nails Korean or Japanese?",
+      "What is the origin of the igari nail trend?",
+      "How are igari nails different from blush nails?",
+      "What is the difference between igari nails and aura nails?",
+      "How do you do igari nails at home step by step?",
+      "Can you use real makeup blush to do igari nails?",
+      "What is blooming gel and how does it work for igari nails?",
+      "How long do igari nails last compared to regular gel nails?",
+      "What blush colour should I choose for igari nails if I have dark skin?",
+      "Do igari nails work on short nails?",
+      "What nail shape is best for igari nails?",
+      "What do I say to my nail technician to get igari nails?",
+      "Can igari nails be done with nail polish instead of gel?",
+      "What is the cheek nail style in Korean salons?",
+      "Is the igari nail trend still popular in 2026?"
+    ]
+  },
+
+  "section_8_hook_and_ctr": {
+    "blog_gen_instruction": "READ THIS SECTION BEFORE WRITING THE TITLE, META DESCRIPTION, INTRO, OR FIRST H2. The title and description are hardcoded here — use them exactly. The intro hook brief and first H2 hook direction are your creative brief for those specific elements. Do not deviate.",
+    "selected_trigger": "Trigger 1 — Curiosity Gap",
+    "trigger_rationale": "The reader suspects they are missing something: they have seen igari nails labelled on TikTok and Pinterest but cannot find a clear explanation of what separates it from blush nails, aura nails, or soap nails — this post is the resolution they have been looking for.",
+    "title": "Igari Nails: The Korean Blush Nail Trend Explained",
+    "title_char_count": 51,
+    "meta_description": "Everyone's calling them blush nails — but igari nails are more specific. Here's what they are, where they came from, and how to get them right.",
+    "meta_char_count": 145,
+    "intro_hook_brief": "Open with the moment of confusion — the reader has seen igari nails everywhere but cannot find a clear answer about what makes them specifically igari. Immediately signal this post resolves that. Tone: warm and confident, not academic.",
+    "first_h2_hook_direction": "Frame the first H2 as the voice search question the reader typed — 'What are igari nails exactly?' — then answer it in the first two sentences immediately after the heading. No preamble. Deliver the definition before anything else."
+  },
+
+  "section_9_search_journey": {
+    "blog_gen_instruction": "This is the emotional contract with the reader. Every section of the post must honour the promise made. Read this before writing any section. If a paragraph breaks the journey arc — rewrite it.",
+    "reader_arrival_state": "Curious but slightly frustrated — they have seen igari nails labelled across TikTok and Pinterest, clicked multiple results, and still cannot get a clear answer about what makes them distinct from the many similar-looking nail trends.",
+    "journey_arc": [
+      "Arrive: immediately get the clear answer they could not find elsewhere — what igari nails are in plain language",
+      "Learn the origin story — the Japanese makeup artist Shinobu Igari and how the technique crossed from face makeup to nails via Korea",
+      "Understand the distinctions — confidently separate igari nails from blush nails and aura nails",
+      "Get practical — which method, colours, nail shapes and lengths suit igari nails; what to ask for at a salon",
+      "Exit with clarity and confidence — they now know exactly what igari nails are and whether this look is for them"
+    ],
+    "promise_to_deliver": "A clear, specific explanation of igari nails — their origin, what makes them distinct from lookalike trends, and exactly how to get the look at home or in a salon.",
+    "exit_state": "Informed and confident — the reader knows what igari nails are, how they differ from similar trends, what colours work for their skin tone, and exactly what to say to get them."
+  },
+
+  "section_10_content_structure": {
+    "blog_gen_instruction": "This H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s without user instruction. Word budget per section is set — follow it. H3s may be added at editorial discretion.",
+    "h1": "Igari Nails: The Korean Blush Nail Trend Explained",
+    "h2_structure": [
+      "What are igari nails exactly?",
+      "Where did igari nails come from?",
+      "How are igari nails different from blush nails and aura nails?",
+      "How to do igari nails at home",
+      "Which colours work best — and how to choose by skin tone",
+      "What nail shapes and lengths suit igari nails?",
+      "What to ask for at the salon",
+      "Are igari nails still trending in 2026?"
+    ],
+    "word_budget": {
+      "introduction": "220 words",
+      "h2_1_what_are_igari_nails": "200 words",
+      "h2_2_where_did_igari_nails_come_from": "200 words",
+      "h2_3_difference_from_blush_aura": "200 words",
+      "h2_4_how_to_do_at_home": "250 words",
+      "h2_5_colours_skin_tone": "250 words",
+      "h2_6_shapes_and_lengths": "180 words",
+      "h2_7_what_to_ask_salon": "150 words",
+      "h2_8_trending_2026": "150 words",
+      "conclusion": "200 words"
+    }
+  },
+
+  "section_11_internal_links": {
+    "blog_gen_instruction": "Every link below must appear in the post. Cluster links use anchor texts verbatim — do not rewrite. Cross-site links use the provided descriptive anchor. Place each link where the placement note says — woven naturally into prose, never as a standalone CTA. Total internal links must not exceed 6.",
+    "all_internal_links": [
+      {
+        "url_or_slug": "/blog/korean-nails/korean-nail-art",
+        "title": "Korean Nail Art: Every Style, Finish & Technique Worth Knowing",
+        "anchor_text": "korean nail art",
+        "placement_note": "H2 1 — when establishing igari nails as one style within the broader Korean nail landscape, link to the pillar as the wider reference",
+        "link_type": "cluster-pillar"
+      },
+      {
+        "url_or_slug": "/blog/korean-nails/korean-glass-nails",
+        "title": "Korean Glass Nails: The Mirror-Finish Manicure Guide",
+        "anchor_text": "korean glass nails",
+        "placement_note": "H2 3 — when listing other distinctly different Korean nail finishes to illustrate how igari occupies its own territory",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/korean-nails/korean-nails-short-nails",
+        "title": "Korean Nails for Short Nails: Every Style That Actually Works",
+        "anchor_text": "korean nails for short nails",
+        "placement_note": "H2 6 — when confirming igari nails suit short nails particularly well, link naturally to the dedicated short nails spoke",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/korean-nails/korean-nail-trends-2026",
+        "title": "Korean Nail Trends 2026: What's In Right Now",
+        "anchor_text": "korean nail trends 2026",
+        "placement_note": "H2 8 — when discussing igari nails continued relevance this year, link to the full 2026 trend landscape naturally",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/blog/skin-tone/nail-color-trends-2026-skin-tone",
+        "title": "Nail Color Trends 2026 for Every Skin Tone",
+        "anchor_text": "how nail colour reads differently across skin tones in 2026",
+        "placement_note": "H2 5 — after the skin tone guidance paragraph, offer the deeper reference for readers who want the full skin-tone-to-colour system",
+        "link_type": "cross-site"
+      }
+    ]
+  },
+
+  "section_12_voice_tone": {
+    "blog_gen_instruction": "This is the voice for this specific post. Layer on top of Mirellé editorial framework. Do not default to generic AI tone.",
+    "recommended_voice": "Warm knowledgeable guide — the friend who actually knows nail trends and explains them without being condescending",
+    "tone_characteristics": [
+      "Confident and specific — never vague; give the actual answer, not it depends",
+      "Conversational but authoritative — editorial-quality explainer content, not a Wikipedia article",
+      "Reader-respecting — assume the reader is smart, just uninformed on this specific topic",
+      "Warm without being gushing — no excessive enthusiasm; the content earns engagement through usefulness",
+      "Helpful precision — every paragraph should leave the reader knowing something they did not before"
+    ],
+    "language_style": "Short-to-medium sentences. You used naturally and often. No jargon without immediate plain-language follow-through. Analogies welcome where they sharpen understanding. British English throughout.",
+    "audience_match": "The informational reader wants clarity, not inspiration. They arrived with a question — the voice must prioritise answering it over creating aspiration. Every sentence should feel like it is earning its place by giving the reader something real."
+  },
+
+  "section_13_external_links": {
+    "blog_gen_instruction": "Include all external links where indicated. Supports E-E-A-T. Use anchor suggestion as guide — write naturally around it.",
+    "links": [
+      {
+        "url": "https://www.makeup.com/nails/nail-art/korean-blush-nails",
+        "context": "H2 4 (how to do igari nails at home) — credible editorial source confirming the blush-on-wet-base technique from a professional nail salon owner",
+        "anchor_suggestion": "the blush nail technique as confirmed by professional nail salon experts"
+      },
+      {
+        "url": "https://www.newbeauty.com/view/k-beauty-blush-nails",
+        "context": "H2 7 (what to ask at salon) — confirms the cheek nails Korean salon terminology and the K-beauty philosophy behind the look",
+        "anchor_suggestion": "more commonly known in Korean salons as cheek nails"
+      },
+      {
+        "url": "https://ndnailsupply.com/blogs/articles/how-to-do-blush-nails",
+        "context": "H2 4 (how to do at home) — industry nail supply source with specific technique guidance for both the blush method and gel polish method",
+        "anchor_suggestion": "step-by-step guidance from an industry nail supply source"
+      }
+    ]
+  },
+
+  "section_14_execution_plan": {
+    "blog_gen_instruction": "READ THIS SECTION FIRST. Lock every value. Execute exactly. Do not recalculate, do not adjust, do not deviate.",
+
+    "block_1_keyword_execution": {
+      "primary_keyword": "igari nails",
+      "top_3_density_baseline": 8,
+      "total_mention_target": 11,
+      "first_100_words_plan": {
+        "rule": "Primary keyword MUST appear TWICE in the first 100 words. Mandatory. No exceptions.",
+        "mention_1": "Sentence 1 or 2 of introduction — establish igari nails as the subject immediately in the opening hook",
+        "mention_2": "Sentence 4 or 5 of introduction — reinforce within the confusion-resolution setup, e.g. igari nails have a very specific definition that most search results miss"
+      },
+      "first_half_target": "7 mentions in first 900 words — run denser in first half",
+      "second_half_target": "4 mentions in second 900 words",
+      "strong_tag_rule": "EVERY single mention of igari nails — all 11 of them — wrapped in <strong> tags. No exceptions. Scan after every paragraph.",
+      "keywords_to_avoid_active": [
+        "korean nail art",
+        "korean glass nails",
+        "soap nails",
+        "korean nail trends 2026",
+        "how to do korean nails",
+        "korean nails short nails",
+        "korean jelly nails"
+      ]
+    },
+
+    "block_2_word_budget": {
+      "total_target": "1800 words — plus or minus 50 words tolerance, never exceed 1850",
+      "introduction": "220 words",
+      "conclusion": "200 words",
+      "h2_budgets": [
+        { "heading": "What are igari nails exactly?", "budget": "200 words", "complexity": "medium" },
+        { "heading": "Where did igari nails come from?", "budget": "200 words", "complexity": "medium" },
+        { "heading": "How are igari nails different from blush nails and aura nails?", "budget": "200 words", "complexity": "high" },
+        { "heading": "How to do igari nails at home", "budget": "250 words", "complexity": "high" },
+        { "heading": "Which colours work best — and how to choose by skin tone", "budget": "250 words", "complexity": "high" },
+        { "heading": "What nail shapes and lengths suit igari nails?", "budget": "180 words", "complexity": "low" },
+        { "heading": "What to ask for at the salon", "budget": "150 words", "complexity": "low" },
+        { "heading": "Are igari nails still trending in 2026?", "budget": "150 words", "complexity": "low" }
+      ],
+      "tracking_rule": "Track running word total at the end of every H2 section. If a section runs over budget — cut before moving to the next section. Do not compensate later."
+    },
+
+    "block_3_image_plan": {
+      "total_images": 9,
+      "hero_image": "frontmatter only — NEVER appears in post body",
+      "body_images": 8,
+      "assignments": [
+        { "image_number": 1, "place_after": "Introduction", "section_context": "Igari nails close-up — soft blush centre gradient on short rounded nails, milky base, dewy finish" },
+        { "image_number": 2, "place_after": "What are igari nails exactly?", "section_context": "Igari nails flat lay — hand with four nails showing the characteristic centre-diffuse blush bloom on nude base" },
+        { "image_number": 3, "place_after": "Where did igari nails come from?", "section_context": "Igari nails inspiration — soft flushed nails paired with minimal hands, highlighting the J-beauty and K-beauty crossover aesthetic" },
+        { "image_number": 4, "place_after": "How are igari nails different from blush nails and aura nails?", "section_context": "Igari nails shown alongside a more saturated aura-style nail — showing the subtler centre-only blush characteristic of igari" },
+        { "image_number": 5, "place_after": "How to do igari nails at home", "section_context": "Igari nails DIY result — finished hand showing at-home igari nails with visible soft centre gradient over clear or nude base" },
+        { "image_number": 6, "place_after": "Which colours work best — and how to choose by skin tone", "section_context": "Igari nails on different skin tones — multiple hands side by side showing peach, rose pink, and coral blush variants" },
+        { "image_number": 7, "place_after": "What nail shapes and lengths suit igari nails?", "section_context": "Igari nails on short round nails — showing the look specifically on short, natural-length round nails" },
+        { "image_number": 8, "place_after": "Are igari nails still trending in 2026?", "section_context": "Igari nails 2026 inspo — current-looking set showing how the trend looks this year, possibly with subtle gems or crystal embellishment" }
+      ],
+      "image_type_rule": "ALL body images = inspirational nail design images related to igari nails specifically. NO infographics. NO process diagrams. NO comparison charts. NO step-by-step visuals.",
+      "path_rule": "/images/blog/korean-nails/igari-nails/filename.webp — topic_slug in path always"
+    },
+
+    "block_4_opening_technique_assignments": {
+      "rule": "No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.",
+      "assignments": [
+        { "section": "Introduction", "technique": "Technique 2 — The Scene" },
+        { "section": "What are igari nails exactly?", "technique": "Technique 4 — The Direct Answer" },
+        { "section": "Where did igari nails come from?", "technique": "Technique 3 — The Reframe" },
+        { "section": "How are igari nails different from blush nails and aura nails?", "technique": "Technique 1 — The Claim" },
+        { "section": "How to do igari nails at home", "technique": "Technique 2 — The Scene" },
+        { "section": "Which colours work best — and how to choose by skin tone", "technique": "Technique 3 — The Reframe" },
+        { "section": "What nail shapes and lengths suit igari nails?", "technique": "Technique 1 — The Claim" },
+        { "section": "What to ask for at the salon", "technique": "Technique 4 — The Direct Answer" },
+        { "section": "Are igari nails still trending in 2026?", "technique": "Technique 2 — The Scene" },
+        { "section": "Conclusion", "technique": "Technique 1 — The Claim" }
+      ],
+      "banned_opener_rule": "Check every opener against banned_opening_approaches in blog gen prompt before writing the second sentence"
+    },
+
+    "block_5_link_placements": {
+      "rule": "Every link placed exactly where specified. Anchor texts used verbatim — never rewritten. Links woven into prose naturally — never standalone CTAs.",
+      "links": [
+        {
+          "anchor_text": "korean nail art",
+          "full_url": "/blog/korean-nails/korean-nail-art",
+          "place_in_section": "What are igari nails exactly?",
+          "placement_context": "When introducing igari nails as one specific style within the broader Korean nail universe — link naturally as the wider reference point",
+          "link_type": "cluster-pillar"
+        },
+        {
+          "anchor_text": "korean glass nails",
+          "full_url": "/blog/korean-nails/korean-glass-nails",
+          "place_in_section": "How are igari nails different from blush nails and aura nails?",
+          "placement_context": "When listing other distinctly different Korean nail finishes by name to illustrate how igari occupies its own territory",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "korean nails for short nails",
+          "full_url": "/blog/korean-nails/korean-nails-short-nails",
+          "place_in_section": "What nail shapes and lengths suit igari nails?",
+          "placement_context": "When confirming igari nails suit short nails particularly well — natural link to the dedicated short nails spoke",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "korean nail trends 2026",
+          "full_url": "/blog/korean-nails/korean-nail-trends-2026",
+          "place_in_section": "Are igari nails still trending in 2026?",
+          "placement_context": "When directing readers to the full 2026 trend landscape for context on where igari sits within the current season",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "how nail colour reads differently across skin tones in 2026",
+          "full_url": "https://mirelleinspo.com/blog/skin-tone/nail-color-trends-2026-skin-tone",
+          "place_in_section": "Which colours work best — and how to choose by skin tone",
+          "placement_context": "After the skin tone guidance paragraph — offer the deeper reference for readers who want the full skin-tone-to-colour system",
+          "link_type": "cross-site"
+        }
+      ]
+    },
+
+    "block_6_aeo_geo_plan": {
+      "aeo_assignments": [
+        {
+          "aeo_term": "What are igari nails?",
+          "assigned_to_section": "What are igari nails exactly?",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading — before any elaboration. This is what gets picked up by AI answer engines."
+        },
+        {
+          "aeo_term": "What is the difference between igari nails and aura nails?",
+          "assigned_to_section": "How are igari nails different from blush nails and aura nails?",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading — clear, definitional, no hedging."
+        },
+        {
+          "aeo_term": "What do I ask for at the salon to get igari nails?",
+          "assigned_to_section": "What to ask for at the salon",
+          "execution": "Open this section with a direct answer: the exact term to use, the Korean salon term, and the brief instruction to give a nail tech. Written as a clear extractable recommendation."
+        },
+        {
+          "aeo_term": "Is igari a Korean or Japanese nail trend?",
+          "assigned_to_section": "Where did igari nails come from?",
+          "execution": "Direct answer first — clarify the Japanese origin (Shinobu Igari the makeup artist) and Korean adoption clearly in the opening 2-3 sentences."
+        }
+      ],
+      "geo_entity_statements": [
+        {
+          "entity": "Igari nails",
+          "assigned_to_section": "What are igari nails exactly?",
+          "execution": "Write a clear declarative definition sentence: Igari nails are a Korean nail technique that creates a soft, diffused circle of blush colour at the centre of each nail, fading outward to a sheer or nude base. Confident, no hedging. Extractable by AI as a citation."
+        },
+        {
+          "entity": "Blooming gel technique",
+          "assigned_to_section": "How to do igari nails at home",
+          "execution": "Define clearly: Blooming gel is a specialist gel product that stays wet long enough for a second colour to diffuse and spread through it, creating the characteristic soft-edged gradient without hard lines. One sentence, declarative."
+        },
+        {
+          "entity": "Cheek nails (볼터치 네일)",
+          "assigned_to_section": "What to ask for at the salon",
+          "execution": "Define clearly: In Korean nail salons, igari nails are known as cheek nails — or 볼터치 네일 in Korean — named for their resemblance to blush applied to the cheeks. One sentence, authoritative."
+        }
+      ]
+    },
+
+    "block_7_active_constraints": {
+      "em_dash_banned": "Long em dash does not appear anywhere. Replace with: comma, new sentence, parentheses, but, or restructure.",
+      "banned_vocab_watch": [
+        "delve",
+        "stunning",
+        "effortless",
+        "game-changer",
+        "vibrant",
+        "exciting",
+        "incredible"
+      ],
+      "british_english_active": "colour, recognise, -ise, -our — every instance, no exceptions",
+      "keyword_density_reminder": "After every 2 H2 sections — count current igari nails mentions. Verify running total is on track to hit 11. First half must run denser. Adjust if needed.",
+      "image_path_reminder": "/images/blog/korean-nails/igari-nails/filename.webp — topic_slug in path always",
+      "internal_link_url_reminder": "Full correct paths only. Cluster links = /blog/korean-nails/[slug]. Cross-site links = exact discovered URL. Never bare /slug.",
+      "hero_image_reminder": "Hero = frontmatter only. Never place hero image in body.",
+      "strong_tag_reminder": "Every igari nails mention = <strong> tags. Scan after every paragraph."
+    }
+  }
+}
