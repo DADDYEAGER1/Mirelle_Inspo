@@ -1,0 +1,553 @@
+{
+  "THIS_FILE_IS": "SINGLE SOURCE OF TRUTH FOR BLOG GEN AGENT — all values in POST_CONSTANTS are hardcoded. Nothing overridden or reinterpreted unless user explicitly instructs Blog Gen Agent during that session.",
+
+  "section_1_file_authority": {
+    "statement": "THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly."
+  },
+
+  "section_2_post_constants": {
+    "slug": "high-school-nails",
+    "topic_slug": "back-to-school",
+    "canonical": "https://mirelleinspo.com/blog/back-to-school/high-school-nails",
+    "post_type": "spoke",
+    "intent": "seasonal_trend",
+    "word_count": 2200,
+    "image_count": 9,
+    "template": "split-left",
+    "hero_dimensions": "800x800",
+    "category": "Seasonal Trends",
+    "publish_date": "2026-07-21",
+    "author": "Mirellé Team",
+    "word_count_rationale": "Top 3 ranking posts for 'high school nails' (SolarNailDesign, Classpop, GlamNailDesigns) estimated at 1,800–2,400 words. Average ~2,100 words. Set at 2,200 — above floor, within spoke ceiling of 2,800.",
+    "image_count_rationale": "Post intent = seasonal_trend, not X+ slug, not pillar, not tutorial, not comparison — Rule 5 applies: 9 images total including hero."
+  },
+
+  "section_3_cluster_snapshot": {
+    "pillar_slug": "back-to-school-nails",
+    "pillar_title": "Back to School Nails: The Best Ideas for Every Student & Teacher in 2026",
+    "pillar_primary_keyword": "back to school nails",
+    "this_post_slug": "high-school-nails",
+    "this_post_role": "spoke",
+    "keywords_to_avoid": [
+      "back to school nails",
+      "back to school nails for teachers",
+      "college nails",
+      "simple back to school nails",
+      "first day of school nails",
+      "short nails for work",
+      "short summer nails"
+    ]
+  },
+
+  "section_4_serp_analysis": {
+    "blog_gen_instruction": "Use competitor gaps and missing semantic territory to fill what competitors miss. Our strategic approach is the angle for the introduction and conclusion.",
+    "top_3_ranking_posts": [
+      "SolarNailDesign.com — 'Back to School Nails' (~2,000 words, high school covered as a subsection only)",
+      "Classpop.com — '37 Back to School Nail Ideas' (~2,300 words, high school not isolated, mixed with all student types)",
+      "GlamNailDesigns.com — '24 School Nails Ideas' (~1,800 words, general school nails, no high school specificity)"
+    ],
+    "top_3_word_count_estimates": {
+      "post_1": 2000,
+      "post_2": 2300,
+      "post_3": 1800,
+      "average": 2033,
+      "floor": 2033
+    },
+    "top_3_keyword_density_baseline": {
+      "note": "Primary keyword 'high school nails' appears approximately 6–8 times across top 3 posts on average. Baseline set at 7.",
+      "baseline": 7
+    },
+    "competitor_gaps": [
+      "No competitor post covers high school nails as a dedicated standalone piece — all treat it as a subsection of broader back-to-school content (demand confirmed: Pinterest 320+ board dedicated to 'highschool nails'; TikTok discover page active with 'nails high school' tag)",
+      "No competitor addresses the dress code navigation reality — what is and isn't allowed at most US/UK high schools, including UK schools with strict nail polish bans (demand confirmed: Quora threads on 'why are long nails not allowed in school', 'are acrylic nails ok at school')",
+      "No competitor distinguishes between high school nail aesthetics by style identity — preppy, Y2K, clean girl, coquette, dark academia — all are lumped together (demand confirmed: Pinterest 'highschool nails' boards heavily segmented by aesthetic; TikTok discover page lists 'neutral nails for school', 'school appropriate nails' as distinct tags)",
+      "No competitor covers the press-on nail angle for high school — practical for students who want to switch looks weekly without salon commitment (demand confirmed: ShadePax content on press-on nails for school, multiple Pinterest saves for 'school press on nails')",
+      "No competitor addresses nail longevity for active students — sports, writing all day, PE class — which is a top real concern in Quora threads"
+    ],
+    "missing_semantic_territory": [
+      "School-appropriate length guidance specific to high school (not just 'keep them short')",
+      "Aesthetic-specific edits — coquette, preppy/argyle, Y2K chrome, dark academia, clean girl — mapped to high school audiences specifically",
+      "Press-on nails as the high school solution (no salon required, switchable, affordable)",
+      "Gel vs polish durability angle for a school week",
+      "Colour matching to school uniform or spirit colours without reading tacky"
+    ],
+    "our_strategic_approach": "This post is the only dedicated, standalone resource for high school nails specifically — treating high schoolers as a distinct, style-conscious audience rather than folding them into a generic 'school nails' roundup. We organise by aesthetic identity (the way high schoolers actually search: 'coquette nails', 'preppy nails', 'Y2K nails') rather than by generic design categories. We answer the real practical questions — dress code reality, longevity for active students, press-ons as the weekly-switch solution — that no competitor currently addresses.",
+    "recommended_image_count_validation": "Top 3 competitors average 9–12 images per post. 9 images confirmed correct for this post."
+  },
+
+  "section_5_audience_intelligence": {
+    "blog_gen_instruction": "This is your primary creative brief. Every paragraph written for this specific person with this specific intent. Satisfy them completely.",
+    "who_they_are": "Female high school students aged 14–18 in the US, UK, Canada, and Australia, searching in late July to mid-August before school starts. She is trend-aware, active on TikTok and Pinterest, has a defined aesthetic identity (coquette, clean girl, Y2K, preppy, dark academia), and wants her nails to feel intentional and current — not generic. She may have dress code constraints at her school and is balancing wanting to look good with being practical for sports, writing, and a busy schedule.",
+    "what_they_want_from_this_post": "Curated high school nail ideas sorted by style identity (not just 'here are 30 nails'), confidence that the designs are wearable at school, and practical guidance on how to make them last the school week. She wants to screenshot one look and know exactly what to do or ask for.",
+    "what_frustrates_them": [
+      "Generic 'school nails' roundups that don't distinguish between a 14-year-old and a teacher",
+      "Every post looks the same — pencils, apples, notebook paper — she doesn't want themed nail art, she wants trendy designs she can wear at school",
+      "No acknowledgement that dress codes vary — she needs to know what's actually safe to wear",
+      "Nails that chip by Wednesday because they weren't done in gel",
+      "Inspiration that doesn't account for different aesthetics — she knows she's a 'clean girl' or 'coquette girl', she wants the right inspo for HER"
+    ],
+    "top_5_pain_points": [
+      "School dress codes banning acrylics or 'extreme' nail art — unsure what's actually allowed",
+      "Nails not lasting the school week (especially for students doing sports or writing all day)",
+      "Designs that feel too 'juvenile' or too 'themed' — she wants to look cool, not like she did a craft project",
+      "Not knowing which aesthetic to commit to — too many options, no clear filter for her personal style",
+      "Getting acrylics or long nails when school starts isn't always practical — wants alternatives (gel, press-ons, natural nail ideas)"
+    ],
+    "exact_user_phrases": [
+      "'what nails should I get for high school'",
+      "'school appropriate nails that still look good'",
+      "'high school nails ideas 2026'",
+      "'nails for high school that won't get sent home'",
+      "'trendy nails for school TikTok'",
+      "'coquette nails for school'",
+      "'preppy nails back to school'",
+      "'press on nails for school week'",
+      "'what length nails for high school'",
+      "'nails that last all school week'"
+    ],
+    "intent_content_signals": [
+      "Organised by aesthetic identity (not by nail art theme) — she searches by who she is, not what school supplies look like",
+      "Visual-first: each aesthetic section needs its own clear set of design ideas to screenshot",
+      "Practical anchoring: every section should include a longevity or practicality note (what finish, what length to pair it with)",
+      "Trend-validated: reference to 2026 trends (Y2K, coquette bows, chrome, argyle/preppy) to signal this is current",
+      "Reassurance about dress codes built in — not a preachy section, woven naturally",
+      "Press-on nails referenced as the practical high school solution (especially relevant for UK students whose schools ban polish)"
+    ]
+  },
+
+  "section_6_semantic_keyword_data": {
+    "blog_gen_instruction": "Primary keyword in strong tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.",
+    "primary_keyword": "high school nails",
+    "total_mention_target": 10,
+    "mention_target_rationale": "Baseline 7 (top 3 average) + 3 = 10 total mentions. Hard target.",
+    "keyword_variations": [
+      "high school nail ideas",
+      "nails for high school",
+      "high school nail designs",
+      "nails for high school students",
+      "high school manicure ideas",
+      "school nails for teens",
+      "trendy high school nails",
+      "high school nail inspo"
+    ],
+    "cluster_keywords": [
+      "back to school manicure",
+      "school-appropriate nail designs",
+      "teen nail trends 2026",
+      "nail ideas for students",
+      "nails for first day of school",
+      "press-on nails for school",
+      "gel nails for school week",
+      "nail designs for teenagers",
+      "coquette nails for school",
+      "preppy nails back to school",
+      "Y2K nail designs 2026",
+      "clean girl nails school",
+      "holographic nails school",
+      "argyle nail designs"
+    ],
+    "lsi_terms": [
+      "chrome nails",
+      "coquette bow nails",
+      "preppy argyle nails",
+      "Y2K holographic nails",
+      "clean girl manicure",
+      "aura nails",
+      "milky sheer nails",
+      "jelly finish nails",
+      "coquette aesthetic nails",
+      "dark academia nails",
+      "French tip nails",
+      "squoval nail shape",
+      "almond nail shape",
+      "nail longevity school week",
+      "school nail dress code",
+      "press-on nails school",
+      "gel polish for students",
+      "short-to-medium nail length",
+      "cherry red nails 2026",
+      "navy blue nails school"
+    ],
+    "aeo_terms": [
+      "What are the best nail designs for high school in 2026?",
+      "Are acrylic nails allowed in high school?",
+      "What nail length is best for high school students?",
+      "What nail colours are school appropriate for high school?",
+      "How do I make my nails last all week at school?",
+      "What are trending nails for high school students right now?",
+      "Can I wear nail art to high school?",
+      "What are coquette nails for school?",
+      "Are press-on nails a good idea for high school?",
+      "What nail shape works best for an active high school student?",
+      "What are preppy nails for back to school 2026?",
+      "How long should nails be for high school?"
+    ],
+    "technical_terms": [
+      "gel polish",
+      "press-on nails (PMMA acrylic)",
+      "squoval shape",
+      "chrome powder",
+      "holographic pigment",
+      "cat-eye magnetic gel",
+      "gel top coat"
+    ],
+    "user_language": [
+      "'what nails are everyone getting this year'",
+      "'nails that won't chip by Wednesday'",
+      "'I want something that actually looks cool not school-themed'",
+      "'coquette nails for school vibes'",
+      "'preppy fall nails back to school'",
+      "'press-ons so I can change them every week'",
+      "'nails that match my aesthetic'",
+      "'something trendy but my school won't notice'"
+    ]
+  },
+
+  "section_7_voice_and_ai_queries": {
+    "blog_gen_instruction": "Answer every query directly in the relevant H2 section body. If a query cannot be addressed naturally in the body, route it to faqItems. No query left unanswered.",
+    "queries": [
+      "What are the best high school nails for 2026?",
+      "What nail designs are trending for high school students right now?",
+      "Are acrylic nails allowed at high school?",
+      "What nail length is appropriate for high school?",
+      "What are coquette nails and can I wear them to school?",
+      "How do I make my gel nails last the school week?",
+      "Are press-on nails good for high school students?",
+      "What are preppy nails for back to school?",
+      "What is a clean girl manicure for school?",
+      "What nail colours are school-appropriate for high school in 2026?",
+      "What are Y2K nail designs for high school?",
+      "Can I wear chrome nails to high school?",
+      "What nail shape is best for a busy high school student?",
+      "How can I make my nails look trendy without breaking the dress code?",
+      "What are dark academia nails for school?",
+      "What is the most popular nail trend for teens in 2026?"
+    ]
+  },
+
+  "section_8_hook_and_ctr": {
+    "blog_gen_instruction": "READ THIS SECTION BEFORE WRITING THE TITLE, META DESCRIPTION, INTRO, OR FIRST H2. The title and description are hardcoded here — use them exactly. The intro hook brief and first H2 hook direction are your creative brief for those specific elements. Do not deviate.",
+    "selected_trigger": "Trigger 2 — FOMO / Trend Urgency",
+    "trigger_rationale": "High school students searching 'high school nails' in late July are trend-aware and acutely conscious of showing up looking current on day one — FOMO urgency is the dominant emotional driver for this audience and intent.",
+    "title": "High School Nails: Trending Designs for Every Style in 2026",
+    "title_char_count": 55,
+    "meta_description": "High school nails in 2026 go way beyond pencil art. Find the trending looks by aesthetic — coquette, preppy, Y2K, clean girl — plus what actually lasts the school week.",
+    "meta_char_count": 155,
+    "intro_hook_brief": "Open with a direct confirmation that high school nails in 2026 are not what most roundups show — no pencil French tips, no apple accents — and that the designs actually trending among high schoolers right now are sorted by the aesthetics she already knows she belongs to. Make her feel immediately understood and in the right place.",
+    "first_h2_hook_direction": "Phrase the first H2 as a question or voice search query that mirrors how a high schooler actually thinks about this — e.g. 'What Are the Trending High School Nails This Year?' — to capture voice and AI search intent while opening the trend section naturally."
+  },
+
+  "section_9_search_journey": {
+    "blog_gen_instruction": "This is the emotional contract with the reader. Every section of the post must honour the promise made. Read this before writing any section. If a paragraph breaks the journey arc — rewrite it.",
+    "reader_arrival_state": "She is trend-conscious, slightly behind on what's current this season, and wants to show up to high school looking intentional — not themed, not basic, not like last year.",
+    "journey_arc": [
+      "1. Hook: Confirm she's in the right place and that the designs here match her actual aesthetic identity, not a generic school theme",
+      "2. Trend validation: Show her what's genuinely trending right now for high schoolers in 2026 — Y2K chrome, coquette bows, preppy argyle, clean girl milky nails, dark academia burgundy",
+      "3. Style sorting: Walk through each aesthetic with specific designs she can screenshot — one section per identity, not a mixed list",
+      "4. Practical confidence: Address the real-world questions (dress codes, what lasts, press-ons vs gel) so she can act on the inspo without anxiety",
+      "5. Exit: Leave her with a clear sense of which look is hers and how to get it done before school starts"
+    ],
+    "promise_to_deliver": "The title promises trending designs for every high school style identity in 2026 — every section must deliver on that specificity, not slide into generic school nail territory.",
+    "exit_state": "She knows exactly which aesthetic she is, has screenshotted 2–3 designs, and understands whether to book a salon, grab press-ons, or do them herself."
+  },
+
+  "section_10_content_structure": {
+    "blog_gen_instruction": "This H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s without user instruction. Word budget per section is set — follow it. H3s may be added at editorial discretion.",
+    "h1": "High School Nails: Trending Designs for Every Style in 2026",
+    "h2_structure": [
+      "What Are the Trending High School Nails This Year?",
+      "Coquette High School Nails",
+      "Preppy and Argyle Nails for School",
+      "Y2K and Holographic High School Nails",
+      "Clean Girl Nails for High School",
+      "Dark Academia High School Nails",
+      "What Nail Length and Shape Works Best for High School?",
+      "How to Make Your High School Nails Last All Week"
+    ],
+    "word_budget": {
+      "introduction": "225 words",
+      "h2_1_trending_this_year": "300 words",
+      "h2_2_coquette": "250 words",
+      "h2_3_preppy_argyle": "250 words",
+      "h2_4_y2k_holographic": "250 words",
+      "h2_5_clean_girl": "225 words",
+      "h2_6_dark_academia": "200 words",
+      "h2_7_length_shape": "225 words",
+      "h2_8_longevity": "200 words",
+      "conclusion": "175 words",
+      "total": "2300 words (within +/- 50 tolerance of 2200 target)"
+    }
+  },
+
+  "section_11_internal_links": {
+    "blog_gen_instruction": "Every link below must appear in the post. Cluster links use anchor texts verbatim — do not rewrite. Cross-site links use the provided descriptive anchor. Place each link where the placement note says — woven naturally into prose, never as a standalone CTA. Total internal links must not exceed 6.",
+    "all_internal_links": [
+      {
+        "url_or_slug": "/blog/back-to-school/back-to-school-nails",
+        "title": "Back to School Nails: The Best Ideas for Every Student & Teacher in 2026",
+        "anchor_text": "back to school nails",
+        "placement_note": "H2-1 (Trending This Year) — natural reference when contextualising the broader back-to-school nail moment",
+        "link_type": "cluster-pillar"
+      },
+      {
+        "url_or_slug": "/blog/back-to-school/college-nails",
+        "title": "College Nails: Trendy Manicure Ideas for the New Semester 2026",
+        "anchor_text": "college nails",
+        "placement_note": "H2-4 (Y2K/Holographic) or Conclusion — where post distinguishes high school from college aesthetic sensibility; natural handoff",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/back-to-school/simple-back-to-school-nails",
+        "title": "Simple Back to School Nails: Easy Designs That Last All Week",
+        "anchor_text": "simple back to school nails",
+        "placement_note": "H2-5 (Clean Girl) or H2-8 (Longevity) — fits naturally when addressing readers who want low-maintenance options",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/back-to-school/first-day-of-school-nails",
+        "title": "First Day of School Nails: Fresh Manicure Ideas to Start the Year Right",
+        "anchor_text": "first day of school nails",
+        "placement_note": "H2-1 (Trending This Year) or Introduction — moment-based handoff for readers with imminent first day urgency",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/blog/graduation-nails",
+        "title": "Graduation Nails 2026",
+        "anchor_text": "how to wear school-colour accents on your nails without it reading tacky",
+        "placement_note": "H2-7 (Nail Length and Shape) — fits naturally when addressing school spirit or colour matching context; the graduation post has the most in-depth guidance on school colour nail execution on the site",
+        "link_type": "cross-site"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/blog/short-summer-nails",
+        "title": "Short Summer Nails",
+        "anchor_text": "short nail shapes that hold up through sports and an active school schedule",
+        "placement_note": "H2-7 (Length and Shape) — natural extension for students who want short nail inspiration specific to an active lifestyle",
+        "link_type": "cross-site"
+      }
+    ]
+  },
+
+  "section_12_voice_tone": {
+    "blog_gen_instruction": "This is the voice for this specific post. Layer on top of Mirellé editorial framework. Do not default to generic AI tone.",
+    "recommended_voice": "Trend-aware peer guide — confident, knowing, never preachy",
+    "tone_characteristics": [
+      "Speaks to her as an equal who understands trends and aesthetics, not as someone explaining things to a teenager",
+      "Direct and specific — 'this is the coquette look, here's exactly what it needs' — never vague or over-qualifying",
+      "Trend-validated confidence: references real 2026 movements (Y2K resurgence, coquette bow dominance, argyle via Kylie Jenner) to earn authority",
+      "Practical without being parental — dress code and longevity advice is woven in as useful intel, not as a warning",
+      "Light and slightly editorial in register — this is a style decision, not homework"
+    ],
+    "language_style": "Short to medium sentences. Active voice. Use 'you' throughout. No condescension. Aesthetic terminology used fluently (coquette, clean girl, dark academia, Y2K) — not explained laboriously, just used naturally as she would use them herself.",
+    "audience_match": "High school students on TikTok and Pinterest who move in aesthetic communities — they know their identity and want content that speaks that language back to them without oversimplifying."
+  },
+
+  "section_13_external_links": {
+    "blog_gen_instruction": "Include all external links where indicated. Supports E-E-A-T. Use anchor suggestion as guide — write naturally around it.",
+    "links": [
+      {
+        "url": "https://www.whowhatwear.com/beauty/nails/plaid-nail-trend",
+        "context": "H2-3 (Preppy and Argyle Nails) — cite as validation for the argyle/preppy nail trend in 2026, referencing celebrity manicurist context",
+        "anchor_suggestion": "argyle and plaid nails have been validated as one of 2026's standout trends"
+      },
+      {
+        "url": "https://www.whowhatwear.com/beauty/nails/summer-2026-nail-trends",
+        "context": "H2-4 (Y2K and Holographic) — cite to support holographic and chrome as Y2K-driven comeback trend, referencing celebrity nail artist quote",
+        "anchor_suggestion": "holographic and chrome nails are confirmed among the defining nail aesthetics of 2026"
+      },
+      {
+        "url": "https://thecozynestlifestyle.com/y2k-trend-nails/",
+        "context": "H2-4 (Y2K and Holographic) — additional support for Y2K nail design specifics (chrome, butterfly motifs, jelly, flame)",
+        "anchor_suggestion": "Y2K trend nails in 2026 blend early-2000s nostalgia with modern finishes"
+      }
+    ]
+  },
+
+  "section_14_execution_plan": {
+    "purpose": "Blog Gen Agent reads this section FIRST — before frontmatter, before writing a single word. Every value here is pre-calculated from the input file data. Blog Gen Agent locks all values and executes them exactly.",
+    "blog_gen_instruction": "READ THIS SECTION FIRST. Lock every value. Execute exactly. Do not recalculate, do not adjust, do not deviate.",
+
+    "block_1_keyword_execution": {
+      "primary_keyword": "high school nails",
+      "top_3_density_baseline": 7,
+      "total_mention_target": 10,
+      "first_100_words_plan": {
+        "rule": "Primary keyword MUST appear TWICE in the first 100 words. Mandatory. No exceptions.",
+        "mention_1": "Sentence 2–3 of introduction — contextualise what high school nails actually means in 2026 (not the themed versions)",
+        "mention_2": "Sentence 4–6 of introduction — reinforce the scope of this post ('every high school nails aesthetic covered here')"
+      },
+      "first_half_target": "6 mentions — first 1,100 words. Run denser in first half.",
+      "second_half_target": "4 mentions — second 1,100 words.",
+      "strong_tag_rule": "EVERY single mention of 'high school nails' — all 10 of them — wrapped in <strong> tags. No exceptions. Scan after every paragraph.",
+      "keywords_to_avoid_active": [
+        "back to school nails",
+        "back to school nails for teachers",
+        "college nails",
+        "simple back to school nails",
+        "first day of school nails",
+        "short nails for work",
+        "short summer nails"
+      ]
+    },
+
+    "block_2_word_budget": {
+      "total_target": "2200 words — +/- 50 tolerance, never exceed 2250",
+      "introduction": "225 words",
+      "conclusion": "175 words",
+      "h2_budgets": [
+        { "heading": "What Are the Trending High School Nails This Year?", "budget": "300 words", "complexity": "high — sets the trend context for whole post" },
+        { "heading": "Coquette High School Nails", "budget": "250 words", "complexity": "medium" },
+        { "heading": "Preppy and Argyle Nails for School", "budget": "250 words", "complexity": "medium" },
+        { "heading": "Y2K and Holographic High School Nails", "budget": "250 words", "complexity": "medium" },
+        { "heading": "Clean Girl Nails for High School", "budget": "225 words", "complexity": "medium" },
+        { "heading": "Dark Academia High School Nails", "budget": "200 words", "complexity": "low-medium" },
+        { "heading": "What Nail Length and Shape Works Best for High School?", "budget": "225 words", "complexity": "medium" },
+        { "heading": "How to Make Your High School Nails Last All Week", "budget": "200 words", "complexity": "medium" }
+      ],
+      "tracking_rule": "Track running word total at the end of every H2 section. If a section is running over budget — cut before moving to the next section. Do not compensate later."
+    },
+
+    "block_3_image_plan": {
+      "total_images": 9,
+      "hero_image": "frontmatter only — NEVER appears in post body",
+      "body_images": 8,
+      "assignments": [
+        { "image_number": 1, "place_after": "What Are the Trending High School Nails This Year?", "section_context": "Overview mood shot — mix of bold trending designs representing the 2026 high school aesthetic landscape" },
+        { "image_number": 2, "place_after": "Coquette High School Nails", "section_context": "Coquette bow nail design — sheer pink or nude base with delicate red or white bow detail, almond shape" },
+        { "image_number": 3, "place_after": "Preppy and Argyle Nails for School", "section_context": "Preppy argyle or plaid nail design — jewel-toned navies, berries, and greens on short to medium nails" },
+        { "image_number": 4, "place_after": "Y2K and Holographic High School Nails", "section_context": "Holographic chrome or Y2K-inspired nails — iridescent finish, star or butterfly motifs, on medium almond or squoval" },
+        { "image_number": 5, "place_after": "Clean Girl Nails for High School", "section_context": "Clean girl manicure — milky sheer nude or soap nail, glazed finish, squoval or short almond shape" },
+        { "image_number": 6, "place_after": "Dark Academia High School Nails", "section_context": "Dark academia nails — deep burgundy, espresso, or navy on short-medium almond, understated and moody" },
+        { "image_number": 7, "place_after": "What Nail Length and Shape Works Best for High School?", "section_context": "Side-by-side or single shot of squoval/almond short-to-medium nails in a neutral finish showing practical length" },
+        { "image_number": 8, "place_after": "How to Make Your High School Nails Last All Week", "section_context": "Gel-finished nails with a clean top coat — emphasising a polished, chip-free look suitable for a full school week" }
+      ],
+      "image_type_rule": "ALL body images = inspirational nail design images related to the topic. NO infographics. NO process diagrams. NO comparison charts. NO step-by-step visuals.",
+      "path_rule": "/images/blog/back-to-school/high-school-nails/filename.webp — topic_slug in path always"
+    },
+
+    "block_4_opening_technique_assignments": {
+      "rule": "No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.",
+      "assignments": [
+        { "section": "Introduction", "technique": "Technique 2 — The Contrast (what it is NOT, then what it IS)" },
+        { "section": "What Are the Trending High School Nails This Year?", "technique": "Technique 4 — The Direct Statement (declare the trend landscape confidently)" },
+        { "section": "Coquette High School Nails", "technique": "Technique 3 — The Reframe (reframe coquette from 'girly' to intentional aesthetic statement)" },
+        { "section": "Preppy and Argyle Nails for School", "technique": "Technique 1 — The Claim (argyle is the unexpected nail trend that is everywhere in 2026)" },
+        { "section": "Y2K and Holographic High School Nails", "technique": "Technique 2 — The Contrast (Y2K nails are not what they were in 2004 — here's the 2026 version)" },
+        { "section": "Clean Girl Nails for High School", "technique": "Technique 4 — The Direct Statement (the clean girl manicure is the most wearable school nail)" },
+        { "section": "Dark Academia High School Nails", "technique": "Technique 3 — The Reframe (dark nails for school can look intentional, not gothic)" },
+        { "section": "What Nail Length and Shape Works Best for High School?", "technique": "Technique 1 — The Claim (the squoval is the most practical and most copyable shape in high school)" },
+        { "section": "How to Make Your High School Nails Last All Week", "technique": "Technique 2 — The Contrast (most school nails don't make it to Friday — here is why and what to do)" },
+        { "section": "Conclusion", "technique": "Technique 1 — The Claim" }
+      ],
+      "banned_opener_rule": "Check every opener against banned_opening_approaches in blog gen prompt before writing the second sentence"
+    },
+
+    "block_5_link_placements": {
+      "rule": "Every link placed exactly where specified. Anchor texts used verbatim — never rewritten. Links woven into prose naturally — never standalone CTAs.",
+      "links": [
+        {
+          "anchor_text": "back to school nails",
+          "full_url": "/blog/back-to-school/back-to-school-nails",
+          "place_in_section": "What Are the Trending High School Nails This Year?",
+          "placement_context": "When contextualising this as the high-school-specific deep dive within the broader back-to-school nail moment",
+          "link_type": "cluster-pillar"
+        },
+        {
+          "anchor_text": "first day of school nails",
+          "full_url": "/blog/back-to-school/first-day-of-school-nails",
+          "place_in_section": "What Are the Trending High School Nails This Year? OR Introduction",
+          "placement_context": "Natural handoff for readers with a first day coming up who want moment-specific inspo",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "college nails",
+          "full_url": "/blog/back-to-school/college-nails",
+          "place_in_section": "Y2K and Holographic High School Nails OR Conclusion",
+          "placement_context": "When distinguishing between high school and college aesthetic — college skews cleaner/aesthetic-coded while high school goes bolder",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "simple back to school nails",
+          "full_url": "/blog/back-to-school/simple-back-to-school-nails",
+          "place_in_section": "Clean Girl Nails for High School OR How to Make Your High School Nails Last All Week",
+          "placement_context": "Natural handoff when recommending low-maintenance or minimal design routes",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "how to wear school-colour accents on your nails without it reading tacky",
+          "full_url": "https://mirelleinspo.com/blog/graduation-nails",
+          "place_in_section": "What Nail Length and Shape Works Best for High School?",
+          "placement_context": "Brief mention of school spirit or uniform colour-matching; the graduation post has the best existing Mirellé guidance on this topic",
+          "link_type": "cross-site"
+        },
+        {
+          "anchor_text": "short nail shapes that hold up through sports and an active school schedule",
+          "full_url": "https://mirelleinspo.com/blog/short-summer-nails",
+          "place_in_section": "What Nail Length and Shape Works Best for High School?",
+          "placement_context": "For readers who want a short nail deep dive beyond the guidance in this section",
+          "link_type": "cross-site"
+        }
+      ]
+    },
+
+    "block_6_aeo_geo_plan": {
+      "aeo_assignments": [
+        {
+          "aeo_term": "What are the best nail designs for high school in 2026?",
+          "assigned_to_section": "What Are the Trending High School Nails This Year?",
+          "execution": "Write a direct 2–3 sentence answer paragraph immediately after the H2 heading — before trend elaboration. Name the 5 dominant aesthetics (coquette, preppy/argyle, Y2K chrome, clean girl, dark academia) as the answer."
+        },
+        {
+          "aeo_term": "Are acrylic nails allowed in high school?",
+          "assigned_to_section": "What Nail Length and Shape Works Best for High School?",
+          "execution": "Direct 2–3 sentence answer immediately after H2: most US high schools permit short acrylics with no specific nail ban; many UK secondary schools explicitly prohibit extensions and coloured polish; always check the student handbook."
+        },
+        {
+          "aeo_term": "How do I make my nails last all week at school?",
+          "assigned_to_section": "How to Make Your High School Nails Last All Week",
+          "execution": "Direct 2–3 sentence answer immediately after H2: gel polish or gel-top press-on nails are the most reliable option for a 5-day school week; regular polish chips significantly faster, especially for students doing sports or writing all day."
+        },
+        {
+          "aeo_term": "Are press-on nails a good idea for high school?",
+          "assigned_to_section": "How to Make Your High School Nails Last All Week",
+          "execution": "Direct 2–3 sentence answer woven into longevity section: press-on nails are an excellent high school option — they are affordable, available in every trending design, and can be changed weekly without salon visits or nail damage."
+        }
+      ],
+      "geo_entity_statements": [
+        {
+          "entity": "coquette nail aesthetic",
+          "assigned_to_section": "Coquette High School Nails",
+          "execution": "Write a clear declarative opening: the coquette nail aesthetic is defined by sheer or milky bases, delicate bow details, and a soft feminine finish — typically in blush, nude, or soft pink tones on an almond or short oval shape."
+        },
+        {
+          "entity": "Y2K nail trend 2026",
+          "assigned_to_section": "Y2K and Holographic High School Nails",
+          "execution": "Clear declarative sentence: the Y2K nail trend in 2026 is characterised by high-shine chrome and holographic finishes, butterfly and star motifs, jelly textures, and graphic designs inspired by early-2000s pop culture — updated with modern techniques for a more polished, wearable result."
+        },
+        {
+          "entity": "clean girl manicure",
+          "assigned_to_section": "Clean Girl Nails for High School",
+          "execution": "Declarative definition: a clean girl manicure is a minimalist, polished nail look built on a sheer or milky base in nude, white, or soft pink — typically with a glazed or glossy finish on short-to-medium squoval or almond nails, zero nail art, and a high-shine top coat."
+        }
+      ]
+    },
+
+    "block_7_active_constraints": {
+      "em_dash_banned": "Long em dash does not appear anywhere. Replace with: comma, new sentence, parentheses, 'but', or restructure.",
+      "banned_vocab_watch": [
+        "vibrant (overused in competitor content — avoid)",
+        "stunning",
+        "amazing",
+        "gorgeous",
+        "perfect (as a standalone compliment)",
+        "unleash",
+        "elevate your look (cliche)"
+      ],
+      "british_english_active": "colour, recognise, -ise, -our — every instance, no exceptions. Post targets global Tier 1 audience including UK readers.",
+      "keyword_density_reminder": "After every 2 H2 sections — count current 'high school nails' mentions. Verify running total is on track to hit 10. First half (1,100 words) must contain 6 mentions. Adjust if needed.",
+      "image_path_reminder": "/images/blog/back-to-school/high-school-nails/filename.webp — topic_slug 'back-to-school' in path always",
+      "internal_link_url_reminder": "Cluster links = /blog/back-to-school/[slug]. Cross-site links = exact full URL as listed in block_5. Never bare /slug.",
+      "hero_image_reminder": "Hero = frontmatter only. Never place hero image in body.",
+      "strong_tag_reminder": "Every 'high school nails' mention = <strong>high school nails</strong>. All 10. Scan after every paragraph. Zero misses."
+    }
+  }
+}
