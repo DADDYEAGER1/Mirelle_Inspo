@@ -1,0 +1,475 @@
+{
+  "section_1_file_authority": {
+    "statement": "THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly."
+  },
+
+  "section_2_post_constants": {
+    "slug": "diy-gel-nails-vs-salon-cost",
+    "topic_slug": "gel-nails-cost",
+    "canonical": "https://mirelleinspo.com/blog/gel-nails-cost/diy-gel-nails-vs-salon-cost",
+    "post_type": "spoke",
+    "intent": "comparison",
+    "word_count": 2200,
+    "image_count": 8,
+    "template": "split-left",
+    "hero_dimensions": "800x800",
+    "category": "Gel Nails Cost",
+    "publish_date": "2026-06-27",
+    "author": "Mirellé Team"
+  },
+
+  "section_3_cluster_snapshot": {
+    "pillar_slug": "gel-nails-cost",
+    "pillar_title": "How Much Do Gel Nails Cost: Full Pricing Guide",
+    "pillar_primary_keyword": "gel nails cost",
+    "this_post_slug": "diy-gel-nails-vs-salon-cost",
+    "this_post_role": "spoke",
+    "keywords_to_avoid": [
+      "gel nails cost", "gel manicure cost", "gel nail extensions cost", "gel-x cost",
+      "shellac cost", "are gel nails worth the cost", "gel nail removal cost",
+      "gel nails annual cost", "how to make gel nails last longer",
+      "gel vs acrylic almond nails", "gel nail polish for work",
+      "blooming gel nails tutorial", "acrylic vs gel vs press-on prom nails",
+      "how much do nails cost"
+    ]
+  },
+
+  "section_4_serp_analysis": {
+    "blog_gen_instruction": "Use competitor gaps and missing semantic territory to fill what competitors miss. Our strategic approach is the angle for the introduction and conclusion.",
+    "competitor_gaps": [
+      "No competitor publishes an exact break-even calculation tied to visit frequency (weekly vs every-2-weeks vs every-3-weeks) — confirmed gap across Oreate AI, LuxeFormulaLabs, Velvora, Glam Gel Nails (2+ sources, all give rough math, none give a clean per-frequency table)",
+      "No competitor addresses the 'hidden DIY costs' of failed first attempts — wasted polish, redo costs, nail damage from improper removal — confirmed on Quora and Oreate AI as a real pain point (2+ sources)",
+      "No competitor directly answers 'how many salon visits until my kit pays for itself' as a standalone, skimmable number — confirmed demand via PAA-style queries and Quora threads asking this exact question",
+      "No competitor honestly weighs the skill/quality gap against the savings — most DIY-brand content (Gelous, SLBeautyCo) is one-sided sales copy; Quora answers show real audience skepticism ('doing your own gel nails isn't worth it... for the price, the time, your nails health') that editorial content ignores"
+    ],
+    "missing_semantic_territory": [
+      "'Break-even point' / 'pays for itself after X visits' framing — present in Oreate AI and Glam Gel Nails but not standardised as a quick-answer block",
+      "Time cost (not just money) as part of the real comparison — mentioned anecdotally (1-1.5 hrs at home) but never weighed against salon time + travel in a structured way",
+      "Annual cost comparison broken down by maintenance frequency tier (weekly / biweekly / monthly) rather than one flat number"
+    ],
+    "our_strategic_approach": "Give the reader the exact break-even number competitors gloss over, paired with an honest skill-and-time tradeoff most DIY-brand content won't admit to. Position this as the only gel-nails cost post that does the full math AND tells you when DIY genuinely isn't worth it.",
+    "recommended_image_count_validation": "8 images (incl. hero) matches SERP pattern — competitor pages use 1 hero + cost-table graphic + 5-7 supporting lifestyle/kit images; comparison intent does not require more"
+  },
+
+  "section_5_audience_intelligence": {
+    "blog_gen_instruction": "This is your primary creative brief. Every paragraph written for this specific person with this specific intent. Satisfy them completely.",
+    "who_they_are": "A regular gel manicure client (salon visits every 2-3 weeks) who has started doing the mental math on what gel nails cost her per year and is actively considering switching to DIY. She is not a total beginner to nail care — she already gets gel done — but has zero or near-zero experience applying gel polish herself. She is price-conscious but quality-conscious too; she does not want to trade a polished look for a wobbly, peeling DIY attempt.",
+    "what_they_want_from_this_post": "A clear, honest yes/no answer backed by real numbers: exactly how much a starter kit costs, exactly how many salon visits it takes to break even, and what she gives up (time, quality risk, learning curve) in exchange for the savings.",
+    "what_frustrates_them": "Existing content is either pure sales copy from DIY-kit brands (one-sided, dismisses the skill gap) or pure salon-side content that never runs the actual break-even math. Nobody gives her a clean number for 'how many visits until this pays for itself' — she has to do the arithmetic herself from scattered price ranges.",
+    "top_5_pain_points": [
+      "Doesn't know the real startup cost of a DIY kit (sees ranges from $30 to $150 and can't tell which applies to her)",
+      "Worried her first few attempts will fail and waste money on top of the kit cost (lifting, bubbling, premature chipping reported repeatedly in research)",
+      "Unsure if DIY gel will actually last as long as her salon gel (2-3 weeks) or if she's trading durability for savings",
+      "Concerned about nail damage from improper at-home removal, which could create new costs (repair, healthier-nail downtime)",
+      "Wants to know the time cost, not just money cost — is 1.5 hours alone in her kitchen actually worth it versus an hour at the salon"
+    ],
+    "exact_user_phrases": [
+      "is it cheaper to do your own gel nails",
+      "DIY gel nails vs salon cost",
+      "how much does a gel nail kit cost",
+      "breakeven point gel nails at home",
+      "doing your own gel nails isn't worth it for the price",
+      "is a gel manicure worth the money",
+      "salon-quality nails at home for a fraction of the cost",
+      "what is the cheaper way to refill your nails every month",
+      "how long does it take to do gel nails at home without damaging them",
+      "are gel or acrylic nails more expensive"
+    ],
+    "intent_content_signals": [
+      "Reader responds to a direct cost table or calculator-style breakdown, not narrative storytelling alone",
+      "A real 'break-even after X visits' statement performs better than vague 'saves you money long-term' claims",
+      "Reader wants the honest tradeoffs named explicitly (skill curve, time, risk of damage) — content that skips this reads as untrustworthy sales copy",
+      "Short, scannable cost tables and bolded numbers outperform paragraph-heavy explanations for this audience",
+      "A clear final verdict/recommendation is expected — comparison-intent readers want resolution, not 'it depends' without guidance"
+    ]
+  },
+
+  "section_6_semantic_keyword_data": {
+    "blog_gen_instruction": "Primary keyword in strong tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.",
+    "primary_keyword": "DIY gel nails vs salon cost",
+    "keyword_variations": [
+      "DIY gel nails vs salon",
+      "at-home gel nails vs salon cost",
+      "is DIY gel cheaper than salon",
+      "DIY gel manicure cost vs salon",
+      "doing gel nails at home vs salon price",
+      "DIY vs salon gel nails savings",
+      "gel nail kit cost vs salon visit"
+    ],
+    "cluster_keywords": [
+      "DIY gel nail kit cost",
+      "at-home gel manicure startup cost",
+      "gel nail lamp cost",
+      "break-even point gel nails",
+      "DIY gel nails savings per year",
+      "salon gel manicure price",
+      "cost of doing your own gel nails",
+      "at-home gel kit vs salon visit",
+      "gel nail kit price comparison",
+      "how much to start DIY gel nails",
+      "is at-home gel manicure worth it",
+      "DIY gel nails annual savings"
+    ],
+    "lsi_terms": [
+      "UV/LED lamp cost", "gel polish starter kit", "salon-quality manicure at home",
+      "break-even calculation", "gel removal cost at home", "nail prep for DIY gel",
+      "cost per manicure", "fill appointment price", "soak-off gel kit",
+      "at-home nail station setup", "consumable gel polish cost", "DIY learning curve nails",
+      "gel polish shelf life manicures", "lifting and chipping DIY gel", "salon overhead pricing"
+    ],
+    "aeo_terms": [
+      "Is it cheaper to do your own gel nails than going to a salon?",
+      "How much does a DIY gel nail starter kit cost?",
+      "How many salon visits does it take for a gel nail kit to pay for itself?",
+      "Is doing your own gel nails actually worth it?",
+      "How much money can you save doing gel nails at home instead of the salon?",
+      "What is the average cost difference between DIY and salon gel nails per year?",
+      "Do DIY gel nails last as long as salon gel nails?",
+      "What do you need to start doing gel nails at home?",
+      "Is at-home gel manicure cheaper in the long run than salon gel?",
+      "How much does a UV or LED lamp cost for gel nails?"
+    ],
+    "technical_terms": [
+      "soak-off gel", "UV/LED curing lamp", "base coat and top coat",
+      "nail dehydrator and primer", "cuticle prep", "free edge sealing", "builder gel (BIAB)"
+    ],
+    "user_language": [
+      "saves so much money once you get the hang of it",
+      "isn't worth it for the price, the time, or your nails' health",
+      "pays for itself after just a couple manicures",
+      "salon-quality results at a fraction of the cost",
+      "I nearly choked thinking about how much I was spending",
+      "totally depends on where you live and who you go to",
+      "definitely cheaper to have them done at home",
+      "the math is clear once you actually sit down and calculate it"
+    ]
+  },
+
+  "section_7_voice_and_ai_queries": {
+    "blog_gen_instruction": "Answer every query directly in the relevant H2 section body. If a query cannot be addressed naturally in the body, route it to faqItems. No query left unanswered.",
+    "queries": [
+      "Is it cheaper to do your own gel nails than going to a salon?",
+      "How much does a DIY gel nail kit cost to start?",
+      "How many salon visits until a gel nail kit pays for itself?",
+      "Is doing your own gel nails at home actually worth it?",
+      "How much do gel nails cost at a salon compared to doing them yourself?",
+      "What do I need to buy to start doing gel nails at home?",
+      "Do at-home gel nails last as long as salon gel nails?",
+      "How much money do you save per year doing gel nails at home?",
+      "What's the real risk of doing gel nails wrong at home?",
+      "Is a UV lamp or LED lamp better for at-home gel nails?",
+      "How long does it take to do your own gel manicure at home?",
+      "Can DIY gel nails damage your natural nails more than salon gel?",
+      "What's the average salon gel manicure cost in 2026?",
+      "Is the time saved at the salon worth the extra cost?",
+      "How much does it cost to remove gel nails at home vs the salon?",
+      "What's the biggest mistake people make switching to DIY gel nails?",
+      "Should a beginner go straight to a full gel kit or start smaller?",
+      "How often do you need to buy new gel polish doing your own nails?"
+    ]
+  },
+
+  "section_8_hook_and_ctr": {
+    "blog_gen_instruction": "READ THIS SECTION BEFORE WRITING THE TITLE, META DESCRIPTION, INTRO, OR FIRST H2. The title and description are hardcoded here — use them exactly. The intro hook brief and first H2 hook direction are your creative brief for those specific elements. Do not deviate.",
+    "selected_trigger": "Trigger 1 — Curiosity Gap (The Real Reason / What Most Women Get Wrong)",
+    "trigger_rationale": "This reader suspects she's overpaying but doesn't trust the one-sided DIY-brand math she's seen — she needs the curiosity gap of 'here's the number nobody actually gives you' resolved with hard figures, which matches decision/comparison intent perfectly.",
+    "title": "DIY Gel Nails vs Salon: The Real Cost Breakdown",
+    "title_char_count": 56,
+    "meta_description_draft": "See the real break-even math on DIY gel nails vs salon cost — exact kit prices, salon comparisons, and when switching actually pays off.",
+    "meta_char_count": 138,
+    "intro_hook_brief": "Open by naming the exact number readers never get: the precise visit count at which a DIY kit pays for itself. Lead with the curiosity gap — most comparisons give vague 'save money long-term' claims, this one gives the breakeven point in visits, not vibes.",
+    "first_h2_hook_direction": "Frame the first H2 as the direct voice-search question 'How much does a DIY gel nail kit actually cost?' — answer it immediately and specifically before any elaboration, subtly continuing the curiosity-gap promise from the title."
+  },
+
+  "section_9_search_journey": {
+    "blog_gen_instruction": "This is the emotional contract with the reader. Every section of the post must honour the promise made. Read this before writing any section. If a paragraph breaks the journey arc — rewrite it.",
+    "reader_arrival_state": "Uncertain and slightly anxious — she's tired of salon spending but doesn't fully trust the DIY savings claims she's seen, and worries about wasting money or damaging her nails if she switches.",
+    "journey_arc": [
+      "Acknowledge the exact decision she's stuck on: is the upfront kit cost actually worth it, or is salon gel secretly the better deal",
+      "Give the hard numbers for both sides — salon visit pricing and DIY kit/consumable pricing — side by side",
+      "Resolve the central question with an exact break-even point in number of visits",
+      "Name the real tradeoffs honestly — time, skill curve, and quality risk — so the recommendation feels trustworthy, not like sales copy",
+      "Close with a direct, confident recommendation based on her visit frequency, not a vague 'it depends'"
+    ],
+    "promise_to_deliver": "The title and meta description promise an exact, honest cost breakdown with a real break-even number — every section must deliver hard figures, not generalities.",
+    "exit_state": "Confident and decided — she knows exactly what a kit costs, exactly how many visits until it pays off, and whether that math makes sense for her specific routine."
+  },
+
+  "section_10_content_structure": {
+    "blog_gen_instruction": "This H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s without user instruction. Word budget per section is set — follow it. H3s may be added at editorial discretion.",
+    "h1": "DIY Gel Nails vs Salon: The Real Cost Breakdown",
+    "h2_structure": [
+      "How Much Does a DIY Gel Nail Kit Actually Cost?",
+      "How Much Does Salon Gel Cost in 2026?",
+      "DIY Gel Nails vs Salon Cost: Side-by-Side Breakdown",
+      "The Exact Break-Even Point: How Many Visits Until Your Kit Pays Off",
+      "What You're Really Trading for the Savings",
+      "Does At-Home Gel Last as Long as Salon Gel?",
+      "So Is DIY Gel Nails vs Salon Cost Actually Worth Switching For?"
+    ],
+    "word_budget": {
+      "introduction": "230 words",
+      "conclusion": "180 words",
+      "per_h2": [
+        { "heading": "How Much Does a DIY Gel Nail Kit Actually Cost?", "budget": 320 },
+        { "heading": "How Much Does Salon Gel Cost in 2026?", "budget": 280 },
+        { "heading": "DIY Gel Nails vs Salon Cost: Side-by-Side Breakdown", "budget": 330 },
+        { "heading": "The Exact Break-Even Point: How Many Visits Until Your Kit Pays Off", "budget": 300 },
+        { "heading": "What You're Really Trading for the Savings", "budget": 260 },
+        { "heading": "Does At-Home Gel Last as Long as Salon Gel?", "budget": 180 },
+        { "heading": "So Is DIY Gel Nails vs Salon Cost Actually Worth Switching For?", "budget": 120 }
+      ]
+    }
+  },
+
+  "section_11_internal_links": {
+    "blog_gen_instruction": "Every link below must appear in the post. Cluster links use anchor texts verbatim — do not rewrite. Cross-site links use the provided descriptive anchor. Place each link where the placement note says — woven naturally into prose, never as a standalone CTA. Total internal links must not exceed 6.",
+    "all_internal_links": [
+      {
+        "url_or_slug": "/blog/gel-nails-cost/gel-nails-cost",
+        "title": "How Much Do Gel Nails Cost: Full Pricing Guide",
+        "anchor_text": "gel nails cost",
+        "placement_note": "How Much Does Salon Gel Cost in 2026? section — when referencing the broader salon pricing picture beyond this one comparison",
+        "link_type": "cluster-pillar"
+      },
+      {
+        "url_or_slug": "/blog/gel-nails-cost/gel-nails-worth-cost",
+        "title": "Gel Nails vs Regular Nails: Is the Extra Cost Worth It",
+        "anchor_text": "are gel nails worth the cost",
+        "placement_note": "What You're Really Trading for the Savings section — natural link when discussing whether gel as a category is worth the premium over regular polish",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/gel-nails-cost/gel-nails-annual-cost",
+        "title": "Gel Nails Annual Cost: What You Actually Spend in a Year",
+        "anchor_text": "gel nails annual cost",
+        "placement_note": "The Exact Break-Even Point section — link when extending the break-even math into a full-year view",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/gel-nails-cost/how-to-make-gel-nails-last-longer",
+        "title": "How to Make Gel Nails Last Longer Between Salon Visits",
+        "anchor_text": "how to make gel nails last longer",
+        "placement_note": "Does At-Home Gel Last as Long as Salon Gel? section — natural link when discussing wear-time and longevity tactics for either system",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/shop/spring/melodysusie-spring-nail-starter-kit",
+        "title": "Best MelodySusie Spring Nail Kit: Drill, Lamp & Dust Collector Picks",
+        "anchor_text": "how to build a home gel nail station with a drill, lamp, and dust collector",
+        "placement_note": "How Much Does a DIY Gel Nail Kit Actually Cost? section — natural link when breaking down what a complete starter setup actually requires beyond just polish",
+        "link_type": "cross-site"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/blog/blooming-gel-nails",
+        "title": "Blooming Gel Nails: Easy Watercolor Nail Art Tutorial 2025",
+        "anchor_text": "how a one-time gel supply investment breaks even after just two at-home manicures",
+        "placement_note": "The Exact Break-Even Point section — natural link when illustrating that the break-even math holds even for nail-art-level DIY gel work, not just basic polish",
+        "link_type": "cross-site"
+      }
+    ]
+  },
+
+  "section_12_voice_tone": {
+    "blog_gen_instruction": "This is the voice for this specific post. Layer on top of Mirellé editorial framework. Do not default to generic AI tone.",
+    "recommended_voice": "Confident, numbers-first educator",
+    "tone_characteristics": [
+      "Direct and unhedging on the final recommendation — comparison intent demands a clear answer, not 'it depends' without resolution",
+      "Honest about DIY tradeoffs rather than salesy — explicitly names the skill curve and quality risk competitors gloss over",
+      "Numbers-led — leans on exact figures and break-even framing rather than vague savings language",
+      "Warm but efficient — respects that the reader wants resolution quickly, not a long personal narrative",
+      "Slightly myth-busting in register, calling out where DIY-brand marketing oversells the case"
+    ],
+    "language_style": "Short, declarative sentences for cost figures and verdicts. Second-person 'you' throughout. Occasional rhetorical question to mirror the reader's own hesitation before resolving it with a number.",
+    "audience_match": "This voice fits a price-conscious but quality-conscious reader who has been burned by one-sided sales copy before — she trusts a source that shows its math and admits the downsides, which builds the credibility needed to actually move her toward a decision."
+  },
+
+  "section_13_external_links": {
+    "blog_gen_instruction": "Include all external links where indicated. Supports E-E-A-T. Use anchor suggestion as guide — write naturally around it.",
+    "links": [
+      {
+        "url": "https://www.nailpro.com/products/tools/article/21307084/light-elegance-tips-for-choosing-the-right-ledcuring-lamp-for-your-nail-salon",
+        "context": "Use when explaining why lamp quality affects cure time and cost in the DIY kit cost section — supports the point that cheap lamps can undercure gel and waste product",
+        "anchor_suggestion": "industry guidance on choosing a proper curing lamp"
+      },
+      {
+        "url": "https://www.styleseat.com/blog/how-much-is-a-gel-manicure/",
+        "context": "Use when citing salon gel manicure price ranges in the salon-cost section for an independent third-party price reference",
+        "anchor_suggestion": "independent salon pricing data"
+      }
+    ]
+  },
+
+  "section_14_execution_plan": {
+    "blog_gen_instruction": "READ THIS SECTION FIRST. Lock every value. Execute exactly. Do not recalculate, do not adjust, do not deviate.",
+    "calculated_by": "Input Gen Agent",
+
+    "block_1_keyword_execution": {
+      "primary_keyword": "DIY gel nails vs salon cost",
+      "top_3_density_baseline": 9,
+      "total_mention_target": "9 + 3 = 12 total mentions. Hard target, not a percentage.",
+      "first_100_words_plan": {
+        "rule": "Primary keyword MUST appear TWICE in the first 100 words. Mandatory. No exceptions.",
+        "mention_1": "sentence 1-2 of introduction — stating the post directly answers the DIY gel nails vs salon cost question with exact numbers",
+        "mention_2": "sentence 4-5 of introduction — reinforcing that the break-even framing is the core promise of this DIY gel nails vs salon cost comparison"
+      },
+      "first_half_target": "7 mentions — first 1100 words. Run denser in first half (intro through break-even H2).",
+      "second_half_target": "5 mentions — second 1100 words (tradeoffs, longevity, verdict)",
+      "strong_tag_rule": "EVERY single mention of the primary keyword — all 12 of them — wrapped in <strong> tags. No exceptions. Scan after every paragraph.",
+      "keywords_to_avoid_active": [
+        "gel nails cost", "gel manicure cost", "gel nail extensions cost", "gel-x cost",
+        "shellac cost", "are gel nails worth the cost", "gel nail removal cost",
+        "gel nails annual cost", "how to make gel nails last longer",
+        "gel vs acrylic almond nails", "gel nail polish for work",
+        "blooming gel nails tutorial", "acrylic vs gel vs press-on prom nails",
+        "how much do nails cost"
+      ]
+    },
+
+    "block_2_word_budget": {
+      "total_target": "2200 words — +/-50 words tolerance, never exceed",
+      "introduction": "230 words",
+      "conclusion": "180 words",
+      "h2_budgets": [
+        { "heading": "How Much Does a DIY Gel Nail Kit Actually Cost?", "budget": "320 words", "complexity": "medium" },
+        { "heading": "How Much Does Salon Gel Cost in 2026?", "budget": "280 words", "complexity": "low" },
+        { "heading": "DIY Gel Nails vs Salon Cost: Side-by-Side Breakdown", "budget": "330 words", "complexity": "high" },
+        { "heading": "The Exact Break-Even Point: How Many Visits Until Your Kit Pays Off", "budget": "300 words", "complexity": "high" },
+        { "heading": "What You're Really Trading for the Savings", "budget": "260 words", "complexity": "medium" },
+        { "heading": "Does At-Home Gel Last as Long as Salon Gel?", "budget": "180 words", "complexity": "low" },
+        { "heading": "So Is DIY Gel Nails vs Salon Cost Actually Worth Switching For?", "budget": "120 words", "complexity": "low" }
+      ],
+      "tracking_rule": "Track running word total at the end of every H2 section. If a section is running over budget — cut before moving to the next section. Do not compensate later."
+    },
+
+    "block_3_image_plan": {
+      "total_images": 8,
+      "hero_image": "frontmatter only — NEVER appears in post body",
+      "body_images": 7,
+      "assignments": [
+        { "image_number": 1, "place_after": "Introduction", "section_context": "Close-up of a finished glossy gel manicure — sets the visual standard both salon and DIY are being measured against" },
+        { "image_number": 2, "place_after": "How Much Does a DIY Gel Nail Kit Actually Cost?", "section_context": "Flat-lay of a complete at-home gel nail kit — lamp, base/top coat, polish colors, tools" },
+        { "image_number": 3, "place_after": "How Much Does Salon Gel Cost in 2026?", "section_context": "Salon manicure station or a hand receiving a professional gel application" },
+        { "image_number": 4, "place_after": "DIY Gel Nails vs Salon Cost: Side-by-Side Breakdown", "section_context": "Inspirational image of well-finished gel nails that could plausibly be either DIY or salon — reinforcing that quality is achievable either way" },
+        { "image_number": 5, "place_after": "The Exact Break-Even Point: How Many Visits Until Your Kit Pays Off", "section_context": "Hands applying gel polish at home with a lamp in frame — visually reinforcing the at-home setup being measured" },
+        { "image_number": 6, "place_after": "What You're Really Trading for the Savings", "section_context": "Close-up of a manicure mid-process (cuticle prep or filing) showing the hands-on skill element of DIY" },
+        { "image_number": 7, "place_after": "Does At-Home Gel Last as Long as Salon Gel?", "section_context": "Nails after 2 weeks of wear, still glossy and chip-free — visually answering the longevity question" }
+      ],
+      "image_type_rule": "ALL body images = inspirational nail design images related to the topic. NO infographics. NO process diagrams. NO comparison charts. NO step-by-step visuals.",
+      "path_rule": "/images/blog/gel-nails-cost/diy-gel-nails-vs-salon-cost/filename.webp"
+    },
+
+    "block_4_opening_technique_assignments": {
+      "rule": "No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.",
+      "assignments": [
+        { "section": "Introduction", "technique": "Technique 1 — The Claim (state the break-even number exists and will be revealed)" },
+        { "section": "How Much Does a DIY Gel Nail Kit Actually Cost?", "technique": "Technique 3 — The Reframe (most people only price the polish, not the full kit)" },
+        { "section": "How Much Does Salon Gel Cost in 2026?", "technique": "Technique 2 — The Direct Answer (state the price range immediately)" },
+        { "section": "DIY Gel Nails vs Salon Cost: Side-by-Side Breakdown", "technique": "Technique 3 — The Reframe (numbers side-by-side change the perception of which is 'expensive')" },
+        { "section": "The Exact Break-Even Point: How Many Visits Until Your Kit Pays Off", "technique": "Technique 1 — The Claim (state the exact visit count upfront)" },
+        { "section": "What You're Really Trading for the Savings", "technique": "Technique 3 — The Reframe (savings aren't free — naming the real cost)" },
+        { "section": "Does At-Home Gel Last as Long as Salon Gel?", "technique": "Technique 2 — The Direct Answer" },
+        { "section": "Conclusion", "technique": "Technique 1 — The Claim (final verdict stated plainly)" }
+      ],
+      "banned_opener_rule": "Check every opener against banned_opening_approaches in blog gen prompt before writing the second sentence"
+    },
+
+    "block_5_link_placements": {
+      "rule": "Every link placed exactly where specified. Anchor texts used verbatim — never rewritten. Links woven into prose naturally — never standalone CTAs.",
+      "links": [
+        {
+          "anchor_text": "gel nails cost",
+          "full_url": "/blog/gel-nails-cost/gel-nails-cost",
+          "place_in_section": "How Much Does Salon Gel Cost in 2026?",
+          "placement_context": "When noting that this section covers one specific comparison, while the full pricing picture across all gel types is covered in the pillar guide",
+          "link_type": "cluster-pillar"
+        },
+        {
+          "anchor_text": "are gel nails worth the cost",
+          "full_url": "/blog/gel-nails-cost/gel-nails-worth-cost",
+          "place_in_section": "What You're Really Trading for the Savings",
+          "placement_context": "When acknowledging that some readers are still deciding if gel itself (vs regular polish) makes sense before they even weigh DIY vs salon",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "gel nails annual cost",
+          "full_url": "/blog/gel-nails-cost/gel-nails-annual-cost",
+          "place_in_section": "The Exact Break-Even Point: How Many Visits Until Your Kit Pays Off",
+          "placement_context": "When extending the per-visit break-even math into what it means across a full year of maintenance",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "how to make gel nails last longer",
+          "full_url": "/blog/gel-nails-cost/how-to-make-gel-nails-last-longer",
+          "place_in_section": "Does At-Home Gel Last as Long as Salon Gel?",
+          "placement_context": "When discussing that proper aftercare extends wear time regardless of which system is used",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "how to build a home gel nail station with a drill, lamp, and dust collector",
+          "full_url": "https://mirelleinspo.com/shop/spring/melodysusie-spring-nail-starter-kit",
+          "place_in_section": "How Much Does a DIY Gel Nail Kit Actually Cost?",
+          "placement_context": "When breaking down that a complete setup includes more than polish — a drill and dust collector matter for a proper at-home station",
+          "link_type": "cross-site"
+        },
+        {
+          "anchor_text": "how a one-time gel supply investment breaks even after just two at-home manicures",
+          "full_url": "https://mirelleinspo.com/blog/blooming-gel-nails",
+          "place_in_section": "The Exact Break-Even Point: How Many Visits Until Your Kit Pays Off",
+          "placement_context": "When illustrating that even nail-art-level DIY gel work follows the same fast break-even pattern as basic gel polish",
+          "link_type": "cross-site"
+        }
+      ]
+    },
+
+    "block_6_aeo_geo_plan": {
+      "aeo_assignments": [
+        {
+          "aeo_term": "How much does a DIY gel nail starter kit cost?",
+          "assigned_to_section": "How Much Does a DIY Gel Nail Kit Actually Cost?",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading stating the realistic starter kit price range before any elaboration."
+        },
+        {
+          "aeo_term": "Is it cheaper to do your own gel nails than going to a salon?",
+          "assigned_to_section": "DIY Gel Nails vs Salon Cost: Side-by-Side Breakdown",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading giving the clear yes/no answer with the core number, before the comparison table or detail."
+        },
+        {
+          "aeo_term": "How many salon visits does it take for a gel nail kit to pay for itself?",
+          "assigned_to_section": "The Exact Break-Even Point: How Many Visits Until Your Kit Pays Off",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading stating the exact break-even visit count."
+        },
+        {
+          "aeo_term": "Do DIY gel nails last as long as salon gel nails?",
+          "assigned_to_section": "Does At-Home Gel Last as Long as Salon Gel?",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading comparing typical wear time for both, before any caveats."
+        }
+      ],
+      "geo_entity_statements": [
+        {
+          "entity": "UV/LED curing lamp",
+          "assigned_to_section": "How Much Does a DIY Gel Nail Kit Actually Cost?",
+          "execution": "Write a clear declarative definition sentence explaining what a UV/LED lamp does and why it's the single biggest one-time cost in a DIY kit — confident, no hedging."
+        },
+        {
+          "entity": "Break-even point (in this context)",
+          "assigned_to_section": "The Exact Break-Even Point: How Many Visits Until Your Kit Pays Off",
+          "execution": "Write a clear declarative definition sentence stating what 'break-even point' means here — the number of salon visits whose combined cost equals the DIY kit price."
+        }
+      ]
+    },
+
+    "block_7_active_constraints": {
+      "em_dash_banned": "Long em dash does not appear anywhere. If one forms while writing — stop, replace with: comma / new sentence / parentheses / but / restructure.",
+      "banned_vocab_watch": [
+        "game-changer", "elevate", "unlock", "seamless", "effortlessly", "in today's world", "boasts"
+      ],
+      "british_english_active": "colour, recognise, -ise, -our — every instance, no exceptions",
+      "keyword_density_reminder": "After every 2 H2 sections — count current keyword mentions. Verify running total is on track to hit 12 (9 baseline + 3). First half must run denser (7 mentions) than second half (5 mentions). Adjust if needed.",
+      "image_path_reminder": "/images/blog/gel-nails-cost/diy-gel-nails-vs-salon-cost/filename.webp — topic_slug in path always",
+      "internal_link_url_reminder": "Full correct paths only. Cluster links = /blog/gel-nails-cost/[slug]. Cross-site links = exact URL as discovered. Never bare /slug.",
+      "hero_image_reminder": "Hero = frontmatter only. Never place hero image in body.",
+      "strong_tag_reminder": "Every primary keyword mention = <strong> tags. Scan after every paragraph."
+    }
+  }
+}
