@@ -1,0 +1,534 @@
+{
+  "FILE_AUTHORITY": {
+    "statement": "THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly."
+  },
+
+  "POST_CONSTANTS": {
+    "slug": "kawaii-nails",
+    "topic_slug": "japanese-nails",
+    "canonical": "https://mirelleinspo.com/blog/japanese-nails/kawaii-nails",
+    "post_type": "spoke",
+    "intent": "inspirational",
+    "word_count": 2200,
+    "image_count": 9,
+    "template": "split-left",
+    "hero_dimensions": "800x800",
+    "category": "Japanese Nails",
+    "publish_date": "2026-06-27",
+    "author": "Mirellé Team"
+  },
+
+  "CLUSTER_SNAPSHOT": {
+    "pillar_slug": "japanese-nail-art",
+    "pillar_title": "Japanese Nail Art: Every Style & Design Worth Knowing",
+    "pillar_primary_keyword": "japanese nail art",
+    "this_post_slug": "kawaii-nails",
+    "this_post_role": "spoke",
+    "keywords_to_avoid": [
+      "japanese nail art",
+      "sakura nails",
+      "japanese 3d nail art",
+      "japanese minimalist nails",
+      "japanese manicure",
+      "how to do japanese nail art",
+      "japanese nail art short nails",
+      "pastel goth nails",
+      "how to do ombre nails at home",
+      "cat eye nails"
+    ]
+  },
+
+  "SERP_ANALYSIS": {
+    "blog_gen_instruction": "Use competitor gaps and missing semantic territory to fill what competitors miss. Our strategic approach is the angle for the introduction and conclusion.",
+    "top_3_ranking_posts_estimated_word_counts": {
+      "post_1": "kreafolk.com/kawaii-nail-design — ~1800 words, 30 designs, image gallery format",
+      "post_2": "korekawaii.com/kawaii-nail-art-design-ideas-tutorials — ~1400 words, list of named designs",
+      "post_3": "nomakenolife.com/top-10-kawaii-nail-instagram — ~900 words, image-led, thin editorial",
+      "average": "~1367 words (floor set at 2200 per spoke ceiling, well above floor)"
+    },
+    "top_3_keyword_density_baseline": "Primary keyword 'kawaii nails' appears approximately 8-10 times across top 3 posts on average. Baseline set at 9.",
+    "competitor_gaps": [
+      "No competitor addresses the sub-aesthetic breakdown within kawaii — gyaru vs decora vs yami kawaii vs standard kawaii — readers have no map to navigate the style spectrum (confirmed: Pinterest boards titled 'gyaru nails', 'yami kawaii nails', 'decora nails' each with 100k+ saves)",
+      "No post clarifies which Sanrio characters suit which aesthetic identity (Hello Kitty ≠ Kuromi ≠ Cinnamoroll in aesthetic register) — demand confirmed: Pinterest and YouTube both show character-specific content performing independently",
+      "None address kawaii nails for short nails as a distinct section — most photos show long extensions, leaving short-nail readers unserved (confirmed: Pinterest 'kawaii short nails' boards active; YouTube short nail kawaii content distinct)",
+      "No post covers the 2026 shift toward kawaii-meets-jelly finishes — the Y2K meets jelly trend is appearing on TikTok and Etsy but no editorial post has claimed this angle (TikTok + Etsy both signal demand)"
+    ],
+    "missing_semantic_territory": [
+      "Labubu nail charms — viral TikTok 2025, massive demand, not covered anywhere in editorial kawaii nail content",
+      "Jirai kei nails as a kawaii sub-aesthetic — active Pinterest category with 430+ pins in 2026, no editorial coverage",
+      "Kawaii nail colour palette breakdown by character type — completely absent from top competitors",
+      "Press-on kawaii nails as a DIY entry point — Etsy and Amazon both show massive demand; no editorial post guides the reader through this"
+    ],
+    "our_strategic_approach": "Where competitors list designs with no cultural context, we map the full kawaii nail world — from the playful maximalism of Sanrio character sets to the softer decora aesthetic — and show readers how to identify which lane of kawaii is actually theirs. We also claim the 2026-specific angle: kawaii meets jelly finishes and Labubu charm nails, which no editorial post has staked yet.",
+    "recommended_image_count_validation": "Top ranking posts are image-gallery led (30+ images). As a spoke, rule applies: 9 images total including hero. Confirmed appropriate — post is inspirational, not an X+ ideas post."
+  },
+
+  "AUDIENCE_INTELLIGENCE": {
+    "blog_gen_instruction": "This is your primary creative brief. Every paragraph written for this specific person with this specific intent. Satisfy them completely.",
+    "who_they_are": "Primarily 16-28 year olds globally (strong US, UK, AU, Singapore signal from search data). Deep Sanrio fans, anime watchers, K-pop adjacent, Y2K aesthetic devotees. Many identify with kawaii as a cultural identity not just a nail style. Mix of salon clients and active press-on buyers (Etsy data shows high purchase intent). Likely already saving TikTok nail content and browsing Pinterest boards dedicated to specific Sanrio characters.",
+    "what_they_want_from_this_post": "Inspiration mapped by aesthetic lane — not just 'here are cute nails' but a guide that helps them identify whether they are a pastel character-nail person, a maximalist charm girl, or someone drawn to softer kawaii like Cinnamoroll's palette. They want enough variety to find their specific vibe AND enough depth to brief a nail tech or choose a press-on set.",
+    "what_frustrates_them": [
+      "Posts that show designs with no explanation of technique or character reference — they can't recreate or brief a tech",
+      "Content that treats 'kawaii' as one look when they know there are at least 5 distinct aesthetic lanes within it",
+      "Every photo is of long acrylic extensions — they feel excluded if they have short natural nails",
+      "No 2026 content — they've seen the same Sanrio designs recycled from 2022 posts"
+    ],
+    "top_5_pain_points": [
+      "Can't tell if a design will look dated or current in 2026",
+      "Don't know which kawaii sub-aesthetic matches their overall identity",
+      "Worried kawaii nails will look too 'childish' or costume-y at their age",
+      "Can't find kawaii designs that actually work on short nails",
+      "Don't know how to brief a nail tech on a complex charm or character design"
+    ],
+    "exact_user_phrases": [
+      "kawaii nails inspo",
+      "cute japanese nails",
+      "kawaii nail charms",
+      "sanrio nail ideas",
+      "kawaii 3d nails",
+      "hello kitty nail art",
+      "kawaii nail aesthetic",
+      "cinnamoroll nails",
+      "kawaii nails short",
+      "labubu nails",
+      "jirai kei nails",
+      "kawaii acrylic nails"
+    ],
+    "intent_content_signals": [
+      "High visual content demand — needs 8 body images minimum, all inspirational",
+      "Character and brand names should be used — Hello Kitty, Cinnamoroll, My Melody, Kuromi, Rilakkuma, Labubu",
+      "Sub-aesthetic names matter — decora, yami kawaii, gyaru, jirai kei, pastel kawaii",
+      "2026 specificity valued — readers have seen 2022 content recycled",
+      "Press-on nails must be acknowledged as a legitimate route — huge Etsy/Amazon demand signal",
+      "Short nail version needed in at least one H2"
+    ]
+  },
+
+  "SEMANTIC_KEYWORD_DATA": {
+    "blog_gen_instruction": "Primary keyword in strong tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.",
+    "primary_keyword": "kawaii nails",
+    "keyword_variations": [
+      "kawaii nail art",
+      "kawaii nail designs",
+      "kawaii nail ideas",
+      "cute kawaii nails",
+      "kawaii nail aesthetic",
+      "kawaii nails 2026",
+      "kawaii nail inspo",
+      "kawaii nail style"
+    ],
+    "cluster_keywords": [
+      "sanrio nails",
+      "hello kitty nails",
+      "cinnamoroll nails",
+      "my melody nails",
+      "kuromi nails",
+      "kawaii nail charms",
+      "kawaii 3d nails",
+      "kawaii press on nails",
+      "kawaii acrylic nails",
+      "pastel kawaii nails",
+      "labubu nails",
+      "jirai kei nails",
+      "kawaii short nails",
+      "kawaii french tip nails",
+      "rilakkuma nails"
+    ],
+    "lsi_terms": [
+      "nail charms",
+      "3D nail art",
+      "pastel nail palette",
+      "character nail art",
+      "gel nail polish",
+      "nail decals",
+      "accent nail",
+      "builder gel",
+      "polygel",
+      "press-on nail set",
+      "nail art stickers",
+      "sculpted gel",
+      "yami kawaii",
+      "decora aesthetic",
+      "gyaru nails",
+      "harajuku style",
+      "cute nail colours",
+      "jelly nail finish",
+      "Y2K nail art",
+      "soft pink nail base"
+    ],
+    "aeo_terms": [
+      "What are kawaii nails?",
+      "What makes nails kawaii?",
+      "What colours are used in kawaii nail art?",
+      "Can you do kawaii nails on short nails?",
+      "What are the best kawaii nail characters to use?",
+      "What is the difference between kawaii and gyaru nails?",
+      "How do you get kawaii nail charms to stay on?",
+      "Are kawaii nails suitable for adults?",
+      "What is the kawaii nail aesthetic?",
+      "Which Sanrio characters are most popular for nail art?",
+      "What nail shapes work best for kawaii designs?",
+      "How long do kawaii press-on nails last?"
+    ],
+    "technical_terms": [
+      "3D gel sculpting",
+      "builder gel",
+      "nail charm adhesive",
+      "polygel extension",
+      "stamping plate",
+      "jelly gel finish",
+      "UV curing",
+      "gel overlay"
+    ],
+    "user_language": [
+      "cute nails inspo",
+      "kawaii vibes",
+      "sanrio girl nails",
+      "the most adorable nails",
+      "obsessed with these nails",
+      "charms on nails",
+      "my kawaii era",
+      "this is so cute I can't",
+      "nail goals",
+      "press-on haul"
+    ],
+    "total_mention_target": 12,
+    "first_100_words_rule": "Primary keyword 'kawaii nails' MUST appear twice in the first 100 words of the post body. No exceptions."
+  },
+
+  "VOICE_AND_AI_QUERIES": {
+    "blog_gen_instruction": "Answer every query directly in the relevant H2 section body. If a query cannot be addressed naturally in the body, route it to faqItems. No query left unanswered.",
+    "queries": [
+      "What are kawaii nails and where does the style come from?",
+      "What makes a set of nails truly kawaii?",
+      "What colours work best for kawaii nail art?",
+      "Can I do kawaii nails if I have short nails?",
+      "What are the most popular kawaii nail characters in 2026?",
+      "What is the difference between kawaii nails and regular cute nails?",
+      "How do I choose between different kawaii nail aesthetics?",
+      "What are Sanrio nails and which characters are most popular?",
+      "Are kawaii nails just for young people or can adults wear them?",
+      "What are labubu nails and why are they trending?",
+      "How long do kawaii nail charms stay on?",
+      "What nail shape is best for kawaii designs?",
+      "What is yami kawaii nail art?",
+      "Can kawaii nails work without going to a salon?",
+      "What is jirai kei nail style?",
+      "What are kawaii press-on nails and where do I buy them?"
+    ]
+  },
+
+  "HOOK_AND_CTR": {
+    "blog_gen_instruction": "READ THIS SECTION BEFORE WRITING THE TITLE, META DESCRIPTION, INTRO, OR FIRST H2. The title and description are hardcoded here — use them exactly. The intro hook brief and first H2 hook direction are your creative brief for those specific elements. Do not deviate.",
+    "selected_trigger": "Trigger 3 — Specificity / Numbers",
+    "trigger_rationale": "The kawaii nails reader is in inspiration mode — browsing Pinterest and TikTok for a specific visual identity they want to claim. A volume-and-specificity hook (complete guide, every style) signals they'll find their exact lane here, not just a generic roundup.",
+    "title": "Kawaii Nails: The Complete Guide to Every Style 2026",
+    "title_char_count": 55,
+    "meta_description": "From Sanrio charms to yami kawaii and labubu nails — explore every kawaii nail style, colour, and 2026 trend worth saving.",
+    "meta_char_count": 124,
+    "intro_hook_brief": "Open by naming kawaii not as a single look but as an entire world with distinct lanes — then immediately promise the reader they will find their lane here. The emotional hook is recognition: 'you already know you love this aesthetic — now find the version that's actually yours.'",
+    "first_h2_hook_direction": "Phrase the first H2 as the foundational question a reader would search: 'What makes nails kawaii?' — then answer it in 2-3 direct sentences before expanding. Subtle specificity, not a title repeat."
+  },
+
+  "SEARCH_JOURNEY": {
+    "blog_gen_instruction": "This is the emotional contract with the reader. Every section of the post must honour the promise made. Read this before writing any section. If a paragraph breaks the journey arc — rewrite it.",
+    "reader_arrival_state": "The reader arrives already a fan of kawaii culture — they are not discovering the aesthetic, they are looking for the right version of it and permission to own it fully.",
+    "journey_arc": [
+      "1. Define what kawaii nails actually are and establish that the aesthetic has distinct lanes — give the reader a map.",
+      "2. Explore the most iconic kawaii nail styles by sub-aesthetic (Sanrio, decora, yami kawaii, 3D charms) — let them find themselves in the content.",
+      "3. Move from inspiration into the practical: colours, shapes, short nail options, press-on route.",
+      "4. Surface the 2026-specific trends (Labubu, jelly kawaii, jirai kei) that signal this is current, not recycled.",
+      "5. Close with identity-affirming language: kawaii nails are for anyone who wants them — at any age, on any nail length."
+    ],
+    "promise_to_deliver": "The title promises a complete guide to every kawaii nail style — every section must deliver a distinct style, aesthetic, or angle that helps the reader identify their own lane.",
+    "exit_state": "The reader leaves knowing exactly which kawaii nail style belongs to them and confident enough to book a salon appointment or order a press-on set."
+  },
+
+  "CONTENT_STRUCTURE": {
+    "blog_gen_instruction": "This H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s without user instruction. Word budget per section is set — follow it. H3s may be added at editorial discretion.",
+    "h1": "Kawaii Nails: The Complete Guide to Every Style in 2026",
+    "h2_structure": [
+      "What Makes Nails Kawaii? The Style Explained",
+      "Sanrio Nails: Hello Kitty, Cinnamoroll, Kuromi and Beyond",
+      "Kawaii 3D Nail Charms: The Designs Everyone Is Saving Right Now",
+      "Yami Kawaii and Jirai Kei Nails: The Darker Side of Cute",
+      "Kawaii Nails for Short Nails: Does the Aesthetic Still Work?",
+      "Pastel Kawaii Nails: The Colours That Define the Look",
+      "Kawaii Press-On Nails: The DIY Route That Actually Works",
+      "Kawaii Nail Trends for 2026: What Is New and What to Book"
+    ],
+    "word_budget": {
+      "introduction": "220 words",
+      "h2_1_what_makes_nails_kawaii": "250 words",
+      "h2_2_sanrio_nails": "300 words",
+      "h2_3_3d_nail_charms": "260 words",
+      "h2_4_yami_kawaii_jirai_kei": "220 words",
+      "h2_5_short_nails": "220 words",
+      "h2_6_pastel_colours": "220 words",
+      "h2_7_press_on_nails": "200 words",
+      "h2_8_2026_trends": "160 words",
+      "conclusion": "150 words",
+      "total": "2200 words"
+    }
+  },
+
+  "INTERNAL_LINKS": {
+    "blog_gen_instruction": "Every link below must appear in the post. Cluster links use anchor texts verbatim — do not rewrite. Cross-site links use the provided descriptive anchor. Place each link where the placement note says — woven naturally into prose, never as a standalone CTA. Total internal links must not exceed 6.",
+    "all_internal_links": [
+      {
+        "url_or_slug": "/blog/japanese-nails/japanese-nail-art",
+        "title": "Japanese Nail Art: Every Style & Design Worth Knowing",
+        "anchor_text": "japanese nail art",
+        "placement_note": "H2-1 (What Makes Nails Kawaii) — when contextualising kawaii as one branch of the broader japanese nail art world",
+        "link_type": "cluster-pillar"
+      },
+      {
+        "url_or_slug": "/blog/japanese-nails/japanese-3d-nail-art",
+        "title": "Japanese 3D Nail Art: Flowers, Gems & Sculptural Designs",
+        "anchor_text": "japanese 3D nail art",
+        "placement_note": "H2-3 (3D Nail Charms) — when discussing sculpted 3D elements and the technique behind charm nails",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/japanese-nails/japanese-nail-art-short-nails",
+        "title": "Japanese Nail Art Designs for Short Nails",
+        "anchor_text": "japanese nail art for short nails",
+        "placement_note": "H2-5 (Short Nails) — when reassuring short nail readers that designs exist for their length",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/japanese-nails/sakura-nails",
+        "title": "Sakura Nails: Cherry Blossom Designs for Every Style",
+        "anchor_text": "sakura nails",
+        "placement_note": "H2-6 (Pastel Colours) — when mentioning floral motifs and soft pastel sakura palette as a kawaii direction",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/blog/goth/pastel-goth-nails",
+        "title": "Pastel Goth Nails: 60+ Creepy Cute Ideas",
+        "anchor_text": "where pastel goth nails and kawaii overlap in their use of cute skulls and dark motifs",
+        "placement_note": "H2-4 (Yami Kawaii / Jirai Kei) — when discussing the crossover between dark kawaii and the pastel goth aesthetic; a natural editorial bridge for readers who sit at that intersection",
+        "link_type": "cross-site"
+      }
+    ]
+  },
+
+  "VOICE_TONE": {
+    "blog_gen_instruction": "This is the voice for this specific post. Layer on top of Mirellé editorial framework. Do not default to generic AI tone.",
+    "recommended_voice": "Culturally fluent enthusiast — warm, knowledgeable, never condescending about the cute",
+    "tone_characteristics": [
+      "Speaks the aesthetic language without over-explaining it — uses terms like 'jirai kei', 'decora', 'yami kawaii' with confidence, brief context, not lengthy definitions",
+      "Celebrates the playful without infantilising it — never implies kawaii is 'only for teens'",
+      "Specific and editorial — cites characters by name, references trends by platform",
+      "Warm authority — knows more than the reader but is in the room with them, not above them",
+      "Light, upbeat rhythm — shorter sentences in inspiration sections, slightly more expansive in the cultural/definitional sections"
+    ],
+    "language_style": "Direct 'you' address throughout. No hedging. Aesthetic terms used with confidence. British English spelling throughout (colour, recognise, minimise). Sentence length varies — short punchy sentences in visual sections, slightly longer in sub-aesthetic explanations.",
+    "audience_match": "The kawaii reader identifies with the aesthetic as a cultural identity not a passing trend — the voice must meet that seriousness while keeping the tone playful. Treat kawaii with the same editorial respect Mirellé gives to quiet luxury or dark feminine aesthetics."
+  },
+
+  "EXTERNAL_LINKS": {
+    "blog_gen_instruction": "Include all external links where indicated. Supports E-E-A-T. Use anchor suggestion as guide — write naturally around it.",
+    "links": [
+      {
+        "url": "https://nailsami.com/blogs/guides/3d-nail-art-2026-the-hottest-designs-taking-over-tiktok",
+        "context": "H2-3 (3D Nail Charms) when referencing TikTok viral data for Sanrio character charm nails and Labubu nails",
+        "anchor_suggestion": "3D kawaii nail charms dominating TikTok in 2026"
+      },
+      {
+        "url": "https://korekawaii.com/blogs/kawaii-lifestyle-blog/kawaii-nail-art-design-ideas-and-tutorials",
+        "context": "H2-1 (What Makes Nails Kawaii) when providing context on the cultural origins of kawaii nail art",
+        "anchor_suggestion": "kawaii nail art culture and its Japanese origins"
+      },
+      {
+        "url": "https://nomakenolife.com/blog/top-10-kawaii-nail-instagram",
+        "context": "H2-2 (Sanrio Nails) when referencing the depth of Japanese inspiration for character nail art",
+        "anchor_suggestion": "Japanese-inspired kawaii nail designs from Tokyo nail artists"
+      }
+    ]
+  },
+
+  "EXECUTION_PLAN": {
+    "blog_gen_instruction": "READ THIS SECTION FIRST. Lock every value. Execute exactly. Do not recalculate, do not adjust, do not deviate.",
+
+    "block_1_keyword_execution": {
+      "primary_keyword": "kawaii nails",
+      "top_3_density_baseline": 9,
+      "total_mention_target": 12,
+      "first_100_words_plan": {
+        "rule": "Primary keyword MUST appear TWICE in the first 100 words. Mandatory. No exceptions.",
+        "mention_1": "Sentence 1-2 of introduction — name 'kawaii nails' as the subject being mapped",
+        "mention_2": "Sentence 3-5 of introduction — second use reinforcing the complete guide promise, e.g. 'kawaii nails span more ground than most posts bother to map'"
+      },
+      "first_half_target": "7 mentions — first 1100 words. Run denser in first half.",
+      "second_half_target": "5 mentions — second 1100 words.",
+      "strong_tag_rule": "EVERY single mention of 'kawaii nails' — all 12 of them — wrapped in <strong> tags. No exceptions. Catch each one as it is written. Scan after every paragraph.",
+      "keywords_to_avoid_active": [
+        "japanese nail art",
+        "sakura nails",
+        "japanese 3d nail art",
+        "japanese minimalist nails",
+        "japanese manicure",
+        "how to do japanese nail art",
+        "japanese nail art short nails",
+        "pastel goth nails",
+        "how to do ombre nails at home",
+        "cat eye nails"
+      ]
+    },
+
+    "block_2_word_budget": {
+      "total_target": "2200 words — +/-50 words tolerance, never exceed",
+      "introduction": "220 words",
+      "conclusion": "150 words",
+      "h2_budgets": [
+        { "heading": "What Makes Nails Kawaii? The Style Explained", "budget": "250 words", "complexity": "medium" },
+        { "heading": "Sanrio Nails: Hello Kitty, Cinnamoroll, Kuromi and Beyond", "budget": "300 words", "complexity": "high" },
+        { "heading": "Kawaii 3D Nail Charms: The Designs Everyone Is Saving Right Now", "budget": "260 words", "complexity": "medium" },
+        { "heading": "Yami Kawaii and Jirai Kei Nails: The Darker Side of Cute", "budget": "220 words", "complexity": "medium" },
+        { "heading": "Kawaii Nails for Short Nails: Does the Aesthetic Still Work?", "budget": "220 words", "complexity": "medium" },
+        { "heading": "Pastel Kawaii Nails: The Colours That Define the Look", "budget": "220 words", "complexity": "low" },
+        { "heading": "Kawaii Press-On Nails: The DIY Route That Actually Works", "budget": "200 words", "complexity": "low" },
+        { "heading": "Kawaii Nail Trends for 2026: What Is New and What to Book", "budget": "160 words", "complexity": "low" }
+      ],
+      "tracking_rule": "Track running word total at the end of every H2 section. If a section is running over budget — cut before moving to the next section. Do not compensate later."
+    },
+
+    "block_3_image_plan": {
+      "total_images": 9,
+      "hero_image": "frontmatter only — NEVER appears in post body",
+      "body_images": 8,
+      "assignments": [
+        { "image_number": 1, "place_after": "Introduction", "section_context": "Opening lifestyle shot of pastel kawaii nail set — soft pinks, bows or heart motifs, short to medium almond shape" },
+        { "image_number": 2, "place_after": "What Makes Nails Kawaii? The Style Explained", "section_context": "Flat lay or close-up showing iconic kawaii elements: pastel base, cartoon face motif, small gem accent" },
+        { "image_number": 3, "place_after": "Sanrio Nails: Hello Kitty, Cinnamoroll, Kuromi and Beyond", "section_context": "Sanrio character nail set — ideally showing multiple characters across different nails; Hello Kitty + Cinnamoroll or Kuromi set" },
+        { "image_number": 4, "place_after": "Kawaii 3D Nail Charms: The Designs Everyone Is Saving Right Now", "section_context": "3D sculpted charm nails — raised bear, bunny or food motif on pastel gel base" },
+        { "image_number": 5, "place_after": "Yami Kawaii and Jirai Kei Nails: The Darker Side of Cute", "section_context": "Yami kawaii or jirai kei inspired nails — pastel base with dark accents, bows + dark skulls or bandage motifs" },
+        { "image_number": 6, "place_after": "Kawaii Nails for Short Nails: Does the Aesthetic Still Work?", "section_context": "Kawaii design on genuinely short nails — squoval or round, showing kawaii motifs at short length" },
+        { "image_number": 7, "place_after": "Pastel Kawaii Nails: The Colours That Define the Look", "section_context": "Pastel colour palette showcase — mint, lavender, baby pink, sky blue kawaii nails in one set" },
+        { "image_number": 8, "place_after": "Kawaii Press-On Nails: The DIY Route That Actually Works", "section_context": "Press-on kawaii nail set — showing 3D hand-crafted press-ons with charms, ideally a full laid-out set" }
+      ],
+      "image_type_rule": "ALL body images = inspirational kawaii nail design images. NO infographics. NO process diagrams. NO step-by-step visuals.",
+      "path_rule": "/images/blog/japanese-nails/kawaii-nails/filename.webp — topic_slug in path always"
+    },
+
+    "block_4_opening_technique_assignments": {
+      "rule": "No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.",
+      "assignments": [
+        { "section": "Introduction", "technique": "Technique 2 — The Scene (drop reader into the world of kawaii before naming it)" },
+        { "section": "What Makes Nails Kawaii? The Style Explained", "technique": "Technique 4 — The Direct Answer (answer the H2 question immediately in first 2 sentences)" },
+        { "section": "Sanrio Nails: Hello Kitty, Cinnamoroll, Kuromi and Beyond", "technique": "Technique 3 — The Reframe (Sanrio nails are not all the same aesthetic — reframe the category before diving in)" },
+        { "section": "Kawaii 3D Nail Charms: The Designs Everyone Is Saving Right Now", "technique": "Technique 1 — The Claim (make a bold statement about why 3D charms dominate 2026 kawaii)" },
+        { "section": "Yami Kawaii and Jirai Kei Nails: The Darker Side of Cute", "technique": "Technique 2 — The Scene (paint the aesthetic before naming it)" },
+        { "section": "Kawaii Nails for Short Nails: Does the Aesthetic Still Work?", "technique": "Technique 4 — The Direct Answer (answer yes immediately, then explain)" },
+        { "section": "Pastel Kawaii Nails: The Colours That Define the Look", "technique": "Technique 3 — The Reframe (not all pastels are kawaii — the palette is more specific than it looks)" },
+        { "section": "Kawaii Press-On Nails: The DIY Route That Actually Works", "technique": "Technique 1 — The Claim (press-ons have closed the gap on salon kawaii nails completely)" },
+        { "section": "Kawaii Nail Trends for 2026: What Is New and What to Book", "technique": "Technique 2 — The Scene" },
+        { "section": "Conclusion", "technique": "Technique 1 — The Claim" }
+      ],
+      "banned_opener_rule": "Check every opener against banned_opening_approaches in blog gen prompt before writing the second sentence"
+    },
+
+    "block_5_link_placements": {
+      "rule": "Every link placed exactly where specified. Anchor texts used verbatim — never rewritten. Links woven into prose naturally — never standalone CTAs.",
+      "links": [
+        {
+          "anchor_text": "japanese nail art",
+          "full_url": "/blog/japanese-nails/japanese-nail-art",
+          "place_in_section": "What Makes Nails Kawaii? The Style Explained",
+          "placement_context": "When positioning kawaii as one distinct lane within the wider japanese nail art world — e.g. 'Kawaii nails are one of the most globally celebrated expressions of [japanese nail art]...'",
+          "link_type": "cluster-pillar"
+        },
+        {
+          "anchor_text": "japanese 3D nail art",
+          "full_url": "/blog/japanese-nails/japanese-3d-nail-art",
+          "place_in_section": "Kawaii 3D Nail Charms: The Designs Everyone Is Saving Right Now",
+          "placement_context": "When transitioning from kawaii charms to the broader sculptural technique — e.g. 'For the full technical breakdown of what goes into sculpted gel work, the [japanese 3D nail art] post covers every method in detail.'",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "japanese nail art for short nails",
+          "full_url": "/blog/japanese-nails/japanese-nail-art-short-nails",
+          "place_in_section": "Kawaii Nails for Short Nails: Does the Aesthetic Still Work?",
+          "placement_context": "At end of section as natural next step — e.g. 'For a broader range of designs built specifically for shorter lengths, [japanese nail art for short nails] has the full gallery.'",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "sakura nails",
+          "full_url": "/blog/japanese-nails/sakura-nails",
+          "place_in_section": "Pastel Kawaii Nails: The Colours That Define the Look",
+          "placement_context": "When mentioning floral sakura motifs as a pastel kawaii colour direction — e.g. 'Cherry blossom pink is one of the defining tones of this palette — see [sakura nails] for the full design range within that specific direction.'",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "where pastel goth nails and kawaii overlap in their use of cute skulls and dark motifs",
+          "full_url": "https://mirelleinspo.com/blog/goth/pastel-goth-nails",
+          "place_in_section": "Yami Kawaii and Jirai Kei Nails: The Darker Side of Cute",
+          "placement_context": "When describing the crossover between yami kawaii and pastel goth — e.g. 'The boundary here blurs with the pastel goth aesthetic — for an in-depth look at [where pastel goth nails and kawaii overlap in their use of cute skulls and dark motifs], that post maps the full intersection.'",
+          "link_type": "cross-site"
+        }
+      ]
+    },
+
+    "block_6_aeo_geo_plan": {
+      "aeo_assignments": [
+        {
+          "aeo_term": "What are kawaii nails?",
+          "assigned_to_section": "What Makes Nails Kawaii? The Style Explained",
+          "execution": "Write a direct 2-3 sentence answer immediately after the H2 heading. Kawaii nails are a style of nail art rooted in Japanese pop culture, defined by pastel colour palettes, cute characters, playful motifs, and often 3D embellishments. The word kawaii means 'cute' in Japanese. This becomes the GEO entity definition for the term."
+        },
+        {
+          "aeo_term": "Can you do kawaii nails on short nails?",
+          "assigned_to_section": "Kawaii Nails for Short Nails: Does the Aesthetic Still Work?",
+          "execution": "First paragraph after H2 heading answers this directly: yes, and specific designs that work best. 2-3 sentences max before expanding."
+        },
+        {
+          "aeo_term": "What is yami kawaii nail art?",
+          "assigned_to_section": "Yami Kawaii and Jirai Kei Nails: The Darker Side of Cute",
+          "execution": "Open section with a direct definition: yami kawaii (sick cute) is a Japanese aesthetic that combines the sweetness of kawaii with dark, unsettling, or medical imagery. Nails in this style pair pastel bases with dark motifs — bandages, IV drips, pills, small skulls — creating a tension between cuteness and distress that is the point."
+        },
+        {
+          "aeo_term": "Which Sanrio characters are most popular for nail art?",
+          "assigned_to_section": "Sanrio Nails: Hello Kitty, Cinnamoroll, Kuromi and Beyond",
+          "execution": "Direct list paragraph: Hello Kitty, Cinnamoroll, Kuromi, My Melody, Pompompurin, and Rilakkuma are the most requested Sanrio characters for nail art in 2026. Each carries a distinct aesthetic register covered in the section."
+        }
+      ],
+      "geo_entity_statements": [
+        {
+          "entity": "kawaii (cultural term)",
+          "assigned_to_section": "What Makes Nails Kawaii? The Style Explained",
+          "execution": "Kawaii is a Japanese word meaning cute, and as a cultural aesthetic it describes a visual language built on softness, roundness, pastel colour, and childlike charm — first popularised in Japan in the 1970s and now a global cultural export."
+        },
+        {
+          "entity": "yami kawaii",
+          "assigned_to_section": "Yami Kawaii and Jirai Kei Nails: The Darker Side of Cute",
+          "execution": "Yami kawaii translates to 'sick cute' and is a Japanese subculture aesthetic that combines the visual language of kawaii with imagery related to illness, mental distress, and dark themes — presenting them through the lens of cuteness rather than horror."
+        },
+        {
+          "entity": "jirai kei",
+          "assigned_to_section": "Yami Kawaii and Jirai Kei Nails: The Darker Side of Cute",
+          "execution": "Jirai kei is a Japanese fashion subculture translating to 'landmine style' — associated with a specific emotional aesthetic that blends sweetness with fragility, typically using pastel pinks, bows, lace, and dark accents to express a romanticised melancholy."
+        }
+      ]
+    },
+
+    "block_7_active_constraints": {
+      "em_dash_banned": "Long em dash — does not appear anywhere. If one forms while writing — stop, replace with: comma / new sentence / parentheses / but / restructure.",
+      "banned_vocab_watch": [
+        "adorable (overused in kawaii content — use 'cute', 'charming', 'playful' instead)",
+        "delightful",
+        "whimsical",
+        "magical",
+        "absolutely",
+        "literally",
+        "stunning"
+      ],
+      "british_english_active": "colour, recognise, characterise, -ise endings, -our endings — every instance, no exceptions",
+      "keyword_density_reminder": "After every 2 H2 sections — count current 'kawaii nails' mentions. Verify running total is on track to hit 12. First half (1100 words) must contain 7 mentions. Adjust if needed.",
+      "image_path_reminder": "/images/blog/japanese-nails/kawaii-nails/filename.webp — topic_slug 'japanese-nails' in path always",
+      "internal_link_url_reminder": "Cluster links = /blog/japanese-nails/[slug]. Cross-site link = https://mirelleinspo.com/blog/goth/pastel-goth-nails. Never bare /slug.",
+      "hero_image_reminder": "Hero = frontmatter only. Never place hero image in body.",
+      "strong_tag_reminder": "Every 'kawaii nails' mention = <strong>kawaii nails</strong>. Scan after every paragraph."
+    }
+  }
+}
