@@ -1,0 +1,411 @@
+{
+  "section_1_file_authority": {
+    "statement": "THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly."
+  },
+
+  "section_2_post_constants": {
+    "slug": "nail-color-psychology",
+    "topic_slug": "mood-nails",
+    "canonical": "https://mirelleinspo.com/blog/mood-nails/nail-color-psychology",
+    "post_type": "spoke",
+    "intent": "informational",
+    "word_count": 2200,
+    "image_count": 9,
+    "template": "split-left",
+    "hero_dimensions": "800x800",
+    "category": "Mood Nails (best inferred from cluster_metadata — verify against live Mirellé category list before publish)",
+    "publish_date": "2026-06-27",
+    "author": "Mirellé Team"
+  },
+
+  "section_3_cluster_snapshot": {
+    "pillar_slug": "nails-by-mood",
+    "pillar_title": "Nails by Mood: The Complete Guide to Choosing Your Colour by How You Feel",
+    "pillar_primary_keyword": "nails by mood",
+    "this_post_slug": "nail-color-psychology",
+    "this_post_role": "spoke",
+    "keywords_to_avoid": [
+      "nails by mood", "dopamine nails", "heartbreak nail designs", "nails for confidence",
+      "romantic nails", "dark feminine nails", "happy nails",
+      "witchy nails", "goth nails", "pastel goth nails", "mob wife nails",
+      "blue nails", "coffin ombre nails"
+    ]
+  },
+
+  "section_4_serp_analysis": {
+    "blog_gen_instruction": "Use competitor gaps and missing semantic territory to fill what competitors miss. Our strategic approach is the angle for the introduction and conclusion.",
+    "competitor_gaps": [
+      "Almost zero competitors cite real psychological research — top results (Glamnetic, ArtNailNYC, Kitsa, Lehmani, My Little Nail Spa, jdpau, GoodNail) are small beauty/spa blogs giving generic 'red = confident, blue = calm' associations with no scientific grounding. Confirmed across 6+ sources.",
+      "The viral 'Red Nail Theory' (102M+ TikTok posts, covered by Parade, Yahoo, Cornell Daily Sun) is almost never folded into standard 'nail color psychology' articles — it's treated as a separate trend piece. Confirmed on 4 sources.",
+      "Spiritual/manifestation framing ('nail color magick', TikTok manifestation via nail colour) shows real Pinterest demand but is absent from mainstream psychology articles. Confirmed on 2 sources (Pinterest dedicated boards + Real Simple TikTok reference).",
+      "Occasion-specific application (interviews, dates, 'what color nails do guys like') is asked constantly on Quora/YouTube but rarely connected back to the psychology framing in the same piece. Confirmed on 3 sources."
+    ],
+    "missing_semantic_territory": [
+      "Peer-reviewed / academic citation framing (NCBI study on red and approach-motivated behaviour; neuropsychology journal article on limbic system response)",
+      "Red Nail Theory + Blue Nail Theory as cultural proof-point of color psychology",
+      "Limbic system / neuropsychological mechanism explanation (most competitors stay purely symbolic)",
+      "Direct occasion-based confidence application (job interview, date, presentation)"
+    ],
+    "our_strategic_approach": "Differentiate from the sea of thin spa-blog content by anchoring every color claim to real research (NCBI study, neuropsychology journal) rather than vibes, folding in the viral Red Nail Theory as cultural proof the science has mainstream traction, and closing with practical occasion-based guidance — making this the credible, current version of a saturated topic.",
+    "recommended_image_count_validation": "SERP visual pattern is lifestyle/swatch photography, not infographics or charts — confirms 9 inspirational images (1 hero + 8 body) is correct; no data-viz images needed despite the stat-heavy content."
+  },
+
+  "section_5_audience_intelligence": {
+    "blog_gen_instruction": "This is your primary creative brief. Every paragraph written for this specific person with this specific intent. Satisfy them completely.",
+    "who_they_are": "Beauty-engaged women, mostly Gen Z/Millennial, who paint their nails regularly and have started wondering — often prompted by a TikTok trend — whether their color choices mean anything beyond style. Not nail-art experts; casual but curious.",
+    "what_they_want_from_this_post": "A real, somewhat science-backed answer to 'does my nail color actually mean something' — not another recycled personality-quiz listicle.",
+    "what_frustrates_them": "Generic, repetitive 'red=confident, blue=calm' content with zero depth, zero science, no acknowledgment of the TikTok trend context, and heavy product-pushing disguised as an article (confirmed pattern across Glamnetic, My Little Nail Spa, Qeera, Kiara Sky).",
+    "top_5_pain_points": [
+      "Can't find content that goes beyond surface-level color/personality clichés",
+      "Curious if there's real psychological/scientific backing, not just vibes",
+      "Want the Red Nail Theory explained without wading through speculative TikTok comment threads",
+      "Want practical guidance — what to wear for confidence, interviews, dates",
+      "Skeptical of overly mystical/manifestation claims but still curious about that angle"
+    ],
+    "exact_user_phrases": [
+      "what does my nail color say about me",
+      "does nail polish color actually mean anything",
+      "is the red nail theory real",
+      "what color nails do guys like",
+      "does color affect mood and behaviour",
+      "your nail color says a lot about you",
+      "what your favourite colour reveals about your personality",
+      "nail colours that boost confidence",
+      "why do I always go back to the same nail colour",
+      "the psychology behind nail colours nobody talks about"
+    ],
+    "intent_content_signals": [
+      "Responds to short, confident color-by-color breakdowns over dense academic theory",
+      "Real research citations (even one line) significantly raise perceived credibility",
+      "Pop-culture references (Red Nail Theory) increase relatability and shareability",
+      "Wants a practical 'how to use this' close — info alone isn't satisfying without application",
+      "Reacts negatively to visible product promotion inside an explainer piece"
+    ]
+  },
+
+  "section_6_semantic_keyword_data": {
+    "blog_gen_instruction": "Primary keyword in strong tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.",
+    "primary_keyword": "nail color psychology",
+    "keyword_variations": [
+      "psychology of nail colors", "nail color psychology meaning", "nail polish color psychology",
+      "color psychology nails", "psychology of nail polish colors", "nail colour psychology",
+      "what your nail color says about you", "nail color personality"
+    ],
+    "cluster_keywords": [
+      "color psychology", "what nail colour says about you", "nail colour meaning",
+      "colour psychology in beauty", "nail colour and mood", "red nail theory",
+      "colour symbolism nails", "nail colour personality traits", "psychology of colour choices",
+      "emotional symbolism nail polish", "colour theory nails", "colour psychology research",
+      "manifestation nail colours", "spiritual meaning nail colours"
+    ],
+    "lsi_terms": [
+      "limbic system colour response", "colour perception emotion", "subconscious colour associations",
+      "colour symbolism", "confidence colours", "calming colours", "colour and self-expression",
+      "colour psychology study", "colour meaning chart", "colour associations personality",
+      "neuropsychology of colour", "colour therapy", "warm vs cool colour psychology",
+      "colour and first impressions", "colour and mood board", "TikTok nail theory",
+      "blue nail theory", "Pantone colour psychology", "colour wheel emotions", "colour and perception research"
+    ],
+    "aeo_terms": [
+      "What is nail color psychology?",
+      "Does nail polish color actually affect your mood?",
+      "What does your nail color say about your personality?",
+      "Why do people feel more confident wearing red nails?",
+      "Is the Red Nail Theory backed by any science?",
+      "What does blue nail polish symbolize?",
+      "What does black nail polish say about your personality?",
+      "Does wearing nude nail polish mean anything psychologically?",
+      "Can nail color influence how others perceive you?",
+      "What nail color should I wear to feel confident?"
+    ],
+    "technical_terms": [
+      "colour psychology", "colour theory", "limbic system", "colour symbolism",
+      "colour perception", "warm vs. cool tones", "chromotherapy"
+    ],
+    "user_language": [
+      "what does my nail colour say about me", "does nail polish colour actually mean anything",
+      "is the red nail theory real", "what colour nails do guys like",
+      "does colour affect mood and behaviour", "your nail colour says a lot about you",
+      "what your favourite colour reveals about your personality",
+      "nail colours that boost confidence", "why do I always go back to the same nail colour"
+    ]
+  },
+
+  "section_7_voice_and_ai_queries": {
+    "blog_gen_instruction": "Answer every query directly in the relevant H2 section body. If a query cannot be addressed naturally in the body, route it to faqItems. No query left unanswered.",
+    "queries": [
+      "What does nail color psychology mean?",
+      "What does your nail color say about your personality?",
+      "Does nail polish color actually affect your mood?",
+      "Why do people feel more confident wearing red nails?",
+      "Is the Red Nail Theory backed by any science?",
+      "What does it mean if you always wear black nail polish?",
+      "What does blue nail polish say about you?",
+      "Can your nail color change how people perceive you?",
+      "What nail color makes you look more confident?",
+      "Why do I always go back to the same nail color?",
+      "What is the psychology behind choosing nail colors?",
+      "Do colors really influence mood and behavior?",
+      "What does pink nail polish symbolize?",
+      "Is there a spiritual or manifestation meaning behind nail colors?",
+      "What nail color should I wear for a job interview?",
+      "How does color psychology work in beauty and fashion?"
+    ]
+  },
+
+  "section_8_hook_and_ctr": {
+    "blog_gen_instruction": "READ THIS SECTION BEFORE WRITING THE TITLE, META DESCRIPTION, INTRO, OR FIRST H2. The title and description are hardcoded here — use them exactly. The intro hook brief and first H2 hook direction are your creative brief for those specific elements. Do not deviate.",
+    "selected_trigger": "Trigger 1 — Curiosity Gap",
+    "trigger_rationale": "Readers already paint their nails daily without thinking twice — the hook is the suggestion that their automatic colour habit is quietly revealing something they haven't clocked yet.",
+    "title": "Nail Color Psychology: What Your Polish Reveals About You",
+    "title_char_count": 57,
+    "meta_description": "Your nail color choice reveals more than style. See what nail color psychology says about red, blue, black and nude — plus the Red Nail Theory truth.",
+    "meta_char_count": 149,
+    "intro_hook_brief": "Open by naming the unconscious habit: most people reach for the same two or three nail colours on autopilot and assume it's pure aesthetics. Plant the idea that there's a documented psychological mechanism behind that 'autopilot' — then promise to decode it colour by colour, including the TikTok trend (Red Nail Theory) that made millions of people test this theory on themselves.",
+    "first_h2_hook_direction": "Phrase the first H2 as a direct voice-search definitional query — 'What Is Nail Color Psychology, Exactly?' — and answer it in the first two sentences with a clean, citable definition before any elaboration."
+  },
+
+  "section_9_search_journey": {
+    "blog_gen_instruction": "This is the emotional contract with the reader. Every section of the post must honour the promise made. Read this before writing any section. If a paragraph breaks the journey arc — rewrite it.",
+    "reader_arrival_state": "Curious and mildly skeptical — they suspect their nail colour habit might mean something but don't want another fluffy personality-quiz article; they want it explained properly.",
+    "journey_arc": [
+      "Confirm the concept is real and define it cleanly with a credible mechanism (limbic system, not vibes)",
+      "Walk through major colours (red, blue, black, pink/nude) with personality and mood associations",
+      "Validate the pop-culture angle — Red Nail Theory — as proof this isn't just academic, it's culturally live",
+      "Answer the harder question: can colour actually shift how others perceive you, not just how you feel",
+      "Close with practical, occasion-based application so the reader leaves able to use the information immediately"
+    ],
+    "promise_to_deliver": "That the reader will understand, with real backing, what their nail colour choices say about their mood and personality — and walk away able to choose intentionally rather than on autopilot.",
+    "exit_state": "Informed and quietly validated — their colour habit now feels like an intentional, slightly powerful form of self-expression rather than a random impulse."
+  },
+
+  "section_10_content_structure": {
+    "blog_gen_instruction": "This H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s without user instruction. Word budget per section is set — follow it. H3s may be added at editorial discretion.",
+    "h1": "Nail Color Psychology: What Your Polish Reveals About You",
+    "h2_structure": [
+      "What Is Nail Color Psychology, Exactly?",
+      "Does Your Nail Color Really Affect Your Mood?",
+      "What Red Nails Say About You (Plus the Viral Red Nail Theory)",
+      "What Blue Nails Say About You",
+      "What Black Nails Say About You",
+      "What Pink and Nude Nails Say About You",
+      "Can Nail Color Influence How Others Perceive You?",
+      "How to Choose a Nail Color Based on Your Mood"
+    ],
+    "word_budget": {
+      "introduction": "220 words",
+      "conclusion": "180 words",
+      "per_h2": {
+        "What Is Nail Color Psychology, Exactly?": 180,
+        "Does Your Nail Color Really Affect Your Mood?": 260,
+        "What Red Nails Say About You (Plus the Viral Red Nail Theory)": 300,
+        "What Blue Nails Say About You": 180,
+        "What Black Nails Say About You": 180,
+        "What Pink and Nude Nails Say About You": 200,
+        "Can Nail Color Influence How Others Perceive You?": 220,
+        "How to Choose a Nail Color Based on Your Mood": 280
+      }
+    }
+  },
+
+  "section_11_internal_links": {
+    "blog_gen_instruction": "Every link below must appear in the post. Cluster links use anchor texts verbatim — do not rewrite. Cross-site links use the provided descriptive anchor. Place each link where the placement note says — woven naturally into prose, never as a standalone CTA. Total internal links must not exceed 6.",
+    "all_internal_links": [
+      {
+        "url_or_slug": "/blog/mood-nails/nails-by-mood",
+        "title": "Nails by Mood: The Complete Guide to Choosing Your Colour by How You Feel",
+        "anchor_text": "nails by mood",
+        "placement_note": "Introduction or conclusion — frame this post as the science companion to the broader mood-mapping pillar",
+        "link_type": "cluster-pillar"
+      },
+      {
+        "url_or_slug": "/blog/mood-nails/dopamine-nails",
+        "title": "Dopamine Nails: Colors That Actually Boost Your Mood",
+        "anchor_text": "dopamine nails",
+        "placement_note": "In 'Does Your Nail Color Really Affect Your Mood?' — natural link out to the science-backed bright-colour deep dive",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/mood-nails/dark-feminine-nails",
+        "title": "Nails for Your Villain Era: Dark Feminine, Moody, Unapologetic",
+        "anchor_text": "dark feminine nails",
+        "placement_note": "In 'What Black Nails Say About You' — link out to the full dark/moody aesthetic guide",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/mood-nails/nails-for-confidence",
+        "title": "Nails When You Feel Like a Main Character: Bold, Confident, Powerful",
+        "anchor_text": "nails for confidence",
+        "placement_note": "In 'How to Choose a Nail Color Based on Your Mood' — link out for readers specifically chasing a confidence boost",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/work-nails/nails-for-job-interview",
+        "title": "Nails for a Job Interview: Colours & Styles That Work",
+        "anchor_text": "how nail colour psychology plays out at an actual job interview",
+        "placement_note": "In 'Can Nail Color Influence How Others Perceive You?' — directly extends the perception-and-confidence point into a real high-stakes scenario",
+        "link_type": "cross-site"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/work-nails/work-appropriate-nail-colors",
+        "title": "Work-Appropriate Nail Colors: What to Wear to the Office",
+        "anchor_text": "the full breakdown of which colours read as professional at work",
+        "placement_note": "In 'How to Choose a Nail Color Based on Your Mood' — practical follow-on for readers applying this to office context",
+        "link_type": "cross-site"
+      }
+    ]
+  },
+
+  "section_12_voice_tone": {
+    "blog_gen_instruction": "This is the voice for this specific post. Layer on top of Mirellé editorial framework. Do not default to generic AI tone.",
+    "recommended_voice": "Confident Educator",
+    "tone_characteristics": [
+      "Evidence-anchored but never academic or dry",
+      "Direct — resolves claims instead of hedging with 'it depends'",
+      "Mildly playful when covering TikTok/pop-culture trends (Red Nail Theory)",
+      "Validates self-expression without veering into mystical overclaiming",
+      "Treats the reader as smart and slightly skeptical, not gullible"
+    ],
+    "language_style": "Second-person ('you'), short declarative sentences mixed with one explanatory sentence per claim, occasional rhetorical question to open sections, no excessive hedging or qualifier stacking, British English spelling throughout.",
+    "audience_match": "Readers are tired of personality-quiz fluff and want their casual colour habit explained with real grounding — Confident Educator delivers credibility without lecturing, which is exactly the gap competitors leave open."
+  },
+
+  "section_13_external_links": {
+    "blog_gen_instruction": "Include all external links where indicated. Supports E-E-A-T. Use anchor suggestion as guide — write naturally around it.",
+    "links": [
+      {
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3394796/",
+        "context": "Use in 'What Red Nails Say About You' / Red Nail Theory section — this is a peer-reviewed study on red and approach/avoidance-motivated behaviour in romantic contexts",
+        "anchor_suggestion": "peer-reviewed research on red and romantic approach behaviour"
+      },
+      {
+        "url": "https://parade.com/living/red-nail-theory",
+        "context": "Use in the same Red Nail Theory passage for cultural/expert commentary backing the TikTok trend",
+        "anchor_suggestion": "experts have weighed in on whether the Red Nail Theory actually holds up"
+      },
+      {
+        "url": "https://usajournals.org/index.php/4/article/download/1563/1641/3196",
+        "context": "Use in 'Does Your Nail Color Really Affect Your Mood?' to ground the limbic-system/neuropsychology claim in a published paper",
+        "anchor_suggestion": "neuropsychological research on how colour perception affects emotion"
+      }
+    ]
+  },
+
+  "section_14_execution_plan": {
+    "purpose": "Blog Gen Agent reads this section FIRST — before frontmatter, before writing a single word. Every value here is pre-calculated. Lock all values and execute exactly.",
+    "blog_gen_instruction": "READ THIS SECTION FIRST. Lock every value. Execute exactly. Do not recalculate, do not adjust, do not deviate.",
+    "calculated_by": "Input Gen Agent",
+
+    "block_1_keyword_execution": {
+      "primary_keyword": "nail color psychology",
+      "top_3_density_baseline": 3,
+      "total_mention_target": "3 + 3 = 6 total mentions",
+      "first_100_words_plan": {
+        "rule": "Primary keyword MUST appear TWICE in the first 100 words. Mandatory, no exceptions.",
+        "mention_1": "Opening sentence of the introduction — naming the concept directly while framing the 'autopilot colour habit' hook",
+        "mention_2": "Sentence 3–4 of the introduction — when the science framing (limbic system / real research) is introduced"
+      },
+      "first_half_target": "4 mentions — first ~1100 words (intro through H2-4: Blue Nails)",
+      "second_half_target": "2 mentions — second ~1100 words (H2-5 through conclusion)",
+      "strong_tag_rule": "EVERY single mention of 'nail color psychology' — all 6 — wrapped in <strong> tags. Scan after every paragraph.",
+      "keywords_to_avoid_active": [
+        "nails by mood", "dopamine nails", "heartbreak nail designs", "nails for confidence",
+        "romantic nails", "dark feminine nails", "happy nails", "witchy nails", "goth nails",
+        "pastel goth nails", "mob wife nails", "blue nails", "coffin ombre nails"
+      ]
+    },
+
+    "block_2_word_budget": {
+      "total_target": "2200 words — +/-50 words tolerance, never exceed",
+      "introduction": "220 words",
+      "conclusion": "180 words",
+      "h2_budgets": [
+        { "heading": "What Is Nail Color Psychology, Exactly?", "budget": 180, "complexity": "low" },
+        { "heading": "Does Your Nail Color Really Affect Your Mood?", "budget": 260, "complexity": "medium" },
+        { "heading": "What Red Nails Say About You (Plus the Viral Red Nail Theory)", "budget": 300, "complexity": "high" },
+        { "heading": "What Blue Nails Say About You", "budget": 180, "complexity": "low" },
+        { "heading": "What Black Nails Say About You", "budget": 180, "complexity": "low" },
+        { "heading": "What Pink and Nude Nails Say About You", "budget": 200, "complexity": "medium" },
+        { "heading": "Can Nail Color Influence How Others Perceive You?", "budget": 220, "complexity": "medium" },
+        { "heading": "How to Choose a Nail Color Based on Your Mood", "budget": 280, "complexity": "high" }
+      ],
+      "tracking_rule": "Track running word total at the end of every H2 section. If a section runs over budget, cut before moving to the next section. Do not compensate later."
+    },
+
+    "block_3_image_plan": {
+      "total_images": 9,
+      "hero_image": "Frontmatter only — NEVER appears in post body. Suggested: flatlay of 4-5 nail polish bottles in red, blue, black, nude, pink, editorial styling.",
+      "body_images": 8,
+      "assignments": [
+        { "image_number": 1, "place_after": "What Is Nail Color Psychology, Exactly?", "section_context": "Editorial flatlay of varied manicured nails / polish bottles representing the breadth of colour choice" },
+        { "image_number": 2, "place_after": "Does Your Nail Color Really Affect Your Mood?", "section_context": "Two contrasting manicures side by side — energetic red/pink vs. calming blue — visually reinforcing the mood-colour link" },
+        { "image_number": 3, "place_after": "What Red Nails Say About You (Plus the Viral Red Nail Theory)", "section_context": "Bold glossy red manicure, confident hand pose" },
+        { "image_number": 4, "place_after": "What Blue Nails Say About You", "section_context": "Serene blue or navy manicure, calm minimal styling" },
+        { "image_number": 5, "place_after": "What Black Nails Say About You", "section_context": "Sleek black manicure, dramatic high-contrast styling" },
+        { "image_number": 6, "place_after": "What Pink and Nude Nails Say About You", "section_context": "Soft pink/nude manicure, romantic soft-light styling" },
+        { "image_number": 7, "place_after": "Can Nail Color Influence How Others Perceive You?", "section_context": "Manicured hand in a real social/professional context — e.g. handshake, holding a coffee cup" },
+        { "image_number": 8, "place_after": "How to Choose a Nail Color Based on Your Mood", "section_context": "Inspirational closing flatlay — multiple polish bottles arranged like a mood board" }
+      ],
+      "image_type_rule": "ALL body images = inspirational nail design / lifestyle images. NO infographics. NO charts. NO process diagrams, despite the data/research content — translate stats into prose, not visuals.",
+      "path_rule": "/images/blog/mood-nails/nail-color-psychology/filename.webp"
+    },
+
+    "block_4_opening_technique_assignments": {
+      "rule": "No two consecutive sections use the same technique. Conclusion = Technique 1 (The Claim) or Technique 3 (The Reframe) only. NOTE: cross-reference exact technique numbering against Blog Gen Agent's canonical opening-technique list — labels below are descriptive and may need remapping to that list's numbering.",
+      "assignments": [
+        { "section": "Introduction", "technique": "The Question — open on the autopilot-habit curiosity hook" },
+        { "section": "What Is Nail Color Psychology, Exactly?", "technique": "The Myth-Bust — clear away vague 'vibes' framing with a real definition" },
+        { "section": "Does Your Nail Color Really Affect Your Mood?", "technique": "The Stat — lead with the 68% survey figure" },
+        { "section": "What Red Nails Say About You (Plus the Viral Red Nail Theory)", "technique": "The Scene — TikTok viral moment / #rednailtheory" },
+        { "section": "What Blue Nails Say About You", "technique": "The Direct Address — speak straight to the reader's own habit" },
+        { "section": "What Black Nails Say About You", "technique": "The Contrast — set against red's high-energy read" },
+        { "section": "What Pink and Nude Nails Say About You", "technique": "The Question" },
+        { "section": "Can Nail Color Influence How Others Perceive You?", "technique": "The Stat" },
+        { "section": "How to Choose a Nail Color Based on Your Mood", "technique": "The Direct Address" },
+        { "section": "Conclusion", "technique": "Technique 1 — The Claim" }
+      ],
+      "banned_opener_rule": "Check every opener against banned_opening_approaches in the Blog Gen prompt before writing the second sentence."
+    },
+
+    "block_5_link_placements": {
+      "rule": "Every link placed exactly where specified. Anchor texts used verbatim — never rewritten. Links woven into prose naturally — never standalone CTAs.",
+      "links": [
+        { "anchor_text": "nails by mood", "full_url": "/blog/mood-nails/nails-by-mood", "place_in_section": "Introduction or Conclusion", "placement_context": "Position this post as the evidence-based companion to the pillar's broader mood-colour map", "link_type": "cluster-pillar" },
+        { "anchor_text": "dopamine nails", "full_url": "/blog/mood-nails/dopamine-nails", "place_in_section": "Does Your Nail Color Really Affect Your Mood?", "placement_context": "Link out when discussing bright, energising shades and the science behind them", "link_type": "cluster-spoke" },
+        { "anchor_text": "dark feminine nails", "full_url": "/blog/mood-nails/dark-feminine-nails", "place_in_section": "What Black Nails Say About You", "placement_context": "Link out when discussing black's 'rebellious/independent' association toward the full dark-aesthetic guide", "link_type": "cluster-spoke" },
+        { "anchor_text": "nails for confidence", "full_url": "/blog/mood-nails/nails-for-confidence", "place_in_section": "How to Choose a Nail Color Based on Your Mood", "placement_context": "Direct readers chasing a confidence boost to the dedicated confidence-mood spoke", "link_type": "cluster-spoke" },
+        { "anchor_text": "how nail colour psychology plays out at an actual job interview", "full_url": "https://mirelleinspo.com/work-nails/nails-for-job-interview", "place_in_section": "Can Nail Color Influence How Others Perceive You?", "placement_context": "Extend the perception point into the highest-stakes real scenario readers will recognise", "link_type": "cross-site" },
+        { "anchor_text": "the full breakdown of which colours read as professional at work", "full_url": "https://mirelleinspo.com/work-nails/work-appropriate-nail-colors", "place_in_section": "How to Choose a Nail Color Based on Your Mood", "placement_context": "Practical follow-on resource for readers applying the mood-colour logic to office dressing", "link_type": "cross-site" }
+      ]
+    },
+
+    "block_6_aeo_geo_plan": {
+      "aeo_assignments": [
+        { "aeo_term": "What is nail color psychology?", "assigned_to_section": "What Is Nail Color Psychology, Exactly?", "execution": "Write a direct 2-3 sentence answer immediately after the H2 — before any elaboration. This is the AI-answer-engine extraction target." },
+        { "aeo_term": "Does nail polish color actually affect your mood?", "assigned_to_section": "Does Your Nail Color Really Affect Your Mood?", "execution": "Direct 2-3 sentence answer citing the 68% survey stat immediately after the heading." },
+        { "aeo_term": "Is the Red Nail Theory backed by any science?", "assigned_to_section": "What Red Nails Say About You (Plus the Viral Red Nail Theory)", "execution": "Direct answer referencing the NCBI study before elaborating on the TikTok trend narrative." },
+        { "aeo_term": "What does blue nail polish symbolize?", "assigned_to_section": "What Blue Nails Say About You", "execution": "Direct 2-sentence answer immediately after heading." },
+        { "aeo_term": "What does black nail polish say about your personality?", "assigned_to_section": "What Black Nails Say About You", "execution": "Direct 2-sentence answer immediately after heading." },
+        { "aeo_term": "Does wearing nude nail polish mean anything psychologically?", "assigned_to_section": "What Pink and Nude Nails Say About You", "execution": "Direct 2-sentence answer immediately after heading, covering both pink and nude." },
+        { "aeo_term": "Can nail color influence how others perceive you?", "assigned_to_section": "Can Nail Color Influence How Others Perceive You?", "execution": "Direct 2-3 sentence answer immediately after heading before the job-interview example." },
+        { "aeo_term": "What nail color should I wear to feel confident?", "assigned_to_section": "How to Choose a Nail Color Based on Your Mood", "execution": "Direct, practical 2-3 sentence answer immediately after heading." }
+      ],
+      "geo_entity_statements": [
+        { "entity": "Color psychology", "assigned_to_section": "What Is Nail Color Psychology, Exactly?", "execution": "Confident declarative definition: the study of how hue affects emotion, cognition, and behaviour — no hedging." },
+        { "entity": "Limbic system", "assigned_to_section": "Does Your Nail Color Really Affect Your Mood?", "execution": "Clear declarative sentence defining it as the brain region governing emotion and memory, explaining the neurological basis of colour-mood links." },
+        { "entity": "Red Nail Theory", "assigned_to_section": "What Red Nails Say About You (Plus the Viral Red Nail Theory)", "execution": "Define clearly: a TikTok-originated theory (coined ~2022) claiming red nail polish increases romantic/social attention — now examined by psychologists and matchmakers." }
+      ]
+    },
+
+    "block_7_active_constraints": {
+      "em_dash_banned": "Long em dash does not appear anywhere. If one forms while writing — stop, replace with: comma / new sentence / parentheses / but / restructure.",
+      "banned_vocab_watch": "NOTE: exact Mirellé banned-word list not available in this research pass — cross-reference before publish. Likely candidates to catch for this topic based on competitor overuse: 'unleash', 'elevate', 'game-changer', 'effortlessly chic', 'must-have', 'in today's world', 'in the realm of', 'embrace your inner', 'canvas for self-expression' (overused across nail-color-psychology competitors specifically).",
+      "british_english_active": "colour, recognise, -ise, -our — every instance, no exceptions",
+      "keyword_density_reminder": "After every 2 H2 sections — count current keyword mentions. Verify running total is on track to hit 6 total. First half must run denser (4) than second half (2). Adjust if needed.",
+      "image_path_reminder": "/images/blog/mood-nails/nail-color-psychology/filename.webp — topic_slug in path always",
+      "internal_link_url_reminder": "Cluster links = /blog/mood-nails/[slug]. Cross-site links = exact URL as discovered. Never bare /slug.",
+      "hero_image_reminder": "Hero = frontmatter only. Never place hero image in body.",
+      "strong_tag_reminder": "Every primary keyword mention = <strong> tags. Scan after every paragraph."
+    }
+  }
+}
