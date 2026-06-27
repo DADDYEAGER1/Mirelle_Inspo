@@ -1,0 +1,602 @@
+{
+  "section_1_file_authority": {
+    "statement": "THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly."
+  },
+
+  "section_2_post_constants": {
+    "slug": "save-money-on-nails",
+    "topic_slug": "nail-costs",
+    "canonical": "https://mirelleinspo.com/blog/nail-costs/save-money-on-nails",
+    "post_type": "spoke",
+    "intent": "tutorial",
+    "word_count": 2100,
+    "image_count": 5,
+    "template": "split-left",
+    "hero_dimensions": "800x800",
+    "category": "Nail Care Guide",
+    "publish_date": "2026-07-01",
+    "author": "Mirellé Team"
+  },
+
+  "section_3_cluster_snapshot": {
+    "pillar_slug": "how-much-do-nails-cost",
+    "pillar_title": "How Much Do Nails Cost: Complete Pricing Guide",
+    "pillar_primary_keyword": "how much do nails cost",
+    "this_post_slug": "save-money-on-nails",
+    "this_post_role": "spoke",
+    "keywords_to_avoid": [
+      "how much do nails cost",
+      "gel nails cost",
+      "acrylic nails cost",
+      "manicure cost",
+      "pedicure cost",
+      "nail fills cost",
+      "BIAB cost",
+      "dip powder cost",
+      "expensive nail salons worth it",
+      "nail salon cost by state",
+      "gel vs acrylic almond nails",
+      "manicure vs pedicure difference",
+      "acrylic vs gel vs press-on prom nails",
+      "almond nails beginners guide",
+      "why do nails hurt after acrylics",
+      "gel vs acrylic nails for work"
+    ]
+  },
+
+  "section_4_serp_analysis": {
+    "blog_gen_instruction": "Use competitor gaps and missing semantic territory to fill what competitors miss. Our strategic approach is the angle for the introduction and conclusion.",
+    "top_3_ranking_posts_word_count_estimates": {
+      "post_1": "Refinery29 — ~1,800 words, 7 H2s, expert-sourced tips",
+      "post_2": "LiveAbout — ~1,200 words, 8 tips, listicle format",
+      "post_3": "TrueTrae / KiaraSky — ~1,400 words, 5-6 tips, basic listicle",
+      "average": 1467,
+      "floor": 1467,
+      "ceiling_applied": 2800,
+      "word_count_set": 2100
+    },
+    "top_3_keyword_density_baseline": {
+      "note": "Primary keyword 'how to save money on nails' is a long query. Top competitors use it 3–5 times directly; shorter variants ('save money on nails', 'save money on manicures') used 6–10 times. Baseline: 6 direct primary keyword mentions across top 3 posts average.",
+      "baseline": 6
+    },
+    "competitor_gaps": [
+      "No competitor gives a clear cost-per-year calculation showing exactly how much is saved by each strategy — they state savings exist but never quantify them with real numbers (demand confirmed: YouTube + Quora)",
+      "No competitor covers the 'recession nails' approach as a strategic framework — most just list tips without a decision tree for which strategy fits which budget situation (demand confirmed: NBC News + Yahoo Lifestyle + multiple YouTube titles)",
+      "None explain the manicure longevity principle clearly: that a longer-lasting service (gel/BIAB) is often cheaper per week than regular polish, with actual per-week cost maths (demand confirmed: Refinery29 + multiple YouTube videos)",
+      "No competitor distinguishes between salon-optimisation strategies vs full DIY vs hybrid approaches — readers get a mixed list with no framework for choosing their route (demand confirmed: Reddit + YouTube audience comments)",
+      "Beauty school savings are mentioned by several competitors but none explain how to find one, what to expect, or when quality is acceptable — leaving readers unable to act on the tip (demand confirmed: Quora + Frugal Ginger)"
+    ],
+    "missing_semantic_territory": [
+      "Cost-per-week framing for service comparison (gel vs regular polish per week)",
+      "The 'fill vs full set' savings calculation for acrylic and gel clients",
+      "Aftercare as an investment — daily cuticle oil and top coat extending manicure life from 10 to 14+ days",
+      "The beauty school option — specific guidance on how and when to use it",
+      "Press-on nails as a genuine budget strategy, not a compromise"
+    ],
+    "our_strategic_approach": "Most guides dump a list of tips. This post frames saving money on nails as a system with three distinct routes: salon smart (staying in the salon but spending less per visit), hybrid (DIY maintenance + occasional salon), and full DIY. Every tip is anchored to one of these three routes. Readers leave with a clear decision on which path suits their lifestyle — not just a generic list. We also include actual weekly cost maths, which no competitor does.",
+    "recommended_image_count_validation": "Intent = tutorial. Image count rule = 5 total (including hero). Confirmed appropriate — tutorial posts in this space use 4–6 images. Set at 5."
+  },
+
+  "section_5_audience_intelligence": {
+    "blog_gen_instruction": "This is your primary creative brief. Every paragraph written for this specific person with this specific intent. Satisfy them completely.",
+    "who_they_are": "Women aged 25–40, regular salon-goers who genuinely love having their nails done but feel the cost creeping up — especially with gel, fills, and nail art. They are not trying to quit the salon entirely; they want to spend smarter without their nails looking cheap. Skews toward US (with UK/AU secondary). They have likely already read a pricing post and are now asking 'okay, but how do I actually spend less?'",
+    "what_they_want_from_this_post": "Actionable strategies they can implement at their next appointment or at home, with enough specificity that they can actually act — not vague advice like 'do your nails at home' but a real starting point. They want to know which strategy saves the most without sacrificing the quality they care about.",
+    "what_frustrates_them": "Generic tip lists with no context on which tip applies to their situation. Being told to 'just do your own nails' without any guidance. Savings claims with no actual numbers. Content that treats frugality as giving up — they want to feel smart, not cheap.",
+    "top_5_pain_points": [
+      "Salon costs are climbing — gel manicures that cost $45 two years ago now cost $65–$80, and fills are barely cheaper",
+      "Manicures don't last long enough to justify the price — chips in week one mean they're back before the two-week mark",
+      "They've heard 'do your nails at home' but don't know where to start or whether the result will look acceptable",
+      "Nail art and add-ons are where costs balloon — they feel pressured to say yes in the salon chair",
+      "They don't know when fills stop making sense and a full set is actually more economical"
+    ],
+    "exact_user_phrases": [
+      "I spend like $80 every two weeks I can't keep doing this",
+      "how do people afford to get their nails done constantly",
+      "is doing your own nails actually worth it",
+      "how long does gel last if you take care of it properly",
+      "are beauty schools actually good for nails",
+      "I want my nails done but I'm on a budget",
+      "how do I make my manicure last longer",
+      "what's the cheapest way to have nice nails",
+      "is it worth buying a gel kit at home",
+      "how much can you actually save by doing your own nails"
+    ],
+    "intent_content_signals": [
+      "Tutorial intent — readers want step-by-step logic, not inspiration",
+      "They need a decision framework, not a list — 'which strategy is right for me'",
+      "Specific numbers and savings estimates are highly engaging (confirmed by YouTube view counts on 'I save $X doing my own nails' titles)",
+      "Short sections with clear headings — they will skim first, then dive into the relevant section",
+      "Reassurance that quality doesn't have to be sacrificed — this is the core emotional need",
+      "British English audience secondary (UK readers searching for salon saving tips — Airtasker UK data confirms)"
+    ]
+  },
+
+  "section_6_semantic_keyword_data": {
+    "blog_gen_instruction": "Primary keyword in strong tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.",
+    "primary_keyword": "how to save money on nails",
+    "keyword_variations": [
+      "save money on nails",
+      "save money on nail appointments",
+      "spend less on nails",
+      "reduce nail salon costs",
+      "affordable nail care",
+      "cheap nail tips without sacrificing quality",
+      "cut nail salon costs",
+      "budget-friendly nail care"
+    ],
+    "cluster_keywords": [
+      "nail salon budget tips",
+      "DIY nails at home",
+      "make manicure last longer",
+      "press-on nails as alternative",
+      "beauty school nails",
+      "nail fill vs full set cost",
+      "gel nails vs regular polish cost per week",
+      "cuticle oil to extend manicure",
+      "off-peak salon discounts",
+      "bring your own nail polish to salon",
+      "nail aftercare tips",
+      "nail salon loyalty programmes",
+      "colour change instead of full manicure",
+      "Groupon nail salon deals",
+      "home gel nail kit worth it"
+    ],
+    "lsi_terms": [
+      "gel manicure",
+      "regular polish",
+      "nail tech",
+      "nail salon visit",
+      "fill appointment",
+      "full set",
+      "press-on nails",
+      "cuticle oil",
+      "top coat",
+      "chip resistance",
+      "nail longevity",
+      "at-home manicure",
+      "UV lamp",
+      "nail kit",
+      "salon hacks",
+      "nail budget",
+      "colour change",
+      "beauty school manicure",
+      "nail aftercare",
+      "manicure frequency"
+    ],
+    "aeo_terms": [
+      "How can I save money on nails without giving them up?",
+      "What is the cheapest way to maintain nice nails?",
+      "Is it cheaper to do your nails at home or go to the salon?",
+      "How much money can you save by doing your nails yourself?",
+      "How do I make my gel manicure last longer to save money?",
+      "Are beauty school manicures good quality?",
+      "What is the most affordable long-lasting nail service?",
+      "Is buying a home gel nail kit worth the money?",
+      "How often should I get my nails done to save money?",
+      "What is the cheapest way to have salon-quality nails?",
+      "How do I save money on nail fills?",
+      "Can press-on nails really replace salon nails on a budget?"
+    ],
+    "technical_terms": [
+      "gel overlay",
+      "fill appointment (rebalance)",
+      "builder gel",
+      "UV/LED lamp",
+      "acetone soak-off removal",
+      "dehydrator and primer",
+      "cuticle care",
+      "colour change service"
+    ],
+    "user_language": [
+      "I can't keep spending $80 every two weeks",
+      "are they actually worth it",
+      "I want to stop wasting money at the salon",
+      "my manicure chips before the two-week mark",
+      "doing my own nails saves me hundreds",
+      "I love my nails done but the cost is insane",
+      "is it hard to do your own gel at home",
+      "beauty school nails — any good?"
+    ]
+  },
+
+  "section_7_voice_and_ai_queries": {
+    "blog_gen_instruction": "Answer every query directly in the relevant H2 section body. If a query cannot be addressed naturally in the body, route it to faqItems. No query left unanswered.",
+    "queries": [
+      "How can I save money on nails without stopping getting them done?",
+      "What is the cheapest way to maintain nice nails?",
+      "Is it cheaper to do your nails at home?",
+      "How much money can I save by doing my nails myself?",
+      "How do I make my manicure last longer so I don't have to go back so soon?",
+      "Are beauty school nail appointments actually any good?",
+      "Is gel cheaper than regular polish in the long run?",
+      "How do I know when to get a fill vs a full new set?",
+      "What is the best home gel nail kit for beginners?",
+      "Can press-on nails really look as good as salon nails?",
+      "How do I stop my nails chipping so fast?",
+      "Is it worth bringing my own nail polish to the salon?",
+      "What nail services should I skip to save money?",
+      "How often should I realistically be getting my nails done?",
+      "How do I find the cheapest nail salon without getting a bad manicure?",
+      "What is recession nails and does it actually save money?"
+    ]
+  },
+
+  "section_8_hook_and_ctr": {
+    "blog_gen_instruction": "READ THIS SECTION BEFORE WRITING THE TITLE, META DESCRIPTION, INTRO, OR FIRST H2. The title and description are hardcoded here — use them exactly. The intro hook brief and first H2 hook direction are your creative brief for those specific elements. Do not deviate.",
+    "selected_trigger": "Trigger 3 — Specificity / Numbers",
+    "trigger_rationale": "The reader has already absorbed the cost data from other cluster posts and wants a concrete action plan — numbered, specific, and promise-driven content is exactly what converts this tutorial-intent reader into a post they will complete and act on.",
+    "title": "How to Save Money on Nails Without Sacrificing Quality",
+    "title_char_count": 54,
+    "meta_description": "Spending too much on nails? These proven strategies cut your salon bill without touching your standards — from smarter salon habits to at-home setups that actually work.",
+    "meta_char_count": 155,
+    "intro_hook_brief": "Open with the actual number — how much the average person spends on nails annually. Immediately flip it: the point is not to stop, it is to stop spending carelessly. Every strategy in this post keeps quality intact. The reader should feel seen, not judged.",
+    "first_h2_hook_direction": "Phrase the first H2 as a decision question the reader is already carrying — something like 'Is Gel Actually Cheaper Than Regular Polish?' to signal that the post will challenge assumptions, not just repeat advice they've already heard."
+  },
+
+  "section_9_search_journey": {
+    "blog_gen_instruction": "This is the emotional contract with the reader. Every section of the post must honour the promise made. Read this before writing any section. If a paragraph breaks the journey arc — rewrite it.",
+    "reader_arrival_state": "Motivated but slightly frustrated — she loves her nails but the cost is starting to feel unsustainable, and she's ready to do something about it without giving up the thing she enjoys.",
+    "journey_arc": [
+      "Open by validating the frustration with a real number, then reframe: this is not about quitting the salon, it is about spending with intention",
+      "Challenge the first assumption: not all cheap choices save money (regular polish being cheaper than gel upfront but more expensive per week)",
+      "Walk through the three routes in sequence: salon-smart, hybrid, full DIY — each section with specific and actionable guidance",
+      "Address the practical barriers — beauty schools, at-home kits, press-ons — with enough detail to actually act",
+      "Close with the aftercare principle: the single daily habit that extends every manicure and pays for itself ten times over"
+    ],
+    "promise_to_deliver": "By the end of this post, the reader will know exactly which money-saving route fits her life and have at least one concrete thing she can do differently at her very next appointment or at home.",
+    "exit_state": "Clear, capable, and slightly excited — she has a plan, not just a list of tips."
+  },
+
+  "section_10_content_structure": {
+    "blog_gen_instruction": "This H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s without user instruction. Word budget per section is set — follow it. H3s may be added at editorial discretion.",
+    "h1": "How to Save Money on Nails Without Sacrificing Quality",
+    "h2_structure": [
+      "Is Gel Actually Cheaper Than Regular Polish per Week?",
+      "How to Spend Less at the Salon Without Downgrading",
+      "When Does a Fill Save You Money — and When Does It Not?",
+      "How to Make Your Manicure Last Longer (So You Go Less Often)",
+      "Are Beauty School Nails Worth It?",
+      "How to Do Your Own Nails at Home Without It Looking DIY",
+      "Can Press-On Nails Actually Replace Salon Nails on a Budget?"
+    ],
+    "word_budget": {
+      "introduction": 220,
+      "h2_1_is_gel_actually_cheaper": 280,
+      "h2_2_spend_less_at_salon": 320,
+      "h2_3_when_does_fill_save_money": 250,
+      "h2_4_make_manicure_last_longer": 300,
+      "h2_5_beauty_school": 220,
+      "h2_6_diy_at_home": 280,
+      "h2_7_press_on_nails": 230,
+      "conclusion": 165,
+      "total": 2265,
+      "tolerance_note": "Targeting 2100 words; write to brief, trim where padding occurs"
+    }
+  },
+
+  "section_11_internal_links": {
+    "blog_gen_instruction": "Every link below must appear in the post. Cluster links use anchor texts verbatim — do not rewrite. Cross-site links use the provided descriptive anchor. Place each link where the placement note says — woven naturally into prose, never as a standalone CTA. Total internal links must not exceed 6.",
+    "all_internal_links": [
+      {
+        "url_or_slug": "/blog/nail-costs/how-much-do-nails-cost",
+        "title": "How Much Do Nails Cost: Complete Pricing Guide",
+        "anchor_text": "how much do nails cost",
+        "placement_note": "Introduction — when referencing the baseline cost context that motivates this post",
+        "link_type": "cluster-pillar"
+      },
+      {
+        "url_or_slug": "/blog/nail-costs/nail-fills-cost",
+        "title": "How Much Do Nail Fills Cost",
+        "anchor_text": "nail fills cost",
+        "placement_note": "H2: 'When Does a Fill Save You Money' — natural link when explaining fill pricing",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/nail-costs/dip-powder-cost",
+        "title": "How Much Does Dip Powder Cost",
+        "anchor_text": "dip powder cost",
+        "placement_note": "H2: 'How to Do Your Own Nails at Home' — when mentioning at-home dip as an option alongside gel",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/nail-costs/nail-salon-cost-by-state",
+        "title": "Nail Salon Cost by State: US Pricing Guide",
+        "anchor_text": "nail salon cost by state",
+        "placement_note": "H2: 'How to Spend Less at the Salon' — when noting that prices vary significantly by region",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/blog/press-on-almond-nails",
+        "title": "Best Press-On Almond Nails 2026: Six Sets Worth It",
+        "anchor_text": "how to choose press-on nail sets that actually last two weeks with proper prep",
+        "placement_note": "H2: 'Can Press-On Nails Actually Replace Salon Nails' — directly relevant to the section's content on press-on quality and longevity",
+        "link_type": "cross-site"
+      }
+    ]
+  },
+
+  "section_12_voice_tone": {
+    "blog_gen_instruction": "This is the voice for this specific post. Layer on top of Mirellé editorial framework. Do not default to generic AI tone.",
+    "recommended_voice": "Confident money-smart friend",
+    "tone_characteristics": [
+      "Direct and non-judgmental — treats the reader as financially intelligent, not as someone who has been reckless",
+      "Warm but not soft — this is an action-oriented post, not a supportive chat; the tone moves forward",
+      "Quantified — uses real numbers wherever possible; avoids vague claims like 'significant savings'",
+      "Permission-giving — reassures the reader that quality does not have to be sacrificed; this is a smart choice not a downgrade"
+    ],
+    "language_style": "Short-to-medium sentences. Active voice. Speak directly to 'you'. Avoid jargon without explanation. Mirror real user phrases from research where natural (e.g. 'the cost adds up fast', 'before the two-week mark'). British English throughout — colour, recognise, -ise endings.",
+    "audience_match": "This reader respects practical guidance delivered with confidence. She doesn't need hand-holding but does need enough specificity to act. The 'confident money-smart friend' voice matches the tutorial intent — she came here for a real answer, not encouragement."
+  },
+
+  "section_13_external_links": {
+    "blog_gen_instruction": "Include all external links where indicated. Supports E-E-A-T. Use anchor suggestion as guide — write naturally around it.",
+    "links": [
+      {
+        "url": "https://www.refinery29.com/en-us/affordable-manicure-nail-care",
+        "context": "H2: 'How to Spend Less at the Salon' — when citing expert-sourced advice from professional manicurists on the colour-change strategy and gel removal savings",
+        "anchor_suggestion": "professional manicurists at Refinery29"
+      },
+      {
+        "url": "https://www.nailpro.com/business/article/21520839/salon-services-vs-athome-self-care-what-you-should-know",
+        "context": "H2: 'How to Do Your Own Nails at Home' — when noting industry data that 34% of at-home nail converts during the pandemic continued after salons reopened",
+        "anchor_suggestion": "Nailpro's industry research on at-home nail care"
+      },
+      {
+        "url": "https://www.nbcnews.com/select/shopping/recession-nails-rcna203030",
+        "context": "H2: 'How to Make Your Manicure Last Longer' — when citing pro nail tech advice on daily top coat and gloves while cleaning",
+        "anchor_suggestion": "nail technicians speaking to NBC Select"
+      }
+    ]
+  },
+
+  "section_14_execution_plan": {
+    "blog_gen_instruction": "READ THIS SECTION FIRST. Lock every value. Execute exactly. Do not recalculate, do not adjust, do not deviate.",
+
+    "block_1_keyword_execution": {
+      "primary_keyword": "how to save money on nails",
+      "top_3_density_baseline": 6,
+      "total_mention_target": 9,
+      "total_mention_calculation": "6 baseline + 3 additional = 9 total mentions of 'how to save money on nails' across the full post",
+      "first_100_words_plan": {
+        "rule": "Primary keyword MUST appear TWICE in the first 100 words. Mandatory. No exceptions.",
+        "mention_1": "Sentence 2–3 of introduction — opening statement framing the post topic directly around the primary keyword",
+        "mention_2": "Sentence 4–6 of introduction — reinforcing the post's promise before the first H2"
+      },
+      "first_half_target": "5 mentions — first 1050 words. Run denser in first half.",
+      "second_half_target": "4 mentions — second 1050 words.",
+      "strong_tag_rule": "EVERY single mention of the primary keyword — all 9 of them — wrapped in <strong> tags. No exceptions. Catch each one as it is written. Scan after every paragraph.",
+      "keywords_to_avoid_active": [
+        "how much do nails cost",
+        "gel nails cost",
+        "acrylic nails cost",
+        "manicure cost",
+        "pedicure cost",
+        "nail fills cost",
+        "BIAB cost",
+        "dip powder cost",
+        "expensive nail salons worth it",
+        "nail salon cost by state",
+        "gel vs acrylic almond nails",
+        "manicure vs pedicure difference",
+        "acrylic vs gel vs press-on prom nails",
+        "almond nails beginners guide",
+        "why do nails hurt after acrylics",
+        "gel vs acrylic nails for work"
+      ]
+    },
+
+    "block_2_word_budget": {
+      "total_target": "2100 words — +/-50 words tolerance, never exceed 2150",
+      "introduction": "220 words",
+      "conclusion": "165 words",
+      "h2_budgets": [
+        {
+          "heading": "Is Gel Actually Cheaper Than Regular Polish per Week?",
+          "budget": "280 words",
+          "complexity": "medium — requires per-week cost maths; keep it tight and visual"
+        },
+        {
+          "heading": "How to Spend Less at the Salon Without Downgrading",
+          "budget": "320 words",
+          "complexity": "high — most tips live here; highest reader utility section"
+        },
+        {
+          "heading": "When Does a Fill Save You Money — and When Does It Not?",
+          "budget": "250 words",
+          "complexity": "medium — decision-logic driven; needs clear rule of thumb"
+        },
+        {
+          "heading": "How to Make Your Manicure Last Longer (So You Go Less Often)",
+          "budget": "300 words",
+          "complexity": "high — multiple actionable habits; readers will save this section"
+        },
+        {
+          "heading": "Are Beauty School Nails Worth It?",
+          "budget": "220 words",
+          "complexity": "low-medium — concise verdict with clear caveats"
+        },
+        {
+          "heading": "How to Do Your Own Nails at Home Without It Looking DIY",
+          "budget": "280 words",
+          "complexity": "medium — practical starting point guidance; not a full tutorial"
+        },
+        {
+          "heading": "Can Press-On Nails Actually Replace Salon Nails on a Budget?",
+          "budget": "230 words",
+          "complexity": "low-medium — verdict-driven, realistic about occasions and longevity"
+        }
+      ],
+      "tracking_rule": "Track running word total at the end of every H2 section. If a section is running over budget — cut before moving to the next section. Do not compensate later."
+    },
+
+    "block_3_image_plan": {
+      "total_images": 5,
+      "hero_image": "frontmatter only — NEVER appears in post body",
+      "body_images": 4,
+      "assignments": [
+        {
+          "image_number": 1,
+          "place_after": "H2: Is Gel Actually Cheaper Than Regular Polish per Week?",
+          "section_context": "Inspirational nail image — a clean gel manicure representing the quality end of the cost-value conversation"
+        },
+        {
+          "image_number": 2,
+          "place_after": "H2: How to Make Your Manicure Last Longer (So You Go Less Often)",
+          "section_context": "Inspirational nail image — nails with a high-gloss top coat finish, visually supporting the 'maintain your manicure' theme"
+        },
+        {
+          "image_number": 3,
+          "place_after": "H2: How to Do Your Own Nails at Home Without It Looking DIY",
+          "section_context": "Inspirational nail image — clean, polished at-home gel or press-on result that looks salon quality"
+        },
+        {
+          "image_number": 4,
+          "place_after": "H2: Can Press-On Nails Actually Replace Salon Nails on a Budget?",
+          "section_context": "Inspirational nail image — a high-quality press-on set in an almond or classic shape that reads as salon-level"
+        }
+      ],
+      "image_type_rule": "ALL body images = inspirational nail design images related to the topic. NO infographics. NO process diagrams. NO comparison charts. NO step-by-step visuals.",
+      "path_rule": "/images/blog/nail-costs/save-money-on-nails/filename.webp — topic_slug in path, slug folder, leading slash"
+    },
+
+    "block_4_opening_technique_assignments": {
+      "rule": "No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.",
+      "assignments": [
+        {
+          "section": "Introduction",
+          "technique": "Technique 2 — The Provocation (open with the number that makes the reader stop)"
+        },
+        {
+          "section": "Is Gel Actually Cheaper Than Regular Polish per Week?",
+          "technique": "Technique 4 — The Assumption Flip (challenge what the reader thinks is the cheaper option)"
+        },
+        {
+          "section": "How to Spend Less at the Salon Without Downgrading",
+          "technique": "Technique 1 — The Claim (state the section's core promise immediately)"
+        },
+        {
+          "section": "When Does a Fill Save You Money — and When Does It Not?",
+          "technique": "Technique 3 — The Reframe (reframe fills not as routine but as a decision with a tipping point)"
+        },
+        {
+          "section": "How to Make Your Manicure Last Longer (So You Go Less Often)",
+          "technique": "Technique 1 — The Claim (open with the single most impactful habit)"
+        },
+        {
+          "section": "Are Beauty School Nails Worth It?",
+          "technique": "Technique 4 — The Assumption Flip (challenge the assumption that beauty school means lower quality)"
+        },
+        {
+          "section": "How to Do Your Own Nails at Home Without It Looking DIY",
+          "technique": "Technique 2 — The Provocation (open with the actual savings figure — hundreds per year)"
+        },
+        {
+          "section": "Can Press-On Nails Actually Replace Salon Nails on a Budget?",
+          "technique": "Technique 3 — The Reframe (reframe press-ons as a legitimate strategy, not a fallback)"
+        },
+        {
+          "section": "Conclusion",
+          "technique": "Technique 1 — The Claim (close with a direct restatement of the post's core promise delivered)"
+        }
+      ],
+      "banned_opener_rule": "Check every opener against banned_opening_approaches in blog gen prompt before writing the second sentence"
+    },
+
+    "block_5_link_placements": {
+      "rule": "Every link placed exactly where specified. Anchor texts used verbatim — never rewritten. Links woven into prose naturally — never standalone CTAs.",
+      "links": [
+        {
+          "anchor_text": "how much do nails cost",
+          "full_url": "/blog/nail-costs/how-much-do-nails-cost",
+          "place_in_section": "Introduction",
+          "placement_context": "When establishing the baseline cost context that motivates the post",
+          "link_type": "cluster-pillar"
+        },
+        {
+          "anchor_text": "nail fills cost",
+          "full_url": "/blog/nail-costs/nail-fills-cost",
+          "place_in_section": "When Does a Fill Save You Money — and When Does It Not?",
+          "placement_context": "When citing fill appointment pricing figures to support the cost calculation",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "dip powder cost",
+          "full_url": "/blog/nail-costs/dip-powder-cost",
+          "place_in_section": "How to Do Your Own Nails at Home Without It Looking DIY",
+          "placement_context": "When listing DIY service options including dip as an alternative to gel",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "nail salon cost by state",
+          "full_url": "/blog/nail-costs/nail-salon-cost-by-state",
+          "place_in_section": "How to Spend Less at the Salon Without Downgrading",
+          "placement_context": "When noting that prices vary significantly by region — link provides the geographic pricing breakdown",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "how to choose press-on nail sets that actually last two weeks with proper prep",
+          "full_url": "https://mirelleinspo.com/blog/press-on-almond-nails",
+          "place_in_section": "Can Press-On Nails Actually Replace Salon Nails on a Budget?",
+          "placement_context": "When directing the reader to specific press-on set recommendations for longevity and quality",
+          "link_type": "cross-site"
+        }
+      ]
+    },
+
+    "block_6_aeo_geo_plan": {
+      "aeo_assignments": [
+        {
+          "aeo_term": "Is it cheaper to do your nails at home or go to the salon?",
+          "assigned_to_section": "How to Do Your Own Nails at Home Without It Looking DIY",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading — before any elaboration. State the savings figure clearly: a home gel kit of ~£50/$60 pays for itself within 1–2 uses vs a £50–£70 salon appointment."
+        },
+        {
+          "aeo_term": "How do I make my gel manicure last longer to save money?",
+          "assigned_to_section": "How to Make Your Manicure Last Longer (So You Go Less Often)",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading: daily cuticle oil + top coat every 3 days + gloves while cleaning = extending 10-day wear to 14+ days."
+        },
+        {
+          "aeo_term": "Are beauty school manicures good quality?",
+          "assigned_to_section": "Are Beauty School Nails Worth It?",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading: yes for most services, supervised by qualified instructors, 40–60% cheaper — the caveat is time (appointments run longer)."
+        },
+        {
+          "aeo_term": "Is gel actually cheaper than regular polish in the long run?",
+          "assigned_to_section": "Is Gel Actually Cheaper Than Regular Polish per Week?",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading: yes — gel at £40/$50 lasting 3 weeks = ~£13/$17 per week; regular polish at £15/$20 lasting 1 week = £15/$20 per week."
+        }
+      ],
+      "geo_entity_statements": [
+        {
+          "entity": "colour change service",
+          "assigned_to_section": "How to Spend Less at the Salon Without Downgrading",
+          "execution": "Write a clear declarative definition: a colour change is a salon service where existing nails are not shaped or treated — only the polish is changed, typically costing $5–$15 vs $25–$40 for a full manicure."
+        },
+        {
+          "entity": "fill appointment",
+          "assigned_to_section": "When Does a Fill Save You Money — and When Does It Not?",
+          "execution": "Write a clear declarative definition: a fill (or infill/rebalance) is an appointment where the nail technician fills in the gap of new nail growth rather than removing and reapplying the full set — costing 40–60% less than a new set."
+        }
+      ]
+    },
+
+    "block_7_active_constraints": {
+      "em_dash_banned": "Long em dash does not appear anywhere. If one forms while writing — stop, replace with: comma / new sentence / parentheses / but / restructure.",
+      "banned_vocab_watch": [
+        "crucial",
+        "game-changer",
+        "seamlessly",
+        "elevate",
+        "transformative",
+        "luxurious",
+        "indulge"
+      ],
+      "british_english_active": "colour, recognise, -ise, -our — every instance, no exceptions",
+      "keyword_density_reminder": "After every 2 H2 sections — count current keyword mentions. Verify running total is on track to hit 9. First half (intro through H2-4) must carry 5 mentions. Second half (H2-5 through conclusion) = 4 mentions. Adjust if needed.",
+      "image_path_reminder": "/images/blog/nail-costs/save-money-on-nails/filename.webp — topic_slug in path always",
+      "internal_link_url_reminder": "Full correct paths only. Cluster links = /blog/nail-costs/[slug]. Cross-site link = exact URL as discovered. Never bare /slug.",
+      "hero_image_reminder": "Hero = frontmatter only. Never place hero image in body.",
+      "strong_tag_reminder": "Every primary keyword mention = <strong> tags. Scan after every paragraph. All 9 instances must be wrapped."
+    }
+  }
+}
