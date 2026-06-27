@@ -1,0 +1,526 @@
+{
+  "file_authority": {
+    "statement": "THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded. Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly."
+  },
+
+  "post_constants": {
+    "slug": "summer-carnival-nails",
+    "topic_slug": "carnival",
+    "canonical": "https://mirelleinspo.com/blog/carnival/summer-carnival-nails",
+    "post_type": "spoke",
+    "intent": "seasonal_trend",
+    "word_count": 2200,
+    "image_count": 9,
+    "template": "split-left",
+    "hero_dimensions": "800x800",
+    "category": "Seasonal Trends",
+    "publish_date": "2026-07-01",
+    "author": "Mirellé Team"
+  },
+
+  "cluster_snapshot": {
+    "pillar_slug": "carnival-nails",
+    "pillar_title": "Carnival Nails: 25 Bold Designs for Every Fair & Fest",
+    "pillar_primary_keyword": "carnival nails",
+    "this_post_slug": "summer-carnival-nails",
+    "this_post_role": "spoke",
+    "keywords_to_avoid": [
+      "carnival nails",
+      "circus nails",
+      "county fair nails",
+      "carnival nail art",
+      "clown core nails",
+      "carousel nails",
+      "edc nails"
+    ]
+  },
+
+  "serp_analysis": {
+    "blog_gen_instruction": "Use competitor gaps and missing semantic territory to fill what competitors miss. Our strategic approach is the angle for the introduction and conclusion.",
+    "top_3_ranking_posts_estimated_word_count": {
+      "post_1": "~1800 words (Pinterest-heavy roundup, thin editorial)",
+      "post_2": "~2000 words (general summer nails roundup with carnival tag)",
+      "post_3": "~1600 words (TikTok-driven ideas list)",
+      "average": 1800,
+      "word_count_floor": 1800,
+      "applied_word_count": 2200
+    },
+    "top_3_keyword_density_baseline": {
+      "estimated_average_mentions": 8,
+      "total_mention_target": 11
+    },
+    "competitor_gaps": [
+      "No competitor ties summer carnival nails to the 2026 Pinterest Predicts FunHaus trend — a named, validated signal that belongs specifically here",
+      "No post addresses which summer carnival nail colours work best by skin tone — high-demand PAA question confirmed on Pinterest + Quora",
+      "No competitor addresses how long summer carnival nails last outdoors in summer heat — a real reader pain point found on YouTube comments and Quora",
+      "No editorial source addresses the P!NK Summer Carnival Tour nail connection — a real cultural anchor with TikTok volume (confirmed TikTok + Pinterest demand cross-validated)",
+      "None break down summer carnival nails by nail shape — almond, coffin, short — despite high autocomplete demand for these modifiers"
+    ],
+    "missing_semantic_territory": [
+      "FunHaus 2026 trend connection to summer carnival nails",
+      "Festival durability angle — gel vs press-on for outdoor summer events",
+      "Colour palette breakdown for summer carnival specifically: neon, bright, rainbow, candy",
+      "P!NK Summer Carnival Tour aesthetic as a named cultural reference point"
+    ],
+    "our_strategic_approach": "Most summer carnival nail content is either a generic bright-nails roundup with a carnival label slapped on, or a flat list of ideas with no editorial angle. This post owns the intersection of the 2026 FunHaus/Pinterest Predicts trend, the P!NK Summer Carnival cultural moment, and the specific colour and design logic that makes a summer carnival manicure different from any other bold summer set. The post delivers both inspiration volume and directional guidance — which colours, which shapes, which finishes, for which summer occasions.",
+    "recommended_image_count_validation": "Top SERP posts for broad summer nail ideas show 9–15 images. For a spoke-level inspirational post, 9 images (1 hero + 8 body) is correct per cluster rules and matches SERP visual density."
+  },
+
+  "audience_intelligence": {
+    "blog_gen_instruction": "This is your primary creative brief. Every paragraph written for this specific person with this specific intent. Satisfy them completely.",
+    "who_they_are": "Women aged 18–35, trend-aware, planning a summer festival, fair, or outdoor event in June–August 2026. Saving nail ideas weeks in advance. Active on Pinterest and TikTok. Not necessarily a nail art expert — wants ideas they can take to their nail tech or recreate at home with gel kits. Aware of the FunHaus and maximalist nail trend direction from Pinterest Predicts.",
+    "what_they_want_from_this_post": "A curated, specifically summer-carnival-coded set of nail ideas — not just 'bright summer nails' — with enough variety across colours, shapes, and vibes to find their specific version. Wants to feel trend-informed, not overwhelmed.",
+    "what_frustrates_them": "Posts that are just generic bright nail roundups with a carnival hashtag. No guidance on colours that actually work for the carnival aesthetic vs. any random summer set. No advice for how to make the look last through a full outdoor summer event. No differentiation by nail shape or skin tone.",
+    "top_5_pain_points": [
+      "Can't find summer carnival nail ideas that feel current and 2026-specific — most posts feel recycled",
+      "Unsure which colours are actually 'summer carnival' versus just 'bright summer' — the distinction is unclear",
+      "Worried nails won't last through an outdoor festival in summer heat",
+      "Doesn't know which nail shape works best for bold carnival designs",
+      "Overwhelmed by volume of general summer nail inspo — wants a focused, themed edit"
+    ],
+    "exact_user_phrases": [
+      "what nails should I get for a summer carnival",
+      "summer carnival nail ideas 2026",
+      "bright fun nails for festival season",
+      "summer fair nails colourful",
+      "what colour nails for carnival vibes",
+      "P!NK summer carnival nails",
+      "funhaus nails 2026",
+      "nails that last at outdoor festivals",
+      "carnival themed nails bright and colourful",
+      "summer festival nails ideas",
+      "bold colourful nails summer 2026"
+    ],
+    "intent_content_signals": [
+      "Wants visual volume — multiple distinct looks, not one deep dive",
+      "Seasonal urgency — searching now for an upcoming event, not browsing abstractly",
+      "Trend validation matters — wants to know this is 2026, not last season",
+      "Practical angle wanted — durability, salon vs DIY, shape guidance",
+      "Pinterest-native format preferred — image-led, easily scannable, shareable sections"
+    ]
+  },
+
+  "semantic_keyword_data": {
+    "blog_gen_instruction": "Primary keyword in strong tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.",
+    "primary_keyword": "summer carnival nails",
+    "keyword_variations": [
+      "summer carnival nail ideas",
+      "summer carnival nail designs",
+      "summer carnival nail art",
+      "summer carnival manicure",
+      "summer carnival nails 2026",
+      "bright summer carnival nails",
+      "colourful summer carnival nails",
+      "bold summer carnival nails"
+    ],
+    "cluster_keywords": [
+      "carnival nail ideas",
+      "festival nails summer",
+      "bright festival nails",
+      "summer fair nails",
+      "bold summer nails",
+      "colourful festival nails",
+      "neon summer nails festival",
+      "FunHaus nails 2026",
+      "P!NK summer carnival nails",
+      "rainbow summer nails",
+      "skittle nails summer",
+      "summer nail art bold",
+      "outdoor festival manicure"
+    ],
+    "lsi_terms": [
+      "cotton candy nails",
+      "ferris wheel nails",
+      "bright neon gel nails",
+      "rainbow ombre nails",
+      "candy stripe nails",
+      "confetti nail art",
+      "summer fair manicure",
+      "vivid summer colours",
+      "hot pink summer nails",
+      "neon orange nails summer",
+      "bold colour clash nails",
+      "aura nails summer",
+      "maximalist summer nails",
+      "festival-proof gel nails",
+      "retro carnival aesthetic nails"
+    ],
+    "aeo_terms": [
+      "What nail colours are best for summer carnival nails?",
+      "What are summer carnival nails?",
+      "How long do summer carnival nails last at outdoor events?",
+      "What nail shape works best for carnival nail designs?",
+      "Are summer carnival nails a 2026 trend?",
+      "What colours make a summer carnival nail set?",
+      "Can you do summer carnival nails at home?",
+      "What is the FunHaus nail trend for 2026?",
+      "What nail designs go with P!NK Summer Carnival aesthetic?",
+      "How do I make bold nails last in summer heat?",
+      "What finish works best for summer carnival nails?",
+      "Are summer carnival nails suitable for short nails?"
+    ],
+    "technical_terms": [
+      "gel polish",
+      "neon pigment",
+      "skittle nails",
+      "aura nails",
+      "jelly finish",
+      "chrome powder",
+      "blooming gel",
+      "almond shape"
+    ],
+    "user_language": [
+      "nails that pop at a festival",
+      "fun and bright",
+      "loud mani",
+      "extra summer nails",
+      "screenshot-worthy nails",
+      "nails for the vibes",
+      "maximalist summer set",
+      "carnival vibes on my fingertips",
+      "colour everywhere",
+      "full send nail moment"
+    ]
+  },
+
+  "voice_and_ai_queries": {
+    "blog_gen_instruction": "Answer every query directly in the relevant H2 section body. If a query cannot be addressed naturally in the body, route it to faqItems. No query left unanswered.",
+    "queries": [
+      "What are summer carnival nails?",
+      "What colours should I use for summer carnival nails?",
+      "Are summer carnival nails on trend for 2026?",
+      "What is the best nail shape for summer carnival designs?",
+      "How long do summer carnival nails last outdoors?",
+      "Can I do summer carnival nails at home?",
+      "What is the FunHaus nail trend and how does it relate to summer carnival nails?",
+      "What nail designs fit the P!NK Summer Carnival aesthetic?",
+      "Are neon nails good for summer carnival looks?",
+      "What finish is best for outdoor summer festival nails?",
+      "Do summer carnival nails work on short nails?",
+      "What is the difference between carnival nails and summer carnival nails?",
+      "How do I make my summer carnival nails last through heat and sweat?",
+      "What nail colours are trending for summer festivals 2026?",
+      "Can I get summer carnival nails without going to a salon?"
+    ]
+  },
+
+  "hook_and_ctr": {
+    "blog_gen_instruction": "READ THIS SECTION BEFORE WRITING THE TITLE, META DESCRIPTION, INTRO, OR FIRST H2. Title and description are hardcoded — use exactly as written. Intro hook brief and first H2 hook direction are your creative brief.",
+    "selected_trigger": "Trigger 2 — FOMO / Trend Urgency",
+    "trigger_rationale": "This reader is trend-aware and actively planning a summer event — she fears missing the nails that everyone will be getting this season, and the FunHaus 2026 trend gives her a specific, named signal to act on now.",
+    "title": "Summer Carnival Nails: 15 Bright Ideas for 2026",
+    "title_char_count": 48,
+    "meta_description": "Summer carnival nails are the boldest look of 2026. See 15 bright, festival-ready designs by colour, shape, and finish — including the FunHaus trend everyone's getting.",
+    "meta_char_count": 152,
+    "intro_hook_brief": "Open with the immediacy of the trend — summer carnival season is here and the nails you wear to it are having a moment. Reference the 2026 FunHaus Pinterest Predicts signal to validate the reader's instinct that this is the summer to go bold. Position the post as the edit that gives her exactly what she needs before she books her appointment.",
+    "first_h2_hook_direction": "Frame the first H2 as a voice-search-style question that grounds the trend in a 2026 context — something like 'Why are summer carnival nails everywhere in 2026?' — and answer it with the FunHaus trend signal and the broader season pivot toward maximalist colour."
+  },
+
+  "search_journey": {
+    "blog_gen_instruction": "This is the emotional contract with the reader. Every section of the post must honour the promise made. Read this before writing any section. If a paragraph breaks the journey arc — rewrite it.",
+    "reader_arrival_state": "Trend-aware and slightly behind — she has seen summer carnival nail content on TikTok and Pinterest and wants to catch up fast before a festival, fair, or outdoor event this summer.",
+    "journey_arc": [
+      "1. Confirm she is in the right place with a strong 2026 trend statement — this is the season for bold, carnival-coded nails",
+      "2. Answer why this trend is everywhere right now (FunHaus, Pinterest Predicts, P!NK cultural moment)",
+      "3. Show the most-saved colour palettes and design directions first — give her the most popular picks fast",
+      "4. Layer in shape and finish guidance so she can personalise her version",
+      "5. Close with practical durability and booking guidance — the 'this is what to do next' moment"
+    ],
+    "promise_to_deliver": "A specific, 2026-current edit of summer carnival nail ideas that helps her arrive at her appointment knowing exactly what she wants — not overwhelmed, not under-informed.",
+    "exit_state": "Confident, inspired, and ready to screenshot and book — she knows her colour, her shape, and why this is the nail moment of the summer."
+  },
+
+  "content_structure": {
+    "blog_gen_instruction": "This H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s. Word budget per section is set — follow it. H3s may be added at editorial discretion.",
+    "h1": "Summer Carnival Nails: 15 Bright & Colourful Ideas for 2026",
+    "h2_structure": [
+      "Why Are Summer Carnival Nails Trending in 2026?",
+      "What Colours Make the Best Summer Carnival Nail Set?",
+      "Summer Carnival Nails for Every Shape: Almond, Coffin & Short",
+      "The Neon Summer Carnival Manicure",
+      "Rainbow and Skittle Summer Carnival Nails",
+      "Cotton Candy and Pastel Carnival Nails",
+      "How Long Do Summer Carnival Nails Last Outdoors?",
+      "How to Book Your Summer Carnival Nails (or DIY Them)"
+    ],
+    "word_budget": {
+      "introduction": "220 words",
+      "h2_1_why_trending": "250 words",
+      "h2_2_colours": "280 words",
+      "h2_3_shapes": "260 words",
+      "h2_4_neon": "240 words",
+      "h2_5_rainbow_skittle": "230 words",
+      "h2_6_cotton_candy": "210 words",
+      "h2_7_durability": "230 words",
+      "h2_8_booking_diy": "130 words",
+      "conclusion": "150 words",
+      "total": 2200
+    }
+  },
+
+  "internal_links": {
+    "blog_gen_instruction": "Every link below must appear in the post. Cluster links use anchor texts verbatim — do not rewrite. Cross-site links use the provided descriptive anchor. Place each link where the placement note says — woven naturally into prose, never as a standalone CTA. Total internal links must not exceed 6.",
+    "all_internal_links": [
+      {
+        "url_or_slug": "/blog/carnival/carnival-nails",
+        "title": "Carnival Nails: 25 Bold Designs for Every Fair & Fest",
+        "anchor_text": "carnival nails",
+        "placement_note": "H2 1 (Why Trending) — when explaining the broader carnival nail aesthetic this post sits within",
+        "link_type": "cluster-pillar"
+      },
+      {
+        "url_or_slug": "/blog/carnival/county-fair-nails",
+        "title": "County Fair Nails: 15 Americana Designs for Summer",
+        "anchor_text": "county fair nails",
+        "placement_note": "H2 3 (Shapes) or H2 6 (Cotton Candy) — when referencing the fairground-specific aesthetic that overlaps with pastels",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/carnival/carnival-nail-art",
+        "title": "Carnival Nail Art: Step-by-Step Stripe & Tent Designs",
+        "anchor_text": "carnival nail art",
+        "placement_note": "H2 8 (DIY section) — natural fit when advising readers who want to recreate the look at home",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/carnival/clown-core-nails",
+        "title": "Clown Core Nails: 15 FunHaus Designs for the Bold",
+        "anchor_text": "clown core nails",
+        "placement_note": "H2 4 (Neon section) — natural when discussing the maximalist, bold FunHaus direction that overlaps with clown core",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/blog/neon-summer-nails",
+        "title": "Neon Summer Nails: Bold Colours & Designs for 2026",
+        "anchor_text": "how to choose the right neon shade for your skin tone this summer",
+        "placement_note": "H2 4 (Neon section) — after recommending neon finishes, link to the deeper neon guide for readers who want more detail",
+        "link_type": "cross-site"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/blog/short-summer-nails",
+        "title": "Cute Short Summer Nails That Are Actually Practical",
+        "anchor_text": "short summer nail shapes that actually work for bold art",
+        "placement_note": "H2 3 (Shapes section) — when advising readers with shorter nails which shapes to choose",
+        "link_type": "cross-site"
+      }
+    ]
+  },
+
+  "voice_tone": {
+    "blog_gen_instruction": "This is the voice for this specific post. Layer on top of Mirellé editorial framework. Do not default to generic AI tone.",
+    "recommended_voice": "Energetic trend guide — warm, knowledgeable, slightly buzzy but grounded in real guidance",
+    "tone_characteristics": [
+      "Trend-confident: names what is happening in 2026 specifically, no hedging",
+      "Practically generous: gives real, usable guidance not just inspiration volume",
+      "Celebratory without being breathless — excited about the trend but not performatively so",
+      "Conversational and direct — addresses the reader as someone who is planning something fun, not researching academically",
+      "British English throughout — colour, colourful, recognise, organise"
+    ],
+    "language_style": "Short-to-medium sentences. Uses 'you' naturally. Leans into trend language ('the look everyone is getting', '2026 is the summer for this') without being repetitive. Concrete over abstract — names specific colours, specific shapes, specific occasions.",
+    "audience_match": "This reader is scrolling between Pinterest and TikTok and wants a post that reads like a knowledgeable friend who has already done the research — not a listicle, not a lecture. The energetic guide voice delivers trend validation and practical direction in the same breath."
+  },
+
+  "external_links": {
+    "blog_gen_instruction": "Include all external links where indicated. Supports E-E-A-T. Use anchor suggestion as guide — write naturally around it.",
+    "links": [
+      {
+        "url": "https://www.pinterest.com/ideas/summer-carnival-nails/945544900240/",
+        "context": "H2 1 (Why Trending) — when citing Pinterest demand for the summer carnival nails search category",
+        "anchor_suggestion": "dedicated Summer Carnival Nails Ideas page on Pinterest"
+      },
+      {
+        "url": "https://www.marieclaire.com/beauty/nails/summer-2026-nail-trends/",
+        "context": "H2 2 (Colours) — when referencing the 2026 summer nail colour story from editorial sources",
+        "anchor_suggestion": "summer 2026 nail colour forecast"
+      },
+      {
+        "url": "https://www.whowhatwear.com/beauty/nails/festival-nail-trends-2026",
+        "context": "H2 7 (Durability) — when recommending gel for outdoor festival wear, citing editorial source",
+        "anchor_suggestion": "2026 festival nail trends and durability guidance"
+      }
+    ]
+  },
+
+  "execution_plan": {
+    "blog_gen_instruction": "READ THIS SECTION FIRST. Lock every value. Execute exactly. Do not recalculate, do not adjust, do not deviate.",
+
+    "block_1_keyword_execution": {
+      "primary_keyword": "summer carnival nails",
+      "top_3_density_baseline": 8,
+      "total_mention_target": 11,
+      "first_100_words_plan": {
+        "rule": "Primary keyword MUST appear TWICE in the first 100 words. Mandatory. No exceptions.",
+        "mention_1": "Sentence 2–3 of introduction — establish primary keyword in the opening hook statement",
+        "mention_2": "Sentence 5–7 of introduction — reinforce in the trend-validation sentence that anchors the post's premise"
+      },
+      "first_half_target": "7 mentions — first 1100 words. Run denser in first half.",
+      "second_half_target": "4 mentions — second 1100 words",
+      "strong_tag_rule": "EVERY single mention of 'summer carnival nails' — all 11 of them — wrapped in <strong> tags. No exceptions. Scan after every paragraph.",
+      "keywords_to_avoid_active": [
+        "carnival nails (as focus term)",
+        "circus nails",
+        "county fair nails",
+        "carnival nail art (as focus term)",
+        "clown core nails",
+        "carousel nails",
+        "edc nails"
+      ]
+    },
+
+    "block_2_word_budget": {
+      "total_target": "2200 words — +/-50 words tolerance, never exceed",
+      "introduction": "220 words",
+      "conclusion": "150 words",
+      "h2_budgets": [
+        { "heading": "Why Are Summer Carnival Nails Trending in 2026?", "budget": "250 words", "complexity": "medium" },
+        { "heading": "What Colours Make the Best Summer Carnival Nail Set?", "budget": "280 words", "complexity": "high" },
+        { "heading": "Summer Carnival Nails for Every Shape: Almond, Coffin & Short", "budget": "260 words", "complexity": "medium" },
+        { "heading": "The Neon Summer Carnival Manicure", "budget": "240 words", "complexity": "medium" },
+        { "heading": "Rainbow and Skittle Summer Carnival Nails", "budget": "230 words", "complexity": "medium" },
+        { "heading": "Cotton Candy and Pastel Carnival Nails", "budget": "210 words", "complexity": "low" },
+        { "heading": "How Long Do Summer Carnival Nails Last Outdoors?", "budget": "230 words", "complexity": "medium" },
+        { "heading": "How to Book Your Summer Carnival Nails (or DIY Them)", "budget": "130 words", "complexity": "low" }
+      ],
+      "tracking_rule": "Track running word total at the end of every H2 section. If a section is running over budget — cut before moving to the next section. Do not compensate later."
+    },
+
+    "block_3_image_plan": {
+      "total_images": 9,
+      "hero_image": "frontmatter only — NEVER appears in post body",
+      "body_images": "8 images to place in body",
+      "assignments": [
+        { "image_number": 1, "place_after": "Introduction", "section_context": "Bold, colourful summer carnival nail set — multiple bright neons, rainbow or candy-stripe design" },
+        { "image_number": 2, "place_after": "Why Are Summer Carnival Nails Trending in 2026?", "section_context": "FunHaus-aesthetic nails — bold maximalist set, bright stripes or confetti art on almond or coffin" },
+        { "image_number": 3, "place_after": "What Colours Make the Best Summer Carnival Nail Set?", "section_context": "Colour palette flatlay or multi-shade nail set — hot pink, neon orange, electric yellow, turquoise visible" },
+        { "image_number": 4, "place_after": "Summer Carnival Nails for Every Shape: Almond, Coffin & Short", "section_context": "Side-by-side or single image showing almond or coffin nail shape with vivid carnival colours" },
+        { "image_number": 5, "place_after": "The Neon Summer Carnival Manicure", "section_context": "Full neon gel set — electric pink, orange, lime or multi-neon skittle in summer carnival palette" },
+        { "image_number": 6, "place_after": "Rainbow and Skittle Summer Carnival Nails", "section_context": "Rainbow skittle nail set — one colour per nail, all vivid summer shades" },
+        { "image_number": 7, "place_after": "Cotton Candy and Pastel Carnival Nails", "section_context": "Soft pastel carnival set — cotton candy pink, lavender, peach, mint — playful and airy" },
+        { "image_number": 8, "place_after": "How Long Do Summer Carnival Nails Last Outdoors?", "section_context": "Close-up of glossy gel carnival nails — showing finish quality relevant to durability discussion" }
+      ],
+      "image_type_rule": "ALL body images = inspirational nail design images related to the topic. NO infographics. NO process diagrams. NO comparison charts. NO step-by-step visuals.",
+      "path_rule": "/images/blog/carnival/summer-carnival-nails/filename.webp — topic_slug 'carnival' in path, slug folder 'summer-carnival-nails', leading slash"
+    },
+
+    "block_4_opening_technique_assignments": {
+      "rule": "No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.",
+      "assignments": [
+        { "section": "Introduction", "technique": "Technique 2 — The Scene Setter (place reader in the moment of searching/planning)" },
+        { "section": "Why Are Summer Carnival Nails Trending in 2026?", "technique": "Technique 4 — The Direct Answer (lead with the trend signal, then expand)" },
+        { "section": "What Colours Make the Best Summer Carnival Nail Set?", "technique": "Technique 3 — The Reframe (reframe 'any bright colour' as a specific carnival colour logic)" },
+        { "section": "Summer Carnival Nails for Every Shape", "technique": "Technique 1 — The Claim (open with a clear shape recommendation before nuancing)" },
+        { "section": "The Neon Summer Carnival Manicure", "technique": "Technique 2 — The Scene Setter" },
+        { "section": "Rainbow and Skittle Summer Carnival Nails", "technique": "Technique 4 — The Direct Answer" },
+        { "section": "Cotton Candy and Pastel Carnival Nails", "technique": "Technique 3 — The Reframe" },
+        { "section": "How Long Do Summer Carnival Nails Last Outdoors?", "technique": "Technique 1 — The Claim" },
+        { "section": "How to Book Your Summer Carnival Nails (or DIY Them)", "technique": "Technique 4 — The Direct Answer" },
+        { "section": "Conclusion", "technique": "Technique 1 — The Claim" }
+      ],
+      "banned_opener_rule": "Check every opener against banned_opening_approaches in blog gen prompt before writing the second sentence"
+    },
+
+    "block_5_link_placements": {
+      "rule": "Every link placed exactly where specified. Anchor texts used verbatim — never rewritten. Links woven into prose naturally — never standalone CTAs.",
+      "links": [
+        {
+          "anchor_text": "carnival nails",
+          "full_url": "/blog/carnival/carnival-nails",
+          "place_in_section": "Why Are Summer Carnival Nails Trending in 2026?",
+          "placement_context": "When establishing that this post sits within the broader carnival nail aesthetic — e.g. 'For the full range of carnival nail designs beyond the summer-specific edit, the carnival nails guide covers every style and occasion.'",
+          "link_type": "cluster-pillar"
+        },
+        {
+          "anchor_text": "county fair nails",
+          "full_url": "/blog/carnival/county-fair-nails",
+          "place_in_section": "Cotton Candy and Pastel Carnival Nails",
+          "placement_context": "When discussing the softer, fairground-coded pastels that overlap with county fair aesthetic — 'If the cotton candy palette is your direction, county fair nails covers the full Americana fairground aesthetic in detail.'",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "carnival nail art",
+          "full_url": "/blog/carnival/carnival-nail-art",
+          "place_in_section": "How to Book Your Summer Carnival Nails (or DIY Them)",
+          "placement_context": "When directing DIY readers to technique guidance — 'For step-by-step stripe and tent designs you can recreate at home, carnival nail art walks through the technique in full.'",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "clown core nails",
+          "full_url": "/blog/carnival/clown-core-nails",
+          "place_in_section": "The Neon Summer Carnival Manicure",
+          "placement_context": "When discussing the maximalist, FunHaus-adjacent direction — 'If you want to push the bold even further into the 2026 maximalist territory, clown core nails is the edit for you.'",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "how to choose the right neon shade for your skin tone this summer",
+          "full_url": "https://mirelleinspo.com/blog/neon-summer-nails",
+          "place_in_section": "The Neon Summer Carnival Manicure",
+          "placement_context": "After recommending neon as the dominant summer carnival finish — 'For detailed guidance on which neon shades work best by skin tone, the full neon summer nails guide covers this in depth: how to choose the right neon shade for your skin tone this summer.'",
+          "link_type": "cross-site"
+        },
+        {
+          "anchor_text": "short summer nail shapes that actually work for bold art",
+          "full_url": "https://mirelleinspo.com/blog/short-summer-nails",
+          "place_in_section": "Summer Carnival Nails for Every Shape: Almond, Coffin & Short",
+          "placement_context": "When addressing short nail readers — 'For the full edit on short-length carnival-ready designs, see the guide on short summer nail shapes that actually work for bold art.'",
+          "link_type": "cross-site"
+        }
+      ]
+    },
+
+    "block_6_aeo_geo_plan": {
+      "aeo_assignments": [
+        {
+          "aeo_term": "What are summer carnival nails?",
+          "assigned_to_section": "Why Are Summer Carnival Nails Trending in 2026?",
+          "execution": "Write a direct 2–3 sentence answer paragraph IMMEDIATELY after the H2 heading — before any elaboration. Define summer carnival nails as the specific intersection of summer colour energy and carnival aesthetic motifs — bold, maximalist, playful, and tied to the outdoor festival and fairground season."
+        },
+        {
+          "aeo_term": "What colours make the best summer carnival nail set?",
+          "assigned_to_section": "What Colours Make the Best Summer Carnival Nail Set?",
+          "execution": "Write a direct 2–3 sentence answer paragraph IMMEDIATELY after the H2 heading. Name the core palette: hot pink, neon orange, electric yellow, turquoise, lime green — with rainbow and candy combinations as the strongest reads."
+        },
+        {
+          "aeo_term": "How long do summer carnival nails last outdoors?",
+          "assigned_to_section": "How Long Do Summer Carnival Nails Last Outdoors?",
+          "execution": "Write a direct 2–3 sentence answer paragraph IMMEDIATELY after the H2 heading. State clearly: gel carnival nails last 2–3 weeks including outdoor summer events; regular polish will chip within days in heat and sweat; gel is non-negotiable for festival durability."
+        },
+        {
+          "aeo_term": "What nail shape works best for carnival nail designs?",
+          "assigned_to_section": "Summer Carnival Nails for Every Shape: Almond, Coffin & Short",
+          "execution": "Write a direct 2–3 sentence answer immediately after H2. Almond is the dominant 2026 shape for bold carnival art. Coffin gives more canvas for stripes and colour blocks. Short squoval works for simpler neon and skittle formats."
+        }
+      ],
+      "geo_entity_statements": [
+        {
+          "entity": "FunHaus 2026 nail trend",
+          "assigned_to_section": "Why Are Summer Carnival Nails Trending in 2026?",
+          "execution": "Write a clear declarative sentence: 'FunHaus is Pinterest Predicts 2026's named trend for maximalist carnival and circus-coded nail aesthetics, characterised by bold stripes, vivid colour, and playful sculptural elements.' Extractable by AI as a citation."
+        },
+        {
+          "entity": "summer carnival nails as a distinct aesthetic category",
+          "assigned_to_section": "What Colours Make the Best Summer Carnival Nail Set?",
+          "execution": "Write a clear declarative sentence distinguishing summer carnival nails from generic bright summer nails: 'Summer carnival nails are defined by their specificity — the palette draws from fairground visual language: cotton candy pink, candy apple red, electric yellow, and neon orange rather than any generic summer shade.'"
+        }
+      ]
+    },
+
+    "block_7_active_constraints": {
+      "em_dash_banned": "Long em dash does not appear anywhere. If one forms while writing — stop, replace with: comma / new sentence / parentheses / but / restructure.",
+      "banned_vocab_watch": [
+        "vibrant (overused — use bold, vivid, saturated, electric instead)",
+        "stunning (banned — remove on sight)",
+        "amazing (banned — remove on sight)",
+        "perfect (banned — remove on sight)",
+        "delve (banned — remove on sight)",
+        "unleash (banned — remove on sight)",
+        "elevate (overused — replace with: level up, take further, push, improve)"
+      ],
+      "british_english_active": "colour, colourful, recognise, organise, -ise, -our — every instance, no exceptions",
+      "keyword_density_reminder": "After every 2 H2 sections — count current keyword mentions. Verify running total is on track to hit 11. First half (1100 words) must carry 7 mentions. Adjust if needed.",
+      "image_path_reminder": "/images/blog/carnival/summer-carnival-nails/filename.webp — topic_slug 'carnival' in path always",
+      "internal_link_url_reminder": "Full correct paths only. Cluster links = /blog/carnival/[slug]. Cross-site links = exact URL as discovered. Never bare /slug.",
+      "hero_image_reminder": "Hero = frontmatter only. Never place hero image in body.",
+      "strong_tag_reminder": "Every 'summer carnival nails' mention = <strong>summer carnival nails</strong>. Scan after every paragraph. 11 total. Zero misses."
+    }
+  }
+}
