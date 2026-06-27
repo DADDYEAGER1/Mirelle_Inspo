@@ -1,0 +1,529 @@
+{
+  "file_authority": {
+    "statement": "THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly. Nothing overridden or reinterpreted unless user explicitly instructs Blog Gen Agent during that session."
+  },
+
+  "POST_CONSTANTS": {
+    "slug": "clown-core-nails",
+    "topic_slug": "carnival",
+    "canonical": "https://mirelleinspo.com/blog/carnival/clown-core-nails",
+    "post_type": "spoke",
+    "intent": "inspirational",
+    "word_count": 2000,
+    "image_count": 9,
+    "template": "split-left",
+    "hero_dimensions": "800x800",
+    "category": "Nail Art",
+    "publish_date": "2026-06-27",
+    "author": "Mirellé Team",
+    "word_count_research_note": "Top 3 ranking posts (dreammanicures.com ~1600w, huesthetic.com ~2200w, choosynails.com ~1500w) — average 1767w. Floor set at 2000 to beat average. Spoke ceiling 2800. Hard target: 2000 words ±50."
+  },
+
+  "CLUSTER_SNAPSHOT": {
+    "pillar_slug": "carnival-nails",
+    "pillar_title": "Carnival Nails: 25 Bold Designs for Every Fair & Fest",
+    "pillar_primary_keyword": "carnival nails",
+    "this_post_slug": "clown-core-nails",
+    "this_post_role": "spoke",
+    "keywords_to_avoid": [
+      "carnival nails",
+      "circus nails",
+      "county fair nails",
+      "carnival nail art",
+      "carousel nails",
+      "summer carnival nails",
+      "edc nails",
+      "rave nails",
+      "fair nails",
+      "state fair nails",
+      "digital circus nails",
+      "amusement park nails"
+    ]
+  },
+
+  "SERP_ANALYSIS": {
+    "blog_gen_instruction": "Use competitor gaps and missing semantic territory to fill what competitors miss. Our strategic approach is the angle for the introduction and conclusion.",
+    "top_3_competitors": [
+      "dreammanicures.com — covers clown nails broadly, no FunHaus/2026 trend angle, generic colour advice",
+      "huesthetic.com — Halloween-framed clown nails only, no identity sub-category breakdowns, no 2026 context",
+      "choosynails.com — 10-design list, minimal editorial depth, no pastel vs bold vs dark sub-guide"
+    ],
+    "top_3_word_count_estimates": [1600, 2200, 1500],
+    "top_3_word_count_average": 1767,
+    "word_count_floor": 2000,
+    "top_3_keyword_density_baseline": 10,
+    "competitor_gaps": [
+      "No competitor references Pinterest Predicts 2026 FunHaus trend — massive credibility and differentiation gap",
+      "No competitor maps the 3 sub-aesthetics (pastel clowncore, dark clowncore, primary-colour maximalist) — readers cannot find their version",
+      "No competitor addresses the clowncore-vs-Halloween question — readers assume it is seasonal, it is not",
+      "No competitor covers nail shapes for clowncore specifically — what works on short vs long nails",
+      "No competitor treats clowncore as an identity/subculture aesthetic rather than a novelty costume"
+    ],
+    "missing_semantic_territory": [
+      "FunHaus Pinterest Predicts 2026 — no competitor references it",
+      "Pastel clowncore vs dark clowncore as distinct sub-aesthetics with different audiences",
+      "Harlequin nail art — major Etsy/Pinterest demand, ignored in editorial coverage",
+      "3D clown nail art (Pierrot, sculpted faces) — top Etsy category, no editorial home",
+      "Clowncore as year-round identity aesthetic, not Halloween-only"
+    ],
+    "our_strategic_approach": "This post is the only guide that (1) validates clown core nails as a 2026 Pinterest-confirmed trend via FunHaus, (2) maps three distinct sub-aesthetics so every reader identifies her version, and (3) treats the look as a legitimate identity statement rather than a Halloween costume. Competitors treat clown nails as novelty content — this post positions them as one of 2026's most on-trend maximalist nail aesthetics with its own visual language, sub-genres, and year-round wearability.",
+    "image_count_validation": "Competitors use 9-15 images per post. 9 images confirmed correct for spoke inspirational role."
+  },
+
+  "AUDIENCE_INTELLIGENCE": {
+    "blog_gen_instruction": "This is your primary creative brief. Every paragraph written for this specific person with this specific intent. Satisfy them completely.",
+    "who_they_are": "Maximalist nail art enthusiasts aged 18-30 who identify with alternative, kawaii, or subculture aesthetics. They have been saving clowncore nail content on Pinterest and TikTok and want to translate the aesthetic onto their nails. They know what they want but cannot find an editorial source that takes the look seriously. They are not asking whether this is appropriate — they are asking which version is theirs and how to get it done.",
+    "what_they_want_from_this_post": "15 genuinely diverse clown core nail ideas across three sub-aesthetics (pastel, dark, primary-colour maximalist), with real design descriptions and enough specificity to show a nail tech. They also want 2026 trend credibility confirming this is not just a Halloween novelty.",
+    "what_frustrates_them": "Every clown nail post frames the look as Halloween content. They find listicles with near-identical designs. No one covers pastel clowncore as its own category. No one validates that clowncore nails are wearable year-round and on-trend in 2026.",
+    "top_5_pain_points": [
+      "Cannot find inspiration for pastel or kawaii clowncore nails — everything skews Halloween horror",
+      "Unsure what nail shape works for clowncore designs (long stiletto vs short square)",
+      "Do not know which colours to use beyond the primary red-white-yellow clown palette",
+      "Nervous their nail tech will not understand the aesthetic — want vocabulary to communicate it",
+      "Cannot find editorial content that treats clowncore seriously as an identity rather than a costume"
+    ],
+    "exact_user_phrases": [
+      "clown core nails kawaii",
+      "pastel clown nails aesthetic",
+      "clowncore nails not Halloween",
+      "harlequin nail art ideas",
+      "3D clown nails press on",
+      "sad clown nails design",
+      "pink clown nails cute",
+      "clown nails short acrylic",
+      "clowncore nail art inspo 2026",
+      "bold clown nails maximalist",
+      "funhaus nails trend",
+      "circus clown nails aesthetic"
+    ],
+    "intent_content_signals": [
+      "Wants named, described designs — not just image dumps",
+      "Responds to sub-aesthetic categorisation (pastel / dark / primary maximalist)",
+      "Wants trend credibility — Pinterest data, 2026 validation",
+      "Needs nail tech communication language — what to ask for",
+      "Wants year-round wearability angles, not only festival or costume framing",
+      "Responds to identity language — 'this is the version for you if…'",
+      "Wants short-nail options covered — most clowncore content assumes long stiletto"
+    ]
+  },
+
+  "SEMANTIC_KEYWORD_DATA": {
+    "blog_gen_instruction": "Primary keyword in strong tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.",
+    "primary_keyword": "clown core nails",
+    "total_mention_target": 13,
+    "first_100_words_rule": "Primary keyword MUST appear TWICE in the first 100 words. Mandatory. No exceptions.",
+    "keyword_variations": [
+      "clowncore nails",
+      "clown nail art",
+      "clown nails",
+      "clown core nail art",
+      "clowncore nail designs",
+      "clown nails aesthetic",
+      "clown core nail ideas",
+      "clowncore manicure"
+    ],
+    "cluster_keywords": [
+      "harlequin nail art",
+      "pastel clowncore nails",
+      "dark clowncore nails",
+      "3D clown nails",
+      "sad clown nails",
+      "FunHaus nail trend",
+      "clownpunk nails",
+      "kawaii clown nails",
+      "jester nail art",
+      "maximalist nail art 2026",
+      "bold nail designs 2026",
+      "carnival-inspired nails",
+      "mismatched clown nails",
+      "clown face nail art",
+      "Pierrot nail art"
+    ],
+    "lsi_terms": [
+      "harlequin diamond pattern nails",
+      "primary colour nail art",
+      "polka dot nail designs",
+      "striped nail art",
+      "3D nail embellishments",
+      "rhinestone nail art",
+      "gel nail extensions",
+      "stiletto nail shape",
+      "almond nail shape clowncore",
+      "neon nail art",
+      "press-on clown nails",
+      "nail art acrylic",
+      "colourful maximalist manicure",
+      "confetti nail art",
+      "circus aesthetic nails",
+      "FunHaus Pinterest 2026",
+      "bold mismatched manicure",
+      "Decora Kei nails",
+      "kidcore nails",
+      "Y2K nail art"
+    ],
+    "aeo_terms": [
+      "What are clown core nails?",
+      "What colours are used for clown core nails?",
+      "What nail shape is best for clown core nails?",
+      "Are clown core nails a Halloween-only trend?",
+      "What is the difference between pastel clowncore and dark clowncore nails?",
+      "How do I ask my nail tech for clown core nails?",
+      "Are clown core nails trending in 2026?",
+      "What is a harlequin nail design?",
+      "Can I do clown core nails on short nails?",
+      "What is the FunHaus nail trend?",
+      "What designs go in a clowncore nail set?",
+      "Are clown core nails appropriate for everyday wear?"
+    ],
+    "technical_terms": [
+      "gel tip extensions",
+      "freehand nail art",
+      "3D acrylic sculpture",
+      "hard gel overlay",
+      "nail striping tape",
+      "dotting tool technique",
+      "airbrushed nail art",
+      "Pierrot (classic sad clown archetype)"
+    ],
+    "user_language": [
+      "clown nails but make it cute",
+      "not just for Halloween",
+      "the aesthetic not the costume",
+      "which version is mine",
+      "my nail tech will actually understand this",
+      "pastel circus energy",
+      "sad clown vibes",
+      "maximalist but cohesive",
+      "clowncore but make it fashion",
+      "when ur down stare at a clown"
+    ]
+  },
+
+  "VOICE_AND_AI_QUERIES": {
+    "blog_gen_instruction": "Answer every query directly in the relevant H2 section body. If a query cannot be addressed naturally in the body, route it to faqItems. No query left unanswered.",
+    "queries": [
+      "What are clown core nails?",
+      "Are clown core nails just for Halloween?",
+      "What colours should I use for clown core nails?",
+      "What nail shape works best for clown core nail art?",
+      "What is the difference between pastel clowncore and dark clowncore nails?",
+      "What is a harlequin nail design?",
+      "Can you do clown core nails on short nails?",
+      "How do I ask my nail tech for clown core nails?",
+      "What is the FunHaus nail trend and how does it relate to clown nails?",
+      "Are clown core nails trending in 2026?",
+      "What 3D elements are used in clown core nail art?",
+      "What is a Pierrot nail design?",
+      "What makes a nail look clowncore rather than just colourful?",
+      "How do I get a mismatched clowncore manicure that still looks cohesive?",
+      "What finishes work best for clown core nails — matte or gloss?",
+      "Can I wear clown core nails to work or school?",
+      "What press-on nails look most like clowncore?",
+      "How is pastel clowncore different from kawaii nails?"
+    ]
+  },
+
+  "HOOK_AND_CTR": {
+    "blog_gen_instruction": "READ THIS SECTION BEFORE WRITING THE TITLE, META DESCRIPTION, INTRO, OR FIRST H2. Title and description are hardcoded — use exactly as written. Intro hook brief and first H2 direction are your creative brief for those elements.",
+    "selected_trigger": "Trigger 2 — FOMO / Trend Urgency",
+    "trigger_rationale": "The clowncore reader is trend-aware and subculture-invested — she has been watching this aesthetic grow on Pinterest and TikTok and wants confirmation that 2026 is her moment; FOMO/urgency is the trigger that confirms she is right on time.",
+    "title": "Clown Core Nails: 15 FunHaus Designs for the Bold",
+    "title_char_count": 48,
+    "title_note": "48 characters — within the 55-60 hard cap. Primary keyword front-loaded in first three words. Matches cluster_context.json approved title exactly.",
+    "meta_description": "Clown core nails are having their biggest moment in 2026. See 15 bold designs — pastel, dark, and maximalist — with real sub-aesthetic breakdowns.",
+    "meta_char_count": 148,
+    "intro_hook_brief": "Open by declaring that clowncore nails are no longer a novelty or a Halloween costume — Pinterest Predicts 2026 FunHaus trend has made them a legitimate nail aesthetic moment, and this post delivers 15 designs across three distinct sub-aesthetics so the reader can find exactly which version is hers.",
+    "first_h2_hook_direction": "Frame the first H2 as a trend-validation reframe — e.g. 'Are clown core nails actually trending in 2026?' — answer directly and confidently within the first two sentences, citing Pinterest Predicts FunHaus by name. This is a voice query phrasing and should be answered as a direct 2-3 sentence AEO block immediately after the heading."
+  },
+
+  "SEARCH_JOURNEY": {
+    "blog_gen_instruction": "This is the emotional contract with the reader. Every section must honour the promise made. Read before writing any section. If a paragraph breaks the journey arc — rewrite it.",
+    "reader_arrival_state": "Curious and trend-aware — she has been saving clowncore nail content for months and wants confirmation this is a real 2026 moment, plus a clear sub-aesthetic breakdown so she can identify which version is actually hers.",
+    "journey_arc": [
+      "HOOK: Validate that clowncore nails are a 2026 trend — not a costume, not Halloween — using Pinterest Predicts FunHaus as proof",
+      "ORIENT: Map the three sub-aesthetics (pastel, primary/maximalist, dark) so she can identify her entry point before seeing designs",
+      "DELIVER: Present 15 named, described designs grouped by sub-aesthetic — each one with enough specificity to show a nail tech",
+      "EXPAND: Address shapes, lengths, and palette so she has the full picture before booking",
+      "EXIT: Close with identity-affirming language — this is the aesthetic for women who wear their personality on their nails, and 2026 is the year the trend finally caught up with them"
+    ],
+    "promise_to_deliver": "15 distinct clown core nail designs across three sub-aesthetics, with 2026 trend credibility and enough design specificity to walk into a salon and get exactly the set she has been saving on Pinterest.",
+    "exit_state": "Confident she has found her specific version of the clowncore aesthetic and knows exactly what to ask for at her next nail appointment."
+  },
+
+  "CONTENT_STRUCTURE": {
+    "blog_gen_instruction": "H2 structure is research-driven — follow exactly. Do not rename, reorder, or remove H2s without user instruction. Word budget is set — follow it. H3s may be added at editorial discretion.",
+    "h1": "Clown Core Nails: 15 FunHaus Designs for the Bold",
+    "h2_structure": [
+      "Are clown core nails actually trending in 2026?",
+      "What makes a nail set clowncore — not just colourful?",
+      "Pastel clowncore nails: the kawaii version",
+      "Primary-colour maximalist clowncore nails",
+      "Dark clowncore nails: sad clown, Harlequin and Pierrot",
+      "What nail shape works best for clown core nail art?",
+      "How to talk to your nail tech about clowncore"
+    ],
+    "word_budget": {
+      "introduction": 230,
+      "h2_1_are_clown_core_nails_trending": 220,
+      "h2_2_what_makes_a_nail_clowncore": 200,
+      "h2_3_pastel_clowncore": 280,
+      "h2_4_primary_maximalist": 280,
+      "h2_5_dark_clowncore": 280,
+      "h2_6_nail_shapes": 200,
+      "h2_7_nail_tech_brief": 160,
+      "conclusion": 150,
+      "total_target": 2000
+    }
+  },
+
+  "INTERNAL_LINKS": {
+    "blog_gen_instruction": "Every link below must appear in the post. Cluster links use anchor texts verbatim — do not rewrite. Cross-site links use provided descriptive anchor. Place each link where placement note says — woven naturally into prose, never as standalone CTA. Total internal links must not exceed 6.",
+    "all_internal_links": [
+      {
+        "url_or_slug": "/blog/carnival/carnival-nails",
+        "title": "Carnival Nails: 25 Bold Designs for Every Fair & Fest",
+        "anchor_text": "carnival nails",
+        "placement_note": "H2-1 (trending 2026) — when contextualising clowncore as a sub-aesthetic within the broader carnival nail world",
+        "link_type": "cluster-pillar"
+      },
+      {
+        "url_or_slug": "/blog/carnival/circus-nails",
+        "title": "Circus Nails: 20 Big Top Designs That Go All In",
+        "anchor_text": "circus nails",
+        "placement_note": "H2-2 (what makes a nail clowncore) — when differentiating clowncore identity from the broader big-top circus aesthetic",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/carnival/summer-carnival-nails",
+        "title": "Summer Carnival Nails: Bright & Colorful Ideas for 2026",
+        "anchor_text": "summer carnival nails",
+        "placement_note": "H2-4 (primary/maximalist) — when referencing the overlap between bright primary maximalist clowncore and summer festival nail energy",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/carnival/carnival-nail-art",
+        "title": "Carnival Nail Art: Step-by-Step Stripe & Tent Designs",
+        "anchor_text": "carnival nail art",
+        "placement_note": "H2-7 (nail tech brief) — when suggesting DIY options, point to the tutorial post for stripe and tent techniques",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/blog/goth/goth-nails",
+        "title": "Goth Nails: The Complete Dark Aesthetic Guide",
+        "anchor_text": "the full dark aesthetic guide for nails that go deeper into gothic territory",
+        "placement_note": "H2-5 (dark clowncore) — after describing dark clowncore designs, offer the goth nails guide for readers whose taste tips further into gothic",
+        "link_type": "cross-site"
+      }
+    ]
+  },
+
+  "VOICE_TONE": {
+    "blog_gen_instruction": "This is the voice for this specific post. Layer on top of Mirellé editorial framework. Do not default to generic AI tone.",
+    "recommended_voice": "Trend-confident insider — the friend who took the subculture seriously before anyone else did",
+    "tone_characteristics": [
+      "Declarative and assured — never hedging about whether clowncore is acceptable",
+      "Subculture-literate — uses terms like 'pastel clowncore', 'dark clowncore', 'Pierrot', 'harlequin' with authority",
+      "Warmly identity-affirming — this is the aesthetic for bold personalities, not a novelty",
+      "Editorially credible — grounds trend claims in Pinterest Predicts data, not just vibes",
+      "Slightly playful — the topic earns it, but never camp or ironic at the reader's expense"
+    ],
+    "language_style": "Medium-length sentences. Direct address with 'you'. No hedging. Named sub-aesthetics treated as knowable, not niche. Occasional one-liner paragraphs for punch.",
+    "audience_match": "This reader knows what she wants — she does not need permission or an explanation that clowncore exists. She needs a guide that takes the aesthetic as seriously as she does and gives her the vocabulary and design clarity to actually get the set she has been saving for months."
+  },
+
+  "EXTERNAL_LINKS": {
+    "blog_gen_instruction": "Include all external links where indicated. Supports E-E-A-T. Use anchor suggestion as guide — write naturally around it.",
+    "links": [
+      {
+        "url": "https://business.pinterest.com/pinterest-predicts/2026/funhaus/",
+        "context": "H2-1 (trending 2026) — cite FunHaus prediction with this as the primary source",
+        "anchor_suggestion": "Pinterest Predicts 2026 FunHaus trend"
+      },
+      {
+        "url": "https://www.scratchmagazine.co.uk/feature/nail-art/pinterest-predicts-2026/",
+        "context": "H2-1 (trending 2026) — secondary industry source validating the circus/clown nail prediction",
+        "anchor_suggestion": "Scratch Magazine's 2026 nail trend breakdown"
+      },
+      {
+        "url": "https://screenshot-media.com/culture/internet-culture/clowncore-aesthetic/",
+        "context": "H2-2 (what makes a nail clowncore) — authoritative editorial source on clowncore as a subculture, not a costume",
+        "anchor_suggestion": "Screenshot Media's clowncore aesthetic guide"
+      }
+    ]
+  },
+
+  "EXECUTION_PLAN": {
+    "blog_gen_instruction": "READ THIS SECTION FIRST. Lock every value. Execute exactly. Do not recalculate, do not adjust, do not deviate.",
+
+    "block_1_keyword_execution": {
+      "primary_keyword": "clown core nails",
+      "top_3_density_baseline": 10,
+      "total_mention_target": 13,
+      "first_100_words_plan": {
+        "rule": "Primary keyword MUST appear TWICE in the first 100 words. Mandatory. No exceptions.",
+        "mention_1": "Sentence 1 of introduction — open with the trend statement naming clown core nails directly",
+        "mention_2": "Sentence 3-4 of introduction — reinforce that these clown core nails are a 2026 aesthetic moment, not a Halloween set"
+      },
+      "first_half_target": "8 mentions in first 1000 words — run denser in H2-1 through H2-4",
+      "second_half_target": "5 mentions in second 1000 words",
+      "strong_tag_rule": "EVERY single mention of 'clown core nails' or 'clowncore nails' — all 13 of them — wrapped in <strong> tags. No exceptions. Scan after every paragraph.",
+      "keywords_to_avoid_active": [
+        "carnival nails", "circus nails", "county fair nails", "carnival nail art",
+        "carousel nails", "summer carnival nails", "edc nails", "rave nails",
+        "fair nails", "state fair nails", "digital circus nails", "amusement park nails"
+      ]
+    },
+
+    "block_2_word_budget": {
+      "total_target": "2000 words — plus or minus 50 words tolerance, never exceed",
+      "introduction": "230 words",
+      "conclusion": "150 words",
+      "h2_budgets": [
+        { "heading": "Are clown core nails actually trending in 2026?", "budget": "220 words", "complexity": "medium" },
+        { "heading": "What makes a nail set clowncore — not just colourful?", "budget": "200 words", "complexity": "medium" },
+        { "heading": "Pastel clowncore nails: the kawaii version", "budget": "280 words", "complexity": "high" },
+        { "heading": "Primary-colour maximalist clowncore nails", "budget": "280 words", "complexity": "high" },
+        { "heading": "Dark clowncore nails: sad clown, Harlequin and Pierrot", "budget": "280 words", "complexity": "high" },
+        { "heading": "What nail shape works best for clown core nail art?", "budget": "200 words", "complexity": "medium" },
+        { "heading": "How to talk to your nail tech about clowncore", "budget": "160 words", "complexity": "low" }
+      ],
+      "tracking_rule": "Track running word total at the end of every H2 section. If running over budget — cut before moving to the next section. Do not compensate later."
+    },
+
+    "block_3_image_plan": {
+      "total_images": 9,
+      "hero_image": "frontmatter only — NEVER appears in post body",
+      "body_images": 8,
+      "assignments": [
+        { "image_number": 1, "place_after": "Introduction", "section_context": "Bold maximalist clowncore manicure — full set showing mix of motifs, primary colours, harlequin pattern across multiple nails" },
+        { "image_number": 2, "place_after": "Are clown core nails actually trending in 2026?", "section_context": "FunHaus-inspired striped or circus-pattern nail set in bold primary palette showing 2026 trend energy" },
+        { "image_number": 3, "place_after": "What makes a nail set clowncore — not just colourful?", "section_context": "Close-up of a cohesive mismatched set showing polka dots, stripes, and clown face motifs with consistent colour palette" },
+        { "image_number": 4, "place_after": "Pastel clowncore nails: the kawaii version (mid-section)", "section_context": "Pastel pink, lilac, and mint kawaii-style clown nails with soft clown face art or pastel harlequin diamond pattern" },
+        { "image_number": 5, "place_after": "Pastel clowncore nails: the kawaii version (end)", "section_context": "Second pastel clowncore design — 3D press-on style or stiletto with pastel confetti, balloon motifs, and soft swirls" },
+        { "image_number": 6, "place_after": "Primary-colour maximalist clowncore nails (mid-section)", "section_context": "Bold red, yellow, blue primary-palette clowncore set with polka dots, stripes, and star motifs across mixed nails" },
+        { "image_number": 7, "place_after": "Primary-colour maximalist clowncore nails (end)", "section_context": "Neon maximalist clowncore set — mixed patterns on each nail with rhinestones or glitter accents, high energy" },
+        { "image_number": 8, "place_after": "Dark clowncore nails: sad clown, Harlequin and Pierrot", "section_context": "Dark clowncore set — sad clown face art, Gothic harlequin diamonds, muted jewel tones or monochrome with red accents" }
+      ],
+      "image_type_rule": "ALL body images = inspirational nail design images. NO infographics. NO process diagrams. NO comparison charts. NO step-by-step visuals.",
+      "path_rule": "/images/blog/carnival/clown-core-nails/filename.webp — topic_slug 'carnival' in path always"
+    },
+
+    "block_4_opening_technique_assignments": {
+      "rule": "No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.",
+      "assignments": [
+        { "section": "Introduction", "technique": "Technique 2 — The Scene (drop reader directly into the trend moment)" },
+        { "section": "Are clown core nails actually trending in 2026?", "technique": "Technique 3 — The Reframe (reframe clowncore from Halloween novelty to 2026 validated aesthetic)" },
+        { "section": "What makes a nail set clowncore — not just colourful?", "technique": "Technique 1 — The Claim (definitive statement of what separates clowncore from generic maximalist nails)" },
+        { "section": "Pastel clowncore nails: the kawaii version", "technique": "Technique 4 — The Question ('Who is pastel clowncore actually for?')" },
+        { "section": "Primary-colour maximalist clowncore nails", "technique": "Technique 2 — The Scene (paint the visual of a full primary maximalist set)" },
+        { "section": "Dark clowncore nails: sad clown, Harlequin and Pierrot", "technique": "Technique 1 — The Claim (declare dark clowncore the most editorial sub-aesthetic in the family)" },
+        { "section": "What nail shape works best for clown core nail art?", "technique": "Technique 3 — The Reframe (the shape question is not about length — it is about canvas space)" },
+        { "section": "How to talk to your nail tech about clowncore", "technique": "Technique 4 — The Question ('What happens when you just say clown nails?')" },
+        { "section": "Conclusion", "technique": "Technique 1 — The Claim (2026 is the year clowncore nails stopped being a costume and became a statement)" }
+      ],
+      "banned_opener_rule": "Check every opener against banned_opening_approaches in Blog Gen prompt before writing the second sentence."
+    },
+
+    "block_5_link_placements": {
+      "rule": "Every link placed exactly where specified. Anchor texts used verbatim — never rewritten. Links woven into prose naturally — never standalone CTAs.",
+      "links": [
+        {
+          "anchor_text": "carnival nails",
+          "full_url": "/blog/carnival/carnival-nails",
+          "place_in_section": "Are clown core nails actually trending in 2026?",
+          "placement_context": "When contextualising clowncore as a sub-aesthetic within the broader carnival nail world",
+          "link_type": "cluster-pillar"
+        },
+        {
+          "anchor_text": "circus nails",
+          "full_url": "/blog/carnival/circus-nails",
+          "place_in_section": "What makes a nail set clowncore — not just colourful?",
+          "placement_context": "When distinguishing clowncore identity from the broader big-top circus aesthetic",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "summer carnival nails",
+          "full_url": "/blog/carnival/summer-carnival-nails",
+          "place_in_section": "Primary-colour maximalist clowncore nails",
+          "placement_context": "When referencing the overlap between bright primary maximalist clowncore and summer festival nail energy",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "carnival nail art",
+          "full_url": "/blog/carnival/carnival-nail-art",
+          "place_in_section": "How to talk to your nail tech about clowncore",
+          "placement_context": "When suggesting DIY options — point to the tutorial post for stripe and tent techniques",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "the full dark aesthetic guide for nails that go deeper into gothic territory",
+          "full_url": "https://mirelleinspo.com/blog/goth/goth-nails",
+          "place_in_section": "Dark clowncore nails: sad clown, Harlequin and Pierrot",
+          "placement_context": "After describing dark clowncore designs — offer goth nails guide for readers whose taste tips further into full gothic",
+          "link_type": "cross-site"
+        }
+      ]
+    },
+
+    "block_6_aeo_geo_plan": {
+      "aeo_assignments": [
+        {
+          "aeo_term": "What are clown core nails?",
+          "assigned_to_section": "What makes a nail set clowncore — not just colourful?",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading. Clown core nails are a maximalist nail aesthetic inspired by the clowncore subculture — defined by bold or pastel colour palettes, mismatched motifs (polka dots, stripes, harlequin diamonds, clown faces), and a playful-to-dark identity register that treats the nail as self-expression rather than decoration."
+        },
+        {
+          "aeo_term": "Are clown core nails trending in 2026?",
+          "assigned_to_section": "Are clown core nails actually trending in 2026?",
+          "execution": "Direct answer immediately after H2: Yes — Pinterest Predicts 2026 named the FunHaus aesthetic as a top trend, citing 'bold stripes, sculptural silhouettes and just a wink of clownish charm' as defining the direction for the year."
+        },
+        {
+          "aeo_term": "What is the difference between pastel clowncore and dark clowncore nails?",
+          "assigned_to_section": "Pastel clowncore nails: the kawaii version",
+          "execution": "Answer directly in opening paragraph: pastel clowncore uses soft pink, lilac, and mint palettes with kawaii or cutesy clown motifs. Dark clowncore uses jewel tones, monochrome, or muted palettes with sad clown faces, Gothic harlequin diamonds, and Pierrot-inspired art."
+        },
+        {
+          "aeo_term": "What nail shape works best for clown core nail art?",
+          "assigned_to_section": "What nail shape works best for clown core nail art?",
+          "execution": "Direct answer: stiletto and almond shapes are most popular for clowncore because their length allows space for detailed motifs. Short square nails work well for kawaii and mismatched polka dot versions. The key is canvas space, not length."
+        }
+      ],
+      "geo_entity_statements": [
+        {
+          "entity": "Clowncore aesthetic",
+          "assigned_to_section": "What makes a nail set clowncore — not just colourful?",
+          "execution": "Write a clear declarative definition: Clowncore is a subculture aesthetic centred on clowns, mimes, and jesters — combining circus motifs, primary or pastel colour palettes, and an intentional maximalist identity rooted in nostalgia, escapism, and self-expression."
+        },
+        {
+          "entity": "FunHaus (Pinterest Predicts 2026 trend)",
+          "assigned_to_section": "Are clown core nails actually trending in 2026?",
+          "execution": "FunHaus is Pinterest Predicts' 2026 named trend for circus-inspired aesthetics — defined as 'bold stripes, sculptural silhouettes and just a wink of clownish charm', directly validating clowncore nails as a mainstream 2026 trend."
+        },
+        {
+          "entity": "Harlequin nail art",
+          "assigned_to_section": "Dark clowncore nails: sad clown, Harlequin and Pierrot",
+          "execution": "Harlequin nail art refers to the diamond-grid pattern inspired by the traditional harlequin costume — alternating colour blocks in a repeating diamond pattern, one of the most recognisable motifs in dark and gothic clowncore."
+        }
+      ]
+    },
+
+    "block_7_active_constraints": {
+      "em_dash_banned": "Long em dash does not appear anywhere. Replace with: comma / new sentence / parentheses / 'but' / restructure.",
+      "banned_vocab_watch": [
+        "stunning",
+        "elevate",
+        "delve",
+        "meticulous",
+        "testament",
+        "unleash",
+        "vibrant (use: bold, rich, saturated instead)"
+      ],
+      "british_english_active": "colour, recognise, -ise, -our endings — every instance, no exceptions",
+      "keyword_density_reminder": "After every 2 H2 sections — count current keyword mentions. Verify running total is on track to hit 13. First half must run denser (8 mentions) than second half (5 mentions). Adjust if needed.",
+      "image_path_reminder": "/images/blog/carnival/clown-core-nails/filename.webp — topic_slug 'carnival' in path always",
+      "internal_link_url_reminder": "Cluster links = /blog/carnival/[slug]. Cross-site links = exact URL as discovered. Never bare /slug.",
+      "hero_image_reminder": "Hero = frontmatter only. Never place hero image in body.",
+      "strong_tag_reminder": "Every 'clown core nails' or 'clowncore nails' mention = <strong> tags. Scan after every paragraph. All 13 mentions covered."
+    }
+  }
+}
