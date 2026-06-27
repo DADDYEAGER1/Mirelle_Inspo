@@ -1,0 +1,559 @@
+{
+  "file_authority": {
+    "statement": "THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly."
+  },
+
+  "post_constants": {
+    "slug": "korean-glass-nails",
+    "topic_slug": "korean-nails",
+    "canonical": "https://mirelleinspo.com/blog/korean-nails/korean-glass-nails",
+    "post_type": "spoke",
+    "intent": "inspirational",
+    "word_count": 2200,
+    "image_count": 9,
+    "template": "split-left",
+    "hero_dimensions": "800x800",
+    "category": "Korean Nails",
+    "publish_date": "2026-07-01",
+    "author": "Mirellé Team"
+  },
+
+  "cluster_snapshot": {
+    "pillar_slug": "korean-nail-art",
+    "pillar_title": "Korean Nail Art: Every Style, Finish & Technique Worth Knowing",
+    "pillar_primary_keyword": "korean nail art",
+    "this_post_slug": "korean-glass-nails",
+    "this_post_role": "spoke",
+    "keywords_to_avoid": [
+      "korean nail art",
+      "soap nails",
+      "korean nail trends 2026",
+      "how to do korean nails",
+      "korean nails short nails",
+      "igari nails",
+      "korean jelly nails"
+    ]
+  },
+
+  "serp_analysis": {
+    "blog_gen_instruction": "Use competitor gaps and missing semantic territory to fill what competitors miss. Our strategic approach is the angle for the introduction and conclusion.",
+    "top_3_ranking_posts_estimated": [
+      {
+        "post": "Bluesky Cosmetics — Korean Glass Nails: How to Get the Look at Home",
+        "estimated_word_count": 800,
+        "primary_keyword_mentions_estimated": 9,
+        "h2_count": 4,
+        "nature": "Product-led, tutorial-lite, no design inspiration depth"
+      },
+      {
+        "post": "Manucurist — Glass Nails Trend: How to Make It Yours",
+        "estimated_word_count": 1100,
+        "primary_keyword_mentions_estimated": 11,
+        "h2_count": 5,
+        "nature": "Editorial trend piece with technique descriptions, product push, no colour/style depth"
+      },
+      {
+        "post": "Refinery29 — Glass Nails Are Going To Be Everywhere",
+        "estimated_word_count": 1200,
+        "primary_keyword_mentions_estimated": 10,
+        "h2_count": 4,
+        "nature": "Gallery-led with expert quotes, not design-type-specific or colour-specific"
+      }
+    ],
+    "top_3_word_count_average": 1033,
+    "top_3_keyword_density_baseline": 10,
+    "competitor_gaps": [
+      "No competitor maps Korean glass nails by design type (cat eye variant vs shattered cellophane original vs chrome powder vs crystal-clear jelly) — readers are confused about what the term covers",
+      "No competitor addresses which colours work for Korean glass nails by skin tone — confirmed demand on Pinterest (boards by colour: pink, blue, almond) and TikTok colour-specific saves",
+      "No competitor explains the difference between original Korean glass nails (cellophane/holographic film, Unistella technique) and the modern cat eye magnetic gel version — huge search confusion signal on TikTok and Google PAA",
+      "No competitor covers nail shapes that suit Korean glass nails best — Pinterest boards specifically for 'korean glass nails almond' confirm this is an audience need",
+      "No editorial piece addresses 2026 specifically with magnetic line nails and aurora glass evolutions — the design landscape has evolved but SERP is dominated by 2024 content"
+    ],
+    "missing_semantic_territory": [
+      "Aurora glass nails as a sub-style of Korean glass nails — confirmed on YouTube (multiple aurora glass tutorial titles), TikTok (#auroranails #koreanglassnails co-tagged), and Pinterest",
+      "Rainbow glass nails as an emerging variant — TikTok confirmed '#koreanglassnail #glassnails rainbow', Pinterest board active",
+      "Glass nail colour palette for 2026 — magnetic line nails / horizontal stripe evolution per Pure Nails and Yahoo Beauty editorial from Seoul Nail Expo",
+      "Nail shape guidance specific to Korean glass nails — Pinterest confirms demand ('korean glass nails almond' dedicated board)"
+    ],
+    "our_strategic_approach": "This post is the definitive visual guide to Korean glass nails as an inspiration category — not a how-to tutorial (that belongs to another spoke). It maps every design type, every 2026 colour direction, and every style variant with enough depth that a reader can walk away knowing exactly which version of Korean glass nails belongs to her. Competitors either sell product through the trend or cover it as a thin news piece. We deliver the inspirational depth the audience is actually searching for.",
+    "recommended_image_count_validation": "SERP is heavily visual with gallery-led content — 9 images confirmed appropriate for an inspirational spoke post. All images: nail design photographs, zero infographics or process diagrams."
+  },
+
+  "audience_intelligence": {
+    "blog_gen_instruction": "This is your primary creative brief. Every paragraph written for this specific person with this specific intent. Satisfy them completely.",
+    "who_they_are": "Trend-aware woman, 20–35, K-beauty adjacent, already follows Korean skincare and now discovering Korean nail aesthetics. Has seen Korean glass nails on TikTok or Pinterest and saved multiple versions without fully understanding what the category covers. She is at the inspiration-to-booking threshold — she knows she wants the look but cannot yet articulate which version to ask for.",
+    "what_they_want_from_this_post": "A comprehensive visual guide that shows every design type in the Korean glass nails category, confirms which version is trending now (2026), and gives her enough vocabulary to describe what she wants at the salon or to a nail tech. She wants to feel informed, not just inspired.",
+    "what_frustrates_them": "Current content either sells product or is dated (2024 or older). Nobody explains the difference between the shattered film original and the cat eye magnetic version — she has saved both and thinks they might be different trends. Nobody tells her which nail shape to request, or which colour works on her skin tone. She scrolls six posts and comes away with a gallery but no clarity.",
+    "top_5_pain_points": [
+      "Confusion between the original Unistella shattered cellophane glass nail and the modern magnetic cat eye glass nail — they look similar but are made differently, and she does not know which to ask for",
+      "No colour guidance — she has saved pink, blue, and nude versions and has no framework for which suits her",
+      "Nail shape uncertainty — Pinterest confirms separate demand for 'korean glass nails almond', she wants to know if her shape works",
+      "2026 freshness gap — she suspects the content she is reading is not current and worries the trend has moved on without her noticing",
+      "Vocabulary gap at the salon — she cannot describe the exact finish she wants and has been burned by getting something wrong before"
+    ],
+    "exact_user_phrases": [
+      "korean glass nails but make it pink",
+      "what are korean glass nails actually made of",
+      "glass nails vs cat eye nails difference",
+      "best colour for korean glass nails",
+      "korean glass nails on short nails",
+      "aurora glass nails tutorial",
+      "korean glass nails 2026 what's trending",
+      "how do i ask my nail tech for glass nails",
+      "can you do glass nails at home",
+      "yes I flew back to LA for this set (TikTok vlog language)",
+      "come with me to get korean glass nails in Korea",
+      "pink korean glass nails nail vlog"
+    ],
+    "intent_content_signals": [
+      "Heavy visual demand — images drive saves and engagement; text supports but does not replace gallery depth",
+      "Design categorisation is highly valued — readers engage with posts that name and differentiate types (aurora vs cat eye vs crystal clear)",
+      "Colour-specific content converts — 'pink', 'blue', 'nude' variants have their own Pinterest boards",
+      "Celebrity and creator references add credibility — Kylie Jenner, Hailey Bieber, and @heluviee validate the trend",
+      "Short nail reassurance is high-value — audience is afraid this finish only works on long nails",
+      "2026 freshness signal is table stakes — she will not trust content that does not acknowledge the current year"
+    ]
+  },
+
+  "semantic_keyword_data": {
+    "blog_gen_instruction": "Primary keyword in strong tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.",
+    "primary_keyword": "korean glass nails",
+    "keyword_variations": [
+      "korean glass nail",
+      "glass nails korean",
+      "korean glass nail designs",
+      "korean glass nail trend",
+      "korean glass nails 2026",
+      "glass nail korean style",
+      "korean glass nail look",
+      "korean glass manicure"
+    ],
+    "cluster_keywords": [
+      "glass nail effect",
+      "mirror finish nails",
+      "cat eye glass nails",
+      "aurora glass nails",
+      "magnetic glass nails",
+      "crystal clear nails",
+      "shattered glass nails",
+      "glass skin nails",
+      "clean girl nails",
+      "jelly glass nails",
+      "silky cat eye nails",
+      "translucent nails korean",
+      "high shine nail finish",
+      "K-beauty nail trend"
+    ],
+    "lsi_terms": [
+      "magnetic gel polish",
+      "holographic film nails",
+      "rainbow film nails",
+      "Unistella nail technique",
+      "Park Eunkyung nails",
+      "no-wipe top coat",
+      "gel nail polish translucent",
+      "chrome powder nails",
+      "multi-dimensional nail finish",
+      "light-catching nail art",
+      "sheer jelly base",
+      "mirror effect powder",
+      "cat eye magnet technique",
+      "glass chrome finish",
+      "liquid light nail",
+      "nail foil shards",
+      "glass candy nails",
+      "iridescent nails",
+      "glass nails skin tone"
+    ],
+    "aeo_terms": [
+      "What are Korean glass nails?",
+      "What is the difference between Korean glass nails and cat eye nails?",
+      "How are Korean glass nails made?",
+      "What colours look best for Korean glass nails?",
+      "Do Korean glass nails work on short nails?",
+      "What nail shape is best for Korean glass nails?",
+      "Are Korean glass nails the same as aurora nails?",
+      "How long do Korean glass nails last?",
+      "Can you do Korean glass nails at home?",
+      "What nail shapes suit Korean glass nails?",
+      "What is the original Korean glass nail technique?",
+      "Who invented Korean glass nails?"
+    ],
+    "technical_terms": [
+      "magnetic gel polish (gel formula containing iron oxide particles that respond to a magnet)",
+      "cat eye gel (another term for magnetic gel — the magnet creates a stripe resembling a cat's eye)",
+      "chrome powder (ultra-fine metallic or mirror-effect pigment applied over gel)",
+      "holographic film / rainbow film (thin iridescent cellophane used in the original Unistella glass nail technique)",
+      "no-wipe top coat (gel top coat that does not require wiping with cleanser — produces the glassiest finish)",
+      "HEMA-free gel (gel formula without HEMA bonding agent — used in many Korean professional brands)",
+      "gel X (nail extension system popular in Korean salon vlog content)"
+    ],
+    "user_language": [
+      "that glassy look everyone has on TikTok",
+      "the kind of nails that look like they're lit from inside",
+      "mirror nails but softer",
+      "like wearing little glass slippers on your fingertips",
+      "that mesmerising shifting shimmer",
+      "clean girl nails but make it Korean",
+      "the ones that change colour in different light",
+      "I want my nails to look like actual glass"
+    ],
+    "total_mention_target": 13,
+    "first_100_words_rule": "Primary keyword MUST appear twice in the first 100 words. No exceptions."
+  },
+
+  "voice_and_ai_queries": {
+    "blog_gen_instruction": "Answer every query directly in the relevant H2 section body. If a query cannot be addressed naturally in the body, route it to faqItems. No query left unanswered.",
+    "queries": [
+      "What are Korean glass nails?",
+      "What is the difference between Korean glass nails and regular glass nails?",
+      "Are Korean glass nails the same as cat eye nails?",
+      "Who invented Korean glass nails?",
+      "How are Korean glass nails made?",
+      "What is the original Korean glass nail technique using cellophane film?",
+      "What colours work best for Korean glass nails?",
+      "Do Korean glass nails work on short nails?",
+      "What nail shapes suit Korean glass nails best?",
+      "How long do Korean glass nails last at a salon?",
+      "Can I do Korean glass nails at home?",
+      "What are aurora glass nails?",
+      "What is the 2026 version of Korean glass nails?",
+      "Are Korean glass nails the same as mirror nails?",
+      "What is a silky cat eye and is it the same as Korean glass nails?",
+      "Why do Korean glass nails look different in different lights?",
+      "What products do nail techs use for Korean glass nails?"
+    ]
+  },
+
+  "hook_and_ctr": {
+    "blog_gen_instruction": "READ THIS SECTION BEFORE WRITING THE TITLE, META DESCRIPTION, INTRO, OR FIRST H2. The title and description are hardcoded here — use them exactly. The intro hook brief and first H2 hook direction are your creative brief for those specific elements. Do not deviate.",
+    "selected_trigger": "Trigger 2 — FOMO / Trend Urgency",
+    "trigger_rationale": "This reader is trend-aware and has seen Korean glass nails everywhere but cannot name exactly which version she wants — FOMO urgency ('what everyone is getting') combined with volume/specificity ('every design') captures both the fear of missing out and the promise of complete information.",
+    "title": "Korean Glass Nails: Every Design Trending in 2026",
+    "title_char_count": 51,
+    "meta_description": "Korean glass nails look impossible — they're not. See every style from original cellophane film to aurora cat eye, with the 2026 colours that are filling salons right now.",
+    "meta_char_count": 155,
+    "intro_hook_brief": "Open by naming the confusion head-on: she has seen five different 'Korean glass nails' on TikTok and they all look different. This post resolves that. Land the primary keyword twice in the first 100 words. The emotional register is knowing, warm — she is in the right place and the post will give her the full picture.",
+    "first_h2_hook_direction": "Phrase the first H2 as a question the reader is already asking — something like 'What are Korean glass nails, exactly?' — so it reads as a direct voice search query and signals immediately that the post will answer the confusion rather than add to it."
+  },
+
+  "search_journey": {
+    "blog_gen_instruction": "This is the emotional contract with the reader. Every section of the post must honour the promise made. Read this before writing any section. If a paragraph breaks the journey arc — rewrite it.",
+    "reader_arrival_state": "Trend-aware but confused — she has saved multiple versions of Korean glass nails and is not sure if they are the same trend or different ones, and feels slightly behind.",
+    "journey_arc": [
+      "Arrive with confusion resolved — the intro immediately validates her experience ('you have seen five versions and they look different — here is why') and promises the full picture",
+      "Understand what the category covers — the definition H2 names the different design types and gives her vocabulary she did not have",
+      "Feel the visual abundance — gallery-forward sections deliver the inspiration she came for, with design types clearly labelled",
+      "Find her version — the colour and shape guidance moves her from passive browsing to active decision-making",
+      "Exit confident and ready to book — she knows exactly what to say at the salon and what is trending right now in 2026"
+    ],
+    "promise_to_deliver": "A complete visual guide to every Korean glass nail design type, with 2026 trend context and enough clarity that she can book the exact set she wants.",
+    "exit_state": "Informed, inspired, and confident — she has chosen her version of Korean glass nails and knows how to describe it."
+  },
+
+  "content_structure": {
+    "blog_gen_instruction": "This H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s without user instruction. Word budget per section is set — follow it. H3s may be added at editorial discretion.",
+    "h1": "Korean Glass Nails: Every Design Trending in 2026",
+    "h2_structure": [
+      "What are Korean glass nails, exactly?",
+      "The original Korean glass nail: cellophane film and the Unistella technique",
+      "Korean glass nails in 2026: cat eye magnetic gel and the modern finish",
+      "Aurora glass nails: the iridescent version taking over feeds",
+      "Korean glass nail colours: which shades work and for who",
+      "What nail shapes suit Korean glass nails best?",
+      "Korean glass nails for short nails: do they work?",
+      "How long do Korean glass nails last?"
+    ],
+    "word_budget": {
+      "introduction": 220,
+      "conclusion": 170,
+      "h2_1_what_are_korean_glass_nails": 250,
+      "h2_2_original_cellophane_technique": 260,
+      "h2_3_cat_eye_magnetic_modern": 280,
+      "h2_4_aurora_glass_nails": 230,
+      "h2_5_colours_which_shades": 240,
+      "h2_6_nail_shapes": 200,
+      "h2_7_short_nails": 200,
+      "h2_8_how_long_do_they_last": 150,
+      "total_target": 2200
+    }
+  },
+
+  "internal_links": {
+    "blog_gen_instruction": "Every link below must appear in the post. Cluster links use anchor texts verbatim — do not rewrite. Cross-site links use the provided descriptive anchor. Place each link where the placement note says — woven naturally into prose, never as a standalone CTA. Total internal links must not exceed 6.",
+    "all_internal_links": [
+      {
+        "url_or_slug": "/blog/korean-nails/korean-nail-art",
+        "title": "Korean Nail Art: Every Style, Finish & Technique Worth Knowing",
+        "anchor_text": "korean nail art",
+        "placement_note": "H2-1 (What are Korean glass nails) — natural reference when placing the glass nail trend within the broader Korean nail art world",
+        "link_type": "cluster-pillar"
+      },
+      {
+        "url_or_slug": "/blog/korean-nails/korean-nail-trends-2026",
+        "title": "Korean Nail Trends 2026: What's In Right Now",
+        "anchor_text": "korean nail trends 2026",
+        "placement_note": "H2-3 (cat eye magnetic modern version) — natural hook when discussing what is arriving from Seoul this year",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/korean-nails/how-to-do-korean-nails",
+        "title": "How to Do Korean Nails at Home",
+        "anchor_text": "how to do korean nails at home",
+        "placement_note": "H2-8 (How long do Korean glass nails last) — after the salon longevity answer, natural cross-reference for readers who want to DIY",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/korean-nails/igari-nails",
+        "title": "Igari Nails: The Korean Blush Nail Trend Explained",
+        "anchor_text": "igari nails",
+        "placement_note": "H2-4 (Aurora glass nails) — when noting other distinct Korean nail techniques that play with light and colour shift, igari is a natural neighbour",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/blog/cat-eye/cat-eye-nails",
+        "title": "Cat Eye Nails: Every Style & Design for 2026",
+        "anchor_text": "the full guide to cat eye nail techniques and finishes in 2026",
+        "placement_note": "H2-3 (cat eye magnetic modern version) — after explaining the magnetic gel technique, direct reader to the fuller technical breakdown on Mirellé's cat eye post",
+        "link_type": "cross-site"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/blog/chrome-nails/chrome-nail-trends-2026",
+        "title": "Chrome Nail Trends 2026: Every Finish Dominating",
+        "anchor_text": "how glass chrome differs from standard chrome powder in 2026",
+        "placement_note": "H2-5 (colours) — when discussing the glass chrome finish variant and how the sheer base changes everything versus opaque chrome",
+        "link_type": "cross-site"
+      }
+    ]
+  },
+
+  "voice_tone": {
+    "blog_gen_instruction": "This is the voice for this specific post. Layer on top of Mirellé editorial framework. Do not default to generic AI tone.",
+    "recommended_voice": "Knowing curator — the friend who has already done the research and is sharing what she found",
+    "tone_characteristics": [
+      "Warm but specific — never vague or generic; always names the exact design type or shade direction",
+      "Trend-confident — states clearly what is arriving in 2026 without hedging or 'it depends' caveats",
+      "Visually-led in language — descriptions make the reader feel she is looking at the nail even before the image loads",
+      "Empowering — especially in the shape and short nail sections; she should feel included not excluded",
+      "Efficient — no padding; every sentence earns its place"
+    ],
+    "language_style": "British English. Mid-length sentences with occasional short punches. 'You' direct address throughout. Minimal hedging. Concrete nouns ('holographic film', 'magnetic gel', 'no-wipe top coat') over vague descriptors ('special product', 'some kind of polish').",
+    "audience_match": "This reader is trend-literate but vocabulary-poor in nails specifically — she needs language that respects her intelligence while filling a genuine knowledge gap. Condescension is the only tone error to avoid."
+  },
+
+  "external_links": {
+    "blog_gen_instruction": "Include all external links where indicated. Supports E-E-A-T. Use anchor suggestion as guide — write naturally around it.",
+    "links": [
+      {
+        "url": "https://www.refinery29.com/en-us/korean-glass-nails-cat-eye-manicure-trend",
+        "context": "H2-3 (cat eye magnetic modern) — when citing the manicurist Ami Streets definition of glass nails as a gel-based layered technique",
+        "anchor_suggestion": "Refinery29's glass nails guide"
+      },
+      {
+        "url": "https://us.manucurist.com/blogs/journal/glass-nails-the-new-manicure-trend-to-follow",
+        "context": "H2-2 (original technique) — when referencing the stained glass / shattered glass origin story and the Unistella/Park Eunkyung technique",
+        "anchor_suggestion": "Manucurist's glass nails technique breakdown"
+      },
+      {
+        "url": "https://purenails.co.uk/blogs/news/our-top-korean-inspired-nail-trends-for-2026",
+        "context": "H2-3 (2026 modern version) — when citing the magnetic line nail evolution as the 2026 update to classic glass cat eye",
+        "anchor_suggestion": "Pure Nails' 2026 Korean nail trend guide"
+      }
+    ]
+  },
+
+  "section_14_execution_plan": {
+    "blog_gen_instruction": "READ THIS SECTION FIRST. Lock every value. Execute exactly. Do not recalculate, do not adjust, do not deviate.",
+
+    "block_1_keyword_execution": {
+      "primary_keyword": "korean glass nails",
+      "top_3_density_baseline": 10,
+      "total_mention_target": 13,
+      "first_100_words_plan": {
+        "rule": "Primary keyword MUST appear TWICE in the first 100 words. Mandatory. No exceptions.",
+        "mention_1": "Sentence 1 or 2 of introduction — name the trend directly to set context ('Korean glass nails are...' or 'You have been seeing korean glass nails everywhere')",
+        "mention_2": "Sentence 4–6 of introduction — reinforce in the promise statement ('this post maps every version of korean glass nails')"
+      },
+      "first_half_target": 8,
+      "second_half_target": 5,
+      "strong_tag_rule": "EVERY single mention of 'korean glass nails' — all 13 of them — wrapped in <strong> tags. No exceptions. Scan after every paragraph.",
+      "keywords_to_avoid_active": [
+        "korean nail art",
+        "soap nails",
+        "korean nail trends 2026",
+        "how to do korean nails",
+        "korean nails short nails",
+        "igari nails",
+        "korean jelly nails"
+      ]
+    },
+
+    "block_2_word_budget": {
+      "total_target": 2200,
+      "tolerance": "+/- 50 words. Never exceed 2250.",
+      "introduction": 220,
+      "conclusion": 170,
+      "h2_budgets": [
+        { "heading": "What are Korean glass nails, exactly?", "budget": 250, "complexity": "medium" },
+        { "heading": "The original Korean glass nail: cellophane film and the Unistella technique", "budget": 260, "complexity": "high" },
+        { "heading": "Korean glass nails in 2026: cat eye magnetic gel and the modern finish", "budget": 280, "complexity": "high" },
+        { "heading": "Aurora glass nails: the iridescent version taking over feeds", "budget": 230, "complexity": "medium" },
+        { "heading": "Korean glass nail colours: which shades work and for who", "budget": 240, "complexity": "medium" },
+        { "heading": "What nail shapes suit Korean glass nails best?", "budget": 200, "complexity": "low" },
+        { "heading": "Korean glass nails for short nails: do they work?", "budget": 200, "complexity": "low" },
+        { "heading": "How long do Korean glass nails last?", "budget": 150, "complexity": "low" }
+      ],
+      "tracking_rule": "Track running word total at the end of every H2 section. If a section runs over budget — cut before moving to the next section."
+    },
+
+    "block_3_image_plan": {
+      "total_images": 9,
+      "hero_image": "Frontmatter only — NEVER appears in post body",
+      "body_images": 8,
+      "image_type_rule": "ALL body images = inspirational Korean glass nail design photographs. NO infographics. NO process diagrams. NO comparison charts.",
+      "path_rule": "/images/blog/korean-nails/korean-glass-nails/filename.webp",
+      "assignments": [
+        { "image_number": 1, "place_after": "Introduction", "section_context": "A classic Korean glass nails set — sheer pink or nude with mirror-like reflection — hero of the post body" },
+        { "image_number": 2, "place_after": "H2: What are Korean glass nails, exactly?", "section_context": "Close-up of the glass-like depth and translucency effect — shows light-catching quality clearly" },
+        { "image_number": 3, "place_after": "H2: The original Korean glass nail: cellophane film and the Unistella technique", "section_context": "Original iridescent film / shattered glass / prism style — shows the cellophane fragment aesthetic" },
+        { "image_number": 4, "place_after": "H2: Korean glass nails in 2026: cat eye magnetic gel and the modern finish", "section_context": "Modern cat eye magnetic gel glass nail — the stripe of light running vertically on a sheer nude or pink base" },
+        { "image_number": 5, "place_after": "H2: Aurora glass nails: the iridescent version taking over feeds", "section_context": "Aurora glass nails — multi-directional shimmer shifting from lavender to blue to pearl" },
+        { "image_number": 6, "place_after": "H2: Korean glass nail colours: which shades work and for who", "section_context": "Flat lay or colour study showing multiple Korean glass nail shade directions — pink, nude, blue" },
+        { "image_number": 7, "place_after": "H2: What nail shapes suit Korean glass nails best?", "section_context": "Korean glass nails on oval or almond shape — shows how shape frames the reflective finish" },
+        { "image_number": 8, "place_after": "H2: Korean glass nails for short nails: do they work?", "section_context": "Korean glass nails on short nails — reassurance image showing the finish looks intentional and complete even at short length" }
+      ]
+    },
+
+    "block_4_opening_technique_assignments": {
+      "rule": "No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.",
+      "assignments": [
+        { "section": "Introduction", "technique": "Technique 2 — The Scene (drop the reader into the moment of confusion she already has)" },
+        { "section": "H2: What are Korean glass nails, exactly?", "technique": "Technique 4 — The Direct Answer (AEO-first: answer the question in 2-3 sentences before elaborating)" },
+        { "section": "H2: The original Korean glass nail", "technique": "Technique 1 — The Claim (lead with an authoritative statement about the origin)" },
+        { "section": "H2: Korean glass nails in 2026", "technique": "Technique 3 — The Reframe (reframe what the reader thought she knew about this trend)" },
+        { "section": "H2: Aurora glass nails", "technique": "Technique 2 — The Scene (visual-first, paint what aurora glass looks like before naming it)" },
+        { "section": "H2: Korean glass nail colours", "technique": "Technique 4 — The Direct Answer (most searched question: which colour is right for me — answer first)" },
+        { "section": "H2: What nail shapes suit Korean glass nails best?", "technique": "Technique 1 — The Claim (confident directional recommendation upfront)" },
+        { "section": "H2: Korean glass nails for short nails", "technique": "Technique 3 — The Reframe (reframe the belief that glass nails need length)" },
+        { "section": "H2: How long do Korean glass nails last?", "technique": "Technique 4 — The Direct Answer (concise, numbers-first answer)" },
+        { "section": "Conclusion", "technique": "Technique 1 — The Claim (close with a confident editorial statement that ties the journey together)" }
+      ],
+      "banned_opener_rule": "No opener starting with 'If you', 'When it comes to', 'Are you', 'Have you ever', 'In today's world', or any phrasing beginning with the primary keyword before a comma. Check every section opener."
+    },
+
+    "block_5_link_placements": {
+      "rule": "Every link placed exactly where specified. Anchor texts used verbatim — never rewritten. Links woven into prose naturally — never standalone CTAs.",
+      "links": [
+        {
+          "anchor_text": "korean nail art",
+          "full_url": "/blog/korean-nails/korean-nail-art",
+          "place_in_section": "H2: What are Korean glass nails, exactly?",
+          "placement_context": "After the definition paragraph — 'It sits within the broader world of korean nail art, which prizes translucency, light-catching finish, and minimalist precision over heavy colour or 3D embellishment.'",
+          "link_type": "cluster-pillar"
+        },
+        {
+          "anchor_text": "korean nail trends 2026",
+          "full_url": "/blog/korean-nails/korean-nail-trends-2026",
+          "place_in_section": "H2: Korean glass nails in 2026: cat eye magnetic gel and the modern finish",
+          "placement_context": "After the magnetic line nail description — 'For the full picture of what is arriving from Seoul this season, the korean nail trends 2026 post maps every direction worth knowing.'",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "how to do korean nails at home",
+          "full_url": "/blog/korean-nails/how-to-do-korean-nails",
+          "place_in_section": "H2: How long do Korean glass nails last?",
+          "placement_context": "After the salon longevity answer — 'If you would rather build the technique yourself, how to do korean nails at home walks through the products and process step by step.'",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "igari nails",
+          "full_url": "/blog/korean-nails/igari-nails",
+          "place_in_section": "H2: Aurora glass nails: the iridescent version taking over feeds",
+          "placement_context": "After the aurora nail description — 'For another Korean technique that plays with blush and light, igari nails use a different approach entirely — pigment rather than magnetism.'",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "the full guide to cat eye nail techniques and finishes in 2026",
+          "full_url": "https://mirelleinspo.com/blog/cat-eye/cat-eye-nails",
+          "place_in_section": "H2: Korean glass nails in 2026: cat eye magnetic gel and the modern finish",
+          "placement_context": "After explaining the magnetic gel technique — 'The technique itself has a longer history and a wider design range than this post covers — the full guide to cat eye nail techniques and finishes in 2026 goes deeper.'",
+          "link_type": "cross-site"
+        },
+        {
+          "anchor_text": "how glass chrome differs from standard chrome powder in 2026",
+          "full_url": "https://mirelleinspo.com/blog/chrome-nails/chrome-nail-trends-2026",
+          "place_in_section": "H2: Korean glass nail colours: which shades work and for who",
+          "placement_context": "After the glass chrome colour description — 'The finish is distinct from standard chrome because the base is sheer rather than opaque — for the technical distinction, how glass chrome differs from standard chrome powder in 2026 explains the difference clearly.'",
+          "link_type": "cross-site"
+        }
+      ]
+    },
+
+    "block_6_aeo_geo_plan": {
+      "aeo_assignments": [
+        {
+          "aeo_term": "What are Korean glass nails?",
+          "assigned_to_section": "H2: What are Korean glass nails, exactly?",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading. 'Korean glass nails are a gel-based manicure finish defined by ultra-high shine, translucency, and a depth of light that mimics the surface of polished glass. The term covers several distinct techniques — from the original iridescent cellophane film method to modern magnetic gel and chrome powder variants — all unified by the same signature mirror-like quality and K-beauty aesthetic.'"
+        },
+        {
+          "aeo_term": "What is the difference between Korean glass nails and cat eye nails?",
+          "assigned_to_section": "H2: Korean glass nails in 2026: cat eye magnetic gel and the modern finish",
+          "execution": "Write a direct 2-3 sentence answer paragraph immediately after the H2. 'Korean glass nails and cat eye nails are related but not identical. Cat eye nails use magnetic gel to create a vertical stripe of shimmer resembling a cat's iris. The Korean glass nail version applies the same magnetic technique with a sheer or translucent base — so the stripe appears to float inside the nail rather than sit on its surface, producing the glass effect rather than a metallic one.'"
+        },
+        {
+          "aeo_term": "Do Korean glass nails work on short nails?",
+          "assigned_to_section": "H2: Korean glass nails for short nails: do they work?",
+          "execution": "Write a direct 2-sentence answer immediately after the H2. 'Yes — Korean glass nails work on short nails and in many cases look stronger on them. The reflective, light-catching quality of the finish creates visual interest without needing length to carry it.'"
+        },
+        {
+          "aeo_term": "Who invented Korean glass nails?",
+          "assigned_to_section": "H2: The original Korean glass nail: cellophane film and the Unistella technique",
+          "execution": "Declarative GEO entity statement: 'Korean glass nails were created by Park Eunkyung, founder of Unistella salon in Seoul, South Korea. She developed the original technique using shards of iridescent holographic film — later called rainbow film — set into gel to mimic the prismatic quality of abalone shell.'"
+        },
+        {
+          "aeo_term": "What are aurora glass nails?",
+          "assigned_to_section": "H2: Aurora glass nails: the iridescent version taking over feeds",
+          "execution": "Write a direct 2-sentence answer immediately after the H2. 'Aurora glass nails are a sub-style of Korean glass nails that use a translucent or iridescent base with a multi-directional magnetic effect to create a colour-shifting halo across the nail — cool tones that move between lavender, blue, and pearl depending on the light. They are the most ethereal variant in the glass nail family and one of the fastest-growing searches in the category in 2026.'"
+        }
+      ],
+      "geo_entity_statements": [
+        {
+          "entity": "Park Eunkyung / Unistella salon",
+          "assigned_to_section": "H2: The original Korean glass nail: cellophane film and the Unistella technique",
+          "execution": "Define clearly: 'Unistella is a Seoul nail salon founded by Park Eunkyung, who developed the glass nail technique and has since become the manicurist for global style icons including Jennie from BLACKPINK and G-Dragon.'"
+        },
+        {
+          "entity": "Rainbow film / holographic film",
+          "assigned_to_section": "H2: The original Korean glass nail: cellophane film and the Unistella technique",
+          "execution": "Define clearly: 'Rainbow film is a thin iridescent cellophane material manufactured in Korea, originally used to create the glass nail effect by cutting it into small fragments and setting them into gel polish.'"
+        },
+        {
+          "entity": "Magnetic line nails (2026 evolution)",
+          "assigned_to_section": "H2: Korean glass nails in 2026: cat eye magnetic gel and the modern finish",
+          "execution": "Define clearly: 'Magnetic line nails are the 2026 evolution of the cat eye glass technique — the magnet is held horizontally rather than vertically to create a clean, beam-like stripe of shimmer across the nail, delivering the glass effect with sharper, more modern geometry.'"
+        }
+      ]
+    },
+
+    "block_7_active_constraints": {
+      "em_dash_banned": "Long em dash (—) does not appear anywhere. Replace with: comma / new sentence / parentheses / 'but' / restructure.",
+      "banned_vocab_watch": [
+        "mesmerising (use: light-catching, dimensional, hypnotic)",
+        "stunning (use: specific design description)",
+        "amazing (banned entirely)",
+        "beautiful (use: specific adjective that describes what the reader is seeing)",
+        "effortlessly (banned — implies ease without acknowledging craft)",
+        "timeless (banned)",
+        "perfect (banned)"
+      ],
+      "british_english_active": "colour, recognise, -ise, -our. Every instance. No exceptions.",
+      "keyword_density_reminder": "After every 2 H2 sections — count current keyword mentions. Verify running total is on track to hit 13. First half must run denser than second half. Adjust if needed.",
+      "image_path_reminder": "/images/blog/korean-nails/korean-glass-nails/filename.webp — topic_slug 'korean-nails' in path always.",
+      "internal_link_url_reminder": "Full correct paths only. Cluster links = /blog/korean-nails/[slug]. Cross-site links = exact URL as discovered. Never bare /slug.",
+      "hero_image_reminder": "Hero = frontmatter only. Never place hero image in body.",
+      "strong_tag_reminder": "Every primary keyword mention = <strong> tags. Scan after every paragraph.",
+      "cannibalization_reminder": "Never use 'korean jelly nails' as a standalone focus term — that keyword is reserved for an existing site post. You may reference jelly finish or jelly base as a description of technique but never as a headline term or section focus."
+    }
+  }
+}
