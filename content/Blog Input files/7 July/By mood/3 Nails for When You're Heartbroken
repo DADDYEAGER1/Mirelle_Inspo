@@ -1,0 +1,577 @@
+ {
+  "file_authority": {
+    "statement": "THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly."
+  },
+
+  "post_constants": {
+    "slug": "heartbreak-nail-designs",
+    "topic_slug": "mood-nails",
+    "canonical": "https://mirelleinspo.com/blog/mood-nails/heartbreak-nail-designs",
+    "post_type": "spoke",
+    "intent": "inspirational",
+    "word_count": 2100,
+    "image_count": 9,
+    "template": "split-left",
+    "hero_dimensions": "800x800",
+    "category": "Mood Nails",
+    "publish_date": "2026-06-27",
+    "author": "Mirellé Team"
+  },
+
+  "cluster_snapshot": {
+    "pillar_slug": "nails-by-mood",
+    "pillar_title": "Nails by Mood: The Complete Guide to Choosing Your Colour by How You Feel",
+    "pillar_primary_keyword": "nails by mood",
+    "this_post_slug": "heartbreak-nail-designs",
+    "this_post_role": "spoke",
+    "keywords_to_avoid": [
+      "nails by mood",
+      "dopamine nails",
+      "nails for confidence",
+      "romantic nails",
+      "dark feminine nails",
+      "nail color psychology",
+      "happy nails",
+      "witchy nails",
+      "goth nails",
+      "pastel goth nails",
+      "mob wife nails",
+      "blue nails",
+      "coffin ombre nails"
+    ]
+  },
+
+  "serp_analysis": {
+    "blog_gen_instruction": "Use competitor gaps and missing semantic territory to fill what competitors miss. Our strategic approach is the angle for the introduction and conclusion.",
+    "top_3_ranking_posts": [
+      {
+        "title": "Heartbreak, but Make It Chic: 10 Broken Heart Nail Designs That Turn Pain Into Style",
+        "source": "thealliancerockband.com",
+        "estimated_word_count": 900,
+        "primary_angle": "10 broken heart motif designs only — no emotional framing, no colour mood mapping, no nail shape guidance"
+      },
+      {
+        "title": "Broken Heart Nail Designs: A Vogue-worthy Guide",
+        "source": "rainyroses.com",
+        "estimated_word_count": 850,
+        "primary_angle": "Short listicle of 6 broken heart design styles — no post-breakup emotional journey, no palette depth"
+      },
+      {
+        "title": "Heartbreaker Nails to Match Your Anti-Valentine's Day Vibe",
+        "source": "newbeauty.com",
+        "estimated_word_count": 750,
+        "primary_angle": "Anti-Valentine's angle only — narrowly seasonal, no year-round heartbreak narrative or glow-up framing"
+      }
+    ],
+    "top_3_average_word_count": 833,
+    "word_count_floor": 833,
+    "word_count_set": 2100,
+    "top_3_keyword_density_baseline": 8,
+    "competitor_gaps": [
+      "None of the top 3 posts address the emotional spectrum of heartbreak nail styles — dark vs soft vs rage — reader has to guess which vibe fits her stage",
+      "No post maps specific nail colours to specific emotional states within heartbreak (devastated vs furious vs healing)",
+      "No competitor addresses nail shape guidance for heartbreak aesthetics — a confirmed audience question across TikTok and Pinterest",
+      "No post covers short nail heartbreak designs despite confirmed Pinterest saves in this sub-category",
+      "No post differentiates breakup nails from anti-valentine nails — audiences searching at different emotional moments get the same content",
+      "No competitor addresses the revenge nails angle that appears repeatedly in Pinterest board names and TikTok hashtags",
+      "Zero posts acknowledge the glow-up framing — confirmed on TikTok with 30K+ likes on a single breakup nails video and language like 'she left happy' signalling empowerment intent"
+    ],
+    "missing_semantic_territory": [
+      "Sad girl aesthetic as a nail identity not just a design category — confirmed across TikTok, Pinterest, Medium",
+      "Post-breakup glow-up reframing — nails as self-reclamation act, confirmed on TikTok and Pinterest board names like Post Breakup Nails",
+      "Dripping heart / melting heart nail motif — confirmed across Pinterest boards and TikTok tutorials as a distinct requested design",
+      "Revenge body nail equivalent — empowerment angle fully absent from competitor content",
+      "Dark coquette / cursed romance crossover aesthetic — confirmed on Once Upon A Broken Heart Pinterest boards and TikTok aesthetic tags",
+      "Colour-to-emotion mapping: black for grief, deep red for passion/rage, plum/mauve for melancholy — confirmed semantically but unaddressed in competitor content"
+    ],
+    "our_strategic_approach": "Every competitor post treats heartbreak nail designs as a motif category — here are some broken heart designs. We treat it as an emotional journey with three distinct stages (devastated, furious, healing) each mapped to a specific palette, nail shape, and motif. This is the first post in this SERP that speaks to the reader's actual emotional state, not just her aesthetic preference. We also own the glow-up reframe — heartbreak nail designs not as a sad act but as the first step in becoming untouchable.",
+    "recommended_image_count_validation": "Top competitors use 0-4 images. Our 9 images (1 hero + 8 body) significantly exceeds SERP standard and matches the inspirational intent demand confirmed across Pinterest boards."
+  },
+
+  "audience_intelligence": {
+    "blog_gen_instruction": "This is your primary creative brief. Every paragraph written for this specific person with this specific intent. Satisfy them completely.",
+    "who_they_are": "A woman aged 18-34 who has just been through a breakup or is in the thick of heartbreak and has turned to nail art as a form of self-expression and emotional processing. She is highly visual, saves to Pinterest boards, participates in TikTok aesthetic trends, and uses beauty decisions as identity signals. She is not searching for something cute — she is searching for something that feels like her right now. She knows what sad girl aesthetic means without having to Google it.",
+    "what_they_want_from_this_post": "A visual and emotional map of heartbreak nail ideas that meets her exactly where she is — not just here are some broken heart designs but here is the set for someone who cannot get out of bed, and here is the set for someone who is starting to feel dangerous again. She wants to leave knowing what set she is booking.",
+    "what_frustrates_them": "Every post she finds is about Valentine's Day, anti-Valentine's Day, or is a basic roundup of 10 broken heart nail art designs. None of them acknowledge that she is not looking for a seasonal manicure — she is looking for emotional armour. The content feels generic and misses the point of why she is actually searching.",
+    "top_5_pain_points": [
+      "Cannot find a dark, genuinely moody heartbreak nail aesthetic that does not look like a Halloween set or a Valentine's joke",
+      "Has short nails and keeps seeing long coffin sets in every heartbreak nail post — cannot find designs that work on her nail length",
+      "Wants nail art that signals she is going through it without being literal or costume-y — the broken heart emoji as a design is too on the nose",
+      "Looking for something between soft sad girl and full dark goth — a middle ground nobody is mapping",
+      "Does not know which colours actually communicate grief vs fury vs resilience — wants the emotional palette decoded"
+    ],
+    "exact_user_phrases": [
+      "what nails should I get after a breakup",
+      "nails that match how I feel rn",
+      "dark sad girl nails inspo",
+      "what would you do for breakup nails",
+      "heartbreak nails not Valentine's",
+      "revenge nails ideas",
+      "breakup glow up nails",
+      "post breakup nail aesthetic",
+      "nails for when you're crying to Taylor Swift",
+      "broken heart nails but make it fashion",
+      "nails for my villain era after heartbreak"
+    ],
+    "intent_content_signals": [
+      "Reader wants volume and visual abundance — she is saving to a mood board, not executing immediately",
+      "Emotional resonance matters more than technical instruction — she wants to feel seen first",
+      "Sub-categories by emotional stage will convert better than a flat list of designs",
+      "Short nail options must be present — Pinterest and TikTok confirm demand across nail lengths",
+      "The empowerment reframe (glow-up, revenge, becoming untouchable) must be visible by the third H2 at the latest",
+      "She responds to language that mirrors TikTok and social caption voice — direct, wry, self-aware",
+      "Dark aesthetics dominate her saves but she also gravitates to the soft sad version — both must be present"
+    ]
+  },
+
+  "semantic_keyword_data": {
+    "blog_gen_instruction": "Primary keyword in strong tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.",
+    "primary_keyword": "heartbreak nail designs",
+    "total_mention_target": 11,
+    "first_100_words_rule": "Primary keyword MUST appear twice in the first 100 words — mandatory, no exceptions",
+    "keyword_variations": [
+      "heartbreak nail ideas",
+      "heartbreak nail art",
+      "broken heart nail designs",
+      "heartbreak nails",
+      "heart break nails",
+      "breakup nail designs",
+      "post breakup nail designs",
+      "heartbreak nail inspo",
+      "sad nail designs",
+      "heartbreaker nails"
+    ],
+    "cluster_keywords": [
+      "breakup nails",
+      "post breakup nails",
+      "anti Valentine nails",
+      "revenge nails",
+      "sad girl nails",
+      "dark heartbreak nails",
+      "broken heart nails",
+      "melting heart nails",
+      "drippy heart nails",
+      "heartbreak nail aesthetic",
+      "moody nails after breakup",
+      "crying heart nails",
+      "glow up nails after breakup",
+      "soft sad nails",
+      "emotional nail art"
+    ],
+    "lsi_terms": [
+      "deep red nail polish",
+      "matte black nails",
+      "dark mauve nails",
+      "midnight blue nails",
+      "burgundy nails",
+      "vampy nails",
+      "plum nail colour",
+      "almond nail shape",
+      "coffin nail shape",
+      "broken heart motif",
+      "minimalist heart nail art",
+      "dripping heart nail design",
+      "sad girl aesthetic",
+      "dark coquette nails",
+      "cursed romance aesthetic",
+      "nail art self-expression",
+      "chromatic heart accent nail",
+      "black nail base",
+      "oxblood nails",
+      "smoky rose nails"
+    ],
+    "aeo_terms": [
+      "what nail designs are good for after a breakup",
+      "what colour should I paint my nails when I'm heartbroken",
+      "what are heartbreak nail designs",
+      "are broken heart nails only for Valentine's Day",
+      "what is the best nail colour to wear when sad",
+      "can short nails look good with heartbreak nail art",
+      "what is the sad girl nail aesthetic",
+      "how do I do a dripping heart nail design",
+      "what nail shapes work best for heartbreak aesthetic nails",
+      "are revenge nails a real thing",
+      "what colours represent heartbreak in nail art",
+      "what is a post-breakup glow-up nail look"
+    ],
+    "technical_terms": [
+      "negative space nail art",
+      "gel nail base coat",
+      "nail art liner brush",
+      "stamping plate motif",
+      "ombre nail technique",
+      "accent nail placement",
+      "matte top coat",
+      "chrome powder overlay"
+    ],
+    "user_language": [
+      "nails that match how I feel rn",
+      "what would you do for breakup nails",
+      "dark sad girl nails",
+      "she left happy and got her nails done",
+      "villain era nails after heartbreak",
+      "crying but make it chic",
+      "breakup glow up energy",
+      "nails for when you're in your feels",
+      "revenge body but it's my nails",
+      "I can't explain it but this set just gets it"
+    ]
+  },
+
+  "voice_and_ai_queries": {
+    "blog_gen_instruction": "Answer every query directly in the relevant H2 section body. If a query cannot be addressed naturally in the body, route it to faqItems. No query left unanswered.",
+    "queries": [
+      "What are heartbreak nail designs and who are they for?",
+      "What nail colour is best when you're heartbroken?",
+      "What do dark red nails mean emotionally?",
+      "Are broken heart nails only for Valentine's Day?",
+      "What nail designs work on short nails for a heartbreak aesthetic?",
+      "What is the sad girl nail aesthetic and how do I get it?",
+      "How do I do a dripping heart nail design at home?",
+      "What is a post-breakup glow-up nail look?",
+      "What nail shape looks best for heartbreak nail designs?",
+      "Can heartbreak nail designs look elegant and not costume-y?",
+      "What colours represent grief and fury in nail art?",
+      "What are revenge nails and what do they look like?",
+      "What nail designs say I'm sad but also thriving?",
+      "What is the best heartbreak nail for someone who wants to look powerful not broken?",
+      "How is a dark coquette nail aesthetic different from goth nails?",
+      "What nail design would a nail tech recommend after a breakup?"
+    ]
+  },
+
+  "hook_and_ctr": {
+    "blog_gen_instruction": "READ THIS SECTION BEFORE WRITING THE TITLE, META DESCRIPTION, INTRO, OR FIRST H2. The title and description are hardcoded here — use them exactly. Do not deviate.",
+    "selected_trigger": "Trigger 2 — FOMO / Trend Urgency",
+    "trigger_rationale": "The heartbreak nail designs reader is emotionally activated and trend-aware — she is already deep in sad girl aesthetic territory on TikTok and Pinterest, and the FOMO trigger frames her search as everyone going through it is getting this set, which turns a passive browse into a directional decision she feels she must make now.",
+    "title": "Heartbreak Nail Designs: Dark, Sad & Beautiful 2026",
+    "title_char_count": 54,
+    "meta_description": "Got your heart broken? These heartbreak nail designs go far beyond broken hearts. Dark, soft, and revenge-era looks mapped by mood.",
+    "meta_char_count": 127,
+    "intro_hook_brief": "Open by naming the exact emotional moment — she just went through something, she is in her feelings, and she is on her phone right now because her nails feel like the one thing she can control. Frame heartbreak nail designs not as a Valentine's aesthetic but as a year-round act of self-expression that meets her at every stage of heartbreak, from the first dark phase to the glow-up.",
+    "first_h2_hook_direction": "Frame the first H2 as the question she actually searched: what nail designs communicate how she actually feels right now — not a motif roundup, but an emotional entry point. Phrase as a near-voice-search query: What Heartbreak Nail Designs Actually Match How You Feel Right Now."
+  },
+
+  "search_journey": {
+    "blog_gen_instruction": "This is the emotional contract with the reader. Every section of the post must honour the promise made. Read this before writing any section. If a paragraph breaks the journey arc — rewrite it.",
+    "reader_arrival_state": "She is in the middle of something painful, emotionally charged, and highly visual — she has been scrolling for an hour and nothing she has found has felt like hers yet.",
+    "journey_arc": [
+      "1. Acknowledge her emotional state immediately — she is not browsing aesthetics, she is seeking recognition and permission to feel what she is feeling through her nails",
+      "2. Show her the dark phase options first — the moodiest, most expressive heartbreak nail designs that match the worst days",
+      "3. Introduce the fury and power section — she is moving through it, nails that signal she is becoming dangerous again",
+      "4. Offer the healing and glow-up looks — not toxic positivity, but the version of herself she is becoming",
+      "5. Close with the practical and empowering — what to tell her nail tech, what works on short nails, and the final affirmation that this manicure is not about heartbreak, it is about her"
+    ],
+    "promise_to_deliver": "Heartbreak nail designs mapped not as motifs but as emotional stages — every mood, every phase, every nail length, so she leaves knowing exactly what set she is booking.",
+    "exit_state": "She feels seen, she has saved at least three images, she knows what she is getting done, and she feels like the pain has been transformed into something she can wear with intention."
+  },
+
+  "content_structure": {
+    "blog_gen_instruction": "This H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s without user instruction. Word budget per section is set — follow it. H3s may be added at editorial discretion.",
+    "h1": "Heartbreak Nail Designs: Dark, Sad, Beautiful — and Completely Unapologetic",
+    "h2_structure": [
+      "What Heartbreak Nail Designs Actually Match How You Feel Right Now",
+      "The Dark Phase: Nail Colours for When You Are in the Worst of It",
+      "The Fury Phase: Revenge Nails and Power Looks for Your Villain Era",
+      "The Healing Phase: Soft Sad Girl Designs That Still Look Beautiful",
+      "Broken Heart Motifs Done Right — Without Looking Like a Valentine's Card",
+      "Heartbreak Nails for Short Nails (Because the Set Should Not Depend on Your Length)",
+      "What to Tell Your Nail Tech When You Want a Heartbreak Look",
+      "The Glow-Up Nail: When You Are Ready to Stop Looking Sad and Start Looking Untouchable"
+    ],
+    "word_budget": {
+      "introduction": "225 words",
+      "h2_1": "250 words",
+      "h2_2": "280 words",
+      "h2_3": "260 words",
+      "h2_4": "250 words",
+      "h2_5": "230 words",
+      "h2_6": "220 words",
+      "h2_7": "210 words",
+      "h2_8": "225 words",
+      "conclusion": "175 words",
+      "total": "2100 words (+/- 50 words tolerance)"
+    }
+  },
+
+  "internal_links": {
+    "blog_gen_instruction": "Every link below must appear in the post. Cluster links use anchor texts verbatim — do not rewrite. Cross-site links use the provided descriptive anchor. Place each link where the placement note says — woven naturally into prose, never as a standalone CTA. Total internal links must not exceed 6.",
+    "all_internal_links": [
+      {
+        "url_or_slug": "/blog/mood-nails/nails-by-mood",
+        "title": "Nails by Mood: The Complete Guide to Choosing Your Colour by How You Feel",
+        "anchor_text": "nails by mood",
+        "placement_note": "H2-1 — when introducing nail colour as emotional language, link to the cluster pillar as the broader guide for every mood",
+        "link_type": "cluster-pillar"
+      },
+      {
+        "url_or_slug": "/blog/mood-nails/dark-feminine-nails",
+        "title": "Nails for Your Villain Era: Dark Feminine, Moody, Unapologetic",
+        "anchor_text": "dark feminine nails",
+        "placement_note": "H2-2 — when describing the dark phase palette (matte black, deep oxblood, plum), link to the dark feminine spoke as the deeper exploration of this aesthetic",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/mood-nails/nail-color-psychology",
+        "title": "What Your Nail Color Says About You: Color Psychology Decoded",
+        "anchor_text": "nail color psychology",
+        "placement_note": "H2-2 — after explaining what specific colours signal emotionally, reference the nail color psychology spoke for readers who want the science",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/mood-nails/nails-for-confidence",
+        "title": "Nails When You Feel Like a Main Character: Bold, Confident, Powerful",
+        "anchor_text": "nails for confidence",
+        "placement_note": "H2-8 — when covering the glow-up phase, nails for confidence is the natural next destination for a reader who is moving from heartbreak into power",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/goth/witchy-nails",
+        "title": "Witchy Nails for Every Aesthetic",
+        "anchor_text": "witchy nail aesthetics that carry that same deliberate, emotionally-charged energy",
+        "placement_note": "H2-5 — when discussing dark coquette and cursed romance motifs, the witchy nail post is a natural adjacent aesthetic for readers who want intentional emotionally-weighted nail art in a different form",
+        "link_type": "cross-site"
+      },
+      {
+        "url_or_slug": "/blog/goth/pastel-goth-nails",
+        "title": "Pastel Goth Nails: 60+ Creepy Cute Ideas",
+        "anchor_text": "soft dark nail aesthetics that live between sadness and style",
+        "placement_note": "H2-4 — when covering soft sad girl designs (mauve, smoky rose, lavender-grey), the pastel goth post bridges readers who want something beautiful but emotionally weighted, not cute and not fully dark",
+        "link_type": "cross-site"
+      }
+    ]
+  },
+
+  "voice_tone": {
+    "blog_gen_instruction": "This is the voice for this specific post. Layer on top of Mirellé editorial framework. Do not default to generic AI tone.",
+    "recommended_voice": "Emotionally intelligent friend — the one who has been through it, does not minimise it, and also knows exactly what nails to book",
+    "tone_characteristics": [
+      "Warm but not saccharine — she is not being comforted, she is being understood",
+      "Wry and self-aware — a light irony that acknowledges booking a nail appointment in the middle of heartbreak is very much a thing she does",
+      "Confident and directional — every section ends with a clear visual direction, never vague",
+      "Aesthetically fluent — uses the language of the sad girl and dark coquette worlds accurately, not as an outsider describing them",
+      "Empowering without being preachy — the post does not tell her how to feel; it shows her what to wear at each stage of feeling"
+    ],
+    "language_style": "Medium sentence length with occasional short punchy lines for emotional emphasis. You used consistently and conversationally. British English throughout. No hedging — every statement is made with editorial confidence. Analogies drawn from aesthetic communities she already inhabits rather than fashion-magazine distance.",
+    "audience_match": "She is a high-visual, emotionally expressive woman who uses beauty as emotional processing — the voice must match her register exactly or she will close the tab."
+  },
+
+  "external_links": {
+    "blog_gen_instruction": "Include all external links where indicated. Supports E-E-A-T. Use anchor suggestion as guide — write naturally around it.",
+    "links": [
+      {
+        "url": "https://thealliancerockband.com/heartbreak-but-make-it-chic-10-broken-heart-nail-designs-that-turn-pain-into-style/",
+        "context": "When referencing the spectrum of broken heart nail design styles in H2-5",
+        "anchor_suggestion": "broken heart nail designs have gone well beyond the literal motif"
+      },
+      {
+        "url": "https://www.newbeauty.com/heartbreaker-nails-for-anti-valentines-day-beauty/",
+        "context": "When establishing that heartbreak nails exist beyond Valentine's Day seasonal content in H2-1 or intro",
+        "anchor_suggestion": "the heartbreaker nail aesthetic has its own editorial moment year-round"
+      },
+      {
+        "url": "https://www.rainyroses.com/blogs/nail-art/broken-heart-nail-designs-a-vogue-worthy-guide",
+        "context": "When discussing the black and white broken heart design or the minimalist line art direction in H2-5",
+        "anchor_suggestion": "minimalist broken heart nail art in black and white"
+      }
+    ]
+  },
+
+  "execution_plan": {
+    "blog_gen_instruction": "READ THIS SECTION FIRST. Lock every value. Execute exactly. Do not recalculate, do not adjust, do not deviate.",
+
+    "block_1_keyword_execution": {
+      "primary_keyword": "heartbreak nail designs",
+      "top_3_density_baseline": 8,
+      "total_mention_target": 11,
+      "note_on_target": "baseline 8 + 3 additional = 11 total. Hard target. Not a percentage.",
+      "first_100_words_plan": {
+        "rule": "Primary keyword MUST appear TWICE in the first 100 words. Mandatory. No exceptions.",
+        "mention_1": "Sentence 1-2 of introduction — name the keyword directly as the subject of the post",
+        "mention_2": "Sentence 4-6 of introduction — reframe the keyword in the emotional and inspirational context"
+      },
+      "first_half_target": "7 mentions — first 1050 words. Run denser in first half.",
+      "second_half_target": "4 mentions — second 1050 words",
+      "strong_tag_rule": "EVERY single mention of heartbreak nail designs — all 11 of them — wrapped in <strong> tags. No exceptions. Catch each one as it is written. Scan after every paragraph.",
+      "keywords_to_avoid_active": [
+        "nails by mood (as focus term)",
+        "dopamine nails",
+        "nails for confidence (as focus term)",
+        "romantic nails",
+        "dark feminine nails (as focus term)",
+        "nail color psychology (as focus term)",
+        "happy nails",
+        "witchy nails (as focus term)",
+        "goth nails (as focus term)",
+        "pastel goth nails (as focus term)",
+        "mob wife nails",
+        "blue nails",
+        "coffin ombre nails"
+      ]
+    },
+
+    "block_2_word_budget": {
+      "total_target": 2100,
+      "tolerance": "+/- 50 words, never exceed 2150",
+      "introduction": "225 words",
+      "conclusion": "175 words",
+      "h2_budgets": [
+        { "heading": "What Heartbreak Nail Designs Actually Match How You Feel Right Now", "budget": 250, "complexity": "medium" },
+        { "heading": "The Dark Phase: Nail Colours for When You Are in the Worst of It", "budget": 280, "complexity": "high" },
+        { "heading": "The Fury Phase: Revenge Nails and Power Looks for Your Villain Era", "budget": 260, "complexity": "high" },
+        { "heading": "The Healing Phase: Soft Sad Girl Designs That Still Look Beautiful", "budget": 250, "complexity": "medium" },
+        { "heading": "Broken Heart Motifs Done Right — Without Looking Like a Valentine's Card", "budget": 230, "complexity": "medium" },
+        { "heading": "Heartbreak Nails for Short Nails (Because the Set Should Not Depend on Your Length)", "budget": 220, "complexity": "medium" },
+        { "heading": "What to Tell Your Nail Tech When You Want a Heartbreak Look", "budget": 210, "complexity": "low" },
+        { "heading": "The Glow-Up Nail: When You Are Ready to Stop Looking Sad and Start Looking Untouchable", "budget": 225, "complexity": "medium" }
+      ],
+      "tracking_rule": "Track running word total at the end of every H2 section. If a section is running over budget — cut before moving to the next section. Do not compensate later."
+    },
+
+    "block_3_image_plan": {
+      "total_images": 9,
+      "hero_image": "frontmatter only — NEVER appears in post body",
+      "body_images": 8,
+      "assignments": [
+        { "image_number": 1, "place_after": "Introduction", "section_context": "Opening mood image — a dark matte almond nail set in deep oxblood or plum; no motif, pure colour and emotion" },
+        { "image_number": 2, "place_after": "H2-2: The Dark Phase", "section_context": "Matte black or deep burgundy nail set — no art, just the darkest most emotionally weighted colour palette" },
+        { "image_number": 3, "place_after": "H2-3: The Fury Phase", "section_context": "Deep red or dark chrome nails — high gloss, sharp shape, clearly empowered not grief-struck" },
+        { "image_number": 4, "place_after": "H2-4: The Healing Phase", "section_context": "Soft smoky mauve or lavender-grey nails — matte or satin finish, minimal art, melancholy beauty" },
+        { "image_number": 5, "place_after": "H2-5: Broken Heart Motifs Done Right (first)", "section_context": "Minimalist broken heart line art on a neutral or dark base — elegant, not literal or costume-y" },
+        { "image_number": 6, "place_after": "H2-5: Broken Heart Motifs Done Right (second)", "section_context": "Dripping or melting heart design in dark red on matte black — shows the editorial motif approach" },
+        { "image_number": 7, "place_after": "H2-6: Short Nails", "section_context": "Short nail set with heartbreak aesthetic — almond or squoval shape, showing the look works at any length" },
+        { "image_number": 8, "place_after": "H2-8: The Glow-Up Nail", "section_context": "The transformation nail — dark chrome or oxblood on a longer almond or coffin shape, looking powerful and intentional not sad" }
+      ],
+      "image_type_rule": "ALL body images = inspirational nail design images. NO infographics. NO process diagrams. NO comparison charts. NO step-by-step visuals.",
+      "path_rule": "/images/blog/mood-nails/heartbreak-nail-designs/filename.webp — topic_slug in path, slug folder, leading slash"
+    },
+
+    "block_4_opening_technique_assignments": {
+      "rule": "No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.",
+      "assignments": [
+        { "section": "Introduction", "technique": "Technique 2 — Scene-Setting / You Are Here" },
+        { "section": "H2-1: What Heartbreak Nail Designs Actually Match How You Feel Right Now", "technique": "Technique 3 — The Reframe" },
+        { "section": "H2-2: The Dark Phase", "technique": "Technique 4 — The Direct Address / Second Person" },
+        { "section": "H2-3: The Fury Phase", "technique": "Technique 2 — Scene-Setting" },
+        { "section": "H2-4: The Healing Phase", "technique": "Technique 1 — The Claim" },
+        { "section": "H2-5: Broken Heart Motifs Done Right", "technique": "Technique 3 — The Reframe" },
+        { "section": "H2-6: Short Nails", "technique": "Technique 4 — The Direct Address" },
+        { "section": "H2-7: What to Tell Your Nail Tech", "technique": "Technique 1 — The Claim" },
+        { "section": "H2-8: The Glow-Up Nail", "technique": "Technique 2 — Scene-Setting" },
+        { "section": "Conclusion", "technique": "Technique 1 — The Claim" }
+      ],
+      "banned_opener_rule": "Never start with When it comes to, Whether you are, In the world of, or any variation of X is more than just Y."
+    },
+
+    "block_5_link_placements": {
+      "rule": "Every link placed exactly where specified. Anchor texts used verbatim — never rewritten. Links woven into prose naturally — never standalone CTAs.",
+      "links": [
+        {
+          "anchor_text": "nails by mood",
+          "full_url": "/blog/mood-nails/nails-by-mood",
+          "place_in_section": "H2-1: What Heartbreak Nail Designs Actually Match How You Feel Right Now",
+          "placement_context": "When introducing nail colour as emotional language, reference the pillar as the complete guide for every mood not just heartbreak",
+          "link_type": "cluster-pillar"
+        },
+        {
+          "anchor_text": "dark feminine nails",
+          "full_url": "/blog/mood-nails/dark-feminine-nails",
+          "place_in_section": "H2-2: The Dark Phase",
+          "placement_context": "When describing the dark phase palette, mention the dark feminine spoke as the deeper dive into this power-meets-mystery aesthetic",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "nail color psychology",
+          "full_url": "/blog/mood-nails/nail-color-psychology",
+          "place_in_section": "H2-2: The Dark Phase",
+          "placement_context": "After explaining what specific colours signal emotionally, reference this spoke for readers who want the science",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "nails for confidence",
+          "full_url": "/blog/mood-nails/nails-for-confidence",
+          "place_in_section": "H2-8: The Glow-Up Nail",
+          "placement_context": "When covering the glow-up phase, nails for confidence is the natural next destination for a reader moving from heartbreak into power",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "witchy nail aesthetics that carry that same deliberate, emotionally-charged energy",
+          "full_url": "/blog/goth/witchy-nails",
+          "place_in_section": "H2-5: Broken Heart Motifs Done Right",
+          "placement_context": "When discussing dark coquette and cursed romance motifs, the witchy nail post is the adjacent aesthetic for readers who want intentional emotionally-weighted nail art in a different form",
+          "link_type": "cross-site"
+        },
+        {
+          "anchor_text": "soft dark nail aesthetics that live between sadness and style",
+          "full_url": "/blog/goth/pastel-goth-nails",
+          "place_in_section": "H2-4: The Healing Phase",
+          "placement_context": "When covering soft sad girl designs (mauve, smoky rose, lavender-grey), the pastel goth post bridges readers who want something beautiful but emotionally weighted",
+          "link_type": "cross-site"
+        }
+      ]
+    },
+
+    "block_6_aeo_geo_plan": {
+      "aeo_assignments": [
+        {
+          "aeo_term": "What are heartbreak nail designs and who are they for?",
+          "assigned_to_section": "H2-1: What Heartbreak Nail Designs Actually Match How You Feel Right Now",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading — before any elaboration. Define heartbreak nail designs as a mood-driven aesthetic category, not a motif or seasonal trend. This is what gets picked up by AI answer engines."
+        },
+        {
+          "aeo_term": "What nail colour is best when you're heartbroken?",
+          "assigned_to_section": "H2-2: The Dark Phase",
+          "execution": "Write a direct 2-3 sentence answer paragraph naming the three key colours — matte black, deep burgundy, plum — and what each communicates emotionally. Answer clearly before elaborating."
+        },
+        {
+          "aeo_term": "What nail designs work on short nails for a heartbreak aesthetic?",
+          "assigned_to_section": "H2-6: Heartbreak Nails for Short Nails",
+          "execution": "Direct 2-sentence answer: name almond and squoval as the shapes that carry heartbreak aesthetic best on short lengths, and specify the design types that work (minimalist motif, solid dark, matte finish). Then elaborate."
+        },
+        {
+          "aeo_term": "What is the best heartbreak nail for someone who wants to look powerful not broken?",
+          "assigned_to_section": "H2-8: The Glow-Up Nail",
+          "execution": "Direct 2-3 sentence answer naming the glow-up nail look: deep chrome or dark oxblood on an almond or coffin shape, high gloss, zero motif. Then give the full section context."
+        }
+      ],
+      "geo_entity_statements": [
+        {
+          "entity": "dripping heart nail design",
+          "assigned_to_section": "H2-5: Broken Heart Motifs Done Right",
+          "execution": "Write a clear declarative definition: a dripping heart nail design features a heart motif rendered with an elongated drip or melt effect at the base, typically in deep red or black, giving the literal broken heart symbol an editorial quality without the costume effect. Confident, no hedging."
+        },
+        {
+          "entity": "sad girl nail aesthetic",
+          "assigned_to_section": "H2-4: The Healing Phase",
+          "execution": "Define clearly: the sad girl nail aesthetic is a mood-driven nail category characterised by soft, emotionally weighted colours — smoky mauve, lavender-grey, dusty rose — with matte or satin finishes and minimal to no art, designed to look beautiful and melancholic simultaneously. Do not hedge."
+        },
+        {
+          "entity": "post-breakup glow-up nails",
+          "assigned_to_section": "H2-8: The Glow-Up Nail",
+          "execution": "Define declaratively: post-breakup glow-up nails are the aesthetic shift from the grief palette (dark mattes) toward power (high-gloss darks, chrome, sharp shapes) — the nails a woman books when she has stopped crying and started becoming someone people should notice."
+        }
+      ]
+    },
+
+    "block_7_active_constraints": {
+      "em_dash_banned": "Long em dash does not appear anywhere. If one forms while writing — stop, replace with: comma, new sentence, parentheses, but, or restructure.",
+      "banned_vocab_watch": [
+        "journey (as noun for emotional process — use stage or phase instead)",
+        "empower / empowering (replace with specific language: looks powerful, signals danger, feels like armour)",
+        "stunning (banned — use arresting, remarkable, editorial, precise)",
+        "amazing (banned)",
+        "beautiful (use sparingly, only when it is the precise emotional word needed)",
+        "perfect (banned)",
+        "elevate / elevated (banned — use specific descriptors)",
+        "timeless (banned — too generic)",
+        "self-care (banned in this context — too soft for this post's register)"
+      ],
+      "british_english_active": "colour, recognise, -ise, -our, favourite, practise (verb) — every instance, no exceptions",
+      "keyword_density_reminder": "After every 2 H2 sections — count current keyword mentions. Verify running total is on track to hit 11 mentions. First half must run denser (7 mentions) than second half (4 mentions). Adjust if needed.",
+      "image_path_reminder": "/images/blog/mood-nails/heartbreak-nail-designs/filename.webp — topic_slug (mood-nails) in path always",
+      "internal_link_url_reminder": "Full correct paths only. Cluster links = /blog/mood-nails/[slug]. Cross-site links = exact discovered URL. Never bare /slug.",
+      "hero_image_reminder": "Hero = frontmatter only. Never place hero image in body.",
+      "strong_tag_reminder": "Every primary keyword mention = <strong> tags. Scan after every paragraph. 11 total mentions required."
+    }
+  }
+}
