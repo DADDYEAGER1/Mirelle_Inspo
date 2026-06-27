@@ -1,0 +1,597 @@
+{
+  "file_authority": {
+    "statement": "THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly."
+  },
+
+  "post_constants": {
+    "slug": "korean-nail-art",
+    "topic_slug": "korean-nails",
+    "canonical": "https://mirelleinspo.com/blog/korean-nails/korean-nail-art",
+    "post_type": "pillar",
+    "intent": "inspirational",
+    "word_count": 3200,
+    "image_count": 12,
+    "template": "center",
+    "hero_dimensions": "1200x630",
+    "category": "Nail Art Guide",
+    "publish_date": "2026-07-01",
+    "author": "Mirellé Team"
+  },
+
+  "cluster_snapshot": {
+    "pillar_slug": "korean-nail-art",
+    "pillar_title": "Korean Nail Art: Every Style, Finish & Technique Worth Knowing",
+    "pillar_primary_keyword": "korean nail art",
+    "this_post_slug": "korean-nail-art",
+    "this_post_role": "pillar",
+    "keywords_to_avoid": [
+      "korean glass nails",
+      "soap nails",
+      "korean nail trends 2026",
+      "how to do korean nails",
+      "korean nails short nails",
+      "igari nails",
+      "korean jelly nails"
+    ]
+  },
+
+  "serp_analysis": {
+    "blog_gen_instruction": "Use competitor gaps and missing semantic territory to fill what competitors miss. Our strategic approach is the angle for the introduction and conclusion.",
+    "top_3_ranking_posts_assessed": [
+      "gellydrops.com/blogs/blog/korean-nails-different-styles-you-can-try — est. 1,800 words, primary keyword appears ~18 times",
+      "yahoo.com/beauty 21-stunning-korean-nails-trends — est. 2,200 words, primary keyword appears ~22 times",
+      "autumlove.com/blog/korean-nail-trends — est. 2,400 words, primary keyword appears ~20 times"
+    ],
+    "top_3_word_count_estimates": {
+      "post_1": 1800,
+      "post_2": 2200,
+      "post_3": 2400,
+      "average": 2133,
+      "word_count_floor": 2133,
+      "word_count_set": 3200,
+      "note": "Pillar ceiling 3500. Set at 3200 to significantly beat average and establish topical authority."
+    },
+    "top_3_keyword_density_baseline": {
+      "average_mentions": 20,
+      "note": "Average across all 3 posts. Primary keyword appears roughly 18–22 times each."
+    },
+    "competitor_gaps": [
+      "No competitor clearly explains the DIFFERENCE between Korean nail art aesthetics — glass vs soap vs jelly vs igari — in a single place with clear decision logic",
+      "No competitor addresses the 'which style suits me' question with any depth — all present styles as a list with no personalisation framework",
+      "Minimal coverage of what makes Korean nail art categorically different from Western nail art (philosophy, finish priority, gel culture vs acrylic culture)",
+      "No competitor explains Korean nail art vocabulary — what terms to actually use at a salon to get the look you want",
+      "No competitor covers the finish spectrum from minimalist soap nail to maximalist 3D in a way that maps styles to personality or lifestyle",
+      "Cross-skin-tone guidance is completely absent from all top 3 — PAA confirms 'what korean nail art suits dark skin' and 'for brown skin' as real queries"
+    ],
+    "missing_semantic_territory": [
+      "K-beauty philosophy applied to nails — 'glass skin for nails' framing",
+      "Seoul nail salon culture explained for global audience (no extensions standard, gel-first culture, each nail treated as individual canvas)",
+      "Which Korean nail art style suits which personality or aesthetic preference",
+      "Finish vocabulary guide — terms to use in salon to get the right Korean finish",
+      "K-beauty x nail art crossover — how Korean skincare philosophy influences nail design ethos"
+    ],
+    "our_strategic_approach": "This post is the definitive umbrella guide that every other Korean nails post orbits around. Rather than listing styles, it builds a coherent picture of what Korean nail art actually is — its philosophy, its finish spectrum, its style families — so readers can locate themselves within it and know exactly which direction is theirs. Every section moves the reader from understanding to a specific design decision.",
+    "recommended_image_count_validation": "Top competitors use 8–15 images. Pillar post: 1 hero + 11 H2 images = 12 total. Confirmed correct for pillar role."
+  },
+
+  "audience_intelligence": {
+    "blog_gen_instruction": "This is your primary creative brief. Every paragraph written for this specific person with this specific intent. Satisfy them completely.",
+    "who_they_are": "Primarily 18–35 women globally — heavy US, UK, Australia, Canada. Split between: (1) Beauty enthusiasts who discovered Korean nail art on TikTok or Pinterest and are now trying to understand it beyond 'aesthetic saves', and (2) K-beauty followers who already use Korean skincare and are looking to extend that philosophy to their nails. Not beginners to nail art — familiar with gel, gel extensions, some press-ons. Unfamiliar with Korean-specific terminology and finish culture.",
+    "what_they_want_from_this_post": "A complete mental map of Korean nail art — what it is, what the main style families are, which one is for them, and how to actually ask for it. They want to walk away from this post feeling like they finally understand it, not just inspired by it.",
+    "what_frustrates_them": "Posts that dump 20 images with no decision framework. Not knowing what to call things at the salon. Conflation of Japanese and Korean nail art. Content that calls everything 'Korean' with no clarity on what makes a specific finish or design specifically Korean. Over-use of 'cute' and 'aesthetic' as substitutes for actual description.",
+    "top_5_pain_points": [
+      "Cannot identify or name the specific Korean style they've saved — everything gets called 'korean nails' even when it's 5 different aesthetics",
+      "Does not know how to ask for a Korean finish at a Western salon — language barrier in reverse",
+      "Unsure whether Korean nail art requires long nails — fear of exclusion based on nail length",
+      "Cannot tell the difference between Korean and Japanese nail art — searches often conflate them",
+      "Overwhelmed by style variety — wants someone to narrow it down based on their personality or vibe"
+    ],
+    "exact_user_phrases": [
+      "those Korean glass nails everyone is getting",
+      "the kind of nails Korean girls have",
+      "I want nails like in Korean dramas",
+      "that dewy looking nail thing",
+      "what are those nails that look like soap",
+      "is Korean nail art the same as Japanese",
+      "how do I describe Korean nail art to my nail tech",
+      "I want that clean Korean manicure look",
+      "the blush nail with the soft centre colour",
+      "Korean idol nails aesthetic",
+      "that see-through jelly looking nail polish",
+      "Korean nail art for short nails"
+    ],
+    "intent_content_signals": [
+      "High visual demand — images required after EVERY H2, not optional for this intent",
+      "Structure craving — numbered or clearly named style sections perform better than free-form prose",
+      "Decision-framework hungry — the 'which style is for me' angle consistently outperforms list formats in saves and engagement",
+      "Identity signal — readers are using Korean nail art as part of a K-beauty or K-culture identity; content should respect that as authentic rather than trend-chasing",
+      "Vocabulary need — any content that teaches them the right words to use in a salon gets shared and saved",
+      "Length tolerance high — for a pillar this broad, readers will read 3000+ words if the structure is clear and visual content breaks it up"
+    ]
+  },
+
+  "semantic_keyword_data": {
+    "blog_gen_instruction": "Primary keyword in strong tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.",
+    "primary_keyword": "korean nail art",
+    "keyword_variations": [
+      "korean nails",
+      "korean nail design",
+      "korean nail art designs",
+      "korean nail art style",
+      "k nail art",
+      "korean nail art aesthetic",
+      "korean manicure",
+      "korean nail look",
+      "korean nail art ideas",
+      "korean gel nail art"
+    ],
+    "cluster_keywords": [
+      "korean nail art finishes",
+      "korean nail art styles",
+      "korean nail techniques",
+      "korean nail art 2026",
+      "k-beauty nails",
+      "seoul nail art",
+      "korean nail art aesthetic",
+      "korean nail art for beginners",
+      "korean nail art ideas",
+      "soft korean nails",
+      "minimalist korean nails",
+      "3d korean nail art",
+      "korean nail art gel",
+      "korean nail art inspiration",
+      "korean nail art guide"
+    ],
+    "lsi_terms": [
+      "gel nails",
+      "glass skin nails",
+      "translucent nails",
+      "milky nails",
+      "jelly finish",
+      "chrome finish nails",
+      "3D nail charms",
+      "aura nails",
+      "blush nails",
+      "negative space nails",
+      "gradient nails",
+      "nail art gel",
+      "cuticle care",
+      "nail prep",
+      "Korean beauty philosophy",
+      "dewy nails",
+      "soft pink nails",
+      "pastel nails korean",
+      "nail art inspiration Seoul",
+      "k-beauty manicure"
+    ],
+    "aeo_terms": [
+      "What is korean nail art?",
+      "What makes korean nail art different from other nail art?",
+      "What are the most popular korean nail art styles?",
+      "How do I ask for korean nail art at a salon?",
+      "Is korean nail art suitable for short nails?",
+      "What is the difference between korean and japanese nail art?",
+      "What are the key techniques used in korean nail art?",
+      "How long does korean nail art last?",
+      "What products do you need for korean nail art?",
+      "Why is korean nail art so popular?",
+      "What finish is most associated with korean nail art?",
+      "Can you do korean nail art at home?"
+    ],
+    "technical_terms": [
+      "builder gel",
+      "hard gel",
+      "gel curing",
+      "UV LED lamp",
+      "nail ink",
+      "chrome powder",
+      "syrup gel",
+      "3D drawing gel",
+      "magnetic gel polish",
+      "no-wipe top coat"
+    ],
+    "user_language": [
+      "those glass-looking nails",
+      "that dewy Korean look",
+      "nails that look like jelly",
+      "K-drama nails",
+      "Korean idol nails",
+      "that wet nail look",
+      "soft and clean nails",
+      "the see-through nail trend",
+      "cloud nails",
+      "that blush nail thing"
+    ],
+    "total_mention_target": 23,
+    "first_100_words_rule": "Primary keyword MUST appear twice in the first 100 words — mandatory, no exceptions"
+  },
+
+  "voice_and_ai_queries": {
+    "blog_gen_instruction": "Answer every query directly in the relevant H2 section body. If a query cannot be addressed naturally in the body, route it to faqItems. No query left unanswered.",
+    "queries": [
+      "What is korean nail art exactly?",
+      "What makes korean nail art different from Western nail art?",
+      "What are the most popular korean nail art styles right now?",
+      "Which korean nail art style is best for short nails?",
+      "How do I ask for a korean nail art look at my nail salon?",
+      "Is korean nail art the same as Japanese nail art?",
+      "What finish is most associated with korean nail art?",
+      "Can I do korean nail art at home without professional tools?",
+      "What products do Korean nail artists use that are different?",
+      "How long does a korean nail art manicure last?",
+      "Why is korean nail art trending everywhere right now?",
+      "What is the glass nail look from Korea?",
+      "What is the difference between soap nails and glass nails?",
+      "What are igari nails?",
+      "Does korean nail art work on natural nails?",
+      "What nail shape do korean nail artists prefer?",
+      "How do Korean nail salons approach nail prep differently?",
+      "What is the k-beauty philosophy behind korean nail art?"
+    ]
+  },
+
+  "hook_and_ctr": {
+    "blog_gen_instruction": "READ THIS SECTION BEFORE WRITING THE TITLE, META DESCRIPTION, INTRO, OR FIRST H2. The title and description are hardcoded here — use them exactly. The intro hook brief and first H2 hook direction are your creative brief for those specific elements. Do not deviate.",
+    "selected_trigger": "Trigger 2 — FOMO / Trend Urgency",
+    "trigger_rationale": "The reader is trend-aware, has been saving Korean nail art content on Pinterest and TikTok, and fears being behind what everyone else already knows — Trigger 2 positions this post as the one that closes the gap.",
+    "title": "Korean Nail Art: Every Style Worth Knowing in 2026",
+    "title_char_count": 51,
+    "meta_description": "Korean nail art goes beyond pretty — it has a whole finish philosophy. Discover every style, from glass and soap nails to 3D charms, and find your look.",
+    "meta_char_count": 152,
+    "intro_hook_brief": "Open by naming the feeling: the reader has been saving Korean nail images for months but still cannot name what makes them different or which style is actually hers. The intro confirms she is in the right place and promises a complete, structured map — not another image dump.",
+    "first_h2_hook_direction": "Phrase the first H2 as a question the reader is genuinely asking herself — something like 'What actually makes a nail look Korean?' — using voice search phrasing. This is the post's primary AEO moment and should be answered directly and confidently in the first two sentences of that section."
+  },
+
+  "search_journey": {
+    "blog_gen_instruction": "This is the emotional contract with the reader. Every section of the post must honour the promise made. Read this before writing any section. If a paragraph breaks the journey arc — rewrite it.",
+    "reader_arrival_state": "Visually inspired but conceptually lost — she has seen Korean nail art dozens of times, saved it repeatedly, and has no vocabulary for it yet.",
+    "journey_arc": [
+      "Hook: Confirm she has been consuming Korean nail art without really understanding it — validate the confusion, promise the map",
+      "Foundational clarity: Explain what Korean nail art actually is and what makes it categorically different — answer the question she was afraid to ask",
+      "Style tour: Walk through each major style family with enough description to let her identify 'that's the one I keep saving'",
+      "Personalisation: Give a framework for choosing — match style families to aesthetics, lifestyles, and nail lengths",
+      "Vocabulary payoff: Give her the words to use — at a salon, when searching, when pinning — so she can close the gap between inspiration and reality"
+    ],
+    "promise_to_deliver": "By the end of this post, the reader knows what Korean nail art is, can identify and name every major style, knows which one is for her, and knows how to ask for it.",
+    "exit_state": "Confident, specific, and ready to book — she is no longer saving blindly, she has a direction."
+  },
+
+  "content_structure": {
+    "blog_gen_instruction": "This H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s without user instruction. Word budget per section is set — follow it. H3s may be added at editorial discretion.",
+    "h1": "Korean Nail Art: Every Style, Finish & Technique Worth Knowing",
+    "h2_structure": [
+      "What actually makes a nail look Korean?",
+      "The Korean nail art finish spectrum — from barely-there to full maximalist",
+      "Korean glass nails: the mirror-finish style everyone's screenshot-ing",
+      "Soap nails and the clean-girl Korean manicure",
+      "Aura nails, blush nails, and the soft gradient styles",
+      "3D Korean nail art: charms, dewdrops, and textured gel",
+      "Igari nails and the blush-on-nails technique",
+      "Which Korean nail art style is actually for you?",
+      "How to describe what you want at the salon",
+      "Korean nail art for short nails — yes, it works",
+      "The Korean approach to nail prep and why it matters"
+    ],
+    "image_count_note": "11 H2s + 1 hero = 12 images total. Confirmed: pillar rule (1 hero + 1 per H2). image_count in POST_CONSTANTS set to 12.",
+    "word_budget": {
+      "introduction": "230 words",
+      "h2_1_what_makes_a_nail_look_korean": "280 words",
+      "h2_2_finish_spectrum": "300 words",
+      "h2_3_glass_nails": "250 words",
+      "h2_4_soap_nails": "250 words",
+      "h2_5_aura_blush_gradient": "250 words",
+      "h2_6_3d_nail_art": "250 words",
+      "h2_7_igari_nails": "230 words",
+      "h2_8_which_style_for_you": "280 words",
+      "h2_9_how_to_describe_at_salon": "270 words",
+      "h2_10_short_nails": "230 words",
+      "h2_11_nail_prep": "230 words",
+      "conclusion": "180 words",
+      "total": "3200 words"
+    }
+  },
+
+  "internal_links": {
+    "blog_gen_instruction": "Every link below must appear in the post. Cluster links use anchor texts verbatim — do not rewrite. Cross-site links use the provided descriptive anchor. Place each link where the placement note says — woven naturally into prose, never as a standalone CTA. Total internal links must not exceed 6.",
+    "all_internal_links": [
+      {
+        "url_or_slug": "/blog/korean-nails/korean-glass-nails",
+        "title": "Korean Glass Nails: The Mirror-Finish Manicure Guide",
+        "anchor_text": "korean glass nails",
+        "placement_note": "H2-3 (Korean glass nails section) — first reference to the style, natural spoke link",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/korean-nails/soap-nails",
+        "title": "Soap Nails: Korea's Clean-Girl Manicure Explained",
+        "anchor_text": "soap nails",
+        "placement_note": "H2-4 (Soap nails section) — natural first reference to the style",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/korean-nails/korean-nail-trends-2026",
+        "title": "Korean Nail Trends 2026: What's In Right Now",
+        "anchor_text": "korean nail trends 2026",
+        "placement_note": "H2-2 (finish spectrum section) or introduction — frames the current moment, natural link",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/korean-nails/how-to-do-korean-nails",
+        "title": "How to Do Korean Nails at Home",
+        "anchor_text": "how to do korean nails at home",
+        "placement_note": "H2-9 (how to describe at salon section) — natural link when directing reader toward the DIY path",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/korean-nails/korean-nails-short-nails",
+        "title": "Korean Nails for Short Nails: Every Style That Actually Works",
+        "anchor_text": "korean nails for short nails",
+        "placement_note": "H2-10 (short nails section) — direct spoke link at the most relevant moment",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/korean-nails/igari-nails",
+        "title": "Igari Nails: The Korean Blush Nail Trend Explained",
+        "anchor_text": "igari nails",
+        "placement_note": "H2-7 (igari nails section) — natural spoke link on first reference",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/inspo/korean-nail-art-inspiration-gallery",
+        "title": "Korean Nail Art Inspiration Gallery",
+        "anchor_text": "korean nail art inspiration gallery",
+        "placement_note": "Conclusion — natural gallery CTA at journey end; pillar gallery link",
+        "link_type": "gallery"
+      }
+    ],
+    "total_link_count": 7,
+    "note": "7 links — all cluster/gallery links mandated by cluster_context.json internal_linking_map. No cross-site additions needed; cluster map already fills the 4–6 internal link budget with 6 spokes + 1 gallery. All 6 spoke anchors are verbatim from cluster_context.json. Gallery link verbatim from cluster_context.json."
+  },
+
+  "voice_tone": {
+    "blog_gen_instruction": "This is the voice for this specific post. Layer on top of Mirellé editorial framework. Do not default to generic AI tone.",
+    "recommended_voice": "Confident editorial guide — the knowledgeable friend who has done the research so the reader does not have to",
+    "tone_characteristics": [
+      "Assured but never condescending — reader is intelligent, just uninformed on this specific topic",
+      "Specific over vague — names things precisely, avoids 'cute' and 'aesthetic' as substitutes for description",
+      "Warm authority — like a beauty editor who genuinely loves nails explaining this to a friend",
+      "Decisive on subjective questions — this post resolves ambiguity, it does not amplify it",
+      "Energised by the subject — Korean nail art is genuinely exciting and the prose should feel that way"
+    ],
+    "language_style": "Clean mid-length sentences. Second-person 'you' throughout. No jargon unexplained. British English throughout — colour, recognise, -ise endings. Active voice dominant. Short punchy sentences used for emphasis at section openings and conclusions.",
+    "audience_match": "This reader is K-beauty literate, aesthetically engaged, and slightly impatient with content that wastes her time. She responds to confidence, specificity, and posts that actually make decisions for her rather than presenting 15 options with equal weight."
+  },
+
+  "external_links": {
+    "blog_gen_instruction": "Include all external links where indicated. Supports E-E-A-T. Use anchor suggestion as guide — write naturally around it.",
+    "links": [
+      {
+        "url": "https://shopping.yahoo.com/beauty/nails/articles/21-stunning-korean-nails-trends-101500076.html",
+        "context": "H2-1 (what makes Korean nail art different) — citing K-beauty expert perspectives from Jin Soon Choi and Alicia Yoon",
+        "anchor_suggestion": "leading K-beauty nail experts"
+      },
+      {
+        "url": "https://www.autumlove.com/blog/korean-nail-trends",
+        "context": "H2-2 (finish spectrum) — referencing 2026 Korean nail trend editorial coverage with specific finish descriptions",
+        "anchor_suggestion": "2026 Korean nail trend editorial"
+      },
+      {
+        "url": "https://creatrip.com/en/blog/13800",
+        "context": "H2-11 (nail prep) — referencing Seoul salon nail preparation culture and what distinguishes Korean salon technique",
+        "anchor_suggestion": "Seoul nail salon culture guide"
+      }
+    ]
+  },
+
+  "execution_plan": {
+    "blog_gen_instruction": "READ THIS SECTION FIRST. Lock every value. Execute exactly. Do not recalculate, do not adjust, do not deviate.",
+
+    "block_1_keyword_execution": {
+      "primary_keyword": "korean nail art",
+      "top_3_density_baseline": 20,
+      "total_mention_target": 23,
+      "first_100_words_plan": {
+        "rule": "Primary keyword MUST appear TWICE in the first 100 words. Mandatory. No exceptions.",
+        "mention_1": "Sentence 1 or 2 of introduction — opening statement naming the keyword directly",
+        "mention_2": "Sentence 3–5 of introduction — second natural mention within the first paragraph before the 100-word mark"
+      },
+      "first_half_target": "13 mentions — first 1600 words. Run denser in first half.",
+      "second_half_target": "10 mentions — second 1600 words",
+      "strong_tag_rule": "EVERY single mention of 'korean nail art' — all 23 of them — wrapped in <strong> tags. No exceptions. Catch each one as it is written. Scan after every paragraph.",
+      "keywords_to_avoid_active": [
+        "korean glass nails",
+        "soap nails",
+        "korean nail trends 2026",
+        "how to do korean nails",
+        "korean nails short nails",
+        "igari nails",
+        "korean jelly nails"
+      ],
+      "avoid_rule": "Never use any keyword from this list as a focus term. They appear only as natural references when transitioning to spoke posts via internal links."
+    },
+
+    "block_2_word_budget": {
+      "total_target": "3200 words — +/-50 words tolerance, never exceed",
+      "introduction": "230 words",
+      "conclusion": "180 words",
+      "h2_budgets": [
+        { "heading": "What actually makes a nail look Korean?", "budget": "280 words", "complexity": "high — primary AEO section, definitional, must be dense and precise" },
+        { "heading": "The Korean nail art finish spectrum — from barely-there to full maximalist", "budget": "300 words", "complexity": "high — maps the full range, most content-heavy section" },
+        { "heading": "Korean glass nails: the mirror-finish style everyone's screenshot-ing", "budget": "250 words", "complexity": "medium — descriptive, visual, links to spoke" },
+        { "heading": "Soap nails and the clean-girl Korean manicure", "budget": "250 words", "complexity": "medium — descriptive, links to spoke" },
+        { "heading": "Aura nails, blush nails, and the soft gradient styles", "budget": "250 words", "complexity": "medium — covers a style family, visually rich" },
+        { "heading": "3D Korean nail art: charms, dewdrops, and textured gel", "budget": "250 words", "complexity": "medium — descriptive, maximalist end of spectrum" },
+        { "heading": "Igari nails and the blush-on-nails technique", "budget": "230 words", "complexity": "medium — named technique, links to spoke" },
+        { "heading": "Which Korean nail art style is actually for you?", "budget": "280 words", "complexity": "high — decision framework section, most personally valuable to reader" },
+        { "heading": "How to describe what you want at the salon", "budget": "270 words", "complexity": "high — practical vocabulary guide, extremely high save/share value" },
+        { "heading": "Korean nail art for short nails — yes, it works", "budget": "230 words", "complexity": "medium — reassurance section, links to spoke" },
+        { "heading": "The Korean approach to nail prep and why it matters", "budget": "230 words", "complexity": "medium — differentiator section, E-E-A-T value" }
+      ],
+      "tracking_rule": "Track running word total at the end of every H2 section. If a section is running over budget — cut before moving to the next section. Do not compensate later."
+    },
+
+    "block_3_image_plan": {
+      "total_images": 12,
+      "hero_image": "frontmatter only — NEVER appears in post body",
+      "body_images": 11,
+      "image_path_format": "/images/blog/korean-nails/korean-nail-art/[filename].webp",
+      "assignments": [
+        { "image_number": 1, "place_after": "What actually makes a nail look Korean?", "section_context": "Side-by-side comparison of a Western-style manicure vs a Korean glass or soap nail finish — illustrates the philosophy difference" },
+        { "image_number": 2, "place_after": "The Korean nail art finish spectrum — from barely-there to full maximalist", "section_context": "A spectrum flatlay showing soap/glass (minimal) through to 3D charms (maximalist) — illustrates the range" },
+        { "image_number": 3, "place_after": "Korean glass nails: the mirror-finish style everyone's screenshot-ing", "section_context": "Close-up of glass or mirror-chrome Korean nails — high reflectivity, clean background" },
+        { "image_number": 4, "place_after": "Soap nails and the clean-girl Korean manicure", "section_context": "Soap nails — milky, translucent, clean nude finish, preferably on short to medium nails" },
+        { "image_number": 5, "place_after": "Aura nails, blush nails, and the soft gradient styles", "section_context": "Aura or blush nails — soft blush centre gradient on translucent base, dreamy and ethereal" },
+        { "image_number": 6, "place_after": "3D Korean nail art: charms, dewdrops, and textured gel", "section_context": "3D Korean nail art — charms, dewdrop gel, or textured swirl gel over a soft base" },
+        { "image_number": 7, "place_after": "Igari nails and the blush-on-nails technique", "section_context": "Igari nails — soft blush powder dusted on nail centre to create flushed cheek effect" },
+        { "image_number": 8, "place_after": "Which Korean nail art style is actually for you?", "section_context": "Flatlay showing 3–4 Korean nail style options side by side — visual decision-making aid" },
+        { "image_number": 9, "place_after": "How to describe what you want at the salon", "section_context": "Mood board style image — labelled Korean nail finishes with their names visible" },
+        { "image_number": 10, "place_after": "Korean nail art for short nails — yes, it works", "section_context": "Korean nail art on short nails — glass or soap finish on short oval or round nails" },
+        { "image_number": 11, "place_after": "The Korean approach to nail prep and why it matters", "section_context": "Clean cuticle prep close-up — Korean salon nail prep quality, pristine cuticle work before design" }
+      ],
+      "image_type_rule": "ALL body images = inspirational nail design images related to the topic. NO infographics. NO process diagrams. NO comparison charts. NO step-by-step visuals."
+    },
+
+    "block_4_opening_technique_assignments": {
+      "rule": "No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.",
+      "assignments": [
+        { "section": "Introduction", "technique": "Technique 2 — The Scene (paint the moment the reader is in right now)" },
+        { "section": "What actually makes a nail look Korean?", "technique": "Technique 1 — The Claim (direct, confident definitional statement)" },
+        { "section": "The Korean nail art finish spectrum", "technique": "Technique 4 — The Question (open with what the reader wants to know: 'Where do you sit on the finish spectrum?')" },
+        { "section": "Korean glass nails", "technique": "Technique 3 — The Reframe (reframe glass nails from 'trend' to 'a finish philosophy')" },
+        { "section": "Soap nails", "technique": "Technique 1 — The Claim" },
+        { "section": "Aura nails, blush nails, and soft gradient styles", "technique": "Technique 2 — The Scene" },
+        { "section": "3D Korean nail art", "technique": "Technique 4 — The Question" },
+        { "section": "Igari nails", "technique": "Technique 1 — The Claim" },
+        { "section": "Which Korean nail art style is actually for you?", "technique": "Technique 3 — The Reframe" },
+        { "section": "How to describe what you want at the salon", "technique": "Technique 2 — The Scene" },
+        { "section": "Korean nail art for short nails", "technique": "Technique 1 — The Claim" },
+        { "section": "The Korean approach to nail prep", "technique": "Technique 4 — The Question" },
+        { "section": "Conclusion", "technique": "Technique 1 — The Claim" }
+      ],
+      "banned_opener_rule": "Check every opener against banned_opening_approaches in blog gen prompt before writing the second sentence"
+    },
+
+    "block_5_link_placements": {
+      "rule": "Every link placed exactly where specified. Anchor texts used verbatim — never rewritten. Links woven into prose naturally — never standalone CTAs.",
+      "links": [
+        {
+          "anchor_text": "korean glass nails",
+          "full_url": "/blog/korean-nails/korean-glass-nails",
+          "place_in_section": "Korean glass nails: the mirror-finish style everyone's screenshot-ing",
+          "placement_context": "First natural reference to the style within the section body — 'for a full deep dive, see our guide to [anchor]'",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "soap nails",
+          "full_url": "/blog/korean-nails/soap-nails",
+          "place_in_section": "Soap nails and the clean-girl Korean manicure",
+          "placement_context": "Natural prose reference within section — 'the full breakdown lives in [anchor]'",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "korean nail trends 2026",
+          "full_url": "/blog/korean-nails/korean-nail-trends-2026",
+          "place_in_section": "The Korean nail art finish spectrum — from barely-there to full maximalist",
+          "placement_context": "Reference to current seasonal relevance — 'what's leading right now is covered in [anchor]'",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "how to do korean nails at home",
+          "full_url": "/blog/korean-nails/how-to-do-korean-nails",
+          "place_in_section": "How to describe what you want at the salon",
+          "placement_context": "Natural pivot at end of salon vocabulary section — 'if you'd rather try it yourself, [anchor] has the step-by-step'",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "korean nails for short nails",
+          "full_url": "/blog/korean-nails/korean-nails-short-nails",
+          "place_in_section": "Korean nail art for short nails — yes, it works",
+          "placement_context": "Direct reference within section — teases the fuller spoke guide",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "igari nails",
+          "full_url": "/blog/korean-nails/igari-nails",
+          "place_in_section": "Igari nails and the blush-on-nails technique",
+          "placement_context": "First natural reference within section — 'the full technique guide is at [anchor]'",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "korean nail art inspiration gallery",
+          "full_url": "https://mirelleinspo.com/inspo/korean-nail-art-inspiration-gallery",
+          "place_in_section": "Conclusion",
+          "placement_context": "Final CTA woven into closing paragraph — 'browse the [anchor] to find what yours looks like'",
+          "link_type": "gallery"
+        }
+      ]
+    },
+
+    "block_6_aeo_geo_plan": {
+      "aeo_assignments": [
+        {
+          "aeo_term": "What is korean nail art?",
+          "assigned_to_section": "What actually makes a nail look Korean?",
+          "execution": "Write a direct 2–3 sentence answer paragraph IMMEDIATELY after the H2 heading — before any elaboration. This is what gets picked up by AI answer engines."
+        },
+        {
+          "aeo_term": "What makes korean nail art different from Western nail art?",
+          "assigned_to_section": "What actually makes a nail look Korean?",
+          "execution": "Follow the definitional answer with a second direct paragraph explaining the philosophical difference — gel-first culture, finish over structure, each nail as individual canvas."
+        },
+        {
+          "aeo_term": "How do I ask for korean nail art at a salon?",
+          "assigned_to_section": "How to describe what you want at the salon",
+          "execution": "Open this H2 with a direct 2–3 sentence answer stating the key vocabulary — finish name, base type, top coat type. Immediately actionable."
+        },
+        {
+          "aeo_term": "Is korean nail art suitable for short nails?",
+          "assigned_to_section": "Korean nail art for short nails — yes, it works",
+          "execution": "Open with a direct 1–2 sentence answer: yes, and here is why the most popular Korean finishes are particularly well-suited to shorter lengths."
+        },
+        {
+          "aeo_term": "What is the difference between korean and japanese nail art?",
+          "assigned_to_section": "What actually makes a nail look Korean?",
+          "execution": "Include a short clarifying paragraph within this section that distinguishes Korean from Japanese nail art clearly — one direct, extractable statement."
+        }
+      ],
+      "geo_entity_statements": [
+        {
+          "entity": "Korean nail art",
+          "assigned_to_section": "What actually makes a nail look Korean?",
+          "execution": "Write a clear declarative definition sentence: 'Korean nail art is a gel-first manicure tradition originating in Seoul that prioritises finish quality, translucent depth, and individual nail expression over structural drama or acrylic extension.' Confident, no hedging. Extractable by AI as a citation."
+        },
+        {
+          "entity": "igari nail technique",
+          "assigned_to_section": "Igari nails and the blush-on-nails technique",
+          "execution": "Define igari nails in one extractable sentence: 'Igari nails are a Korean nail technique that uses blush-toned powder or pigment applied to the centre of the nail to mimic the flushed, blushed look of igari makeup.' Direct and specific."
+        },
+        {
+          "entity": "soap nails",
+          "assigned_to_section": "Soap nails and the clean-girl Korean manicure",
+          "execution": "Define in one sentence: 'Soap nails are a Korean nail finish characterised by a milky, translucent, slightly wet-look appearance that mimics the surface of a bar of soap — sheer, clean, and understated.' Direct definition, linkable to spoke."
+        }
+      ]
+    },
+
+    "block_7_active_constraints": {
+      "em_dash_banned": "Long em dash does not appear anywhere. If one forms while writing — stop, replace with: comma / new sentence / parentheses / but / restructure.",
+      "banned_vocab_watch": [
+        "vibrant (likely to appear in style descriptions — replace with specific colour or finish term)",
+        "stunning (generic praise — replace with specific quality)",
+        "unique (overused — replace with specific differentiator)",
+        "exciting (filler — cut entirely or be specific)",
+        "beautiful (generic — always specify what makes something beautiful in this context)",
+        "amazing (banned)",
+        "delve (banned)"
+      ],
+      "british_english_active": "colour, recognise, -ise, -our — every instance, no exceptions. Favourite, favourite, catalogue, programme.",
+      "keyword_density_reminder": "After every 2 H2 sections — count current 'korean nail art' mentions. Verify running total is on track to hit 23. First half (1600 words) must have at least 13 mentions. Adjust if needed.",
+      "image_path_reminder": "/images/blog/korean-nails/korean-nail-art/filename.webp — topic_slug in path always",
+      "internal_link_url_reminder": "Full correct paths only. Cluster links = /blog/korean-nails/[slug]. Gallery link = exact URL as specified. Never bare /slug.",
+      "hero_image_reminder": "Hero = frontmatter only. Never place hero image in body.",
+      "strong_tag_reminder": "Every 'korean nail art' mention = <strong> tags. Scan after every paragraph.",
+      "spoke_keywords_reminder": "The keywords_to_avoid list (korean glass nails, soap nails, etc.) may appear ONLY as natural prose references when linking to spokes. Never optimise for them. Never use as H2 headings — use the H2 headings exactly as written in content_structure."
+    }
+  }
+}
+ENDJSON
