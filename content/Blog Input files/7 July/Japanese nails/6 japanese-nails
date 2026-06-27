@@ -1,0 +1,589 @@
+{
+  "FILE_AUTHORITY": {
+    "statement": "THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.",
+    "mode": "CLUSTER MODE — cluster context loaded",
+    "cluster": "japanese-nails",
+    "post_number": 6
+  },
+
+  "POST_CONSTANTS": {
+    "slug": "japanese-manicure",
+    "topic_slug": "japanese-nails",
+    "canonical": "https://mirelleinspo.com/blog/japanese-nails/japanese-manicure",
+    "post_type": "spoke",
+    "intent": "informational",
+    "word_count": 2100,
+    "image_count": 9,
+    "template": "split-left",
+    "hero_dimensions": "800x800",
+    "category": "Nail Care Guide",
+    "publish_date": "2026-07-01",
+    "author": "Mirellé Team"
+  },
+
+  "CLUSTER_SNAPSHOT": {
+    "pillar_slug": "japanese-nail-art",
+    "pillar_title": "Japanese Nail Art: Every Style & Design Worth Knowing",
+    "pillar_primary_keyword": "japanese nail art",
+    "this_post_slug": "japanese-manicure",
+    "this_post_role": "spoke",
+    "keywords_to_avoid": [
+      "japanese nail art",
+      "sakura nails",
+      "kawaii nails",
+      "japanese 3d nail art",
+      "japanese minimalist nails",
+      "how to do japanese nail art",
+      "japanese nail art short nails",
+      "pastel goth nails",
+      "how to do ombre nails at home",
+      "cat eye nails"
+    ]
+  },
+
+  "SERP_ANALYSIS": {
+    "blog_gen_instruction": "Use competitor gaps and missing semantic territory to fill what competitors miss. Our strategic approach is the angle for the introduction and conclusion.",
+    "top_3_ranking_posts_estimated": [
+      {
+        "source": "refinery29.com",
+        "estimated_word_count": 900,
+        "angle": "Japanese manicure as a TLC treatment for weak post-gel nails"
+      },
+      {
+        "source": "professionalbeauty.co.uk",
+        "estimated_word_count": 1100,
+        "angle": "Trade-facing explainer: what salons need to know, B2B tone"
+      },
+      {
+        "source": "whowhatwear.com",
+        "estimated_word_count": 1200,
+        "angle": "Personal review of Japanese manicure as gel/BIAB alternative"
+      }
+    ],
+    "top_3_average_word_count": 1067,
+    "word_count_floor": 1067,
+    "top_3_keyword_density_baseline": 12,
+    "competitor_gaps": [
+      "Nobody clearly separates P.Shine (natural treatment) from Japanese gel (colour system) — enormous reader confusion left unresolved",
+      "No competitor answers 'how many sessions before I see results?' with a specific protocol — only vague 'regular treatments'",
+      "Nobody covers who should NOT get a Japanese manicure (fungal infections, severe nail damage, heavy gel users who want colour)",
+      "The nail-thinning risk from over-buffing is mentioned by one source only — competitors suppress the downside almost entirely",
+      "Nobody addresses whether it is safe during pregnancy or breastfeeding clearly — mentioned in passing only",
+      "No post explains the J-beauty philosophy underpinning the treatment (enhance, not mask) and why that matters for results",
+      "At-home DIY instructions are either missing or buried — most posts are salon-centric"
+    ],
+    "missing_semantic_territory": [
+      "J-beauty philosophy as the conceptual framework for why this treatment works differently",
+      "Clear P.Shine vs Japanese gel disambiguation section",
+      "Session cadence protocol for best results (2-4 sessions, 3-week intervals)",
+      "Ingredient-level explanation of what each ingredient actually does (keratin, bee pollen, sea silica, beeswax, diatomaceous earth)",
+      "Aftercare and longevity-extending habits (cuticle oil, gloves, no acetone)"
+    ],
+    "our_strategic_approach": "This post is the definitive clear-eyed guide to the Japanese manicure treatment — not a breathless trend piece. It resolves the P.Shine vs Japanese gel confusion that leaves readers searching for 15 minutes. It gives a specific session protocol, explains the J-beauty philosophy behind the treatment, and is honest about who it works for and who it does not. Every competitor avoids the nuance. We own it.",
+    "recommended_image_count_validation": "Top-ranking posts are text-heavy with minimal images. Our 9 images (rule 5: everything else) exceeds SERP visual average — this is the right count for editorial authority on an informational post."
+  },
+
+  "AUDIENCE_INTELLIGENCE": {
+    "blog_gen_instruction": "This is your primary creative brief. Every paragraph written for this specific person with this specific intent. Satisfy them completely.",
+    "who_they_are": "Women aged 25–45 whose nails are in poor condition after extended gel, acrylic, or BIAB use. They are health-conscious, ingredient-aware, and actively exploring the clean beauty space. Some are pregnant or postpartum and want a chemical-free alternative. Some are professionals who want groomed, polished-looking nails without colour commitment. They have heard of the Japanese manicure on TikTok or from a friend and are doing their research before booking or buying a kit.",
+    "what_they_want_from_this_post": "A clear, honest answer to: what is a Japanese manicure, does it actually work, how long does it last, how is it different from Japanese gel, how many sessions do I need, can I do it at home, and is it worth the cost.",
+    "what_frustrates_them": [
+      "Posts that confuse the natural P.Shine treatment with Japanese gel nail colour services — they search 'japanese manicure' and get completely different answers",
+      "Vague longevity claims ('it lasts 2 weeks') with no explanation of what affects that",
+      "No specific protocol — 'repeat regularly' is not useful",
+      "Benefits are oversold without any mention of limitations or who it is not for",
+      "Salon-only focus when they are trying to decide whether to DIY"
+    ],
+    "top_5_pain_points": [
+      "Nails are thin, peeling, and sensitive after years of gel manicures — they need something that genuinely repairs, not just covers",
+      "They do not understand the difference between 'Japanese manicure' (P.Shine) and 'Japanese gel' — both come up when they search",
+      "They are unsure how many sessions it takes to see a real difference",
+      "They want a groomed finish without colour commitment — especially relevant for work environments or during pregnancy",
+      "They are sceptical about the natural claims and want to understand what the ingredients actually do"
+    ],
+    "exact_user_phrases": [
+      "what is a japanese manicure",
+      "how long does a japanese manicure last",
+      "japanese manicure vs gel",
+      "is japanese manicure worth it",
+      "P shine japanese manicure what is it",
+      "japanese manicure for weak nails",
+      "japanese manicure at home",
+      "japanese manicure how many sessions",
+      "japanese manicure ingredients",
+      "is japanese manicure safe during pregnancy",
+      "japanese manicure before and after",
+      "japanese manicure near me"
+    ],
+    "intent_content_signals": [
+      "This audience wants a definitive explainer — not an inspiration gallery",
+      "They want specific numbers: longevity in weeks, session count, cost range, treatment time",
+      "They are comparing this to their current routine (gel/BIAB) — comparison framing throughout will land",
+      "Ingredient transparency matters to this reader — name the ingredients and explain each one",
+      "They respond to honest limitations — telling them who this does NOT suit builds trust",
+      "Clean, structured, progressive — each H2 answers one specific question completely"
+    ]
+  },
+
+  "SEMANTIC_KEYWORD_DATA": {
+    "blog_gen_instruction": "Primary keyword in strong tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.",
+    "primary_keyword": "japanese manicure",
+    "total_mention_target": 15,
+    "first_100_words_rule": "Primary keyword MUST appear TWICE in the first 100 words. No exceptions.",
+    "keyword_variations": [
+      "japanese nail treatment",
+      "japanese nail care treatment",
+      "japanese manicure P Shine",
+      "P.Shine manicure",
+      "japanese manicure treatment",
+      "natural japanese manicure",
+      "japanese nail manicure",
+      "japanese manicure method",
+      "japanese manicure technique",
+      "traditional japanese nail care"
+    ],
+    "cluster_keywords": [
+      "nail strengthening treatment",
+      "natural nail shine",
+      "pearlescent nail finish",
+      "nail plate nourishment",
+      "chemical-free nail treatment",
+      "post-gel nail recovery",
+      "nail detox",
+      "beeswax nail treatment",
+      "keratin nail treatment",
+      "P.Shine nail kit",
+      "chamois nail buffer",
+      "clean beauty nails",
+      "nail health ritual",
+      "bare nails trend 2026",
+      "nail reset treatment"
+    ],
+    "lsi_terms": [
+      "nail plate",
+      "keratin structure",
+      "beeswax",
+      "bee pollen",
+      "sea silica",
+      "pearl powder",
+      "diatomaceous earth",
+      "vitamin A and E nails",
+      "cuticle health",
+      "nail buffing",
+      "natural nail glow",
+      "Tsume-Migaki",
+      "J-beauty nails",
+      "nail polish detox",
+      "nail hydration",
+      "chamois buffer",
+      "nail matrix",
+      "brittle nail repair",
+      "peeling nail treatment",
+      "gel nail damage recovery"
+    ],
+    "aeo_terms": [
+      "What is a japanese manicure?",
+      "How long does a japanese manicure last?",
+      "What is P.Shine and how does it work?",
+      "Is a japanese manicure the same as japanese gel nails?",
+      "How many sessions does a japanese manicure take to work?",
+      "What are the ingredients in a japanese manicure?",
+      "Is a japanese manicure safe during pregnancy?",
+      "Can you do a japanese manicure at home?",
+      "How is a japanese manicure different from a regular manicure?",
+      "Who should not get a japanese manicure?",
+      "How much does a japanese manicure cost?",
+      "Does a japanese manicure strengthen nails?"
+    ],
+    "technical_terms": [
+      "P.Shine",
+      "Tsume-Migaki",
+      "nail plate",
+      "nail matrix",
+      "keratin",
+      "diatomaceous earth",
+      "chamois buffer"
+    ],
+    "user_language": [
+      "my nails are wrecked after gels",
+      "my nails keep peeling and breaking",
+      "I want a break from gel polish",
+      "nails that look healthy without polish",
+      "something gentle for my nails",
+      "natural nail glow without polish",
+      "taking a break from acrylics",
+      "want stronger nails naturally",
+      "glossy nails no chemicals",
+      "nail detox before summer"
+    ]
+  },
+
+  "VOICE_AND_AI_QUERIES": {
+    "blog_gen_instruction": "Answer every query directly in the relevant H2 section body. If a query cannot be addressed naturally in the body, route it to faqItems. No query left unanswered.",
+    "queries": [
+      "What is a japanese manicure and how does it work?",
+      "How long does a japanese manicure last?",
+      "Is a japanese manicure the same as japanese gel nails?",
+      "What is P.Shine and what is it made from?",
+      "How many japanese manicure sessions do I need to see a difference?",
+      "What ingredients are used in a japanese manicure?",
+      "Is a japanese manicure safe during pregnancy?",
+      "Can I do a japanese manicure at home with a kit?",
+      "Who is a japanese manicure best for?",
+      "Who should not get a japanese manicure?",
+      "How much does a japanese manicure cost at a salon?",
+      "Does a japanese manicure actually strengthen weak nails?",
+      "How is a japanese manicure different from a regular manicure?",
+      "Can you wear nail polish over a japanese manicure?",
+      "How do I make my japanese manicure last longer?",
+      "What happens at a japanese manicure appointment?",
+      "Is a japanese manicure vegan?",
+      "Why are my nails still weak after a japanese manicure?"
+    ]
+  },
+
+  "HOOK_AND_CTR": {
+    "blog_gen_instruction": "READ THIS SECTION BEFORE WRITING THE TITLE, META DESCRIPTION, INTRO, OR FIRST H2. The title and description are hardcoded here — use them exactly. The intro hook brief and first H2 hook direction are your creative brief for those specific elements. Do not deviate.",
+    "selected_trigger": "Trigger 1 — Curiosity Gap",
+    "trigger_rationale": "This reader has seen the term 'Japanese manicure' on TikTok, searched it, and received conflicting, confusing results — they suspect they are missing something or have the wrong information about what it actually is. Curiosity Gap resolves their confusion with authority.",
+    "title": "Japanese Manicure: What It Is, How It Works & Why Try It",
+    "title_char_count": 55,
+    "meta_description": "Gel-damaged nails? A japanese manicure uses natural ingredients to restore strength and shine — no polish, no UV lamp. Here's exactly how it works.",
+    "meta_char_count": 150,
+    "intro_hook_brief": "Open by acknowledging that most people searching 'Japanese manicure' end up more confused than when they started — half the results talk about a natural buffing treatment, the other half about a gel nail system. Immediately resolve that confusion and then deliver the promise: a complete, clear explanation of what the japanese manicure actually is and whether it is right for you.",
+    "first_h2_hook_direction": "Phrase the first H2 as a direct question that mirrors what readers actually type: 'What Is a Japanese Manicure, Exactly?' — this matches voice search and PAA patterns, sets up the explainer immediately, and signals to the reader that this post will finally give them a straight answer."
+  },
+
+  "SEARCH_JOURNEY": {
+    "blog_gen_instruction": "This is the emotional contract with the reader. Every section of the post must honour the promise made. Read this before writing any section. If a paragraph breaks the journey arc — rewrite it.",
+    "reader_arrival_state": "Mildly confused and quietly frustrated — they have searched 'japanese manicure' and received conflicting results between a natural buffing treatment and a gel nail system, and they are not sure which one they are actually interested in.",
+    "journey_arc": [
+      "Hook: immediately acknowledge and resolve the P.Shine vs gel confusion that sent them here frustrated",
+      "Build: explain clearly what a japanese manicure is, its history, and the J-beauty philosophy behind it",
+      "Substantiate: walk through the ingredients and the step-by-step process so they feel fully informed",
+      "Answer their decisive questions: how long it lasts, how many sessions, cost, and who it is and is not for",
+      "Exit: leave them confident in their decision — whether that is booking a salon appointment, buying a kit, or deciding this treatment is not right for their situation"
+    ],
+    "promise_to_deliver": "By the end of this post, the reader will know exactly what a japanese manicure is, understand how it differs from other nail services, know the specific protocol for results, and be able to make a clear, informed decision.",
+    "exit_state": "Confident and informed — they know whether to book, buy a kit, or try something else, and they understand why."
+  },
+
+  "CONTENT_STRUCTURE": {
+    "blog_gen_instruction": "This H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s without user instruction. Word budget per section is set — follow it. H3s may be added at editorial discretion.",
+    "h1": "Japanese Manicure: What It Is, How It Works & Why Try It",
+    "h2_structure": [
+      "What Is a Japanese Manicure, Exactly?",
+      "Japanese Manicure vs Japanese Gel: Two Completely Different Things",
+      "The Ingredients Behind the Shine",
+      "What Happens During a Japanese Manicure Appointment",
+      "How Long Does a Japanese Manicure Last?",
+      "How Many Sessions Do You Need to See a Difference?",
+      "Who Is a Japanese Manicure Best For — and Who Should Skip It",
+      "Can You Do a Japanese Manicure at Home?",
+      "How Much Does a Japanese Manicure Cost?"
+    ],
+    "word_budget": {
+      "introduction": "220 words",
+      "conclusion": "160 words",
+      "h2_budgets": [
+        { "heading": "What Is a Japanese Manicure, Exactly?", "budget": "200 words", "complexity": "medium" },
+        { "heading": "Japanese Manicure vs Japanese Gel: Two Completely Different Things", "budget": "220 words", "complexity": "high" },
+        { "heading": "The Ingredients Behind the Shine", "budget": "220 words", "complexity": "high" },
+        { "heading": "What Happens During a Japanese Manicure Appointment", "budget": "200 words", "complexity": "medium" },
+        { "heading": "How Long Does a Japanese Manicure Last?", "budget": "160 words", "complexity": "low" },
+        { "heading": "How Many Sessions Do You Need to See a Difference?", "budget": "160 words", "complexity": "low" },
+        { "heading": "Who Is a Japanese Manicure Best For — and Who Should Skip It", "budget": "200 words", "complexity": "medium" },
+        { "heading": "Can You Do a Japanese Manicure at Home?", "budget": "170 words", "complexity": "medium" },
+        { "heading": "How Much Does a Japanese Manicure Cost?", "budget": "150 words", "complexity": "low" }
+      ]
+    }
+  },
+
+  "INTERNAL_LINKS": {
+    "blog_gen_instruction": "Every link below must appear in the post. Cluster links use anchor texts verbatim — do not rewrite. Cross-site links use the provided descriptive anchor. Place each link where the placement note says — woven naturally into prose, never as a standalone CTA. Total internal links must not exceed 6.",
+    "all_internal_links": [
+      {
+        "url_or_slug": "/blog/japanese-nails/japanese-nail-art",
+        "title": "Japanese Nail Art: Every Style & Design Worth Knowing",
+        "anchor_text": "japanese nail art",
+        "placement_note": "Introduction or H2 'What Is a Japanese Manicure, Exactly?' — when describing where the treatment sits within the broader world of Japanese nail culture",
+        "link_type": "cluster-pillar"
+      },
+      {
+        "url_or_slug": "/blog/japanese-nails/japanese-minimalist-nails",
+        "title": "Japanese Minimalist Nails: Clean, Simple, Quietly Luxe",
+        "anchor_text": "japanese minimalist nails",
+        "placement_note": "H2 'Who Is a Japanese Manicure Best For' — when describing the aesthetic overlap with readers who prefer quiet, natural-looking nails",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/japanese-nails/japanese-nail-art-short-nails",
+        "title": "Japanese Nail Art Designs for Short Nails",
+        "anchor_text": "japanese nail art for short nails",
+        "placement_note": "H2 'Who Is a Japanese Manicure Best For' — when noting the treatment suits all lengths including short nails",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/japanese-nails/how-to-do-japanese-nail-art",
+        "title": "How to Do Japanese Nail Art at Home",
+        "anchor_text": "how to do japanese nail art at home",
+        "placement_note": "H2 'Can You Do a Japanese Manicure at Home?' — natural crosslink for readers interested in the DIY angle of Japanese nail techniques broadly",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/nail-faqs/can-nail-polish-damage-your-natural-nails",
+        "title": "Can Nail Polish Damage Your Natural Nails?",
+        "anchor_text": "how repeated gel removal damages the nail plate over time",
+        "placement_note": "H2 'Who Is a Japanese Manicure Best For' — when describing the reader profile of someone with gel-damaged nails",
+        "link_type": "cross-site"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/blog/almond-nails-natural-nail-growth",
+        "title": "Grow Nails for Almond Shape: The Real Roadmap",
+        "anchor_text": "growing stronger natural nails after nail enhancements",
+        "placement_note": "H2 'How Many Sessions Do You Need to See a Difference?' — when discussing the recovery timeline and growth alongside the treatment",
+        "link_type": "cross-site"
+      }
+    ]
+  },
+
+  "VOICE_AND_TONE": {
+    "blog_gen_instruction": "This is the voice for this specific post. Layer on top of Mirellé editorial framework. Do not default to generic AI tone.",
+    "recommended_voice": "Informed expert with a calm, authoritative warmth",
+    "tone_characteristics": [
+      "Direct and clear — resolves confusion without hedging",
+      "Respectful of the reader's intelligence — explains the science simply without talking down",
+      "Honestly balanced — acknowledges both benefits and limitations",
+      "Quietly confident — makes definitive statements where the evidence supports them",
+      "Warm but not gushing — avoids over-hype that competitors fall into"
+    ],
+    "language_style": "Clean, precise sentences. Short paragraphs. 'You' used throughout — this is a personal decision and the post addresses the reader directly. Occasional sentence fragments for rhythm. No filler phrases. No em dashes.",
+    "audience_match": "This reader is health-conscious and ingredient-aware — they respond to specificity and transparency, not marketing language. The informed expert voice matches their information-seeking mode perfectly."
+  },
+
+  "EXTERNAL_LINKS": {
+    "blog_gen_instruction": "Include all external links where indicated. Supports E-E-A-T. Use anchor suggestion as guide — write naturally around it.",
+    "links": [
+      {
+        "url": "https://professionalbeauty.co.uk/what-is-a-japanese-manicure",
+        "context": "H2 'What Happens During a Japanese Manicure Appointment' — when describing the treatment protocol and step order",
+        "anchor_suggestion": "Professional Beauty's coverage of how salons deliver the treatment"
+      },
+      {
+        "url": "https://www.refinery29.com/en-gb/japanese-manicure-nails",
+        "context": "H2 'Who Is a Japanese Manicure Best For' — when citing the strengthening benefit for post-gel nails",
+        "anchor_suggestion": "Refinery29's nail expert confirmation of its strengthening effect"
+      },
+      {
+        "url": "https://www.marieclaire.co.uk/beauty/japanese-manicure",
+        "context": "H2 'How Long Does a Japanese Manicure Last?' — when discussing longevity expectations and the grow-out effect",
+        "anchor_suggestion": "Marie Claire UK's review of the grow-out shine effect"
+      }
+    ]
+  },
+
+  "EXECUTION_PLAN": {
+    "blog_gen_instruction": "READ THIS SECTION FIRST. Lock every value. Execute exactly. Do not recalculate, do not adjust, do not deviate.",
+
+    "block_1_keyword_execution": {
+      "primary_keyword": "japanese manicure",
+      "top_3_density_baseline": 12,
+      "total_mention_target": 15,
+      "first_100_words_plan": {
+        "rule": "Primary keyword MUST appear TWICE in the first 100 words. Mandatory. No exceptions.",
+        "mention_1": "Sentence 1 of introduction — appears in the opening hook that names the confusion readers encounter when searching 'japanese manicure'",
+        "mention_2": "Sentence 3-4 of introduction — appears in the orienting statement that tells the reader exactly what this post will cover about the japanese manicure"
+      },
+      "first_half_target": "9 mentions — first 1050 words. Run denser in first half.",
+      "second_half_target": "6 mentions — second 1050 words",
+      "strong_tag_rule": "EVERY single mention of 'japanese manicure' — all 15 of them — wrapped in <strong> tags. No exceptions. Scan after every paragraph.",
+      "keywords_to_avoid_active": [
+        "japanese nail art",
+        "sakura nails",
+        "kawaii nails",
+        "japanese 3d nail art",
+        "japanese minimalist nails",
+        "how to do japanese nail art",
+        "japanese nail art short nails",
+        "pastel goth nails",
+        "how to do ombre nails at home",
+        "cat eye nails"
+      ]
+    },
+
+    "block_2_word_budget": {
+      "total_target": "2100 words — +/-50 words tolerance, never exceed",
+      "introduction": "220 words",
+      "conclusion": "160 words",
+      "h2_budgets": [
+        { "heading": "What Is a Japanese Manicure, Exactly?", "budget": "200 words", "complexity": "medium" },
+        { "heading": "Japanese Manicure vs Japanese Gel: Two Completely Different Things", "budget": "220 words", "complexity": "high" },
+        { "heading": "The Ingredients Behind the Shine", "budget": "220 words", "complexity": "high" },
+        { "heading": "What Happens During a Japanese Manicure Appointment", "budget": "200 words", "complexity": "medium" },
+        { "heading": "How Long Does a Japanese Manicure Last?", "budget": "160 words", "complexity": "low" },
+        { "heading": "How Many Sessions Do You Need to See a Difference?", "budget": "160 words", "complexity": "low" },
+        { "heading": "Who Is a Japanese Manicure Best For — and Who Should Skip It", "budget": "200 words", "complexity": "medium" },
+        { "heading": "Can You Do a Japanese Manicure at Home?", "budget": "170 words", "complexity": "medium" },
+        { "heading": "How Much Does a Japanese Manicure Cost?", "budget": "150 words", "complexity": "low" }
+      ],
+      "tracking_rule": "Track running word total at the end of every H2 section. If a section is running over budget — cut before moving to the next section. Do not compensate later."
+    },
+
+    "block_3_image_plan": {
+      "total_images": 9,
+      "hero_image": "frontmatter only — NEVER appears in post body",
+      "body_images": 8,
+      "image_type_rule": "ALL body images = natural nail close-ups showing healthy, glossy, pearl-finish nails consistent with japanese manicure results. NO infographics. NO process diagrams. NO comparison charts. NO step-by-step visuals.",
+      "path_rule": "/images/blog/japanese-nails/japanese-manicure/filename.webp — topic_slug in path, slug folder, leading slash",
+      "assignments": [
+        { "image_number": 1, "place_after": "Introduction", "section_context": "Natural nails with a glossy pearlescent finish — the signature result of the treatment" },
+        { "image_number": 2, "place_after": "What Is a Japanese Manicure, Exactly?", "section_context": "Close-up of healthy, buffed natural nails with no colour — emphasising the natural shine" },
+        { "image_number": 3, "place_after": "Japanese Manicure vs Japanese Gel: Two Completely Different Things", "section_context": "Natural nail close-up with soft pearl sheen — clearly no gel, no colour" },
+        { "image_number": 4, "place_after": "The Ingredients Behind the Shine", "section_context": "Hands with healthy, hydrated nails and smooth cuticles" },
+        { "image_number": 5, "place_after": "What Happens During a Japanese Manicure Appointment", "section_context": "A nail care setting with nails looking groomed and polished naturally" },
+        { "image_number": 6, "place_after": "How Long Does a Japanese Manicure Last?", "section_context": "Natural nails showing gloss retention — well-maintained appearance" },
+        { "image_number": 7, "place_after": "How Many Sessions Do You Need to See a Difference?", "section_context": "Close-up of strong, healthy-looking short natural nails with pearl finish" },
+        { "image_number": 8, "place_after": "Who Is a Japanese Manicure Best For — and Who Should Skip It", "section_context": "Natural nails on hands in a lifestyle setting — looking clean, groomed, polish-free" }
+      ]
+    },
+
+    "block_4_opening_technique_assignments": {
+      "rule": "No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.",
+      "assignments": [
+        { "section": "Introduction", "technique": "Technique 1 — The Claim (open with the confusion most readers arrive with and the promise to resolve it)" },
+        { "section": "What Is a Japanese Manicure, Exactly?", "technique": "Technique 2 — Direct answer (define the term immediately, no preamble)" },
+        { "section": "Japanese Manicure vs Japanese Gel: Two Completely Different Things", "technique": "Technique 3 — The Reframe (reframe the reader's assumption that these are related services)" },
+        { "section": "The Ingredients Behind the Shine", "technique": "Technique 2 — Direct answer (name the ingredients and explain each one in turn)" },
+        { "section": "What Happens During a Japanese Manicure Appointment", "technique": "Technique 1 — The Claim (set expectation for what 30-45 minutes actually involves)" },
+        { "section": "How Long Does a Japanese Manicure Last?", "technique": "Technique 3 — The Reframe (most people expect a polish-like result; reframe to grow-out shine)" },
+        { "section": "How Many Sessions Do You Need to See a Difference?", "technique": "Technique 2 — Direct answer (give the specific protocol immediately)" },
+        { "section": "Who Is a Japanese Manicure Best For — and Who Should Skip It", "technique": "Technique 1 — The Claim (open by stating clearly: this treatment is not for everyone)" },
+        { "section": "Can You Do a Japanese Manicure at Home?", "technique": "Technique 3 — The Reframe (reframe DIY as genuinely viable, not a compromise)" },
+        { "section": "How Much Does a Japanese Manicure Cost?", "technique": "Technique 2 — Direct answer (give numbers immediately)" },
+        { "section": "Conclusion", "technique": "Technique 1 — The Claim (close with a clear decision-making statement)" }
+      ],
+      "banned_opener_rule": "Check every opener against banned_opening_approaches in blog gen prompt before writing the second sentence"
+    },
+
+    "block_5_link_placements": {
+      "rule": "Every link placed exactly where specified. Anchor texts used verbatim — never rewritten. Links woven into prose naturally — never standalone CTAs.",
+      "links": [
+        {
+          "anchor_text": "japanese nail art",
+          "full_url": "/blog/japanese-nails/japanese-nail-art",
+          "place_in_section": "Introduction OR What Is a Japanese Manicure, Exactly?",
+          "placement_context": "When contextualising the treatment within broader Japanese nail culture",
+          "link_type": "cluster-pillar"
+        },
+        {
+          "anchor_text": "japanese minimalist nails",
+          "full_url": "/blog/japanese-nails/japanese-minimalist-nails",
+          "place_in_section": "Who Is a Japanese Manicure Best For — and Who Should Skip It",
+          "placement_context": "When describing readers who want a natural, restrained aesthetic",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "japanese nail art for short nails",
+          "full_url": "/blog/japanese-nails/japanese-nail-art-short-nails",
+          "place_in_section": "Who Is a Japanese Manicure Best For — and Who Should Skip It",
+          "placement_context": "When noting the treatment is equally suitable for short nail lengths",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "how to do japanese nail art at home",
+          "full_url": "/blog/japanese-nails/how-to-do-japanese-nail-art",
+          "place_in_section": "Can You Do a Japanese Manicure at Home?",
+          "placement_context": "Natural crosslink for readers interested in DIY Japanese nail techniques",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "how repeated gel removal damages the nail plate over time",
+          "full_url": "https://mirelleinspo.com/nail-faqs/can-nail-polish-damage-your-natural-nails",
+          "place_in_section": "Who Is a Japanese Manicure Best For — and Who Should Skip It",
+          "placement_context": "When describing the post-gel recovery audience — explain what caused the damage before linking",
+          "link_type": "cross-site"
+        },
+        {
+          "anchor_text": "growing stronger natural nails after nail enhancements",
+          "full_url": "https://mirelleinspo.com/blog/almond-nails-natural-nail-growth",
+          "place_in_section": "How Many Sessions Do You Need to See a Difference?",
+          "placement_context": "When discussing the growth and recovery timeline alongside the treatment protocol",
+          "link_type": "cross-site"
+        }
+      ]
+    },
+
+    "block_6_aeo_geo_plan": {
+      "aeo_assignments": [
+        {
+          "aeo_term": "What is a japanese manicure?",
+          "assigned_to_section": "What Is a Japanese Manicure, Exactly?",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading — before any elaboration. This is what gets picked up by AI answer engines."
+        },
+        {
+          "aeo_term": "Is a japanese manicure the same as japanese gel nails?",
+          "assigned_to_section": "Japanese Manicure vs Japanese Gel: Two Completely Different Things",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading — before any elaboration."
+        },
+        {
+          "aeo_term": "How long does a japanese manicure last?",
+          "assigned_to_section": "How Long Does a Japanese Manicure Last?",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading."
+        },
+        {
+          "aeo_term": "How many sessions does a japanese manicure take to work?",
+          "assigned_to_section": "How Many Sessions Do You Need to See a Difference?",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading."
+        },
+        {
+          "aeo_term": "Is a japanese manicure safe during pregnancy?",
+          "assigned_to_section": "Who Is a Japanese Manicure Best For — and Who Should Skip It",
+          "execution": "Include a clear direct statement about pregnancy safety within the body of this section — extractable as a citation."
+        },
+        {
+          "aeo_term": "Can you do a japanese manicure at home?",
+          "assigned_to_section": "Can You Do a Japanese Manicure at Home?",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading."
+        }
+      ],
+      "geo_entity_statements": [
+        {
+          "entity": "P.Shine",
+          "assigned_to_section": "What Is a Japanese Manicure, Exactly?",
+          "execution": "Write a clear declarative definition sentence: 'P.Shine is the commercial name for the Japanese manicure system — a two-step treatment of nutrient paste and mineral powder that creates a natural pearlescent shine without any polish.' Confident, no hedging."
+        },
+        {
+          "entity": "Tsume-Migaki",
+          "assigned_to_section": "What Is a Japanese Manicure, Exactly?",
+          "execution": "Define as the traditional Japanese nail polishing practice the modern treatment draws from. One clear declarative sentence."
+        },
+        {
+          "entity": "diatomaceous earth",
+          "assigned_to_section": "The Ingredients Behind the Shine",
+          "execution": "Define clearly: 'Diatomaceous earth is a naturally occurring silica rock ground into a fine powder — it creates the polishing action that gives nails their glassy finish without abrasive damage.' Extractable definition."
+        }
+      ]
+    },
+
+    "block_7_active_constraints": {
+      "em_dash_banned": "Long em dash does not appear anywhere. If one forms while writing — stop, replace with: comma / new sentence / parentheses / but / restructure.",
+      "banned_vocab_watch": [
+        "nourishing (overused — use 'nutrient-rich' or 'restorative')",
+        "amazing",
+        "stunning",
+        "game-changer",
+        "transform",
+        "holistic (use once max, with care)",
+        "ritual (use once max, with care)",
+        "luxurious"
+      ],
+      "british_english_active": "colour, recognise, -ise, -our — every instance, no exceptions",
+      "keyword_density_reminder": "After every 2 H2 sections — count current keyword mentions. Verify running total is on track to hit 15 total mentions. First half must run denser than second half. Adjust if needed.",
+      "image_path_reminder": "/images/blog/japanese-nails/japanese-manicure/filename.webp — topic_slug in path always",
+      "internal_link_url_reminder": "Full correct paths only. Cluster links = /blog/japanese-nails/[slug]. Cross-site links = exact URL as discovered. Never bare /slug.",
+      "hero_image_reminder": "Hero = frontmatter only. Never place hero image in body.",
+      "strong_tag_reminder": "Every primary keyword mention = <strong> tags. Scan after every paragraph.",
+      "not_vegan_note": "Include one honest line in the ingredients section: the traditional P.Shine formula uses beeswax and lanolin and is not vegan. This is accurate and builds trust."
+    }
+  }
+}
