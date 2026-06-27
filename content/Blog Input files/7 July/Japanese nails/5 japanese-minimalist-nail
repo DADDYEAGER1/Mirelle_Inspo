@@ -1,0 +1,563 @@
+{
+  "file_authority": {
+    "statement": "THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly."
+  },
+
+  "post_constants": {
+    "slug": "japanese-minimalist-nails",
+    "topic_slug": "japanese-nails",
+    "canonical": "https://mirelleinspo.com/blog/japanese-nails/japanese-minimalist-nails",
+    "post_type": "spoke",
+    "intent": "inspirational",
+    "word_count": 2200,
+    "image_count": 9,
+    "template": "split-left",
+    "hero_dimensions": "800x800",
+    "category": "Japanese Nails",
+    "publish_date": "2026-07-01",
+    "author": "Mirellé Team",
+    "word_count_rationale": "Top 3 ranking posts for 'japanese minimalist nails' are broad japanese nail design roundups (kreafolk ~2800w, mockuphunt ~1200w, accio.com ~1800w) — average ~1933w. Floor = 1933w. Ceiling for spokes = 2800w. Set at 2200w — above floor, well within ceiling.",
+    "image_count_rationale": "Post is a spoke, inspirational intent, no X+ slug pattern. Rule 5 applies — 9 images total including hero."
+  },
+
+  "cluster_snapshot": {
+    "pillar_slug": "japanese-nail-art",
+    "pillar_title": "Japanese Nail Art: Every Style & Design Worth Knowing",
+    "pillar_primary_keyword": "japanese nail art",
+    "this_post_slug": "japanese-minimalist-nails",
+    "this_post_role": "spoke",
+    "keywords_to_avoid": [
+      "japanese nail art",
+      "sakura nails",
+      "kawaii nails",
+      "japanese 3d nail art",
+      "japanese manicure",
+      "how to do japanese nail art",
+      "japanese nail art short nails",
+      "pastel goth nails",
+      "how to do ombre nails at home",
+      "cat eye nails"
+    ]
+  },
+
+  "serp_analysis": {
+    "blog_gen_instruction": "Use competitor gaps and missing semantic territory to fill what competitors miss. Our strategic approach is the angle for the introduction and conclusion.",
+    "top_3_ranking_posts": [
+      {
+        "url": "https://kreafolk.com/blogs/inspirations/japanese-nail-design",
+        "title": "30 Best Japanese Nail Design Ideas You Should Check",
+        "estimated_word_count": 2800,
+        "angle": "Broad Japanese nail design roundup — minimalism is one sub-section of ~5, not the whole post. Primary keyword mention count estimated: 8-10 for the minimalist section alone."
+      },
+      {
+        "url": "https://www.accio.com/blog/japanese-nail-designs-defining-s-biggest-trends",
+        "title": "9 Japanese Nail Designs Defining 2026's Biggest Trends",
+        "estimated_word_count": 1800,
+        "angle": "Trend-focused roundup — wabi-sabi minimalist is one of 9 styles, not the focus. Shallow on the philosophy and design specifics."
+      },
+      {
+        "url": "https://mockuphunt.co/blogs/nail-designs/japanese-nail-ideas",
+        "title": "15 Trend-Driven Japanese Nail Ideas",
+        "estimated_word_count": 1200,
+        "angle": "Generic gallery post — no depth on minimalism, no philosophy, no colour or shape guidance."
+      }
+    ],
+    "top_3_word_count_average": 1933,
+    "top_3_keyword_density_baseline": 9,
+    "competitor_gaps": [
+      "No competitor specifically addresses the philosophical roots (wabi-sabi, ma, shibumi) applied to nail design — only name-drops the words",
+      "No competitor explains the difference between Japanese minimalist nails and generic Western clean-girl nails — readers can't find this distinction anywhere",
+      "No competitor covers the specific colour palette for Japanese minimalist: matcha, indigo, ash, nude-beige vs the clean-girl sheer pink — different territory",
+      "No competitor connects Japanese minimalist nails to the 2026 quiet luxury / clean girl crossover — demand confirmed on Pinterest + multiple 2026 trend sites",
+      "No competitor gives shape guidance specific to Japanese minimalist aesthetic (squoval and soft square dominate over coffin/stiletto)",
+      "No competitor explains negative space as a Japanese design principle (ma) — only as a nail technique",
+      "No competitor distinguishes sumi-e brush stroke nails from generic line art"
+    ],
+    "missing_semantic_territory": [
+      "Wabi-sabi applied to nail design — finding beauty in the imperfect single stroke",
+      "Ma (negative space principle) as a design philosophy for nails, not just a technique",
+      "Shibumi — understated elegance without demanding attention, Japanese concept that defines the aesthetic",
+      "The Japanese minimalist colour palette: matcha green, indigo, ash, tonal beige, pale gold",
+      "Why Japanese minimalist nails look more expensive than Western minimalist — the philosophy behind restraint",
+      "Gel vs regular polish execution differences for Japanese minimalist styles",
+      "How this aesthetic suits professional and office contexts"
+    ],
+    "our_strategic_approach": "No competitor has written specifically about Japanese minimalist nails as a standalone aesthetic post with philosophical grounding. Every ranking page covers it as one section inside a broader Japanese nail art roundup. Our post owns the keyword specifically, connects the designs to the actual Japanese aesthetic principles that make them distinctive (wabi-sabi, ma, shibumi), and explains why these nails look different from generic minimalism — making the post the authority resource for this precise intersection.",
+    "recommended_image_count_validation": "Top competitors use 8-15 images for full-page posts. Our 9 images (1 hero + 8 body) aligns correctly for a spoke inspirational post."
+  },
+
+  "audience_intelligence": {
+    "blog_gen_instruction": "This is your primary creative brief. Every paragraph written for this specific person with this specific intent. Satisfy them completely.",
+    "who_they_are": "Women aged 22-40, aesthetically literate, drawn to quiet luxury and clean girl trends — already know what minimalist nails look like generically, but are specifically seeking the Japanese version. They browse Pinterest for 'japanese nails simple' and 'neutral japanese nail art'. They are not beginners at nail inspo — they have a specific aesthetic reference point in mind and want to understand what makes Japanese minimalism distinct and how to achieve it. Mix of DIY home manicure enthusiasts and salon clients who want to know what to ask for.",
+    "what_they_want_from_this_post": "Specific Japanese minimalist designs (not generic clean girl), an understanding of what makes these nails look elevated and distinctly Japanese, colour and shape guidance, and enough visual inspiration to either book a salon appointment or try at home. They want to leave feeling like they understand the aesthetic — not just have seen a gallery.",
+    "what_frustrates_them": "They search 'japanese minimalist nails' and get broad Japanese nail art roundups where minimalism is one paragraph. They can't find a post dedicated specifically to this sub-style. They also see clean-girl aesthetic content that looks similar but isn't the same — they want the philosophical difference explained. Generic minimalist nail content doesn't have the Japanese cultural specificity they're looking for.",
+    "top_5_pain_points": [
+      "Can't find a dedicated post for Japanese minimalist nails — only generic roundups where it's mentioned briefly",
+      "Don't know what makes Japanese minimalist different from the Western clean-girl or quiet luxury look they already know",
+      "Unsure which colours are distinctly Japanese vs just generic neutral nails",
+      "Don't know what nail shapes suit Japanese minimalism specifically",
+      "Don't know what to tell their nail tech to get this specific aesthetic"
+    ],
+    "exact_user_phrases": [
+      "japanese nails simple",
+      "simple japanese nails",
+      "neutral japanese nail art",
+      "japanese minimalist nail design",
+      "japan style nails clean",
+      "japanese gel nail designs simple",
+      "elegant japanese nail ideas",
+      "japanese aesthetic nails minimal",
+      "wabi sabi nails",
+      "clean japanese nails 2026",
+      "simple japanese nail art ideas",
+      "what to ask for japanese minimalist nails salon"
+    ],
+    "intent_content_signals": [
+      "Inspirational intent — readers want to see designs first, explanation second",
+      "Images must come before heavy text in each section",
+      "Philosophy references should be woven in naturally, not as an academic section",
+      "Must give practical output — what colours, shapes, designs to actually book",
+      "Tone: elevated but accessible — this reader is aesthetically confident, not a nail newbie",
+      "Short-to-medium length content per section is preferred — this isn't a technical tutorial",
+      "Pinterest-save-worthy language — sentences that describe the visual quality of the designs"
+    ]
+  },
+
+  "semantic_keyword_data": {
+    "blog_gen_instruction": "Primary keyword in strong tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.",
+    "primary_keyword": "japanese minimalist nails",
+    "keyword_variations": [
+      "japanese minimalist nail designs",
+      "japanese minimalist nail art",
+      "minimalist japanese nail ideas",
+      "simple japanese nail designs",
+      "japanese minimal nails",
+      "japanese minimalist manicure",
+      "minimalist japan nail art",
+      "japanese clean nail designs"
+    ],
+    "cluster_keywords": [
+      "neutral japanese nail art",
+      "japanese nails simple",
+      "japan style nails",
+      "japanese gel nail designs simple",
+      "japanese aesthetic nails",
+      "wabi-sabi nails",
+      "negative space japanese nails",
+      "sumi-e nail art",
+      "japanese minimalist nail colours",
+      "tokyo minimalist nails",
+      "quiet luxury nails japanese",
+      "understated japanese manicure",
+      "japanese clean girl nails",
+      "elegant simple japanese nails"
+    ],
+    "lsi_terms": [
+      "wabi-sabi",
+      "ma (negative space)",
+      "shibumi",
+      "sumi-e brush stroke",
+      "negative space nail design",
+      "nude nail base",
+      "matcha green nails",
+      "indigo nail art",
+      "single accent nail",
+      "micro floral accent",
+      "sheer gel finish",
+      "soft square nail shape",
+      "squoval nails",
+      "pale gold nail art",
+      "muted earth tones nails",
+      "zen aesthetic nails",
+      "kintsugi nail art",
+      "ash nude nails",
+      "tonal beige manicure",
+      "minimalist gel nail art"
+    ],
+    "aeo_terms": [
+      "What are japanese minimalist nails?",
+      "What makes japanese minimalist nails different from regular minimalist nails?",
+      "What colours are used in japanese minimalist nail art?",
+      "What nail shape suits japanese minimalist nails?",
+      "What is wabi-sabi nail design?",
+      "How do I get japanese minimalist nails at a salon?",
+      "Are japanese minimalist nails good for work?",
+      "What is negative space in japanese nail art?",
+      "Can you do japanese minimalist nails at home?",
+      "What is the difference between japanese minimalist nails and korean minimalist nails?"
+    ],
+    "technical_terms": [
+      "soft gel (potted gel)",
+      "sheer gel overlay",
+      "negative space technique",
+      "sumi-e brush stroke method",
+      "micro floral gel sculpting",
+      "matte top coat",
+      "high-gloss top coat",
+      "BIAB (Builder in a Bottle)"
+    ],
+    "user_language": [
+      "nails that look expensive without trying",
+      "the kind of nails that look like they belong in a Tokyo salon",
+      "clean but not boring",
+      "my nails but elevated",
+      "quiet and intentional",
+      "simple but you can tell there's a thought behind it",
+      "the restrained version of japanese nail art",
+      "effortless but not underdone"
+    ]
+  },
+
+  "voice_and_ai_queries": {
+    "blog_gen_instruction": "Answer every query directly in the relevant H2 section body. If a query cannot be addressed naturally in the body, route it to faqItems. No query left unanswered.",
+    "queries": [
+      "What are japanese minimalist nails?",
+      "What makes japanese minimalist nail art different from regular minimalist nails?",
+      "What colours should I use for japanese minimalist nails?",
+      "What nail shape is best for japanese minimalist nail designs?",
+      "What is wabi-sabi and how does it apply to nail design?",
+      "Can I do japanese minimalist nails at home without gel?",
+      "What is negative space in japanese nail art and how do I achieve it?",
+      "Are japanese minimalist nails appropriate for work and professional settings?",
+      "What is the difference between japanese minimalist nails and korean minimalist nails?",
+      "How do I ask my nail tech for japanese minimalist nails?",
+      "What is sumi-e inspired nail art?",
+      "Do japanese minimalist nails work on short nails?",
+      "What finish works best for japanese minimalist nail designs — matte or gloss?",
+      "What are the most popular japanese minimalist nail designs in 2026?",
+      "How long do japanese minimalist gel nails last?",
+      "What is a single accent nail in japanese minimalist style?"
+    ]
+  },
+
+  "hook_and_ctr": {
+    "blog_gen_instruction": "READ THIS SECTION BEFORE WRITING THE TITLE, META DESCRIPTION, INTRO, OR FIRST H2. The title and description are hardcoded here — use them exactly. The intro hook brief and first H2 hook direction are your creative brief for those specific elements. Do not deviate.",
+    "selected_trigger": "Trigger 4 — Identity Mirroring",
+    "trigger_rationale": "The reader searching 'japanese minimalist nails' is not just looking for designs — she is confirming a specific aesthetic identity: someone who prefers restraint over maximalism, who finds the Tokyo minimalist sensibility more compelling than the Western clean-girl version, and who wants her nails to signal that taste without explanation.",
+    "title": "Japanese Minimalist Nails for Women Who Let Less Do More",
+    "title_char_count": 57,
+    "meta_description": "Japanese minimalist nails go further than clean-girl. See 2026's quietest, most elevated designs — wabi-sabi, negative space, sumi-e and more.",
+    "meta_char_count": 143,
+    "intro_hook_brief": "Open by drawing the line between generic minimalism and Japanese minimalism — the distinction is philosophical, not just aesthetic. The reader already knows she wants simple nails; this post is for the reader who wants to understand why the Japanese version looks different and feels more deliberate. The hook should validate that instinct before delivering on it.",
+    "first_h2_hook_direction": "Apply the identity mirror subtly — the first H2 should address what Japanese minimalism actually is as a philosophy before showing the designs. Phrase it as a voice search query: 'What makes japanese minimalist nails look different from the rest.' This sets authority and differentiates the post from generic roundups immediately."
+  },
+
+  "search_journey": {
+    "blog_gen_instruction": "This is the emotional contract with the reader. Every section of the post must honour the promise made. Read this before writing any section. If a paragraph breaks the journey arc — rewrite it.",
+    "reader_arrival_state": "She arrives knowing she wants simple, elegant nails with a specifically Japanese quality — she's seen the aesthetic on Pinterest or in Tokyo salon content and wants to understand it fully and find designs she can actually book or recreate.",
+    "journey_arc": [
+      "1. Hook with the distinction — Japanese minimalism is not generic minimalism; it has a philosophy (wabi-sabi, ma) that makes it look different. She feels seen.",
+      "2. Show the colour palette — this is where she gets the practical 'what to ask for' information grounded in the aesthetic",
+      "3. Deliver design inspiration by style category — negative space, sumi-e, micro floral, neutral solid — building visual abundance across the sections",
+      "4. Nail shape and finish guidance — she leaves knowing what to specify at the salon",
+      "5. Close by returning to the identity: these nails don't shout, they signal — and that's exactly the point"
+    ],
+    "promise_to_deliver": "A complete guide to Japanese minimalist nails in 2026 — what makes them distinct, the colours and designs that define them, and everything she needs to book or recreate the look.",
+    "exit_state": "She feels informed, inspired, and confident — she knows what Japanese minimalist nails are, which designs she wants, and exactly what to tell her nail tech."
+  },
+
+  "content_structure": {
+    "blog_gen_instruction": "This H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s without user instruction. Word budget per section is set — follow it. H3s may be added at editorial discretion.",
+    "h1": "Japanese Minimalist Nails for Women Who Let Less Do More",
+    "h2_structure": [
+      "What Makes Japanese Minimalist Nails Look Different from the Rest",
+      "The Colour Palette That Defines Japanese Minimalist Nail Art",
+      "Negative Space Japanese Nails: When the Bare Nail Is the Design",
+      "Sumi-e Brush Stroke Nails: Minimal Art with Maximum Intention",
+      "Micro Floral Accents: The Single Detail That Changes Everything",
+      "Neutral Solid Japanese Minimalist Nails: Finish Is Everything",
+      "What Nail Shape Works Best for Japanese Minimalist Designs",
+      "Are Japanese Minimalist Nails Good for Work?"
+    ],
+    "word_budget": {
+      "introduction": "220 words",
+      "h2_1_what_makes_japanese_minimalist_different": "280 words",
+      "h2_2_colour_palette": "260 words",
+      "h2_3_negative_space": "250 words",
+      "h2_4_sumie_brush_stroke": "230 words",
+      "h2_5_micro_floral": "210 words",
+      "h2_6_neutral_solid": "210 words",
+      "h2_7_nail_shape": "210 words",
+      "h2_8_work_appropriate": "160 words",
+      "conclusion": "170 words",
+      "total_target": "2200 words"
+    }
+  },
+
+  "internal_links": {
+    "blog_gen_instruction": "Every link below must appear in the post. Cluster links use anchor texts verbatim — do not rewrite. Cross-site links use the provided descriptive anchor. Place each link where the placement note says — woven naturally into prose, never as a standalone CTA. Total internal links must not exceed 6.",
+    "all_internal_links": [
+      {
+        "url_or_slug": "/blog/japanese-nails/japanese-nail-art",
+        "title": "Japanese Nail Art: Every Style & Design Worth Knowing",
+        "anchor_text": "japanese nail art",
+        "placement_note": "H2-1 (What Makes Japanese Minimalist Different) — when establishing the broader cluster context: 'the full world of japanese nail art spans maximalist 3D to pure restraint'",
+        "link_type": "cluster-pillar"
+      },
+      {
+        "url_or_slug": "/blog/japanese-nails/japanese-manicure",
+        "title": "Japanese Manicure: What It Is, How It Works & Why Try It",
+        "anchor_text": "japanese manicure",
+        "placement_note": "H2-6 (Neutral Solid) or H2-8 (Work) — when discussing the P.Shine treatment as the ultimate expression of Japanese minimalist philosophy for nail health",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/japanese-nails/japanese-nail-art-short-nails",
+        "title": "Japanese Nail Art Designs for Short Nails",
+        "anchor_text": "japanese nail art for short nails",
+        "placement_note": "H2-7 (Nail Shape) — when discussing how Japanese minimalist works especially well at shorter lengths",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/japanese-nails/sakura-nails",
+        "title": "Sakura Nails: Cherry Blossom Designs for Every Style",
+        "anchor_text": "sakura nails",
+        "placement_note": "H2-5 (Micro Floral) — when mentioning cherry blossom as a micro accent option: 'for the full sakura nail world...'",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/blog/french-nails/micro-french-nails",
+        "title": "Micro French Nails: The Minimalist Manicure of 2026",
+        "anchor_text": "the micro French tip that defines 2026 minimalist manicure style",
+        "placement_note": "H2-6 (Neutral Solid) — when mentioning the micro French as a Japanese-influenced finish option alongside solid nude bases",
+        "link_type": "cross-site"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/blog/almond-nail-trends-2026",
+        "title": "Almond Nail Trends 2026: Styles Every Nail Lover Is Wearing",
+        "anchor_text": "almond and squoval shapes dominating the 2026 quiet luxury nail moment",
+        "placement_note": "H2-7 (Nail Shape) — when discussing shape options for Japanese minimalism and the overlap with the broader 2026 minimalist nail shape trend",
+        "link_type": "cross-site"
+      }
+    ]
+  },
+
+  "voice_tone": {
+    "blog_gen_instruction": "This is the voice for this specific post. Layer on top of Mirellé editorial framework. Do not default to generic AI tone.",
+    "recommended_voice": "Aspirational guide with aesthetic authority",
+    "tone_characteristics": [
+      "Confident and knowing — writes as someone who understands Japanese aesthetics, not as someone discovering it",
+      "Specific and visual — describes nail designs in a way that creates a clear mental image and a desire to save the post",
+      "Elevated without being inaccessible — the philosophy is woven in naturally, not as a lecture",
+      "Direct with editorial precision — sentences do not meander; every sentence earns its place",
+      "Warm identity mirror — validates the reader's taste without being sycophantic"
+    ],
+    "language_style": "Short-to-medium sentences with strong visual nouns. Minimal hedging. 'You' is used naturally. No 'simply' or 'just' as minimising words — this aesthetic is intentional, not simple. British English throughout.",
+    "audience_match": "This reader has already chosen the aesthetic — she's not being sold on minimalism. The voice respects that and speaks to someone already inside the sensibility, rather than introducing her to it from outside."
+  },
+
+  "external_links": {
+    "blog_gen_instruction": "Include all external links where indicated. Supports E-E-A-T. Use anchor suggestion as guide — write naturally around it.",
+    "links": [
+      {
+        "url": "https://kreafolk.com/blogs/inspirations/japanese-nail-design",
+        "context": "H2-1 or H2-2 — when referencing the broad Japanese nail design vocabulary; cite as a visual reference point for the wider world this post distils",
+        "anchor_suggestion": "japanese nail design traditions"
+      },
+      {
+        "url": "https://naillie.com/nail-trends-2026-top-minimalist-expressive-nail-ideas/",
+        "context": "H2-2 (Colour Palette) or H2-6 (Neutral Solid) — when referencing 2026 minimalist nail trend data: milky tea, sheer espresso, blush water tones",
+        "anchor_suggestion": "2026 minimalist nail trend directions"
+      },
+      {
+        "url": "https://refinedjapan.com/what-is-japanese-aesthetics/",
+        "context": "H2-1 (What Makes It Different) — when explaining wabi-sabi or ma as the philosophical foundation: cite as an authority reference on Japanese aesthetics",
+        "anchor_suggestion": "the philosophy behind Japanese minimalism"
+      }
+    ]
+  },
+
+  "section_14_execution_plan": {
+    "purpose": "Blog Gen Agent reads this section FIRST — before frontmatter, before writing a single word. Every value here is pre-calculated from the input file data. Blog Gen Agent locks all values and executes them exactly.",
+    "blog_gen_instruction": "READ THIS SECTION FIRST. Lock every value. Execute exactly. Do not recalculate, do not adjust, do not deviate.",
+
+    "block_1_keyword_execution": {
+      "primary_keyword": "japanese minimalist nails",
+      "top_3_density_baseline": 9,
+      "total_mention_target": 12,
+      "total_mention_note": "Baseline 9 + 3 additional = 12 total mentions of 'japanese minimalist nails' across the full post",
+      "first_100_words_plan": {
+        "rule": "Primary keyword MUST appear TWICE in the first 100 words. Mandatory. No exceptions.",
+        "mention_1": "Sentence 1-2 of introduction — establish the topic directly: 'japanese minimalist nails are...'",
+        "mention_2": "Sentence 3-5 of introduction — reinforce with the philosophical distinction: 'what separates japanese minimalist nails from...' "
+      },
+      "first_half_target": "7 mentions — first 1100 words. Run denser in first half.",
+      "second_half_target": "5 mentions — second 1100 words",
+      "strong_tag_rule": "EVERY single mention of 'japanese minimalist nails' — all 12 of them — wrapped in <strong> tags. No exceptions. Catch each one as it is written. Scan after every paragraph.",
+      "keywords_to_avoid_active": [
+        "japanese nail art (do not use as focus term — it is the pillar keyword)",
+        "sakura nails",
+        "kawaii nails",
+        "japanese 3d nail art",
+        "japanese manicure (allowed as a cross-link anchor only, not as a focus or repeated term)",
+        "how to do japanese nail art",
+        "japanese nail art short nails",
+        "pastel goth nails",
+        "how to do ombre nails at home",
+        "cat eye nails"
+      ]
+    },
+
+    "block_2_word_budget": {
+      "total_target": "2200 words — +/-50 words tolerance, never exceed",
+      "introduction": "220 words",
+      "conclusion": "170 words",
+      "h2_budgets": [
+        { "heading": "What Makes Japanese Minimalist Nails Look Different from the Rest", "budget": "280 words", "complexity": "high — philosophy + differentiation required" },
+        { "heading": "The Colour Palette That Defines Japanese Minimalist Nail Art", "budget": "260 words", "complexity": "medium-high — specific colour names + descriptions" },
+        { "heading": "Negative Space Japanese Nails: When the Bare Nail Is the Design", "budget": "250 words", "complexity": "medium — design description + ma principle" },
+        { "heading": "Sumi-e Brush Stroke Nails: Minimal Art with Maximum Intention", "budget": "230 words", "complexity": "medium — technique description + visual outcome" },
+        { "heading": "Micro Floral Accents: The Single Detail That Changes Everything", "budget": "210 words", "complexity": "medium — design options + cluster link" },
+        { "heading": "Neutral Solid Japanese Minimalist Nails: Finish Is Everything", "budget": "210 words", "complexity": "medium — finish types + cross-site link" },
+        { "heading": "What Nail Shape Works Best for Japanese Minimalist Designs", "budget": "210 words", "complexity": "medium — shape guidance + cross-site link" },
+        { "heading": "Are Japanese Minimalist Nails Good for Work?", "budget": "160 words", "complexity": "low — direct AEO answer + cluster link" }
+      ],
+      "tracking_rule": "Track running word total at the end of every H2 section. If a section is running over budget — cut before moving to the next section. Do not compensate later."
+    },
+
+    "block_3_image_plan": {
+      "total_images": 9,
+      "hero_image": "frontmatter only — NEVER appears in post body",
+      "body_images": 8,
+      "image_path_format": "/images/blog/japanese-nails/japanese-minimalist-nails/filename.webp",
+      "assignments": [
+        { "image_number": 1, "place_after": "Introduction", "section_context": "Overview shot of Japanese minimalist nails — nude base with single fine detail, squoval or soft square shape" },
+        { "image_number": 2, "place_after": "What Makes Japanese Minimalist Nails Look Different from the Rest", "section_context": "Side-by-side or single image showing the restraint quality — negative space or bare-with-one-mark design" },
+        { "image_number": 3, "place_after": "The Colour Palette That Defines Japanese Minimalist Nail Art", "section_context": "Flat lay or nail swatch showing matcha, indigo, ash, nude-beige Japanese minimalist palette" },
+        { "image_number": 4, "place_after": "Negative Space Japanese Nails: When the Bare Nail Is the Design", "section_context": "Negative space nails — geometric or half-moon cutout on natural nail base" },
+        { "image_number": 5, "place_after": "Sumi-e Brush Stroke Nails: Minimal Art with Maximum Intention", "section_context": "Sumi-e inspired nails — single black or dark ink stroke on nude or pale base" },
+        { "image_number": 6, "place_after": "Micro Floral Accents: The Single Detail That Changes Everything", "section_context": "Single accent nail with tiny hand-painted floral — cherry blossom or abstract flower, muted colours" },
+        { "image_number": 7, "place_after": "Neutral Solid Japanese Minimalist Nails: Finish Is Everything", "section_context": "High-gloss or subtle sheen neutral nail — matcha, tonal beige, or milky ash colour" },
+        { "image_number": 8, "place_after": "What Nail Shape Works Best for Japanese Minimalist Designs", "section_context": "Squoval or soft square shaped Japanese minimalist nails from above — shape is clearly visible" }
+      ],
+      "image_type_rule": "ALL body images = inspirational nail design images related to the topic. NO infographics. NO process diagrams. NO comparison charts. NO step-by-step visuals."
+    },
+
+    "block_4_opening_technique_assignments": {
+      "rule": "No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.",
+      "assignments": [
+        { "section": "Introduction", "technique": "Technique 4 — Identity Mirror (open by naming the specific type of person this post is for)" },
+        { "section": "What Makes Japanese Minimalist Nails Look Different from the Rest", "technique": "Technique 1 — The Claim (direct declarative statement about what Japanese minimalism is and why it differs)" },
+        { "section": "The Colour Palette That Defines Japanese Minimalist Nail Art", "technique": "Technique 2 — The Visual (lead with the most vivid colour image to draw the reader into the palette)" },
+        { "section": "Negative Space Japanese Nails: When the Bare Nail Is the Design", "technique": "Technique 3 — The Reframe (reframe the bare nail not as absence but as the design itself)" },
+        { "section": "Sumi-e Brush Stroke Nails: Minimal Art with Maximum Intention", "technique": "Technique 1 — The Claim (one brushstroke is not simple — it requires more confidence than a covered nail)" },
+        { "section": "Micro Floral Accents: The Single Detail That Changes Everything", "technique": "Technique 2 — The Visual (lead with the visual of the single flower against a bare nail)" },
+        { "section": "Neutral Solid Japanese Minimalist Nails: Finish Is Everything", "technique": "Technique 3 — The Reframe (reframe: a solid colour nail is not boring when the finish is right)" },
+        { "section": "What Nail Shape Works Best for Japanese Minimalist Designs", "technique": "Technique 1 — The Claim (the shape is part of the design in Japanese minimalism, not just a canvas)" },
+        { "section": "Are Japanese Minimalist Nails Good for Work?", "technique": "Technique 2 — The Visual (open with the image of the finished look in a professional context)" },
+        { "section": "Conclusion", "technique": "Technique 3 — The Reframe (reframe: the restraint in these nails is not an absence of choice — it is the most deliberate choice)" }
+      ],
+      "banned_opener_rule": "Check every opener against banned_opening_approaches in blog gen prompt before writing the second sentence"
+    },
+
+    "block_5_link_placements": {
+      "rule": "Every link placed exactly where specified. Anchor texts used verbatim — never rewritten. Links woven into prose naturally — never standalone CTAs.",
+      "links": [
+        {
+          "anchor_text": "japanese nail art",
+          "full_url": "/blog/japanese-nails/japanese-nail-art",
+          "place_in_section": "What Makes Japanese Minimalist Nails Look Different from the Rest",
+          "placement_context": "When establishing the spectrum: 'the full world of japanese nail art runs from maximalist 3D to the quiet restraint this post covers'",
+          "link_type": "cluster-pillar"
+        },
+        {
+          "anchor_text": "japanese manicure",
+          "full_url": "/blog/japanese-nails/japanese-manicure",
+          "place_in_section": "Neutral Solid Japanese Minimalist Nails: Finish Is Everything",
+          "placement_context": "When mentioning the P.Shine or buffed natural nail as the ultimate expression of Japanese minimalism: 'if you want to go further into the nail-health direction, the japanese manicure is the treatment to know'",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "japanese nail art for short nails",
+          "full_url": "/blog/japanese-nails/japanese-nail-art-short-nails",
+          "place_in_section": "What Nail Shape Works Best for Japanese Minimalist Designs",
+          "placement_context": "When confirming short nails work exceptionally well: 'for dedicated short nail inspo across all japanese styles, japanese nail art for short nails has the full edit'",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "sakura nails",
+          "full_url": "/blog/japanese-nails/sakura-nails",
+          "place_in_section": "Micro Floral Accents: The Single Detail That Changes Everything",
+          "placement_context": "When mentioning cherry blossom as a micro accent option: 'for the full cherry blossom treatment across every design format, sakura nails is the place to go'",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "the micro French tip that defines 2026 minimalist manicure style",
+          "full_url": "https://mirelleinspo.com/blog/french-nails/micro-french-nails",
+          "place_in_section": "Neutral Solid Japanese Minimalist Nails: Finish Is Everything",
+          "placement_context": "When discussing the micro French as a Japanese-influenced finish option: 'the hairline tip version of the French manicure — see the micro French tip that defines 2026 minimalist manicure style'",
+          "link_type": "cross-site"
+        },
+        {
+          "anchor_text": "almond and squoval shapes dominating the 2026 quiet luxury nail moment",
+          "full_url": "https://mirelleinspo.com/blog/almond-nail-trends-2026",
+          "place_in_section": "What Nail Shape Works Best for Japanese Minimalist Designs",
+          "placement_context": "When confirming shape choices: 'these shapes overlap directly with the almond and squoval shapes dominating the 2026 quiet luxury nail moment'",
+          "link_type": "cross-site"
+        }
+      ]
+    },
+
+    "block_6_aeo_geo_plan": {
+      "aeo_assignments": [
+        {
+          "aeo_term": "What are japanese minimalist nails?",
+          "assigned_to_section": "What Makes Japanese Minimalist Nails Look Different from the Rest",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading — before any elaboration. 'Japanese minimalist nails are nail designs that draw from Japan's cultural philosophy of restraint, negative space, and intentional simplicity. Unlike generic minimalist nails, they are shaped by specific aesthetic principles — wabi-sabi, ma, and shibumi — that give them a distinctly considered quality. The result is a manicure that looks quiet but never empty.'"
+        },
+        {
+          "aeo_term": "What colours are used in japanese minimalist nail art?",
+          "assigned_to_section": "The Colour Palette That Defines Japanese Minimalist Nail Art",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading. 'The Japanese minimalist nail palette centres on muted, nature-derived tones: matcha green, indigo, ash grey, nude beige, and pale gold. These differ from the Western clean-girl palette — less pink, less sheer, more tonal depth and cultural reference. Black on nude and white on ash are the two most distinctive Japanese minimalist colour pairings.'"
+        },
+        {
+          "aeo_term": "What nail shape works best for japanese minimalist designs?",
+          "assigned_to_section": "What Nail Shape Works Best for Japanese Minimalist Designs",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading. 'Soft square and squoval are the shapes most aligned with Japanese minimalist nail aesthetics — their clean, architectural edges complement the precision of negative space and line work without the drama of stiletto or coffin. Oval works well for a softer interpretation. Short-to-medium length is more authentic to the aesthetic than long extensions.'"
+        },
+        {
+          "aeo_term": "Are japanese minimalist nails good for work?",
+          "assigned_to_section": "Are Japanese Minimalist Nails Good for Work?",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading. 'Japanese minimalist nails are among the most work-appropriate nail styles available. The neutral palette, restrained design, and clean shapes read as polished and intentional in every professional context — from creative agencies to corporate environments. The single accent nail and negative space versions are especially suited to workplaces with strict dress codes.'"
+        }
+      ],
+      "geo_entity_statements": [
+        {
+          "entity": "Wabi-sabi",
+          "assigned_to_section": "What Makes Japanese Minimalist Nails Look Different from the Rest",
+          "execution": "Write a clear declarative definition: 'Wabi-sabi is the Japanese aesthetic philosophy that finds beauty in imperfection, impermanence, and incompleteness — the philosophical root that gives Japanese minimalist nails their quality of looking considered rather than sparse.'"
+        },
+        {
+          "entity": "Ma (negative space principle)",
+          "assigned_to_section": "Negative Space Japanese Nails: When the Bare Nail Is the Design",
+          "execution": "Write a clear declarative definition: 'Ma is the Japanese concept of intentional empty space — the interval that gives form and meaning to what surrounds it. In nail design, ma means the unpainted portion of the nail is not absence; it is the design itself.'"
+        },
+        {
+          "entity": "Sumi-e nail art",
+          "assigned_to_section": "Sumi-e Brush Stroke Nails: Minimal Art with Maximum Intention",
+          "execution": "Write a clear declarative definition: 'Sumi-e is the Japanese ink painting tradition in which a few deliberate brushstrokes capture the essence of a subject. Sumi-e nail art applies the same principle: one or two marks on a bare nail, in black or deep indigo, produce a design that feels complete rather than incomplete.'"
+        }
+      ]
+    },
+
+    "block_7_active_constraints": {
+      "em_dash_banned": "Long em dash does not appear anywhere. If one forms while writing — stop, replace with: comma / new sentence / parentheses / but / restructure.",
+      "banned_vocab_watch": [
+        "stunning (banned)",
+        "elevate/elevated (banned)",
+        "effortless (banned)",
+        "timeless (banned)",
+        "chic (banned)",
+        "sophisticated (banned)",
+        "understated (use sparingly — it is in the cluster_keywords, acceptable once contextually)",
+        "perfect (banned as a generic superlative)"
+      ],
+      "british_english_active": "colour, recognise, -ise, -our — every instance, no exceptions. 'colour palette' not 'color palette'. 'minimalist' spelling consistent throughout.",
+      "keyword_density_reminder": "After every 2 H2 sections — count current 'japanese minimalist nails' mentions. Verify running total is on track to hit 12. First half (1100 words) must contain 7 mentions. Adjust if running behind.",
+      "image_path_reminder": "/images/blog/japanese-nails/japanese-minimalist-nails/filename.webp — topic_slug 'japanese-nails' in path always",
+      "internal_link_url_reminder": "Cluster links = /blog/japanese-nails/[slug]. Cross-site links = exact full URL as listed in block_5. Never bare /slug.",
+      "hero_image_reminder": "Hero = frontmatter only. Never place hero image in body. Body image count = 8.",
+      "strong_tag_reminder": "Every primary keyword mention = <strong>japanese minimalist nails</strong>. Scan after every paragraph. 12 total required."
+    }
+  }
+}
