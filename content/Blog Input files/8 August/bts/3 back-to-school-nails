@@ -1,0 +1,555 @@
+{
+  "FILE_AUTHORITY": "THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.",
+
+  "POST_CONSTANTS": {
+    "slug": "back-to-school-nails",
+    "topic_slug": "back-to-school",
+    "canonical": "https://mirelleinspo.com/blog/back-to-school/back-to-school-nails",
+    "post_type": "pillar",
+    "intent": "inspirational",
+    "word_count": 3200,
+    "image_count": 11,
+    "template": "center",
+    "hero_dimensions": "1200x630",
+    "category": "Seasonal Trends",
+    "publish_date": "2026-07-20",
+    "author": "Mirellé Team"
+  },
+
+  "CLUSTER_SNAPSHOT": {
+    "pillar_slug": "back-to-school-nails",
+    "pillar_title": "Back to School Nails: The Best Ideas for Every Student & Teacher in 2026",
+    "pillar_primary_keyword": "back to school nails",
+    "this_post_slug": "back-to-school-nails",
+    "this_post_role": "pillar",
+    "keywords_to_avoid": [
+      "back to school nails for teachers",
+      "college nails",
+      "simple back to school nails",
+      "first day of school nails",
+      "high school nails",
+      "short nails for work",
+      "short summer nails",
+      "almond nails for work"
+    ]
+  },
+
+  "SERP_ANALYSIS": {
+    "blog_gen_instruction": "Use competitor gaps and missing semantic territory to fill what competitors miss. Our strategic approach is the angle for the introduction and conclusion.",
+    "top_3_competitor_word_count_estimates": {
+      "classpop_com": "~1800 words",
+      "solarnaildesign_com": "~2400 words",
+      "beetlesgel_com": "~2200 words",
+      "average": "~2133 words",
+      "word_count_floor": 2133,
+      "word_count_set": 3200
+    },
+    "top_3_keyword_density_baseline": {
+      "estimated_avg_mentions": 18,
+      "note": "Top 3 posts repeat primary keyword heavily throughout roundup-style content — estimated avg 18 natural mentions across ~2000 word posts"
+    },
+    "competitor_gaps": [
+      "No competitor distinguishes clearly between audience types (student vs teacher vs college) while keeping a single pillar post — they blend audiences without navigation",
+      "No competitor addresses the 2026-specific trending aesthetic layer: which current 2026 nail trends (coquette, clean girl, argyle/plaid, jelly glazed) translate to school-appropriate BTS looks",
+      "No competitor addresses the school-rules navigation question with any depth — 'what's dress-code safe' is answered superficially",
+      "No competitor covers the late summer-to-fall colour transition angle for BTS nails — these span August–September, a transitional colour moment",
+      "No competitor addresses longevity — what formula (gel, press-on, regular polish) will actually last the school week",
+      "YouTube-confirmed demand: 'back to school nails for strict nail rules' and 'nails that last all week for school' — unaddressed by main competitors"
+    ],
+    "missing_semantic_territory": [
+      "School-appropriate 2026 nail trends — how current trends (glazed jelly, coquette bows, clean girl, mint green, navy chrome) apply to a school setting",
+      "Formula longevity for school: gel vs press-on vs regular polish — which survives a full school week",
+      "Dress code navigation with real advice rather than vague disclaimers",
+      "The summer-to-fall transition colour logic for August BTS nails"
+    ],
+    "our_strategic_approach": "Where competitors dump all BTS nail ideas into one undifferentiated list, this pillar is the definitive hub that maps ideas by audience (students, teachers, college) while also being the 2026-forward authority — covering which current trends translate into school-appropriate looks and giving real longevity and dress-code advice. Every spoke links naturally from this hub. The tone is aspirational and editorial, not listicle. This post earns a bookmark.",
+    "recommended_image_count_validation": "Competitors use 8–20+ images; pillar role with 10 H2s gives us 11 images (hero + 1 per H2) — validated."
+  },
+
+  "AUDIENCE_INTELLIGENCE": {
+    "blog_gen_instruction": "This is your primary creative brief. Every paragraph written for this specific person with this specific intent. Satisfy them completely.",
+    "who_they_are": "Multiple overlapping audiences searching the broadest BTS nail term: (1) high school students, age 14–18, browsing in July–August for ideas that are on-trend, school-appropriate, and doable at home or with press-ons; (2) teachers preparing for the new school year who want cute but professional designs; (3) parents of younger students wanting appropriate yet fun ideas; (4) college students using 'back to school nails' as their broadest search before narrowing. All are in browsing/inspiration mode, not tutorial mode.",
+    "what_they_want_from_this_post": "A broad, visually rich ideas hub that shows them what's possible across every sub-audience — students, teachers, college — organised so they can find 'their' section fast. They want 2026 trend relevance: what's on TikTok and Pinterest NOW. They also want a practical layer: what will actually last the school week and pass a dress code.",
+    "what_frustrates_them": "Competitors either show only school-themed nail art (pencils, apples, chalkboards) without acknowledging current trends, OR they show beautiful trendy nails with zero school-context relevance. The gap: no one gives them the 2026 trend you want + school-appropriate reality check in one post.",
+    "top_5_pain_points": [
+      "Finding designs that are both on-trend AND pass dress code — most posts show either one or the other",
+      "Not knowing which designs will actually survive a full school week without chipping (from PE, handwashing, lunch)",
+      "Generic 'apples and pencils' content that feels dated and doesn't match what they're seeing on TikTok",
+      "Content blends all audiences (teachers, kids, teens, college) with no navigation — they have to scroll everything to find their section",
+      "No clear guidance on nail length — many schools have length restrictions and most posts show extremely long nails"
+    ],
+    "exact_user_phrases": [
+      "what nails should I get for back to school",
+      "back to school nails that last all week",
+      "cute back to school nails that aren't too over the top",
+      "back to school nails that pass dress code",
+      "back to school nails for teachers that are still cute",
+      "simple but trendy school nails 2026",
+      "nails for the first week of school",
+      "aesthetic back to school nails",
+      "nails for school that won't chip",
+      "back to school nails short length",
+      "what nail color is appropriate for school",
+      "back to school nails press on"
+    ],
+    "intent_content_signals": [
+      "Visual-first: they want to see ideas, not read theory — images should come early and often",
+      "Organised by audience type: they want to find 'student nails' or 'teacher nails' without reading everything",
+      "Trend-anchored: any post that doesn't reference what's current on TikTok and Pinterest in 2026 will feel dated",
+      "Practical sub-layer appreciated: longevity and dress-code notes alongside the ideas",
+      "Short is okay: they're overwhelmingly looking at short to medium nail lengths — don't only show long nails",
+      "Press-on mentions resonate: large portion of this audience uses press-ons, not salon gel"
+    ]
+  },
+
+  "SEMANTIC_KEYWORD_DATA": {
+    "blog_gen_instruction": "Primary keyword in strong tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.",
+    "primary_keyword": "back to school nails",
+    "total_mention_target": 21,
+    "first_100_words_rule": "Primary keyword MUST appear TWICE in the first 100 words — mandatory, no exceptions",
+    "keyword_variations": [
+      "back to school nail ideas",
+      "back to school nail designs",
+      "back to school nail art",
+      "BTS nails",
+      "school nail ideas 2026",
+      "nails for back to school",
+      "nail designs for school",
+      "school-appropriate nails",
+      "cute back to school nails"
+    ],
+    "cluster_keywords": [
+      "back to school nails for teachers",
+      "first day of school nails",
+      "college nails",
+      "simple back to school nails",
+      "high school nails",
+      "school nail art",
+      "school-friendly nail designs",
+      "late summer nail trends",
+      "August nails",
+      "new school year nails",
+      "teacher nail designs",
+      "student nail ideas",
+      "short nails for school",
+      "press-on nails for school"
+    ],
+    "lsi_terms": [
+      "pencil nail art",
+      "apple accent nail",
+      "notebook-inspired nails",
+      "chalkboard nail design",
+      "school-themed manicure",
+      "milky glazed nails",
+      "coquette bow nails",
+      "clean girl nails",
+      "jelly sheer nails",
+      "coloured French tips",
+      "mint green nails",
+      "navy blue nails",
+      "squoval nail shape",
+      "gel nails longevity",
+      "dress code safe nails",
+      "late summer to fall transition nails",
+      "pastel school nails",
+      "nude nails for school",
+      "short almond nails",
+      "press-on nails school week"
+    ],
+    "aeo_terms": [
+      "What are the best back to school nails for 2026?",
+      "What nail designs are appropriate for school dress codes?",
+      "What back to school nails will last a full school week?",
+      "What are the most popular back to school nail trends right now?",
+      "Are acrylic nails allowed at school?",
+      "What nail colour should I get for the first day of school?",
+      "What are cute back to school nails for teachers?",
+      "What nail length is best for school?",
+      "Can I wear press-on nails to school?",
+      "What back to school nails work for high school students?",
+      "What are aesthetic back to school nail ideas for 2026?",
+      "What is the difference between back to school nails for students and teachers?"
+    ],
+    "technical_terms": [
+      "gel polish",
+      "press-on nails",
+      "acrylic extension",
+      "squoval shape",
+      "jelly finish",
+      "glazed chrome",
+      "accent nail",
+      "nail art stamping"
+    ],
+    "user_language": [
+      "nails that won't chip during PE",
+      "something cute but not too extra",
+      "nails that pass dress code",
+      "aesthetic school nails",
+      "quick nails before school starts",
+      "trendy but school-appropriate",
+      "nails that last the whole week",
+      "cute but safe for school rules",
+      "low-key but still pretty",
+      "nails I can do at home the night before"
+    ]
+  },
+
+  "VOICE_AND_AI_QUERIES": {
+    "blog_gen_instruction": "Answer every query directly in the relevant H2 section body. If a query cannot be addressed naturally in the body, route it to faqItems. No query left unanswered.",
+    "queries": [
+      "What are the best back to school nails for 2026?",
+      "What nail designs are safe for school dress codes?",
+      "What nail colour is appropriate for the first day of school?",
+      "How do I make my nails last a full school week without chipping?",
+      "Are acrylic nails allowed at school?",
+      "What are the most trending back to school nails right now?",
+      "What are cute back to school nails for teachers?",
+      "What nail length should I get for school?",
+      "Can I wear press-on nails to school?",
+      "What are simple back to school nail designs I can do at home?",
+      "What nail trends work for back to school in 2026?",
+      "What is the difference between back to school nails for students and teachers?",
+      "What back to school nails work for high school students?",
+      "What are cute nails for the first week of college?",
+      "Are short nails better for school?",
+      "What nail art is popular for back to school on TikTok in 2026?",
+      "What back to school nails look good on short nails?"
+    ]
+  },
+
+  "HOOK_AND_CTR": {
+    "blog_gen_instruction": "READ THIS SECTION BEFORE WRITING THE TITLE, META DESCRIPTION, INTRO, OR FIRST H2. The title and description are hardcoded — use them exactly. The intro hook brief and first H2 hook direction are your creative brief for those specific elements. Do not deviate.",
+    "selected_trigger": "Trigger 3 — Specificity / Numbers",
+    "trigger_rationale": "This audience is in browsing mode and needs to feel they'll get a comprehensive, volume-rich ideas resource — specificity signals depth and freshness over the generic roundups they've already seen.",
+    "title": "Back to School Nails: Best Ideas for 2026",
+    "title_char_count": 42,
+    "title_note": "Under 55 chars — intentionally clean and front-loaded. If a number hook is preferred: 'Back to School Nails: 60+ Best Ideas for 2026' = 47 chars — acceptable alternative.",
+    "meta_description": "The best back to school nails for 2026 — from school-appropriate trends to teacher-friendly designs and ideas that actually last all week.",
+    "meta_char_count": 140,
+    "intro_hook_brief": "Open with the energy of a new school year manicure as a ritual — not just a look, but a confidence signal. Acknowledge the tension: you want something on-trend, but it also has to work in a classroom. This post solves that. Reference the volume of what's inside (every student, every teacher, every level) in the first two sentences.",
+    "first_h2_hook_direction": "Frame the first H2 as a direct answer to the reader's arrival question: 'What back to school nails are actually trending right now?' — phrased as a voice/AI search query. Deliver the 2026 trend list immediately, without preamble."
+  },
+
+  "SEARCH_JOURNEY": {
+    "blog_gen_instruction": "This is the emotional contract with the reader. Every section of the post must honour the promise made. Read this before writing any section. If a paragraph breaks the journey arc — rewrite it.",
+    "reader_arrival_state": "Excited but slightly overwhelmed — they know they want fresh nails for the new school year but haven't settled on a look, and they're hoping this post will make the decision feel easy.",
+    "journey_arc": [
+      "Step 1 — Validate and excite: confirm they're in the right place, show what 2026 is serving right now (trend hook)",
+      "Step 2 — Navigate: give them clear audience sections (students, teachers, college, kids) so they can jump to what's relevant",
+      "Step 3 — Inspire with volume: deliver design ideas within each section — visual variety, trendy but accessible",
+      "Step 4 — Practical reassurance: answer the longevity + dress-code question so they feel confident booking/doing their nails",
+      "Step 5 — Close with decision clarity: give them a 'which one is right for you' moment and route to the relevant spoke posts"
+    ],
+    "promise_to_deliver": "The most complete, 2026-relevant back to school nails resource — covering every audience with ideas that are both on-trend and school-appropriate.",
+    "exit_state": "Inspired and decided — they've saved at least one design and know which spoke post to read next."
+  },
+
+  "CONTENT_STRUCTURE": {
+    "blog_gen_instruction": "This H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s without user instruction. Word budget per section is set — follow it. H3s may be added at editorial discretion.",
+    "h1": "Back to School Nails: The Best Ideas for Every Student and Teacher in 2026",
+    "h2_structure": [
+      "What Back to School Nails Are Trending Right Now in 2026?",
+      "Back to School Nail Ideas for High School Students",
+      "Back to School Nail Ideas for Teachers",
+      "College and University Nail Ideas for the New Semester",
+      "Simple Back to School Nails That Work Under Any Dress Code",
+      "The Best Nail Colours to Wear Back to School This August",
+      "What Nail Length Works Best for School?",
+      "Which Nail Formula Actually Lasts a Full School Week?",
+      "Back to School Nail Art: School-Themed Designs That Still Look Elevated",
+      "How to Do Your Back to School Nails at Home the Night Before"
+    ],
+    "h2_count": 10,
+    "image_count_finalised": 11,
+    "word_budget": {
+      "introduction": "230 words",
+      "h2_1_what_bts_nails_are_trending_2026": "280 words",
+      "h2_2_high_school_students": "300 words",
+      "h2_3_teachers": "280 words",
+      "h2_4_college_university": "250 words",
+      "h2_5_simple_dress_code": "250 words",
+      "h2_6_best_nail_colours_august": "250 words",
+      "h2_7_nail_length": "200 words",
+      "h2_8_nail_formula_longevity": "220 words",
+      "h2_9_school_themed_nail_art": "250 words",
+      "h2_10_diy_night_before": "220 words",
+      "conclusion": "170 words",
+      "total": "2900 words core + ~300 words flex for faqItems and link prose = 3200 words"
+    }
+  },
+
+  "INTERNAL_LINKS": {
+    "blog_gen_instruction": "Every link below must appear in the post. Cluster links use anchor texts verbatim — do not rewrite. Cross-site links use the provided descriptive anchor. Place each link where the placement note says — woven naturally into prose, never as a standalone CTA. Total internal links must not exceed 6.",
+    "all_internal_links": [
+      {
+        "url_or_slug": "/blog/back-to-school/back-to-school-nails-for-teachers",
+        "title": "Back to School Nails for Teachers",
+        "anchor_text": "back to school nails for teachers",
+        "placement_note": "H2 3 (teacher section) — mention at end of section as a deeper resource",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/back-to-school/college-nails",
+        "title": "College Nails",
+        "anchor_text": "college nails",
+        "placement_note": "H2 4 (college section) — at the end of the college section pointing to the dedicated spoke",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/back-to-school/simple-back-to-school-nails",
+        "title": "Simple Back to School Nails",
+        "anchor_text": "simple back to school nails",
+        "placement_note": "H2 5 (simple/dress-code section) — first or second sentence of section",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/back-to-school/first-day-of-school-nails",
+        "title": "First Day of School Nails",
+        "anchor_text": "first day of school nails",
+        "placement_note": "H2 1 (trending section) or intro — early placement for moment-based searchers",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/back-to-school/high-school-nails",
+        "title": "High School Nails",
+        "anchor_text": "high school nails",
+        "placement_note": "H2 2 (high school student section) — end of section as deeper dive",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/inspo/back-to-school-nails-inspiration-gallery",
+        "title": "Back to School Nails Inspiration Gallery",
+        "anchor_text": "back to school nails inspiration gallery",
+        "placement_note": "Conclusion — as the natural next step for readers who want to browse more visual inspo",
+        "link_type": "gallery"
+      }
+    ]
+  },
+
+  "VOICE_TONE": {
+    "blog_gen_instruction": "This is the voice for this specific post. Layer on top of Mirellé editorial framework. Do not default to generic AI tone.",
+    "recommended_voice": "Aspirational guide with editorial authority",
+    "tone_characteristics": [
+      "Warm but confident — not a friend chatting, but an editor who knows what she's talking about",
+      "Trend-aware without being exclusionary — acknowledges what's hot while respecting dress-code reality",
+      "Direct: gives answers, not hedges — 'the best nail for this is X' not 'it depends'",
+      "Audience-aware: acknowledges multiple reader types without being patronising to any of them",
+      "Slightly elevated above typical BTS content — the reader should feel she's getting a better-quality answer here"
+    ],
+    "language_style": "Short-to-medium sentences, conversational 'you' throughout, occasional editorial statements that position us as knowledgeable ('Here is what actually lasts'). British English. No em dashes.",
+    "audience_match": "This audience is young but style-literate — they follow nail content seriously. They respond to a voice that treats them as capable and interested rather than talking down to them. They also appreciate efficiency: they are busy, the school year is starting, get to the ideas fast."
+  },
+
+  "EXTERNAL_LINKS": {
+    "blog_gen_instruction": "Include all external links where indicated. Supports E-E-A-T. Use anchor suggestion as guide — write naturally around it.",
+    "links": [
+      {
+        "url": "https://solarnaildesign.com/back-to-school-nails/",
+        "context": "H2 covering school-appropriate nail design categories by school level — reference as industry perspective",
+        "anchor_suggestion": "school nail ideas by level"
+      },
+      {
+        "url": "https://www.shadepax.com/blogs/news/trending-press-on-nail-appreciate-for-school-in-2026",
+        "context": "H2 8 on nail formula longevity — when discussing press-on options and 2026 trending formats",
+        "anchor_suggestion": "2026 trending press-on nails for school"
+      },
+      {
+        "url": "https://www.classpop.com/magazine/back-to-school-nails",
+        "context": "H2 9 on school-themed nail art — reference as additional design inspiration for readers",
+        "anchor_suggestion": "back to school nail art inspiration"
+      }
+    ]
+  },
+
+  "SECTION_14_EXECUTION_PLAN": {
+    "blog_gen_instruction": "READ THIS SECTION FIRST. Lock every value. Execute exactly. Do not recalculate, do not adjust, do not deviate.",
+
+    "block_1_keyword_execution": {
+      "primary_keyword": "back to school nails",
+      "top_3_density_baseline": 18,
+      "total_mention_target": 21,
+      "first_100_words_plan": {
+        "rule": "Primary keyword MUST appear TWICE in the first 100 words. Mandatory. No exceptions.",
+        "mention_1": "Sentence 1–2 of introduction — establish the topic immediately ('back to school nails are...')",
+        "mention_2": "Sentence 3–4 of introduction — reinforce scope ('this guide covers the best back to school nails for...')"
+      },
+      "first_half_target": "13 mentions — first 1600 words. Run denser in first half.",
+      "second_half_target": "8 mentions — second 1600 words.",
+      "strong_tag_rule": "EVERY single mention of 'back to school nails' — all 21 of them — wrapped in <strong> tags. No exceptions. Scan after every paragraph.",
+      "keywords_to_avoid_active": [
+        "back to school nails for teachers (as focus term — can appear once in spoke link anchor only)",
+        "college nails (as focus term — can appear once in spoke link anchor only)",
+        "simple back to school nails (as focus term — can appear once in spoke link anchor only)",
+        "first day of school nails (as focus term — can appear once in spoke link anchor only)",
+        "high school nails (as focus term — can appear once in spoke link anchor only)",
+        "short nails for work",
+        "short summer nails",
+        "almond nails for work"
+      ]
+    },
+
+    "block_2_word_budget": {
+      "total_target": "3200 words — +/-50 words tolerance, never exceed",
+      "introduction": "230 words",
+      "conclusion": "170 words",
+      "h2_budgets": [
+        { "heading": "What Back to School Nails Are Trending Right Now in 2026?", "budget": "280 words", "complexity": "high" },
+        { "heading": "Back to School Nail Ideas for High School Students", "budget": "300 words", "complexity": "high" },
+        { "heading": "Back to School Nail Ideas for Teachers", "budget": "280 words", "complexity": "medium" },
+        { "heading": "College and University Nail Ideas for the New Semester", "budget": "250 words", "complexity": "medium" },
+        { "heading": "Simple Back to School Nails That Work Under Any Dress Code", "budget": "250 words", "complexity": "medium" },
+        { "heading": "The Best Nail Colours to Wear Back to School This August", "budget": "250 words", "complexity": "medium" },
+        { "heading": "What Nail Length Works Best for School?", "budget": "200 words", "complexity": "low" },
+        { "heading": "Which Nail Formula Actually Lasts a Full School Week?", "budget": "220 words", "complexity": "medium" },
+        { "heading": "Back to School Nail Art: School-Themed Designs That Still Look Elevated", "budget": "250 words", "complexity": "medium" },
+        { "heading": "How to Do Your Back to School Nails at Home the Night Before", "budget": "220 words", "complexity": "low" }
+      ],
+      "tracking_rule": "Track running word total at the end of every H2 section. If a section is running over budget — cut before moving to the next section. Do not compensate later."
+    },
+
+    "block_3_image_plan": {
+      "total_images": 11,
+      "hero_image": "frontmatter only — NEVER appears in post body",
+      "body_images": 10,
+      "assignments": [
+        { "image_number": 1, "place_after": "What Back to School Nails Are Trending Right Now in 2026?", "section_context": "A 2026-aesthetic BTS nail set — glazed jelly, coquette bow, or clean girl style in late-summer palette" },
+        { "image_number": 2, "place_after": "Back to School Nail Ideas for High School Students", "section_context": "Bold expressive high school nails — cherry red chrome, Y2K-inspired, coloured French tips or holographic" },
+        { "image_number": 3, "place_after": "Back to School Nail Ideas for Teachers", "section_context": "Professional but cute teacher nails — apple accent on neutral base, or pastel with pencil detail, short length" },
+        { "image_number": 4, "place_after": "College and University Nail Ideas for the New Semester", "section_context": "Aesthetic-coded college nails — dark academia argyle, clean girl almond, coquette or old money aesthetic" },
+        { "image_number": 5, "place_after": "Simple Back to School Nails That Work Under Any Dress Code", "section_context": "Minimal, dress-code-safe nails — milky sheer, nude, pastel French tip, or single accent nail" },
+        { "image_number": 6, "place_after": "The Best Nail Colours to Wear Back to School This August", "section_context": "A flat-lay or swatch-style image showing the key August colour palette — mint green, navy, cherry, milky nude" },
+        { "image_number": 7, "place_after": "What Nail Length Works Best for School?", "section_context": "Comparison of short to medium nail length on a hand — squoval or rounded, clean and practical" },
+        { "image_number": 8, "place_after": "Which Nail Formula Actually Lasts a Full School Week?", "section_context": "Press-on nails in a school-appropriate design being applied, or a gel polish result on short nails" },
+        { "image_number": 9, "place_after": "Back to School Nail Art: School-Themed Designs That Still Look Elevated", "section_context": "Elevated school-themed nail art — pencil French tip, A+ accent nail, or chalkboard design on a neutral base" },
+        { "image_number": 10, "place_after": "How to Do Your Back to School Nails at Home the Night Before", "section_context": "DIY home nail setup — nail polish bottles, base coat, or press-on application in progress" }
+      ],
+      "image_type_rule": "ALL body images = inspirational nail design images related to the topic. NO infographics. NO process diagrams. NO comparison charts. NO step-by-step visuals.",
+      "path_rule": "/images/blog/back-to-school/back-to-school-nails/filename.webp — topic_slug in path, slug folder, leading slash"
+    },
+
+    "block_4_opening_technique_assignments": {
+      "rule": "No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.",
+      "assignments": [
+        { "section": "Introduction", "technique": "Technique 2 — The Scene-Set (drop reader into the moment: new year, new nails, the feeling of walking in fresh)" },
+        { "section": "What Back to School Nails Are Trending Right Now in 2026?", "technique": "Technique 3 — The Reframe (reframe what 'trending' means: not just TikTok art, but which current 2026 nail aesthetics translate to school)" },
+        { "section": "Back to School Nail Ideas for High School Students", "technique": "Technique 1 — The Claim (bold direct statement about what high schoolers are reaching for right now)" },
+        { "section": "Back to School Nail Ideas for Teachers", "technique": "Technique 4 — The Question (open with the tension: professional enough for the classroom, interesting enough to make you happy)" },
+        { "section": "College and University Nail Ideas for the New Semester", "technique": "Technique 2 — The Scene-Set (drop reader into the college context: lecture halls, campus aesthetic, identity expression)" },
+        { "section": "Simple Back to School Nails That Work Under Any Dress Code", "technique": "Technique 3 — The Reframe (reframe 'simple' as a design choice, not a compromise)" },
+        { "section": "The Best Nail Colours to Wear Back to School This August", "technique": "Technique 1 — The Claim (direct list of the colours — no preamble)" },
+        { "section": "What Nail Length Works Best for School?", "technique": "Technique 4 — The Question (open with the actual question readers are asking)" },
+        { "section": "Which Nail Formula Actually Lasts a Full School Week?", "technique": "Technique 2 — The Scene-Set (set the reality: PE, hand-washing, packed lunches, eight hours of wear)" },
+        { "section": "Back to School Nail Art: School-Themed Designs That Still Look Elevated", "technique": "Technique 3 — The Reframe (reframe school-themed nail art as editorial rather than costume-y)" },
+        { "section": "How to Do Your Back to School Nails at Home the Night Before", "technique": "Technique 1 — The Claim (direct promise: this is doable in one evening, here's how)" },
+        { "section": "Conclusion", "technique": "Technique 1 — The Claim (confident close: you now have every option, pick one and go)" }
+      ],
+      "banned_opener_rule": "Check every opener against banned_opening_approaches in blog gen prompt before writing the second sentence"
+    },
+
+    "block_5_link_placements": {
+      "rule": "Every link placed exactly where specified. Anchor texts used verbatim — never rewritten. Links woven into prose naturally — never standalone CTAs.",
+      "links": [
+        {
+          "anchor_text": "first day of school nails",
+          "full_url": "/blog/back-to-school/first-day-of-school-nails",
+          "place_in_section": "Introduction OR H2 1 (trending section)",
+          "placement_context": "When referencing the moment-based search for readers about to start school — 'if you need ideas for right now, the first day of school nails guide goes deeper'",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "high school nails",
+          "full_url": "/blog/back-to-school/high-school-nails",
+          "place_in_section": "H2 2 — Back to School Nail Ideas for High School Students",
+          "placement_context": "Final sentence of section — routing readers who want the complete high school nail edit",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "back to school nails for teachers",
+          "full_url": "/blog/back-to-school/back-to-school-nails-for-teachers",
+          "place_in_section": "H2 3 — Back to School Nail Ideas for Teachers",
+          "placement_context": "Final sentence of section — routing teachers who want the full dedicated post",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "college nails",
+          "full_url": "/blog/back-to-school/college-nails",
+          "place_in_section": "H2 4 — College and University Nail Ideas for the New Semester",
+          "placement_context": "Final sentence of section — routing college readers to their dedicated spoke",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "simple back to school nails",
+          "full_url": "/blog/back-to-school/simple-back-to-school-nails",
+          "place_in_section": "H2 5 — Simple Back to School Nails That Work Under Any Dress Code",
+          "placement_context": "Opening or second sentence of section — introduce the dedicated simple nails post immediately",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "back to school nails inspiration gallery",
+          "full_url": "https://mirelleinspo.com/inspo/back-to-school-nails-inspiration-gallery",
+          "place_in_section": "Conclusion",
+          "placement_context": "Natural close routing readers to the gallery for more visual browsing after reading the full post",
+          "link_type": "gallery"
+        }
+      ]
+    },
+
+    "block_6_aeo_geo_plan": {
+      "aeo_assignments": [
+        {
+          "aeo_term": "What are the best back to school nails for 2026?",
+          "assigned_to_section": "What Back to School Nails Are Trending Right Now in 2026?",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading — before any elaboration. List the 5 key 2026 trends that translate to school. This is what gets picked up by AI answer engines."
+        },
+        {
+          "aeo_term": "What nail designs are appropriate for school dress codes?",
+          "assigned_to_section": "Simple Back to School Nails That Work Under Any Dress Code",
+          "execution": "Write a direct 2-3 sentence answer paragraph immediately after the H2 — defines what school-appropriate means in 2026 terms. Clear and extractable."
+        },
+        {
+          "aeo_term": "Which nail formula actually lasts a full school week?",
+          "assigned_to_section": "Which Nail Formula Actually Lasts a Full School Week?",
+          "execution": "Direct answer paragraph immediately after H2 — rank the three options (gel, press-on, regular polish) by longevity with one definitive recommendation."
+        },
+        {
+          "aeo_term": "What nail length works best for school?",
+          "assigned_to_section": "What Nail Length Works Best for School?",
+          "execution": "Direct answer paragraph immediately after H2 — give a specific length recommendation (short to medium, squoval or rounded shape) with brief reason."
+        }
+      ],
+      "geo_entity_statements": [
+        {
+          "entity": "Back to school nails — definition for AEO",
+          "assigned_to_section": "What Back to School Nails Are Trending Right Now in 2026?",
+          "execution": "Write one clear declarative definition: 'Back to school nails are manicures chosen specifically for the new academic year — balancing current nail trends with the practical demands of a school or classroom setting.' Extractable by AI as a citation."
+        },
+        {
+          "entity": "Squoval nail shape",
+          "assigned_to_section": "What Nail Length Works Best for School?",
+          "execution": "Define clearly: 'A squoval shape — square with softly rounded corners — is the most school-practical nail shape in 2026. It resists snagging, suits typing and handwriting, and works at both short and medium lengths.' Confident definition, no hedging."
+        }
+      ]
+    },
+
+    "block_7_active_constraints": {
+      "em_dash_banned": "Long em dash does not appear anywhere. Replace with: comma / new sentence / parentheses / but / restructure.",
+      "banned_vocab_watch": [
+        "stunning",
+        "effortless",
+        "elevate",
+        "perfect",
+        "gorgeous",
+        "amazing",
+        "absolutely",
+        "dive into"
+      ],
+      "british_english_active": "colour, recognise, -ise, -our — every instance, no exceptions",
+      "keyword_density_reminder": "After every 2 H2 sections — count current keyword mentions. Verify running total is on track to hit 21 mentions. First half must run denser than second half. Adjust if needed.",
+      "image_path_reminder": "/images/blog/back-to-school/back-to-school-nails/filename.webp — topic_slug in path always",
+      "internal_link_url_reminder": "Full correct paths only. Cluster links = /blog/back-to-school/[slug]. Gallery link = exact URL. Never bare /slug.",
+      "hero_image_reminder": "Hero = frontmatter only. Never place hero image in body.",
+      "strong_tag_reminder": "Every 'back to school nails' mention = <strong> tags. Scan after every paragraph.",
+      "pillar_note": "This is a pillar post — comprehensive coverage required. All 10 H2s must be present and substantive. Do not collapse or merge sections."
+    }
+  }
+}
