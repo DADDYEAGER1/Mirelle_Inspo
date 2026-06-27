@@ -1,0 +1,625 @@
+{
+  "file_authority": {
+    "statement": "THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded. Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.",
+    "mode": "CLUSTER MODE — cluster context loaded"
+  },
+
+  "post_constants": {
+    "slug": "gel-nails-worth-cost",
+    "topic_slug": "gel-nails-cost",
+    "canonical": "https://mirelleinspo.com/blog/gel-nails-cost/gel-nails-worth-cost",
+    "post_type": "spoke",
+    "intent": "comparison",
+    "word_count": 2200,
+    "image_count": 9,
+    "template": "split-left",
+    "hero_dimensions": "800x800",
+    "category": "Nail Care & Cost",
+    "publish_date": "2026-06-27",
+    "author": "Mirellé Team",
+    "notes": {
+      "word_count_basis": "Top 3 ranking posts (HerMoney, StyleSeat, VibrantSalon) average ~1900 words. Floor set at 2200 — within 2800 spoke ceiling.",
+      "image_count_basis": "Intent = comparison. Rule 4 applies: 8 images total. Rule check: slug contains no X+ pattern (Rule 1 skip), not pillar (Rule 2 skip), not tutorial (Rule 3 skip). Comparison = 8 images. Hero counted in 8 = 7 body images."
+    }
+  },
+
+  "cluster_snapshot": {
+    "pillar_slug": "gel-nails-cost",
+    "pillar_title": "How Much Do Gel Nails Cost: Full Pricing Guide",
+    "pillar_primary_keyword": "gel nails cost",
+    "this_post_slug": "gel-nails-worth-cost",
+    "this_post_role": "spoke",
+    "keywords_to_avoid": [
+      "gel nails cost",
+      "gel manicure cost",
+      "gel nail extensions cost",
+      "gel-x cost",
+      "shellac cost",
+      "gel nail removal cost",
+      "gel nails annual cost",
+      "DIY gel nails vs salon cost",
+      "how to make gel nails last longer",
+      "gel vs acrylic almond nails",
+      "gel nail polish for work",
+      "blooming gel nails tutorial",
+      "acrylic vs gel vs press-on prom nails"
+    ]
+  },
+
+  "serp_analysis": {
+    "blog_gen_instruction": "Use competitor gaps and missing semantic territory to fill what competitors miss. Our strategic approach is the angle for the introduction and conclusion.",
+    "top_3_ranking_posts": [
+      {
+        "source": "HerMoney",
+        "url": "hermoney.com/enjoy/beauty/gel-manicures-worth-the-money/",
+        "estimated_word_count": 800,
+        "angle": "Budget-focused: worth it only if you go frequently. Thin on lifestyle differentiation, no cost-per-day math."
+      },
+      {
+        "source": "StyleSeat",
+        "url": "styleseat.com/blog/how-much-is-a-gel-manicure/",
+        "estimated_word_count": 1800,
+        "angle": "Service-catalogue style. Worth-it question answered in 2 sentences. No personality."
+      },
+      {
+        "source": "VibrantSalonSpa",
+        "url": "vibrantsalonandspa.com/post/the-great-manicure-debate-gel-nails-vs-regular-polish-explored",
+        "estimated_word_count": 2100,
+        "angle": "Pros/cons list. No definitive recommendation. No cost math. No reader-type differentiation."
+      }
+    ],
+    "top_3_word_count_average": 1567,
+    "word_count_floor": 1567,
+    "top_3_keyword_density_baseline": {
+      "note": "Primary keyword 'are gel nails worth the cost' appears ~6–8 times across the top 3 posts on average. Baseline set at 7.",
+      "baseline_mentions": 7
+    },
+    "competitor_gaps": [
+      "No competitor gives a genuine cost-per-wear / cost-per-day calculation comparing gel vs regular — they state gel is 'more expensive' without doing the maths",
+      "No competitor segments 'who gel is worth it for' vs 'who it is not worth it for' with clear decision criteria — they hedge everything with 'it depends'",
+      "No competitor addresses the hidden costs (removal fees, nail repairs from peeling) that make regular polish more expensive than it looks",
+      "No competitor covers nail health risk in a balanced, non-alarmist way — they either ignore it or use it to scare readers off gel entirely",
+      "No competitor provides a month-by-month cost comparison: gel bi-weekly vs regular weekly visits"
+    ],
+    "missing_semantic_territory": [
+      "Cost-per-wear framework as a decision tool",
+      "Reader lifestyle segmentation: frequent salon-goers vs occasional, active vs desk-based",
+      "The 'break-even point' concept — at what salon visit frequency does gel become cheaper than regular",
+      "UV lamp exposure context with practical harm-reduction steps (confirmed on 2+ sources: Cleveland Clinic, MedicalNewsToday)",
+      "The 'hidden cost of chipping' — touch-ups, wasted appointments, frustration tax"
+    ],
+    "our_strategic_approach": "This post gives a definitive answer — not 'it depends' — by walking the reader through three decision variables: how often they get their nails done, their lifestyle, and their nail health priorities. We deliver the cost-per-wear maths no competitor has done, then land on a clear 'yes for this type of person, no for that type of person' conclusion. The reader leaves knowing their answer, not still wondering.",
+    "recommended_image_count_validation": "Top 3 results are mostly text-heavy with 2–4 embedded images. Our 8-image count (7 in body) is above average, appropriate for a comparison post with clear visual decision sections."
+  },
+
+  "audience_intelligence": {
+    "blog_gen_instruction": "This is your primary creative brief. Every paragraph written for this specific person with this specific intent. Satisfy them completely.",
+    "who_they_are": "A woman who already gets regular manicures — or has been getting them — and is standing at a crossroads: she's been told gel is better, she sees the price difference, and she genuinely cannot work out if the extra £15–20 per visit is justified for her specifically. She is not a nail beginner. She knows what a gel manicure is. She is doing a cost-benefit calculation and wants someone to just tell her honestly.",
+    "what_they_want_from_this_post": "A clear, honest answer to whether gel is worth paying extra for, based on her specific situation — not a generic list of pros and cons that leaves her exactly as uncertain as before she clicked.",
+    "what_frustrates_them": "Every article they find either says 'gel is amazing, totally worth it' (from a brand selling gel) or gives a balanced non-answer that doesn't actually help them decide. They also see conflicting information about nail damage — some sources say gel destroys nails, others say it's fine — and nobody gives them an honest middle ground.",
+    "top_5_pain_points": [
+      "They are not sure if the extra cost (typically $15–25 more per visit) is actually saving them money when gel lasts longer vs regular polish that chips faster",
+      "They have heard gel ruins your nails but don't know if that's true or exaggerated — and existing content either dismisses it or catastrophises it",
+      "They don't know whether their personal salon frequency (once a month, every 3 weeks, etc.) makes gel the smarter financial choice",
+      "They feel like they are missing something — everyone at the salon gets gel, but nobody explains why beyond 'it lasts longer'",
+      "They are worried about removal costs and whether those are included or an additional charge they'll be surprised by"
+    ],
+    "exact_user_phrases": [
+      "is gel worth the extra money",
+      "gel nails vs regular nails which is better",
+      "do gel nails actually last longer",
+      "is a gel manicure worth it for someone who only goes once a month",
+      "are gel nails bad for your nails",
+      "why are gel nails so much more expensive",
+      "how often do I need to get gel nails redone",
+      "can I remove gel nails at home without damaging them",
+      "gel manicure pros and cons honest review",
+      "hidden costs of gel nails nobody tells you"
+    ],
+    "intent_content_signals": [
+      "Reader wants a decision, not a list — every section should close with a recommendation or a clear 'this is the answer if you are X'",
+      "Actual cost maths expected — they want numbers, not vague statements like 'it costs more upfront but saves you in the long run'",
+      "Nail health section is expected but must be balanced — not alarmist, not dismissive",
+      "Format: comparison tables or clear side-by-side data welcomed, but not at the expense of editorial voice",
+      "UK, US, AU and CA readers — pricing in post should reference multiple markets or acknowledge geographic variation",
+      "Length tolerance: moderate — they'll read 2000+ words if every section delivers a clear answer, will bounce if it feels like filler"
+    ]
+  },
+
+  "semantic_keyword_data": {
+    "blog_gen_instruction": "Primary keyword in strong tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.",
+    "primary_keyword": "are gel nails worth the cost",
+    "keyword_variations": [
+      "are gel nails worth it",
+      "is gel manicure worth the price",
+      "is gel nail polish worth it",
+      "are gel nails worth the extra money",
+      "is gel nail polish worth the price",
+      "gel nails value for money",
+      "gel nails worth paying for",
+      "is a gel manicure a good investment"
+    ],
+    "cluster_keywords": [
+      "gel vs regular nails cost",
+      "gel nails versus regular polish",
+      "how much more do gel nails cost",
+      "gel manicure price difference",
+      "regular manicure price vs gel manicure price",
+      "gel nail longevity value",
+      "cost of gel nails over time",
+      "gel nails frequency of visits",
+      "gel removal cost included",
+      "gel nails for occasional salon-goers",
+      "gel nails for frequent salon visits",
+      "gel polish chip resistance worth it",
+      "gel nails UV light risk",
+      "gel nails nail health tradeoff"
+    ],
+    "lsi_terms": [
+      "cost per wear nails",
+      "cost per day gel manicure",
+      "chip-resistant nail polish",
+      "salon visit frequency",
+      "gel polish removal fee",
+      "nail damage acetone",
+      "soak-off gel",
+      "LED curing lamp",
+      "UV exposure during gel manicure",
+      "regular nail polish durability",
+      "nail plate thinning gel",
+      "cuticle oil nail care",
+      "gel polish longevity 2–3 weeks",
+      "regular polish 5–7 days",
+      "break-even salon visits",
+      "nail health between gel manicures",
+      "professional nail removal vs DIY",
+      "gel finish vs regular polish shine"
+    ],
+    "aeo_terms": [
+      "are gel nails worth the cost for someone who goes to the salon once a month",
+      "how much more expensive are gel nails compared to regular nails",
+      "do gel nails last longer than regular nail polish",
+      "is a gel manicure better value than regular polish over time",
+      "what are the hidden costs of gel nails",
+      "are gel nails bad for your nails long term",
+      "when are gel nails worth it and when are they not",
+      "does gel nail removal cost extra at a salon",
+      "what is the cost per day of a gel manicure vs regular polish",
+      "how often do you need to get gel nails redone",
+      "are gel nails worth it for a special occasion",
+      "do gel nails damage your nails more than regular polish"
+    ],
+    "technical_terms": [
+      "soak-off gel",
+      "UV/LED curing",
+      "gel polish polymer",
+      "acetone soak-off removal",
+      "nail plate dehydration",
+      "UVA ray exposure during curing",
+      "gel overlay",
+      "gel polish top coat seal"
+    ],
+    "user_language": [
+      "is it actually worth it",
+      "everyone says gel is better but is it really",
+      "I keep peeling mine off and I know I shouldn't",
+      "the removal fee catches me off guard every time",
+      "I go once a month so does gel even make sense",
+      "my nails look terrible after I take gel off",
+      "I like changing my colour all the time so is gel a bad idea",
+      "I only get nails done for holidays so should I bother with gel",
+      "they told me gel would save me money but I'm not convinced",
+      "my nails feel so thin after gel is removed"
+    ]
+  },
+
+  "voice_and_ai_queries": {
+    "blog_gen_instruction": "Answer every query directly in the relevant H2 section body. If a query cannot be addressed naturally in the body, route it to faqItems. No query left unanswered.",
+    "queries": [
+      "are gel nails worth the cost for someone who goes every two weeks",
+      "is gel nail polish worth the extra money over regular polish",
+      "how much cheaper is regular polish than gel at a salon",
+      "do gel nails actually last two to three weeks without chipping",
+      "is gel manicure worth it if I only go to the salon once a month",
+      "what are the hidden costs of getting gel nails",
+      "are gel nails bad for your nails if you get them regularly",
+      "does getting gel nails removed damage your nails",
+      "when is a gel manicure worth it and when should you skip it",
+      "how much does gel nail removal cost and is it included in the price",
+      "is gel polish worth it for a one-off occasion like a holiday",
+      "what is the cost per day of a gel manicure compared to regular nail polish",
+      "how many salon visits does it take for gel to save you money versus regular",
+      "can I remove gel nails at home without damaging them",
+      "are the risks of UV exposure during gel manicures serious"
+    ]
+  },
+
+  "hook_and_ctr": {
+    "blog_gen_instruction": "READ THIS SECTION BEFORE WRITING THE TITLE, META DESCRIPTION, INTRO, OR FIRST H2. The title and description are hardcoded here — use them exactly. The intro hook brief and first H2 hook direction are your creative brief for those specific elements. Do not deviate.",
+    "selected_trigger": "Trigger 1 — Curiosity Gap",
+    "trigger_rationale": "The reader is in active comparison mode — she has a clear question and feels uncertain; the curiosity gap trigger ('what most articles get wrong') matches her state of wanting resolution over browsing.",
+    "title": "Are Gel Nails Worth the Cost? The Honest Answer",
+    "title_char_count": 47,
+    "meta_description": "Gel nails cost $15–25 more per visit than regular polish. But is that actually more expensive? Here's the cost-per-day maths, the nail health truth, and a clear answer for your situation.",
+    "meta_char_count": 184,
+    "meta_description_note": "Meta is 184 chars — trimmed version below at 155 chars for strict compliance:",
+    "meta_description_trimmed": "Gel vs regular nails: the honest cost breakdown, cost-per-day maths, and a clear answer on whether gel nails are worth the cost for your lifestyle.",
+    "meta_char_count_trimmed": 149,
+    "intro_hook_brief": "Open with the uncomfortable truth that most 'is gel worth it' articles don't actually give you an answer — they give you a list and leave you deciding alone. State immediately that this post will give a clear verdict, and that it depends on exactly three things: how often you go, your lifestyle, and your nail health situation.",
+    "first_h2_hook_direction": "Frame the first H2 as the cost question the reader already has in their head: 'How much more does a gel manicure actually cost versus regular polish?' — phrase it as a question, answer it directly and immediately with real numbers before elaborating."
+  },
+
+  "search_journey": {
+    "blog_gen_instruction": "This is the emotional contract with the reader. Every section of the post must honour the promise made. Read this before writing any section. If a paragraph breaks the journey arc — rewrite it.",
+    "reader_arrival_state": "She is frustrated by indecision — she knows gel costs more, she knows it lasts longer, but she cannot work out whether that maths makes sense for her specifically, and every article she has found has given her a non-answer.",
+    "journey_arc": [
+      "Hook: acknowledge the frustration of 'it depends' articles and promise a definitive answer",
+      "Build: establish the real cost gap with numbers (not vague claims), introduce cost-per-day as the right way to think about it",
+      "Deepen: address the nail health angle honestly and without alarm — so the reader can factor it into her decision without fear or dismissal",
+      "Resolve: deliver clear segmentation — 'gel IS worth the cost if you are this person; it is NOT if you are this person'",
+      "Exit: close with a confident 'here is your answer' rather than a hedge"
+    ],
+    "promise_to_deliver": "A clear, honest verdict on whether gel nails are worth the extra cost — with actual numbers and a decision personalised to the reader's situation.",
+    "exit_state": "She knows her answer. She leaves the post either confident in switching to gel or equally confident in sticking with regular polish — and she feels respected rather than patronised."
+  },
+
+  "content_structure": {
+    "blog_gen_instruction": "This H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s without user instruction. Word budget per section is set — follow it. H3s may be added at editorial discretion.",
+    "h1": "Are Gel Nails Worth the Cost? The Honest Answer",
+    "h2_structure": [
+      "How Much More Does a Gel Manicure Actually Cost Than Regular Polish?",
+      "What Does That Price Difference Buy You? The Real Durability Comparison",
+      "The Cost-Per-Day Maths: Which Is Actually Cheaper?",
+      "The Hidden Costs Nobody Mentions (Removal, Repairs, and Touch-Ups)",
+      "Are Gel Nails Bad for Your Nails? What the Research Actually Shows",
+      "When Are Gel Nails Worth the Cost — and When Are They Not?",
+      "What About Occasional Visits, Holidays, and One-Off Events?"
+    ],
+    "word_budget": {
+      "introduction": "220 words",
+      "h2_1_gel_cost_vs_regular": "280 words",
+      "h2_2_durability_comparison": "280 words",
+      "h2_3_cost_per_day_maths": "320 words",
+      "h2_4_hidden_costs": "260 words",
+      "h2_5_nail_health": "260 words",
+      "h2_6_when_worth_it": "320 words",
+      "h2_7_occasions": "200 words",
+      "conclusion": "180 words",
+      "total": "2320 words — within +/- 50 tolerance of 2200 target"
+    }
+  },
+
+  "internal_links": {
+    "blog_gen_instruction": "Every link below must appear in the post. Cluster links use anchor texts verbatim — do not rewrite. Cross-site links use the provided descriptive anchor. Place each link where the placement note says — woven naturally into prose, never as a standalone CTA. Total internal links must not exceed 6.",
+    "all_internal_links": [
+      {
+        "url_or_slug": "/blog/gel-nails-cost/gel-nails-cost",
+        "title": "How Much Do Gel Nails Cost: Full Pricing Guide",
+        "anchor_text": "gel nails cost",
+        "placement_note": "H2-1 — when establishing the baseline cost context, reference the pillar for readers who want the full breakdown by service type",
+        "link_type": "cluster-pillar"
+      },
+      {
+        "url_or_slug": "/blog/gel-nails-cost/gel-manicure-cost",
+        "title": "How Much Does a Gel Manicure Cost",
+        "anchor_text": "gel manicure cost",
+        "placement_note": "H2-1 — immediately after citing the average cost range, direct readers who want location-specific pricing to this spoke",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/gel-nails-cost/gel-nails-annual-cost",
+        "title": "Gel Nails Annual Cost: What You Actually Spend in a Year",
+        "anchor_text": "gel nails annual cost",
+        "placement_note": "H2-3 (cost-per-day maths) — after delivering the monthly calculation, reference this spoke for readers who want the full annual picture",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/gel-nails-cost/diy-gel-nails-vs-salon-cost",
+        "title": "DIY Gel Nails vs Salon: Which Is Actually Cheaper",
+        "anchor_text": "DIY gel nails vs salon cost",
+        "placement_note": "H2-6 (when worth it) — when noting that frequent gel users may want to explore DIY to reduce per-visit cost",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/work-nails/gel-nail-polish-for-work",
+        "title": "Best Gel Nail Polish for Work: Lasts a Full Fortnight",
+        "anchor_text": "why gel polish outlasts regular lacquer for professional use",
+        "placement_note": "H2-2 (durability comparison) — when explaining the durability difference in practical terms, link naturally to this post which explains the chemistry and professional use case",
+        "link_type": "cross-site"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/blog/gel-vs-acrylic-almond-nails",
+        "title": "Gel vs Acrylic Almond Nails: Which to Get",
+        "anchor_text": "how gel compares to acrylic on cost and nail health over time",
+        "placement_note": "H2-5 (nail health) — when noting the relative nail health comparison between systems, link to this post's gel vs acrylic discussion for readers considering extensions instead",
+        "link_type": "cross-site"
+      }
+    ]
+  },
+
+  "voice_tone": {
+    "blog_gen_instruction": "This is the voice for this specific post. Layer on top of Mirellé editorial framework. Do not default to generic AI tone.",
+    "recommended_voice": "Confident Peer — the knowledgeable friend who has done the maths and gives you her honest take without selling anything",
+    "tone_characteristics": [
+      "Decisive — every section closes with a clear answer, not a hedge",
+      "Financially literate — comfortable with cost calculations, treats the reader as capable of understanding maths",
+      "Balanced without being wishy-washy — acknowledges the genuine nail health risk without catastrophising it",
+      "Direct — short declarative sentences favoured in conclusion paragraphs",
+      "Warm but not fluffy — conversational, using 'you' naturally, but grounded in data"
+    ],
+    "language_style": "Moderate sentence length. Short sentences for conclusions and verdicts. Longer sentences for building context. British English throughout (colour, recognise, -ise, -our). No excessive hedging. No 'however' as a conversational connector — use 'but' or restructure. 'You' used throughout, not 'one'. Numbers written as numerals ($35, not thirty-five dollars).",
+    "audience_match": "The reader is an adult woman who makes informed financial decisions daily — she is not looking for permission or hand-holding, she is looking for accurate information delivered with confidence. This voice matches her expectation."
+  },
+
+  "external_links": {
+    "blog_gen_instruction": "Include all external links where indicated. Supports E-E-A-T. Use anchor suggestion as guide — write naturally around it.",
+    "links": [
+      {
+        "url": "https://health.clevelandclinic.org/you-guessed-right-gel-nail-polish-is-bad-for-your-nails",
+        "context": "H2-5 (nail health section) — when citing UV exposure risk and acetone removal risk",
+        "anchor_suggestion": "Cleveland Clinic guidance on gel nail polish and UV exposure"
+      },
+      {
+        "url": "https://www.medicalnewstoday.com/articles/are-gel-nails-bad-for-you",
+        "context": "H2-5 (nail health section) — when citing the research on nail plate thinning and recommended breaks between gel applications",
+        "anchor_suggestion": "Medical News Today on gel nail safety and nail plate research"
+      },
+      {
+        "url": "https://hermoney.com/enjoy/beauty/gel-manicures-worth-the-money/",
+        "context": "H2-3 (cost-per-day maths) — when referencing the financial case for gel for frequent salon-goers",
+        "anchor_suggestion": "HerMoney's financial analysis of gel manicure value"
+      }
+    ]
+  },
+
+  "execution_plan": {
+    "blog_gen_instruction": "READ THIS SECTION FIRST. Lock every value. Execute exactly. Do not recalculate, do not adjust, do not deviate.",
+
+    "block_1_keyword_execution": {
+      "primary_keyword": "are gel nails worth the cost",
+      "top_3_density_baseline": 7,
+      "total_mention_target": 10,
+      "total_mention_calculation": "7 baseline + 3 additional = 10 mentions total. Hard target.",
+      "first_100_words_plan": {
+        "rule": "Primary keyword MUST appear TWICE in the first 100 words. Mandatory. No exceptions.",
+        "mention_1": "Sentence 2–3 of introduction — state the question directly: 'whether gel nails are worth the cost is one of the most-searched nail questions online'",
+        "mention_2": "Sentence 5–6 of introduction — reframe the promise: 'this post gives you a clear answer on whether gel nails are worth the cost for your specific situation'"
+      },
+      "first_half_target": "6 mentions — first 1100 words",
+      "second_half_target": "4 mentions — second 1100 words",
+      "strong_tag_rule": "EVERY single mention of 'are gel nails worth the cost' — all 10 of them — wrapped in <strong> tags. No exceptions. Scan after every paragraph.",
+      "keywords_to_avoid_active": [
+        "gel nails cost",
+        "gel manicure cost",
+        "gel nail extensions cost",
+        "gel-x cost",
+        "shellac cost",
+        "gel nail removal cost",
+        "gel nails annual cost",
+        "DIY gel nails vs salon cost",
+        "how to make gel nails last longer"
+      ]
+    },
+
+    "block_2_word_budget": {
+      "total_target": "2200 words (+/- 50 words tolerance, never exceed 2250)",
+      "introduction": "220 words",
+      "conclusion": "180 words",
+      "h2_budgets": [
+        {
+          "heading": "How Much More Does a Gel Manicure Actually Cost Than Regular Polish?",
+          "budget": "280 words",
+          "complexity": "medium — requires actual pricing data for US, UK, AU"
+        },
+        {
+          "heading": "What Does That Price Difference Buy You? The Real Durability Comparison",
+          "budget": "280 words",
+          "complexity": "medium — factual, but requires editorial voice to differentiate from competitor content"
+        },
+        {
+          "heading": "The Cost-Per-Day Maths: Which Is Actually Cheaper?",
+          "budget": "320 words",
+          "complexity": "high — requires worked calculation with actual numbers; most valuable section, weighted accordingly"
+        },
+        {
+          "heading": "The Hidden Costs Nobody Mentions (Removal, Repairs, and Touch-Ups)",
+          "budget": "260 words",
+          "complexity": "medium"
+        },
+        {
+          "heading": "Are Gel Nails Bad for Your Nails? What the Research Actually Shows",
+          "budget": "260 words",
+          "complexity": "medium — requires balanced, evidence-referenced treatment"
+        },
+        {
+          "heading": "When Are Gel Nails Worth the Cost — and When Are They Not?",
+          "budget": "320 words",
+          "complexity": "high — core decision section; most search-intent-relevant section; requires clear segmentation"
+        },
+        {
+          "heading": "What About Occasional Visits, Holidays, and One-Off Events?",
+          "budget": "200 words",
+          "complexity": "low — specific audience subset, clear answer, shorter treatment appropriate"
+        }
+      ],
+      "tracking_rule": "Track running word total at the end of every H2 section. If over budget — cut before moving to next section. Do not compensate later."
+    },
+
+    "block_3_image_plan": {
+      "total_images": 8,
+      "hero_image": "frontmatter only — NEVER appears in post body",
+      "body_images": 7,
+      "assignments": [
+        {
+          "image_number": 1,
+          "place_after": "Introduction",
+          "section_context": "Flatlay or hands-up shot contrasting a fresh gel manicure against a slightly chipped regular polish — visual shorthand for the core comparison"
+        },
+        {
+          "image_number": 2,
+          "place_after": "How Much More Does a Gel Manicure Actually Cost Than Regular Polish?",
+          "section_context": "Close-up of gel nails freshly done — glossy, chip-free — communicating the quality the price buys"
+        },
+        {
+          "image_number": 3,
+          "place_after": "What Does That Price Difference Buy You? The Real Durability Comparison",
+          "section_context": "Nails at 2-week mark — gel still perfect, for contrast with the regular polish conversation"
+        },
+        {
+          "image_number": 4,
+          "place_after": "The Cost-Per-Day Maths: Which Is Actually Cheaper?",
+          "section_context": "Elegant simple gel manicure — understated, professional-looking nails that communicate 'this is the investment that lasts'"
+        },
+        {
+          "image_number": 5,
+          "place_after": "The Hidden Costs Nobody Mentions (Removal, Repairs, and Touch-Ups)",
+          "section_context": "Gel manicure removal process or cuticle oil application — signals care and professional handling"
+        },
+        {
+          "image_number": 6,
+          "place_after": "Are Gel Nails Bad for Your Nails? What the Research Actually Shows",
+          "section_context": "Healthy-looking natural nails — communicates the 'taking breaks' recommendation visually"
+        },
+        {
+          "image_number": 7,
+          "place_after": "When Are Gel Nails Worth the Cost — and When Are They Not?",
+          "section_context": "Confident, well-maintained gel nails in a lifestyle context — hands on a keyboard or with a coffee cup"
+        }
+      ],
+      "image_type_rule": "ALL body images = nail photography (manicure results, nails in lifestyle settings). NO infographics. NO comparison charts. NO step-by-step process visuals.",
+      "path_rule": "/images/blog/gel-nails-cost/gel-nails-worth-cost/filename.webp — topic_slug in path, slug folder, leading slash"
+    },
+
+    "block_4_opening_technique_assignments": {
+      "rule": "No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.",
+      "assignments": [
+        { "section": "Introduction", "technique": "Technique 2 — The Provocative Claim (state what most articles get wrong before you state what you will do differently)" },
+        { "section": "How Much More Does a Gel Manicure Actually Cost Than Regular Polish?", "technique": "Technique 3 — The Reframe (reframe the question: it's not 'how much more' but 'how much more per day')" },
+        { "section": "What Does That Price Difference Buy You? The Real Durability Comparison", "technique": "Technique 1 — The Claim (open with the direct claim: 'The price gap buys you exactly one thing: fewer salon visits')" },
+        { "section": "The Cost-Per-Day Maths: Which Is Actually Cheaper?", "technique": "Technique 4 — The Scenario (open with a specific scenario: 'If you go to the salon every two weeks...')" },
+        { "section": "The Hidden Costs Nobody Mentions (Removal, Repairs, and Touch-Ups)", "technique": "Technique 2 — The Provocative Claim ('The advertised gel price is not what you will pay')" },
+        { "section": "Are Gel Nails Bad for Your Nails? What the Research Actually Shows", "technique": "Technique 3 — The Reframe ('The nail health conversation has two real risks — and most content only addresses one')" },
+        { "section": "When Are Gel Nails Worth the Cost — and When Are They Not?", "technique": "Technique 1 — The Claim (open with the clearest decision statement of the entire post)" },
+        { "section": "What About Occasional Visits, Holidays, and One-Off Events?", "technique": "Technique 4 — The Scenario ('You are going on holiday for two weeks. Regular polish will chip by day three.')" },
+        { "section": "Conclusion", "technique": "Technique 1 — The Claim (confident wrap, restate the answer, give the reader her decision)" }
+      ],
+      "banned_opener_rule": "Check every opener against banned_opening_approaches in blog gen prompt before writing the second sentence"
+    },
+
+    "block_5_link_placements": {
+      "rule": "Every link placed exactly where specified. Anchor texts used verbatim — never rewritten. Links woven into prose naturally — never standalone CTAs.",
+      "links": [
+        {
+          "anchor_text": "gel nails cost",
+          "full_url": "/blog/gel-nails-cost/gel-nails-cost",
+          "place_in_section": "How Much More Does a Gel Manicure Actually Cost Than Regular Polish?",
+          "placement_context": "After stating the per-visit price range, direct the reader to the full breakdown: 'For a complete breakdown by service type, the gel nails cost guide covers every format from gel polish to extensions.'",
+          "link_type": "cluster-pillar"
+        },
+        {
+          "anchor_text": "gel manicure cost",
+          "full_url": "/blog/gel-nails-cost/gel-manicure-cost",
+          "place_in_section": "How Much More Does a Gel Manicure Actually Cost Than Regular Polish?",
+          "placement_context": "When noting geographic price variation: 'Prices vary significantly by country and city — the full gel manicure cost breakdown covers US state-by-state data and UK regional variation.'",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "why gel polish outlasts regular lacquer for professional use",
+          "full_url": "https://mirelleinspo.com/work-nails/gel-nail-polish-for-work",
+          "place_in_section": "What Does That Price Difference Buy You? The Real Durability Comparison",
+          "placement_context": "When explaining the chemistry behind gel's durability: 'The cross-linking process is also why gel polish outlasts regular lacquer for professional use — covered in detail for working women who need their manicure to survive a full fortnight.'",
+          "link_type": "cross-site"
+        },
+        {
+          "anchor_text": "gel nails annual cost",
+          "full_url": "/blog/gel-nails-cost/gel-nails-annual-cost",
+          "place_in_section": "The Cost-Per-Day Maths: Which Is Actually Cheaper?",
+          "placement_context": "After the monthly calculation: 'To see how this scales across 12 months — including fills, removals, and the hidden appointment costs — the gel nails annual cost post does the full yearly maths.'",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "how gel compares to acrylic on cost and nail health over time",
+          "full_url": "https://mirelleinspo.com/blog/gel-vs-acrylic-almond-nails",
+          "place_in_section": "Are Gel Nails Bad for Your Nails? What the Research Actually Shows",
+          "placement_context": "When noting that acrylics carry a different (and often higher) nail health risk: 'If you are considering extensions rather than gel polish, how gel compares to acrylic on cost and nail health over time is worth reading before you commit to a system.'",
+          "link_type": "cross-site"
+        },
+        {
+          "anchor_text": "DIY gel nails vs salon cost",
+          "full_url": "/blog/gel-nails-cost/diy-gel-nails-vs-salon-cost",
+          "place_in_section": "When Are Gel Nails Worth the Cost — and When Are They Not?",
+          "placement_context": "In the 'gel IS worth it' segment, when noting that frequent users can reduce their per-visit cost further: 'Frequent gel clients who want to cut the per-visit spend further should look at DIY gel nails vs salon cost — the break-even on a home kit is often just two to three sets.'",
+          "link_type": "cluster-spoke"
+        }
+      ]
+    },
+
+    "block_6_aeo_geo_plan": {
+      "aeo_assignments": [
+        {
+          "aeo_term": "how much more expensive are gel nails compared to regular nails",
+          "assigned_to_section": "How Much More Does a Gel Manicure Actually Cost Than Regular Polish?",
+          "execution": "Write a direct 2–3 sentence answer paragraph IMMEDIATELY after the H2 heading: 'A gel manicure typically costs $15–25 more than a regular manicure in the US, £10–20 more in the UK, and AU$15–30 more in Australia. Regular manicures average $20–30; gel manicures average $35–55. That gap is the entire question — whether it is worth it depends on what it buys you.'"
+        },
+        {
+          "aeo_term": "do gel nails last longer than regular nail polish",
+          "assigned_to_section": "What Does That Price Difference Buy You? The Real Durability Comparison",
+          "execution": "Write a direct 2–3 sentence answer paragraph immediately after the H2: 'Yes. Gel polish lasts 2–3 weeks without chipping. Regular polish typically lasts 5–7 days before visible wear. That is roughly three times the lifespan for roughly 1.5 times the price.'"
+        },
+        {
+          "aeo_term": "what is the cost per day of a gel manicure compared to regular nail polish",
+          "assigned_to_section": "The Cost-Per-Day Maths: Which Is Actually Cheaper?",
+          "execution": "Write a direct 2–3 sentence answer paragraph immediately after the H2: 'A $45 gel manicure lasting 21 days costs $2.14 per day. A $25 regular manicure lasting 7 days costs $3.57 per day. By cost-per-day, gel is cheaper — if it actually lasts the full two to three weeks on your nails.'"
+        },
+        {
+          "aeo_term": "what are the hidden costs of gel nails",
+          "assigned_to_section": "The Hidden Costs Nobody Mentions (Removal, Repairs, and Touch-Ups)",
+          "execution": "Write a direct 2–3 sentence answer paragraph immediately after the H2: 'Gel removal typically costs $10–20 as a separate charge — though many salons include it when you rebook. Repair appointments for a lifted or broken gel nail add $5–15. And acetone damage from improper DIY removal can mean a nail strengthening treatment at your next visit.'"
+        },
+        {
+          "aeo_term": "are gel nails bad for your nails long term",
+          "assigned_to_section": "Are Gel Nails Bad for Your Nails? What the Research Actually Shows",
+          "execution": "Write a direct 2–3 sentence answer paragraph immediately after the H2: 'Gel nails can cause nail plate thinning over time, particularly when removed incorrectly. The UV exposure risk during curing is real but low at the brief exposure times involved. Both risks are manageable with proper removal technique and regular nail breaks of 1–2 weeks between applications.'"
+        },
+        {
+          "aeo_term": "when are gel nails worth it and when should you skip it",
+          "assigned_to_section": "When Are Gel Nails Worth the Cost — and When Are They Not?",
+          "execution": "Write a direct 2–3 sentence answer paragraph immediately after the H2: 'Gel nails are worth the cost if you visit the salon every two to three weeks, have an active lifestyle that destroys regular polish quickly, or need a manicure to last through travel, work, or an event. They are not worth the extra cost if you go to the salon once a month or less frequently, you like changing your colour often, or your nails are already thin and prone to damage.'"
+        }
+      ],
+      "geo_entity_statements": [
+        {
+          "entity": "cost-per-day nail comparison",
+          "assigned_to_section": "The Cost-Per-Day Maths: Which Is Actually Cheaper?",
+          "execution": "Write a clear declarative sentence: 'Cost-per-day is the correct framework for comparing gel nails against regular polish — it accounts for the price difference and the lifespan difference simultaneously, giving a true like-for-like comparison.'"
+        },
+        {
+          "entity": "soak-off gel removal",
+          "assigned_to_section": "The Hidden Costs Nobody Mentions (Removal, Repairs, and Touch-Ups)",
+          "execution": "Define clearly: 'Soak-off gel removal involves soaking nails in acetone for 10–15 minutes after lightly filing the surface seal. Done correctly by a professional, it leaves the nail plate intact. Done incorrectly at home — or by peeling — it strips the top layers of the nail plate.'"
+        }
+      ]
+    },
+
+    "block_7_active_constraints": {
+      "em_dash_banned": "Long em dash does not appear anywhere. If one forms while writing — stop, replace with: comma, new sentence, parentheses, 'but', or restructure.",
+      "banned_vocab_watch": [
+        "delve",
+        "comprehensive",
+        "game-changer",
+        "amazing",
+        "stunning",
+        "transformative",
+        "beautiful (as a filler adjective)",
+        "seamlessly"
+      ],
+      "british_english_active": "colour, recognise, organisation, -ise endings, -our endings — every instance, no exceptions",
+      "keyword_density_reminder": "After every 2 H2 sections — count current keyword mentions of 'are gel nails worth the cost'. Verify running total is on track for 10 total. First half (1100 words) must have 6 mentions. Adjust if behind.",
+      "image_path_reminder": "/images/blog/gel-nails-cost/gel-nails-worth-cost/filename.webp — topic_slug 'gel-nails-cost' in path always",
+      "internal_link_url_reminder": "Full correct paths only. Cluster links = /blog/gel-nails-cost/[slug]. Cross-site links = exact URL as listed above. Never bare /slug.",
+      "hero_image_reminder": "Hero = frontmatter only. Never place hero image in body.",
+      "strong_tag_reminder": "Every mention of 'are gel nails worth the cost' = <strong> tags. All 10 of them. Scan after every paragraph.",
+      "comparison_post_rule": "This is a comparison intent post. Every H2 must close with a clear answer or decision. No section ends with 'it depends' alone — that phrase must always be followed by the actual answer to what it depends on."
+    }
+  }
+}
