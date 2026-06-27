@@ -1,0 +1,546 @@
+{
+  "file_authority": {
+    "statement": "THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly."
+  },
+
+  "post_constants": {
+    "slug": "nail-strengthener-for-nurses",
+    "topic_slug": "work-nails",
+    "canonical": "https://mirelleinspo.com/work-nails/nail-strengthener-for-nurses",
+    "post_type": "spoke",
+    "intent": "informational",
+    "word_count": 2200,
+    "image_count": 9,
+    "template": "split-left",
+    "hero_dimensions": "800x800",
+    "category": "Work Nails",
+    "publish_date": "2026-07-07",
+    "author": "Mirellé Team",
+    "image_path_pattern": "/images/work-nails/nail-strengthener-for-nurses/filename.webp"
+  },
+
+  "cluster_snapshot": {
+    "pillar_slug": "work-nails",
+    "pillar_title": "Work Nails Hub",
+    "pillar_primary_keyword": "work nails",
+    "this_post_slug": "nail-strengthener-for-nurses",
+    "this_post_role": "spoke",
+    "keywords_to_avoid": [
+      "work nails",
+      "nails for different professions",
+      "short nails for work",
+      "work appropriate nail colors",
+      "neutral nails for work",
+      "gel nail polish for work",
+      "nail shapes for work",
+      "work appropriate nail art",
+      "nail care guide",
+      "best nail polish for work",
+      "corporate girl nails",
+      "french tip nails for work",
+      "gel vs acrylic nails for work",
+      "nails for conservative vs creative workplaces",
+      "nails for job interview",
+      "professional nail length for work",
+      "new job nails",
+      "almond nails for work"
+    ]
+  },
+
+  "serp_analysis": {
+    "blog_gen_instruction": "Use competitor gaps and missing semantic territory to fill what competitors miss. Our strategic approach is the angle for the introduction and conclusion.",
+    "top_3_ranking_posts_estimated": [
+      {
+        "type": "General best nail strengthener roundup (NBC News, Today.com, WhoWhatWear)",
+        "estimated_word_count": 1800,
+        "keyword_density_estimate": 8,
+        "notes": "None address nurses specifically — all generic consumer audience"
+      },
+      {
+        "type": "AllNurses.com forum threads on hand sanitiser and natural nails",
+        "estimated_word_count": 800,
+        "keyword_density_estimate": 4,
+        "notes": "High relevance but no structured product guidance — purely conversational"
+      },
+      {
+        "type": "Nailicy.com nurse nail polish article",
+        "estimated_word_count": 1600,
+        "keyword_density_estimate": 6,
+        "notes": "Covers polish policy but no dedicated nail strengthener section"
+      }
+    ],
+    "top_3_average_word_count": 1400,
+    "top_3_keyword_density_baseline": 6,
+    "competitor_gaps": [
+      "No competitor post addresses the specific mechanism of why nursing damages nails — repeated wet-dry cycling, alcohol-based sanitiser, latex glove friction — and maps it to product solutions",
+      "No post explains the difference between a nail hardener and a nail strengthener for this use case — nurses with over-processed, soft nails need a conditioner-strengthener, not a rigid hardener",
+      "No post covers shift-specific product application timing — when to apply during an on/off shift pattern",
+      "No post addresses BIAB as a polish-free strengthening option that survives alcohol sanitiser exposure (confirmed on TikTok 16.9K likes + allnurses.com forums)",
+      "No post covers cuticle oil as a clinical nail maintenance tool for healthcare workers — the connection between cuticle barrier health and infection control compliance",
+      "No post distinguishes formaldehyde-containing hardeners (which can make over-stressed nails worse) from conditioning-type strengtheners that rebuild keratin — directly relevant to nurses whose nails are already damaged"
+    ],
+    "missing_semantic_territory": [
+      "Shift pattern context — product application routine around 12-hour shifts",
+      "HEMA-free gel and BIAB for nurses who are sensitive to standard gel allergens",
+      "Zoya nail polish specifically recommended by nurses in community forums for longevity and clean formula",
+      "Nailtiques Formula 2 — referenced in nursing communities as a protein treatment for peeling nails",
+      "The wet-dry cycle mechanism — scientific basis for why nurses' nails deteriorate faster than average",
+      "OPI Repair Mode as a bond-building serum specific to hand-washing damage (OPI explicitly markets it for this use case)"
+    ],
+    "our_strategic_approach": "Every competitor post either reviews nail strengtheners for a general consumer audience or covers nurse nail policy at a surface level. This post speaks directly to the nurse whose nails are already damaged — cracked free edges, peeling layers, dry cuticles — and gives her a clear product protocol built around what actually survives shift work. The angle is not 'best nail strengtheners' in general, but 'what repairs the specific damage nursing does to your nails and holds up during the next shift.'",
+    "image_count_validation": "Confirmed: 9 images (rule 5 — not X+ slug, not pillar, not tutorial, not comparison). Competitor posts show 6-10 images. 9 matches the pattern."
+  },
+
+  "audience_intelligence": {
+    "blog_gen_instruction": "This is your primary creative brief. Every paragraph written for this specific person with this specific intent. Satisfy them completely.",
+    "who_they_are": "Registered nurses, nursing students in clinicals, and other direct-care healthcare workers (surgical techs, dental nurses, healthcare assistants) whose nails are visibly deteriorating from the physical demands of their job. Most have already tried generic strengtheners from Ulta or Sephora without success. Many sanitise hands 50-400 times per shift. They want professional-looking nails but have resigned themselves to thin, splitting, raggy nails as 'just part of the job.'",
+    "what_they_want_from_this_post": "Specific product names that actually work under nursing conditions — not a generic list. They want to understand WHY their nails keep failing and what product type fixes the specific damage they have. They also want a practical routine that fits around shift patterns, not a 10-step spa protocol.",
+    "what_frustrates_them": [
+      "Generic nail strengthener articles that do not acknowledge they wash or sanitise hands 50+ times per shift",
+      "Products that work fine for desk workers but peel or lift immediately on nursing hands",
+      "Advice to 'just wear gloves' — they already wear gloves and it still happens",
+      "No distinction between a hardener (makes nails rigid and snappy — wrong for nurses) and a strengthener/conditioner that rebuilds softened keratin",
+      "Forum advice that recommends acrylics or gel extensions — banned in most clinical settings"
+    ],
+    "top_5_pain_points": [
+      "Nails peel and split in layers despite trying multiple strengtheners — nothing holds up past half a shift",
+      "Cuticles are raw, ragged, and constantly cracking from alcohol sanitiser and latex gloves",
+      "Clear or nude strengtheners go sticky by end of shift from repeated sanitiser use",
+      "Uncertainty about whether a strengthener counts as 'nail polish' and therefore violates infection control policy",
+      "Nails that break to the skin mid-shift — a genuine patient safety concern when blood is drawn or IV lines are placed"
+    ],
+    "exact_user_phrases": [
+      "'my nails are absolutely destroyed from sanitising all day'",
+      "'everything I've tried is sticky by the end of the shift'",
+      "'the alcohol in hand sanitiser is the enemy'",
+      "'I can't afford a manicure every week but my nails look terrible'",
+      "'does OPI nail envy count as nail polish for infection control?'",
+      "'BIAB for nurses — does it hold up?'",
+      "'my nails split down to the skin on shift it hurts'",
+      "'hospital approved nails what can I actually wear'",
+      "'clear coat that survives sanitiser'",
+      "'cuticle oil for nurses — is there one strong enough?'"
+    ],
+    "intent_content_signals": [
+      "Wants product-specific recommendations — brand names, not categories",
+      "Needs rationale for why a product works under nursing conditions, not generic marketing claims",
+      "Responds to community validation — 'other nurses use this'",
+      "Values brevity and practical application over theory — she is reading this between shifts",
+      "Wants a routine she can do at home, not a salon requirement",
+      "Infection control compliance is a non-negotiable filter — must address policy context"
+    ]
+  },
+
+  "semantic_keyword_data": {
+    "blog_gen_instruction": "Primary keyword in strong tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.",
+    "primary_keyword": "nail strengthener for nurses",
+    "keyword_variations": [
+      "best nail strengthener for nurses",
+      "nail strengthener for healthcare workers",
+      "nail hardener for nurses",
+      "nail strengthener for nursing",
+      "nail treatment for nurses",
+      "nail care for nurses",
+      "nail repair for nurses",
+      "nurse-approved nail strengthener",
+      "nail strengthener for hospital workers"
+    ],
+    "cluster_keywords": [
+      "OPI Nail Envy for nurses",
+      "OPI Repair Mode bond-building serum",
+      "BIAB for nurses",
+      "cuticle oil for nurses",
+      "Essie Hard to Resist nurses",
+      "Zoya nail polish for nurses",
+      "Nailtiques Formula 2 nurses",
+      "nail strengthener that survives sanitiser",
+      "clear nail treatment for nurses",
+      "nail care routine for nurses",
+      "best nail polish for healthcare workers",
+      "nail strengthener after hand washing",
+      "nurse nail health",
+      "nail hardener vs strengthener nurses"
+    ],
+    "lsi_terms": [
+      "brittle nails from hand washing",
+      "nail damage from alcohol sanitiser",
+      "nail plate dehydration",
+      "peeling nails nurses",
+      "keratin repair nails",
+      "nail hardener formaldehyde-free",
+      "bond-building nail serum",
+      "cuticle barrier health",
+      "wet-dry cycle nail damage",
+      "nail strengthening routine shift work",
+      "biotin for nails",
+      "nail plate layers peeling",
+      "hospital-approved nail treatment",
+      "nail polish infection control policy",
+      "latex glove nail damage",
+      "nail hydration routine",
+      "CND nail treatment nurses",
+      "formaldehyde-free nail strengthener",
+      "HEMA-free nail treatment"
+    ],
+    "aeo_terms": [
+      "What is the best nail strengthener for nurses?",
+      "Can nurses use nail strengthener on shift?",
+      "What nail strengthener survives hand sanitiser?",
+      "Why do nurses' nails peel and break?",
+      "Does OPI Nail Envy count as nail polish for nurses?",
+      "Is BIAB allowed for nurses?",
+      "What cuticle oil is best for nurses?",
+      "How do nurses protect their nails from hand washing?",
+      "What is the difference between a nail hardener and nail strengthener for nurses?",
+      "Can nurses wear clear nail strengthener on shift?",
+      "What nail treatment rebuilds damaged nurse nails?",
+      "How long does OPI Repair Mode take to work for nurse nail damage?"
+    ],
+    "technical_terms": [
+      "onychoschizia (lamellar nail splitting)",
+      "nail plate hydration-dehydration cycle",
+      "keratin cross-linking",
+      "Tri-Flex Technology (OPI Nail Envy)",
+      "Ulti-Plex Technology (OPI Repair Mode)",
+      "BIAB — Builder In A Bottle",
+      "HEMA (hydroxyethyl methacrylate) — gel allergen",
+      "subungual region"
+    ],
+    "user_language": [
+      "my nails are destroyed",
+      "sticky by end of shift",
+      "the sanitiser eats through everything",
+      "nothing holds up",
+      "my cuticles are wrecked",
+      "hospital-approved",
+      "counts as nail polish",
+      "BIAB for nurses",
+      "does it hold up on shift",
+      "nails splitting to the skin"
+    ]
+  },
+
+  "voice_and_ai_queries": {
+    "blog_gen_instruction": "Answer every query directly in the relevant H2 section body. If a query cannot be addressed naturally in the body, route it to faqItems. No query left unanswered.",
+    "queries": [
+      "What is the best nail strengthener for nurses?",
+      "Can nurses use nail strengthener on shift?",
+      "What nail strengthener survives hand sanitiser?",
+      "Why do nurses' nails peel and split so badly?",
+      "Does OPI Nail Envy count as nail polish for nurses?",
+      "Is BIAB allowed for nurses in clinical settings?",
+      "What cuticle oil is best for nurses working long shifts?",
+      "How do nurses protect their nails from constant hand washing?",
+      "What is the difference between a nail hardener and a nail strengthener for nurses?",
+      "Can nurses wear clear nail strengthener on shift without violating policy?",
+      "What nail treatment actually rebuilds damaged nurse nails?",
+      "How long does OPI Repair Mode take to work for nursing hand damage?",
+      "Is Zoya nail polish good for nurses?",
+      "What do nurses recommend for splitting nails?",
+      "Can nurses use Nailtiques Formula 2?",
+      "How do I stop my nails from peeling as a nurse?",
+      "What nail care routine works around 12-hour shifts?",
+      "Is a nail strengthener the same as nail polish under infection control rules?"
+    ]
+  },
+
+  "hook_and_ctr": {
+    "blog_gen_instruction": "READ THIS SECTION BEFORE WRITING THE TITLE, META DESCRIPTION, INTRO, OR FIRST H2. The title and description are hardcoded here — use them exactly. The intro hook brief and first H2 hook direction are your creative brief for those specific elements. Do not deviate.",
+    "selected_trigger": "Trigger 1 — Curiosity Gap",
+    "trigger_rationale": "This reader has already tried standard nail strengtheners and failed — she suspects she has been buying the wrong product for the wrong problem, and she is right. The curiosity gap (most nail strengtheners are actually wrong for nurse nails) lands because it validates her experience and promises a resolution.",
+    "title": "Nail Strengthener for Nurses: What Actually Works on Shift",
+    "title_char_count": 57,
+    "meta_description": "Nurse nails take a beating from sanitiser and constant hand washing. Here's what actually repairs the damage and holds up through a 12-hour shift.",
+    "meta_char_count": 151,
+    "intro_hook_brief": "Open by naming the problem precisely: it is not that nurses have weak nails, it is that standard nail strengtheners are designed for dehydrated nails, not for the specific cycle of chemical assault nursing hands endure. The reader should feel seen within the first two sentences.",
+    "first_h2_hook_direction": "Frame the first H2 as a knowledge gap question — something like 'Why Do Nursing Nails Break Differently?' — so the reader understands there is a reason her usual fixes have not worked, before any product is mentioned."
+  },
+
+  "search_journey": {
+    "blog_gen_instruction": "This is the emotional contract with the reader. Every section of the post must honour the promise made. Read this before writing any section. If a paragraph breaks the journey arc — rewrite it.",
+    "reader_arrival_state": "Frustrated and slightly resigned — she has already spent money on nail strengtheners that did not work and suspects nothing will fix what nursing does to her hands.",
+    "journey_arc": [
+      "1. Validate her frustration immediately — her nails are not weak, they are damaged in a specific way that generic products are not designed to fix",
+      "2. Explain the mechanism (wet-dry cycling, alcohol, glove friction) so she understands why the problem is different — this builds trust and explains why her previous attempts failed",
+      "3. Walk through the product types in order of damage severity — from cuticle oil and conditioning strengtheners for mild damage through to bond-building serums and BIAB for serious deterioration",
+      "4. Address the infection control question she is worried about — clear strengtheners vs. policy-classified nail polish",
+      "5. Give her a practical routine she can run around shift patterns and close with the expectation: what recovery looks like over 4-6 weeks"
+    ],
+    "promise_to_deliver": "By the end of this post, she knows exactly which product type addresses her specific damage, which brand names to buy, and how to fit a nail care routine around shift work.",
+    "exit_state": "Equipped and hopeful — she has a specific protocol to try, not another generic list."
+  },
+
+  "content_structure": {
+    "blog_gen_instruction": "This H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s without user instruction. Word budget per section is set — follow it. H3s may be added at editorial discretion.",
+    "h1": "Nail Strengthener for Nurses: What Actually Works on Shift",
+    "h2_structure": [
+      "Why Do Nursing Nails Break Differently to Everyone Else's?",
+      "Nail Hardener vs Nail Strengthener: Which One Do Nurses Actually Need?",
+      "The Best Nail Strengtheners for Nurses in 2026",
+      "Does OPI Nail Envy Count as Nail Polish Under Infection Control Policy?",
+      "Is BIAB a Good Option for Nurses Who Cannot Wear Polish?",
+      "The Best Cuticle Oil for Nurses — and Why It Matters More Than the Strengthener",
+      "A Nail Care Routine That Works Around 12-Hour Shifts",
+      "What to Expect: How Long Before Nurse Nails Actually Recover?"
+    ],
+    "word_budget": {
+      "introduction": 230,
+      "h2_1_why_nurse_nails_break_differently": 280,
+      "h2_2_hardener_vs_strengthener": 230,
+      "h2_3_best_nail_strengtheners_2026": 320,
+      "h2_4_opi_nail_envy_infection_control": 220,
+      "h2_5_biab_for_nurses": 250,
+      "h2_6_best_cuticle_oil_nurses": 230,
+      "h2_7_nail_care_routine_shift_work": 250,
+      "h2_8_recovery_timeline": 220,
+      "conclusion": 170,
+      "total_target": 2200
+    }
+  },
+
+  "internal_links": {
+    "blog_gen_instruction": "Every link below must appear in the post. Cluster links use anchor texts verbatim — do not rewrite. Cross-site links use the provided descriptive anchor. Place each link where the placement note says — woven naturally into prose, never as a standalone CTA. Total internal links must not exceed 6.",
+    "all_internal_links": [
+      {
+        "url": "https://mirelleinspo.com/work-nails",
+        "title": "Work Nails Hub",
+        "anchor_text": "work nails",
+        "placement_note": "Introduction — brief mention of the broader work nails context when framing who this post is for",
+        "link_type": "hub"
+      },
+      {
+        "url": "https://mirelleinspo.com/work-nails/nails-for-nurses",
+        "title": "Nails for Nurses: What You Can Actually Wear on Shift",
+        "anchor_text": "nails for nurses",
+        "placement_note": "H2-4 (OPI Nail Envy infection control) — natural reference when discussing what nurses can wear on shift",
+        "link_type": "new spoke"
+      },
+      {
+        "url": "https://mirelleinspo.com/work-nails/gel-nail-polish-for-work",
+        "title": "Best Gel Nail Polish for Work",
+        "anchor_text": "gel nail polish for work",
+        "placement_note": "H2-5 (BIAB section) — when discussing gel-based systems and what holds up for working hands",
+        "link_type": "existing spoke"
+      },
+      {
+        "url": "https://mirelleinspo.com/topics/nail-care-guide",
+        "title": "The Complete Nail Care Guide",
+        "anchor_text": "complete nail care guide",
+        "placement_note": "H2-8 (recovery timeline) — natural reference for deeper nail health content when discussing long-term nail recovery",
+        "link_type": "existing spoke"
+      }
+    ]
+  },
+
+  "voice_tone": {
+    "blog_gen_instruction": "This is the voice for this specific post. Layer on top of Mirellé editorial framework. Do not default to generic AI tone.",
+    "recommended_voice": "Warm, knowledgeable colleague — a senior nurse who also knows her nail products",
+    "tone_characteristics": [
+      "Direct and product-specific — no vague 'it depends' without a resolution",
+      "Validates her frustration before offering solutions — she has heard generic advice before",
+      "Uses clinical accuracy where relevant (wet-dry cycle, infection control policy) without being dry",
+      "Practical over aspirational — this reader wants a routine she can do at midnight after a shift",
+      "Confident but not dismissive of the policy complexity — infection control is real, and the post takes it seriously"
+    ],
+    "language_style": "Short sentences. Clear product names up front. Second-person 'you' throughout. No jargon without immediate plain-English explanation. Treat the reader as an intelligent professional who just needs the right information.",
+    "audience_match": "A nurse is a problem-solver by training. She responds to structured information, clear reasoning, and specific answers — not soft-focus lifestyle content. This voice matches that professional register while staying warm."
+  },
+
+  "external_links": {
+    "blog_gen_instruction": "Include all external links where indicated. Supports E-E-A-T. Use anchor suggestion as guide — write naturally around it.",
+    "links": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7367565/",
+        "context": "H2-1 (why nurse nails break differently) — cite the PMC article on nail care for healthcare workers during COVID-19 when explaining the wet-dry cycle and nail thinning mechanism",
+        "anchor_suggestion": "nail care guidance for healthcare workers"
+      },
+      {
+        "url": "https://www.opi.com/blog/product-spotlight/faqs-about-our-new-repair-mode-tm-bond-building-nail-serum",
+        "context": "H2-3 (best nail strengtheners) — reference OPI's own FAQ confirming Repair Mode is specifically designed to prevent damage from hand washing and cleaning products",
+        "anchor_suggestion": "OPI Repair Mode bond-building serum"
+      },
+      {
+        "url": "https://allnurses.com/hand-sanitizer-natural-nails-t726282/",
+        "context": "H2-2 (hardener vs strengthener) — cite allnurses.com forum thread showing nurses' firsthand reports of generic strengtheners failing, to validate the distinction being made",
+        "anchor_suggestion": "nurses on allnurses.com have documented exactly this"
+      }
+    ]
+  },
+
+  "execution_plan": {
+    "blog_gen_instruction": "READ THIS SECTION FIRST. Lock every value. Execute exactly. Do not recalculate, do not adjust, do not deviate.",
+
+    "block_1_keyword_execution": {
+      "primary_keyword": "nail strengthener for nurses",
+      "top_3_density_baseline": 6,
+      "total_mention_target": 9,
+      "note": "6 (baseline) + 3 additional = 9 total mentions of primary keyword across the post. Hard target.",
+      "first_100_words_plan": {
+        "rule": "Primary keyword MUST appear TWICE in the first 100 words. Mandatory. No exceptions.",
+        "mention_1": "Sentence 2-3 of introduction — introduce the keyword in the context of describing what standard nail strengtheners fail to do for nurses",
+        "mention_2": "Sentence 5-6 of introduction — restate it when framing the post's purpose ('this post covers which nail strengthener for nurses actually holds up')"
+      },
+      "first_half_target": "6 mentions — first 1100 words. Run denser in H2-1 through H2-4.",
+      "second_half_target": "3 mentions — second 1100 words. Natural winding down in H2-5 through conclusion.",
+      "strong_tag_rule": "EVERY single mention of 'nail strengthener for nurses' — all 9 of them — wrapped in <strong> tags. No exceptions. Catch each one as it is written. Scan after every paragraph.",
+      "keywords_to_avoid_active": [
+        "work nails (reserved for hub)",
+        "gel nail polish for work (reserved for existing spoke)",
+        "nail shapes for work (reserved for existing spoke)",
+        "nail care guide (reserved for existing post — use 'complete nail care guide' as anchor only, not as a focus term)"
+      ]
+    },
+
+    "block_2_word_budget": {
+      "total_target": "2200 words — +/-50 words tolerance, never exceed 2250",
+      "introduction": "230 words",
+      "conclusion": "170 words",
+      "h2_budgets": [
+        { "heading": "Why Do Nursing Nails Break Differently to Everyone Else's?", "budget": "280 words", "complexity": "high" },
+        { "heading": "Nail Hardener vs Nail Strengthener: Which One Do Nurses Actually Need?", "budget": "230 words", "complexity": "medium" },
+        { "heading": "The Best Nail Strengtheners for Nurses in 2026", "budget": "320 words", "complexity": "high" },
+        { "heading": "Does OPI Nail Envy Count as Nail Polish Under Infection Control Policy?", "budget": "220 words", "complexity": "medium" },
+        { "heading": "Is BIAB a Good Option for Nurses Who Cannot Wear Polish?", "budget": "250 words", "complexity": "medium" },
+        { "heading": "The Best Cuticle Oil for Nurses — and Why It Matters More Than the Strengthener", "budget": "230 words", "complexity": "medium" },
+        { "heading": "A Nail Care Routine That Works Around 12-Hour Shifts", "budget": "250 words", "complexity": "medium" },
+        { "heading": "What to Expect: How Long Before Nurse Nails Actually Recover?", "budget": "220 words", "complexity": "low" }
+      ],
+      "tracking_rule": "Track running word total at the end of every H2 section. If a section is running over budget — cut before moving to the next section. Do not compensate later."
+    },
+
+    "block_3_image_plan": {
+      "total_images": 9,
+      "hero_image": "frontmatter only — NEVER appears in post body",
+      "body_images": 8,
+      "assignments": [
+        { "image_number": 1, "place_after": "Introduction", "section_context": "Close-up of well-maintained short nurse nails — clean, natural, neatly filed, no polish or clear treatment" },
+        { "image_number": 2, "place_after": "Why Do Nursing Nails Break Differently to Everyone Else's?", "section_context": "Short natural nails with visible peeling or splitting at the free edge — honest representation of the problem" },
+        { "image_number": 3, "place_after": "Nail Hardener vs Nail Strengthener: Which One Do Nurses Actually Need?", "section_context": "OPI Nail Envy bottle or similar treatment product on a clean surface" },
+        { "image_number": 4, "place_after": "The Best Nail Strengtheners for Nurses in 2026", "section_context": "Flat lay of 2-3 nurse-recommended strengthener products — OPI, Essie, Zoya" },
+        { "image_number": 5, "place_after": "Does OPI Nail Envy Count as Nail Polish Under Infection Control Policy?", "section_context": "Short, neat nails with clear/nude treatment — professional healthcare setting context" },
+        { "image_number": 6, "place_after": "Is BIAB a Good Option for Nurses Who Cannot Wear Polish?", "section_context": "Natural short nails with a BIAB overlay — nude, glossy, short" },
+        { "image_number": 7, "place_after": "The Best Cuticle Oil for Nurses — and Why It Matters More Than the Strengthener", "section_context": "Cuticle oil pen or dropper bottle with healthy cuticles being nourished" },
+        { "image_number": 8, "place_after": "A Nail Care Routine That Works Around 12-Hour Shifts", "section_context": "Simple nail care product line-up — cuticle oil, strengthener, hand cream — on a bedside table or home context" }
+      ],
+      "image_type_rule": "ALL body images = real-looking nail and product images relevant to nursing nail care. NO infographics. NO process diagrams. NO comparison charts."
+    },
+
+    "block_4_opening_technique_assignments": {
+      "rule": "No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.",
+      "assignments": [
+        { "section": "Introduction", "technique": "Technique 1 — The Claim: open with a direct, slightly provocative statement that most nail strengtheners are the wrong product for nurse nails" },
+        { "section": "Why Do Nursing Nails Break Differently to Everyone Else's?", "technique": "Technique 3 — The Reframe: reframe the reader's assumption (her nails are weak) into the real problem (her nails are chemically and mechanically damaged in a specific way)" },
+        { "section": "Nail Hardener vs Nail Strengthener: Which One Do Nurses Actually Need?", "technique": "Technique 2 — The Specific Detail: open with the concrete distinction between hardener and strengthener to immediately signal that this is not generic advice" },
+        { "section": "The Best Nail Strengtheners for Nurses in 2026", "technique": "Technique 4 — The Community Voice: open with a short reference to what nurses in forums and communities actually reach for, before listing products" },
+        { "section": "Does OPI Nail Envy Count as Nail Polish Under Infection Control Policy?", "technique": "Technique 1 — The Claim: open with a direct answer — yes or no — before explaining the nuance" },
+        { "section": "Is BIAB a Good Option for Nurses Who Cannot Wear Polish?", "technique": "Technique 3 — The Reframe: reframe BIAB from a beauty treatment into a structural overlay that is not classified as nail polish in most facility policies" },
+        { "section": "The Best Cuticle Oil for Nurses — and Why It Matters More Than the Strengthener", "technique": "Technique 2 — The Specific Detail: open with the specific mechanism — the cuticle as the nail's moisture seal — to explain why cuticle oil is not optional" },
+        { "section": "A Nail Care Routine That Works Around 12-Hour Shifts", "technique": "Technique 4 — The Community Voice: open with how nurses in practice actually fit nail care into their schedule (post-shift, not pre-shift)" },
+        { "section": "What to Expect: How Long Before Nurse Nails Actually Recover?", "technique": "Technique 1 — The Claim: open with the honest recovery timeline before the reader has a chance to expect instant results" },
+        { "section": "Conclusion", "technique": "Technique 3 — The Reframe: close by reframing nail care from vanity to occupational maintenance — healthy nails are part of clinical hygiene, not separate from it" }
+      ],
+      "banned_opener_rule": "Check every opener against banned_opening_approaches in blog gen prompt before writing the second sentence"
+    },
+
+    "block_5_link_placements": {
+      "rule": "Every link placed exactly where specified. Anchor texts used verbatim — never rewritten. Links woven into prose naturally — never standalone CTAs.",
+      "links": [
+        {
+          "anchor_text": "work nails",
+          "full_url": "https://mirelleinspo.com/work-nails",
+          "place_in_section": "Introduction",
+          "placement_context": "When briefly contextualising who the post is written for — nurses and healthcare workers navigating the broader challenge of work nails",
+          "link_type": "hub"
+        },
+        {
+          "anchor_text": "nails for nurses",
+          "full_url": "https://mirelleinspo.com/work-nails/nails-for-nurses",
+          "place_in_section": "Does OPI Nail Envy Count as Nail Polish Under Infection Control Policy?",
+          "placement_context": "When referencing what nurses can and cannot wear on shift — natural bridge to the dedicated style guide post",
+          "link_type": "new spoke"
+        },
+        {
+          "anchor_text": "gel nail polish for work",
+          "full_url": "https://mirelleinspo.com/work-nails/gel-nail-polish-for-work",
+          "place_in_section": "Is BIAB a Good Option for Nurses Who Cannot Wear Polish?",
+          "placement_context": "When comparing BIAB to gel polish systems for working hands — natural reference for readers who want to explore gel options",
+          "link_type": "existing spoke"
+        },
+        {
+          "anchor_text": "complete nail care guide",
+          "full_url": "https://mirelleinspo.com/topics/nail-care-guide",
+          "place_in_section": "What to Expect: How Long Before Nurse Nails Actually Recover?",
+          "placement_context": "When directing readers who want to go deeper on long-term nail health beyond the shift-work context",
+          "link_type": "existing spoke"
+        }
+      ]
+    },
+
+    "block_6_aeo_geo_plan": {
+      "aeo_assignments": [
+        {
+          "aeo_term": "What is the best nail strengthener for nurses?",
+          "assigned_to_section": "The Best Nail Strengtheners for Nurses in 2026",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading — before any product detail. State the top recommendation (OPI Nail Envy / OPI Repair Mode) and the key reason (designed for chemical and mechanical nail damage)."
+        },
+        {
+          "aeo_term": "What is the difference between a nail hardener and a nail strengthener for nurses?",
+          "assigned_to_section": "Nail Hardener vs Nail Strengthener: Which One Do Nurses Actually Need?",
+          "execution": "Write a clear 2-sentence definition paragraph immediately after the H2 — nail hardener makes nails rigid (wrong for damaged, soft nursing nails), nail strengthener rebuilds and conditions the nail plate (correct for nursing damage)."
+        },
+        {
+          "aeo_term": "Can nurses wear clear nail strengthener on shift?",
+          "assigned_to_section": "Does OPI Nail Envy Count as Nail Polish Under Infection Control Policy?",
+          "execution": "Write a direct answer in the first 2-3 sentences: most infection control policies prohibit nail polish on the basis of chipping risk — a clear strengthener used as a sole product is in a grey area, and policy varies by facility."
+        },
+        {
+          "aeo_term": "Is BIAB allowed for nurses in clinical settings?",
+          "assigned_to_section": "Is BIAB a Good Option for Nurses Who Cannot Wear Polish?",
+          "execution": "Open with a clear 2-sentence answer: BIAB is not classified as nail polish in most facility policies because it is an overlay, not a colour product — but always check your specific trust or facility guidelines."
+        },
+        {
+          "aeo_term": "Why do nurses' nails peel and split?",
+          "assigned_to_section": "Why Do Nursing Nails Break Differently to Everyone Else's?",
+          "execution": "Write a 2-3 sentence explanation paragraph at the top of the section: the wet-dry cycle from repeated hand washing and alcohol sanitiser exposure causes the nail plate layers to swell, contract, and separate over time — a mechanism distinct from simple dehydration."
+        }
+      ],
+      "geo_entity_statements": [
+        {
+          "entity": "OPI Repair Mode Bond-Building Nail Serum",
+          "assigned_to_section": "The Best Nail Strengtheners for Nurses in 2026",
+          "execution": "Write one clear declarative sentence defining what Repair Mode is: OPI Repair Mode is a bond-building nail serum that penetrates the nail surface using Ulti-Plex Technology to repair keratin structure from within, specifically designed to protect against damage from hand washing and cleaning products."
+        },
+        {
+          "entity": "BIAB (Builder In A Bottle)",
+          "assigned_to_section": "Is BIAB a Good Option for Nurses Who Cannot Wear Polish?",
+          "execution": "Define BIAB in one sentence: BIAB (Builder In A Bottle) is a soak-off builder gel applied as a thin, strengthening overlay over natural nails that adds structure and flexibility without adding length."
+        },
+        {
+          "entity": "Wet-dry nail cycle",
+          "assigned_to_section": "Why Do Nursing Nails Break Differently to Everyone Else's?",
+          "execution": "Define the mechanism in one declarative sentence: the wet-dry cycle occurs when nails repeatedly absorb water (swelling the nail plate) and then dry rapidly through alcohol sanitiser exposure (contracting it), causing the keratin layers to separate over time."
+        }
+      ]
+    },
+
+    "block_7_active_constraints": {
+      "em_dash_banned": "Long em dash does not appear anywhere. If one forms while writing — stop, replace with: comma / new sentence / parentheses / but / restructure.",
+      "banned_vocab_watch": [
+        "journey (banned)",
+        "game-changer (banned)",
+        "elevate / elevated (banned)",
+        "dive in / dive into (banned)",
+        "seamlessly (banned)",
+        "comprehensive (banned)",
+        "amazing (banned)"
+      ],
+      "british_english_active": "colour, recognise, -ise, -our — every instance, no exceptions",
+      "keyword_density_reminder": "After every 2 H2 sections — count current keyword mentions of 'nail strengthener for nurses'. Verify running total is on track to hit 9 mentions. First half (intro through H2-4) must have 6 mentions. Adjust if needed.",
+      "image_path_reminder": "/images/work-nails/nail-strengthener-for-nurses/filename.webp — NO topic_slug in path for this cluster. Pattern is /images/work-nails/[slug]/",
+      "internal_link_url_reminder": "Full correct paths only. Hub = https://mirelleinspo.com/work-nails. Spoke links = https://mirelleinspo.com/work-nails/[slug]. Cross-site link = https://mirelleinspo.com/topics/nail-care-guide. Never bare /slug.",
+      "hero_image_reminder": "Hero = frontmatter only. Never place hero image in body.",
+      "strong_tag_reminder": "Every mention of 'nail strengthener for nurses' = <strong> tags. All 9 of them. Scan after every paragraph.",
+      "canonical_reminder": "Canonical = https://mirelleinspo.com/work-nails/nail-strengthener-for-nurses — no topic_slug in URL per cluster route override"
+    }
+  }
+}
