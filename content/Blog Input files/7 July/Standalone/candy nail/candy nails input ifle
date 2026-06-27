@@ -1,0 +1,557 @@
+# CANDY NAILS — INPUT FILE FOR BLOG GEN AGENT
+## THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.
+
+---
+
+## SECTION 1 — FILE AUTHORITY
+
+THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. Every keyword, H2 structure, audience insight, internal link, word count, image count, intent signal, and tone recommendation defined here must be followed exactly. Nothing overridden or reinterpreted unless the user explicitly instructs Blog Gen Agent during that session.
+
+---
+
+## SECTION 2 — POST CONSTANTS
+
+Blog Gen Agent reads this section FIRST and locks all values before doing anything else. These are not recommendations — they are hard instructions.
+
+```
+slug: candy-nails
+topic_slug: candy-nails
+canonical: https://mirelleinspo.com/blog/candy-nails
+post_type: standalone
+intent: inspirational
+word_count: 2400
+image_count: 9
+template: center
+hero_dimensions: 1200x630
+category: Nail Art Guide
+publish_date: [to be set by editorial team]
+author: Mirellé Team
+```
+
+Word count rationale: Top 3 ranking posts for "candy nails" — Nailz in Bloom (~2000w estimated), Sparkling Boy Ideas (~1800w), NailPeek (~1500–1800w). Average floor ~1800w. Set at 2400w to exceed floor and exploit competitor shallowness. Within 2800w ceiling.
+
+Image count rationale: Rule 5 applies (standalone, not X+ ideas slug, not pillar, not tutorial, not comparison). Image count = 9 including hero.
+
+---
+
+## SECTION 3 — CLUSTER SNAPSHOT
+
+SOLO MODE — omit entirely. This post has no cluster context.
+
+**Keywords to avoid (hard wall):**
+- jelly nails
+- pink jelly nails
+- neon jelly nails
+- jelly french tip nails
+- gummy nails
+
+---
+
+## SECTION 4 — SERP ANALYSIS
+
+Blog Gen Agent instruction: Use competitor gaps and missing semantic territory to fill what competitors miss. Our strategic approach is the angle for the introduction and conclusion.
+
+**Top 3 competitors identified:**
+1. Nailz in Bloom "Candy Nails" — ~2000w. Covers styles, shapes, longevity, DIY vs salon. Informational, practical. No editorial voice, no skin tone coverage, no dark candy direction, no 3D gummy direction, no aesthetic identity framing.
+2. Sparkling Boy Ideas "21 Cutest Candy Nails" — ~1800w. Image-heavy roundup, candy cane/candy corn/lollipop art focus. Conflates candy nail art motifs with the candy finish aesthetic. Does not define what makes a nail look "candy" vs just bright.
+3. NailPeek 2026 roundup — surface mention: "glossy, transparent nails that look like candy" with cherry red, pink jelly, orange tint. No dedicated post.
+
+**Competitor gaps (demand-validated on 2+ sources):**
+
+1. What actually separates a candy nail from a bright nail — no competitor explains the finish logic. Gap confirmed: YouTube "how to get candy glossy nails" + Pinterest saves on "candy nail finish" — 2+ sources.
+
+2. Dark candy palette (grape, deep cherry, blackcurrant) — competitors cover only bright/pastel. Confirmed: New Beauty sour ball shades feature + Pinterest "candy red nails" and "candy apple red" active saves — 2+ sources.
+
+3. Skin tone guidance for candy colours — no competitor covers this. Confirmed: YouTube cotton candy nail tutorials audience asking skin tone questions + Pinterest saves with skin tone queries — 2+ sources.
+
+4. What to say to your nail tech — competitors skip salon communication. Confirmed: YouTube "how to ask for candy nails" + general nail salon communication search demand — 2+ sources.
+
+5. Gimme Gummy / 3D candy direction — Pinterest Predicts 2026 named it, 100% search growth for jelly candy aesthetic. No competitor has this coverage. Confirmed: Pinterest Predicts official data + NailTok TikTok search — 2+ sources.
+
+**Missing semantic territory:**
+- Candy nail finish vs candy nail art (most posts conflate them)
+- Syrup gel / builder gel for the candy look (not the design motifs)
+- Year-round vs seasonal candy palette
+- The edible quality language ("looks like it was dipped in something")
+
+**Our strategic approach:** Write the post that defines what candy nails actually are — the finish and depth logic, not the candy motifs. Editorial guide with a clear point of view. Cover the full spectrum from minimalist glossy through 3D gummy with skin tone guidance no competitor touches. Every section gives the reader a specific design to picture and take to their salon.
+
+**Recommended image count validation:** Competitors run 0–12 images on text posts. 9 images confirmed appropriate for this word count and post type.
+
+---
+
+## SECTION 5 — AUDIENCE INTELLIGENCE
+
+Blog Gen Agent instruction: This is your primary creative brief. Write every paragraph for this specific person with this specific intent. Satisfy them completely.
+
+**Who they are:** Nail enthusiast aged 18–35. Has seen candy nail aesthetic on Pinterest or TikTok — the glossy, edible-looking finish — and wants to understand it properly before their next appointment. Not searching for candy cane motifs or lollipop art. Has seen a set that looked "like it was dipped in something" and wants that. Medium nail engagement — books salon appointments every 3–6 weeks, saves inspo images, knows their shape preference. Global Tier 1 (US, UK, Canada, Australia).
+
+**What they want from this post:**
+- To understand what makes a nail look "candy" — the finish logic, not the novelty art
+- To see the full range: minimalist candy, jelly candy, dark candy, 3D candy
+- To know which version is theirs (sweet vs edgy, short vs long, subtle vs bold)
+- To leave with something to screenshot for their appointment
+- To know what to say to their nail tech
+
+**What frustrates them:**
+- Posts that treat candy nails as candy-themed art (candy canes, lollipops, M&Ms)
+- No explanation of what creates the finish — why some nails look edible and others don't
+- No skin tone guidance for saturated candy colours
+- No curatorial point of view — just a gallery dump with no direction
+- Left as uncertain about which version to book as when they arrived
+
+**Top 5 pain points:**
+1. Cannot explain to their nail tech what they want — no language for the finish
+2. Do not know the difference between candy nails and jelly nails
+3. Cannot identify which candy colour works on their skin tone
+4. Do not know if candy nails are current for 2026
+5. Unsure whether they want the sweet version or the dark candy direction
+
+**Exact user phrases (from real community language):**
+- "how do I get that glossy candy finish"
+- "what makes nails look like candy"
+- "candy nails vs jelly nails what's the difference"
+- "candy nail colours for dark skin"
+- "can candy nails look sophisticated"
+- "is the candy nail look still trending"
+- "what to ask for at the salon for candy nails"
+- "candy nails short vs long"
+- "bubblegum nails vs candy nails"
+- "edible looking nails how"
+
+**Intent content signals:**
+- Needs definitions early — "what makes a nail look candy" must come in first H2
+- Visually descriptive language throughout — name each design and give it a personality
+- Should feel curated, not exhaustive
+- Skin tone section is genuinely needed and will earn saves
+- Practical close validates every section before it
+- Every H2 should end with a specific design the reader can visualise
+
+---
+
+## SECTION 6 — SEMANTIC KEYWORD DATA
+
+Blog Gen Agent instruction: Primary keyword in strong tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.
+
+**primary_keyword:** candy nails
+
+**total_mention_target:** 18 mentions (top 3 baseline ~15 + 3 additions). Hard target. Not a percentage.
+
+**first_100_words_rule:** Primary keyword MUST appear twice in the first 100 words. Mandatory.
+
+**keyword_variations (all cannibalization-cleared):**
+- candy nail designs
+- candy nail art
+- candy coloured nails
+- candy finish nails
+- candy glossy nails
+- candy nail aesthetic
+- candy colour nails
+- glossy candy manicure
+- candy nail look
+- candy coated nails
+
+**cluster_keywords (all cleared):**
+- high gloss nails
+- glossy nail finish
+- saturated nail colour
+- translucent candy nails
+- jelly candy nails (contextual reference only — links to jelly nails post)
+- bubblegum pink nails
+- cherry red nails
+- grape purple nails
+- sour candy nails
+- syrup gel nails
+- lacquered nail finish
+- edible nails aesthetic
+- glass nail finish
+- deep gloss nails
+- candy colour palette nails
+
+**lsi_terms (all cleared):**
+- ultra-high-gloss top coat
+- saturated bright gel colour
+- depth in nail colour
+- tinted buildable gel
+- colour lives inside the nail
+- multi-coat glossy finish
+- boiled sweet nail look
+- candy-coated effect
+- lacquered surface nail
+- colour depth vs colour brightness
+- candy palette cherry bubblegum grape lemon lime
+- sour ball candy shades 2026
+- Gimme Gummy Pinterest 2026
+- rubberised nail art texture
+- 3D candy nail elements
+- nail colour for warm skin tone
+- nail colour for deep skin tone
+- squoval nail shape candy
+- almond nail shape candy
+- coffin nail candy
+
+**aeo_terms:**
+1. What are candy nails?
+2. What is the difference between candy nails and jelly nails?
+3. What makes a nail look like candy?
+4. Are candy nails still trending in 2026?
+5. What colours are used for candy nails?
+6. What nail shape is best for candy nails?
+7. How do I ask for candy nails at the salon?
+8. What finish do you need for candy nails?
+9. Can you do candy nails on short nails?
+10. What is the dark candy nail aesthetic?
+11. Are candy nails the same as dopamine nails?
+12. What is the 3D candy nail trend for 2026?
+
+**technical_terms:**
+- syrup gel / builder gel
+- jelly gel formula
+- ultra-high-gloss top coat
+- tinted buildable gel
+- rubberised 3D nail art
+- gel cure / UV lamp
+- squoval shape
+
+**user_language:**
+- "looks like it was dipped in something"
+- "those nails that look like you could eat them"
+- "the juicy glossy nail thing"
+- "like a hard boiled sweet on your finger"
+- "candy girl aesthetic"
+- "summer nails that pop"
+- "the sweet edgy nail look"
+- "lollipop nails but make it classy"
+- "candy but not childish"
+- "that finish that looks wet"
+
+---
+
+## SECTION 7 — VOICE AND AI QUERIES
+
+Blog Gen Agent instruction: Answer every query directly in the relevant H2 section body. No query left unanswered.
+
+**queries:**
+1. What are candy nails exactly?
+2. What makes a nail look like candy — is it the colour or the finish?
+3. Are candy nails the same as jelly nails?
+4. What is the best finish for candy nails?
+5. Are candy nails trending in 2026?
+6. What is the dark candy nail look?
+7. Can you get candy nails if you have short nails?
+8. What candy nail colour works on dark skin tones?
+9. What candy nail colour works on fair skin tones?
+10. What is the gummy nail trend and is it the same as candy nails?
+11. What nail shapes work best for candy nails?
+12. What is a syrup gel and do I need it for candy nails?
+13. What is the difference between candy nails and dopamine nails?
+14. How many coats does it take to get the candy nail effect?
+15. How long do candy nails last?
+16. What do I tell my nail tech to get candy nails?
+17. Are candy nails appropriate for work?
+18. What top coat do I need for the candy nail finish?
+
+---
+
+## SECTION 8 — HOOK AND CTR
+
+Blog Gen Agent instruction: READ THIS SECTION BEFORE WRITING THE TITLE, META DESCRIPTION, INTRO, OR FIRST H2. Title and description are hardcoded — use them exactly. Do not deviate.
+
+**selected_trigger:** Trigger 3 — Specificity and Numbers
+
+**trigger_rationale:** The reader is browsing for inspiration and a clear curated promise — knowing they will see every design worth having in 2026 triggers them to click and stay. The post's strength is its range and definition, making specificity the right trigger over FOMO.
+
+**title:** Candy Nails: Every Glossy, Juicy Design Worth Booking in 2026
+**title_char_count:** 57
+
+**meta_description:** Most posts confuse candy nails with candy-themed art. This is the finish edit — glossy, edible, dimensional — plus every design worth booking in 2026.
+**meta_char_count:** 155
+
+**intro_hook_brief:** Open by identifying the specific disconnect — the reader has seen this nail and been unable to name it or describe it to their tech. Something glossy. Almost wet-looking. Like it was dipped in something. The intro's job is to name that feeling before defining it. Do not open with a definition. Open with the recognition moment.
+
+**first_h2_hook_direction:** The first H2 should answer the question the reader arrived with before they had words for it: what actually makes a nail look like candy. Phrase it as a voice search query — "What Actually Makes a Nail Look Like Candy?" — and follow immediately with a direct 2–3 sentence answer before elaboration.
+
+---
+
+## SECTION 9 — SEARCH JOURNEY
+
+Blog Gen Agent instruction: This is the emotional contract with the reader. Every section must honour the promise made. Read this before writing any section. If a paragraph breaks the journey arc — rewrite it.
+
+**reader_arrival_state:** Browsing, visually curious — they have seen the aesthetic on Pinterest or TikTok, cannot fully describe it, and want a curated guide that gives them the language and the range to make a decision about their next appointment.
+
+**journey_arc:**
+1. Recognition — intro names the feeling they have been unable to articulate (glossy, edible, dimensional)
+2. Definition — first H2 gives them the language (finish + depth, not motifs), separates candy from similar looks
+3. Range — middle sections show every version: minimalist, jelly, dark, 3D, colour families, skin tone
+4. Selection — shape and skin tone sections help them identify which version is theirs
+5. Action — final section gives them exactly what to say to their nail tech
+
+**promise_to_deliver:** A reader who could not describe candy nails before landing leaves knowing exactly what they are, which version they want, and what to say at the salon.
+
+**exit_state:** The reader feels seen, informed, and aesthetically confident — not overwhelmed. They have one specific image to take to their appointment.
+
+---
+
+## SECTION 10 — CONTENT STRUCTURE
+
+Blog Gen Agent instruction: This H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s without user instruction. Word budget per section is set — follow it. H3s may be added at editorial discretion.
+
+**h1:** Candy Nails: Every Glossy, Juicy Design Worth Booking in 2026
+
+**h2_structure:**
+1. What Actually Makes a Nail Look Like Candy?
+2. Candy Nails vs Jelly Nails: The Finish Difference Explained
+3. The Five Candy Nail Design Directions (And Which One Is Yours)
+4. The Candy Nail Colour Families Worth Knowing
+5. The Dark Candy Edit: Grape, Deep Cherry, and Blackcurrant
+6. Candy Nails and Skin Tone: Which Shades Actually Flatter
+7. Which Nail Shape Carries Candy Nails Best?
+8. The Gimme Gummy Direction: 3D Candy Nails in 2026
+9. What to Tell Your Nail Tech (and What to Ask For by Name)
+
+**word_budget:**
+- Introduction: 220 words
+- H2-1 (What Actually Makes a Nail Look Like Candy?): 280 words
+- H2-2 (Candy Nails vs Jelly Nails): 220 words
+- H2-3 (Five Candy Nail Design Directions): 300 words
+- H2-4 (The Candy Nail Colour Families): 240 words
+- H2-5 (The Dark Candy Edit): 200 words
+- H2-6 (Candy Nails and Skin Tone): 260 words
+- H2-7 (Which Nail Shape): 180 words
+- H2-8 (The Gimme Gummy Direction): 200 words
+- H2-9 (What to Tell Your Nail Tech): 200 words
+- Conclusion: 100 words
+- Total: 2400 words
+
+---
+
+## SECTION 11 — INTERNAL LINKS
+
+Blog Gen Agent instruction: Every link below must appear in the post. Anchor texts used verbatim. Place where placement note says. Total internal links must not exceed 6.
+
+1.
+- url_or_slug: /blog/jelly-nails/jelly-nails
+- title: Jelly Nails: The Complete Guide to the Glossy Candy Manicure
+- anchor_text: jelly nails
+- placement_note: H2-2 — after explaining what jelly nails are, redirect readers who want the translucent finish
+- link_type: cross-site
+
+2.
+- url_or_slug: /blog/jelly-nails/jelly-french-tip-nails
+- title: Jelly French Tip Nails
+- anchor_text: jelly french tip nails
+- placement_note: H2-3 — when introducing the candy french tip direction with translucent jelly base
+- link_type: cross-site
+
+3.
+- url_or_slug: /blog/neon-summer-nails
+- title: Neon Jelly Nails
+- anchor_text: neon jelly nails
+- placement_note: H2-4 — when covering neon/saturated candy palette
+- link_type: cross-site
+
+4.
+- url_or_slug: /blog/gummy-nails
+- title: Gummy Nails
+- anchor_text: gummy nails
+- placement_note: H2-8 — link to companion standalone post for readers who want the sculpted 3D gummy format
+- link_type: cross-site
+
+5.
+- url_or_slug: /blog/summer-nail-trends-2026
+- title: Summer Nail Trends 2026
+- anchor_text: summer nail trends 2026
+- placement_note: H2-4 or H2-8 — anchoring candy nails within the broader 2026 summer nail moment
+- link_type: cross-site
+
+Note: Dopamine nails link omitted — slug not confirmed on site. 5 links total. Within 4–6 cap.
+
+---
+
+## SECTION 12 — VOICE AND TONE
+
+Blog Gen Agent instruction: This is the voice for this specific post. Layer on top of Mirellé editorial framework. Do not default to generic AI tone.
+
+**recommended_voice:** Editorial curator with aesthetic authority — warm but decisive, knowledgeable without being instructional.
+
+**tone_characteristics:**
+- Visually descriptive — every design gets a name and a personality, not just a label
+- Direct and confident — no hedging on which designs are worth having
+- Aspirational without being exclusive — the reader feels included, not behind
+- Specific over generic — "a cherry red that looks like it was lacquered onto the nail" not "a bright red"
+- British English throughout (colour, recognise, -ise, -our)
+
+**language_style:** Medium-length sentences, no listicle rhythm. Prose flows with editorial cadence. Use "you" naturally. Analogies welcome (boiled sweet, dipped in syrup, lacquered object) — they are the editorial differentiator of this post.
+
+**audience_match:** This reader has aesthetic taste and wants to be curated to, not lectured at. She saves posts that give her language she did not have before. This voice does that.
+
+---
+
+## SECTION 13 — EXTERNAL LINKS
+
+Blog Gen Agent instruction: Include all external links where indicated. Supports E-E-A-T.
+
+1.
+- url: https://www.newbeauty.com/view/spring-nail-trends-2026
+- context: When referencing sour ball candy shades as a 2026 trend — Elle Gerstein quote validation
+- anchor_suggestion: celebrity nail artist Elle Gerstein
+
+2.
+- url: https://business.pinterest.com/pinterest-predicts/2026/gimme-gummy/
+- context: H2-8 — citing Pinterest Predicts 2026 as source for the gummy/candy trend
+- anchor_suggestion: Pinterest Predicts 2026
+
+3.
+- url: https://www.marieclaire.com/beauty/nails/summer-2026-nail-trends/
+- context: When referencing "edible, sun-warmed, and fresh" colour direction for summer 2026
+- anchor_suggestion: Marie Claire summer 2026 nail trends
+
+---
+
+## SECTION 14 — EXECUTION PLAN
+
+Blog Gen Agent reads this section FIRST — before frontmatter, before writing a single word. Lock every value. Execute exactly.
+
+---
+
+### BLOCK 1 — KEYWORD EXECUTION
+
+- primary_keyword: candy nails
+- top_3_density_baseline: ~15 mentions (estimated average across Nailz in Bloom, Sparkling Boy Ideas, NailPeek)
+- total_mention_target: 18 mentions — hard target. Not a percentage. Every mention in strong tags.
+- first_100_words_plan:
+  - Mention 1: sentence 2–3 of introduction — recognition moment sentence
+  - Mention 2: sentence 5–7 of introduction — definition anchor
+- first_half_target: 11 mentions — first 1200 words run denser
+- second_half_target: 7 mentions — second 1200 words
+- strong_tag_rule: EVERY single mention of candy nails — all 18 — wrapped in strong tags. No exceptions. Scan after every paragraph.
+- keywords_to_avoid_active: jelly nails (as focus term), pink jelly nails, neon jelly nails, jelly french tip nails, gummy nails — appear only as contextual references linking to their own posts, never as primary focus
+
+---
+
+### BLOCK 2 — WORD BUDGET
+
+- total_target: 2400 words +/-50. Never exceed 2450.
+- introduction: 220 words
+- conclusion: 100 words
+- h2_budgets:
+
+H2-1 (What Actually Makes a Nail Look Like Candy?): 280 words | High complexity
+H2-2 (Candy Nails vs Jelly Nails): 220 words | Medium complexity
+H2-3 (Five Candy Nail Design Directions): 300 words | High complexity
+H2-4 (The Candy Nail Colour Families): 240 words | Medium complexity
+H2-5 (The Dark Candy Edit): 200 words | Medium complexity
+H2-6 (Candy Nails and Skin Tone): 260 words | High complexity
+H2-7 (Which Nail Shape): 180 words | Low complexity
+H2-8 (The Gimme Gummy Direction): 200 words | Medium complexity
+H2-9 (What to Tell Your Nail Tech): 200 words | Medium complexity
+
+- tracking_rule: Track running word total at the end of every H2 section. If over budget — cut before moving on. Do not compensate later.
+
+---
+
+### BLOCK 3 — IMAGE PLAN
+
+- total_images: 9 including hero
+- hero_image: Frontmatter only — NEVER place in post body
+- body_images: 8 images in body
+
+Image 1 | Place after H2-1 | Minimalist high-gloss candy nail — single saturated colour, maximum shine
+Image 2 | Place after H2-2 | Single image illustrating the jelly vs opaque candy finish depth
+Image 3 | Place after H2-3 | Strongest design direction example — layered or ombre candy
+Image 4 | Place after H2-4 | Candy colour family spread — bubblegum pink, cherry red, lemon, grape
+Image 5 | Place after H2-5 | Dark candy palette — deep cherry or blackcurrant, high gloss
+Image 6 | Place after H2-6 | Candy nails on diverse skin tones — warm coral/cherry on deep skin
+Image 7 | Place after H2-7 | Shape comparison — squoval vs almond with candy finish
+Image 8 | Place after H2-8 | 3D gummy / rubberised candy nail art — Gimme Gummy direction
+
+- image_type_rule: ALL body images = inspirational nail design images. NO infographics. NO process diagrams. NO step-by-step visuals.
+- path_rule: /images/blog/candy-nails/candy-nails/filename.webp — topic_slug in path, slug subfolder, leading slash
+
+---
+
+### BLOCK 4 — OPENING TECHNIQUE ASSIGNMENTS
+
+Rule: No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.
+
+Introduction | Technique 2 — The Scene
+H2-1 (What Makes a Nail Look Like Candy?) | Technique 4 — The Direct Answer
+H2-2 (Candy vs Jelly) | Technique 1 — The Claim
+H2-3 (Five Design Directions) | Technique 3 — The Reframe
+H2-4 (Colour Families) | Technique 2 — The Scene
+H2-5 (Dark Candy Edit) | Technique 1 — The Claim
+H2-6 (Skin Tone) | Technique 4 — The Direct Answer
+H2-7 (Nail Shape) | Technique 3 — The Reframe
+H2-8 (Gimme Gummy) | Technique 2 — The Scene
+H2-9 (What to Tell Your Nail Tech) | Technique 1 — The Claim
+Conclusion | Technique 1 — The Claim
+
+- banned_opener_rule: Check every opener against banned_opening_approaches in blog gen prompt before writing the second sentence.
+
+---
+
+### BLOCK 5 — LINK PLACEMENTS
+
+anchor_text: jelly nails
+full_url: /blog/jelly-nails/jelly-nails
+place_in_section: H2-2
+placement_context: After explaining what jelly nails are — "for the full jelly nail universe, [anchor] covers every formula and technique"
+link_type: cross-site
+
+anchor_text: jelly french tip nails
+full_url: /blog/jelly-nails/jelly-french-tip-nails
+place_in_section: H2-3
+placement_context: When introducing the candy french tip direction — "a vivid jelly base with a white tip is the candy direction that crosses into quiet luxury — [anchor] covers it in full"
+link_type: cross-site
+
+anchor_text: neon jelly nails
+full_url: /blog/neon-summer-nails
+place_in_section: H2-4
+placement_context: When covering neon candy palette — "neon candy shades at maximum saturation cross into the territory of [anchor]"
+link_type: cross-site
+
+anchor_text: gummy nails
+full_url: /blog/gummy-nails
+place_in_section: H2-8
+placement_context: "If the 3D textured direction is calling you, [anchor] is the dedicated edit for the sculpted, raised gummy nail format"
+link_type: cross-site
+
+anchor_text: summer nail trends 2026
+full_url: /blog/summer-nail-trends-2026
+place_in_section: H2-8 or H2-4
+placement_context: "Candy nails sit at the centre of the broader [anchor] moment — the edible, saturated, glassy finish is one of the defining looks of the season"
+link_type: cross-site
+
+---
+
+### BLOCK 6 — AEO / GEO PLAN
+
+AEO assignments:
+
+What are candy nails? | H2-1 | Direct 2–3 sentence answer IMMEDIATELY after H2 heading — before elaboration
+What is the difference between candy nails and jelly nails? | H2-2 | Direct 2–3 sentence answer as paragraph opener
+Are candy nails still trending in 2026? | H2-8 | Direct statement citing Pinterest Predicts 2026 + 100% search growth
+What do I tell my nail tech to get candy nails? | H2-9 | Direct paragraph with specific language to use at salon
+What is the dark candy nail aesthetic? | H2-5 | Direct paragraph opener defining the dark candy direction
+What nail shape is best for candy nails? | H2-7 | Direct opening answer before breakdown
+
+GEO entity statements:
+
+Candy nail finish (definition) | H2-1 | "A candy nail is defined by finish and depth — ultra-high-gloss top coat over a saturated or translucent colour that makes the nail look dimensional, as though the colour lives inside the nail rather than on its surface."
+
+Syrup gel / builder gel | H2-8 | "Syrup gel — also called builder gel or jelly builder — is a tinted, buildable formula applied in layers to create depth and the dimensional, glass-like finish associated with candy and gummy nail aesthetics."
+
+Gimme Gummy trend | H2-8 | "Gimme Gummy is Pinterest's 2026 named macro trend defining the move toward textures that look soft, tactile, and edible — rubberised nail art and 3D candy elements are its nail expression."
+
+---
+
+### BLOCK 7 — ACTIVE CONSTRAINTS
+
+- em_dash_banned: Long em dash does not appear anywhere in post prose. Replace with: comma / new sentence / parentheses / but / restructure.
+- banned_vocab_watch (most likely to slip for this topic): stunning, amazing, perfect, elevate, effortlessly, game-changing, take your nails to the next level, obsessed, iconic
+- british_english_active: colour, recognise, -ise, -our, flavour — every instance, no exceptions
+- keyword_density_reminder: After every 2 H2 sections — count current candy nails mentions. Verify on track to hit 18. First 1200 words = 11 mentions. Second 1200 words = 7 mentions.
+- image_path_reminder: /images/blog/candy-nails/candy-nails/filename.webp — topic_slug in path always
+- internal_link_url_reminder: Full correct paths only. Cross-site links = /blog/[topic_slug]/[slug]. Never bare /slug.
+- hero_image_reminder: Hero = frontmatter only. Never place hero image in body.
+- strong_tag_reminder: Every candy nails mention = strong tags. Scan after every paragraph. Zero misses.
