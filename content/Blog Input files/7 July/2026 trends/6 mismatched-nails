@@ -1,0 +1,600 @@
+{
+  "FILE_AUTHORITY": {
+    "statement": "THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.",
+    "mode": "CLUSTER MODE — cluster context loaded. Post 6 of 9 in the Nail Trends 2026 cluster."
+  },
+
+  "POST_CONSTANTS": {
+    "slug": "mismatched-nails",
+    "topic_slug": "nail-trends-2026",
+    "canonical": "https://mirelleinspo.com/blog/nail-trends-2026/mismatched-nails",
+    "post_type": "spoke",
+    "intent": "tutorial",
+    "word_count": 2200,
+    "image_count": 5,
+    "template": "split-left",
+    "hero_dimensions": "800x800",
+    "category": "Nail Art",
+    "publish_date": "2026-06-28",
+    "author": "Mirellé Team",
+    "word_count_rationale": "Top 3 ranking posts for 'mismatched nails' (Glam, Refinery29, Fashionpoliceng) average approx 1,800-2,100 words. Floor set at 2,200 — meets floor, stays under spoke ceiling of 2,800.",
+    "image_count_rationale": "Tutorial intent = Rule 3: 5 images total including hero. No X+ slug, not pillar, not comparison. Tutorial rule applies."
+  },
+
+  "CLUSTER_SNAPSHOT": {
+    "pillar_slug": "nail-trends-2026",
+    "pillar_title": "Nail Trends 2026: Every Look Dominating This Year",
+    "pillar_primary_keyword": "nail trends 2026",
+    "this_post_slug": "mismatched-nails",
+    "this_post_role": "spoke",
+    "keywords_to_avoid": [
+      "nail trends 2026",
+      "dragonfly nails",
+      "glitchy glam nails",
+      "butterfly nail art",
+      "healthy nail aesthetic",
+      "polka dot nails",
+      "aura nails",
+      "3d nail art",
+      "spring nail trends 2026",
+      "summer nail trends 2026",
+      "chrome nail trends 2026",
+      "almond nail trends 2026",
+      "nail color trends 2026 skin tone",
+      "pride nail trends 2026",
+      "blooming gel nails",
+      "lace nails",
+      "vampire nails",
+      "butter yellow nails"
+    ]
+  },
+
+  "SERP_ANALYSIS": {
+    "blog_gen_instruction": "Use competitor gaps and missing semantic territory to fill what competitors miss. Our strategic approach is the angle for the introduction and conclusion.",
+    "top_3_competitors_estimated_word_counts": {
+      "glam_com_50_mismatched_designs": "~2,000 words",
+      "refinery29_mismatched_nail_colors": "~1,900 words",
+      "fashionpoliceng_21_skittle_nail_ideas": "~1,800 words",
+      "average": "~1,900 words",
+      "floor": 1900,
+      "set_word_count": 2200
+    },
+    "top_3_keyword_density_baseline": {
+      "estimated_average_primary_keyword_mentions": 9,
+      "total_mention_target": "9 + 3 = 12 mentions of 'mismatched nails' across the post"
+    },
+    "competitor_gaps": [
+      "No competitor explains WHY a mismatched manicure looks cohesive vs chaotic — the colour theory logic behind it is untouched",
+      "None explain the Skittle vs mismatched distinction clearly — readers conflate them and current content does not resolve this",
+      "No post covers the analogous colour method for beginners (pick shades from the same polish collection)",
+      "Nobody explains the 'unifying element' rule with concrete examples — celebrity nail artist Kinaya Haug's insight is quoted but never shown with practical steps",
+      "No competitor explains how to do mismatched nails on short nails specifically",
+      "The 2026 elevated version (delicate details + mismatched base vs maximalist chaos) is not covered — competitors show old-school rainbow skittles without referencing the spring 2026 evolution toward minimalist mismatched designs"
+    ],
+    "missing_semantic_territory": [
+      "Cohesion framework — the internal logic that makes mismatched look intentional",
+      "Tonal temperature rule (all warm OR all cool — not mixed)",
+      "The 2026 version: mismatched + delicate detail (aura accent, micro chrome tip, faux piercing) — not rainbow chaos",
+      "Finish unification as an alternative to colour family unification",
+      "Neutral mismatched mani — the understated variant",
+      "Press-on execution for mismatched sets",
+      "Skittle French tip — the 2026 refresh of the classic skittle"
+    ],
+    "our_strategic_approach": "Competitors show the 'what' of mismatched nails but skip the 'why it works'. This post is the cohesion framework post — it teaches the actual rules that make a mismatched set look curated rather than accidental. It is also the only post that directly addresses the 2026 evolution of the trend: minimalist mismatched with one elevated detail, not the maximalist rainbow skittle of 2021.",
+    "recommended_image_count_validation": "Competitor content uses 5-12 images on average for tutorial posts. 5 images (including hero) is appropriate for tutorial intent — hero plus 4 body images covering the key technique steps and look variations."
+  },
+
+  "AUDIENCE_INTELLIGENCE": {
+    "blog_gen_instruction": "This is your primary creative brief. Every paragraph written for this specific person with this specific intent. Satisfy them completely.",
+    "who_they_are": "Women aged 22-38, intermediate nail enthusiasts — comfortable with regular manicures but not professional nail art. They have seen mismatched sets on TikTok and Instagram, tried it once and it looked 'random', and now want to know the actual rule for making it look like it was meant to happen. They do their nails at home or go to a salon where they struggle to articulate what they want. They are not beginners, but they are not nail techs.",
+    "what_they_want_from_this_post": "A concrete decision framework — not 'anything goes', not a gallery of 50 looks they already scrolled past. They want to understand the actual colour logic, then get 3-5 specific combinations they can action this week. They want to be told what makes it cohesive and what makes it look chaotic.",
+    "what_frustrates_them": [
+      "Existing content says 'just pick colours you like' which is not useful advice",
+      "Most tutorial posts are not really tutorials — they're galleries with captions",
+      "Celebrity nail artist quotes are included but not explained — what does 'unifying element' actually mean to someone standing in a nail salon?",
+      "The rainbow/skittle version feels dated in 2026 but nobody has explained what the updated version looks like",
+      "No post helps them choose colours that go together — they want combinations, not principles alone"
+    ],
+    "top_5_pain_points": [
+      "My mismatched set looked random and accidental — not like the ones online",
+      "I don't know how many colours to use or how to pick ones that work together",
+      "I want to try it but I don't know how to explain what I want to my nail tech",
+      "The trend feels maximum and I prefer something more low-key — is there a quiet version?",
+      "I tried it at home and it looked great on the right hand and terrible on the left"
+    ],
+    "exact_user_phrases": [
+      "how to make mismatched nails look intentional",
+      "skittle nails but make it elegant",
+      "different colours on each nail that go together",
+      "what colours work for mismatched nails",
+      "how many colours for a skittle manicure",
+      "mismatched nails tutorial at home",
+      "why do my mismatched nails look wrong",
+      "mismatched nails 2026 what's the rule",
+      "cohesive mismatched manicure",
+      "how to do the skittle nail trend at home"
+    ],
+    "intent_content_signals": [
+      "Tutorial intent: reader wants step-by-step process, not inspiration scroll",
+      "Concrete rules preferred over open-ended 'anything goes' framing",
+      "Named colour combinations are valued — abstract principle plus practical example",
+      "Short nails context is very relevant — do not assume extensions",
+      "DIY focus but also wants to know how to brief a salon tech",
+      "2026 trend context matters — they do not want to look like they are doing 2021 nails",
+      "Quick wins valued — they want to be able to action this after reading, not after buying tools"
+    ]
+  },
+
+  "SEMANTIC_KEYWORD_DATA": {
+    "blog_gen_instruction": "Primary keyword in strong tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.",
+    "primary_keyword": "mismatched nails",
+    "keyword_variations": [
+      "mismatched nail designs",
+      "mismatched manicure",
+      "mismatched nail colours",
+      "mismatched nail art",
+      "mismatch nails"
+    ],
+    "cluster_keywords": [
+      "skittle nails",
+      "skittle manicure",
+      "skittle nail ideas",
+      "skittle mani",
+      "different colour on each nail",
+      "multicoloured nails",
+      "multi colour manicure",
+      "different nails each hand",
+      "indie nails",
+      "mix and match nails",
+      "rainbow nails",
+      "colour combo nails",
+      "mismatched nail trend 2026",
+      "colourful manicure"
+    ],
+    "lsi_terms": [
+      "colour family",
+      "tonal temperature",
+      "analogous colours",
+      "unifying element",
+      "cohesion framework",
+      "colour theory nails",
+      "nail polish combinations",
+      "nail palette",
+      "colour coordinated manicure",
+      "intentional nail art",
+      "accent nail",
+      "neutral anchor nail",
+      "finish unification",
+      "gel polish colours",
+      "nail art at home",
+      "nail polish collection",
+      "warm tones",
+      "cool tones",
+      "complementary colours",
+      "nail look 2026"
+    ],
+    "aeo_terms": [
+      "How do you make mismatched nails look cohesive?",
+      "What colours go together for mismatched nails?",
+      "How many colours should you use for a skittle manicure?",
+      "What is the difference between skittle nails and mismatched nails?",
+      "How do you do mismatched nails at home?",
+      "How do you choose colours for a skittle manicure?",
+      "What is the unifying element rule for mismatched nails?",
+      "Can you do mismatched nails on short nails?",
+      "How do you brief a nail tech for mismatched nails?",
+      "What makes a mismatched manicure look intentional?",
+      "What nail polish combinations work for skittle nails?",
+      "Are mismatched nails trending in 2026?"
+    ],
+    "technical_terms": [
+      "analogous colour scheme",
+      "tonal saturation",
+      "finish type (matte/glossy/chrome)",
+      "gel polish",
+      "BIAB (Builder in a Bottle)",
+      "nail art brush",
+      "dotting tool",
+      "colour temperature (warm/cool)"
+    ],
+    "user_language": [
+      "I can't pick just one colour",
+      "looks random not on purpose",
+      "make it look like I meant to do that",
+      "salon quality at home",
+      "what actually goes together",
+      "the cool version, not the chaotic one",
+      "I want to do the TikTok thing",
+      "doesn't have to be rainbow to be skittle"
+    ]
+  },
+
+  "VOICE_AND_AI_QUERIES": {
+    "blog_gen_instruction": "Answer every query directly in the relevant H2 section body. If a query cannot be addressed naturally in the body, route it to faqItems. No query left unanswered.",
+    "queries": [
+      "How do you make mismatched nails look intentional and not random?",
+      "What is the rule for choosing colours for a skittle manicure?",
+      "How many nail polish colours should you use for mismatched nails?",
+      "What colours work well together for mismatched nails in 2026?",
+      "Can you do mismatched nails on short natural nails?",
+      "What is the difference between skittle nails and mismatched nails?",
+      "How do you explain mismatched nails to your nail technician?",
+      "What is the easiest way to do mismatched nails at home?",
+      "Do mismatched nails have to be rainbow coloured?",
+      "How do you make a mismatched manicure look expensive?",
+      "What is a neutral skittle manicure and how do you do it?",
+      "What is the 2026 version of mismatched nails?",
+      "How do you use colour theory for a mismatched nail set?",
+      "What nail polish finishes work best together for a mismatched look?",
+      "How do you do a mismatched French tip manicure?",
+      "Is a skittle manicure the same as mismatched nails?",
+      "What are the best colour combinations for mismatched nails this summer?",
+      "How do you pick a unifying element for a mismatched manicure?"
+    ]
+  },
+
+  "HOOK_AND_CTR": {
+    "blog_gen_instruction": "READ THIS SECTION BEFORE WRITING THE TITLE, META DESCRIPTION, INTRO, OR FIRST H2. The title and description are hardcoded here — use them exactly. The intro hook brief and first H2 hook direction are your creative brief for those specific elements. Do not deviate.",
+    "selected_trigger": "Trigger 1 — Curiosity Gap",
+    "trigger_rationale": "The reader suspects they are doing something wrong — their mismatched set looks random and accidental — and wants to know the rule they are clearly missing. Curiosity gap is the exact fit: 'what are others doing that I'm not?'",
+    "title": "Mismatched Nails: How to Do the Skittle Manicure 2026",
+    "title_char_count": 57,
+    "meta_description": "Your mismatched nails look random? Here's the cohesion rule that changes everything — plus 5 colour combos to try at home now.",
+    "meta_char_count": 127,
+    "intro_hook_brief": "Open by naming the problem they have already experienced — their mismatched set looked chaotic rather than considered. Then immediately signal that there is one specific rule they were missing, and that this post is where they find it. Resist listing all the things the post covers; the promise is simple: the rule for making this look intentional.",
+    "first_h2_hook_direction": "Phrase the first H2 as a voice search question that resolves what the reader arrived confused about — something like 'What Actually Makes Mismatched Nails Look Intentional?' Direct, slightly confrontational, signals the content beneath it will resolve the confusion they came with."
+  },
+
+  "SEARCH_JOURNEY": {
+    "blog_gen_instruction": "This is the emotional contract with the reader. Every section of the post must honour the promise made. Read this before writing any section. If a paragraph breaks the journey arc — rewrite it.",
+    "reader_arrival_state": "Frustrated and mildly embarrassed — they tried mismatched nails, it looked wrong, and they do not know why, so they are searching for the rule everyone else seems to know.",
+    "journey_arc": [
+      "Hook with the diagnosis — name the exact mistake (no unifying element), remove the shame, reframe it as a learnable rule",
+      "Teach the rule with precision — the three cohesion methods, explained with named examples not abstract principles",
+      "Expand with specific colour combinations they can use directly — warm, cool, neutral options — removes the decision paralysis",
+      "Address the 2026 update — the elevated, minimalist mismatched look that does not read as a throwback",
+      "Close with salon-to-DIY bridge — how to actually get this done, whether they go to a salon or do it at home"
+    ],
+    "promise_to_deliver": "The specific rule that makes a mismatched manicure look curated, not chaotic — with enough concrete examples that the reader can go and do it immediately.",
+    "exit_state": "Confident and equipped — they understand the logic, they have specific combinations in mind, and they know exactly what to say to their nail tech or which polishes to pick up."
+  },
+
+  "CONTENT_STRUCTURE": {
+    "blog_gen_instruction": "This H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s without user instruction. Word budget per section is set — follow it. H3s may be added at editorial discretion.",
+    "h1": "Mismatched Nails: How to Do the Skittle Manicure (Without It Looking Random)",
+    "h2_structure": [
+      "What Actually Makes Mismatched Nails Look Intentional?",
+      "The Three Cohesion Methods — Pick One Before You Pick a Colour",
+      "The Best Colour Combinations for Mismatched Nails in 2026",
+      "What Are Skittle Nails, and Are They the Same as Mismatched Nails?",
+      "How to Do Mismatched Nails at Home Step by Step",
+      "How to Brief Your Nail Tech (So You Get What You Saw Online)"
+    ],
+    "word_budget": {
+      "introduction": "220 words",
+      "H2_1_what_makes_them_look_intentional": "320 words",
+      "H2_2_three_cohesion_methods": "380 words",
+      "H2_3_best_colour_combinations_2026": "350 words",
+      "H2_4_skittle_nails_vs_mismatched": "200 words",
+      "H2_5_how_to_do_at_home": "350 words",
+      "H2_6_how_to_brief_nail_tech": "200 words",
+      "conclusion": "180 words",
+      "total": "2200 words"
+    }
+  },
+
+  "INTERNAL_LINKS": {
+    "blog_gen_instruction": "Every link below must appear in the post. Cluster links use anchor texts verbatim — do not rewrite. Cross-site links use the provided descriptive anchor. Place each link where the placement note says — woven naturally into prose, never as a standalone CTA. Total internal links must not exceed 6.",
+    "all_internal_links": [
+      {
+        "url_or_slug": "/blog/nail-trends-2026/nail-trends-2026",
+        "title": "Nail Trends 2026: Every Look Dominating This Year",
+        "anchor_text": "nail trends 2026",
+        "placement_note": "H2_1 (What Actually Makes Mismatched Nails Look Intentional) — when referencing the broader trend context of mismatched being a 2026 breakout look",
+        "link_type": "cluster-pillar"
+      },
+      {
+        "url_or_slug": "/blog/nail-trends-2026/glitchy-glam-nails",
+        "title": "Glitchy Glam Nails: The Imperfect Maximalist Trend",
+        "anchor_text": "glitchy glam nail aesthetic",
+        "placement_note": "H2_3 (Best Colour Combinations) — when discussing the maximalist edge version, tie to glitchy glam as the logical next step if readers want to push bolder",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/nail-trends-2026/healthy-nail-aesthetic",
+        "title": "Healthy Nail Aesthetic: The Clean Manicure Trend",
+        "anchor_text": "healthy nail aesthetic",
+        "placement_note": "H2_3 (Best Colour Combinations) — when covering the neutral/understated mismatched variant, link to healthy nail aesthetic as a complementary direction for readers who want lower-key",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/nail-trends-2026/polka-dot-nails",
+        "title": "Polka Dot Nails: Every Design Worth Trying in 2026",
+        "anchor_text": "polka dot nails",
+        "placement_note": "H2_5 (How to Do at Home) — when mentioning dotting tools and nail art techniques that can be added as one elevated detail to a mismatched base",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/blog/mismatched-valentine-nails",
+        "title": "Mismatched Valentine Nails: Cohesive Chaos",
+        "anchor_text": "how to build a mismatched set around a single colour family",
+        "placement_note": "H2_2 (Three Cohesion Methods) — the monochrome mismatch method is described in detail in the Valentine post; link adds real additional reading value at exactly the right point",
+        "link_type": "cross-site"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/blog/french-nails/colored-french-tip-nails",
+        "title": "Coloured French Tip Nails: Every Colour & Mood",
+        "anchor_text": "how a skittle French tip manicure works with one tonal base",
+        "placement_note": "H2_4 (Skittle Nails vs Mismatched) — when explaining the skittle French variant, this page covers the full execution and is a directly relevant next read",
+        "link_type": "cross-site"
+      }
+    ]
+  },
+
+  "VOICE_TONE": {
+    "blog_gen_instruction": "This is the voice for this specific post. Layer on top of Mirellé editorial framework. Do not default to generic AI tone.",
+    "recommended_voice": "Confident educator — the friend who trained as a nail artist and is finally explaining the thing everyone has been doing wrong",
+    "tone_characteristics": [
+      "Direct without being blunt — names the problem clearly, then solves it without hedging",
+      "Warm but not reassuring for its own sake — the warmth comes through in the precision, not through excessive affirmation",
+      "Uses 'you' consistently and specifically — addresses the reader's exact situation not a generalised audience",
+      "Concrete over abstract — every principle lands with a named example or specific shade family",
+      "2026-aware — acknowledges the trend has evolved and positions the reader ahead of it, not behind it"
+    ],
+    "language_style": "Medium sentence length, mostly declarative. Occasional one-liner that punches. No lists of tips masquerading as expertise. Real knowledge expressed as direct statements.",
+    "audience_match": "This reader is past 'try any colours you like' and wants to be talked to like an adult who can absorb a real rule. The confident educator voice respects that while still being approachable enough for a beginner to follow."
+  },
+
+  "EXTERNAL_LINKS": {
+    "blog_gen_instruction": "Include all external links where indicated. Supports E-E-A-T. Use anchor suggestion as guide — write naturally around it.",
+    "links": [
+      {
+        "url": "https://www.scratchmagazine.co.uk/nailart-technique/skittle-nails-trend/",
+        "context": "H2_4 (What Are Skittle Nails) — when defining the skittle manicure and crediting where the name comes from, Scratch Magazine is the most authoritative UK industry source on the trend",
+        "anchor_suggestion": "nail industry publication Scratch Magazine"
+      },
+      {
+        "url": "https://shopping.yahoo.com/beauty/nails/articles/skittle-nail-trend-joy-sparking-161245153.html",
+        "context": "H2_4 or intro — when referencing celebrity manicurist Tom Bachik as the person who reignited the trend with Maren Morris's rainbow French set, this source quotes him directly",
+        "anchor_suggestion": "celebrity manicurist Tom Bachik"
+      },
+      {
+        "url": "https://www.refinery29.com/en-us/2023/03/11340207/mismatched-nail-colors-manicure-trend",
+        "context": "H2_2 (Three Cohesion Methods) — when advising readers to stick with two to four shades from the same collection, this Refinery29 piece quotes celebrity nail artist Julie Kandalec giving exactly that advice",
+        "anchor_suggestion": "celebrity nail artist Julie Kandalec"
+      }
+    ]
+  },
+
+  "EXECUTION_PLAN": {
+    "blog_gen_instruction": "READ THIS SECTION FIRST. Lock every value. Execute exactly. Do not recalculate, do not adjust, do not deviate.",
+
+    "block_1_keyword_execution": {
+      "primary_keyword": "mismatched nails",
+      "top_3_density_baseline": 9,
+      "total_mention_target": 12,
+      "first_100_words_plan": {
+        "rule": "Primary keyword MUST appear TWICE in the first 100 words. Mandatory.",
+        "mention_1": "Sentence 1 or 2 of introduction — name the problem: 'tried mismatched nails and it looked random'",
+        "mention_2": "Sentence 4-5 of introduction — signal the resolution: 'the difference between mismatched nails that looks considered and ones that look chaotic is one rule'"
+      },
+      "first_half_target": "7 mentions — first 1,100 words",
+      "second_half_target": "5 mentions — second 1,100 words",
+      "strong_tag_rule": "EVERY single mention of 'mismatched nails' — all 12 of them — wrapped in <strong> tags. No exceptions.",
+      "keywords_to_avoid_active": "Full list from CLUSTER_SNAPSHOT.keywords_to_avoid — never used as focus terms anywhere in the post"
+    },
+
+    "block_2_word_budget": {
+      "total_target": "2200 words — +/-50 words tolerance, never exceed",
+      "introduction": "220 words",
+      "conclusion": "180 words",
+      "h2_budgets": [
+        {
+          "heading": "What Actually Makes Mismatched Nails Look Intentional?",
+          "budget": "320 words",
+          "complexity": "high — establishes the foundational rule; must be precise"
+        },
+        {
+          "heading": "The Three Cohesion Methods — Pick One Before You Pick a Colour",
+          "budget": "380 words",
+          "complexity": "high — this is the tutorial core; three named methods each need a concrete example"
+        },
+        {
+          "heading": "The Best Colour Combinations for Mismatched Nails in 2026",
+          "budget": "350 words",
+          "complexity": "medium — name at least 5 specific combos with context for which look/vibe each produces"
+        },
+        {
+          "heading": "What Are Skittle Nails, and Are They the Same as Mismatched Nails?",
+          "budget": "200 words",
+          "complexity": "low — definitional section, AEO-optimised direct answer first"
+        },
+        {
+          "heading": "How to Do Mismatched Nails at Home Step by Step",
+          "budget": "350 words",
+          "complexity": "high — numbered steps required; supplies mentioned; non-dominant hand tip included"
+        },
+        {
+          "heading": "How to Brief Your Nail Tech (So You Get What You Saw Online)",
+          "budget": "200 words",
+          "complexity": "medium — practical, specific language phrases reader can use verbatim"
+        }
+      ],
+      "tracking_rule": "Track running word total at the end of every H2 section. If a section is running over budget — cut before moving to the next section."
+    },
+
+    "block_3_image_plan": {
+      "total_images": 5,
+      "hero_image": "frontmatter only — NEVER appears in post body",
+      "body_images": 4,
+      "assignments": [
+        {
+          "image_number": 1,
+          "place_after": "H2: The Three Cohesion Methods — Pick One Before You Pick a Colour",
+          "section_context": "A mismatched manicure showing colour family cohesion — one tonal family across 5 fingers, e.g. warm coral/peach/yellow/blush/melon — must read as intentional not random"
+        },
+        {
+          "image_number": 2,
+          "place_after": "H2: The Best Colour Combinations for Mismatched Nails in 2026",
+          "section_context": "A 2026-elevated mismatched set — possibly a neutral base with one or two nails carrying a delicate detail (micro chrome tip, soft aura gradient) — demonstrates the understated 2026 version"
+        },
+        {
+          "image_number": 3,
+          "place_after": "H2: What Are Skittle Nails, and Are They the Same as Mismatched Nails?",
+          "section_context": "Classic skittle manicure — different colour on every nail — ideally a rainbow or neon version so the reader can visually compare against the more elevated mismatched look shown in image 2"
+        },
+        {
+          "image_number": 4,
+          "place_after": "H2: How to Do Mismatched Nails at Home Step by Step",
+          "section_context": "A clean, completed mismatched set on short natural nails — not extensions — showing the result is achievable at home without acrylics"
+        }
+      ],
+      "image_type_rule": "ALL body images = inspirational nail design images related to the topic. NO infographics. NO process diagrams. NO comparison charts. NO step-by-step visuals.",
+      "path_rule": "/images/blog/nail-trends-2026/mismatched-nails/filename.webp — topic_slug in path always, leading slash"
+    },
+
+    "block_4_opening_technique_assignments": {
+      "rule": "No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.",
+      "assignments": [
+        {
+          "section": "Introduction",
+          "technique": "Technique 2 — The Provocation (name the mistake head-on)"
+        },
+        {
+          "section": "What Actually Makes Mismatched Nails Look Intentional?",
+          "technique": "Technique 3 — The Reframe (reframe 'mismatched' not as chaos but as a design discipline)"
+        },
+        {
+          "section": "The Three Cohesion Methods — Pick One Before You Pick a Colour",
+          "technique": "Technique 1 — The Claim (make a clear declarative statement: 'There are exactly three ways to make a mismatched set look intentional')"
+        },
+        {
+          "section": "The Best Colour Combinations for Mismatched Nails in 2026",
+          "technique": "Technique 4 — The Specificity Drop (open with a specific named combination immediately)"
+        },
+        {
+          "section": "What Are Skittle Nails, and Are They the Same as Mismatched Nails?",
+          "technique": "Technique 3 — The Reframe (they are not the same — reframe the distinction clearly)"
+        },
+        {
+          "section": "How to Do Mismatched Nails at Home Step by Step",
+          "technique": "Technique 1 — The Claim (state upfront what the reader will have at the end of this section)"
+        },
+        {
+          "section": "How to Brief Your Nail Tech (So You Get What You Saw Online)",
+          "technique": "Technique 2 — The Provocation (most people go in without a plan — name that)"
+        },
+        {
+          "section": "Conclusion",
+          "technique": "Technique 1 — The Claim (confident close: mismatched nails are not about having permission to use every colour; they are about knowing which colours belong together)"
+        }
+      ],
+      "banned_opener_rule": "Check every opener against banned_opening_approaches in blog gen prompt before writing the second sentence"
+    },
+
+    "block_5_link_placements": {
+      "rule": "Every link placed exactly where specified. Anchor texts used verbatim — never rewritten. Links woven into prose naturally — never standalone CTAs.",
+      "links": [
+        {
+          "anchor_text": "nail trends 2026",
+          "full_url": "/blog/nail-trends-2026/nail-trends-2026",
+          "place_in_section": "H2: What Actually Makes Mismatched Nails Look Intentional?",
+          "placement_context": "When contextualising mismatched as one of the standout looks in the wider movement — 'as part of the broader nail trends 2026 story, mismatched is the trend that rewards knowing the rule'",
+          "link_type": "cluster-pillar"
+        },
+        {
+          "anchor_text": "how to build a mismatched set around a single colour family",
+          "full_url": "https://mirelleinspo.com/blog/mismatched-valentine-nails",
+          "place_in_section": "H2: The Three Cohesion Methods — Pick One Before You Pick a Colour",
+          "placement_context": "After explaining the monochrome mismatch method — 'for a full worked example of this approach in action, see how to build a mismatched set around a single colour family'",
+          "link_type": "cross-site"
+        },
+        {
+          "anchor_text": "glitchy glam nail aesthetic",
+          "full_url": "/blog/nail-trends-2026/glitchy-glam-nails",
+          "place_in_section": "H2: The Best Colour Combinations for Mismatched Nails in 2026",
+          "placement_context": "When presenting the bold maximalist colour combo direction — 'readers who want to push into true maximalist territory should look at the glitchy glam nail aesthetic, which takes mismatched into intentional imperfection'",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "healthy nail aesthetic",
+          "full_url": "/blog/nail-trends-2026/healthy-nail-aesthetic",
+          "place_in_section": "H2: The Best Colour Combinations for Mismatched Nails in 2026",
+          "placement_context": "When introducing the neutral mismatched variant — 'for those who want something quieter, the neutral skittle pairs well with the healthy nail aesthetic trend'",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "how a skittle French tip manicure works with one tonal base",
+          "full_url": "https://mirelleinspo.com/blog/french-nails/colored-french-tip-nails",
+          "place_in_section": "H2: What Are Skittle Nails, and Are They the Same as Mismatched Nails?",
+          "placement_context": "After explaining the skittle French as a specific variant — 'for the full breakdown of how a skittle French tip manicure works with one tonal base, see the coloured French tip guide'",
+          "link_type": "cross-site"
+        },
+        {
+          "anchor_text": "polka dot nails",
+          "full_url": "/blog/nail-trends-2026/polka-dot-nails",
+          "place_in_section": "H2: How to Do Mismatched Nails at Home Step by Step",
+          "placement_context": "When mentioning the option of adding one elevated detail to a mismatched set (e.g. a dot accent) — 'one simple way to elevate the look is to add a single detail to one nail — polka dot nails are the easiest version of this'",
+          "link_type": "cluster-spoke"
+        }
+      ]
+    },
+
+    "block_6_aeo_geo_plan": {
+      "aeo_assignments": [
+        {
+          "aeo_term": "What Actually Makes Mismatched Nails Look Intentional?",
+          "assigned_to_section": "H2: What Actually Makes Mismatched Nails Look Intentional?",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading — before any elaboration. Example answer structure: 'A mismatched manicure looks intentional when every nail shares one unifying element — whether that is a colour family, a finish type, or a tonal temperature. Without that anchor, the eye reads ten random decisions. With it, the set reads as a curated collection.'"
+        },
+        {
+          "aeo_term": "How do you make mismatched nails look cohesive?",
+          "assigned_to_section": "H2: The Three Cohesion Methods — Pick One Before You Pick a Colour",
+          "execution": "Direct answer in first 40 words of section body: 'There are three ways to make a mismatched set look cohesive: unify by colour family (all warm or all cool), unify by finish (all matte, all glossy, all gel), or unify by saturation level (all deep, all pastel, all neon). Choose one before you choose a single colour.'"
+        },
+        {
+          "aeo_term": "What is the difference between skittle nails and mismatched nails?",
+          "assigned_to_section": "H2: What Are Skittle Nails, and Are They the Same as Mismatched Nails?",
+          "execution": "Direct definitional paragraph first, under 50 words: 'Skittle nails are a specific type of mismatched manicure where each nail is a different solid colour — the name comes from the candy's rainbow. Mismatched nails is the broader category, which includes skittle nails but also covers different patterns, finishes, and designs per nail. All skittle nails are mismatched; not all mismatched nails are skittle.'"
+        },
+        {
+          "aeo_term": "Are mismatched nails trending in 2026?",
+          "assigned_to_section": "H2: What Actually Makes Mismatched Nails Look Intentional?",
+          "execution": "Include a GEO entity statement that defines the 2026 context clearly and citable: 'In 2026, mismatched nails are one of the fastest-growing manicure searches, with searches for the look up 125% year-on-year according to Pinterest trend data, and the format appearing across summer editorial coverage from Who What Wear, GlamCityz, and Hello Beautiful.'"
+        }
+      ],
+      "geo_entity_statements": [
+        {
+          "entity": "Skittle manicure — define clearly",
+          "assigned_to_section": "H2: What Are Skittle Nails, and Are They the Same as Mismatched Nails?",
+          "execution": "Declarative: 'A skittle manicure is a multicoloured manicure where each nail is painted a different solid colour, typically within a rainbow or analogous palette. The name comes from the candy of the same name and is used interchangeably with skittle nails across nail art communities globally.'"
+        },
+        {
+          "entity": "Unifying element — define clearly for AEO extraction",
+          "assigned_to_section": "H2: The Three Cohesion Methods — Pick One Before You Pick a Colour",
+          "execution": "Declarative: 'The unifying element is the single shared characteristic across all nails in a mismatched set — most commonly a colour temperature (all warm tones or all cool tones), a finish type (all glossy or all matte), or a saturation level (all pastel or all vivid). It is what transforms random colour choices into a considered set.'"
+        }
+      ]
+    },
+
+    "block_7_active_constraints": {
+      "em_dash_banned": "Long em dash does not appear anywhere. Replace with: comma, new sentence, parentheses, 'but', or restructure.",
+      "banned_vocab_watch": [
+        "delve",
+        "stunning",
+        "elevate (use: update, improve, lift, refine)",
+        "seamlessly",
+        "vibrant (use: bright, rich, bold)",
+        "perfect (as standalone praise adjective)",
+        "amazing",
+        "incredible"
+      ],
+      "british_english_active": "colour (not color), recognise, -ise endings, -our endings — every instance, no exceptions",
+      "keyword_density_reminder": "After every 2 H2 sections — count current 'mismatched nails' mentions. Must be on track for 12 total. First half (intro + H2 1-3) should carry 7 mentions. Adjust if running light.",
+      "image_path_reminder": "/images/blog/nail-trends-2026/mismatched-nails/filename.webp — topic_slug in path always",
+      "internal_link_url_reminder": "Full correct paths only. Cluster links = /blog/nail-trends-2026/[slug]. Cross-site links = exact URL as discovered. Never bare /slug.",
+      "hero_image_reminder": "Hero = frontmatter only. Never place hero image in body.",
+      "strong_tag_reminder": "Every 'mismatched nails' mention = <strong> tags. Scan after every paragraph."
+    }
+  }
+}
