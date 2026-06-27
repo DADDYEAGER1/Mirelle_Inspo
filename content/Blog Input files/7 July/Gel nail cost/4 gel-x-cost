@@ -1,0 +1,571 @@
+{
+  "file_authority": {
+    "statement": "THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded — Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.",
+    "mode": "CLUSTER MODE — cluster context loaded",
+    "cluster_topic": "Gel Nails Cost",
+    "post_id": 4
+  },
+
+  "post_constants": {
+    "slug": "gel-x-cost",
+    "topic_slug": "gel-nails-cost",
+    "canonical": "https://mirelleinspo.com/blog/gel-nails-cost/gel-x-cost",
+    "post_type": "spoke",
+    "intent": "informational",
+    "word_count": 2100,
+    "image_count": 9,
+    "template": "split-left",
+    "hero_dimensions": "800x800",
+    "category": "Nail Costs",
+    "publish_date": "2026-07-01",
+    "author": "Mirellé Team",
+    "word_count_rationale": "Top 3 ranking posts (BeyondPolish ~2400w, NailAtlas ~2200w, NailstheticsPA ~1800w) average approximately 2133 words. Spoke ceiling is 2800. Hard target set at 2100 — at floor, within ceiling.",
+    "image_count_rationale": "Rule 5 applies — not an X+ slug, not pillar, not tutorial, not comparison. 9 images total including hero."
+  },
+
+  "cluster_snapshot": {
+    "pillar_slug": "gel-nails-cost",
+    "pillar_title": "How Much Do Gel Nails Cost: Full Pricing Guide",
+    "pillar_primary_keyword": "gel nails cost",
+    "this_post_slug": "gel-x-cost",
+    "this_post_role": "spoke",
+    "keywords_to_avoid": [
+      "gel nails cost",
+      "gel manicure cost",
+      "gel nail extensions cost",
+      "shellac cost",
+      "are gel nails worth the cost",
+      "gel nail removal cost",
+      "gel nails annual cost",
+      "DIY gel nails vs salon cost",
+      "how to make gel nails last longer",
+      "gel vs acrylic almond nails",
+      "gel nail polish for work",
+      "blooming gel nails tutorial",
+      "acrylic vs gel vs press-on prom nails",
+      "BIAB cost"
+    ]
+  },
+
+  "serp_analysis": {
+    "blog_gen_instruction": "Use competitor gaps and missing semantic territory to fill what competitors miss. Our strategic approach is the angle for the introduction and conclusion.",
+    "top_3_ranking_posts": [
+      {
+        "url": "https://www.beyondpolish.com/blogs/news/how-much-are-gel-x-nails",
+        "estimated_word_count": 2400,
+        "estimated_primary_keyword_mentions": 18,
+        "key_angles_covered": ["salon vs DIY cost split", "DIY starter kit pricing", "annual math", "fill vs no-fill system explanation", "city-level price variation"]
+      },
+      {
+        "url": "https://nailatlas.com/guides/gel-x-vs-acrylic",
+        "estimated_word_count": 2200,
+        "estimated_primary_keyword_mentions": 14,
+        "key_angles_covered": ["gel-x vs acrylic cost comparison", "UK and US pricing side by side", "damage comparison", "removal cost"]
+      },
+      {
+        "url": "https://nailstheticspa.com/gel-x-nails-nailsthetic-spa/",
+        "estimated_word_count": 1800,
+        "estimated_primary_keyword_mentions": 10,
+        "key_angles_covered": ["basic price tiers", "add-on costs", "removal cost", "money-saving tips"]
+      }
+    ],
+    "top_3_keyword_density_baseline": 14,
+    "competitor_gaps": [
+      "None explain the no-fill model clearly — competitors mention it but do not break down the financial implication (full-price every visit vs acrylic's cheaper fills)",
+      "No competitor covers UK, Canada, Australia pricing in one place — all are US-centric or vaguely 'international'",
+      "No competitor gives a concrete cost-per-wear calculation specific to Gel-X (BeyondPolish mentions it briefly but does not develop it)",
+      "No competitor explains what drives Gel-X price higher than standard gel manicure — confirmed gap across all 3 top results",
+      "No competitor answers 'is a cheap Gel-X set a red flag?' — confirmed PAA and real audience question with no strong editorial answer"
+    ],
+    "missing_semantic_territory": [
+      "Gel-X pricing in UK (£55–£95 per set) — absent from top results",
+      "What Gel-X removal costs separately vs bundled",
+      "Gel-X price vs acrylic over a full year (not just per set)",
+      "DIY Gel-X starter kit cost breakdown — Aprés Signature Kit ~$85 + lamp $40–$60",
+      "Cost signals for quality — what a low price actually means for the client"
+    ],
+    "our_strategic_approach": "Most Gel-X cost content is US-only, ignores the no-fill pricing model's full financial impact, and does not explain what separates a fair price from a suspiciously cheap one. This post gives a complete, honest picture: salon pricing across four Tier 1 markets, the no-fill cost reality, the DIY break-even point, and a clear answer on whether a low Gel-X price is a warning sign. The tone is confident and direct — a reader leaves knowing exactly what to budget and what to watch for.",
+    "recommended_image_count_validation": "Top ranking posts use 6–10 images. 9 images confirmed appropriate for this spoke."
+  },
+
+  "audience_intelligence": {
+    "blog_gen_instruction": "This is your primary creative brief. Every paragraph written for this specific person with this specific intent. Satisfy them completely.",
+    "who_they_are": "Gel nail wearer who has heard of Gel-X — probably seen it on TikTok, Instagram, or been recommended it by their salon — and is now deciding whether to book it. Typically 22–40, has at least one previous gel service, and is now comparing Gel-X against her existing routine (standard gel or acrylic). She is not a first-time nail client but is a first-time Gel-X client. She is researching price before booking, not researching what Gel-X is in a technical sense.",
+    "what_they_want_from_this_post": "A clear, specific number she can budget against — not a range of $50–$150. She wants to know what is actually fair in her market, what add-ons she will be charged for, and whether Gel-X costs more than what she currently pays. She also wants confirmation that the price is worth the switch.",
+    "what_frustrates_them": "Most content gives an enormous price range with no context, is US-only, does not explain why Gel-X costs more than a regular gel manicure, and skips the no-fill cost reality entirely. She has no idea whether a $60 Gel-X set is normal or a red flag.",
+    "top_5_pain_points": [
+      "No clear number — every source gives a $50–$150 range that is useless for budgeting",
+      "Does not understand why Gel-X costs more than a standard gel manicure",
+      "Does not know if Gel-X has fills like acrylic — and what the cost implication is if it does not",
+      "Cannot tell if a low-priced Gel-X set is a deal or a quality warning sign",
+      "No guidance on total annual cost — she wants to know if this is more or less than what she currently spends"
+    ],
+    "exact_user_phrases": [
+      "how much does gel x cost at a salon",
+      "is gel x more expensive than acrylic",
+      "why is gel x so expensive",
+      "does gel x have fills",
+      "gel x nails cost UK",
+      "how much should I pay for gel x",
+      "is $60 for gel x cheap",
+      "gel x vs regular gel price",
+      "Apres gel x cost",
+      "gel x nails price list",
+      "average cost for a gel x set",
+      "gel x at home cost vs salon"
+    ],
+    "intent_content_signals": [
+      "Wants specific numbers, not ranges — format with clear price tables or explicit figures per service type",
+      "Wants country/city context — mention US, UK, Canada, Australia explicitly",
+      "Wants the no-fill issue explained plainly — not buried",
+      "Wants a cost comparison anchor (vs acrylic, vs regular gel manicure) to contextualise the price",
+      "Wants to know what a fair price signals about quality",
+      "Responds to direct, expert tone — not hedged or overly cautious",
+      "Short paragraphs, scannable H2 structure — she is price-checking, not reading for pleasure"
+    ]
+  },
+
+  "semantic_keyword_data": {
+    "blog_gen_instruction": "Primary keyword in strong tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.",
+    "primary_keyword": "gel-x cost",
+    "total_mention_target": 17,
+    "first_100_words_rule": "Primary keyword MUST appear TWICE in the first 100 words. No exceptions.",
+    "keyword_variations": [
+      "how much does Gel-X cost",
+      "Gel-X nails cost",
+      "Aprés Gel-X cost",
+      "Gel-X price",
+      "Gel-X set price",
+      "cost of Gel-X nails",
+      "Gel-X nail cost UK",
+      "Gel-X nails price 2026"
+    ],
+    "cluster_keywords": [
+      "Gel-X full set",
+      "soft gel extension cost",
+      "Aprés Nail price",
+      "Gel-X salon price",
+      "Gel-X DIY cost",
+      "Gel-X removal price",
+      "Gel-X vs acrylic price",
+      "Gel-X fills cost",
+      "Gel-X starter kit price",
+      "soft gel tip extensions cost",
+      "nail extension cost comparison",
+      "Gel-X UK price",
+      "Gel-X Canada cost",
+      "Gel-X Australia price"
+    ],
+    "lsi_terms": [
+      "Aprés Extend Gel",
+      "full-coverage soft gel tips",
+      "UV/LED lamp curing",
+      "soak-off removal",
+      "no-fill system",
+      "nail prep dehydrator",
+      "pH bonder",
+      "nail extension longevity",
+      "nail tech pricing",
+      "high-cost-of-living market",
+      "overhead costs",
+      "tip sizing",
+      "product consumables",
+      "nail plate adhesion",
+      "cuticle oil aftercare",
+      "nail health post-extensions",
+      "soft gel formula",
+      "full-coverage tips",
+      "LED lamp wattage",
+      "acetone soak-off"
+    ],
+    "aeo_terms": [
+      "How much does a Gel-X set cost at a salon?",
+      "Why is Gel-X more expensive than a regular gel manicure?",
+      "Does Gel-X have fills like acrylic nails?",
+      "What is a fair price for Gel-X nails in 2026?",
+      "How much does Gel-X cost in the UK?",
+      "How much does it cost to do Gel-X nails at home?",
+      "Is Gel-X cheaper than acrylic nails?",
+      "What does Gel-X removal cost at a salon?",
+      "How long does a Gel-X set last for the money?",
+      "Is a cheap Gel-X set a red flag?",
+      "How much does an Aprés Gel-X starter kit cost?",
+      "What is the break-even point for DIY Gel-X vs salon?"
+    ],
+    "technical_terms": [
+      "Aprés Nail soft gel formula",
+      "Extend Gel adhesive",
+      "full-coverage gel tips",
+      "UV/LED dual-source lamp",
+      "soak-off acetone removal",
+      "pH bonder and primer system",
+      "nail plate dehydration",
+      "soft gel polymerisation"
+    ],
+    "user_language": [
+      "gel x nails",
+      "apres nails price",
+      "how much are gel x nails",
+      "gel x set",
+      "is gel x worth it",
+      "gel x vs acrylic which is cheaper",
+      "how much should I pay for gel x",
+      "gel x refill price",
+      "gel x at home kit",
+      "gel x nails UK cost"
+    ]
+  },
+
+  "voice_and_ai_queries": {
+    "blog_gen_instruction": "Answer every query directly in the relevant H2 section body. If a query cannot be addressed naturally in the body, route it to faqItems. No query left unanswered.",
+    "queries": [
+      "How much does a Gel-X set cost at a salon in 2026?",
+      "What is the average price for Gel-X nails in the UK?",
+      "Does Gel-X cost more than acrylic nails?",
+      "Why is Gel-X more expensive than a standard gel manicure?",
+      "How much does a Gel-X removal cost at a salon?",
+      "Do Gel-X nails have fills like acrylic?",
+      "How much does it cost to do Gel-X nails at home for the first time?",
+      "What is included in an Aprés Gel-X starter kit and how much does it cost?",
+      "When does DIY Gel-X become cheaper than going to a salon?",
+      "Is a $50 Gel-X set too cheap?",
+      "What makes Gel-X cost more at some salons than others?",
+      "How much does Gel-X cost in Australia?",
+      "How long does a Gel-X set last compared to the cost?",
+      "What is the cost per wear for Gel-X nails?",
+      "How much would Gel-X nails cost me in a year?",
+      "Can I get a Gel-X fill or do I always pay full price each time?",
+      "Is Gel-X worth the extra cost over a regular gel manicure?"
+    ]
+  },
+
+  "hook_and_ctr": {
+    "blog_gen_instruction": "READ THIS SECTION BEFORE WRITING THE TITLE, META DESCRIPTION, INTRO, OR FIRST H2. The title and description are hardcoded here — use them exactly. The intro hook brief and first H2 hook direction are your creative brief for those specific elements. Do not deviate.",
+    "selected_trigger": "Trigger 1 — Curiosity Gap",
+    "trigger_rationale": "This reader suspects she is missing something — specifically that she does not know whether she is being quoted a fair price for Gel-X, or why Gel-X costs what it does. Curiosity Gap resolves that anxiety by promising information she currently lacks.",
+    "title": "How Much Does Gel-X Cost? Salon Prices 2026",
+    "title_char_count": 47,
+    "title_note": "47 characters — within 55-60 cap, primary keyword in first 4 words, year tag included.",
+    "meta_description": "Gel-X sets run $65–$120 at salons and £55–£95 in the UK. Here's what's behind the price, why there are no cheap fills, and when DIY pays off.",
+    "meta_char_count": 146,
+    "meta_note": "146 characters — within 120–155 cap. PAS formula: price anxiety addressed, specific content signalled, DIY differentiator teased. Does not repeat title.",
+    "intro_hook_brief": "Open by naming the price confusion directly — she has seen wildly different numbers online and cannot tell what is fair. The first paragraph should validate that confusion, then promise to resolve it with real numbers by market, service type, and the no-fill reality nobody else explains properly. Tone: direct, like a trusted friend who knows the industry.",
+    "first_h2_hook_direction": "The first H2 should answer the core question with a number immediately — ideally phrased as a voice query: 'How much does Gel-X cost at a salon?' Give the specific range in the first sentence of the section body. Do not delay the answer."
+  },
+
+  "search_journey": {
+    "blog_gen_instruction": "This is the emotional contract with the reader. Every section of the post must honour the promise made. Read this before writing any section. If a paragraph breaks the journey arc — rewrite it.",
+    "reader_arrival_state": "Mildly frustrated and slightly uncertain — she wants to book Gel-X but cannot find a number she trusts, and does not understand the pricing structure well enough to know if she is being quoted fairly.",
+    "journey_arc": [
+      "1. Arrive with price confusion — validate it, promise resolution",
+      "2. Give her the number she needs by country and salon tier — immediately useful",
+      "3. Explain what drives the price (no-fill model, tip cost, prep time) — resolves the 'why so expensive' question",
+      "4. Give her the DIY option with honest starter costs and break-even point",
+      "5. Close with a clear value verdict — whether Gel-X cost is justified and what it signals about quality"
+    ],
+    "promise_to_deliver": "By the end of this post, she knows exactly what Gel-X costs in her market, why it is priced differently from other gel services, and what a fair price looks like versus a red flag price.",
+    "exit_state": "Informed and ready to book — she has a number in her head, understands the pricing logic, and knows what questions to ask at the salon."
+  },
+
+  "content_structure": {
+    "blog_gen_instruction": "This H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s without user instruction. Word budget per section is set — follow it. H3s may be added at editorial discretion.",
+    "h1": "How Much Does Gel-X Cost? Salon Prices, DIY Costs and What's Actually Fair in 2026",
+    "h2_structure": [
+      "How much does Gel-X cost at a salon?",
+      "What does Gel-X cost in the UK, Canada and Australia?",
+      "Why is Gel-X more expensive than a regular gel manicure?",
+      "Does Gel-X have fills — and what does that mean for your total cost?",
+      "How much does Gel-X cost to do at home?",
+      "When does DIY Gel-X become cheaper than the salon?",
+      "Is a cheap Gel-X set a red flag?"
+    ],
+    "word_budget": {
+      "introduction": "230 words",
+      "h2_1_salon_cost": "310 words",
+      "h2_2_international_cost": "260 words",
+      "h2_3_why_more_expensive": "260 words",
+      "h2_4_fills_and_total_cost": "280 words",
+      "h2_5_diy_cost": "280 words",
+      "h2_6_break_even": "250 words",
+      "h2_7_red_flag": "230 words",
+      "conclusion": "180 words",
+      "total_target": "2100 words"
+    }
+  },
+
+  "internal_links": {
+    "blog_gen_instruction": "Every link below must appear in the post. Cluster links use anchor texts verbatim — do not rewrite. Cross-site links use the provided descriptive anchor. Place each link where the placement note says — woven naturally into prose, never as a standalone CTA. Total internal links must not exceed 6.",
+    "all_internal_links": [
+      {
+        "url_or_slug": "/blog/gel-nails-cost/gel-nails-cost",
+        "title": "How Much Do Gel Nails Cost: Full Pricing Guide",
+        "anchor_text": "gel nails cost",
+        "placement_note": "H2 1 (salon cost) — when referencing that Gel-X is one of several gel service types, link to the pillar as the broader pricing hub",
+        "link_type": "cluster-pillar"
+      },
+      {
+        "url_or_slug": "/blog/gel-nails-cost/gel-nail-extensions-cost",
+        "title": "How Much Do Gel Nail Extensions Cost",
+        "anchor_text": "gel nail extensions cost",
+        "placement_note": "H2 3 (why more expensive) — when distinguishing Gel-X from hard gel or sculpted extensions",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/gel-nails-cost/gel-manicure-cost",
+        "title": "How Much Does a Gel Manicure Cost",
+        "anchor_text": "gel manicure cost",
+        "placement_note": "H2 3 (why more expensive) — when comparing Gel-X cost against a standard gel manicure",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/gel-nails-cost/gel-nail-removal-cost",
+        "title": "How Much Does Gel Nail Removal Cost",
+        "anchor_text": "gel nail removal cost",
+        "placement_note": "H2 4 (fills and total cost) — when explaining that removal is charged per visit and directing to the dedicated removal cost guide",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/blog/gel-vs-acrylic-almond-nails",
+        "title": "Gel vs Acrylic Almond Nails: Which to Get",
+        "anchor_text": "comparing Gel-X and acrylic nails on cost and nail health over time",
+        "placement_note": "H2 4 (fills and total cost) — when discussing the annual cost comparison between Gel-X (no fills) and acrylic (cheaper fills), this existing post gives the full side-by-side for readers weighing both systems",
+        "link_type": "cross-site"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/nail-faqs/can-you-get-nail-extensions-with-short-nails",
+        "title": "Can You Get Nail Extensions If You Have Short Nails",
+        "anchor_text": "whether your natural nails are long enough for Gel-X tips to adhere properly",
+        "placement_note": "H2 7 (red flag section) — when noting that prep and tip fit are the biggest quality indicators, this cross-link addresses the reader who is unsure if her nails are suitable and adds genuine value",
+        "link_type": "cross-site"
+      }
+    ]
+  },
+
+  "voice_tone": {
+    "blog_gen_instruction": "This is the voice for this specific post. Layer on top of Mirellé editorial framework. Do not default to generic AI tone.",
+    "recommended_voice": "Confident educator with insider knowledge",
+    "tone_characteristics": [
+      "Direct — lead every section with the answer, not the setup",
+      "Authoritative on pricing — state numbers without hedging every figure with 'it depends'",
+      "Practical, not aspirational — this reader wants information, not inspiration",
+      "Warm but efficient — acknowledge her frustration briefly, then resolve it fast",
+      "British English throughout — colour, recognise, practise (verb), -ise endings"
+    ],
+    "language_style": "Short paragraphs (2–3 sentences), no passive voice, heavy use of second person 'you'. Numbers presented as numbers, not as written words where possible. Scan-friendly — a reader price-checking should be able to pull the number she needs without reading every word.",
+    "audience_match": "She is researching a specific purchase decision, not browsing for inspiration. The tone should mirror a knowledgeable friend who has done the research for her and is giving her the honest version — not the PR version, not the hedged version."
+  },
+
+  "external_links": {
+    "blog_gen_instruction": "Include all external links where indicated. Supports E-E-A-T. Use anchor suggestion as guide — write naturally around it.",
+    "links": [
+      {
+        "url": "https://www.makeup.com/nails/all-nails/what-is-gel-x-manicure",
+        "context": "H2 3 (why more expensive) — when explaining what Gel-X actually is and why the product system itself costs more to produce and apply than standard gel polish",
+        "anchor_suggestion": "L'Oréal's breakdown of the Gel-X system"
+      },
+      {
+        "url": "https://www.newbeauty.com/view/gel-x-nails-guide",
+        "context": "H2 5 (DIY cost) — when noting that Aprés invented and patented Gel-X, making the Aprés system the gold standard that DIY kits are benchmarked against",
+        "anchor_suggestion": "NewBeauty's guide to the Aprés Gel-X system"
+      },
+      {
+        "url": "https://ericasata.com/blogs/news/gel-x-vs-acrylic-nails-what-you-should-know-about-wear-cost-removal",
+        "context": "H2 4 (fills and total cost) — when explaining the no-fill model from a professional nail tech perspective",
+        "anchor_suggestion": "Erica's ATA nail education breakdown on Gel-X maintenance"
+      }
+    ]
+  },
+
+  "execution_plan": {
+    "blog_gen_instruction": "READ THIS SECTION FIRST. Lock every value. Execute exactly. Do not recalculate, do not adjust, do not deviate.",
+
+    "block_1_keyword_execution": {
+      "primary_keyword": "gel-x cost",
+      "top_3_density_baseline": 14,
+      "total_mention_target": 17,
+      "first_100_words_plan": {
+        "rule": "Primary keyword MUST appear TWICE in the first 100 words. Mandatory. No exceptions.",
+        "mention_1": "Sentence 2 of introduction — name gel-x cost directly as what the post resolves ('The gel-x cost confusion is real...')",
+        "mention_2": "Sentence 4–5 of introduction — reference the range readers see online ('gel-x cost quotes vary from $50 to over $120...')"
+      },
+      "first_half_target": "10 mentions — first 1050 words. Run denser in first half.",
+      "second_half_target": "7 mentions — second 1050 words.",
+      "strong_tag_rule": "EVERY single mention of 'gel-x cost' — all 17 of them — wrapped in <strong> tags. No exceptions. Scan after every paragraph.",
+      "keywords_to_avoid_active": [
+        "gel nails cost", "gel manicure cost", "gel nail extensions cost", "shellac cost",
+        "are gel nails worth the cost", "gel nail removal cost", "gel nails annual cost",
+        "DIY gel nails vs salon cost", "how to make gel nails last longer",
+        "gel vs acrylic almond nails", "gel nail polish for work",
+        "blooming gel nails tutorial", "acrylic vs gel vs press-on prom nails", "BIAB cost"
+      ]
+    },
+
+    "block_2_word_budget": {
+      "total_target": "2100 words — +/- 50 words tolerance, never exceed 2150",
+      "introduction": "230 words",
+      "conclusion": "180 words",
+      "h2_budgets": [
+        { "heading": "How much does Gel-X cost at a salon?", "budget": "310 words", "complexity": "high — primary price data section" },
+        { "heading": "What does Gel-X cost in the UK, Canada and Australia?", "budget": "260 words", "complexity": "medium — comparative data" },
+        { "heading": "Why is Gel-X more expensive than a regular gel manicure?", "budget": "260 words", "complexity": "medium — explanatory" },
+        { "heading": "Does Gel-X have fills — and what does that mean for your total cost?", "budget": "280 words", "complexity": "high — complex cost implication" },
+        { "heading": "How much does Gel-X cost to do at home?", "budget": "280 words", "complexity": "high — itemised DIY breakdown" },
+        { "heading": "When does DIY Gel-X become cheaper than the salon?", "budget": "250 words", "complexity": "medium — break-even math" },
+        { "heading": "Is a cheap Gel-X set a red flag?", "budget": "230 words", "complexity": "medium — quality signal section" }
+      ],
+      "tracking_rule": "Track running word total at the end of every H2 section. If a section runs over budget — cut before moving to the next section. Do not compensate later."
+    },
+
+    "block_3_image_plan": {
+      "total_images": 9,
+      "hero_image": "frontmatter only — NEVER appears in post body",
+      "body_images": 8,
+      "image_path_format": "/images/blog/gel-nails-cost/gel-x-cost/filename.webp",
+      "assignments": [
+        { "image_number": 1, "place_after": "Introduction", "section_context": "Close-up editorial shot of a fresh Gel-X set — almond or coffin shape, clean cuticle area, high-gloss finish. Establishes what the reader is pricing." },
+        { "image_number": 2, "place_after": "How much does Gel-X cost at a salon?", "section_context": "Soft gel tips fanned out showing different shapes and lengths — visually communicates product variety and the premium nature of the system." },
+        { "image_number": 3, "place_after": "What does Gel-X cost in the UK, Canada and Australia?", "section_context": "Finished Gel-X set on a hand — neutral to suggest universal appeal across markets." },
+        { "image_number": 4, "place_after": "Why is Gel-X more expensive than a regular gel manicure?", "section_context": "Detailed application shot — nail tech applying/curing a Gel-X tip, showing the precision prep work that justifies the higher price." },
+        { "image_number": 5, "place_after": "Does Gel-X have fills — and what does that mean for your total cost?", "section_context": "Before and after — fresh set vs grown-out set showing regrowth gap, contextualising the fill/removal cycle discussion." },
+        { "image_number": 6, "place_after": "How much does Gel-X cost to do at home?", "section_context": "At-home Gel-X kit laid out flat — Aprés starter kit or similar, lamp, tips, extend gel — reinforcing the DIY section." },
+        { "image_number": 7, "place_after": "When does DIY Gel-X become cheaper than the salon?", "section_context": "Finished DIY Gel-X set — demonstrating that quality is achievable at home." },
+        { "image_number": 8, "place_after": "Is a cheap Gel-X set a red flag?", "section_context": "Close-up of a well-executed Gel-X application — tight cuticle fit, no lifting, clean finish — illustrating what quality looks like." }
+      ],
+      "image_type_rule": "ALL body images = inspirational nail design images or product/process editorial images related to Gel-X. NO infographics. NO comparison charts. NO diagrams."
+    },
+
+    "block_4_opening_technique_assignments": {
+      "rule": "No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.",
+      "assignments": [
+        { "section": "Introduction", "technique": "Technique 1 — The Claim: open with a direct, confident statement that validates the reader's confusion and promises resolution" },
+        { "section": "How much does Gel-X cost at a salon?", "technique": "Technique 3 — The Reframe: answer the question immediately in the first sentence, then expand context" },
+        { "section": "What does Gel-X cost in the UK, Canada and Australia?", "technique": "Technique 2 — The Specificity: lead with exact numbers by market, no setup" },
+        { "section": "Why is Gel-X more expensive than a regular gel manicure?", "technique": "Technique 1 — The Claim: state the reason directly, then unpack" },
+        { "section": "Does Gel-X have fills — and what does that mean for your total cost?", "technique": "Technique 3 — The Reframe: answer yes/no first, then explain what that actually means financially" },
+        { "section": "How much does Gel-X cost to do at home?", "technique": "Technique 2 — The Specificity: open with the starter kit total cost, then itemise" },
+        { "section": "When does DIY Gel-X become cheaper than the salon?", "technique": "Technique 1 — The Claim: state the break-even point plainly in the first sentence" },
+        { "section": "Is a cheap Gel-X set a red flag?", "technique": "Technique 3 — The Reframe: answer yes directly, then explain why" },
+        { "section": "Conclusion", "technique": "Technique 1 — The Claim: close with a confident pricing verdict that empowers her to book or decide" }
+      ],
+      "banned_opener_rule": "Check every opener against banned_opening_approaches in blog gen prompt before writing the second sentence"
+    },
+
+    "block_5_link_placements": {
+      "rule": "Every link placed exactly where specified. Anchor texts used verbatim — never rewritten. Links woven into prose naturally — never standalone CTAs.",
+      "links": [
+        {
+          "anchor_text": "gel nails cost",
+          "full_url": "/blog/gel-nails-cost/gel-nails-cost",
+          "place_in_section": "How much does Gel-X cost at a salon?",
+          "placement_context": "After listing Gel-X as one of the higher-priced gel service types — 'For a full breakdown across all gel service types, see our guide to gel nails cost'",
+          "link_type": "cluster-pillar"
+        },
+        {
+          "anchor_text": "gel nail extensions cost",
+          "full_url": "/blog/gel-nails-cost/gel-nail-extensions-cost",
+          "place_in_section": "Why is Gel-X more expensive than a regular gel manicure?",
+          "placement_context": "When distinguishing Gel-X (pre-formed soft gel tips) from hard gel sculpted extensions — 'Unlike traditional gel nail extensions cost, which vary based on sculpting time...'",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "gel manicure cost",
+          "full_url": "/blog/gel-nails-cost/gel-manicure-cost",
+          "place_in_section": "Why is Gel-X more expensive than a regular gel manicure?",
+          "placement_context": "When stating the comparison price — 'A standard gel manicure cost sits at $35–$65 in the US; Gel-X runs $20–$40 higher because...'",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "gel nail removal cost",
+          "full_url": "/blog/gel-nails-cost/gel-nail-removal-cost",
+          "place_in_section": "Does Gel-X have fills — and what does that mean for your total cost?",
+          "placement_context": "After explaining that removal is charged each cycle — 'For what removal typically costs, see our dedicated guide on gel nail removal cost'",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "anchor_text": "comparing Gel-X and acrylic nails on cost and nail health over time",
+          "full_url": "https://mirelleinspo.com/blog/gel-vs-acrylic-almond-nails",
+          "place_in_section": "Does Gel-X have fills — and what does that mean for your total cost?",
+          "placement_context": "When summarising the annual cost difference between Gel-X (full price every visit) and acrylic (cheaper fills) — 'For a full side-by-side, our guide to comparing Gel-X and acrylic nails on cost and nail health over time covers the annual numbers in detail'",
+          "link_type": "cross-site"
+        },
+        {
+          "anchor_text": "whether your natural nails are long enough for Gel-X tips to adhere properly",
+          "full_url": "https://mirelleinspo.com/nail-faqs/can-you-get-nail-extensions-with-short-nails",
+          "place_in_section": "Is a cheap Gel-X set a red flag?",
+          "placement_context": "When explaining that poor tip sizing is the main quality failure in cheap sets — 'If you are unsure whether your natural nails are long enough for Gel-X tips to adhere properly, that answer is here'",
+          "link_type": "cross-site"
+        }
+      ]
+    },
+
+    "block_6_aeo_geo_plan": {
+      "aeo_assignments": [
+        {
+          "aeo_term": "How much does a Gel-X set cost at a salon?",
+          "assigned_to_section": "How much does Gel-X cost at a salon?",
+          "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2 heading — before any elaboration. State the US range ($65–$120 for a standard set, $90–$150+ in major cities) plainly. This is what gets picked up by AI answer engines."
+        },
+        {
+          "aeo_term": "Does Gel-X have fills like acrylic nails?",
+          "assigned_to_section": "Does Gel-X have fills — and what does that mean for your total cost?",
+          "execution": "Write a direct yes/no answer in the first sentence: 'Gel-X does not have a standard fill system the way acrylic does.' Follow immediately with the cost implication. This is the most-searched misunderstanding about Gel-X pricing."
+        },
+        {
+          "aeo_term": "How much does it cost to do Gel-X nails at home for the first time?",
+          "assigned_to_section": "How much does Gel-X cost to do at home?",
+          "execution": "Direct answer in first 2 sentences: starter kit (Aprés Signature Kit ~$85) plus lamp ($40–$60) puts first-time DIY cost at approximately $125–$150 total. After that, each set costs $12–$22 in consumables."
+        },
+        {
+          "aeo_term": "Is a cheap Gel-X set a red flag?",
+          "assigned_to_section": "Is a cheap Gel-X set a red flag?",
+          "execution": "Open with a direct declarative: 'Yes, consistently — and here is why.' Explain that Gel-X pricing below $50 in the US or £40 in the UK usually indicates rushed prep, poorly sized tips, or under-cured gel — all of which cause early lifting."
+        }
+      ],
+      "geo_entity_statements": [
+        {
+          "entity": "Gel-X (Aprés Nail system)",
+          "assigned_to_section": "Why is Gel-X more expensive than a regular gel manicure?",
+          "execution": "Clear declarative definition: 'Gel-X is a proprietary soft gel extension system invented by Aprés Nail in 2017. It uses pre-formed, full-coverage soft gel tips bonded to the natural nail with Extend Gel adhesive and cured under a UV/LED lamp — no sculpting, no acrylic monomer, no drill.' This entity definition makes the post citable by AI systems."
+        },
+        {
+          "entity": "No-fill pricing model",
+          "assigned_to_section": "Does Gel-X have fills — and what does that mean for your total cost?",
+          "execution": "Clear definition: 'Unlike acrylic, which is maintained with infill appointments (typically $25–$45), Gel-X is a soak-off system. Most salons charge the full set price at every visit — usually $65–$120 — because the previous set is fully removed and a new set applied.' This distinguishes Gel-X total cost from acrylic total cost explicitly."
+        }
+      ]
+    },
+
+    "block_7_active_constraints": {
+      "em_dash_banned": "Long em dash does not appear anywhere. If one forms while writing — stop, replace with: comma / new sentence / parentheses / but / restructure.",
+      "banned_vocab_watch": [
+        "delve",
+        "leverage",
+        "stunning",
+        "game-changer",
+        "affordable",
+        "comprehensive",
+        "seamless",
+        "incredible"
+      ],
+      "british_english_active": "colour, recognise, -ise, -our — every instance, no exceptions. practise (verb), practice (noun). specialise not specialize.",
+      "keyword_density_reminder": "After every 2 H2 sections — count current keyword mentions. Verify running total is on track to hit 17 mentions. First half (1050 words) must contain approximately 10 mentions. Adjust if needed.",
+      "image_path_reminder": "/images/blog/gel-nails-cost/gel-x-cost/filename.webp — topic_slug in path always",
+      "internal_link_url_reminder": "Full correct paths only. Cluster links = /blog/gel-nails-cost/[slug]. Cross-site links = exact URL as discovered. Never bare /slug.",
+      "hero_image_reminder": "Hero = frontmatter only. Never place hero image in body.",
+      "strong_tag_reminder": "Every primary keyword mention 'gel-x cost' = <strong> tags. Scan after every paragraph.",
+      "pricing_data_to_use": {
+        "US_salon": "$65–$120 standard set, $90–$150+ major metro (NYC, LA, SF, Miami, Chicago)",
+        "UK_salon": "£55–£95 per set",
+        "Canada_salon": "$55–$90 CAD per set",
+        "Australia_salon": "$80–$140 AUD per set",
+        "US_removal": "$15–$30 standalone, often bundled with new set",
+        "DIY_first_kit": "$125–$150 total (Aprés Signature Kit ~$85 + lamp $40–$60)",
+        "DIY_per_set_after_kit": "$12–$22 in consumables",
+        "DIY_break_even": "3rd to 4th set",
+        "wear_time": "2–3 weeks typical, up to 4 weeks with excellent prep",
+        "acrylic_comparison_full_set": "$45–$80 US / £30–£60 UK",
+        "standard_gel_manicure_comparison": "$35–$65 US"
+      }
+    }
+  }
+}
