@@ -1,0 +1,542 @@
+# THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT
+# All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions in this file must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy.
+
+---
+
+## SECTION 1 — CLUSTER SUMMARY
+
+- **Cluster topic:** Budget Nail Tools
+- **This post:** Best Affordable Gel Nail Kits
+- **Slug:** best-affordable-gel-nail-kits
+- **productType:** budget
+- **Post type:** best-of
+- **Primary keyword:** affordable gel manicure kit / budget gel nail kit
+- **Role:** spoke (links to pillar: best-cheap-gel-nail-polish)
+- **Affiliate region:** USA (US-only products — kit variants ship to US only)
+- **Discount codes active on site:** OFF8 (8% sitewide), MSOFF15 (15% off orders $129.99+)
+
+**Internal links this post must include — mid-post only, after first product CTA:**
+- → `best-cheap-gel-nail-polish` | anchor: "cheap gel nail polish" | type: pillar
+- → `best-budget-nail-drills` | anchor: "budget nail drills" | type: spoke
+- → `best-cheap-uv-nail-lamps` | anchor: "cheap UV nail lamps" | type: spoke
+
+**Posts that link to this post:**
+- best-cheap-gel-nail-polish (anchor: "best affordable gel nail kits")
+- best-budget-nail-drills (anchor: "affordable gel nail kits")
+- best-cheap-uv-nail-lamps (anchor: "affordable gel nail kits")
+
+---
+
+## SECTION 2 — FRONTMATTER BLOCK
+
+**Post gen instruction: Copy this frontmatter block exactly into the post. Do not change any field.**
+
+```yaml
+---
+title: "Best Affordable Gel Nail Kits That Replace Salon Visits"
+excerpt: "Stop paying $60 salon bills. These affordable gel nail kits give you long-lasting gel nails at home for a fraction of the cost."
+slug: best-affordable-gel-nail-kits
+productType: budget
+date: 2026-06-29
+author: jyoti-mirelle
+category: Budget Nail Tools
+image: https://www.melodysusie.com/cdn/shop/files/product_image_341.jpg?v=1757485305&width=1200
+imageAlt: "affordable gel nail kit with UV lamp, gel polishes, base coat and nail tools laid out on white background"
+imageWidth: 1200
+imageHeight: 630
+readTime: 7
+canonical: https://mirelleinspo.com/shop/budget/best-affordable-gel-nail-kits
+postType: best-of
+winnerIndex: 0
+showComparison: true
+showProscons: false
+comparisonCaption: "How these affordable gel nail kits stack up"
+
+products:
+  - name: "Gel Nail Polish Kit with UV Light P-PLUS30F"
+    brand: MelodySusie
+    price: "$59.99"
+    compareAtPrice: "$129.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/product_image_341.jpg?v=1757485305&width=800"
+    link: "https://www.melodysusie.com/products/surprise-gel-nail-polish-kit-red-brown?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    rating: 4.7
+    reviewCount: 0
+    details:
+      - "36W P-PLUS30F lamp with 30 dual LED/UV beads — cures in 30–99s"
+      - "8 gel polishes + base coat, glossy top coat, builder gel included"
+      - "Lasts 28+ days — low odor formula, also includes UV gloves"
+    pros:
+      - "Everything in one box — lamp, 8 colors, builder gel, tools, even UV gloves"
+      - "36W lamp is powerful enough for fast cures without the heat spike"
+      - "Colors go on smooth with no streaking, self-level quickly"
+      - "28+ day wear when prep is done right"
+      - "Compact lamp stores easily — doesn't take up a full drawer"
+    cons:
+      - "US shipping only — international buyers need to order separately"
+      - "8 colors is enough to start but you'll want to expand the collection"
+
+  - name: "6 Colors TPO-Free Thick Gel Nail Polish Set 15ml - Nude Pink"
+    brand: MelodySusie
+    price: "$39.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_1138af7f-f64c-427e-90a9-76a8d79dd639.jpg?v=1737454423&width=800"
+    link: "https://www.melodysusie.com/products/6-colors-thick-gel-nail-polish-set-15ml-nude-pink?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Color Set"
+    rating: 4.8
+    reviewCount: 0
+    details:
+      - "6 x 15ml TPO-free thick gel polish — big capacity bottles"
+      - "Nude pink palette, lasts 21+ days, soak-off formula"
+      - "Non-toxic, low odor, non-yellowing — skin-friendly formula"
+    pros:
+      - "Larger 15ml bottles mean more manicures per bottle than budget competitors"
+      - "Thick formula means fewer streaks and better single-coat coverage"
+      - "Nude pink shades work for work, everyday, and special occasions"
+      - "TPO-free formula — lower irritation risk"
+      - "Buy 3 sets get 20% off with code Colors6"
+    cons:
+      - "Polish only — you need your own lamp and base/top coat"
+      - "Not HEMA-free — not suitable for users with HEMA sensitivity"
+
+  - name: "Fleurwee Plant-Based Gel Nail Polish Set (15ml) - Daily Life"
+    brand: MelodySusie
+    price: "$24.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_cd50b35e-0e6b-4695-8c30-8b5b8743e27a.jpg?v=1719818918&width=800"
+    link: "https://www.melodysusie.com/products/fleurwee-plant-based-gel-nail-polish-set-0-5-fl-oz-15ml-daily-life?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Sensitive Skin"
+    rating: 4.7
+    reviewCount: 0
+    details:
+      - "HEMA-free, HPMA-free, TPO-free — 21 non-toxic, plant-based formula"
+      - "Smooth application with nano-milling tech and curved brush"
+      - "21+ day wear, high gloss, no chipping"
+    pros:
+      - "Plant-based formula with natural extracts — genuinely lower irritation risk"
+      - "Free of HEMA, HPMA, TPO and 21 other harmful chemicals"
+      - "Brush designed for perfect edge-to-edge coverage even for beginners"
+      - "Eco-friendly color paste — better for sensitive skin and eco-conscious users"
+      - "Excellent entry price for the formula quality"
+    cons:
+      - "Polish only — lamp and base/top coat not included"
+      - "Fewer color options at this set size than the 6-color TPO-free sets"
+
+  - name: "Glossy Top Coat & Base Coat Nail Gel Polish 2Pcs 15ml"
+    brand: MelodySusie
+    price: "$11.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/2_15MLBaseCoat_TopCoat-01.jpg?v=1705637247&width=800"
+    link: "https://www.melodysusie.com/products/glossy-top-coat-base-coat-nail-gel-polish-2pcs-15ml?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Value Add-On"
+    rating: 4.6
+    reviewCount: 0
+    details:
+      - "15ml each base coat and glossy top coat — no-wipe finish"
+      - "Compatible with gel polish, extension gel, acrylic, dip powder"
+      - "21+ day shine, non-toxic, low odor — cures in 60–90s"
+    pros:
+      - "Under $12 for two full-size 15ml bottles — exceptional value"
+      - "No-wipe top coat means one less step"
+      - "Works with any gel polish formula — broad compatibility"
+      - "Smooth one-stroke brush application, beginner-friendly"
+    cons:
+      - "Not HEMA-free"
+      - "Top coat alone won't make gel last — proper prep still required"
+
+comparisonTable:
+  features:
+    - "Includes UV lamp"
+    - "Number of gel colors"
+    - "Formula type"
+    - "Bottle size"
+    - "Lamp wattage"
+    - "Lasts up to"
+    - "Price"
+  columns:
+    - label: "P-PLUS30F Kit"
+      values:
+        - true
+        - "8 colors"
+        - "Standard gel"
+        - "15ml"
+        - "36W"
+        - "28+ days"
+        - "$59.99"
+    - label: "6-Color Nude Pink Set"
+      values:
+        - false
+        - "6 colors"
+        - "TPO-free thick gel"
+        - "15ml"
+        - "N/A"
+        - "21+ days"
+        - "$39.99"
+    - label: "Fleurwee Daily Life"
+      values:
+        - false
+        - "Varies by set"
+        - "HEMA/HPMA/TPO-free plant-based"
+        - "15ml"
+        - "N/A"
+        - "21+ days"
+        - "$24.99"
+    - label: "Top & Base Coat 2Pcs"
+      values:
+        - false
+        - "0 (essentials only)"
+        - "Standard gel"
+        - "15ml each"
+        - "N/A"
+        - "21+ days"
+        - "$11.99"
+
+faqs:
+  - question: "What is the cheapest gel nail kit that actually lasts?"
+    answer: "The MelodySusie Fleurwee Daily Life set at $24.99 delivers 21+ day wear at the lowest entry price of any gel polish set here. For a complete kit with lamp included, the P-PLUS30F kit at $59.99 (marked down from $129.99) is the best full-value option — lamp, 8 polishes, and all tools in one box."
+
+  - question: "Do I need a UV lamp for an affordable gel nail kit to work?"
+    answer: "Yes. Gel polish must be cured under a UV or LED lamp — it won't harden or last without one. If you already own a lamp, the polish-only sets (from $24.99) are your cheapest path. If you need everything, the P-PLUS30F kit includes a 36W lamp and all tools at $59.99."
+
+  - question: "How long do gel nails last with an affordable home kit?"
+    answer: "Properly applied, these sets last 21–28+ days. Prep is everything: clean, buffed, oil-free nails before application make the biggest difference. Thin coats cured fully under the lamp are more durable than thick coats at any price point."
+
+  - question: "Is it cheaper to do gel nails at home than go to a salon?"
+    answer: "Yes, significantly. A salon gel manicure typically costs $40–$65 before tip — that's $80–$130 for two appointments. The P-PLUS30F kit at $59.99 pays for itself within one to two uses. Polish-only sets like the Fleurwee Daily Life at $24.99 cost less than a single salon tip."
+
+  - question: "Are affordable gel nail kits safe for sensitive skin?"
+    answer: "Some are. The MelodySusie Fleurwee line is specifically formulated without HEMA, HPMA, or TPO — the three most common nail polish irritants. The Fleurwee Daily Life set at $24.99 is the best choice for users with sensitive skin or previous reactions to standard gel formulas."
+
+  - question: "What is the best affordable gel nail kit for beginners?"
+    answer: "The MelodySusie P-PLUS30F kit is the best beginner pick because it includes everything in one box — lamp, polishes, builder gel, base coat, top coat, and tools. No separate purchases needed. The 36W auto-sensor lamp removes guesswork on curing times."
+
+  - question: "Can I use an affordable gel nail kit for a French manicure?"
+    answer: "Yes. The Fleurwee plant-based polishes are specifically recommended for French manicure styles — their nude and white shades and curved brush make clean tips easier to achieve. The 6-color Nude Pink set also works well for a natural French look."
+
+  - question: "Where can I buy an affordable gel nail kit with fast shipping in the USA?"
+    answer: "All MelodySusie products ship from US warehouses to US addresses. The P-PLUS30F kit, 6-color polish sets, Fleurwee sets, and base/top coat sets all include free US shipping on orders over $129.99. Use code OFF8 for 8% off any order."
+---
+```
+
+---
+
+## SECTION 3 — SEO AND KEYWORD PLAN
+
+**Post gen instruction: Follow this keyword plan exactly. Calculate density before writing — do not estimate.**
+
+**Primary keyword:** affordable gel nail kit (also: budget gel nail kit)
+
+**Keyword density target:** 1.2–1.5% — competitor average. Add 3 extra mentions in first half. For a ~1,400-word post: target 17–21 total primary keyword mentions.
+
+**First 150 words:** Primary keyword must appear exactly 2 times, both in `<strong>` tags.
+
+**ALL primary keyword mentions throughout the entire post:** wrapped in `<strong>` tags.
+
+**High CPC transactional keywords** (weave into CTAs, H2s, mid-post):
+- "gel nail kit with UV light" — high commercial intent
+- "gel nail starter kit" — strong buyer signal
+- "at home gel manicure kit" — high CPC variant
+- "gel nail polish kit beginner" — strong transactional
+- "gel nail kit that lasts" — conversion-focused
+- "best gel nail kit USA" — GEO + transactional
+
+**Keyword variations** (use naturally, no strong tags, no density target):
+- budget gel nail kit
+- cheap gel nail kit
+- gel nail polish kit
+- affordable gel nail polish set
+- DIY gel nail kit
+- gel nail set with lamp
+- gel nail polish starter set
+
+**Transactional cluster keywords** (use throughout):
+- salon gel nails at home
+- gel nails without salon visit
+- long-lasting gel nails
+- gel nail kit vs salon cost
+- gel polish that lasts 3 weeks
+- home gel manicure kit USA
+- gel nail kit free shipping USA
+
+**LSI semantic terms** (weave in naturally):
+- UV/LED curing lamp
+- base coat and top coat
+- soak-off gel polish
+- builder gel
+- nail prep
+- cuticle care
+- no-wipe top coat
+- gel nail removal
+- chip-resistant manicure
+- gel polish longevity
+- HEMA-free gel polish
+- plant-based nail polish
+
+**AEO terms — full question form, each mapped below:**
+
+| AEO term | Maps to |
+|---|---|
+| "What is the cheapest gel nail kit that actually lasts?" | FAQ #1 |
+| "Do I need a UV lamp for gel nails at home?" | FAQ #2 |
+| "How long do gel nails last at home with a kit?" | FAQ #3 |
+| "Is it cheaper to do gel nails at home or go to a salon?" | FAQ #4 |
+| "What gel nail kit is best for sensitive skin?" | FAQ #5 |
+| "What is the best gel nail kit for beginners?" | FAQ #6 |
+| "Can I do a French manicure with an affordable gel kit?" | FAQ #7 |
+| "Where to buy an affordable gel nail kit with fast shipping in the USA?" | FAQ #8 |
+| "What wattage lamp do I need for an at-home gel nail kit?" | H2: "Do You Need a UV Lamp with Your Gel Kit?" |
+| "How much do you save doing gel nails at home vs salon?" | H2: "How Much Does a Gel Kit Actually Save You?" |
+
+**GEO terms** (place near CTAs, availability mentions, product pricing):
+- free shipping USA (near ShopInlineCTA and ShopFinalCTA)
+- gel nail kit online USA (near first product block)
+- best gel nail kit to buy in the USA (near comparison table)
+- MelodySusie ships to USA (near bottom CTA)
+- fast delivery USA gel nails (near ShopFinalCTA)
+
+**Buyer phrase bank** (use naturally in copy):
+- "skipping the salon"
+- "one salon visit pays for the kit"
+- "lasts through dishwashing and workouts"
+- "don't have to wait for an appointment"
+- "tried cheaper sets that peeled in two days"
+- "prep is everything"
+- "thin coats, cure fully"
+- "worth it after the first use"
+- "sensitive skin friendly"
+- "everything in one box"
+- "actually lasts three weeks"
+- "didn't have to buy anything else"
+
+---
+
+## SECTION 4 — COMPETITOR AND TITLE INTELLIGENCE
+
+**Post gen instruction: Use this section to write a title and excerpt that outperforms competitors on CTR. The analysis is done — execute it.**
+
+**Top competitor titles for "affordable gel nail kit" / "best gel nail kit":**
+1. *"13 Best At-Home Gel Nail Kits (2026): Sponsorship Free-Reviews"* — works because of the number + sponsorship-free claim + year. Lacks: no price signal, no benefit clarity.
+2. *"Best Nail Gel Polish Kits for Home Use in 2026"* — generic, no price hook, no benefit.
+3. *"8 Best At-Home Gel Nail Kits of 2025 – Tested & Reviewed"* — tested social proof works. Lacks: no budget angle, no specific benefit.
+
+**Title direction for this post:** Lead with the primary buyer benefit ("replace salon visits") + price signal in the excerpt. Competitors don't frame this as the salon-cost-savings angle — that's the gap. Title already written in frontmatter: "Best Affordable Gel Nail Kits That Replace Salon Visits"
+
+**Competitor gaps — these are MANDATORY H2 sections:**
+- How much you actually save vs salon (no competitor calculated this clearly)
+- Whether you need a lamp or not (buyers are confused — many sets are polish-only)
+- Sensitive skin options (HEMA-free question is widely asked but rarely answered in kit posts)
+- What to look for in a gel kit (competitors either skip this or bury it)
+
+**Word count target:** 1,400 words (competitor average 1,200–1,600; match + small increase)
+
+---
+
+## SECTION 5 — BUYER INTELLIGENCE
+
+**Post gen instruction: Every paragraph of copy must be written for this specific buyer. Use the exact phrases listed here naturally in the copy.**
+
+**Who this buyer is:**
+- Primarily female, 22–45
+- Currently paying $40–$65 per salon gel manicure, 1–2x per month
+- Has either never done home gel nails before OR has tried a cheap Amazon kit that failed
+- Cost-conscious but quality-aware — "cheap" is OK only if it actually works
+- USA based; values fast shipping and easy returns
+
+**What they need from this post:**
+- A clear answer to: "can I actually replace salon visits with a home kit, and which one?"
+- Specific product recommendations at different price points
+- Honest information on whether they need a lamp or can buy polish-only
+
+**What frustrates them:**
+- Kits that peel within days
+- Polish-only sets marketed as "kits" (no lamp included)
+- Vague specs — no wattage info, no bottle sizes
+- Reviews that don't address longevity honestly
+
+**Top 5 buying objections — each must be addressed in the post body:**
+1. "Will it actually last as long as salon gel?" → Address directly in intro and H2 on longevity
+2. "Do I need to buy a lamp too?" → Address in dedicated H2
+3. "I tried a cheap kit before and it peeled" → Address in tips section / H2 on what to look for
+4. "Is it safe for sensitive skin?" → Address in Fleurwee product coverage
+5. "Is it really worth the effort?" → Address in salon cost comparison H2
+
+**Buyer phrase bank — exact phrases to weave in:**
+- "skipping the salon"
+- "one salon visit pays for the kit"
+- "lasts through dishwashing and workouts"
+- "didn't have to buy anything else"
+- "prep is everything"
+- "thin coats, cure fully"
+- "worth it after the first use"
+- "sensitive skin friendly"
+- "actually lasts three weeks"
+- "tried cheaper sets that peeled in two days"
+
+**Recurring praise (editorial from specs + brand positioning):**
+- MelodySusie brand consistently praised for ease of use and beginner-friendliness
+- 36W lamp in P-PLUS30F is a legitimately strong spec at the price point
+- Fleurwee plant-based formula stands out for its HEMA-free + plant-extract differentiation
+
+**Recurring complaints (from category-level research):**
+- Polish-only sets misleadingly marketed as "kits" (not a MelodySusie issue — use as contrast)
+- Peeling in 2–3 days = preparation failure, not product failure (address honestly)
+- Color accuracy variance in cheap sets (MelodySusie's self-leveling formula addresses this)
+
+---
+
+## SECTION 6 — DISCOUNT AND CONVERSION DATA
+
+**Post gen instruction: Include active discount information naturally in the post — real conversion boosters. Place near product CTAs.**
+
+**Active MelodySusie discounts:**
+- Code `OFF8` — 8% off sitewide (any order)
+- Code `MSOFF15` — 15% off orders $129.99+
+- Code `Colors6` — buy 3 gel polish kits or bits, get 20% off (auto-applies at checkout)
+- Mid-Year Sale active: up to 50% OFF on select products
+
+**Sale pricing on featured products:**
+- P-PLUS30F Kit: $59.99 (was $129.99) — 54% off marked-down
+- 6-Color Nude Pink Set: $39.99 (no compare-at available)
+- Fleurwee Daily Life Set: $24.99 (no compare-at available)
+- Top & Base Coat 2Pcs: $11.99 (no compare-at available)
+
+**Where to place discount mention:**
+- Near ShopInlineCTA section: mention `OFF8` code naturally alongside P-PLUS30F kit price
+- Near ShopFinalCTA: mention sale pricing and free US shipping threshold
+
+---
+
+## SECTION 7 — CONTENT STRUCTURE
+
+**Post gen instruction: Use these H2 headings in this exact order. Do not rename, reorder, or remove. Add H3s at your discretion. Each H2 has a directive — follow it.**
+
+**Total word budget: ~1,400 words**
+
+---
+
+### INTRO (no H2 header) — 150–180 words
+
+**Directive:** Open with the salon cost problem immediately. Frame the post as the solution. Include primary keyword exactly 2 times in `<strong>` tags. State the core promise (gel nails at home, 21–28+ day wear, fraction of salon cost). Do NOT open with a question or a literary hook. Lead with the buyer benefit.
+
+**GEO placement:** Mention US availability naturally.
+
+---
+
+### H2: What to Look for in an Affordable Gel Nail Kit — 150 words
+
+**Directive:** Answer the pre-purchase question competitors skip. Cover: lamp included or polish-only (critical), formula quality (TPO-free vs standard), bottle size (15ml = better value), compatibility. Keep it fast — buyers are scanning. No product recommendations here. Set up the comparison.
+
+**AEO mapped here:** "What wattage lamp do I need for an at-home gel nail kit?"
+→ Answer: 36W is plenty for home gel polish; higher wattage matters for builder gel and polygel only.
+
+---
+
+### H2: Best Affordable Gel Nail Kits Right Now — 150 words
+
+**Directive:** Brief bridge paragraph introducing the 4 picks. Cover the range: full kit with lamp ($59.99), color sets ($24.99–$39.99), essentials add-on ($11.99). Mention use code OFF8 naturally here.
+
+**Injection:** `{{PRODUCTS:2:0,1}}` after this section (kit winner + 6-color set side by side)
+
+---
+
+### H2: The Best Complete Kit If You're Starting from Zero — 120 words
+
+**Directive:** Deep dive on the P-PLUS30F kit (index 0). Cover what's in the box specifically (lamp, 8 polishes, builder gel, tools, UV gloves). Sell the 28+ day wear. Address objection 1 (does it last as long as salon). Mention the compare-at price ($129.99 → $59.99) naturally. 
+
+**Internal link placement:** Link to `best-cheap-uv-nail-lamps` with anchor "cheap UV nail lamps" here (after first product CTA).
+
+**Injection:** None here — covered in previous products block.
+
+---
+
+### H2: Polish-Only Picks for Buyers Who Already Own a Lamp — 140 words
+
+**Directive:** Introduce the color-set and plant-based options for buyers who already own a lamp. Frame as the smarter add-on play. Cover the 6-color Nude Pink set and Fleurwee Daily Life. Address objection 4 (sensitive skin). Mention `Colors6` discount code for 3-set purchase naturally.
+
+**Injection:** `{{PRODUCTS:2:2,3}}` after this section (Fleurwee + top/base coat side by side)
+
+**Internal link placement:** Link to `best-cheap-gel-nail-polish` with anchor "cheap gel nail polish" here.
+
+---
+
+### H2: Do You Need a UV Lamp with Your Gel Kit? — 120 words
+
+**Directive:** Direct answer: yes, gel polish requires curing — it won't harden without UV/LED light. Explain the two buyer paths: (1) buy a complete kit with lamp, (2) buy polish sets and pair with a separate lamp. Address the wattage question (36W = fine for home gel polish). This section answers a gap no competitor in the top 5 answered directly.
+
+**AEO mapped here:** "Do I need a UV lamp for gel nails at home?"
+
+**Internal link placement:** Link to `best-budget-nail-drills` with anchor "budget nail drills" here (natural context: "if you want to go further with your home nail setup").
+
+---
+
+### H2: How Much Does a Gel Kit Actually Save You? — 120 words
+
+**Directive:** Do the math for the buyer. Salon gel = $40–$65 per appointment. At 2x per month = $80–$130/month = $960–$1,560/year. P-PLUS30F kit at $59.99 pays for itself in one visit. Fleurwee set at $24.99 costs less than a single tip. Use the phrase "one salon visit pays for the kit." Address objection 5 (is it worth the effort). Keep this punchy — one short paragraph, no filler.
+
+**AEO mapped here:** "How much do you save doing gel nails at home vs salon?"
+
+---
+
+### H2: Tips to Make Your Gel Nails Actually Last — 130 words
+
+**Directive:** Address objection 2 and 3 (previous cheap kit that peeled; will it last). Cover the core prep rules: dry nails, light buffing, clean with alcohol, thin coats, full curing time. Use the phrase "prep is everything." Use the phrase "thin coats, cure fully." Be direct — this is where gel kits fail or succeed and buyers need this. No product links here.
+
+---
+
+### COMPARISON TABLE — auto-rendered via comparisonTable in frontmatter
+
+**ShopTemplate places this automatically after the middle content section.**
+
+---
+
+### CONCLUSION / FINAL PUSH — 80–100 words
+
+**Directive:** Frame as a buying decision, not a summary. Reinforce the salon cost savings angle. Point to the P-PLUS30F as the best starting point for beginners. Mention `OFF8` code again naturally. GEO: mention free US shipping on orders over $129.99. Do not repeat product specs. Drive to purchase.
+
+**GEO placement:** "fast shipping to US addresses" near ShopFinalCTA area.
+
+---
+
+**INJECTION PLAN:**
+- `{{PRODUCTS:2:0,1}}` — after H2 "Best Affordable Gel Nail Kits Right Now"
+- `{{PRODUCTS:2:2,3}}` — after H2 "Polish-Only Picks for Buyers Who Already Own a Lamp"
+
+---
+
+## SECTION 8 — COMPONENT DIRECTIVES
+
+**Post gen instruction: These components fire automatically from frontmatter. Confirm trigger fields in Section 2 are correctly set. Never write component content in body — it auto-renders.**
+
+| Component | Status | Trigger |
+|---|---|---|
+| WinnerBadge | ACTIVE | winnerIndex: 0 set in frontmatter |
+| ShopInlineCTA | ACTIVE | winnerIndex: 0 set in frontmatter |
+| ComparisonTable | ACTIVE | showComparison: true + comparisonTable data present |
+| ProsConsBlock | INACTIVE | showProscons: false |
+| ShopFinalCTA | ALWAYS ACTIVE | products[] exists |
+| ShopFAQ | ACTIVE | faqs[] array has 8 entries |
+| AuthorCard | ALWAYS ACTIVE | author: "jyoti-mirelle" |
+| ShopTableOfContents | ALWAYS ACTIVE | reads H2/H3 from body |
+| Sidebar winner card | ACTIVE | winnerIndex: 0 set |
+
+---
+
+## SECTION 9 — WRITING INSTRUCTIONS
+
+**Post gen instruction: Follow these writing rules for every paragraph of body copy.**
+
+- This is conversion copy — every sentence moves the buyer toward a purchase decision
+- Lead with buyer benefit, not product specs — specs support the benefit, never lead
+- Use buyer phrases from Section 5 naturally — speak their language
+- Address objections directly — do not hedge or avoid them
+- Honest cons build trust — include them as written in the products array
+- Discount info placed near CTAs — OFF8 code mentioned naturally near ShopInlineCTA and at conclusion
+- Primary keyword in `<strong>` tags every mention — no exceptions
+- No editorial literary hooks — open sections with the buyer benefit or buying question directly
+- H2 sections are short and direct — buyers scan, not read
+- Conclusion = final push to purchase — not a summary, a decision driver
+- Internal links placed mid-post after first product CTA — anchor text natural, never forced
+- No related articles section in body — handled by site component
+- Language: American English — not British English
+- No banned AI patterns: no "elevate", "seamlessly", "game-changing", "dive into", "transformative"
+- No long em dashes — use comma or restructure
+- No "we tested" language — write informed editorial observations from specs only
+- No reviews on MelodySusie kit products — use editorial observations based on specs, formula details, and brand positioning
+- Sentence rhythm varies — short punchy for key selling points, longer for context
