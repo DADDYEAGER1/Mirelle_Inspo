@@ -1,0 +1,479 @@
+<!-- THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT. All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions in this file must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy. -->
+
+---
+
+## SECTION 1 — CLUSTER SUMMARY
+
+**Cluster topic:** Nail Gift Sets
+**This post:** Best Self-Care Nail Gift Sets
+**Slug:** best-self-care-nail-gift-sets
+**productType:** gifts
+**Post type:** best-of
+**Primary keyword:** self care gift set nails / spa gift set
+**Role:** Spoke (links back to pillar: best-nail-gift-sets)
+**Affiliate mode:** MelodySusie affiliate — aff=3711 — USA region primary, Tier 1 global
+**Status:** Approved
+
+**Internal links this post must include (mid-post only, after first product CTA):**
+- Links TO: `best-nail-gift-sets` — anchor: "nail gift set" — pillar
+- Links TO: `best-nail-gift-sets-for-men` — anchor: "nail gift sets for men" — spoke
+- Receives links FROM: `best-nail-gift-sets` (anchor: "best self-care nail gift sets") and `best-nail-gift-sets-for-men` (anchor: "self-care nail gift sets")
+
+---
+
+## SECTION 2 — FRONTMATTER BLOCK
+
+**Post gen instruction: Copy this frontmatter block exactly. Do not alter any field. All data is pre-filled and verified.**
+
+```yaml
+---
+title: "Best Self-Care Nail Gift Sets: Spa-Worthy Picks for Any Budget"
+excerpt: "The best self-care nail gift sets for sensitive skin, beginners, and wellness lovers — non-toxic, plant-based, and beautifully packaged."
+slug: "best-self-care-nail-gift-sets"
+productType: "gifts"
+date: "2026-06-29"
+author: "jyoti-mirelle"
+category: "Nail Gifts"
+image: "https://www.melodysusie.com/cdn/shop/files/6391ace427ade714b70fb966024ae804_35798ee8-c772-4499-a883-d0ea2089a77e.jpg?v=1766391277&width=1200"
+imageAlt: "Self care nail gift set with plant-based gel polishes in natural scents beautifully boxed for gifting"
+imageWidth: 1200
+imageHeight: 630
+readTime: "8 min read"
+canonical: "https://mirelleinspo.com/shop/gifts/best-self-care-nail-gift-sets"
+postType: "best-of"
+winnerIndex: 0
+showComparison: true
+showProscons: false
+comparisonCaption: "How the top self-care nail gift sets compare"
+
+products:
+  - name: "Sweet Scent Plant-Based HEMA-Free Gel Polish Gift Set 16.5ml 6Pcs"
+    brand: "MelodySusie"
+    price: "$29.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/6391ace427ade714b70fb966024ae804_35798ee8-c772-4499-a883-d0ea2089a77e.jpg?v=1766391277&width=1200"
+    link: "https://www.melodysusie.com/products/sweet-scent-plant-based-hema-free-hpma-free-tpo-free-gel-nail-polish-set-16-5ml?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    rating: 4.8
+    reviewCount: 0
+    details:
+      - "HEMA-free, HPMA-free, TPO-free — safe for sensitive skin"
+      - "Natural botanical scents: rose, sakura, lavender, lemon, jasmine, cinnamon"
+      - "16.5ml large-capacity bottles — up to 28 days wear"
+    pros:
+      - "No harsh chemical smell — the natural fragrance turns manicure time into a relaxation ritual"
+      - "Plant-based formula is genuinely gentler on sensitive skin and nails"
+      - "Large 16.5ml bottles are noticeably more generous than standard 10ml competitors"
+      - "Beautifully packaged gift box — no extra wrapping needed"
+    cons:
+      - "Requires a UV/LED lamp to cure (not included in this set)"
+      - "Scent preference is personal — some buyers prefer unscented options"
+
+  - name: "Fleurwee Plant-Based HEMA-Free Gel Nail Polish Gift Box 15ml"
+    brand: "MelodySusie"
+    price: "$49.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_20364f49-551d-451c-a7a7-56752ee672fa.jpg?v=1717036037&width=1200"
+    link: "https://www.melodysusie.com/products/15ml-fleurwee-plant-based-gel-nail-polish-gift-box?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Sensitive Skin"
+    rating: 4.7
+    reviewCount: 0
+    details:
+      - "3-Free: HEMA, HPMA, TPO-free — 21 non-toxic formula"
+      - "Eco-friendly color paste, free of heavy metals and plasticizers"
+      - "Up to 21 days high-gloss wear"
+    pros:
+      - "One of the cleanest formulas available — free from 21 harmful chemicals"
+      - "Nature-inspired collection sourced from traceable botanical ingredients"
+      - "Self-leveling brush makes application easy for beginners"
+      - "Packaged in a curated gift box designed to impress"
+    cons:
+      - "Lamp not included — needs to be purchased separately"
+      - "15ml capacity slightly smaller than the Sweet Scent 16.5ml line"
+
+  - name: "Gel Nail Polish Kit with UV Light P-PLUS30F"
+    brand: "MelodySusie"
+    price: "$59.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/product_image_341.jpg?v=1757485305&width=1200"
+    link: "https://www.melodysusie.com/products/surprise-gel-nail-polish-kit-red-brown?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Complete Kit"
+    rating: 4.7
+    reviewCount: 0
+    details:
+      - "Includes P-PLUS30F 36W UV/LED lamp + 8 gel polishes + base/top coat + full tool set"
+      - "28+ day wear formula with low-heat, dual LED/UV curing"
+      - "Everything needed to start from unboxing — builder gel, cuticle tools, chrome powder, stickers"
+    pros:
+      - "All-in-one out of the box — lamp, polishes, and tools in one gift"
+      - "36W lamp with 30/60/99s timers cures standard gels efficiently"
+      - "Includes builder gel and chrome powder — upgrades beyond a basic starter kit"
+      - "Acetone-resistant, ventilated lamp design built for home use longevity"
+    cons:
+      - "Larger box size — not ideal as a compact stocking stuffer"
+      - "8 polish shades are preset — color choice is limited vs. buying individual polishes"
+
+  - name: "Fleurwee Plant-Based Gel Polish Set Colorful Journey 15ml"
+    brand: "MelodySusie"
+    price: "$24.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/3_7a8dbcd1-878e-4e6e-a819-d2734d688d33.jpg?v=1719820656&width=1200"
+    link: "https://www.melodysusie.com/products/fleurwee-plant-based-gel-nail-polish-set-0-5-fl-oz-15ml-colorful-journey?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Value"
+    rating: 4.6
+    reviewCount: 0
+    details:
+      - "Hot trend colors matched for everyday occasions — casual to formal"
+      - "Plant-based formula: HEMA-free, HPMA-free, TPO-free"
+      - "21 days wear, self-leveling curved brush"
+    pros:
+      - "Best price point in the lineup — strong value for a plant-based gift set"
+      - "Trend-matched color curation works across moods and outfits"
+      - "Breathable nail surface after cure — good for nail health with regular use"
+      - "Suitable for beginners and experienced users alike"
+    cons:
+      - "Smaller set size compared to higher-tier options"
+      - "Lamp required for curing — not included"
+
+  - name: "P-Plus20F UV Protection Rechargeable UV/LED Nail Lamp"
+    brand: "MelodySusie"
+    price: "$112.49"
+    image: "https://www.melodysusie.com/cdn/shop/files/381db143255f3e586ea52c1c36d9b5d5_0b184aa9-ce90-4bfa-8350-adc00aff6f30.jpg?v=1736152222&width=1200"
+    link: "https://www.melodysusie.com/products/p-plus20f-uv-protection-rechargeable-uv-led-nail-lamp?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Editor's Pick"
+    rating: 4.8
+    reviewCount: 0
+    details:
+      - "Physical UV skin protection — zoned lighting shields hand skin during curing"
+      - "240° rotatable panel, rechargeable — 300 uses per charge"
+      - "2025 Red Dot Design Award nominee — premium self-care aesthetic"
+    pros:
+      - "Only lamp that actively protects skin from UV exposure during curing — a genuine self-care advantage"
+      - "Rechargeable design works completely wire-free — bath tray, couch, travel"
+      - "Elegant minimalist build that fits a wellness-oriented gift aesthetic"
+      - "Pairs perfectly with any of the plant-based gel sets above"
+    cons:
+      - "Premium price point — best as a standalone splurge gift or upgrade"
+      - "Gel polishes not included"
+
+comparisonTable:
+  features:
+    - "Price"
+    - "Lamp Included"
+    - "Formula Type"
+    - "Wear Time"
+    - "Volume Per Bottle"
+    - "Scented"
+    - "Best For"
+  columns:
+    - label: "Sweet Scent 6Pcs"
+      values:
+        - "$29.99"
+        - "No"
+        - "Plant-based, HEMA-free"
+        - "28 days"
+        - "16.5ml"
+        - "Yes"
+        - "Wellness gifters"
+    - label: "Fleurwee Gift Box"
+      values:
+        - "$49.99"
+        - "No"
+        - "3-Free, 21 non-toxic"
+        - "21 days"
+        - "15ml"
+        - "No"
+        - "Sensitive skin"
+    - label: "P-PLUS30F Kit"
+      values:
+        - "$59.99"
+        - "Yes"
+        - "Low-odor classic"
+        - "28+ days"
+        - "Standard"
+        - "No"
+        - "Complete beginners"
+    - label: "Fleurwee Colorful Journey"
+      values:
+        - "$24.99"
+        - "No"
+        - "Plant-based, HEMA-free"
+        - "21 days"
+        - "15ml"
+        - "No"
+        - "Budget gifters"
+    - label: "P-Plus20F Lamp"
+      values:
+        - "$112.49"
+        - "Lamp only"
+        - "N/A"
+        - "N/A"
+        - "N/A"
+        - "N/A"
+        - "Premium upgrade"
+
+faqs:
+  - question: "What is included in a self-care nail gift set?"
+    answer: "A self-care nail gift set typically includes gel polish colors, a base coat, a top coat, and sometimes a UV/LED lamp and tools. The Sweet Scent 6-piece set includes 6 plant-based gel polishes in a gift-ready box. For a complete everything-in-one kit with lamp and tools, the Gel Polish Kit with UV Light P-PLUS30F is the better pick."
+
+  - question: "Are these gel nail gift sets safe for sensitive skin?"
+    answer: "The plant-based options — the Sweet Scent line and both Fleurwee sets — are HEMA-free, HPMA-free, and TPO-free, which are the three chemicals most commonly linked to gel nail allergies and skin sensitivity. They are among the cleanest gel formulas available for at-home use."
+
+  - question: "Do the nail gift sets come with a UV lamp?"
+    answer: "Most of the polish-only gift sets do not include a lamp. The Gel Nail Polish Kit with UV Light P-PLUS30F includes a full 36W lamp alongside 8 polishes and tools. If the recipient already has a lamp, the Sweet Scent or Fleurwee polish sets are the right choice."
+
+  - question: "How long does the gel polish from these gift sets last?"
+    answer: "The Sweet Scent plant-based polishes and the P-PLUS30F kit polishes both last up to 28 days with proper application. The Fleurwee sets deliver up to 21 days of wear. Using a quality UV/LED lamp and applying thin, even coats makes the biggest difference in longevity."
+
+  - question: "Can I get a discount on MelodySusie nail gift sets?"
+    answer: "Yes. Use code OFF8 for 8% off any order sitewide, or code MSOFF15 for 15% off orders over $129.99. Free US shipping applies to orders over $129.99. MelodySusie also runs seasonal sales — the current Independence Day sale offers up to 50% off selected products."
+
+  - question: "What is a good self-care nail gift set for a beginner?"
+    answer: "The Gel Nail Polish Kit with UV Light P-PLUS30F is purpose-built for beginners — it includes the lamp, 8 polishes, base coat, top coat, cuticle tools, and accessories in one box. The Sweet Scent 6-piece set is also beginner-accessible since plant-based formulas are gentler and easier to work with."
+
+  - question: "Where can I buy a self-care nail gift set with fast shipping in the USA?"
+    answer: "All products featured here are available directly from MelodySusie with US shipping. Orders over $129.99 qualify for free US shipping. Standard orders ship from the US warehouse."
+---
+```
+
+---
+
+## SECTION 3 — SEO AND KEYWORD PLAN
+
+**Post gen instruction: Follow this keyword plan exactly. Calculate density before writing. Primary keyword must appear in `<strong>` tags every mention.**
+
+**Primary keyword:** self care gift set nails
+**Keyword density target:** 1.5% — match competitor density at 1.2% + 3 extra mentions in first half.
+**Total mention target:** ~24 mentions for a 1,600-word post (primary keyword + close variations counted together).
+**First 150 words:** primary keyword must appear exactly 2 times — both in `<strong>` tags.
+**All primary keyword mentions throughout entire post wrapped in `<strong>` tags.**
+
+**Keyword variations (use naturally, no density target, no strong tags):**
+- spa nail gift set
+- spa gift set for nails
+- nail gift set self care
+- nail care gift set spa
+- plant-based nail gift set
+- non-toxic gel nail gift set
+
+**High CPC transactional keywords (weave into CTAs, H2s, mid-post copy):**
+- gel nail polish gift set ($1.80-2.40 CPC)
+- gel nail kit gift ($1.50-2.10 CPC)
+- nail gift set for her ($1.20-1.80 CPC)
+- at-home gel nail kit ($1.60-2.20 CPC)
+- HEMA-free gel nail set ($1.40-2.00 CPC)
+- plant-based nail polish gift ($1.30-1.90 CPC)
+- spa gift set for women ($0.90-1.60 CPC)
+
+**LSI semantic terms (weave in naturally):**
+- nail self care routine
+- at-home manicure ritual
+- gel polish starter set
+- UV LED nail lamp
+- HEMA-free gel polish
+- non-toxic nail care
+- soak-off gel polish
+- cuticle care
+- salon-quality at home
+- plant-based beauty
+- sensitive skin nail polish
+- gel nail polish with lamp
+- nail wellness gift
+
+**AEO terms (each mapped below to H2 or FAQ):**
+
+| AEO Term | Mapped to |
+|---|---|
+| What is a good self-care nail gift set for someone who loves the spa? | H2: "What Makes a Nail Gift Set Actually Feel Like Self-Care?" |
+| Are gel nail polish gift sets safe for sensitive skin? | FAQ entry 2 |
+| What nail gift sets come with everything included? | H2: "The Complete Kit: Best Self-Care Nail Gift Set with Lamp Included" |
+| What wattage UV lamp should I use with a gel nail gift set? | H2: "Do You Need a Lamp? Here's What Comes With Each Set" |
+| Can you give a gel nail kit as a gift without a lamp? | FAQ entry 3 |
+| How long does gel polish from a gift set last? | FAQ entry 4 |
+| What is the best non-toxic nail gift set for women? | H2: "Best HEMA-Free Self-Care Nail Gift Sets for Wellness-Focused Buyers" |
+| Where can I buy a nail gift set with fast shipping in the US? | FAQ entry 7 |
+| Is there a plant-based gel nail polish gift set? | H2: "Best HEMA-Free Self-Care Nail Gift Sets for Wellness-Focused Buyers" |
+| What discount codes work on nail gift sets? | FAQ entry 5 |
+
+**GEO terms (place near product CTAs and availability copy):**
+- best nail gift set to buy online in the USA
+- nail gift sets with fast US shipping
+- where to buy spa nail gift set online USA
+- plant-based nail gift set USA
+- free US shipping nail gift set
+
+---
+
+## SECTION 4 — COMPETITOR AND TITLE INTELLIGENCE
+
+**Post gen instruction: Write a title and excerpt that outperforms these competitors on CTR. The analysis is done — execute it.**
+
+**Top 3 competitor titles for this keyword:**
+1. "Best Gifts for Nail Lovers: Unique & Luxurious Ideas" (luminousnailbar.com) — generic gift guide angle, no product specificity, targets both salon visits and at-home kits, weak buyer benefit signal.
+2. "Nail Care Gift Sets — Best Picks for 2025" (Cosmetify) — good keyword placement but no self-care/wellness angle, not specific to gel format.
+3. "Hand Nail Care Gift Set — 60+ Gift Ideas for 2025" (Etsy) — high volume aggregator, no brand differentiation, no formula angle.
+
+**Title direction to beat them:** Lead with "self-care" + the specific wellness/spa benefit (non-toxic, plant-based) + price clarity signal. Our title does this: it names "spa-worthy," specifies "any budget," and puts primary keyword naturally in first 8 words.
+
+**Competitor gaps this post must fill:**
+- No competitor covers the HEMA-free / plant-based formula angle for gifting
+- None address the lamp-included vs. polish-only buying decision
+- No FAQ coverage of "is this safe for sensitive skin" in context of gift-giving
+- No comparison table across price points
+
+**Word count target:** 1,600 words (competitor average ~1,100-1,300 + buffer for comparison table and FAQ which auto-render separately).
+
+---
+
+## SECTION 5 — BUYER INTELLIGENCE
+
+**Post gen instruction: Every paragraph must be written for this specific buyer. Use exact phrases from the bank naturally in copy.**
+
+**Who this buyer is:**
+- Predominantly women aged 25-45 buying for themselves, a friend, or a sister
+- Wellness-oriented — they care about ingredients, skin safety, and clean beauty
+- Not necessarily a nail art expert — they want something that looks elevated without complexity
+- Motivated by the relaxation ritual of home manicure, not just the end result
+- May have experienced gel allergy or skin sensitivity in the past
+
+**What they need from this post:**
+- Confirmation that these sets are actually non-toxic and safe for sensitive skin
+- Clear guidance on whether they need to buy a lamp separately
+- A "winner" recommendation they can buy without overthinking it
+
+**Top 5 buying objections:**
+1. "Will this irritate my skin like other gel polishes?" → Answer in product descriptions using HEMA-free spec + plant-based angle
+2. "Does it come with everything or do I need to buy a lamp?" → Answer directly in H2 section
+3. "Is $30-$60 worth it vs. just going to the salon?" → Answer with math: 1-2 salon visits = cost of full kit
+4. "Will it actually last 3-4 weeks or is that marketing?" → Address honestly — 21-28 days is accurate with proper prep and thin coats
+5. "Is the packaging actually gift-worthy or will I need to rewrap it?" → Address packaging directly
+
+**Buyer phrase bank (use naturally):**
+- "saves money going to the salon"
+- "finally found polish that doesn't irritate my skin"
+- "feels like a spa day at home"
+- "no chemical smell"
+- "beautiful packaging, makes a great gift"
+- "easy to apply, even for beginners"
+- "lasts 3 weeks without chipping"
+- "colors are true to photo"
+- "rechargeable lamp is so convenient"
+- "perfect for sensitive skin"
+- "salon quality at home"
+- "I skip the salon now"
+- "gift for the self-care lover in your life"
+
+---
+
+## SECTION 6 — DISCOUNT AND CONVERSION DATA
+
+**Post gen instruction: Include active discount information naturally — real conversion boosters. Place near ShopInlineCTA section and ShopFinalCTA area.**
+
+Active discounts as of June 2026:
+- Code **OFF8** — 8% off sitewide
+- Code **MSOFF15** — 15% off orders over $129.99
+- **Free US shipping** on orders over $129.99
+- **Independence Day Sale** — up to 50% off on selected products (currently active)
+
+**Placement:** Mention naturally in the section before the ShopFinalCTA — e.g., "Use code OFF8 for 8% off any order, or MSOFF15 to save 15% when you spend over $129.99."
+
+---
+
+## SECTION 7 — CONTENT STRUCTURE
+
+**Post gen instruction: Use these H2 headings in this exact order. Do not rename, reorder, or remove. Add H3s at your discretion within sections. Follow all directives exactly.**
+
+### H2-1: What Makes a Nail Gift Set Actually Feel Like Self-Care?
+- **Directive:** Open the post with the buyer's core motivation — the spa/relaxation experience vs. just nail polish. Cover: what separates a self-care nail gift from a generic kit (scented formula, clean ingredients, beautiful packaging, meditative home ritual). Lead with buyer benefit, not specs.
+- **AEO mapped:** "What is a good self-care nail gift set for someone who loves the spa?"
+- **GEO term:** mention "best nail gift set to buy online in the USA" naturally in context
+- **Injection:** `{{PRODUCTS:1:0}}` — featured layout for winner product (Sweet Scent Set)
+- **Word budget:** 200 words
+
+---
+
+### H2-2: Best HEMA-Free Self-Care Nail Gift Sets for Wellness-Focused Buyers
+- **Directive:** Cover the Sweet Scent 6-piece set ($29.99) and the Fleurwee Gift Box ($49.99) in depth. Lead with the sensitive skin angle — what HEMA-free means practically (less risk of allergic reaction, gentler on nail bed). Use buyer phrase "finally found polish that doesn't irritate my skin." Address objection: "Is non-toxic gel polish actually effective?"
+- **AEO mapped:** "What is the best non-toxic nail gift set for women?" and "Is there a plant-based gel nail polish gift set?"
+- **Injection:** `{{PRODUCTS:2:0,1}}` — side-by-side grid of products 0 and 1
+- **Word budget:** 280 words
+
+---
+
+### H2-3: Do You Need a Lamp? Here's What Comes With Each Set
+- **Directive:** Address the #1 practical buying concern directly. Explain: polish-only sets (Sweet Scent, Fleurwee) require a lamp. The P-PLUS30F kit includes everything. Frame the P-Plus20F lamp as the premium standalone upgrade for someone who already has polishes. Be direct — buyers hate vague answers here.
+- **AEO mapped:** "What wattage UV lamp should I use with a gel nail gift set?" and "Can you give a gel nail kit as a gift without a lamp?"
+- **Internal links go HERE:** After this section, place: link to `best-nail-gift-sets` with anchor "nail gift set" and link to `best-nail-gift-sets-for-men` with anchor "nail gift sets for men"
+- **Injection:** `{{PRODUCTS:2:2,4}}` — grid of products 2 (full kit) and 4 (lamp)
+- **Word budget:** 250 words
+
+---
+
+### H2-4: The Complete Kit: Best Self-Care Nail Gift Set with Lamp Included
+- **Directive:** Focus on the P-PLUS30F Complete Kit ($59.99) as the go-to for buyers who want everything in one box. Use buyer phrases: "salon quality at home," "I skip the salon now." Run the math on salon savings vs. kit cost. Address: "Is $60 worth it?" — yes, one salon gel manicure in the US averages $35-55 plus tip.
+- **AEO mapped:** "What nail gift sets come with everything included?"
+- **Injection:** `{{PRODUCTS:1:2}}` — featured layout for product 2 (P-PLUS30F kit)
+- **Word budget:** 220 words
+
+---
+
+### H2-5: Best Budget Self-Care Nail Gift Set: Great Polish, Lower Price
+- **Directive:** Cover the Fleurwee Colorful Journey set ($24.99) as the best value pick. Speak directly to the buyer who wants to gift something thoughtful without spending $50+. Address: plant-based credentials, color curation. Mention natural shipping speed + discount codes.
+- **GEO terms:** "plant-based nail gift set USA," "fast US shipping nail gift set"
+- **Discount mention:** Place OFF8 and MSOFF15 codes naturally here
+- **Injection:** `{{PRODUCTS:1:3}}` — featured layout for product 3 (Fleurwee Colorful Journey)
+- **Word budget:** 180 words
+
+---
+
+### Conclusion H2: Which Self-Care Nail Gift Set Is Right For You?
+- **Directive:** Final decision driver — NOT a summary. Use a short buyer-mapped recommendation table (prose, not HTML table): If X, buy Y. Four scenarios. Drive to purchase. End with reinforcement of discount codes + free shipping threshold.
+- **Word budget:** 150 words
+
+---
+
+**Injection plan summary:**
+1. After H2-1 intro: `{{PRODUCTS:1:0}}` — featured winner
+2. After H2-2 body: `{{PRODUCTS:2:0,1}}` — Sweet Scent + Fleurwee Gift Box
+3. After H2-3 body: `{{PRODUCTS:2:2,4}}` — Full Kit + Premium Lamp
+4. After H2-4 body: `{{PRODUCTS:1:2}}` — Full Kit featured
+5. After H2-5 body: `{{PRODUCTS:1:3}}` — Value Pick featured
+
+---
+
+## SECTION 8 — COMPONENT DIRECTIVES
+
+**Post gen instruction: These components fire automatically from frontmatter. Confirm trigger fields in Section 2 are correctly set. Never write component content in body — it auto-renders.**
+
+| Component | Status | Trigger |
+|---|---|---|
+| WinnerBadge | ACTIVE | winnerIndex: 0 set in frontmatter |
+| ShopInlineCTA | ACTIVE | winnerIndex: 0 set in frontmatter |
+| ComparisonTable | ACTIVE | showComparison: true + comparisonTable data present |
+| ProsConsBlock | INACTIVE | showProscons: false |
+| ShopFinalCTA | ALWAYS ACTIVE | products[] exists |
+| ShopFAQ | ACTIVE | faqs[] has 7 entries |
+| AuthorCard | ALWAYS ACTIVE | author: "jyoti-mirelle" |
+| ShopTableOfContents | ALWAYS ACTIVE | reads H2/H3 from body |
+| Sidebar_winner_card | ACTIVE | winnerIndex: 0 set |
+
+---
+
+## SECTION 9 — WRITING INSTRUCTIONS
+
+**Post gen instruction: Follow every rule below for every paragraph of body copy.**
+
+1. This is conversion copy — every sentence moves the buyer toward a purchase decision.
+2. Lead with buyer benefit, not product specs — specs support the benefit.
+3. Use buyer phrases from Section 5 naturally — "feels like a spa day at home," "no chemical smell," "saves money going to the salon."
+4. Address buying objections directly — especially the lamp question and the skin safety question.
+5. Honest cons build trust — they're already in the product cards; reinforce briefly in body where relevant, then counter.
+6. Discount information placed near ShopInlineCTA and ShopFinalCTA — mention naturally, not as a standalone paragraph.
+7. Primary keyword in `<strong>` tags every mention — no exceptions.
+8. No editorial literary hooks — open sections with the buyer benefit or buying question directly.
+9. H2 sections are short and direct — buyers scan.
+10. Conclusion = decision driver — not a summary.
+11. Internal links placed mid-post in H2-3 section only — after first product CTA. Anchor text natural.
+12. No related articles section.
+13. Language: American English only.
+14. No banned AI patterns: no "elevate," "seamlessly," "game-changing," "dive into," "transformative."
+15. No long em dashes — use comma or restructure.
+16. No "we tested" language — editorial observations from specs and buyer intelligence only.
+17. Sentence rhythm varies — short punchy sentences for key selling points, longer for context.
+18. Target: 1,600 words in body copy (not counting auto-rendered components).
