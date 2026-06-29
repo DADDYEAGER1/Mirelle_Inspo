@@ -1,0 +1,524 @@
+# THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT.
+# All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy.
+
+---
+
+## SECTION 1 — CLUSTER SUMMARY
+
+- **Cluster topic:** Gel Nail Polish Sets with UV Light
+- **This post:** Best Value Gel Nail Polish Sets with Lots of Colors
+- **Slug:** best-value-gel-nail-polish-sets
+- **productType:** gel-nail-kits
+- **Post type:** best-of
+- **Primary keyword:** gel nail polish set (value/color-count bundle angle — 24, 36, 57, 60 colors)
+- **Role:** Spoke
+- **Affiliate brand:** MelodySusie only
+- **Region:** USA
+
+**Internal links this post must include** (mid-post only, after first product CTA):
+1. Link to pillar → anchor: "gel nail polish set" → /shop/gel-nail-kits/best-gel-nail-polish-sets
+2. Link to spoke 2 → anchor: "gel nail kits for a complete manicure" → /shop/gel-nail-kits/best-gel-nail-kits-complete-manicure
+3. Link to spoke 3 → anchor: "HEMA-free gel nail polish sets" → /shop/gel-nail-kits/best-hema-free-gel-nail-polish-sets
+
+**Posts that link to this post:**
+- best-gel-nail-polish-sets (anchor: "best value gel nail polish sets with lots of colors")
+- best-gel-nail-kits-complete-manicure (anchor: "value gel nail polish sets with lots of colors")
+- best-hema-free-gel-nail-polish-sets (anchor: "value gel nail polish sets with lots of colors")
+
+---
+
+## SECTION 2 — FRONTMATTER BLOCK
+
+> **POST GEN INSTRUCTION:** Copy this frontmatter block exactly into the post. Do not change any field. All data is pre-filled.
+
+```yaml
+---
+title: "Best Value Gel Nail Polish Sets with Lots of Colors (2025)"
+excerpt: "Get more colors, more polish, more value. These gel nail polish sets give you 24–57 shades with HEMA-free formulas and up to 28-day wear."
+slug: best-value-gel-nail-polish-sets
+productType: gel-nail-kits
+date: 2025-07-01
+author: jyoti-mirelle
+category: Gel Nail Kits
+image: https://www.melodysusie.com/cdn/shop/files/1_6f08e217-0f7c-44aa-bba5-796e90fff8a9.jpg?v=1766390604&width=2048
+imageAlt: "Best value gel nail polish sets with lots of colors — MelodySusie Super Value HEMA-Free Bundle with 24 shades and UV lamp"
+imageWidth: 1200
+imageHeight: 630
+readTime: "6 min read"
+canonical: https://mirelleinspo.com/shop/gel-nail-kits/best-value-gel-nail-polish-sets
+postType: best-of
+winnerIndex: 0
+showComparison: true
+showProscons: false
+comparisonCaption: "How the top value gel nail polish sets compare on color count, formula, and what's included"
+
+products:
+  - name: "Super Value HEMA-Free Gel Bundle"
+    brand: "MelodySusie"
+    price: "$249.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_6f08e217-0f7c-44aa-bba5-796e90fff8a9.jpg?v=1766390604&width=2048"
+    link: "https://www.melodysusie.com/products/black-friday-limitd-super-value-hema-free-gel-bundle?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    rating: 4.8
+    reviewCount: 0
+    details:
+      - "24 HEMA-free gel colors + UV/LED lamp + base coat + top coat + builder gel + tools"
+      - "Lasts up to 28 days — full salon setup in one box"
+      - "HEMA-free formula: low-odor, safer for sensitive skin"
+    pros:
+      - "Everything included — lamp, base, top, builder gel, color display book, brushes — nothing to buy separately"
+      - "24 colors covers all seasons and occasions without feeling overwhelming"
+      - "HEMA-free formula is low-odor and safer for at-home use"
+      - "Builder gel included makes it suitable for nail extensions, not just polish"
+      - "Large capacity setup — ideal for salon owners or serious DIYers"
+    cons:
+      - "Higher price point — this is a full professional kit investment, not a starter experiment"
+      - "24 colors suits most buyers but won't satisfy someone specifically hunting 50+ shades"
+
+  - name: "HEMA-Free Gel Nail Polish Set 57 Colors"
+    brand: "MelodySusie"
+    price: "$399.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/hema57_4c43dc75-2e89-4f60-92e0-b3ef0c63f453.jpg?v=1775184412&width=2048"
+    link: "https://www.melodysusie.com/products/hema-free-gel-nail-polish-0-5fl-oz-15ml-57-colors?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Most Colors"
+    rating: 4.7
+    reviewCount: 0
+    details:
+      - "57 HEMA-free gel colors at 15ml each — salon-scale color range"
+      - "Cures in 60–90 seconds under UV/LED lamp, lasts up to 28 days"
+      - "Highly saturated, high-gloss finish — covers all seasons and skin tones"
+    pros:
+      - "57 shades is a true salon-scale collection — covers every season, skin tone, and mood"
+      - "15ml bottles are full-size — not the tiny 5ml bottles found in cheaper kits"
+      - "HEMA-free formula reduces allergy risk without sacrificing color payoff"
+      - "Works for French manicures, nail art, and solid color looks"
+    cons:
+      - "Colors only — no lamp, base coat, or top coat included, which means additional purchase required"
+      - "Higher per-set cost — better value when you already have a lamp and essentials"
+
+  - name: "Gel Nail Polish Full Set (Fleurwee Plant-Based 42 Colors)"
+    brand: "MelodySusie"
+    price: "$239.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/bundle-1_1cc27377-84df-4449-9c14-dc0003abcbfc.jpg?v=1775184412&width=2048"
+    link: "https://www.melodysusie.com/products/gel-nail-polish-full-set?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Clean Beauty"
+    rating: 4.7
+    reviewCount: 0
+    details:
+      - "42 Fleurwee plant-based colors — HEMA-free, HPMA-free, TPO-free, 21 non-toxic"
+      - "Nano-milling curved brush for smooth, self-leveling application"
+      - "Up to 21 days wear with high-gloss, no-chip finish"
+    pros:
+      - "Fleurwee formula is free from 21 harmful chemicals including heavy metals — one of the cleanest options available"
+      - "42 colors with plant-based pigments covers a full year of looks"
+      - "Nano-milling technology means fewer coats needed for full coverage"
+      - "Eco-conscious sourcing — traceable raw materials, low-carbon production"
+    cons:
+      - "21-day wear claim is slightly shorter than competing HEMA-free formulas"
+      - "Plant-based formula can have a slightly different consistency — needs thin coats for best results"
+
+  - name: "Sweet Scent Plant-Based Gel Nail Polish 36 Colors Full Set"
+    brand: "MelodySusie"
+    price: "$309.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_9e3b59cc-f0d0-45db-8409-65de6defe6c0.jpg?v=1779097056&width=2048"
+    link: "https://www.melodysusie.com/products/sweet-scent-plant-based-hema-free-hpma-free-tpo-free-gel-nail-polish-36-colors-full-set?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Editor's Pick"
+    rating: 4.8
+    reviewCount: 0
+    details:
+      - "36 plant-based colors — TPO-free, HEMA-free, HPMA-free, naturally scented"
+      - "7 aromatherapy-inspired scents (jasmine, rose, lemon, cinnamon, sakura, vanilla, lavender)"
+      - "Innovative tilt-and-stand bottle for easy gel access — lasts up to 28 days"
+    pros:
+      - "The only gel polish set that smells good — 7 natural scents make at-home manicures feel like a spa session"
+      - "3-free formula (HEMA, HPMA, TPO) with IFRA-certified fragrance — safe even for sensitive users"
+      - "Tilt-and-stand bottle design is genuinely easier to use than standard round bottles"
+      - "36 curated shades cover neutrals, bolds, and seasonals — no filler colors"
+    cons:
+      - "Premium price for 36 colors — cost per shade is higher than the 57-color set"
+      - "10ml bottle size is smaller than the 15ml or 16.5ml sizes on other sets"
+
+comparisonTable:
+  features:
+    - "Color Count"
+    - "Bottle Size"
+    - "Formula"
+    - "Lamp Included"
+    - "Base + Top Coat Included"
+    - "Tools Included"
+    - "Max Wear Time"
+    - "Scented"
+    - "Price"
+  columns:
+    - name: "Super Value Bundle"
+      values:
+        - "24 colors"
+        - "15ml"
+        - "HEMA-Free"
+        - true
+        - true
+        - true
+        - "28 days"
+        - false
+        - "$249.99"
+    - name: "57 Colors Set"
+      values:
+        - "57 colors"
+        - "15ml"
+        - "HEMA-Free"
+        - false
+        - false
+        - false
+        - "28 days"
+        - false
+        - "$399.99"
+    - name: "Fleurwee 42 Colors"
+      values:
+        - "42 colors"
+        - "15ml"
+        - "Plant-Based 21-Non-Toxic"
+        - false
+        - false
+        - false
+        - "21 days"
+        - false
+        - "$239.99"
+    - name: "Sweet Scent 36 Colors"
+      values:
+        - "36 colors"
+        - "10ml"
+        - "HEMA/HPMA/TPO-Free"
+        - false
+        - false
+        - false
+        - "28 days"
+        - true
+        - "$309.99"
+
+faqs:
+  - question: "Which gel nail polish set gives you the most colors for the money?"
+    answer: "The HEMA-Free 57-Color Set at $399.99 gives the highest color count — about $7 per color at 15ml bottles. If you already have a lamp and essentials, this is the highest color-count value. If you need everything from scratch, the Super Value Bundle at $249.99 (24 colors plus lamp, base, top, builder gel, and tools) is the better all-in value because you're not buying extras separately."
+
+  - question: "Do these gel nail polish sets work with any UV lamp?"
+    answer: "Yes. All MelodySusie gel nail polish sets are compatible with any standard UV/LED nail lamp. The recommended cure time is 60–90 seconds per layer. If you use the Super Value Bundle, the included lamp is already matched to the formula, so no guesswork."
+
+  - question: "How long do gel nail polish sets with lots of colors actually last on nails?"
+    answer: "With proper prep — dehydrating, thin coats, capping the free edge — these formulas last 21 to 28 days. The HEMA-Free and Sweet Scent formulas are rated for 28 days. The Fleurwee plant-based set is rated for 21 days. Longevity depends heavily on application technique, not just the formula."
+
+  - question: "Are gel nail polish sets with 36+ colors good for beginners?"
+    answer: "Yes, but pick the right one. The Super Value Bundle is the best starting point for beginners because the lamp, base, and top coat are all matched and included. The larger color-only sets (42, 57 colors) assume you already have a working lamp and essentials. Starting with those without existing tools means an additional purchase."
+
+  - question: "Is it cheaper to buy a big gel nail polish set or individual colors?"
+    answer: "A multi-color set is significantly cheaper per bottle. Individual gel polish colors typically run $8–15 each. The 57-Color HEMA-Free Set works out to about $7 per 15ml bottle — well below the cost of buying separately. For salon owners especially, large sets offer the best cost-per-service value."
+
+  - question: "Can I use these gel nail polish sets to do nail art at home in the USA?"
+    answer: "Yes. All four sets work for standard gel manicures and nail art at home. The Fleurwee and Sweet Scent sets are also available with free shipping on orders over $129.99 to US addresses. The Super Value Bundle ships from US-based warehouses. Use code OFF8 for 8% off sitewide."
+
+  - question: "What is the difference between HEMA-free and plant-based gel nail polish?"
+    answer: "HEMA-free means the formula excludes 2-Hydroxyethyl Methacrylate, the most common allergen in gel polish. Plant-based goes further — the Fleurwee and Sweet Scent formulas also replace fossil-based ingredients with renewable plant-derived materials and exclude HPMA and TPO as well. If you have sensitive skin, plant-based and HEMA-free are both good choices; the Sweet Scent set excludes all three allergens."
+---
+```
+
+---
+
+## SECTION 3 — SEO AND KEYWORD PLAN
+
+> **POST GEN INSTRUCTION:** Follow this keyword plan exactly. Calculate density before writing — do not estimate.
+
+**Primary keyword (locked):** gel nail polish set
+
+**Keyword density target:** 1.5% — match competitor average. Add 3 extra mentions in first half of post. Total target: approximately 20 mentions in a 1,300-word body.
+
+**First 150 words:** Primary keyword must appear exactly 2 times — both in `<strong>` tags.
+
+**ALL primary keyword mentions throughout entire post must be wrapped in `<strong>` tags.**
+
+**High CPC transactional keywords (weave into CTAs, H2s, mid-copy):**
+- "gel nail polish set" (primary — estimated $1.20–1.80 CPC)
+- "gel nail kit with everything" (~$1.40 CPC)
+- "best gel nail polish set for home use" (~$1.60 CPC)
+- "HEMA-free gel nail polish set" (~$1.50 CPC)
+- "gel polish set 36 colors" (~$0.90 CPC)
+- "gel nail polish set with UV light" (~$1.30 CPC)
+- "value gel nail polish set" (~$0.80 CPC)
+
+**Keyword variations (use naturally, no density target, no strong tags):**
+- gel polish color set
+- nail gel set
+- gel nail color collection
+- gel nail manicure set
+- soak-off gel polish set
+- gel nail polish bundle
+- large gel polish collection
+
+**Transactional cluster keywords (use throughout):**
+- buy gel nail polish set online USA
+- gel nail polish set free shipping
+- best gel nail polish for home
+- gel polish kit with lamp
+- at-home gel nail set
+- gel nail polish set cheap vs quality
+
+**LSI semantic terms (weave naturally):**
+- UV LED nail lamp
+- soak-off formula
+- salon-quality nails at home
+- long-lasting gel polish
+- nail prep, base coat, top coat
+- cure time gel nails
+- gel nail removal
+- chip-resistant formula
+- color payoff gel polish
+- pigmentation nail gel
+- nail art at home
+- cuticle care gel nails
+
+**AEO terms — mapped to sections:**
+| AEO Term | Mapped To |
+|---|---|
+| "Which gel nail polish set gives you the most colors?" | FAQ #1 |
+| "What's the best value gel nail polish set for home use?" | H2: "How to Pick the Best Value Gel Set for Your Needs" |
+| "Do big gel nail polish sets work with any UV lamp?" | FAQ #2 |
+| "How long does gel nail polish last with a 36-color set?" | FAQ #3 |
+| "Is a 57-color gel nail polish set worth it?" | H2: "Best for Serious Color Collectors: 57-Color HEMA-Free Set" |
+| "Can beginners use a 36-color gel nail polish set?" | FAQ #4 |
+| "What is the difference between HEMA-free and plant-based gel polish?" | FAQ #7 |
+| "Is it cheaper to buy a bundle or individual gel nail polish?" | FAQ #5 |
+| "Where to buy gel nail polish set with free shipping in the USA?" | FAQ #6 |
+| "What gel nail polish sets last the longest?" | H2: "What to Look for in a Value Gel Nail Polish Set" |
+
+**GEO terms (near CTAs and availability copy):**
+- best gel nail polish set to buy in the USA
+- gel nail polish set free US shipping
+- where to buy gel nail polish set online in USA
+- gel nail polish set fast shipping USA
+- does MelodySusie ship to USA (yes — free on orders over $129.99)
+
+**Buyer phrase bank (from Amazon reviews, Quora, SERP):**
+- "saves me from the salon"
+- "so many cute colors for the price"
+- "bottles are full-size, not tiny"
+- "pigmented in two coats"
+- "worth it — paid what I used to pay for one visit"
+- "lasted two weeks without chipping"
+- "great starter setup — nothing to buy separately"
+- "I can finally do my own nails at home"
+- "enough colors to match any outfit"
+- "HEMA-free so my skin doesn't react"
+
+---
+
+## SECTION 4 — COMPETITOR AND TITLE INTELLIGENCE
+
+> **POST GEN INSTRUCTION:** Use this to write a title and excerpt that outperforms competitors on CTR. Analysis is done — execute it.
+
+**Top 3 competitor titles analyzed:**
+1. "Best Gel Nail Polish Kits for Beginners (2025)" — focuses on beginners, misses the value/color-count angle entirely
+2. "36 Colors Gel Polish Kit Review" — single product, no comparison, no buyer benefit in headline
+3. "Best At-Home Gel Nail Kits 2025" — generic, no color-count or value signal
+
+**What they miss:**
+- None lead with the value angle ("lots of colors" + "per-color cost" argument)
+- None address the specific buyer question: "how many colors do I actually get?"
+- None mention HEMA-free as a buying qualifier in the headline
+- All avoid specific color counts in the title, which is exactly what this buyer is searching with
+
+**Title direction:** Our title must immediately signal color count + value. The "Best Value Gel Nail Polish Sets with Lots of Colors" title signals both. Headline could strengthen with a year tag for freshness.
+
+**Competitor gaps — these are MANDATORY H2 sections:**
+1. No competitor answers "what's the per-color cost" — we address this in the intro
+2. No competitor explains when to buy a color-only set vs. a full bundle (lamp included) — we have a dedicated H2 for this
+3. None address large-format sets for salon owners vs home users — we cover this
+4. None mention HEMA-free as a filter for value sets — we build this angle into multiple sections
+
+**Word count target:** 1,300 words body copy (competitor average ~1,100, we target 1,300 + sections)
+
+---
+
+## SECTION 5 — BUYER INTELLIGENCE
+
+> **POST GEN INSTRUCTION:** Every paragraph of copy must be written for this specific buyer. Use the exact phrases listed here naturally in the copy.
+
+**Who this buyer is:**
+- Home DIY manicure user or semi-professional who has done gel nails before
+- Wants a large color collection — not just 6 basics — so they can match outfits, seasons, and moods
+- Comparing kits specifically by color count and price-per-color
+- Not a complete beginner — they know gel polish needs a lamp and base/top coat
+- Frustrated by tiny 5ml bottles in cheap kits that run out fast
+
+**What they need from this post:**
+- Clear answer to: "how many colors do I actually get and is it worth the price?"
+- Comparison of sets that includes what's bundled (lamp, base, top) vs. color-only
+- Honest breakdown of formula differences (HEMA-free vs. plant-based vs. standard)
+- A recommended winner that matches their budget and starting point (with vs. without existing tools)
+
+**What frustrates them:**
+- Vague "best value" claims with no actual per-color math
+- Small bottle sizes not disclosed upfront
+- Sets marketed as "complete" that don't actually include a lamp
+- No honest information about which formulas are safer or longer-lasting
+
+**Top 5 buying objections (address all in post):**
+1. "Will these colors actually last 21–28 days or is that exaggerated?" → Address in intro + H2 on what to look for
+2. "Is paying $400 for 57 colors worth it vs. just buying 10 colors I'll use?" → Address in value math H2
+3. "Do I need to buy a lamp separately, or is it included?" → Address in comparison table + dedicated H2
+4. "Are these formulas safe for sensitive skin?" → Address via HEMA-free explanation
+5. "Will shipping to the US take forever?" → Address near CTAs with free US shipping mention
+
+**Buyer phrase bank:**
+- "saves me from the salon"
+- "so many cute colors for the price"
+- "pigmented in two coats, not three"
+- "worth it — paid what I used to pay for one salon visit"
+- "lasted two weeks without chipping, three with good prep"
+- "enough colors to match any outfit any season"
+- "full-size bottles, not the tiny ones"
+- "I finally don't have to go to the nail shop"
+- "HEMA-free so my skin doesn't react"
+- "great for me and my partner — still have enough left"
+
+---
+
+## SECTION 6 — DISCOUNT AND CONVERSION DATA
+
+> **POST GEN INSTRUCTION:** Include active discount information naturally near product CTAs — real conversion boosters.
+
+**Active MelodySusie discount codes (confirmed):**
+- **CODE: OFF8** — 8% off sitewide (all products)
+- **CODE: MSOFF15** — 15% off orders over $129.99
+- **Free US shipping** on orders over $129.99
+- Mid-Year Sale running — up to 50% off select products
+
+**Placement:** Mention OFF8 near the ShopInlineCTA section. Mention free shipping near ShopFinalCTA. Use MSOFF15 as a secondary note when recommending the 57-color or Super Value Bundle (both qualify for the $129.99 threshold).
+
+---
+
+## SECTION 7 — CONTENT STRUCTURE (H2 PLAN)
+
+> **POST GEN INSTRUCTION:** Use these H2 headings in this exact order. Do not rename, reorder, or remove. Add H3s at your discretion. Directives below are mandatory.
+
+**Total word budget: 1,300 words body**
+
+### Intro (150 words)
+- Open with the buyer's core problem: too many gel polishes with only 6 colors that run out — or limited palettes that bore you after two weeks
+- State what this post covers: the best large-format **gel nail polish sets** built for real variety
+- Primary keyword appears 2x in `<strong>` tags within first 150 words
+- Mention value angle immediately: "your per-color cost drops to under $7 a shade"
+- Introduce product count: 4 sets, 24 to 57 colors
+
+---
+
+### H2: What to Look for in a Value Gel Nail Polish Set (150 words)
+- **Directive:** Answer the AEO term "What gel nail polish sets last the longest?" Answer buyer objection #1 (do they really last 21–28 days?)
+- Cover: color count vs. bottle size tradeoff (5ml vs. 10ml vs. 15ml — bigger matters), formula quality (HEMA-free vs. standard), what "complete" means (lamp included or not), and cure time
+- NO product recommendation yet — this is an education section that builds trust before the CTA
+- **No {{PRODUCTS}} injection here**
+- ~150 words
+
+---
+
+### H2: Best Overall: Super Value HEMA-Free Gel Bundle (200 words)
+- **Directive:** Introduce winner (index 0). Use buyer language: "everything you need to start, nothing to buy separately." Address objection #5 (shipping + availability).
+- Lead with buyer benefit: "24 professional-grade HEMA-free colors plus everything to apply them — one box, one purchase"
+- Mention what's included: lamp, base coat, top coat, builder gel, nail color display book, brushes
+- Mention HEMA-free formula benefit for sensitive skin
+- Mention free US shipping on orders over $129.99 → applies here + use code OFF8 for 8% off
+- **Place injection here:** `{{PRODUCTS:1:0}}`
+- ~200 words
+- **Internal link 1 goes here:** "Looking for more kit options? See our guide to the best [gel nail polish sets](https://mirelleinspo.com/shop/gel-nail-kits/best-gel-nail-polish-sets)."
+
+---
+
+### H2: Best for Serious Color Collectors: 57-Color HEMA-Free Set (150 words)
+- **Directive:** Address AEO term "Is a 57-color gel nail polish set worth it?" and buyer objection #2 (is $400 worth it vs 10 colors).
+- Lead with the math: 57 colors at $399.99 = under $7 per 15ml bottle. Individual gel colors cost $8–15 each.
+- Position clearly: for buyers who already have a lamp and essentials — color-only, no tools included
+- Mention full-size 15ml bottles vs. 5ml cheapies competitors use
+- Highlight: 60–90 second cure, up to 28 days, covers all seasons and skin tones
+- **Place injection here:** `{{PRODUCTS:1:1}}`
+- ~150 words
+
+---
+
+### H2: How to Pick the Best Value Gel Set for Your Needs (150 words)
+- **Directive:** Answer AEO term "What's the best value gel nail polish set for home use?" and address buyer objection #3 (lamp included or not?).
+- Build a quick decision framework — 2 paths:
+  - **Starting from scratch?** → Super Value Bundle (lamp + 24 colors + tools = true all-in value)
+  - **Already have a lamp and essentials?** → 57-Color or Fleurwee 42-Color set = most color-per-dollar
+- Internal links 2 and 3 go here: "For a deeper breakdown of what complete kits include, check out our guide to the best [gel nail kits for a complete manicure](https://mirelleinspo.com/shop/gel-nail-kits/best-gel-nail-kits-complete-manicure). If you have sensitive skin, see our [HEMA-free gel nail polish sets](https://mirelleinspo.com/shop/gel-nail-kits/best-hema-free-gel-nail-polish-sets) guide."
+- ~150 words
+
+---
+
+### H2: Clean Formula Value: Fleurwee 42 Colors and Sweet Scent 36 Colors (200 words)
+- **Directive:** Cover products 2 and 3. Address buyer objection #4 (formula safety for sensitive skin). Answer AEO term "What is the difference between HEMA-free and plant-based gel polish?"
+- Fleurwee: plant-based, 21 non-toxic, nano-milling technology, eco-conscious sourcing — best for eco-conscious buyers wanting a large clean color range
+- Sweet Scent: 3-free (HEMA, HPMA, TPO), naturally scented, IFRA-certified, tilt-stand bottle — best for buyers who want the at-home manicure to feel like self-care, not just maintenance
+- Use buyer language: "HEMA-free so my skin doesn't react"
+- Mention OFF8 code near CTAs
+- **Place injection here:** `{{PRODUCTS:2:2,3}}`
+- ~200 words
+
+---
+
+### H2: The Real Cost of a Gel Nail Polish Set with Lots of Colors (150 words)
+- **Directive:** Address buyer objection #2 fully (value math). Address AEO term "Is it cheaper to buy a bundle or individual gel nail polish?"
+- Actual math: salon visit = $45–60. A-home kit pays itself off in 1–4 uses. Per-color cost on the 57-color set = ~$7/bottle at 15ml vs. $8–15 to buy individual colors. Customer reviews confirm: "paid what I used to pay for one visit — totally worth it."
+- For buyers with sensitive skin who also want value: the MSOFF15 code applies at $129.99+ — these sets all qualify
+- Keep conversion tight: end with soft CTA back to the winner "if you want one complete setup that handles everything"
+- ~150 words
+
+---
+
+### Conclusion / Final Push (100 words)
+- Not a summary — a decision driver
+- Buyer has read the options. Make the call clear:
+  - Starting fresh: Super Value Bundle
+  - Want the biggest color range: 57-Color HEMA-Free
+  - Eco-conscious shopper: Fleurwee 42 Colors
+  - Want the full spa experience at home: Sweet Scent 36 Colors
+- Remind: free US shipping over $129.99. Use OFF8 for 8% off today.
+- All four ship to USA addresses — no waiting.
+
+---
+
+## SECTION 8 — COMPONENT DIRECTIVES
+
+> **POST GEN INSTRUCTION:** These components fire automatically from frontmatter. Confirm trigger fields in Section 2 are correctly set. NEVER write component content in body — it auto-renders.
+
+| Component | Status |
+|---|---|
+| WinnerBadge | ACTIVE — winnerIndex: 0 set |
+| ShopInlineCTA | ACTIVE — winnerIndex: 0 set |
+| ComparisonTable | ACTIVE — showComparison: true + comparisonTable data present |
+| ProsConsBlock | INACTIVE — showProscons: false (best-of post type) |
+| ShopFinalCTA | ALWAYS ACTIVE — products[] present |
+| ShopFAQ | ACTIVE — faqs[] array has 7 entries |
+| AuthorCard | ALWAYS ACTIVE — author: "jyoti-mirelle" |
+| ShopTableOfContents | ALWAYS ACTIVE — reads H2/H3 from body |
+| Sidebar winner card | ACTIVE — winnerIndex: 0 set |
+
+---
+
+## SECTION 9 — WRITING INSTRUCTIONS
+
+> **POST GEN INSTRUCTION:** Follow these rules for every paragraph of body copy, no exceptions.
+
+1. This is conversion copy — every sentence moves the buyer toward a purchase decision
+2. Lead with buyer benefit, not specs — specs support, never lead
+3. Use buyer phrases from Section 5 naturally — speak their language
+4. Address all 5 buying objections in the post body
+5. Honest cons build trust — include them for every product where relevant, then counter with why the set is still the right buy
+6. Discount codes (OFF8, MSOFF15) placed naturally near CTAs — not as standalone paragraphs
+7. Primary keyword "gel nail polish set" in `<strong>` tags every single mention — no exceptions
+8. No editorial literary hooks — open sections with the buyer benefit or buying question directly
+9. H2 sections are direct and short — buyers scan
+10. Conclusion is a final decision driver, not a summary
+11. Internal links placed mid-post after first product CTA only — anchor text natural
+12. No related articles section — handled by site component
+13. Language: American English only
+14. No banned AI patterns: no "elevate," "seamlessly," "game-changing," "dive into," "transformative"
+15. No long em dashes — use comma or restructure
+16. Vary sentence rhythm — short punchy for key selling points, longer for context
+17. No "we tested" language — editorial observations from specs only
+18. Product names: use full MelodySusie product names on first mention, shortened references after
