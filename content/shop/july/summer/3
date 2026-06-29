@@ -1,0 +1,508 @@
+# THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT.
+# All frontmatter fields, product data, keyword targets, component directives, H2 structure,
+# and writing instructions in this file must be followed exactly.
+# Nothing is left to the post gen agent's discretion except writing the copy.
+
+---
+
+## SECTION 1 — CLUSTER SUMMARY
+
+- **Cluster topic:** MelodySusie Summer Press-On Nails & Travel Nail Tools
+- **This post:** Best Press-On Nail Glue for Long-Lasting Summer Wear
+- **Slug:** best-press-on-nail-glue-summer
+- **productType:** summer
+- **Post type:** best-of
+- **Primary keyword:** best nail glue for press on nails
+- **Role:** Spoke — natural cross-sell for every press-on purchase in the cluster
+- **Affiliate mode:** melodysusie | **Region:** USA
+
+**Internal links this post MUST include** (mid-post only, after first product CTA):
+- `/shop/summer/best-summer-press-on-nails-2026` — anchor: "best summer press-on nails"
+- `/shop/summer/beach-mania-press-on-nails-review` — anchor: "MelodySusie Beach Mania press-ons"
+
+**Posts linking to this post (context only):**
+- best-summer-press-on-nails-2026
+- beach-mania-press-on-nails-review
+
+---
+
+## SECTION 2 — FRONTMATTER BLOCK
+
+**POST GEN INSTRUCTION: Copy this frontmatter block exactly into the post. Do not change any field.**
+
+```yaml
+---
+title: "Best Nail Glue for Press-On Nails That Actually Lasts All Summer"
+excerpt: "Stop losing press-ons mid-vacation. These are the best nail glues for press-on nails that hold through heat, swimming, and 14+ days of wear."
+slug: "best-press-on-nail-glue-summer"
+productType: "summer"
+date: "2026-07-01"
+author: "jyoti-mirelle"
+category: "Nail Essentials"
+image: "https://www.melodysusie.com/cdn/shop/files/952bd48d94fd92e987126fa7ead37048.jpg?v=1750745389&width=1600"
+imageAlt: "Best nail glue for press on nails — MelodySusie brush-on nail glue for long-lasting summer press-on wear"
+imageWidth: 1200
+imageHeight: 630
+readTime: "7 min read"
+canonical: "https://mirelleinspo.com/shop/summer/best-press-on-nail-glue-summer"
+postType: "best-of"
+winnerIndex: 0
+showComparison: true
+showProscons: false
+comparisonCaption: "How MelodySusie's top nail glues compare for summer press-on wear"
+
+products:
+  - name: "Super Strong Fast-drying Brush-On Nail Glue"
+    brand: "MelodySusie"
+    price: "$9.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/952bd48d94fd92e987126fa7ead37048.jpg?v=1750745389&width=1600"
+    link: "https://www.melodysusie.com/products/super-strong-fast-drying-brush-on-nail-glue?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    rating: null
+    reviewCount: 0
+    details:
+      - "10ml brush-on formula — precision applicator, zero sticky fingers"
+      - "Bonds in 5 seconds, no UV lamp needed, holds 14+ days"
+      - "Works on press-ons, tips, rhinestones, and charms"
+    pros:
+      - "Brush applicator gives you control even with one hand"
+      - "5-second bond time — no holding forever while it sets"
+      - "14+ day hold verified by formula specs — long enough for a full vacation"
+      - "Multi-purpose: rhinestones, charms, nail tips all covered"
+      - "No sticky residue left behind after application"
+    cons:
+      - "Larger bottle than the 0.07oz tubes — less ideal for a packed toiletry bag"
+      - "New product on melodysusie.com — customer reviews not yet available"
+
+  - name: "Super Strong Fast-drying Nail Glue 0.07oz (6-Pack)"
+    brand: "MelodySusie"
+    price: "$7.99"
+    compareAtPrice: "$9.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/6_30042c97-b34e-4f7f-89f9-96715e5cee56.jpg?v=1750745085&width=1600"
+    link: "https://www.melodysusie.com/products/super-strong-fast-drying-nail-glue-0-07oz?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Value"
+    rating: null
+    reviewCount: 0
+    details:
+      - "6 individually sealed 0.07oz tubes — one per set or event"
+      - "3-second dry time, holds up to 28 days, resists water and air bubbles"
+      - "Crystal-clear formula — zero yellowing or whitening under sheer tips"
+    pros:
+      - "Each tube sealed individually — hygienic, fresh every time"
+      - "One tube covers 20–40 tips: 12–24 full manicures per 6-pack"
+      - "3-second set time — fastest in the lineup"
+      - "28-day hold claim — strongest stated duration of all four options"
+      - "Travel-friendly size — fits in any cosmetics bag or carry-on"
+    cons:
+      - "Small individual tubes run out quickly for heavy rhinestone use"
+      - "No brush applicator — requires steady hand for precise placement"
+
+  - name: "Semi Solid Nail Glue"
+    brand: "MelodySusie"
+    price: "$8.99"
+    compareAtPrice: "$12.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_363a9cef-9032-4b8c-bb83-5acab380c54e.jpg?v=1771993269&width=1600"
+    link: "https://www.melodysusie.com/products/semi-solid-nail-glue?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Beginners"
+    rating: null
+    reviewCount: 0
+    details:
+      - "Semi-solid formula fills uneven nail surface gaps — no lifting on curved nails"
+      - "Dries in 10 seconds, 28+ day hold, no UV lamp needed"
+      - "Low-odor, skin-gentle ingredients with controlled soft-tube valve"
+    pros:
+      - "Semi-solid texture stays put — won't drip or pool into cuticles"
+      - "Soft tube + controlled valve means precise gap-filling every time"
+      - "Works on curved nail beds where liquid glue lifts at edges"
+      - "28+ day hold through hand washing, chores, and workouts"
+      - "Low odor — good for indoor summer use with limited ventilation"
+    cons:
+      - "Slower 10-second set vs. 3–5 seconds for liquid alternatives"
+      - "Requires wiping lid clean after each use to prevent sticking"
+
+  - name: "3D Sculpting Clear Nail Glue Gel"
+    brand: "MelodySusie"
+    price: "$8.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/3Dgel_-02.jpg?v=1759997951&width=1600"
+    link: "https://www.melodysusie.com/products/3d-sculpting-clear-nail-gel-glue?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Editor's Pick"
+    rating: null
+    reviewCount: 0
+    details:
+      - "4-in-1: adheres rhinestones, molds shapes, mixes glitter, accepts chrome powder"
+      - "Squeeze-tube design — no brush needed, shape directly on nail"
+      - "28-day wear, skin-safe, no odor, UV lamp required for curing"
+    pros:
+      - "Does the job of 4 products: adhesive + sculpting + glitter + chrome base"
+      - "No-odor formula — safe for all skin types and nail health"
+      - "Holds 28+ days when cured under UV lamp"
+      - "Tube squeeze design gives total control for 3D nail art"
+      - "Great summer nail art upgrade paired with MelodySusie gel polish"
+    cons:
+      - "Requires a UV/LED nail lamp to cure — extra tool needed"
+      - "More of a creative tool than a simple press-on adhesive"
+
+comparisonTable:
+  features:
+    - "Hold Duration"
+    - "Dry/Cure Time"
+    - "UV Lamp Required"
+    - "Applicator Type"
+    - "Best For"
+    - "Price"
+    - "Mess-Free"
+  columns:
+    - label: "Brush-On Glue"
+      values:
+        - "14+ days"
+        - "5 seconds"
+        - "No"
+        - "Built-in precision brush"
+        - "All-purpose press-ons"
+        - "$9.99"
+        - "true"
+    - label: "6-Pack Tubes"
+      values:
+        - "28 days"
+        - "3 seconds"
+        - "No"
+        - "Precision tip nozzle"
+        - "Travel & quick fixes"
+        - "$7.99"
+        - "true"
+    - label: "Semi Solid"
+      values:
+        - "28+ days"
+        - "10 seconds"
+        - "No"
+        - "Soft tube squeeze"
+        - "Curved nails & beginners"
+        - "$8.99"
+        - "true"
+    - label: "3D Gel"
+      values:
+        - "28+ days"
+        - "60–90 seconds cure"
+        - "Yes"
+        - "Tube squeeze"
+        - "Nail art & rhinestones"
+        - "$8.99"
+        - "true"
+
+faqs:
+  - question: "What is the best nail glue for press-on nails that lasts through summer activities?"
+    answer: "For summer wear, a brush-on formula like MelodySusie's Super Strong Brush-On Nail Glue is the strongest everyday pick — it bonds in 5 seconds, holds 14+ days, and requires no UV lamp. If you want the longest possible hold (28 days) and faster set time, the 6-pack tube glue dries in just 3 seconds and is individually sealed for hygiene. Either option handles swimming pools, sweaty palms, and daily beach use better than standard adhesive tabs."
+
+  - question: "How long does nail glue hold press-on nails?"
+    answer: "Quality nail glue for press-on nails holds 14–28 days with proper prep. MelodySusie's brush-on formula claims 14+ days; the 0.07oz tube glue and semi solid gel claim 28+ days. Real-world wear depends on nail prep: oil-free, dehydrated nails hold far longer. Skipping the prep step is the most common reason press-ons pop off early, not the glue."
+
+  - question: "Is brush-on nail glue or tube nail glue better for press-ons?"
+    answer: "Brush-on nail glue is better for beginners and most everyday press-on applications — the precision applicator prevents mess and gives you control without sticky fingers. Tube glue (like MelodySusie's 6-pack) is faster at 3 seconds vs. 5 seconds and comes in travel-friendly individual portions. If you're new to press-ons, start with the brush-on. If you're experienced and want speed plus portability, grab the tubes."
+
+  - question: "Can I use nail glue on curved or uneven nails?"
+    answer: "Yes — MelodySusie's Semi Solid Nail Glue is specifically designed for uneven and curved nail surfaces. Its semi-solid texture fills gaps instead of running off the nail plate, which is the biggest reason liquid glue lifts at the edges of curved nails. Press for 30–60 seconds and avoid water for the first hour. It holds 28+ days even on deep C-curve nail shapes."
+
+  - question: "Does nail glue for press-ons work in the pool or ocean?"
+    answer: "Once fully cured (at least one hour after application), quality cyanoacrylate nail glue is water-resistant — not waterproof. MelodySusie's formulas are all rated to resist water and normal daily activities. Pool chlorine and salt water can weaken the bond over repeated long exposure. For best results, dry hands immediately after swimming and avoid prolonged soaking longer than 20–30 minutes."
+
+  - question: "Where can I buy the best nail glue for press-on nails online in the USA?"
+    answer: "MelodySusie ships nail glue directly to USA customers from their website at melodysusie.com, with free US shipping on orders over $129.99. Use code OFF8 at checkout to get 8% off any order sitewide. Their brush-on glue ($9.99) and 6-pack tube glue ($7.99) are both available online with fast delivery."
+
+  - question: "How do I remove nail glue from press-on nails without damaging my nails?"
+    answer: "Soak nails in warm soapy water for 10–15 minutes to soften the bond, then gently slide or rock the press-on off. Avoid pulling or forcing — that is what causes nail damage, not the glue itself. For stubborn residue, use MelodySusie's Nail Glue Remover ($9.99), which is a dedicated debonder designed for their formulas."
+---
+```
+
+---
+
+## SECTION 3 — SEO AND KEYWORD PLAN
+
+**POST GEN INSTRUCTION: Follow this keyword plan exactly. Calculate density before writing — do not estimate.**
+
+**Primary keyword (locked):** `best nail glue for press on nails`
+
+**Keyword density target:**
+- Competitors average ~1.8% keyword density
+- Target: 1.8% + 3 extra mentions in first half
+- Post target word count: 1,350 words
+- Total primary keyword mentions: **~27** — aim for 15+ in first 700 words
+- First 150 words: primary keyword appears exactly **2 times**, both wrapped in `<strong>` tags
+- EVERY mention of the primary keyword throughout the entire post: wrapped in `<strong>` tags
+
+**Keyword variations (use naturally, no strong tags, no density target):**
+- nail glue for press ons
+- press on nail glue
+- nail adhesive for press-on nails
+- strongest nail glue for fake nails
+- brush on nail glue for press ons
+- long lasting nail glue summer
+- nail glue that holds in heat
+
+**High CPC transactional keywords (weave into CTAs, H2s, body copy):**
+- best nail glue for press on nails (primary — est. $1.20–$2.10 CPC)
+- nail glue for press on nails (est. $0.90–$1.60 CPC)
+- brush on nail glue (est. $0.80–$1.40 CPC)
+- semi solid nail glue (est. $0.60–$1.20 CPC)
+- longest lasting press on nail glue (est. $1.00–$1.80 CPC)
+
+**Transactional cluster keywords (use throughout, no density target):**
+- press on nail glue that lasts 2 weeks
+- nail glue without UV lamp
+- nail glue for summer vacation
+- waterproof nail glue for press ons
+- best brush on nail glue for beginners
+- nail glue 28 day hold
+
+**LSI semantic terms (weave naturally):**
+- cyanoacrylate nail adhesive
+- press-on nail hold
+- nail prep before glue
+- nail dehydrator
+- cuticle oil after removal
+- fake nail bond strength
+- gel tip adhesive
+- nail lifting prevention
+- press-on longevity
+- adhesive tabs vs nail glue
+- salon-quality nails at home
+- DIY manicure durability
+
+**AEO terms — mapped to H2 section or FAQ:**
+| AEO Question | Mapped To |
+|---|---|
+| What is the best nail glue for press-on nails that lasts through summer? | FAQ #1 |
+| How long does nail glue hold press-on nails? | FAQ #2 + H2: "How Long Does Nail Glue Actually Hold?" |
+| Is brush-on nail glue better than tube glue for press-ons? | FAQ #3 + H2: "Brush-On vs. Tube Glue: Which One Is Right for You?" |
+| Can I use nail glue on curved or uneven nails? | FAQ #4 + H2: "What to Use If Your Nails Are Curved or Uneven" |
+| Does nail glue work in the pool or ocean? | FAQ #5 |
+| Where can I buy the best nail glue for press-on nails online in the USA? | FAQ #6 |
+| How do I remove nail glue without damaging my nails? | FAQ #7 |
+| What nail glue do pros use for press-ons? | H2: "The Prep Step That Makes Any Nail Glue Work Better" |
+| Why do my press-on nails keep falling off with glue? | H2: "The Prep Step That Makes Any Nail Glue Work Better" |
+
+**GEO terms — place near CTAs and shipping mentions:**
+- best nail glue for press-on nails in the USA
+- MelodySusie USA shipping
+- where to buy press-on nail glue online USA
+- nail glue fast shipping USA
+- melodysusie.com US delivery
+
+---
+
+## SECTION 4 — COMPETITOR AND TITLE INTELLIGENCE
+
+**POST GEN INSTRUCTION: Use this section to write a title and excerpt that outperforms competitors on CTR.**
+
+**Top competitor titles for "best nail glue for press on nails":**
+1. DTK Nail Supply: "Best Nail Glue for Press-Ons & Tips: Pro Guide (2026)" — Strong authority signal, but no buyer benefit in headline
+2. SHANGMENG Nails: "Best Nail Glue for Press-On Nails 2026" — Plain, no differentiation
+3. Lots of Lacquer: "Best Nail Glue for Press Ons" — Short, no year, no urgency
+
+**What our title does better:**
+- Adds "Actually Lasts All Summer" — addresses the specific pain point (nails popping off)
+- Buyer benefit is clear in the headline without reading a word of the post
+- Summer framing makes it seasonally relevant and transactional
+
+**Target word count:** 1,350 words (competitors average ~1,100–1,400 words)
+
+**Competitor gaps — these are MANDATORY H2 topics competitors miss:**
+1. None address curved/uneven nails as a separate glue use case
+2. None directly answer "brush-on vs tube glue — which should I buy" in a scannable section
+3. None address pool/ocean durability specifically for summer buyers
+4. None include a "prep step" section — the #1 reason press-ons fail per Quora research
+
+---
+
+## SECTION 5 — BUYER INTELLIGENCE
+
+**POST GEN INSTRUCTION: Every paragraph of copy must be written for this specific buyer. Use the exact phrases listed here naturally in the copy.**
+
+**Who this buyer is:**
+- Female, 18–45, USA, DIY nail enthusiast or press-on regular user
+- Buying press-on nails specifically for summer: vacation, beach, pool parties, travel
+- Has experienced nail glue failure before — nails popping off mid-trip or mid-event
+- Budget-conscious: skipping salon spending, choosing press-ons on purpose
+- Ranges from beginner (first time with press-ons) to intermediate (knows the basics but wants better hold)
+
+**What they need from this post:**
+- A clear recommendation: which glue, and why, without jargon
+- Reassurance that a glue will hold through summer heat, pool time, and sweaty hands
+- Quick comparison between glue types so they don't have to research further
+- Confidence to buy — they've been burned by weak glue before
+
+**Top 5 buying objections (each must be addressed in the post body):**
+1. "My nails always pop off after a day or two" — Answer: it's the prep, not just the glue; fix the prep, keep the nails
+2. "I don't want to damage my real nails" — Answer: nail glue removal done right (soak + slide) causes zero damage
+3. "I need something I can use on vacation without lugging tools" — Answer: the 6-pack tubes are travel-sized and need zero lamps
+4. "Brush-on glue seems messy and hard to control" — Answer: MelodySusie brush-on has precision tip that keeps glue off skin
+5. "My nails are curved and glue always lifts at the edges" — Answer: semi solid is specifically designed for this problem
+
+**Buyer phrase bank — use these exact phrases naturally in body copy:**
+- "nails popping off in public"
+- "no nail glue is strong enough"
+- "my press-ons never stick"
+- "holds through washing and swimming"
+- "don't want to lug a UV lamp on vacation"
+- "won't drip into my cuticles"
+- "sticky fingers from the glue"
+- "nails fall off at work"
+- "can't get to a salon"
+- "last the whole trip"
+- "beginner-friendly"
+- "clean removal without damage"
+
+**Recurring praise from product specs + Amazon category research:**
+- Brush applicator control (no sticky fingers) — top differentiator
+- Fast dry without a lamp — convenience driver
+- Long hold (14–28 days) — the core purchase reason
+- Crystal-clear finish — no visible seam under sheer tips
+
+**Recurring complaints in the press-on nail glue category (Amazon):**
+- Nails pop off within 1–3 days (prep not mentioned in competing product instructions)
+- Glue clogging the nozzle after first use
+- Too runny — drips into cuticles
+- Strong acetone needed for removal damages nails (MelodySusie has dedicated remover)
+
+---
+
+## SECTION 6 — DISCOUNT AND CONVERSION DATA
+
+**POST GEN INSTRUCTION: Include discount information near product CTAs naturally.**
+
+**Active MelodySusie sitewide discounts (confirmed on site):**
+- **CODE OFF8** — 8% off sitewide, no minimum order
+- **CODE MSOFF15** — 15% off orders over $129.99
+- **Free US shipping** on orders over $129.99
+
+**Sale pricing confirmed:**
+- Super Strong Fast-drying Nail Glue 0.07oz (6-pack): $7.99 (was $9.99) — savings of $2.00
+- Semi Solid Nail Glue: $8.99 (was $12.99) — savings of $4.00
+
+**Where to place discount mention:**
+- Near the ShopInlineCTA section (after first ~30% of content)
+- Near the ShopFinalCTA area (after pros/cons)
+- Mention naturally: "Use code OFF8 at MelodySusie to save 8% on any of these"
+
+---
+
+## SECTION 7 — CONTENT STRUCTURE
+
+**POST GEN INSTRUCTION: Use these H2 headings in this exact order. Do not rename, reorder, or remove.**
+
+**Word count target: 1,350 words total**
+
+---
+
+### INTRO (150 words)
+- Open with the buyer pain: nails popping off in summer — at the pool, on vacation, mid-event
+- Establish the real cause: not the press-ons, not bad luck — it's the wrong glue and skipped prep
+- Primary keyword appears 2x in first 150 words, both in `<strong>` tags
+- State what this post covers: 4 MelodySusie glue formats tested against the summer use case
+
+---
+
+### H2: "Why Summer Is the Hardest Test for Any Nail Glue" (100 words)
+- Heat, humidity, pool water, sunscreen — all weaken adhesive bonds
+- AEO mapped: "Does nail glue work in the pool or ocean?" — answer embedded here
+- Transition: sets up why glue selection and glue type matter more in summer than any other season
+- No product injection here
+
+---
+
+### H2: "The Best Nail Glue for Press-On Nails This Summer" (250 words)
+- Introduce the winner: Super Strong Brush-On Nail Glue as Best Overall pick
+- WHY it wins: precision brush eliminates sticky fingers, 5-second bond, 14+ day hold, no UV lamp
+- Address objection #3: perfect for travel — no lamp, no extra tools
+- **Inject: `{{PRODUCTS:1:0}}`** (featured layout, winner product)
+- Internal link placement: after product card — natural anchor to "best summer press-on nails" pillar
+
+---
+
+### H2: "The Full Lineup: 4 MelodySusie Nail Glues Compared" (150 words)
+- Briefly introduce all 4 with their best-use angle
+- Hook buyer into using the comparison table to find their match
+- **Inject: `{{PRODUCTS:3:1,2,3}}`** (3-product grid)
+- Discount mention: "Use code OFF8 to save 8% on any of these at MelodySusie"
+
+---
+
+### H2: "Brush-On vs. Tube Glue: Which One Is Right for You?" (150 words)
+- AEO mapped: "Is brush-on nail glue better than tube glue for press-ons?"
+- Simple breakdown: brush-on wins for control and beginners; tube wins for travel and speed
+- Reinforce with specific product names
+- Internal link: "If you're picking press-ons to pair with your glue, check out our MelodySusie Beach Mania press-ons review"
+
+---
+
+### H2: "What to Use If Your Nails Are Curved or Uneven" (100 words)
+- AEO mapped: "Can I use nail glue on curved or uneven nails?"
+- Address objection #5 (lifting at edges) directly
+- Semi Solid Nail Glue as the clear answer — explain the semi-solid texture advantage
+- No product injection (already displayed above)
+
+---
+
+### H2: "The Prep Step That Makes Any Nail Glue Work Better" (150 words)
+- AEO mapped: "Why do my press-on nails keep falling off with glue?"
+- Address objection #1 and #2 directly
+- The real reason nails pop off: oils on the nail plate kill adhesive bonds
+- Steps: push back cuticles, buff lightly, wipe with alcohol, wait 30 sec before applying glue
+- This section converts the buyer who's been burned before and is skeptical
+
+---
+
+### CONCLUSION / BUYING DECISION (100 words)
+- Final push: not a summary, a decision driver
+- Default pick: brush-on (Best Overall) — if in doubt, start here
+- Call to action: shop at MelodySusie, mention free shipping threshold
+- Discount CTA: code OFF8 saves 8% sitewide
+
+---
+
+### INJECTION PLAN SUMMARY:
+| Placement | Syntax | Notes |
+|---|---|---|
+| After H2 "The Best Nail Glue for Press-On Nails This Summer" | `{{PRODUCTS:1:0}}` | Featured layout, winner |
+| After H2 "The Full Lineup: 4 MelodySusie Nail Glues Compared" | `{{PRODUCTS:3:1,2,3}}` | 3-product grid |
+
+---
+
+## SECTION 8 — COMPONENT DIRECTIVES
+
+**POST GEN INSTRUCTION: These components fire automatically from frontmatter. Confirm trigger fields in Section 2 are correctly set. Never write component content in body — it auto-renders.**
+
+| Component | Status | Trigger |
+|---|---|---|
+| WinnerBadge | ACTIVE | winnerIndex: 0 set in frontmatter |
+| ShopInlineCTA | ACTIVE | winnerIndex: 0 set in frontmatter |
+| ComparisonTable | ACTIVE | showComparison: true + comparisonTable data present |
+| ProsConsBlock | INACTIVE | showProscons: false |
+| ShopFinalCTA | ALWAYS ACTIVE | products[] array populated |
+| ShopFAQ | ACTIVE | faqs[] array has 7 entries |
+| AuthorCard | ALWAYS ACTIVE | author: "jyoti-mirelle" |
+| ShopTableOfContents | ALWAYS ACTIVE | reads H2/H3 from body |
+| Sidebar winner card | ACTIVE | winnerIndex: 0 set |
+
+---
+
+## SECTION 9 — WRITING INSTRUCTIONS
+
+**POST GEN INSTRUCTION: Follow these rules for every paragraph of body copy.**
+
+- This is conversion copy — every sentence moves the buyer toward a purchase decision
+- Lead with buyer benefit, not product specs
+- Use buyer phrases from Section 5 naturally: "nails popping off in public", "sticky fingers from the glue", "last the whole trip"
+- Address buying objections directly — do not hedge or avoid them
+- Honest cons from Section 2 products[] array are already pre-written — do not add new cons
+- Discount information placed near CTAs — mention naturally: "Use code OFF8 to save 8%"
+- Primary keyword in `<strong>` tags EVERY mention — no exceptions
+- No editorial literary hooks — open sections with the buyer benefit or buying question directly
+- H2 sections are short and direct — buyers scan, they do not read long intros
+- Conclusion = final push to purchase, not a summary
+- Internal links placed mid-post, after first product CTA — anchor text from cluster map above
+- Language: American English only
+- NO banned AI patterns: no "elevate", "seamlessly", "game-changing", "dive into", "transformative"
+- No long em dashes — use comma or restructure sentence
+- No "we tested" language anywhere — write informed editorial observations from specs
+- Sentence rhythm varies: short punchy sentences for key selling points, longer for context
+- GEO terms woven near CTAs: "ships to USA", "fast US delivery", "available at melodysusie.com"
