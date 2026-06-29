@@ -1,0 +1,516 @@
+# THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT.
+# All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy.
+
+---
+
+## SECTION 1 — CLUSTER SUMMARY
+
+- **Cluster topic:** Gel Nail Polish Sets with UV Light
+- **This post:** Best HEMA-Free Gel Nail Polish Sets
+- **Slug:** best-hema-free-gel-nail-polish-sets
+- **productType:** gel-nail-kits
+- **Post type:** best-of
+- **Primary keyword:** hema free gel polish
+- **Role:** Spoke (links up to pillar)
+- **Affiliate mode:** MelodySusie affiliate, USA region
+- **Save path:** src/content/shop/gel-nail-kits/best-hema-free-gel-nail-polish-sets.md
+
+**Internal links this post must include — mid-post only, after first product CTA:**
+1. Anchor: "gel nail polish set" → /shop/gel-nail-kits/best-gel-nail-polish-sets (pillar)
+2. Anchor: "gel nail kits for a complete manicure" → /shop/gel-nail-kits/best-gel-nail-kits-complete-manicure
+3. Anchor: "value gel nail polish sets with lots of colors" → /shop/gel-nail-kits/best-value-gel-nail-polish-sets
+
+**Posts that link to this post:** pillar (best-gel-nail-polish-sets), best-gel-nail-kits-complete-manicure, best-value-gel-nail-polish-sets
+
+---
+
+## SECTION 2 — FRONTMATTER BLOCK
+
+**POST GEN INSTRUCTION: Copy this frontmatter block exactly into the post. Do not change any field.**
+
+```yaml
+---
+title: "Best HEMA-Free Gel Polish Sets for Sensitive Skin (Plant-Based)"
+excerpt: "Switched to HEMA-free gel polish and never looked back. These plant-based sets last 21-28 days with zero skin irritation."
+slug: "best-hema-free-gel-nail-polish-sets"
+productType: "gel-nail-kits"
+date: "2026-06-29"
+author: "jyoti-mirelle"
+category: "Gel Nail Kits"
+image: "https://www.melodysusie.com/cdn/shop/files/1_9e3b59cc-f0d0-45db-8409-65de6defe6c0.jpg?v=1779097056&width=2048"
+imageAlt: "HEMA-free gel nail polish set plant-based 36 colors with Sweet Scent formula for sensitive skin home manicure"
+imageWidth: 1200
+imageHeight: 630
+readTime: "7 min read"
+canonical: "https://mirelleinspo.com/shop/gel-nail-kits/best-hema-free-gel-nail-polish-sets"
+postType: "best-of"
+winnerIndex: 0
+showComparison: true
+showProscons: false
+comparisonCaption: "How these HEMA-free gel polish sets compare on formula, color count, bottle size, and price"
+
+products:
+  - name: "Plant-Based HEMA-Free & HPMA-Free & TPO-Free Gel Nail Polish 36 Colors Full Set"
+    brand: "MelodySusie"
+    price: "$309.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_9e3b59cc-f0d0-45db-8409-65de6defe6c0.jpg?v=1779097056&width=2048"
+    link: "https://www.melodysusie.com/products/sweet-scent-plant-based-hema-free-hpma-free-tpo-free-gel-nail-polish-36-colors-full-set?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    rating: null
+    reviewCount: null
+    details:
+      - "36 colors, 16.5ml per bottle (10% more than standard)"
+      - "Plant-based 3-free formula: HEMA, HPMA, and TPO-free"
+      - "7 natural scents — sakura, jasmine, vanilla, lemon, cinnamon, rose, lavender"
+    pros:
+      - "The 16.5ml bottles give you noticeably more product than typical 15ml sets — good for frequent use or salon work"
+      - "Plant-based formula with 7 IFRA-compliant fragrances makes application feel like a self-care ritual, not a chemical job"
+      - "3-free and free from 21 harmful chemicals — a genuine step up from standard 'HEMA-free only' formulas"
+      - "Tilt-and-stand bottle design makes application easier, especially for the non-dominant hand"
+      - "Up to 28-day wear when properly cured — competitive with standard gel polish"
+    cons:
+      - "At $309.99 for 36 colors, this is a pro-tier investment — not a casual starter set"
+      - "Fragrance-infused formulas may not suit buyers who want completely unscented gel"
+
+  - name: "Fleurwee HEMA-Free & HPMA-Free & TPO-Free Plant-Based Color Palette — 42 Colors"
+    brand: "MelodySusie"
+    price: "$339.82"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_42.jpg?v=1775184412&width=2048"
+    link: "https://www.melodysusie.com/products/fleurwee-plant-based-color-palette-15ml-gel-polish-set-42-colors?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Color Range"
+    rating: null
+    reviewCount: null
+    details:
+      - "42 colors, nano-milling technology for ultra-smooth self-leveling application"
+      - "Plant-based formula, 3-free (HEMA/HPMA/TPO) + 21 non-toxic — free from heavy metals"
+      - "Curved brush designed for perfect cuticle-to-tip coverage"
+    pros:
+      - "42 colors covers every wardrobe scenario — nudes, bold colors, classics — without buying extras"
+      - "Nano-milling technology produces a noticeably smoother finish than standard gel, with excellent self-leveling"
+      - "Inspired by nature sourcing: traceable raw materials and natural plant extracts, which matters to eco-conscious buyers"
+      - "Medium consistency makes it beginner-friendly — not too runny, not too thick"
+      - "21 non-toxic certification goes beyond the baseline 3-free promise"
+    cons:
+      - "15ml bottles are standard size — the Sweet Scent line offers 16.5ml if volume matters to you"
+      - "At $339.82, this is priced for serious color collectors or salon use"
+
+  - name: "Fleurwee HEMA-Free & HPMA-Free & TPO-Free Plant-Based Gel Nail Polish Set — 52 Colors"
+    brand: "MelodySusie"
+    price: "$420.73"
+    image: "https://www.melodysusie.com/cdn/shop/files/1-_52.jpg?v=1734575853&width=2048"
+    link: "https://www.melodysusie.com/products/fleurwee-plant-based-gel-nail-polish-set-52-colors?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Nail Techs"
+    rating: null
+    reviewCount: null
+    details:
+      - "52 colors — the widest HEMA-free range in the MelodySusie lineup"
+      - "Plant-based 3-free formula, 21 non-toxic, nano-milling smooth application"
+      - "Breathable nail surface finish — formula designed for extended wear without yellowing"
+    pros:
+      - "52 colors means virtually no client request you can't fulfill — built for professional nail techs"
+      - "Non-yellowing formula with no floating glue or luster loss at 21-day mark"
+      - "Nail surface is more breathable than standard gel — relevant for clients doing frequent manicures"
+      - "Same trusted Fleurwee plant-based formula as the 42-color set but scaled for volume"
+    cons:
+      - "At $420.73, this is a professional-grade investment — not the right entry point for home DIY"
+      - "May be overkill for a casual DIY user who only needs 10–15 colors"
+
+  - name: "Fleurwee HEMA-Free & HPMA-Free & TPO-Free Plant-Based Gel Nail Polish Gift Box"
+    brand: "MelodySusie"
+    price: "$49.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_20364f49-551d-451c-a7a7-56752ee672fa.jpg?v=1717036037&width=2048"
+    link: "https://www.melodysusie.com/products/15ml-fleurwee-plant-based-gel-nail-polish-gift-box?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Entry Pick"
+    rating: null
+    reviewCount: null
+    details:
+      - "Curated gift box with gorgeous presentation — 15ml Fleurwee plant-based gel colors"
+      - "HEMA-free, HPMA-free, TPO-free formula — 21 non-toxic certified"
+      - "Up to 21-day wear with no floating glue or luster loss"
+    pros:
+      - "At $49.99, this is the most accessible way to try the Fleurwee HEMA-free formula before committing to a full set"
+      - "Gift-ready packaging — a genuine gifting option, not an afterthought"
+      - "Smooth curved brush designed for precise coverage from cuticle to tip"
+      - "Low-irritation formula specifically developed for sensitive skin users"
+    cons:
+      - "Fewer colors than the full palette sets — if you need range, step up to the 42 or 52-color options"
+      - "15ml bottles are standard capacity"
+
+  - name: "Plant-Based HEMA-Free & HPMA-Free & TPO-Free Gel Nail Polish Set — 6Pcs Sweet Scent"
+    brand: "MelodySusie"
+    price: "$29.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/6391ace427ade714b70fb966024ae804_35798ee8-c772-4499-a883-d0ea2089a77e.jpg?v=1766391277&width=2048"
+    link: "https://www.melodysusie.com/products/sweet-scent-plant-based-hema-free-hpma-free-tpo-free-gel-nail-polish-set-16-5ml?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Value Starter"
+    rating: null
+    reviewCount: null
+    details:
+      - "6 curated colors at 16.5ml each — the larger Sweet Scent bottle size"
+      - "Plant-based 3-free formula, naturally scented with IFRA-compliant fragrances"
+      - "Up to 28-day wear with tilt-and-stand precision bottle design"
+    pros:
+      - "At $29.99, this is the most affordable way to try HEMA-free gel polish without a major investment"
+      - "16.5ml Sweet Scent bottle is 10% bigger than standard — more product per dollar"
+      - "Curated color selection means every shade is a wearable, practical choice — no filler colors"
+      - "The tilt-and-stand bottle makes it genuinely easier to apply without mess"
+    cons:
+      - "6 colors only — if you want variety, combine with the 36-color full set"
+      - "Scented formula — buyers who prefer no fragrance should look at the Fleurwee Gift Box instead"
+
+comparisonTable:
+  features:
+    - "Formula"
+    - "Color Count"
+    - "Bottle Size"
+    - "Scented"
+    - "Wear Time"
+    - "Price"
+    - "Best For"
+  columns:
+    - label: "Sweet Scent 36 Colors"
+      values:
+        - "Plant-based, 3-free, 21 non-toxic"
+        - "36"
+        - "16.5ml"
+        - true
+        - "Up to 28 days"
+        - "$309.99"
+        - "Home power users"
+    - label: "Fleurwee 42 Colors"
+      values:
+        - "Plant-based, 3-free, 21 non-toxic, nano-milling"
+        - "42"
+        - "15ml"
+        - false
+        - "Up to 21 days"
+        - "$339.82"
+        - "Color enthusiasts"
+    - label: "Fleurwee 52 Colors"
+      values:
+        - "Plant-based, 3-free, 21 non-toxic, nano-milling"
+        - "52"
+        - "15ml"
+        - false
+        - "Up to 21 days"
+        - "$420.73"
+        - "Nail techs & pros"
+    - label: "Fleurwee Gift Box"
+      values:
+        - "Plant-based, 3-free, 21 non-toxic"
+        - "Curated set"
+        - "15ml"
+        - false
+        - "Up to 21 days"
+        - "$49.99"
+        - "First-time buyers"
+    - label: "Sweet Scent 6Pcs"
+      values:
+        - "Plant-based, 3-free, 21 non-toxic"
+        - "6"
+        - "16.5ml"
+        - true
+        - "Up to 28 days"
+        - "$29.99"
+        - "Budget starters"
+
+faqs:
+  - question: "What does HEMA-free gel polish actually mean?"
+    answer: "HEMA (2-Hydroxyethyl Methacrylate) is a chemical monomer in most conventional gel polishes that causes allergic reactions in sensitive users. HEMA-free gel polish replaces it with plant-based or alternative monomers that deliver the same adhesion and shine without the sensitization risk. Reactions to HEMA are cumulative — you can develop an allergy after months or years of use even without prior symptoms."
+
+  - question: "Is HEMA-free gel polish as long-lasting as regular gel polish?"
+    answer: "Yes, current-generation HEMA-free formulas last just as long. The Sweet Scent plant-based line delivers up to 28 days of wear. The Fleurwee line offers up to 21 days. Early HEMA-free formulas (2020–2022) had adhesion issues, but those have been resolved in today's plant-based formulas."
+
+  - question: "Does HEMA-free gel polish need a special UV lamp?"
+    answer: "No. HEMA-free gel polish cures under any standard UV/LED nail lamp. These formulas work with the lamps you already own — no special equipment needed."
+
+  - question: "Can I still react to HEMA-free gel polish if I have sensitive skin?"
+    answer: "HEMA is the most common gel allergen, but not the only one. HEMA-free means the specific HEMA monomer is removed — but some users with broad acrylate sensitivities may still react to other formula components. Always do a patch test before full application, especially if you've had previous gel reactions."
+
+  - question: "What is the difference between the Fleurwee and Sweet Scent HEMA-free lines?"
+    answer: "Both lines are plant-based and HEMA/HPMA/TPO-free. The Sweet Scent line uses 16.5ml bottles (10% larger), adds 7 natural IFRA-compliant fragrances, and delivers up to 28-day wear. The Fleurwee line uses 15ml bottles, has no fragrance, uses nano-milling technology for smoother self-leveling, and is available in larger color palettes (42 and 52 colors)."
+
+  - question: "Where can I buy HEMA-free gel polish that ships fast in the USA?"
+    answer: "Both MelodySusie HEMA-free lines ship to the USA directly from melodysusie.com. Orders over $129.99 qualify for free US shipping. Use code OFF8 for 8% off sitewide, or MSOFF15 for 15% off orders over $129.99."
+
+  - question: "Is plant-based gel polish the same as HEMA-free gel polish?"
+    answer: "Plant-based refers to the formula sourcing — ingredients derived from organic biomass rather than fossil-based materials. HEMA-free refers specifically to the absence of the HEMA monomer. The MelodySusie Sweet Scent and Fleurwee lines are both: plant-based formula AND HEMA/HPMA/TPO-free. Not all HEMA-free gel polishes are plant-based."
+---
+```
+
+---
+
+## SECTION 3 — SEO AND KEYWORD PLAN
+
+**POST GEN INSTRUCTION: Follow this keyword plan exactly. Calculate density before writing — do not estimate.**
+
+**Primary keyword:** `hema free gel polish`
+- **Keyword density target:** 1.5% — matches top-ranking competitor density
+- **Total mention target:** ~21 mentions in a 1,400-word post
+- **First 150 words rule:** Primary keyword must appear exactly 2 times, both in `<strong>` tags
+- **ALL primary keyword mentions throughout entire post wrapped in `<strong>` tags — no exceptions**
+
+**High CPC Transactional Keywords (weave into CTAs, H2s, and mid-post copy):**
+- "hema free gel polish set" (high commercial intent — buyer ready to buy a set)
+- "plant based gel nail polish" (premium intent, rising CPC)
+- "non toxic gel nail polish set" (health-conscious buyers, strong CPC)
+- "hypoallergenic gel nail polish" (allergy buyer, specific purchase decision)
+- "tpo free gel polish" (EU-aware buyers, technical intent)
+- "hema free gel nail kit" (bundle purchase intent)
+
+**Keyword Variations (use naturally, no density target, no strong tags):**
+- hema free nail gel
+- hema free gel nails
+- hema-free gel polish set
+- plant based gel polish
+- non toxic gel polish
+- 3-free gel nail polish
+- hema tpo free gel polish
+
+**Transactional Cluster Keywords:**
+- best hema free gel polish USA
+- hema free gel polish sensitive skin
+- hema free gel polish kit online
+- buy hema free gel polish set
+- hema free gel polish home use
+- plant based gel polish 21 days
+- hema free gel polish no reaction
+- where to buy hema free gel polish online
+- hema free gel polish ship USA
+- hema free gel polish for beginners
+
+**LSI Semantic Terms (weave in naturally):**
+- 2-hydroxyethyl methacrylate
+- gel nail sensitization
+- acrylate allergy nails
+- gel nail contact dermatitis
+- EU TPO ban nail polish
+- HPMA free gel polish
+- 21 non toxic formula
+- plant-based nail formula
+- IFRA fragrance standards
+- nano-milling gel polish
+- self-leveling gel formula
+- breathable nail gel
+- low-irritation nail polish
+
+**AEO Terms — mapped to H2 or FAQ:**
+- "What is HEMA in gel nail polish and why does it cause reactions?" → H2: "Why HEMA Causes Allergic Reactions (And What to Use Instead)"
+- "Is HEMA-free gel polish as long-lasting as regular gel?" → FAQ #2
+- "Does HEMA-free gel polish need a special lamp?" → FAQ #3
+- "Can you still react to HEMA-free gel polish?" → FAQ #4
+- "What is the difference between plant-based and HEMA-free gel polish?" → FAQ #7
+- "What are the best HEMA-free gel polish sets available in the USA?" → H2: "The Best HEMA-Free Gel Polish Sets to Buy Now"
+- "How do I know if my gel polish is really HEMA-free?" → H2: "How to Actually Verify a Gel Polish Is HEMA-Free"
+- "What brands make truly HEMA-free gel polish sets with lots of colors?" → H2: "Which Set to Choose Based on Your Color Needs"
+
+**GEO Terms — place near CTAs, shipping mentions, availability copy:**
+- best hema free gel polish to buy in the USA
+- hema free gel polish free shipping USA
+- where to buy hema free gel polish online USA
+- plant based gel nail polish USA shipping
+- hema free gel polish online USA 2026
+
+---
+
+## SECTION 4 — COMPETITOR AND TITLE INTELLIGENCE
+
+**Top competing content for "hema free gel polish":**
+1. DTK Nail Supply guide — "Which Gel Polish Brands Are HEMA-Free: 2026 Guide" — informational brand directory, does NOT link to specific sets to buy. Misses: product-level buying recommendations with specs and prices.
+2. Lots of Lacquer — "5 HEMA-Free Gel Nail Polish Brands" — review-style list, affiliate links to competitors only, no MelodySusie. Misses: plant-based formula angle, EU TPO ban context.
+3. The Beauty Box — "HEMA-Free Gel Nail Polish Brands 2026" — long-form editorial, no specific set comparisons or price/spec tables.
+
+**Competitor gaps — these are mandatory sections in our post:**
+- None address how to pick between HEMA-free sets by color count, bottle size, and formula type
+- None cover the EU TPO ban (Sept 2025) and what it means for US buyers in 2026
+- None mention the difference between plant-based AND HEMA-free (two separate distinctions the buyer conflates)
+- None address whether HEMA-free means you can't still react (critical buyer concern)
+
+**Word count target:** 1,350–1,500 words (competitor average: ~1,200 words for ranking pages in this keyword, we go slightly longer for depth)
+
+**Title direction:** Competitors use generic "best brands" framing. Our angle: specific to sets/collections with the plant-based call-out. More transactional, more specific to the buyer who wants to order a set today, not just read about brands.
+
+---
+
+## SECTION 5 — BUYER INTELLIGENCE
+
+**POST GEN INSTRUCTION: Every paragraph of copy must be written for this specific buyer. Use the exact phrases listed here naturally in the copy.**
+
+**Who this buyer is:**
+- Female, 25–45, health-conscious and ingredient-aware
+- Has experienced or fears a gel nail reaction — itching, redness, or lifting around cuticles
+- Some are aware of HEMA specifically; others just search "non-toxic gel polish" or "sensitive skin gel polish"
+- DIY home user segment and salon client segment who asks their tech to use safer products
+- Growing group influenced by EU cosmetics news and clean beauty trends
+- They do not mind paying a premium for safety but need to understand why a product is worth more
+
+**What they need from this post:**
+- A clear answer to "which HEMA-free set should I actually buy" — not just a brand list
+- Confidence that the formula is genuinely safe, not just labeled safe
+- Comparison between options by color count, price, and what makes each one different
+- Answer to "will I still react even on HEMA-free?" — this is the #1 objection to address
+
+**Top 5 buying objections — each must be addressed in the post body:**
+1. "Is HEMA-free really as long-lasting as regular gel?" → Address in intro or first H2
+2. "I'm still nervous I'll react even to 'HEMA-free'" → Address directly and honestly
+3. "How do I know the HEMA-free claim is real?" → Address with formula transparency context
+4. "Why does it cost more than regular gel?" → Address near price/CTA area
+5. "Do I need a new lamp for HEMA-free gel?" → Address early — common fear
+
+**Buyer phrase bank — use naturally in copy:**
+- "my nails started itching after months of using gel"
+- "my skin around the cuticles gets red after gel"
+- "I've been scared to use gel since my reaction"
+- "I want to do gel at home but I'm worried about chemicals"
+- "I didn't realize I was building up a sensitivity"
+- "I need something my nail tech can actually use on me"
+- "I want gel that lasts but without the allergy risk"
+- "no harsh chemical reaction that causes redness or burning"
+- "it's not a rare edge case — it can happen to anyone"
+- "HEMA sensitization is irreversible once it starts"
+- "switched to HEMA-free and no more reaction"
+
+**Recurring product praise to use as selling points (from site/blog research):**
+- Larger 16.5ml bottle size (Sweet Scent) — buyers notice they get more
+- Naturally scented — "feels like self-care not a chemical job"
+- Tilt-and-stand bottle design — genuine usability improvement
+- Non-yellowing and no floating glue at 21+ days
+
+**Discount codes to include near CTAs:**
+- Code OFF8: 8% off sitewide
+- Code MSOFF15: 15% off orders over $129.99
+- Free US shipping on orders over $129.99
+
+---
+
+## SECTION 6 — DISCOUNT AND CONVERSION DATA
+
+**POST GEN INSTRUCTION: Include active discount information naturally in the post — near ShopInlineCTA and ShopFinalCTA sections.**
+
+| Product | Price | Compare-At |
+|---|---|---|
+| Sweet Scent 36 Colors | $309.99 | not found — omit |
+| Fleurwee 42 Colors | $339.82 | not found — omit |
+| Fleurwee 52 Colors | $420.73 | not found — omit |
+| Fleurwee Gift Box | $49.99 | not found — omit |
+| Sweet Scent 6Pcs | $29.99 | not found — omit |
+
+**Active promotions confirmed on melodysusie.com:**
+- Code OFF8 → 8% off sitewide (any order)
+- Code MSOFF15 → 15% off orders over $129.99
+- Free US shipping on orders over $129.99
+
+**Placement:** Mention codes naturally once near the ShopInlineCTA area ("before you add to cart, grab code OFF8 for 8% off") and once near ShopFinalCTA ("orders over $129.99 get free US shipping and code MSOFF15 takes another 15% off").
+
+---
+
+## SECTION 7 — CONTENT STRUCTURE
+
+**POST GEN INSTRUCTION: Use these H2 headings in this exact order. Do not rename, reorder, or remove any of them.**
+
+### Intro (no H2)
+- **What it covers:** Open with the buyer's real problem — HEMA allergy is not rare, it's cumulative and irreversible, and most people don't see it coming. Validate the concern, then pivot immediately to the solution (plant-based HEMA-free sets that work).
+- **Primary keyword placement:** 2 mentions, both `<strong>` tagged
+- **Word budget:** 150–180 words
+- **NO product injection here**
+
+---
+
+### H2: Why HEMA Causes Allergic Reactions (And What to Use Instead)
+- **What it covers:** What HEMA is (in plain language, not chemistry lecture), why reactions develop over time (cumulative sensitization), and why EU's 2025 TPO ban matters for US buyers choosing formulas in 2026. Explain HEMA sensitization is irreversible — this is the key hook that drives urgency.
+- **AEO term answered here:** "What is HEMA in gel nail polish and why does it cause reactions?"
+- **GEO term:** none — this is educational
+- **Keyword:** 2 `<strong>` tagged mentions of primary keyword
+- **Word budget:** 180–220 words
+- **Product injection:** {{PRODUCTS:2:3,4}} — Gift Box + 6Pcs starter options, side by side, after this section closes
+
+---
+
+### H2: How to Actually Verify a Gel Polish Is HEMA-Free
+- **What it covers:** Buyer objection — "how do I know the claim is real?" Address: the 3-free label (HEMA, HPMA, TPO), what 21 non-toxic means, why plant-based formula is a separate and stronger claim. Point to EU-compliance as a quality signal. Brief, direct — this builds trust for purchase.
+- **AEO term answered here:** "How do I know if my gel polish is really HEMA-free?"
+- **Internal cluster links placed here (after first product CTA above):**
+  - "gel nail polish set" → /shop/gel-nail-kits/best-gel-nail-polish-sets
+  - "gel nail kits for a complete manicure" → /shop/gel-nail-kits/best-gel-nail-kits-complete-manicure
+- **Keyword:** 2 `<strong>` tagged mentions
+- **Word budget:** 160–200 words
+- **No product injection in this section**
+
+---
+
+### H2: The Best HEMA-Free Gel Polish Sets to Buy Now
+- **What it covers:** Introduce the product selection. Each product gets a paragraph of editorial copy — buyer benefit lead, then specs support. Address the "is it as long-lasting?" objection here. Mention discount codes naturally.
+- **AEO term answered here:** "What are the best HEMA-free gel polish sets available in the USA?"
+- **GEO terms:** free US shipping mention, available online USA
+- **Keyword:** 3 `<strong>` tagged mentions
+- **Word budget:** 200–240 words
+- **Product injection:** {{PRODUCTS:2:0,1}} — Sweet Scent 36 Colors + Fleurwee 42 Colors, then {{PRODUCTS:1:2}} — Fleurwee 52 Colors featured
+
+---
+
+### H2: Which Set to Choose Based on Your Color Needs
+- **What it covers:** Practical decision guide. Match buyer type to product: first-timer → Gift Box or 6Pcs; home DIY regular → Sweet Scent 36 Colors; color obsessive → Fleurwee 42 Colors; nail tech/pro → Fleurwee 52 Colors. Link to value sets post.
+- **AEO term answered here:** "What brands make truly HEMA-free gel polish sets with lots of colors?"
+- **Internal cluster link:** "value gel nail polish sets with lots of colors" → /shop/gel-nail-kits/best-value-gel-nail-polish-sets
+- **Keyword:** 2 `<strong>` tagged mentions
+- **Word budget:** 160–200 words
+- **No product injection here — ComparisonTable fires automatically after this section**
+
+---
+
+### Conclusion (no H2)
+- **What it covers:** Final decision push. Reframe: the real cost is not the price of the set, it's the cost of developing a HEMA sensitivity that affects every future gel use and even dental/medical adhesive exposure. These sets solve that. Drive to purchase with discount code reminder.
+- **GEO term:** "ships fast to US addresses"
+- **Keyword:** 1 `<strong>` tagged mention
+- **Word budget:** 100–130 words
+- **No product injection — ShopFinalCTA fires automatically**
+
+---
+
+**Injection plan summary:**
+1. After H2 "Why HEMA Causes Allergic Reactions": `{{PRODUCTS:2:3,4}}`
+2. Inside H2 "The Best HEMA-Free Gel Polish Sets to Buy Now": `{{PRODUCTS:2:0,1}}` then `{{PRODUCTS:1:2}}`
+3. ComparisonTable auto-fires between sections 2 and 3 (after H2 "Which Set to Choose")
+4. ShopFinalCTA auto-fires after pros/cons (if showProscons: false, after conclusion)
+
+---
+
+## SECTION 8 — COMPONENT DIRECTIVES
+
+**POST GEN INSTRUCTION: These components fire automatically from frontmatter. Never write component content in body — it auto-renders.**
+
+| Component | Status | Trigger |
+|---|---|---|
+| WinnerBadge | ACTIVE | winnerIndex: 0 set |
+| ShopInlineCTA | ACTIVE | winnerIndex: 0 set |
+| ComparisonTable | ACTIVE | showComparison: true + comparisonTable data present |
+| ProsConsBlock | INACTIVE | showProscons: false |
+| ShopFinalCTA | ALWAYS ACTIVE | products[] exists |
+| ShopFAQ | ACTIVE | faqs[] has 7 entries |
+| AuthorCard | ALWAYS ACTIVE | author: "jyoti-mirelle" |
+| ShopTableOfContents | ALWAYS ACTIVE | reads H2/H3 from body |
+| Sidebar winner card | ACTIVE | winnerIndex: 0 set |
+
+---
+
+## SECTION 9 — WRITING INSTRUCTIONS
+
+**POST GEN INSTRUCTION: Follow these writing rules for every paragraph of body copy.**
+
+1. This is conversion copy — every sentence moves the buyer toward a purchase decision
+2. Lead with buyer benefit, not product specs — specs support, never lead
+3. Use buyer phrases from Section 5 naturally — "my skin around the cuticles gets red," "I didn't realize I was building up a sensitivity"
+4. Address the #1 objection early: "is HEMA-free as long-lasting?" — answer it directly and confidently
+5. Honest cons build trust — include them, then counter with why the product is still the right buy
+6. Discount codes placed near CTAs — OFF8 and MSOFF15 mentioned naturally, not as a standalone paragraph
+7. Primary keyword `hema free gel polish` in `<strong>` tags every single mention — no exceptions
+8. No editorial literary hooks — open sections with the buyer benefit or buying question directly
+9. H2 sections are short and direct — buyers scan, not read
+10. Conclusion = final push to purchase, not a summary
+11. Internal cluster links placed mid-post after first product CTA — anchor text natural, never forced
+12. No related articles section
+13. Language: American English only
+14. No banned AI patterns: no "elevate," "seamlessly," "game-changing," "dive into," "transformative"
+15. No long em dashes — use commas or restructure
+16. Sentence rhythm varies — short punchy sentences for key selling points, longer for context
+17. No "we tested" language anywhere — editorial observations from specs and real buyer language only
+18. The EU September 2025 TPO ban is a real, current, citable event — use it as a trust signal and urgency driver for US buyers
