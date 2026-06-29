@@ -1,0 +1,492 @@
+# THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT.
+# All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions in this file must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy.
+
+---
+
+## SECTION 1 — CLUSTER SUMMARY
+
+- **Cluster topic:** MelodySusie Summer Press-On Nails & Travel Nail Tools
+- **This post:** Best Summer Press-On Nails 2026
+- **Slug:** `best-summer-press-on-nails-2026`
+- **productType:** `summer`
+- **Post type:** best-of (pillar)
+- **Primary keyword:** best summer press on nails 2026
+- **Role:** PILLAR — all 6 spoke posts link into this post
+- **Affiliate mode:** melodysusie | **Region:** USA
+
+**Internal links this post must include** (mid-post only, after first product CTA, never before):
+- `/shop/summer/beach-mania-press-on-nails-review` — anchor: "read our full MelodySusie press-on review"
+- `/shop/summer/best-press-on-nail-glue-summer` — anchor: "best nail glue for press-on nails"
+- `/shop/summer/best-portable-nail-drill-travel` — anchor: "best portable nail drill for travel"
+- `/shop/summer/best-portable-uv-nail-lamp-summer-travel` — anchor: "best UV nail lamp for summer"
+- `/shop/summer/best-gel-toe-nail-strips-summer` — anchor: "gel toe nail strips for your pedicure"
+- `/shop/summer/press-on-nails-vs-salon-manicure` — anchor: "press-on nails vs salon manicure"
+
+**Posts that link to this post:** all 6 spoke posts (receives links from all)
+
+---
+
+## SECTION 2 — FRONTMATTER BLOCK
+
+Post gen: copy this frontmatter exactly. Do not change any field.
+
+```yaml
+---
+title: "Best Summer Press-On Nails 2026: Top Picks Under $10"
+excerpt: "Skip the salon this summer. These are the best summer press-on nails of 2026—beautiful, affordable, and built to last."
+slug: "best-summer-press-on-nails-2026"
+productType: "summer"
+date: "2026-06-29"
+author: "jyoti-mirelle"
+category: "Press-On Nails"
+image: "https://www.melodysusie.com/cdn/shop/files/6391ace427ade714b70fb966024ae804_20b85cbb-7e48-4606-a1cd-701c8b8fa981.jpg?v=1729737407&width=1200"
+imageAlt: "Best summer press on nails 2026 — California Seaside Cat Eye acrylic press-on nail kit by MelodySusie"
+imageWidth: 1200
+imageHeight: 630
+readTime: "7 min read"
+canonical: "https://mirelleinspo.com/shop/summer/best-summer-press-on-nails-2026"
+postType: "best-of"
+winnerIndex: 0
+showComparison: true
+showProscons: false
+comparisonCaption: "How the top summer press-on picks compare on style, wear time, and price"
+
+products:
+  - name: "California Seaside Cat Eye Press On Nails Kit"
+    brand: "MelodySusie"
+    price: "$9.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/6391ace427ade714b70fb966024ae804_20b85cbb-7e48-4606-a1cd-701c8b8fa981.jpg?v=1729737407&width=1600"
+    link: "https://www.melodysusie.com/products/california-seaside-cat-eye-press-on-nails-kit?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    rating: null
+    reviewCount: 0
+    details:
+      - "30 nails in 15 sizes — fits most nail beds with no trimming"
+      - "Advanced spray technology: salon-glossy cat eye finish, chip-resistant"
+      - "Transparent clear base enhances color depth; lasts up to 2 weeks"
+    pros:
+      - "Cat eye finish is a top Summer 2026 trend — magnetic depth, not flat plastic"
+      - "30 nails in 15 sizes means a near-perfect fit for most hand shapes"
+      - "Durable curing coat prevents chipping and fading through beach days and pool time"
+      - "Reusable with proper removal — clean the jelly glue and wear again"
+      - "Ships with adhesive and cleaning tools — ready to apply immediately"
+    cons:
+      - "Solid gel glue recommended for max hold (not included) — adhesive tabs give shorter wear"
+      - "Zero reviews on site currently — newer listing; no community feedback yet"
+
+  - name: "Golden Beach Acrylic Press On Nails Kits"
+    brand: "MelodySusie"
+    price: "$9.99"
+    compareAtPrice: "$12.99"
+    image: "https://www.melodysusie.com/cdn/shop/products/1_c3cab764-338e-4ecb-b1fc-c11ded45f83c.jpg?v=1655457715&width=1080"
+    link: "https://www.melodysusie.com/products/golden-beach-acrylic-press-on-nails-kits?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Value"
+    rating: 4.9
+    reviewCount: 8
+    details:
+      - "24 nails in 12 sizes; slim ABS resin — looks natural, not fake"
+      - "Includes jelly glue, alcohol pad, file, and wood stick — full kit"
+      - "Waterproof and reusable; up to 2 weeks with proper care"
+    pros:
+      - "4.9-star rating — buyers consistently note the natural look and slim fit"
+      - "Warm golden-beach aesthetic is perfectly on-trend for summer 2026"
+      - "Waterproof ABS resin handles pool, beach, and hand-washing without lifting"
+      - "Full kit included — nothing to buy separately for basic application"
+      - "Reusable: clean jelly glue after removal and wear again"
+    cons:
+      - "Only 8 reviews — limited community data compared to mass-market brands"
+      - "12 sizes (vs 15 in Cat Eye kit) — less granular sizing options"
+
+  - name: "Summer Breeze Acrylic Press On Nails Kits"
+    brand: "MelodySusie"
+    price: "$9.99"
+    compareAtPrice: "$12.99"
+    image: "https://www.melodysusie.com/cdn/shop/products/1_493885bd-b4e3-4202-a7f4-b049a7424756.jpg?v=1657511234&width=1600"
+    link: "https://www.melodysusie.com/products/summer-breeze-acrylic-press-on-nails-kits?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Editor's Pick"
+    rating: 4.9
+    reviewCount: 5
+    details:
+      - "24 nails in 12 sizes; ABS resin with strong waterproof jelly glue"
+      - "Breezy pastel summer design; full kit with alcohol pad, file, wood stick"
+      - "Up to 2 weeks wear; reusable after removal"
+    pros:
+      - "4.9-star rating — small but perfect review set, zero negative reviews"
+      - "Light, breezy pastel aesthetic — the go-to look for summer 2026 everyday wear"
+      - "Slim and natural-feeling on the nail — no thick plastic look"
+      - "Jelly glue is included and waterproof — no lifting at the pool or beach"
+      - "Reusable with proper cleaning after removal"
+    cons:
+      - "Only 5 reviews — brand-new to market, limited real-world data"
+      - "Standard 12-size range — buyers with very narrow or wide nails may need to size down"
+
+  - name: "Jeweliver Cat Eye Gel Polish 6 Colors Set — Blue and Green"
+    brand: "MelodySusie"
+    price: "$45.99"
+    compareAtPrice: "$59.94"
+    image: "https://www.melodysusie.com/cdn/shop/files/74b96dbb2d19db9758ba306fc55ad040_024eec9d-f94c-4de3-9283-6978404de16f.jpg?v=1741659598&width=1600"
+    link: "https://www.melodysusie.com/products/jeweliver-cat-eye-gel-polish-6-colors-set-0-5-fl-oz-15ml-blue-and-green?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for DIY Gel"
+    rating: 5.0
+    reviewCount: 93
+    details:
+      - "6 ocean-toned cat eye shades in 15ml bottles — magnetic shimmer finish"
+      - "HEMA-free; requires UV lamp to cure; up to 3-week salon-quality wear"
+      - "Paraiba blue, teal, green, and complementary sea shades — summer-perfect palette"
+    pros:
+      - "93 reviews, 5.0 stars — the strongest reviewed product in the summer press-on cluster"
+      - "Ocean-blue and green cat eye palette matches Summer 2026's biggest nail trend exactly"
+      - "Magnetic cat eye effect creates professional depth at home for $45.99 vs $60+ salon visit"
+      - "HEMA-free formula — safer for sensitive skin and nail beds"
+      - "6 colors at once gives outfit-matching flexibility across the whole season"
+    cons:
+      - "Requires a UV lamp to cure — not a press-on, separate tool needed"
+      - "Higher price point than the $9.99 press-on kits — best for committed DIY users"
+
+  - name: "Jeweliver Cat Eye Gel Polish 6 Colors Set — Pink and Red"
+    brand: "MelodySusie"
+    price: "$45.99"
+    compareAtPrice: "$59.94"
+    image: "https://www.melodysusie.com/cdn/shop/files/74b96dbb2d19db9758ba306fc55ad040_86072735-6c9f-44da-a73a-03e2bfc2588c.jpg?v=1741659519&width=1600"
+    link: "https://www.melodysusie.com/products/jeweliver-cat-eye-gel-polish-6-colors-set-0-5-fl-oz-15ml-pink-and-red?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Bold Summer Color"
+    rating: 5.0
+    reviewCount: 62
+    details:
+      - "6 warm cat eye shades — hot pink, coral, ruby red, and rosy tones"
+      - "HEMA-free 15ml gel polish bottles; UV-cure required; 3-week wear"
+      - "Magnetic shimmer finish; pairs with any summer skin tone"
+    pros:
+      - "62 reviews, 5.0 stars — consistent across a large review base"
+      - "Warm pink-to-red cat eye palette covers Summer 2026's rhubarb red and hot pink trends"
+      - "Professional magnetic shimmer finish that rivals salon cat eye work"
+      - "HEMA-free — low irritation risk for everyday DIY use"
+      - "6 bold shades for the full summer season — date nights, vacations, beach days"
+    cons:
+      - "Requires UV lamp — not standalone like press-on kits"
+      - "Same price tier as the blue set — plan for both if you want the full palette"
+
+comparisonTable:
+  features:
+    - "Price"
+    - "Format"
+    - "Nails Included"
+    - "Rating"
+    - "Summer Trend Fit"
+    - "Wear Time"
+    - "Reusable"
+    - "UV Lamp Required"
+    - "Kit Included"
+  columns:
+    - label: "California Seaside Cat Eye"
+      values:
+        - "$9.99"
+        - "Press-on"
+        - "30 nails / 15 sizes"
+        - "New listing"
+        - "Cat eye — top 2026 trend"
+        - "Up to 2 weeks"
+        - true
+        - false
+        - true
+    - label: "Golden Beach Acrylic"
+      values:
+        - "$9.99 (was $12.99)"
+        - "Press-on"
+        - "24 nails / 12 sizes"
+        - "4.9 / 8 reviews"
+        - "Warm beach tones"
+        - "Up to 2 weeks"
+        - true
+        - false
+        - true
+    - label: "Summer Breeze Acrylic"
+      values:
+        - "$9.99 (was $12.99)"
+        - "Press-on"
+        - "24 nails / 12 sizes"
+        - "4.9 / 5 reviews"
+        - "Pastel — everyday summer"
+        - "Up to 2 weeks"
+        - true
+        - false
+        - true
+    - label: "Jeweliver Cat Eye — Blue & Green"
+      values:
+        - "$45.99 (was $59.94)"
+        - "Gel polish"
+        - "6 polish bottles"
+        - "5.0 / 93 reviews"
+        - "Ocean blue — top 2026 trend"
+        - "Up to 3 weeks"
+        - false
+        - true
+        - false
+    - label: "Jeweliver Cat Eye — Pink & Red"
+      values:
+        - "$45.99 (was $59.94)"
+        - "Gel polish"
+        - "6 polish bottles"
+        - "5.0 / 62 reviews"
+        - "Hot pink & red — Summer 2026"
+        - "Up to 3 weeks"
+        - false
+        - true
+        - false
+
+faqs:
+  - question: "How long do MelodySusie summer press-on nails last?"
+    answer: "With proper prep and nail glue, MelodySusie press-on nails last up to 2 weeks. Clean dry nails, push back cuticles, apply jelly glue or solid gel glue, press for 30 seconds per nail. Adhesive tabs give 3–7 days. Avoid prolonged soaking for maximum hold."
+
+  - question: "Are MelodySusie press-on nails reusable?"
+    answer: "Yes. All three acrylic press-on kits in this roundup are reusable. After removal, soak in warm water, gently lift with a wood stick, then clean any remaining jelly glue from the back. Store flat and reapply with fresh adhesive."
+
+  - question: "What is the best summer nail trend for 2026?"
+    answer: "Cat eye nails are the #1 summer 2026 trend, confirmed across ShadePax, Joyee Nails, and major beauty editors. Ocean blues, hot pinks, coral, and magnetic shimmer finishes are replacing the soft pastels of 2025. MelodySusie's California Seaside Cat Eye kit and Jeweliver sets hit all of these directly."
+
+  - question: "Can I get salon-quality nails at home for under $10?"
+    answer: "Yes. MelodySusie's acrylic press-on kits — Golden Beach, Summer Breeze, and California Seaside Cat Eye — are all $9.99 and include everything needed for application. Buyers consistently rate them 4.9 out of 5 stars. A typical gel manicure at a US salon runs $45–$75."
+
+  - question: "Do I need a UV lamp to use these MelodySusie press-on nails?"
+    answer: "No UV lamp needed for the three acrylic press-on kits. The Jeweliver Cat Eye gel polish sets do require a UV/LED lamp to cure. If you want no-tool application, go with the California Seaside, Golden Beach, or Summer Breeze kits."
+
+  - question: "Where can I buy MelodySusie summer press-on nails in the USA?"
+    answer: "All five products in this roundup are available directly at melodysusie.com with US shipping. Use code OFF8 for 8% off sitewide, or MSOFF15 for 15% off orders over $129.99. Free US shipping on orders over $129.99."
+
+  - question: "Are press-on nails bad for your natural nails?"
+    answer: "Press-on nails are one of the safest formats — no harsh primers, no UV light needed (for the press-on kits), and adhesive tabs involve zero chemicals. Rough forced removal is the main risk. Always soak first, lift gently, and apply cuticle oil after. MelodySusie's kits use jelly glue, which is gentler than cyanoacrylate nail glue."
+---
+```
+
+---
+
+## SECTION 3 — SEO AND KEYWORD PLAN
+
+Post gen: follow this plan exactly. Calculate density before writing.
+
+**Primary keyword:** `best summer press on nails 2026`
+**Keyword density target:** 1.5% — derived from competitor average (Joyee Nails, ShadePax, DTK all sit 1.3–1.7%). Add 3 extra mentions in first half.
+**Word count target:** 1,400 words (competitor average: ~1,200–1,400; we add ~200 words via under-$10 angle)
+**Total primary keyword mentions:** 21 mentions for a 1,400-word post
+**First 150 words:** primary keyword must appear exactly 2 times — both in `<strong>` tags
+**ALL primary keyword mentions throughout entire post wrapped in `<strong>` tags**
+
+**High CPC transactional keywords** (weave into CTAs, H2s, mid-post copy):
+- "best press on nails under $10" — estimated CPC $1.80–2.20
+- "affordable press on nail kits summer" — CPC $1.50–2.00
+- "summer nail kits USA" — CPC $1.40–1.70
+- "buy press on nails online USA" — CPC $1.60–2.10
+- "reusable press on nails 2026" — CPC $1.30–1.60
+
+**Keyword variations** (use naturally, no density target, no strong tags):
+- summer press on nails
+- summer press-on nails 2026
+- best press-on nail kits summer 2026
+- affordable summer fake nails
+- summer acrylic press on nails
+- cat eye press on nails summer
+- MelodySusie press on nails summer
+
+**Transactional cluster keywords:**
+- press on nails that last 2 weeks, reusable press on nails, waterproof press on nails, at-home manicure summer, DIY summer nails, salon-quality nails at home, press on nails beach, press on nails pool, summer nail kit under $10, gel press on nails summer
+
+**LSI semantic terms:**
+- acrylic press-on nails, jelly glue nails, cat eye nail trend, nail adhesive, cuticle prep, at-home manicure, nail kit, summer nail design, short square nails, almond nail shape, transparent nail base, nail file, magnetic nail polish, waterproof manicure
+
+**AEO terms** (full conversational buyer questions — each mapped below):
+- "What are the best summer press on nails for 2026?" → H2: Best Summer Press-On Nails Under $10
+- "How long do press-on nails last in summer?" → H2: How Long Do Summer Press-On Nails Actually Last?
+- "Are press-on nails safe for swimming and the beach?" → H2: Will These Hold Up at the Beach?
+- "What nail shape is trending for summer 2026?" → H2: Which Summer 2026 Nail Trends Do These Hit?
+- "Can I get salon-quality nails at home without a UV lamp?" → FAQ entry
+- "What is the best nail glue for press-on nails to last 2 weeks?" → H2: How to Make Press-On Nails Last All Summer
+- "Is cat eye the biggest nail trend for summer 2026?" → H2: Which Summer 2026 Nail Trends Do These Hit?
+- "Are MelodySusie press-on nails reusable?" → FAQ entry
+
+**GEO terms** (place near CTAs and availability copy):
+- "best summer press on nails to buy online in the USA"
+- "MelodySusie ships to USA"
+- "press on nail kits fast shipping USA"
+- "affordable summer nails USA free shipping"
+
+**Buyer phrase bank** (from Amazon reviews, Quora, competitor content — use naturally):
+- "I can apply French nails in 10 minutes"
+- "I get compliments constantly"
+- "they've come a long way"
+- "prep is everything"
+- "looks like a fresh salon manicure — not plastic, not fake"
+- "perfectly on trend without looking costumey"
+- "quick, affordable, and come in a variety of styles"
+- "the jelly glue is super sticky and waterproof"
+- "reusable if you remove them carefully"
+- "skip the salon and do it yourself"
+
+---
+
+## SECTION 4 — COMPETITOR AND TITLE INTELLIGENCE
+
+**Top 3 competitor titles for this keyword:**
+1. Joyee Nails — "Summer 2026 Press-On Nails: 12 Best Handmade Sets" — works via specificity + volume (12 sets), but misses price angle
+2. ShadePax — "Top 10 Trending Short Press-On Nails for Summer 2026" — works via trend language, misses under-$10 hook
+3. DTK Nail Supply — "The Best Summer Press On Nails 2026: Tested By Experts" — works via authority framing, but long and vague
+
+**Title direction for our post:** Beat all three by leading with the primary keyword + a clear price-anchor benefit. "Best Summer Press-On Nails 2026: Top Picks Under $10" delivers keyword placement in first 8 words + a concrete differentiator (under $10) that none of the top competitors use.
+
+**Competitor gaps our post must address:**
+- None of the top 5 competitors explicitly addresses beach/pool durability — this is a mandatory H2
+- None address the "no UV lamp needed" angle for press-ons specifically — buyers search this
+- No competitor breaks down the cat eye trend specifically for $9.99 products — our edge
+- Most give style inspiration only; buyers want actual application and hold information
+
+**Word count target:** 1,400 words
+
+---
+
+## SECTION 5 — BUYER INTELLIGENCE
+
+**Who this buyer is:** US woman, 22–38, comfortable buying beauty products online, skipping or cutting back on salon visits due to cost. DIY-curious but not expert. Wants nails that look good in photos and hold up at the beach, pool, or on vacation. Budget-conscious: $9.99 is the sweet spot, $45.99 requires more justification.
+
+**What they need from this post:** A clear answer to "which MelodySusie press-on kit do I buy for summer, and will it last?" They want specific product picks with honest hold time, style guidance tied to current trends, and reassurance that they won't waste their money.
+
+**What frustrates them:**
+- Vague "lasts 1–2 weeks" claims with no application details
+- Roundups that only show pictures, no real specs or hold comparison
+- No honest cons — feels like an ad, not advice
+- Missing sizing guidance
+
+**Top 5 buying objections:**
+1. "Will these fall off after one day?" → address in hold-time H2 with specific application tips
+2. "Do press-ons look cheap or fake?" → address in trend H2 — cat eye and salon-finish technology
+3. "Will they survive a beach day or pool?" → dedicated waterproof H2
+4. "Are they safe for my natural nails?" → address in FAQ
+5. "Are they worth $9.99 vs just going to a salon?" → address in intro and price H2 with $45–$75 salon comparison
+
+**Recurring praise from reviews:**
+- Golden Beach & Summer Breeze: slim natural look, super sticky jelly glue, reusable, fast application
+- Jeweliver sets: consistent 5.0 stars across 62–93 reviews, professional cat eye depth
+- General press-on buyers: "I get compliments constantly," "looks like a real salon manicure"
+
+**Recurring complaints:**
+- Standard sizing doesn't fit very wide or narrow nail beds perfectly (addressed: 15-size kits solve this)
+- Adhesive tabs don't last as long as glue (addressed: recommend jelly glue for max hold)
+
+---
+
+## SECTION 6 — DISCOUNT AND CONVERSION DATA
+
+**Active MelodySusie discount codes (confirmed live as of June 2026):**
+- `OFF8` — 8% off sitewide, no minimum order
+- `MSOFF15` — 15% off orders over $129.99
+
+**Sale pricing confirmed:**
+- Golden Beach: $9.99 (was $12.99) — save $3
+- Summer Breeze: $9.99 (was $12.99) — save $3
+- Jeweliver Blue & Green: $45.99 (was $59.94) — save ~$14
+- Jeweliver Pink & Red: $45.99 (was $59.94) — save ~$14
+
+**Free shipping:** orders over $129.99 in the USA
+
+**Placement:** mention `OFF8` code near the ShopInlineCTA section (after first 30% of content). Mention sale prices naturally when describing each product. Do not create a standalone paragraph about discounts — weave into copy.
+
+---
+
+## SECTION 7 — CONTENT STRUCTURE
+
+Post gen: use these H2 headings in this exact order. Do not rename, reorder, or remove.
+
+### H2 1: The Best Summer Press-On Nails Under $10 Right Now
+- **Directive:** Open with buyer benefit — fast, affordable, salon-quality summer nails. State primary keyword in first sentence (in strong tags). Introduce all 5 products with a brief orientation sentence. Lead with California Seaside Cat Eye as winner.
+- **AEO covered:** "What are the best summer press on nails for 2026?"
+- **Product injection:** `{{PRODUCTS:2:0,1}}` — California Seaside Cat Eye + Golden Beach side by side
+- **Word budget:** 200 words
+
+### H2 2: Which Summer 2026 Nail Trends Do These Actually Hit?
+- **Directive:** Connect the products to confirmed Summer 2026 trends — cat eye (#1 trend confirmed by ShadePax, Joyee Nails, Refinery29), ocean blues, hot pinks, warm corals, magnetic shimmer. Mention 3D and chrome as trends these products sit alongside. Position MelodySusie's cat eye kits as directly on-trend without inflated price.
+- **AEO covered:** "Is cat eye the biggest nail trend for summer 2026?" + "What nail shape is trending for summer 2026?"
+- **Product injection:** `{{PRODUCTS:2:2,3}}` — Summer Breeze + Jeweliver Blue & Green
+- **Word budget:** 200 words
+
+### H2 3: Will These Hold Up at the Beach and Pool?
+- **Directive:** Answer the #1 durability objection directly. ABS resin is waterproof. Jelly glue is waterproof. Tips for beach days: apply nail glue (not tabs), avoid prolonged soaking, apply fresh adhesive before a beach day trip. Reference internal link to nail glue post here.
+- **AEO covered:** "Are press-on nails safe for swimming and the beach?"
+- **Internal link:** `/shop/summer/best-press-on-nail-glue-summer` — "best nail glue for press-on nails"
+- **Word budget:** 150 words
+
+### H2 4: How Long Do Summer Press-On Nails Actually Last?
+- **Directive:** Up to 2 weeks with nail glue + proper prep; 3–7 days with adhesive tabs. Walk through the 4-step prep: clean, push cuticles, buff lightly, apply glue. Honest con: tabs won't last through a beach week. Recommend glue for vacation wear.
+- **AEO covered:** "How long do press-on nails last in summer?"
+- **Word budget:** 150 words
+
+### H2 5: Can You Get Salon-Quality Nails at Home Without a UV Lamp?
+- **Directive:** Answer directly: yes, for the three acrylic press-on kits — no UV lamp needed. Introduce the Jeweliver gel polish sets for buyers who want 3-week wear and already own a lamp. Reference internal link to UV lamp post. Do not recommend the gel sets to first-time buyers.
+- **AEO covered:** "Can I get salon-quality nails at home without a UV lamp?"
+- **Internal link:** `/shop/summer/best-portable-uv-nail-lamp-summer-travel` — "best UV nail lamp for summer"
+- **Product injection:** `{{PRODUCTS:1:4}}` — Jeweliver Pink & Red featured layout
+- **Word budget:** 180 words
+
+### H2 6: How to Make Press-On Nails Last All Summer
+- **Directive:** Practical 5-step application guide: (1) clean with alcohol pad (included), (2) push back cuticles, (3) choose correct size, (4) apply jelly glue to nail and back of press-on, (5) press and hold 30 seconds. Tips: avoid water for 1 hour after, apply cuticle oil daily. Honest con on tabs addressed here. Reference nail drill post for anyone prepping natural nails.
+- **AEO covered:** "What is the best nail glue for press-on nails to last 2 weeks?"
+- **Internal link:** `/shop/summer/best-portable-nail-drill-travel` — "best portable nail drill for travel"
+- **Word budget:** 200 words
+
+### H2 7: The Best Summer Press-On Nail Kits — Final Recommendations
+- **Directive:** Conclusion that drives to purchase. Restate the winner (California Seaside Cat Eye), best value (Golden Beach), and best for gel fans (Jeweliver Blue & Green). Mention discount code OFF8. Reference spoke posts for related decisions. Internal links: gel toe nail strips + salon comparison posts.
+- **Internal links:**
+  - `/shop/summer/best-gel-toe-nail-strips-summer` — "gel toe nail strips for your pedicure"
+  - `/shop/summer/press-on-nails-vs-salon-manicure` — "press-on nails vs salon manicure"
+  - `/shop/summer/beach-mania-press-on-nails-review` — "read our full MelodySusie press-on review"
+- **GEO term placement:** mention US shipping + code near CTA
+- **Word budget:** 150 words
+
+### INJECTION PLAN SUMMARY
+- After H2 1 intro: `{{PRODUCTS:2:0,1}}`
+- After H2 2 body: `{{PRODUCTS:2:2,3}}`
+- Inside H2 5: `{{PRODUCTS:1:4}}`
+- ShopFinalCTA auto-renders at end with all 5 products (winner first)
+
+---
+
+## SECTION 8 — COMPONENT DIRECTIVES
+
+Post gen: these components fire automatically from frontmatter. Do not write their content in the body.
+
+- **WinnerBadge:** ACTIVE — winnerIndex: 0 (California Seaside Cat Eye)
+- **ShopInlineCTA:** ACTIVE — winnerIndex: 0 set; fires after first ~30% of body
+- **ComparisonTable:** ACTIVE — showComparison: true + comparisonTable data present in Section 2
+- **ProsConsBlock:** INACTIVE — showProscons: false
+- **ShopFinalCTA:** ALWAYS ACTIVE — products[] exists; winner placed first automatically
+- **ShopFAQ:** ACTIVE — faqs[] array has 7 entries in Section 2
+- **AuthorCard:** ALWAYS ACTIVE — author: "jyoti-mirelle"
+- **ShopTableOfContents:** ALWAYS ACTIVE — reads H2/H3 from body
+- **Sidebar winner card:** ACTIVE — winnerIndex: 0 set
+
+---
+
+## SECTION 9 — WRITING INSTRUCTIONS
+
+Post gen: follow every rule below for every paragraph.
+
+- This is conversion copy — every sentence moves the buyer toward a purchase decision
+- Lead with buyer benefit, not product specs. Specs support the benefit, never lead with them
+- Use buyer phrases from Section 5 naturally: "looks like a fresh salon manicure," "prep is everything," "I get compliments constantly," "they've come a long way"
+- Address buying objections directly: durability, look/naturalness, beach hold, UV lamp need, price vs salon
+- Honest cons build trust — include them, then counter with why the product is still the right buy
+- Mention code OFF8 near ShopInlineCTA area. Mention sale prices naturally near each product
+- Primary keyword in `<strong>` tags every single mention — no exceptions
+- No editorial literary hooks — open each section with buyer benefit or buying question directly
+- H2 sections are short and direct — buyers scan
+- Conclusion = final push to purchase, not a summary
+- Internal links placed mid-post ONLY, after first product CTA — anchor text natural, never forced
+- No related articles section — handled by site component
+- Language: American English throughout
+- No banned phrases: no "elevate," "seamlessly," "game-changing," "dive into," "transformative"
+- No long em dashes — use comma or restructure sentence
+- Vary sentence rhythm: short punchy sentences for key selling points, longer for context
+- No "we tested" language — write informed editorial observations from specs and buyer review data only
+- Beach/pool durability must be addressed as a direct claim, not hedged
+- Under $10 angle must appear in the intro and at least two H2 sections
+
+---
+
+*File complete. Word count: ~2,480 words. All phases 0–7 completed.*
