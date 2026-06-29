@@ -1,0 +1,475 @@
+# THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT
+# All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy.
+
+---
+
+## SECTION 1 — CLUSTER SUMMARY
+
+- **Cluster topic:** Gel Nail Polish Sets with UV Light
+- **This post:** Best Gel Nail Kits for a Complete Manicure
+- **Slug:** best-gel-nail-kits-complete-manicure
+- **productType:** gel-nail-kits
+- **Post type:** best-of
+- **Primary keyword:** gel nail kits
+- **Role:** Spoke (of pillar: best-gel-nail-polish-sets)
+
+**Internal links this post MUST include (mid-post only, after first product CTA):**
+1. Link to `best-gel-nail-polish-sets` — anchor text: "gel nail polish set"
+2. Link to `best-hema-free-gel-nail-polish-sets` — anchor text: "HEMA-free gel nail polish sets"
+3. Link to `best-value-gel-nail-polish-sets` — anchor text: "value gel nail polish sets with lots of colors"
+
+**Posts that link TO this post:**
+- best-gel-nail-polish-sets (anchor: "best gel nail kits for a complete manicure")
+- best-hema-free-gel-nail-polish-sets (anchor: "gel nail kits for a complete manicure")
+- best-value-gel-nail-polish-sets (anchor: "gel nail kits for a complete manicure")
+
+**Affiliate mode:** MelodySusie only. Region: USA.
+
+---
+
+## SECTION 2 — FRONTMATTER BLOCK
+
+> **Post gen instruction:** Copy this frontmatter block EXACTLY into the post file. Do not change any field. All prices, URLs, product names, images, and slugs are pre-filled and verified.
+
+```yaml
+---
+title: "Best Gel Nail Kits for a Complete Manicure at Home"
+excerpt: "The best gel nail kits that include everything — lamp, polish, cuticle tools, and more — for a full salon manicure at home."
+slug: "best-gel-nail-kits-complete-manicure"
+productType: "gel-nail-kits"
+date: "2026-06-29"
+author: "jyoti-mirelle"
+category: "Nail Tools"
+image: "https://www.melodysusie.com/cdn/shop/files/product_image_341.jpg?v=1757485305&width=2048"
+imageAlt: "Gel nail kits for complete manicure including UV lamp polish cuticle tools and builder gel"
+imageWidth: 1200
+imageHeight: 630
+readTime: "7 min read"
+canonical: "https://mirelleinspo.com/shop/gel-nail-kits/best-gel-nail-kits-complete-manicure"
+postType: "best-of"
+winnerIndex: 0
+showComparison: true
+showProscons: false
+comparisonCaption: "How the top gel nail kits compare on contents, lamp power, and value"
+
+products:
+  - name: "Gel Nail Polish Kit with UV Light P-PLUS30F"
+    brand: "MelodySusie"
+    price: "$59.99"
+    compareAtPrice: "$129.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/product_image_341.jpg?v=1757485305&width=2048"
+    link: "https://www.melodysusie.com/products/surprise-gel-nail-polish-kit-red-brown?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Overall"
+    rating: null
+    reviewCount: 0
+    details:
+      - "8 gel polish colors + 36W P-PLUS30F lamp + builder gel + base + glossy top coat"
+      - "Full tool set: cuticle trimmer, pusher, nail files, dust brush, tweezers, scraper, UV gloves"
+      - "Gel lasts 28+ days; lamp cures in 30–99s with auto-sensor on/off"
+    pros:
+      - "One box covers the entire manicure process — no separate tool purchases needed"
+      - "Includes a 7-in-1 builder gel for overlays, extensions, and shape-building"
+      - "36W lamp with 30 dual LED/UV beads cures fast without overheating"
+      - "Low-odor, high-saturation formula self-levels and goes on smooth"
+      - "Chrome powders and nail art stickers included for design variety"
+    cons:
+      - "Only 8 color shades — buyers who want a large palette will need to add colors separately"
+      - "No removal acetone or cotton wraps included — you'll need to source those"
+
+  - name: "Super Value HEMA-Free Gel Bundle"
+    brand: "MelodySusie"
+    price: "$249.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/1_6f08e217-0f7c-44aa-bba5-796e90fff8a9.jpg?v=1766390604&width=2048"
+    link: "https://www.melodysusie.com/products/black-friday-limitd-super-value-hema-free-gel-bundle?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Large Color Libraries"
+    rating: null
+    reviewCount: 0
+    details:
+      - "24 HEMA-free gel polish colors + P-PLUS30F 36W lamp + HEMA-free top/base/builder gel"
+      - "Includes 2-in-1 nail art brush set + color display book — salon-ready from day one"
+      - "HEMA-free formula: lasts 28 days, 60–90s cure time, low allergy risk"
+    pros:
+      - "24-color range covers every occasion — nudes, brights, darks, and everyday shades"
+      - "HEMA-free formula is safer for sensitive skin and daily manicurists"
+      - "Comes with a nail color display book — professional salon presentation included"
+      - "Builder gel included for overlays and nail strengthening without separate purchase"
+    cons:
+      - "Higher price point — best value for frequent manicurists or small salon restocking"
+      - "No cuticle trimmer or nail file included — pair with a separate prep tool kit"
+
+  - name: "Nail Art Essential Set"
+    brand: "MelodySusie"
+    price: "$69.99"
+    image: "https://www.melodysusie.com/cdn/shop/files/3_47b32d7c-4bc2-4fc3-a4d3-520a34b48009.jpg?v=1745380184&width=2048"
+    link: "https://www.melodysusie.com/products/nail-art-essential-set-1?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best for Nail Art Enthusiasts"
+    rating: null
+    reviewCount: 0
+    details:
+      - "5 builder gels + glossy + matte top coats + base coat + blooming gel + liner + rhinestone glue"
+      - "Long-lasting 21+ days; covers prep, application, and design in one kit"
+      - "Suitable for natural, acrylic, and false nails — salon and home use"
+    pros:
+      - "Complete nail art foundation kit — no separate builder gel, blooming gel, or liner needed"
+      - "Includes both glossy and matte top coats for finish flexibility"
+      - "Rhinestone glue included — rhinestone embellishments attach without extra adhesive"
+      - "Works on natural, acrylic, and false nail tips"
+    cons:
+      - "Does not include a UV lamp — must be purchased or already owned"
+      - "No gel color polish included — this is an essentials and art tools kit, not a color kit"
+
+  - name: "PM170F & P-Plus20F Nail Drill Gift Box"
+    brand: "MelodySusie"
+    price: "$193.98"
+    image: "https://www.melodysusie.com/cdn/shop/files/4_9a738f73-c0a9-4ca6-8c35-c6dd730ea98f.jpg?v=1744796998&width=2048"
+    link: "https://www.melodysusie.com/products/pm170f-nail-drill-gift-box?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol"
+    badge: "Best Pro Tool Kit"
+    rating: null
+    reviewCount: 0
+    details:
+      - "PM170F rechargeable nail drill pen + P-Plus20F UV protection 48W nail lamp"
+      - "Includes nail drill bits, nail stickers, rhinestones, and sponge buffer"
+      - "P-Plus20F UV protection design shields skin; 240° rotatable panel; rechargeable (300 uses)"
+    pros:
+      - "UV skin protection lamp — the P-Plus20F minimizes UV exposure to skin while curing"
+      - "Nail drill pen makes cuticle prep, shaping, and gel removal faster and more precise"
+      - "240° rotatable lamp panel fits all hand sizes without awkward positioning"
+      - "Rechargeable drill and lamp — no cord restriction; great for mobile manicurists"
+    cons:
+      - "Does not include gel polish colors — this kit covers tools only"
+      - "Premium price reflects professional-grade tools; best for those committed to regular at-home manicures"
+
+comparisonTable:
+  features:
+    - "UV Lamp Included"
+    - "Lamp Wattage"
+    - "Colors Included"
+    - "Cuticle Tools"
+    - "Builder Gel"
+    - "HEMA-Free Formula"
+    - "Nail Art Tools"
+    - "Price"
+  columns:
+    - label: "P-PLUS30F Kit"
+      values:
+        - "true"
+        - "36W"
+        - "8 colors"
+        - "true"
+        - "true"
+        - "false"
+        - "Chrome powder, stickers"
+        - "$59.99"
+    - label: "Super Value Bundle"
+      values:
+        - "true"
+        - "36W"
+        - "24 colors"
+        - "false"
+        - "true"
+        - "true"
+        - "Nail art brush set"
+        - "$249.99"
+    - label: "Nail Art Essential Set"
+      values:
+        - "false"
+        - "Lamp not included"
+        - "No color polish"
+        - "false"
+        - "true"
+        - "false"
+        - "Blooming gel, liner, rhinestone glue"
+        - "$69.99"
+    - label: "PM170F Gift Box"
+      values:
+        - "true"
+        - "48W (UV Protected)"
+        - "No color polish"
+        - "false"
+        - "false"
+        - "false"
+        - "Rhinestones, stickers, buffer"
+        - "$193.98"
+
+faqs:
+  - question: "What should a complete gel nail kit include?"
+    answer: "A complete gel nail kit should include a UV/LED lamp (36W minimum), gel base coat, at least one gel color, glossy top coat, nail files, a cuticle pusher, and a cuticle trimmer. Better kits also include builder gel for overlays and chrome powder or nail art tools. The MelodySusie P-PLUS30F kit covers all of these in a single box."
+
+  - question: "What wattage lamp do I need for gel nails at home?"
+    answer: "For home gel nails, 36W to 48W is all you need. Higher wattage only matters for thick builder gel or polygel — standard gel formulas cure in 30–60 seconds at 36W. The P-PLUS30F lamp included in MelodySusie's kit runs at 36W with 30 dual LED/UV beads and three timer settings."
+
+  - question: "How long do gel nail kits last at home?"
+    answer: "A properly applied gel manicure using a base coat, two color coats, and a no-wipe top coat lasts 2–4 weeks without chipping. MelodySusie's gel polish formula is designed for 28+ days of wear. Prep is critical — clean, dry nails with cuticles pushed back will hold the gel longer."
+
+  - question: "Do gel nail kits come with removal tools?"
+    answer: "Most kits do not include acetone or foil wraps. A complete gel nail kit will include nail files and a cuticle pusher to break the seal and lift the gel, but you'll need pure acetone and cotton pads separately for full gel removal. The MelodySusie P-PLUS30F kit includes files and cuticle tools for prep and basic removal steps."
+
+  - question: "What is builder gel used for in a gel nail kit?"
+    answer: "Builder gel strengthens thin or damaged nails, creates a smooth base for gel polish, and can extend nail length or repair breaks. It's a 7-in-1 product in the MelodySusie P-PLUS30F kit — it works as a base, thickening overlay, apex builder, length extender, and adhesive for tips and rhinestones."
+
+  - question: "Can I buy gel nail kits with fast shipping in the USA?"
+    answer: "Yes — MelodySusie ships directly to all US addresses from their website at melodysusie.com. Orders over $129.99 qualify for free US shipping. Use code OFF8 for 8% off sitewide, or code MSOFF15 for 15% off orders over $129.99."
+
+  - question: "Is a gel nail kit worth it if I normally go to the salon?"
+    answer: "Yes — a single gel manicure at a salon averages $40–$60. The MelodySusie P-PLUS30F kit costs $59.99 and includes everything for repeated manicures, so it pays for itself within 1–2 uses. Home kits also mean no scheduling, no wait, and full color choice control."
+---
+```
+
+---
+
+## SECTION 3 — SEO AND KEYWORD PLAN
+
+> **Post gen instruction:** Follow this keyword plan exactly. Calculate density before writing — do not estimate.
+
+**Primary keyword:** `gel nail kits`
+**Keyword density target:** 1.2% — match competitor density. Add 3 extra mentions in first half. **Total mention target: 17 mentions in a 1,400-word post.**
+**First 150 words:** Primary keyword appears exactly **2 times** — both in `<strong>` tags.
+**ALL primary keyword mentions throughout entire post:** wrapped in `<strong>` tags.
+
+**High CPC transactional keywords (weave into CTAs, H2s, mid-copy):**
+- complete gel nail kit (high commercial intent)
+- gel nail kit with UV light (high CPC)
+- gel nail kit with everything included
+- at home gel nail kit
+- professional gel nail kit
+- gel nail manicure kit
+- best gel nail kit for home use
+
+**Keyword variations (use naturally, no density target, no strong tags):**
+- gel nail kits with lamp
+- gel nail kit set
+- full gel nail kit
+- gel manicure kit
+- home gel nail kit
+- gel nail kit complete set
+
+**Transactional cluster keywords:**
+- buy gel nail kit USA
+- gel nail kit free shipping
+- gel nail kit online USA
+- gel nail kit 2026
+- gel nail kit with tools
+- gel nail kit sale
+
+**LSI semantic terms (weave naturally):**
+- UV LED nail lamp
+- base coat and top coat
+- builder gel
+- cuticle pusher
+- nail file and buffer
+- soak-off gel polish
+- salon-quality manicure at home
+- gel polish long lasting
+- nail art tools
+- chrome nail powder
+- 28-day wear
+- HEMA-free formula
+- nail drill pen
+- auto-sensor lamp
+
+**AEO terms — mapped to H2 or FAQ:**
+| AEO Term | Mapped To |
+|---|---|
+| "What should a complete gel nail kit include?" | H2: What to Look for in a Complete Gel Nail Kit + FAQ |
+| "What wattage lamp do I need for gel nails at home?" | H2: What to Look for in a Complete Gel Nail Kit + FAQ |
+| "How long do gel nail kits last at home?" | H2: How Long Will Your Manicure Last? + FAQ |
+| "Is a 36W lamp enough to cure gel polish?" | H2: What to Look for in a Complete Gel Nail Kit |
+| "Do gel nail kits include cuticle tools?" | H2: What to Look for in a Complete Gel Nail Kit + FAQ |
+| "What is builder gel used for in a nail kit?" | H2: The Case for Builder Gel in Your Kit + FAQ |
+| "Can I remove gel nails at home with a kit?" | FAQ |
+
+**GEO terms — place near CTAs and availability copy:**
+- buy gel nail kits online USA
+- gel nail kits free shipping USA
+- where to buy gel nail kits in the US
+- gel nail kits fast delivery USA
+
+**Buyer phrase bank — use naturally in copy:**
+- "everything I need in one box"
+- "takes the guesswork out"
+- "been paying $40 for gel manicures but no more"
+- "beginner friendly"
+- "lasts over two weeks"
+- "fresh from the salon"
+- "so many colors to choose from"
+- "goes on incredibly smoothly"
+- "self levels perfectly"
+- "paying for itself after the first use"
+- "I can do it anywhere now"
+- "the UV light is surprisingly powerful"
+- "cuticle tools make all the difference"
+- "no scheduling, no waiting"
+
+---
+
+## SECTION 4 — COMPETITOR AND TITLE INTELLIGENCE
+
+> **Post gen instruction:** Use this section to write a title and excerpt that outperforms competitors on CTR. The analysis is done — execute it.
+
+**Top competitor titles:**
+1. "13 Best At-Home Gel Nail Kits (2026)" — slbeautyco.com — works via number + year, misses "complete" angle
+2. "The Best Nail Kits of 2026: Which One is Right for You?" — bellebeauty.ie — good hook but no specificity on contents
+3. "Best Builder Gel Kits for Beginners in 2026" — builder gel niche, not all-in-one framing
+
+**Title direction:** Beat them by being specific about completeness and the home manicure angle. The buyer searching "gel nail kits" wants to know they'll get EVERYTHING — not just polish. Lead with "complete manicure" — that's the differentiator none of the top competitors own clearly.
+
+**Competitor gaps — these become mandatory H2 sections:**
+- None of the top-ranking pages explain what should be in a complete kit vs. a partial kit
+- None mention lamp wattage requirements clearly for home users
+- None address builder gel's role in a complete manicure kit
+- None flag the difference between a "kit" (tools + lamp + polish) vs. a "polish set" (colors only)
+
+**Missing product angles competitors miss:**
+- Builder gel inclusion is a major differentiator — mention for each product where applicable
+- HEMA-free complete kits as a distinct buyer type (health-conscious at-home manicurist)
+- UV skin protection technology in lamps (P-Plus20F angle)
+
+**Word count target: 1,400 words**
+
+---
+
+## SECTION 5 — BUYER INTELLIGENCE
+
+> **Post gen instruction:** Every paragraph of copy must be written for this specific buyer. Use the exact phrases listed here naturally in the copy.
+
+**Who this buyer is:** Home DIY manicurist, probably paying $40–$60 per salon visit, wants to switch to doing nails at home. Not necessarily a beginner — may have done basic regular polish at home but is new to gel. Values value-for-money over luxury branding. Searches "gel nail kits" because they want the whole setup, not individual products.
+
+**What they need from this post:** A clear breakdown of what's actually inside each kit, lamp specs they can understand (wattage, cure time), and reassurance that this particular kit has everything — they don't want to discover they're missing something after ordering.
+
+**What frustrates them:**
+- Posts that list products but don't explain what's in the kit
+- Incomplete kits marketed as "complete" that don't include a lamp or cuticle tools
+- Vague longevity claims with no specifics
+- No honest cons — they've been burned by kits with cheap tools
+
+**Top 5 buying objections — address in body copy:**
+1. "Will this actually last as long as a salon gel?" → address with 28-day wear claim + prep importance
+2. "Are the tools included good quality or cheap fillers?" → address honestly (files and clippers are basic; the polish and lamp are solid)
+3. "Do I need any other products?" → address by specifying what's not included (acetone)
+4. "Is 36W really enough?" → yes, explain directly
+5. "Is the setup too complicated?" → address with auto-sensor lamp and self-leveling polish angles
+
+**Buyer phrase bank:**
+- "everything I need in one box"
+- "takes the guesswork out"
+- "been paying $40 for gel manicures but no more"
+- "beginner friendly"
+- "lasts over two weeks"
+- "fresh from the salon"
+- "goes on incredibly smoothly"
+- "self levels perfectly"
+- "paying for itself after the first use"
+- "no scheduling, no waiting"
+- "the UV light is surprisingly powerful"
+- "cuticle tools make all the difference"
+
+**Recurring praise from category research:**
+- Ease of use, especially the auto-sensor lamp
+- Color variety and pigment quality
+- Cost savings vs. salon
+- Self-leveling formula
+
+**Recurring complaints:**
+- File and clipper quality is basic in budget kits
+- Some kits don't include removal tools
+- Thin colors need a second coat
+
+---
+
+## SECTION 6 — DISCOUNT AND CONVERSION DATA
+
+> **Post gen instruction:** Include active discount info naturally near CTAs.
+
+- **CODE OFF8** = 8% off sitewide on melodysusie.com
+- **CODE MSOFF15** = 15% off orders over $129.99
+- **Free US shipping** on orders over $129.99
+- P-PLUS30F Kit: sale $59.99 vs. regular $129.99 — **save $70** — mention near first CTA
+- Place discount mention: near ShopInlineCTA area and ShopFinalCTA area
+
+---
+
+## SECTION 7 — CONTENT STRUCTURE
+
+> **Post gen instruction:** Use these H2 headings in this exact order. Do not rename, reorder, or remove. Add H3s at your discretion. Each H2 has a directive — follow it.
+
+**H2 1: What Makes a Gel Nail Kit Actually "Complete"?**
+- Directive: Define what a truly complete gel nail kit includes (lamp, color gel, base, top coat, cuticle tools, builder gel, nail files). Differentiate kit from polish set. Answer AEO: "What should a complete gel nail kit include?" and "Do gel nail kits include cuticle tools?"
+- Word budget: 180 words
+- No {{PRODUCTS}} injection here — this is the hook/educational opener
+
+**H2 2: The Best Gel Nail Kits for a Complete At-Home Manicure**
+- Directive: Introduce the products with a brief framing sentence, then inject products 0 and 1 (winner + HEMA-free bundle). Emphasize lamp wattage (36W) and what's included in each. Address objection: "Is 36W really enough?"
+- AEO: "What wattage lamp do I need for gel nails at home?"
+- {{PRODUCTS:2:0,1}} injection after intro sentence
+- Internal link 1: link to "gel nail polish set" (pillar) after the first product CTA area
+- Word budget: 300 words
+
+**H2 3: What to Look for Beyond the Basics**
+- Directive: Cover the Nail Art Essential Set and the PM170F Gift Box — the "advanced" angle. Explain what builder gel does, why a nail drill pen speeds up prep, why a UV-protection lamp matters. Covers buyers who already have polish but want to upgrade their tool setup.
+- AEO: "What is builder gel used for in a nail kit?"
+- {{PRODUCTS:2:2,3}} injection here
+- Internal link 2: link to "HEMA-free gel nail polish sets" (spoke) natural placement here
+- Word budget: 280 words
+
+**H2 4: How Long Will Your Gel Manicure Last?**
+- Directive: Address the longevity objection directly. 28+ day claim with the caveat that prep is what makes it last. Mention that proper nail files and cuticle tools (included in the P-PLUS30F kit) are what make the difference. One sentence mention of value vs salon pricing.
+- AEO: "How long do gel nail kits last at home?"
+- No product injection here
+- Internal link 3: link to "value gel nail polish sets with lots of colors" (spoke) placed naturally at end of section
+- Word budget: 180 words
+
+**H2 5: What's Not Included (And What You'll Need Separately)**
+- Directive: Honest section — covers what no kit includes (pure acetone + cotton for removal, cuticle oil, nail drill bits beyond the gift box). Builds trust. Addresses objection: "Do I need anything else?" Short, 2–3 paragraphs max.
+- No product injection, no internal links here
+- Word budget: 150 words
+
+**Conclusion (no H2 — conversational close):**
+- Directive: Final push to the P-PLUS30F kit as the clearest starting point. Mention the $70 savings vs. regular price. Reminder of discount codes (OFF8, MSOFF15). Note free US shipping on orders over $129.99. 
+- Word budget: 100 words
+
+**Product injection plan:**
+- Between H2 2 intro and main body: `{{PRODUCTS:2:0,1}}`
+- Between H2 3 intro and body: `{{PRODUCTS:2:2,3}}`
+
+---
+
+## SECTION 8 — COMPONENT DIRECTIVES
+
+> **Post gen instruction:** These components fire automatically from the frontmatter in Section 2. Confirm trigger fields are correctly set. NEVER write component content in body — it auto-renders.
+
+| Component | Status | Trigger |
+|---|---|---|
+| WinnerBadge | ACTIVE | winnerIndex: 0 set in frontmatter |
+| ShopInlineCTA | ACTIVE | winnerIndex: 0 set in frontmatter |
+| ComparisonTable | ACTIVE | showComparison: true AND comparisonTable data in frontmatter |
+| ProsConsBlock | INACTIVE | showProscons: false |
+| ShopFinalCTA | ALWAYS ACTIVE | products[] exists |
+| ShopFAQ | ACTIVE | faqs[] array has 7 entries in frontmatter |
+| AuthorCard | ALWAYS ACTIVE | author: "jyoti-mirelle" |
+| ShopTableOfContents | ALWAYS ACTIVE | reads H2/H3 from body |
+| Sidebar winner card | ACTIVE | winnerIndex: 0 set |
+
+---
+
+## SECTION 9 — WRITING INSTRUCTIONS
+
+> **Post gen instruction:** Follow these writing rules for every paragraph of body copy.
+
+- This is conversion copy — every sentence moves the buyer toward a purchase decision
+- Lead with buyer benefit, not product specs — specs support the benefit, never lead
+- Use buyer phrases from Section 5 naturally: "everything I need in one box," "takes the guesswork out," "pays for itself after the first use," etc.
+- Address buying objections directly — do not hedge or avoid them
+- Honest cons build trust — include them, then explain why the product is still the right buy
+- Discount information placed near CTAs: "Currently $59.99 (was $129.99) — use code OFF8 for an extra 8% off"
+- Primary keyword `gel nail kits` in `<strong>` tags every mention — no exceptions
+- No editorial literary hooks — open with the buyer benefit or question directly
+- H2 sections are short and direct — buyers scan
+- Conclusion = final push to purchase, not a summary
+- Internal links placed mid-post after first product CTA — never before
+- No related articles section — handled by site component
+- Language: American English only
+- No banned AI patterns: no "elevate," "seamlessly," "game-changing," "dive into," "transformative"
+- No long em dashes — use commas or restructure
+- Short punchy sentences for key selling points; longer sentences for context only
+- No "we tested" language — editorial observations from specs and buyer intelligence only
+- Honest about what's NOT included (acetone, cuticle oil) — do not oversell as "complete" where it isn't
