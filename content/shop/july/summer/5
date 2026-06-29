@@ -1,0 +1,513 @@
+---
+THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE SHOP POST GEN AGENT. All frontmatter fields, product data, keyword targets, component directives, H2 structure, and writing instructions in this file must be followed exactly. Nothing is left to the post gen agent's discretion except writing the copy.
+---
+
+# SECTION 1: CLUSTER SUMMARY
+
+- **Cluster topic:** MelodySusie Summer Press-On Nails & Travel Nail Tools
+- **This post:** Best UV Nail Lamp for Summer Manicures
+- **Slug:** best-portable-uv-nail-lamp-summer-travel
+- **productType:** summer
+- **Post type:** best-of
+- **Primary keyword:** best uv led nail lamp for gel nails
+- **Role:** Spoke (links to pillar)
+- **Affiliate mode:** melodysusie | **Region:** USA
+
+**Internal links this post must include (mid-post only, after first product CTA — never before):**
+- `/shop/summer/best-summer-press-on-nails-2026` — anchor text: "best summer press-on nails"
+- `/shop/summer/best-portable-nail-drill-travel` — anchor text: "best portable nail drill for travel"
+
+**Posts that link to this post:** best-summer-press-on-nails-2026, best-portable-nail-drill-travel
+
+---
+
+# SECTION 2: FRONTMATTER BLOCK
+
+> **Post gen instruction:** Copy this frontmatter block exactly into the post. Do not change any field. Image URLs, prices, product names, slugs — all pre-filled.
+
+```yaml
+---
+title: "Best UV LED Nail Lamp for Gel Nails: 4 Picks That Actually Work"
+excerpt: "The best UV LED nail lamp for gel nails doesn't need a cord. These 4 MelodySusie picks cure every gel type fast — from $19.99."
+slug: best-portable-uv-nail-lamp-summer-travel
+productType: summer
+date: 2026-06-29
+author: jyoti-mirelle
+category: Nail Tools
+image: https://www.melodysusie.com/cdn/shop/files/1bc94908bf76a6086d3399c2e0e2fce4_530b31ff-fbc9-4f91-8c67-77e893b66566.jpg?v=1769763710&width=1600
+imageAlt: "Best UV LED nail lamp for gel nails — MelodySusie P-PLUS30G cordless rechargeable lamp in pink curing gel polish at home"
+imageWidth: 1200
+imageHeight: 630
+readTime: "10 min read"
+canonical: https://mirelleinspo.com/shop/summer/best-portable-uv-nail-lamp-summer-travel
+postType: best-of
+winnerIndex: 0
+showComparison: true
+showProscons: false
+comparisonCaption: "How the top UV LED nail lamps compare on power, portability, and price"
+
+products:
+  - name: "P-PLUS30G Rechargeable Cordless UV/LED Nail Lamp"
+    brand: MelodySusie
+    price: "$49.99"
+    compareAtPrice: "$59.99"
+    image: https://www.melodysusie.com/cdn/shop/files/1bc94908bf76a6086d3399c2e0e2fce4_530b31ff-fbc9-4f91-8c67-77e893b66566.jpg?v=1769763710&width=1600
+    link: https://www.melodysusie.com/products/p-plus30g-rechargeable-cordless-uv-led-nail-lamp-pink?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol
+    badge: "Best Overall"
+    rating: 5.0
+    reviewCount: 110
+    details:
+      - "48W cordless — cures 300 times on a single 2-hour charge"
+      - "30 UV/LED dual beads with smart infrared auto-sensor"
+      - "3 timer settings (30s/60s/99s) + LCD display + detachable base for pedicures"
+    pros:
+      - "No cord means you can do your nails anywhere — couch, balcony, travel"
+      - "7800mAh battery handles 300 cures before needing a charge"
+      - "Low heat 99s mode prevents the burning sensation on thin or sensitive nails"
+      - "Detachable base works for both manicures and pedicures"
+      - "LCD shows timer and battery level so you never get caught mid-cure without power"
+    cons:
+      - "Heavier than corded models due to integrated battery"
+      - "Some users report faster battery degradation with daily professional-frequency use"
+
+  - name: "P-PLUS30A LED/UV Nail Lamp with UV Gloves"
+    brand: MelodySusie
+    price: "$23.99"
+    compareAtPrice: "$37.99"
+    image: https://www.melodysusie.com/cdn/shop/files/P-Plus30A_2_2fc0b4f1-0b0f-4b90-bafa-384184b556ce.jpg?v=1773111265&width=1600
+    link: https://www.melodysusie.com/products/p-plus30a-led-uv-nail-lamp-with-uv-gloves-pink?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol
+    badge: "Best Value"
+    rating: 4.8
+    reviewCount: 46
+    details:
+      - "30 upgraded LED/UV beads — fast, even curing for soft and hard gels"
+      - "Includes UV protection gloves to shield skin during curing"
+      - "Compact C-shape fits hands and feet of all sizes"
+    pros:
+      - "UV protection gloves included — rare at this price point"
+      - "Compact and space-saving design keeps the nail table clear"
+      - "3 timer settings (30s/60s/90s) with LED display and smart auto-sensor"
+      - "Works reliably with rhinestone glue, liner gel, and fast-cure polishes"
+    cons:
+      - "Corded — not portable without a power outlet"
+      - "Smaller than the P-PLUS30G; thumb may need a separate cure pass for larger hands"
+
+  - name: "P-ART06G Rechargeable & Cordless LED/UV Nail Lamp"
+    brand: MelodySusie
+    price: "$19.99"
+    compareAtPrice: "$22.99"
+    image: https://www.melodysusie.com/cdn/shop/files/ea1809cbd788a494639fafa729384a56_2c310b06-7cdf-4ce0-aeec-58515534a071.jpg?v=1753437560&width=1600
+    link: https://www.melodysusie.com/products/p-art06g-led-uv-nail-lamp?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol
+    badge: "Best for Travel"
+    rating: 5.0
+    reviewCount: 56
+    details:
+      - "365-405nm dual light wave — cuts curing time by up to 50% vs standard LED lamps"
+      - "Rechargeable, cordless, and pocket-sized: 5×3×4 in, 6 oz"
+      - "One-button design with 45s/75s timers — beginner-ready"
+    pros:
+      - "Lightest and most portable pick — slips into any bag or carry-on"
+      - "Rechargeable via USB — no wall plug dependency"
+      - "Low heat and painless curing protects sensitive hands"
+      - "Compatible with most gel polish brands"
+    cons:
+      - "Smaller footprint means curing 4 fingers first, then thumb"
+      - "Not suited for builder gel or heavy polygel — designed for soft gels and polish"
+
+  - name: "P-Plus20F Innovative UV Protection Rechargeable UV/LED Nail Lamp"
+    brand: MelodySusie
+    price: "$112.49"
+    compareAtPrice: "$143.91"
+    image: https://www.melodysusie.com/cdn/shop/files/381db143255f3e586ea52c1c36d9b5d5_0b184aa9-ce90-4bfa-8350-adc00aff6f30.jpg?v=1736152222&width=1600
+    link: https://www.melodysusie.com/products/p-plus20f-uv-protection-rechargeable-uv-led-nail-lamp?aff=3711&utm_campaign=3711&utm_source=affiliate&utm_medium=kol
+    badge: "Best for Skin-Conscious Users"
+    rating: 5.0
+    reviewCount: 56
+    details:
+      - "Physical UV protection — zoned lighting shields skin while curing nails only"
+      - "240° rotatable panel fits hands of all sizes; 2025 Red Dot Design Award finalist"
+      - "48W rechargeable — 300 cures after 2.5 hours of charging"
+    pros:
+      - "Only lamp in this roundup with physical built-in UV skin protection — no gloves required"
+      - "Rotatable panel adjusts to hand width and finger length for a custom fit"
+      - "Aesthetically the most refined lamp here — award-winning minimalist design"
+      - "Works for on-the-go and salon use; lightweight and rechargeable"
+    cons:
+      - "Most expensive pick at $112.49 — a significant step up from the others"
+      - "UV protection design works best with the original charger; avoid third-party cables"
+
+comparisonTable:
+  features:
+    - "Price"
+    - "Wattage"
+    - "Cordless"
+    - "Battery / Charge"
+    - "Light Beads"
+    - "Timers"
+    - "UV Skin Protection"
+    - "Detachable Base"
+    - "Auto Sensor"
+    - "Best For"
+  columns:
+    - label: "P-PLUS30G"
+      values:
+        - "$49.99"
+        - "48W"
+        - true
+        - "7800mAh / 300 cures / 2hr"
+        - "30 dual UV/LED"
+        - "30s / 60s / 99s"
+        - false
+        - true
+        - true
+        - "Everyday cordless use"
+    - label: "P-PLUS30A + UV Gloves"
+      values:
+        - "$23.99"
+        - "Not specified (30 beads)"
+        - false
+        - "Corded"
+        - "30 upgraded UV/LED"
+        - "30s / 60s / 90s"
+        - "Via included gloves"
+        - false
+        - true
+        - "Budget + skin protection"
+    - label: "P-ART06G"
+      values:
+        - "$19.99"
+        - "Not specified"
+        - true
+        - "USB rechargeable"
+        - "365-405nm dual"
+        - "45s / 75s"
+        - false
+        - false
+        - false
+        - "Travel & beginners"
+    - label: "P-Plus20F"
+      values:
+        - "$112.49"
+        - "48W"
+        - true
+        - "300 cures / 2.5hr"
+        - "20 beads (zoned)"
+        - "Multiple"
+        - "Physical built-in"
+        - false
+        - true
+        - "Health-conscious & pro"
+
+faqs:
+  - question: "What wattage UV nail lamp do I need for gel nails at home?"
+    answer: "For home gel nails, 36W to 48W is all you need. Standard gel polish, base coat, and top coat cure fully in 30–60 seconds at 48W. Higher wattage only matters for builder gel, hard gel extensions, or polygel — which need longer cure times and more power. The MelodySusie P-PLUS30G at 48W covers every standard home gel use case."
+
+  - question: "Is a cordless UV nail lamp as powerful as a corded one?"
+    answer: "Yes — modern cordless UV lamps like the MelodySusie P-PLUS30G deliver the same 48W output as corded models. Battery technology has reached the point where there is no meaningful curing difference. The only tradeoff is weight: the battery adds bulk, though 7800mAh gives you 300 full cures before recharging."
+
+  - question: "Can I use a UV nail lamp on the go or while traveling?"
+    answer: "Yes. The MelodySusie P-ART06G is designed for exactly that — it's USB rechargeable, weighs about 6 oz, and measures 5×3×4 inches. The P-PLUS30G is also cordless and works anywhere without an outlet. Both cure standard gel polish and top coats without needing a power source nearby."
+
+  - question: "Do UV nail lamps damage your skin?"
+    answer: "The UV exposure from nail lamps is very brief and low-intensity compared to tanning beds. For extra protection, the MelodySusie P-PLUS30A includes UV protection gloves in the box. The P-Plus20F uses a built-in physical zoned lighting design that shields the skin around the nail bed without gloves. For occasional home use, the P-PLUS30G's standard exposure is considered low risk."
+
+  - question: "What is the difference between UV and LED nail lamps?"
+    answer: "Modern UV/LED hybrid lamps — which all four picks here are — cure both UV and LED gel formulations. Pure UV lamps are older and slower; pure LED lamps don't work with some UV-specific professional gels. For home use in the USA, a dual UV/LED lamp at 36W–48W with 365nm–405nm wavelength range covers every gel you'll realistically buy."
+
+  - question: "Where can I buy a MelodySusie UV nail lamp in the USA?"
+    answer: "MelodySusie ships directly to the USA from melodysusie.com, with free US shipping on orders over $129.99. All four lamps in this roundup are available on the site. Use code OFF8 for 8% off any order, or code MSOFF15 for 15% off orders over $129.99."
+
+  - question: "Can I use a UV nail lamp for both manicures and pedicures?"
+    answer: "Yes — the MelodySusie P-PLUS30G has a detachable base that opens up enough space to cure toes comfortably. The P-PLUS30A's C-shaped design also fits feet of all sizes. For pedicures on the go this summer, either the P-PLUS30G or P-PLUS30A works without needing a second lamp."
+---
+```
+
+---
+
+# SECTION 3: SEO & KEYWORD PLAN
+
+> **Post gen instruction:** Follow this keyword plan exactly. Calculate density before writing — do not estimate. Every mention of the primary keyword throughout the full post must be wrapped in `<strong>` tags.
+
+**Primary keyword (locked):** best uv led nail lamp for gel nails
+
+**Keyword density target:** 1.5% — add 3 extra mentions in the first half of the post.
+**Total mention target:** ~30 mentions in a 2,000-word post.
+**First 150 words:** Primary keyword must appear exactly 2 times — both in `<strong>` tags.
+
+**High CPC transactional keywords** (weave into CTAs, H2s, mid-post copy):
+- best cordless UV nail lamp ($2.40–$3.80 est. CPC)
+- rechargeable gel nail lamp USA
+- portable nail lamp for travel
+- UV nail lamp for gel polish at home
+- buy gel nail lamp online USA
+
+**Keyword variations (use naturally, no density target, no strong tags):**
+- best UV nail lamp for gel nails
+- best LED nail lamp for gel polish
+- cordless UV nail lamp
+- rechargeable nail lamp
+- gel nail curing lamp
+- portable UV lamp gel nails
+- uv led nail light
+- best nail dryer for gel polish
+
+**Transactional cluster keywords (weave throughout):**
+- UV nail lamp under $25
+- UV nail lamp under $50
+- MelodySusie nail lamp review
+- MelodySusie P-PLUS30G
+- nail lamp with UV protection
+- cordless nail lamp for home use
+- nail lamp with detachable base
+- UV nail lamp with timer
+
+**LSI semantic terms (weave naturally):**
+- gel curing time, cure gel polish, low heat mode, auto sensor nail lamp, smart infrared sensor, dual wavelength 365nm 405nm, 48W nail lamp, LCD display nail lamp, nail dryer, photoinitator, gel manicure at home, rhinestone glue curing, builder gel, polygel, soak-off gel, base coat top coat, nail beads
+
+**AEO terms — each mapped to a specific H2 or FAQ:**
+- "What wattage UV nail lamp do I need for gel nails at home?" → FAQ entry 1
+- "Is a cordless UV nail lamp as powerful as a corded one?" → FAQ entry 2
+- "Can I use a UV nail lamp on the go or while traveling?" → H2: "Which MelodySusie UV Lamp Is Best for Travel or Outdoor Summer Use?" + FAQ 3
+- "Do UV nail lamps damage your skin?" → H2: "Do You Need UV Protection with a Nail Lamp?" + FAQ 4
+- "What is the difference between UV and LED nail lamps?" → H2: "UV vs. LED Nail Lamp: What Does It Actually Mean for Curing?" + FAQ 5
+- "Where can I buy a MelodySusie UV nail lamp in the USA?" → FAQ 6
+- "Can I use a UV nail lamp for both manicures and pedicures?" → FAQ 7
+
+**GEO terms (place near product CTAs, shipping mentions, availability copy):**
+- best UV nail lamp to buy in the USA
+- MelodySusie free shipping USA
+- UV nail lamp fast shipping USA
+- where to buy gel nail lamp online USA
+- best cordless nail lamp USA
+
+---
+
+# SECTION 4: COMPETITOR & TITLE INTELLIGENCE
+
+> **Post gen instruction:** Use this section to write a title and excerpt that outperforms competitors on CTR. The analysis is done — execute it.
+
+**Top 3 competitor titles:**
+1. "Best UV & LED Nail Lamps in 2026: Home, Salon & Cordless Options Compared" (Lab Tests Guide) — comprehensive but generic; doesn't speak to a specific buyer or price
+2. "Best UV Nail Lamp (2026): Top 7 for Fast Gel Cures" (KentDO) — number-driven but no price or portability angle
+3. "Best UV & LED Nail Lamps: 10 Top Picks & Buyer's Guide" (DTK) — high product count, no benefit-led angle
+
+**What makes our title beat them:**
+- Lead with the result ("that Actually Work") — eliminates purchase anxiety
+- Include price range to capture value-seeking buyers
+- Keep primary keyword front-loaded (first 5 words)
+
+**Word count target:** 2,000 words (competitor average: 1,600–2,200; match at higher end for coverage advantage)
+
+**Competitor gaps our post must fill:**
+- None address cordless/portable for summer outdoor use specifically
+- None include UV skin protection as a buying criterion
+- None give a beginner-budget pick under $20 alongside a premium pick
+- None address pedicure functionality clearly
+- None mention real discount codes / pricing for USA buyers
+
+---
+
+# SECTION 5: BUYER INTELLIGENCE
+
+> **Post gen instruction:** Every paragraph of copy must be written for this specific buyer. Use the exact phrases listed here naturally in the copy.
+
+**Who this buyer is:**
+DIY gel nail enthusiast or beginner — mostly women, 20s–40s — doing nails at home or wanting to maintain summer gel manicures without booking salon appointments. They own or are buying gel polish and need the lamp to complete the setup. They scan product specs but don't know what they mean — they want someone to translate specs into outcomes ("what this means for your nails").
+
+**What they need from this post:**
+A clear "just tell me which one to buy" answer, with enough supporting context to trust the pick. They're also trying to avoid overpaying for features they don't need.
+
+**What frustrates them:**
+- "Best" roundups that don't explain why each product was chosen
+- Vague claims like "cures fast" with no timer or wattage specs
+- Posts that recommend $150+ lamps when they just want to do gel at home
+- No mention of UV skin risk or how to protect hands
+- No answer to "will this work with my gel polish brand?"
+
+**Top 5 buying objections (address each in post body):**
+1. "Will this work with my existing gel polish?" — Answer: dual 365-405nm wavelength cures virtually every gel brand; specify rhinestone glue, solid gel, liner gel compatibility
+2. "Is cordless actually as good as corded?" — Answer: yes, 48W cordless delivers identical curing; battery is the only difference
+3. "Is the UV from a nail lamp bad for my skin?" — Answer: brief and low-intensity vs tanning beds; address UV gloves (P-PLUS30A) and physical UV shield (P-Plus20F)
+4. "What if I just need something cheap and basic?" — Answer: P-ART06G at $19.99 is the entry pick; set expectations (soft gels only, not builder gel)
+5. "Do I need a fancy lamp or will any cheap one do?" — Answer: cheap lamps often undercure at 14W–24W; 36W+ is the floor for reliable home gel results
+
+**Buyer phrase bank (use naturally in copy):**
+- "does my nail gel actually cure"
+- "no burning sensation"
+- "fits my whole hand at once"
+- "don't want to stay plugged in"
+- "works with OPI / CND"
+- "cures rhinestone glue"
+- "don't want to burn my fingers"
+- "can I use it for pedicures too"
+- "how long does it take to charge"
+- "will the battery die mid-manicure"
+- "lightweight enough to travel with"
+- "too many options, just tell me which one"
+
+**Recurring praise from real MelodySusie lamp reviews:**
+- P-PLUS30G: cure speed, no-cord flexibility, low heat mode eliminating heat spike, LCD clarity
+- P-ART06G: compact size, USB charging, beginner-friendliness, painless curing
+- P-Plus20F: UV protection design, premium feel, lightweight for its output
+- P-PLUS30A: UV gloves bundle value, works well with fast-cure gel brands like Modelones
+
+**Recurring complaints:**
+- P-PLUS30G: heavier than expected (manage: clarify why and the tradeoff)
+- P-ART06G: not for builder gel (manage: set expectations in the pick description)
+- P-Plus20F: price (manage: position as the skin-conscious / long-term investment pick)
+
+---
+
+# SECTION 6: DISCOUNT & CONVERSION DATA
+
+> **Post gen instruction:** Include active discount information naturally near ShopInlineCTA section and ShopFinalCTA area. Do not place as a standalone paragraph — weave into product context.
+
+**Active MelodySusie discount codes (confirmed live on site):**
+- **CODE OFF8:** 8% off sitewide (any order)
+- **CODE MSOFF15:** 15% off orders over $129.99
+
+**Free shipping:** Free US shipping on orders over $129.99
+
+**Sale pricing (confirmed from product pages):**
+- P-PLUS30G: $49.99 (was $59.99) — $10 off
+- P-PLUS30A: $23.99 (was $37.99) — $14 off
+- P-ART06G: $19.99 (was $22.99) — $3 off
+- P-Plus20F: $112.49 (was $143.91) — $31.42 off
+
+**Placement:** Mention CODE OFF8 naturally near the P-ART06G and P-PLUS30A CTAs (budget picks). Mention MSOFF15 near the P-Plus20F CTA (order may reach the threshold with add-ons).
+
+---
+
+# SECTION 7: CONTENT STRUCTURE
+
+> **Post gen instruction:** Use these H2 headings in this exact order. Do not rename, reorder, or remove. Add H3s at your discretion. Each H2 has a directive — follow it.
+
+**Total word count target: 2,000 words**
+
+---
+
+**[INTRO — no H2 heading]** (~160 words)
+- Open with the buyer's core problem: gel polish stays sticky without the right lamp, and most roundups don't help you choose
+- State primary keyword twice in first 150 words, both `<strong>` tags
+- Immediately name the winner (P-PLUS30G) and the price range ($19.99–$112.49)
+- Set up the post structure briefly: 4 picks, different price points and use cases
+- GEO term: mention MelodySusie ships to USA with fast delivery
+
+**{{PRODUCTS:1:0}}** — Winner featured layout, placed after intro
+
+---
+
+**H2: Why the Right UV LED Nail Lamp Changes Your Whole Gel Routine** (~180 words)
+- Covers: why cheap underpowered lamps (14W–24W) fail to cure properly — sticky nails, peeling, waste of gel polish
+- Answers buyer objection: "do I really need a specific lamp or will any cheap one do?"
+- Explain wattage floor (36W+), dual wavelength (365-405nm), full-hand vs mini
+- AEO term answered here: "What is the difference between UV and LED nail lamps?" (partial — direct FAQ to fully answer it)
+- Keep short and punchy — buyers scan this section
+
+---
+
+**H2: The 4 Best UV LED Nail Lamps for Gel Nails from MelodySusie** (~80 words intro text)
+- Brief framing sentence for the full product grid
+- State the range: from the $19.99 pocket pick to the $112.49 UV-protective premium
+
+**{{PRODUCTS:4:0,1,2,3}}** — 2×2 grid of all 4 products, placed here
+
+---
+
+**H2: Which MelodySusie UV Lamp Is Best for Travel or Outdoor Summer Use?** (~200 words)
+- Focus on the P-ART06G and P-PLUS30G for portability
+- Buyer phrase: "don't want to stay plugged in," "lightweight enough to travel with"
+- Compare: P-ART06G for pure portability (USB, 6oz, pocket-sized) vs P-PLUS30G for power + portability (7800mAh, 300 cures, full-hand)
+- AEO: "Can I use a UV nail lamp on the go or while traveling?" — answered directly here
+- **Internal link goes here:** Link to `/shop/summer/best-portable-nail-drill-travel` with anchor text "best portable nail drill for travel" — natural sentence: "If you're building a full travel nail kit, check our guide to the best portable nail drill for travel."
+- GEO: "Available to US buyers with fast shipping from melodysusie.com"
+
+**{{PRODUCTS:2:0,2}}** — P-PLUS30G and P-ART06G side by side
+
+---
+
+**H2: Do You Need UV Protection with a Nail Lamp?** (~180 words)
+- Address skin safety concern directly — buyers ask this, competitors don't answer it
+- State: UV exposure from nail lamps is brief and low-intensity; for extra protection two options exist:
+  - P-PLUS30A: UV gloves included in the box at $23.99
+  - P-Plus20F: physical zoned UV protection built into the lamp design itself — no gloves needed
+- AEO answered: "Do UV nail lamps damage your skin?"
+- Buyer phrase: "don't want to burn my fingers"
+- Mention CODE OFF8 naturally near P-PLUS30A
+- **Internal link goes here:** Link to `/shop/summer/best-summer-press-on-nails-2026` with anchor text "best summer press-on nails" — natural sentence: "If you're pairing your new lamp with a full summer nail look, our roundup of the best summer press-on nails has you covered."
+
+**{{PRODUCTS:2:1,3}}** — P-PLUS30A and P-Plus20F side by side
+
+---
+
+**H2: UV vs. LED Nail Lamp: What Does It Actually Mean for Curing?** (~160 words)
+- Explain plainly: modern "UV LED" lamps are dual-wavelength hybrids — they cure both UV-specific and LED-specific gel formulations
+- Buyers don't need to choose between UV and LED; all 4 picks here work with virtually any retail gel brand in the US
+- Call out compatibility: rhinestone glue, solid nail glue gel, liner gel polish, OPI, CND, Canni, Modelones, Beetles
+- AEO fully answered here: "What is the difference between UV and LED nail lamps?"
+- Reassure: buyer phrase "works with OPI / CND"
+
+---
+
+**H2: How to Get the Most Out of Your Gel Nail Lamp This Summer** (~160 words)
+- Practical quick tips: thin layers cure best, position nails flat under center of beads, cure thumb separately if using a smaller lamp, clean lamp interior monthly
+- Address pedicure: P-PLUS30G's detachable base opens for toes — relevant summer angle (sandal season)
+- Buyer phrase: "can I use it for pedicures too"
+- Mention MSOFF15 code naturally if mentioning the P-Plus20F or ordering multiple items
+
+---
+
+**[CONCLUSION — no H2]** (~80 words)
+- Final buying decision push: "If you want one lamp that does everything — cures fast, goes anywhere, and works with every gel you own — the P-PLUS30G is the pick." Reinforce price ($49.99, down from $59.99). Mention CODE OFF8 one final time near CTA.
+- No summary — no recapping what the post covered. Drive to the buy.
+
+---
+
+**Injection plan:**
+- After intro: `{{PRODUCTS:1:0}}`
+- After "The 4 Best UV LED Nail Lamps" H2 intro: `{{PRODUCTS:4:0,1,2,3}}`
+- After "Which Lamp Is Best for Travel" H2: `{{PRODUCTS:2:0,2}}`
+- After "Do You Need UV Protection" H2: `{{PRODUCTS:2:1,3}}`
+
+---
+
+# SECTION 8: COMPONENT DIRECTIVES
+
+> **Post gen instruction:** These components fire automatically from frontmatter. Confirm trigger fields in Section 2 are correctly set. Never write component content in body — it auto-renders.
+
+| Component | Status | Trigger |
+|---|---|---|
+| WinnerBadge | **ACTIVE** | winnerIndex: 0 set in frontmatter |
+| ShopInlineCTA | **ACTIVE** | winnerIndex: 0 set in frontmatter |
+| ComparisonTable | **ACTIVE** | showComparison: true + comparisonTable data present |
+| ProsConsBlock | **INACTIVE** | showProscons: false (best-of post type) |
+| ShopFinalCTA | **ALWAYS ACTIVE** | products[] exists |
+| ShopFAQ | **ACTIVE** | faqs[] has 7 entries |
+| AuthorCard | **ALWAYS ACTIVE** | author: jyoti-mirelle |
+| ShopTableOfContents | **ALWAYS ACTIVE** | reads H2/H3 from body |
+| Sidebar winner card | **ACTIVE** | winnerIndex: 0 set |
+
+---
+
+# SECTION 9: WRITING INSTRUCTIONS
+
+> **Post gen instruction:** Follow these writing rules for every paragraph of body copy.
+
+1. This is conversion copy — every sentence moves the buyer toward a purchase decision.
+2. Lead with buyer benefit, not product specs — specs support the benefit, never lead with them.
+3. Use buyer phrases from Section 5 naturally — speak their language.
+4. Address buying objections directly — do not hedge or avoid them.
+5. Honest cons build trust — include them, then counter with why the product is still the right buy.
+6. Discount information placed near CTAs — mention CODE OFF8 and MSOFF15 naturally, not as a standalone paragraph.
+7. Primary keyword in `<strong>` tags every mention — no exceptions throughout the entire post.
+8. No editorial literary hooks — open sections with the buyer benefit or buying question directly.
+9. H2 sections are short and direct — buyers scan, they do not read long intros.
+10. Conclusion = final push to purchase — not a summary, a decision driver.
+11. Internal links placed mid-post only (after first {{PRODUCTS:1:0}} injection) — anchor text natural, never forced.
+12. No related articles section — handled by site component.
+13. Language: American English — not British English.
+14. No banned AI patterns: no "elevate," "seamlessly," "game-changing," "dive into," "transformative."
+15. No long em dashes — use comma or restructure sentence.
+16. Sentence rhythm varies — short punchy sentences for key selling points, longer for context.
+17. No "we tested" language — write informed editorial observations from specs and verified buyer reviews.
+18. Image alt text is set in frontmatter — do not write image alt text in body copy.
