@@ -1,0 +1,701 @@
+
+> mirelle-site@0.1.0 build
+> next build --turbopack
+
+   ▲ Next.js 15.5.15 (Turbopack)
+   - Environments: .env.local
+   - Experiments (use with caution):
+     ✓ optimizeCss
+     · optimizePackageImports
+
+   Creating an optimized production build ...
+ ⚠ Webpack is configured while Turbopack is not, which may cause problems.
+ ⚠ See instructions if you need to configure Turbopack:
+  https://nextjs.org/docs/app/api-reference/next-config-js/turbopack
+
+ ✓ Finished writing to disk in 121ms
+ ✓ Compiled successfully in 6.5s
+   Linting and checking validity of types  . ⨯ ESLint: Identifier 'js' has already been declared
+ ✓ Linting and checking validity of types    
+ ✓ Collecting page data    
+Error reading work-nails posts: [YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key at line 5, column 5:
+    date: "2026-05-09T09:00:00-05:00"
+        ^] {
+  reason: 'can not read a block mapping entry; a multiline key may not be an implicit key',
+  mark: [e],
+  constructor: [Function: d],
+  toString: [Function (anonymous)]
+}
+Blog post not found: nailsbypeyton
+Blog post not found: new-job-nails
+Blog post not found: professional-nail-designs-for-work
+Blog post not found: professional-nail-length-for-work
+Blog post not found: short-nails-for-work
+Blog post not found: work-appropriate-nail-art
+Blog post not found: work-appropriate-nail-colors
+Blog post not found: work-nails
+Error reading work-nails posts: [YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key at line 5, column 5:
+    date: "2026-05-09T09:00:00-05:00"
+        ^] {
+  reason: 'can not read a block mapping entry; a multiline key may not be an implicit key',
+  mark: [e],
+  constructor: [Function: d],
+  toString: [Function (anonymous)]
+}
+Error loading images for design: japanese-nails-inspiration-gallery Error: Cannot find module '@/content/inspo-images/japanese-nails-inspiration-gallery.json'
+    at moduleContext (D:\portfolio\mirelle-site\.next\server\chunks\ssr\[turbopack]_runtime.js:246:19)
+    at moduleContext.import (D:\portfolio\mirelle-site\.next\server\chunks\ssr\[turbopack]_runtime.js:262:22)
+    at d (D:\portfolio\mirelle-site\.next\server\chunks\ssr\[root-of-the-server]__42b2f732._.js:1:14432)
+    at m (D:\portfolio\mirelle-site\.next\server\chunks\ssr\[root-of-the-server]__5652b348._.js:1:13251) {
+  code: 'MODULE_NOT_FOUND'
+}
+Error loading images for design: nail-shape-for-hands-inspiration-gallery Error: Cannot find module '@/content/inspo-images/nail-shape-for-hands-inspiration-gallery.json'
+    at moduleContext (D:\portfolio\mirelle-site\.next\server\chunks\ssr\[turbopack]_runtime.js:246:19)
+    at moduleContext.import (D:\portfolio\mirelle-site\.next\server\chunks\ssr\[turbopack]_runtime.js:262:22)
+    at d (D:\portfolio\mirelle-site\.next\server\chunks\ssr\[root-of-the-server]__42b2f732._.js:1:14432)
+    at m (D:\portfolio\mirelle-site\.next\server\chunks\ssr\[root-of-the-server]__5652b348._.js:1:13251) {
+  code: 'MODULE_NOT_FOUND'
+}
+Blog post not found: almond-nails-for-work
+Error reading work-nails post best-nail-polish-for-work: [YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key at line 5, column 5:
+    date: "2026-05-09T09:00:00-05:00"
+        ^] {
+  reason: 'can not read a block mapping entry; a multiline key may not be an implicit key',
+  mark: [e],
+  constructor: [Function: d],
+  toString: [Function (anonymous)]
+}
+Blog post not found: corporate-girl-nails
+Blog post not found: french-tip-nails-for-work
+Blog post not found: gel-nail-polish-for-work
+Blog post not found: gel-vs-acrylic-nails-for-work
+Blog post not found: nail-shapes-for-work
+Blog post not found: nail-strengthener-for-nurses
+Blog post not found: nails-for-conservative-vs-creative-workplaces
+Blog post not found: nails-for-job-interview
+Blog post not found: nails-for-different-professions
+Blog post not found: nails-for-nurses
+Blog post not found: nails-for-teachers
+Blog post not found: neutral-nails-for-work
+ ✓ Generating static pages (694/694)
+ ✓ Collecting build traces    
+ ✓ Finalizing page optimization    
+
+Route (app)                                                                                         Size  First Load JS    
+┌ ○ /                                                                                            10.9 kB         143 kB
+├ ○ /_not-found                                                                                      0 B         132 kB
+├ ○ /about                                                                                           0 B         132 kB
+├ ƒ /api/newsletter                                                                                  0 B            0 B
+├ ƒ /api/search                                                                                      0 B            0 B
+├ ƒ /api/timeline/blog-cluster                                                                       0 B            0 B
+├ ƒ /api/timeline/inspo-images                                                                       0 B            0 B
+├ ○ /authors                                                                                         0 B         132 kB
+├ ● /authors/[slug]                                                                               1.7 kB         134 kB
+├   ├ /authors/ri-mirelle
+├   └ /authors/jyoti-mirelle
+├ ○ /blog                                                                                        4.75 kB         137 kB
+├ ● /blog/[...slug]                                                                              8.24 kB         140 kB
+├   ├ /blog/zodiac-nails/libra-nails
+├   ├ /blog/nails-by-color/burgundy-nails
+├   ├ /blog/zodiac-nails/virgo-nails
+├   └ [+430 more paths]
+├ ○ /business                                                                                        0 B         132 kB
+├ ● /business/[country]                                                                          1.29 kB         133 kB
+├   └ /business/united-states
+├ ● /business/[country]/[state]                                                                      0 B         132 kB
+├   └ /business/united-states/georgia
+├ ● /business/[country]/[state]/[clientType]                                                         0 B         132 kB
+├   ├ /business/united-states/georgia/influencer
+├   ├ /business/united-states/georgia/salon
+├   └ /business/united-states/georgia/nail-tech
+├ ● /business/[country]/[state]/[clientType]/[slug]                                              4.08 kB         136 kB
+├   ├ /business/united-states/georgia/influencer/augusta-nail-creator-spotlight
+├   ├ /business/united-states/georgia/salon/best-nail-salon-marietta-georgia-feature
+├   ├ /business/united-states/georgia/influencer/brand-collab-opportunity-augusta-nail-creators
+├   └ [+59 more paths]
+├ ○ /contact                                                                                     2.76 kB         135 kB
+├ ○ /disclosures                                                                                     0 B         132 kB
+├ ○ /editorial-policy                                                                                0 B         132 kB
+├ ○ /inspo                                                                                       3.89 kB         136 kB
+├ ● /inspo/[design]                                                                              8.55 kB         140 kB
+├   ├ /inspo/almond-nails-2026
+├   ├ /inspo/coffin-ballerina-nails-2026
+├   ├ /inspo/french-tip-nails-2026
+├   └ [+25 more paths]
+├ ○ /nail-encyclopedia                                                                           2.33 kB         134 kB
+├ ○ /nail-faqs                                                                                       0 B         132 kB
+├ ● /nail-faqs/[slug]                                                                            1.77 kB         134 kB
+├   ├ /nail-faqs/are-acrylic-nails-worth-the-cost-and-maintenance
+├   ├ /nail-faqs/are-long-nails-bad-for-your-health
+├   ├ /nail-faqs/are-natural-nails-better-than-acrylics-for-professional-settings
+├   └ [+36 more paths]
+├ ○ /pinterest                                                                                       0 B         132 kB
+├ ○ /press                                                                                           0 B         132 kB
+├ ○ /privacy-policy                                                                                  0 B         132 kB
+├ ○ /shop                                                                                            0 B         134 kB
+├ ● /shop/[...slug]                                                                               4.6 kB         137 kB
+├   ├ /shop/halloween/best-melodysusie-halloween-nail-products
+├   ├ /shop/summer/beach-mania-press-on-nails-review
+├   ├ /shop/summer/best-portable-nail-drill-travel
+├   └ [+63 more paths]
+├ ○ /spotlight                                                                                       0 B         132 kB
+├ ● /spotlight/[slug]                                                                            3.35 kB         135 kB
+├   └ /spotlight/nailsbypeyton
+├ ○ /subscribe                                                                                    1.2 kB         133 kB
+├ ○ /terms                                                                                           0 B         132 kB
+├ ○ /topics                                                                                          0 B         132 kB
+├ ● /topics/[slug]                                                                                   0 B         134 kB
+├   ├ /topics/at-home-hacks
+├   ├ /topics/modern-women
+├   ├ /topics/nail-art-guides
+├   └ [+3 more paths]
+├ ○ /trend-reports                                                                                   0 B         132 kB
+├ ● /trend-reports/[slug]                                                                        2.48 kB         134 kB
+├   └ /trend-reports/minimal-manicure-demand-2026
+├ ○ /user-agreement                                                                                  0 B         132 kB
+├ ○ /work-nails                                                                                      0 B         132 kB
+├ ● /work-nails/[slug]                                                                           3.61 kB         136 kB
+├   ├ /work-nails/almond-nails-for-work
+├   ├ /work-nails/best-nail-polish-for-work
+├   ├ /work-nails/corporate-girl-nails
+├   └ [+18 more paths]
+└ ○ /work-with-us                                                                                1.04 kB         133 kB
++ First Load JS shared by all                                                                     144 kB
+  ├ chunks/3e31575074c3cd5c.js                                                                     59 kB
+  ├ chunks/9dc8d626df66e2d9.js                                                                     17 kB
+  └ chunks/bbf89c5280eb1f0c.js                                                                   17.3 kB
+  ├ chunks/def2147d8f752a4e.js                                                                   21.9 kB
+  ├ chunks/1d6f1af1bbb9eee8.css                                                                  12.2 kB
+  └ other shared chunks (total)                                                                  16.8 kB
+
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+
+
+> mirelle-site@0.1.0 postbuild
+> next-sitemap && node scripts/generate-all-sitemaps.js
+
+✨ [next-sitemap] Loading next-sitemap config: file:///D:/portfolio/mirelle-site/next-sitemap.config.js
+✅ [next-sitemap] Generation completed
+┌───────────────┬────────┐
+│ (index)       │ Values │
+├───────────────┼────────┤
+│ indexSitemaps │ 1      │
+│ sitemaps      │ 1      │
+└───────────────┴────────┘
+-----------------------------------------------------
+ SITEMAP INDICES 
+-----------------------------------------------------
+
+   ○ https://mirelleinspo.com/sitemap.xml
+
+
+-----------------------------------------------------
+ SITEMAPS 
+-----------------------------------------------------
+
+   ○ https://mirelleinspo.com/sitemap-0.xml
+
+
+🚀 Starting sitemap generation...
+
+📄 Generating blog sitemap (frontmatter-aware)...
+✅ sitemap-blog.xml created (29 hub pages, 29 pillars, 272 clusters, 102 flat posts)
+📄 Generating shop sitemap (frontmatter-aware)...
+✅ sitemap-shop.xml created (17 product types, 66 products)
+📄 Generating topics sitemap...
+✅ sitemap-topics.xml created (6 items)
+📄 Generating spotlights sitemap...
+✅ sitemap-spotlight.xml created (1 items)
+📄 Generating work-nails sitemap...
+❌ Error generating work-nails sitemap: can not read a block mapping entry; a multiline key may not be an implicit key at line 5, column 5:
+    date: "2026-05-09T09:00:00-05:00"
+        ^
+📄 Generating nail-faqs sitemap...
+✅ sitemap-nail-faqs.xml created (39 items)
+📄 Generating trend-reports sitemap...
+✅ sitemap-trend-reports.xml created (1 items)
+📄 Generating inspo sitemap...
+✅ sitemap-inspo.xml created (28 categories)
+📄 Generating authors sitemap...
+✅ sitemap-authors.xml created (2 author profiles)
+📄 Generating business sitemaps...
+✅ sitemap-business-united-states-georgia.xml created (63 URLs, 62 posts)
+✅ sitemap-business-united-states.xml created (index of 1 state sitemaps)
+✅ sitemap-business-root.xml created
+✅ sitemap-business-index.xml created (index of 3 sitemaps)
+📸 Generating blog image sitemap (frontmatter-aware)...
+   ✔ /blog/acrylic-vs-gel-vs-press-on-prom-nails: 9 image(s)
+   ✔ /blog/aesthetic-nails/aesthetic-nail-ideas: 12 image(s)
+   ✔ /blog/aesthetic-nails/dark-feminine-nails: 8 image(s)
+   ✔ /blog/aesthetic-nails/mob-wife-nails: 10 image(s)
+   ✔ /blog/aesthetic-nails/office-siren-nails: 10 image(s)
+   ✔ /blog/aesthetic-nails/old-money-french-tip-nails: 9 image(s)
+   ✔ /blog/aesthetic-nails/old-money-nail-colors: 9 image(s)
+   ✔ /blog/aesthetic-nails/old-money-nails-fall-winter: 8 image(s)
+   ✔ /blog/aesthetic-nails/old-money-nails-spring-summer: 8 image(s)
+   ✔ /blog/aesthetic-nails/old-money-nails: 12 image(s)
+   ✔ /blog/aesthetic-nails/quiet-luxury-french-tip-nails: 10 image(s)
+   ✔ /blog/aesthetic-nails/quiet-luxury-nail-colors: 8 image(s)
+   ✔ /blog/aesthetic-nails/quiet-luxury-nails-summer: 11 image(s)
+   ✔ /blog/aesthetic-nails/quiet-luxury-nails-winter: 6 image(s)
+   ✔ /blog/aesthetic-nails/quiet-luxury-nails: 10 image(s)
+   ✔ /blog/aesthetic-nails/rich-girl-nails: 9 image(s)
+   ✔ /blog/aesthetic-nails/short-old-money-nails: 8 image(s)
+   ✔ /blog/aesthetic-nails/short-quiet-luxury-nails: 10 image(s)
+   ✔ /blog/aesthetic-nails/soft-girl-nails: 9 image(s)
+   ✔ /blog/almond-nail-colors-skin-tone: 12 image(s)
+   ✔ /blog/almond-nail-ideas-2026: 35 image(s)
+   ✔ /blog/almond-nail-trends-2026: 13 image(s)
+   ✔ /blog/almond-nails-aftercare: 12 image(s)
+   ✔ /blog/almond-nails-beginners-guide: 10 image(s)
+   ✔ /blog/almond-nails-guide: 12 image(s)
+   ✔ /blog/almond-nails-natural-nail-growth: 12 image(s)
+   ✔ /blog/almond-nails-on-short-natural-nails: 9 image(s)
+   ✔ /blog/almond-spring-nails: 21 image(s)
+   ✔ /blog/almond-vs-coffin-nails: 11 image(s)
+   ✔ /blog/almond-vs-oval-nails: 10 image(s)
+   ✔ /blog/back-to-school/back-to-school-nails-for-teachers: 9 image(s)
+   ✔ /blog/back-to-school/back-to-school-nails: 11 image(s)
+   ✔ /blog/back-to-school/college-nails: 9 image(s)
+   ✔ /blog/back-to-school/first-day-of-school-nails: 9 image(s)
+   ✔ /blog/back-to-school/high-school-nails: 9 image(s)
+   ✔ /blog/back-to-school/simple-back-to-school-nails: 9 image(s)
+   ✔ /blog/bambi-nails: 11 image(s)
+   ✔ /blog/beach-nails: 7 image(s)
+   ✔ /blog/best-press-on-nails-for-prom: 1 image(s)
+   ✔ /blog/best-summer-nail-polish-sets-2026: 1 image(s)
+   ✔ /blog/blooming-gel-nails: 14 image(s)
+   ✔ /blog/bruno-mars-nails: 10 image(s)
+   ✔ /blog/candy-nails/candy-nails: 9 image(s)
+   ✔ /blog/carnival/carnival-nail-art: 5 image(s)
+   ✔ /blog/carnival/carnival-nails: 11 image(s)
+   ✔ /blog/carnival/carousel-nails: 9 image(s)
+   ✔ /blog/carnival/circus-nails: 9 image(s)
+   ✔ /blog/carnival/clown-core-nails: 9 image(s)
+   ✔ /blog/carnival/county-fair-nails: 9 image(s)
+   ✔ /blog/carnival/summer-carnival-nails: 9 image(s)
+   ✔ /blog/cat-eye/barcode-nails: 8 image(s)
+   ✔ /blog/cat-eye/cat-eye-nail-trends-2026: 8 image(s)
+   ✔ /blog/cat-eye/cat-eye-nails: 13 image(s)
+   ✔ /blog/cat-eye/galaxy-cat-eye-nails: 9 image(s)
+   ✔ /blog/cat-eye/green-cat-eye-nails: 9 image(s)
+   ✔ /blog/cat-eye/how-to-do-cat-eye-nails: 5 image(s)
+   ✔ /blog/cat-eye/pink-cat-eye-nails: 9 image(s)
+   ✔ /blog/cat-eye/velvet-nails: 8 image(s)
+   ✔ /blog/chappell-roan-nails: 9 image(s)
+   ✔ /blog/chartreuse-wasabi-nails: 8 image(s)
+   ✔ /blog/chrome-nails/chrome-french-tip-nails: 11 image(s)
+   ✔ /blog/chrome-nails/chrome-nail-trends-2026: 11 image(s)
+   ✔ /blog/chrome-nails/chrome-nails: 13 image(s)
+   ✔ /blog/chrome-nails/glazed-donut-nails: 8 image(s)
+   ✔ /blog/chrome-nails/how-to-apply-chrome-powder: 6 image(s)
+   ✔ /blog/chrome-nails/mermaid-chrome-nails: 9 image(s)
+   ✔ /blog/chrome-nails/pink-chrome-nails: 10 image(s)
+   ✔ /blog/chrome-nails/rose-gold-chrome-nails: 9 image(s)
+   ✔ /blog/chrome-nails/silver-chrome-nails: 13 image(s)
+   ✔ /blog/chrome-nails/white-chrome-nails: 10 image(s)
+   ✔ /blog/cinco-de-mayo-nails: 11 image(s)
+   ✔ /blog/coffin-nails/coffin-acrylic-nails-tutorial: 8 image(s)
+   ✔ /blog/coffin-nails/coffin-nail-designs: 12 image(s)
+   ✔ /blog/coffin-nails/coffin-nail-ideas: 12 image(s)
+   ✔ /blog/coffin-nails/coffin-nail-trends-2026: 12 image(s)
+   ✔ /blog/coffin-nails/coffin-nails-guide: 11 image(s)
+   ✔ /blog/coffin-nails/coffin-nails-vs-almond-nails: 10 image(s)
+   ✔ /blog/coffin-nails/coffin-ombre-nails: 10 image(s)
+   ✔ /blog/coffin-nails/french-tip-coffin-nails: 12 image(s)
+   ✔ /blog/coffin-nails/how-to-shape-coffin-nails: 8 image(s)
+   ✔ /blog/coffin-nails/long-coffin-nails: 9 image(s)
+   ✔ /blog/coffin-nails/short-coffin-nails: 11 image(s)
+   ✔ /blog/coral-nails-summer: 8 image(s)
+   ✔ /blog/diy-prom-nails: 6 image(s)
+   ✔ /blog/do-almond-nails-suit-me: 9 image(s)
+   ✔ /blog/edc-nails: 9 image(s)
+   ✔ /blog/floral-mothers-day-nails: 11 image(s)
+   ✔ /blog/floral-nails-summer: 12 image(s)
+   ✔ /blog/french-nails/colored-french-tip-nails: 8 image(s)
+   ✔ /blog/french-nails/double-french-tip-nails: 9 image(s)
+   ✔ /blog/french-nails/french-manicure-vs-american-manicure: 9 image(s)
+   ✔ /blog/french-nails/french-nail-trends-2026: 13 image(s)
+   ✔ /blog/french-nails/french-tip-nail-designs: 10 image(s)
+   ✔ /blog/french-nails/french-tip-nail-ideas: 27 image(s)
+   ✔ /blog/french-nails/how-to-do-french-manicure-at-home: 10 image(s)
+   ✔ /blog/french-nails/how-to-do-french-tip-gel-nails: 11 image(s)
+   ✔ /blog/french-nails/micro-french-nails: 10 image(s)
+   ✔ /blog/french-nails/reverse-french-manicure: 12 image(s)
+   ✔ /blog/french-nails/short-french-tip-nails: 12 image(s)
+   ✔ /blog/french-tip-almond-nails: 8 image(s)
+   ✔ /blog/fruit-nails/blueberry-nails: 10 image(s)
+   ✔ /blog/fruit-nails/cherry-nails: 11 image(s)
+   ✔ /blog/fruit-nails/fruit-nail-trends-2026: 16 image(s)
+   ✔ /blog/fruit-nails/fruit-nails: 11 image(s)
+   ✔ /blog/fruit-nails/how-to-do-fruit-nail-art: 8 image(s)
+   ✔ /blog/fruit-nails/lemon-nails: 11 image(s)
+   ✔ /blog/fruit-nails/strawberry-nails: 11 image(s)
+   ✔ /blog/fruit-nails/watermelon-nails: 12 image(s)
+   ✔ /blog/gel-acrylic-biab-mothers-day-nails: 7 image(s)
+   ✔ /blog/gel-nails-cost/diy-gel-nails-vs-salon-cost: 1 image(s)
+   ✔ /blog/gel-nails-cost/gel-manicure-cost: 1 image(s)
+   ✔ /blog/gel-nails-cost/gel-nail-extensions-cost: 1 image(s)
+   ✔ /blog/gel-nail-removal-cost: 1 image(s)
+   ✔ /blog/gel-nails-cost/gel-nails-cost: 1 image(s)
+   ✔ /blog/gel-nails-cost/gel-nails-worth-cost: 6 image(s)
+   ✔ /blog/gel-nails-cost/how-to-make-gel-nails-last-longer: 1 image(s)
+   ✔ /blog/gel-vs-acrylic-almond-nails: 9 image(s)
+   ✔ /blog/gold-silver-chrome-christmas-nails-2025: 11 image(s)
+   ✔ /blog/goth/cyber-goth-nails: 9 image(s)
+   ✔ /blog/goth/dark-feminine-nails: 10 image(s)
+   ✔ /blog/goth/goth-nail-colors: 9 image(s)
+   ✔ /blog/goth/goth-nails: 14 image(s)
+   ✔ /blog/goth/how-to-do-goth-nails: 8 image(s)
+   ✔ /blog/goth/pastel-goth-nails: 10 image(s)
+   ✔ /blog/goth/vampy-nails: 8 image(s)
+   ✔ /blog/goth/whimsigoth-nails: 8 image(s)
+   ✔ /blog/goth/witchy-nails: 11 image(s)
+   ✔ /blog/graduation-nails: 11 image(s)
+   ✔ /blog/gummy-nails/gummy-nails: 8 image(s)
+   ✔ /blog/holiday-nails/beach-nails: 9 image(s)
+   ✔ /blog/holiday-nails/gel-nails-for-holiday: 5 image(s)
+   ✔ /blog/holiday-nails/holiday-nail-colors: 8 image(s)
+   ✔ /blog/holiday-nails/holiday-nails: 12 image(s)
+   ✔ /blog/holiday-nails/italian-summer-nails: 11 image(s)
+   ✔ /blog/holiday-nails/simple-holiday-nails: 9 image(s)
+   ✔ /blog/holiday-nails/tropical-nails: 10 image(s)
+   ✔ /blog/holiday-nails/vacation-nails: 12 image(s)
+   ✔ /blog/holiday-vacation-nails-travel-guide: 10 image(s)
+   ✔ /blog/hot-pink-nails-summer: 10 image(s)
+   ✔ /blog/how-to-do-ombre-nails-at-home: 5 image(s)
+   ✔ /blog/how-to-make-almond-nails-last-longer: 11 image(s)
+   ✔ /blog/how-to-shape-almond-nails: 8 image(s)
+   ✔ /blog/icy-blue-chrome-nails: 7 image(s)
+   ✔ /blog/jade-green-nails: 9 image(s)
+   ✔ /blog/japanese-nails/how-to-do-japanese-nail-art: 5 image(s)
+   ✔ /blog/japanese-nails/japanese-3d-nail-art: 9 image(s)
+   ✔ /blog/japanese-nails/japanese-manicure: 9 image(s)
+   ✔ /blog/japanese-nails/japanese-minimalist-nails: 8 image(s)
+   ✔ /blog/japanese-nails/japanese-nail-art-short-nails: 9 image(s)
+   ✔ /blog/japanese-nails/japanese-nail-art: 11 image(s)
+   ✔ /blog/japanese-nails/kawaii-nails: 9 image(s)
+   ✔ /blog/japanese-nails/sakura-nails: 9 image(s)
+   ✔ /blog/jelly-nails/how-to-do-jelly-nails: 6 image(s)
+   ✔ /blog/jelly-nails/jelly-french-tip-nails: 9 image(s)
+   ✔ /blog/jelly-nails/jelly-nails: 11 image(s)
+   ✔ /blog/jelly-nails/korean-jelly-nails: 8 image(s)
+   ✔ /blog/jelly-nails/neon-jelly-nails: 12 image(s)
+   ✔ /blog/jelly-nails/pink-jelly-nails: 8 image(s)
+   ✔ /blog/jelly-nails/syrup-nails: 10 image(s)
+   ✔ /blog/july-nails/4th-of-july-nails: 20 image(s)
+   ✔ /blog/july-nails/firework-nail-art: 5 image(s)
+   ✔ /blog/july-nails/july-birthday-nails: 8 image(s)
+   ✔ /blog/july-nails/july-nails: 9 image(s)
+   ✔ /blog/korean-nails/how-to-do-korean-nails: 5 image(s)
+   ✔ /blog/korean-nails/igari-nails: 9 image(s)
+   ✔ /blog/korean-nails/korean-glass-nails: 9 image(s)
+   ✔ /blog/korean-nails/korean-nail-art: 12 image(s)
+   ✔ /blog/korean-nails/korean-nail-trends-2026: 9 image(s)
+   ✔ /blog/korean-nails/korean-nails-short-nails: 10 image(s)
+   ✔ /blog/korean-nails/soap-nails: 9 image(s)
+   ✔ /blog/lace-nails: 11 image(s)
+   ✔ /blog/lavender-nails-summer: 8 image(s)
+   ✔ /blog/lemon-nails-summer: 10 image(s)
+   ✔ /blog/lgbtq/bi-flag-ombre-nails: 11 image(s)
+   ✔ /blog/lgbtq/bisexual-nails-almond: 11 image(s)
+   ✔ /blog/lgbtq/bisexual-nails: 11 image(s)
+   ✔ /blog/lgbtq/gay-nails: 8 image(s)
+   ✔ /blog/lgbtq/how-to-do-pride-nails-at-home: 9 image(s)
+   ✔ /blog/lgbtq/lesbian-acrylic-nails: 10 image(s)
+   ✔ /blog/lgbtq/lesbian-flag-nails: 11 image(s)
+   ✔ /blog/lgbtq/lesbian-nails-short: 11 image(s)
+   ✔ /blog/lgbtq/lesbian-nails: 12 image(s)
+   ✔ /blog/masc-lesbian-nails: 10 image(s)
+   ✔ /blog/lgbtq/nonbinary-flag-nails: 11 image(s)
+   ✔ /blog/lgbtq/nonbinary-nails: 11 image(s)
+   ✔ /blog/lgbtq/pansexual-nails: 11 image(s)
+   ✔ /blog/lgbtq/pride-acrylic-nails: 11 image(s)
+   ✔ /blog/lgbtq/pride-flag-nails: 10 image(s)
+   ✔ /blog/lgbtq/pride-french-tip-nails: 11 image(s)
+   ✔ /blog/lgbtq/pride-gel-nails: 9 image(s)
+   ✔ /blog/lgbtq/pride-month-nails: 36 image(s)
+   ✔ /blog/pride-nail-trends-2026: 9 image(s)
+   ✔ /blog/lgbtq/pride-nails-almond: 11 image(s)
+   ✔ /blog/lgbtq/pride-nails-coffin: 9 image(s)
+   ✔ /blog/lgbtq/pride-nails-short: 11 image(s)
+   ✔ /blog/lgbtq/rainbow-nails-pride: 12 image(s)
+   ✔ /blog/lgbtq/rainbow-ombre-nails-pride: 8 image(s)
+   ✔ /blog/lgbtq/subtle-bisexual-nails: 12 image(s)
+   ✔ /blog/lgbtq/subtle-lesbian-nails: 10 image(s)
+   ✔ /blog/subtle-nonbinary-nails: 10 image(s)
+   ✔ /blog/lgbtq/subtle-pride-nails: 9 image(s)
+   ✔ /blog/lgbtq/subtle-trans-nails: 11 image(s)
+   ✔ /blog/lgbtq/trans-acrylic-nails: 11 image(s)
+   ✔ /blog/lgbtq/trans-flag-nails: 11 image(s)
+   ✔ /blog/lgbtq/trans-nails: 11 image(s)
+   ✔ /blog/lgbtq/two-short-nails-lesbian: 9 image(s)
+   ✔ /blog/micro-french-tip-nails: 6 image(s)
+   ✔ /blog/milky-pink-nails: 7 image(s)
+   ✔ /blog/mismatched-nails: 10 image(s)
+   ✔ /blog/mood-nails/dark-feminine-nails: 9 image(s)
+   ✔ /blog/mood-nails/dopamine-nails: 9 image(s)
+   ✔ /blog/mood-nails/happy-nails: 9 image(s)
+   ✔ /blog/mood-nails/heartbreak-nail-designs: 9 image(s)
+   ✔ /blog/mood-nails/nail-color-psychology: 9 image(s)
+   ✔ /blog/mood-nails/nails-by-mood: 11 image(s)
+   ✔ /blog/mood-nails/nails-for-confidence: 9 image(s)
+   ✔ /blog/mood-nails/romantic-nails: 9 image(s)
+   ✔ /blog/morgan-wallen-nails: 10 image(s)
+   ✔ /blog/mothers-day-nail-colors: 10 image(s)
+   ✔ /blog/mothers-day-nail-gift: 1 image(s)
+   ✔ /blog/mothers-day-nail-ideas: 40 image(s)
+   ✔ /blog/mothers-day-nail-trends-2026: 12 image(s)
+   ✔ /blog/mothers-day-nails-diy-tutorial: 6 image(s)
+   ✔ /blog/nail-colors-for-eye-color/nail-colors-for-blue-eyes: 9 image(s)
+   ✔ /blog/nail-colors-for-eye-color/nail-colors-for-brown-eyes: 8 image(s)
+   ✔ /blog/nail-colors-for-eye-color/nail-colors-for-every-eye-color: 11 image(s)
+   ✔ /blog/nail-colors-for-eye-color/nail-colors-for-green-eyes: 9 image(s)
+   ✔ /blog/nail-colors-for-eye-color/nail-colors-for-hazel-eyes: 1 image(s)
+   ✔ /blog/nail-costs/acrylic-nails-cost: 1 image(s)
+   ✔ /blog/nail-costs/dip-powder-cost: 1 image(s)
+   ✔ /blog/nail-costs/expensive-nail-salons-worth-it: 1 image(s)
+   ✔ /blog/nail-costs/gel-nails-cost: 1 image(s)
+   ✔ /blog/nail-costs/how-much-do-nails-cost: 1 image(s)
+   ✔ /blog/nail-costs/manicure-cost: 1 image(s)
+   ✔ /blog/nail-costs/nail-fills-cost: 1 image(s)
+   ✔ /blog/nail-costs/nail-salon-cost-by-state: 1 image(s)
+   ✔ /blog/nail-costs/pedicure-cost: 6 image(s)
+   ✔ /blog/nail-costs/save-money-on-nails: 1 image(s)
+   ✔ /blog/nail-fungus/fingernail-fungus: 1 image(s)
+   ✔ /blog/nail-fungus/how-long-does-nail-fungus-take-to-clear: 1 image(s)
+   ✔ /blog/nail-fungus/nail-fungus-causes: 1 image(s)
+   ✔ /blog/nail-fungus/nail-fungus-home-remedies: 1 image(s)
+   ✔ /blog/nail-fungus/nail-fungus-prevention: 1 image(s)
+   ✔ /blog/nail-fungus/nail-fungus-symptoms: 2 image(s)
+   ✔ /blog/nail-fungus/nail-fungus-treatment: 1 image(s)
+   ✔ /blog/nail-fungus/what-is-nail-fungus: 1 image(s)
+   ✔ /blog/nail-polish-colors-make-hands-look-younger: 10 image(s)
+   ✔ /blog/nail-shape-for-hands/best-nail-shape-for-your-hands: 11 image(s)
+   ✔ /blog/nail-shape-for-hands/how-to-find-your-nail-shape: 9 image(s)
+   ✔ /blog/nail-shape-for-hands/nails-for-chubby-fingers: 9 image(s)
+   ✔ /blog/nail-shape-for-hands/nails-for-long-fingers: 9 image(s)
+   ✔ /blog/nail-shape-for-hands/nails-for-short-fingers: 8 image(s)
+   ✔ /blog/nail-shape-for-hands/nails-for-small-hands: 9 image(s)
+   ✔ /blog/nail-shape-for-hands/nails-for-wide-nail-beds: 9 image(s)
+   ✔ /blog/nail-trends-2026/3d-nail-art: 9 image(s)
+   ✔ /blog/nail-trends-2026/aura-nails: 5 image(s)
+   ✔ /blog/nail-trends-2026/butterfly-nail-art: 10 image(s)
+   ✔ /blog/nail-trends-2026/dragonfly-nails: 9 image(s)
+   ✔ /blog/nail-trends-2026/glitchy-glam-nails: 8 image(s)
+   ✔ /blog/nail-trends-2026/healthy-nail-aesthetic: 10 image(s)
+   ✔ /blog/nail-trends-2026/mismatched-nails: 5 image(s)
+   ✔ /blog/nail-trends-2026/nail-trends-2026: 11 image(s)
+   ✔ /blog/nails-by-color/black-nails: 7 image(s)
+   ✔ /blog/nails-by-color/blue-nails: 9 image(s)
+   ✔ /blog/nails-by-color/burgundy-nails: 12 image(s)
+   ✔ /blog/nails-by-color/butter-yellow-nails: 10 image(s)
+   ✔ /blog/nails-by-color/chocolate-brown-nails: 10 image(s)
+   ✔ /blog/nails-by-color/coral-nails: 10 image(s)
+   ✔ /blog/nails-by-color/green-nails: 11 image(s)
+   ✔ /blog/nails-by-color/lavender-nails: 9 image(s)
+   ✔ /blog/nails-by-color/nail-colors: 16 image(s)
+   ✔ /blog/nails-by-color/nude-nails: 11 image(s)
+   ✔ /blog/nails-by-color/orange-nails: 11 image(s)
+   ✔ /blog/nails-by-color/pink-nails: 8 image(s)
+   ✔ /blog/nails-by-color/plum-nails: 7 image(s)
+   ✔ /blog/nails-by-color/purple-nails: 11 image(s)
+   ✔ /blog/nails-by-color/sage-green-nails: 10 image(s)
+   ✔ /blog/nails-by-color/sky-blue-nails: 12 image(s)
+   ✔ /blog/nails-by-color/white-nails: 11 image(s)
+   ✔ /blog/nails-for-older-women/best-nail-shape-for-mature-hands: 9 image(s)
+   ✔ /blog/nails-for-older-women/brittle-nails-after-50: 5 image(s)
+   ✔ /blog/nails-for-older-women/elegant-nail-art-for-mature-hands: 9 image(s)
+   ✔ /blog/nails-for-older-women/french-manicure-for-women-over-50: 8 image(s)
+   ✔ /blog/nails-for-older-women/gel-nails-vs-acrylic-for-mature-hands: 8 image(s)
+   ✔ /blog/nails-for-older-women/nail-care-routine-for-mature-hands: 4 image(s)
+   ✔ /blog/nails-for-older-women/nail-color-for-skin-tone-over-50: 8 image(s)
+   ✔ /blog/nails-for-older-women/nail-colors-for-mature-hands: 10 image(s)
+   ✔ /blog/nails-for-older-women/nail-colors-for-women-over-40: 9 image(s)
+   ✔ /blog/nails-for-older-women/nail-colors-for-women-over-60: 9 image(s)
+   ✔ /blog/nails-for-older-women/nail-colors-that-age-your-hands: 9 image(s)
+   ✔ /blog/nails-for-older-women/nail-polish-to-hide-veins-and-age-spots: 9 image(s)
+   ✔ /blog/nails-for-older-women/nail-ridges-after-50: 5 image(s)
+   ✔ /blog/nails-for-older-women/nail-shapes-that-make-fingers-look-longer: 9 image(s)
+   ✔ /blog/nails-for-older-women/nail-trends-for-women-over-50-2026: 9 image(s)
+   ✔ /blog/nails-for-older-women/nails-for-older-women: 11 image(s)
+   ✔ /blog/neon-summer-nails: 8 image(s)
+   ✔ /blog/pink-lavender-mothers-day-nails: 8 image(s)
+   ✔ /blog/plaid-nails: 8 image(s)
+   ✔ /blog/polka-dot-nails-summer: 4 image(s)
+   ✔ /blog/press-on-almond-nails: 1 image(s)
+   ✔ /blog/press-on-nails-salon-manicure-alternative: 2 image(s)
+   ✔ /blog/prom-nail-ideas: 34 image(s)
+   ✔ /blog/prom-nails-2026: 11 image(s)
+   ✔ /blog/prom-nails-by-dress-color: 10 image(s)
+   ✔ /blog/pucci-nails: 8 image(s)
+   ✔ /blog/sabrina-carpenter-nails: 7 image(s)
+   ✔ /blog/short-almond-nails: 12 image(s)
+   ✔ /blog/short-mothers-day-nails: 11 image(s)
+   ✔ /blog/short-prom-nails: 10 image(s)
+   ✔ /blog/short-summer-nails: 8 image(s)
+   ✔ /blog/short-vs-long-summer-nails: 14 image(s)
+   ✔ /blog/simple-mothers-day-nails: 11 image(s)
+   ✔ /blog/skin-tone/best-nude-nail-color-for-skin-tone: 11 image(s)
+   ✔ /blog/skin-tone/best-red-nail-colour-for-skin-tone: 8 image(s)
+   ✔ /blog/skin-tone/gel-nail-colors-for-skin-tone: 13 image(s)
+   ✔ /blog/skin-tone/nail-color-trends-2026-skin-tone: 11 image(s)
+   ✔ /blog/skin-tone/nail-colors-for-blondes: 11 image(s)
+   ✔ /blog/skin-tone/nail-colors-for-brunettes: 11 image(s)
+   ✔ /blog/skin-tone/nail-colors-for-dark-skin: 8 image(s)
+   ✔ /blog/skin-tone/nail-colors-for-every-skin-tone: 20 image(s)
+   ✔ /blog/skin-tone/nail-colors-for-fair-skin: 12 image(s)
+   ✔ /blog/skin-tone/nail-colors-for-medium-skin-tone: 13 image(s)
+   ✔ /blog/skin-tone/nail-colors-for-olive-skin: 10 image(s)
+   ✔ /blog/skin-tone/nail-colors-for-redheads: 12 image(s)
+   ✔ /blog/skin-tone/nail-colors-that-look-good-on-every-skin-tone: 11 image(s)
+   ✔ /blog/skin-tone/skin-undertone-nail-color-guide: 8 image(s)
+   ✔ /blog/soccer/argentina-nails: 10 image(s)
+   ✔ /blog/soccer/brazil-nails: 9 image(s)
+   ✔ /blog/soccer/colombia-nails: 9 image(s)
+   ✔ /blog/soccer/england-nails: 9 image(s)
+   ✔ /blog/soccer/flag-country-nails: 11 image(s)
+   ✔ /blog/soccer/france-nails: 9 image(s)
+   ✔ /blog/soccer/germany-nails: 9 image(s)
+   ✔ /blog/soccer/ronaldo-nails: 9 image(s)
+   ✔ /blog/soccer/soccer-club-nails: 1 image(s)
+   ✔ /blog/soccer/soccer-nails: 9 image(s)
+   ✔ /blog/soccer/soccer-player-nails: 10 image(s)
+   ✔ /blog/soccer/spain-nails: 9 image(s)
+   ✔ /blog/soccer/world-cup-nails: 9 image(s)
+   ✔ /blog/spring-acrylic-nails: 1 image(s)
+   ✔ /blog/spring-floral-nails: 10 image(s)
+   ✔ /blog/spring-french-tip-nails: 6 image(s)
+   ✔ /blog/spring-nail-art-at-home: 6 image(s)
+   ✔ /blog/spring-nail-colors-2026: 11 image(s)
+   ✔ /blog/spring-nail-ideas: 38 image(s)
+   ✔ /blog/spring-nail-trends-2026: 12 image(s)
+   ✔ /blog/summer-nail-art-designs: 15 image(s)
+   ✔ /blog/summer-nail-colors: 10 image(s)
+   ✔ /blog/summer-nail-ideas: 38 image(s)
+   ✔ /blog/summer-nail-trends-2026: 14 image(s)
+   ✔ /blog/sunflower-nails-summer: 10 image(s)
+   ✔ /blog/syrup-nails: 7 image(s)
+   ✔ /blog/toenail-fungus/best-toenail-fungus-treatment: 1 image(s)
+   ✔ /blog/toenail-fungus/is-toenail-fungus-contagious: 1 image(s)
+   ✔ /blog/toenail-fungus/nail-polish-toenail-fungus: 1 image(s)
+   ✔ /blog/toenail-fungus/prevent-toenail-fungus-returning: 1 image(s)
+   ✔ /blog/toenail-fungus/toenail-fungus-home-remedies: 1 image(s)
+   ✔ /blog/toenail-fungus/toenail-fungus-laser-treatment-cost: 1 image(s)
+   ✔ /blog/toenail-fungus/toenail-fungus-stages: 1 image(s)
+   ✔ /blog/toenail-fungus/toenail-fungus-vs-nail-psoriasis: 1 image(s)
+   ✔ /blog/toenail-fungus/toenail-fungus: 1 image(s)
+   ✔ /blog/turquoise-nails-summer: 8 image(s)
+   ✔ /blog/jelly-valentine-nails: 11 image(s)
+   ✔ /blog/lace-valentine-nails: 9 image(s)
+   ✔ /blog/mismatched-valentine-nails: 9 image(s)
+   ✔ /blog/pink-cat-eye-valentine-nails: 11 image(s)
+   ✔ /blog/red-chrome-valentine-nails: 9 image(s)
+   ✔ /blog/tomato-red-valentine-nails: 9 image(s)
+   ✔ /blog/valentine-french-tip-nails: 11 image(s)
+   ✔ /blog/valentine-nail-kits-2026: 10 image(s)
+   ✔ /blog/valentine-nails-2026: 12 image(s)
+   ✔ /blog/valentines-day-nails: 10 image(s)
+   ✔ /blog/velvet-cat-eye-valentine-nails: 9 image(s)
+   ✔ /blog/vampire-nails-2025: 11 image(s)
+   ✔ /blog/wedding-nail-designs: 11 image(s)
+   ✔ /blog/wedding-nails/bridal-nail-colors: 11 image(s)
+   ✔ /blog/wedding-nails/diy-wedding-nails: 10 image(s)
+   ✔ /blog/wedding-nails/french-tip-wedding-nails: 15 image(s)
+   ✔ /blog/wedding-nails/gel-vs-acrylic-wedding-nails: 5 image(s)
+   ✔ /blog/wedding-nails/nail-shape-for-wedding: 8 image(s)
+   ✔ /blog/wedding-nails/short-wedding-nails: 11 image(s)
+   ✔ /blog/wedding-nails/wedding-guest-nails: 11 image(s)
+   ✔ /blog/wedding-nails/wedding-nail-ideas: 16 image(s)
+   ✔ /blog/wedding-nails/wedding-nail-trends-2026: 10 image(s)
+   ✔ /blog/what-to-ask-nail-salon-almond-nails: 11 image(s)
+   ✔ /blog/why-almond-nails-keep-breaking: 11 image(s)
+   ✔ /blog/zodiac-nails/aquarius-nails: 9 image(s)
+   ✔ /blog/zodiac-nails/aries-nails: 10 image(s)
+   ✔ /blog/zodiac-nails/astrology-nails: 9 image(s)
+   ✔ /blog/zodiac-nails/cancer-nails: 10 image(s)
+   ✔ /blog/zodiac-nails/capricorn-nails: 8 image(s)
+   ✔ /blog/zodiac-nails/celestial-nails: 8 image(s)
+   ✔ /blog/zodiac-nails/gemini-nails: 9 image(s)
+   ✔ /blog/zodiac-nails/leo-nails: 10 image(s)
+   ✔ /blog/zodiac-nails/libra-nails: 9 image(s)
+   ✔ /blog/zodiac-nails/pisces-nails: 9 image(s)
+   ✔ /blog/zodiac-nails/sagittarius-nails: 8 image(s)
+   ✔ /blog/zodiac-nails/scorpio-nails: 8 image(s)
+   ✔ /blog/zodiac-nails/taurus-nails: 9 image(s)
+   ✔ /blog/zodiac-nails/virgo-nails: 10 image(s)
+   ✔ /blog/zodiac-nails/zodiac-nails: 16 image(s)
+✅ sitemap-images-blog.xml created (3727 images)
+📸 Generating topics image sitemap...
+   ✔ at-home-hacks: 9 image(s)
+   ✔ modern-women: 15 image(s)
+   ✔ nail-art-guides: 36 image(s)
+   ✔ nail-care-guide: 9 image(s)
+   ✔ seasonal-trends: 14 image(s)
+   ✔ skin-tones: 14 image(s)
+✅ sitemap-images-topics.xml created (97 images)
+📸 Generating spotlights image sitemap...
+   ✔ nailsbypeyton: 8 image(s)
+✅ sitemap-images-spotlight.xml created (8 images)
+📸 Generating work-nails image sitemap...
+   ✔ almond-nails-for-work: 10 image(s)
+   ✔ corporate-girl-nails: 11 image(s)
+   ✔ french-tip-nails-for-work: 12 image(s)
+   ✔ gel-nail-polish-for-work: 1 image(s)
+   ✔ gel-vs-acrylic-nails-for-work: 8 image(s)
+   ✔ nail-shapes-for-work: 9 image(s)
+   ✔ nail-strengthener-for-nurses: 9 image(s)
+   ✔ nails-for-conservative-vs-creative-workplaces: 11 image(s)
+   ✔ nails-for-different-professions: 12 image(s)
+   ✔ nails-for-job-interview: 10 image(s)
+   ✔ nails-for-nurses: 9 image(s)
+   ✔ nails-for-teachers: 9 image(s)
+   ✔ neutral-nails-for-work: 10 image(s)
+   ✔ new-job-nails: 6 image(s)
+   ✔ professional-nail-designs-for-work: 21 image(s)
+   ✔ professional-nail-length-for-work: 7 image(s)
+   ✔ short-nails-for-work: 12 image(s)
+   ✔ work-appropriate-nail-art: 9 image(s)
+   ✔ work-appropriate-nail-colors: 11 image(s)
+   ✔ work-nails: 12 image(s)
+✅ sitemap-images-work-nails.xml created (199 images)
+📸 Generating inspo image sitemap...
+✅ sitemap-images-inspo.xml created (2572 images)
+✅ sitemap-images-index.xml created
+
+✅ All sitemaps generated!
+npm notice
+npm notice New minor version of npm available! 11.11.0 -> 11.18.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.18.0
+npm notice To update run: npm install -g npm@11.18.0
+npm notice
+PS D:\portfolio\mirelle-site> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
