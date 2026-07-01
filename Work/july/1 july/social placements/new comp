@@ -1,0 +1,179 @@
+'use client';
+
+import { useState, useEffect, useRef, useCallback } from 'react';
+
+type Platform = 'twitter' | 'instagram' | 'pinterest' | 'facebook';
+
+interface PlatformConfig {
+  name: string;
+  handle: string;
+  url: string;
+  color: string; // brand color, used only on hover/active state
+  Icon: () => JSX.Element;
+}
+
+const ICONS: Record<Platform, () => JSX.Element> = {
+  twitter: () => (
+    <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full">
+      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+    </svg>
+  ),
+  facebook: () => (
+    <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full">
+      <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.879v-6.988h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.891h-2.33v6.988C18.343 21.128 22 16.991 22 12z" />
+    </svg>
+  ),
+  pinterest: () => (
+    <svg viewBox="0 0 24 24" fill="currentColor" className="w-full h-full">
+      <path d="M12.017 2C6.484 2 2 6.484 2 12.017c0 4.243 2.636 7.868 6.356 9.319-.088-.791-.167-2.005.035-2.868.183-.78 1.180-4.973 1.180-4.973s-.301-.602-.301-1.492c0-1.397.812-2.442 1.822-2.442.859 0 1.273.645 1.273 1.418 0 .865-.55 2.158-.834 3.358-.237 1.005.504 1.825 1.494 1.825 1.793 0 3.17-1.891 3.17-4.618 0-2.414-1.735-4.102-4.212-4.102-2.87 0-4.554 2.152-4.554 4.377 0 .867.334 1.797.751 2.302a.302.302 0 0 1 .07.29c-.076.318-.246 1.005-.28 1.145-.044.183-.145.222-.334.134-1.249-.581-2.030-2.407-2.030-3.874 0-3.154 2.292-6.052 6.608-6.052 3.469 0 6.165 2.472 6.165 5.775 0 3.446-2.173 6.220-5.19 6.220-1.013 0-1.966-.526-2.292-1.148l-.623 2.375c-.226.869-.835 1.958-1.243 2.622.936.29 1.928.446 2.958.446 5.533 0 10.017-4.484 10.017-10.017C22.034 6.484 17.55 2 12.017 2z" />
+    </svg>
+  ),
+  instagram: () => (
+    <svg viewBox="0 0 24 24" fill="none" className="w-full h-full">
+      <rect x="2.5" y="2.5" width="19" height="19" rx="5.5" stroke="currentColor" strokeWidth="1.8" />
+      <circle cx="12" cy="12" r="4.6" stroke="currentColor" strokeWidth="1.8" />
+      <circle cx="17.35" cy="6.65" r="1.15" fill="currentColor" />
+    </svg>
+  ),
+};
+
+const PLATFORM_CONFIG: Record<Platform, PlatformConfig> = {
+  twitter: {
+    name: 'X',
+    handle: '@mirelleinspo',
+    url: 'https://x.com/mirelleinspo',
+    color: '#000000',
+    Icon: ICONS.twitter,
+  },
+  instagram: {
+    name: 'Instagram',
+    handle: '@mirelle_inspo',
+    url: 'https://instagram.com/mirelle_inspo',
+    color: '#E4405F',
+    Icon: ICONS.instagram,
+  },
+  pinterest: {
+    name: 'Pinterest',
+    handle: '@mirelle_inspo',
+    url: 'https://pinterest.com/mirelle_inspo',
+    color: '#E60023',
+    Icon: ICONS.pinterest,
+  },
+  facebook: {
+    name: 'Facebook',
+    handle: 'mirelleinspo',
+    url: 'https://facebook.com/mirelleinspo',
+    color: '#1877F2',
+    Icon: ICONS.facebook,
+  },
+};
+
+interface SocialFollowCTAProps {
+  /** Which platforms this instance cycles through. Order is randomized on mount. */
+  platforms: Platform[];
+  /** Seconds each platform is shown before advancing. Default 2.5 */
+  intervalSeconds?: number;
+  className?: string;
+}
+
+function shuffle<T>(arr: T[]): T[] {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+export default function SocialFollowCTA({
+  platforms,
+  intervalSeconds = 2.5,
+  className = '',
+}: SocialFollowCTAProps) {
+  // randomized, stable order for this mount
+  const order = useRef<Platform[]>(shuffle(platforms));
+  const [index, setIndex] = useState(0);
+  const [paused, setPaused] = useState(false);
+  const [entering, setEntering] = useState(true);
+  const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
+
+  const current = order.current[index];
+  const config = PLATFORM_CONFIG[current];
+
+  useEffect(() => {
+    if (paused) return;
+    timerRef.current = setInterval(() => {
+      setEntering(false);
+      // brief exit animation window, then swap + enter
+      window.setTimeout(() => {
+        setIndex((i) => (i + 1) % order.current.length);
+        setEntering(true);
+      }, 220);
+    }, intervalSeconds * 1000);
+    return () => {
+      if (timerRef.current) clearInterval(timerRef.current);
+    };
+  }, [paused, intervalSeconds]);
+
+  const handleClick = useCallback(() => {
+    const isMobile =
+      typeof window !== 'undefined' &&
+      /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    if (isMobile) {
+      window.location.href = config.url;
+    } else {
+      window.open(config.url, '_blank', 'noopener,noreferrer');
+    }
+  }, [config.url]);
+
+  return (
+    <div
+      className={`flex flex-col items-center justify-center gap-4 py-10 ${className}`}
+    >
+      <span className="font-ui text-[11px] uppercase tracking-[0.2em] text-[#252220]/60">
+        Follow us on
+      </span>
+
+      <button
+        type="button"
+        onClick={handleClick}
+        onMouseEnter={() => setPaused(true)}
+        onMouseLeave={() => setPaused(false)}
+        onFocus={() => setPaused(true)}
+        onBlur={() => setPaused(false)}
+        aria-label={`Follow us on ${config.name}`}
+        className="group relative flex h-16 w-16 items-center justify-center rounded-full border border-[#252220]/15 bg-[#f9fafb] shadow-sm transition-all duration-300 ease-out hover:scale-105 hover:shadow-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#252220]"
+        style={{
+          boxShadow: paused ? `0 0 0 3px ${config.color}22` : undefined,
+        }}
+      >
+        <span
+          className="pointer-events-none absolute inset-0 rounded-full opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+          style={{
+            background: `radial-gradient(circle, ${config.color}14 0%, transparent 70%)`,
+          }}
+        />
+        <span
+          key={current}
+          className={`relative h-7 w-7 transition-all duration-200 ease-out ${
+            entering ? 'scale-100 opacity-100' : 'scale-75 opacity-0'
+          }`}
+          style={{ color: config.color }}
+        >
+          <config.Icon />
+        </span>
+      </button>
+
+      <span
+        key={`${current}-label`}
+        className={`font-body text-sm text-[#252220]/70 transition-opacity duration-200 ${
+          entering ? 'opacity-100' : 'opacity-0'
+        }`}
+      >
+        {config.name} <span className="text-[#252220]/40">· {config.handle}</span>
+      </span>
+    </div>
+  );
+}
+
+export type { Platform, SocialFollowCTAProps };
