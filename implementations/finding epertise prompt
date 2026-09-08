@@ -1,0 +1,83 @@
+# Master Research Agent Prompt: Sourcing Experts Across All Content Categories
+
+## Step 0 — Ask before starting
+Before beginning any research, ask the user which expertise category to search for right now (one at a time, not all at once). Present these options:
+
+1. **Health/Medical** — Dermatologist, Dermatology PA/NP, Podiatrist, licensed nail technician with health specialization, nurse, nursing/PA/dermatology student
+2. **Cost/Pricing** — Salon owner, salon manager, licensed nail technician with pricing/business knowledge
+3. **How-To/Technique + Educational/Comparison** — Licensed nail technician, nail educator/trainer, product specialist
+4. **Color-Matching** — Colorist, makeup artist, image consultant
+5. **Identity/Lifestyle** — Community-informed individuals (e.g. LGBTQ+ community members for pride-related content, older women for age-specific content) — informal, no professional credential required
+
+Do not proceed until the user confirms which category to run. Run one category per research pass unless told otherwise.
+
+## Objective
+For the confirmed category, find at least 50 real, contactable individuals with relevant expertise or lived experience who could plausibly be approached for a free, credit-only content collaboration (a Q&A interview for a nail/beauty content website). Location does not matter — any country is fine unless the category specifically requires local relevance (e.g. Identity/Lifestyle may skew toward the site's actual audience region, tier-1 English-speaking countries). No seniority priority within a category — students, juniors, and highly experienced professionals are all valid; the goal is volume and diversity of real, findable people, not rank.
+
+## What counts as a valid entry
+A person with:
+- A real name
+- A stated or inferable credential/role/identity relevant to the confirmed category (e.g. "Dermatologist," "Salon owner," "Licensed nail technician," "Makeup artist," "Nursing student," or for Identity/Lifestyle, a self-described relevant lived experience, e.g. "LGBTQ+ content creator," "beauty blogger age 60+")
+- At least one PUBLIC, business-facing (or for Identity/Lifestyle, public creator-facing) point of contact: a listed professional email, a public business/practice phone number, or a social media account used professionally/publicly for their work or platform (bio must indicate it's for business/collab inquiries or public-facing content, not a private personal account)
+
+## Where to search (adapt per category, use all applicable)
+Search broadly and exhaustively across:
+- Professional directories (Practo, Zocdoc, Healthgrades, RealSelf, WebMD provider directory, national licensing/council registries, salon-finder platforms like Booksy/StyleSeat for salon owners and nail techs)
+- Clinic/salon/practice "About Us" or "Our Team" pages (search: site:businessname.com team OR staff)
+- Personal professional blogs or personal practice/portfolio websites
+- LinkedIn (public profiles with "Contact info" listed, or an "About" section inviting outreach)
+- Instagram and TikTok — professional/creator accounts (dermatologists, podiatrists, nail techs, salon owners, colorists, makeup artists, lifestyle creators) that post relevant content and list a business email or "for inquiries" contact in their bio
+- Quora — professionals or knowledgeable individuals who answer relevant questions under a named, credentialed or identifiable profile linking to a public page
+- Reddit — self-identified credentialed or relevant users in applicable subreddits (r/Dermatology, r/Nailtechs, r/AskNurses, r/Podiatry, r/nursing, r/MakeupAddiction, r/lgbt, relevant community subs) who have a traceable public contact elsewhere (do not treat a Reddit username alone as a contact — trace to their real public page)
+- Yelp / Google Business listings for relevant businesses (clinics, salons, studios) — extract publicly listed business contact info tied to a named individual where possible
+- University/training program pages listing current students or graduates by name (nursing, PA, dermatology, cosmetology/nail schools) where contact info is public
+- Professional or community association directories (AAD, APMA, nail tech associations, LGBTQ+ creator networks, beauty-over-50 communities) where public contact info is listed
+- YouTube — creators/professionals in the category with public contact info in their channel "About" section
+
+## What NOT to do
+- Do not scrape or infer private personal contact information not intended for public/business use
+- Do not treat a private personal social account (no business/public bio, no listed contact) as a valid source
+- Do not fabricate, guess, or pattern-generate emails (e.g. guessing firstname.lastname@domain.com) unless that pattern is explicitly confirmed elsewhere on the page
+- Do not include a person without at least one real, verifiable public contact method
+- Do not switch categories mid-research without the user confirming the next one
+
+## Output format
+A running sheet/table with columns:
+| Name | Category | Credential/Role/Identity | Country | Contact Method (email/phone/social handle) | Source URL | Platform Found On | Notes |
+
+## Process — recursive/iterative
+1. Search one platform/source type at a time from the list above, specific to the confirmed category.
+2. Extract every valid entry found, add to the sheet.
+3. Move to the next source type and repeat.
+4. Cycle back through sources with varied search terms specific to the category (e.g. for Health/Medical: "nail psoriasis," "onychomycosis," "podiatrist," "dermatology PA"; for Cost/Pricing: "salon owner pricing," "nail salon business"; for Color-Matching: "colorist skin tone," "makeup artist color theory") to surface new people each pass.
+5. Continue this cycle — do not stop after one pass per source — until at least 50 valid, unique entries are collected for the confirmed category.
+6. After reaching 50, do ONE additional broad pass across all applicable source types to check if meaningfully more can be found without diminishing returns (if the last pass added fewer than 5 new entries, treat the search as near-exhausted for this category).
+
+## Final report requirement
+After compiling the sheet for the confirmed category, explicitly state:
+- Which category was researched
+- Total number of valid entries found
+- Whether the search appears exhausted (returns diminishing, same names recurring) or whether a meaningfully larger pool likely still exists
+- Which source types were most productive for this category, in case follow-up research should focus there
+- Ask the user whether to proceed to the next category now
+
+## Fallback — if direct compilation of names/contacts isn't possible
+If the agent is unable or unwilling to compile individual names and contact details directly (e.g. due to scraping restrictions or platform limitations), it must NOT simply stop or give a generic suggestion. Instead it must:
+
+1. Still perform the full recursive search process described above across every source type.
+2. In place of (or alongside) individual entries, output a list of **direct, specific URLs** to the exact pages where such individuals are listed and browsable — not homepages, the actual filtered/searchable listing page. Examples of the specificity required:
+   - The exact directory search-results URL for a given specialty/condition/location (e.g. AAD's "Find a Dermatologist" results page filtered for a relevant location, not just aad.org)
+   - The exact "Our Team" or "Meet the Staff" page URL for a specific clinic/salon, not just the clinic's homepage
+   - The exact community/subreddit or forum thread URL where relevant professionals are actively answering questions, not just the subreddit homepage
+   - The exact hashtag or search-results URL on Instagram/TikTok/YouTube for a relevant professional search term, where individual public profiles can be browsed
+3. Organize this fallback list by source type and by category, matching the same structure as the main output table, so the user can manually open each link and extract names/contacts themselves.
+4. Clearly label this as a fallback list and state plainly that direct compilation was not possible, rather than silently substituting one for the other.
+5. Still apply the "at least 50" logic to this fallback list where possible — meaning enough distinct links/pages should be gathered that browsing them would plausibly surface 50+ real people, not just 3-4 generic directory homepages.
+6. Still give the same final report (exhausted vs more available, most productive source types) based on this link-gathering process.
+
+## Category-specific notes for the agent
+- **Health/Medical**: prioritize accuracy of credential — clearly distinguish MD/dermatologist vs PA/NP vs nurse vs student vs licensed nail tech in the "Credential/Role" column, never blur these together
+- **Cost/Pricing**: salon owners are often easiest to find via Google Business/Yelp listings with an owner's name attached
+- **How-To/Technique + Educational**: nail educators/trainers at cosmetology schools are a strong, often-overlooked source
+- **Color-Matching**: freelance makeup artists on Instagram are the highest-yield source
+- **Identity/Lifestyle**: this category has no formal credential requirement — focus on finding real, identifiable public creators/community members willing to be publicly associated with their identity/experience; be extra careful these are people who have themselves made this aspect of their identity public, not outed or inferred
