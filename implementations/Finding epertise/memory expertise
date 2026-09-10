@@ -1,0 +1,136 @@
+# Memory Handoff: Mirelle Inspo SEO Recovery & Content Strategy
+
+## Site & Context
+- Website: mirelleinspo.com (nail beauty/inspo content site), plus mirellebeauty.com (inspiration galleries subdomain/sister site)
+- 1165 total indexed URLs across both domains
+- ~31k-32k monthly readers, Google-verified publisher
+- Email: contact@mirelleinspo.com and editor@mirelleinspo.com (Hostinger-hosted, domain email)
+- User's name: Jyoti (signs as "Editor, Mirellé Inspo")
+- Brand name spelling: "Mirellé Inspo" (with accented É)
+- User's location: Delhi, India (per system context), but audience is majority US and tier-1 countries
+
+## The Core Problem (diagnosed and resolved analytically)
+User came in reporting a traffic drop: rankings, impressions, and clicks down on web search; image search traffic comparatively stable.
+
+### Diagnosis process (using two GSC exports the user uploaded):
+- File 1: Aug 1-24, 2026 (before period, 24 days)
+- File 2: Aug 25-Sep 6, 2026 (after period, 13 days)
+- Aggregate: clicks dropped ~70%, impressions dropped ~60% comparing daily averages
+- Initial hypothesis: seasonal decay (August-named pages like "end-of-summer-nails" naturally dying as month ended) — confirmed as a real contributing factor, biggest single page loss was `/blog/end-of-summer-nails`
+- BUT: further analysis of evergreen (non-seasonal) pages showed they ALSO lost position and impressions significantly (e.g. `simple-nail-designs` dropped from position ~10.5 to ~35.4; `pedicure-cost`, `gel-nails-cost`, `nail-tools-and-prep` all lost 70-98% impressions)
+- 161 pages dropped position by more than 3 spots; only 12 improved — broad, one-directional site-wide hit, not random
+- Cross-referenced with Google's confirmed August 2026 Spam Update (rolled out Aug 18-21, 2026, per Google's Search Status Dashboard) — timing is a few days off from the user's Aug 24-25 drop start, but the pattern (whole topic clusters like `nail-basics`, `simple-nail-designs`, `coffin-nails`, `history-of-nails` collapsing together) is the classic signature of a spam/helpful-content-style update evaluating content clusters, not individual pages
+- **Conclusion: this is a real algorithmic quality/spam-update hit layered on top of natural seasonal decay, not seasonal decay alone.**
+
+## Cluster-Level Cannibalization Analysis
+Ranked evergreen clusters by damage severity (using per-day-normalized click/impression/position deltas):
+1. `simple-nail-designs` (worst position collapse, -14.9 avg)
+2. `pedicure-nail-art` (-95% impressions)
+3. `minimalist-nails` (-6.5 avg position, 8 pages)
+4. `skin-tone` (24 pages, biggest cluster, most total clicks lost — likely cannibalizing itself)
+5. `nails-by-color` (16 pages, similar issue)
+6. `wedding-nails`, `coffin-nails`, `french-nails` (mid severity)
+7. `nail-costs` (13 pages) — explicitly NOT cannibalization (genuinely distinct topics: gel cost, acrylic cost, etc.) — this is a content-depth/trust problem instead, addressed separately below
+
+**Action recommended (not yet confirmed executed by user):** cannibalization audit + merge/redirect thin duplicate pages within clusters 1-6 above. User said they will do this audit and create redirects themselves.
+
+## Content Quality Standard Established
+Discussed extensively: citing sources ≠ scraping. The standard agreed on:
+- Every page must stand alone as genuinely useful even if the reader never visits another source
+- Add an original layer: data, decision frameworks, real examples, opinions, usable formats (tables/checklists)
+- For `nail-costs` specifically: the fix isn't merging pages, it's adding real specificity (real sourced data, expert quotes, dated info, author credentials) so content doesn't read as generic/scraped
+- User pushed back correctly on "just claim you called salons" — agreed fabricating primary research is dishonest; real (even small-scale) research or proper citation of real published sources is the honest path
+
+## Content Categorization System (1165 URLs)
+Built from `/mnt/user-data/uploads/canonical_urls.txt` (1165 URLs: 1129 mirelleinspo.com, 36 mirellebeauty.com). Classified into 11 categories by content type (determines what kind of expert reviewer is needed):
+
+| Category | Count | Expert type needed |
+|---|---|---|
+| DESIGN/STYLE | 545 | None — nail artist/writer only |
+| SEASONAL/TREND | 173 | None — trend forecaster/writer only |
+| EDUCATIONAL/COMPARISON | 86 | Licensed nail technician |
+| HOW-TO/TECHNIQUE | 77 | Licensed nail technician |
+| HEALTH/MEDICAL | 61 | Dermatologist/nail-health expert — **top priority** |
+| IDENTITY/LIFESTYLE | 55 | Community-informed reviewer (informal) |
+| COLOR-MATCHING | 52 | Colorist/makeup artist |
+| GALLERY/INSPO | 36 | None — nail artist/design-led |
+| COST/PRICING | 36 | Salon owner — **second priority** |
+| FANDOM/SPORTS THEMED | 23 | None |
+| CELEBRITY/POP-CULTURE | 21 | None |
+
+Files saved: `content-categories.md` and `categorized.json` (full URL lists per category) in outputs.
+
+Priority logic: risk-if-wrong, not traffic volume. Health/Medical and Cost/Pricing need real expert review most; Design/Seasonal/Gallery/Celebrity/Fandom (~800+ pages) need no expert at all.
+
+## Nail Health Content Cluster Map (10 clusters, deep-researched)
+Built after extensive web research into actual dermatology/nail-health topic taxonomy and search intent. Saved as `nail-health-content-clusters.md`.
+
+1. **Nail Infections** (fungus, paronychia, green nail syndrome, herpetic whitlow, ingrown toenail) — Highest monetization
+2. **Allergic & Contact Reactions** (HEMA allergy, gel/acrylic allergy, patch testing) — High monetization
+3. **Nail as Health Indicator** (vitamin deficiency signs, spoon nails, Beau's lines, color changes, ridges) — Highest monetization (supplement affiliate tie-in)
+4. **Nail Disorders & Dystrophies** (psoriasis, onycholysis, brittle nail syndrome, melanoma warning signs, clubbing) — Highest monetization (includes serious/melanoma topics)
+5. **Cosmetic Damage & Recovery** (gel/acrylic damage recovery, nail rehab, safe removal) — High
+6. **Salon Safety & Hygiene** (sterilization, infection risk, DIY vs pro) — Medium
+7. **Life-Stage & Special Population Safety** (pregnancy, breastfeeding, children, elderly, diabetic, immunocompromised) — High
+8. **Everyday Nail Care & Prevention** (cuticle care, filing, nail-biting, diet) — Medium
+9. **Product & Ingredient Science** (HEMA vs HEMA-free, acetone vs non-acetone, formaldehyde/toluene/DBP, 5-free/10-free claims) — High
+10. **Nail Anatomy & Basics** (matrix/bed/plate, growth) — Foundation/low direct monetization
+
+Priority order for expert interview coverage: 1 → 4 → 3 → 2 → 7 → 5 → 9 → (6, 8, 10 lower priority)
+
+## Expert Sourcing Strategy Established
+Key realization user pushed toward: don't need 1 expert per post (impossible at 1165 posts), need ~1 expert PER CATEGORY, interviewed once in a long-form Q&A, reused across all posts in that category. This is standard industry practice (e.g., Healthline model), not a Google red flag, as long as the expert is real/verifiable and content stays genuinely relevant per post.
+
+**Free sourcing channels identified:** personal network, own audience/followers, local salons (backlink trade), Reddit communities (r/Nailtechs, r/AskNailTechs), LinkedIn outreach, nursing/PA students as lower-credential fallback.
+
+**Images:** Site uses ~5000 AI-generated images (user confirmed, not scraped — no consent/legal issue). Recommendation: add one site-wide AI-image disclosure line; keep AI for Design/Seasonal/Gallery categories; use real photos going forward for Health/How-To/Cost categories where factual/replicable claims are made.
+
+**Instagram/creator outreach for images/reels:** discussed that a casual "sure!" reply is weak legal protection; recommended explicit written terms (specific content named, usage scope, edit rights, "credit only, no payment" stated upfront, they retain ownership) even via informal email.
+
+## Research Prompts Built (for external/other agents to run)
+Two files created in outputs:
+1. `expert-sourcing-research-prompt.md` — initial single-category (health) research agent prompt
+2. `master-expert-sourcing-prompt.md` — expanded to cover all 5 expert-needing categories (Health/Medical, Cost/Pricing, How-To+Educational, Color-Matching, Identity/Lifestyle), asks user which category to run first, recursive search until 50+ valid contacts found, includes explicit ethical guardrails (public/business-facing contact only, no scraping private info, no fabricated emails). **Later updated with a fallback section**: if an agent can't compile individual names/contacts directly, it must still recursively gather specific filtered directory/listing-page URLs (not homepages) organized by category, sufficient to plausibly surface 50+ people via manual browsing, and must clearly label this as a fallback.
+
+## First Expert Onboarded: Dr. Niharika Jha
+- Found via Practo (dermatologist directory), YouTube channel "Dermacoaching" (covers nail pathology in depth, e.g. nail bed biopsy videos)
+- Outreach email sent from editor@mirelleinspo.com, cold email initially **bounced** from a different recipient (hospital email, Barracuda spam filter, hard "550 blocked" bounce)
+- **Diagnosed and fixed domain email authentication during this troubleshooting:**
+  - SPF: was already passing (verified via MXToolbox)
+  - DKIM: was MISSING entirely (root cause likely contributor to bounce) — generated and added via Hostinger's Custom DKIM panel, added TXT record to Cloudflare DNS (host: `hostingermail1._domainkey`), verified successfully
+  - DMARC: record exists but policy not enforced (`p=none` likely) — flagged as a minor remaining gap, not fixed yet, optional future improvement
+- Dr. Jha replied and **agreed** to contribute (confirmed via email screenshot: "Sure, I would like to give it a try")
+- Sent a follow-up message: thanked her, explained no-rush timeline, asked for headshot + bio + credit links in the meantime
+- **Built and sent a full Q&A document** (Google Doc, shared with Editor access): 27 questions across 8 sections (General Basics, Treatment, When to Seek Medical Care, Salon & Lifestyle, Paronychia, Ingrown Toenails, Prevention, Clinical Experience/Practice Insights) — all drawn from Cluster 1 (Nail Infections), researched against real search intent (Cleveland Clinic, GoodRx, Scripps Health, MedStar/KidsHealth sources on fungus and paronychia)
+- Doc reframed per user request to look like a professional editorial publication (not "questions for Dr. Jha"), titled "Nail and Toenail Fungus: A Clinical Perspective with Dr. Niharika Jha — An Editorial Q&A with a Board Certified Dermatologist," includes attribution/bio/credit-links section at the end, no em dashes, brand name styled "MIRELLÉ INSPO"
+- User shared the doc directly via Google Docs share dialog with a message; sent a follow-up email asking her to wrap up in 2-3 days
+- **Status: doc is shared and Dr. Jha has access; user has seen an "Anonymous [Animal]" collaborator icon indicating someone (likely her) is actively viewing/editing.** Awaiting her actual answers.
+- Dr. Jha is assigned to 4 clusters total (her full expertise scope): Cluster 1 (Nail Infections — questions sent), Cluster 4 (Nail Disorders & Dystrophies — assigned, not yet asked), Cluster 2 (Allergic & Contact Reactions — assigned, not yet asked), Cluster 3 (Nail as Health Indicator — assigned, not yet asked)
+
+## Expert Coverage Tracking PDF
+Built `nail-health-expert-coverage-map.pdf` (in outputs), two sections:
+1. **Dr. Niharika Jha's assigned clusters** (1, 4, 2, 3) with Cluster 1 items marked as answered/covered, Clusters 2/3/4 marked "assigned, questions not yet sent"
+2. **"Yet to Find: Expertise Still Needed"** — all remaining categories/clusters with no expert yet: Cost/Pricing (salon owner needed), How-To/Technique + Educational (licensed nail tech needed), Color-Matching (colorist/makeup artist needed), Identity/Lifestyle (community reviewer needed), Cluster 5 Cosmetic Damage (nail tech), Cluster 6 Salon Safety (nail tech/salon owner), Cluster 7 Life-Stage Safety (dermatologist/OB-GYN/podiatrist), Cluster 9 Product/Ingredient Science (dermatologist/chemist)
+
+This PDF is the living tracker — should be updated as more experts are onboarded (add their section) and as pending items get resolved.
+
+## X (Twitter) Recruitment Post
+Drafted a ~280-char post recruiting all needed expert types at once: dermatologists, podiatrists, salon owners, nail techs, colorists, LGBTQ+/50+ creators. Mentions 31k+ readers, Google-verified publisher, credit+feature page in exchange, contact via contact@mirelleinspo.com. Clarified X DMs are restricted by default; walked user through enabling "Allow message requests from everyone" in X Settings → Privacy and safety → Messages, so the post's "DM us" CTA actually works.
+
+## Outstanding/Open Items (pick up here)
+1. **Wait for Dr. Jha's Q&A answers** (2-3 day timeline given) — once received, use to write the first published article (nail/toenail fungus piece) and populate her feature/expert page with bio, headshot, credit links
+2. **Follow-up interview needed with Dr. Jha** for Clusters 2, 3, 4 (allergic reactions, health-indicator signs, disorders/dystrophies/melanoma) — questions not yet drafted for these, only Cluster 1 done
+3. **Green nail syndrome and herpetic whitlow** within Cluster 1 were NOT included in the sent question set — flagged as pending a future follow-up round with Dr. Jha
+4. **Source remaining experts**: salon owner (Cost/Pricing), licensed nail technician (How-To/Technique + Educational/Comparison, also covers Clusters 5 & 6), colorist/makeup artist (Color-Matching), community reviewer (Identity/Lifestyle), and someone for Cluster 7 (Life-Stage Safety) and Cluster 9 (Product/Ingredient Science) — likely also dermatologist-adjacent, could potentially extend Dr. Jha's scope further or need a separate person
+5. **Email deliverability**: SPF+DKIM now fixed and verified, but user is still seeing emails land in spam. Diagnosed likely causes: identical mass-sent content, no sending history/reputation yet on the domain, DMARC not enforced, promotional-sounding subject lines. Recommended fixes not yet confirmed implemented: send one at a time with varied wording, warm up domain with low-volume normal sends first, avoid "Feature Opportunity"-style subject lines, encourage reply-backs to build sender reputation
+6. **Cannibalization audit + redirects**: user said they will do this themselves for clusters `simple-nail-designs`, `pedicure-nail-art`, `minimalist-nails`, `skin-tone`, `nails-by-color` — status of actual execution unknown/not reported back yet
+7. **AI image disclosure line**: recommended for site footer/about page, not confirmed as added yet
+8. **DMARC enforcement** (`p=quarantine` or `p=reject`): flagged as a minor remaining improvement, not yet actioned
+
+## Key User Preferences (apply throughout)
+- Wants token-efficient, direct chat responses — no filler, no unsolicited recaps
+- Substantial content goes in artifacts/files, not chat walls of text
+- Wants step-by-step confirmation before proceeding on multi-step tasks (though this has been relaxed somewhat as the conversation progressed and user gave more open-ended instructions)
+- Does not want em dashes in any generated documents
+- Prefers plain, direct wording in outreach emails (removed "no rush/no worries" over-softening when asked, replaced with clear timelines)
+- Wants files created as actual downloadable artifacts (docx/pdf) only when explicitly requested, not proactively
