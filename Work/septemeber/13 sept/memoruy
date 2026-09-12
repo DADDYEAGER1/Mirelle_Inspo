@@ -1,0 +1,120 @@
+# Handoff: Vercel Function Size Optimization — mirelle-site
+
+## Project
+Next.js 15.5.15 (Turbopack) blog/content site (`mirelleinspo.com`), deployed on Vercel.
+~1,200+ MD/MDX content files under `src/content/` (~23MB total: blogs, shop, salons,
+faqs, work-nails, trend-reports, spotlight, stories, topics, pinterest, nail-feed,
+business, inspo).
+
+## The problem (original)
+Vercel Resources tab showed nearly every content page's serverless Function at
+**12.3 MB**, driving up deployment/function cost. Root cause: static pages
+(`dynamic = 'force-static'`, `revalidate: false`) call `lib/*.ts` helpers
+(`getAllBlogPosts`, `getBlogPost`, etc.) that use `fs.readFileSync`/`readdirSync`
+over `src/content/**` at module scope. Next.js's build tracer (`@vercel/nft`)
+can't tell this only matters at build time, so it bundles the **entire**
+`src/content` folder (~1,140+ files) into the deployed function for every page
+that transitively imports these helpers — even though each page only ever
+needs one file.
+
+## Fix #1 (applied, real but incomplete): outputFileTracingExcludes
+Added `outputFileTracingExcludes` entries in `next.config.ts` for every
+statically-prerendered content route, telling Next.js to drop `src/content/**`
+from those routes' function bundles. Deliberately NOT applied to routes that
+genuinely need runtime fs access:
+- `/blog` (force-dynamic listing page)
+- `/api/search` (live cross-content search)
+- `/api/blog/[slug]/pdf` (reads post per-request to render PDF)
+- `/api/timeline/blog-cluster`, `/api/timeline/inspo-images` (runtime GET handlers)
+
+**This did not work when first deployed** — user's live Resources tab (deployment
+`qHXv9Fmq`) still showed 12.3MB on `/blog/*` pages AND on `/authors` (which had
+had this exclusion applied even before this session started). Verified via
+screenshot that the correct `next.config.ts` WAS present in that deployment's
+Source tab — so it wasn't a "wrong file deployed" issue.
+
+## Fix #2 (applied, root cause found via direct empirical testing)
+Discovered — by actually building the project locally with the user's exact
+build command (`next build --turbopack`) and inspecting the real
+`.next/server/app/**/*.nft.json` trace files — that **the literal bracket
+route-key syntax Next.js's own docs show (e.g. `"/authors/[slug]"`) is silently
+ignored by the tracer for dynamic/parameterized routes on this Next.js +
+Turbopack combination.** Plain non-parameterized routes (`/authors`, `/business`)
+excluded correctly; every `[slug]`/`[...slug]`/`[design]`/`[city]` route did not,
+despite the key being 100% correctly present in `required-server-files.json`.
+
+**Verified fix, isolated A/B tested twice on the real repo:**
+- Config with `"/authors/[slug]": [...]` only → `/authors/[slug]/page.js.nft.json`
+  still contains 1,140 `src/content` files (bug reproduced).
+- Config with `"/authors/*": [...]` only → same route drops to 0 `src/content`
+  files (fix confirmed).
+
+Applied `*` wildcard in place of every literal bracket segment across all 14
+dynamic content route families. Full clean rebuild (`rm -rf .next && next build
+--turbopack`) confirmed **all 14 routes + homepage now trace 0 files under
+src/content**, while `/api/search` (intentionally untouched) still correctly
+traces ~1,038 content files, proving the fix is precise, not a blanket exclude.
+
+Corrected `next.config.ts` was given to the user (`/mnt/user-data/outputs/next.config.ts`
+in that session — user needs to re-supply if starting fresh with new agent, or
+it should be in their repo already if they committed it).
+
+## Current status (unresolved at handoff)
+User has NOT yet confirmed whether Fix #2 (the `*` wildcard version) actually
+resolves the issue on live Vercel infra — it was only verified via local
+`next build --turbopack`, not yet against an actual Vercel deployment.
+
+User is about to redeploy with this corrected config and a clean-cache redeploy,
+then will share:
+1. The full Vercel build log for that deployment
+2. A full screenshot/export of the Resources tab
+
+## What the next agent should do
+1. **Get the build log and Resources tab the user is about to share.** Check:
+   - Does the build log mention `outputFileTracingExcludes` or file tracing at all?
+   - Do the same 14 dynamic route families (`/blog/[...slug]`, `/authors/[slug]`,
+     `/business/[slug]`, `/nail-faqs/[slug]`, `/inspo/[design]`, `/nail-feed/[slug]`,
+     `/pinterest/[slug]`, `/trend-reports/[slug]`, `/salons/[city]`, `/shop/[...slug]`,
+     `/spotlight/[slug]`, `/stories/[slug]`, `/topics/[slug]`, `/work-nails/[slug]`)
+     still show ~12.3MB, or have they dropped?
+2. **If it worked:** confirm with user, verify a few live pages still render
+   correctly (content, images), and consider this closed.
+3. **If it's STILL 12.3MB despite the `*` wildcard fix**, do NOT re-guess —
+   the most likely remaining explanations, not yet checked (no visibility into
+   Vercel project settings from this session):
+   - **Vercel Project Settings → General → Root Directory** — if set to a
+     subfolder rather than repo root, the exclude glob paths (`./src/content/**/*`)
+     may resolve against the wrong base and silently match nothing.
+   - **A `vercel.json` `functions` block** (unlikely — checked once, only had
+     a `crons` entry, but re-verify nothing's changed).
+   - Check whether the live deployment's build log shows a DIFFERENT Next.js
+     version resolving than the local `15.5.15` tested in this session.
+4. **Ask the user directly for their Vercel Root Directory setting** if the
+   fix still doesn't take — this is the single most likely remaining unknown.
+
+## Separate, still-open issue: Cloudflare cache (lower priority, deferred)
+Cloudflare Cache Rule "cache html pages" (rule order 2, all incoming requests)
+is set to **"Ignore cache-control header and use this TTL" = 1 month** — meaning
+Cloudflare completely ignores Vercel's own Cache-Control headers on ALL HTML and
+blindly serves edge-cached HTML for up to 30 days regardless of redeploys. This
+was flagged as a real staleness/rollback risk (fixes/deploys invisible to visitors
+for up to a month) but the user pivoted to focus on function size first. Recommended
+fix when revisited: change that rule's Edge TTL to "Use cache-control header if
+present, cache request with Cloudflare's default TTL for the response status if
+not" (i.e., respect origin) — but do this only AFTER the function-size /
+ISR-revalidation settings are sane, not before (respecting origin will cause more
+requests to reach Vercel to check freshness, which interacts with revalidation
+frequency/cost). User mentioned "3.6 million monthly revalidation reads" during
+this session but clarified afterward this was not meant as a real reported number
+to investigate — treat as a red herring / miscommunication, not a lead.
+
+## Key files referenced this session
+- `next.config.ts` (the file being fixed — corrected version has `/*` wildcards)
+- `src/lib/blog.ts` (root cause: `fs.readFileSync`/`readdirSync` over
+  `src/content/blogs` at module scope, used by `getAllBlogPosts`/`getBlogPost`/etc.)
+- `src/app/blog/[...slug]/page.tsx` and templates (checked — no direct fs access,
+  all content access correctly funnels through lib/blog.ts)
+- Similar `lib/*.ts` files exist per content type: `authors.ts`, `business.ts`,
+  `faqs.ts`, `inspo.ts`, `nailfeed.ts`, `pinterest.ts`, `reports.ts`, `salons.ts`,
+  `shop.ts`, `spotlight.ts`, `stories.ts`, `topic.ts`, `workNails.ts` — all follow
+  the same pattern.
