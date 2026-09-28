@@ -1,0 +1,340 @@
+# INPUT FILE: ingrown-toenail-infection-signs (Post 7, Cluster 30: Nail Health)
+
+## SECTION 1: FILE AUTHORITY
+THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded. Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.
+
+## SECTION 15: EXECUTION PLAN (READ FIRST, LOCK EVERYTHING)
+
+### Block 1: Keyword execution
+- **primary_keyword:** infected ingrown toenail
+- **top_5_density_baseline:** 8.6 mentions average across the five fetched pages (2, 7, 7, 27, 0). The 27 is a keyword-stuffed FAQ outlier and the median is 7, so the baseline is treated as 8.6 per the formula but the target below is not inflated further.
+- **total_mention_target:** 8.6 + 2 to 3 = **11 total mentions** (hard target, not a percentage)
+- **first_100_words_plan (mandatory, TWO mentions):**
+  - mention_1: sentence 1 of the introduction, as the subject of the opening claim
+  - mention_2: sentence 3 of the introduction, in the promise of what the post resolves
+- **first_half_target:** 7 mentions in the first ~975 words (denser)
+- **second_half_target:** 4 mentions in the second ~975 words
+- **strong_tag_rule:** EVERY mention of the primary keyword (all 11) wrapped in `<strong>` tags. Scan after every paragraph.
+- **keywords_to_avoid_active:** see Section 3
+
+### Block 2: Word budget
+- **total_target (ceiling/reference, not a quota):** 1,950 words, +/-50, never exceed. See Section 2 word_count note.
+- introduction: 220
+- conclusion: 170
+- h2_budgets:
+  1. "How Do You Know If an Ingrown Toenail Is Infected or Just Inflamed?" | 300 | high
+  2. "What Does an Infected Ingrown Toenail Look Like?" | 240 | medium
+  3. "Which Infection Signs Mean See a Doctor Today, Not This Week?" | 260 | high
+  4. "Can You Treat an Infected Ingrown Toenail at Home?" | 220 | medium
+  5. "Why Popping the Bubble or Cutting It Out Makes It Worse" | 200 | medium
+  6. "Does an Infected Ingrown Toenail Go Away on Its Own?" | 160 | low
+  7. "Who Should Skip Home Care Entirely? (Diabetes, Circulation, Immunity)" | 180 | medium
+- Sum check: 220 + 300 + 240 + 260 + 220 + 200 + 160 + 180 + 170 = 1,950
+- **tracking_rule:** track running total after every H2. If a section runs over, cut before moving on. Do not compensate later.
+
+### Block 3: Image plan
+- **total_images:** 7 (1 hero + 6 body). Hero = frontmatter only, NEVER in body.
+- **body_images:** 6
+- assignments:
+  1. after H2-1 | standard_inspiration | close-up of a healthy-but-irritated ingrown toe edge (mild pink, no pus) for contrast
+  2. after H2-2 | infographic | clean graphic comparing INFLAMED vs INFECTED across five signs: redness pattern, pus, warmth, pain type, swelling spread
+  3. after H2-3 | infographic | tiered triage graphic: "book this week" / "go today" / "ER now", each with its signs
+  4. after H2-4 | standard_inspiration | clean neutral foot-soak scene, open-toe shoes beside it, no tools in frame
+  5. after H2-6 | standard_inspiration | toe edge on a healing timeline feel, calm and clean
+  6. after H2-7 | standard_inspiration | podiatrist-office or clinical-clean foot care scene, no instruments visible
+- **image_type_rule:** default is standard_inspiration. Infographic slots (2 and 3) are pre-flagged because this post is a decision/triage post and both need a graphic layout, not a photo. NEVER a tool/equipment image. NEVER a photo-style side-by-side nail comparison; comparison lives in infographic slot 2 only.
+- **path_rule:** `/images/blog/nail-health/ingrown-toenail-infection-signs/filename.webp`
+
+### Block 4: Opening technique assignments
+No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.
+- Introduction: Technique 1 (The Claim)
+- H2-1: Technique 3 (The Reframe)
+- H2-2: Technique 2 (The Scenario)
+- H2-3: Technique 1 (The Claim)
+- H2-4: Technique 3 (The Reframe)
+- H2-5: Technique 2 (The Scenario)
+- H2-6: Technique 1 (The Claim)
+- H2-7: Technique 3 (The Reframe)
+- Conclusion: Technique 1 (The Claim)
+- **banned_opener_rule:** check every opener against banned_opening_approaches in the blog gen prompt before writing sentence two.
+
+### Block 5: Link placements
+Every link placed exactly where specified. Anchors verbatim. Woven into prose, never standalone CTAs. Total internal = 6 (cap). See Section 11 for the full list; placements:
+- "how ingrown toenails progress from mild to infected" (cluster-spoke) -> H2-1, right after the inflamed-vs-infected distinction
+- "whether it's safe to treat an ingrown toenail yourself" (cluster-spoke) -> H2-4
+- "whether dental floss under the nail actually works" (cluster-spoke) -> H2-4
+- "when antibiotics are actually needed for an ingrown toenail" (cluster-spoke) -> H2-6
+- "what recovery looks like after permanent ingrown toenail removal" (cluster-spoke) -> H2-3, where partial removal is named as the fix
+- "why diabetics need to treat ingrown toenails differently" (cluster-spoke) -> H2-7
+
+### Block 6: AEO/GEO plan
+aeo_assignments (direct 2-3 sentence answer IMMEDIATELY after the H2, before any elaboration):
+- "How do you know if an ingrown toenail is infected?" -> H2-1
+- "What does an infected ingrown toenail look like?" -> H2-2
+- "When should you see a doctor for an infected ingrown toenail?" -> H2-3
+- "Can you treat an infected ingrown toenail at home?" -> H2-4
+- "Should you pop the pus on an infected ingrown toenail?" -> H2-5
+- "Will an infected ingrown toenail heal on its own?" -> H2-6
+- "Is an infected ingrown toenail dangerous for diabetics?" -> H2-7
+
+geo_entity_statements (clear, confident, declarative, extractable):
+- **Paronychia:** "Paronychia is a bacterial infection of the skin fold around a nail, and it is the infection that develops when an ingrown toenail breaks the skin." -> H2-1
+- **Cellulitis:** "Cellulitis is a spreading skin and soft tissue infection that shows up as redness expanding past the toe." -> H2-3
+- **Partial nail avulsion:** "A partial nail avulsion is an in-office procedure that removes only the ingrown edge of the nail under local anesthetic." -> H2-3
+- **Lymphangitis (red streaks):** "Red streaks running from the toe toward the foot mean the infection is tracking along lymph vessels." -> H2-3
+
+### Block 7: Active constraints
+- **em_dash_banned:** no long em dash anywhere. If one forms, replace with comma, new sentence, parentheses, or "but."
+- **banned_vocab_watch (likely to slip in on this topic):** "crucial," "navigate," "delve," "landscape," "it's important to note," "moreover," "in conclusion," "comprehensive." Catch as they form.
+- **american_english_active:** color, recognize, -ize, -or. Every instance. Note: several competitor pages (NHS, healthdirect) use British spellings ("anaesthetic," "colour"), do not mirror them.
+- **keyword_density_reminder:** after every 2 H2s, count running mentions. Verify on track to 11. First half denser than second.
+- **image_path_reminder:** `/images/blog/nail-health/ingrown-toenail-infection-signs/filename.webp`
+- **internal_link_url_reminder:** cluster links = `/blog/nail-health/[slug]`. Never bare `/slug`.
+- **hero_image_reminder:** hero = frontmatter only.
+- **strong_tag_reminder:** every primary keyword mention in `<strong>`.
+- **expert_quote_reminder:** `expert_alias` goes into the expert frontmatter field exactly as given. `expert_quote` used whole or as word-for-word extracts, never paraphrased, never altered in meaning.
+- **medical_safety_reminder:** this is a health-safety post. Never state a treatment as a guarantee. Never advise popping, lancing, or cutting. State plainly that the writer is not a clinician; defer diagnosis to a provider.
+
+---
+
+## SECTION 2: POST_CONSTANTS
+- **slug:** ingrown-toenail-infection-signs
+- **topic_slug:** nail-health
+- **canonical:** https://mirelleinspo.com/blog/nail-health/ingrown-toenail-infection-signs
+- **post_type:** spoke
+- **intent:** informational
+- **word_count:** 1950 (calculated with no ceiling from real data, passed as a ceiling/reference, not a quota). See phase 3b note: the real top-5 average is only 973 words because three of five pages are thin (NHS 491, Cascade 583, Summit 1,039). The reference is set well above baseline deliberately, because the strongest ranking content on the wider SERP (Michigan Foot Doctors, Straits Podiatry, Biology Insights) is longer and the gap here is depth on triage, not length for its own sake. Landing under 1,950 is correct if every H2 is fully answered.
+- **image_count:** 7
+- **show_inspo_gallery_link:** false (cluster default, read verbatim from cluster_metadata)
+- **template:** posts
+- **hero_dimensions:** 1200x675
+- **category:** Nail Health
+- **publish_date:** 2026-09-28
+- **author:** jyoti-mirelle
+- **expertise_type:** licensed_derm_or_nail_health_expert
+- **expert_alias:** cameron-bennet
+- **expert_quote:** (see Section 14, full text)
+
+## SECTION 3: CLUSTER SNAPSHOT
+- **pillar_slug:** what-kills-toenail-fungus-instantly
+- **pillar_title:** What Kills Toenail Fungus Instantly? What Actually Works
+- **pillar_primary_keyword:** what kills toenail fungus instantly
+- **this_post_slug:** ingrown-toenail-infection-signs
+- **this_post_role:** spoke
+- **show_inspo_gallery_link_cluster_default:** false
+- **keywords_to_avoid (hard wall, never a focus term):**
+  - Sibling ingrown spokes: "ingrown toenail stages," "dental floss ingrown toenail," "should i cut my ingrown toenail," "do you need antibiotics for ingrown toenail," "partial nail avulsion recovery"
+  - Adjacent infection: "paronychia" (owned by post 6), "can toenail fungus kill you," "diabetic nail care"
+  - All other cluster primaries and every existing-site keyword listed in `keyword_ownership_registry`
+  - **Site-level wall discovered in research (NOT in the cluster file):** mirelleinspo.com already owns "best toenail shape for ingrown nails" and "how to shape toenails at home." Do not write a cutting-technique section. Link out instead (see Section 11 note).
+
+## SECTION 4: SERP ANALYSIS
+
+**blog_gen_instruction:** use `our_strategic_approach` as the concrete angle for the introduction and conclusion and to guide depth in the H2s.
+
+**competitor_gaps (each confirmed on 2+ sources: fetched pages, PAA-style result sets, and forum threads):**
+1. **Inflamed vs infected is never resolved.** Every fetched page lists symptoms of infection but none tells the reader that redness, pain, and swelling ALSO appear in plain inflammation, so the reader cannot tell the two apart. Only one non-fetched source (Practical Podiatry) says it outright: infection is present when two or more signs stack up, and inflammation looks nearly identical. The forum threads (AnandTech) show readers asking exactly this.
+2. **No triage tiers.** Summit and RapidCare mix "see a doctor" and "go to the ER" into one list. Nobody separates "book this week" from "go today" from "ER now." Michigan Foot Doctors is the only page that draws those lines, and it is not in the top five.
+3. **The "just pop it" instinct is barely addressed.** Only RapidCare mentions not pulling the nail. No fetched page tells a reader why popping the bubble is dangerous, even though forum readers ask it directly.
+4. **Antibiotics-vs-removal is missing.** Cascade says antibiotics "might" work. Nobody explains that antibiotics alone usually fail because the nail is still through the skin. This is the expert's strongest quote and no competitor has it. (Boundary: the antibiotics-vs-removal explanation belongs to post 30, so this post gets one sentence and a link, not a section.)
+
+**missing_semantic_territory (demand-validated):** "infected or just inflamed," "how fast does it spread," "same-day vs ER," "hypergranulation tissue as an infection sign," "pus that keeps coming back," "does it heal on its own," "can I go to urgent care."
+
+**our_strategic_approach:** The five fetched pages average 973 words and treat "infected ingrown toenail" as a symptom list. This post wins by resolving the decision the reader is actually stuck on: is this infected, and how urgent is it. It opens by admitting that infection and inflammation look nearly identical, builds a five-sign comparison graphic no competitor has, then splits urgency into three tiers where the top pages (Summit, RapidCare, Cascade) collapse them into one list. It carries a named podiatrist's verbatim guidance on the two safety-critical points: don't pop the bubble, and see a professional when redness spreads. Structurally it puts the answer-first paragraph under every H2, which none of the five do, and it avoids the generic prevention and cutting sections that fill 30 to 40 percent of the competitor pages.
+
+**top_5_fetched_pages_summary:**
+| # | URL | Real words | H2 count | Exact-keyword mentions | Note |
+|---|-----|-----------|----------|------------------------|------|
+| 1 | my.clevelandclinic.org/health/diseases/17664-ingrown-toenails | 1,347 | 7 | 2 | Authoritative but general; infection is one sub-heading. Says "call your provider" without tiering. |
+| 2 | summithealth.com/health-wellness/infected-ingrown-toenail-how-spot-it-treat-it-and-know-when-see-podiatrist | 1,039 | 9 | 7 | Best-structured, includes red streaks and complications. Ends as a clinic sales pitch. |
+| 3 | cascadeutah.com/post/how-to-tell-if-your-ingrown-toenail-is-infected | 583 | 6 | 7 | Strongest single insight (check warmth against the other foot). Thin, and says "never treat at home," which contradicts mild-case reality. |
+| 4 | rapidcareemergency.com/blog/health-care/how-to-treat-infected-ingrown-toenail/ | 1,403 | 9 | 27 | Only page answering ER questions. Keyword-stuffed FAQ. Symptom list wrongly includes fungal signs (crumbly, thickened nail). |
+| 5 | nhs.uk/conditions/ingrown-toenail/ | 491 | 7 | 0 | Trusted, but never uses the phrase and gives two infection signs total. |
+
+- **top_5_word_count_average:** 972.6
+- **top_5_keyword_density_average:** 8.6
+
+**best_external_sources_found:** see Section 13.
+
+**recommended_image_count_validation:** 7 matches the flat default for a non-pillar, non-tutorial, non-comparison post. Competitors carry 0 to 3 images each, so 6 body images (2 as infographics) is a clear visual edge.
+
+## SECTION 5: AUDIENCE INTELLIGENCE
+
+**blog_gen_instruction:** this is your primary creative brief. Write every paragraph for this specific person.
+
+- **who_they_are:** An adult with a sore, red big toe they have already been soaking and watching for a few days. They are not sure whether it is "normal ingrown pain" or something worse, and they are half-hoping it will settle so they do not have to book an appointment. Often searching late at night when the throbbing wakes them.
+- **what_they_want_from_this_post:** A clear yes/no on infection and a clear line for "when do I stop waiting." They want to be told what to do tonight, not lectured on nail-cutting.
+- **what_frustrates_them:** Symptom lists where every sign (red, swollen, sore) is also true of a plain ingrown nail. Pages that say "see a doctor" without saying how soon. Clinic pages that read as sales pitches. Fear-only content ("amputation") with no calm middle.
+- **top_5_pain_points:**
+  1. "Is this infected or just inflamed?" (no page resolves this)
+  2. "Can I wait until Monday, or do I need to go today?"
+  3. "I want to pop it, is that bad?"
+  4. "I've been soaking for days and it's not better, am I doing it wrong?"
+  5. "Will antibiotics fix this or do I need the nail out?"
+- **exact_user_phrases:** "it's throbbing at night," "red and hot," "there's yellow stuff coming out," "should I pop it," "I've been soaking it for three days," "is it infected or just sore," "red line going up my toe," "do I need to go to urgent care," "will it go away on its own," "it looks shiny and tight"
+- **intent_content_signals:**
+  1. Answer-first, then explain (readers scan for a verdict)
+  2. Checklist-style sign comparison beats prose for the infected-vs-inflamed decision
+  3. Tiered urgency (green/amber/red logic) is the format that reduces anxiety
+  4. Calm, non-alarmist tone with honest red flags
+  5. A specific number of days for "give home care X days" (competitors say "a few days," "1-2 days," "three days," which is inconsistent; state the consensus and attribute it)
+  6. Diabetes callout, set apart, because it changes the advice
+  7. No clinic sales pitch
+
+## SECTION 6: SEMANTIC KEYWORD DATA
+
+**blog_gen_instruction:** primary keyword in `<strong>` every mention. AEO terms trigger direct-answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as a focus term.
+
+- **primary_keyword:** infected ingrown toenail
+- **keyword_variations (cannibalization-cleared):** ingrown toenail infection, infected ingrown nail, ingrown toenail that is infected, infected toenail from an ingrown nail, signs of an infected ingrown toenail, is my ingrown toenail infected, ingrown toenail pus
+- **cluster_keywords (cleared):** toe infection signs, pus around toenail, warm red toe, throbbing toe at night, spreading redness toe, red streaks on toe, swollen toe fold, toenail abscess, nail fold infection, toe cellulitis, when to see a podiatrist, urgent care for toe infection
+- **lsi_terms (from autocomplete AND fetched competitor language):** hypergranulation tissue, nail fold, lateral nail border, abscess, lymphangitis, cellulitis, bacterial infection, drainage, foul odor, throbbing, Epsom salt soak, warm soak, topical antibiotic, oral antibiotics, partial nail removal, local anesthetic, osteomyelitis, matrixectomy
+- **aeo_terms (full question phrases):**
+  1. How do you know if an ingrown toenail is infected?
+  2. What does an infected ingrown toenail look like?
+  3. When should you see a doctor for an infected ingrown toenail?
+  4. Can you treat an infected ingrown toenail at home?
+  5. Should you pop the pus on an infected ingrown toenail?
+  6. Will an infected ingrown toenail heal on its own?
+  7. Can an infected ingrown toenail be dangerous?
+  8. Should I go to the ER for an infected ingrown toenail?
+  9. What is the difference between an inflamed and an infected ingrown toenail?
+  10. Is an infected ingrown toenail dangerous for diabetics?
+- **technical_terms:** onychocryptosis, paronychia (defined once, never a focus term, see wall), cellulitis, lymphangitis, hypergranulation, partial nail avulsion, phenolization, MRSA
+- **user_language:** "red and angry," "hot to the touch," "throbbing," "yellow gunk," "shiny and tight," "red line," "wakes me up," "I've been soaking it," "it won't go away," "does it need to come out"
+
+## SECTION 7: VOICE AND AI QUERIES
+
+**blog_gen_instruction:** answer every query directly in the relevant H2 body. If it cannot be addressed naturally, route it to faqItems. No query left unanswered.
+
+queries:
+1. How do I know if my ingrown toenail is infected?
+2. What does an infected ingrown toenail look like?
+3. Is my ingrown toenail infected or just inflamed?
+4. What color is the pus from an infected ingrown toenail?
+5. Should I pop the pus bubble on my ingrown toenail?
+6. Can an infected ingrown toenail heal on its own?
+7. How long should I try home care before seeing a doctor?
+8. What are the red streaks going up my toe?
+9. Should I go to urgent care or the ER for an infected ingrown toenail?
+10. Can an infected ingrown toenail spread to the bone?
+11. Does an infected ingrown toenail always need antibiotics?
+12. Can I still exercise with an infected ingrown toenail?
+13. Is an infected ingrown toenail an emergency for someone with diabetes?
+14. What does the doctor do for an infected ingrown toenail?
+15. Why does my ingrown toenail hurt more at night?
+16. Can I wear socks and shoes with an infected ingrown toenail?
+
+## SECTION 8: HOOK AND CTR
+
+**blog_gen_instruction:** READ THIS BEFORE WRITING THE TITLE, META, INTRO, OR FIRST H2. Use the locked title and description exactly.
+
+- **real_serp_findings_summary:** The five fetched titles are almost all question or "how to treat" formats that front-load the topic but do not name a decision (Summit: "How to Spot It, Treat It, and Know When to See a Podiatrist," RapidCare: "How to Treat an Infected Ingrown Toenail," Cascade: "How to Tell if Your Ingrown Toenail is Infected"). Three of five lead with "How to." Nobody titles the actual reader dilemma, which is infected versus merely inflamed. Cleveland Clinic and the NHS use generic condition names that never say "infected."
+- **selected_option_rationale:** T2 names the exact either/or the reader is stuck on and puts the primary keyword in the first three words, which the "How to..." competitor titles do not do. It tests the gap identified above instead of copying the dominant pattern.
+- **title:** Infected Ingrown Toenail or Just Inflamed? How to Tell
+- **title_char_count:** 54
+- **meta_description:** Red and sore isn't always infected. See the exact signs that separate inflammation from infection, plus red flags that need care today.
+- **meta_char_count:** 135
+- **intro_hook_brief:** Open on the reader's actual dilemma: the toe is red, sore, and they have been soaking it, and every list they read says the same symptoms apply to a harmless ingrown nail too. Admit that overlap first (Technique 1, The Claim), then promise a clear line between "irritated" and "infected" and an honest triage of how fast to act. Primary keyword in sentence 1 and sentence 3. Deliver a verdict early, then build.
+- **first_h2_hook_direction:** Phrase the first H2 as the reader's own question ("how do you know") and lead the body with the fastest possible answer, the stacking rule: one sign is probably irritation, two or more together, especially pus and warmth, points to infection.
+- **year_tag_note:** No "2026" tag. This is an informational medical post, not trend, seasonal, ideas, color, or inspirational.
+
+## SECTION 9: SEARCH JOURNEY
+
+**blog_gen_instruction:** this is the emotional contract with the reader. If a paragraph breaks the arc, rewrite it.
+
+- **reader_arrival_state:** Anxious, a little embarrassed, already home-treating for a few days, hoping for permission to keep waiting.
+- **journey_arc:**
+  1. Admit the overlap (infection and inflammation look alike) and give the stacking rule
+  2. Show what infection actually looks like, with a side-by-side graphic
+  3. Draw the three urgency lines (this week, today, ER now)
+  4. Give an honest, limited home-care plan for the cases that qualify
+  5. Warn off popping and cutting, and explain why
+  6. Say plainly it will not heal on its own once infected
+  7. Set apart the people who should skip home care entirely
+- **promise_to_deliver:** By the end you will know whether your toe is infected or just irritated, and exactly how fast you need to act.
+- **exit_state:** Calm and decisive. They know their tier, know tonight's next step, and feel no urge to pop it.
+
+## SECTION 10: CONTENT STRUCTURE
+
+**blog_gen_instruction:** follow exactly. Do not rename, reorder, or remove H2s without user instruction. H3s at editorial discretion.
+
+- **h1:** Infected Ingrown Toenail or Just Inflamed? How to Tell
+- **h2_structure (7 H2s, within the 6-10 spoke-informational range):**
+  1. How Do You Know If an Ingrown Toenail Is Infected or Just Inflamed?
+  2. What Does an Infected Ingrown Toenail Look Like?
+  3. Which Infection Signs Mean See a Doctor Today, Not This Week?
+  4. Can You Treat an Infected Ingrown Toenail at Home?
+  5. Why Popping the Bubble or Cutting It Out Makes It Worse
+  6. Does an Infected Ingrown Toenail Go Away on Its Own?
+  7. Who Should Skip Home Care Entirely? (Diabetes, Circulation, Immunity)
+- **word_budget:** introduction 220 | H2-1 300 | H2-2 240 | H2-3 260 | H2-4 220 | H2-5 200 | H2-6 160 | H2-7 180 | conclusion 170 = 1,950
+
+**Scope boundaries (protect cannibalization):**
+- H2-4 covers soaking and the "watch window" only. Dental floss and cotton lifting is one sentence plus the cluster link. Do not teach the technique.
+- H2-5 states that cutting a V or digging out the nail is unsafe, one sentence plus the cluster link. Do not write a cutting-technique or shaping section (site already owns it).
+- H2-6 gives the one-line antibiotics point plus the cluster link. Do not explain antibiotics vs removal in depth (post 30 owns it).
+- Do not define or diagnose paronychia beyond one geo-entity sentence (post 6 owns it).
+
+## SECTION 11: INTERNAL LINKS
+
+**blog_gen_instruction:** every link must appear. Cluster anchors verbatim. Total internal links = 6, at the cap. Woven into prose, never standalone CTAs.
+
+| # | url_or_slug | title | anchor_text (verbatim) | placement_note | link_type |
+|---|-------------|-------|------------------------|----------------|-----------|
+| 1 | /blog/nail-health/ingrown-toenail-stages | Ingrown Toenail Stages: From Mild Soreness to Infection | how ingrown toenails progress from mild to infected | H2-1, right after the inflamed-vs-infected rule, to offer the progression view | cluster-spoke |
+| 2 | /blog/nail-health/is-it-safe-to-cut-ingrown-toenail-yourself | Is It Safe to Cut Into an Ingrown Toenail Yourself? | whether it's safe to treat an ingrown toenail yourself | H2-4, in the paragraph setting limits on home care | cluster-spoke |
+| 3 | /blog/nail-health/does-dental-floss-help-ingrown-toenail | Does Dental Floss Under an Ingrown Toenail Actually Work? | whether dental floss under the nail actually works | H2-4, when the cotton/floss lift is mentioned and immediately limited | cluster-spoke |
+| 4 | /blog/nail-health/ingrown-toenail-antibiotics-when-needed | Ingrown Toenail vs Infected Ingrown Toenail | when antibiotics are actually needed for an ingrown toenail | H2-6, in the sentence noting antibiotics alone rarely resolve it | cluster-spoke |
+| 5 | /blog/nail-health/partial-nail-avulsion-recovery | Partial Nail Avulsion: What Recovery Actually Looks Like | what recovery looks like after permanent ingrown toenail removal | H2-3, where partial removal is named as what a podiatrist does | cluster-spoke |
+| 6 | /blog/nail-health/diabetic-nail-care-guide | Diabetic Nail Care: Why It's Different and What to Watch For | why diabetics need to treat ingrown toenails differently | H2-7, opening the diabetes callout | cluster-spoke |
+
+**Cross-site discovery result (research, not used):**
+- I ran site:mirelleinspo.com searches and found a toenail-shapes cluster not present in the cluster file's exclusion list: `/blog/toenail-shapes/best-toenail-shape-for-ingrown-nails` and `/blog/toenail-shapes/how-to-shape-toenails-at-home`. Both are relevant to ingrown toenails and are genuinely good link targets.
+- **Not added, deliberately.** The cluster mandates 6 links and the cap is 6, so adding either would break the cap. If you would rather swap one cluster link for a cutting-technique link (my suggestion would be swapping link #1 to keep the stages page, since post 26 links back to this post anyway), tell me and I will re-issue the file. One clean option: add `/blog/toenail-shapes/best-toenail-shape-for-ingrown-nails` with anchor "the toenail shape podiatrists recommend to prevent ingrown nails," placed in the conclusion, and drop none, going to 7 links. That exceeds the stated 4-6 cap, so it needs your call.
+- **Flag for the cluster owner:** the cluster file's `keyword_ownership_registry` and existing-post exclusion list do not include the `/blog/toenail-shapes/` posts. Post 29 ("should i cut my ingrown toenail") and this cluster's cutting advice may overlap them. Worth reconciling before publish.
+
+## SECTION 12: VOICE AND TONE
+
+**blog_gen_instruction:** layer on top of Mirellé's editorial framework. Do not default to generic AI tone.
+
+- **recommended_voice:** Calm, direct educator. A knowledgeable friend who reads the medical sources so you do not have to, and tells you straight when to stop waiting.
+- **tone_characteristics:** reassuring but honest; decisive (gives verdicts and thresholds); non-alarmist (names the serious risks without catastrophizing); plain-spoken, defines terms once; never a sales pitch.
+- **language_style:** second person ("your toe"), short declarative sentences for the safety points, one concrete body-based analogy or test (Cascade's "compare against the other foot" check is worth using, attributed as a common clinical tip), no jargon without a definition. State clearly this is not a substitute for a clinician.
+- **audience_match:** The reader is worried and self-treating. Certainty and a clear threshold calm them more than either reassurance ("it's probably fine") or fear ("amputation").
+
+## SECTION 13: EXTERNAL LINKS
+
+**blog_gen_instruction:** include where indicated. Write naturally around the suggested anchor. Sourced from phase 3 best_external_sources_found.
+
+1. **url:** https://my.clevelandclinic.org/health/diseases/17664-ingrown-toenails
+   - **context:** H2-2 or H2-7, when citing the list of infection symptoms and the higher-risk groups. Medically reviewed, non-profit academic medical center.
+   - **anchor_suggestion:** Cleveland Clinic's guidance on infected ingrown toenail symptoms
+2. **url:** https://www.nhs.uk/conditions/ingrown-toenail/
+   - **context:** H2-3, when citing "very high temperature, hot, cold or shivery" as a see-a-GP trigger, and mentioning UK readers can self-refer to a podiatrist. Reviewed June 2025.
+   - **anchor_suggestion:** NHS advice on when to see a GP for an ingrown toenail
+
+(Cascade and Summit are real clinic marketing pages and were excluded from external linking as insufficiently neutral. RapidCare excluded: keyword-stuffed and its symptom list mixes in fungal signs.)
+
+## SECTION 14: FEATURED EXPERT
+
+**blog_gen_instruction:** write `expert_alias` exactly as given into the expert frontmatter field. Use `expert_quote` whole or as word-for-word extracts. Any words actually quoted must be exact, never paraphrased, and no extract may change the expert's meaning. Do not fabricate a bio; experts.ts supplies it at render time.
+
+- **expert_alias:** cameron-bennet
+- **expert_quote (full, verbatim from the cluster file, do not alter):**
+  "Some of the common features of an infected ingrown toenail are redness, swelling, pain and pus. This is caused by bacteria getting into the cut made from the nail in the skin. This can become much more serious if the redness begins spreading up the toe, and can even lead to issues such as cellulitis. While it can be tempting, you should avoid popping the pus-filled bubble. It will relieve some pressure but can introduce new infection, and you're far better to seek treatment and have the ingrown nail edge removed."
+- **suggested_placement:**
+  - Extract A, "redness, swelling, pain and pus" plus "bacteria getting into the cut made from the nail in the skin," fits **H2-1**, as the expert's statement of what infection is and why it happens.
+  - Extract B, "if the redness begins spreading up the toe, and can even lead to issues such as cellulitis," fits **H2-3**, supporting the see-a-doctor-today tier.
+  - Extract C, "you should avoid popping the pus-filled bubble. It will relieve some pressure but can introduce new infection, and you're far better to seek treatment and have the ingrown nail edge removed," fits **H2-5** as the direct authority behind the don't-pop advice.
+  - **Caution:** Extract A lists "redness, swelling, pain and pus" as features of an infection, but redness, swelling, and pain also appear in plain inflammation (the inflamed-vs-infected point this post is built on). Do not use Extract A alone to imply those three signs prove infection. Pair it with the stacking rule so the extract's meaning is not distorted.
+
+---
+
+## RESEARCH NOTES FOR THE EDITOR (not for Blog Gen Agent)
+- **Boundary risk with post 30:** the expert's antibiotics point is a strong hook and a tempting fit here, but post 30 owns "do you need antibiotics for ingrown toenail." This file limits it to one line plus a link.
+- **Conflicting competitor advice to handle honestly:** Cascade says never treat an infection at home. RapidCare, Intermountain, and Cleveland Clinic say home care is fine for mild cases. The post should state where the line is (pus, spreading redness, warmth, fever, or no improvement in a few days means professional care) rather than pick one side.
+- **Soak-duration inconsistency across sources:** "twice daily" (Cleveland Clinic), "three to four times daily, 15 to 20 minutes" (multiple clinics), "15 minutes at a time" (Intermountain). Blog Gen Agent should give a range and attribute it, not invent a single figure.
+- **Unverified claim to avoid:** Summit says red streaks mean infection is spreading "through your bloodstream" while the more accurate clinical term is the lymphatic system (Summit itself says lymphatic elsewhere on the same page). Use the lymphatic framing.
+- **Not confirmed on 2+ sources, so excluded from the file:** specific antibiotic drug names, MRSA prevalence figures, and any percentage for "how often ingrown toenails get infected." Do not add.
+- **Research shortfalls, stated plainly:** The exact Google PAA box and live autocomplete panels are not returnable through this toolset. Question phrasing in Sections 6 and 7 is drawn from real result-set language, the fetched competitor FAQ (RapidCare), and forum threads, not from a captured PAA box. Reddit, Quora, Pinterest, YouTube, and salongeek returned no usable indexed threads for this exact keyword (only two old AnandTech forum threads surfaced), so audience language leans on those threads and on clinic patient-question phrasing. Treat the audience section as well-supported but not community-mined to the depth the spec asks for.
