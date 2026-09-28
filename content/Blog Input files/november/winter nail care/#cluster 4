@@ -1,0 +1,256 @@
+{
+  "cluster_metadata": {
+    "cluster_topic": "Winter Nail Care",
+    "topic_slug": "winter-nail-care",
+    "show_inspo_gallery_link_cluster_default": false,
+    "target_audience": "Global, Tier 1 countries",
+    "total_posts": 4,
+    "intent_breakdown": {
+      "informational": 4,
+      "inspirational": 0,
+      "tutorial": 0,
+      "comparison": 0,
+      "seasonal_trend": 0
+    },
+    "pillar_post_slug": "winter-nail-care",
+    "created_date": "2026-09-27"
+  },
+  "existing_site_posts_excluded": [
+    {
+      "url": "https://mirelleinspo.com/blog/cuticle-care/dry-cracked-cuticles-winter",
+      "title": "Dry Cracked Cuticles in Winter: The Fix That Actually Works",
+      "inferred_primary_keyword": "dry cracked cuticles winter",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists on mirelleinspo.com — keyword reserved (cuticle-specific angle)"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/aesthetic-nails/quiet-luxury-nails-winter",
+      "title": "Quiet Luxury Nails for Winter: Colours, Shapes & Finishes",
+      "inferred_primary_keyword": "quiet luxury nails winter",
+      "inferred_intent": "aesthetic/inspirational",
+      "exclusion_reason": "Already exists on mirelleinspo.com — aesthetic/style post, not a care/problems post"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/nails-that-dont-chip-easily",
+      "title": "The Real Reason Your Nails Chip So Easily",
+      "inferred_primary_keyword": "why nails chip easily",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists on mirelleinspo.com — general (non-seasonal) chip-prevention mechanism"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/nail-strengthening/diy-nail-strengthening-treatments-at-home",
+      "title": "7 DIY Nail Strengthening Treatments That Work",
+      "inferred_primary_keyword": "diy nail strengthening treatments",
+      "inferred_intent": "tutorial",
+      "exclusion_reason": "Already exists on mirelleinspo.com — general (non-seasonal) strengthening treatments"
+    },
+    {
+      "url": "https://mirelleinspo.com/work-nails/nail-strengthener-for-nurses",
+      "title": "Nail Strengthener for Nurses: What Actually Works on Shift",
+      "inferred_primary_keyword": "nail strengthener for nurses",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists on mirelleinspo.com — occupation-specific sanitizer/hand-washing angle, different audience from the consumer-general winter sanitizer spoke"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/nails-for-older-women/nail-care-routine-for-mature-hands",
+      "title": "Nail Care Routine for Mature Hands That Actually Works",
+      "inferred_primary_keyword": "nail care routine for mature hands",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists on mirelleinspo.com — demographic-specific (age), not seasonal"
+    }
+  ],
+  "posts": [
+    {
+      "post_id": 1,
+      "role": "pillar",
+      "title": "Winter Nail Care: The Complete Guide to Common Problems & Fixes",
+      "slug": "winter-nail-care",
+      "primary_keyword": "winter nail care",
+      "intent": "informational",
+      "search_mode": "how_to_execution_mode",
+      "suggested_hook_trigger": "Trigger 1 — Curiosity Gap",
+      "search_demand_signals": [
+        "Semilac: 'How to Care for UV Gel Nails in Colder Weather' and 'How frost, gloves and dry air affect your UV gel manicure'",
+        "Glamnetic: 'Cold Weather Nail Routine' with explicit winter nail-problem checklist",
+        "NailKnowledge, Sarina Nails, and multiple derm/salon sources on winter nail vulnerability generally"
+      ],
+      "why_included": "No existing general 'winter nail problems' hub on the site — the cuticle post covers only one narrow piece of this. Serves as the natural hub for the three problem-specific spokes below.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": {
+        "note": "The site's expert frontmatter field is a SLUG/ALIAS that resolves against src/data/experts.ts at render time — that file holds the expert's full bio/socials, which this pipeline never needs to touch or carry. Alias and quote are pending until sourced via the Connectively query below, then the responding expert must first be added to src/data/experts.ts (one-time setup, done by the site owner) before their alias can be used here.",
+        "alias": null,
+        "quote": null,
+        "source": "connectively_pending"
+      },
+      "internal_links": {
+        "links_to": [
+          { "slug": "nails-grow-slower-winter", "anchor_text": "why nails grow slower in winter", "type": "spoke" },
+          { "slug": "gel-manicure-winter-lifting", "anchor_text": "why gel manicures lift faster in winter", "type": "spoke" },
+          { "slug": "hand-sanitizer-nail-damage-winter", "anchor_text": "how hand sanitizer damages nails in winter", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "nails-grow-slower-winter", "anchor_text": "the complete winter nail care guide" },
+          { "slug": "gel-manicure-winter-lifting", "anchor_text": "the complete winter nail care guide" },
+          { "slug": "hand-sanitizer-nail-damage-winter", "anchor_text": "the complete winter nail care guide" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 2,
+      "role": "spoke",
+      "title": "Why Nails Grow Slower in Winter (and How to Help)",
+      "slug": "nails-grow-slower-winter",
+      "primary_keyword": "why do nails grow slower in winter",
+      "intent": "informational",
+      "search_mode": "how_to_execution_mode",
+      "suggested_hook_trigger": "Trigger 1 — Curiosity Gap",
+      "search_demand_signals": [
+        "The Podiatry Centre: 'Why Do Nails Grow Slower During Winter?'",
+        "Faversham Feet: 'Why Toenails Grow More Slowly in Winter'",
+        "Orangeville Foot Clinic: 'Winter Nail Growth Factors'",
+        "Cache Salon: 'Why Nails Grow Slower in Winter & How to Speed Up Growth Naturally'"
+      ],
+      "why_included": "Distinct, well-documented physiological entity (circulation, vitamin D, seasonal diet) validated across independent clinical and salon sources. Zero existing site coverage.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": {
+        "note": "The site's expert frontmatter field is a SLUG/ALIAS that resolves against src/data/experts.ts at render time — that file holds the expert's full bio/socials, which this pipeline never needs to touch or carry. Alias and quote are pending until sourced via the Connectively query below, then the responding expert must first be added to src/data/experts.ts (one-time setup, done by the site owner) before their alias can be used here.",
+        "alias": null,
+        "quote": null,
+        "source": "connectively_pending"
+      },
+      "internal_links": {
+        "links_to": [
+          { "slug": "winter-nail-care", "anchor_text": "the complete winter nail care guide", "type": "pillar" },
+          { "slug": "gel-manicure-winter-lifting", "anchor_text": "why gel manicures lift faster in winter", "type": "spoke" },
+          { "slug": "hand-sanitizer-nail-damage-winter", "anchor_text": "how hand sanitizer damages nails in winter", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "winter-nail-care", "anchor_text": "why nails grow slower in winter" },
+          { "slug": "gel-manicure-winter-lifting", "anchor_text": "why nails grow slower in winter" },
+          { "slug": "hand-sanitizer-nail-damage-winter", "anchor_text": "why nails grow slower in winter" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 3,
+      "role": "spoke",
+      "title": "Why Your Gel Manicure Doesn't Last as Long in Winter",
+      "slug": "gel-manicure-winter-lifting",
+      "primary_keyword": "gel nails lifting in winter",
+      "intent": "informational",
+      "search_mode": "how_to_execution_mode",
+      "suggested_hook_trigger": "Trigger 1 — Curiosity Gap",
+      "search_demand_signals": [
+        "Semilac: 'How frost, gloves and dry air affect your UV gel manicure — and how to protect it'",
+        "NailKnowledge: 'The Impact of Winter Temperatures on UV Gel Nails'",
+        "NailOrder: 'Why do gel nails not last as long in the winter?'",
+        "Saviland: 'Acrylic Nails 101: Troubleshooting Common Winter Issues'",
+        "Sarina Nails & Beauty: 'How to Make Your Gel Nails Last Longer in Winter'"
+      ],
+      "why_included": "Very strong, mechanism-specific demand (nail plate/gel contraction, slower curing in cold rooms, glove friction and trapped moisture) across five independent dedicated sources. Distinct from the site's general (non-seasonal) chip post.",
+      "expertise_type": "nail_technician_or_product_expert",
+      "featured_expert": {
+        "note": "The site's expert frontmatter field is a SLUG/ALIAS that resolves against src/data/experts.ts at render time — that file holds the expert's full bio/socials, which this pipeline never needs to touch or carry. Alias and quote are pending until sourced via the Connectively query below, then the responding expert must first be added to src/data/experts.ts (one-time setup, done by the site owner) before their alias can be used here.",
+        "alias": null,
+        "quote": null,
+        "source": "connectively_pending"
+      },
+      "internal_links": {
+        "links_to": [
+          { "slug": "winter-nail-care", "anchor_text": "the complete winter nail care guide", "type": "pillar" },
+          { "slug": "nails-grow-slower-winter", "anchor_text": "why nails grow slower in winter", "type": "spoke" },
+          { "slug": "hand-sanitizer-nail-damage-winter", "anchor_text": "how hand sanitizer damages nails in winter", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "winter-nail-care", "anchor_text": "why gel manicures lift faster in winter" },
+          { "slug": "nails-grow-slower-winter", "anchor_text": "why gel manicures lift faster in winter" },
+          { "slug": "hand-sanitizer-nail-damage-winter", "anchor_text": "why gel manicures lift faster in winter" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 4,
+      "role": "spoke",
+      "title": "Hand Sanitizer & Winter Hand-Washing: The Hidden Cause of Brittle Nails",
+      "slug": "hand-sanitizer-nail-damage-winter",
+      "primary_keyword": "hand sanitizer nails winter",
+      "intent": "informational",
+      "search_mode": "how_to_execution_mode",
+      "suggested_hook_trigger": "Trigger 1 — Curiosity Gap",
+      "search_demand_signals": [
+        "The Beauty Brains: 'Are hand sanitizers bad for nails?' (dermatologist-cited)",
+        "Glamnetic: 'Cold Weather Nail Routine' explicitly names sanitizer/hand-washing as a winter driver",
+        "Beauty Bible: repeated tip on sanitizer drying nails and weakening top coat"
+      ],
+      "why_included": "Distinct chemical/hygiene-behavior angle tied to cold-and-flu season habits, not covered by the cuticle post (different mechanism) or the nurse-specific post (different, occupational audience).",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": {
+        "note": "The site's expert frontmatter field is a SLUG/ALIAS that resolves against src/data/experts.ts at render time — that file holds the expert's full bio/socials, which this pipeline never needs to touch or carry. Alias and quote are pending until sourced via the Connectively query below, then the responding expert must first be added to src/data/experts.ts (one-time setup, done by the site owner) before their alias can be used here.",
+        "alias": null,
+        "quote": null,
+        "source": "connectively_pending"
+      },
+      "internal_links": {
+        "links_to": [
+          { "slug": "winter-nail-care", "anchor_text": "the complete winter nail care guide", "type": "pillar" },
+          { "slug": "nails-grow-slower-winter", "anchor_text": "why nails grow slower in winter", "type": "spoke" },
+          { "slug": "gel-manicure-winter-lifting", "anchor_text": "why gel manicures lift faster in winter", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "winter-nail-care", "anchor_text": "how hand sanitizer damages nails in winter" },
+          { "slug": "nails-grow-slower-winter", "anchor_text": "how hand sanitizer damages nails in winter" },
+          { "slug": "gel-manicure-winter-lifting", "anchor_text": "how hand sanitizer damages nails in winter" }
+        ]
+      },
+      "status": "approved"
+    }
+  ],
+  "keyword_ownership_registry": {
+    "description": "Master list of all primary keywords — one per post, no overlaps, includes existing site posts",
+    "entries": [
+      { "primary_keyword": "winter nail care", "owned_by_slug": "winter-nail-care", "owned_by_title": "Winter Nail Care: The Complete Guide to Common Problems & Fixes", "source": "new post" },
+      { "primary_keyword": "why do nails grow slower in winter", "owned_by_slug": "nails-grow-slower-winter", "owned_by_title": "Why Nails Grow Slower in Winter (and How to Help)", "source": "new post" },
+      { "primary_keyword": "gel nails lifting in winter", "owned_by_slug": "gel-manicure-winter-lifting", "owned_by_title": "Why Your Gel Manicure Doesn't Last as Long in Winter", "source": "new post" },
+      { "primary_keyword": "hand sanitizer nails winter", "owned_by_slug": "hand-sanitizer-nail-damage-winter", "owned_by_title": "Hand Sanitizer & Winter Hand-Washing: The Hidden Cause of Brittle Nails", "source": "new post" },
+      { "primary_keyword": "dry cracked cuticles winter", "owned_by_slug": "dry-cracked-cuticles-winter", "owned_by_title": "Dry Cracked Cuticles in Winter", "source": "existing site post" },
+      { "primary_keyword": "quiet luxury nails winter", "owned_by_slug": "quiet-luxury-nails-winter", "owned_by_title": "Quiet Luxury Nails for Winter", "source": "existing site post" },
+      { "primary_keyword": "why nails chip easily", "owned_by_slug": "nails-that-dont-chip-easily", "owned_by_title": "The Real Reason Your Nails Chip So Easily", "source": "existing site post" },
+      { "primary_keyword": "diy nail strengthening treatments", "owned_by_slug": "diy-nail-strengthening-treatments-at-home", "owned_by_title": "7 DIY Nail Strengthening Treatments That Work", "source": "existing site post" },
+      { "primary_keyword": "nail strengthener for nurses", "owned_by_slug": "nail-strengthener-for-nurses", "owned_by_title": "Nail Strengthener for Nurses", "source": "existing site post" },
+      { "primary_keyword": "nail care routine for mature hands", "owned_by_slug": "nail-care-routine-for-mature-hands", "owned_by_title": "Nail Care Routine for Mature Hands That Actually Works", "source": "existing site post" }
+    ]
+  },
+  "merged_posts_log": [],
+  "killed_posts_log": [
+    { "topic": "General winter nail splitting/peeling", "reason": "Substantially overlaps existing nails-that-dont-chip-easily and dry-cracked-cuticles-winter; no clean winter-specific differentiation found" },
+    { "topic": "Winter nail care routine (general daily routine)", "reason": "Too close to this cluster's own pillar and to the existing general daily-routine pillar referenced site-wide" },
+    { "topic": "Humidifier/indoor heating for nails", "reason": "Demand found is thin and mostly folded into other winter-dryness content already; no dedicated standalone search signal" },
+    { "topic": "Vitamin/diet for winter nail health (standalone)", "reason": "Overlaps heavily with the nail-growth spoke's mechanism; folded into that post rather than duplicated" }
+  ],
+  "expertise_and_sourcing": {
+    "context_note": "This block explains the expertise system for anyone reading this file later. Every post above is tagged expertise_type. The site's expert frontmatter field is a SLUG/ALIAS resolved against src/data/experts.ts at render time — that file holds each expert's full bio and socials, which this content pipeline never needs to carry or see. design_led and trend_forecaster posts (not used in this cluster) would need no external sourcing; every post in this cluster requires a real external expert, sourced via Connectively: the publisher posts the query below, an expert responds, and once they are added as a new entry in src/data/experts.ts (one-time setup, done outside this pipeline), only their alias and their quote are pasted into Input Gen Agent for that specific post — which writes the alias into the expert frontmatter field and works the quote into the article body. No bio or social links are ever needed by Input Gen Agent or Blog Gen Agent — experts.ts already has them.",
+    "connectively_queries": [
+      {
+        "query_id": 1,
+        "expertise_type": "licensed_derm_or_nail_health_expert",
+        "covers_post_slugs": ["winter-nail-care", "hand-sanitizer-nail-damage-winter"],
+        "query_text": "I'm writing a winter nail care guide covering why cold weather and dry indoor air are especially hard on nails and cuticles, including how frequent hand sanitizer use and hot-water hand-washing during cold-and-flu season strip moisture and weaken the nail plate. I'd love a quotable comment from a dermatologist or nail-health expert on what's actually happening to nails in winter and the most effective, safe way to protect them. Happy to credit you and link back to your work — if you'd like to be featured, let me know your name and where people can find you."
+      },
+      {
+        "query_id": 2,
+        "expertise_type": "licensed_derm_or_nail_health_expert",
+        "covers_post_slugs": ["nails-grow-slower-winter"],
+        "query_text": "I'm working on a piece explaining why nails seem to grow more slowly in winter — covering reduced circulation to the extremities, lower vitamin D from less sunlight, and related seasonal factors. I'd love a quotable, science-grounded explanation from a dermatologist or nail-health expert on whether this is real and what, if anything, people can do about it. Happy to credit you and link back to your work — if you'd like to be featured, let me know your name and where people can find you."
+      },
+      {
+        "query_id": 3,
+        "expertise_type": "nail_technician_or_product_expert",
+        "covers_post_slugs": ["gel-manicure-winter-lifting"],
+        "query_text": "I'm writing about why gel and acrylic manicures seem to lift, chip, or not last as long in winter — covering things like the nail plate and product contracting in cold weather, slower curing in cold rooms, and friction or trapped moisture from wearing gloves. I'd love a quotable tip from a nail technician or product expert on what's actually causing this and how to make a winter manicure last longer. Happy to credit you and link back to your work — if you'd like to be featured, let me know your name and where people can find you."
+      }
+    ]
+  }
+}
