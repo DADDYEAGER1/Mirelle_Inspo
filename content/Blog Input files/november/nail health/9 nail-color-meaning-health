@@ -1,0 +1,393 @@
+{
+  "section_1_file_authority": {
+    "statement": "THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded. Blog Gen Agent does not ask, adjust, or override them. Read section_15_execution_plan FIRST, then section_2. Feed alongside cluster_context.json (cluster mode)."
+  },
+  "section_2_post_constants": {
+    "slug": "nail-color-meaning-health",
+    "topic_slug": "nail-health",
+    "canonical": "https://mirelleinspo.com/blog/nail-health/nail-color-meaning-health",
+    "post_type": "pillar",
+    "intent": "informational",
+    "word_count": 2650,
+    "word_count_note": "Ceiling/reference, not a quota. Write precisely and completely inside it. Landing under it is correct if the post has said everything it needs to. Never pad. Top-5 real average is about 1,310.",
+    "image_count": 10,
+    "image_count_note": "Pillar rule: 1 hero + 1 per H2 (9 H2s). Hero is frontmatter only.",
+    "show_inspo_gallery_link": false,
+    "template": "center",
+    "hero_dimensions": "1200x630",
+    "category": "Nail Health",
+    "category_flag": "Mirelle category list was not supplied. 'Nail Health' is the cluster topic. Confirm against the exact category string list before publishing.",
+    "publish_date": "2026-11-01",
+    "publish_date_flag": "Not supplied. Assumed from the /november/ folder. Adjust at scheduling.",
+    "author": "jyoti-mirelle",
+    "expertise_type": "licensed_derm_or_nail_health_expert",
+    "expert_alias": "cameron-rokhsar-md",
+    "expert_quote": "White spots, leukonychia, are almost always from minor trauma to the nail matrix, a stubbed toe or manicure pressure weeks earlier, not a calcium or zinc deficiency the way the old myth claims, and they grow out on their own without treatment. Spoon-shaped nails, koilonychia, where the nail curves inward like a spoon, are the one change that is a genuine red flag, classically linked to iron deficiency anemia and worth bloodwork, especially alongside fatigue or pale skin... Beau's lines, horizontal grooves crossing several nails at once, usually mark a specific illness, high fever, or major stress from weeks earlier when that section of nail was forming, and are worth mentioning to a doctor if the timing lines up."
+  },
+  "section_3_cluster_snapshot": {
+    "pillar_slug": "what-kills-toenail-fungus-instantly",
+    "pillar_title": "What Kills Toenail Fungus Instantly? What Actually Works",
+    "pillar_primary_keyword": "what kills toenail fungus instantly",
+    "this_post_slug": "nail-color-meaning-health",
+    "this_post_role": "pillar (hub for the nail color / texture / shape spokes, not the cluster hub)",
+    "show_inspo_gallery_link_cluster_default": false,
+    "keywords_to_avoid": "HARD WALL. Every entry in cluster_context.json keyword_ownership_registry (new posts + existing site posts) plus every inferred_primary_keyword in existing_site_posts_excluded. Highest-risk for this post, never use as focus terms: white spots on nails, spoon nails, Beau's lines, dark line on nail, longitudinal melanonychia, nail psoriasis vs fungus, what does nail fungus look like, toenail fungus, toenail fungus symptoms, nail fungus symptoms, toenail fungus stages, paronychia, superficial white onychomycosis, vertical ridges on nails causes and fixes, why are my nails weak and brittle, can nail polish affect thyroid health, diabetic nail care, hema allergy symptoms. ALSO OFF LIMITS (found on-site by discovery search, not in the registry): nail polish color meaning, nail color psychology, nail color theory, what nail colors mean to guys, white/blue/red nail theory. That is a different intent (polish personality) already owned by other Mirelle posts. Passing mentions of fungus, psoriasis, or ridges as causes are fine; never build a section around them."
+  },
+  "section_4_serp_analysis": {
+    "blog_gen_instruction": "our_strategic_approach is the concrete angle for the intro, conclusion, and depth decisions. Word counts below are hand-counted from fetched body text, approximate (about 10 percent).",
+    "competitor_gaps": [
+      "Harmless-vs-serious triage before the color list (which nails, does it grow out, did products change, other symptoms). Validated: Quora (blue when cold, purple nail beds), SalonGeek yellow-after-polish threads, WebMD and Cleveland Clinic mention it only in one line each.",
+      "Salon and product causes: polish staining, yellowing under gel/acrylic, green under lifted product ('greenies'), nail glue pigment mimicking infection. Validated: SalonGeek threads, GoodRx yellow-nails page, published case reports. None of the 5 fetched pages cover it beyond one line.",
+      "Fingernail vs toenail color differences. Validated: Pinterest 'toenail color meaning' idea page, multiple podiatry pages ranking for toenail color. All 5 fetched pages are fingernail-centric.",
+      "Calibrated probability. Competitors list disease associations with no sense of how likely each is. Only WebMD and DW state that nail changes are rarely the first sign of illness."
+    ],
+    "gap_discarded_single_source": "Normal pigmentation across skin tones (only Cleveland Clinic covers it, no second demand signal). Use as a single supporting fact in the dark-streak section, not as a headline angle.",
+    "missing_semantic_territory": "nail plate is nearly transparent so color comes from the bed and lunula; polish-free test; nail greenies; free-edge color; cyanosis vs cold; time-to-normal by growth rate; medication-related color change.",
+    "our_strategic_approach": "All five fetched pages answer as a disease lookup (DW even lists brain hemorrhage under red nails) and mention harmless causes in passing, so this post opens with a four-check triage before any color list. It owns two territories none of them cover in depth: polish, gel, and acrylic causes (yellow staining, green under lifted product) and fingernail vs toenail differences. Each color section runs most likely cause, less likely cause, then the see-a-doctor threshold, in calibrated language, at about twice the depth of the 1,310-word average. It carries a named dermatologist quote that corrects the zinc/calcium claim DW still prints. The title tests the gap: all five promise illness, none offer a harmless-vs-worrying sort.",
+    "top_5_fetched_pages_summary": [
+      {"url": "https://www.disabled-world.com/health/dermatology/nails/nail-color.php", "words": "about 1750", "h2_count": 6, "nail_color_mentions": 8, "note": "Table-led color chart, fingernail and toenail. Strong keyword match, alarmist (red = brain hemorrhage), prints the zinc myth."},
+      {"url": "https://health.clevelandclinic.org/nails-and-your-health", "words": "about 1200", "h2_count": 1, "nail_color_mentions": 1, "note": "Best clinical detail (melanoma lines, skin-tone pigmentation, hematoma moves with growth). Organized by condition, not by color."},
+      {"url": "https://www.goodrx.com/health-topic/dermatology/what-do-nails-say-about-health", "words": "about 1350", "h2_count": 8, "nail_color_mentions": 5, "note": "MD-written tables, color/shape/texture/splitting. Good see-a-doctor list, no triage, no polish or salon angle."},
+      {"url": "https://www.webmd.com/skin-problems-and-treatments/nails-look-weird", "words": "about 800", "h2_count": 1, "nail_color_mentions": 1, "note": "Question-led, 11 checks, thin per item. Best base-rate line ('rarely the first sign')."},
+      {"url": "https://www.usdermatologypartners.com/blog/nail-health/", "words": "about 1450", "h2_count": 9, "nail_color_mentions": 4, "note": "Clean structure, growth rates, treatment section. Covers cause categories, weak on color-by-color depth."}
+    ],
+    "top_5_word_count_average": 1310,
+    "top_5_keyword_density_average": "3.8 mentions of 'nail color', rounded to 4. The exact phrase 'nail color meaning' appears 0 times on all five pages.",
+    "source_verified_facts_for_blog_gen": [
+      "Healthy nail: pink nail bed, smooth, even color; pale crescent lunula at the base (Cleveland Clinic, U.S. Dermatology Partners). The nail plate itself is nearly transparent, so color comes from the tissue underneath (Healthline).",
+      "Fingernails grow about 3 mm per month, toenails 2 mm or less (U.S. Dermatology Partners).",
+      "Nail changes are rarely the first sign of illness. Other symptoms usually show first (WebMD, DW).",
+      "Polish staining: darker and red shades stain more, the yellow fades as the nail grows out, a polish break and base coat help (GoodRx yellow nails, Ohio State Health, Columbia Go Ask Alice).",
+      "A dark patch that moves outward with nail growth is reassuring for a bruise (subungual hematoma) (Cleveland Clinic).",
+      "Brown lines running into the cuticle could be melanoma. Ones that stop at or before the cuticle are more often moles or pigment-cell change. One finger is more concerning than all. Darker-skinned groups more often have normal pigment bands on several nails (Cleveland Clinic).",
+      "Blue nails that regain color with warming point to cold or constriction. Persistent blue with chest pain or shortness of breath needs medical attention (DW, U.S. Dermatology Partners).",
+      "Terry's nails: mostly white with a narrow pink band at the tip. Can be aging, can also signal diabetes, kidney, liver, or heart disease (WebMD).",
+      "Yellow, thick, crumbling nails are likely fungal. Yellow nail syndrome is rare, lymphatic and respiratory, typically over age 50 (U.S. Dermatology Partners, Cleveland Clinic).",
+      "Green discoloration: Pseudomonas bacteria, most often one nail, higher risk with artificial nails or lifting (Dermatology Advisor, GoodRx). Some medical sources tie it to moisture trapped under lifted product.",
+      "See a doctor for dark streaks with no injury, pain or swelling, persistent or worsening change, or change that does not improve after a few weeks of self-care (GoodRx, U.S. Dermatology Partners)."
+    ],
+    "recommended_image_count_validation": "10 (hero + 9) confirmed. Competitors lean on tables and text with one hero image each, so one image per section plus a triage infographic exceeds the visual density on page one."
+  },
+  "section_5_audience_intelligence": {
+    "blog_gen_instruction": "Primary creative brief. Write every paragraph for this specific person.",
+    "who_they_are": "Adult, non-expert, usually looking at one specific nail right now (or a toenail after a salon visit) and typing the search half-worried. Some arrive from a mixed SERP that also serves polish-personality content, so they need to see the health framing fast. Strong secondary group: gel and acrylic wearers whose nails changed after a set.",
+    "what_they_want_from_this_post": "A fast answer to 'is this normal', a way to sort harmless from worrying without a medical degree, a color-by-color reference, and a clear line for when to book an appointment.",
+    "what_frustrates_them": "Charts that link every color to a scary disease with no odds, generic 'see your doctor' with no threshold, pages that ignore polish, gel, and cold as causes, and fingernail-only advice when the problem is a toenail.",
+    "top_5_pain_points": [
+      "Fear from disease-lookup tables with no sense of likelihood",
+      "Cannot tell polish or gel staining from fungus from injury",
+      "Salon-related colors (yellow under acrylic, green under lifted gel) are barely explained",
+      "No clear threshold for when to see a doctor or how long to wait",
+      "One nail vs many, fingernail vs toenail, and cold-induced blue are never distinguished"
+    ],
+    "exact_user_phrases": [
+      "Why do my nails look weird?",
+      "If my nail beds are slightly blue, does that mean I have poor circulation?",
+      "My nails are naturally white and turn blue when I'm cold",
+      "What do purple nail beds mean?",
+      "How do your nails tell about your health?",
+      "What is the significance of nails health-wise?",
+      "greenies (nail tech term for green under lifted product)",
+      "is it mould or fungus",
+      "why does my acrylic go yellow after a couple of months",
+      "nails look see-through at the free edge, is that normal",
+      "nail color health chart",
+      "toenail color meaning"
+    ],
+    "intent_content_signals": [
+      "Skimmable by color: reader jumps to their shade",
+      "Direct answer first, detail second",
+      "Base-rate honesty ('usually harmless') builds trust",
+      "Concrete self-checks over abstract explanation",
+      "Named clinician voice and a hard see-a-doctor list",
+      "Fingernail and toenail both addressed",
+      "Visual reference per color (Pinterest saves nail health charts)"
+    ]
+  },
+  "section_6_semantic_keyword_data": {
+    "blog_gen_instruction": "Primary keyword in <strong> tags every mention. AEO terms trigger direct answer paragraphs. No term from keywords_to_avoid used as a focus term.",
+    "primary_keyword": "nail color meaning",
+    "keyword_variations": [
+      "nail colors and what they mean",
+      "what does nail color mean",
+      "fingernail color meaning",
+      "toenail color meaning",
+      "nail discoloration meaning",
+      "nail bed color meaning",
+      "what your nail color says about your health",
+      "nail color changes"
+    ],
+    "cluster_keywords": [
+      "nail discoloration",
+      "healthy nail color",
+      "nail bed color",
+      "nail color and health",
+      "nail health warning signs",
+      "when to see a dermatologist about nails",
+      "nail color changes after gel",
+      "nail staining from polish",
+      "yellow nails causes",
+      "blue nails cold vs circulation",
+      "green nails after acrylic",
+      "brown or black spot under nail",
+      "nail changes and overall health"
+    ],
+    "lsi_terms": [
+      "keratin", "nail plate", "nail bed", "nail matrix", "lunula", "cyanosis", "oxygenation", "circulation",
+      "Raynaud's phenomenon", "iron-deficiency anemia", "Terry's nails", "yellow nail syndrome",
+      "Pseudomonas aeruginosa", "pigment", "nail staining", "splinter hemorrhage", "nail growth rate",
+      "systemic illness", "medication-related nail changes", "chemotherapy nail changes"
+    ],
+    "aeo_terms": [
+      "What color should healthy nails be?",
+      "How can you tell if nail discoloration is serious?",
+      "Do fingernail and toenail color changes mean different things?",
+      "What does it mean when your nails turn yellow?",
+      "Can nail polish or gel stain your natural nails yellow?",
+      "What do white nails mean for your health?",
+      "Why are my nails turning blue or purple?",
+      "What does a green nail mean?",
+      "What causes a dark streak or black spot under a nail?",
+      "Can your nails show signs of anemia or low iron?",
+      "When should you see a doctor about nail color changes?",
+      "How long does it take for discolored nails to go back to normal?"
+    ],
+    "technical_terms": ["cyanosis", "subungual hematoma", "chloronychia (green nail syndrome)", "dyschromia", "lunula", "Terry's nails", "yellow nail syndrome", "splinter hemorrhage"],
+    "user_language": [
+      "my nails look weird",
+      "nail beds turn blue when I'm cold",
+      "is this a bruise or something worse",
+      "nails went yellow after gel",
+      "green spot under my acrylic",
+      "does yellow always mean fungus",
+      "should I be worried",
+      "purple nail beds",
+      "nails are see-through at the tips",
+      "one nail changed color"
+    ]
+  },
+  "section_7_voice_and_ai_queries": {
+    "blog_gen_instruction": "Answer every query directly in the relevant H2 body. Any that cannot land naturally go to faqItems (routing noted).",
+    "queries": [
+      "What does the color of your nails say about your health?",
+      "Why are my nails turning yellow all of a sudden?",
+      "Is it normal for nail beds to look slightly blue when I'm cold?",
+      "What do purple nail beds mean?",
+      "Are yellow nails always caused by fungus?",
+      "Can nail polish turn my nails yellow?",
+      "What does it mean if my nails are white?",
+      "What causes a green spot under my gel or acrylic nail?",
+      "Is green under a lifted acrylic nail mold?",
+      "How do I know if a dark spot under my nail is a bruise or something serious?",
+      "What color are healthy toenails supposed to be?",
+      "Should I worry if only one nail changed color?",
+      "How long do stained or discolored nails take to grow out?",
+      "Can medications change the color of your nails?",
+      "Which nail color changes need a doctor right away?",
+      "Can my nails show if I'm low on iron?"
+    ],
+    "faq_routing": "Route to faqItems: 'Can medications change the color of your nails?', 'What color are healthy toenails supposed to be?', 'Should I worry if only one nail changed color?'. All others answered in body per section_15 block_6."
+  },
+  "section_8_hook_and_ctr": {
+    "blog_gen_instruction": "Use title and meta exactly. They were selected internally from 3 evidence-based candidates. Intro hook brief and first H2 hook direction are the creative brief for those elements.",
+    "real_serp_findings_summary": "The five fetched pages title themselves chart-led ('Nail Color Health Chart'), question-led ('Why Do My Nails Look Weird?'), or identity/curiosity-led ('What your nails say about your health', 'Health Warnings Hidden in Your Fingernails'). Every meta promises illness or 'health issues'; none front-loads 'nail color meaning' and none promises a harmless-vs-worrying sort. The SERP also mixes in polish-personality pages, so searchers with a health concern have to self-select.",
+    "selected_option_rationale": "It front-loads the exact keyword, includes 2026, and tests the gap: 'Harmless Stains vs. Warning Signs' promises triage, not just alarm, while 'Warning Signs' signals the health intent to filter out polish-personality searchers.",
+    "title": "Nail Color Meaning 2026: Harmless Stains vs. Warning Signs",
+    "title_char_count": 58,
+    "meta_description": "Yellow, white, blue or dark nails? This nail color meaning guide separates polish stains from health signs and tells you when to see a doctor.",
+    "meta_char_count": 142,
+    "intro_hook_brief": "Technique 1 (the claim). State plainly that most nail color changes are harmless (stains, bruises, cold) and a short list is not, and say this guide is about health, not polish personality, in one clause. Keyword lands in sentence 1 and sentence 3. Promise the four-check sort before any color list. No fear opener.",
+    "first_h2_hook_direction": "Phrase H2-1 as the voice query it answers. Open with the reframe that the nail plate is nearly transparent, so 'color' really comes from the tissue underneath. Calm and orienting, not a repeat of the title hook."
+  },
+  "section_9_search_journey": {
+    "blog_gen_instruction": "Emotional contract with the reader. If a paragraph breaks the arc, rewrite it.",
+    "reader_arrival_state": "Slightly worried and mildly confused: has spotted (or is scanning for) a color change in a nail, typed 'nail color meaning', and is bracing for a scary answer.",
+    "journey_arc": [
+      "Reassure and orient: what healthy looks like and why color comes from beneath the nail",
+      "Give the four-check triage method before any color list",
+      "Walk color by color (yellow, white, blue/purple, green, dark): most likely cause, less likely cause, threshold to act",
+      "Widen the lens: shape and texture clues that change what a color means, with the dermatologist's view",
+      "Close with hard see-a-doctor thresholds and realistic time-to-normal"
+    ],
+    "promise_to_deliver": "You will be able to tell, in a few minutes, whether your nail color is a harmless stain, a bruise, or something worth a doctor's visit, and what to do next.",
+    "exit_state": "Calm and in control: knows what the color most likely means, what to watch, and exactly when to book an appointment."
+  },
+  "section_10_content_structure": {
+    "blog_gen_instruction": "Follow exactly. Do not rename, reorder, or remove H2s. Word budget per section is set. H3s at editorial discretion. Keep 'nail color meaning' out of H2 headings.",
+    "h1": "Nail Color Meaning: What's Harmless and What's Worth a Doctor's Visit",
+    "h2_structure": [
+      {"n": 1, "heading": "What Color Are Healthy Nails Supposed to Be?", "covers": "Pink bed, lunula, transparent plate, skin-tone and toenail variation, free edge."},
+      {"n": 2, "heading": "Is It Your Health, Your Polish, or an Injury? A 4-Check Test", "covers": "Check 1 how many nails, check 2 does it grow out or move, check 3 did products change, check 4 other symptoms. H3: fingernails vs toenails."},
+      {"n": 3, "heading": "What Do Yellow Nails Mean?", "covers": "Polish/gel staining, smoking, fungus, thyroid and lung causes, yellow nail syndrome, 4-week polish-free test."},
+      {"n": 4, "heading": "What Do White Nails and White Spots Mean?", "covers": "Pale nails and anemia, Terry's nails, white spots as trauma not calcium (expert extract)."},
+      {"n": 5, "heading": "Why Are My Nails Turning Blue or Purple?", "covers": "Cold vs cyanosis, warming test, Raynaud's, urgent symptoms, toenail bruising."},
+      {"n": 6, "heading": "What Does a Green Nail Mean?", "covers": "Pseudomonas, lifted gel or acrylic, not mold, one-nail pattern, see a doctor, nail glue pigment look-alike."},
+      {"n": 7, "heading": "What Causes a Dark Streak or Black Spot Under a Nail?", "covers": "Bruise that grows out vs band, lines into the cuticle, one finger, skin-tone pigmentation, medications."},
+      {"n": 8, "heading": "Do Nail Shape and Texture Change What a Color Means?", "covers": "Pale plus spooning and iron, horizontal grooves after illness, vertical ridges as usually benign (expert extracts)."},
+      {"n": 9, "heading": "When Should You See a Doctor About Nail Color Changes?", "covers": "Hard threshold list, weeks to wait, time-to-normal by growth rate, what to bring to the appointment."}
+    ],
+    "word_budget": {
+      "introduction": 225,
+      "conclusion": 175,
+      "per_h2": {"h2_1": 190, "h2_2": 300, "h2_3": 300, "h2_4": 270, "h2_5": 210, "h2_6": 230, "h2_7": 260, "h2_8": 250, "h2_9": 240}
+    }
+  },
+  "section_11_internal_links": {
+    "blog_gen_instruction": "All 6 must appear, woven into prose. Cluster anchors verbatim. Total internal links = 6 (cap). No cross-site additions: the cluster map already fills the cap.",
+    "all_internal_links": [
+      {"url_or_slug": "/blog/nail-health/white-spots-nails-leukonychia", "title": "White Spots on Nails: Myth vs Fact (It's Not Calcium)", "anchor_text": "the truth about white spots on nails", "placement_note": "H2-4, right after the expert's white-spots extract.", "link_type": "cluster-spoke"},
+      {"url_or_slug": "/blog/nail-health/longitudinal-melanonychia-warning-signs", "title": "Longitudinal Melanonychia: The Dark Nail Line You Shouldn't Ignore", "anchor_text": "the dark nail line that can signal melanoma", "placement_note": "H2-7, where a band (not a bruise) is described.", "link_type": "cluster-spoke"},
+      {"url_or_slug": "/blog/nail-health/spoon-nails-koilonychia", "title": "Spoon Nails (Koilonychia): Causes and What It Means", "anchor_text": "what spoon-shaped nails mean", "placement_note": "H2-8, after the pale-nail and iron point.", "link_type": "cluster-spoke"},
+      {"url_or_slug": "/blog/nail-health/beaus-lines-nail-grooves", "title": "Beau's Lines: What Horizontal Nail Grooves Really Mean", "anchor_text": "what horizontal nail grooves mean", "placement_note": "H2-8, after the illness-timing extract.", "link_type": "cluster-spoke"},
+      {"url_or_slug": "https://mirelleinspo.com/blog/nail-strengthening/vertical-ridges-on-nails-causes-and-fixes", "title": "Vertical Ridges on Nails: Causes and Fixes", "anchor_text": "vertical ridges on nails and what causes them", "placement_note": "H2-8, in the sentence noting vertical ridges are usually age-related and benign.", "link_type": "existing_site_post"},
+      {"url_or_slug": "https://mirelleinspo.com/nail-faqs/can-nail-polish-affect-thyroid-health", "title": "Can Nail Polish Affect Thyroid Health", "anchor_text": "whether nail polish can affect thyroid health", "placement_note": "H2-3, right after thyroid disease is named as a possible systemic cause. Frame it as the reverse question readers ask.", "link_type": "existing_site_post"}
+    ]
+  },
+  "section_12_voice_tone": {
+    "blog_gen_instruction": "Layer on the Mirelle editorial framework. Do not default to generic AI tone.",
+    "recommended_voice": "Calm clinical translator: a knowledgeable friend who de-escalates without dismissing.",
+    "tone_characteristics": [
+      "Reassuring but honest: say 'usually harmless' and mean it, then name the real exceptions",
+      "Calibrated: use 'usually', 'often', 'rarely' precisely, never diagnose",
+      "Specific and concrete: name the check, the shade, the timeline",
+      "Direct second person, short triage lists where they help",
+      "Zero alarmism, zero brush-off"
+    ],
+    "language_style": "Plain American English, short sentences, terms defined once in a clause, quick answer first in every section. One light 'not a diagnosis' framing at most, placed where it is useful.",
+    "audience_match": "Worried non-experts want a sort, not a lecture. A calm, precise voice lowers anxiety and makes the doctor threshold credible."
+  },
+  "section_13_external_links": {
+    "blog_gen_instruction": "Include both. Sourced from real fetched pages that qualify as citation-worthy (hospital system, MD-authored with references).",
+    "links": [
+      {"url": "https://health.clevelandclinic.org/nails-and-your-health", "context": "H2-7: brown lines that reach the cuticle vs ones that stop before it, one finger vs all, and skin-tone pigment bands.", "anchor_suggestion": "a Cleveland Clinic dermatologist"},
+      {"url": "https://www.goodrx.com/health-topic/dermatology/what-do-nails-say-about-health", "context": "H2-9: list of nail changes not to ignore and the few-weeks self-care checkpoint.", "anchor_suggestion": "GoodRx's dermatologist-written guide to nail changes"}
+    ]
+  },
+  "section_14_featured_expert": {
+    "blog_gen_instruction": "Write expert_alias exactly as given into the expert frontmatter field. Use expert_quote as source material: whole or word-for-word extracts, split across sections. Never paraphrase quoted words, never change meaning, never invent a bio.",
+    "expert_alias": "cameron-rokhsar-md",
+    "expert_quote": "White spots, leukonychia, are almost always from minor trauma to the nail matrix, a stubbed toe or manicure pressure weeks earlier, not a calcium or zinc deficiency the way the old myth claims, and they grow out on their own without treatment. Spoon-shaped nails, koilonychia, where the nail curves inward like a spoon, are the one change that is a genuine red flag, classically linked to iron deficiency anemia and worth bloodwork, especially alongside fatigue or pale skin... Beau's lines, horizontal grooves crossing several nails at once, usually mark a specific illness, high fever, or major stress from weeks earlier when that section of nail was forming, and are worth mentioning to a doctor if the timing lines up.",
+    "suggested_placement": "Split three ways. H2-4: the white-spots sentence (trauma, not calcium or zinc, grows out). H2-8: the spoon-nails sentence (genuine red flag, iron deficiency, bloodwork) and the Beau's lines sentence (illness or stress weeks earlier). Do not force the whole quote into one spot."
+  },
+  "section_15_execution_plan": {
+    "purpose": "READ FIRST. Lock every value. Execute exactly. Do not recalculate.",
+    "calculated_by": "Input Gen Agent, last",
+    "block_1_keyword_execution": {
+      "primary_keyword": "nail color meaning",
+      "top_5_density_baseline": "4 (real average 3.8 mentions of 'nail color' across the 5 fetched pages; the exact phrase appears 0 times on all five, so 'nail color' was the counted core phrase)",
+      "total_mention_target": "4 + 3 = 7 exact-phrase mentions of 'nail color meaning'. Hard target, not a percentage.",
+      "first_100_words_plan": {
+        "rule": "Primary keyword TWICE in the first 100 words. Mandatory.",
+        "mention_1": "Sentence 1 of the introduction: the claim that most nail color meaning is harmless.",
+        "mention_2": "Sentence 3 of the introduction: the promise to sort harmless from worrying, framed as health, not polish personality."
+      },
+      "first_half_target": "5 mentions in the first 1,325 words (includes the 2 above). Denser in the first half.",
+      "second_half_target": "2 mentions in the second 1,325 words (suggest H2-8 or H2-9 and the conclusion).",
+      "strong_tag_rule": "EVERY mention of 'nail color meaning' (all 7) in <strong> tags. Scan after every paragraph. Variations (e.g. 'nail colors and what they mean') are not counted and not bolded.",
+      "keywords_to_avoid_active": "See section_3. Polish-personality terms are also banned."
+    },
+    "block_2_word_budget": {
+      "total_target": "2650 words ceiling, +50 tolerance, never exceed. Under is acceptable if complete.",
+      "introduction": "225",
+      "conclusion": "175",
+      "h2_budgets": [
+        {"heading": "What Color Are Healthy Nails Supposed to Be?", "budget": "190 words", "complexity": "low"},
+        {"heading": "Is It Your Health, Your Polish, or an Injury? A 4-Check Test", "budget": "300 words", "complexity": "high"},
+        {"heading": "What Do Yellow Nails Mean?", "budget": "300 words", "complexity": "high"},
+        {"heading": "What Do White Nails and White Spots Mean?", "budget": "270 words", "complexity": "high"},
+        {"heading": "Why Are My Nails Turning Blue or Purple?", "budget": "210 words", "complexity": "medium"},
+        {"heading": "What Does a Green Nail Mean?", "budget": "230 words", "complexity": "medium"},
+        {"heading": "What Causes a Dark Streak or Black Spot Under a Nail?", "budget": "260 words", "complexity": "high"},
+        {"heading": "Do Nail Shape and Texture Change What a Color Means?", "budget": "250 words", "complexity": "medium"},
+        {"heading": "When Should You See a Doctor About Nail Color Changes?", "budget": "240 words", "complexity": "medium"}
+      ],
+      "tracking_rule": "Track the running total at the end of every H2. If over budget, cut before moving on. Do not compensate later."
+    },
+    "block_3_image_plan": {
+      "total_images": 10,
+      "hero_image": "frontmatter only, 1200x630, never in the body",
+      "body_images": 9,
+      "assignments": [
+        {"image_number": 1, "place_after": "H2-1 heading and its opening answer paragraph", "image_type": "standard_inspiration", "section_context": "Bare healthy natural nails: even pale-pink bed, soft lunula, clean cuticles, soft daylight."},
+        {"image_number": 2, "place_after": "H2-2 four-check list", "image_type": "infographic", "section_context": "Clean graphic of the 4-check test: How many nails? Does it grow out or move? Did products change? Any other symptoms? Simple icons, no disease chart."},
+        {"image_number": 3, "place_after": "H2-3 opening answer", "image_type": "standard_inspiration", "section_context": "Natural nails with a faint, uniform yellow tint at the free edge, neutral background."},
+        {"image_number": 4, "place_after": "H2-4 opening answer", "image_type": "standard_inspiration", "section_context": "Natural nails with a few small white flecks, bright even light."},
+        {"image_number": 5, "place_after": "H2-5 opening answer", "image_type": "standard_inspiration", "section_context": "Cool-lit hand with slightly bluish-lavender nail beds, calm styling."},
+        {"image_number": 6, "place_after": "H2-6 opening answer", "image_type": "standard_inspiration", "section_context": "One nail with a small green-tinged patch near a lifting edge, other nails clear."},
+        {"image_number": 7, "place_after": "H2-7 opening answer", "image_type": "standard_inspiration", "section_context": "A nail with a small purple-brown bruise patch, clearly a trauma bruise. Not a band or streak."},
+        {"image_number": 8, "place_after": "H2-8 opening answer", "image_type": "standard_inspiration", "section_context": "Close-up of bare fingertips showing surface texture, faint vertical ridges, soft daylight."},
+        {"image_number": 9, "place_after": "H2-9 opening answer", "image_type": "standard_inspiration", "section_context": "Bare, healthy natural hands at rest, warm neutral styling, reassuring mood."}
+      ],
+      "image_type_rule": "One infographic only (slot 2). Never a tool or equipment image. Never a photo-style side-by-side comparison. Follow the flagged image_type exactly.",
+      "path_rule": "/images/blog/nail-health/nail-color-meaning-health/filename.webp"
+    },
+    "block_4_opening_technique_assignments": {
+      "rule": "No two consecutive sections use the same technique. Conclusion = T1 or T3.",
+      "note": "Only T1 (the claim) and T3 (the reframe) are defined in the spec available to this agent, so assignments alternate between them. If the Blog Gen prompt defines more techniques, swap only where the no-consecutive and conclusion rules still hold.",
+      "assignments": [
+        {"section": "Introduction", "technique": "Technique 1 (The Claim)"},
+        {"section": "H2-1 What Color Are Healthy Nails Supposed to Be?", "technique": "Technique 3 (The Reframe)"},
+        {"section": "H2-2 4-Check Test", "technique": "Technique 1 (The Claim)"},
+        {"section": "H2-3 Yellow", "technique": "Technique 3 (The Reframe)"},
+        {"section": "H2-4 White", "technique": "Technique 1 (The Claim)"},
+        {"section": "H2-5 Blue or Purple", "technique": "Technique 3 (The Reframe)"},
+        {"section": "H2-6 Green", "technique": "Technique 1 (The Claim)"},
+        {"section": "H2-7 Dark Streak or Spot", "technique": "Technique 3 (The Reframe)"},
+        {"section": "H2-8 Shape and Texture", "technique": "Technique 1 (The Claim)"},
+        {"section": "H2-9 When to See a Doctor", "technique": "Technique 3 (The Reframe)"},
+        {"section": "Conclusion", "technique": "Technique 1 (The Claim)"}
+      ],
+      "banned_opener_rule": "Check every opener against banned_opening_approaches in the Blog Gen prompt before writing the second sentence."
+    },
+    "block_5_link_placements": {
+      "rule": "Verbatim anchors, woven into prose, never standalone CTAs. Internal cap 6 (met). External 2 separate.",
+      "links": [
+        {"anchor_text": "whether nail polish can affect thyroid health", "full_url": "https://mirelleinspo.com/nail-faqs/can-nail-polish-affect-thyroid-health", "place_in_section": "H2-3", "placement_context": "After thyroid disease is named as a systemic yellow-nail cause", "link_type": "existing_site_post"},
+        {"anchor_text": "the truth about white spots on nails", "full_url": "/blog/nail-health/white-spots-nails-leukonychia", "place_in_section": "H2-4", "placement_context": "After the expert's trauma-not-calcium extract", "link_type": "cluster-spoke"},
+        {"anchor_text": "the dark nail line that can signal melanoma", "full_url": "/blog/nail-health/longitudinal-melanonychia-warning-signs", "place_in_section": "H2-7", "placement_context": "Where a band vs a bruise is explained", "link_type": "cluster-spoke"},
+        {"anchor_text": "what spoon-shaped nails mean", "full_url": "/blog/nail-health/spoon-nails-koilonychia", "place_in_section": "H2-8", "placement_context": "After pale nails and iron", "link_type": "cluster-spoke"},
+        {"anchor_text": "what horizontal nail grooves mean", "full_url": "/blog/nail-health/beaus-lines-nail-grooves", "place_in_section": "H2-8", "placement_context": "After the illness-timing extract", "link_type": "cluster-spoke"},
+        {"anchor_text": "vertical ridges on nails and what causes them", "full_url": "https://mirelleinspo.com/blog/nail-strengthening/vertical-ridges-on-nails-causes-and-fixes", "place_in_section": "H2-8", "placement_context": "Sentence noting vertical ridges are usually age-related", "link_type": "existing_site_post"},
+        {"anchor_text": "a Cleveland Clinic dermatologist", "full_url": "https://health.clevelandclinic.org/nails-and-your-health", "place_in_section": "H2-7", "placement_context": "External: cuticle-line and single-finger point", "link_type": "external"},
+        {"anchor_text": "GoodRx's dermatologist-written guide to nail changes", "full_url": "https://www.goodrx.com/health-topic/dermatology/what-do-nails-say-about-health", "place_in_section": "H2-9", "placement_context": "External: nail changes not to ignore", "link_type": "external"}
+      ]
+    },
+    "block_6_aeo_geo_plan": {
+      "aeo_assignments": [
+        {"aeo_term": "What color should healthy nails be?", "assigned_to_section": "H2-1", "execution": "Direct 2-3 sentence answer paragraph IMMEDIATELY after the H2, before any elaboration."},
+        {"aeo_term": "How can you tell if nail discoloration is serious?", "assigned_to_section": "H2-2", "execution": "Direct 2-3 sentence answer immediately after the H2."},
+        {"aeo_term": "Do fingernail and toenail color changes mean different things?", "assigned_to_section": "H2-2 (H3)", "execution": "Direct 2-3 sentence answer immediately after the H3."},
+        {"aeo_term": "What does it mean when your nails turn yellow?", "assigned_to_section": "H2-3", "execution": "Direct 2-3 sentence answer immediately after the H2."},
+        {"aeo_term": "Can nail polish or gel stain your natural nails yellow?", "assigned_to_section": "H2-3", "execution": "Direct 2-3 sentence answer as the first paragraph under a short H3 or in the first third of the section."},
+        {"aeo_term": "What do white nails mean for your health?", "assigned_to_section": "H2-4", "execution": "Direct 2-3 sentence answer immediately after the H2."},
+        {"aeo_term": "Why are my nails turning blue or purple?", "assigned_to_section": "H2-5", "execution": "Direct 2-3 sentence answer immediately after the H2."},
+        {"aeo_term": "What does a green nail mean?", "assigned_to_section": "H2-6", "execution": "Direct 2-3 sentence answer immediately after the H2."},
+        {"aeo_term": "What causes a dark streak or black spot under a nail?", "assigned_to_section": "H2-7", "execution": "Direct 2-3 sentence answer immediately after the H2."},
+        {"aeo_term": "Can your nails show signs of anemia or low iron?", "assigned_to_section": "H2-8", "execution": "Direct 2-3 sentence answer immediately after the H2."},
+        {"aeo_term": "When should you see a doctor about nail color changes?", "assigned_to_section": "H2-9", "execution": "Direct 2-3 sentence answer immediately after the H2."},
+        {"aeo_term": "How long does it take for discolored nails to go back to normal?", "assigned_to_section": "H2-9", "execution": "Direct 2-3 sentence answer as the first paragraph under a short H3 (growth rates: fingernails about 3 mm per month, toenails 2 mm or less)."}
+      ],
+      "geo_entity_statements": [
+        {"entity": "lunula", "assigned_to_section": "H2-1", "execution": "Clear declarative definition: the pale crescent at the nail base."},
+        {"entity": "Terry's nails", "assigned_to_section": "H2-4", "execution": "Declarative definition: nails that look mostly white with a narrow pink band at the tip."},
+        {"entity": "yellow nail syndrome", "assigned_to_section": "H2-3", "execution": "Declarative definition: a rare condition of thick, slow-growing yellow nails linked to lymphatic and respiratory problems."},
+        {"entity": "cyanosis", "assigned_to_section": "H2-5", "execution": "Declarative definition: a bluish tint caused by low oxygen in the blood reaching the tissue."},
+        {"entity": "green nail syndrome (chloronychia)", "assigned_to_section": "H2-6", "execution": "Declarative definition: green discoloration caused by Pseudomonas bacteria on or under the nail."},
+        {"entity": "subungual hematoma", "assigned_to_section": "H2-7", "execution": "Declarative definition: blood trapped under the nail after injury, which shows as a dark bruise."}
+      ]
+    },
+    "block_7_active_constraints": {
+      "em_dash_banned": "No long em dash anywhere. Replace with comma, new sentence, parentheses, 'but', or restructure.",
+      "banned_vocab_watch": "The banned list was not supplied to this agent. Likely slip-ins for this topic to verify against the Blog Gen banned list: crucial, vital, delve, navigate, landscape, unlock, realm, elevate.",
+      "american_english_active": "color, recognize, -ize, -or. No British spellings.",
+      "keyword_density_reminder": "After every 2 H2s check the running mention count against the 7 target. First half must run denser.",
+      "image_path_reminder": "/images/blog/nail-health/nail-color-meaning-health/filename.webp",
+      "internal_link_url_reminder": "Cluster links = /blog/nail-health/[slug]. Existing-site links = exact URLs above. Never bare /slug.",
+      "hero_image_reminder": "Hero = frontmatter only.",
+      "strong_tag_reminder": "Every 'nail color meaning' = <strong>.",
+      "expert_quote_reminder": "expert_alias goes into the expert frontmatter field exactly as given. Use extracts word for word, split across H2-4 and H2-8, meaning unchanged.",
+      "medical_claims_reminder": "State only what the source_verified_facts list supports. Do not diagnose. Use 'usually', 'often', 'rarely' precisely.",
+      "intent_reminder": "Locked intent is informational. The cluster's inspiration_mode label is a search-mode tag only. Do not write gallery or inspo content."
+    }
+  }
+}
