@@ -1,0 +1,199 @@
+# INPUT FILE: Are Gel Nails Safe During Pregnancy? (Post 16 of 30, spoke)
+
+## SECTION 1: FILE AUTHORITY
+This file is the single source of truth for Blog Gen Agent. POST_CONSTANTS are hardcoded: do not ask, adjust, or override. Follow every keyword, H2, link, budget, and tone instruction exactly. Read Section 15 first.
+
+## SECTION 2: POST_CONSTANTS
+- slug: gel-nails-pregnancy-safety
+- topic_slug: nail-health
+- canonical: https://mirelleinspo.com/blog/nail-health/gel-nails-pregnancy-safety
+- post_type: spoke
+- intent: informational (locked)
+- word_count: 1900 (ceiling/reference. Landing under it is correct if every H2 is fully answered. Never pad.)
+- image_count: 7 (1 hero + 6 body)
+- show_inspo_gallery_link: false
+- template: posts
+- hero_dimensions: 1200x675
+- category: Nail Health & Safety (label seen on live site; verify against category list)
+- publish_date: 2026-09-28
+- author: jyoti-mirelle
+- expertise_type: licensed_derm_or_nail_health_expert
+- expert_alias: cameron-rokhsar-md
+- expert_quote: "For most pregnant and breastfeeding patients, gel and acrylic manicures are reasonably safe, but the real concerns are more specific than the blanket caution online suggests. UV nail lamps are the one that gets overstated, the exposure is extremely brief, limited to the fingertips, and total UV dose from even frequent manicures is far below what would meaningfully raise skin cancer risk... The more legitimate concern is inhalation and skin absorption of volatile compounds in a poorly ventilated salon, acrylic monomer, toluene, and formaldehyde-releasing ingredients in some polishes are the ones I would actually try to avoid or minimize, especially in a small unventilated room during repeated appointments."
+
+## SECTION 3: CLUSTER SNAPSHOT
+- cluster hub: what-kills-toenail-fungus-instantly | What Kills Toenail Fungus Instantly? What Actually Works | keyword: what kills toenail fungus instantly
+- this post: gel-nails-pregnancy-safety (spoke); linked cluster pillar: nail-damage-recovery-timeline
+- show_inspo_gallery_link_cluster_default: false
+- keywords_to_avoid: every entry in cluster_context.json keyword_ownership_registry and existing_site_posts_excluded (never a focus term). Highest collision risk: nail patch test; how long for nails to recover from gel or acrylic; diabetic nail care; hema allergy symptoms; how to avoid hema allergy; hema vs tpo free gel polish; is hema banned eu; what is hema; acrylate allergy acrylic nails symptoms; gel manicure acrylate allergy; do acrylic nails damage your nails; repair nails after gel acrylic removal; why are my nails weak and brittle; white spots on nails; spoon nails; Beau's lines; can nail polish damage your natural nails; can nail polish affect thyroid health; best manicure type for nail health; healthiest nail option overall.
+- ALSO RESERVED (live pages found by site search, missing from cluster file): dip nails while pregnant; tpo ban gel nail polish; should you remove nail polish before surgery; nail polish ingredients to avoid; 10-free nail polish meaning; gel vs acrylic nail ingredients; how to tell if your salon uses MMA; how to remove gel nail polish at home; gel nails cost; non-toxic nails for moms.
+
+## SECTION 4: SERP ANALYSIS
+Blog Gen: use our_strategic_approach as the concrete angle for intro, conclusion, and depth decisions.
+- competitor_gaps (each confirmed on 2+ sources, absent from all 5 fetched pages):
+  1. Why expert advice conflicts ("limit or skip" vs "go ahead"): Quora answers range from "NO" to "perfectly safe"; ParentData reader ("everything I've read says gel manicures aren't recommended... nothing really explains why"); Husnaa ("seventeen conflicting answers").
+  2. TPO: EU ban and UK phase-in. ParentData, CNN, Chromeclair, Stellar Gel all raise it; ParentData names the ban as why people are asking now.
+  3. Removing gel before labor or a C-section: YouTube Shorts, SalonGeek thread, ParentData reader comment, Birthbabe.
+  4. UV framed for pregnant skin (melasma, hands) rather than the fetus: Skin Cancer Foundation, ACOG, Frontiers 2025, ParentData Q&A, YouTube.
+  5. "I got gel before I knew I was pregnant": JustAnswer, Quora (acetone at 7 weeks), YouTube early-pregnancy video.
+- missing_semantic_territory: photoinitiator, TPO-L, CMR 1B, LED vs UV lamp, pulse oximeter, hospital bag nails, non-acetone/cotton-pad soak-off, mineral SPF for hands, fingerless UV gloves (Bump only).
+- our_strategic_approach: No top-5 page is gel-specific end to end. Gel is a subsection of "nails done" (Bump ~5 body mentions in ~1,900 words; WebMD two short paragraphs; Healthline zero). This post owns the gel decision: answer first, explain why "limit or skip" and "go ahead" can both be defensible (no direct trials; hazard vs real exposure; occasional client vs daily nail tech), then rank the worries by real weight: UV, fumes/absorption, TPO. It adds three angles no fetched page has, all demand-validated: the TPO ban (EU 1 Sep 2025; GB from 15 Aug 2026), pregnancy-specific UV skin sensitivity, and what to do before labor. Structure: 8 question-form H2s, each opening with a 2-3 sentence direct answer, named bodies (MotherToBaby, ACOG, CTPA), dated facts, one salon checklist. Freshness: Healthline (2016) and MNT (2022) are stale.
+- top_5_fetched_pages_summary (counts read from fetched body text, rounded):
+  1. webmd.com/baby/what-to-know-about-manicures-pedicures-pregnancy | ~1,150 words | 6 H2 | 2 mentions | Good salon and worker advice; gel gets 2 short paragraphs; says "limit or skip"; wrongly ties MMA to gel; no UV, TPO, labor.
+  2. thebump.com/a/acrylic-nails-pregnant | ~1,900 | 4 H2 + 13 H3 | ~5 | Best gel/UV/removal coverage, MD-reviewed; gel is one subsection; no TPO, labor, or conflict explanation.
+  3. medicalnewstoday.com/articles/can-you-get-your-nails-done-while-pregnant | ~1,050 | 6 H2 | 1 | 2022; thin on gel; advises avoiding gel/powder/acrylic; nail-tech study context.
+  4. mothertobaby.org/baby-blog/nailing-down-the-facts-nail-treatment-safety-in-pregnancy | ~750 | 3 bold heads | 0 | Most authoritative ingredient review; gel and UV barely addressed.
+  5. healthline.com/health/pregnancy/can-you-get-nails-done | ~875 | 4 H2 | 0 | 2016; generic; no gel, UV, TPO.
+- top_5_word_count_average: ~1,150 (reference set to 1,900 to match the deepest page because this post covers three uncovered angles)
+- top_5_keyword_density_average: ~2 (body-only; exact phrase plus close variants; exact phrase on 0 of 5 pages)
+- recommended_image_count_validation: competitors use 1-2 stock photos; 7 flat images matches image rule 5.
+- research notes: Google autocomplete and PAA panels were not reachable by tool. Query lists below come from SERP text, competitor FAQs, Quora, YouTube titles, SalonGeek, ParentData. Pinterest returned board titles only.
+
+## SECTION 5: AUDIENCE INTELLIGENCE
+Primary creative brief. Write every paragraph for this person.
+- who_they_are: Pregnant or trying to conceive, already a regular gel client (every 2 to 4 weeks), appointment booked or just saw a scary headline. Mostly first trimester. US/UK/CA/AU. Not a chemist, wants a straight answer.
+- what_they_want: A direct conditional yes/no, the reason behind it, and exactly what to ask the salon so they can keep the manicure.
+- what_frustrates_them: Contradictory answers with no explanation; brand blogs selling their own "safe" gel; vague "limit or skip"; new TPO headlines; nothing about labor.
+- top_5_pain_points: (1) contradictory advice; (2) "does it go into my bloodstream?"; (3) the UV lamp (tanning-bed comparison); (4) TPO ban anxiety; (5) practical unknowns: first trimester, acetone removal, labor/C-section.
+- exact_user_phrases: "give up my monthly appointment"; "everything I've read says gel manicures aren't recommended"; "fumes impacting baby"; "goes into your bloodstream"; "extra peace of mind"; "regular polish over gels"; "before I knew I was pregnant"; "scheduled for a C-section"; "lifting within days"; "what about the UV light"
+- intent_content_signals: answer-first paragraphs; question-form headings; named authorities and dates; short checklists; calm non-alarmist tone; US and UK context both acknowledged; no product pitching.
+
+## SECTION 6: SEMANTIC KEYWORD DATA
+Primary keyword in <strong> every counted mention. AEO terms trigger direct-answer paragraphs. None from keywords_to_avoid.
+- primary_keyword: gel nails safe during pregnancy
+- counted forms (strong-tag, body paragraphs only): exact phrase (incl. inside "Are gel nails safe during pregnancy?"), "gel nails during pregnancy", "gel nails while pregnant"
+- keyword_variations: are gel nails safe during pregnancy; gel nails while pregnant; gel nails during pregnancy; gel manicure while pregnant; can you get gel nails while pregnant; gel polish during pregnancy; gel nails first trimester; gel manicure in pregnancy
+- cluster_keywords: pregnancy-safe manicure; prenatal nail care; nail salon ventilation; nail salon fumes; LED nail lamp; UV nail lamp; gel polish ingredients; acetone soak-off; salon safety while pregnant; maternity manicure; gel polish removal; gel nails second trimester
+- lsi_terms: photoinitiator; methacrylate; curing lamp; UVA exposure; volatile organic compounds; mineral sunscreen SPF 30; fingerless UV gloves; non-acetone remover; cotton pad and foil; nail plate; toluene; formaldehyde-releasing; dibutyl phthalate; heightened sense of smell; obstetrician; midwife; pulse oximeter; hospital bag; occupational exposure; hazard vs exposure
+- aeo_terms: Are gel nails safe during pregnancy? | Is the UV lamp for gel nails safe during pregnancy? | Are LED nail lamps safer than UV lamps during pregnancy? | Can gel polish chemicals get into your bloodstream when you're pregnant? | Should you avoid TPO in gel polish while pregnant? | Is acetone safe to soak off gel nails while pregnant? | Can you get gel nails in the first trimester? | Do you have to remove gel nails before giving birth? | Are at-home gel nail kits safe during pregnancy? | How can you get gel nails during pregnancy with less exposure?
+- technical_terms: photoinitiator; TPO (trimethylbenzoyl diphenylphosphine oxide); TPO-L; CMR category 1B; methyl methacrylate (MMA); pulse oximetry; volatile organic compounds
+- user_language: "give up my monthly appointment"; "the smell"; "fumes"; "goes into your bloodstream"; "extra peace of mind"; "before I knew I was pregnant"; "what about the UV light"; "just to be safe"
+
+## SECTION 7: VOICE AND AI QUERIES
+Answer every query in its H2 body; otherwise route to faqItems.
+1. Are gel nails safe to get while pregnant? [H2-1] 2. Can you get gel nails in the first trimester? [H2-6] 3. Is the UV lamp for gel nails safe during pregnancy? [H2-2] 4. Are LED lamps safer than UV lamps when pregnant? [H2-2] 5. Can gel polish chemicals go through your nails into your bloodstream? [H2-3] 6. Can nail salon fumes hurt your baby? [H2-3] 7. Should I avoid TPO in gel polish when I'm pregnant? [H2-4] 8. Is the EU gel polish ban a reason to skip gel while pregnant? [H2-4] 9. Is acetone safe to take off gel nails while pregnant? [H2-5] 10. I got gel nails before I knew I was pregnant. Should I worry? [H2-6] 11. Do you have to take gel nails off before giving birth? [H2-7] 12. Can you wear gel nails to a C-section? [H2-7] 13. Are at-home gel nail kits safe while pregnant? [H2-8] 14. How often can you get gel nails while pregnant? [FAQ] 15. Is gel polish or regular polish safer during pregnancy? [FAQ] 16. Why do my gel nails keep lifting while I'm pregnant? [FAQ] 17. Are gel nails safe while breastfeeding? [FAQ] 18. Are gel pedicures safe during pregnancy? [FAQ]
+
+## SECTION 8: HOOK AND CTR
+Read before writing title, meta, intro, or first H2. Use title and description exactly.
+- real_serp_findings_summary: Three of five fetched titles are the identical question "Can You Get Your Nails Done While Pregnant?" (Bump, MNT, Healthline); WebMD and MotherToBaby are broad and generic. None front-loads "gel," names a specific worry, or promises resolution. Related ranking titles (Parents, Husnaa, Babygo) repeat the same bare question.
+- selected_option_rationale: Front-loads the exact keyword and names the three worries readers actually fear (UV, TPO, fumes). TPO appears in no competitor title. The paired description adds expert consensus and the labor rule as new information.
+- title: Gel Nails Safe During Pregnancy? UV, TPO and Fumes Explained
+- title_char_count: 60
+- meta_description: Pregnant and unsure about gel nails? Experts mostly say yes, with conditions. Here's what matters more than the lamp, plus the hospital-bag nail rule.
+- meta_char_count: 150
+- intro_hook_brief: Open with the claim (answer first): for most people an occasional gel set is low risk, and the real fight among experts is over which worries deserve attention. Acknowledge the booked appointment and the conflicting headlines in one line. Use the primary keyword twice in the first 100 words.
+- first_h2_hook_direction: Use the disagreement itself as the hook: put the cautious end and the reassuring end side by side, then say which claim the evidence supports. No title repeat.
+
+## SECTION 9: SEARCH JOURNEY
+- reader_arrival_state: Anxious but hopeful; appointment on the calendar; tired of conflicting answers.
+- journey_arc: (1) conditional yes plus why sources disagree; (2) sort worries by weight: UV, fumes/absorption, TPO; (3) practical process: acetone removal, first trimester; (4) plan ahead: labor and C-section; (5) checklist to walk into the salon with.
+- promise_to_deliver: A clear, sourced answer on gel nails during pregnancy, with each worry sorted into "matters" or "doesn't," plus what to do before labor.
+- exit_state: Reassured, informed, and ready to book or skip with a short list of exactly what to ask.
+
+## SECTION 10: CONTENT STRUCTURE
+Follow exactly. Do not rename, reorder, or remove H2s. H3s at discretion. "F:" lines are verified facts; use only these facts, paraphrased, never copied.
+- h1: Are Gel Nails Safe During Pregnancy? What the Evidence Actually Says
+- word_budget: introduction 225 | conclusion 175 | H2s below
+1. What Do Experts Actually Say About Gel Nails While Pregnant? (210, medium). F: No studies test gel manicures in pregnancy (WebMD). Cautious end: WebMD "limit or skip." Reassuring end: MotherToBaby (Al Romeo, RN, PhD) finds no known increased risk from routine nail products; The Bump's OB and MotherToBaby sources agree. Why they differ: hazard vs real exposure; occasional client vs daily nail tech (2021 nail-tech study was small and shows association only, per MNT). Expert extract 1 here.
+2. Is the UV Lamp for Gel Nails Safe During Pregnancy? (230, high). F: The lamp cures the gel. The real concern is the skin on your hands, not the baby; UV does not reach the body (Romeo, via The Bump). Pregnancy skin reacts more to UV and is prone to melasma (Skin Cancer Foundation, ACOG), so sunscreen is cheap insurance. A UCSD lab study on cells showed damage but does not prove human cancer (ParentData); a literature review found little to no carcinogenic risk (PMC). Fixes (AAD via The Bump): LED lamp, broad-spectrum SPF 30+ mineral sunscreen, fingerless UV gloves, or ask to air-dry polish. Expert extract 2 here. Do not overstate the risk.
+3. Can Gel Nail Fumes and Chemicals Harm Your Baby? (240, high). F: Amounts absorbed through skin, nails, or lungs from routine use are small and not expected to raise pregnancy risk (MotherToBaby). Occasional exposure is not significant, and studies of salon workers found no higher miscarriage rate (NCPC/MotherToBaby via The Bump). Ventilation is the variable. Headache, dizziness, or nausea means take a break and get fresh air. Pregnancy heightens smell sensitivity (WebMD). MMA is tied to artificial-nail bonding and is not safe for anyone (NCT via MNT); ask what is used. Do NOT repeat WebMD's claim that MMA bonds gel polish. Expert extract 3 here.
+4. Should You Avoid TPO in Gel Polish While Pregnant? (190, medium). F: TPO is a photoinitiator that hardens gel under light. EU banned it in cosmetics 1 Sep 2025 (CMR 1B, from high-dose animal studies). GB: no new products placed on market from 15 Aug 2026; none made available from 14 Feb 2027; CTPA guidance lets pros keep using existing stock. US: no ban. CTPA (Caroline Rainsford): amounts in nail products are over 1,000x below levels affecting fertility. No human pregnancy data exists, so TPO-free is an optional precaution. Label name: trimethylbenzoyl diphenylphosphine oxide; alternatives like TPO-L exist. Keep short; link the explainer.
+5. Is It Safe to Soak Off Gel Polish With Acetone While Pregnant? (170, medium). F: WebMD: acetone effects appear at high solvent exposure and studies were not on salon clients; ask for non-acetone remover or a cotton pad instead of soaking. MotherToBaby: absorbed amounts are small; wash hands afterward. Keep windows or door open. Safety only, not removal steps. Link recovery pillar.
+6. Can You Get Gel Nails in the First Trimester? (140, low). F: Smell sensitivity peaks early (WebMD). Waiting for the second trimester is a comfort choice, not a proven requirement (Healthline). Retroactive worry: MotherToBaby says routine nail treatments carry no known increased risk. Take a break if fumes bother you.
+7. Do You Need to Remove Gel Nails Before Labor or a C-Section? (170, medium). F: Teams clip a pulse oximeter on a fingertip and read nail-bed color; gel, acrylic, and polish can interfere. Policies vary by hospital; many ask for at least one bare fingernail. Ask your midwife or OB. Removing a day or two ahead avoids a rushed removal. A 169-woman pilot found roughly 1% differences and none significant for gel (p=0.25), yet advice to remove stands. Say hospital policy varies; do not assert NHS specifics. Link surgery post.
+8. How to Get Gel Nails During Pregnancy With Less Exposure (150, low). F: Sit near a door or window; ask about ventilation; clean tools (autoclave preferred, Healthline); skip cuticle cutting and heal cuts first (Bump); LED plus SPF or gloves; ask for TPO-free; non-acetone or cotton-pad removal; wash hands after; skip hand-massage pressure points (unproven, WebMD/Healthline); space appointments. At home: open a window, keep gel off skin, cure fully. Gestational diabetes: ask your provider. Infographic here.
+
+## SECTION 11: INTERNAL LINKS (4 total)
+Weave into prose, never standalone. Cluster anchors verbatim.
+1. url: /blog/nail-health/nail-damage-recovery-timeline | title: How Long Does It Take Nails to Recover From Gel or Acrylic Damage? | anchor: how long nails take to recover from gel damage | placement: H2-5, sentence about nails feeling rough or thin after removal | link_type: cluster-pillar
+2. url: /blog/nail-health/diabetic-nail-care-guide | title: Diabetic Nail Care: Why It's Different and What to Watch For | anchor: why diabetic nail care requires different precautions | placement: H2-8, gestational diabetes or slow-healing line beside the cuticle-cutting tip; claim only "ask your provider" | link_type: cluster-spoke
+3. url: https://mirelleinspo.com/blog/nail-product-ingredients/tpo-ban-gel-nail-polish | title: The TPO Ban Explained: Is Your Gel Manicure Safe? | anchor: what the EU's TPO ban on gel nail polish actually changed | placement: H2-4, after the ban dates, so the full story lives on that page | link_type: cross-site
+4. url: https://mirelleinspo.com/nail-faqs/should-you-remove-nail-polish-before-surgery | title: Should I Remove Nail Polish Before Surgery or Medical Procedures? | anchor: why surgical teams want polish off before an operation | placement: H2-7, after the pulse oximeter explanation | link_type: cross-site
+
+## SECTION 12: VOICE AND TONE
+- recommended_voice: Warm expert, calm explainer
+- tone_characteristics: reassuring without dismissing; answer-first and direct; honest about gaps ("no trials exist"); non-alarmist; lightly conversational
+- language_style: Second person, short declarative sentences, concrete dates and named bodies, no hedge piles. One plain analogy allowed (hazard vs exposure). Close with "check with your OB or midwife," never diagnose.
+- audience_match: The reader is anxious and over-informed; steady, sourced, plain language settles her without talking down.
+
+## SECTION 13: EXTERNAL LINKS
+1. url: https://mothertobaby.org/baby-blog/nailing-down-the-facts-nail-treatment-safety-in-pregnancy/ | context: H2-3, after the small-absorbed-amounts point | anchor_suggestion: MotherToBaby's ingredient-by-ingredient review of nail products
+2. url: https://www.webmd.com/baby/what-to-know-about-manicures-pedicures-pregnancy | context: H2-1, to show the cautious end of expert advice | anchor_suggestion: WebMD's pregnancy nail-care overview. Cite only for "no studies" and "limit or skip."
+
+## SECTION 14: FEATURED EXPERT
+- expert_alias: cameron-rokhsar-md
+- expert_quote: identical to POST_CONSTANTS.expert_quote (full text carried there)
+- suggested_placement: Extract 1 in H2-1: "For most pregnant and breastfeeding patients, gel and acrylic manicures are reasonably safe, but the real concerns are more specific than the blanket caution online suggests." Extract 2 in H2-2: "UV nail lamps are the one that gets overstated, the exposure is extremely brief, limited to the fingertips, and total UV dose from even frequent manicures is far below what would meaningfully raise skin cancer risk". Extract 3 in H2-3: "The more legitimate concern is inhalation and skin absorption of volatile compounds in a poorly ventilated salon..." to end. Never join extracts 2 and 3 as continuous speech; the source has a gap between them.
+
+## SECTION 15: EXECUTION PLAN
+Read first. Lock every value. Do not recalculate.
+
+### block_1_keyword_execution
+- primary_keyword: gel nails safe during pregnancy
+- top_5_density_baseline: ~2 (real counts: WebMD 2, Bump ~5, MNT 1, MotherToBaby 0, Healthline 0; average 1.6)
+- total_mention_target: 2 + 3 = 5 (body paragraphs only; headings, title, meta, alt text excluded)
+- first_100_words_plan: mention 1 in sentence 1 of the intro (the opening claim, e.g. "Are <strong>gel nails safe during pregnancy</strong>?"); mention 2 in sentence 3 or 4, before word 100, inside the reason answers conflict.
+- first_half_target: 3 mentions (first 950 words)
+- second_half_target: 2 mentions (one near H2-7 or H2-8, one in the conclusion)
+- strong_tag_rule: every counted mention wrapped in <strong>; scan after every paragraph.
+- keywords_to_avoid_active: Section 3 list
+
+### block_2_word_budget
+- total_target: 1900 words, ceiling; may land up to 50 under if complete; never exceed.
+- introduction: 225 | conclusion: 175
+- h2_budgets: H2-1 210 (medium) | H2-2 230 (high) | H2-3 240 (high) | H2-4 190 (medium) | H2-5 170 (medium) | H2-6 140 (low) | H2-7 170 (medium) | H2-8 150 (low)
+- tracking_rule: log the running total after each H2; cut in place if over, never compensate later.
+
+### block_3_image_plan
+- total_images: 7 | hero: frontmatter only, never in body | body_images: 6
+- assignments:
+  1. after H2-1 | standard_inspiration | sheer nude-pink gel on short natural oval nails, soft daylight, hands relaxed
+  2. after H2-2 | standard_inspiration | high-gloss clear-coat gel with a subtle shimmer on short square-round nails
+  3. after H2-3 | standard_inspiration | milky white gel on short squoval nails against a bright, airy neutral backdrop
+  4. after H2-4 | standard_inspiration | muted rose-mauve gel on short almond nails
+  5. after H2-7 | standard_inspiration | clean bare-to-sheer short natural nails, hospital-bag-ready look
+  6. after H2-8 | infographic | pregnancy-smart salon checklist: open door or vent, LED lamp, SPF 30+ mineral sunscreen or fingerless gloves, cotton-pad-and-foil removal, ask about TPO, space appointments; clean graphic layout, no photos
+- image_type_rule: no tool or equipment images, no lamps, no photo-style side-by-side comparisons. Follow flagged type per slot exactly.
+- path_rule: /images/blog/nail-health/gel-nails-pregnancy-safety/filename.webp
+
+### block_4_opening_technique_assignments
+Only Technique 1 (The Claim) and Technique 3 (The Reframe) are defined in the materials available to Input Gen. Alternating them satisfies "no two consecutive the same." Blog Gen may substitute other defined techniques if no two consecutive match and the conclusion stays T1 or T3.
+- Introduction: T1 The Claim | H2-1: T3 The Reframe | H2-2: T1 | H2-3: T3 | H2-4: T1 | H2-5: T3 | H2-6: T1 | H2-7: T3 | H2-8: T1 | Conclusion: T3 The Reframe
+- Check every opener against banned_opening_approaches before the second sentence.
+
+### block_5_link_placements
+Anchors verbatim; full URLs; woven into prose.
+1. how long nails take to recover from gel damage | /blog/nail-health/nail-damage-recovery-timeline | H2-5 | after the acetone-safety point, about rough or thin nails post-removal | cluster-pillar
+2. why diabetic nail care requires different precautions | /blog/nail-health/diabetic-nail-care-guide | H2-8 | beside the skip-cuticle-cutting tip, "if you have gestational diabetes, ask your provider" | cluster-spoke
+3. what the EU's TPO ban on gel nail polish actually changed | https://mirelleinspo.com/blog/nail-product-ingredients/tpo-ban-gel-nail-polish | H2-4 | after the ban dates | cross-site
+4. why surgical teams want polish off before an operation | https://mirelleinspo.com/nail-faqs/should-you-remove-nail-polish-before-surgery | H2-7 | after the pulse oximeter explanation | cross-site
+External: MotherToBaby in H2-3; WebMD in H2-1 (Section 13).
+
+### block_6_aeo_geo_plan
+- aeo_assignments (write a direct 2-3 sentence answer IMMEDIATELY after the H2, before any elaboration):
+  - Are gel nails safe during pregnancy? | H2-1
+  - Is the UV lamp for gel nails safe during pregnancy? | H2-2 (add LED vs UV in a second sentence)
+  - Can gel polish chemicals get into your bloodstream when you're pregnant? | H2-3
+  - Should you avoid TPO in gel polish while pregnant? | H2-4
+  - Is acetone safe to soak off gel nails while pregnant? | H2-5
+  - Can you get gel nails in the first trimester? | H2-6
+  - Do you have to remove gel nails before giving birth? | H2-7
+  - How can you get gel nails during pregnancy with less exposure? | H2-8 (add at-home kits)
+- geo_entity_statements (confident, declarative, extractable):
+  - Photoinitiator and TPO: a photoinitiator is the ingredient that hardens gel polish under light, and TPO is one of them | H2-4
+  - Pulse oximeter: a fingertip clip that measures blood oxygen with light through the nail bed | H2-7
+  - Nail plate: the hard surface of the nail, where cured gel sits | H2-3
+  - Gel manicure: polish cured under a UV or LED lamp | Introduction
+
+### block_7_active_constraints
+- em_dash_banned: none anywhere; replace with comma, new sentence, parentheses, or restructure.
+- banned_vocab_watch: the Blog Gen banned list was not supplied to Input Gen. Likely offenders here: delve, navigate, landscape, crucial, robust, seamless, elevate, game-changer. Check against the real list.
+- american_english_active: color, odor, labor, sanitize, recognize. Source sites use British spelling; convert everything.
+- keyword_density_reminder: after every 2 H2s, check the running count against 5; first half denser.
+- image_path_reminder: /images/blog/nail-health/gel-nails-pregnancy-safety/filename.webp
+- internal_link_url_reminder: cluster = /blog/nail-health/[slug]; cross-site = exact URLs above.
+- hero_image_reminder: hero in frontmatter only.
+- strong_tag_reminder: every counted primary keyword mention in <strong>.
+- expert_quote_reminder: expert: cameron-rokhsar-md in frontmatter; use word-for-word extracts only; never bridge the source's gap; never alter meaning. Do not add bio or credentials.
+- medical_caution: one plain "check with your OB or midwife" line near the end; no diagnosis, no dosing, no claims beyond the F: lines.
+- faqItems: route queries 14 to 18 from Section 7.
