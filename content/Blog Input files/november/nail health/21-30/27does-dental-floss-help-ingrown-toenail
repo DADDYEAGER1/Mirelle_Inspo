@@ -1,0 +1,492 @@
+{
+  "section_1_file_authority": "THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded. Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.",
+
+  "section_2_post_constants": {
+    "slug": "does-dental-floss-help-ingrown-toenail",
+    "topic_slug": "nail-health",
+    "canonical": "https://mirelleinspo.com/blog/nail-health/does-dental-floss-help-ingrown-toenail",
+    "post_type": "spoke",
+    "intent": "informational",
+    "word_count": 2100,
+    "image_count": 7,
+    "show_inspo_gallery_link": false,
+    "template": "posts",
+    "hero_dimensions": "1200x675",
+    "category": "Nail Health",
+    "publish_date": "2026-09-28",
+    "author": "jyoti-mirelle",
+    "expertise_type": "licensed_derm_or_nail_health_expert",
+    "expert_alias": "cameron-bennet",
+    "expert_quote": "Dental floss and cotton wool can help by acting as a buffer between the nail and the skin. This can be useful in the early stages before the nail has cut into the skin, to reduce some of the pressure and allow the edge of the nail to grow out instead of becoming ingrown. Braces and correction strips are marketed to lift the edges of the nail up and away from the skin. For some people these can be helpful, but if the ingrown nail is quite progressed, they are rarely enough to settle it completely.",
+    "note_word_count": "2100 is a ceiling/reference, not a target. Real top-5 average was 1,952 (see section_4). Write precisely; landing under it is correct if the post is complete. No padding."
+  },
+
+  "section_3_cluster_snapshot": {
+    "pillar_slug": "what-kills-toenail-fungus-instantly",
+    "pillar_title": "What Kills Toenail Fungus Instantly? What Actually Works",
+    "pillar_primary_keyword": "what kills toenail fungus instantly",
+    "this_post_slug": "does-dental-floss-help-ingrown-toenail",
+    "this_post_role": "spoke",
+    "sub_cluster_note": "Sits in the ingrown-toenail sub-cluster whose hub is ingrown-toenail-infection-signs (not the cluster pillar).",
+    "show_inspo_gallery_link_cluster_default": false,
+    "keywords_to_avoid": [
+      "infected ingrown toenail",
+      "ingrown toenail stages",
+      "should i cut my ingrown toenail",
+      "do you need antibiotics for ingrown toenail",
+      "partial nail avulsion recovery",
+      "best toenail shape for ingrown toenails",
+      "how to shape toenails",
+      "toenail fungus (all variants)",
+      "nail fungus (all variants)",
+      "paronychia",
+      "diabetic nail care",
+      "how often should you trim your nails",
+      "ingrown toenail surgery (generic)"
+    ]
+  },
+
+  "section_4_serp_analysis": {
+    "blog_gen_instruction": "our_strategic_approach is the concrete angle for intro and conclusion and guides depth decisions. Follow it.",
+    "competitor_gaps": [
+      "No competitor states the actual disagreement between authorities in one clear place. Mayo and Cleveland Clinic list floss as a step; ACFAS (via Cleveland Clinic and Healthline) says it can breed bacteria; Cedars-Sinai's podiatrist says it worsens trauma. Readers get one side per page.",
+      "Nobody defines the exact eligibility window (stage 1: redness/pain, skin unbroken, no pus) as the deciding variable. Mayo's own wording ('slightly ingrown', no pus) is buried in the clinician section.",
+      "Nobody gives a stop/abort rule with a time limit (no improvement in 48-72 hours) alongside a realistic timeline (Mayo: nail grows above skin edge in 2 to 12 weeks).",
+      "Waxed vs unwaxed is answered inconsistently across pages (Mayo/Austin: waxed; Palm Medical: unwaxed; Acibadem: says unwaxed is 'high quality') and no one explains why. Demand confirmed: Quora, Acibadem, Mayo phrasing.",
+      "Acibadem (the closest keyword match) has no medical authority, no source citations, and recommends tea tree oil and flavored floss. No page pairs a named clinician's verdict with a clear yes/no."
+    ],
+    "missing_semantic_territory": [
+      "floss vs cotton vs gutter splint vs toe brace, which is better for which stage",
+      "why floss can backfire (bacteria harbored, added trauma on already-broken skin)",
+      "who should never try this (diabetes, poor circulation, neuropathy, immunocompromised)",
+      "sterility: single-use piece, replace daily, alcohol-soak (Healthline)",
+      "nail-salon 'acrylic overlay' as a tech-side alternative (SalonGeek demand)",
+      "what a podiatrist does instead: lifting with splint, taping, collodion-coated cotton (Mayo)"
+    ],
+    "our_strategic_approach": "Every top result either endorses floss without limits (Acibadem, Austin, Palm Medical, Mayo self-care) or dismisses it (Cedars-Sinai, Pedicurian). None resolves the contradiction for the reader. This post opens by naming the contradiction, then settles it with a single rule: floss is an early-stage-only spacer, useless or risky once skin is broken. Cameron Bennet's quote carries exactly this nuance ('early stages before the nail has cut into the skin'), so it is the spine of the post. Structural edge: a clear stage-gate H2 up top (who qualifies, who does not), a step-by-step that includes a 48-72 hour abort rule no competitor states, and a direct 'floss vs cotton vs splint' comparison none of the five pages provide. Keyword territory owned: 'dental floss ingrown toenail', 'waxed vs unwaxed floss for ingrown toenail', 'does floss make an ingrown toenail worse', all absent as headings on every fetched page.",
+    "top_5_fetched_pages_summary": [
+      {
+        "url": "https://www.acibademhealthpoint.com/ingrown-toenail-relief-with-dental-floss-technique/",
+        "word_count": 1520,
+        "h2_count": 8,
+        "keyword_mentions": "dental floss 41, ingrown toenail 30",
+        "note": "Closest keyword match but a medical-tourism marketing page. Recommends tea tree oil, flavored floss, brand list. No sources. Weak on authority."
+      },
+      {
+        "url": "https://health.clevelandclinic.org/how-to-get-rid-of-ingrown-toenails",
+        "word_count": 1480,
+        "h2_count": 3,
+        "keyword_mentions": "floss 3, ingrown toenail 27",
+        "note": "Strong authority. Only page that surfaces the ACFAS objection directly in a quote. Floss is one bullet, not a section."
+      },
+      {
+        "url": "https://www.mayoclinic.org/diseases-conditions/ingrown-toenails/diagnosis-treatment/drc-20355908",
+        "word_count": 980,
+        "h2_count": 5,
+        "keyword_mentions": "floss 4, ingrown toenail 9",
+        "note": "Gives the only timeline (2 to 12 weeks) and the 'slightly ingrown' qualifier. Zero counter-view. Very thin on reasoning."
+      },
+      {
+        "url": "https://www.austinfootandankle.com/practice_areas/expert-relief-for-ingrown-toenails.cfm",
+        "word_count": 1050,
+        "h2_count": 4,
+        "keyword_mentions": "floss 2, ingrown toenail 22",
+        "note": "Podiatrist practice page. Gives the floss step then immediately says professional treatment is safer and faster. Sales-oriented."
+      },
+      {
+        "url": "https://www.cedars-sinai.org/stories-and-insights/expert-advice/happy-feet-5-tips-to-remedy-ingrown-toenails",
+        "word_count": 1080,
+        "h2_count": 6,
+        "keyword_mentions": "floss 1, ingrown toenail 18",
+        "note": "Only page with a direct 'do not use floss' quote from a named podiatrist. Does not explain when it might still be reasonable."
+      }
+    ],
+    "top_5_word_count_average": 1222,
+    "top_5_keyword_density_average": "average primary-topic mentions across 5 pages: 'dental floss' + 'floss' phrase ~10 per page; exact string 'dental floss ingrown toenail' appears 0 times in any body. Baseline used for section_15: 10.",
+    "best_external_sources_found": [
+      "https://www.mayoclinic.org/diseases-conditions/ingrown-toenails/diagnosis-treatment/drc-20355908",
+      "https://www.healthline.com/health/ingrown-toenail-remedies"
+    ],
+    "recommended_image_count_validation": "7 total (hero + 6 body) matches flat default. Competitors use 0 to 2 images; visual density is an edge.",
+    "honest_flag_on_word_counts": "word_count and keyword-mention figures above are approximations from reading the fetched pages, not from a script count. Blog Gen Agent should treat 2100 as a ceiling reference. Note the recorded average (1222) is below the 2100 reference: the reference was raised because the post must cover the contradiction, stage-gate, procedure, abort rule, and comparison that no competitor covers."
+  },
+
+  "section_5_audience_intelligence": {
+    "blog_gen_instruction": "Primary creative brief. Write every paragraph for this person. Satisfy them completely.",
+    "who_they_are": "Someone with a sore, red edge on a big toe who saw a viral 'floss hack' (YouTube 'Quick Fix With Dental Floss', Shorts, TikTok) and wants to try it tonight before paying for a podiatrist. Adult, not medically trained, mildly anxious, has already seen conflicting advice.",
+    "what_they_want_from_this_post": "A straight answer: does it work, is it safe, and how do I do it correctly if it is. They also want permission to stop or a clear signal to see a doctor.",
+    "what_frustrates_them": "Mayo says do it; a 'Doctor Reacts' video and Cedars-Sinai say never. Most pages give the technique with no warning, or the warning with no technique. Nobody says how long to try or when to quit.",
+    "top_5_pain_points": [
+      "Conflicting expert advice on whether floss helps or hurts",
+      "Not knowing if their toe is 'early enough' to try it",
+      "Fear of making an infection worse by poking under the nail",
+      "Not knowing waxed vs unwaxed, or how much floss, or how often to change it",
+      "No timeline and no rule for when to give up and see a podiatrist"
+    ],
+    "exact_user_phrases": [
+      "does dental floss actually work for an ingrown toenail",
+      "ingrown toenail dental floss trick",
+      "I tucked floss under my nail and now it hurts more",
+      "how long do I leave floss under my ingrown toenail",
+      "waxed or unwaxed floss for ingrown toenail",
+      "is it safe to floss under my toenail",
+      "ingrown toenail hack DIY worked for me",
+      "should I cut a V in my toenail",
+      "it's red and pulsating",
+      "I don't want to pay for a podiatrist",
+      "bathroom surgery",
+      "can I get gel or acrylic on it to fix it"
+    ],
+    "intent_content_signals": [
+      "Short, decisive verdict near the top, then reasoning",
+      "Stage-based framing (early vs progressed) matches how clinicians talk",
+      "Numbered steps with a hard stop condition",
+      "A named clinician's voice, not just institutional copy",
+      "Honest acknowledgement that experts disagree",
+      "Plain-language warning list for who should skip DIY"
+    ],
+    "source_validation": "Demand confirmed on 2+ sources per item: YouTube (viral floss videos AND doctor-reaction counter-videos), Quora (floss how-to thread), SalonGeek (V-cut and acrylic-overlay debates, 'never on clients' pro stance), Mayo/Cleveland/Healthline PAA-style phrasing. Reddit returned off-target and was not used. Pinterest not run (low relevance for this intent)."
+  },
+
+  "section_6_semantic_keyword_data": {
+    "blog_gen_instruction": "Primary keyword in <strong> tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.",
+    "primary_keyword": "dental floss ingrown toenail",
+    "keyword_variations": [
+      "floss under ingrown toenail",
+      "using dental floss for an ingrown toenail",
+      "ingrown toenail floss method",
+      "dental floss trick for ingrown toenail",
+      "does floss help an ingrown toenail",
+      "flossing an ingrown toenail",
+      "waxed dental floss ingrown toenail"
+    ],
+    "cluster_keywords": [
+      "ingrown toenail home remedy",
+      "lift ingrown toenail edge",
+      "cotton under ingrown toenail",
+      "nail lifting technique",
+      "toenail splint",
+      "gutter splint",
+      "toe brace",
+      "ingrown toenail corrector strip",
+      "warm soak Epsom salt toenail",
+      "onychocryptosis",
+      "early stage ingrown toenail",
+      "nail edge separation"
+    ],
+    "lsi_terms": [
+      "waxed floss",
+      "unwaxed floss",
+      "nail edge",
+      "buffer between nail and skin",
+      "grow above the skin edge",
+      "collodion-coated cotton",
+      "taping the nail",
+      "granulation tissue",
+      "nail plate",
+      "skin fold",
+      "conservative treatment",
+      "pressure relief",
+      "single-use piece",
+      "alcohol soak",
+      "sterile technique",
+      "ACFAS",
+      "podiatrist",
+      "big toe",
+      "trauma to the tissue",
+      "wedge resection"
+    ],
+    "aeo_terms": [
+      "Does dental floss actually work for an ingrown toenail?",
+      "Is it safe to put dental floss under an ingrown toenail?",
+      "Can dental floss make an ingrown toenail worse?",
+      "How do you use dental floss for an ingrown toenail?",
+      "Should you use waxed or unwaxed floss for an ingrown toenail?",
+      "How long does it take dental floss to fix an ingrown toenail?",
+      "When should you not use dental floss on an ingrown toenail?",
+      "What is better for an ingrown toenail, floss or cotton?",
+      "Who should not try the floss method for an ingrown toenail?",
+      "What do podiatrists do instead of floss for an ingrown toenail?"
+    ],
+    "technical_terms": [
+      "onychocryptosis",
+      "nail plate",
+      "lateral nail fold",
+      "gutter splint",
+      "collodion",
+      "matrixectomy",
+      "partial nail avulsion",
+      "peripheral neuropathy"
+    ],
+    "user_language": [
+      "the floss hack",
+      "tucking floss under the nail",
+      "ingrown toenail trick",
+      "bathroom surgery",
+      "it's pulsating",
+      "grow out instead of in",
+      "quick fix",
+      "worth a try",
+      "I just want it to stop hurting",
+      "before I pay for a doctor"
+    ],
+    "cannibalization_clearance": "Dropped: 'infected ingrown toenail', 'ingrown toenail stages', 'cut ingrown toenail yourself', 'antibiotics', 'avulsion recovery', 'best toenail shape' (all reserved or existing-site). 'nail lifting technique' and 'toenail splint' kept because they are floss-adjacent methods, not stage or surgery territory. 'wedge resection' and 'matrixectomy' appear only as one-line 'what a podiatrist does instead' mentions, never as focus."
+  },
+
+  "section_7_voice_and_ai_queries": {
+    "blog_gen_instruction": "Answer every query directly in the relevant H2 body. If not natural in the body, route to faqItems. No query left unanswered.",
+    "queries": [
+      "Does dental floss actually work for an ingrown toenail?",
+      "Is it safe to put dental floss under an ingrown toenail?",
+      "Can dental floss make an ingrown toenail worse?",
+      "How do I use dental floss to lift an ingrown toenail?",
+      "Should I use waxed or unwaxed floss for an ingrown toenail?",
+      "How long should I leave floss under an ingrown toenail?",
+      "How often should I change the floss under my toenail?",
+      "How long does the floss method take to work?",
+      "What if the floss method makes my toe hurt more?",
+      "Can I use dental floss if my ingrown toenail has pus?",
+      "Is the floss method safe if I have diabetes?",
+      "Is cotton better than dental floss for an ingrown toenail?",
+      "Why do some doctors say not to use floss on an ingrown toenail?",
+      "Do toe braces and correction strips work better than floss?",
+      "What do podiatrists do instead of the floss trick?",
+      "Should I cut a V in my toenail instead?"
+    ]
+  },
+
+  "section_8_hook_and_ctr": {
+    "blog_gen_instruction": "READ BEFORE WRITING TITLE, META, INTRO, OR FIRST H2. Title and description are the option selected internally from evidence-based candidates. Use exactly. Do not rewrite.",
+    "real_serp_findings_summary": "The 5 fetched pages and top-ranking titles are almost all 'how-to' or 'remedies' framed ('Ingrown Toenail Relief with Dental Floss Technique', 'Home Remedies', 'Expert Relief'). Only the AOL/MSN reprint asks 'Does Dental Floss Really Work?' and it is a syndicated mirror. No ranking title names the conflict between authorities or promises a clear yes/no. The question format is the real gap.",
+    "selected_option_rationale": "A question-led, front-loaded title mirrors the exact searcher doubt and tests the gap (nobody resolves the conflict), while the meta promises the resolution and the stop rule.",
+    "title": "Dental Floss Ingrown Toenail: Does It Work or Hurt?",
+    "title_char_count": 51,
+    "meta_description": "Mayo says floss helps, others say it worsens infection. See who it's safe for, the exact steps, and when to stop and see a podiatrist.",
+    "meta_char_count": 135,
+    "intro_hook_brief": "Open on the contradiction: the same toe, the same trick, and Mayo Clinic recommends it while Cedars-Sinai's podiatrist says it makes things worse. Promise the reader one rule that reconciles both. Deliver primary keyword twice inside the first 100 words.",
+    "first_h2_hook_direction": "Phrase the first H2 as the direct question a reader types ('Does dental floss actually help an ingrown toenail?') and answer it in the first two sentences: yes, only in the early stage before the nail has broken the skin. Do not repeat the title hook."
+  },
+
+  "section_9_search_journey": {
+    "blog_gen_instruction": "Emotional contract with the reader. Every section honors the promise. If a paragraph breaks the arc, rewrite it.",
+    "reader_arrival_state": "Sore toe, tempted by a viral hack, unsure whether to trust it, wanting a quick verdict before paying for a doctor.",
+    "journey_arc": [
+      "Name the contradiction and promise one rule that settles it",
+      "Give the verdict: early-stage only, with the reasoning and the expert voice",
+      "Show who qualifies and who must skip it (stage-gate)",
+      "Walk through the method step by step with the abort rule",
+      "Compare floss with cotton, splints, and braces, then show what a podiatrist does instead",
+      "Close with a clear next step and permission to stop"
+    ],
+    "promise_to_deliver": "A clear, sourced answer on whether floss helps or hurts, who it is safe for, exactly how to do it, and when to stop.",
+    "exit_state": "Confident: knows whether to try it, how to do it safely, and the exact sign that means see a podiatrist."
+  },
+
+  "section_10_content_structure": {
+    "blog_gen_instruction": "Follow exactly. Do not rename, reorder, or remove H2s without user instruction. Word budget per section is set. H3s optional at editorial discretion.",
+    "h1": "Dental Floss for an Ingrown Toenail: Does It Actually Work?",
+    "h2_structure": [
+      "Does Dental Floss Actually Help an Ingrown Toenail?",
+      "Why Mayo Clinic and Some Podiatrists Disagree",
+      "Who Should Try the Floss Method (and Who Should Skip It)",
+      "How to Use Dental Floss for an Ingrown Toenail, Step by Step",
+      "Waxed or Unwaxed Floss? Cotton vs Floss vs Splints",
+      "How Long It Takes and When to Stop",
+      "What a Podiatrist Does Instead"
+    ],
+    "word_budget": {
+      "introduction": "225 words",
+      "conclusion": "175 words",
+      "per_h2": "See section_15 block_2 for exact per-H2 numbers. Total H2 budget = 1700 words."
+    }
+  },
+
+  "section_11_internal_links": {
+    "blog_gen_instruction": "Every link below must appear. Cluster links use anchors verbatim. Cross-site links use provided anchors. Place where noted, woven into prose, never standalone CTAs. Total internal links must not exceed 6.",
+    "all_internal_links": [
+      {
+        "url_or_slug": "/blog/nail-health/ingrown-toenail-infection-signs",
+        "title": "Ingrown Toenail Infection: Signs You Need a Doctor (Not Home Care)",
+        "anchor_text": "signs you need a doctor for an ingrown toenail",
+        "placement_note": "Section 'Who Should Try the Floss Method (and Who Should Skip It)': natural pointer for readers whose toe shows pus or spreading redness.",
+        "link_type": "cluster-pillar"
+      },
+      {
+        "url_or_slug": "/blog/nail-health/ingrown-toenail-stages",
+        "title": "Ingrown Toenail Stages: From Mild Soreness to Infection",
+        "anchor_text": "how ingrown toenails progress from mild to infected",
+        "placement_note": "Section 'Who Should Try the Floss Method': supports the stage-gate explanation.",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "/blog/nail-health/is-it-safe-to-cut-ingrown-toenail-yourself",
+        "title": "Is It Safe to Cut Into an Ingrown Toenail Yourself?",
+        "anchor_text": "whether it's safe to treat an ingrown toenail yourself",
+        "placement_note": "Section 'How Long It Takes and When to Stop': for readers tempted to escalate from floss to cutting.",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/blog/toenail-shapes/best-toenail-shape-for-ingrown-nails",
+        "title": "Best Toenail Shape for Ingrown Toenails (Podiatrist Tips)",
+        "anchor_text": "the straight-across toenail shape podiatrists recommend to stop ingrown nails coming back",
+        "placement_note": "Section 'How Long It Takes and When to Stop': after floss, the prevention step is trimming correctly; also answers the V-cut question already covered on that page.",
+        "link_type": "cross-site"
+      },
+      {
+        "url_or_slug": "https://mirelleinspo.com/blog/toenail-shapes/how-to-shape-toenails-at-home",
+        "title": "How to Shape Toenails at Home (Without Ingrown Nails)",
+        "anchor_text": "how to shape toenails at home without causing ingrown nails",
+        "placement_note": "Section 'Who Should Try the Floss Method': one-line aside that many ingrowns start from rounded-corner trimming.",
+        "link_type": "cross-site"
+      }
+    ],
+    "total_internal_links": 5,
+    "cluster_link_source_note": "Three cluster links copied verbatim from internal_linking_map for post 27. Two cross-site links discovered via site:mirelleinspo.com and relevance-filtered. No cluster link to the pillar 'what-kills-toenail-fungus-instantly' because post 27's own map does not list it and it is off-topic (fungus vs ingrown)."
+  },
+
+  "section_12_voice_tone": {
+    "blog_gen_instruction": "Layer on top of Mirellé editorial framework. Do not default to generic AI tone.",
+    "recommended_voice": "Calm, plainspoken clinician-adjacent explainer. Not a cheerleader for the hack and not a scold.",
+    "tone_characteristics": [
+      "Direct: verdict first, reasoning second",
+      "Even-handed: names both sides of the expert disagreement fairly",
+      "Safety-first without alarmism",
+      "Concrete: numbers, timelines, and named steps",
+      "Reassuring about stopping: quitting DIY is a smart move, not a failure"
+    ],
+    "language_style": "Short declarative sentences. Second person ('you'). Medical terms defined once in plain words. No hedged filler. No 'it depends' without stating what it depends on.",
+    "audience_match": "The reader is anxious and mid-decision. A clear rule plus an exit condition lowers anxiety more than another list of tips."
+  },
+
+  "section_13_external_links": {
+    "blog_gen_instruction": "Include where indicated. Supports E-E-A-T. Use the anchor suggestion as a guide and write naturally around it.",
+    "links": [
+      {
+        "url": "https://www.mayoclinic.org/diseases-conditions/ingrown-toenails/diagnosis-treatment/drc-20355908",
+        "context": "In the section on how long it takes: cite that clinician-lifted floss or cotton helps the nail grow above the skin edge, usually in 2 to 12 weeks, and that this is for a slightly ingrown nail.",
+        "anchor_suggestion": "Mayo Clinic's treatment guidance for ingrown toenails"
+      },
+      {
+        "url": "https://www.healthline.com/health/ingrown-toenail-remedies",
+        "context": "In 'Why Mayo Clinic and Some Podiatrists Disagree': cite that ACFAS cautions cotton or floss may increase pain and allow bacteria to thrive, and that soaking floss in alcohol may reduce the risk.",
+        "anchor_suggestion": "Healthline's review of ingrown toenail remedies"
+      }
+    ]
+  },
+
+  "section_14_featured_expert": {
+    "blog_gen_instruction": "Write expert_alias exactly as given into the frontmatter expert field. Use expert_quote as source material: whole or word-for-word extracts, placed where most relevant. Any words quoted must be exact. No extract may change meaning. Do not fabricate a bio or credentials.",
+    "expert_alias": "cameron-bennet",
+    "expert_quote": "Dental floss and cotton wool can help by acting as a buffer between the nail and the skin. This can be useful in the early stages before the nail has cut into the skin, to reduce some of the pressure and allow the edge of the nail to grow out instead of becoming ingrown. Braces and correction strips are marketed to lift the edges of the nail up and away from the skin. For some people these can be helpful, but if the ingrown nail is quite progressed, they are rarely enough to settle it completely.",
+    "suggested_placement": "Extract 1 ('This can be useful in the early stages before the nail has cut into the skin...') fits 'Who Should Try the Floss Method' as the stage-gate anchor. Extract 2 ('Braces and correction strips are marketed to lift... rarely enough to settle it completely') fits 'Waxed or Unwaxed Floss? Cotton vs Floss vs Splints' where braces and strips are compared."
+  },
+
+  "section_15_execution_plan": {
+    "purpose": "Blog Gen Agent reads this FIRST. Lock every value. Execute exactly.",
+    "block_1_keyword_execution": {
+      "primary_keyword": "dental floss ingrown toenail",
+      "top_5_density_baseline": 10,
+      "total_mention_target": "10 + 3 = 13 total mentions of the exact primary keyword string (or its close grammatical forms 'dental floss for an ingrown toenail', 'dental floss under an ingrown toenail'). Hard target.",
+      "first_100_words_plan": {
+        "rule": "Primary keyword MUST appear TWICE in the first 100 words. Mandatory.",
+        "mention_1": "sentence 1 of introduction, stating the contradiction ('dental floss under an ingrown toenail' framed against Mayo vs Cedars-Sinai)",
+        "mention_2": "sentence 3 or 4 of introduction, in the promise line ('This guide settles whether dental floss for an ingrown toenail helps or hurts')"
+      },
+      "first_half_target": "8 mentions in the first 1050 words. Run denser in the first half.",
+      "second_half_target": "5 mentions in the second 1050 words",
+      "strong_tag_rule": "EVERY one of the 13 mentions wrapped in <strong> tags. Scan after every paragraph.",
+      "keywords_to_avoid_active": "Full list in section_3. Never used as focus terms."
+    },
+    "block_2_word_budget": {
+      "total_target": "2100 words as a ceiling. +/-50 tolerance. Never pad. Never exceed.",
+      "introduction": "225 words",
+      "conclusion": "175 words",
+      "h2_budgets": [
+        {"heading": "Does Dental Floss Actually Help an Ingrown Toenail?", "budget": "260 words", "complexity": "medium"},
+        {"heading": "Why Mayo Clinic and Some Podiatrists Disagree", "budget": "300 words", "complexity": "high"},
+        {"heading": "Who Should Try the Floss Method (and Who Should Skip It)", "budget": "280 words", "complexity": "high"},
+        {"heading": "How to Use Dental Floss for an Ingrown Toenail, Step by Step", "budget": "310 words", "complexity": "medium"},
+        {"heading": "Waxed or Unwaxed Floss? Cotton vs Floss vs Splints", "budget": "270 words", "complexity": "medium"},
+        {"heading": "How Long It Takes and When to Stop", "budget": "150 words", "complexity": "low"},
+        {"heading": "What a Podiatrist Does Instead", "budget": "130 words", "complexity": "low"}
+      ],
+      "arithmetic_check": "225 + 175 + (260+300+280+310+270+150+130 = 1700) = 2100",
+      "tracking_rule": "Track running total at the end of each H2. If over budget, cut before moving on. Do not compensate later."
+    },
+    "block_3_image_plan": {
+      "total_images": 7,
+      "hero_image": "frontmatter only. NEVER in post body.",
+      "body_images": "6 images to place in body",
+      "assignments": [
+        {"image_number": 1, "place_after": "Does Dental Floss Actually Help an Ingrown Toenail?", "image_type": "infographic", "section_context": "Clean graphic showing a cross-section of the toe: nail edge pressing into skin fold versus nail edge lifted above skin by a thin spacer. No hands, no tools."},
+        {"image_number": 2, "place_after": "Why Mayo Clinic and Some Podiatrists Disagree", "image_type": "infographic", "section_context": "Two-column graphic: 'Endorse floss' (Mayo Clinic, Cleveland Clinic providers, Healthline noting some experts) vs 'Caution against' (ACFAS, Cedars-Sinai). Clean layout, not a photo."},
+        {"image_number": 3, "place_after": "Who Should Try the Floss Method (and Who Should Skip It)", "image_type": "infographic", "section_context": "Stage-gate checklist graphic: try-it conditions (redness, no pus, skin unbroken) vs skip-it conditions (pus, spreading redness, diabetes, poor circulation, neuropathy)."},
+        {"image_number": 4, "place_after": "How to Use Dental Floss for an Ingrown Toenail, Step by Step", "image_type": "infographic", "section_context": "Numbered step-sequence graphic: soak, lift, place, secure, replace daily, stop rule. Graphic layout only, no hands or tools."},
+        {"image_number": 5, "place_after": "Waxed or Unwaxed Floss? Cotton vs Floss vs Splints", "image_type": "infographic", "section_context": "Comparison table graphic: floss vs cotton vs gutter splint vs toe brace, by stage suitability and who applies it."},
+        {"image_number": 6, "place_after": "How Long It Takes and When to Stop", "image_type": "infographic", "section_context": "Timeline graphic: day 1, 48-72 hour checkpoint, week 2, week 12 (Mayo's upper range), with the stop-and-see-a-podiatrist trigger marked."}
+      ],
+      "image_type_rule": {
+        "note": "This is a medical-guidance post, not a nail-design post. 'Standard inspiration' nail-look photos do not fit the content, so every slot is an infographic (clean graphic layout). Hero (frontmatter) should also be a clean non-hands graphic or neutral foot-care illustration. This is a deliberate exception to the 'most slots are standard_inspiration' default in the general rule, decided because no H2 here calls for a styled nail look.",
+        "banned_absolutely": "NO tool or equipment images, NO hands holding floss or tweezers, NO application or process shots, NO photo-style side-by-side comparison. All comparisons are graphics."
+      },
+      "path_rule": "/images/blog/nail-health/does-dental-floss-help-ingrown-toenail/filename.webp"
+    },
+    "block_4_opening_technique_assignments": {
+      "rule": "No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.",
+      "assignments": [
+        {"section": "Introduction", "technique": "Technique 2 (The Contradiction / Tension)"},
+        {"section": "Does Dental Floss Actually Help an Ingrown Toenail?", "technique": "Technique 1 (The Claim)"},
+        {"section": "Why Mayo Clinic and Some Podiatrists Disagree", "technique": "Technique 4 (The Scene / Specific)"},
+        {"section": "Who Should Try the Floss Method (and Who Should Skip It)", "technique": "Technique 1 (The Claim)"},
+        {"section": "How to Use Dental Floss for an Ingrown Toenail, Step by Step", "technique": "Technique 3 (The Reframe)"},
+        {"section": "Waxed or Unwaxed Floss? Cotton vs Floss vs Splints", "technique": "Technique 2 (The Contradiction / Tension)"},
+        {"section": "How Long It Takes and When to Stop", "technique": "Technique 1 (The Claim)"},
+        {"section": "What a Podiatrist Does Instead", "technique": "Technique 4 (The Scene / Specific)"},
+        {"section": "Conclusion", "technique": "Technique 3 (The Reframe)"}
+      ],
+      "banned_opener_rule": "Check every opener against banned_opening_approaches in the blog gen prompt before writing the second sentence.",
+      "technique_numbering_note": "Technique numbers 1 and 3 are confirmed by the spec (1 = The Claim, 3 = The Reframe). Techniques 2 and 4 names are assigned here as reasonable labels because the blog gen prompt's full technique list was not included in the files provided. If Blog Gen Agent's list names them differently, map to its equivalent (a tension-based opener for 2, a concrete-scene opener for 4) and keep the no-two-consecutive rule."
+    },
+    "block_5_link_placements": {
+      "rule": "Every link placed exactly where specified. Anchors verbatim. Woven into prose. Never standalone CTAs.",
+      "links": [
+        {"anchor_text": "signs you need a doctor for an ingrown toenail", "full_url": "/blog/nail-health/ingrown-toenail-infection-signs", "place_in_section": "Who Should Try the Floss Method (and Who Should Skip It)", "placement_context": "Sentence directing readers with pus or spreading redness to stop DIY.", "link_type": "cluster-pillar"},
+        {"anchor_text": "how ingrown toenails progress from mild to infected", "full_url": "/blog/nail-health/ingrown-toenail-stages", "place_in_section": "Who Should Try the Floss Method (and Who Should Skip It)", "placement_context": "Sentence explaining what 'early stage' means.", "link_type": "cluster-spoke"},
+        {"anchor_text": "how to shape toenails at home without causing ingrown nails", "full_url": "https://mirelleinspo.com/blog/toenail-shapes/how-to-shape-toenails-at-home", "place_in_section": "Who Should Try the Floss Method (and Who Should Skip It)", "placement_context": "Aside noting many ingrowns start with rounded-corner trimming.", "link_type": "cross-site"},
+        {"anchor_text": "whether it's safe to treat an ingrown toenail yourself", "full_url": "/blog/nail-health/is-it-safe-to-cut-ingrown-toenail-yourself", "place_in_section": "How Long It Takes and When to Stop", "placement_context": "Sentence warning against escalating from floss to cutting the nail.", "link_type": "cluster-spoke"},
+        {"anchor_text": "the straight-across toenail shape podiatrists recommend to stop ingrown nails coming back", "full_url": "https://mirelleinspo.com/blog/toenail-shapes/best-toenail-shape-for-ingrown-nails", "place_in_section": "How Long It Takes and When to Stop", "placement_context": "Closing prevention sentence after the timeline; also covers the V-cut myth.", "link_type": "cross-site"}
+      ],
+      "external_links_note": "Two external links from section_13 (Mayo, Healthline). Not counted against the 4-6 internal cap."
+    },
+    "block_6_aeo_geo_plan": {
+      "aeo_assignments": [
+        {"aeo_term": "Does dental floss actually work for an ingrown toenail?", "assigned_to_section": "Does Dental Floss Actually Help an Ingrown Toenail?", "execution": "2-3 sentence direct answer IMMEDIATELY after the H2, before elaboration."},
+        {"aeo_term": "Can dental floss make an ingrown toenail worse?", "assigned_to_section": "Why Mayo Clinic and Some Podiatrists Disagree", "execution": "2-3 sentence direct answer immediately after the H2."},
+        {"aeo_term": "Who should not try the floss method for an ingrown toenail?", "assigned_to_section": "Who Should Try the Floss Method (and Who Should Skip It)", "execution": "2-3 sentence direct answer immediately after the H2."},
+        {"aeo_term": "How do you use dental floss for an ingrown toenail?", "assigned_to_section": "How to Use Dental Floss for an Ingrown Toenail, Step by Step", "execution": "2-3 sentence direct answer immediately after the H2, then the numbered steps."},
+        {"aeo_term": "Should you use waxed or unwaxed floss for an ingrown toenail?", "assigned_to_section": "Waxed or Unwaxed Floss? Cotton vs Floss vs Splints", "execution": "2-3 sentence direct answer immediately after the H2."},
+        {"aeo_term": "How long does it take dental floss to fix an ingrown toenail?", "assigned_to_section": "How Long It Takes and When to Stop", "execution": "2-3 sentence direct answer immediately after the H2 (cite Mayo 2 to 12 weeks, and the 48-72 hour checkpoint)."},
+        {"aeo_term": "What do podiatrists do instead of floss for an ingrown toenail?", "assigned_to_section": "What a Podiatrist Does Instead", "execution": "2-3 sentence direct answer immediately after the H2."}
+      ],
+      "geo_entity_statements": [
+        {"entity": "Onychocryptosis", "assigned_to_section": "Does Dental Floss Actually Help an Ingrown Toenail?", "execution": "One declarative sentence defining it as the medical term for an ingrown toenail, where the nail edge presses or grows into the skin beside it."},
+        {"entity": "Nail lifting (floss or cotton spacer method)", "assigned_to_section": "How to Use Dental Floss for an Ingrown Toenail, Step by Step", "execution": "One confident definition: nail lifting places a thin spacer under the nail edge so it grows above the skin edge instead of into it."},
+        {"entity": "Gutter splint", "assigned_to_section": "What a Podiatrist Does Instead", "execution": "One declarative sentence: a gutter splint is a tiny slit tube slipped under the embedded nail after numbing, left in place until the nail grows above the skin edge (per Mayo)."},
+        {"entity": "ACFAS position on cotton or floss", "assigned_to_section": "Why Mayo Clinic and Some Podiatrists Disagree", "execution": "State plainly that the American College of Foot and Ankle Surgeons cautions that placing cotton under the nail may increase pain and let harmful bacteria thrive (via Cleveland Clinic and Healthline)."}
+      ]
+    },
+    "block_7_active_constraints": {
+      "em_dash_banned": "The long em dash does not appear anywhere. If one forms, replace with comma, new sentence, parentheses, 'but', or restructure.",
+      "banned_vocab_watch": "Most likely to slip into this medical topic: game-changer, unlock, elevate, seamless, dive into, navigate (as metaphor), journey, ultimate, crucial, tapestry. Catch as they form.",
+      "american_english_active": "color, recognize, -ize, -or. Every instance. Note sources use 'foot doctor' and 'nail bed'; keep US spelling for anything Blog Gen writes ('gauze', 'center').",
+      "keyword_density_reminder": "After every 2 H2s, count mentions. Verify on track for 13. First half denser than second.",
+      "image_path_reminder": "/images/blog/nail-health/does-dental-floss-help-ingrown-toenail/filename.webp. topic_slug in path always.",
+      "internal_link_url_reminder": "Cluster links = /blog/nail-health/[slug]. Cross-site links = exact URL as given. Never bare /slug.",
+      "hero_image_reminder": "Hero = frontmatter only. Never in body.",
+      "strong_tag_reminder": "Every primary keyword mention = <strong> tags.",
+      "expert_quote_reminder": "expert_alias 'cameron-bennet' goes into the expert frontmatter field exactly. Quote used whole or as word-for-word extracts at the suggested sections. Never paraphrased at word level, never changed in meaning.",
+      "medical_safety_reminder": "This is health content. Do not present floss as a cure. Always state it is a stage-1 (skin unbroken, no pus) measure only. Never claim it treats infection. Always route diabetes, poor circulation, neuropathy, and immunocompromised readers to a podiatrist. Do not give dosage or medication advice.",
+      "source_attribution_reminder": "Attribute the 2 to 12 week timeline to Mayo Clinic (clinician-applied lifting), the ACFAS position via Cleveland Clinic/Healthline, and the 'jamming in cotton balls or using floss' objection to Jacob Stibelman, DPM of Cedars-Sinai. Do not present any of these as this site's own claim."
+    }
+  }
+}
