@@ -1,0 +1,289 @@
+# INPUT FILE: white-spots-nails-leukonychia
+
+## SECTION 1: FILE AUTHORITY
+THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded. Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.
+
+---
+
+## SECTION 15: EXECUTION PLAN (READ FIRST, LOCK EVERY VALUE)
+
+**block_1_keyword_execution**
+- primary_keyword: **white spots on nails**
+- top_5_density_baseline: 15.4 mentions (real avg of Cleveland Clinic 17, GoodRx 22, Healthline 19, Dr. Dana 11, NailKnowledge 8)
+- total_mention_target: 15.4 + 2-3 = **18 total**
+- first_100_words_plan: keyword appears TWICE in first 100 words. Mention 1: sentence 1 of intro (the direct claim). Mention 2: sentence 3 of intro (the reframe about the calcium myth).
+- first_half_target: 11 mentions (first 900 words, run denser)
+- second_half_target: 7 mentions
+- strong_tag_rule: EVERY one of the 18 mentions wrapped in `<strong>`. Scan after every paragraph.
+- keywords_to_avoid_active: see section_3
+
+**block_2_word_budget**
+- total_target: 1800 words, +/-50, never exceed. This is a ceiling to write within, not a quota. Landing under it is correct if the post is complete.
+- introduction: 210
+- H2-1 "Do white spots on nails mean you're low on calcium?": 230 (medium)
+- H2-2 "What actually causes white spots on nails?": 260 (high)
+- H2-3 "Why do I get white spots on my nails after gel polish?": 220 (medium)
+- H2-4 "How long do white spots on nails take to go away?": 170 (low)
+- H2-5 "Can you get rid of white spots on nails faster?": 190 (medium)
+- H2-6 "When are white spots on nails a real health sign?": 200 (high)
+- H2-7 "How do you stop white spots on nails from coming back?": 160 (low)
+- conclusion: 160
+- tracking_rule: track running total at the end of every H2. If over budget, cut before moving on. Do not compensate later.
+
+**block_3_image_plan**
+- total_images: 7 (hero + 6 body). Rule 5 flat default. Template is `posts`, so hero is 1200x675.
+- hero_image: frontmatter only, NEVER in body
+- body_images: 6
+- assignments:
+  1. after H2-1 | standard_inspiration | healthy natural nails, clean bare surface, no spots (the "normal" baseline)
+  2. after H2-2 | infographic | cause-by-pattern chart: dots = trauma, chalky patches = keratin granulations, horizontal bands = illness or medication, lines along nail = see a doctor
+  3. after H2-3 | standard_inspiration | bare natural nails after a polish break, matte and hydrated
+  4. after H2-5 | standard_inspiration | nails with a light cuticle-oil sheen
+  5. after H2-6 | infographic | "spot vs warning sign" checklist, two columns (harmless / get checked)
+  6. after H2-7 | standard_inspiration | short, neat natural nails
+- image_type_rule: default is standard_inspiration. Exactly two infographics, both justified by H2 content. NEVER a tool or hands-at-work image. NEVER a photo-style side-by-side nail comparison. Blog Gen follows the flagged type per slot exactly.
+- path_rule: /images/blog/[topic_slug]/white-spots-nails-leukonychia/filename.webp
+
+**block_4_opening_technique_assignments** (no two consecutive the same; conclusion = T1 or T3)
+- Introduction: Technique 1, The Claim
+- H2-1: Technique 3, The Reframe
+- H2-2: Technique 1, The Claim
+- H2-3: Technique 2, The Scene
+- H2-4: Technique 1, The Claim
+- H2-5: Technique 3, The Reframe
+- H2-6: Technique 2, The Scene
+- H2-7: Technique 1, The Claim
+- Conclusion: Technique 3, The Reframe
+- banned_opener_rule: check every opener against banned_opening_approaches in the blog gen prompt before writing the second sentence.
+
+**block_5_link_placements**
+| anchor_text (verbatim) | full_url | place_in_section | placement_context | link_type |
+|---|---|---|---|---|
+| what your nail color is telling you about your health | /blog/nail-health/nail-color-meaning-health | H2-6 | sentence pointing readers to the wider color/texture guide | cluster-pillar |
+| other common nail myths debunked | /blog/nail-health/nail-fungus-myths-what-is-actually-true | H2-1 | right after the calcium myth is closed out | cluster-spoke |
+| whether biotin actually works for nails | https://mirelleinspo.com/blog/nail-strengthening/does-biotin-work-for-nails | H2-1 | when the supplement question comes up | existing_site_post |
+| how to repair nails after gel or acrylic removal without more damage | https://mirelleinspo.com/blog/nail-strengthening/repair-nails-after-gel-acrylic-removal | H2-3 | after explaining removal-caused spots | cross-site |
+| why a daily cuticle oil routine changes long-term nail health | https://mirelleinspo.com/blog/cuticle-care/what-does-cuticle-oil-do | H2-5 | in the hydration advice | cross-site |
+
+Total internal links: 5 (cap 6). Cluster anchors verbatim, never rewritten. Links woven into prose, never standalone CTAs.
+
+**block_6_aeo_geo_plan**
+aeo_assignments (write a direct 2-3 sentence answer IMMEDIATELY after the H2, before any elaboration):
+- "Are white spots on nails caused by calcium deficiency?" → H2-1
+- "What causes white spots on nails?" → H2-2
+- "Why do I have white spots on my nails after gel polish?" → H2-3
+- "How long do white spots on nails take to go away?" → H2-4
+- "How do you get rid of white spots on nails?" → H2-5
+- "When should I worry about white spots on my nails?" → H2-6
+- "How can I prevent white spots on my nails?" → H2-7
+
+geo_entity_statements (clear declarative definition, no hedging):
+- leukonychia → H2-2: "Leukonychia is the medical term for white discoloration of the nail."
+- punctate leukonychia → H2-2: small pinpoint white spots, usually from matrix trauma.
+- nail matrix → H2-2: the tissue at the base of the nail that produces the nail plate.
+- keratin granulations → H2-3: chalky surface patches from dehydration or polish removal, not infection.
+
+**block_7_active_constraints**
+- em_dash_banned: no long em dash anywhere. Replace with comma, new sentence, parentheses, or restructure.
+- banned_vocab_watch: watch for "delve," "crucial," "comprehensive," "navigate," "landscape," "elevate," "game-changer," "unlock."
+- american_english_active: color, recognize, -ize, -or. No British spellings anywhere.
+- keyword_density_reminder: after every 2 H2s, verify the running total is on track for 18. First half denser.
+- image_path_reminder: /images/blog/nail-health/white-spots-nails-leukonychia/filename.webp
+- internal_link_url_reminder: full paths only, never bare /slug.
+- hero_image_reminder: hero is frontmatter only.
+- strong_tag_reminder: every keyword mention in `<strong>`.
+- expert_quote_reminder: expert_alias goes in frontmatter exactly as given. Quote used whole or as word-for-word extracts, never paraphrased, meaning never altered.
+- medical_claim_reminder: this is a health-adjacent post. No diagnostic language ("you have X"). Use "usually," "most often," "is associated with." Never promise a cure or timeline as a guarantee.
+
+---
+
+## SECTION 2: POST CONSTANTS
+- slug: white-spots-nails-leukonychia
+- topic_slug: nail-health
+- canonical: https://mirelleinspo.com/blog/nail-health/white-spots-nails-leukonychia
+- post_type: spoke
+- intent: informational
+- word_count: 1800 (ceiling, not quota)
+- image_count: 7
+- show_inspo_gallery_link: false
+- template: posts
+- hero_dimensions: 1200x675
+- category: Nail Health
+- publish_date: 2026-09-28
+- author: jyoti-mirelle
+- expertise_type: licensed_derm_or_nail_health_expert
+- expert_alias: cameron-rokhsar-md
+- expert_quote: "White spots, leukonychia, are almost always from minor trauma to the nail matrix, a stubbed toe or manicure pressure weeks earlier, not a calcium or zinc deficiency the way the old myth claims, and they grow out on their own without treatment."
+
+---
+
+## SECTION 3: CLUSTER SNAPSHOT
+- pillar_slug: what-kills-toenail-fungus-instantly
+- pillar_title: What Kills Toenail Fungus Instantly? What Actually Works
+- pillar_primary_keyword: what kills toenail fungus instantly
+- this_post_slug: white-spots-nails-leukonychia
+- this_post_role: spoke (routes to the topical hub `nail-color-meaning-health`)
+- show_inspo_gallery_link_cluster_default: false
+- keywords_to_avoid (never used as focus terms): what kills toenail fungus instantly; can toenail fungus kill you; how to know if toenail fungus is dying; what does nail fungus look like; is nail fungus contagious; paronychia; infected ingrown toenail; nail patch test; nail color meaning; spoon nails; Beau's lines; nail psoriasis vs fungus; dark line on nail; how long for nails to recover from gel or acrylic; gel nails safe during pregnancy; diabetic nail care; superficial white onychomycosis; do otc nail fungus treatments work; jublia vs terbinafine; does laser treatment work for nail fungus; home remedies for nail fungus that work; acrylic nails over fungal nail; nail fungus myths; how long does it take a toenail to grow back; ingrown toenail stages; dental floss ingrown toenail; partial nail avulsion recovery; should i cut my ingrown toenail; do you need antibiotics for ingrown toenail; plus all existing-site keywords (toenail fungus, nail fungus causes/symptoms/treatment, HEMA allergy symptoms, vertical ridges on nails causes and fixes, does biotin work for nails, why are my nails weak and brittle, repair nails after gel acrylic removal, etc.).
+- cannibalization_note: superficial white onychomycosis and Beau's lines/vertical ridges are OTHER posts. Mention fungus and horizontal bands only as brief differentiators, never as focus terms.
+
+---
+
+## SECTION 4: SERP ANALYSIS
+**top_5_fetched_pages_summary** (all pages actually opened via web_fetch)
+| URL | words | H2s | kw mentions | note |
+|---|---|---|---|---|
+| my.clevelandclinic.org/health/symptoms/25243-white-spots-on-nails | ~1010 | 9 | 17 | Strong on classification and doctor-visit triggers. Hedges on deficiency ("aren't sure"). Says "nail fungus" white spots without distinguishing chalky surface patches. |
+| goodrx.com/health-topic/dermatology/white-spots-on-nails | ~1290 | 11 | 22 | Best structure and images. Softens the myth: says vitamin deficiencies are "closer to the truth." Ends in shopping context. |
+| healthline.com/health/white-spots-on-nails | ~1890 | 7 | 19 | Longest. Lists "mineral deficiency (zinc, calcium)" as a cause, which contradicts the myth. Encyclopedic, no reader voice. |
+| drdananails.com/blogs/on-the-nail/white-spots-on-nails-... | ~560 | 6 | 11 | Clearest myth-busting and keratin granulations. But it is a product funnel and a thin 560 words. |
+| nailknowledge.org/blog/nail-plate-calcium-deficiency-... | ~1010 | 6 | 8 | Best mechanism explanation (uncompressed cells) and the press-test. Trade-audience, UK spelling, never answers "how long." |
+
+(Harvard Health fetched but excluded from the average: a 235-word Q&A stub.)
+
+- top_5_word_count_average: 1,152
+- top_5_keyword_density_average: 15.4
+- competitor_gaps (each confirmed on 2+ sources: PAA-style queries, Quora, YouTube, SalonGeek, fetched pages):
+  1. **Post-gel/polish white spots.** SalonGeek threads ("white spots after gel polish removal," "cloudy looking nails"), NailKnowledge follow-ups, and podiatry pages all show heavy demand. No top-5 page separates "chalky patches right after polish" from "true matrix spots."
+  2. **The direct verdict on the calcium myth.** Healthline lists calcium as a cause, Cleveland Clinic hedges, GoodRx says "closer to the truth." Only Dr. Dana and NailKnowledge close it cleanly. The reader gets contradictory answers.
+  3. **The press test.** NailKnowledge alone mentions pressing the nail to see if the spot changes. Nobody offers a simple at-home self-check.
+  4. **Timeline honesty.** Sources conflict (4-6 months vs 6-9 vs 8 months). Nobody explains *why* the spot appears weeks after the injury, which is the actual reason readers can't remember the cause.
+  5. **Pregnancy and kids.** Recurring on Quora, SalonGeek, Practo. GoodRx gives one sentence.
+- missing_semantic_territory: "weeks after the injury," "why can't I remember hitting it," "polish holiday," "acetone dehydration," "soak-off removal," "matrix," "uncompressed nail cells," "spots moving up the nail."
+- our_strategic_approach: Every top page either hedges on calcium or buries the answer under a cause list. This post opens with the verdict and the mechanism, then does the one thing none of them do: sort spots **by pattern and timing** so a reader can self-diagnose in under a minute (dots vs chalky patches vs bands vs lines). It gives the post-gel angle its own H2 because that is where actual search demand sits and no ranking page addresses it. Dr. Rokhsar's quote is the only attributed board-certified dermatologist voice on the myth in this SERP set, and it names the exact "stubbed toe or manicure weeks earlier" mechanism. It is also 1,800 words against a 1,152 average, so it out-covers the SERP without padding.
+- recommended_image_count_validation: 7 is consistent with the SERP. GoodRx and Healthline use 3-4 images. Two infographics fill the "pattern sorting" gap.
+
+---
+
+## SECTION 5: AUDIENCE INTELLIGENCE
+**BLOG GEN INSTRUCTION:** This is your primary creative brief. Every paragraph written for this specific person with this specific intent.
+
+- who_they_are: Adults (skewing women 25-45) who noticed white dots on their fingernails, often after a manicure or gel removal, and half-remember an old rule about calcium. Mildly anxious, not medically trained, want a fast verdict.
+- what_they_want: A direct answer to "is this calcium or something serious," a reason they can recognize ("oh, that manicure"), and how long until it's gone.
+- what_frustrates_them: Contradictory answers (one site says calcium, another says injury). Long cause lists ending in kidney failure and heavy metal poisoning. Product pitches. Nobody explaining why the spot showed up weeks late.
+- top_5_pain_points:
+  1. "Everyone says calcium but I drink milk."
+  2. "I can't remember hurting my nail, so it must be something inside me."
+  3. "They showed up after I took my gel off."
+  4. "How long until they're gone, and can I speed it up?"
+  5. "Is this fungus?"
+- exact_user_phrases (from Quora, YouTube, SalonGeek, Pinterest): "white spots on my fingernails"; "white dots under my nails"; "white marks on my fingernails"; "white specks"; "cloudy looking nails"; "white spots after gel removal"; "is it a calcium deficiency"; "how to get rid of white spots on my nails"; "white spots on nails during pregnancy"; "milk spots"; "white patches after removing polish"; "how do I make them go away".
+- intent_content_signals: short direct answers first; a self-check the reader can do right now; reassurance backed by an authority; a clear line for "see a doctor"; no product funnel; scannable H2s phrased as the questions people type.
+
+---
+
+## SECTION 6: SEMANTIC KEYWORD DATA
+**BLOG GEN INSTRUCTION:** Primary keyword in `<strong>` every mention. AEO terms trigger direct-answer paragraphs. User language woven naturally. Nothing from keywords_to_avoid used as a focus term.
+
+- primary_keyword: **white spots on nails**
+- keyword_variations: white spots on fingernails; white spots on your nails; white marks on nails; white dots on nails; white specks on nails; white spots on nails after gel; white spots on nails causes; white spots on nails meaning; white spots on nails pregnancy
+- cluster_keywords: leukonychia; punctate leukonychia; nail matrix; nail plate; keratin granulations; nail trauma; nail growth rate; nail hydration; cuticle oil; polish break; soak-off removal; nail health
+- lsi_terms: matrix injury; uncompressed keratin cells; nail plate layers; air trapped between layers; nail bed; cuticle pushing; electric nail file; acetone dehydration; polish remover; weeks after the injury; grow out; free edge; fingernail regrowth; six months; nail folds; chalky patches; pinpoint dots; transverse bands; systemic causes; sulfa antibiotics
+- aeo_terms: Are white spots on nails caused by calcium deficiency? | What causes white spots on nails? | Why do I have white spots on my nails after gel polish? | How long do white spots on nails take to go away? | How do you get rid of white spots on nails? | Are white spots on nails serious? | When should I worry about white spots on my nails? | Do white spots on nails mean a zinc deficiency? | Can pregnancy cause white spots on nails? | Are white spots on nails contagious?
+- technical_terms: leukonychia; punctate leukonychia; nail matrix; nail plate; keratin granulations; onychomycosis (mention only); transverse leukonychia
+- user_language: "white specks"; "white dots"; "cloudy nails"; "milk spots"; "white marks"; "after my gel came off"; "don't remember hitting it"; "will they go away"; "is it calcium"
+
+---
+
+## SECTION 7: VOICE AND AI QUERIES
+**BLOG GEN INSTRUCTION:** Answer every query directly in the relevant H2 body. If it can't be addressed naturally, route it to faqItems. No query left unanswered.
+
+1. Are white spots on nails a sign of calcium deficiency?
+2. What do white spots on your fingernails actually mean?
+3. Why do I get white spots on my nails when I haven't hurt them?
+4. Why did my nails get white spots after I removed my gel polish?
+5. How long does it take for white spots on nails to grow out?
+6. Do white spots on nails ever go away on their own?
+7. Can you get rid of white spots on nails faster?
+8. Are white spots on nails a sign of zinc deficiency?
+9. Is it fungus if I have white spots on my nails?
+10. When should I see a doctor about white spots on my nails?
+11. Why do children get white spots on their nails so often?
+12. Can pregnancy cause white spots on nails?
+13. Do white spots on toenails mean the same thing as on fingernails?
+14. Can biting or picking my nails cause white spots?
+15. Do white spots on nails mean something is wrong with my liver or kidneys?
+16. How can I tell if white spots are just from a manicure?
+
+---
+
+## SECTION 8: HOOK AND CTR
+**BLOG GEN INSTRUCTION:** READ BEFORE WRITING THE TITLE, META, INTRO, OR FIRST H2. Title and description are selected and LOCKED. Use exactly.
+
+- real_serp_findings_summary: All five ranking titles are label-style ("Causes & Treatment," "5 Causes," "What Causes...") and none takes a position on the calcium belief that drives the search. Four of the five bodies either list calcium/zinc as a possible cause or hedge on it, so the SERP itself is contradictory. No title mentions the post-gel or "weeks later" angle.
+- selected_option_rationale: The title tests that gap directly. It states the verdict ("not calcium") and leads with the exact query, so a reader holding a confusing answer from Healthline sees a resolution in the SERP.
+- title: **White Spots on Nails: It's Not Calcium (Here's Why)**
+- title_char_count: 54
+- meta_description: Those white specks aren't a calcium shortage. A dermatologist explains what really causes them, why they show up weeks late, and when to worry.
+- meta_char_count: 148
+- intro_hook_brief: Open with the verdict in one flat sentence: the white spots almost certainly aren't calcium. Then hit the reader's real confusion, "I can't remember hurting it," and reframe it as the answer (the spot appears weeks after the injury). Technique 1, The Claim. Keyword twice in the first 100 words.
+- first_h2_hook_direction: Phrase H2-1 as the exact question the reader has been Googling and answer it in two sentences before any elaboration. Subtle, not a repeat of the title's "not calcium."
+
+---
+
+## SECTION 9: SEARCH JOURNEY
+- reader_arrival_state: Slightly worried, holding one hand up to the light, carrying a half-remembered calcium rule and a contradictory Google result.
+- journey_arc:
+  1. Deliver the verdict (it's not calcium) and the reassurance.
+  2. Explain the mechanism (matrix injury, weeks of delay) so the confusion resolves.
+  3. Sort spots by pattern so the reader can self-check in one minute.
+  4. Cover the gel/polish angle, the most common modern cause.
+  5. Give the timeline and what genuinely helps.
+  6. Draw a clean "see a doctor" line, then close with permission to stop worrying.
+- promise_to_deliver: This post settles the calcium question with a dermatologist's word and shows you exactly what your spots are, how long they'll last, and when they'd matter.
+- exit_state: Relieved and clear-headed, knowing what caused the spots, that they'll grow out, and precisely which signs would mean a call to a doctor.
+
+---
+
+## SECTION 10: CONTENT STRUCTURE
+- h1: White Spots on Nails: It's Not Calcium (Here's Why)
+- h2_structure (exact order, do not rename or reorder):
+  1. Do White Spots on Nails Mean You're Low on Calcium?
+  2. What Actually Causes White Spots on Nails?
+  3. Why Do I Get White Spots on My Nails After Gel Polish?
+  4. How Long Do White Spots on Nails Take to Go Away?
+  5. Can You Get Rid of White Spots on Nails Faster?
+  6. When Are White Spots on Nails a Real Health Sign?
+  7. How Do You Stop White Spots on Nails From Coming Back?
+- word_budget: introduction 210 | H2-1 230 | H2-2 260 | H2-3 220 | H2-4 170 | H2-5 190 | H2-6 200 | H2-7 160 | conclusion 160 (total 1800)
+- H3s at editorial discretion. faqItems available for overflow queries (kids, pregnancy, toenails).
+- content note H2-2: sort by **pattern**: pinpoint dots (matrix trauma), chalky patches after polish (keratin granulations, see H2-3), horizontal bands across several nails (illness or medication, one-line mention, defer to the pillar), long lines or whole-nail white (see H2-6).
+- content note H2-6: include the at-home press test: press the spot. If it stays white it is in the nail plate (usually harmless). If the color changes, it's something else worth checking.
+
+---
+
+## SECTION 11: INTERNAL LINKS
+**BLOG GEN INSTRUCTION:** Every link below must appear. Cluster anchors verbatim. Total internal links must not exceed 6.
+
+| url_or_slug | title | anchor_text | placement_note | link_type |
+|---|---|---|---|---|
+| /blog/nail-health/nail-color-meaning-health | What Your Nail Color Is Telling You About Your Health | what your nail color is telling you about your health | H2-6, wider guide for readers whose spots don't fit the harmless pattern | cluster-pillar |
+| /blog/nail-health/nail-fungus-myths-what-is-actually-true | Nail Fungus Myths: What's Actually True | other common nail myths debunked | H2-1, immediately after closing the calcium myth | cluster-spoke |
+| https://mirelleinspo.com/blog/nail-strengthening/does-biotin-work-for-nails | Does Biotin Work for Nails | whether biotin actually works for nails | H2-1, when supplements come up | existing_site_post |
+| https://mirelleinspo.com/blog/nail-strengthening/repair-nails-after-gel-acrylic-removal | Repair Nails After Gel Acrylic Removal | how to repair nails after gel or acrylic removal without more damage | H2-3, after explaining removal-caused spots | cross-site |
+| https://mirelleinspo.com/blog/cuticle-care/what-does-cuticle-oil-do | What Does Cuticle Oil Do | why a daily cuticle oil routine changes long-term nail health | H2-5, in the hydration advice | cross-site |
+
+---
+
+## SECTION 12: VOICE AND TONE
+- recommended_voice: Calm expert friend (dermatologist-backed, not clinical)
+- tone_characteristics: reassuring but not dismissive; direct (verdict first); precise about mechanism; plainspoken, no jargon without a one-line definition; honest about the rare serious cases
+- language_style: short declarative sentences, second person ("you"), one concrete analogy for the matrix delay (a bruise that shows up late), no listicle filler, no hedging stacks
+- audience_match: The reader arrives worried and holding conflicting advice. A calm, confident voice that gives the verdict first and the mechanism second resolves the anxiety faster than a balanced cause-list.
+
+---
+
+## SECTION 13: EXTERNAL LINKS
+| url | context | anchor_suggestion |
+|---|---|---|
+| https://my.clevelandclinic.org/health/symptoms/25243-white-spots-on-nails | H2-6, the "when to call a doctor" symptom list (fatigue, blurred vision, new nail changes) | Cleveland Clinic's guidance on when to call a doctor |
+| https://www.health.harvard.edu/diseases-and-conditions/why-do-i-have-white-spots-on-my-nails | H2-3, prolonged polish preventing normal cell shedding | Harvard Health on leaving polish on too long |
+
+Both are real fetched pages with genuine clinical editorial voice. No forced links.
+
+---
+
+## SECTION 14: FEATURED EXPERT
+- expert_alias: cameron-rokhsar-md
+- expert_quote (full, exactly as supplied): "White spots, leukonychia, are almost always from minor trauma to the nail matrix, a stubbed toe or manicure pressure weeks earlier, not a calcium or zinc deficiency the way the old myth claims, and they grow out on their own without treatment."
+- suggested_placement: Use the clause "not a calcium or zinc deficiency the way the old myth claims" as the attributed opener of **H2-1**, since it is the direct answer to that H2. Use "a stubbed toe or manicure pressure weeks earlier" in **H2-2** where the delayed-appearance mechanism is explained, and "they grow out on their own without treatment" in **H2-4** or the conclusion. Extracts must be word-for-word and must not change meaning: the quote says trauma is "almost always" the cause, so never overstate it to "always."
