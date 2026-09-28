@@ -1,0 +1,174 @@
+# INPUT FILE — can-toenail-fungus-kill-you
+
+## 1. FILE AUTHORITY
+THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. Section 2 values are hardcoded; do not ask, adjust or override. Read section 15 FIRST, then 2.
+
+## 2. POST_CONSTANTS
+- slug: can-toenail-fungus-kill-you
+- topic_slug: nail-health
+- canonical: https://mirelleinspo.com/blog/nail-health/can-toenail-fungus-kill-you
+- post_type: spoke
+- intent: informational
+- word_count: 1800 (ceiling/reference, not a target. Finish under it if the post is complete. Never pad.)
+- image_count: 7 (1 hero + 6 body)
+- show_inspo_gallery_link: false
+- template: posts
+- hero_dimensions: 1200x675
+- category: Nail Health (placeholder: category list not supplied, confirm)
+- publish_date: 2026-09-28
+- author: jyoti-mirelle
+- expertise_type: licensed_derm_or_nail_health_expert
+- expert_alias: podiatrist_toenail_fungus_qa
+- expert_quote: see section 14
+
+## 3. CLUSTER SNAPSHOT
+- pillar_slug: what-kills-toenail-fungus-instantly | pillar_title: What Kills Toenail Fungus Instantly? What Actually Works | pillar_primary_keyword: what kills toenail fungus instantly
+- this_post_role: spoke | show_inspo_gallery_link_cluster_default: false
+- keywords_to_avoid (never a focus term): how to know if toenail fungus is dying; what does nail fungus look like; is nail fungus contagious; is toenail fungus contagious; paronychia; infected ingrown toenail; nail patch test; nail color meaning; spoon nails; Beau's lines; white spots on nails; nail psoriasis vs fungus; toenail fungus vs nail psoriasis; dark line on nail; diabetic nail care; superficial white onychomycosis; do otc nail fungus treatments work; jublia vs terbinafine; does laser treatment work for nail fungus; home remedies for nail fungus that work; acrylic nails over fungal nail; nail fungus myths; how long does it take a toenail to grow back; ingrown toenail stages; dental floss ingrown toenail; partial nail avulsion recovery; should i cut my ingrown toenail; do you need antibiotics for ingrown toenail; gel nails safe during pregnancy; how long for nails to recover from gel or acrylic; toenail fungus; toenail fungus causes; toenail fungus symptoms; toenail fungus treatment; toenail fungus stages; best toenail fungus treatment; nail fungus treatment/symptoms/causes/prevention/home remedies; how long does nail fungus take to clear; what is nail fungus; vertical ridges on nails; hema allergy symptoms; plus every other keyword in existing_site_posts_excluded.
+- Drift wall: "spread" here means inside the body (bloodstream, organs), never person-to-person contagion (owned by is-nail-fungus-contagious). Treatment is a pointer only (pillar owns it).
+
+## 4. SERP ANALYSIS
+Top 5 fetched (body word counts counted from fetched text; keyword counts = exact phrase / phrase-family incl. "can you die from toenail fungus"):
+1. nebraskamed.com/dermatology/can-toenail-fungus-spread-to-other-parts-of-your-body: ~400w, 7 Q&A headings, 1/1. MD-authored, only page naming non-dermatophyte molds/yeast that can kill immunocompromised people ("rare"). Weak: three-sentence answer, no pathway, no signs.
+2. my.clevelandclinic.org/health/diseases/11303-toenail-fungus: ~1,500w, 7 H2, 0/0. Authoritative: "in rare cases" cellulitis; see provider if diabetes, circulation, weak immune system, redness/pain/pus. Never answers "kill" directly.
+3. yanaskincare.com/can-toenail-fungus-kill-you/: ~1,400w, 14 H2, 3/3. Med-spa sales page (13 booking CTAs), hedges "rarely fatal", never names cellulitis or sepsis, unsourced.
+4. snuggymom.com/can-you-die-from-toenail-fungus/: ~1,800w, 12 H2, 0/11. Fullest pathway (crack, cellulitis, sepsis, diabetic chain) and red-flag list. Weak: parenting site, no medical review, unsourced "statistics show".
+5. dallasfoot.com/why-you-should-never-let-toenail-fungus-go-untreated/: ~600w, 3 H2, 0/0. Podiatry group; cellulitis "potentially life-threatening". Fear-imperative framing.
+Supplemental fetched: wilksadvancedfootcare.com (~330w, cellulitis to bloodstream), ahwfac.com (~520w), blog.walgreens.com (MD FAAD, 230w, "few rare reports" of bloodstream spread).
+- top_5_word_count_average: ~1,140 | top_5_keyword_baseline (phrase-family avg): 3.0 (exact-phrase avg 0.8)
+
+competitor_gaps (each confirmed on 2+ sources):
+- Melanoma lookalike: none of the top 5 mention it. Confirmed by Moffitt, City of Hope, Cleveland Clinic (subungual melanoma), North Shore Foot & Ankle.
+- Rare-mold/immunocompromised route (Fusarium): only Nebraska covers it. Confirmed by a PMC case series (toenail as source of fungal cellulitis in immunosuppressed patients), an HSCT case report, and 4 "spread internally/bloodstream" pages.
+- Ingrown/cut as the entry point to a fatal-pathway infection: none of the top 5. Confirmed by Sole Foot & Ankle (two pages) and the expert quote.
+- Diabetes quantified: top 5 only say "higher risk". PMC 2025 review (snippet-verified): confirmed onychomycosis 26% vs 9.1% non-diabetic in one study; onychomycosis linked to secondary infection, ulcer, amputation in advanced cases; diabetes is the leading cause of US lower-limb amputation, usually after a non-healing foot ulcer.
+- Decision-grade red-flag list (what to do today): Achilles Foot & Ankle, Podiatry Group of South Texas, Snuggy Mom.
+missing_semantic_territory: fungal cellulitis, nondermatophyte molds, secondary bacterial infection, portal of entry, subungual melanoma, immunosuppressed, subungual ulcer.
+our_strategic_approach: The top 5 average ~1,140 words split between thin Q&A (Nebraska, Dallas) and sales copy (Yana); none gives a calibrated verdict plus a named mechanism plus a triage. This post opens with the verdict, then walks the three real routes (bacterial infection through a break, diabetes/circulation, weak immune system), then the lookalike that is actually cancer, then a red-flag decision list. Seven query-driven H2s beat Yana's 14 sales-led ones; there are no clinic CTAs; every claim traces to a named clinical source. Long-tail owned: "toenail fungus sepsis", "fungal nail cellulitis", "toenail fungus immunocompromised", "toenail fungus melanoma".
+Fact bank (use only these numbers; paraphrase, do not quote):
+- Nebraska Medicine, Corey Georgesen MD: dermatophyte toenail fungus doesn't usually spread inside the body; nondermatophyte molds/yeast can spread and cause death in those without an immune system; these infections are rare.
+- Cleveland Clinic: rare cellulitis; 1 in 10 people have onychomycosis, 1 in 2 over 70; dermatophytes cause 90% of toenail infections.
+- Walgreens (Chacon MD FAAD): few rare bloodstream reports; risk very low, higher with diabetes/circulation/weak immunity.
+- Moffitt: subungual melanoma = 0.7-3.5% of melanomas; a bruise grows out with the nail, a melanoma streak doesn't.
+- Provenance: Google PAA/autocomplete/Trends not directly retrievable; question data comes from live SERP FAQ blocks and Q&A titles. PMC/AAL pages were blocked (snippet-verified only).
+recommended_image_count_validation: 7 confirmed; top 5 are text-only, so images are an edge.
+
+## 5. AUDIENCE INTELLIGENCE
+Blog Gen: this is your creative brief.
+- who_they_are: non-expert adult, often 40+ or caring for a diabetic/older relative, ignoring a thick yellow nail for months or years, now scared after scary content or a new symptom (redness, pain).
+- wants: a straight verdict, whether the rare case applies to them, the exact warning signs, what to do this week.
+- frustrated_by: "rarely" with no explanation; clinic sales pages; generic blogs; scare-ad copy. The SERP for "kill you" is polluted with spam ads ("It can cost you your life") that primed this fear.
+- top_5_pain_points: (1) can't tell if "rare" includes them; (2) can't tell fungus from a bacterial infection; (3) fear it gets in the blood or organs; (4) guilt about ignoring it for years; (5) worry the nail might not be fungus at all.
+- exact_user_phrases: "can you die from toenail fungus"; "spread to other parts of your body"; "get into your bloodstream"; "spread internally"; "left untreated"; "long-term consequences"; "does it cause gangrene"; "just cosmetic"; "how serious is it"; "does it actually hurt"; "for years".
+- intent_content_signals: verdict in first two sentences; named risk groups; short paragraphs; sourced claims; red-flag checklist; zero product pitch; one expert voice; calm register.
+
+## 6. SEMANTIC KEYWORD DATA
+Primary keyword in <strong> every mention. AEO terms trigger direct-answer paragraphs.
+- primary_keyword: can toenail fungus kill you
+- keyword_variations: can you die from toenail fungus; can toenail fungus be fatal; is toenail fungus life threatening; is toenail fungus deadly; is toenail fungus dangerous; can toenail fungus cause sepsis; can toenail fungus spread to your bloodstream; can you die from a fungal nail infection
+- cluster_keywords: untreated toenail fungus complications; toenail fungus and cellulitis; toenail fungus and diabetes; toenail fungus immunocompromised; toenail fungus bloodstream; toenail fungus amputation; fungal nail infection risks; secondary bacterial infection nail; when to see a doctor for toenail fungus; toenail fungus not just cosmetic; serious toenail infection warning signs
+- lsi_terms: onychomycosis; dermatophytes; nondermatophyte molds; Fusarium; cellulitis; sepsis; bloodstream infection; osteomyelitis; secondary bacterial infection; portal of entry; nail bed; keratin; peripheral neuropathy; poor circulation; immunosuppressed; diabetic foot ulcer; subungual melanoma; nail lifting; athlete's foot; antibiotics. (Mention "ingrown toenail" in passing only; never target "infected ingrown toenail".)
+- aeo_terms: Can you die from toenail fungus? | Can toenail fungus cause sepsis? | Can toenail fungus lead to amputation? | Who is at higher risk of serious complications from toenail fungus? | Can toenail fungus spread to your bloodstream? | Can toenail fungus be confused with skin cancer? | How do you know if toenail fungus has become a serious infection? | When should you see a doctor about toenail fungus? | What happens if you leave toenail fungus untreated for years? | Is toenail fungus just cosmetic?
+- technical_terms: onychomycosis; tinea unguium; dermatophyte; cellulitis; sepsis; osteomyelitis; subungual melanoma; peripheral artery disease
+- user_language: "left untreated"; "get into your blood"; "just cosmetic"; "how serious is it"; "for years"; "spread to other parts of your body"; "gangrene"; "does it hurt"
+
+## 7. VOICE AND AI QUERIES
+Answer every query in the relevant H2 body; otherwise route to faqItems.
+1 Can toenail fungus kill you? 2 Can you die from toenail fungus if you leave it for years? 3 Can toenail fungus get into your bloodstream? 4 Can toenail fungus spread to your organs, like your lungs? 5 Can toenail fungus cause sepsis? 6 Is toenail fungus just cosmetic or actually dangerous? 7 Can toenail fungus lead to amputation? 8 Why is toenail fungus riskier with diabetes? 9 Can toenail fungus kill you if your immune system is weak? 10 How do you know if toenail fungus has turned into a serious infection? 11 What's the difference between toenail fungus and cellulitis? 12 Can a dark line under a toenail be fungus or cancer? 13 When should I see a doctor about toenail fungus? 14 Does toenail fungus go away on its own? 15 Can toenail fungus be fatal in healthy people? 16 Can an infected toenail kill you?
+
+## 8. HOOK AND CTR
+- real_serp_findings_summary: Competitor titles are question-led with no answer ("Can Toenail Fungus Kill You? Houston Expert Guide"; "Can You Die From Toenail Fungus? | Critical Health Facts") or fear-imperative ("Why You Should Never Let Toenail Fungus Go Untreated", used by 3 clinics). None states a verdict, tells the reader whether it applies to them, or names a risk group.
+- selected_option_rationale: Tests the gap directly: the reader's real question is "does this apply to me", and "Who's Actually at Risk" answers it while rejecting the fear-imperative pattern. "Actually" is the single earned power word.
+- title: **Can Toenail Fungus Kill You? Who's Actually at Risk** (LOCKED; no year tag, health/safety topic)
+- title_char_count: 51
+- meta_description: **Thick, yellow nail? Toenail fungus rarely kills on its own, but three situations raise the risk. Know the red flags and when to call a doctor.** (LOCKED)
+- meta_char_count: 142
+- intro_hook_brief (Trigger 1, Curiosity Gap): Open with the honest verdict in sentence 1: almost never on its own. Then open the gap: the danger runs through three specific situations and the reader can find out which one, if any, is theirs. Promise exactly those three (a bacterial infection entering through a break; diabetes or poor circulation; a weak immune system). No scare language, no reassurance-only tone.
+- first_h2_hook_direction: Use the reader's own words ("can you die from toenail fungus") and open with the verdict in one plain, calibrated sentence. Not a repeat of the title.
+
+## 9. SEARCH JOURNEY
+- reader_arrival_state: Anxious and a little guilty about a nail they have ignored, wanting a straight answer.
+- journey_arc: (1) Verdict, plainly (H2-1) (2) The mechanism: fungus opens the door, bacteria walk in (H2-2) (3) Who the door matters for: diabetes/circulation (H2-3), weak immune system (H2-4) (4) The lookalike that is actually cancer (H2-5) (5) Triage, then a calm action list (H2-6, H2-7)
+- promise_to_deliver: A straight answer on whether toenail fungus can kill you, who is actually at risk, and the signs that mean act today.
+- exit_state: Calm and informed, knowing their own risk tier and their next step.
+
+## 10. CONTENT STRUCTURE
+Follow exactly. H3s at editorial discretion.
+- h1: Can Toenail Fungus Kill You? The Honest Answer
+- h2_structure:
+1. Can You Die From Toenail Fungus? What Doctors Actually Say (200)
+2. How a Fungal Nail Turns Into a Dangerous Infection (210)
+3. Diabetes and Poor Circulation: Why the Risk Is Higher (220)
+4. Can Toenail Fungus Get Into Your Blood? The Weak-Immune-System Exception (210)
+5. When It Isn't Fungus: The Dark Streak Worth Checking (180)
+6. Red Flags: When to See a Doctor (Not Next Month) (210)
+7. What to Do About Toenail Fungus This Week (180)
+- word_budget: introduction 220 | conclusion 170 | H2s as listed (sum 1,410)
+
+## 11. INTERNAL LINKS (5; cap 6)
+Anchors verbatim. Weave into prose, never as a standalone CTA.
+| anchor_text | url | placement | type |
+|---|---|---|---|
+| recognizing toenail fungus symptoms early | https://mirelleinspo.com/blog/toenail-fungus/toenail-fungus-symptoms | H2-2, opening: how the infection starts | existing_site_post |
+| diabetic nail care and infection risk | /blog/nail-health/diabetic-nail-care-guide | H2-3, after the diabetes numbers | cluster-spoke |
+| the dark nail line that can signal melanoma | /blog/nail-health/longitudinal-melanonychia-warning-signs | H2-5, the streak paragraph | cluster-spoke |
+| what actually kills toenail fungus | /blog/nail-health/what-kills-toenail-fungus-instantly | H2-7, treatment pointer only | cluster-pillar |
+| how to cut toenails straight across so they don't turn ingrown | https://mirelleinspo.com/blog/toenail-shapes/best-toenail-shape-for-ingrown-nails | H2-7, risk-lowering habits (ingrown edges are a bacterial entry point; that page also states the infection/diabetes threshold) | cross-site |
+
+## 12. VOICE AND TONE
+- recommended_voice: Calm clinician-friend
+- tone_characteristics: direct-first; calibrated ("almost never", "rarely" used precisely); non-alarmist; specific; quietly reassuring
+- language_style: second person; plain words; define each medical term once; short sentences on risk; nail as a barrier/door metaphor at most once
+- audience_match: A scared, non-expert reader needs the verdict and the boundaries, not comfort or fear.
+
+## 13. EXTERNAL LINKS
+| url | context | anchor_suggestion |
+|---|---|---|
+| https://www.nebraskamed.com/dermatology/can-toenail-fungus-spread-to-other-parts-of-your-body | H2-4: rare molds/yeast in immunocompromised people | a Nebraska Medicine dermatologist explains |
+| https://my.clevelandclinic.org/health/diseases/11303-toenail-fungus | H2-2: cellulitis in rare cases, who should seek care | Cleveland Clinic's toenail fungus overview |
+
+## 14. FEATURED EXPERT
+- expert_alias: podiatrist_toenail_fungus_qa
+- expert_quote (verbatim): "There are nail issues that can cause big problems if you don't get them treated. If your toenail turns from a fungal toenail into an ingrown toenail with redness, swelling, pain, and drainage, you should see your doctor right away. There are documented cases of patients getting infected toenails and losing their toes, or worse yet, their feet or legs. Those are extreme cases but they happen. It takes a lot to go from an infected toenail to leg amputation, and usually, ingrown toenails can be treated quickly and effectively in the office."
+- suggested_placement: H2-2 for the "fungal to ingrown, see your doctor right away" extract; H2-6 or the conclusion for "It takes a lot to go from an infected toenail to leg amputation..." Never use the "losing their toes" sentence without "Those are extreme cases but they happen" and the "It takes a lot" sentence within the same section. Word-for-word extracts only; meaning must not shift.
+
+## 15. EXECUTION PLAN (READ FIRST; lock every value)
+**block_1_keyword_execution**
+- primary_keyword: can toenail fungus kill you | top_5_density_baseline: 3 | total_mention_target: 6 (3 + 3), not a percentage
+- first_100_words: TWICE. Mention 1 = sentence 1 (the verdict opener). Mention 2 = sentence 3 or 4, before word 100.
+- distribution: intro 2, H2-2 1, H2-3 1 (first 900 words = 4); H2-6 1, conclusion 1 (second half = 2). H2 headings carry no exact phrase.
+- Every mention wrapped in <strong>; scan after each paragraph. keywords_to_avoid: section 3.
+
+**block_2_word_budget**: total 1,800 (+/-50, never exceed) | intro 220 | H2-1 200 (low) | H2-2 210 (med) | H2-3 220 (high) | H2-4 210 (high) | H2-5 180 (med) | H2-6 210 (med) | H2-7 180 (low) | conclusion 170. Cut over-budget sections before moving on.
+
+**block_3_image_plan**: total 7; hero in frontmatter only; 6 body.
+| # | after | type | context |
+|---|---|---|---|
+| 1 | H2-1 | standard_inspiration | calm, healthy bare toenails on linen (reassurance) |
+| 2 | H2-2 | infographic | pathway: fungal nail, crack or break, bacteria, cellulitis, bloodstream (labeled steps, "rare" marked at the end) |
+| 3 | H2-3 | standard_inspiration | well-kept feet, neutral polish, soft light |
+| 4 | H2-4 | standard_inspiration | close-up of a healthy natural toenail |
+| 5 | H2-6 | standard_inspiration | clean cotton socks and dry, comfortable open-toe shoes |
+| 6 | H2-7 | standard_inspiration | tidy straight-cut toenails, natural finish |
+No infected-toe photos, no tools or hands, no photo side-by-sides. Path: /images/blog/nail-health/can-toenail-fungus-kill-you/filename.webp
+
+**block_4_opening_techniques** (no two consecutive equal): Intro T1 (The Claim) | H2-1 T2 | H2-2 T3 (The Reframe: the fungus isn't the danger, the door it opens is) | H2-3 T1 | H2-4 T2 | H2-5 T3 | H2-6 T1 | H2-7 T2 | Conclusion T3. Check each opener against banned_opening_approaches.
+
+**block_5_link_placements**: place the 5 links from section 11 exactly as specified. Full URLs: cluster links /blog/nail-health/[slug]. Anchors verbatim.
+
+**block_6_aeo_geo_plan**: write a 2-3 sentence direct answer IMMEDIATELY after the H2 heading.
+- H2-1: Can you die from toenail fungus? | Is toenail fungus just cosmetic?
+- H2-2: Can toenail fungus cause sepsis? | What happens if you leave it untreated for years?
+- H2-3: Can toenail fungus lead to amputation? | Who is at higher risk of serious complications?
+- H2-4: Can toenail fungus spread to your bloodstream?
+- H2-5: Can toenail fungus be confused with skin cancer?
+- H2-6: How do you know it has become a serious infection? | When should you see a doctor?
+- GEO definitions: onychomycosis (H2-1); cellulitis, sepsis (H2-2); peripheral neuropathy (H2-3); nondermatophyte molds (H2-4); subungual melanoma (H2-5). One declarative, hedge-free sentence each.
+
+**block_7_active_constraints**
+- No em dashes; replace with comma, period, parentheses or "but".
+- Banned-vocab watch (placeholder: banned list not supplied, verify): crucial, delve, navigate, comprehensive, essential, "it's important to note".
+- American English (color, recognize, -ize). Hero is frontmatter only. Every mention of the primary keyword in <strong>. Internal URLs as full paths.
+- Density check after every 2 H2s against the distribution in block_1.
+- YMYL guard: no diagnosis, no dosing, no treatment protocol; use only section 4 fact-bank numbers; write "severely immunocompromised" for Nebraska's claim; keep "rare/almost never" calibration; end with see-a-clinician guidance.
+- expert_quote_reminder: expert_alias goes into the expert frontmatter field exactly as given. Quote used whole or as word-for-word extracts; never paraphrased or altered in meaning.
