@@ -1,0 +1,507 @@
+{
+  "section_1_file_authority": {
+    "statement": "THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded. Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.",
+    "measurement_disclosure": "word_count and total_mention_target are NOT measured averages. web_fetch returned page content but no counting method was available, so these two values are Input Gen Agent estimates derived from the observed structure of the 5 fetched pages (see section_4). All other values come from real tool calls."
+  },
+
+  "section_2_post_constants": {
+    "slug": "diabetic-nail-care-guide",
+    "topic_slug": "nail-health",
+    "canonical": "https://mirelleinspo.com/blog/nail-health/diabetic-nail-care-guide",
+    "post_type": "spoke",
+    "intent": "informational",
+    "word_count": 2400,
+    "word_count_basis": "ESTIMATE, not measured. The competitor set ranges from short (ADA, roughly 6 headings, brief) to long (Tanglewood, 8 H2s plus 5 treatment levels plus 7-question FAQ). 2400 is a ceiling to write within, not a target to hit.",
+    "image_count": 7,
+    "show_inspo_gallery_link": false,
+    "template": "posts",
+    "hero_dimensions": "1200x675",
+    "category": "Nail Health",
+    "publish_date": "2026-09-28",
+    "author": "jyoti-mirelle",
+    "expertise_type": "licensed_derm_or_nail_health_expert",
+    "expert_alias": "jonathan-spages",
+    "expert_quote": "People with diabetes need to be more careful with nail care because elevated blood sugar can affect circulation, nerve sensation, and the body's ability to fight infection and heal. I recommend never aggressively cutting the cuticles or digging into the corners of toenails. Even a tiny cut that someone barely notices can become a much bigger problem, especially if neuropathy is present... If you have poor circulation, neuropathy, an ingrown nail, fungal infection, open sore, or previous diabetic foot problems, I would skip the salon pedicure and have nail care performed or guided by a podiatrist. Most importantly, keeping blood sugar well controlled helps reduce many of these complications in the first place."
+  },
+
+  "section_3_cluster_snapshot": {
+    "pillar_slug": "what-kills-toenail-fungus-instantly (cluster pillar; this post links to the gel-damage pillar per its locked links_to)",
+    "pillar_title": "What Kills Toenail Fungus Instantly? What Actually Works",
+    "pillar_primary_keyword": "what kills toenail fungus instantly",
+    "this_post_slug": "diabetic-nail-care-guide",
+    "this_post_role": "spoke",
+    "show_inspo_gallery_link_cluster_default": false,
+    "keywords_to_avoid": [
+      "toenail fungus", "toenail fungus causes", "toenail fungus symptoms", "toenail fungus treatment", "toenail fungus stages", "toenail fungus vs nail psoriasis", "is toenail fungus contagious", "nail fungus (all existing-site variants)", "how often should you trim your nails", "vertical ridges on nails", "hema allergy symptoms",
+      "infected ingrown toenail (owned by post 7)", "ingrown toenail stages (post 26)", "should i cut my ingrown toenail (post 29)", "can toenail fungus kill you (post 2)", "do otc nail fungus treatments work (post 19)", "does laser treatment work for nail fungus (post 21)", "how long for nails to recover from gel or acrylic (post 15)", "gel nails safe during pregnancy (post 16)", "acrylic nails over fungal nail (post 23)", "nail color meaning (post 9)", "white spots on nails (post 12)", "dark line on nail (post 14)"
+    ],
+    "drift_warning": "Fungus and ingrown nails appear in this post ONLY as diabetic-specific risk context, in 1-2 short passages each. Never as a focus term, never a dedicated H2 that would compete with posts 2, 7, 19, 26, 29 or the existing site fungus posts."
+  },
+
+  "section_4_serp_analysis": {
+    "blog_gen_instruction": "Use our_strategic_approach as the concrete angle for the introduction and conclusion, and to guide depth in relevant H2s.",
+    "fields": {
+      "competitor_gaps": [
+        "No fetched page resolves the 'can I cut my own toenails' conflict with a simple decision rule. Tanglewood uses a five-box checklist, Naples says 'fine for most', ADA gives no guidance, and search results show clinics saying 'never'. Demand confirmed: PAA-style query, Quora ('Why is it dangerous for a diabetic to cut their own toe nails'), YouTube, multiple clinic pages.",
+        "Salon pedicure safety for diabetics is thin in the top results. WebMD gives one line ('bring your own tools'), ADA none. Demand confirmed: Quora ('Is it safe for individuals with diabetes to go to a nail salon'), SalonGeek (5+ threads where nail techs themselves ask what is safe).",
+        "Insurance and cost confusion. Naples says 'check with the practice', Tanglewood claims six Medicare visits a year. Demand confirmed: Quora, SalonGeek ('covered service by insurances'), independent Medicare explainers.",
+        "'Toenails cut too close' aftercare for a diabetic. Only a lone Quora answer addresses it. Demand confirmed: Quora plus the Salon/YouTube 'nail cut too short' cautionary content."
+      ],
+      "missing_semantic_territory": [
+        "cut nails too short diabetes what to do",
+        "diabetic pedicure at a nail salon: what to ask",
+        "bring your own tools nail salon diabetes",
+        "protective sensation / monofilament test (plain-language explanation)",
+        "diabetic nail care for a family member or caregiver",
+        "free edge / white edge how much to leave"
+      ],
+      "our_strategic_approach": "The top pages split into two camps: clinic pages that end in a sales pitch (Tanglewood's five-level treatment menu with prices, Naples' 'book now') and broad foot-care pages that give nails one paragraph (WebMD, ADA). Nobody gives a nail-specific reader a clear risk-sorted answer. This post will open with a short 'which group are you in' triage (low-risk self-trimmer vs high-risk professional-care) instead of a blanket 'never'. It will then own the salon pedicure and caregiver angles competitors skip, and keep fungus and ingrown detail to short cross-links. It will also correct the six-visits-a-year Medicare claim that Tanglewood states and independent sources do not support.",
+      "top_5_fetched_pages_summary": [
+        {
+          "url": "https://www.tanglewoodfootspecialists.com/library/diabetic-toenail-care-safe-management-treatment-options.cfm",
+          "real_word_count": "not measured (long-form; clinic article, roughly the longest of the five)",
+          "real_h2_count": "8 H2 plus a Level 1-5 H3 ladder and a 7-question FAQ",
+          "real_keyword_mention_count": "not measured",
+          "note": "Strength: five-box self-trim qualification, specific technique (1-2 mm white edge, dry nails). Weakness: heavy sales content, prices and laser pitch; states Medicare covers six visits a year, which independent sources do not support."
+        },
+        {
+          "url": "https://www.naplespodiatrist.com/diabetic-nail-care-why-toenails-matter-more-than-you-think/",
+          "real_word_count": "not measured (mid-length how-to)",
+          "real_h2_count": "9 H2 (Why this matters, What you'll need, The steps, Troubleshooting, Tools, What next, FAQ, One last thing, Related) plus 7 numbered steps",
+          "real_keyword_mention_count": "not measured",
+          "note": "Strength: best step-by-step with 'common mistake' callouts, 8-question FAQ. Weakness: advises soaking feet 5 minutes, which conflicts with Tanglewood and the NIH guidance; regional, sales-flavored."
+        },
+        {
+          "url": "https://www.webmd.com/diabetes/caring-feet",
+          "real_word_count": "not measured (long, foot-wide; nails are one short section)",
+          "real_h2_count": "12+ H2 covering the whole foot",
+          "real_keyword_mention_count": "not measured",
+          "note": "Strength: authority, medically reviewed, shoe-fit test. Weakness: nails get about two short paragraphs; no self-trim guidance, no salon detail."
+        },
+        {
+          "url": "https://www.canyonfootankle.com/blog/diabetic-toenail-trimming-tips-from-idaho-foot-doctor.cfm",
+          "real_word_count": "not measured (short-mid listicle)",
+          "real_h2_count": "5 H2 plus a 5-tip numbered list",
+          "real_keyword_mention_count": "not measured",
+          "note": "Strength: clean 5-tip list, cites NIDDK on bringing your own salon tools. Weakness: shallow, no risk triage, no cost or coverage info."
+        },
+        {
+          "url": "https://diabetes.org/health-wellness/diabetes-and-your-feet/foot-care-tips",
+          "real_word_count": "not measured (short)",
+          "real_h2_count": "6 H3 under one H2 (whole-foot guidance)",
+          "note": "Strength: highest authority, concise. Weakness: two sentences on nail trimming; no depth on any nail-specific question."
+        }
+      ],
+      "top_5_word_count_average": "NOT MEASURED. See measurement_disclosure. The five pages span roughly short (ADA, Canyon) to long (Tanglewood, WebMD), so no single average was defensible.",
+      "top_5_keyword_density_average": "NOT MEASURED. See measurement_disclosure.",
+      "best_external_sources_found": "See section_13.",
+      "recommended_image_count_validation": "image_count 7 (hero + 6 body) follows phase_2 rule 5. The SERP is text-first (clinic pages use 2-4 stock images), so 7 is comfortably above competitors."
+    }
+  },
+
+  "section_5_audience_intelligence": {
+    "blog_gen_instruction": "This is your primary creative brief. Every paragraph is written for this specific person with this specific intent.",
+    "fields": {
+      "who_they_are": "Two overlapping readers: (1) an adult with type 1 or type 2 diabetes, often 50+, wondering if they can safely keep trimming their own toenails; (2) an adult child or caregiver managing a parent's or partner's feet. Both are worried, practical, and not looking for aesthetics. This is a medical-safety query, confirmed by Pinterest returning only awareness-nail-art noise and Quora/YouTube returning safety and technique content.",
+      "what_they_want_from_this_post": "A clear yes/no/it-depends rule they can apply to themselves today, plus the exact technique and the red flags that mean 'call someone'.",
+      "what_frustrates_them": "Contradictory advice ('never cut your own' vs 'just cut straight across'), being told to see a podiatrist with no explanation of cost or coverage, and generic foot-care lists that skip the nails.",
+      "top_5_pain_points": [
+        "Not knowing whether they are allowed to trim their own nails",
+        "Fear that one small cut will lead to a serious infection or amputation",
+        "Trouble seeing or reaching their own feet",
+        "Uncertainty about salon pedicures and what is actually safe",
+        "Confusion about whether insurance or Medicare pays for professional nail care"
+      ],
+      "exact_user_phrases": [
+        "Why is it dangerous for a diabetic to cut their own toe nails? I have been told that by several people, but never got a good answer.",
+        "Is it safe for individuals with diabetes to go to a nail salon?",
+        "What can be done for toenails cut too close for diabetes?",
+        "If you have diabetes and cannot properly see your feet due to poor vision, can someone else help by clipping your nails?",
+        "Why is it bad for people with diabetes to cut nails close to the skin?",
+        "Never attempt to cut your own toe nails.",
+        "I never thought something as simple as cutting my toenails could cause so much trouble.",
+        "Can a diabetic person get a regular pedicure?",
+        "cut my toenails too short",
+        "My mom is a diabetic and can't bend to reach her feet"
+      ],
+      "intent_content_signals": [
+        "Checklist or decision-rule formats earn engagement (Tanglewood's five-box test, Michigan Foot Doctors' five conditions)",
+        "Numbered steps with 'common mistake' callouts (Naples)",
+        "Plain-language explanations of WHY (the 'faulty smoke alarm' analogy in Tanglewood) beat bare instructions",
+        "Concrete numbers help: 1-2 mm of white edge, warm not hot water, 48-72 hours for a wound to heal",
+        "A short FAQ block is universal across the fetched pages",
+        "Caregiver-friendly phrasing (YouTube comment: daughter caring for a diabetic stroke-survivor mother)"
+      ]
+    }
+  },
+
+  "section_6_semantic_keyword_data": {
+    "blog_gen_instruction": "Primary keyword in <strong> tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as a focus term.",
+    "research_note": "Full A-Z autocomplete and Google Trends passes could not be run with available tools. LSI and variations below come from the 5 fetched pages, SERP snippets, Quora, YouTube titles and SalonGeek. No fabricated volumes are given.",
+    "fields": {
+      "primary_keyword": "diabetic nail care",
+      "keyword_variations": [
+        "diabetic toenail care",
+        "nail care for diabetics",
+        "diabetes nail care",
+        "diabetic nail trimming",
+        "diabetic toenail trimming",
+        "diabetic nail care at home",
+        "diabetic pedicure"
+      ],
+      "cluster_keywords": [
+        "peripheral neuropathy",
+        "poor circulation",
+        "diabetic foot care",
+        "foot ulcer prevention",
+        "daily foot check",
+        "podiatrist nail trimming",
+        "safe toenail trimming",
+        "protective sensation",
+        "diabetic foot exam",
+        "footwear and socks for diabetes"
+      ],
+      "lsi_terms": [
+        "cut straight across",
+        "free edge of the nail",
+        "emery board",
+        "toenail nippers",
+        "warm not hot water",
+        "check water temperature with your elbow",
+        "skip moisturizer between the toes",
+        "never cut cuticles",
+        "do not soak feet",
+        "loss of sensation",
+        "slow wound healing",
+        "entry point for infection",
+        "bring your own tools",
+        "sterile instruments",
+        "monofilament test",
+        "medically necessary foot care",
+        "annual comprehensive foot exam",
+        "nail thickness",
+        "toenail discoloration"
+      ],
+      "aeo_terms": [
+        "Can diabetics cut their own toenails?",
+        "How often should a diabetic trim their toenails?",
+        "Why can't diabetics cut their own toenails?",
+        "Is it safe for a diabetic to get a pedicure?",
+        "What should a diabetic do if they cut their toenail too short?",
+        "Does Medicare cover toenail trimming for diabetics?",
+        "How do you trim toenails with diabetes safely?",
+        "What are the signs of a diabetic toenail infection?",
+        "Should diabetics soak their feet before trimming toenails?"
+      ],
+      "technical_terms": [
+        "peripheral neuropathy",
+        "peripheral artery disease",
+        "onychomycosis (mention only)",
+        "onychocryptosis (mention only)",
+        "protective sensation",
+        "debridement",
+        "subungual ulceration",
+        "HbA1c"
+      ],
+      "user_language": [
+        "cut them too short",
+        "can't feel my feet",
+        "one little nick",
+        "can't reach my toes",
+        "my mom is diabetic",
+        "is it okay to just do it myself",
+        "bring my own tools",
+        "come at their feet with sharp implements"
+      ]
+    }
+  },
+
+  "section_7_voice_and_ai_queries": {
+    "blog_gen_instruction": "Answer every query directly in the relevant H2 section body. If a query cannot be addressed naturally, route it to faqItems. No query left unanswered.",
+    "fields": {
+      "queries": [
+        "Can diabetics cut their own toenails?",
+        "Why is it dangerous for a diabetic to cut their own toenails?",
+        "How should a diabetic cut their toenails?",
+        "How often should diabetics trim their toenails?",
+        "Should a diabetic soak their feet before cutting toenails?",
+        "Can a diabetic get a regular pedicure at a nail salon?",
+        "What should I ask a nail salon if I have diabetes?",
+        "What happens if a diabetic cuts a toenail too short?",
+        "Why do diabetic toenails get thick and yellow?",
+        "What does a diabetic toenail infection look like?",
+        "When should a diabetic see a podiatrist about their toenails?",
+        "Does Medicare cover toenail trimming for diabetics?",
+        "Can someone else cut a diabetic's toenails?",
+        "Should diabetics use lotion between their toes?",
+        "What type of nail clippers are best for diabetics?",
+        "How do I know if I have lost feeling in my feet?"
+      ]
+    }
+  },
+
+  "section_8_hook_and_ctr": {
+    "blog_gen_instruction": "READ THIS SECTION BEFORE WRITING THE TITLE, META DESCRIPTION, INTRO, OR FIRST H2. The title and description are the option Input Gen Agent selected internally from evidence-based candidates. Use them exactly.",
+    "fields": {
+      "real_serp_findings_summary": "The five fetched page titles are informational or how-to led: 'Diabetic Toenail Care 2026: Steps, Fixes, Verdict' (Naples, year-tagged, verdict promise), 'Here's Why Diabetic Toenail Care Matters More Than You Think' (Tanglewood, curiosity-led, over 60 characters), 'Diabetes Foot Care' (WebMD, generic), a 5-tips listicle (Canyon) and a generic foot-care tips title (ADA). None front-loads the keyword and answers the reader's real anxiety, which is 'am I allowed to do this myself'. Only Naples uses a verdict-style promise, and it is buried in the body.",
+      "selected_option_rationale": "Front-loads 'Diabetic Nail Care' and promises a rule for the exact self-trim vs professional dilemma that all top pages leave unresolved, which is the gap identified in the SERP analysis.",
+      "title": "Diabetic Nail Care: When Home Trimming Is Safe (2026)",
+      "title_char_count": 53,
+      "meta_description": "Not sure if you can trim your own toenails with diabetes? Get a simple safe-or-see-a-podiatrist rule, step-by-step technique, and salon and coverage answers.",
+      "meta_char_count": 156,
+      "meta_char_note": "156 characters, 1 over the 155 cap. Blog Gen Agent must trim the trailing words to 'and coverage answers' before use if the platform enforces the cap strictly; final approved meta = 'Not sure if you can trim your own toenails with diabetes? Get a simple safe-or-see-a-podiatrist rule, step-by-step technique, and salon tips.' (152 chars).",
+      "meta_description_final_locked": "Not sure if you can trim your own toenails with diabetes? Get a simple safe-or-see-a-podiatrist rule, step-by-step technique, and salon tips.",
+      "meta_description_final_char_count": 141,
+      "intro_hook_brief": "Open on the exact fear in the reader's search: one small nick you can't feel. Name the contradiction they have already met ('never cut your own' vs 'just cut straight across'), then promise a simple way to tell which group they are in. Trigger 1 (Curiosity Gap): they suspect they are missing the one rule that decides it. Primary keyword twice in the first 100 words.",
+      "first_h2_hook_direction": "Frame the first H2 as the question they typed ('Why does diabetes make nail care different?') and answer it in two plain sentences (sensation plus circulation) before any elaboration. Subtle, not a title repeat."
+    }
+  },
+
+  "section_9_search_journey": {
+    "blog_gen_instruction": "This is the emotional contract with the reader. Every section honors the promise made. If a paragraph breaks the journey arc, rewrite it.",
+    "fields": {
+      "reader_arrival_state": "Worried and slightly overwhelmed, confused by conflicting advice about whether trimming their own toenails is safe, wanting one clear answer.",
+      "journey_arc": [
+        "Name the fear and the contradiction, then promise a decision rule",
+        "Explain in plain language why diabetes changes the stakes (no pain signal, slow healing)",
+        "Deliver the triage: who can trim at home, who should hand it to a podiatrist",
+        "Walk through the safe technique step by step with the common mistakes flagged",
+        "Cover the situations competitors skip: salon pedicures, helping a family member, a nail cut too short",
+        "Give the red flags, the cost and coverage picture, and one clear next step"
+      ],
+      "promise_to_deliver": "A simple rule for when home trimming is safe, and exactly what to do either way.",
+      "exit_state": "Calm and in control: they know which group they are in, how to trim safely or who to call, and what to watch for."
+    }
+  },
+
+  "section_10_content_structure": {
+    "blog_gen_instruction": "This H2 structure is research-driven and must be followed exactly. Word budget per section is set. H3s may be added at editorial discretion.",
+    "fields": {
+      "h1": "Diabetic Nail Care: When Home Trimming Is Safe (2026)",
+      "h2_structure": [
+        "Why Is Diabetic Nail Care Different From Regular Nail Care?",
+        "Can Diabetics Cut Their Own Toenails? A Simple Safe-or-See-a-Podiatrist Rule",
+        "How to Trim Your Toenails Safely With Diabetes, Step by Step",
+        "What to Do If You Cut a Toenail Too Short",
+        "Can You Get a Pedicure With Diabetes? What to Ask the Salon",
+        "Helping a Parent or Partner With Their Toenails",
+        "Warning Signs Your Toenails Need a Podiatrist Now",
+        "Does Medicare Pay for Diabetic Nail Care?"
+      ],
+      "word_budget": {
+        "introduction": "225 words",
+        "conclusion": "175 words",
+        "per_h2": [
+          { "heading": "Why Is Diabetic Nail Care Different From Regular Nail Care?", "budget": "260 words", "complexity": "medium" },
+          { "heading": "Can Diabetics Cut Their Own Toenails? A Simple Safe-or-See-a-Podiatrist Rule", "budget": "330 words", "complexity": "high" },
+          { "heading": "How to Trim Your Toenails Safely With Diabetes, Step by Step", "budget": "380 words", "complexity": "high" },
+          { "heading": "What to Do If You Cut a Toenail Too Short", "budget": "220 words", "complexity": "medium" },
+          { "heading": "Can You Get a Pedicure With Diabetes? What to Ask the Salon", "budget": "260 words", "complexity": "medium" },
+          { "heading": "Helping a Parent or Partner With Their Toenails", "budget": "200 words", "complexity": "low" },
+          { "heading": "Warning Signs Your Toenails Need a Podiatrist Now", "budget": "220 words", "complexity": "medium" },
+          { "heading": "Does Medicare Pay for Diabetic Nail Care?", "budget": "130 words", "complexity": "low" }
+        ],
+        "total_check": "225 + 175 + (260+330+380+220+260+200+220+130 = 2000) = 2400 words"
+      }
+    }
+  },
+
+  "section_11_internal_links": {
+    "blog_gen_instruction": "Every link below must appear. Cluster links use anchor texts verbatim. Place each link where the placement note says, woven into prose, never a standalone CTA. Total internal links: 4 (within 4-6 cap).",
+    "fields": {
+      "all_internal_links": [
+        {
+          "url_or_slug": "/blog/nail-health/nail-damage-recovery-timeline",
+          "title": "How Long Does It Take Nails to Recover From Gel or Acrylic Damage?",
+          "anchor_text": "how long nails take to recover from gel damage",
+          "placement_note": "Pedicure section. A short aside for readers who have worn gel on their toes and want to know how the nail recovers.",
+          "link_type": "cluster-pillar"
+        },
+        {
+          "url_or_slug": "/blog/nail-health/ingrown-toenail-infection-signs",
+          "title": "Ingrown Toenail Infection: Signs You Need a Doctor (Not Home Care)",
+          "anchor_text": "signs an ingrown toenail is infected",
+          "placement_note": "Warning-signs section. One sentence pointing to the full ingrown-infection breakdown so this post does not duplicate it.",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "url_or_slug": "/blog/nail-health/can-toenail-fungus-kill-you",
+          "title": "Can Toenail Fungus Kill You? The Real Risk Explained",
+          "anchor_text": "the real risks of untreated nail infections",
+          "placement_note": "Warning-signs section or intro to 'why different'. One sentence on how a small nail problem escalates.",
+          "link_type": "cluster-spoke"
+        },
+        {
+          "url_or_slug": "https://mirelleinspo.com/nail-faqs/how-often-should-you-trim-your-nails-for-health",
+          "title": "How Often Should You Trim Your Nails for Health?",
+          "anchor_text": "how often you should trim your nails for health",
+          "placement_note": "Step-by-step trimming section, near the sentence about trimming frequency.",
+          "link_type": "cluster-existing-site (locked in cluster links_to)"
+        }
+      ],
+      "cross_site_discovery_note": "Discovery found strong candidates: /blog/toenail-shapes/best-toenail-shape-for-ingrown-nails and /blog/toenail-shapes/how-to-shape-toenails-at-home (both cover straight-across cutting). Neither was added: the four locked cluster links already fill the trimming and infection ground, and adding either would push the post toward ingrown-toenail territory owned by other posts. If one cross-site link is wanted, the best fit is 'how to shape toenails at home' at https://mirelleinspo.com/blog/toenail-shapes/how-to-shape-toenails-at-home, with the descriptive anchor 'how to shape toenails at home without causing ingrown nails', placed in the step-by-step section. Optional, editor's call."
+    }
+  },
+
+  "section_12_voice_tone": {
+    "blog_gen_instruction": "This is the voice for this post. Layer on top of Mirellé editorial framework. Do not default to generic AI tone.",
+    "fields": {
+      "recommended_voice": "Calm, plain-spoken expert friend",
+      "tone_characteristics": [
+        "Reassuring without minimizing risk",
+        "Direct, with a clear verdict instead of hedging",
+        "Concrete numbers and specifics over general warnings",
+        "Non-judgmental about how the reader has done things so far",
+        "Never fear-mongering"
+      ],
+      "language_style": "Second person, short sentences, one analogy maximum (the faulty alarm idea, in the writer's own words). No medical jargon without a same-sentence explanation. American English.",
+      "audience_match": "An anxious reader dealing with a health condition responds to calm authority and a clear rule, not urgency or a sales pitch, which is exactly what the top clinic pages fail to give."
+    }
+  },
+
+  "section_13_external_links": {
+    "blog_gen_instruction": "Include where indicated. Supports E-E-A-T. May be short. These come from real fetched pages.",
+    "fields": {
+      "links": [
+        {
+          "url": "https://diabetes.org/health-wellness/diabetes-and-your-feet/foot-care-tips",
+          "context": "Support the statement that nerve damage and poor circulation are why small foot injuries become serious. Also supports 'trim straight across' and 'don't moisturize between toes'.",
+          "anchor_suggestion": "American Diabetes Association foot care guidance"
+        },
+        {
+          "url": "https://www.webmd.com/diabetes/caring-feet",
+          "context": "Support the salon guidance (bring your own tools, do not self-treat corns and calluses) and the warm-not-hot water rule.",
+          "anchor_suggestion": "WebMD's diabetic foot care guide"
+        }
+      ]
+    }
+  },
+
+  "section_14_featured_expert": {
+    "blog_gen_instruction": "Write expert_alias exactly as given into the expert frontmatter field. Use expert_quote as source material for an attributed expert moment. It may be used whole or as word-for-word extracts placed where most relevant, including different portions at more than one point. Any quoted words must be exact, never paraphrased, and no extract may change the expert's meaning. Do not add a bio or credentials.",
+    "fields": {
+      "expert_alias": "jonathan-spages",
+      "expert_quote": "People with diabetes need to be more careful with nail care because elevated blood sugar can affect circulation, nerve sensation, and the body's ability to fight infection and heal. I recommend never aggressively cutting the cuticles or digging into the corners of toenails. Even a tiny cut that someone barely notices can become a much bigger problem, especially if neuropathy is present... If you have poor circulation, neuropathy, an ingrown nail, fungal infection, open sore, or previous diabetic foot problems, I would skip the salon pedicure and have nail care performed or guided by a podiatrist. Most importantly, keeping blood sugar well controlled helps reduce many of these complications in the first place.",
+      "suggested_placement": "Two placements. (1) The first sentence in 'Why Is Diabetic Nail Care Different' to anchor the circulation, sensation and healing point. (2) The skip-the-salon-pedicure extract in 'Can You Get a Pedicure With Diabetes', where it directly answers the salon question. The 'Even a tiny cut...' extract can support the 'cut too short' section. The closing line about blood sugar control suits the conclusion."
+    }
+  },
+
+  "section_15_execution_plan": {
+    "purpose": "Blog Gen Agent reads this section FIRST. Every value is pre-decided. Lock and execute exactly.",
+    "blog_gen_instruction": "READ THIS SECTION FIRST. Lock every value. Execute exactly. Do not recalculate.",
+    "calculated_by": "Input Gen Agent, last",
+    "measurement_disclosure": "top_5_density_baseline and total_mention_target are ESTIMATES set by Input Gen Agent, not measured averages (see section_1). Treat them as hard targets for writing, but know they are estimates.",
+
+    "block_1_keyword_execution": {
+      "primary_keyword": "diabetic nail care",
+      "top_5_density_baseline": "ESTIMATE: 12 mentions (not measured; competitor pages appear to use the exact phrase sparingly and lean on 'diabetic toenail care' and 'foot care')",
+      "total_mention_target": "12 + 3 = 15 total mentions of the exact phrase 'diabetic nail care'. Use variations (diabetic toenail care, nail care for diabetics) separately and do not count them toward the 15.",
+      "first_100_words_plan": {
+        "rule": "Primary keyword MUST appear TWICE in the first 100 words. Mandatory.",
+        "mention_1": "Sentence 1 of the introduction, naming <strong>diabetic nail care</strong> as the topic where advice contradicts itself",
+        "mention_2": "Sentence 4 or 5 of the introduction, promising the rule for <strong>diabetic nail care</strong> at home vs with a podiatrist"
+      },
+      "first_half_target": "9 mentions in the first 1200 words. Run denser in the first half.",
+      "second_half_target": "6 mentions in the second 1200 words",
+      "strong_tag_rule": "EVERY mention of the primary keyword, all 15, wrapped in <strong> tags. Scan after every paragraph.",
+      "keywords_to_avoid_active": "Full list from section_3. None used as focus terms."
+    },
+
+    "block_2_word_budget": {
+      "total_target": "2400 words maximum reference, +/-50 tolerance, never exceed. Landing under is correct if the post is complete.",
+      "introduction": "225 words",
+      "conclusion": "175 words",
+      "h2_budgets": [
+        { "heading": "Why Is Diabetic Nail Care Different From Regular Nail Care?", "budget": "260 words", "complexity": "medium" },
+        { "heading": "Can Diabetics Cut Their Own Toenails? A Simple Safe-or-See-a-Podiatrist Rule", "budget": "330 words", "complexity": "high" },
+        { "heading": "How to Trim Your Toenails Safely With Diabetes, Step by Step", "budget": "380 words", "complexity": "high" },
+        { "heading": "What to Do If You Cut a Toenail Too Short", "budget": "220 words", "complexity": "medium" },
+        { "heading": "Can You Get a Pedicure With Diabetes? What to Ask the Salon", "budget": "260 words", "complexity": "medium" },
+        { "heading": "Helping a Parent or Partner With Their Toenails", "budget": "200 words", "complexity": "low" },
+        { "heading": "Warning Signs Your Toenails Need a Podiatrist Now", "budget": "220 words", "complexity": "medium" },
+        { "heading": "Does Medicare Pay for Diabetic Nail Care?", "budget": "130 words", "complexity": "low" }
+      ],
+      "tracking_rule": "Track the running total at the end of each H2. If a section runs over, cut before moving on. Do not compensate later."
+    },
+
+    "block_3_image_plan": {
+      "total_images": 7,
+      "hero_image": "frontmatter only, NEVER in the post body",
+      "body_images": "6 images to place in body",
+      "assignments": [
+        { "image_number": 1, "place_after": "Why Is Diabetic Nail Care Different From Regular Nail Care?", "image_type": "infographic", "section_context": "Clean graphic showing the two-part problem: reduced sensation (no pain signal) plus slower healing (reduced circulation), leading to small injury becoming serious." },
+        { "image_number": 2, "place_after": "Can Diabetics Cut Their Own Toenails? A Simple Safe-or-See-a-Podiatrist Rule", "image_type": "infographic", "section_context": "Two-column checklist graphic: 'Home trimming may be okay' vs 'Hand it to a podiatrist', listing the conditions (can see feet, can feel feet, normal nails, no ulcer history, steady hands)." },
+        { "image_number": 3, "place_after": "How to Trim Your Toenails Safely With Diabetes, Step by Step", "image_type": "standard_inspiration", "section_context": "Clean, natural-looking healthy toenails cut straight across with soft square corners, resting on a neutral surface. Finished result only, no tools or hands." },
+        { "image_number": 4, "place_after": "Can You Get a Pedicure With Diabetes? What to Ask the Salon", "image_type": "infographic", "section_context": "Short checklist graphic of questions to ask a salon: sterilized or single-use tools, no blades or cuticle cutting, lukewarm water, no callus shaving." },
+        { "image_number": 5, "place_after": "Warning Signs Your Toenails Need a Podiatrist Now", "image_type": "infographic", "section_context": "Traffic-light style graphic: 'Book within a week' signs vs 'Same-day care' signs (redness, drainage, red streaks, blackened skin)." },
+        { "image_number": 6, "place_after": "Does Medicare Pay for Diabetic Nail Care?", "image_type": "standard_inspiration", "section_context": "Soft, natural healthy feet and toenails in a calm, clean setting, conveying care and reassurance. No tools, no hands at work." }
+      ],
+      "image_type_rule": {
+        "default": "standard_inspiration",
+        "note": "This post is informational and medical, so infographics carry most slots. That is a deliberate exception to the usual default. Infographics must be clean graphic layouts.",
+        "banned_absolutely": "NEVER a tool or equipment image, hands cutting nails, or a photo-style side-by-side nail comparison. Any comparison or checklist must be an infographic layout."
+      },
+      "path_rule": "/images/blog/nail-health/diabetic-nail-care-guide/filename.webp"
+    },
+
+    "block_4_opening_technique_assignments": {
+      "rule": "No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.",
+      "assignments": [
+        { "section": "Introduction", "technique": "Technique 4 (The Scenario) — the one nick you cannot feel" },
+        { "section": "Why Is Diabetic Nail Care Different From Regular Nail Care?", "technique": "Technique 1 (The Claim)" },
+        { "section": "Can Diabetics Cut Their Own Toenails?", "technique": "Technique 2 (The Question)" },
+        { "section": "How to Trim Your Toenails Safely With Diabetes, Step by Step", "technique": "Technique 1 (The Claim)" },
+        { "section": "What to Do If You Cut a Toenail Too Short", "technique": "Technique 4 (The Scenario)" },
+        { "section": "Can You Get a Pedicure With Diabetes?", "technique": "Technique 3 (The Reframe)" },
+        { "section": "Helping a Parent or Partner With Their Toenails", "technique": "Technique 2 (The Question)" },
+        { "section": "Warning Signs Your Toenails Need a Podiatrist Now", "technique": "Technique 1 (The Claim)" },
+        { "section": "Does Medicare Pay for Diabetic Nail Care?", "technique": "Technique 2 (The Question)" },
+        { "section": "Conclusion", "technique": "Technique 3 (The Reframe)" }
+      ],
+      "technique_key_note": "Technique numbers refer to the opening-technique list in the Blog Gen prompt (1 Claim, 2 Question, 3 Reframe, 4 Scenario). Confirm the numbering matches that prompt; if it differs, map by name.",
+      "banned_opener_rule": "Check every opener against banned_opening_approaches in the blog gen prompt before writing the second sentence."
+    },
+
+    "block_5_link_placements": {
+      "rule": "Every link placed exactly where specified. Anchors verbatim. Woven into prose.",
+      "links": [
+        { "anchor_text": "how often you should trim your nails for health", "full_url": "https://mirelleinspo.com/nail-faqs/how-often-should-you-trim-your-nail-for-health", "place_in_section": "How to Trim Your Toenails Safely With Diabetes, Step by Step", "placement_context": "Sentence about how often to trim or file", "link_type": "cluster-existing-site" },
+        { "anchor_text": "how long nails take to recover from gel damage", "full_url": "/blog/nail-health/nail-damage-recovery-timeline", "place_in_section": "Can You Get a Pedicure With Diabetes? What to Ask the Salon", "placement_context": "Aside for readers who wear gel polish on their toes", "link_type": "cluster-pillar" },
+        { "anchor_text": "the real risks of untreated nail infections", "full_url": "/blog/nail-health/can-toenail-fungus-kill-you", "place_in_section": "Warning Signs Your Toenails Need a Podiatrist Now", "placement_context": "Sentence on how a small nail problem can escalate", "link_type": "cluster-spoke" },
+        { "anchor_text": "signs an ingrown toenail is infected", "full_url": "/blog/nail-health/ingrown-toenail-infection-signs", "place_in_section": "Warning Signs Your Toenails Need a Podiatrist Now", "placement_context": "Sentence pointing to the full ingrown-infection breakdown", "link_type": "cluster-spoke" }
+      ],
+      "url_correction_note": "The first link's full_url above contains a typo ('your-nail-for-health'). The correct URL is https://mirelleinspo.com/nail-faqs/how-often-should-you-trim-your-nails-for-health (matches section_11). Use the section_11 URL."
+    },
+
+    "block_6_aeo_geo_plan": {
+      "aeo_assignments": [
+        { "aeo_term": "Can diabetics cut their own toenails?", "assigned_to_section": "Can Diabetics Cut Their Own Toenails? A Simple Safe-or-See-a-Podiatrist Rule", "execution": "Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2, before any elaboration: yes for some, no for others, and the deciding conditions." },
+        { "aeo_term": "How do you trim toenails with diabetes safely?", "assigned_to_section": "How to Trim Your Toenails Safely With Diabetes, Step by Step", "execution": "Direct 2-3 sentence answer immediately after the H2: straight across, leave the white edge, file corners, never cut cuticles or corners." },
+        { "aeo_term": "What should a diabetic do if they cut their toenail too short?", "assigned_to_section": "What to Do If You Cut a Toenail Too Short", "execution": "Direct 2-3 sentence answer immediately after the H2: clean gently, cover, watch for infection, see a podiatrist if it is not healing." },
+        { "aeo_term": "Is it safe for a diabetic to get a pedicure?", "assigned_to_section": "Can You Get a Pedicure With Diabetes? What to Ask the Salon", "execution": "Direct 2-3 sentence answer immediately after the H2, tied to risk level, quoting the expert extract about skipping the salon pedicure when risk factors exist." },
+        { "aeo_term": "Does Medicare cover toenail trimming for diabetics?", "assigned_to_section": "Does Medicare Pay for Diabetic Nail Care?", "execution": "Direct 2-3 sentence answer immediately after the H2: routine trimming is excluded, but medically necessary care for qualifying conditions can be covered. State plainly that coverage depends on documented medical necessity and to confirm with the provider. Do NOT claim a fixed number of covered visits per year." }
+      ],
+      "geo_entity_statements": [
+        { "entity": "Diabetic nail care", "assigned_to_section": "Why Is Diabetic Nail Care Different From Regular Nail Care?", "execution": "Write one clear declarative definition sentence: diabetic nail care is the practice of trimming and inspecting nails in a way that avoids skin injury when nerve damage or poor circulation would hide or slow the healing of it." },
+        { "entity": "Peripheral neuropathy", "assigned_to_section": "Why Is Diabetic Nail Care Different From Regular Nail Care?", "execution": "One confident definition sentence: nerve damage from prolonged high blood sugar that reduces feeling in the feet." },
+        { "entity": "Protective sensation", "assigned_to_section": "Can Diabetics Cut Their Own Toenails?", "execution": "One declarative sentence: the ability to feel a cut, pressure or heat on your foot in time to react." }
+      ]
+    },
+
+    "block_7_active_constraints": {
+      "em_dash_banned": "The long em dash does not appear anywhere. Replace with a comma, new sentence, parentheses, or restructure.",
+      "banned_vocab_watch": "Most likely to slip in for this post: 'crucial', 'essential', 'navigate', 'landscape', 'delve', 'ensure', 'comprehensive', 'game-changer'. Catch them as they form.",
+      "american_english_active": "color, recognize, -ize, -or. No British spellings anywhere.",
+      "keyword_density_reminder": "After every 2 H2 sections, count exact-match mentions of 'diabetic nail care'. Confirm the running total is on track for 15, with the first half denser.",
+      "image_path_reminder": "/images/blog/nail-health/diabetic-nail-care-guide/filename.webp",
+      "internal_link_url_reminder": "Cluster links = /blog/nail-health/[slug]. Existing-site link = exact URL from section_11. Never bare /slug.",
+      "hero_image_reminder": "Hero = frontmatter only. Never in body.",
+      "strong_tag_reminder": "Every primary keyword mention = <strong> tags.",
+      "expert_quote_reminder": "expert_alias 'jonathan-spages' goes into the expert frontmatter field exactly as given. Quote used whole or as word-for-word extracts at the suggested sections. Never paraphrased at the word level, never altered in meaning.",
+      "accuracy_watch_medicare": "Do NOT state that Medicare covers diabetic nail care 'six times per year'. Only Tanglewood claims that. Independent sources (Medicare.org, US News, LegalClarity) describe coverage as conditional on documented medical necessity, typically about every 60 days, with the exact rules varying. Keep the Medicare section general and tell readers to confirm with their provider and plan.",
+      "accuracy_watch_soaking": "Competitor advice conflicts on soaking: Naples advises a 5-minute warm soak before trimming, while Tanglewood says trim dry and avoid soaking, and one source says only healthcare professionals should soak a diabetic's feet. Do not tell readers to soak. Say: trim after washing and drying feet, avoid long soaks, and check water temperature with an elbow or thermometer, not the foot.",
+      "accuracy_watch_scope": "Fungus and ingrown detail stays in 1-2 short passages, each pointing to its own cluster post. No dedicated H2 on either.",
+      "accuracy_watch_medical": "Do not name specific drugs, prices or laser protocols. This is not a treatment post. Do not state amputation statistics or percentages that were not verified in the fetched sources."
+    }
+  }
+}
