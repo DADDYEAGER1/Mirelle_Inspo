@@ -1,0 +1,283 @@
+# INPUT FILE: toenail-fungus-dying-signs
+
+## 1. FILE AUTHORITY
+THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. POST_CONSTANTS are hardcoded. Blog Gen does not ask, adjust, or override them. Read section 15 FIRST.
+
+## 2. POST_CONSTANTS
+- slug: toenail-fungus-dying-signs
+- topic_slug: nail-health
+- canonical: https://mirelleinspo.com/blog/nail-health/toenail-fungus-dying-signs
+- post_type: spoke
+- intent: informational
+- word_count: 1800 (reference to write within, not a quota. Landing under it is correct if the post is complete. Never pad.)
+- image_count: 7 (1 hero + 6 body)
+- show_inspo_gallery_link: false (cluster default)
+- template: posts
+- hero_dimensions: 1200x675
+- category: Nail Health (cluster topic; confirm against Mirellé category list)
+- publish_date: 2026-09-28
+- author: jyoti-mirelle
+- expertise_type: licensed_derm_or_nail_health_expert
+- expert_alias: cameron-rokhsar-md
+- expert_quote: "What sometimes looks like spontaneous improvement is usually just the visible infected portion growing out toward the tip while fungus persists closer to the cuticle. Timelines run slower than people expect because toenails only grow about a millimeter a month. An oral terbinafine course is typically six to twelve weeks, but you won't see a fully clear nail until an entirely new, healthy nail has grown out from the base, which takes twelve to eighteen months for a big toe. Patients often quit early because nothing looks different after a few weeks, when in reality the new growth at the cuticle is the real marker of success, not the older nail further out."
+
+## 3. CLUSTER SNAPSHOT
+- pillar_slug: what-kills-toenail-fungus-instantly
+- pillar_title: What Kills Toenail Fungus Instantly? What Actually Works
+- pillar_primary_keyword: what kills toenail fungus instantly
+- this_post_slug: toenail-fungus-dying-signs | role: spoke
+- show_inspo_gallery_link_cluster_default: false
+- keywords_to_avoid (hard wall): every other primary_keyword in cluster_context.json keyword_ownership_registry + every existing_site_posts_excluded keyword. Highest drift risk: toenail fungus stages / symptoms / causes / treatment / home remedies; nail fungus treatment; best toenail fungus treatment; how long does nail fungus take to clear; how long does it take a toenail to grow back; what kills toenail fungus instantly; do otc nail fungus treatments work; jublia vs terbinafine; does laser treatment work for nail fungus; home remedies for nail fungus that work; nail fungus myths; is nail fungus / toenail fungus contagious; prevent toenail fungus returning; nail polish toenail fungus; what does nail fungus look like; nail psoriasis vs fungus; superficial white onychomycosis; can toenail fungus kill you; dark line on nail.
+
+## 4. SERP ANALYSIS
+**blog_gen_instruction:** Use our_strategic_approach as the concrete angle for intro, conclusion, and depth decisions.
+
+**top_5_fetched_pages_summary** (word counts ≈ body text only, nav/comments excluded, rounded to 10; exact = "how to know if toenail fungus is dying" incl. H1/H2):
+1. healthline.com/health/fungal-infection/how-to-know-if-toenail-fungus-is-dying: ~920 w | 4 H2 | 0 exact. DPM-reviewed, cites NHS + 2017 review. ~70% of page is OTC/Rx treatment; only 3 bullets on signs.
+2. haropodiatrycenter.com/blog/how-to-know-if-toenail-fungus-is-dying.cfm: ~1,650 w | 7 H2 | 7 exact. Seven surface signs, then treatment pitch. Never separates reliable from misleading signs.
+3. rockymtnfootandankle.com/blog/toenail-fungus-dying-types-stages/: ~860 w | 5 H2 | 1 exact. Title promises "dying"; the actual answer is one paragraph. Mostly types/stages/contagion. Title/body mismatch.
+4. yorkshireskincentre.co.uk/blog/how-to-know-if-toenail-fungus-is-dying/: ~1,150 w | 5 H2 (+10 H3) | 4 exact. Ten-sign list, clinic upsell (NeoGen plasma). Treats any improvement as proof.
+5. midwestpodiatrycenters.com/blog/how-to-know-if-toenail-fungus-is-dying-midwest-podiatry-centers/ (Apr 2026): ~1,400 w | 11 H2 | 2 exact. Best page. Names base growth as most reliable sign, has not-improving and worse-before-better sections. No expert quote, no checkpoints by treatment type.
+
+**averages:** ~1,200 words | 6.4 H2 | 2.8 exact mentions.
+
+**competitor_gaps** (each confirmed on 2+ sources: PAA-style queries, Quora, WebMD/Drugs.com patient reviews, competitor FAQs):
+- The false-improvement trap: the infected portion growing out toward the tip looks like progress while fungus persists near the cuticle (only the expert quote states this).
+- Fungus can be dead while the nail still looks bad (only Midwest touches it).
+- Nail lifting/reattaching/shedding: is it good or bad? (competitors contradict each other).
+- "Nothing looks different after months": what is normal vs failing.
+- What to check at each checkpoint, by treatment type.
+- Explicit escalation trigger (no new clear growth after several months).
+
+**missing_semantic_territory:** cuticle/base marker language, old-vs-new nail line, distal growth trap, dead fungus vs dead nail, clinically cured (NHS), checkpoint milestones, onycholysis direction, treatment response, quitting early.
+
+**our_strategic_approach:** All five pages treat any surface change (color, thickness, smell) as proof. Only Midwest names the base of the nail as the reliable marker, and none explain the trap Dr. Rokhsar describes, where growth of the infected portion toward the tip looks like healing. This post answers in the first H2 with one marker (clear new nail at the cuticle, separated from older nail by a visible line), then ranks secondary signs and separates the misleading ones. It adds checkpoint expectations by treatment type and explicit not-working criteria with a referral trigger, where competitors bury the answer under treatment lists (Healthline ~70%, Haro ~50%) or give it one paragraph (Rocky Mountain). A named board-certified dermatologist extract adds E-E-A-T that none of the five carry.
+
+**verified_facts_for_blog_gen** (from fetched pages; do not go beyond these):
+- NHS: healthy growth at the nail base counts as "clinically cured" (via Healthline, Haro).
+- 2017 review: 12-18 months for new growth to fully replace a damaged toenail (via Healthline, Haro).
+- Toenails grow about 1 mm a month (expert quote; Yorkshire).
+- Healthline: 76% of people on terbinafine in one study had no fungal infection after 3 months; ciclopirox polish worked in 22 of 100; 7-17% of untreated people resolved within a year.
+- Midwest: toenails often take 9-12+ months to replace damaged tissue; damaged nail stays until pushed out.
+- Doctors typically stay with OTC only if under half the nail, not the base, and few nails are involved (Healthline).
+
+**recommended_image_count_validation:** 7 confirmed. Competitors use 1-3 images.
+
+## 5. AUDIENCE INTELLIGENCE
+**blog_gen_instruction:** Primary creative brief. Write every paragraph for this person.
+- **who_they_are:** Weeks to months into treatment (OTC lacquer, oral terbinafine, prescription topical, or laser), checking the nail daily, ages roughly 40-70, not medical, wants proof before losing patience or money.
+- **what_they_want:** One reliable thing to look for, permission to be patient, and a clear line for when to worry.
+- **what_frustrates_them:** Lists of vague signs, treatment pitches, "it depends," and nail photos that look nothing like theirs.
+- **top_5_pain_points:**
+  1. Nail looks identical after weeks or months.
+  2. Cannot tell dead fungus from a dead nail.
+  3. Unsure if lifting, shedding, or new discoloration is progress or failure.
+  4. Fear of quitting early and relapse.
+  5. No clear moment to give up on OTC and see a podiatrist.
+- **exact_user_phrases** (from Quora, WebMD/Drugs.com reviews, SalonGeek):
+  - "what are the signs that a toenail infection is healing"
+  - "is my toenail fungus dying"
+  - "the healthy pink bottom of the nail"
+  - "my nail didn't look any different"
+  - "still coming out white and crumbly"
+  - "the fungus is gone but the nail is damaged"
+  - "it takes months to grow out"
+  - "will a new nail come in"
+  - "nothing looks different after three months"
+  - "is it working"
+- **intent_content_signals:** Answer first. Numbered or checkpoint structure. Plain vocabulary with instant definitions. Specific numbers (mm/month, weeks, months). Honest "not working" section. Reassurance without false promises. Photos tracked over time are a real habit (mention once).
+
+## 6. SEMANTIC KEYWORD DATA
+**blog_gen_instruction:** Primary keyword in `<strong>` every body mention. AEO terms trigger direct-answer paragraphs. No keywords_to_avoid term as a focus term.
+- **primary_keyword:** how to know if toenail fungus is dying
+- **keyword_variations:** signs toenail fungus is dying | is my toenail fungus dying | signs toenail fungus is healing | how to tell if toenail fungus is improving | how to tell if toenail fungus is going away | how to tell if toenail fungus is clearing up | toenail fungus healing signs | signs your toenail fungus treatment is working
+- **cluster_keywords:** new nail growth at the base | clear nail at the cuticle | old vs new nail line | clinically cured | fungal nail infection | onychomycosis | nail plate | nail matrix | treatment response | oral antifungal course | topical antifungal | treatment failure | follow-up visit | infected portion grows out | healthy nail growth
+- **lsi_terms:** pinkish clear band at the base | line between old and new nail | discoloration fading | yellow, brown, or white streaks fade | thinner nail easier to trim | crumbly texture improving | debris under the nail decreasing | nail reattaching to the nail bed | nail lifting from the nail bed | foul odor fading | pain in shoes easing | new growth pushes out infected nail | stopping treatment early | reinfection | subungual debris | lunula | nail still looks bad | photos to track progress
+- **aeo_terms:**
+  1. What is the first sign toenail fungus is dying?
+  2. Can toenail fungus be dead while the nail still looks bad?
+  3. What color is toenail fungus when it's dying?
+  4. Does toenail fungus look worse before it gets better?
+  5. Is a toenail lifting or falling off a sign the fungus is dying?
+  6. How soon can you see healthy nail growth after starting toenail fungus treatment?
+  7. Should you stop treatment when toenail fungus looks better?
+  8. How do you know if toenail fungus treatment is not working?
+  9. Why does my toenail fungus look the same after months of treatment?
+  10. When should you see a podiatrist if toenail fungus isn't improving?
+- **technical_terms:** onychomycosis | dermatophyte | nail plate | nail matrix | subungual debris | onycholysis | mycological cure | clinical cure
+- **user_language:** "nothing looks different" | "still thick and yellow" | "the pink part at the bottom" | "new nail coming in" | "fungus at the top of the nail" | "not getting worse" | "is it even working" | "the nail lifted" | "still ugly but stopped spreading"
+
+## 7. VOICE AND AI QUERIES
+**blog_gen_instruction:** Answer every query directly in the relevant H2 body. If it cannot fit naturally, route it to faqItems. None left unanswered.
+1. how do I know if my toenail fungus is dying
+2. is my toenail fungus dying or just growing out
+3. what does dying toenail fungus look like
+4. what are the first signs toenail fungus is healing
+5. how can I tell if terbinafine is working on my toenail
+6. why does my toenail fungus look the same after three months of treatment
+7. does toenail fungus get darker when it's dying
+8. is it normal for a toenail to lift while treating fungus
+9. how do I know if the fungus is dead but the nail still looks bad
+10. should I keep treating toenail fungus if the nail looks better
+11. how soon will I see clear nail at the base
+12. what does healthy new toenail growth look like
+13. how do I know if toenail fungus treatment is failing
+14. when should I see a podiatrist if my toenail fungus isn't getting better
+15. can a toenail look worse before it looks better with fungus treatment
+16. does the smell go away when toenail fungus is dying
+17. should I take photos to track toenail fungus progress
+
+## 8. HOOK AND CTR
+**blog_gen_instruction:** Read before writing title, meta, intro, or first H2. Title and meta are LOCKED. Use exactly.
+- **real_serp_findings_summary:** 4 of 5 titles open with the identical "How to Know If Toenail Fungus Is Dying," differing only by a number (Yorkshire), "stages and types" (Rocky Mountain), or "what to do next" (Healthline). Rocky Mountain promises "dying" but delivers one paragraph. No title or meta names the real marker, the misleading signs, or a timeframe.
+- **selected_option_rationale:** "Real vs Fake Signs" tests the gap none of the five address (reliable versus misleading signs), keeps the keyword front-loaded, and is backed by the expert's false-improvement point.
+- **title:** How to Know If Toenail Fungus Is Dying: Real vs Fake Signs
+- **title_char_count:** 58
+- **meta_description:** Nail still looks the same? Here's the cuticle sign that shows toenail fungus is dying, the signs that fool you, and when to see a podiatrist.
+- **meta_char_count:** 141
+- **intro_hook_brief:** Open on the exact moment: weeks in, the nail looks unchanged, and you're bargaining with it. Reframe: the nail you see is old news; the answer is at the cuticle. Promise one reliable marker, then the traps.
+- **first_h2_hook_direction:** Answer in the first two sentences of the H2 (clear pinkish new nail at the base, visible line from older nail), no warm-up.
+
+## 9. SEARCH JOURNEY
+**blog_gen_instruction:** Emotional contract. If a paragraph breaks the arc, rewrite it.
+- **reader_arrival_state:** Weeks or months into treatment, staring at an unchanged nail, wanting proof it's working before giving up.
+- **journey_arc:**
+  - Give the one reliable marker first (clear new growth at the cuticle).
+  - Explain why the rest of the nail misleads (slow growth, damaged nail stays until it grows out).
+  - Rank secondary signs, then separate the ones that fool you.
+  - Give checkpoints so patience has a shape.
+  - Show what failure looks like and when to call a podiatrist.
+- **promise_to_deliver:** One reliable way to tell whether the fungus is dying before the nail looks fixed, plus the signs that mislead and when to get help.
+- **exit_state:** Calm and equipped: knows where to look, what to expect at each checkpoint, and when to call.
+
+## 10. CONTENT STRUCTURE
+**blog_gen_instruction:** Follow exactly. Do not rename, reorder, or remove H2s. H3s at editorial discretion. Follow word budgets.
+- **h1:** How to Know If Toenail Fungus Is Dying: Real vs Fake Signs
+- **h2_structure:**
+  1. What Is the First Sign Toenail Fungus Is Dying? (200)
+  2. Can Toenail Fungus Be Dead While the Nail Still Looks Bad? (230)
+  3. What Else Changes When Toenail Fungus Is Dying? (220)
+  4. Signs That Look Like Progress but Can Fool You (200)
+  5. What Should Your Nail Look Like at Each Checkpoint? (230)
+  6. How Do You Know If Toenail Fungus Treatment Is Not Working? (170)
+  7. When Should You See a Podiatrist? (150)
+- **word_budget:** introduction 225 | conclusion 175 | H2s as listed (total 1,400)
+
+## 11. INTERNAL LINKS (5, cap 6)
+**blog_gen_instruction:** Every link must appear. Cluster anchors verbatim. Cross-site anchors as given. Weave into prose, never standalone CTAs.
+1. /blog/nail-health/what-kills-toenail-fungus-instantly | anchor: "what actually kills toenail fungus" | H2-6, where the reader needs a different approach | cluster-pillar
+2. /blog/nail-health/how-long-does-it-take-a-toenail-to-grow-back | anchor: "how long it takes a toenail to fully grow back" | H2-2, on why nail growth is slow | cluster-spoke
+3. https://mirelleinspo.com/blog/nail-fungus/how-long-does-nail-fungus-take-to-clear | anchor: "the full timeline for nail fungus to clear" | H2-5, checkpoints | cluster (existing site post)
+4. https://mirelleinspo.com/blog/toenail-fungus/nail-polish-toenail-fungus | anchor: "what nail polish does to a fungal toenail during treatment" | H2-4, polish hides visible change | cross-site
+5. https://mirelleinspo.com/blog/toenail-fungus/toenail-fungus-treatment | anchor: "the full guide to toenail fungus treatment options" | H2-7, next step after seeing a podiatrist | cross-site
+
+## 12. VOICE AND TONE
+**blog_gen_instruction:** Layer on Mirellé's editorial framework. No generic AI tone.
+- **recommended_voice:** Calm clinician-friend, warm expert.
+- **tone_characteristics:** reassuring but never falsely promising | plainspoken | specific (numbers, locations on the nail) | gently corrective | steady, not alarmist
+- **language_style:** Second person, short declaratives, one-line reframes. One image for the core idea: the nail is a record of the past, so you check the newest part. Define any medical term in the same sentence.
+- **audience_match:** The reader is anxious and mid-treatment. Competitors sound like clinic ads; this voice sounds like someone who has seen this before.
+
+## 13. EXTERNAL LINKS (2)
+**blog_gen_instruction:** Include where indicated for E-E-A-T.
+1. https://www.healthline.com/health/fungal-infection/how-to-know-if-toenail-fungus-is-dying | context: NHS "clinically cured" point and 12-18 month replacement figure (H2-1 or H2-5) | anchor: "Healthline's podiatrist-reviewed overview"
+2. https://midwestpodiatrycenters.com/blog/how-to-know-if-toenail-fungus-is-dying-midwest-podiatry-centers/ | context: signs of no improvement (H2-6) | anchor: "a podiatry group's checklist for treatment that isn't responding"
+
+## 14. FEATURED EXPERT
+**blog_gen_instruction:** Write expert_alias exactly as given into the expert frontmatter field. Use expert_quote as source for attributed moments: whole or word-for-word extracts, split across sections if it helps readability. Extracts must be exact and must not change the expert's meaning. Do not invent a bio or credentials; experts.ts supplies them.
+- **expert_alias:** cameron-rokhsar-md
+- **expert_quote:** (full text in section 2)
+- **suggested_placement:**
+  - H2-2: "Timelines run slower than people expect because toenails only grow about a millimeter a month."
+  - H2-4: the "spontaneous improvement" sentence (use both halves, meaning depends on the second).
+  - H2-1 or H2-5: "the new growth at the cuticle is the real marker of success, not the older nail further out" (use the full sentence beginning "Patients often quit early...") and the terbinafine timeline sentence in H2-5.
+
+## 15. EXECUTION PLAN
+**blog_gen_instruction:** READ FIRST. Lock every value. Execute exactly.
+
+### block_1_keyword_execution
+- primary_keyword: how to know if toenail fungus is dying
+- top_5_density_baseline: 2.8 exact mentions (0, 7, 1, 4, 2), rounded to 3
+- total_mention_target: 3 + 3 = **6** body mentions (count body text only; title, meta, and faqItems not counted). Natural variants ("toenail fungus is dying") are allowed and do not count.
+- first_100_words_plan (TWICE, mandatory): mention_1 in sentence 1 of the intro (naming the doubt); mention_2 in sentence 3 or 4, still under word 100.
+- first_half_target: 4 mentions in the first 900 words (2 intro, 1 H2-1, 1 H2-3)
+- second_half_target: 2 mentions (1 H2-5, 1 conclusion)
+- strong_tag_rule: all 6 wrapped in `<strong>`. Scan after every paragraph.
+- keywords_to_avoid_active: full list in section 3.
+
+### block_2_word_budget
+- total_target: 1,800 (+/-50, never exceed)
+- introduction 225 | conclusion 175
+- h2_budgets:
+  - What Is the First Sign Toenail Fungus Is Dying?: 200 (medium)
+  - Can Toenail Fungus Be Dead While the Nail Still Looks Bad?: 230 (high)
+  - What Else Changes When Toenail Fungus Is Dying?: 220 (medium)
+  - Signs That Look Like Progress but Can Fool You: 200 (medium)
+  - What Should Your Nail Look Like at Each Checkpoint?: 230 (high)
+  - How Do You Know If Toenail Fungus Treatment Is Not Working?: 170 (medium)
+  - When Should You See a Podiatrist?: 150 (low)
+- tracking_rule: Track the running total after every H2. Cut before moving on if over. Never compensate later.
+
+### block_3_image_plan
+- total_images: 7 | hero: frontmatter only, never in body | body_images: 6
+- assignments:
+  1. after H2-1 | standard_inspiration | healthy, unpolished natural toenail, clear pinkish base, soft editorial light
+  2. after H2-2 | standard_inspiration | short, groomed bare toes on a neutral surface, calm and unhurried
+  3. after H2-3 | standard_inspiration | close-up of a smooth, clean, unpolished big toenail
+  4. after H2-4 | standard_inspiration | short, straight-cut natural toenails, no polish
+  5. after H2-5 | **infographic** | checkpoint timeline: weeks 4-12 (change at the base), months 3-6 (clear zone advances), months 12-18 (full big toenail); clean graphic layout
+  6. after H2-6 | standard_inspiration | natural feet in warm light, reassuring mood
+- image_type_rule: NEVER tool/equipment or hands-at-work shots. NEVER photo-style side-by-side comparison. Follow the flagged type per slot exactly.
+- path_rule: /images/blog/nail-health/toenail-fungus-dying-signs/filename.webp
+
+### block_4_opening_technique_assignments
+No two consecutive the same. Conclusion = T1 or T3.
+- Introduction: Technique 2
+- H2-1: Technique 1 (The Claim)
+- H2-2: Technique 4
+- H2-3: Technique 2
+- H2-4: Technique 3 (The Reframe)
+- H2-5: Technique 4
+- H2-6: Technique 1 (The Claim)
+- H2-7: Technique 2
+- Conclusion: Technique 3 (The Reframe)
+- Check every opener against banned_opening_approaches before writing sentence two.
+
+### block_5_link_placements
+Anchors verbatim, woven into prose. Full URLs as in section 11.
+1. "what actually kills toenail fungus" -> /blog/nail-health/what-kills-toenail-fungus-instantly | H2-6 | sentence about needing a different approach
+2. "how long it takes a toenail to fully grow back" -> /blog/nail-health/how-long-does-it-take-a-toenail-to-grow-back | H2-2 | sentence on slow nail growth
+3. "the full timeline for nail fungus to clear" -> https://mirelleinspo.com/blog/nail-fungus/how-long-does-nail-fungus-take-to-clear | H2-5 | closing sentence of the checkpoints
+4. "what nail polish does to a fungal toenail during treatment" -> https://mirelleinspo.com/blog/toenail-fungus/nail-polish-toenail-fungus | H2-4 | sentence on polish hiding change
+5. "the full guide to toenail fungus treatment options" -> https://mirelleinspo.com/blog/toenail-fungus/toenail-fungus-treatment | H2-7 | sentence about next steps
+
+### block_6_aeo_geo_plan
+Write a direct 2-3 sentence answer immediately after the H2, before any elaboration.
+- aeo_assignments:
+  - What is the first sign toenail fungus is dying? -> H2-1
+  - Can toenail fungus be dead while the nail still looks bad? -> H2-2
+  - What color is toenail fungus when it's dying? -> H2-3
+  - Does toenail fungus look worse before it gets better? -> H2-4
+  - Is a toenail lifting or falling off a sign the fungus is dying? -> H2-4
+  - How soon can you see healthy nail growth after starting toenail fungus treatment? -> H2-5
+  - Should you stop treatment when toenail fungus looks better? -> H2-5
+  - How do you know if toenail fungus treatment is not working? -> H2-6
+  - Why does my toenail fungus look the same after months of treatment? -> H2-6
+  - When should you see a podiatrist if toenail fungus isn't improving? -> H2-7
+- geo_entity_statements (confident declarative definition, extractable):
+  - Clinically cured (NHS standard: healthy growth at the base) -> H2-1
+  - Onychomycosis (fungal infection of the nail plate and nail bed) -> H2-2
+  - Subungual debris (crumbly material under the nail) -> H2-3
+  - Onycholysis (nail separating from the nail bed) -> H2-4
+
+### block_7_active_constraints
+- em_dash_banned: none anywhere. Replace with comma, new sentence, parentheses, or "but".
+- banned_vocab_watch (verify against Blog Gen banned list): crucial | essential | delve | navigate | comprehensive | robust | journey | ensure. Catch as they form.
+- american_english_active: color, recognize, -ize, -or. No British spellings (competitor Yorkshire uses "colour"; do not copy).
+- keyword_density_reminder: after every 2 H2s, check the running total against 6. First half denser.
+- image_path_reminder: /images/blog/nail-health/toenail-fungus-dying-signs/filename.webp
+- internal_link_url_reminder: cluster = /blog/nail-health/[slug]. Cross-site = exact URL. Never bare /slug.
+- hero_image_reminder: frontmatter only.
+- strong_tag_reminder: every primary keyword mention in `<strong>`.
+- expert_quote_reminder: expert_alias goes into the expert frontmatter field exactly. Quote used whole or as word-for-word extracts, meaning unchanged, never fabricated.
+- health_claim_reminder: use only verified_facts_for_blog_gen (section 4) for numbers. Do not endorse home remedies, oil of oregano, or UV lamps. Do not diagnose.
