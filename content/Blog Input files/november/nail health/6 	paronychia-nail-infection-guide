@@ -1,0 +1,171 @@
+# INPUT FILE — POST 6 — `paronychia-nail-infection-guide`
+**STATUS: PARTIAL.** Everything below marked LOCKED comes verbatim from the cluster file. Everything marked `PENDING` needs live SERP/web_fetch research and has deliberately NOT been filled from memory. Re-run with web search enabled to complete.
+
+---
+
+## SECTION 1 — FILE AUTHORITY
+THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded. Blog Gen Agent does not ask, adjust, or override them.
+
+---
+
+## SECTION 2 — POST_CONSTANTS (LOCKED)
+
+| Field | Value |
+|---|---|
+| slug | `paronychia-nail-infection-guide` |
+| topic_slug | `nail-health` |
+| canonical | `https://mirelleinspo.com/blog/nail-health/paronychia-nail-infection-guide` |
+| post_type | spoke |
+| intent | informational |
+| primary_keyword | `paronychia` |
+| word_count | `PENDING` (phase_3b: top-5 fetched average, no ceiling; treated downstream as a ceiling, not a target) |
+| image_count | **7** (1 hero + 6 body). Rule 5, flat default: not pillar, not tutorial, not comparison, no X+ slug |
+| show_inspo_gallery_link | **false** (cluster default, verbatim) |
+| template | **posts** (not pillar, not tutorial intent) |
+| hero_dimensions | 1200x675 |
+| category | `PENDING` (must match Mirellé category list, which was not supplied) |
+| publish_date | `PENDING` (YYYY-MM-DD, not supplied) |
+| author | `jyoti-mirelle` |
+| expertise_type | `licensed_derm_or_nail_health_expert` |
+| expert_alias | `mark_bradley_dpodm` |
+
+**Alias flag:** the cluster file states its aliases are working IDs, not confirmed `src/data/experts.ts` slugs. Confirm `mark_bradley_dpodm` exists in `experts.ts` (or change it to the real slug) before Blog Gen Agent runs.
+
+**Search mode (cluster):** decision_mode. **Suggested hook trigger (cluster):** Trigger 1, Curiosity Gap.
+
+---
+
+## SECTION 3 — CLUSTER SNAPSHOT (LOCKED)
+
+- pillar_slug: `what-kills-toenail-fungus-instantly`
+- pillar_title: What Kills Toenail Fungus Instantly? What Actually Works
+- pillar_primary_keyword: what kills toenail fungus instantly
+- this_post_slug: `paronychia-nail-infection-guide`
+- this_post_role: spoke
+- show_inspo_gallery_link_cluster_default: false
+
+**keywords_to_avoid (hard wall, never used as focus terms):**
+what kills toenail fungus instantly · can toenail fungus kill you · how to know if toenail fungus is dying · what does nail fungus look like · is nail fungus contagious · infected ingrown toenail · nail patch test · nail color meaning · spoon nails · Beau's lines · white spots on nails · nail psoriasis vs fungus · dark line on nail · how long for nails to recover from gel or acrylic · gel nails safe during pregnancy · diabetic nail care · superficial white onychomycosis · do otc nail fungus treatments work · jublia vs terbinafine · does laser treatment work for nail fungus · home remedies for nail fungus that work · acrylic nails over fungal nail · nail fungus myths · how long does it take a toenail to grow back · ingrown toenail stages · dental floss ingrown toenail · partial nail avulsion recovery · should i cut my ingrown toenail · do you need antibiotics for ingrown toenail · toenail fungus · toenail fungus causes · toenail fungus symptoms · toenail fungus treatment · toenail fungus stages · toenail fungus vs nail psoriasis · is toenail fungus contagious · hema allergy symptoms · vertical ridges on nails causes and fixes
+
+**Also reserved by existing site posts (63 in `existing_site_posts_excluded`).** Most relevant to this post: *why do i keep getting hangnails*, *nail fungus symptoms*, *nail fungus treatment*, *what is nail fungus*, *nail fungus causes*, *overgrown cuticles causes and fix*, *how to stop picking cuticles*, *should you push back or cut cuticles*.
+
+**Cannibalization watch for this post:** "paronychia" sits between fungal-infection content and cuticle/hangnail content. Do not drift into "nail fungus symptoms/treatment" territory or into hangnail-cause territory. Both are owned elsewhere.
+
+---
+
+## SECTION 4 — SERP ANALYSIS
+**PENDING.** Requires web_fetch on the top 5 real, fetchable competitor pages for "paronychia". Blocked/excluded per source_quality_rule: byrdie.com, allure.com, nailpro.com, plus junk aggregators. Fields to populate:
+- competitor_gaps (demand-validated on 2+ sources only)
+- missing_semantic_territory
+- our_strategic_approach (3-5 sentences, evidence-based)
+- top_5_fetched_pages_summary (URL, real word count, real H2 count, real keyword mentions, one-line note)
+- top_5_word_count_average
+- top_5_keyword_density_average
+
+*Cluster-side angle to test during research (not a finding):* the cluster file positions this post as the bacterial-not-fungal entity. The distinguishing hook is soft-tissue inflammation vs. nail-plate-only fungal infection, which matches the expert quote below.
+
+---
+
+## SECTION 5 — AUDIENCE INTELLIGENCE
+**PENDING.** Requires Quora, Pinterest, YouTube, and salongeek site: searches plus PAA and autocomplete. Cluster demand signals on record: Google PAA on paronychia symptoms/treatment, AAFP and Harvard Health clinical references, Reddit r/dermatology recurring threads.
+
+---
+
+## SECTION 6 — SEMANTIC KEYWORD DATA
+- primary_keyword: **paronychia** (LOCKED)
+- total_mention_target: `PENDING` (top-5 fetched average + 2-3)
+- keyword_variations, cluster_keywords, lsi_terms, aeo_terms, technical_terms, user_language: `PENDING`
+
+*Drift check to apply when populating:* drop any term that overlaps the keywords_to_avoid list in Section 3.
+
+---
+
+## SECTION 7 — VOICE & AI QUERIES
+**PENDING.** 12-18 conversational queries from PAA, Quora, and autocomplete.
+
+---
+
+## SECTION 8 — HOOK & CTR
+**PENDING.** Requires real fetched competitor titles/metas. Title (55-60 chars, "paronychia" in first 3 words) and meta (120-155 chars) get selected internally after that analysis. No year tag needed (not a trend/seasonal/ideas post).
+
+Cluster working title, for reference only, not the locked title: *Paronychia: The Nail Infection That Isn't Fungus (Symptoms & Treatment)*. It runs over 60 characters, so it will need trimming.
+
+---
+
+## SECTION 9 — SEARCH JOURNEY
+**Partially derivable.** Intent is informational, so the journey template applies: *answer the core question directly → build depth progressively → connect to action → close with a natural next step.*
+- reader_arrival_state: `PENDING` (needs audience research to be specific)
+- journey_arc / promise_to_deliver / exit_state: `PENDING` (must match the final H2 list and the selected title/meta)
+
+---
+
+## SECTION 10 — CONTENT STRUCTURE
+- h1: `PENDING`
+- h2_structure: `PENDING` (spoke informational = 6-10 H2s, built from real PAA and audience queries)
+- word_budget: introduction 200-250, conclusion 150-200, per-H2 `PENDING` until word_count is set
+
+---
+
+## SECTION 11 — INTERNAL LINKS (LOCKED, anchors verbatim)
+
+Total cap: 4-6 internal links. The 4 cluster links below are mandatory. 0-2 cross-site discovery links may be added after `site:mirelleinspo.com` searches.
+
+| # | Anchor text (verbatim) | URL | Type | Placement |
+|---|---|---|---|---|
+| 1 | what nail fungus actually looks like | `/blog/nail-health/what-does-nail-fungus-look-like` | cluster-pillar | `PENDING` (likely the H2 contrasting paronychia with fungal infection) |
+| 2 | telling nail psoriasis apart from fungus | `/blog/nail-health/nail-psoriasis-vs-fungus` | cluster-spoke | `PENDING` (likely the differential-diagnosis H2) |
+| 3 | signs an ingrown toenail is infected | `/blog/nail-health/ingrown-toenail-infection-signs` | cluster-spoke | `PENDING` (likely the H2 on when to see a doctor) |
+| 4 | why hangnails keep happening | `https://mirelleinspo.com/blog/cuticle-care/why-do-i-keep-getting-hangnails` | existing-site | `PENDING` (likely the causes H2, since hangnails and nail-fold trauma are a common entry point) |
+| 5-6 | `PENDING` | | cross-site | up to 2 more from live site: search |
+
+*Receives links from (context only, not written into the post):* `what-does-nail-fungus-look-like`, using the anchor "the nail infection that isn't fungus".
+
+---
+
+## SECTION 12 — VOICE & TONE
+**PENDING** final recommendation (needs competitor tone analysis and audience language). Constraint that already applies: American English, no em dashes, layered on the Mirellé editorial framework.
+
+---
+
+## SECTION 13 — EXTERNAL LINKS
+**PENDING.** Comes from phase_3's best_external_sources_found (up to 2 real, citation-worthy fetched pages). May legitimately be empty. The cluster file names AAFP and Harvard Health as clinical references seen in demand signals, but they have not been fetched or verified here, so they are not entered as links.
+
+---
+
+## SECTION 14 — FEATURED EXPERT (LOCKED)
+
+- **expert_alias:** `mark_bradley_dpodm`
+- **expert_quote (verbatim, full):**
+
+> Short answer is the fungal infection of the nail, will usually effect only the nail tissue and not the surrounding soft tissue. Conversely the paronychia causes inflammation and swelling of the soft tissue and is usually accompanied by discomfort. If bacterial in origin there may be exudate and the nail will partially change colour as the bacterial spread detaches the nail. Management of the paronychia is best managed by professional help.
+
+- **suggested_placement:** the H2 that distinguishes paronychia from fungal infection (the "soft tissue vs. nail plate" point), with a second extract, "Management of the paronychia is best managed by professional help", in the when-to-see-a-doctor H2 or the conclusion.
+
+**Handling notes for Blog Gen Agent:**
+- Any words quoted must be exact, word-for-word from the text above. Extracts may be used at more than one point, and the meaning must never change.
+- The source text contains "effect" (should be "affect") and "colour" (British spelling), plus the awkward "best managed by professional help" phrasing. Quoted words must stay exact, so **paraphrase around these rather than quoting them** if the errors would look careless. Do not silently correct inside quotation marks. Decide per placement: extract a clean fragment, or paraphrase with attribution.
+- No bio, credentials, or invented detail beyond the quote. `experts.ts` supplies that at render time.
+
+---
+
+## SECTION 15 — EXECUTION PLAN
+**PENDING** (calculated last, after all other sections are complete). What can be pre-set:
+
+- **block_1:** primary_keyword `paronychia`. Baseline, total target, and half-split are `PENDING`. Fixed rules: keyword twice in the first 100 words; every mention wrapped in `<strong>`.
+- **block_2:** budgets `PENDING` until word_count and H2 list are set. Intro 200-250, conclusion 150-200.
+- **block_3 (image plan):** total_images = 7; hero in frontmatter only, never in body; 6 body images. Path: `/images/blog/nail-health/paronychia-nail-infection-guide/filename.webp`. Image-type rule: default `standard_inspiration`, but see the flag below.
+- **block_4:** technique assignments `PENDING` until H2s exist. Conclusion = Technique 1 or 3 only.
+- **block_5:** link placements `PENDING` (see Section 11).
+- **block_6:** AEO and GEO assignments `PENDING` until aeo_terms are researched.
+- **block_7:** active constraints. No em dashes. American English (color, not colour). Every primary keyword mention in `<strong>`. Full internal link paths only. Hero never in body. Expert quote reminder applies (Section 14).
+
+**Image-type flag (needs your decision):** the standing image rule says "actual nail look, styled and shot" and bans tool/process shots. Paronychia is a swollen, inflamed nail fold. A polished manicure photo would not illustrate it. This post's body images probably need a different treatment (clean anatomical or symptom illustrations, or infographics for the acute vs. chronic comparison). Confirm which you want before block_3 is finalized.
+
+---
+
+## OPEN ITEMS BEFORE THIS FILE IS COMPLETE
+1. Run phases 3 to 12 with live web search and fetch, then fill every PENDING field.
+2. Confirm `mark_bradley_dpodm` against `src/data/experts.ts`.
+3. Supply `category` and `publish_date`.
+4. Decide the image-type treatment for a medical (non-manicure) subject.
+5. Verify the working title length (over 60 chars) gets trimmed in phase 6.
