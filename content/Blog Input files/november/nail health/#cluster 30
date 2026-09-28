@@ -1,0 +1,2596 @@
+{
+  "cluster_metadata": {
+    "cluster_topic": "Nail Health",
+    "topic_slug": "nail-health",
+    "show_inspo_gallery_link_cluster_default": false,
+    "target_audience": "Global, Tier 1 countries (US, UK, Canada, Australia)",
+    "total_posts": 33,
+    "intent_breakdown": {
+      "informational": 27,
+      "inspirational": 0,
+      "tutorial": 3,
+      "comparison": 3,
+      "seasonal_trend": 0
+    },
+    "pillar_post_slug": "what-kills-toenail-fungus-instantly",
+    "created_date": "2026-09-28"
+  },
+  "existing_site_posts_excluded": [
+    {
+      "url": "https://mirelleinspo.com/blog/toenail-fungus/toenail-fungus",
+      "title": "Toenail Fungus",
+      "inferred_primary_keyword": "toenail fungus",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists on mirelleinspo.com — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/toenail-fungus/toenail-fungus-causes",
+      "title": "Toenail Fungus Causes",
+      "inferred_primary_keyword": "toenail fungus causes",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/toenail-fungus/toenail-fungus-symptoms",
+      "title": "Toenail Fungus Symptoms",
+      "inferred_primary_keyword": "toenail fungus symptoms",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/toenail-fungus/toenail-fungus-treatment",
+      "title": "Toenail Fungus Treatment",
+      "inferred_primary_keyword": "toenail fungus treatment",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/toenail-fungus/toenail-fungus-stages",
+      "title": "Toenail Fungus Stages",
+      "inferred_primary_keyword": "toenail fungus stages",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/toenail-fungus/toenail-fungus-home-remedies",
+      "title": "Toenail Fungus Home Remedies",
+      "inferred_primary_keyword": "toenail fungus home remedies",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/toenail-fungus/toenail-fungus-laser-treatment-cost",
+      "title": "Toenail Fungus Laser Treatment Cost",
+      "inferred_primary_keyword": "toenail fungus laser treatment cost",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/toenail-fungus/toenail-fungus-vs-nail-psoriasis",
+      "title": "Toenail Fungus vs Nail Psoriasis",
+      "inferred_primary_keyword": "toenail fungus vs nail psoriasis",
+      "inferred_intent": "comparison",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/nail-fungus/fingernail-fungus",
+      "title": "Fingernail Fungus",
+      "inferred_primary_keyword": "fingernail fungus",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/nail-fungus/what-is-nail-fungus",
+      "title": "What Is Nail Fungus",
+      "inferred_primary_keyword": "what is nail fungus",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/nail-fungus/nail-fungus-causes",
+      "title": "Nail Fungus Causes",
+      "inferred_primary_keyword": "nail fungus causes",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/nail-fungus/nail-fungus-symptoms",
+      "title": "Nail Fungus Symptoms",
+      "inferred_primary_keyword": "nail fungus symptoms",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/nail-fungus/nail-fungus-treatment",
+      "title": "Nail Fungus Treatment",
+      "inferred_primary_keyword": "nail fungus treatment",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/nail-fungus/nail-fungus-prevention",
+      "title": "Nail Fungus Prevention",
+      "inferred_primary_keyword": "nail fungus prevention",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/nail-fungus/nail-fungus-home-remedies",
+      "title": "Nail Fungus Home Remedies",
+      "inferred_primary_keyword": "nail fungus home remedies",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/nail-fungus/how-long-does-nail-fungus-take-to-clear",
+      "title": "How Long Does Nail Fungus Take to Clear",
+      "inferred_primary_keyword": "how long does nail fungus take to clear",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/toenail-fungus/is-toenail-fungus-contagious",
+      "title": "Is Toenail Fungus Contagious",
+      "inferred_primary_keyword": "is toenail fungus contagious",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/toenail-fungus/nail-polish-toenail-fungus",
+      "title": "Nail Polish and Toenail Fungus",
+      "inferred_primary_keyword": "nail polish toenail fungus",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/toenail-fungus/prevent-toenail-fungus-returning",
+      "title": "Prevent Toenail Fungus Returning",
+      "inferred_primary_keyword": "prevent toenail fungus returning",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/toenail-fungus/best-toenail-fungus-treatment",
+      "title": "Best Toenail Fungus Treatment",
+      "inferred_primary_keyword": "best toenail fungus treatment",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/nail-faqs/are-long-nails-bad-for-your-health",
+      "title": "Are Long Nails Bad for Your Health",
+      "inferred_primary_keyword": "are long nails bad for your health",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/nail-faqs/can-nail-polish-affect-thyroid-health",
+      "title": "Can Nail Polish Affect Thyroid Health",
+      "inferred_primary_keyword": "can nail polish affect thyroid health",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/nail-faqs/can-nail-polish-damage-your-natural-nails",
+      "title": "Can Nail Polish Damage Your Natural Nails",
+      "inferred_primary_keyword": "can nail polish damage your natural nails",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/nail-faqs/how-often-should-you-trim-your-nails-for-health",
+      "title": "How Often Should You Trim Your Nails for Health",
+      "inferred_primary_keyword": "how often should you trim your nails",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/nail-faqs/how-to-grow-stronger-healthier-nails-naturally",
+      "title": "How to Grow Stronger Healthier Nails Naturally",
+      "inferred_primary_keyword": "how to grow stronger healthier nails naturally",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/nail-feed/acrylate-allergy-acrylic-nails-symptoms",
+      "title": "Acrylate Allergy Acrylic Nails Symptoms",
+      "inferred_primary_keyword": "acrylate allergy acrylic nails symptoms",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/nail-feed/gel-manicure-lifelong-acrylate-allergy",
+      "title": "Gel Manicure Lifelong Acrylate Allergy",
+      "inferred_primary_keyword": "gel manicure acrylate allergy",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/hema-allergy-nails/what-is-hema-nail-products",
+      "title": "What Is HEMA in Nail Products",
+      "inferred_primary_keyword": "what is hema",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/hema-allergy-nails/hema-allergy-symptoms",
+      "title": "HEMA Allergy Symptoms",
+      "inferred_primary_keyword": "hema allergy symptoms",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/hema-allergy-nails/how-to-avoid-hema-allergy",
+      "title": "How to Avoid HEMA Allergy",
+      "inferred_primary_keyword": "how to avoid hema allergy",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/hema-allergy-nails/hema-vs-tpo-free-gel-polish",
+      "title": "HEMA vs TPO-Free Gel Polish",
+      "inferred_primary_keyword": "hema vs tpo free gel polish",
+      "inferred_intent": "comparison",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/hema-allergy-nails/is-hema-free-gel-polish-as-good",
+      "title": "Is HEMA-Free Gel Polish As Good",
+      "inferred_primary_keyword": "is hema free gel polish as good",
+      "inferred_intent": "comparison",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/hema-allergy-nails/is-hema-banned-eu",
+      "title": "Is HEMA Banned in the EU",
+      "inferred_primary_keyword": "is hema banned eu",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/nail-basics/nail-anatomy-parts-of-the-nail",
+      "title": "Nail Anatomy: Parts of the Nail",
+      "inferred_primary_keyword": "nail anatomy parts of the nail",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/nail-basics/what-is-a-cuticle",
+      "title": "What Is a Cuticle",
+      "inferred_primary_keyword": "what is a cuticle",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/cuticle-care/what-does-cuticle-oil-do",
+      "title": "What Does Cuticle Oil Do",
+      "inferred_primary_keyword": "what does cuticle oil do",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/cuticle-care/diy-cuticle-oil-recipes-at-home",
+      "title": "DIY Cuticle Oil Recipes at Home",
+      "inferred_primary_keyword": "diy cuticle oil recipes",
+      "inferred_intent": "tutorial",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/cuticle-care/dry-cracked-cuticles-winter",
+      "title": "Dry Cracked Cuticles in Winter",
+      "inferred_primary_keyword": "dry cracked cuticles winter",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/cuticle-care/how-to-stop-picking-cuticles",
+      "title": "How to Stop Picking Cuticles",
+      "inferred_primary_keyword": "how to stop picking cuticles",
+      "inferred_intent": "tutorial",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/cuticle-care/overgrown-cuticles-causes-and-fix",
+      "title": "Overgrown Cuticles Causes and Fix",
+      "inferred_primary_keyword": "overgrown cuticles causes and fix",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/cuticle-care/should-you-push-back-or-cut-cuticles",
+      "title": "Should You Push Back or Cut Cuticles",
+      "inferred_primary_keyword": "should you push back or cut cuticles",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/cuticle-care/why-do-i-keep-getting-hangnails",
+      "title": "Why Do I Keep Getting Hangnails",
+      "inferred_primary_keyword": "why do i keep getting hangnails",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/nail-strengthening/why-are-my-nails-weak-and-brittle",
+      "title": "Why Are My Nails Weak and Brittle",
+      "inferred_primary_keyword": "why are my nails weak and brittle",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/nail-strengthening/does-biotin-work-for-nails",
+      "title": "Does Biotin Work for Nails",
+      "inferred_primary_keyword": "does biotin work for nails",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/nail-strengthening/how-to-grow-nails-faster-and-stronger",
+      "title": "How to Grow Nails Faster and Stronger",
+      "inferred_primary_keyword": "how to grow nails faster and stronger",
+      "inferred_intent": "tutorial",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/nail-strengthening/nail-hardener-vs-nail-strengthener",
+      "title": "Nail Hardener vs Nail Strengthener",
+      "inferred_primary_keyword": "nail hardener vs nail strengthener",
+      "inferred_intent": "comparison",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/nail-strengthening/repair-nails-after-gel-acrylic-removal",
+      "title": "Repair Nails After Gel Acrylic Removal",
+      "inferred_primary_keyword": "repair nails after gel acrylic removal",
+      "inferred_intent": "tutorial",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/nail-strengthening/vertical-ridges-on-nails-causes-and-fixes",
+      "title": "Vertical Ridges on Nails: Causes and Fixes",
+      "inferred_primary_keyword": "vertical ridges on nails causes and fixes",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/nail-strengthening/nail-slugging-tiktok-trend-for-stronger-nails",
+      "title": "Nail Slugging TikTok Trend",
+      "inferred_primary_keyword": "nail slugging trend",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/acrylic-nails/do-acrylic-nails-damage-your-nails",
+      "title": "Do Acrylic Nails Damage Your Nails",
+      "inferred_primary_keyword": "do acrylic nails damage your nails",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/almond-nails-aftercare",
+      "title": "Almond Nails Aftercare",
+      "inferred_primary_keyword": "almond nails aftercare",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/almond-nails-natural-nail-growth",
+      "title": "Almond Nails and Natural Nail Growth",
+      "inferred_primary_keyword": "almond nails natural nail growth",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/anti-aging-manicure",
+      "title": "Anti-Aging Manicure",
+      "inferred_primary_keyword": "anti aging manicure",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/bare-nails-trend-2026/bare-nails-aftercare",
+      "title": "Bare Nails Aftercare",
+      "inferred_primary_keyword": "bare nails aftercare",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/best-manicure-type-for-nail-health",
+      "title": "Best Manicure Type for Nail Health",
+      "inferred_primary_keyword": "best manicure type for nail health",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/healthiest-nail-option-overall",
+      "title": "Healthiest Nail Option Overall",
+      "inferred_primary_keyword": "healthiest nail option overall",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/nail-trends-2026/healthy-nail-aesthetic",
+      "title": "Healthy Nail Aesthetic",
+      "inferred_primary_keyword": "healthy nail aesthetic",
+      "inferred_intent": "inspirational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/biab-cost/biab-cost-guide",
+      "title": "BIAB Cost Guide",
+      "inferred_primary_keyword": "biab cost",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/biab-cost/biab-infill-guide",
+      "title": "BIAB Infill Guide",
+      "inferred_primary_keyword": "biab infill guide",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/biab-cost/biab-vs-gel",
+      "title": "BIAB vs Gel",
+      "inferred_primary_keyword": "biab vs gel",
+      "inferred_intent": "comparison",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/biab-cost/biab-vs-gel-x",
+      "title": "BIAB vs Gel-X",
+      "inferred_primary_keyword": "biab vs gel-x",
+      "inferred_intent": "comparison",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/biab-cost/how-often-biab-infill",
+      "title": "How Often BIAB Infill",
+      "inferred_primary_keyword": "how often biab infill",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/biab-cost/how-to-remove-biab-at-home",
+      "title": "How to Remove BIAB at Home",
+      "inferred_primary_keyword": "how to remove biab at home",
+      "inferred_intent": "tutorial",
+      "exclusion_reason": "Already exists — keyword reserved"
+    }
+  ],
+  "posts": [
+    {
+      "post_id": 1,
+      "role": "pillar",
+      "title": "What Kills Toenail Fungus Instantly? What Actually Works",
+      "slug": "what-kills-toenail-fungus-instantly",
+      "primary_keyword": "what kills toenail fungus instantly",
+      "intent": "informational",
+      "search_mode": "decision_mode",
+      "suggested_hook_trigger": "Trigger 1 — Curiosity Gap",
+      "search_demand_signals": [
+        "Keyword tool: 33.1K monthly volume, KD 23",
+        "Google PAA: recurring question cluster",
+        "Reddit r/Fungus and r/foothealth threads asking this exact phrasing"
+      ],
+      "why_included": "Highest-volume keyword in the entire dataset with low keyword difficulty, and no existing post on the site answers the 'instantly' framing directly.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": {
+        "slug": "david-williams-dpm",
+        "name": "Dr. David Williams, DPM",
+        "role": "Podiatrist at El Paso Feet",
+        "image": "/images/experts/david-williams-dpm.webp",
+        "socialLinks": [
+          { "label": "Website", "url": "https://www.elpasofeet.com" }
+        ],
+        "quote": "Believe it or not, I get this question a lot. Patients tend to worry that the fungus infecting their nail will also get into their bloodstream and cause a major problem with their health. Nothing could be further from the truth. The fungus that infects your nail stays in your nail.",
+        "source": "harvested_from_provided_interview",
+        "note": "Nothing 'kills fungus instantly' per the source material — the pillar's honest angle, per this expert, is myth-correction: no home remedy or OTC product works overnight, and oral terbinafine (per Dr. Rokhsar in the companion HARO digest) remains the most effective option at 60-70% cure over 6-12 weeks. Article must state plainly that despite the high search volume for 'instantly,' no such treatment exists, then redirect to real options."
+      },
+      "internal_links": {
+        "links_to": [
+          {
+            "slug": "do-otc-nail-fungus-treatments-work",
+            "anchor_text": "whether over-the-counter treatments actually work",
+            "type": "spoke"
+          },
+          {
+            "slug": "jublia-vs-ciclopirox-vs-terbinafine",
+            "anchor_text": "comparing Jublia, ciclopirox, and terbinafine prescriptions",
+            "type": "spoke"
+          },
+          {
+            "slug": "does-laser-treatment-work-for-toenail-fungus",
+            "anchor_text": "whether laser treatment for toenail fungus works",
+            "type": "spoke"
+          },
+          {
+            "slug": "toenail-fungus-home-remedies-that-work",
+            "anchor_text": "which home remedies for nail fungus actually work",
+            "type": "spoke"
+          },
+          {
+            "slug": "nail-fungus-myths-what-is-actually-true",
+            "anchor_text": "common nail fungus myths debunked",
+            "type": "spoke"
+          },
+          {
+            "url": "https://mirelleinspo.com/blog/toenail-fungus/toenail-fungus-treatment",
+            "anchor_text": "the full toenail fungus treatment guide",
+            "type": "existing_site_post"
+          },
+          {
+            "url": "https://mirelleinspo.com/blog/toenail-fungus/best-toenail-fungus-treatment",
+            "anchor_text": "the best toenail fungus treatments ranked",
+            "type": "existing_site_post"
+          }
+        ],
+        "receives_links_from": [
+          {
+            "slug": "do-otc-nail-fungus-treatments-work",
+            "anchor_text": "what actually kills toenail fungus"
+          },
+          {
+            "slug": "toenail-fungus-dying-signs",
+            "anchor_text": "what kills toenail fungus instantly"
+          },
+          {
+            "slug": "nail-fungus-myths-what-is-actually-true",
+            "anchor_text": "the real answer to what kills toenail fungus instantly"
+          }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 2,
+      "role": "spoke",
+      "title": "Can Toenail Fungus Kill You? The Real Risk Explained",
+      "slug": "can-toenail-fungus-kill-you",
+      "primary_keyword": "can toenail fungus kill you",
+      "intent": "informational",
+      "search_mode": "decision_mode",
+      "suggested_hook_trigger": "Trigger 1 — Curiosity Gap",
+      "search_demand_signals": [
+        "Keyword tool: 2.4K monthly volume, KD 31",
+        "Google PAA",
+        "YouTube podiatry channels addressing this fear directly"
+      ],
+      "why_included": "Distinct fear-based query with real volume; no existing post addresses mortality/safety risk directly.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": {
+        "slug": "david-williams-dpm",
+        "name": "Dr. David Williams, DPM",
+        "role": "Podiatrist at El Paso Feet",
+        "image": "/images/experts/david-williams-dpm.webp",
+        "socialLinks": [
+          { "label": "Website", "url": "https://www.elpasofeet.com" }
+        ],
+        "quote": "There are nail issues that can cause big problems if you don't get them treated. If your toenail turns from a fungal toenail into an ingrown toenail with redness, swelling, pain, and drainage, you should see your doctor right away. There are documented cases of patients getting infected toenails and losing their toes, or worse yet, their feet or legs. Those are extreme cases but they happen. It takes a lot to go from an infected toenail to leg amputation, and usually, ingrown toenails can be treated quickly and effectively in the office.",
+        "source": "harvested_from_provided_interview"
+      },
+      "internal_links": {
+        "links_to": [
+          {
+            "slug": "what-kills-toenail-fungus-instantly",
+            "anchor_text": "what actually kills toenail fungus",
+            "type": "pillar"
+          },
+          {
+            "slug": "longitudinal-melanonychia-warning-signs",
+            "anchor_text": "the dark nail line that can signal melanoma",
+            "type": "spoke"
+          },
+          {
+            "slug": "diabetic-nail-care-guide",
+            "anchor_text": "diabetic nail care and infection risk",
+            "type": "spoke"
+          },
+          {
+            "url": "https://mirelleinspo.com/blog/toenail-fungus/toenail-fungus-symptoms",
+            "anchor_text": "recognizing toenail fungus symptoms early",
+            "type": "existing_site_post"
+          }
+        ],
+        "receives_links_from": [
+          {
+            "slug": "what-kills-toenail-fungus-instantly",
+            "anchor_text": "whether toenail fungus can actually be dangerous"
+          }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 3,
+      "role": "spoke",
+      "title": "How to Know If Toenail Fungus Is Dying (Signs It's Working)",
+      "slug": "toenail-fungus-dying-signs",
+      "primary_keyword": "how to know if toenail fungus is dying",
+      "intent": "informational",
+      "search_mode": "decision_mode",
+      "suggested_hook_trigger": "Trigger 3 — Specificity",
+      "search_demand_signals": [
+        "Keyword tool: 3.6K monthly volume, KD 12",
+        "Reddit progress-tracking threads",
+        "YouTube 'before and after' treatment videos"
+      ],
+      "why_included": "Progress-tracking query with real volume and very low difficulty; distinct from stages/treatment content already on site.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": {
+        "slug": "cameron-rokhsar-md",
+        "name": "Dr. Cameron Rokhsar, MD, FAAD, FAACS",
+        "role": "Founder & Medical Director at New York Cosmetic Skin & Laser Surgery Center",
+        "image": "/images/experts/cameron-rokhsar-md.webp",
+        "socialLinks": [
+          { "label": "Website", "url": "https://cosmeticlaserskinsurgery.com" }
+        ],
+        "quote": "What sometimes looks like spontaneous improvement is usually just the visible infected portion growing out toward the tip while fungus persists closer to the cuticle. Timelines run slower than people expect because toenails only grow about a millimeter a month. An oral terbinafine course is typically six to twelve weeks, but you won't see a fully clear nail until an entirely new, healthy nail has grown out from the base, which takes twelve to eighteen months for a big toe. Patients often quit early because nothing looks different after a few weeks, when in reality the new growth at the cuticle is the real marker of success, not the older nail further out.",
+        "source": "harvested_from_provided_haro_digest"
+      },
+      "internal_links": {
+        "links_to": [
+          {
+            "slug": "what-kills-toenail-fungus-instantly",
+            "anchor_text": "what actually kills toenail fungus",
+            "type": "pillar"
+          },
+          {
+            "slug": "how-long-does-it-take-a-toenail-to-grow-back",
+            "anchor_text": "how long it takes a toenail to fully grow back",
+            "type": "spoke"
+          },
+          {
+            "url": "https://mirelleinspo.com/blog/nail-fungus/how-long-does-nail-fungus-take-to-clear",
+            "anchor_text": "the full timeline for nail fungus to clear",
+            "type": "existing_site_post"
+          }
+        ],
+        "receives_links_from": [
+          {
+            "slug": "what-kills-toenail-fungus-instantly",
+            "anchor_text": "how to know if treatment is actually working"
+          }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 4,
+      "role": "pillar",
+      "title": "What Does Nail Fungus Look Like? A Visual Stage-by-Stage Guide",
+      "slug": "what-does-nail-fungus-look-like",
+      "primary_keyword": "what does nail fungus look like",
+      "intent": "informational",
+      "search_mode": "inspiration_mode",
+      "suggested_hook_trigger": "Trigger 3 — Specificity",
+      "search_demand_signals": [
+        "Keyword tool: 2.9K monthly volume, KD 32 (nail fungus) + 2.4K (toenail variant)",
+        "Google Images high engagement",
+        "PAA visual-identification questions"
+      ],
+      "why_included": "High-volume visual/diagnostic query distinct from the existing 'stages' post, which covers progression rather than color-based identification.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": {
+        "slug": "david-williams-dpm",
+        "name": "Dr. David Williams, DPM",
+        "role": "Podiatrist at El Paso Feet",
+        "image": "/images/experts/david-williams-dpm.webp",
+        "socialLinks": [
+          { "label": "Website", "url": "https://www.elpasofeet.com" }
+        ],
+        "quote": "The color of the nail is usually more important to the doctor than it is to the patient. We see nails that have a variety of different colors from white to yellow and from green to black. They may indicate different organisms, previous injury, or even diseases causing the nails to change... About 80% of the time a thick, yellow and crumbly nail is caused by fungus. As a patient, all you really need to know is that if your nail is changing color, getting thick, and becoming crumbly or brittle, you should go to your foot doctor and get it looked at.",
+        "source": "harvested_from_provided_interview"
+      },
+      "internal_links": {
+        "links_to": [
+          {
+            "slug": "superficial-white-onychomycosis-guide",
+            "anchor_text": "the nail fungus type that looks completely different",
+            "type": "spoke"
+          },
+          {
+            "slug": "paronychia-nail-infection-guide",
+            "anchor_text": "the nail infection that isn't fungus",
+            "type": "spoke"
+          },
+          {
+            "slug": "nail-psoriasis-vs-fungus",
+            "anchor_text": "telling nail psoriasis apart from fungus",
+            "type": "spoke"
+          },
+          {
+            "slug": "is-nail-fungus-contagious",
+            "anchor_text": "whether nail fungus is contagious",
+            "type": "spoke"
+          },
+          {
+            "url": "https://mirelleinspo.com/blog/toenail-fungus/toenail-fungus-stages",
+            "anchor_text": "how toenail fungus progresses through stages",
+            "type": "existing_site_post"
+          }
+        ],
+        "gallery_link": null,
+        "receives_links_from": [
+          {
+            "slug": "superficial-white-onychomycosis-guide",
+            "anchor_text": "what does nail fungus look like"
+          },
+          {
+            "slug": "paronychia-nail-infection-guide",
+            "anchor_text": "what nail fungus actually looks like"
+          },
+          {
+            "slug": "nail-psoriasis-vs-fungus",
+            "anchor_text": "identifying nail fungus by appearance"
+          },
+          {
+            "slug": "is-nail-fungus-contagious",
+            "anchor_text": "what nail fungus looks like"
+          }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 5,
+      "role": "spoke",
+      "title": "Is Nail Fungus Contagious? How It Spreads and How to Avoid It",
+      "slug": "is-nail-fungus-contagious",
+      "primary_keyword": "is nail fungus contagious",
+      "intent": "informational",
+      "search_mode": "decision_mode",
+      "suggested_hook_trigger": "Trigger 1 — Curiosity Gap",
+      "search_demand_signals": [
+        "Keyword tool: 1.9K monthly volume, KD 6",
+        "Google PAA",
+        "Reddit shared-shower/gym threads"
+      ],
+      "why_included": "Very low keyword difficulty with real volume; distinct from the existing toenail-specific contagion post via its fingernail/general-transmission framing.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": {
+        "slug": "bob-baravarian",
+        "name": "Dr. Bob Baravarian",
+        "role": "Foot and Ankle Director at Docs Foot and Ankle",
+        "image": "/images/experts/bob-baravarian.webp",
+        "socialLinks": [
+          { "label": "Website", "url": "https://www.archteksocks.com" }
+        ],
+        "quote": "Yes toenail fungus is contagious but you have to have a predisposition towards getting fungus. Some people are more resistant to fungal infections so they would not get a transmission. Fungus is everywhere and if you are susceptible to it, you can pick it up from shoes, nail salon, gym and areas with moisture. Fungus loves moist environments.",
+        "source": "harvested_from_provided_haro_digest"
+      },
+      "internal_links": {
+        "links_to": [
+          {
+            "slug": "what-does-nail-fungus-look-like",
+            "anchor_text": "what nail fungus actually looks like",
+            "type": "pillar"
+          },
+          {
+            "slug": "nail-fungus-myths-what-is-actually-true",
+            "anchor_text": "common nail fungus myths debunked",
+            "type": "spoke"
+          },
+          {
+            "url": "https://mirelleinspo.com/blog/toenail-fungus/is-toenail-fungus-contagious",
+            "anchor_text": "the full guide to toenail fungus contagiousness",
+            "type": "existing_site_post"
+          }
+        ],
+        "receives_links_from": [
+          {
+            "slug": "what-does-nail-fungus-look-like",
+            "anchor_text": "whether nail fungus is contagious"
+          }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 6,
+      "role": "spoke",
+      "title": "Paronychia: The Nail Infection That Isn't Fungus (Symptoms & Treatment)",
+      "slug": "paronychia-nail-infection-guide",
+      "primary_keyword": "paronychia",
+      "intent": "informational",
+      "search_mode": "decision_mode",
+      "suggested_hook_trigger": "Trigger 1 — Curiosity Gap",
+      "search_demand_signals": [
+        "Google PAA on paronychia symptoms/treatment",
+        "AAFP and Harvard Health clinical references",
+        "Reddit r/dermatology recurring threads"
+      ],
+      "why_included": "Entirely distinct entity (bacterial, not fungal) with zero overlap against the fungus-focused existing posts.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": {
+        "slug": "mark-bradley-dpodm",
+        "name": "Mark Bradley, D.Pod.M",
+        "role": "Chiropodist/Podiatrist at Mississauga Podiatry Associates",
+        "image": "/images/experts/mark-bradley-dpodm.webp",
+        "socialLinks": [
+          { "label": "Website", "url": "https://podiatryassociates.ca" }
+        ],
+        "quote": "Short answer is the fungal infection of the nail, will usually effect only the nail tissue and not the surrounding soft tissue. Conversely the paronychia causes inflammation and swelling of the soft tissue and is usually accompanied by discomfort. If bacterial in origin there may be exudate and the nail will partially change colour as the bacterial spread detaches the nail. Management of the paronychia is best managed by professional help.",
+        "source": "harvested_from_provided_haro_digest"
+      },
+      "internal_links": {
+        "links_to": [
+          {
+            "slug": "what-does-nail-fungus-look-like",
+            "anchor_text": "what nail fungus actually looks like",
+            "type": "pillar"
+          },
+          {
+            "slug": "nail-psoriasis-vs-fungus",
+            "anchor_text": "telling nail psoriasis apart from fungus",
+            "type": "spoke"
+          },
+          {
+            "slug": "ingrown-toenail-infection-signs",
+            "anchor_text": "signs an ingrown toenail is infected",
+            "type": "spoke"
+          },
+          {
+            "url": "https://mirelleinspo.com/blog/cuticle-care/why-do-i-keep-getting-hangnails",
+            "anchor_text": "why hangnails keep happening",
+            "type": "existing_site_post"
+          }
+        ],
+        "receives_links_from": [
+          {
+            "slug": "what-does-nail-fungus-look-like",
+            "anchor_text": "the nail infection that isn't fungus"
+          }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 7,
+      "role": "spoke",
+      "title": "Ingrown Toenail Infection: Signs You Need a Doctor (Not Home Care)",
+      "slug": "ingrown-toenail-infection-signs",
+      "primary_keyword": "infected ingrown toenail",
+      "intent": "informational",
+      "search_mode": "decision_mode",
+      "suggested_hook_trigger": "Trigger 1 — Curiosity Gap",
+      "search_demand_signals": [
+        "Google PAA across multiple podiatry sites",
+        "Reddit r/foothealth",
+        "YouTube triage-focused videos"
+      ],
+      "why_included": "New entity (ingrown nail is distinct from fungal infection); safety-triage angle not covered by any existing post.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": {
+        "slug": "cameron-bennet",
+        "name": "Cameron Bennet",
+        "role": "Podiatrist at My Family Podiatry",
+        "image": "/images/experts/cameron-bennet.webp",
+        "socialLinks": [
+          { "label": "Website", "url": "https://myfamilypodiatry.com.au" },
+          { "label": "Instagram", "url": "https://www.instagram.com/camthepodiatrist" },
+          { "label": "LinkedIn", "url": "https://linkedin.com/in/cameron-bennet" }
+        ],
+        "quote": "Some of the common features of an infected ingrown toenail are redness, swelling, pain and pus. This is caused by bacteria getting into the cut made from the nail in the skin. This can become much more serious if the redness begins spreading up the toe, and can even lead to issues such as cellulitis. While it can be tempting, you should avoid popping the pus-filled bubble. It will relieve some pressure but can introduce new infection, and you're far better to seek treatment and have the ingrown nail edge removed.",
+        "source": "harvested_from_provided_interview"
+      },
+      "internal_links": {
+        "links_to": [
+          {
+            "slug": "ingrown-toenail-stages",
+            "anchor_text": "how ingrown toenails progress from mild to infected",
+            "type": "spoke"
+          },
+          {
+            "slug": "does-dental-floss-help-ingrown-toenail",
+            "anchor_text": "whether dental floss under the nail actually works",
+            "type": "spoke"
+          },
+          {
+            "slug": "is-it-safe-to-cut-ingrown-toenail-yourself",
+            "anchor_text": "whether it's safe to treat an ingrown toenail yourself",
+            "type": "spoke"
+          },
+          {
+            "slug": "ingrown-toenail-antibiotics-when-needed",
+            "anchor_text": "when antibiotics are actually needed for an ingrown toenail",
+            "type": "spoke"
+          },
+          {
+            "slug": "partial-nail-avulsion-recovery",
+            "anchor_text": "what recovery looks like after permanent ingrown toenail removal",
+            "type": "spoke"
+          },
+          {
+            "slug": "diabetic-nail-care-guide",
+            "anchor_text": "why diabetics need to treat ingrown toenails differently",
+            "type": "spoke"
+          }
+        ],
+        "receives_links_from": [
+          {
+            "slug": "can-toenail-fungus-kill-you",
+            "anchor_text": "signs an ingrown toenail has become infected"
+          },
+          {
+            "slug": "paronychia-nail-infection-guide",
+            "anchor_text": "signs an ingrown toenail is infected"
+          },
+          {
+            "slug": "ingrown-toenail-stages",
+            "anchor_text": "when an ingrown toenail needs a doctor"
+          },
+          {
+            "slug": "does-dental-floss-help-ingrown-toenail",
+            "anchor_text": "signs of an infected ingrown toenail"
+          },
+          {
+            "slug": "is-it-safe-to-cut-ingrown-toenail-yourself",
+            "anchor_text": "recognizing an infected ingrown toenail"
+          },
+          {
+            "slug": "ingrown-toenail-antibiotics-when-needed",
+            "anchor_text": "infection signs that need a doctor"
+          },
+          {
+            "slug": "partial-nail-avulsion-recovery",
+            "anchor_text": "signs of infection before considering surgery"
+          },
+          {
+            "slug": "diabetic-nail-care-guide",
+            "anchor_text": "infected ingrown toenail warning signs"
+          }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 8,
+      "role": "spoke",
+      "title": "Patch Testing Before Gel Nails: What It Is and Why You Need One",
+      "slug": "nail-patch-test-before-gel",
+      "primary_keyword": "nail patch test",
+      "intent": "informational",
+      "search_mode": "how_to_execution_mode",
+      "suggested_hook_trigger": "Trigger 1 — Curiosity Gap",
+      "search_demand_signals": [
+        "Scratch Magazine and nailknowledge.org editorial coverage",
+        "Wyndly allergy-clinic content",
+        "Reddit r/Nails recurring questions"
+      ],
+      "why_included": "Prevention/testing angle distinct from the existing HEMA symptom and definition posts, which don't address the testing process itself.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": {
+        "slug": "cameron-rokhsar-md",
+        "name": "Dr. Cameron Rokhsar, MD, FAAD, FAACS",
+        "role": "Founder & Medical Director at New York Cosmetic Skin & Laser Surgery Center",
+        "image": "/images/experts/cameron-rokhsar-md.webp",
+        "socialLinks": [
+          { "label": "Website", "url": "https://cosmeticlaserskinsurgery.com" }
+        ],
+        "quote": "For someone with no symptoms and no history of a reaction, formal patch testing is overkill. It requires a dermatology visit, application of allergen panels for 48 hours, and follow-up readings days later, which is a real time and cost burden to run preemptively on a population where methacrylate allergy, while increasingly common, still affects a minority of regular gel users... Patch testing becomes genuinely worthwhile once someone has already had a suspicious reaction, is choosing between products before resuming gel manicures after a reaction, or works in the nail industry with daily high-frequency exposure, where the stakes and exposure level justify the formal workup.",
+        "source": "harvested_from_provided_haro_digest"
+      },
+      "internal_links": {
+        "links_to": [
+          {
+            "slug": "nail-damage-recovery-timeline",
+            "anchor_text": "how long nails take to recover from gel damage",
+            "type": "pillar"
+          },
+          {
+            "url": "https://mirelleinspo.com/blog/hema-allergy-nails/hema-allergy-symptoms",
+            "anchor_text": "the early symptoms of a HEMA allergy",
+            "type": "existing_site_post"
+          },
+          {
+            "url": "https://mirelleinspo.com/blog/hema-allergy-nails/how-to-avoid-hema-allergy",
+            "anchor_text": "how to avoid developing a HEMA allergy",
+            "type": "existing_site_post"
+          },
+          {
+            "url": "https://mirelleinspo.com/nail-feed/acrylate-allergy-acrylic-nails-symptoms",
+            "anchor_text": "acrylate allergy symptoms in acrylic nails",
+            "type": "existing_site_post"
+          }
+        ],
+        "receives_links_from": [
+          {
+            "slug": "nail-damage-recovery-timeline",
+            "anchor_text": "whether you should get a patch test before gel nails"
+          }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 9,
+      "role": "pillar",
+      "title": "What Your Nail Color Is Telling You About Your Health",
+      "slug": "nail-color-meaning-health",
+      "primary_keyword": "nail color meaning",
+      "intent": "informational",
+      "search_mode": "inspiration_mode",
+      "suggested_hook_trigger": "Trigger 1 — Curiosity Gap",
+      "search_demand_signals": [
+        "Healthline, University of Utah Health, and multiple dermatology blogs",
+        "Pinterest search interest",
+        "PAA color-specific questions"
+      ],
+      "why_included": "Broad diagnostic-color hub with independent search demand, distinct from fungus-specific and HEMA-specific existing content.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": {
+        "slug": "cameron-rokhsar-md",
+        "name": "Dr. Cameron Rokhsar, MD, FAAD, FAACS",
+        "role": "Founder & Medical Director at New York Cosmetic Skin & Laser Surgery Center",
+        "image": "/images/experts/cameron-rokhsar-md.webp",
+        "socialLinks": [
+          { "label": "Website", "url": "https://cosmeticlaserskinsurgery.com" }
+        ],
+        "quote": "White spots, leukonychia, are almost always from minor trauma to the nail matrix, a stubbed toe or manicure pressure weeks earlier, not a calcium or zinc deficiency the way the old myth claims, and they grow out on their own without treatment. Spoon-shaped nails, koilonychia, where the nail curves inward like a spoon, are the one change that is a genuine red flag, classically linked to iron deficiency anemia and worth bloodwork, especially alongside fatigue or pale skin... Beau's lines, horizontal grooves crossing several nails at once, usually mark a specific illness, high fever, or major stress from weeks earlier when that section of nail was forming, and are worth mentioning to a doctor if the timing lines up.",
+        "source": "harvested_from_provided_haro_digest"
+      },
+      "internal_links": {
+        "links_to": [
+          {
+            "slug": "spoon-nails-koilonychia",
+            "anchor_text": "what spoon-shaped nails mean",
+            "type": "spoke"
+          },
+          {
+            "slug": "beaus-lines-nail-grooves",
+            "anchor_text": "what horizontal nail grooves mean",
+            "type": "spoke"
+          },
+          {
+            "slug": "white-spots-nails-leukonychia",
+            "anchor_text": "the truth about white spots on nails",
+            "type": "spoke"
+          },
+          {
+            "slug": "longitudinal-melanonychia-warning-signs",
+            "anchor_text": "the dark nail line that can signal melanoma",
+            "type": "spoke"
+          },
+          {
+            "url": "https://mirelleinspo.com/blog/nail-strengthening/vertical-ridges-on-nails-causes-and-fixes",
+            "anchor_text": "vertical ridges on nails and what causes them",
+            "type": "existing_site_post"
+          },
+          {
+            "url": "https://mirelleinspo.com/nail-faqs/can-nail-polish-affect-thyroid-health",
+            "anchor_text": "whether nail polish can affect thyroid health",
+            "type": "existing_site_post"
+          }
+        ],
+        "gallery_link": null,
+        "receives_links_from": [
+          {
+            "slug": "spoon-nails-koilonychia",
+            "anchor_text": "what your nail color is telling you about your health"
+          },
+          {
+            "slug": "beaus-lines-nail-grooves",
+            "anchor_text": "what nail color and texture changes mean"
+          },
+          {
+            "slug": "white-spots-nails-leukonychia",
+            "anchor_text": "what your nails reveal about your health"
+          },
+          {
+            "slug": "longitudinal-melanonychia-warning-signs",
+            "anchor_text": "other nail health warning signs to know"
+          }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 10,
+      "role": "spoke",
+      "title": "Spoon Nails (Koilonychia): Causes and What It Means",
+      "slug": "spoon-nails-koilonychia",
+      "primary_keyword": "spoon nails",
+      "intent": "informational",
+      "search_mode": "decision_mode",
+      "suggested_hook_trigger": "Trigger 1 — Curiosity Gap",
+      "search_demand_signals": [
+        "GoodRx, Health Dialogues, Nature's Best coverage",
+        "YouTube dermatology explainers",
+        "PAA"
+      ],
+      "why_included": "Distinct named condition with real search demand and no existing coverage on site.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": {
+        "slug": "cameron-rokhsar-md",
+        "name": "Dr. Cameron Rokhsar, MD, FAAD, FAACS",
+        "role": "Founder & Medical Director at New York Cosmetic Skin & Laser Surgery Center",
+        "image": "/images/experts/cameron-rokhsar-md.webp",
+        "socialLinks": [
+          { "label": "Website", "url": "https://cosmeticlaserskinsurgery.com" }
+        ],
+        "quote": "Spoon-shaped nails, koilonychia, where the nail curves inward like a spoon, are the one change that is a genuine red flag, classically linked to iron deficiency anemia and worth bloodwork, especially alongside fatigue or pale skin.",
+        "source": "harvested_from_provided_haro_digest"
+      },
+      "internal_links": {
+        "links_to": [
+          {
+            "slug": "nail-color-meaning-health",
+            "anchor_text": "what your nail color is telling you about your health",
+            "type": "pillar"
+          },
+          {
+            "slug": "beaus-lines-nail-grooves",
+            "anchor_text": "what horizontal nail grooves mean",
+            "type": "spoke"
+          },
+          {
+            "url": "https://mirelleinspo.com/blog/nail-strengthening/why-are-my-nails-weak-and-brittle",
+            "anchor_text": "why nails become weak and brittle",
+            "type": "existing_site_post"
+          }
+        ],
+        "receives_links_from": [
+          {
+            "slug": "nail-color-meaning-health",
+            "anchor_text": "what spoon-shaped nails mean"
+          }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 11,
+      "role": "spoke",
+      "title": "Beau's Lines: What Horizontal Nail Grooves Really Mean",
+      "slug": "beaus-lines-nail-grooves",
+      "primary_keyword": "Beau's lines",
+      "intent": "informational",
+      "search_mode": "decision_mode",
+      "suggested_hook_trigger": "Trigger 1 — Curiosity Gap",
+      "search_demand_signals": [
+        "GoodRx and dermatology reference sites",
+        "Medical flashcard/education platforms",
+        "PAA"
+      ],
+      "why_included": "New named condition, zero overlap with existing vertical-ridges post since this covers horizontal grooves from a distinct cause (illness/stress, not friction).",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": {
+        "slug": "cameron-rokhsar-md",
+        "name": "Dr. Cameron Rokhsar, MD, FAAD, FAACS",
+        "role": "Founder & Medical Director at New York Cosmetic Skin & Laser Surgery Center",
+        "image": "/images/experts/cameron-rokhsar-md.webp",
+        "socialLinks": [
+          { "label": "Website", "url": "https://cosmeticlaserskinsurgery.com" }
+        ],
+        "quote": "Beau's lines, horizontal grooves crossing several nails at once, usually mark a specific illness, high fever, or major stress from weeks earlier when that section of nail was forming, and are worth mentioning to a doctor if the timing lines up.",
+        "source": "harvested_from_provided_haro_digest"
+      },
+      "internal_links": {
+        "links_to": [
+          {
+            "slug": "nail-color-meaning-health",
+            "anchor_text": "what your nail color is telling you about your health",
+            "type": "pillar"
+          },
+          {
+            "slug": "spoon-nails-koilonychia",
+            "anchor_text": "what spoon-shaped nails mean",
+            "type": "spoke"
+          },
+          {
+            "url": "https://mirelleinspo.com/blog/nail-strengthening/vertical-ridges-on-nails-causes-and-fixes",
+            "anchor_text": "vertical ridges on nails and what causes them",
+            "type": "existing_site_post"
+          }
+        ],
+        "receives_links_from": [
+          {
+            "slug": "nail-color-meaning-health",
+            "anchor_text": "what horizontal nail grooves mean"
+          }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 12,
+      "role": "spoke",
+      "title": "White Spots on Nails: Myth vs Fact (It's Not Calcium)",
+      "slug": "white-spots-nails-leukonychia",
+      "primary_keyword": "white spots on nails",
+      "intent": "informational",
+      "search_mode": "decision_mode",
+      "suggested_hook_trigger": "Trigger 1 — Curiosity Gap",
+      "search_demand_signals": [
+        "GoodRx, Nature's Best, Healthline coverage",
+        "High-volume PAA",
+        "Persistent popular myth driving search"
+      ],
+      "why_included": "High-demand myth-busting angle, distinct entity from the ridges and vitamin-deficiency posts.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": {
+        "slug": "cameron-rokhsar-md",
+        "name": "Dr. Cameron Rokhsar, MD, FAAD, FAACS",
+        "role": "Founder & Medical Director at New York Cosmetic Skin & Laser Surgery Center",
+        "image": "/images/experts/cameron-rokhsar-md.webp",
+        "socialLinks": [
+          { "label": "Website", "url": "https://cosmeticlaserskinsurgery.com" }
+        ],
+        "quote": "White spots, leukonychia, are almost always from minor trauma to the nail matrix, a stubbed toe or manicure pressure weeks earlier, not a calcium or zinc deficiency the way the old myth claims, and they grow out on their own without treatment.",
+        "source": "harvested_from_provided_haro_digest"
+      },
+      "internal_links": {
+        "links_to": [
+          {
+            "slug": "nail-color-meaning-health",
+            "anchor_text": "what your nail color is telling you about your health",
+            "type": "pillar"
+          },
+          {
+            "slug": "nail-fungus-myths-what-is-actually-true",
+            "anchor_text": "other common nail myths debunked",
+            "type": "spoke"
+          },
+          {
+            "url": "https://mirelleinspo.com/blog/nail-strengthening/does-biotin-work-for-nails",
+            "anchor_text": "whether biotin actually works for nails",
+            "type": "existing_site_post"
+          }
+        ],
+        "receives_links_from": [
+          {
+            "slug": "nail-color-meaning-health",
+            "anchor_text": "the truth about white spots on nails"
+          }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 13,
+      "role": "spoke",
+      "title": "Nail Psoriasis vs Nail Fungus: How to Tell the Difference",
+      "slug": "nail-psoriasis-vs-fungus",
+      "primary_keyword": "nail psoriasis vs fungus",
+      "intent": "comparison",
+      "search_mode": "decision_mode",
+      "suggested_hook_trigger": "Trigger 1 — Curiosity Gap",
+      "search_demand_signals": [
+        "emedihealth and Cleveland Clinic coverage",
+        "Reddit differentiation threads",
+        "PAA"
+      ],
+      "why_included": "High-value comparison pair distinct from the existing toenail-fungus-vs-psoriasis post, which is framed around toenails specifically; this post covers general nail psoriasis differentiation with a dedicated clinical quote.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": {
+        "slug": "cameron-rokhsar-md",
+        "name": "Dr. Cameron Rokhsar, MD, FAAD, FAACS",
+        "role": "Founder & Medical Director at New York Cosmetic Skin & Laser Surgery Center",
+        "image": "/images/experts/cameron-rokhsar-md.webp",
+        "socialLinks": [
+          { "label": "Website", "url": "https://cosmeticlaserskinsurgery.com" }
+        ],
+        "quote": "Onychomycosis usually starts at the free edge or side of the nail and creeps toward the cuticle gradually over months, turning the nail yellow-brown with crumbly, thickened debris underneath, and it typically doesn't hurt... Nail psoriasis has its own signature, pinpoint pitting across the nail surface, salmon-colored 'oil spots' under the nail plate, and lifting with an irregular, jagged border rather than the smoother separation fungus tends to cause. It's also worth checking the skin nearby, psoriasis plaques on elbows, knees, or the scalp point toward psoriasis rather than fungus even when the nail alone looks ambiguous.",
+        "source": "harvested_from_provided_haro_digest"
+      },
+      "internal_links": {
+        "links_to": [
+          {
+            "slug": "what-does-nail-fungus-look-like",
+            "anchor_text": "what nail fungus actually looks like",
+            "type": "pillar"
+          },
+          {
+            "slug": "paronychia-nail-infection-guide",
+            "anchor_text": "the nail infection that isn't fungus",
+            "type": "spoke"
+          },
+          {
+            "url": "https://mirelleinspo.com/blog/toenail-fungus/toenail-fungus-vs-nail-psoriasis",
+            "anchor_text": "the full toenail fungus vs nail psoriasis comparison",
+            "type": "existing_site_post"
+          }
+        ],
+        "receives_links_from": [
+          {
+            "slug": "what-does-nail-fungus-look-like",
+            "anchor_text": "telling nail psoriasis apart from fungus"
+          },
+          {
+            "slug": "paronychia-nail-infection-guide",
+            "anchor_text": "telling nail psoriasis apart from fungus"
+          }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 14,
+      "role": "spoke",
+      "title": "Longitudinal Melanonychia: The Dark Nail Line You Shouldn't Ignore",
+      "slug": "longitudinal-melanonychia-warning-signs",
+      "primary_keyword": "dark line on nail",
+      "intent": "informational",
+      "search_mode": "decision_mode",
+      "suggested_hook_trigger": "Trigger 1 — Curiosity Gap",
+      "search_demand_signals": [
+        "PMC clinical studies",
+        "Melanoma UK patient resources",
+        "TikTok dermatologist virality around this exact topic"
+      ],
+      "why_included": "Highest-stakes medical topic in the cluster (a melanoma warning sign), strong emerging search and social demand, zero existing coverage.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": {
+        "slug": "cameron-rokhsar-md",
+        "name": "Dr. Cameron Rokhsar, MD, FAAD, FAACS",
+        "role": "Founder & Medical Director at New York Cosmetic Skin & Laser Surgery Center",
+        "image": "/images/experts/cameron-rokhsar-md.webp",
+        "socialLinks": [
+          { "label": "Website", "url": "https://cosmeticlaserskinsurgery.com" }
+        ],
+        "quote": "A benign pigmented band, called longitudinal melanonychia, is usually a single narrow streak, uniform in color and width from cuticle to nail tip, with sharp parallel edges, and it stays essentially unchanged over months... What worries me clinically follows the same ABCDEF framework we use for skin melanoma, adapted for nails. A is age, since new pigmented bands appearing after age fifty deserve more scrutiny. B is a band wider than three millimeters or one with blurred, irregular borders and variegated color rather than uniform brown. C is rapid change in size, shape, or darkness. D is a single digit involved, especially the thumb, big toe, or index finger. E is extension of pigment onto the surrounding skin fold, called Hutchinson's sign, which is a genuine red flag. F is a family or personal history of melanoma. Any band that is new, changing, wider than a pencil eraser's rim, or bleeding through the nail plate should get a same-week dermatology visit and often a nail matrix biopsy rather than a watch-and-wait approach.",
+        "source": "harvested_from_provided_haro_digest"
+      },
+      "internal_links": {
+        "links_to": [
+          {
+            "slug": "nail-color-meaning-health",
+            "anchor_text": "what your nail color is telling you about your health",
+            "type": "pillar"
+          },
+          {
+            "slug": "can-toenail-fungus-kill-you",
+            "anchor_text": "the real risks behind nail changes",
+            "type": "spoke"
+          }
+        ],
+        "receives_links_from": [
+          {
+            "slug": "nail-color-meaning-health",
+            "anchor_text": "the dark nail line that can signal melanoma"
+          },
+          {
+            "slug": "can-toenail-fungus-kill-you",
+            "anchor_text": "the dark nail line that can signal melanoma"
+          }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 15,
+      "role": "pillar",
+      "title": "How Long Does It Take Nails to Recover From Gel or Acrylic Damage?",
+      "slug": "nail-damage-recovery-timeline",
+      "primary_keyword": "how long for nails to recover from gel or acrylic",
+      "intent": "informational",
+      "search_mode": "how_to_execution_mode",
+      "suggested_hook_trigger": "Trigger 3 — Specificity",
+      "search_demand_signals": [
+        "Kester Black, Coveteur, Dear Sundays editorial content",
+        "PAA timeline questions",
+        "Recurring aftercare search demand"
+      ],
+      "why_included": "Real recurring query with concrete timeline demand; distinct from the existing generic aftercare/repair posts by focusing specifically on the recovery timeline.",
+      "expertise_type": "licensed_nail_technician",
+      "featured_expert": {
+        "slug": "margarita-yefimova",
+        "name": "Margarita Yefimova",
+        "credentials": "Nail Technician, Salon Owner, International Judge, Mars Nails",
+        "quote": "What really works well is keeping the natural nails very short. I recommend gently filing down the length every week so there is less pressure and stress on the nail plate. You can also use any nail treatment or polish with biotin, which you can find at CVS or order on Amazon, and apply cuticle oil every night before going to bed. You can usually notice a visible improvement in as little as three weeks. One more tip: wear gloves when doing household cleaning, and also use gloves when washing dishes to protect your nails from water and cleaning products.",
+        "source": "harvested_from_provided_haro_digest"
+      },
+      "internal_links": {
+        "links_to": [
+          {
+            "slug": "nail-patch-test-before-gel",
+            "anchor_text": "whether you should get a patch test before gel nails",
+            "type": "spoke"
+          },
+          {
+            "slug": "gel-nails-pregnancy-safety",
+            "anchor_text": "whether gel nails are safe during pregnancy",
+            "type": "spoke"
+          },
+          {
+            "slug": "diabetic-nail-care-guide",
+            "anchor_text": "why diabetic nail care requires different precautions",
+            "type": "spoke"
+          },
+          {
+            "url": "https://mirelleinspo.com/blog/nail-strengthening/repair-nails-after-gel-acrylic-removal",
+            "anchor_text": "the full guide to repairing nails after gel or acrylic removal",
+            "type": "existing_site_post"
+          },
+          {
+            "url": "https://mirelleinspo.com/blog/acrylic-nails/do-acrylic-nails-damage-your-nails",
+            "anchor_text": "whether acrylic nails damage your natural nails",
+            "type": "existing_site_post"
+          }
+        ],
+        "gallery_link": null,
+        "receives_links_from": [
+          {
+            "slug": "nail-patch-test-before-gel",
+            "anchor_text": "how long nails take to recover from gel damage"
+          },
+          {
+            "slug": "gel-nails-pregnancy-safety",
+            "anchor_text": "recovering from gel or acrylic damage"
+          }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 16,
+      "role": "spoke",
+      "title": "Are Gel Nails Safe During Pregnancy?",
+      "slug": "gel-nails-pregnancy-safety",
+      "primary_keyword": "gel nails safe during pregnancy",
+      "intent": "informational",
+      "search_mode": "decision_mode",
+      "suggested_hook_trigger": "Trigger 1 — Curiosity Gap",
+      "search_demand_signals": [
+        "MotherToBaby and Mount Sinai occupational health guidance",
+        "Happiest Baby editorial coverage",
+        "PAA"
+      ],
+      "why_included": "High-demand life-stage safety query with zero existing coverage on site.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": {
+        "slug": "cameron-rokhsar-md",
+        "name": "Dr. Cameron Rokhsar, MD, FAAD, FAACS",
+        "role": "Founder & Medical Director at New York Cosmetic Skin & Laser Surgery Center",
+        "image": "/images/experts/cameron-rokhsar-md.webp",
+        "socialLinks": [
+          { "label": "Website", "url": "https://cosmeticlaserskinsurgery.com" }
+        ],
+        "quote": "For most pregnant and breastfeeding patients, gel and acrylic manicures are reasonably safe, but the real concerns are more specific than the blanket caution online suggests. UV nail lamps are the one that gets overstated, the exposure is extremely brief, limited to the fingertips, and total UV dose from even frequent manicures is far below what would meaningfully raise skin cancer risk... The more legitimate concern is inhalation and skin absorption of volatile compounds in a poorly ventilated salon, acrylic monomer, toluene, and formaldehyde-releasing ingredients in some polishes are the ones I would actually try to avoid or minimize, especially in a small unventilated room during repeated appointments.",
+        "source": "harvested_from_provided_haro_digest"
+      },
+      "internal_links": {
+        "links_to": [
+          {
+            "slug": "nail-damage-recovery-timeline",
+            "anchor_text": "how long nails take to recover from gel damage",
+            "type": "pillar"
+          },
+          {
+            "slug": "diabetic-nail-care-guide",
+            "anchor_text": "why diabetic nail care requires different precautions",
+            "type": "spoke"
+          }
+        ],
+        "receives_links_from": [
+          {
+            "slug": "nail-damage-recovery-timeline",
+            "anchor_text": "whether gel nails are safe during pregnancy"
+          }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 17,
+      "role": "spoke",
+      "title": "Diabetic Nail Care: Why It's Different and What to Watch For",
+      "slug": "diabetic-nail-care-guide",
+      "primary_keyword": "diabetic nail care",
+      "intent": "informational",
+      "search_mode": "how_to_execution_mode",
+      "suggested_hook_trigger": "Trigger 1 — Curiosity Gap",
+      "search_demand_signals": [
+        "HMP Global podiatry journal, Mayo Clinic guidance",
+        "Tanglewood Foot Specialists editorial content",
+        "PAA"
+      ],
+      "why_included": "High-stakes special-population safety topic with real demand and zero existing coverage.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": {
+        "slug": "jonathan-spages",
+        "name": "Dr. Jonathan Spages",
+        "role": "Doctor, Author at Advanced Natural Health Center",
+        "image": "/images/experts/jonathan-spages.webp",
+        "socialLinks": [
+          { "label": "Website", "url": "https://www.drjspages.com" }
+        ],
+        "quote": "People with diabetes need to be more careful with nail care because elevated blood sugar can affect circulation, nerve sensation, and the body's ability to fight infection and heal. I recommend never aggressively cutting the cuticles or digging into the corners of toenails. Even a tiny cut that someone barely notices can become a much bigger problem, especially if neuropathy is present... If you have poor circulation, neuropathy, an ingrown nail, fungal infection, open sore, or previous diabetic foot problems, I would skip the salon pedicure and have nail care performed or guided by a podiatrist. Most importantly, keeping blood sugar well controlled helps reduce many of these complications in the first place.",
+        "source": "harvested_from_provided_haro_digest"
+      },
+      "internal_links": {
+        "links_to": [
+          {
+            "slug": "nail-damage-recovery-timeline",
+            "anchor_text": "how long nails take to recover from gel damage",
+            "type": "pillar"
+          },
+          {
+            "slug": "ingrown-toenail-infection-signs",
+            "anchor_text": "signs an ingrown toenail is infected",
+            "type": "spoke"
+          },
+          {
+            "slug": "can-toenail-fungus-kill-you",
+            "anchor_text": "the real risks of untreated nail infections",
+            "type": "spoke"
+          },
+          {
+            "url": "https://mirelleinspo.com/nail-faqs/how-often-should-you-trim-your-nails-for-health",
+            "anchor_text": "how often you should trim your nails for health",
+            "type": "existing_site_post"
+          }
+        ],
+        "receives_links_from": [
+          {
+            "slug": "nail-damage-recovery-timeline",
+            "anchor_text": "why diabetic nail care requires different precautions"
+          },
+          {
+            "slug": "ingrown-toenail-infection-signs",
+            "anchor_text": "why diabetics need to treat ingrown toenails differently"
+          },
+          {
+            "slug": "can-toenail-fungus-kill-you",
+            "anchor_text": "diabetic nail care and infection risk"
+          }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 18,
+      "role": "spoke",
+      "title": "Superficial White Onychomycosis: The Nail Fungus That's Different",
+      "slug": "superficial-white-onychomycosis-guide",
+      "primary_keyword": "superficial white onychomycosis",
+      "intent": "informational",
+      "search_mode": "decision_mode",
+      "suggested_hook_trigger": "Trigger 3 — Specificity",
+      "search_demand_signals": [
+        "Clinical literature (gpnotebook, IJDVL case reports)",
+        "PatientCareOnline case documentation",
+        "Distinct clinical sub-type with independent search interest"
+      ],
+      "why_included": "Distinct, less-common fungal sub-type confirmed by clinical literature; topical-only treatment approach differentiates it meaningfully from standard onychomycosis content already on site.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": {
+        "slug": "david-williams-dpm",
+        "name": "Dr. David Williams, DPM",
+        "role": "Podiatrist at El Paso Feet",
+        "image": "/images/experts/david-williams-dpm.webp",
+        "socialLinks": [
+          { "label": "Website", "url": "https://www.elpasofeet.com" }
+        ],
+        "quote": "That being said, fungus that lives on top of the nail (that is usually white and flakey) can be easily treated by filing it down and applying an over-the-counter medication. That type of fungus is called 'S.W.O.' or 'Superficial White Onychomycosis' but only makes up about 10% of the fungus that we see in toenails. (Onychomycosis — Onycho = Nail / Mycosis = Fungal Infection)",
+        "source": "harvested_from_provided_interview"
+      },
+      "internal_links": {
+        "links_to": [
+          {
+            "slug": "what-does-nail-fungus-look-like",
+            "anchor_text": "what nail fungus actually looks like",
+            "type": "pillar"
+          },
+          {
+            "slug": "do-otc-nail-fungus-treatments-work",
+            "anchor_text": "whether over-the-counter treatments actually work",
+            "type": "spoke"
+          }
+        ],
+        "receives_links_from": [
+          {
+            "slug": "what-does-nail-fungus-look-like",
+            "anchor_text": "the nail fungus type that looks completely different"
+          }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 19,
+      "role": "spoke",
+      "title": "Do Over-the-Counter Nail Fungus Treatments Actually Work?",
+      "slug": "do-otc-nail-fungus-treatments-work",
+      "primary_keyword": "do otc nail fungus treatments work",
+      "intent": "informational",
+      "search_mode": "decision_mode",
+      "suggested_hook_trigger": "Trigger 1 — Curiosity Gap",
+      "search_demand_signals": [
+        "Real recurring consumer question across podiatry and dermatology sites",
+        "PAA",
+        "Reddit skepticism threads"
+      ],
+      "why_included": "Direct myth-corrective content from a named podiatrist; distinct from the existing home-remedies post since it covers store-bought medicated products specifically, not folk remedies.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": {
+        "slug": "david-williams-dpm",
+        "name": "Dr. David Williams, DPM",
+        "role": "Podiatrist at El Paso Feet",
+        "image": "/images/experts/david-williams-dpm.webp",
+        "socialLinks": [
+          { "label": "Website", "url": "https://www.elpasofeet.com" }
+        ],
+        "quote": "Over-the-counter medications do not work well on nail fungus. When fungus infects a nail, it lives within and underneath the nail. In order for any treatment to kill nail fungus, it needs to penetrate through the nail. Most, if not all, over-the-counter nail fungus treatments can't penetrate deep enough to kill the fungus that is attacking your toenail.",
+        "source": "harvested_from_provided_interview"
+      },
+      "internal_links": {
+        "links_to": [
+          {
+            "slug": "what-kills-toenail-fungus-instantly",
+            "anchor_text": "what actually kills toenail fungus",
+            "type": "pillar"
+          },
+          {
+            "slug": "jublia-vs-ciclopirox-vs-terbinafine",
+            "anchor_text": "comparing Jublia, ciclopirox, and terbinafine prescriptions",
+            "type": "spoke"
+          },
+          {
+            "slug": "toenail-fungus-home-remedies-that-work",
+            "anchor_text": "which home remedies for nail fungus actually work",
+            "type": "spoke"
+          },
+          {
+            "url": "https://mirelleinspo.com/blog/nail-fungus/nail-fungus-home-remedies",
+            "anchor_text": "nail fungus home remedies",
+            "type": "existing_site_post"
+          }
+        ],
+        "receives_links_from": [
+          {
+            "slug": "what-kills-toenail-fungus-instantly",
+            "anchor_text": "whether over-the-counter treatments actually work"
+          },
+          {
+            "slug": "superficial-white-onychomycosis-guide",
+            "anchor_text": "whether over-the-counter treatments actually work"
+          }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 20,
+      "role": "spoke",
+      "title": "Jublia vs Ciclopirox vs Terbinafine: Comparing Nail Fungus Prescriptions",
+      "slug": "jublia-vs-ciclopirox-vs-terbinafine",
+      "primary_keyword": "jublia vs terbinafine",
+      "intent": "comparison",
+      "search_mode": "decision_mode",
+      "suggested_hook_trigger": "Trigger 1 — Curiosity Gap",
+      "search_demand_signals": [
+        "Real cost-comparison search demand ($1,000 vs $65 vs $140 pricing questions)",
+        "PAA prescription-comparison queries",
+        "High commercial intent"
+      ],
+      "why_included": "Highly specific, monetizable comparison with real cost figures from a named podiatrist; distinct entity from generic 'treatment' content.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": {
+        "slug": "david-williams-dpm",
+        "name": "Dr. David Williams, DPM",
+        "role": "Podiatrist at El Paso Feet",
+        "image": "/images/experts/david-williams-dpm.webp",
+        "socialLinks": [
+          { "label": "Website", "url": "https://www.elpasofeet.com" }
+        ],
+        "quote": "Oral medication, like Terbinafine (aka Lamisil), has long been the 'Gold Standard' in treating nail fungus. It is usually prescribed as a once per day pill that you take for 3 months... Jublia is a wonderful newer alternative — a clear topical liquid that penetrates through the nail to kill fungus, but you have to be consistent with it. Without insurance you can expect to pay close to $1,000 per 4mL bottle; with insurance coverage it's often around $65 per 4mL bottle... All other topical prescription medications, like Ciclopirox (aka Penlac), are 'lacquers.' In my opinion they do not penetrate through the nail very well, and most patients can expect to use lacquers for years without seeing significant clearing.",
+        "source": "harvested_from_provided_interview"
+      },
+      "internal_links": {
+        "links_to": [
+          {
+            "slug": "what-kills-toenail-fungus-instantly",
+            "anchor_text": "what actually kills toenail fungus",
+            "type": "pillar"
+          },
+          {
+            "slug": "does-laser-treatment-work-for-toenail-fungus",
+            "anchor_text": "whether laser treatment for toenail fungus works",
+            "type": "spoke"
+          },
+          {
+            "slug": "do-otc-nail-fungus-treatments-work",
+            "anchor_text": "whether over-the-counter treatments work",
+            "type": "spoke"
+          }
+        ],
+        "receives_links_from": [
+          {
+            "slug": "what-kills-toenail-fungus-instantly",
+            "anchor_text": "comparing Jublia, ciclopirox, and terbinafine prescriptions"
+          },
+          {
+            "slug": "do-otc-nail-fungus-treatments-work",
+            "anchor_text": "comparing Jublia, ciclopirox, and terbinafine prescriptions"
+          }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 21,
+      "role": "spoke",
+      "title": "Does Laser Treatment for Toenail Fungus Actually Work?",
+      "slug": "does-laser-treatment-work-for-toenail-fungus",
+      "primary_keyword": "does laser treatment work for nail fungus",
+      "intent": "informational",
+      "search_mode": "decision_mode",
+      "suggested_hook_trigger": "Trigger 1 — Curiosity Gap",
+      "search_demand_signals": [
+        "Real recurring consumer question",
+        "PAA",
+        "High commercial intent around cost/effectiveness"
+      ],
+      "why_included": "Direct answer with realistic pricing and expectations from a named podiatrist; distinct from the existing laser-cost post by focusing on effectiveness rather than pricing.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": {
+        "slug": "david-williams-dpm",
+        "name": "Dr. David Williams, DPM",
+        "role": "Podiatrist at El Paso Feet",
+        "image": "/images/experts/david-williams-dpm.webp",
+        "socialLinks": [
+          { "label": "Website", "url": "https://www.elpasofeet.com" }
+        ],
+        "quote": "Laser treatment can work on fungal toenails, but in my experience, it takes a long time... Lasers take a very long time to clear nails when using them as the only treatment, especially the thicker the nails are. However, when lasers are used in combination with oral or topical medications, they do seem to speed up the process... I view laser therapy as a good supplemental treatment: helpful if you can afford it, but not absolutely necessary to clear your nails.",
+        "source": "harvested_from_provided_interview"
+      },
+      "internal_links": {
+        "links_to": [
+          {
+            "slug": "what-kills-toenail-fungus-instantly",
+            "anchor_text": "what actually kills toenail fungus",
+            "type": "pillar"
+          },
+          {
+            "slug": "jublia-vs-ciclopirox-vs-terbinafine",
+            "anchor_text": "comparing Jublia, ciclopirox, and terbinafine prescriptions",
+            "type": "spoke"
+          },
+          {
+            "url": "https://mirelleinspo.com/blog/toenail-fungus/toenail-fungus-laser-treatment-cost",
+            "anchor_text": "the full breakdown of toenail fungus laser treatment cost",
+            "type": "existing_site_post"
+          }
+        ],
+        "receives_links_from": [
+          {
+            "slug": "what-kills-toenail-fungus-instantly",
+            "anchor_text": "whether laser treatment for toenail fungus works"
+          },
+          {
+            "slug": "jublia-vs-ciclopirox-vs-terbinafine",
+            "anchor_text": "whether laser treatment actually works"
+          }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 22,
+      "role": "spoke",
+      "title": "Vicks, Vinegar, Bleach, Listerine: Do Any Nail Fungus Home Remedies Work?",
+      "slug": "toenail-fungus-home-remedies-that-work",
+      "primary_keyword": "home remedies for nail fungus that work",
+      "intent": "informational",
+      "search_mode": "decision_mode",
+      "suggested_hook_trigger": "Trigger 1 — Curiosity Gap",
+      "search_demand_signals": [
+        "Very high recurring search volume around named home remedies",
+        "PAA per-remedy questions",
+        "Reddit and TikTok folk-remedy virality"
+      ],
+      "why_included": "Direct myth-debunking angle naming specific remedies, distinct from the existing general home-remedies post by directly evaluating named products one by one.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": {
+        "slug": "david-williams-dpm",
+        "name": "Dr. David Williams, DPM",
+        "role": "Podiatrist at El Paso Feet",
+        "image": "/images/experts/david-williams-dpm.webp",
+        "socialLinks": [
+          { "label": "Website", "url": "https://www.elpasofeet.com" }
+        ],
+        "quote": "The quick answer is 'NO.' When it comes to common treatments like vinegar and tea tree oil, they just don't penetrate the nail enough to do a lot of good. Vicks does penetrate the nail and can make nails easier to trim — it also contains camphor, which has been studied and can kill fungus, but the camphor levels in Vicks are generally not enough to clear a toenail... I've never seen any peer reviewed, double-blind study or even a decent clinical trial where peroxide, bleach, alcohol, Listerine, baking soda, Epsom salts, or any other home remedy will cure nail fungus.",
+        "source": "harvested_from_provided_interview"
+      },
+      "internal_links": {
+        "links_to": [
+          {
+            "slug": "what-kills-toenail-fungus-instantly",
+            "anchor_text": "what actually kills toenail fungus",
+            "type": "pillar"
+          },
+          {
+            "slug": "do-otc-nail-fungus-treatments-work",
+            "anchor_text": "whether over-the-counter treatments work",
+            "type": "spoke"
+          },
+          {
+            "slug": "nail-fungus-myths-what-is-actually-true",
+            "anchor_text": "common nail fungus myths debunked",
+            "type": "spoke"
+          },
+          {
+            "url": "https://mirelleinspo.com/blog/nail-fungus/nail-fungus-home-remedies",
+            "anchor_text": "the full nail fungus home remedies guide",
+            "type": "existing_site_post"
+          },
+          {
+            "url": "https://mirelleinspo.com/blog/toenail-fungus/toenail-fungus-home-remedies",
+            "anchor_text": "toenail fungus home remedies",
+            "type": "existing_site_post"
+          }
+        ],
+        "receives_links_from": [
+          {
+            "slug": "what-kills-toenail-fungus-instantly",
+            "anchor_text": "which home remedies for nail fungus actually work"
+          }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 23,
+      "role": "spoke",
+      "title": "Can You Wear Gel or Acrylic Nails If You Have Nail Fungus?",
+      "slug": "acrylic-nails-over-fungal-nail",
+      "primary_keyword": "acrylic nails over fungal nail",
+      "intent": "informational",
+      "search_mode": "decision_mode",
+      "suggested_hook_trigger": "Trigger 1 — Curiosity Gap",
+      "search_demand_signals": [
+        "Real search intersection of cosmetic and medical concerns",
+        "PAA",
+        "Recurring salon-etiquette questions"
+      ],
+      "why_included": "Direct, actionable answer at the unique intersection of cosmetic nail services and fungal infection, unaddressed by any existing post.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": {
+        "slug": "mark-bradley-dpodm",
+        "name": "Mark Bradley, D.Pod.M",
+        "role": "Chiropodist/Podiatrist at Mississauga Podiatry Associates",
+        "image": "/images/experts/mark-bradley-dpodm.webp",
+        "socialLinks": [
+          { "label": "Website", "url": "https://podiatryassociates.ca" }
+        ],
+        "quote": "Simple answer is yes the application of polish over infected nail material will exacerbate the infection in the already infected nail. It also prevents treatment with topical drugs, leaving only oral medication options, with added systemic risks. More concerning is the potential for cross infection with other clients. Always ensure your pedicure provider has adequate functioning steam sterilization for all tools used in care delivery. Cold sterilization where instruments are immersed in a solution between use are inadequate and potential expose the client to life threatening infections.",
+        "source": "harvested_from_provided_haro_digest"
+      },
+      "internal_links": {
+        "links_to": [
+          {
+            "slug": "can-toenail-fungus-kill-you",
+            "anchor_text": "the real risks of untreated nail infections",
+            "type": "spoke"
+          },
+          {
+            "slug": "what-kills-toenail-fungus-instantly",
+            "anchor_text": "what actually kills toenail fungus",
+            "type": "pillar"
+          },
+          {
+            "url": "https://mirelleinspo.com/blog/toenail-fungus/nail-polish-toenail-fungus",
+            "anchor_text": "how nail polish interacts with toenail fungus",
+            "type": "existing_site_post"
+          }
+        ],
+        "receives_links_from": [
+          {
+            "slug": "can-toenail-fungus-kill-you",
+            "anchor_text": "whether it's safe to get gel nails over a fungal infection"
+          }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 24,
+      "role": "spoke",
+      "title": "Nail Fungus Myths: What's Actually True",
+      "slug": "nail-fungus-myths-what-is-actually-true",
+      "primary_keyword": "nail fungus myths",
+      "intent": "informational",
+      "search_mode": "decision_mode",
+      "suggested_hook_trigger": "Trigger 2 — FOMO/Trend",
+      "search_demand_signals": [
+        "Real search demand around named myths",
+        "PAA",
+        "Listicle-friendly format with proven engagement"
+      ],
+      "why_included": "Three named, quotable myths from a practicing podiatrist create genuinely differentiated listicle content; distinct entity from single-topic fungus posts.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": {
+        "slug": "david-williams-dpm",
+        "name": "Dr. David Williams, DPM",
+        "role": "Podiatrist at El Paso Feet",
+        "image": "/images/experts/david-williams-dpm.webp",
+        "socialLinks": [
+          { "label": "Website", "url": "https://www.elpasofeet.com" }
+        ],
+        "quote": "Myth 1: 'This just started two weeks ago.' This has been going on for years. It's amazing how blind we can become to things we see every day. I have never had a patient come in that is an 'overnight fungus sensation.' Myth 2: 'My sister tried this over-the-counter treatment, and it cured her fungus in a couple of days.' No way, no how, not ever. It takes a long time for any nail fungus treatment to work, even prescriptions... Myth 3: 'I caught this from my husband because we use the same shower.' Maybe, but doubtful. Most of the time people get nail fungus by infecting themselves — fungus that already lives on your skin gets under your nail and takes up shop. Very rarely do you catch it from someone else.",
+        "source": "harvested_from_provided_interview"
+      },
+      "internal_links": {
+        "links_to": [
+          {
+            "slug": "what-kills-toenail-fungus-instantly",
+            "anchor_text": "what actually kills toenail fungus",
+            "type": "pillar"
+          },
+          {
+            "slug": "is-nail-fungus-contagious",
+            "anchor_text": "whether nail fungus is contagious",
+            "type": "spoke"
+          },
+          {
+            "slug": "toenail-fungus-home-remedies-that-work",
+            "anchor_text": "which home remedies for nail fungus actually work",
+            "type": "spoke"
+          }
+        ],
+        "receives_links_from": [
+          {
+            "slug": "what-kills-toenail-fungus-instantly",
+            "anchor_text": "common nail fungus myths debunked"
+          },
+          {
+            "slug": "is-nail-fungus-contagious",
+            "anchor_text": "common nail fungus myths debunked"
+          },
+          {
+            "slug": "white-spots-nails-leukonychia",
+            "anchor_text": "other common nail myths debunked"
+          }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 25,
+      "role": "spoke",
+      "title": "How Long Does It Take a Toenail to Grow Back Fully?",
+      "slug": "how-long-does-it-take-a-toenail-to-grow-back",
+      "primary_keyword": "how long does it take a toenail to grow back",
+      "intent": "informational",
+      "search_mode": "decision_mode",
+      "suggested_hook_trigger": "Trigger 3 — Specificity",
+      "search_demand_signals": [
+        "Healthline and multiple independent editorial sites confirm strong recurring search demand",
+        "PAA",
+        "Distinct from fungus-clearing timeline (covers full nail loss/regrowth generally)"
+      ],
+      "why_included": "Real independent search demand confirmed; distinct entity from fungus-clearing timeline since it applies to trauma, medical removal, and psoriasis-related nail loss as well as fungus.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": {
+        "slug": "david-williams-dpm",
+        "name": "Dr. David Williams, DPM",
+        "role": "Podiatrist at El Paso Feet",
+        "image": "/images/experts/david-williams-dpm.webp",
+        "socialLinks": [
+          { "label": "Website", "url": "https://www.elpasofeet.com" }
+        ],
+        "quote": "Usually, when a nail is peeling or keeps lifting off the skin, it tells me there's been a previous injury on that toenail. When a toenail lifts off the skin, the bond between the skin and nail is broken. Sometimes the nail will grow back and reconnect. Other times it won't — it's usually a 50/50 shot, and there's nothing the patient or doctor can do to change it... For most adults it will take 6 months to a year for a nail to completely grow out.",
+        "source": "harvested_from_provided_interview"
+      },
+      "internal_links": {
+        "links_to": [
+          {
+            "slug": "toenail-fungus-dying-signs",
+            "anchor_text": "how to know if toenail fungus treatment is working",
+            "type": "spoke"
+          },
+          {
+            "slug": "partial-nail-avulsion-recovery",
+            "anchor_text": "what recovery looks like after nail removal surgery",
+            "type": "spoke"
+          },
+          {
+            "url": "https://mirelleinspo.com/blog/nail-fungus/how-long-does-nail-fungus-take-to-clear",
+            "anchor_text": "how long nail fungus specifically takes to clear",
+            "type": "existing_site_post"
+          }
+        ],
+        "receives_links_from": [
+          {
+            "slug": "toenail-fungus-dying-signs",
+            "anchor_text": "how long it takes a toenail to fully grow back"
+          },
+          {
+            "slug": "partial-nail-avulsion-recovery",
+            "anchor_text": "how long a full nail takes to grow back"
+          }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 26,
+      "role": "spoke",
+      "title": "Ingrown Toenail Stages: From Mild Soreness to Infection",
+      "slug": "ingrown-toenail-stages",
+      "primary_keyword": "ingrown toenail stages",
+      "intent": "informational",
+      "search_mode": "decision_mode",
+      "suggested_hook_trigger": "Trigger 3 — Specificity",
+      "search_demand_signals": [
+        "Real search demand for staged progression content",
+        "PAA",
+        "Named, published expert interview (Oct 2026 publication)"
+      ],
+      "why_included": "Direct staged breakdown from a named, credentialed podiatrist with a confirmed upcoming publication date; distinct from generic ingrown-toenail-infection-signs by covering the full progression, not just the infected end-stage.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": {
+        "slug": "cameron-bennet",
+        "name": "Cameron Bennet",
+        "role": "Podiatrist at My Family Podiatry",
+        "image": "/images/experts/cameron-bennet.webp",
+        "socialLinks": [
+          { "label": "Website", "url": "https://myfamilypodiatry.com.au" },
+          { "label": "Instagram", "url": "https://www.instagram.com/camthepodiatrist" },
+          { "label": "LinkedIn", "url": "https://linkedin.com/in/cameron-bennet" }
+        ],
+        "quote": "Ingrown toenails can start without much pain before rapidly developing into something very sore. The common features of ingrown toenails are redness, swelling and pain. When the nail first starts pressing into the skin, it may or may not be painful and you might see a bit of callus (hard skin) forming around the nail edge. If that pressure continues, the nail can break through the skin and potentially introduce infection. This is where the skin surrounding the edge of the nail tends to become very sore to touch, quite red and inflamed, and you may even see pus coming from the ingrown edge.",
+        "source": "harvested_from_provided_interview"
+      },
+      "internal_links": {
+        "links_to": [
+          {
+            "slug": "ingrown-toenail-infection-signs",
+            "anchor_text": "signs you need a doctor for an ingrown toenail",
+            "type": "pillar"
+          },
+          {
+            "slug": "does-dental-floss-help-ingrown-toenail",
+            "anchor_text": "whether dental floss under the nail actually works",
+            "type": "spoke"
+          },
+          {
+            "slug": "is-it-safe-to-cut-ingrown-toenail-yourself",
+            "anchor_text": "whether it's safe to treat an ingrown toenail yourself",
+            "type": "spoke"
+          },
+          {
+            "slug": "ingrown-toenail-antibiotics-when-needed",
+            "anchor_text": "when antibiotics are actually needed",
+            "type": "spoke"
+          }
+        ],
+        "receives_links_from": [
+          {
+            "slug": "ingrown-toenail-infection-signs",
+            "anchor_text": "how ingrown toenails progress from mild to infected"
+          }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 27,
+      "role": "spoke",
+      "title": "Does Dental Floss Under an Ingrown Toenail Actually Work?",
+      "slug": "does-dental-floss-help-ingrown-toenail",
+      "primary_keyword": "dental floss ingrown toenail",
+      "intent": "informational",
+      "search_mode": "decision_mode",
+      "suggested_hook_trigger": "Trigger 1 — Curiosity Gap",
+      "search_demand_signals": [
+        "AAFP clinical confirmation of efficacy",
+        "High recurring search volume around this contested home remedy",
+        "PAA"
+      ],
+      "why_included": "Contested topic (some sources endorse, others caution against) settled directly by a named, credentialed podiatrist — strong curiosity-gap hook.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": {
+        "slug": "cameron-bennet",
+        "name": "Cameron Bennet",
+        "role": "Podiatrist at My Family Podiatry",
+        "image": "/images/experts/cameron-bennet.webp",
+        "socialLinks": [
+          { "label": "Website", "url": "https://myfamilypodiatry.com.au" },
+          { "label": "Instagram", "url": "https://www.instagram.com/camthepodiatrist" },
+          { "label": "LinkedIn", "url": "https://linkedin.com/in/cameron-bennet" }
+        ],
+        "quote": "Dental floss and cotton wool can help by acting as a buffer between the nail and the skin. This can be useful in the early stages before the nail has cut into the skin, to reduce some of the pressure and allow the edge of the nail to grow out instead of becoming ingrown. Braces and correction strips are marketed to lift the edges of the nail up and away from the skin. For some people these can be helpful, but if the ingrown nail is quite progressed, they are rarely enough to settle it completely.",
+        "source": "harvested_from_provided_interview"
+      },
+      "internal_links": {
+        "links_to": [
+          {
+            "slug": "ingrown-toenail-infection-signs",
+            "anchor_text": "signs you need a doctor for an ingrown toenail",
+            "type": "pillar"
+          },
+          {
+            "slug": "ingrown-toenail-stages",
+            "anchor_text": "how ingrown toenails progress from mild to infected",
+            "type": "spoke"
+          },
+          {
+            "slug": "is-it-safe-to-cut-ingrown-toenail-yourself",
+            "anchor_text": "whether it's safe to treat an ingrown toenail yourself",
+            "type": "spoke"
+          }
+        ],
+        "receives_links_from": [
+          {
+            "slug": "ingrown-toenail-infection-signs",
+            "anchor_text": "whether dental floss under the nail actually works"
+          },
+          {
+            "slug": "ingrown-toenail-stages",
+            "anchor_text": "whether dental floss under the nail actually works"
+          }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 28,
+      "role": "spoke",
+      "title": "Partial Nail Avulsion: What Recovery Actually Looks Like",
+      "slug": "partial-nail-avulsion-recovery",
+      "primary_keyword": "partial nail avulsion recovery",
+      "intent": "informational",
+      "search_mode": "decision_mode",
+      "suggested_hook_trigger": "Trigger 3 — Specificity",
+      "search_demand_signals": [
+        "Confirmed clinical literature (4-8 week healing window)",
+        "Real search demand from patients considering the procedure",
+        "PAA"
+      ],
+      "why_included": "Detailed, step-by-step recovery description from a named podiatrist confirmed against independent clinical literature; distinct procedural-outcome entity.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": {
+        "slug": "cameron-bennet",
+        "name": "Cameron Bennet",
+        "role": "Podiatrist at My Family Podiatry",
+        "image": "/images/experts/cameron-bennet.webp",
+        "socialLinks": [
+          { "label": "Website", "url": "https://myfamilypodiatry.com.au" },
+          { "label": "Instagram", "url": "https://www.instagram.com/camthepodiatrist" },
+          { "label": "LinkedIn", "url": "https://linkedin.com/in/cameron-bennet" }
+        ],
+        "quote": "For a partial nail avulsion and phenolisation... the recovery is typically quite straightforward. A procedure is performed, the toe is dressed with iodine and a dressing, and you're advised to keep it dry. The following day, we get you back into the clinic to ensure the site looks clean and change the dressing over to a smaller island dressing. For about a week after the procedure, we advise avoiding sports, but you can go back into shoes the day after the procedure once that dressing has been changed... The biggest risk at this stage is infection. Phenol slows the healing process and feet aren't the cleanest place on the body, so there is an increased risk of infection.",
+        "source": "harvested_from_provided_interview"
+      },
+      "internal_links": {
+        "links_to": [
+          {
+            "slug": "ingrown-toenail-infection-signs",
+            "anchor_text": "signs you need a doctor for an ingrown toenail",
+            "type": "pillar"
+          },
+          {
+            "slug": "how-long-does-it-take-a-toenail-to-grow-back",
+            "anchor_text": "how long a full nail takes to grow back",
+            "type": "spoke"
+          },
+          {
+            "slug": "ingrown-toenail-antibiotics-when-needed",
+            "anchor_text": "when antibiotics are actually needed",
+            "type": "spoke"
+          }
+        ],
+        "receives_links_from": [
+          {
+            "slug": "ingrown-toenail-infection-signs",
+            "anchor_text": "what recovery looks like after permanent removal"
+          },
+          {
+            "slug": "how-long-does-it-take-a-toenail-to-grow-back",
+            "anchor_text": "what recovery looks like after nail removal surgery"
+          }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 29,
+      "role": "spoke",
+      "title": "Is It Safe to Cut Into an Ingrown Toenail Yourself?",
+      "slug": "is-it-safe-to-cut-ingrown-toenail-yourself",
+      "primary_keyword": "should i cut my ingrown toenail",
+      "intent": "informational",
+      "search_mode": "decision_mode",
+      "suggested_hook_trigger": "Trigger 1 — Curiosity Gap",
+      "search_demand_signals": [
+        "Real safety-critical search demand",
+        "PAA",
+        "Reddit 'bathroom surgery' cautionary threads"
+      ],
+      "why_included": "Safety-critical, direct answer from a named podiatrist explicitly warning against a common but harmful self-treatment habit.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": {
+        "slug": "cameron-bennet",
+        "name": "Cameron Bennet",
+        "role": "Podiatrist at My Family Podiatry",
+        "image": "/images/experts/cameron-bennet.webp",
+        "socialLinks": [
+          { "label": "Website", "url": "https://myfamilypodiatry.com.au" },
+          { "label": "Instagram", "url": "https://www.instagram.com/camthepodiatrist" },
+          { "label": "LinkedIn", "url": "https://linkedin.com/in/cameron-bennet" }
+        ],
+        "quote": "Unfortunately, cutting a 'V' into the nail does not fix an ingrown toenail. The nail grows from the base, so cutting a V in the top will not stop it. As well as this, if the skin were strong enough to push the nail narrower, you wouldn't have an issue with an ingrown nail anyway... To avoid an ingrown toenail, I recommend cutting nails straight across and then gently rounding the corners with a nail file.",
+        "source": "harvested_from_provided_interview"
+      },
+      "internal_links": {
+        "links_to": [
+          {
+            "slug": "ingrown-toenail-infection-signs",
+            "anchor_text": "signs you need a doctor for an ingrown toenail",
+            "type": "pillar"
+          },
+          {
+            "slug": "ingrown-toenail-stages",
+            "anchor_text": "how ingrown toenails progress from mild to infected",
+            "type": "spoke"
+          },
+          {
+            "slug": "does-dental-floss-help-ingrown-toenail",
+            "anchor_text": "whether dental floss under the nail actually works",
+            "type": "spoke"
+          }
+        ],
+        "receives_links_from": [
+          {
+            "slug": "ingrown-toenail-infection-signs",
+            "anchor_text": "whether it's safe to treat an ingrown toenail yourself"
+          },
+          {
+            "slug": "ingrown-toenail-stages",
+            "anchor_text": "whether it's safe to cut an ingrown toenail yourself"
+          },
+          {
+            "slug": "does-dental-floss-help-ingrown-toenail",
+            "anchor_text": "whether it's safe to treat an ingrown toenail yourself"
+          }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 30,
+      "role": "spoke",
+      "title": "Ingrown Toenail vs Infected Ingrown Toenail: When Antibiotics Aren't the Answer",
+      "slug": "ingrown-toenail-antibiotics-when-needed",
+      "primary_keyword": "do you need antibiotics for ingrown toenail",
+      "intent": "informational",
+      "search_mode": "decision_mode",
+      "suggested_hook_trigger": "Trigger 1 — Curiosity Gap",
+      "search_demand_signals": [
+        "Real counterintuitive-claim search demand",
+        "PAA",
+        "Recurring patient confusion around antibiotic necessity"
+      ],
+      "why_included": "Genuinely counterintuitive, high-value claim (antibiotics rarely needed without nail removal) from a named podiatrist — strong curiosity-gap hook, distinct from general infection-signs content.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": {
+        "slug": "cameron-bennet",
+        "name": "Cameron Bennet",
+        "role": "Podiatrist at My Family Podiatry",
+        "image": "/images/experts/cameron-bennet.webp",
+        "socialLinks": [
+          { "label": "Website", "url": "https://myfamilypodiatry.com.au" },
+          { "label": "Instagram", "url": "https://www.instagram.com/camthepodiatrist" },
+          { "label": "LinkedIn", "url": "https://linkedin.com/in/cameron-bennet" }
+        ],
+        "quote": "Antibiotics are rarely actually needed for an ingrown toenail. Once the offending piece of nail is removed, the infection should settle quickly without them. Antibiotics without removing the piece of nail will only suppress the infection — once the antibiotics are stopped, the infected ingrown edge almost always returns, since the nail is still broken through the skin.",
+        "source": "harvested_from_provided_interview"
+      },
+      "internal_links": {
+        "links_to": [
+          {
+            "slug": "ingrown-toenail-infection-signs",
+            "anchor_text": "signs you need a doctor for an ingrown toenail",
+            "type": "pillar"
+          },
+          {
+            "slug": "partial-nail-avulsion-recovery",
+            "anchor_text": "what recovery looks like after permanent removal",
+            "type": "spoke"
+          },
+          {
+            "slug": "is-it-safe-to-cut-ingrown-toenail-yourself",
+            "anchor_text": "whether it's safe to treat an ingrown toenail yourself",
+            "type": "spoke"
+          }
+        ],
+        "receives_links_from": [
+          {
+            "slug": "ingrown-toenail-infection-signs",
+            "anchor_text": "when antibiotics are actually needed for an ingrown toenail"
+          },
+          {
+            "slug": "ingrown-toenail-stages",
+            "anchor_text": "when antibiotics are actually needed"
+          },
+          {
+            "slug": "partial-nail-avulsion-recovery",
+            "anchor_text": "when antibiotics are actually needed"
+          }
+        ]
+      },
+      "status": "approved"
+    }
+  ],
+  "keyword_ownership_registry": {
+    "description": "Master list of all primary keywords — one per post, no overlaps, includes existing site posts",
+    "entries": [
+      {
+        "primary_keyword": "what kills toenail fungus instantly",
+        "owned_by_slug": "what-kills-toenail-fungus-instantly",
+        "owned_by_title": "What Kills Toenail Fungus Instantly? What Actually Works",
+        "source": "new post"
+      },
+      {
+        "primary_keyword": "can toenail fungus kill you",
+        "owned_by_slug": "can-toenail-fungus-kill-you",
+        "owned_by_title": "Can Toenail Fungus Kill You? The Real Risk Explained",
+        "source": "new post"
+      },
+      {
+        "primary_keyword": "how to know if toenail fungus is dying",
+        "owned_by_slug": "toenail-fungus-dying-signs",
+        "owned_by_title": "How to Know If Toenail Fungus Is Dying (Signs It's Working)",
+        "source": "new post"
+      },
+      {
+        "primary_keyword": "what does nail fungus look like",
+        "owned_by_slug": "what-does-nail-fungus-look-like",
+        "owned_by_title": "What Does Nail Fungus Look Like? A Visual Stage-by-Stage Guide",
+        "source": "new post"
+      },
+      {
+        "primary_keyword": "is nail fungus contagious",
+        "owned_by_slug": "is-nail-fungus-contagious",
+        "owned_by_title": "Is Nail Fungus Contagious? How It Spreads and How to Avoid It",
+        "source": "new post"
+      },
+      {
+        "primary_keyword": "paronychia",
+        "owned_by_slug": "paronychia-nail-infection-guide",
+        "owned_by_title": "Paronychia: The Nail Infection That Isn't Fungus",
+        "source": "new post"
+      },
+      {
+        "primary_keyword": "infected ingrown toenail",
+        "owned_by_slug": "ingrown-toenail-infection-signs",
+        "owned_by_title": "Ingrown Toenail Infection: Signs You Need a Doctor",
+        "source": "new post"
+      },
+      {
+        "primary_keyword": "nail patch test",
+        "owned_by_slug": "nail-patch-test-before-gel",
+        "owned_by_title": "Patch Testing Before Gel Nails",
+        "source": "new post"
+      },
+      {
+        "primary_keyword": "nail color meaning",
+        "owned_by_slug": "nail-color-meaning-health",
+        "owned_by_title": "What Your Nail Color Is Telling You About Your Health",
+        "source": "new post"
+      },
+      {
+        "primary_keyword": "spoon nails",
+        "owned_by_slug": "spoon-nails-koilonychia",
+        "owned_by_title": "Spoon Nails (Koilonychia): Causes and What It Means",
+        "source": "new post"
+      },
+      {
+        "primary_keyword": "Beau's lines",
+        "owned_by_slug": "beaus-lines-nail-grooves",
+        "owned_by_title": "Beau's Lines: What Horizontal Nail Grooves Really Mean",
+        "source": "new post"
+      },
+      {
+        "primary_keyword": "white spots on nails",
+        "owned_by_slug": "white-spots-nails-leukonychia",
+        "owned_by_title": "White Spots on Nails: Myth vs Fact",
+        "source": "new post"
+      },
+      {
+        "primary_keyword": "nail psoriasis vs fungus",
+        "owned_by_slug": "nail-psoriasis-vs-fungus",
+        "owned_by_title": "Nail Psoriasis vs Nail Fungus",
+        "source": "new post"
+      },
+      {
+        "primary_keyword": "dark line on nail",
+        "owned_by_slug": "longitudinal-melanonychia-warning-signs",
+        "owned_by_title": "Longitudinal Melanonychia: The Dark Nail Line You Shouldn't Ignore",
+        "source": "new post"
+      },
+      {
+        "primary_keyword": "how long for nails to recover from gel or acrylic",
+        "owned_by_slug": "nail-damage-recovery-timeline",
+        "owned_by_title": "How Long Does It Take Nails to Recover From Gel or Acrylic Damage?",
+        "source": "new post"
+      },
+      {
+        "primary_keyword": "gel nails safe during pregnancy",
+        "owned_by_slug": "gel-nails-pregnancy-safety",
+        "owned_by_title": "Are Gel Nails Safe During Pregnancy?",
+        "source": "new post"
+      },
+      {
+        "primary_keyword": "diabetic nail care",
+        "owned_by_slug": "diabetic-nail-care-guide",
+        "owned_by_title": "Diabetic Nail Care: Why It's Different and What to Watch For",
+        "source": "new post"
+      },
+      {
+        "primary_keyword": "superficial white onychomycosis",
+        "owned_by_slug": "superficial-white-onychomycosis-guide",
+        "owned_by_title": "Superficial White Onychomycosis: The Nail Fungus That's Different",
+        "source": "new post"
+      },
+      {
+        "primary_keyword": "do otc nail fungus treatments work",
+        "owned_by_slug": "do-otc-nail-fungus-treatments-work",
+        "owned_by_title": "Do Over-the-Counter Nail Fungus Treatments Actually Work?",
+        "source": "new post"
+      },
+      {
+        "primary_keyword": "jublia vs terbinafine",
+        "owned_by_slug": "jublia-vs-ciclopirox-vs-terbinafine",
+        "owned_by_title": "Jublia vs Ciclopirox vs Terbinafine",
+        "source": "new post"
+      },
+      {
+        "primary_keyword": "does laser treatment work for nail fungus",
+        "owned_by_slug": "does-laser-treatment-work-for-toenail-fungus",
+        "owned_by_title": "Does Laser Treatment for Toenail Fungus Actually Work?",
+        "source": "new post"
+      },
+      {
+        "primary_keyword": "home remedies for nail fungus that work",
+        "owned_by_slug": "toenail-fungus-home-remedies-that-work",
+        "owned_by_title": "Vicks, Vinegar, Bleach, Listerine: Do Any Nail Fungus Home Remedies Work?",
+        "source": "new post"
+      },
+      {
+        "primary_keyword": "acrylic nails over fungal nail",
+        "owned_by_slug": "acrylic-nails-over-fungal-nail",
+        "owned_by_title": "Can You Wear Gel or Acrylic Nails If You Have Nail Fungus?",
+        "source": "new post"
+      },
+      {
+        "primary_keyword": "nail fungus myths",
+        "owned_by_slug": "nail-fungus-myths-what-is-actually-true",
+        "owned_by_title": "Nail Fungus Myths: What's Actually True",
+        "source": "new post"
+      },
+      {
+        "primary_keyword": "how long does it take a toenail to grow back",
+        "owned_by_slug": "how-long-does-it-take-a-toenail-to-grow-back",
+        "owned_by_title": "How Long Does It Take a Toenail to Grow Back Fully?",
+        "source": "new post"
+      },
+      {
+        "primary_keyword": "ingrown toenail stages",
+        "owned_by_slug": "ingrown-toenail-stages",
+        "owned_by_title": "Ingrown Toenail Stages: From Mild Soreness to Infection",
+        "source": "new post"
+      },
+      {
+        "primary_keyword": "dental floss ingrown toenail",
+        "owned_by_slug": "does-dental-floss-help-ingrown-toenail",
+        "owned_by_title": "Does Dental Floss Under an Ingrown Toenail Actually Work?",
+        "source": "new post"
+      },
+      {
+        "primary_keyword": "partial nail avulsion recovery",
+        "owned_by_slug": "partial-nail-avulsion-recovery",
+        "owned_by_title": "Partial Nail Avulsion: What Recovery Actually Looks Like",
+        "source": "new post"
+      },
+      {
+        "primary_keyword": "should i cut my ingrown toenail",
+        "owned_by_slug": "is-it-safe-to-cut-ingrown-toenail-yourself",
+        "owned_by_title": "Is It Safe to Cut Into an Ingrown Toenail Yourself?",
+        "source": "new post"
+      },
+      {
+        "primary_keyword": "do you need antibiotics for ingrown toenail",
+        "owned_by_slug": "ingrown-toenail-antibiotics-when-needed",
+        "owned_by_title": "Ingrown Toenail vs Infected Ingrown Toenail",
+        "source": "new post"
+      },
+      {
+        "primary_keyword": "toenail fungus",
+        "owned_by_slug": "n/a",
+        "owned_by_title": "Toenail Fungus",
+        "source": "existing site post"
+      },
+      {
+        "primary_keyword": "toenail fungus causes",
+        "owned_by_slug": "n/a",
+        "owned_by_title": "Toenail Fungus Causes",
+        "source": "existing site post"
+      },
+      {
+        "primary_keyword": "toenail fungus symptoms",
+        "owned_by_slug": "n/a",
+        "owned_by_title": "Toenail Fungus Symptoms",
+        "source": "existing site post"
+      },
+      {
+        "primary_keyword": "toenail fungus treatment",
+        "owned_by_slug": "n/a",
+        "owned_by_title": "Toenail Fungus Treatment",
+        "source": "existing site post"
+      },
+      {
+        "primary_keyword": "toenail fungus stages",
+        "owned_by_slug": "n/a",
+        "owned_by_title": "Toenail Fungus Stages",
+        "source": "existing site post"
+      },
+      {
+        "primary_keyword": "toenail fungus vs nail psoriasis",
+        "owned_by_slug": "n/a",
+        "owned_by_title": "Toenail Fungus vs Nail Psoriasis",
+        "source": "existing site post"
+      },
+      {
+        "primary_keyword": "is toenail fungus contagious",
+        "owned_by_slug": "n/a",
+        "owned_by_title": "Is Toenail Fungus Contagious",
+        "source": "existing site post"
+      },
+      {
+        "primary_keyword": "hema allergy symptoms",
+        "owned_by_slug": "n/a",
+        "owned_by_title": "HEMA Allergy Symptoms",
+        "source": "existing site post"
+      },
+      {
+        "primary_keyword": "vertical ridges on nails causes and fixes",
+        "owned_by_slug": "n/a",
+        "owned_by_title": "Vertical Ridges on Nails",
+        "source": "existing site post"
+      }
+    ]
+  },
+  "merged_posts_log": [],
+  "killed_posts_log": [
+    {
+      "topic": "Green Nail Syndrome (Pseudomonas / chloronychia)",
+      "reason": "No expert source material available in either provided document (HARO digest or interview series). No quote anywhere addresses Pseudomonas, bacterial mechanism, or green-nail-specific treatment. Requires fresh Connectively sourcing before this can be planned."
+    },
+    {
+      "topic": "Herpetic Whitlow",
+      "reason": "Never mentioned in either source document. Viral nail infection outside the scope of every interviewed expert (all podiatry/dermatology-cosmetic, none infectious-disease/virology). Requires fresh Connectively sourcing."
+    },
+    {
+      "topic": "Onycholysis (standalone)",
+      "reason": "Only adjacent, non-specific material exists (general ridging/discoloration causes). No expert directly describes the nail-lifting-from-bed mechanism or names onycholysis. Attributing a dedicated quote here would misattribute a claim beyond what was said. Requires fresh Connectively sourcing."
+    },
+    {
+      "topic": "Nail Clubbing",
+      "reason": "Never mentioned in either source document. Cardiopulmonary-associated sign outside the scope of every interviewed expert. Requires fresh Connectively sourcing."
+    },
+    {
+      "topic": "Lichen Planus of the Nails",
+      "reason": "Never mentioned in either source document. Autoimmune dermatologic condition outside the scope of every interviewed expert. Requires fresh Connectively sourcing."
+    },
+    {
+      "topic": "Nail Biting (Onychophagia)",
+      "reason": "Never mentioned in either source document. Behavioral/psychological topic outside every interviewee's stated clinical scope. Requires fresh Connectively sourcing."
+    },
+    {
+      "topic": "'5-Free'/'10-Free' Nail Polish Claims Explained",
+      "reason": "Only a single-sentence formaldehyde caution exists in source material, not a description of the free-from labeling system or ingredient tiers. Building a full explainer post around one unrelated sentence would misattribute the claim. Requires fresh Connectively sourcing or a nail_technician_or_product_expert source."
+    },
+    {
+      "topic": "Gel vs Dip vs Acrylic: Which Is Healthiest",
+      "reason": "Source material addresses moisture-trapping under any nail covering generically, not a three-way comparison or ranking of gel/dip/acrylic specifically. Misattribution risk if built out as a direct comparison post. Requires fresh Connectively sourcing or a nail_technician_or_product_expert source."
+    }
+  ],
+  "expertise_and_sourcing": {
+    "context_note": "Every post above uses exactly one featured expert, sourced directly and verbatim from two documents the user provided: an expert-quote HARO/source digest (7 contributors: Dr. Cameron Rokhsar MD FAAD FAACS, Dr. David Williams DPM, Dr. Bob Baravarian DPM, Mark Bradley D.PodM, Cameron Bennet, Dr. Jonathan Spages, Margarita Yefimova) and a two-interview series (Dr. David Williams, DPM, for toenail fungus, and Dr. Cameron Bennet, podiatrist at My Family Podiatry, Brisbane, for ingrown toenails, publication planned first week of October 2026). No quote was reworded, paraphrased, or extended beyond what the source material states; where a topic had no defensible quote, it was killed rather than stretched (see killed_posts_log). Quotes are reproduced in full as provided for direct editorial attribution and citation use. Each featured_expert now carries the canonical slug from src/data/experts.ts, plus name, role, image, and socialLinks copied from that file. Margarita Yefimova has a slug (margarita-yefimova) but no experts.ts record was supplied, so post 15 carries her original credentials string and needs a full record added to experts.ts before publishing. ben-frederick-md exists in experts.ts but is not attached to any post in this cluster.",
+    "connectively_queries": []
+  }
+}
