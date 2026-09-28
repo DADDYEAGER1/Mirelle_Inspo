@@ -1,0 +1,189 @@
+# INPUT FILE: toenail-fungus-home-remedies-that-work (post_id 22)
+
+## 1. FILE AUTHORITY
+Single source of truth for Blog Gen Agent. POST_CONSTANTS are hardcoded: do not ask, adjust, or override. Read §15 first, then §2.
+
+## 2. POST_CONSTANTS
+- slug: toenail-fungus-home-remedies-that-work
+- topic_slug: nail-health
+- canonical: https://mirelleinspo.com/blog/nail-health/toenail-fungus-home-remedies-that-work
+- post_type: spoke
+- intent: informational
+- word_count: 1600 (reference ceiling, SERP avg 1,368. Write precisely; never pad. Landing under is correct if complete.)
+- image_count: 7 (hero + 6 body)
+- show_inspo_gallery_link: false (cluster default)
+- template: posts
+- hero_dimensions: 1200x675
+- category: Nail Health (from cluster_topic; confirm against category list)
+- publish_date: 2026-09-29
+- author: jyoti-mirelle
+- expertise_type: licensed_derm_or_nail_health_expert
+- expert_alias: podiatrist_toenail_fungus_qa
+- expert_quote: see §14 (verbatim)
+
+## 3. CLUSTER SNAPSHOT
+- pillar_slug: what-kills-toenail-fungus-instantly | pillar_title: What Kills Toenail Fungus Instantly? What Actually Works | pillar_primary_keyword: what kills toenail fungus instantly
+- this_post_slug: toenail-fungus-home-remedies-that-work | role: spoke | show_inspo_gallery_link_cluster_default: false
+- keywords_to_avoid (full list = keyword_ownership_registry + existing_site_posts_excluded in cluster_context.json). Highest cannibalization risk: nail fungus home remedies; toenail fungus home remedies; nail fungus treatment; toenail fungus treatment; best toenail fungus treatment; what kills toenail fungus instantly; do otc nail fungus treatments work; jublia vs terbinafine; does laser treatment work for nail fungus; nail fungus myths; how to know if toenail fungus is dying; how long does nail fungus take to clear; prevent toenail fungus returning; nail polish toenail fungus; acrylic nails over fungal nail; is nail fungus contagious; is toenail fungus contagious; what does nail fungus look like; toenail fungus (bare); fingernail fungus; diabetic nail care.
+- Cannibalization note: primary keyword sits next to two reserved existing posts ("nail fungus home remedies", "toenail fungus home remedies"). Differentiator is the evidence-ranked verdict ("that work"). Never use the reserved strings as focus terms, H1, or H2. Link to them (§11).
+
+## 4. SERP ANALYSIS
+Provenance: real search + web_fetch (~18 query variants; 5 pages fetched). Not reachable via tools: Google autocomplete A-Z, live PAA panel, Trends. Substituted with FAQ sections of fetched pages, query-variant searches, YouTube/People's Pharmacy/Salongeek indexed text. Pinterest and Quora returned nothing usable. Word counts are body-text estimates (nav/footer/references excluded).
+
+top_5_fetched_pages_summary:
+1. Healthline (healthline.com/health/home-remedies-for-toenail-fungus): ≈1,050 words, 15 H2, ≈3 family mentions. Med-reviewed, 10 numbered remedies + FAQ. Authority strong; no evidence ranking, no trial numbers, no stop rule.
+2. Cleveland Clinic (health.clevelandclinic.org/toenail-fungus-home-remedies-myths): ≈810 words, 2 H2 + 2 H3, ≈4. Only page with a hard verdict ("rarely work") and a who-should-skip list. Covers 5 remedies, zero trial data.
+3. GoodRx (goodrx.com/conditions/fungal-infection/home-remedies-for-toenail-fungus): ≈1,450 words, 13 H2, ≈3 (says "natural remedies"; "home remedies" absent from body). Derm-written, 15 references, lab-vs-human caveat. Pads with spruce resin, propolis, spirulina.
+4. SingleCare (singlecare.com/blog/home-remedies-for-toenail-fungus/): ≈3,100 words, 11 H2 + 20 H3, ≈9. 15 remedies incl. diet, exercise, urine warning. No evidence tiers; "kills fast" H2 contradicts its own "no quick fix."
+5. WebMD (webmd.com/skin-problems-and-treatments/otc-home-remedies-foot-fungus): ≈430 words, 0 H2 (10 bold labels), ≈2. Thin, drugstore-focused.
+Average ≈1,368 words; average ≈4.2 mentions (counted as "home remed(y|ies) for (toenail|nail) fungus" in body). Exact "that work": 0 on all five. Openers: definition/symptoms (3), reassurance (1), stat hook (1). None answers "do they work?" in sentence one.
+
+competitor_gaps (each confirmed on 2+ sources retrieved):
+- No page ranks remedies by trial evidence (Vicks: 18 people; tea tree: one RCT). Seen: fetched pages' vague evidence + YouTube titles ("doctor reviewed", "really work") + healthymag/ScienceInsights evidence-tier pages.
+- No stop rule or "what working looks like." Seen: Healthline/WebMD timelines only, podiatry sites give conflicting windows (weeks vs 6 months).
+- Prep step (filing/thinning the nail, tool hygiene) buried or absent. Seen: SingleCare, Utah Health dermatologist, ScienceInsights.
+- Named-remedy questions (peroxide, Listerine, baking soda) answered in one line or not at all. Seen: Healthline FAQ, WebMD, Cleveland Clinic.
+- "Why isn't it working after months" unanswered. Seen: People's Pharmacy reader Q&A, podiatry-site "when to see" pages.
+
+missing_semantic_territory: "that work", "ranked by evidence", mycological vs clinical cure, penetrate the nail plate, thinning the nail, carrier oil dilution, chemical burn, lab study vs human trial.
+
+our_strategic_approach: Every top page lists remedies without ranking them or saying when to stop; only Cleveland Clinic gives a verdict, on five remedies with no data. This post ranks by real trial data (Vicks: n=18, 48 weeks; 100% tea tree oil: one RCT) and treats vinegar, peroxide, Listerine, baking soda, and garlic as lab-or-anecdote only, anchored by a practicing podiatrist's flat "NO" that no competitor carries. Structure: 8 question-driven H2s versus SingleCare's 15-item list and WebMD's thin slideshow, plus a "what actually helps" prep section and explicit who-skips and stop-and-see-a-doctor rules. Keyword territory owned: "that work", named-remedy question phrases, "why isn't it working."
+
+evidence_facts (attribute by name in prose; no extra links):
+- Vicks VapoRub: 2011 JABFM case series, 18 adults, daily for 48 weeks: 15 (83%) improved, 5 (27.8%) full mycological + clinical cure, 10 (55.6%) partial, 3 no change. No placebo group.
+- 100% tea tree oil: 1994 RCT (J Fam Pract), twice daily for 6 months: ≈18% mycological cure, ≈56% improved, comparable to clotrimazole. Mayo Clinic: effectiveness not shown; lower concentrations showed no benefit.
+- Vinegar: no controlled trial on toenail fungus (WebMD, Healthline). ACV can cause chemical burns (Cleveland Clinic).
+- Baking soda: lab nail samples, growth stopped in 79% (WebMD); prevents more than kills; can over-dry feet (Cleveland Clinic).
+- Hydrogen peroxide: generally considered ineffective in practice (Global Nail Fungus Organization, via Healthline). Listerine: never studied for toenail fungus (WebMD). Garlic: lab only (GoodRx); raw garlic can chemically burn (SingleCare).
+- Penetration: topicals struggle to reach the nail unit; home filing/debridement helps (Univ. of Utah Health dermatologist).
+- Timeline: toenail takes up to 12-18 months to replace itself (ScienceInsights, SingleCare); WebMD: 6+ months before nails look better.
+- Fit: home care only for mild cases (under half of 1-2 nails, no pain, no thickening) (ScienceInsights). Skip DIY with diabetes, PAD, weak immunity, neuropathy (Cleveland Clinic).
+- Cost hook (one line max): Harvard Health cites Vicks ≈$24/year versus several thousand dollars for a year of Jublia. Do not compare prescriptions (other post).
+
+recommended_image_count_validation: Top pages use 1 hero (Healthline, Cleveland Clinic, GoodRx, WebMD) or a graphic per remedy (SingleCare). Flat 7 stands.
+
+## 5. AUDIENCE INTELLIGENCE
+- who_they_are: Adults (US/UK/CA/AU) with a yellow or thickened nail, mostly toenails, mild-to-moderate, self-diagnosed. Cost-conscious; prefers pantry or drugstore first; often has already tried something.
+- what_they_want: A straight verdict on which remedy deserves a fair trial, how to use it, how long, and when to quit.
+- what_frustrates_them: Lists that say "effective" then hedge; clinics that say "see a doctor" with no data; no timeline; no stop rule.
+- top_5_pain_points: (1) Conflicting answers between list sites and clinics. (2) Ten to fifteen remedies, no ranking. (3) Fear of wasting a year, no sense of what "working" looks like. (4) Suspects the remedy "isn't getting in" but nobody explains the nail barrier or the filing step. (5) Unclear safety limits (burns, diabetes, "is it even fungus?").
+- exact_user_phrases (observed patterns): "doesn't hurt to try" | "stuff I already have at home" | "I've been diligent" | "nothing has worked in over a year" | "fungus comes back when the medicine runs out" | "embarrassed about my toenails for years" | "saw improvement after two weeks" | "filing every two weeks keeps it down" | "Vicks morning and night" | "fungus is forever"
+- intent_content_signals: named-remedy question headings; concrete numbers (n=18, 48 weeks, 27.8%); credentialed verdict up front; one-line "how to use" per remedy; plain safety flags; short scannable sections; credential-forward framing (YouTube titles: "doctor reviewed", "dermatologist").
+
+## 6. SEMANTIC KEYWORD DATA
+Primary keyword in strong tags every mention. AEO terms trigger direct-answer paragraphs.
+- primary_keyword: home remedies for nail fungus that work
+- keyword_variations: do home remedies for nail fungus work | which home remedies for nail fungus actually work | natural remedies for nail fungus that work | home treatment for nail fungus | at-home remedies for nail fungus | do pantry remedies work for nail fungus
+- cluster_keywords: Vicks VapoRub for nail fungus | tea tree oil for nail fungus | vinegar foot soak for nail fungus | baking soda for nail fungus | hydrogen peroxide for nail fungus | Listerine foot soak | garlic for nail fungus | oregano oil for nail fungus | snakeroot extract | ozonized sunflower oil | nail fungus home care | mild nail fungus
+- lsi_terms: nail plate | nail bed | keratin | antifungal | antimicrobial | acetic acid | camphor | menthol | eucalyptus oil | thymol | carrier oil | debridement | emery board | foot soak | patch test | chemical burn | lukewarm water | mycological cure | clinical cure | case series | randomized controlled trial | new nail growth
+- aeo_terms: (1) Do home remedies for nail fungus actually work? (2) What is the best home remedy for nail fungus? (3) Does Vicks VapoRub cure nail fungus? (4) Does tea tree oil work for nail fungus? (5) Does vinegar kill nail fungus? (6) Does hydrogen peroxide kill nail fungus? (7) Does Listerine work for nail fungus? (8) Does baking soda cure nail fungus? (9) How long do home remedies take to work on nail fungus? (10) Are home remedies safe for nail fungus if you have diabetes? (11) Can you treat nail fungus at home without seeing a doctor? (12) Why aren't my home remedies working on my nail fungus?
+- technical_terms: onychomycosis | dermatophytes | nail plate | nail bed | keratin | debridement | topical antifungal | mycological cure
+- user_language: see §5
+
+## 7. VOICE AND AI QUERIES
+Answer every query in the relevant H2 body; if it cannot fit naturally, route to faqItems.
+1 Do home remedies for nail fungus actually work? 2 What is the best home remedy for nail fungus? 3 Does Vicks VapoRub really cure toenail fungus? 4 How long do I have to put Vicks on my toenail before it works? 5 Does tea tree oil kill nail fungus? 6 Should I dilute tea tree oil for nail fungus? 7 Does apple cider vinegar kill toenail fungus? 8 Does a vinegar foot soak get rid of nail fungus? 9 Does hydrogen peroxide work on toenail fungus? 10 Is Listerine good for toenail fungus? 11 Does baking soda cure nail fungus? 12 How long do home remedies take to work on nail fungus? 13 Can I get rid of nail fungus at home without a doctor? 14 Why is my nail fungus not going away with home remedies? 15 Are home remedies for nail fungus safe if I have diabetes? 16 Should I file down a fungal toenail before using a home remedy? 17 When should I stop home remedies and see a podiatrist? 18 Can home remedies make nail fungus worse?
+
+## 8. HOOK AND CTR
+READ BEFORE WRITING TITLE, META, INTRO, FIRST H2. Title and meta are LOCKED; use exactly.
+- real_serp_findings_summary: 3 of 5 titles use the same "N home remedies for toenail fungus" template (Healthline, GoodRx, SingleCare). None uses "that work" or promises a verdict. Cleveland Clinic alone leads with a verdict ("won't work") but covers five remedies with no data; metas mostly list ingredients.
+- selected_option_rationale: Tests the gap (an evidence ranking and a verdict) while front-loading the exact keyword; "Ranked by Evidence" is deliverable because Vicks and tea tree oil have trial data and the rest do not.
+- title: Home Remedies for Nail Fungus That Work: Ranked by Evidence
+- title_char_count: 59
+- meta_description: Which home remedies for nail fungus have real trial data? A podiatrist sorts pantry fixes from myths and says when to see a doctor.
+- meta_char_count: 131
+- intro_hook_brief: Open on the contradiction: list sites say these work, clinics say they rarely do, and both are partly right. Give the honest answer in the first two sentences, then promise a ranking. Primary keyword twice in the first 100 words. No definition-of-onychomycosis opener.
+- first_h2_hook_direction: Phrase H2-1 as the voice-search question a skeptic types ("Do Any Pantry Remedies Actually Clear Nail Fungus?"). Subtle curiosity gap; do not repeat the title's "Ranked by Evidence."
+
+## 9. SEARCH JOURNEY
+- reader_arrival_state: Skeptical but hopeful; has read conflicting lists and wants to know which pantry fix is worth trying before paying for prescriptions.
+- journey_arc: (1) Straight answer first (H2-1). (2) Explain why the nail blocks most remedies, removing the "I must be doing it wrong" guilt (H2-2). (3) Remedy-by-remedy verdicts: Vicks, tea tree oil, then the pantry group (H2-3 to H2-5). (4) A workable plan: file, hygiene, realistic timeline (H2-6). (5) Draw the line: who skips, when to stop, next step (H2-7, H2-8, conclusion).
+- promise_to_deliver: An honest, evidence-ranked verdict on which home remedies for nail fungus have real support, and when to stop.
+- exit_state: Clear-headed and in control: knows which single remedy (if any) merits a fair trial, how to run it, and exactly when to hand it to a doctor.
+
+## 10. CONTENT STRUCTURE
+- h1: Home Remedies for Nail Fungus That Work: Ranked by Evidence (not counted in mention target)
+- h2_structure and word_budget (total 1,600):
+  - Introduction: 220
+  - H2-1 Do Any Pantry Remedies Actually Clear Nail Fungus?: 170
+  - H2-2 Why Most Home Remedies Never Reach the Fungus: 140
+  - H2-3 Does Vicks VapoRub Work on Nail Fungus?: 170
+  - H2-4 Does Tea Tree Oil Work on Nail Fungus?: 170
+  - H2-5 What About Vinegar, Baking Soda, Peroxide, and Listerine?: 200
+  - H2-6 What Actually Helps While You Wait: 150
+  - H2-7 Who Should Skip Home Remedies Altogether?: 110
+  - H2-8 When to Stop and See a Doctor: 100
+  - Conclusion: 170
+Do not rename, reorder, or remove H2s. H3s allowed (H2-5 uses one H3 per remedy).
+
+## 11. INTERNAL LINKS (6 total; 5 cluster, 1 cross-site)
+1. /blog/nail-health/what-kills-toenail-fungus-instantly | anchor: what actually kills toenail fungus | H2-1: pointer for readers wanting prescription-level answers | cluster-pillar
+2. /blog/nail-health/nail-fungus-myths-what-is-actually-true | anchor: common nail fungus myths debunked | H2-2: after the "acid/pH kills fungus" idea | cluster-spoke
+3. https://mirelleinspo.com/blog/toenail-fungus/toenail-fungus-home-remedies | anchor: toenail fungus home remedies | H2-5: brief pointer for the wider folk-remedy list | existing-site
+4. https://mirelleinspo.com/blog/toenail-shapes/how-to-shape-toenails-at-home | anchor: how to trim and shape toenails at home without causing ingrown nails | H2-6: at the trim-straight-across step | cross-site
+5. /blog/nail-health/do-otc-nail-fungus-treatments-work | anchor: whether over-the-counter treatments work | H2-8: natural next step after home care | cluster-spoke
+6. https://mirelleinspo.com/blog/nail-fungus/nail-fungus-home-remedies | anchor: the full nail fungus home remedies guide | Conclusion: closing pointer | existing-site
+Woven into prose, never standalone CTAs. Cluster anchors verbatim.
+
+## 12. VOICE AND TONE
+- recommended_voice: Plain-spoken evidence guide (warm expert friend).
+- tone_characteristics: direct; evidence-first; warm, not alarmist; precise with numbers; zero miracle language.
+- language_style: Second person, short declaratives. Name study size and duration. Define onychomycosis once. One hedge per claim, never stacked.
+- audience_match: A skeptical, cost-conscious reader who has been burned by both hype lists and dismissive "see a doctor" pages needs candor and specifics.
+
+## 13. EXTERNAL LINKS (2)
+- https://health.clevelandclinic.org/toenail-fungus-home-remedies-myths | context: H2-7, who should skip DIY (diabetes, PAD, immunocompromised, neuropathy) | anchor: what a Cleveland Clinic physician says about skipping DIY treatment
+- https://www.goodrx.com/conditions/fungal-infection/home-remedies-for-toenail-fungus | context: H2-2, most natural-remedy research is lab-based or tiny | anchor: a dermatologist-written review of the natural remedy studies
+
+## 14. FEATURED EXPERT
+- expert_alias: podiatrist_toenail_fungus_qa (write exactly into frontmatter `expert`; per cluster file the alias is a working id and the expert is unnamed, so confirm in src/data/experts.ts before publishing)
+- expert_quote (verbatim, supplied): "The quick answer is 'NO.' When it comes to common treatments like vinegar and tea tree oil, they just don't penetrate the nail enough to do a lot of good. Vicks does penetrate the nail and can make nails easier to trim — it also contains camphor, which has been studied and can kill fungus, but the camphor levels in Vicks are generally not enough to clear a toenail... I've never seen any peer reviewed, double-blind study or even a decent clinical trial where peroxide, bleach, alcohol, Listerine, baking soda, Epsom salts, or any other home remedy will cure nail fungus."
+- suggested_placement: Opening "The quick answer is 'NO.'" in H2-1; the penetration sentence in H2-2; "Vicks does penetrate the nail and can make nails easier to trim" in H2-3 (end the extract before the em dash); the "never seen any peer reviewed" sentence in H2-5. Exact words only; no meaning change. The quote contains an em dash: never reproduce that character; choose extracts that end before it.
+
+## 15. EXECUTION PLAN (READ FIRST; LOCK ALL VALUES)
+**Block 1: keyword execution**
+- primary_keyword: home remedies for nail fungus that work (exact string counts; variations do not)
+- top_5_density_baseline: 4 (real average 4.2 from five fetched pages)
+- total_mention_target: 4 + 3 = 7 (H1 and title excluded)
+- first_100_words_plan: mention 1 in sentence 1 of the introduction (the honest-answer claim); mention 2 in sentence 3 (the ranking promise).
+- first_half_target: 4 mentions (first 800 words). second_half_target: 3 mentions.
+- strong_tag_rule: all 7 in `<strong>`; scan after every paragraph.
+- keywords_to_avoid_active: §3 list, never as focus terms.
+
+**Block 2: word budget**
+- total_target: 1,600 (±50, never exceed 1,650)
+- introduction 220 | conclusion 170
+- h2_budgets: H2-1 170 (medium) | H2-2 140 (medium) | H2-3 170 (high) | H2-4 170 (high) | H2-5 200 (high) | H2-6 150 (medium) | H2-7 110 (low) | H2-8 100 (low)
+- tracking_rule: log the running total at each H2 end; cut before moving on, never compensate later.
+
+**Block 3: image plan**
+- total_images: 7 | hero: frontmatter only, never in body | body_images: 6
+- assignments (all standard_inspiration = healthy, clean, short natural toenails, soft light; no visibly infected nails, no products or jars, no tools, no hands at work; unless noted):
+  1. after H2-1: calm bare-nail still
+  2. after H2-3: neutral, well-groomed short toenails
+  3. after H2-4: healthy nail plate close-up
+  4. after H2-5: **infographic**: evidence ladder (Vicks: one 18-person series; 100% tea tree oil: one RCT; vinegar, baking soda, peroxide, Listerine, garlic: lab or anecdote only). Clean graphic layout, not a photo comparison.
+  5. after H2-6: healthy toenails, gentle lifestyle setting
+  6. after H2-7: soothing foot-care aesthetic, healthy nails
+- path_rule: /images/blog/nail-health/toenail-fungus-home-remedies-that-work/filename.webp
+
+**Block 4: opening techniques** (only T1 and T3 are named in this session; Blog Gen may swap in another technique if no two consecutive sections match)
+Introduction T1 The Claim | H2-1 T3 The Reframe | H2-2 T1 | H2-3 T3 | H2-4 T1 | H2-5 T3 | H2-6 T1 | H2-7 T3 | H2-8 T1 | Conclusion T3 The Reframe. Check each opener against banned openings before the second sentence.
+
+**Block 5: link placements** — exactly as §11 (full URLs there, anchors verbatim). Sections: H2-1, H2-2, H2-5, H2-6, H2-8, Conclusion. External links per §13.
+
+**Block 6: AEO/GEO**
+- Direct 2-3 sentence answer immediately after the H2 heading: H2-1 → AEO 1, 2 | H2-2 → AEO 12 | H2-3 → AEO 3 | H2-4 → AEO 4 | H2-5 → AEO 5 (heading), then H3s for AEO 6, 7, 8 | H2-6 → AEO 9 | H2-7 → AEO 10, 11 | H2-8 → "When should you stop home remedies and see a doctor?"
+- geo_entity_statements: onychomycosis (H2-2), nail plate (H2-2), Vicks VapoRub as a mentholated ointment with camphor, eucalyptus oil, and menthol (H2-3), tea tree oil as an essential oil that needs a carrier oil unless used at full strength on the nail only (H2-4), debridement (H2-6). Declarative, no hedging.
+
+**Block 7: active constraints**
+- em dash banned everywhere (except never inside quote extracts: avoid it entirely). Replace with comma, new sentence, parentheses, or "but."
+- banned_vocab_watch (Blog Gen banned list not provided here; likely slips for this topic, verify): game-changer | unlock | dive into | crucial | delve | ultimate | miracle | journey
+- American English active (color, recognize, -ize, -or).
+- keyword_density_reminder: check the running total after every 2 H2s (target 7; first half denser).
+- image_path_reminder: topic_slug `nail-health` always in path.
+- internal_link_url_reminder: cluster links /blog/nail-health/[slug]; existing and cross-site links use exact URLs; never bare /slug. Total internal links 6.
+- hero_image_reminder: frontmatter only.
+- strong_tag_reminder: every primary keyword mention in `<strong>`.
+- expert_quote_reminder: alias goes into `expert` exactly; extracts word-for-word, meaning unchanged, no em dash.
+- claims discipline: never write "instantly", "cures", or "kills" as a promise; say "clears" only for the trial outcomes cited. No medical advice beyond §4 facts.
