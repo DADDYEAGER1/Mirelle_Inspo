@@ -1,0 +1,305 @@
+# INPUT FILE — spoon-nails-koilonychia
+
+## SECTION 1 — FILE AUTHORITY
+THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All POST_CONSTANTS are hardcoded. Follow every keyword, H2, audience insight, link, tone, and constraint exactly. Do not ask, adjust, or override.
+
+## SECTION 2 — POST_CONSTANTS
+- slug: spoon-nails-koilonychia
+- topic_slug: nail-health
+- canonical: https://mirelleinspo.com/blog/nail-health/spoon-nails-koilonychia
+- post_type: spoke
+- intent: informational
+- word_count: 2500 (reference/ceiling to write within precisely, not a quota. Landing under it is correct if the post is complete. Never pad.)
+- image_count: 7 (1 hero + 6 body)
+- show_inspo_gallery_link: false (cluster default, verbatim)
+- template: posts
+- hero_dimensions: 1200x675
+- category: Nail Health
+- publish_date: 2026-09-28
+- author: jyoti-mirelle
+- expertise_type: licensed_derm_or_nail_health_expert
+- expert_alias: cameron-rokhsar-md
+- expert_quote: "Spoon-shaped nails, koilonychia, where the nail curves inward like a spoon, are the one change that is a genuine red flag, classically linked to iron deficiency anemia and worth bloodwork, especially alongside fatigue or pale skin."
+
+## SECTION 3 — CLUSTER SNAPSHOT
+- pillar_slug: nail-color-meaning-health
+- pillar_title: What Your Nail Color Is Telling You About Your Health
+- pillar_primary_keyword: nail color meaning
+- this_post_slug: spoon-nails-koilonychia
+- this_post_role: spoke
+- show_inspo_gallery_link_cluster_default: false
+- keywords_to_avoid (never use as focus terms): nail color meaning; Beau's lines; white spots on nails; dark line on nail; nail psoriasis vs fungus; what does nail fungus look like; is nail fungus contagious; toenail fungus (all variants); nail fungus (all variants); paronychia; infected ingrown toenail; nail patch test; diabetic nail care; brittle/weak nails "why are my nails weak and brittle"; does biotin work for nails; vertical ridges on nails; hema allergy symptoms; healthy nail aesthetic; nail hardener vs nail strengthener; how to grow nails faster and stronger; gel nails safe during pregnancy. Mention adjacent conditions only in one-line differentials, never as a section focus.
+
+## SECTION 4 — SERP ANALYSIS
+Five real pages fetched via web_fetch.
+
+top_5_fetched_pages_summary:
+1. https://my.clevelandclinic.org/health/symptoms/22140-koilonychia-spoon-nails — ~800 words, 5 H2 (Overview, Possible Causes, Care and Treatment, When To Call the Doctor, Additional Common Questions), ~9 keyword-family mentions ("spoon nails" 8x). Strong: authority, clean Q&A H3s, reversibility timeline. Weak: no water-drop test, no hemochromatosis nuance, no salon angle. Last updated 2021.
+2. https://ndnailsupply.com/blogs/articles/spoon-nails — ~2,700 words, 7 H2, ~20 mentions. Strong: water-drop test, hemochromatosis 49% stat, nail-tech playbook, "2026 Guide" tag. Weak: e-commerce wrapper, treatment/dosage section is dense, no thyroid depth.
+3. https://sehathub.com/koilonychia — ~2,600 words, 9 H2, ~22 mentions of koilonychia/spoon. Strong: 3-stage progression (brittle, flat/platonychia, spooning), bead retention test, differential vs clubbing. Weak: typo-heavy, contradicts itself on hemochromatosis, generic tone.
+4. https://mdsearchlight.com/skin-problems-and-treatments/spoon-nails-koilonychia/ — ~1,900 words, 10 H2, ~15 mentions. Strong: StatPearls-derived, Plummer-Vinson, false-positive water-drop caveat. Weak: robotic, no readable next step, mislabels PVS in places.
+5. https://www.apollohospitals.com/symptoms/koilonychia — ~750 words, 8 H2, ~9 mentions. Strong: myth/fact block, FAQ. Weak: thin, no numbers, no timelines beyond "weeks to months".
+(Mayo Clinic fetched but excluded: 7-condition roundup, not a dedicated page.)
+
+top_5_word_count_average: ~1,750 (800+2700+2600+1900+750 / 5 = 1,750)
+top_5_keyword_density_average: ~15 mentions of primary keyword family
+
+competitor_gaps (demand-validated on 2+ sources):
+- Ferritin-normal or "iron is fine but nails still spoon" cases (thyroid, altitude, occupational). Sources: Quora threads, thyroid sites, PAA. No top-5 page addresses it.
+- What to actually ask your doctor for (CBC + ferritin + TSH), a concrete lab checklist. Only ND Nails partially.
+- Manicure/enhancement wear with spoon nails (tips won't stay, salon threads). Only ND Nails touches it, for techs not clients.
+- Realistic "will my nails go back to normal" timeline split fingernail vs toenail, with the new-growth-at-cuticle marker Dr. Rokhsar describes.
+- Two-way iron story (deficiency vs hemochromatosis) stated clearly without contradiction.
+
+missing_semantic_territory: water-drop test at home, platonychia (flat stage), duck-bill/spoon confusion, infant spoon nails as normal, high-altitude spoon nails, hairdresser/petroleum exposure, ferritin under 30.
+
+our_strategic_approach: Cleveland Clinic ranks on authority but is short and dated, and the longest pages (ND Nails, SehatHub) are dense and self-contradicting on iron overload. This post wins by being the one page that walks a reader from "is this what I have" (water-drop test, three stages) to "what do I ask my doctor for" (CBC, ferritin, TSH) to "why iron isn't the whole story" (thyroid, hemochromatosis, occupational, altitude), all in plain American English. The structural edge is a decision-first layout: a direct 2-3 sentence answer under every H2, a lab-checklist block, and a realistic recovery timeline anchored by Dr. Rokhsar's cuticle-growth marker, none of which any current top-5 page combines. It also owns a practical angle nobody covers for readers: what to do about manicures and gel/acrylic wear while the cause is being sorted.
+
+recommended_image_count_validation: 7 confirmed. Health-symptom SERPs favor a hero plus explanatory visuals.
+
+best_external_sources_found:
+- https://my.clevelandclinic.org/health/symptoms/22140-koilonychia-spoon-nails (medically reviewed, cites StatPearls/Perm J)
+- https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/7-fingernail-problems-not-to-ignore/art-20546860 (authoritative; used for iron/hemochromatosis line only)
+
+## SECTION 5 — AUDIENCE INTELLIGENCE
+Sources: Quora (4 threads), YouTube (10 indexed clinical explainers), SalonGeek (2 relevant threads), PAA/autocomplete-style results.
+
+who_they_are: Adults (skewing women 25-55) who just noticed a dip in one or more nails, Googled "spoon nails," and landed halfway between worried and curious. Some are nail-service clients whose tips or gel keep lifting. A smaller group are techs who spotted it on a client.
+
+what_they_want_from_this_post: A straight answer to "is this serious," a way to confirm it at home, and a concrete next step (which test, which doctor). Not a lecture on nail anatomy.
+
+what_frustrates_them: Pages that say "it's iron deficiency" and stop; contradictory iron advice; no timeline; being told to "see a doctor" with no idea what to ask for.
+
+top_5_pain_points:
+1. "Is this actually iron, or something else?"
+2. "My nails are spooning but I eat fine / my iron came back normal."
+3. "How long until they look normal again?"
+4. "Can I still get gel, acrylics, or tips?"
+5. "Should I be scared?" (fear of a serious diagnosis)
+
+exact_user_phrases (from real Quora/SalonGeek/YouTube/search titles):
+- "What causes a spoon nail, and how do you cure them?"
+- "Can spoon nails be cured?"
+- "Why would anemia cause koilonychia (spoon shaped nails)?"
+- "Spoon nails, do any tips stay on?"
+- "Apparently I have spoon nails"
+- "nails curve inward like a spoon"
+- "hold a drop of water"
+- "Are your nails turning concave?"
+- "Is duck bill the same as spoon nails?"
+- "sign of low iron"
+
+intent_content_signals: short direct answers; plain-language cause lists; a self-test; timelines with numbers; a "when to see a doctor" block; a table or checklist for labs; reassurance without dismissing risk.
+
+## SECTION 6 — SEMANTIC KEYWORD DATA
+primary_keyword: spoon nails
+total_mention_target: 17 (baseline 15 + 2). Write in <strong> tags every time.
+first_100_words_rule: primary keyword twice in the first 100 words, mandatory.
+
+keyword_variations: spoon-shaped nails; koilonychia; concave nails; spooning nails; spoon nails causes; spoon nails meaning; spoon fingernails; spoon nails treatment; spoon nails iron deficiency; are spoon nails serious.
+(All cleared vs keyword_do_not_use.)
+
+cluster_keywords: iron deficiency anemia; ferritin level; nail changes; nail matrix; hemochromatosis; Plummer-Vinson syndrome; thyroid nail changes; concave nail plate; nail plate; systemic signs in nails; when to see a doctor about nails.
+
+lsi_terms: water-drop test; bead retention test; platonychia; nail thinning; nail flattening; iron overload; serum ferritin; CBC blood test; total iron-binding capacity; celiac disease and nails; hypothyroidism; hyperthyroidism; Raynaud's phenomenon; petroleum solvents; high altitude; nail-patella syndrome; lichen planus; lupus; iron-rich foods; vitamin C iron absorption; new nail growth at the cuticle.
+
+aeo_terms (question phrases):
+- What are spoon nails a sign of?
+- What deficiency causes spoon nails?
+- Are spoon nails serious?
+- Can spoon nails be reversed?
+- How long do spoon nails take to grow out?
+- What is the water-drop test for spoon nails?
+- Can spoon nails be caused by something other than iron deficiency?
+- Should I see a doctor if I have spoon nails?
+- Can hypothyroidism cause spoon nails?
+- Can you get gel nails with spoon nails?
+
+technical_terms: koilonychia; platonychia; nail plate; nail matrix; ferritin; hemochromatosis; onychodystrophy; Plummer-Vinson syndrome.
+
+user_language: "hold a drop of water"; "curve inward like a spoon"; "scooped out"; "sign of low iron"; "my nails are turning concave"; "do any tips stay on"; "sunken in the middle"; "thin and bendy."
+
+## SECTION 7 — VOICE AND AI QUERIES
+blog_gen_instruction: answer each query directly in the relevant H2 body. If it can't fit naturally, route to faqItems. None left unanswered.
+
+queries:
+1. What are spoon nails a sign of?
+2. What is koilonychia?
+3. What vitamin deficiency causes spoon nails?
+4. Are spoon nails always caused by low iron?
+5. Can spoon nails be caused by too much iron?
+6. Are spoon nails serious?
+7. How do I do the water-drop test at home?
+8. Can spoon nails go back to normal?
+9. How long does it take spoon nails to grow out?
+10. Can hypothyroidism cause spoon nails?
+11. Should I take iron supplements if I have spoon nails?
+12. What blood tests should I ask for if I have spoon nails?
+13. Can gel or acrylic nails stay on spoon nails?
+14. Are spoon nails normal in babies?
+15. Do spoon nails happen on toenails too?
+16. What kind of doctor should I see about spoon nails?
+
+## SECTION 8 — HOOK AND CTR
+blog_gen_instruction: READ BEFORE WRITING TITLE, META, INTRO, OR FIRST H2. Title and meta are the internally selected option. Use exactly.
+
+real_serp_findings_summary: Top titles cluster on "Koilonychia (Spoon Nails): What It Is, Causes & Treatment" and "Spoon Nails (Koilonychia): [subtitle]," leading with the medical term, so "spoon nails" is not front-loaded. Nearly all promise causes and treatment, which pages deliver generically. None promise a decision or a next step, and none use the year.
+
+selected_option_rationale: Front-loads the plain-language keyword the audience actually types, adds the year for freshness, and promises a specific, concrete payoff (what to ask your doctor) that no competitor title offers.
+
+title: Spoon Nails: What They Mean and What to Test First 2026
+title_char_count: 58 (verify at build)
+meta_description: Nails scooping inward? Learn what spoon nails signal, how to do the water-drop test at home, and which blood tests to ask your doctor for.
+meta_char_count: 147 (verify at build)
+
+intro_hook_brief: Open on the small, specific moment of noticing: a nail that suddenly holds a drop of water. Name the fear ("is this serious?") in one line, then answer it straight: it is usually a signal about iron or thyroid, it is testable, and it is fixable. State <strong>spoon nails</strong> twice before word 100.
+
+first_h2_hook_direction: Phrase the first H2 as the reader's own question ("What are spoon nails actually telling you?") and lead with a two-sentence direct answer.
+
+## SECTION 9 — SEARCH JOURNEY
+reader_arrival_state: Slightly alarmed, curious, staring at their hands, wants a plain answer and a plan.
+journey_arc:
+- Confirm what they are seeing (water-drop test, three stages)
+- Answer "is this serious" directly (usually a signal, not an emergency)
+- Explain the causes, iron first, then the ones nobody explains
+- Give the lab checklist and who to see
+- Set realistic recovery timelines and manicure guidance
+promise_to_deliver: You will know what spoon nails mean, how to check at home, and exactly which tests to ask for.
+exit_state: Calm and equipped, with a specific plan and no lingering dread.
+
+## SECTION 10 — CONTENT STRUCTURE
+h1: Spoon Nails: What They Mean and What to Test First
+h2_structure (8):
+1. What Are Spoon Nails Actually Telling You?
+2. How to Tell If You Have Spoon Nails (The Water-Drop Test)
+3. The Three Stages of Spoon Nails
+4. What Causes Spoon Nails? Iron Is Only Part of the Story
+5. Are Spoon Nails Serious? When to See a Doctor
+6. Which Tests to Ask For If You Have Spoon Nails
+7. Can Spoon Nails Grow Out? Realistic Recovery Timelines
+8. Getting a Manicure With Spoon Nails
+
+word_budget (total 2500):
+- introduction: 220
+- H2-1: 260
+- H2-2: 260
+- H2-3: 220
+- H2-4: 420
+- H2-5: 260
+- H2-6: 280
+- H2-7: 260
+- H2-8: 200
+- conclusion: 180
+(Sum = 2560; trim H2-4 to 360 if running over. +/-50 tolerance on total.)
+
+## SECTION 11 — INTERNAL LINKS (4-6 max)
+1. url: /blog/nail-health/nail-color-meaning-health | anchor: "what your nail color is telling you about your health" | placement: Conclusion, as the natural broader read | link_type: cluster-pillar
+2. url: /blog/nail-health/beaus-lines-nail-grooves | anchor: "what horizontal nail grooves mean" | placement: H2-4, in the one-line differential (other nail signs) | link_type: cluster-spoke
+3. url: https://mirelleinspo.com/blog/nail-strengthening/why-are-my-nails-weak-and-brittle | anchor: "why nails become weak and brittle" | placement: H2-3, stage 1 (brittleness) | link_type: existing-site
+4. url: https://mirelleinspo.com/blog/nails-for-older-women/nail-care-routine-for-mature-hands | anchor: "a daily nail care routine that protects thinning nails" | placement: H2-8 (Manicure section) | link_type: cross-site
+5. url: https://mirelleinspo.com/blog/nails-for-older-women/gel-nails-vs-acrylic-for-mature-hands | anchor: "how gel and acrylic behave on thin, fragile nail plates" | placement: H2-8 | link_type: cross-site
+(Cluster links from cluster_map used verbatim. Cross-site links found via site:mirelleinspo.com searches.)
+
+## SECTION 12 — VOICE AND TONE
+recommended_voice: Calm, knowledgeable friend with a medical backbone.
+tone_characteristics: reassuring but honest; direct; plain-language; lightly practical; never alarmist.
+language_style: short sentences, second person ("you"), one useful analogy (spoon/water-drop), explain each medical term once. American English.
+audience_match: Readers are anxious and want clarity fast. A steady, non-clinical voice lowers fear without hiding that it deserves a doctor visit.
+
+## SECTION 13 — EXTERNAL LINKS
+1. url: https://my.clevelandclinic.org/health/symptoms/22140-koilonychia-spoon-nails | context: reversibility and 6-18 month timeline (H2-7) | anchor_suggestion: "Cleveland Clinic's overview of koilonychia"
+2. url: https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/7-fingernail-problems-not-to-ignore/art-20546860 | context: iron deficiency vs hemochromatosis line (H2-4) | anchor_suggestion: "Mayo Clinic's list of fingernail problems not to ignore"
+
+## SECTION 14 — FEATURED EXPERT
+expert_alias: cameron-rokhsar-md
+expert_quote (full, exact): "Spoon-shaped nails, koilonychia, where the nail curves inward like a spoon, are the one change that is a genuine red flag, classically linked to iron deficiency anemia and worth bloodwork, especially alongside fatigue or pale skin."
+suggested_placement: H2-5 ("Are Spoon Nails Serious?") for the "genuine red flag ... worth bloodwork" portion, and optionally H2-1 for the opening extract. Word-for-word only, meaning must not change.
+Related (do not fabricate as a quote, use only if user supplies): Dr. Rokhsar's timeline comment appears in the cluster for post 3 (new growth at the cuticle). Do not reuse it here unless the user provides it for this post.
+
+## SECTION 15 — EXECUTION PLAN
+READ FIRST. Lock every value. Execute exactly.
+
+### block_1_keyword_execution
+- primary_keyword: spoon nails
+- top_5_density_baseline: 15
+- total_mention_target: 17 (15 + 2)
+- first_100_words_plan: mention 1 in sentence 1 of the introduction (the noticing moment); mention 2 in sentence 3 (the direct answer that this is testable and fixable)
+- first_half_target: 10 mentions (first ~1,250 words)
+- second_half_target: 7 mentions
+- strong_tag_rule: every one of the 17 mentions wrapped in <strong>. Scan after every paragraph.
+- keywords_to_avoid_active: full list in Section 3
+
+### block_2_word_budget
+- total_target: 2500 words +/-50, never exceed
+- introduction: 220 | conclusion: 180
+- h2_budgets:
+  - What Are Spoon Nails Actually Telling You? — 260 — low
+  - How to Tell If You Have Spoon Nails (The Water-Drop Test) — 260 — medium
+  - The Three Stages of Spoon Nails — 220 — low
+  - What Causes Spoon Nails? Iron Is Only Part of the Story — 360 — high
+  - Are Spoon Nails Serious? When to See a Doctor — 260 — medium
+  - Which Tests to Ask For If You Have Spoon Nails — 280 — medium
+  - Can Spoon Nails Grow Out? Realistic Recovery Timelines — 260 — medium
+  - Getting a Manicure With Spoon Nails — 200 — low
+- tracking_rule: track running total at the end of each H2. Cut before moving on if over. Do not compensate later. Landing under is correct if the post is complete.
+
+### block_3_image_plan
+- total_images: 7 (hero in frontmatter only, never in body)
+- body_images: 6
+- assignments:
+  1. after H2-1 | standard_inspiration | a bare, healthy-looking hand alongside a single spooned nail, natural light, no tools
+  2. after H2-2 | infographic | how the water-drop test reads: convex nail (droplet rolls off) vs concave nail (droplet pools), clean graphic, not a photo comparison
+  3. after H2-3 | infographic | three-stage progression: brittle, flat, spooned
+  4. after H2-4 | infographic | cause map: iron deficiency, hemochromatosis, thyroid, occupational/altitude, other
+  5. after H2-6 | infographic | lab checklist: CBC, ferritin, TSH with what each shows
+  6. after H2-8 | standard_inspiration | short, clean, natural nails in a soft neutral finish
+- image_type_rule: default standard_inspiration; the infographic slots above are the exceptions and are flagged per slot. NEVER a tool/equipment image, hands holding files, or a photo-style side-by-side nail comparison.
+- path_rule: /images/blog/nail-health/spoon-nails-koilonychia/filename.webp
+
+### block_4_opening_technique_assignments
+- Introduction: Technique 2 — The Scene (the noticing moment)
+- H2-1: Technique 1 — The Claim
+- H2-2: Technique 4 — The Instruction
+- H2-3: Technique 3 — The Reframe
+- H2-4: Technique 2 — The Scene
+- H2-5: Technique 1 — The Claim
+- H2-6: Technique 4 — The Instruction
+- H2-7: Technique 3 — The Reframe
+- H2-8: Technique 2 — The Scene
+- Conclusion: Technique 1 — The Claim
+- banned_opener_rule: check each opener against banned_opening_approaches before writing the second sentence. No two consecutive sections share a technique.
+
+### block_5_link_placements
+1. anchor: "what your nail color is telling you about your health" | url: /blog/nail-health/nail-color-meaning-health | section: Conclusion | context: pointing the reader to the broader signal guide | type: cluster-pillar
+2. anchor: "what horizontal nail grooves mean" | url: /blog/nail-health/beaus-lines-nail-grooves | section: H2-4 | context: one-line note that other nail changes have different causes | type: cluster-spoke
+3. anchor: "why nails become weak and brittle" | url: https://mirelleinspo.com/blog/nail-strengthening/why-are-my-nails-weak-and-brittle | section: H2-3 | context: stage 1 brittleness | type: existing-site
+4. anchor: "a daily nail care routine that protects thinning nails" | url: https://mirelleinspo.com/blog/nails-for-older-women/nail-care-routine-for-mature-hands | section: H2-8 | context: gentle care while the cause is treated | type: cross-site
+5. anchor: "how gel and acrylic behave on thin, fragile nail plates" | url: https://mirelleinspo.com/blog/nails-for-older-women/gel-nails-vs-acrylic-for-mature-hands | section: H2-8 | context: enhancement guidance | type: cross-site
+
+### block_6_aeo_geo_plan
+aeo_assignments (direct 2-3 sentence answer immediately after the H2, before elaboration):
+- "What are spoon nails a sign of?" → H2-1
+- "What is the water-drop test for spoon nails?" → H2-2
+- "What deficiency causes spoon nails?" / "Can spoon nails be caused by something other than iron deficiency?" → H2-4
+- "Are spoon nails serious?" / "Should I see a doctor if I have spoon nails?" → H2-5
+- "What blood tests should I ask for?" → H2-6
+- "Can spoon nails be reversed?" / "How long do spoon nails take to grow out?" → H2-7
+- "Can you get gel nails with spoon nails?" → H2-8
+Route "Are spoon nails normal in babies?" and "Do spoon nails happen on toenails too?" to faqItems.
+geo_entity_statements:
+- Koilonychia → H2-1: "Koilonychia is a nail shape in which the center of the nail plate sinks inward and the edges lift, so it can hold a drop of water."
+- Water-drop test → H2-2: define as a simple bedside check where a bead of water pools on a concave nail and rolls off a normal convex one.
+- Ferritin → H2-6: "Ferritin is the blood marker that shows how much iron your body has stored."
+- Hemochromatosis → H2-4: "Hemochromatosis is a genetic condition in which the body absorbs too much iron."
+
+### block_7_active_constraints
+- em_dash_banned: no long em dash anywhere. Replace with comma, new sentence, parentheses, "but," or restructure.
+- banned_vocab_watch: (populate from the blog-gen banned list; most likely for this post) "delve," "crucial," "navigate," "landscape," "unlock," "game-changer," "comprehensive," "robust"
+- american_english_active: color, recognize, -ize, -or. No British spellings (anemia, not anaemia).
+- keyword_density_reminder: after every 2 H2s, verify the running count is on track for 17. First half denser than second.
+- image_path_reminder: /images/blog/nail-health/spoon-nails-koilonychia/filename.webp
+- internal_link_url_reminder: cluster links = /blog/nail-health/[slug]; cross-site = exact URL as given. Never bare /slug.
+- hero_image_reminder: hero is frontmatter only.
+- strong_tag_reminder: every primary keyword mention in <strong>.
+- expert_quote_reminder: expert_alias goes in frontmatter exactly as given. Quote may be used whole or as word-for-word extracts. Never paraphrased at the word level, never altered in meaning.
+- medical_claims_reminder: state iron deficiency as the most common cause, not the only one. Do not claim treatment, only that a doctor treats the cause. Use hedged, sourced language for statistics (5.4% of iron-deficient patients; 49% in hemochromatosis per StatPearls as reported by ND Nails Supply; 4-6 months for fingernails, up to about 18 months for toenails per StatPearls/Cleveland Clinic).
