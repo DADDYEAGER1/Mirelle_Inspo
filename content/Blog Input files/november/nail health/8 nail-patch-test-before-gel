@@ -1,0 +1,345 @@
+# INPUT FILE — nail-patch-test-before-gel
+
+## SECTION 1 — FILE AUTHORITY
+THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded. Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.
+
+---
+
+## SECTION 2 — POST_CONSTANTS
+- slug: nail-patch-test-before-gel
+- topic_slug: nail-health
+- canonical: https://mirelleinspo.com/blog/nail-health/nail-patch-test-before-gel
+- post_type: spoke
+- intent: informational
+- word_count: 1900 (ceiling/reference, not a quota. Landing under it is correct if the post is complete. Never pad.)
+- image_count: 7 (1 hero + 6 body)
+- show_inspo_gallery_link: false (cluster default, verbatim)
+- template: posts
+- hero_dimensions: 1200x675
+- category: Nail Health
+- publish_date: 2026-09-28
+- author: jyoti-mirelle
+- expertise_type: licensed_derm_or_nail_health_expert
+- expert_alias: cameron-rokhsar-md
+- expert_quote: (see Section 14, verbatim)
+
+---
+
+## SECTION 3 — CLUSTER SNAPSHOT
+- pillar_slug: what-kills-toenail-fungus-instantly
+- pillar_title: What Kills Toenail Fungus Instantly? What Actually Works
+- pillar_primary_keyword: what kills toenail fungus instantly
+- this_post_slug: nail-patch-test-before-gel
+- this_post_role: spoke
+- show_inspo_gallery_link_cluster_default: false
+- keywords_to_avoid (hard wall): toenail fungus, toenail fungus causes/symptoms/treatment/stages/home remedies/laser treatment cost, toenail fungus vs nail psoriasis, fingernail fungus, what is nail fungus, nail fungus causes/symptoms/treatment/prevention/home remedies, how long does nail fungus take to clear, is toenail fungus contagious, nail polish toenail fungus, prevent toenail fungus returning, best toenail fungus treatment, are long nails bad for your health, can nail polish affect thyroid health, can nail polish damage your natural nails, how often should you trim your nails, how to grow stronger healthier nails naturally, acrylate allergy acrylic nails symptoms, gel manicure acrylate allergy, what is hema, hema allergy symptoms, how to avoid hema allergy, hema vs tpo free gel polish, is hema free gel polish as good, is hema banned eu, nail anatomy, what is a cuticle, cuticle oil terms, cuticle care terms, why are my nails weak and brittle, does biotin work for nails, how to grow nails faster and stronger, nail hardener vs strengthener, repair nails after gel acrylic removal, vertical ridges on nails, nail slugging, do acrylic nails damage your nails, almond nails aftercare, anti aging manicure, bare nails aftercare, best manicure type for nail health, healthiest nail option overall, healthy nail aesthetic, all BIAB terms; plus every other cluster post's primary keyword.
+
+---
+
+## SECTION 4 — SERP ANALYSIS
+
+**Research basis:** 15 distinct search queries run. Six real competitor pages fetched and read. Two further candidate pages could not be fetched (acrylateallergy.com blocked automated access; Medscape returned a 402 paywall) and are excluded from every count and from all structural claims below.
+
+**Count reliability note for Blog Gen:** NailKnowledge's word and mention count was measured directly by code (837 words, 9 mentions). The other five figures are approximations from reading the fetched body text, excluding nav, footer, ads, and related-article blocks. Treat them as reliable to roughly +/-10%.
+
+**top_5_fetched_pages_summary**
+1. nailknowledge.org — "Why Gel Polish Patch Testing on Skin Is a Dangerous Mistake." ~840 words (measured), 5 H2s, 9 mentions. Strong hook and a clear "don't do it" verdict, but thin. No mention of what a real patch test costs, how to book one, or what the reader should do instead beyond "see a dermatologist." UK spelling.
+2. thenailwiki.com — "Nail Patch Testing: Safe Methods & Professional Guide." ~2,350 words, ~13 H2s, ~46 mentions. Written for nail technicians, not clients. Deliberately withholds the actual protocol to sell a course. Heavy on UK insurance and GDPR. Highest keyword density of the set.
+3. wyndly.com — "Gel X Nail Allergy." ~1,350 words, 7 H2s, ~12 mentions. Allergy-clinic voice. Repeatedly says "always conduct a patch test" without ever saying what that means or whether skin testing is safe. Contradicts NailKnowledge without acknowledging the conflict.
+4. community.aafa.org — "Am I Allergic to Gel Nails or Nail Polish?" ~400 words, 0 H2s, ~2 mentions. Q&A format by an allergist. Authoritative but tiny. Confirms patch skin testing is done by an allergist.
+5. ikoniqnails.com — "What Ingredients Are Tested in a Dermatologist's Patch Test?" ~4,700 words, ~9 H2s, ~22 mentions. Deepest page, cites peer-reviewed data (Dascalu 2024; EECDRG audit). It is also a brand's sales page in editorial clothing, with a product table at the end. Best source for the "negative HEMA test is not an all-clear" finding.
+
+Also read but not counted toward averages: scratchmagazine.co.uk (~520 words, 0 H2s, ~3 mentions, tech-facing, 2019) and TIME (authoritative dermatologist quotes, not keyword-targeted).
+
+**top_5_word_count_average:** ~1,690 words across all six pages read. Median cluster is 840 to 2,350. The intent-matched pages (NailKnowledge, NailWiki, Wyndly) average ~1,510.
+
+**top_5_keyword_density_average:** ~16 mentions of "patch test" per page.
+
+**competitor_gaps** (each confirmed on 2+ sources)
+- **The direct conflict.** NailKnowledge, NailWiki, and IKON.IQ say never patch test gel on your skin. Wyndly, HONA, Allermi, and several beauty sites say do it. No competitor tells the reader the sources disagree, or why. This is the single biggest opening. (Confirmed: PAA/search results, YouTube "DIY Patch Test? NOPE!" and "Are DIY Patch Tests Safe?", Quora, competitor pages.)
+- **Clinical vs salon vs DIY, three different things called the same name.** Every competitor blurs a dermatologist patch test, a salon "test nail," and a DIY skin dab. (Confirmed: NailWiki, NailKnowledge, Salon Geek threads, Quora.)
+- **Dr. Rokhsar's actual position.** Formal patch testing is overkill for someone with no symptoms and no reaction history, and becomes worthwhile after a suspicious reaction, before resuming gel after a reaction, or for daily-exposure nail workers. No competitor makes this "who actually needs one" distinction. It directly answers the reader's real question. (Expert source.)
+- **A negative test isn't an all-clear.** Only IKON.IQ covers this, and buried at 4,700 words. Confirmed by NailWiki's FAQ ("Can clients react even after a patch test? Yes.") and TIME (cross-reactivity).
+- **What a real test involves and how to get one.** Duration (48 hours, reading at 72-96 hours, sometimes day 7), where patches go (the back), what to bring (product bottles, ingredient lists, safety data sheets). Scratch, DermNet, IKON.IQ, and Wikipedia each cover pieces. No consumer-facing page assembles it. (Confirmed on 4 sources.)
+- **What to do instead when a dermatologist visit isn't practical.** Nobody offers a realistic middle path for the person booking a manicure this weekend.
+
+**missing_semantic_territory** (demand-validated)
+- "who actually needs a patch test" / "do I need a patch test for gel nails"
+- "is a nail patch test safe" / "can you patch test gel on your skin"
+- "test nail" / "wear test" as distinct from a skin test
+- "negative patch test still allergic"
+- "patch test results" / "what does a positive patch test look like"
+- "what to bring to a patch test appointment"
+- "delayed reading" / "day 7 patch test reading"
+
+**our_strategic_approach**
+The top pages split into two camps: a short, punchy "never do it" (NailKnowledge, 840 words) and a long, technician-facing or brand-driven treatment (NailWiki, IKON.IQ) that buries the answer. Nobody tells a regular gel-manicure client, in plain language, whether they personally need a patch test. This post opens by naming the conflict directly, since a reader who has seen both "always patch test" and "never patch test" is currently stuck, then resolves it with Dr. Rokhsar's expert position as the deciding frame: no symptoms and no history means formal testing is overkill, while a prior reaction, a return to gel after a reaction, or daily nail-industry exposure means it becomes worthwhile. It then covers what a real dermatologist test involves and how to get one, which the sources cover only in fragments. Structurally, it puts a definitive answer in the first 100 words (unlike NailWiki's withholding and IKON.IQ's 4,700-word wind-up), stays well under IKON.IQ's length, and ends on a concrete action path. It stays a consumer guide, not a technician course or a product pitch.
+
+**recommended_image_count_validation:** 7 total (1 hero + 6 body) matches the flat default and is appropriate for an informational spoke of this depth.
+
+---
+
+## SECTION 5 — AUDIENCE INTELLIGENCE
+
+**who_they_are:** Regular gel or acrylic manicure clients, plus some at-home DIY gel users, who have seen conflicting advice about "patch testing" and are trying to decide whether to do something before their next appointment. Many have read a scare story (allergy is permanent, cross-reacts with dental and medical materials) and feel anxious. A smaller group has already had a reaction and is asking what happens next. Mostly women, mostly 18-45, US/UK/CA/AU.
+
+**what_they_want_from_this_post:** A straight answer to "do I need one, and what do I actually do?" They want a decision, not a lecture on immunology.
+
+**what_frustrates_them:** Contradictory advice. One page says test on your skin, the next says never. Techs and brands vaguely say "always patch test" without saying how. Pages that read like ads for a hypoallergenic line or a training course.
+
+**top_5_pain_points**
+1. "Every source tells me something different about whether I should patch test."
+2. "I don't know if the DIY skin test I've seen online is safe."
+3. "I've never had a reaction, so do I really need to do anything?"
+4. "I had a reaction once. How do I get tested properly?"
+5. "I'm scared I'll become allergic without knowing it."
+
+**exact_user_phrases** (from Quora, YouTube titles, Pinterest, Salon Geek)
+- "Is it a good idea to do a patch test?"
+- "DIY patch test for nail allergies? NOPE!"
+- "Are DIY patch tests safe?"
+- "smearing a bit of gel behind your ear"
+- "I'm afraid of developing an allergy"
+- "I used them for a year before developing an allergy"
+- "pretty nails or an allergic reaction"
+- "I'm allergic to gel nail polish, does that mean I'll be allergic to acrylic?"
+- "Why do my cuticles itch when I get false nails?"
+- "how to tell if you're allergic to your gel manicure"
+- "do you patch test for every new brand?"
+
+**intent_content_signals**
+- Wants a clear yes/no early, then nuance
+- Responds to "here's who this applies to" segmentation
+- Trusts named clinicians over brand voices
+- Wants a short checklist for what to do next
+- Distrusts pages that end in a product pitch
+- Video audience is heavily engaged with "don't do this" cautionary framing
+
+---
+
+## SECTION 6 — SEMANTIC KEYWORD DATA
+
+**primary_keyword:** nail patch test (LOCKED)
+
+**total_mention_target:** 18 (baseline ~16 + 2). Blog Gen wraps every mention in `<strong>`.
+
+**first_100_words_rule:** Primary keyword MUST appear twice in the first 100 words.
+
+**keyword_variations:** patch test for gel nails; nail allergy patch test; gel nail patch test; patch testing before a manicure; nail product patch test; dermatologist patch test for nails; patch test for gel polish
+
+**cluster_keywords:** allergic contact dermatitis; methacrylate allergy; contact allergy to nail products; nail product allergy; gel manicure reaction; suspected nail allergy; dermatologist referral; allergen panel; nail cosmetics allergy; sensitization; delayed hypersensitivity
+
+**lsi_terms:** allergic contact dermatitis; Type IV hypersensitivity; sensitization; cross-reactivity; methacrylates; acrylates; uncured monomer; cured gel; allergen panel; baseline series; delayed reading; 48 hours; patch chambers; test nail; wear test; consultation form; safety data sheet; ingredient list; skin reaction; nail fold; periungual dermatitis; irritant reaction vs allergy
+
+**aeo_terms**
+- Do you need a patch test before gel nails?
+- Is it safe to patch test gel polish on your skin?
+- What is a nail patch test?
+- How long does a patch test for nail allergy take?
+- Who should get a patch test for gel nails?
+- Can you still be allergic after a negative patch test?
+- Where do you get a patch test for nail allergy?
+- What should you bring to a patch test appointment?
+- Do nail salons patch test for gel?
+- What is a test nail?
+
+**technical_terms:** allergic contact dermatitis; Type IV hypersensitivity; sensitization; methacrylate; epicutaneous patch testing; baseline series; hapten; delayed reading
+
+**user_language:** "smearing a bit of gel behind your ear"; "pretty nails or an allergic reaction"; "afraid of developing an allergy"; "test nail"; "do a patch test first"; "just to be safe"; "used them for a year before it happened"; "the itchy rash around my nails"
+
+**cannibalization clearance:** Every term above checked against the keyword wall. Avoided "HEMA-free," "what is HEMA," "HEMA allergy symptoms," "how to avoid HEMA allergy," and "acrylate allergy symptoms" as focus terms (owned by existing site posts). HEMA and acrylate appear only as supporting context, never as targets. Do not build any H2 around them.
+
+---
+
+## SECTION 7 — VOICE & AI QUERIES
+Answer each directly in the relevant H2 body. If it cannot fit naturally, route it to faqItems.
+1. Do I need a patch test before getting gel nails?
+2. What is a nail patch test?
+3. Is it safe to patch test gel polish on your skin?
+4. Why do some sites say to patch test on your skin and others say never to?
+5. Who actually needs a patch test for gel nails?
+6. If I've never had a reaction, do I need one?
+7. How long does a dermatologist patch test take?
+8. Where do they put the patches during a patch test?
+9. What should I bring to a patch test appointment?
+10. Can I still be allergic after a negative patch test?
+11. What's the difference between a patch test and a test nail?
+12. Do nail salons do patch tests?
+13. What should I do if I've already had a reaction to gel nails?
+14. Can you get a patch test if you work in the nail industry?
+15. Do I need to patch test every new brand?
+16. How do I know if my gel nails are causing my rash?
+
+---
+
+## SECTION 8 — HOOK & CTR
+
+**real_serp_findings_summary:** All five fetched titles are either question-led or statement-of-fact ("Why Gel Polish Patch Testing on Skin Is a Dangerous Mistake," "Nail Patch Testing: Safe Methods & Professional Guide," "Gel X Nail Allergy," "Am I Allergic to Gel Nails or Nail Polish?"). None speak to the reader's actual dilemma, which is "should I or shouldn't I?" NailKnowledge is the only title with a strong point of view, and it is one-sided. Nobody addresses the conflict between "always test" and "never test" directly, and none tell the reader who actually needs one.
+
+**selected_option_rationale:** The chosen title names the reader's real question (do I need one?) and promises a resolution. That tests the gap: no competitor frames this as a decision the reader can resolve for themselves. Primary keyword is front-loaded.
+
+**title:** Nail Patch Test Before Gel: Do You Actually Need One?
+**title_char_count:** 53
+
+**meta_description:** Some say always patch test, others say never. Here's who actually needs a nail patch test, what a real one involves, and what to do instead.
+**meta_char_count:** 152
+
+**intro_hook_brief:** Open on the conflict the reader has already run into: one page says patch test your gel on your skin, the next says never do that. Name it in the first two sentences, then promise to settle it. State the definitive answer inside the first 100 words (formal testing is overkill without symptoms or history, and worthwhile after a reaction). Both mentions of the primary keyword land here.
+
+**first_h2_hook_direction:** Make the first H2 a plain-language definition of what a nail patch test is, but frame it as "three different things called the same name," so the conflict from the intro starts to resolve immediately.
+
+---
+
+## SECTION 9 — SEARCH JOURNEY
+- **reader_arrival_state:** Confused and slightly anxious. Has seen contradictory advice about patch testing gel, wants to know what to do before their next appointment, and doesn't want to become permanently allergic.
+- **journey_arc:**
+  1. Name the conflict and give the short answer immediately
+  2. Untangle the three things called "patch test" (clinical, salon test nail, DIY skin dab)
+  3. Resolve the safety question: why the DIY skin dab is the risky one
+  4. Segment by reader: no history vs prior reaction vs works in nails
+  5. Show what a real dermatologist test involves and how to get one
+  6. Close with what a negative result does and doesn't mean, and the practical next step
+- **promise_to_deliver:** A clear answer to whether you personally need a nail patch test, with an honest explanation of why sources disagree.
+- **exit_state:** Confident and calm. Knows exactly what to do next, whether that is nothing, watching for early signs, or booking a dermatologist.
+
+---
+
+## SECTION 10 — CONTENT STRUCTURE
+**h1:** Nail Patch Test Before Gel: Do You Actually Need One?
+
+**h2_structure and word budget** (total 1,900; intro 220, conclusion 170, H2s 1,510)
+1. What Is a Nail Patch Test? (Three Things Wearing the Same Name) — 220
+2. Why Sources Disagree About Testing Gel on Your Skin — 220
+3. Who Actually Needs a Nail Patch Test? — 260
+4. What a Real Dermatologist Patch Test Involves — 260
+5. How to Get a Patch Test (and What to Bring) — 200
+6. What a Negative Result Does and Doesn't Tell You — 180
+7. What to Do Instead If You Can't Get Tested Yet — 190
+
+(7 H2s, within the 6-10 range for informational spokes.)
+
+---
+
+## SECTION 11 — INTERNAL LINKS (6 total, cap respected)
+
+| # | URL | Anchor text (verbatim) | Placement | Type |
+|---|-----|------------------------|-----------|------|
+| 1 | /blog/nail-health/nail-damage-recovery-timeline | how long nails take to recover from gel damage | H2 7 (What to Do Instead), when discussing protecting nails between sets | cluster-pillar |
+| 2 | https://mirelleinspo.com/blog/hema-allergy-nails/hema-allergy-symptoms | the early symptoms of a HEMA allergy | H2 3 (Who Needs a Test), where discussing signs of a prior reaction | existing_site_post |
+| 3 | https://mirelleinspo.com/blog/hema-allergy-nails/how-to-avoid-hema-allergy | how to avoid developing a HEMA allergy | H2 7, as prevention reading | existing_site_post |
+| 4 | https://mirelleinspo.com/nail-feed/acrylate-allergy-acrylic-nails-symptoms | acrylate allergy symptoms in acrylic nails | H2 3, alongside link 2, for acrylic-specific readers | existing_site_post |
+| 5 | /blog/nail-health/gel-nails-pregnancy-safety | whether gel nails are safe during pregnancy | H2 7 or conclusion, as a related safety question | cross-cluster spoke (see note) |
+| 6 | https://mirelleinspo.com/blog/nail-strengthening/repair-nails-after-gel-acrylic-removal | the full guide to repairing nails after gel or acrylic removal | Conclusion, as a natural next step | existing_site_post |
+
+**Note on link 5:** This one is NOT in the cluster file's links_to array for this post. I added it as a cross-site discovery link (the 2-link cap for discovery is respected: links 5 and 6 are the two discovery links). It was chosen because it sits in the same cluster and answers a natural adjacent safety question. It should be dropped if you would rather keep this post strictly to the cluster map. Links 1-4 are the verbatim cluster links; the cluster file supplies exactly these four for post 8.
+
+**Discovery search caveat:** I did not run the site:mirelleinspo.com discovery searches in this session, so links 5 and 6 are chosen from the cluster file's own list of existing and planned posts, not from live-site verification. Please confirm both URLs resolve before publishing.
+
+---
+
+## SECTION 12 — VOICE & TONE
+- **recommended_voice:** Warm, plain-spoken expert. The friend who happens to know the dermatology.
+- **tone_characteristics:** calm; direct; non-alarmist; honest about disagreement; practical
+- **language_style:** Short declarative sentences. Address the reader as "you." Lead each section with the answer, then explain. One clear analogy at most (do not reuse NailKnowledge's raw-chicken line or IKON.IQ's smoke-alarm line). No jargon without a plain gloss on first use.
+- **audience_match:** This reader is anxious and has been given contradictory information. Calm authority and an honest "sources disagree, here's why" earns trust that a fear-based or salesy voice would lose.
+
+---
+
+## SECTION 13 — EXTERNAL LINKS
+1. **url:** https://time.com/6280878/acrylate-allergies-manicures/
+   **context:** In H2 3 or H2 6, when citing that patch testing has traced mysterious rashes on the eyelids and neck back to acrylates, and that acrylate allergy tends to cross-react. Named source: Dr. JiaDe (Jeff) Yu, dermatologist at Massachusetts General Hospital, president-elect of the American Contact Dermatitis Society.
+   **anchor_suggestion:** dermatologists report tracing mystery rashes back to nail acrylates
+
+2. **url:** https://community.aafa.org/db/ask-the-allergist/record/am-i-allergic-to-gel-nails-nail-polish
+   **context:** In H2 5, when saying patch skin testing is done by an allergist to confirm or rule out a nail product allergy.
+   **anchor_suggestion:** the Asthma and Allergy Foundation of America explains
+
+---
+
+## SECTION 14 — FEATURED EXPERT
+- **expert_alias:** cameron-rokhsar-md
+- **expert_quote (verbatim, do not alter):**
+"For someone with no symptoms and no history of a reaction, formal patch testing is overkill. It requires a dermatology visit, application of allergen panels for 48 hours, and follow-up readings days later, which is a real time and cost burden to run preemptively on a population where methacrylate allergy, while increasingly common, still affects a minority of regular gel users... Patch testing becomes genuinely worthwhile once someone has already had a suspicious reaction, is choosing between products before resuming gel manicures after a reaction, or works in the nail industry with daily high-frequency exposure, where the stakes and exposure level justify the formal workup."
+- **suggested_placement:** Use the first two sentences in H2 3 (Who Actually Needs a Nail Patch Test?) as the headline answer for the no-symptom reader. Use the "genuinely worthwhile once..." sentence in the same section as the turn to the three at-risk groups. The "48 hours, follow-up readings" clause can be reused in H2 4 to support the process description. Every extract must be word-for-word and must not shift the meaning: the expert is saying formal testing is overkill *preemptively*, not that testing is unimportant.
+
+---
+
+## SECTION 15 — EXECUTION PLAN
+
+**block_1_keyword_execution**
+- primary_keyword: nail patch test
+- top_5_density_baseline: ~16 mentions
+- total_mention_target: 18 (16 + 2)
+- first_100_words_plan: mention 1 in intro sentence 1 or 2 (framing the conflict). Mention 2 in intro sentence 3 or 4 (delivering the short answer).
+- first_half_target: 11 mentions (first 950 words)
+- second_half_target: 7 mentions (second 950 words)
+- strong_tag_rule: every one of the 18 mentions in `<strong>`. Scan after every paragraph.
+- keywords_to_avoid_active: full list in Section 3
+
+**block_2_word_budget**
+- total_target: 1,900 words, +/-50, never exceed
+- introduction: 220
+- conclusion: 170
+- h2_budgets:
+  - What Is a Nail Patch Test? (Three Things Wearing the Same Name): 220, medium
+  - Why Sources Disagree About Testing Gel on Your Skin: 220, medium
+  - Who Actually Needs a Nail Patch Test?: 260, high
+  - What a Real Dermatologist Patch Test Involves: 260, high
+  - How to Get a Patch Test (and What to Bring): 200, low
+  - What a Negative Result Does and Doesn't Tell You: 180, medium
+  - What to Do Instead If You Can't Get Tested Yet: 190, medium
+- tracking_rule: track the running total at the end of every H2. If a section runs over, cut before moving on. Do not compensate later.
+
+**block_3_image_plan**
+- total_images: 7
+- hero_image: frontmatter only, never in the body
+- body_images: 6
+- assignments:
+  1. after H2 1 — standard_inspiration — clean, well-manicured natural or lightly gel-finished nails, healthy nail fold, calm styling
+  2. after H2 2 — infographic — three-column comparison of the three things called "patch test": dermatologist test, salon test nail, DIY skin dab, with a clear "safe / conditional / avoid" marker for each
+  3. after H2 3 — infographic — decision graphic: no history / prior reaction / nail worker, with the recommended action for each
+  4. after H2 4 — infographic — timeline of a dermatologist patch test: day 0 patches applied, day 2 removed, day 3-4 reading, day 6-7 late reading
+  5. after H2 6 — standard_inspiration — bare healthy nails, soft neutral styling
+  6. after H2 7 — standard_inspiration — a single softly polished manicure in a calm palette
+- image_type_rule: standard_inspiration is the default. Infographics are used here because this informational post genuinely needs a comparison, a decision path, and a timeline that prose alone handles poorly. Never a tool or equipment image. Never a photo-style side-by-side nail comparison.
+- path_rule: /images/blog/nail-health/nail-patch-test-before-gel/filename.webp
+
+**block_4_opening_technique_assignments**
+- Introduction: Technique 1, The Claim (state the conflict and the short answer outright)
+- H2 1: Technique 3, The Reframe (three things wearing one name)
+- H2 2: Technique 1, The Claim
+- H2 3: Technique 3, The Reframe
+- H2 4: Technique 1, The Claim
+- H2 5: Technique 3, The Reframe
+- H2 6: Technique 1, The Claim
+- H2 7: Technique 3, The Reframe
+- Conclusion: Technique 1, The Claim
+- No two consecutive sections share a technique. Conclusion uses Technique 1. Check every opener against banned_opening_approaches before writing the second sentence.
+
+**block_5_link_placements**
+Every link at its exact placement from Section 11, anchors verbatim, woven into prose, never a standalone CTA. Cluster and existing-site URLs as listed. Total internal links 6, external 2.
+
+**block_6_aeo_geo_plan**
+- aeo_assignments:
+  - "What is a nail patch test?" -> H2 1, 2-3 sentence direct answer immediately after the heading
+  - "Is it safe to patch test gel polish on your skin?" -> H2 2, direct answer immediately after the heading
+  - "Who should get a patch test for gel nails?" -> H2 3, direct answer immediately after the heading
+  - "How long does a patch test for nail allergy take?" -> H2 4, direct answer immediately after the heading
+  - "Where do you get a patch test for nail allergy?" -> H2 5, direct answer immediately after the heading
+  - "Can you still be allergic after a negative patch test?" -> H2 6, direct answer immediately after the heading
+- geo_entity_statements:
+  - "allergic contact dermatitis" -> H2 1: clear declarative definition (a delayed immune reaction to a substance touching the skin)
+  - "test nail" -> H2 2: clear declarative definition (a single nail done with the full service to watch for a reaction before doing a full set)
+  - "sensitization" -> H2 2: clear declarative definition (the process by which the immune system learns to treat a substance as a threat, usually without symptoms at first)
+
+**block_7_active_constraints**
+- em_dash_banned: no long em dash anywhere. Replace with a comma, a new sentence, parentheses, or "but."
+- banned_vocab_watch: watch for "delve," "landscape," "navigate," "crucial," "comprehensive," "ensure," "robust," "leverage" (slipping in on medical topics)
+- american_english_active: color, recognize, -ize, -or. NOTE: several sources (NailKnowledge, NailWiki, Scratch) use British spelling ("sensitise," "polymerise," "colours"). Do not copy their spellings. Write "sensitize," "color," etc.
+- keyword_density_reminder: after every 2 H2s, count mentions. First half must run denser than the second. Land on 18.
+- image_path_reminder: /images/blog/nail-health/nail-patch-test-before-gel/filename.webp
+- internal_link_url_reminder: full paths only, never bare /slug
+- hero_image_reminder: frontmatter only
+- strong_tag_reminder: every primary keyword mention in `<strong>`
+- expert_quote_reminder: expert_alias cameron-rokhsar-md goes into the expert frontmatter field exactly. Quote used whole or as word-for-word extracts. Never paraphrased, never altered in meaning.
+- **medical accuracy reminder:** Do not state that a skin patch test on gel "always causes" sensitization or is "always dangerous." The sources disagree, and the honest position is that uncured monomer on skin carries real sensitization risk, which is why dermatologists use diluted, standardized allergens and why NailKnowledge, NailWiki, and IKON.IQ advise against DIY skin testing. State that clearly, attribute it, and do not overclaim. Do not present any brand product as a solution.
