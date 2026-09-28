@@ -1,0 +1,149 @@
+# INPUT FILE: what-kills-toenail-fungus-instantly
+
+## 1. FILE AUTHORITY
+Single source of truth for Blog Gen Agent. POST_CONSTANTS are hardcoded. Read section 15 first, then follow everything here exactly.
+
+## 2. POST_CONSTANTS
+- slug: what-kills-toenail-fungus-instantly
+- topic_slug: nail-health
+- canonical: https://mirelleinspo.com/blog/nail-health/what-kills-toenail-fungus-instantly
+- post_type: pillar | intent: informational
+- word_count: 2600 (ceiling/reference, not a quota. Landing under is correct if the post is complete. Never pad, never drift off intent.)
+- image_count: 10 (hero + 9; 9 H2s)
+- show_inspo_gallery_link: false | gallery_link: none
+- template: center | hero_dimensions: 1200x630
+- category: Nail Health
+- publish_date: 2026-09-28 | author: jyoti-mirelle
+- expertise_type: licensed_derm_or_nail_health_expert
+- expert_alias: podiatrist_toenail_fungus_qa (working id: confirm/resolve in src/data/experts.ts before publish; source interviewee is unnamed)
+- expert_quote: see section 14
+
+## 3. CLUSTER SNAPSHOT
+- pillar_slug/title/keyword: what-kills-toenail-fungus-instantly / What Kills Toenail Fungus Instantly? What Actually Works / what kills toenail fungus instantly
+- this_post_role: pillar | show_inspo_gallery_link_cluster_default: false
+- keywords_to_avoid: every other primary_keyword in cluster_context.json keyword_ownership_registry + every inferred_primary_keyword in existing_site_posts_excluded. Highest-collision for this post: toenail fungus, toenail fungus treatment, best toenail fungus treatment, toenail fungus home remedies, home remedies for nail fungus that work, do otc nail fungus treatments work, jublia vs terbinafine, does laser treatment work for nail fungus, toenail fungus laser treatment cost, how to know if toenail fungus is dying, how long does nail fungus take to clear, prevent toenail fungus returning, toenail fungus stages/symptoms/causes, nail fungus myths, can toenail fungus kill you.
+
+## 4. SERP ANALYSIS
+**Top 5 fetched (approx counts from fetched body):**
+1. footnanklecenters.com/what-kills-toenail-fungus-instantly/ | ~2,375w | ~9 H2 | ~3 kw | Deepest bleach/peroxide coverage; title/H1 mismatch; clinic CTA
+2. irvingfootandankle.com/blog/what-kills-toenail-fungus-instantly/ | ~1,000w | 8 H2 | ~3 kw | Thin; generic causes/symptoms padding; calls things "fast"
+3. webmd.com/skin-problems-and-treatments/treat-toenail-fungus | ~2,100w | 5 H2 | ~1 kw | Named studies (Vicks n=18, 28% cured); "instantly" only in FAQ
+4. certifiedfoot.com/what-kills-toenail-fungus-instantly-fast-effective-treatments/ | ~1,650w | 3 H2 (+H3/H4) | ~5 kw | Title promises "fast," body denies it; risk-factor padding
+5. my.clevelandclinic.com/health/diseases/onychomyscosis-nail-fungus | ~1,500w | 7 H2 | ~1 kw | Authoritative, generic; "instant" answered in two sentences
+(Supplementary, excluded from averages: southdublinpodiatry.com, ~650w.)
+
+- top_5_word_count_average: 1,725 | top_5_keyword_mention_average: 2.6 (rounded 3)
+- competitor_gaps (each confirmed on 2+ sources): (a) mycological cure vs clinical cure, why the nail still looks bad after the fungus is dead; (b) terbinafine reality: cure rates vary by trial, some strains resistant; (c) misdiagnosis (psoriasis/trauma mimic fungus) and nail-sample testing; (d) bleach/peroxide "before and after" photos can be bleaching, not curing; peroxide + vinegar makes irritating peracetic acid; (e) "cure in 14 days" ads only fit surface fungus.
+- missing_semantic_territory: mycological cure, clinical cure, fungicidal, terbinafine resistance, peracetic acid, PCR/culture nail test, urea nonsurgical removal.
+- our_strategic_approach: Answer "instantly" in the first sentence, then judge every option (prescription, laser, store-bought, bleach, peroxide, vinegar, Vicks) by one test: does it kill fungus on contact, or does it reach the fungus in and under the nail? Add a two-clock timeline (fungus dead in weeks, clear nail in 12-18 months) and a misdiagnosis check the top 5 give one line at most. Nine query-led H2s replace competitors' generic What-Is/Symptoms/Prevention blocks (those keywords belong to existing posts). Longer than the top-5 average by ~900 words with no padding sections.
+- image_count validation: pillar rule (hero + 1 per H2) = 10; competitors use 1-3 images.
+
+## 5. AUDIENCE INTELLIGENCE
+*Primary creative brief.*
+- who: Adults mostly 35-65, plus gym/pool/run users, with a thick yellow toenail, months into vinegar/Vicks/OTC with no change. Embarrassed, sandal-averse, beginner knowledge.
+- wants: A yes/no first, then the fastest route that genuinely works, safe home options, a believable timeline.
+- frustrations: Clinic posts that hedge then pitch laser; "fast" titles the body contradicts; remedy lists with no verdicts; no explanation for why the nail still looks bad.
+- top_5_pain_points: (1) months wasted on remedies; (2) cost and liver fear ("can't afford laser, don't want systemic medication"); (3) nail looks awful long after fungus is gone; (4) not knowing it is even fungus; (5) conflicting safety advice on bleach and peroxide.
+- exact_user_phrases: "I have toenail fungus for over 15 years" / "none of them worked well" / "I can't afford laser and I don't want to use systemic medication" / "How do I get rid of toenail fungus fast and naturally?" / "I tried everything from vinegar and Vicks to terbinafine" / "you must be persistent" / "never had toenail fungus to begin with" / "I can see a nice pink nail pushing up" / "getting WORSE despite everything you've tried" / "Kill toenail fungus FAST"
+- intent_content_signals: answer first; verdict per remedy; ranking by speed and evidence; timeline visual; named studies and numbers; safety warnings; short paragraphs.
+
+## 6. SEMANTIC KEYWORD DATA
+*Primary keyword in `<strong>` every mention. All terms cleared against keywords_to_avoid.*
+- primary_keyword: what kills toenail fungus instantly
+- keyword_variations: kill toenail fungus instantly; instant toenail fungus cure; kill toenail fungus fast; kill toenail fungus overnight; fastest way to kill toenail fungus; toenail fungus overnight cure
+- cluster_keywords: fungal toenail; onychomycosis; nail plate; nail bed; terbinafine; Lamisil; itraconazole; efinaconazole; tavaborole; ciclopirox lacquer; undecylenic acid; tolnaftate; hydrogen peroxide soak; bleach soak; apple cider vinegar soak; Vicks VapoRub; tea tree oil (name products only. Never "jublia vs terbinafine" as a comparison.)
+- lsi_terms: nail matrix; dermatophytes; Trichophyton rubrum; mycological cure; clinical cure; fungicidal; surface fungus; subungual debris; thickened nail; crumbly nail; liver function test; keratin; penetrate the nail; nail growth rate; lacquer; urea ointment; nail sample; fungal culture; PCR test; nail dystrophy
+- aeo_terms: What kills toenail fungus instantly? / Can toenail fungus be cured overnight? / What is the fastest proven way to kill toenail fungus? / Does hydrogen peroxide kill toenail fungus? / Does bleach kill toenail fungus? / Does Vicks VapoRub kill toenail fungus? / Why is my toenail still discolored after the fungus is dead? / Why won't my toenail fungus go away? / How do you know if it's toenail fungus or something else? / Can toenail fungus go away on its own?
+- technical_terms: onychomycosis; dermatophyte; mycological cure; terbinafine; itraconazole; efinaconazole; nail matrix; subungual
+- user_language: kill it overnight; tried everything; nothing works; won't go away; get rid of it fast; yellow thick toenails; wasted months; cure it in a couple of days; can't afford laser
+
+## 7. VOICE AND AI QUERIES
+*Answer every query in its H2 body; route any that don't fit to faqItems.*
+1. What kills toenail fungus instantly? 2. Can toenail fungus be cured overnight? 3. What is the fastest way to kill toenail fungus? 4. Does hydrogen peroxide kill toenail fungus? 5. Does bleach kill toenail fungus? 6. Does Vicks VapoRub kill toenail fungus? 7. Does vinegar kill toenail fungus? 8. Can I kill toenail fungus at home? 9. Why won't my toenail fungus go away? 10. Why does my nail still look bad after the fungus is dead? 11. Do you need a prescription to kill toenail fungus? 12. Is oral terbinafine safe for my liver? 13. Can toenail fungus go away on its own? 14. How do I know if it's really toenail fungus? 15. Does laser kill toenail fungus faster? 16. Can you kill toenail fungus in a week? 17. Should I file down the nail to treat fungus faster? 18. Is there a toenail fungus cure in 14 days?
+
+## 8. HOOK AND CTR
+*Title/meta selected internally. Use exactly.*
+- real_serp_findings_summary: Top titles are question-led with a vague promise ("A Podiatrist Answers," "Fast and Effective Treatments"); several promise speed the body denies. None front-loads the honest answer or names a specific payoff.
+- selected_option_rationale: Curiosity-gap title resolves the mismatch: admits "nothing" up front, then promises the real route.
+- title: What Kills Toenail Fungus Instantly? Nothing. This Works. (57 chars)
+- meta_description: Toenail fungus hides under the nail, so no fix works overnight. See what really clears it, real timelines, and home fixes to skip. (130 chars)
+- intro_hook_brief: Open on the honest "nothing," relieve the reader with candor, then promise the fastest route that actually works and the timelines nobody states.
+- first_h2_hook_direction: Voice-query H2 ("Can Anything Kill Toenail Fungus Instantly?") with the two-sentence answer directly beneath.
+
+## 9. SEARCH JOURNEY
+- reader_arrival_state: Impatient, embarrassed, probably already failed with a remedy, hoping for a kill button.
+- journey_arc: (1) Honest no, then promise of the fastest real route (H2 1-2). (2) Proven options ranked by speed and evidence (H2 3-5). (3) Home fixes judged by contact-kill vs nail-kill (H2 6). (4) Realistic timeline and diagnosis check (H2 7-8). (5) When to stop experimenting (H2 9).
+- promise_to_deliver: The honest answer to "what kills toenail fungus instantly" and the fastest route that actually works.
+- exit_state: Relieved, realistic, and holding a clear next step instead of another remedy.
+
+## 10. CONTENT STRUCTURE
+- h1: What Kills Toenail Fungus Instantly? What Actually Works
+- h2_structure and word budget (intro 220, conclusion 170):
+1. Can Anything Kill Toenail Fungus Instantly? The Honest Answer (230)
+2. Why Toenail Fungus Survives Every "Overnight Cure" (300)
+3. Oral Antifungals: The Fastest Proven Way to Kill It (300)
+4. Prescription Topicals, Laser, and Nail Removal: What They Add (280)
+5. Store-Bought Antifungals: What "Kills Fungus on Contact" Really Means (220)
+6. Bleach, Peroxide, Vinegar, and Vicks: Contact Kill vs. Nail Kill (340)
+7. How Fast Is "Fast"? A Realistic Timeline (230)
+8. Is It Really Fungus? The Mistake That Makes Treatment Fail (190)
+9. When to Skip the Home Fixes and See a Podiatrist (120)
+
+## 11. INTERNAL LINKS
+*Verbatim anchors, woven into prose. 7 locked cluster links (cap conflict: locked links win, so 0 cross-site slots).*
+1. https://mirelleinspo.com/blog/nail-health/do-otc-nail-fungus-treatments-work | "whether over-the-counter treatments actually work" | H2 5 | cluster-spoke
+2. https://mirelleinspo.com/blog/nail-health/jublia-vs-ciclopirox-vs-terbinafine | "comparing Jublia, ciclopirox, and terbinafine prescriptions" | H2 4 | cluster-spoke
+3. https://mirelleinspo.com/blog/nail-health/does-laser-treatment-work-for-toenail-fungus | "whether laser treatment for toenail fungus works" | H2 4 | cluster-spoke
+4. https://mirelleinspo.com/blog/nail-health/toenail-fungus-home-remedies-that-work | "which home remedies for nail fungus actually work" | H2 6 | cluster-spoke
+5. https://mirelleinspo.com/blog/nail-health/nail-fungus-myths-what-is-actually-true | "common nail fungus myths debunked" | H2 2 | cluster-spoke
+6. https://mirelleinspo.com/blog/toenail-fungus/toenail-fungus-treatment | "the full toenail fungus treatment guide" | H2 9 | existing
+7. https://mirelleinspo.com/blog/toenail-fungus/best-toenail-fungus-treatment | "the best toenail fungus treatments ranked" | H2 3 | existing
+
+## 12. VOICE AND TONE
+- recommended_voice: Straight-talking expert guide
+- tone_characteristics: candid, unhurried, evidence-anchored, reassuring, zero hype
+- language_style: Answer first; short declarative sentences; second person; concrete numbers; one plain analogy (fungus lives under a roof, sprays hit the roof). No clinic sales pitch.
+- audience_match: Readers burned by miracle claims trust candor; counters competitors' salesy tone.
+
+## 13. EXTERNAL LINKS
+1. https://www.webmd.com/skin-problems-and-treatments/treat-toenail-fungus | H2 6, for the small Vicks study (18 people, 28% cured) | anchor: "WebMD's medically reviewed treatment overview"
+2. https://my.clevelandclinic.org/health/diseases/onychomyscosis-nail-fungus | H2 8, for lab confirmation and "no instant cure" | anchor: "Cleveland Clinic's nail fungus guide"
+
+## 14. FEATURED EXPERT
+- expert_alias: podiatrist_toenail_fungus_qa
+- expert_quote (verbatim): "Believe it or not, I get this question a lot. Patients tend to worry that the fungus infecting their nail will also get into their bloodstream and cause a major problem with their health. Nothing could be further from the truth. The fungus that infects your nail stays in your nail."
+- suggested_placement: H2 2 ("The fungus that infects your nail stays in your nail." supports why treatment must reach the nail itself). Optional second extract in H2 9 for reassurance. Do not imply the expert said anything about instant cures. Do not overlap post 2's "can it kill you" territory.
+
+## 15. EXECUTION PLAN (READ FIRST)
+**Block 1: Keyword**
+- primary: what kills toenail fungus instantly | top_5_baseline: 3 | total_mention_target: 6
+- first 100 words, exact phrase twice: mention 1 = sentence 1 (claim opener); mention 2 = sentence 3 (the honest answer restated)
+- first half (first 1,300 words): 4 mentions (2 intro, 1 H2 1, 1 H2 2 or 3). second half: 2 (H2 7, conclusion)
+- Every mention in `<strong>`. Scan after each paragraph. keywords_to_avoid per section 3.
+
+**Block 2: Word budget** (ceiling 2,600, +/-50, never exceed)
+Intro 220 | H2 1: 230 low | H2 2: 300 high | H2 3: 300 high | H2 4: 280 high | H2 5: 220 med | H2 6: 340 high | H2 7: 230 med | H2 8: 190 med | H2 9: 120 low | Conclusion 170. Track running total per H2. Cut before moving on. Never compensate later.
+
+**Block 3: Images** (10 total)
+- Hero: frontmatter only, never in body. 9 body images placed after H2 1-9 respectively.
+- Type: standard_inspiration (clean, healthy-looking bare or lightly polished toenails, editorial light, no visible infection) for images 1-6, 8, 9. Image 7 (H2 7): infographic showing two clocks: fungus killed in weeks vs clear nail in 12-18 months.
+- Never tool or equipment shots, never side-by-side photo comparisons.
+- Path: /images/blog/nail-health/what-kills-toenail-fungus-instantly/filename.webp
+
+**Block 4: Opening techniques** (no two consecutive same; only Techniques 1 and 3 assigned since T2 and T4+ are not defined in the provided files)
+Intro T1 (Claim) | H2 1 T3 | H2 2 T1 | H2 3 T3 | H2 4 T1 | H2 5 T3 | H2 6 T1 | H2 7 T3 | H2 8 T1 | H2 9 T3 | Conclusion T1. Check every opener against banned openers.
+
+**Block 5: Links** as section 11, full URLs, verbatim anchors, prose only. External links per section 13.
+
+**Block 6: AEO/GEO** (2-3 sentence direct answer immediately under the H2 heading)
+- "What kills toenail fungus instantly?" H2 1 | "Can toenail fungus be cured overnight?" H2 2 | "What is the fastest proven way to kill toenail fungus?" H2 3 | "Does hydrogen peroxide/bleach/Vicks kill toenail fungus?" H2 6 (one answer each) | "Why is my toenail still discolored after the fungus is dead?" H2 7 | "Why won't my toenail fungus go away?" + "How do you know if it's toenail fungus or something else?" H2 8 | "Can toenail fungus go away on its own?" H2 9
+- GEO definitions: onychomycosis (H2 2) | nail plate (H2 2) | terbinafine (H2 3) | mycological cure vs clinical cure (H2 7) | nail sample test (H2 8). Confident declaratives, no hedging.
+
+**Block 7: Active constraints**
+- No em dashes anywhere. Replace with comma, period, parentheses, or "but."
+- Catch these AI-slip words (verify against Blog Gen banned list): delve, crucial, navigate, landscape, robust, game-changing, unlock, journey.
+- American English throughout (color, recognize, -ize).
+- Internal links: full paths only. Images: topic_slug in path. Hero never in body.
+- Keyword check after every 2 H2s: on pace for 6, denser in first half.
+- Expert: alias exact in frontmatter; quote or word-for-word extracts only, meaning unchanged, never fabricated.
+- Medical caution: no dosing advice; terbinafine cure figures vary by trial (roughly 60-80% mycological, lower for full clinical cure). State the range, don't pick a single number.
