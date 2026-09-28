@@ -1,0 +1,153 @@
+# INPUT FILE: post_id 30 | ingrown-toenail-antibiotics-when-needed
+
+## SECTION 1: FILE AUTHORITY
+THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All POST_CONSTANTS are hardcoded. Do not ask, adjust, or override. Keywords, H2 structure, audience intelligence, links, and tone must be followed exactly.
+
+## SECTION 2: POST_CONSTANTS
+- slug: ingrown-toenail-antibiotics-when-needed
+- topic_slug: nail-health
+- canonical: https://mirelleinspo.com/blog/nail-health/ingrown-toenail-antibiotics-when-needed
+- post_type: spoke
+- intent: informational
+- word_count: 1750 (reference ceiling, not a quota. Landing under it is correct if the post is complete. Never pad.)
+- image_count: 7 (1 hero + 6 body; flat rule for non-pillar, non-tutorial, non-comparison)
+- show_inspo_gallery_link: false (cluster default, verbatim)
+- template: posts
+- hero_dimensions: 1200x675
+- category: Nail Health (Mirellé category list was not supplied in this session; confirm exact string before publish)
+- publish_date: 2026-09-29
+- author: jyoti-mirelle
+- expertise_type: licensed_derm_or_nail_health_expert
+- expert_alias: cameron-bennet
+- expert_quote: "Antibiotics are rarely actually needed for an ingrown toenail. Once the offending piece of nail is removed, the infection should settle quickly without them. Antibiotics without removing the piece of nail will only suppress the infection — once the antibiotics are stopped, the infected ingrown edge almost always returns, since the nail is still broken through the skin."
+
+## SECTION 3: CLUSTER SNAPSHOT
+- cluster_pillar_slug: what-kills-toenail-fungus-instantly | pillar_title: What Kills Toenail Fungus Instantly? What Actually Works | pillar_primary_keyword: what kills toenail fungus instantly
+- this_post_slug: ingrown-toenail-antibiotics-when-needed | role: spoke (local ingrown-toenail hub: ingrown-toenail-infection-signs)
+- show_inspo_gallery_link_cluster_default: false
+- keywords_to_avoid (never focus terms; hard wall): what kills toenail fungus instantly; can toenail fungus kill you; how to know if toenail fungus is dying; what does nail fungus look like; is nail fungus contagious; paronychia; infected ingrown toenail; nail patch test; nail color meaning; spoon nails; Beau's lines; white spots on nails; nail psoriasis vs fungus; dark line on nail; how long for nails to recover from gel or acrylic; gel nails safe during pregnancy; diabetic nail care; superficial white onychomycosis; do otc nail fungus treatments work; jublia vs terbinafine; does laser treatment work for nail fungus; home remedies for nail fungus that work; acrylic nails over fungal nail; nail fungus myths; how long does it take a toenail to grow back; ingrown toenail stages; dental floss ingrown toenail; partial nail avulsion recovery; should i cut my ingrown toenail; toenail fungus (all existing-site keywords); hema allergy symptoms; vertical ridges on nails; PLUS every inferred_primary_keyword in existing_site_posts_excluded of the cluster file.
+- Neighbor guardrails: do not teach sign-by-sign infection identification (owned by infected ingrown toenail post), stage progression, floss/braces, DIY cutting, or post-surgery recovery timelines. One-line mention plus the assigned link only.
+
+## SECTION 4: SERP ANALYSIS
+**top_5_fetched_pages_summary** (body-text word counts approximate, nav/footer excluded; exact-match primary keyword count is 0 on all five; "antibiotic(s)" root counted separately)
+1. my.clevelandclinic.org/health/diseases/17664-ingrown-toenails | ~1,300 words | 7 H2 | exact kw 0 | "antibiotic" x3 | Broad medically reviewed overview; antibiotics appear only as cream; never answers the pill question.
+2. practicalpodiatry.substack.com/p/ingrown-toenails | ~1,050 words | 7 headings | exact 0 | "antibiotic" x6 | Only page separating inflammation from infection and saying no oral antibiotic for abscess; casual, no evidence cited.
+3. healthline.com/health/ingrown-toenail-infection | ~500 words | 4 H2 | exact 0 | "antibiotic" x5 | Recommends antibiotic lotion and mentions MRSA/gangrene; alarm-leaning, no evidence on oral antibiotics.
+4. lighthousefootandankle.com/the-best-treatment-for-infected-ingrown-toenails | ~430 words | 3 H2 | exact 0 | "antibiotic" x6 | Clear "antibiotics alone do not fix it" claim, but clinic-sales tone and no sources.
+5. mysportspodiatrist.com.au/articles/igtn | ~390 words | 0 H2 | exact 0 | "antibiotic" x4 | Only question-led page; hedges ("not always"), thin, no exceptions listed.
+Clinical reference fetched (excluded from averages): aafp.org/afp/2019/0801/p158 (SORT-B: oral antibiotics not recommended for ingrown toenail unless cellulitis; Cochrane: no postoperative antibiotic reduced infection, pain, or healing time).
+- top_5_word_count_average: ~734 | top_5_keyword_average: 0 exact (~4.8 "antibiotic" root)
+**competitor_gaps** (each confirmed on 2+ sources: competitor pages, Quora, PAA-style results, podiatry clinic blogs):
+1. No page cites trial evidence for the exact question (AAFP, Cochrane, 54-patient RCT).
+2. Why relief returns after antibiotics (Quora "5 rounds of antibiotics" thread, Straits Podiatry, Lighthouse).
+3. Inflamed vs infected as the real antibiotic decision (only Practical Podiatry, briefly).
+4. Complete exception list: spreading redness/red streaks, fever, diabetes, poor circulation, immune suppression (Healthline/Cleveland cover only diabetes).
+5. Antibiotic ointment: Healthline and Cleveland recommend it, AAFP says no outcome benefit; nobody reconciles (Quora ointment question).
+**missing_semantic_territory:** nail spicule, foreign body reaction, "antibiotics only suppress," why GP/ER may not prescribe, "doctor didn't want to do anything," matrixectomy/phenolization plain-language, antibiotic timing versus removal.
+**our_strategic_approach:** Answer the yes/no in the title and first two sentences, which no top-5 page does. Then out-depth every competitor on mechanism (nail edge as foreign body) and evidence (AAFP, Cochrane, RCT), using Bennet's quote as the practitioner anchor. Own the underserved exceptions list and the "came back after antibiotics" pain point. Structure differs from the average: 7 query-driven H2s instead of generic Symptoms/Causes/Prevention, roughly 2.4x the average length only where it carries new substance.
+**recommended_image_count_validation:** Competitors use 0-7 images; 7 total fits a health explainer without wound photography.
+
+## SECTION 5: AUDIENCE INTELLIGENCE
+- who_they_are: Adults (and parents of teens) with a red, sore big toe, either about to ask for antibiotics, just prescribed them, or two-plus courses in with symptoms returning. Low medical literacy, high anxiety.
+- what_they_want: A straight answer, whether they need a pill, what to ask the doctor, and the exact red flags that mean urgent care.
+- what_frustrates_them: Contradictory advice (cream/pills vs "never needed"), pages that end at "see a doctor," clinic pages selling procedures, alarm about amputation.
+- top_5_pain_points: (1) Conflicting guidance on antibiotics. (2) Symptoms return after finishing antibiotics. (3) GP/ER did nothing or only prescribed pills, and they can't tell if that's right. (4) Can't distinguish inflammation from infection. (5) Fear of nail removal and unsure what to do while waiting for an appointment.
+- exact_user_phrases: "Do I need amoxicillin when seeing my foot doctor"; "5 rounds of antibiotics"; "swelling won't go down after 2 months of antibiotics"; "the doctor didn't want to do anything"; "antibiotics only temporarily helps"; "pocket of pus"; "keeps peroxide and antibiotic cream and soaking"; "it came back after I finished the antibiotics"; "will it get better on its own"; "took two courses of antibiotics"
+- intent_content_signals: direct answer first; short-answer boxes; red-flag checklist; podiatrist voice; plain-language evidence; reassurance without dismissing risk; decision ladder graphic; no dosing.
+
+## SECTION 6: SEMANTIC KEYWORD DATA
+- primary_keyword: do you need antibiotics for ingrown toenail (LOCKED, exact string in <strong>; flanking words may adapt, e.g. "...for ingrown toenail problems")
+- keyword_variations: antibiotics for an ingrown toenail; do ingrown toenails need antibiotics; ingrown toenail antibiotics; oral antibiotics for ingrown toenail; antibiotic ointment for ingrown toenail; ingrown toenail without antibiotics; antibiotics not working for ingrown toenail; antibiotics after ingrown toenail removal
+- cluster_keywords: ingrown toenail treatment; ingrown toenail pus; ingrown toenail redness and swelling; podiatrist for ingrown toenail; ingrown toenail removal; warm water soak; topical antibiotic; oral antibiotic course; cellulitis in the toe; red streaks on the toe; ingrown toenail pain relief; nail edge removal
+- lsi_terms: nail spicule; nail border; lateral nail fold; foreign body reaction; ingrowing toenail; abscess; pus drainage; staph bacteria; local anesthetic; phenol; matrixectomy; recurrence; big toe; open-toe shoes; Epsom salt soak; spreading redness; fever and chills; poor circulation; weakened immune system; GP vs podiatrist
+- aeo_terms: Do you need antibiotics for an ingrown toenail? | Can an ingrown toenail heal without antibiotics? | Do antibiotics cure an ingrown toenail? | Why does an ingrown toenail keep coming back after antibiotics? | Do antibiotics help an ingrown toenail after removal? | How do I know if my ingrown toenail needs antibiotics? | When do doctors prescribe antibiotics for an ingrown toenail? | Is antibiotic ointment good for an ingrown toenail? | Should I see a podiatrist or a GP for an ingrown toenail?
+- technical_terms: onychocryptosis; nail spicule; chemical matrixectomy; phenolization; lateral nail fold; cellulitis; foreign body reaction
+- user_language: antibiotics only temporarily help; it came back after the antibiotics; rounds of antibiotics; the doctor didn't want to do anything; pocket of pus; throbbing toe; nail spike digging in; will it go away on its own; swelling won't go down
+
+## SECTION 7: VOICE AND AI QUERIES
+Answer each in the matching H2 body; route leftovers to faqItems.
+1. Do you need antibiotics for an ingrown toenail? 2. Can an ingrown toenail heal without antibiotics? 3. Why do antibiotics not fix my ingrown toenail? 4. Why did my toe get better on antibiotics and then get worse again? 5. Do I need antibiotics if there is pus? 6. Do doctors always prescribe antibiotics for an ingrown toenail? 7. Is redness around an ingrown toenail always an infection? 8. Does antibiotic ointment cure an ingrown toenail? 9. Do I need antibiotics after ingrown toenail surgery? 10. What are the red flags that mean I need antibiotics now? 11. Should I go to my GP or a podiatrist? 12. Do people with diabetes need antibiotics sooner? 13. How fast does an ingrown toenail settle after the edge is removed? 14. Can I take leftover antibiotics for my toe?
+
+## SECTION 8: HOOK AND CTR
+- real_serp_findings_summary: Real titles are infection-led or generic ("Ingrown Toenail Infection: Symptoms and Treatments," "Ingrown Toenails: Signs, Causes, Treatment & Prevention," "The BEST Treatment for Infected Ingrown Toenails"). Only one page is question-led (mysportspodiatrist, "Are antibiotics always required...") and it hedges. No title or meta states the answer.
+- selected_option_rationale: A front-loaded question plus a one-word verdict tests the gap (no competitor commits to an answer) while the meta names the exceptions and the real fix.
+- title: Do You Need Antibiotics for an Ingrown Toenail? Rarely
+- title_char_count: 54
+- meta_description: Red, swollen ingrown toenail with pus? Learn when antibiotics help, why removing the nail edge is the real fix, and which red flags mean see a doctor.
+- meta_char_count: 150
+- intro_hook_brief: Technique 3 (Reframe). Open by stating the pill is rarely the fix and the nail edge still in the skin is; land the answer in the first two sentences, then promise the exceptions and what does work. Optional short Bennet extract: "Antibiotics are rarely actually needed for an ingrown toenail."
+- first_h2_hook_direction: Phrase the first H2 as the reader's own question and answer it in two sentences before any elaboration.
+
+## SECTION 9: SEARCH JOURNEY
+- reader_arrival_state: Sore, worried, and confused by conflicting advice; possibly already holding or finishing a prescription.
+- journey_arc: (1) Get the straight answer: usually no. (2) Learn why the nail edge, not bacteria, is the problem. (3) See the evidence in plain language. (4) Sort inflamed from infected and know the exceptions and red flags. (5) Know what actually ends the cycle and what to ask the clinician.
+- promise_to_deliver: A clear, evidence-backed answer to whether antibiotics are needed, when they are, and what to do instead.
+- exit_state: Calm, informed, and able to walk into an appointment or urgent care knowing exactly what to ask and what to watch.
+
+## SECTION 10: CONTENT STRUCTURE
+- h1: Do You Need Antibiotics for an Ingrown Toenail? Rarely (matches locked title)
+- h2_structure:
+1. So, Do Ingrown Toenails Need Antibiotics? The Short Answer
+2. Why Antibiotics Alone Don't Fix an Ingrown Toenail
+3. What the Research Says: Antibiotics vs Removing the Nail Edge
+4. Inflamed or Infected? Why the Difference Matters
+5. When You Actually Do Need Antibiotics (The Red Flags)
+6. Do Antibiotic Ointments and Creams Help?
+7. What Fixes It Instead: Treatment That Ends the Cycle
+- word_budget: introduction 225 | conclusion 175 | H2-1 170 | H2-2 220 | H2-3 220 | H2-4 170 | H2-5 230 | H2-6 150 | H2-7 190 (total 1,750)
+
+## SECTION 11: INTERNAL LINKS (4 total; anchors verbatim)
+1. /blog/nail-health/ingrown-toenail-infection-signs | "signs you need a doctor for an ingrown toenail" | H2-4, where identifying infection is deferred | cluster-pillar
+2. /blog/nail-health/is-it-safe-to-cut-ingrown-toenail-yourself | "whether it's safe to treat an ingrown toenail yourself" | H2-6, ointment and home care vs digging at it | cluster-spoke
+3. /blog/nail-health/partial-nail-avulsion-recovery | "what recovery looks like after permanent removal" | H2-7, after naming nail edge removal | cluster-spoke
+4. https://mirelleinspo.com/nail-faqs/how-often-should-you-trim-your-nails-for-health | "how often to trim toenails and cut them straight across" | H2-7, prevention sentence | cross-site (only one passed the strict relevance filter)
+
+## SECTION 12: VOICE AND TONE
+- recommended_voice: Warm expert, confident educator
+- tone_characteristics: reassuring, direct, evidence-grounded, plain-language, calmly urgent on red flags
+- language_style: Short declarative answers first, second person, one analogy allowed (nail edge as a splinter), zero jargon without a plain gloss.
+- audience_match: Anxious readers need a verdict and a safety net, not hedging or alarm.
+
+## SECTION 13: EXTERNAL LINKS
+1. https://www.aafp.org/afp/2019/0801/p158 | H2-3, evidence claim | "American Family Physician's clinical review of ingrown toenail management"
+2. https://my.clevelandclinic.org/health/diseases/17664-ingrown-toenails | H2-5, higher-risk groups (diabetes, nerve damage, poor circulation) | "Cleveland Clinic's ingrown toenail guide"
+
+## SECTION 14: FEATURED EXPERT
+- expert_alias: cameron-bennet
+- expert_quote: (identical to SECTION 2, full text, use whole or as word-for-word extracts)
+- suggested_placement: Extract "Antibiotics are rarely actually needed for an ingrown toenail." in the intro or H2-1; the "Once the offending piece of nail is removed..." sentence and the "will only suppress the infection" and "once the antibiotics are stopped, the infected ingrown edge almost always returns, since the nail is still broken through the skin" extracts in H2-2. The original quote contains a long dash; split extracts at it so no dash appears in the post, without changing meaning.
+
+## SECTION 15: EXECUTION PLAN (READ FIRST, LOCK ALL VALUES)
+**block_1_keyword_execution**
+- primary_keyword: do you need antibiotics for ingrown toenail
+- top_5_density_baseline: 0 exact mentions (real, all five fetched)
+- total_mention_target: 0 + 3 = 3 total, body text only
+- first_100_words_plan: mention_1 = sentence 1 (the question, answered "usually not" in sentence 2); mention_2 = sentence 3 (promise of when it is needed and what works instead)
+- first_half_target: 2 mentions (first 875 words) | second_half_target: 1 mention (conclusion, resolving the question)
+- strong_tag_rule: all 3 wrapped in <strong>; scan after every paragraph. Variations are not bolded.
+- keywords_to_avoid_active: per Section 3
+**block_2_word_budget**
+- total_target: 1,750 (+/-50, never exceed) | introduction 225 | conclusion 175
+- h2_budgets: H2-1 170 (low) | H2-2 220 (high) | H2-3 220 (high) | H2-4 170 (medium) | H2-5 230 (high) | H2-6 150 (low) | H2-7 190 (medium)
+- tracking_rule: track running total after every H2; cut before moving on, never compensate later.
+**block_3_image_plan**
+- total_images: 7 | hero: frontmatter only, never in body | body_images: 6
+- assignments: 1 after H2-1 standard_inspiration (calm, healthy, neatly trimmed toes, neutral setting) | 2 after H2-2 standard_inspiration (clean healthy toenail, soft light) | 3 after H2-3 standard_inspiration (relaxed foot in soft, neutral styling) | 4 after H2-4 infographic (decision ladder: inflamed = remove nail edge and soak; infected local = clinician removes edge; red streaks/fever/diabetes = urgent care and antibiotics) | 5 after H2-5 standard_inspiration (comfortable open-toe shoes, roomy fit) | 6 after H2-7 standard_inspiration (healthy natural toenails, straight-across trim)
+- image_type_rule: no wound, pus, or infection photos; no tools, hands with tools, or process shots; no photo-style side-by-side comparisons (comparisons must be the infographic).
+- path_rule: /images/blog/nail-health/ingrown-toenail-antibiotics-when-needed/filename.webp
+**block_4_opening_technique_assignments** (numbers per Blog Gen prompt; conclusion T1 or T3 only)
+- Introduction T3 (Reframe) | H2-1 T1 (Claim) | H2-2 T2 | H2-3 T4 | H2-4 T2 | H2-5 T1 | H2-6 T4 | H2-7 T2 | Conclusion T1
+- Check every opener against banned_opening_approaches before writing sentence two.
+**block_5_link_placements:** per Section 11 (internal) and Section 13 (external). Weave into prose, never standalone CTAs. Use full URLs exactly as listed.
+**block_6_aeo_geo_plan**
+- aeo_assignments (direct 2-3 sentence answer immediately after the H2, before elaboration): H2-1: "Do you need antibiotics for an ingrown toenail?" and "Can an ingrown toenail heal without antibiotics?" | H2-2: "Do antibiotics cure an ingrown toenail?" and "Why does an ingrown toenail keep coming back after antibiotics?" | H2-3: "Do antibiotics help an ingrown toenail after removal?" | H2-4: "How do I know if my ingrown toenail needs antibiotics?" | H2-5: "When do doctors prescribe antibiotics for an ingrown toenail?" | H2-6: "Is antibiotic ointment good for an ingrown toenail?" | H2-7: "Should I see a podiatrist or a GP for an ingrown toenail?"
+- geo_entity_statements: Ingrown toenail (onychocryptosis) in H2-1 | Nail spicule in H2-2 | Cellulitis in H2-5 | Chemical matrixectomy (phenolization) in H2-7. Each gets one confident, declarative definition sentence.
+**block_7_active_constraints**
+- em_dash_banned: none anywhere in the post; replace with comma, period, parentheses, or restructure.
+- banned_vocab_watch: banned list was not supplied in this session, so scan against your list for: crucial, delve, navigate, landscape, unlock, seamless, game-changer, robust.
+- american_english_active: color, recognize, -ize, -or. GP/podiatrist may be paired ("GP or primary care doctor") for US, UK, CA, AU readers.
+- medical_safety: no dosages, drug names as recommendations, or regimens. Never advise skipping or stopping a prescribed course; if prescribed, follow the clinician. State red flags plainly. Do not claim antibiotics are never needed.
+- evidence_accuracy: cite only what is verified: AAFP 2019 (SORT-B: oral antibiotics not recommended unless cellulitis, with "clear, widespread cellulitis" as the trigger); Cochrane review (no postoperative treatment, antibiotics included, cut infection, pain, or healing time); 54-patient RCT of healthy patients with infected ingrown toenails (antibiotics did not shorten healing time or reduce postprocedure morbidity; immunocompromised, vascular disease, and proximal cellulitis excluded). Do not quote week-by-week figures.
+- keyword_density_reminder: verify 2 mentions by end of H2-3, 1 in conclusion.
+- image_path_reminder, internal_link_url_reminder, hero_image_reminder, strong_tag_reminder: per blocks above.
+- expert_quote_reminder: alias into expert frontmatter exactly as given; extracts word-for-word, meaning intact.
