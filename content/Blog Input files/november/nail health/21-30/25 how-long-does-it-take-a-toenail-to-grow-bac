@@ -1,0 +1,377 @@
+# INPUT FILE: how long does it take a toenail to grow back
+
+## SECTION 1: FILE AUTHORITY
+
+THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded. Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.
+
+---
+
+## SECTION 2: POST_CONSTANTS
+
+- slug: how-long-does-it-take-a-toenail-to-grow-back
+- topic_slug: nail-health
+- canonical: https://mirelleinspo.com/blog/nail-health/how-long-does-it-take-a-toenail-to-grow-back
+- post_type: spoke
+- intent: informational
+- word_count: 2100 (reference ceiling, not a target. Top-5 fetched average was 1,743 words. Write precisely; landing under is correct if the post is complete. Never pad.)
+- image_count: 7 (1 hero + 6 body)
+- show_inspo_gallery_link: false (cluster default, verbatim)
+- template: posts
+- hero_dimensions: 1200x675
+- category: Nail Health
+- publish_date: 2026-09-28
+- author: jyoti-mirelle
+- expertise_type: licensed_derm_or_nail_health_expert
+- expert_alias: david-williams-dpm
+- expert_quote: see Section 14
+
+---
+
+## SECTION 3: CLUSTER SNAPSHOT
+
+- pillar_slug: what-kills-toenail-fungus-instantly
+- pillar_title: What Kills Toenail Fungus Instantly? What Actually Works
+- pillar_primary_keyword: what kills toenail fungus instantly
+- this_post_slug: how-long-does-it-take-a-toenail-to-grow-back
+- this_post_role: spoke
+- show_inspo_gallery_link_cluster_default: false
+- keywords_to_avoid (never use as focus terms): toenail fungus, toenail fungus causes, toenail fungus symptoms, toenail fungus treatment, toenail fungus stages, toenail fungus home remedies, toenail fungus laser treatment cost, toenail fungus vs nail psoriasis, is toenail fungus contagious, best toenail fungus treatment, prevent toenail fungus returning, fingernail fungus, what is nail fungus, nail fungus causes, nail fungus symptoms, nail fungus treatment, nail fungus prevention, nail fungus home remedies, how long does nail fungus take to clear, how to know if toenail fungus is dying, what kills toenail fungus instantly, can toenail fungus kill you, what does nail fungus look like, is nail fungus contagious, nail fungus myths, do otc nail fungus treatments work, jublia vs terbinafine, does laser treatment work for nail fungus, home remedies for nail fungus that work, acrylic nails over fungal nail, superficial white onychomycosis, infected ingrown toenail, ingrown toenail stages, dental floss ingrown toenail, partial nail avulsion recovery, should i cut my ingrown toenail, do you need antibiotics for ingrown toenail, paronychia, dark line on nail, white spots on nails, spoon nails, Beau's lines, nail color meaning, diabetic nail care, vertical ridges on nails causes and fixes, why are my nails weak and brittle, does biotin work for nails, how to grow nails faster and stronger, repair nails after gel acrylic removal, how often should you trim your nails
+
+---
+
+## SECTION 4: SERP ANALYSIS
+
+**competitor_gaps** (demand-validated on 2+ sources):
+- Regrowth after NON-fungal causes as a single decision tree (trauma vs removal vs fungus vs psoriasis vs gel/acrylic rip-off). Healthline has a table only; no page tells the reader which row is theirs.
+- Why new toenail looks worse than the old one (ridged, thick, wavy). Only ASG and Northwestern cover this; the other three skip it. PAA and forum posts ("big fat slab of concrete", "growing up instead of out") confirm demand.
+- Matrixectomy/phenol: "will it grow back at all?" Only ASG covers this fully. Yeargain mentions it in one line.
+- "No new nail yet at 2-4 months, is that normal?" Anxiety query, only ASG answers with a threshold (4 months).
+- Nail lifting and "does it reattach" (Columbia, Feet First say it will not reattach; nobody explains what that means for the timeline).
+
+**missing_semantic_territory:** nail matrix recovery lag, first sliver at the cuticle, growth rate in mm per month as the basis for the math, big toe vs small toe timelines, nail growing back thick/ridged/curved, regrowth after surgical avulsion vs matrixectomy, regrowth after acrylic or gel rip-off, when regrowth signals fungus rather than healing, pigmented band in new nail (melanoma flag).
+
+**our_strategic_approach:** Every top result gives one headline number (up to 18 months) and then a generic care list. This post opens with that number in two sentences, then does what none of them do together: it sorts the reader into their scenario first (fell off from injury, medically removed, fungus, gel/acrylic rip-off, matrixectomy), because the correct timeline differs by scenario and the reader's real anxiety is "is MY nail on schedule." It then walks a stage-by-stage checkpoint list (nothing visible weeks 0-6, first sliver months 2-3, awkward middle months 4-6) with a "when to worry" threshold at each, and explains why the new nail looks worse before it looks better, a question only 2 of 5 competitors touch. Dr. Williams' real clinical quote (6 months to a year for most adults, roughly 50/50 that a lifted nail reconnects) gives the post a named podiatrist voice that 4 of 5 competitors lack. The structural edge is scenario-first plus checkpoint-driven H2s, not a single undifferentiated "how long" block followed by care tips.
+
+**top_5_fetched_pages_summary:**
+1. https://www.healthline.com/health/how-long-does-it-take-for-a-toenail-to-grow-back | ~900 words | 8 H2/H3 | primary keyword mentions: 4 | Strong scenario table, but no month-by-month stages (the "stages" H2 has no content beneath it), no reason for the ugly regrowth. Published 2021.
+2. https://www.asgfoot.com/post/toenail-regrowth-timeline | ~2,300 words | 9 H2 + 5 timeline stages | mentions: 7 | Best competitor: month-by-month stages, matrixectomy, why new nail looks worse, FAQ. Limited to post-removal only; ignores trauma, fungus, gel damage.
+3. https://feetfirstclinic.com/blog/toenail-growth/ | ~1,000 words (body only, excluding related-post blocks) | 4 H2 | mentions: 5 | Only one timeline sentence ("up to 18 months") buried under filler on black/green/blue toenails. Weak on the actual question.
+4. https://www.nm.org/healthbeat/healthy-tips/Why-Is-My-Nail-Growing-Back-Thick-Discolored-or-Mishapen | ~1,400 words | 12 H2/H3 | mentions: 3 | Strong on irregular regrowth causes; the timeline is one short section. Real podiatrist quotes (Dr. Shah). Different primary angle.
+5. https://dryeargain.com/how-long-does-it-take-for-a-toenail-to-grow-back/ | ~700 words | 8 H2/H3 | mentions: 4 | Clean timeline and surgery breakdown, thin on everything else, no FAQ.
+
+**top_5_word_count_average:** approximately 1,660 (rounded; feeds the 2,100 reference)
+**top_5_keyword_density_average:** 4.6 mentions of the exact primary keyword or its direct phrasing per page
+
+**recommended_image_count_validation:** 7 images. SERP leaders (ASG) use a five-stage regrowth illustration. Match that visual pattern with an infographic slot.
+
+---
+
+## SECTION 5: AUDIENCE INTELLIGENCE
+
+**who_they_are:** Adults who just lost a toenail or had one removed and are anxious about the bare nail bed. Many are runners, athletes, or people recovering from a stubbed toe, a crush injury, a podiatry procedure, or a gel/acrylic mishap. They are not clinicians. They have already seen the "up to 18 months" answer and want to know if THEIR situation matches it.
+
+**what_they_want_from_this_post:** A direct number for their specific situation, a way to check whether regrowth is on track, reassurance that a bare nail bed is normal, and a clear line on when to call a doctor.
+
+**what_frustrates_them:** One number for everyone ("up to 18 months") with no breakdown. No stages, so they cannot tell if they are early, slow, or stuck. Care advice that ignores their scenario. Not being told why the new nail looks thick, ridged, or wavy.
+
+**top_5_pain_points:**
+1. "It's been two months and I see nothing. Is it coming back?"
+2. "The new nail is growing thick, ridged, or curved. Did something go wrong?"
+3. "I had part of the nail removed permanently. Will it ever grow back?"
+4. "How do I protect the toe and keep it from getting infected while I wait?"
+5. "Will the new nail ever match my other toes, or can I paint it?"
+
+**exact_user_phrases:**
+- "took almost a year"
+- "grew back... about 4 months if I recall"
+- "a big, fat slab of concrete sitting there"
+- "growing 'up' instead of 'out'"
+- "it's just a nub"
+- "it grew back just fine"
+- "it didn't fall all the way off"
+- "same toenail, same soccer game"
+- "will it reattach"
+- "nothing growing yet"
+
+**intent_content_signals:**
+- Readers want a timeline they can scan (month-by-month) before any explanation
+- A scenario table is expected; a stage list is the differentiator
+- Real clinician quotes build trust; forum voices show the anxiety is normal
+- "When to worry" thresholds are a strong retention signal
+- Short, direct answers under each question-style H2
+- Illustrations of stages preferred over photographs of damaged nails
+
+---
+
+## SECTION 6: SEMANTIC KEYWORD DATA
+
+**primary_keyword:** how long does it take a toenail to grow back
+
+**keyword_variations:** how long for a toenail to grow back, how long does a toenail take to regrow, toenail regrowth time, how long until my toenail grows back, how long will it take for my toenail to grow back, toenail growing back timeline
+
+**cluster_keywords:** toenail regrowth timeline, toenail regrowth stages, new toenail growth, toenail regrowth after removal, toenail regrowth after injury, big toenail regrowth, nail matrix regrowth, will my toenail grow back, toenail growing back thick, toenail growing back ridged, lost toenail regrowth, toenail bed healing
+
+**lsi_terms:** nail matrix, nail bed, nail plate, cuticle, keratin, subungual hematoma, avulsion, matrixectomy, phenolization, 1.6 millimeters per month, big toe vs small toe, nail regrowth stages, bare nail bed, first sliver of nail, ridged nail, thickened nail, curved nail, pigmented band, nail lifting, protective footwear
+
+**aeo_terms:**
+- How long does it take a toenail to grow back after it falls off?
+- How long does a big toenail take to grow back?
+- Will my toenail grow back after it was removed?
+- Why is my new toenail growing back thick or ridged?
+- How long until I see new nail after toenail removal?
+- Can a toenail grow back after phenol treatment?
+- How long does a toenail take to grow back after a fungal infection?
+- Does a toenail that lifts off the skin grow back?
+- Can I paint a toenail that is growing back?
+- How long does it take a toenail to grow back after a gel or acrylic rip-off?
+
+**technical_terms:** onychomadesis, matrix, nail plate, nail fold, avulsion, matrixectomy, subungual hematoma, phenolization
+
+**user_language:** took almost a year, it grew back just fine, just a nub, didn't fall all the way off, thick and ridged, waiting it out, nothing yet, bare nail bed, lost the whole nail, regrowing slow
+
+**total_mention_target:** 8 (top-5 average 4.6 + 3, rounded to 8). Not a percentage.
+
+---
+
+## SECTION 7: VOICE AND AI QUERIES
+
+**blog_gen_instruction:** Answer every query directly in the relevant H2 body. If it cannot be addressed naturally, route it to faqItems. No query left unanswered.
+
+**queries:**
+1. How long does it take a toenail to grow back after it falls off?
+2. How long does a big toenail take to grow back compared with a small toenail?
+3. Why does a toenail grow back so slowly compared with a fingernail?
+4. How long does it take a toenail to grow back after surgical removal?
+5. Will my toenail grow back after a matrixectomy or phenol treatment?
+6. How long before I see any new nail after removal?
+7. Why is my new toenail growing back thick, ridged, or curved?
+8. How long does it take a toenail to grow back after a fungal infection?
+9. How long does it take a toenail to grow back after a stubbed toe or crush injury?
+10. Does a toenail that has lifted off the skin grow back and reconnect?
+11. What should I do if my toenail is not growing back at all?
+12. Can I paint or wear polish on a toenail that is growing back?
+13. What can I do to help my toenail grow back faster?
+14. How do I protect the toe while the nail grows back?
+15. Is a dark streak in my regrowing toenail normal?
+16. How long does a toenail take to grow back after a gel or acrylic nail rips off?
+
+---
+
+## SECTION 8: HOOK AND CTR
+
+**real_serp_findings_summary:** The five ranking titles are almost all question-led and identical in shape ("How Long Does It Take for a Toenail to Grow Back?"). Only ASG uses a specific promise ("A Month-by-Month Timeline") and it is limited to post-removal. Nobody offers a scenario-sorted or checkpoint-led promise, and nobody puts a year tag on it.
+
+**selected_option_rationale:** The chosen title tests the gap in step 2: a specific, scenario-and-stage promise with the primary keyword front-loaded, versus the generic question pattern repeated by four of five competitors.
+
+**title:** How Long Does It Take a Toenail to Grow Back? 2026 Timeline
+**title_char_count:** 60 (confirmed within 55-60; keyword in first 3 words)
+
+**meta_description:** Nothing showing yet after weeks? Get the stage-by-stage timeline, what changes after injury, removal, or fungus, and when regrowth needs a podiatrist.
+**meta_char_count:** 153 (confirmed within 120-155)
+
+**intro_hook_brief:** Open on the exact moment the reader is in: the bare, shiny nail bed and the quiet fear that nothing is coming back. Confirm the honest headline number fast (6 to 18 months, depends on the toe and the cause) and promise that this post will tell them which checkpoint they should be at right now, not just a range. Technique: The Claim.
+
+**first_h2_hook_direction:** Phrase the first H2 as the reader's own question in voice-search wording ("How long does it take a toenail to grow back?") and answer it in two sentences directly beneath it before adding any scenario detail. Do not repeat the title hook.
+
+---
+
+## SECTION 9: SEARCH JOURNEY
+
+**reader_arrival_state:** Anxious and slightly grossed out, looking at a bare or damaged nail bed, wanting a fast, honest number and confirmation that this is normal.
+
+**journey_arc:**
+- Answer the core question immediately with the honest range and the reason it is slow
+- Sort the reader into their scenario so the number becomes personal
+- Walk the stages with a checkpoint at each, so they can place themselves
+- Explain why the new nail looks worse before better, and what is and is not normal
+- Give practical care and a clear when-to-call-a-doctor line, then a calm close
+
+**promise_to_deliver:** A specific timeline for the reader's own situation, plus a way to check whether regrowth is on track.
+
+**exit_state:** Calm, oriented, and patient. They know their checkpoint, know what is normal, and know exactly when to get it looked at.
+
+---
+
+## SECTION 10: CONTENT STRUCTURE
+
+**h1:** How Long Does It Take a Toenail to Grow Back? (Stage-by-Stage Timeline)
+
+**h2_structure:**
+1. How Long Does It Take a Toenail to Grow Back?
+2. Why Toenails Take So Much Longer Than Fingernails
+3. Which Timeline Is Yours? Injury, Removal, Fungus, or Gel Damage
+4. Month by Month: What Toenail Regrowth Actually Looks Like
+5. Why the New Toenail Looks Worse Before It Looks Better
+6. Will It Grow Back at All? Matrixectomy and Permanent Removal
+7. How to Care for the Toe While the Nail Grows Back
+8. When Slow Regrowth Means You Should See a Doctor
+
+**word_budget:**
+- introduction: 220 words
+- conclusion: 170 words
+- H2-1 (How Long Does It Take...): 200 words
+- H2-2 (Why Toenails Take So Much Longer): 200 words
+- H2-3 (Which Timeline Is Yours): 300 words
+- H2-4 (Month by Month): 400 words
+- H2-5 (Why the New Toenail Looks Worse): 250 words
+- H2-6 (Will It Grow Back at All): 150 words
+- H2-7 (How to Care for the Toe): 130 words
+- H2-8 (When Slow Regrowth Means...): 80 words
+- Total: 2,100
+
+(FAQ items handled separately in faqItems, drawn from Section 7 queries not covered in the body.)
+
+---
+
+## SECTION 11: INTERNAL LINKS
+
+**blog_gen_instruction:** Every link below must appear in the post. Cluster links use anchor texts verbatim. Cross-site links use the provided descriptive anchor. Woven into prose, never standalone CTAs. Total internal links: 5 (within the 4-6 cap).
+
+**all_internal_links:**
+1. url_or_slug: /blog/nail-health/toenail-fungus-dying-signs
+   - anchor_text: how to know if toenail fungus treatment is working
+   - placement_note: H2-3, in the fungus row. This post is the direct next-step for readers whose regrowth follows a fungal infection.
+   - link_type: cluster-spoke
+2. url_or_slug: /blog/nail-health/partial-nail-avulsion-recovery
+   - anchor_text: what recovery looks like after nail removal surgery
+   - placement_note: H2-6, where matrixectomy and partial removal are explained.
+   - link_type: cluster-spoke
+3. url_or_slug: https://mirelleinspo.com/blog/nail-fungus/how-long-does-nail-fungus-take-to-clear
+   - anchor_text: how long nail fungus specifically takes to clear
+   - placement_note: H2-3, immediately after the fungus timeline, so readers who want the infection-clearing timeline (not regrowth) go to the right page.
+   - link_type: cluster-existing-site-post
+4. url_or_slug: https://mirelleinspo.com/nail-feed/nail-enhancement-rips-off-with-natural-nail-attached
+   - anchor_text: what to do when an acrylic nail rips off with the natural nail attached
+   - placement_note: H2-3, gel/acrylic damage row. Directly relevant, covers the fingernail/toenail regrowth timeline for enhancement rip-offs.
+   - link_type: cross-site
+5. url_or_slug: https://mirelleinspo.com/blog/toenail-shapes/how-to-shape-toenails-at-home
+   - anchor_text: how to shape toenails at home without causing ingrown nails
+   - placement_note: H2-7, care section, at the "trim straight across, leave the corners" tip.
+   - link_type: cross-site
+
+---
+
+## SECTION 12: VOICE AND TONE
+
+- **recommended_voice:** Calm, warm expert. A knowledgeable friend who has seen this a hundred times.
+- **tone_characteristics:** Reassuring without minimizing; direct with numbers; patient; lightly clinical vocabulary explained in plain words; never alarmist
+- **language_style:** Second person ("you"), short declarative sentences for numbers and thresholds, one clear analogy for growth speed, no jargon left unexplained (matrix, avulsion defined on first use)
+- **audience_match:** The reader is anxious and looking at a wound-like nail bed. They need certainty first and detail second. Competitor tone is either generic clinic marketing or dry health-portal. A steady, reassuring voice with real numbers stands apart.
+
+---
+
+## SECTION 13: EXTERNAL LINKS
+
+**blog_gen_instruction:** Include where indicated. Supports E-E-A-T. Write naturally around the anchor suggestion.
+
+1. url: https://www.asgfoot.com/post/toenail-regrowth-timeline
+   - context: H2-4 (Month by Month), when confirming the stage windows and the matrixectomy exception. Cited as a podiatry-clinic source.
+   - anchor_suggestion: a podiatry practice's month-by-month regrowth guide
+2. url: https://www.nm.org/healthbeat/healthy-tips/Why-Is-My-Nail-Growing-Back-Thick-Discolored-or-Mishapen
+   - context: H2-5 (Why the New Toenail Looks Worse), when explaining that matrix damage causes thick, ridged, or discolored regrowth. Named podiatrist source (Rachit Shah, DPM, Northwestern Medicine).
+   - anchor_suggestion: Northwestern Medicine podiatrist Rachit Shah
+
+---
+
+## SECTION 14: FEATURED EXPERT
+
+**expert_alias:** david-williams-dpm
+
+**expert_quote (full, verbatim from cluster_context.json):**
+"Usually, when a nail is peeling or keeps lifting off the skin, it tells me there's been a previous injury on that toenail. When a toenail lifts off the skin, the bond between the skin and nail is broken. Sometimes the nail will grow back and reconnect. Other times it won't — it's usually a 50/50 shot, and there's nothing the patient or doctor can do to change it... For most adults it will take 6 months to a year for a nail to completely grow out."
+
+**suggested_placement:** Use the "6 months to a year for a nail to completely grow out" extract in H2-1 to anchor the headline answer with a named podiatrist voice (note the range differs slightly from the 12-18 month competitor figure; present both honestly, the expert's range as typical for most adults and 18 months as the upper end for a big toe). Use the "50/50" lifting-and-reconnecting portion in H2-3 or H2-8 where a toenail that has lifted but not fallen off is discussed. Any words actually quoted must be exact; do not change the meaning.
+
+---
+
+## SECTION 15: EXECUTION PLAN
+
+### BLOCK 1: KEYWORD EXECUTION
+- primary_keyword: how long does it take a toenail to grow back
+- top_5_density_baseline: 4.6 mentions
+- total_mention_target: 8 total (4.6 + 3, rounded)
+- first_100_words_plan: TWICE in the first 100 words, mandatory.
+  - mention_1: sentence 1 of the introduction (the claim, states the answer)
+  - mention_2: sentence 3 or 4 of the introduction (promise of the stage-by-stage checkpoint)
+- first_half_target: 5 mentions in the first 1,050 words (run denser here)
+- second_half_target: 3 mentions in the second 1,050 words
+- strong_tag_rule: EVERY mention of the primary keyword, all 8, wrapped in `<strong>` tags. Scan after every paragraph.
+- keywords_to_avoid_active: full list from Section 3, never used as focus terms anywhere in the post.
+
+### BLOCK 2: WORD BUDGET
+- total_target: 2,100 words (+/-50 tolerance, never exceed)
+- introduction: 220
+- conclusion: 170
+- h2_budgets:
+  - How Long Does It Take a Toenail to Grow Back?: 200 (low)
+  - Why Toenails Take So Much Longer Than Fingernails: 200 (medium)
+  - Which Timeline Is Yours? Injury, Removal, Fungus, or Gel Damage: 300 (high)
+  - Month by Month: What Toenail Regrowth Actually Looks Like: 400 (high)
+  - Why the New Toenail Looks Worse Before It Looks Better: 250 (medium)
+  - Will It Grow Back at All? Matrixectomy and Permanent Removal: 150 (medium)
+  - How to Care for the Toe While the Nail Grows Back: 130 (low)
+  - When Slow Regrowth Means You Should See a Doctor: 80 (low)
+- tracking_rule: Track the running total at the end of every H2. If a section runs over, cut before moving on. Do not compensate later.
+
+### BLOCK 3: IMAGE PLAN
+- total_images: 7
+- hero_image: frontmatter only, NEVER in the post body. Dimensions 1200x675.
+- body_images: 6 to place in the body
+- assignments:
+  1. image_number 1, place_after: H2-2 (Why Toenails Take So Much Longer), image_type: infographic, section_context: growth-rate comparison graphic, fingernail about 3.4 mm/month vs toenail about 1.6 mm/month, with the small vs big toe length difference.
+  2. image_number 2, place_after: H2-3 (Which Timeline Is Yours), image_type: infographic, section_context: clean scenario-vs-timeline graphic (trauma 6 months to 2 years, medical removal up to 18 months, after fungus 12 to 18 months, after psoriasis 6 months or longer). Must be a graphic layout, not a photo comparison.
+  3. image_number 3, place_after: H2-4 (Month by Month), image_type: infographic, section_context: five-stage big-toenail regrowth sequence (weeks 0-6 bare nail bed, months 2-3 first sliver, months 4-6 ridged half nail, months 7-12 most of the nail, months 12-18 fully regrown). Illustration style, no photographs of damaged nails.
+  4. image_number 4, place_after: H2-5 (Why the New Toenail Looks Worse), image_type: standard_inspiration, section_context: a healthy, polished, well-groomed toenail showing the "after" the reader is waiting for; calm and clean, no hands or tools.
+  5. image_number 5, place_after: H2-7 (How to Care for the Toe), image_type: standard_inspiration, section_context: a neat, natural, short toenail with clean straight edge, in a soft neutral setting; no tools or hands at work.
+  6. image_number 6, place_after: H2-8 (When Slow Regrowth Means...), image_type: standard_inspiration, section_context: a calm, healthy natural pedicured toe on a light neutral background, communicating recovery and reassurance.
+- image_type_rule: default standard_inspiration; infographics used here only for the three slots that genuinely need a graphic (growth comparison, scenario timeline, stage sequence). Never a tool/equipment image. Never a photo-style side-by-side nail comparison.
+- path_rule: /images/blog/nail-health/how-long-does-it-take-a-toenail-to-grow-back/filename.webp
+
+### BLOCK 4: OPENING TECHNIQUE ASSIGNMENTS
+- Introduction: Technique 1 (The Claim)
+- H2-1 (How Long Does It Take a Toenail to Grow Back?): Technique 2 (The Direct Answer)
+- H2-2 (Why Toenails Take So Much Longer): Technique 5 (The Contrast)
+- H2-3 (Which Timeline Is Yours?): Technique 3 (The Reframe)
+- H2-4 (Month by Month): Technique 4 (The Scene)
+- H2-5 (Why the New Toenail Looks Worse): Technique 6 (The Myth Correction)
+- H2-6 (Will It Grow Back at All?): Technique 2 (The Direct Answer)
+- H2-7 (How to Care for the Toe): Technique 5 (The Contrast)
+- H2-8 (When Slow Regrowth Means...): Technique 1 (The Claim)
+- Conclusion: Technique 3 (The Reframe)
+- rule: no two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.
+- banned_opener_rule: check every opener against banned_opening_approaches in the blog gen prompt before writing the second sentence.
+
+### BLOCK 5: LINK PLACEMENTS
+1. anchor_text: how to know if toenail fungus treatment is working | full_url: /blog/nail-health/toenail-fungus-dying-signs | place_in_section: H2-3 | placement_context: fungus row of the scenario breakdown | link_type: cluster-spoke
+2. anchor_text: how long nail fungus specifically takes to clear | full_url: https://mirelleinspo.com/blog/nail-fungus/how-long-does-nail-fungus-take-to-clear | place_in_section: H2-3 | placement_context: sentence immediately after the fungus timeline | link_type: cluster-existing-site-post
+3. anchor_text: what to do when an acrylic nail rips off with the natural nail attached | full_url: https://mirelleinspo.com/nail-feed/nail-enhancement-rips-off-with-natural-nail-attached | place_in_section: H2-3 | placement_context: gel/acrylic damage row | link_type: cross-site
+4. anchor_text: what recovery looks like after nail removal surgery | full_url: /blog/nail-health/partial-nail-avulsion-recovery | place_in_section: H2-6 | placement_context: sentence explaining partial removal and phenol | link_type: cluster-spoke
+5. anchor_text: how to shape toenails at home without causing ingrown nails | full_url: https://mirelleinspo.com/blog/toenail-shapes/how-to-shape-toenails-at-home | place_in_section: H2-7 | placement_context: the "trim straight across" care tip | link_type: cross-site
+- rule: every link exactly where specified, anchors verbatim, woven into prose, never standalone CTAs.
+
+### BLOCK 6: AEO / GEO PLAN
+**aeo_assignments:**
+- "How long does it take a toenail to grow back after it falls off?" → H2-1, direct 2-3 sentence answer IMMEDIATELY after the heading.
+- "Why does a toenail grow back so slowly compared with a fingernail?" → H2-2, direct answer immediately after the heading.
+- "How long does it take a toenail to grow back after a fungal infection?" → H2-3, direct answer in the fungus row.
+- "Why is my new toenail growing back thick, ridged, or curved?" → H2-5, direct answer immediately after the heading.
+- "Will my toenail grow back after a matrixectomy or phenol treatment?" → H2-6, direct answer immediately after the heading.
+- "When should I see a doctor about slow toenail regrowth?" → H2-8, direct answer immediately after the heading.
+- Remaining queries (paint over regrowing nail, speed it up, dark streak, gel/acrylic rip-off) → faqItems if not naturally covered.
+
+**geo_entity_statements:**
+- nail matrix → H2-2: "The nail matrix is the tissue under the skin at the base of the nail where new nail cells are made."
+- matrixectomy → H2-6: "A matrixectomy is a procedure that deliberately destroys the nail-producing tissue so that part of the nail does not grow back."
+- subungual hematoma → H2-3: "A subungual hematoma is blood collected under the nail, usually after injury, that can lift the nail off the nail bed."
+
+### BLOCK 7: ACTIVE CONSTRAINTS
+- em_dash_banned: the long em dash does not appear anywhere. If one forms, replace with a comma, new sentence, parentheses, "but", or restructure.
+- banned_vocab_watch: delve, tapestry, landscape, navigate, journey (except in structural notes), crucial, unlock, elevate, seamless, comprehensive. Catch as they form.
+- american_english_active: color, recognize, -ize, -or. This post uses American English.
+- keyword_density_reminder: after every 2 H2 sections, count mentions. Verify the running total is on track for 8. First half denser than second.
+- image_path_reminder: /images/blog/nail-health/how-long-does-it-take-a-toenail-to-grow-back/filename.webp, topic_slug always in path.
+- internal_link_url_reminder: cluster links = /blog/nail-health/[slug]. Cross-site links = exact URL as discovered. Never bare /slug.
+- hero_image_reminder: hero is frontmatter only. Never in the body.
+- strong_tag_reminder: every primary keyword mention = `<strong>`. Scan after every paragraph.
+- expert_quote_reminder: expert_alias david-williams-dpm goes into the expert frontmatter field exactly. expert_quote may be used whole or as word-for-word extracts at the suggested sections; never paraphrased at the word level, never altered in meaning.
+- medical_claims_note: keep numbers honest and attributed (Dr. Williams: 6 months to a year for most adults; competitors and Healthline: up to 18 months; matrixectomy exception). Do not promise any speed-up method. Flag that biotin evidence is limited and route readers to the existing biotin post only if a natural spot exists (it is currently not on the required link list).
