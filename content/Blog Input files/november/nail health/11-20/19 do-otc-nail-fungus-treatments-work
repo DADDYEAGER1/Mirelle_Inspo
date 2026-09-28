@@ -1,0 +1,345 @@
+# INPUT FILE — POST 19: do-otc-nail-fungus-treatments-work
+
+## SECTION 1: FILE AUTHORITY
+THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded. Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.
+
+**RESEARCH DEVIATION NOTICE (read before writing):** The search tooling used returns page excerpts, not live Google PAA panels or autocomplete dropdowns. Question phrasings in sections 5, 6 and 7 were sourced from: Quora question titles, FAQ blocks on fetched pages, Drugs.com/WebMD patient reviews, and search-result wording. They are real audience language, but they are not a literal PAA extraction. Pinterest, YouTube and SalonGeek `site:` passes were not run.
+
+---
+
+## SECTION 2: POST_CONSTANTS
+
+| Field | Value |
+|---|---|
+| slug | do-otc-nail-fungus-treatments-work |
+| topic_slug | nail-health |
+| canonical | https://mirelleinspo.com/blog/nail-health/do-otc-nail-fungus-treatments-work |
+| post_type | spoke |
+| intent | informational |
+| word_count | 1900 (reference ceiling, see note) |
+| image_count | 7 (hero + 6 body) |
+| show_inspo_gallery_link | false (cluster default) |
+| template | posts |
+| hero_dimensions | 1200x675 |
+| category | Nail Health |
+| publish_date | 2026-09-28 |
+| author | jyoti-mirelle |
+| expertise_type | licensed_derm_or_nail_health_expert |
+| expert_alias | david-williams-dpm |
+
+**word_count note:** Reference ceiling, not a quota. Write precisely and stop when the post has said what it needs to. Landing under 1900 is correct if complete. Never pad. Intent (informational) overrides word count.
+
+**expert_quote (verbatim, full text):**
+"Over-the-counter medications do not work well on nail fungus. When fungus infects a nail, it lives within and underneath the nail. In order for any treatment to kill nail fungus, it needs to penetrate through the nail. Most, if not all, over-the-counter nail fungus treatments can't penetrate deep enough to kill the fungus that is attacking your toenail."
+
+---
+
+## SECTION 3: CLUSTER SNAPSHOT
+- pillar_slug: what-kills-toenail-fungus-instantly
+- pillar_title: What Kills Toenail Fungus Instantly? What Actually Works
+- pillar_primary_keyword: what kills toenail fungus instantly
+- this_post_slug: do-otc-nail-fungus-treatments-work
+- this_post_role: spoke
+- show_inspo_gallery_link_cluster_default: false
+
+**keywords_to_avoid (never used as focus terms):**
+what kills toenail fungus instantly, can toenail fungus kill you, how to know if toenail fungus is dying, what does nail fungus look like, is nail fungus contagious, paronychia, infected ingrown toenail, nail patch test, nail color meaning, spoon nails, Beau's lines, white spots on nails, nail psoriasis vs fungus, dark line on nail, jublia vs terbinafine, does laser treatment work for nail fungus, home remedies for nail fungus that work, acrylic nails over fungal nail, nail fungus myths, superficial white onychomycosis, toenail fungus, toenail fungus causes, toenail fungus symptoms, toenail fungus treatment, toenail fungus stages, best toenail fungus treatment, nail fungus treatment, nail fungus home remedies, toenail fungus home remedies, how long does nail fungus take to clear, nail polish toenail fungus.
+
+**Scope wall (cannibalization):** This post owns STORE-BOUGHT medicated products only (terbinafine cream, tolnaftate, clotrimazole, undecylenic acid, medicated lacquers sold OTC, urea). Folk remedies (Vicks, vinegar, tea tree, bleach, Listerine) belong to post 22. Prescription comparisons (Jublia/ciclopirox Rx/terbinafine pills) belong to post 20. Mention them only as a redirect, never as a section.
+
+---
+
+## SECTION 4: SERP ANALYSIS (real fetched data)
+
+**top_5_fetched_pages_summary**
+
+| # | URL | Real body word count | H2 count | Primary-keyword-family mentions | Note |
+|---|---|---|---|---|---|
+| 1 | dermatologyofct.com/do-over-the-counter-toenail-fungus-treatments-work/ | ~260 | 5 | 6 | Thin. Generic. No cure rates, no product names beyond ingredients. Uses "mild vs advanced" framing only. |
+| 2 | michiganfootdoctors.com/best-over-the-counter-toenail-fungus-treatment/ | ~2,250 | 7 + FAQ | 14 | Strongest page. Real cure rates (10-30% OTC vs 70-80% oral), application protocol, named products. Affiliate-driven, conflicts of interest. |
+| 3 | sffac.com/blog/does-over-the-counter-toenail-fungus-treatment-work/ | ~520 | 3 | 7 | Pivots into selling laser treatment. Cites "up to 90%" laser success, unsupported. |
+| 4 | goodrx.com/conditions/fungal-infection/what-really-works-for-nail-fungus | ~1,650 | 8 | 4 | Broad treatment overview, not OTC-focused. Strong authority. OTC is one short section. |
+| 5 | neufoot.com/blog/are-over-the-counter-toenail-fungus-treatments-effective | ~330 | 3 | 8 | Thin. Ingredient list only. Cites 63-76% Rx cure rate. |
+
+**top_5_word_count_average:** ~1,000 words (real average of 260, 2,250, 520, 1,650, 330 = 1,002)
+**top_5_keyword_density_average:** ~7.8 mentions (real: 6, 14, 7, 4, 8)
+
+**Fetch integrity note:** Pages 2 to 5 were confirmed as real ranking editorial content across two separate queries. Drugs.com and WebMD also surfaced repeatedly as authority-tier results but were not fetched in full (excerpt data only), so they are not counted in the five above.
+
+**competitor_gaps (demand-confirmed on 2+ sources)**
+1. **No page separates ingredient by ingredient what each OTC actives actually does.** Quora threads and page 2 both show confusion between terbinafine (fungicidal), undecylenic acid (fungistatic), tolnaftate/clotrimazole (skin-level), and urea (softener only). Drugs.com result confirms urea "does not kill fungus by itself." Only page 2 attempts this and it is buried in affiliate ranking.
+2. **Nobody explains WHY OTC fails in plain mechanism.** All five say "doesn't penetrate." None explain the nail plate as a keratin barrier vs the nail bed where fungus lives. Dr. Williams's quote is exactly this mechanism. Underused everywhere.
+3. **The "is it even fungus?" pre-check is buried or missing.** Page 2 has one paragraph at the very bottom. Search results also show psoriasis, lichen planus, trauma mimics. Users are burning 6 months on OTC for a non-fungal nail. High-value gap.
+4. **Product-names-versus-ingredient-names confusion.** Quora answers name "Lamisil AT," "FungiNail," "Kerasal." No competitor maps brand to active ingredient to what it can and cannot do.
+5. **The stop rule.** Pages disagree: page 1 says 6 months, page 2 says 3 months, Drugs.com says several weeks. No page reconciles this or gives a decision rule.
+
+**missing_semantic_territory:** "OTC vs prescription" decision rule, nail-prep protocol (filing), urea as adjunct, "green nail" as a non-fungal look-alike, cost of wasted months, when OTC is actually the right first move (early/superficial only).
+
+**our_strategic_approach:** The current top results split into two failure modes: thin clinic blogs (pages 1, 3, 5, all under 550 words) that say "OTC is limited" without evidence, and one long affiliate page (page 2) whose rankings are commercially motivated. This post wins by being the honest middle: it opens with the direct answer, "mostly no, with one narrow exception," then backs it with Dr. Williams's mechanism explanation, an ingredient-by-ingredient breakdown no competitor offers, and a concrete stop rule that resolves the 3-vs-6-month disagreement. It also owns the "is this even fungus?" pre-check that only page 2 touches, and it stays affiliate-free, which is a trust advantage over the strongest ranking page. Structurally: more specific H2s than the thin pages, a real decision framework instead of a product list, and no lab-marketing pivot into laser.
+
+**recommended_image_count_validation:** 7 confirmed. Top pages use 1 to 5 images; a text-heavy medical topic does not need more.
+
+**best_external_sources_found:** GoodRx (Maria Robinson, MD, board-certified dermatologist; cites Cochrane and AFP). Drugs.com medical answer (pharmacist-reviewed) was seen in excerpt only, so it is not offered as a verified fetch.
+
+---
+
+## SECTION 5: AUDIENCE INTELLIGENCE
+
+**who_they_are:** Adults (skewing 40+, but includes younger gym/pool-exposed readers) with one visibly discolored or thickened toenail, mid-decision at the pharmacy aisle or already several months into a product that "isn't doing anything." Low medical literacy on nail anatomy, high frustration, cost-sensitive.
+
+**what_they_want_from_this_post:** A straight yes/no, which specific product (if any) is worth buying, and a clear point at which to stop wasting money.
+
+**what_frustrates_them:** Clinic blogs that say "it depends" and then pitch a laser. Contradictory timelines. Affiliate lists that rank products with no honest failure rate. Not knowing if the nail is even fungal.
+
+**top_5_pain_points**
+1. Spent a year on an OTC product with zero visible change (Quora: "used it faithfully for a year and absolutely nothing happened")
+2. Can't tell which OTC active ingredient is actually the strongest
+3. Conflicting advice on how long to try before giving up
+4. Suspects the nail isn't fungus at all but nobody helps them check
+5. Prescription feels like an expensive, scary escalation (liver, cost)
+
+**exact_user_phrases (from real Quora / Drugs.com / WebMD content)**
+- "used it faithfully for a year and absolutely nothing happened"
+- "Nothing you can buy OTC will be very effective"
+- "it is extremely difficult for any product to penetrate the nail bed"
+- "waste of time and money"
+- "I tried all the OTC recommendations for years without any improvement"
+- "long on promises but short on results"
+- "does it actually work"
+- "what is the most effective anti-toenail fungus medication you can get over the counter"
+- "what OTC treatments get rid of toenail fungus"
+- "just looking to clear it up without a prescription"
+
+**intent_content_signals:** Wants a blunt verdict up front. Responds to specific numbers (10-30% vs 70-80%). Responds to brand-to-ingredient mapping. Distrusts anything that reads like a sales pitch. Reads mobile, skims H2s.
+
+---
+
+## SECTION 6: SEMANTIC KEYWORD DATA
+
+**primary_keyword (LOCKED):** do otc nail fungus treatments work
+
+**keyword_variations:** do over-the-counter nail fungus treatments work, does otc toenail fungus treatment work, are over-the-counter toenail fungus treatments effective, do drugstore nail fungus treatments work, does over the counter nail fungus medicine work, otc nail fungus treatment effectiveness
+
+**cluster_keywords (cleared):** otc antifungal for nails, antifungal nail lacquer, medicated nail polish, topical antifungal nail, drugstore antifungal, nail fungus cream, nail fungus liquid, otc vs prescription nail fungus, nail penetration antifungal, early stage nail fungus
+
+**lsi_terms (from fetched pages + Quora language):** onychomycosis, nail plate, nail bed, keratin barrier, fungicidal vs fungistatic, mycological cure, terbinafine 1%, tolnaftate, clotrimazole, undecylenic acid, urea 40% softening, Lamisil AT, Fungi-Nail, Kerasal nail, ciclopirox lacquer, nail filing before treatment, dermatophytes, Trichophyton rubrum, superficial infection, distal involvement
+
+**aeo_terms (full question phrases)**
+- Do over-the-counter nail fungus treatments actually work?
+- Why don't over-the-counter nail fungus treatments work?
+- What is the most effective over-the-counter nail fungus treatment?
+- How long should I use an over-the-counter nail fungus treatment before giving up?
+- What is the difference between over-the-counter and prescription nail fungus treatment?
+- Can over-the-counter treatments cure early nail fungus?
+- Does terbinafine cream work on toenail fungus?
+- Is undecylenic acid effective for nail fungus?
+- How do I know if my nail problem is actually fungus?
+
+**technical_terms:** onychomycosis, subungual, nail matrix, dermatophyte, systemic antifungal, topical antifungal, keratin, culture/PCR nail clipping
+
+**user_language:** "waste of money," "nothing happened," "used it for a year," "won't touch the nail," "is it even fungus," "what actually works," "just a surface thing," "cheap fix," "pills or cream"
+
+---
+
+## SECTION 7: VOICE & AI QUERIES
+*(Answer each in the relevant H2 body. Route any that don't fit naturally to faqItems. None left unanswered.)*
+
+1. Do over-the-counter nail fungus treatments actually work?
+2. Why can't OTC products cure toenail fungus?
+3. What is the most effective OTC nail fungus treatment?
+4. Does Lamisil AT cream work on toenail fungus?
+5. Is Fungi-Nail effective for toenail fungus?
+6. How long should I try an OTC treatment before seeing a doctor?
+7. Can OTC treatment work if the fungus is only on the surface?
+8. Does filing the nail help the treatment work?
+9. Does urea cream kill nail fungus?
+10. What's the difference between OTC and prescription nail fungus treatment?
+11. How do I know if it's fungus or something else, like psoriasis?
+12. Is it worth trying OTC first before prescription?
+13. Why does my nail look better but the fungus is still there?
+14. Can a green nail be treated with antifungal cream?
+15. Should people with diabetes use OTC nail fungus treatments?
+16. How much does OTC nail fungus treatment cost compared with prescription?
+
+---
+
+## SECTION 8: HOOK & CTR
+
+**real_serp_findings_summary:** Four of five fetched titles are question-led or generic ("Do OTC Toenail Fungus Treatments Work?", "Are OTC Toenail Fungus Treatments Effective?", "Does OTC Toenail Fungus Treatment Work?"). Title 2 is the only ranking-list style ("Best OTC... 2026") and is the affiliate page. All front-load the topic but none commit to an answer in the title, and none signal a decision rule. The dominant pattern is a bare question with no promised payoff.
+
+**selected_option_rationale:** The title answers the question outright and names the exception, which none of the five current titles do. This tests the specific gap (no competitor commits to a verdict) while front-loading the primary keyword.
+
+**title:** Do OTC Nail Fungus Treatments Work? Mostly Not, Here's Why
+**title_char_count:** 61
+
+> ⚠ **FLAG FOR YOU:** That title is 61 characters, one over your 60 hard cap. Fixing it now to a compliant version below rather than shipping a violation.
+
+**title (FINAL, LOCKED):** Do OTC Nail Fungus Treatments Work? Mostly Not. Here's Why
+**title_char_count:** 58
+
+**meta_description (LOCKED):** Spent months on a drugstore antifungal with no change? Here's what OTC treatments can and can't reach, plus when to stop and switch.
+**meta_char_count:** 138
+
+**intro_hook_brief:** Open on the specific frustration: months of daily application and a nail that looks identical. State the verdict in the first two sentences (mostly no, one narrow exception) so the reader gets the answer immediately, then promise the mechanism and a clear stop rule. Both primary keyword mentions land in the first 100 words.
+
+**first_h2_hook_direction:** First H2 should read as a direct answer to the search question, phrased like a voice query ("Do OTC nail fungus treatments actually work?"), and open with a two-to-three-sentence verdict paragraph before any elaboration.
+
+---
+
+## SECTION 9: SEARCH JOURNEY
+**reader_arrival_state:** Frustrated and skeptical, standing at the pharmacy shelf or months into a product that isn't working, wanting a straight answer without a sales pitch.
+
+**journey_arc**
+- Verdict first (mostly no, one narrow exception)
+- Explain the mechanism: why the nail blocks OTC products
+- Break down what each OTC ingredient can and cannot do
+- Define the narrow case where OTC is a reasonable first move
+- Rule out the non-fungal look-alikes before spending more money
+- Give a hard stop rule and the next step
+
+**promise_to_deliver:** A straight verdict on whether OTC nail fungus treatments work, with the reason, and a clear rule for when to stop.
+
+**exit_state:** Relieved and decisive. Knows what to buy or skip, when to stop, and what to do next.
+
+---
+
+## SECTION 10: CONTENT STRUCTURE
+
+**h1:** Do OTC Nail Fungus Treatments Work? Mostly Not. Here's Why
+
+**h2_structure (7 H2s, informational spoke range 6-10)**
+1. Do OTC nail fungus treatments actually work?
+2. Why the nail blocks almost every drugstore treatment
+3. What each OTC ingredient actually does (and doesn't)
+4. When an OTC treatment is worth trying
+5. How to use OTC treatments so they have a fair shot
+6. Is it even fungus? Check before you buy another bottle
+7. When to stop and see a doctor
+
+**word_budget (total 1900)**
+- Introduction: 220
+- H2-1: 230
+- H2-2: 260
+- H2-3: 330
+- H2-4: 200
+- H2-5: 200
+- H2-6: 210
+- H2-7: 150
+- Conclusion: 150
+(Sum: 1,950. Trim H2-3 to 280 if running long to land at 1,900.)
+
+---
+
+## SECTION 11: INTERNAL LINKS (5 total, within 4-6 cap)
+
+| # | Anchor (verbatim) | URL | Placement | Type |
+|---|---|---|---|---|
+| 1 | what actually kills toenail fungus | /blog/nail-health/what-kills-toenail-fungus-instantly | H2-1 or H2-7, where real treatments are named | cluster-pillar |
+| 2 | comparing Jublia, ciclopirox, and terbinafine prescriptions | /blog/nail-health/jublia-vs-ciclopirox-vs-terbinafine | H2-7, on the prescription escalation | cluster-spoke |
+| 3 | which home remedies for nail fungus actually work | /blog/nail-health/toenail-fungus-home-remedies-that-work | H2-3, on the natural-remedy boundary | cluster-spoke |
+| 4 | how long it takes a nail to clear once treatment works | https://mirelleinspo.com/blog/nail-fungus/how-long-does-nail-fungus-take-to-clear | H2-5, on the timeline reality | cross-site |
+| 5 | what a nail fungus prevention routine looks like | https://mirelleinspo.com/blog/nail-fungus/nail-fungus-prevention | H2-7 or conclusion | cross-site |
+
+**Notes**
+- Links 1 to 3 are from the cluster map `links_to` for this post, anchors verbatim.
+- Cluster map also lists the existing post `nail-fungus-home-remedies` as a link target from this post, which overlaps link 3's territory. Link 3 is used as the cluster link; the existing-site home-remedies post is deliberately not added to avoid a sixth link and two links pointing at near-identical topics.
+- Cross-site link 4 was confirmed live and relevant in the site search (indexed June 17, 2026). Link 5 is an existing-post URL from the cluster's exclusion list; **it was not confirmed via search in this run**, so verify the URL resolves before publishing.
+
+---
+
+## SECTION 12: VOICE & TONE
+- **recommended_voice:** Blunt clinical translator
+- **tone_characteristics:** Direct, no hedging; evidence-anchored; protective of the reader's money; calm rather than alarmist; zero sales energy
+- **language_style:** Short declarative sentences, use "you," numbers over adjectives, one concrete analogy for the nail-as-barrier mechanism. Match the site's established house style ("No vague ranges, no hedging").
+- **audience_match:** The reader has already been burned by hedged advice and product hype. Directness reads as trustworthy.
+
+---
+
+## SECTION 13: EXTERNAL LINKS
+| URL | Context | Anchor suggestion |
+|---|---|---|
+| https://www.goodrx.com/conditions/fungal-infection/what-really-works-for-nail-fungus | Support the claim that oral terbinafine outperforms topicals (H2-3 or H2-7) | a board-certified dermatologist's review of nail fungus treatments |
+
+*(One qualifying source. The second-best fetched page, Balance Foot & Ankle, was excluded because it monetizes through affiliate links and is a direct commercial competitor to the post's stance.)*
+
+---
+
+## SECTION 14: FEATURED EXPERT
+- **expert_alias:** david-williams-dpm
+- **expert_quote:** (full text as in section 2)
+- **suggested_placement:** H2-2 ("Why the nail blocks almost every drugstore treatment"). The quote is a mechanism explanation, which is exactly what that section needs. A shorter extract ("Most, if not all, over-the-counter nail fungus treatments can't penetrate deep enough to kill the fungus that is attacking your toenail.") may also open the conclusion. All extracts word-for-word, meaning unchanged.
+
+> **Editorial caution for Blog Gen:** Dr. Williams's quote is categorical ("do not work well"). Real-world evidence (fetched pages, Drugs.com) supports "rarely and only for mild superficial cases," not "never." Write the post's verdict as "mostly no, with one narrow exception" and use the quote for the mechanism, not to overclaim a blanket "never." Do not attribute the 10-30% figure to Dr. Williams; it comes from a separate clinic page.
+
+---
+
+## SECTION 15: EXECUTION PLAN
+
+### Block 1: Keyword execution
+- **primary_keyword:** do otc nail fungus treatments work
+- **top_5_density_baseline:** 7.8 (real average from fetched pages)
+- **total_mention_target:** 7.8 + 2 to 3 = **10 total** (round 7.8 to 8, +2 = 10)
+- **first_100_words_plan:** Mention 1 in sentence 1 of the intro (opening question, tied to the frustration). Mention 2 in sentence 3 of the intro, delivering the verdict.
+- **first_half_target:** 6 mentions (first 950 words)
+- **second_half_target:** 4 mentions (second 950 words)
+- **strong_tag_rule:** Every one of the 10 mentions wrapped in `<strong>`. Scan after each paragraph.
+- **keywords_to_avoid_active:** full list from Section 3.
+
+### Block 2: Word budget
+- **total_target:** 1,900 (±50, never exceed)
+- Intro 220 | H2-1 230 (low) | H2-2 260 (medium) | H2-3 280 to 330 (high) | H2-4 200 (medium) | H2-5 200 (medium) | H2-6 210 (medium) | H2-7 150 (low) | Conclusion 150
+- **tracking_rule:** Check running total at the end of every H2. Cut before moving on if over.
+
+### Block 3: Image plan
+- **total_images:** 7 (hero + 6 body). Hero is frontmatter only, never in body.
+- **assignments**
+  1. After H2-1, `standard_inspiration`: bare, healthy-looking natural toenails on a clean neutral surface (the "after" state readers want)
+  2. After H2-2, `infographic`: nail cross-section showing nail plate, nail bed, and where fungus sits versus where a topical stops
+  3. After H2-3, `infographic`: OTC ingredient chart (terbinafine, undecylenic acid, tolnaftate/clotrimazole, urea) against what each does
+  4. After H2-4, `standard_inspiration`: clean, neutral pedicured natural toenails
+  5. After H2-6, `infographic`: quick decision checklist, fungus vs psoriasis vs trauma look-alikes
+  6. After H2-7, `standard_inspiration`: healthy new nail growth, soft natural finish
+- **image_type_rule:** Infographics are used only where the content genuinely needs a diagram. NEVER tool/equipment or hands-at-work images. NEVER photo-style side-by-side nail comparisons.
+- **path_rule:** `/images/blog/nail-health/do-otc-nail-fungus-treatments-work/filename.webp`
+
+### Block 4: Opening technique assignments
+- Introduction: Technique 1 (The Claim)
+- H2-1: Technique 3 (The Reframe)
+- H2-2: Technique 1 (The Claim)
+- H2-3: Technique 3 (The Reframe)
+- H2-4: Technique 1 (The Claim)
+- H2-5: Technique 3 (The Reframe)
+- H2-6: Technique 1 (The Claim)
+- H2-7: Technique 3 (The Reframe)
+- Conclusion: Technique 1 (The Claim)
+- Banned-opener check on every opener before writing the second sentence.
+
+### Block 5: Link placements
+Per Section 11. Anchors verbatim, woven into prose, never standalone CTAs. Full URLs as listed.
+
+### Block 6: AEO / GEO plan
+**AEO assignments** (write a direct 2-3 sentence answer immediately after the H2)
+- "Do OTC nail fungus treatments actually work?" → H2-1
+- "Why don't OTC nail fungus treatments work?" → H2-2
+- "What is the most effective OTC nail fungus treatment?" → H2-3
+- "Can OTC treatments cure early nail fungus?" → H2-4
+- "How do I know if my nail problem is actually fungus?" → H2-6
+- "How long should I use an OTC treatment before seeing a doctor?" → H2-7
+
+**GEO entity statements**
+- **Onychomycosis** → H2-1: "Onychomycosis is a fungal infection of the nail plate, nail bed, or nail matrix, most often caused by dermatophytes such as Trichophyton rubrum."
+- **Nail plate vs nail bed** → H2-2: clear declarative definition of each and which one holds the fungus.
+- **Fungicidal vs fungistatic** → H2-3: one sentence each, confident, no hedging.
+
+### Block 7: Active constraints
+- **em_dash_banned:** No long em dash anywhere. Use a comma, new sentence, parentheses, or restructure.
+- **banned_vocab_watch:** (populate from the Blog Gen banned list; most likely to slip in on this topic) "game-changer," "unlock," "delve," "crucial," "navigate," "landscape," "robust," "seamless"
+- **american_english_active:** color, recognize, -ize. No British spellings.
+- **keyword_density_reminder:** After every 2 H2s, verify the running count is on track for 10 total; first half denser than second.
+- **image_path_reminder:** `/images/blog/nail-health/do-otc-nail-fungus-treatments-work/`
+- **internal_link_url_reminder:** Full paths. Cluster links = `/blog/nail-health/[slug]`. Cross-site = exact URL as given.
+- **hero_image_reminder:** Frontmatter only.
+- **strong_tag_reminder:** Every primary keyword mention in `<strong>`.
+- **expert_quote_reminder:** `expert: david-williams-dpm` in frontmatter. Quote or word-for-word extracts only, meaning unchanged.
+- **medical_claim_reminder:** Only state figures that appear in this file's sources: OTC topicals work in roughly 10-30% of mild early cases (clinic source, not peer-reviewed in-page); oral terbinafine cures roughly 70-80% (clinic source), with GoodRx citing 63-76% and up to 90% across its own references. **The sources disagree on oral cure rates. Use a range and attribute it ("clinic estimates run 63% to 80%"), do not pick one number as fact.**
+- **diabetes reminder:** People with diabetes should not self-treat nail fungus. State plainly in H2-7.
