@@ -1,0 +1,244 @@
+{
+  "cluster_metadata": {
+    "cluster_topic": "November Nails",
+    "topic_slug": "november-nails",
+    "show_inspo_gallery_link_cluster_default": false,
+    "target_audience": "Global, Tier 1 countries",
+    "total_posts": 3,
+    "intent_breakdown": {
+      "informational": 1,
+      "inspirational": 2,
+      "tutorial": 0,
+      "comparison": 0,
+      "seasonal_trend": 0
+    },
+    "pillar_post_slug": "november-nail-ideas",
+    "created_date": "2026-09-27"
+  },
+  "existing_site_posts_excluded": [
+    {
+      "url": "https://mirelleinspo.com/blog/fall/fall-nail-ideas",
+      "title": "Fall Nail Ideas 2026: 60+ Colors & Designs to Try",
+      "inferred_primary_keyword": "fall nails / fall nail ideas",
+      "inferred_intent": "inspirational",
+      "exclusion_reason": "Already exists on mirelleinspo.com — keyword reserved (fall-level pillar)"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/september/september-nails",
+      "title": "September Nails 2026: 48 Trending Ideas",
+      "inferred_primary_keyword": "september nails",
+      "inferred_intent": "inspirational",
+      "exclusion_reason": "Already exists on mirelleinspo.com — sibling monthly pillar"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/october-nails/october-nail-trends",
+      "title": "October Nail Trends 2026: 7 Looks Nobody's Doing Yet",
+      "inferred_primary_keyword": "october nail trends",
+      "inferred_intent": "seasonal_trend",
+      "exclusion_reason": "Already exists on mirelleinspo.com — sibling monthly pillar"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/october-nails/short-october-nails",
+      "title": "35 Short October Nails You'll Actually Wear",
+      "inferred_primary_keyword": "short october nails",
+      "inferred_intent": "inspirational",
+      "exclusion_reason": "Already exists on mirelleinspo.com — sibling monthly spoke (pattern precedent for short-november-nails)"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/fall-nails/fall-chrome-nails",
+      "title": "20 Fall Chrome Nail Designs That Are Trending Right Now",
+      "inferred_primary_keyword": "fall chrome nails",
+      "inferred_intent": "seasonal_trend",
+      "exclusion_reason": "Already exists on mirelleinspo.com — content explicitly spans September through November, keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/fall/tortoiseshell-nails-fall",
+      "title": "Tortoiseshell Nails: The Fall 2026 Trend Everyone Wants",
+      "inferred_primary_keyword": "tortoiseshell nails fall",
+      "inferred_intent": "seasonal_trend",
+      "exclusion_reason": "Already exists on mirelleinspo.com — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/fall-nails/fall-almond-nails",
+      "title": "30+ Fall Almond Nails You'll Actually Want to Copy",
+      "inferred_primary_keyword": "fall almond nails",
+      "inferred_intent": "inspirational",
+      "exclusion_reason": "Already exists on mirelleinspo.com — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/fall/burgundy-fall-nails",
+      "title": "Burgundy Fall Nails: The Shade Guide Nobody Explains",
+      "inferred_primary_keyword": "burgundy fall nails",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists on mirelleinspo.com — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/fall-nails/simple-fall-nails",
+      "title": "Simple Fall Nails 2026: 15 Easy Designs Anyone Can DIY",
+      "inferred_primary_keyword": "simple fall nails",
+      "inferred_intent": "tutorial",
+      "exclusion_reason": "Already exists on mirelleinspo.com — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/chrome-nails/chrome-nail-trends-2026",
+      "title": "Chrome Nail Trends 2026: Every Finish Dominating",
+      "inferred_primary_keyword": "chrome nail trends",
+      "inferred_intent": "seasonal_trend",
+      "exclusion_reason": "Already exists on mirelleinspo.com — keyword reserved"
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/almond-vs-coffin-nails",
+      "title": "Almond vs Coffin Nails: Which One Actually Flatters You",
+      "inferred_primary_keyword": "almond vs coffin nails",
+      "inferred_intent": "comparison",
+      "exclusion_reason": "Already exists on mirelleinspo.com — evergreen comparison, keyword reserved"
+    }
+  ],
+  "posts": [
+    {
+      "post_id": 1,
+      "role": "pillar",
+      "title": "November Nails 2026: 40+ Trending Ideas & Colors to Try",
+      "slug": "november-nail-ideas",
+      "primary_keyword": "november nails",
+      "intent": "inspirational",
+      "search_mode": "inspiration_mode",
+      "suggested_hook_trigger": "Trigger 2 — FOMO/Trend",
+      "search_demand_signals": [
+        "Parade: '35 Best November Nail Ideas To Inspire Your Fall Manicures'",
+        "AOL/Byrdie: four separate November nail roundups (30, 25, 20, 9 idea formats)",
+        "Cosmopolitan: 'The Most Popular Nail Colors and Designs to Try in November'",
+        "iGel Beauty: '23 Trendy November Nail Ideas Perfect For Thanksgiving'",
+        "Pinterest: dedicated 108-pin 'November nails' board with active recent saves",
+        "InStyle: two separate November-specific roundups (chrome finish, gel finish)"
+      ],
+      "why_included": "Highest-volume, most broadly validated keyword on the topic across major fashion/beauty publications and Pinterest. Matches mirelleinspo's own established monthly-cluster pattern (September Nails, October Nails already published), making this the natural next entry.",
+      "expertise_type": "trend_forecaster",
+      "featured_expert": {
+        "note": "The site's expert frontmatter field is a SLUG/ALIAS that resolves against src/data/experts.ts at render time — that file holds the expert's full bio/socials, which this pipeline never needs to touch or carry. This pipeline only ever needs two things per post: the expert's alias (must match an existing experts.ts entry) and their quote. For trend_forecaster, alias is the fixed RI alias and a quote from RI is still required.",
+        "alias": "RI",
+        "quote": null,
+        "source": "internal_fixed_alias"
+      },
+      "internal_links": {
+        "links_to": [
+          { "slug": "short-november-nails", "anchor_text": "short november nails for cold weather", "type": "spoke" },
+          { "slug": "november-nail-colors-skin-tone", "anchor_text": "november nail colors for every skin tone", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "short-november-nails", "anchor_text": "the full november nails 2026 roundup" },
+          { "slug": "november-nail-colors-skin-tone", "anchor_text": "the full november nails 2026 roundup" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 2,
+      "role": "spoke",
+      "title": "Short November Nails: 25 Ideas That Actually Work in Cold Weather",
+      "slug": "short-november-nails",
+      "primary_keyword": "short november nails",
+      "intent": "inspirational",
+      "search_mode": "inspiration_mode",
+      "suggested_hook_trigger": "Trigger 3 — Specificity/Numbers",
+      "search_demand_signals": [
+        "AOL/Byrdie: '20 Short Nail Ideas for November, from Mesmerizing Metallics to Vampy Violets'",
+        "Semilac: 'Why Short Nails Are the Best Choice for Autumn' (practicality angle)",
+        "Woman & Home: 'These short winter nails marry cosiness with luxury'"
+      ],
+      "why_included": "Distinct length/shape-specific entity with real dedicated demand, separate from the general pillar roundup. Mirrors the site's own short-october-nails spoke pattern from the previous monthly cluster.",
+      "expertise_type": "design_led",
+      "internal_links": {
+        "links_to": [
+          { "slug": "november-nail-ideas", "anchor_text": "november nails 2026 ideas", "type": "pillar" },
+          { "slug": "november-nail-colors-skin-tone", "anchor_text": "november nail colors for every skin tone", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "november-nail-ideas", "anchor_text": "short november nails for cold weather" },
+          { "slug": "november-nail-colors-skin-tone", "anchor_text": "short november nails for cold weather" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 3,
+      "role": "spoke",
+      "title": "November Nail Colors for Every Skin Tone",
+      "slug": "november-nail-colors-skin-tone",
+      "primary_keyword": "november nail colors for skin tone",
+      "intent": "informational",
+      "search_mode": "decision_mode",
+      "suggested_hook_trigger": "Trigger 1 — Curiosity Gap",
+      "search_demand_signals": [
+        "Manucurist: 'What nail polish colors should you wear in November' (skin-tone-flattering framing)",
+        "BTArtbox Nails: 'November Nail Colors' with explicit fair/medium skin tone + undertone breakdown",
+        "TheGrayDetails: 'November Nails: Chic & Trendy Ideas for Fall' (color-by-vibe breakdown)"
+      ],
+      "why_included": "Decision-intent keyword distinct from both the general pillar and the fall-level burgundy-fall-nails post (which is single-shade, not skin-tone-matching). No existing site coverage of this angle.",
+      "expertise_type": "colorist_makeup_artist",
+      "featured_expert": {
+        "note": "The site's expert frontmatter field is a SLUG/ALIAS that resolves against src/data/experts.ts at render time — that file holds the expert's full bio/socials, which this pipeline never needs to touch or carry. Alias and quote are pending until sourced via the Connectively query below, then the responding expert must first be added to src/data/experts.ts (one-time setup, done by the site owner) before their alias can be used here.",
+        "alias": null,
+        "quote": null,
+        "source": "connectively_pending"
+      },
+      "internal_links": {
+        "links_to": [
+          { "slug": "november-nail-ideas", "anchor_text": "november nails 2026 ideas", "type": "pillar" },
+          { "slug": "short-november-nails", "anchor_text": "short november nails for cold weather", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "november-nail-ideas", "anchor_text": "november nail colors for every skin tone" },
+          { "slug": "short-november-nails", "anchor_text": "november nail colors for every skin tone" }
+        ]
+      },
+      "status": "approved"
+    }
+  ],
+  "keyword_ownership_registry": {
+    "description": "Master list of all primary keywords — one per post, no overlaps, includes existing site posts",
+    "entries": [
+      { "primary_keyword": "november nails", "owned_by_slug": "november-nail-ideas", "owned_by_title": "November Nails 2026: 40+ Trending Ideas & Colors to Try", "source": "new post" },
+      { "primary_keyword": "short november nails", "owned_by_slug": "short-november-nails", "owned_by_title": "Short November Nails: 25 Ideas That Actually Work in Cold Weather", "source": "new post" },
+      { "primary_keyword": "november nail colors for skin tone", "owned_by_slug": "november-nail-colors-skin-tone", "owned_by_title": "November Nail Colors for Every Skin Tone", "source": "new post" },
+      { "primary_keyword": "fall nails / fall nail ideas", "owned_by_slug": "fall-nail-ideas", "owned_by_title": "Fall Nail Ideas 2026: 60+ Colors & Designs to Try", "source": "existing site post" },
+      { "primary_keyword": "september nails", "owned_by_slug": "september-nails", "owned_by_title": "September Nails 2026: 48 Trending Ideas", "source": "existing site post" },
+      { "primary_keyword": "october nail trends", "owned_by_slug": "october-nail-trends", "owned_by_title": "October Nail Trends 2026", "source": "existing site post" },
+      { "primary_keyword": "short october nails", "owned_by_slug": "short-october-nails", "owned_by_title": "35 Short October Nails You'll Actually Wear", "source": "existing site post" },
+      { "primary_keyword": "fall chrome nails", "owned_by_slug": "fall-chrome-nails", "owned_by_title": "20 Fall Chrome Nail Designs", "source": "existing site post" },
+      { "primary_keyword": "tortoiseshell nails fall", "owned_by_slug": "tortoiseshell-nails-fall", "owned_by_title": "Tortoiseshell Nails: The Fall 2026 Trend", "source": "existing site post" },
+      { "primary_keyword": "fall almond nails", "owned_by_slug": "fall-almond-nails", "owned_by_title": "30+ Fall Almond Nails", "source": "existing site post" },
+      { "primary_keyword": "burgundy fall nails", "owned_by_slug": "burgundy-fall-nails", "owned_by_title": "Burgundy Fall Nails: The Shade Guide", "source": "existing site post" },
+      { "primary_keyword": "simple fall nails", "owned_by_slug": "simple-fall-nails", "owned_by_title": "Simple Fall Nails 2026", "source": "existing site post" },
+      { "primary_keyword": "chrome nail trends", "owned_by_slug": "chrome-nail-trends-2026", "owned_by_title": "Chrome Nail Trends 2026", "source": "existing site post" },
+      { "primary_keyword": "almond vs coffin nails", "owned_by_slug": "almond-vs-coffin-nails", "owned_by_title": "Almond vs Coffin Nails", "source": "existing site post" }
+    ]
+  },
+  "merged_posts_log": [],
+  "killed_posts_log": [
+    { "topic": "November chrome nails", "reason": "Cannibalizes existing fall-chrome-nails, which explicitly claims September through November" },
+    { "topic": "November tortoiseshell nails", "reason": "Cannibalizes existing tortoiseshell-nails-fall" },
+    { "topic": "November almond vs coffin comparison", "reason": "Cannibalizes existing evergreen almond-vs-coffin-nails" },
+    { "topic": "November burgundy nails", "reason": "Too close to existing burgundy-fall-nails; no distinct November-specific angle found" },
+    { "topic": "Gel vs dip powder for November", "reason": "Generic evergreen comparison; no November-specific search demand found" },
+    { "topic": "Easy/DIY November nail tutorial", "reason": "Generic; cannibalizes existing simple-fall-nails at the fall level" },
+    { "topic": "Dark academia nails for November", "reason": "All demand found is fall-general, not November-dated; no November-branded search demand located" },
+    { "topic": "Old money / quiet luxury nails for November", "reason": "Strong fall/winter demand exists everywhere but zero November-specific search signal found; risked topic-coverage rather than proven intent" },
+    { "topic": "November birthstone (topaz/citrine) nail art", "reason": "Demand found is jewelry-focused, not nail-art-specific; only one weak nail-adjacent source" },
+    { "topic": "TikTok viral November nail trend", "reason": "No distinct current November-specific viral trend found beyond signals already captured in the pillar" },
+    { "topic": "Thanksgiving nail ideas", "reason": "User is building this as a separate, standalone cluster — removed from this cluster at user's request" },
+    { "topic": "November nail care / winter nail health", "reason": "User is building this as a separate, standalone cluster — removed from this cluster at user's request" },
+    { "topic": "Cozy plaid & sweater-texture nails for November", "reason": "User is building this as a separate, standalone cluster — removed from this cluster at user's request" }
+  ],
+  "expertise_and_sourcing": {
+    "context_note": "This block explains the expertise system for anyone reading this file later. Every post above is tagged expertise_type. The site's expert frontmatter field is a SLUG/ALIAS resolved against src/data/experts.ts at render time — that file holds each expert's full bio and socials, which this content pipeline never needs to carry or see. trend_forecaster posts always use the fixed author alias RI as the featured expert, and RI still supplies a quote per post like any other expert. design_led posts need no expert at all. All other expertise types require a real external expert, sourced via Connectively: the publisher posts the query below, an expert responds, and once they are added as a new entry in src/data/experts.ts (one-time setup, done outside this pipeline), only their alias and their quote are pasted into Input Gen Agent for that specific post — which writes the alias into the expert frontmatter field and works the quote into the article body. No bio or social links are ever needed by Input Gen Agent or Blog Gen Agent — experts.ts already has them.",
+    "connectively_queries": [
+      {
+        "query_id": 1,
+        "expertise_type": "colorist_makeup_artist",
+        "covers_post_slugs": ["november-nail-colors-skin-tone"],
+        "query_text": "I'm working on a piece about choosing November/late-fall nail polish colors based on skin tone and undertone — think cool vs. warm undertones, and how shades like burgundy, chocolate brown, olive, and deep jewel tones read differently across fair, medium, and deep skin tones. I'd love a quotable take from a colorist or makeup artist on how to actually pick the right shade for your own undertone rather than just following a generic seasonal color list. Happy to credit you and link back to your work — if you'd like to be featured, let me know your name and where people can find you."
+      }
+    ]
+  }
+}
