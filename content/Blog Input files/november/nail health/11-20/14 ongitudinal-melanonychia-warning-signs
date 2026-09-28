@@ -1,0 +1,462 @@
+{
+  "section_1_file_authority": "THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded. Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.",
+
+  "section_2_post_constants": {
+    "slug": "longitudinal-melanonychia-warning-signs",
+    "topic_slug": "nail-health",
+    "canonical": "https://mirelleinspo.com/blog/nail-health/longitudinal-melanonychia-warning-signs",
+    "post_type": "spoke",
+    "intent": "informational",
+    "word_count": 2650,
+    "image_count": 7,
+    "show_inspo_gallery_link": false,
+    "template": "posts",
+    "hero_dimensions": "1200x675",
+    "category": "Nail Health",
+    "publish_date": "2026-09-28",
+    "author": "jyoti-mirelle",
+    "expertise_type": "licensed_derm_or_nail_health_expert",
+    "expert_alias": "cameron-rokhsar-md",
+    "expert_quote": "A benign pigmented band, called longitudinal melanonychia, is usually a single narrow streak, uniform in color and width from cuticle to nail tip, with sharp parallel edges, and it stays essentially unchanged over months... What worries me clinically follows the same ABCDEF framework we use for skin melanoma, adapted for nails. A is age, since new pigmented bands appearing after age fifty deserve more scrutiny. B is a band wider than three millimeters or one with blurred, irregular borders and variegated color rather than uniform brown. C is rapid change in size, shape, or darkness. D is a single digit involved, especially the thumb, big toe, or index finger. E is extension of pigment onto the surrounding skin fold, called Hutchinson's sign, which is a genuine red flag. F is a family or personal history of melanoma. Any band that is new, changing, wider than a pencil eraser's rim, or bleeding through the nail plate should get a same-week dermatology visit and often a nail matrix biopsy rather than a watch-and-wait approach."
+  },
+
+  "section_3_cluster_snapshot": {
+    "pillar_slug": "what-kills-toenail-fungus-instantly",
+    "pillar_title": "What Kills Toenail Fungus Instantly? What Actually Works",
+    "pillar_primary_keyword": "what kills toenail fungus instantly",
+    "this_post_slug": "longitudinal-melanonychia-warning-signs",
+    "this_post_role": "spoke",
+    "parent_hub_note": "This spoke's hub is the nail-color-meaning-health pillar (post 9), which links to it. The cluster has multiple pillars.",
+    "show_inspo_gallery_link_cluster_default": false,
+    "keywords_to_avoid": [
+      "toenail fungus", "toenail fungus causes", "toenail fungus symptoms", "toenail fungus treatment", "toenail fungus stages", "toenail fungus vs nail psoriasis", "is toenail fungus contagious", "nail fungus (all variants)", "nail polish toenail fungus",
+      "vertical ridges on nails causes and fixes", "why are my nails weak and brittle", "does biotin work for nails",
+      "hema allergy symptoms", "what is hema",
+      "beau's lines (post 11)", "spoon nails (post 10)", "white spots on nails (post 12)", "nail color meaning (post 9)", "can toenail fungus kill you (post 2)", "nail psoriasis vs fungus (post 13)", "paronychia (post 6)", "infected ingrown toenail (post 7)", "diabetic nail care (post 17)",
+      "what is a cuticle", "how to stop picking cuticles", "why do i keep getting hangnails"
+    ],
+    "drift_warnings": "Do NOT let this post become a 'beau's lines' or 'nail color' post. Horizontal grooves belong to post 11. General color meaning belongs to post 9. Splinter hemorrhage and subungual hematoma may appear ONLY as brief differential-diagnosis mentions, never as focus sections. Fungal causes of pigment get one short mention, no fungus-treatment content. The distinctive lane of this post is the vertical brown-black band and the melanoma decision."
+  },
+
+  "section_4_serp_analysis": {
+    "blog_gen_instruction": "our_strategic_approach is a specific, evidence-based outperform strategy. Use it as the concrete angle for the introduction and conclusion, and to guide depth and coverage decisions in relevant H2 sections.",
+    "top_5_fetched_pages_summary": [
+      {
+        "url": "https://my.clevelandclinic.org/health/diseases/melanonychia",
+        "word_count": 930,
+        "h2_count": 5,
+        "keyword_mentions": "0 exact 'dark line on nail' (uses 'dark line in your fingernail' once in meta); primary term is 'melanonychia'",
+        "note": "Authoritative and clean, but thin. Definition and cause list dominate. ABCDEF is just a bare list of letters with no explanation. No photos guidance, no action timeline, no bruise-vs-melanoma test."
+      },
+      {
+        "url": "https://www.doctronic.ai/blog/black-lines-on-fingernails-when-a-nail-streak-could-signal-melanoma/",
+        "word_count": 1900,
+        "h2_count": 9,
+        "keyword_mentions": "'dark line' 1 in body ('A dark line in the nail that has changed...'); primary framing is 'black lines on fingernails'",
+        "note": "Best practical section of the five: 'When to Stop Watching and Start Acting' with a phone-photo baseline and a 2 to 3 month rule, and a fingernail-vs-toenail growth-rate discussion. Weak on brand authority (AI telehealth product pitch), and its FAQ repeats the body."
+      },
+      {
+        "url": "https://www.healthline.com/health/black-line-on-the-nail",
+        "word_count": 1050,
+        "h2_count": 6,
+        "keyword_mentions": "'black line on the nail' about 4; 'dark' 1",
+        "note": "Confuses the topic: leads with splinter hemorrhages and Beau's lines, and its opening sentence mislabels horizontal lines as melanonychia. Thin melanoma coverage. Last updated Feb 2024. A clear accuracy gap to exploit."
+      },
+      {
+        "url": "https://www.webmd.com/skin-problems-and-treatments/what-to-know-melanonychia",
+        "word_count": 2350,
+        "h2_count": 8,
+        "keyword_mentions": "'dark line' about 5",
+        "note": "Deepest consumer page: skin-tone prevalence numbers, full ABCDEF with explanations, FAQ on when to be concerned. But it buries the decision under a long etiology taxonomy (melanocytic activation vs proliferation, HPV, alcaptonuria) and never says what to do this week."
+      },
+      {
+        "url": "https://www.ccjm.org/content/83/5/385",
+        "word_count": 3100,
+        "h2_count": 8,
+        "keyword_mentions": "0 exact; uses 'longitudinal melanonychia' and 'brown-black lines'",
+        "note": "Clinician-facing journal review (2016). Most rigorous referral criteria (6 mm width, wider proximally than distally, single digit, fair-skinned patient) but written for internists, and 4 of its 8 sections cover white and red lines, not this topic."
+      }
+    ],
+    "top_5_word_count_average": 1866,
+    "top_5_keyword_density_average": "About 2 mentions of the exact phrase 'dark line on nail' per page (real range 0 to 5). Exact-match usage is low across the SERP because pages say 'melanonychia' or 'black lines'. Target computed in section_15.",
+    "competitor_gaps": [
+      "Bruise vs melanoma test (does the mark move with the nail, is it a solid smudge or a stripe). Demand: PAA, Quora ('is it a bruise'), Pinterest pin 'Normal Black Line Under Fingernail vs. Melanoma Streak', multiple clinic SERP results. Only Cleveland Clinic's separate subungual melanoma page addresses it; none of the 5 fetched pages do.",
+      "What to do this week: a concrete timeline (photograph now, ruler beside it, recheck in 4 weeks, see a dermatologist promptly if any change or if no clear cause after 2 to 3 months). Demand: Quora ('I have had this for 12 years, should I get it checked'), YouTube titles. Only Doctronic touches it.",
+      "What the biopsy and appointment actually involve (dermoscopy first, nail matrix biopsy, local anesthesia, possible temporary nail change). Demand: Quora anxiety questions, YouTube. Covered only superficially by Doctronic.",
+      "'I have had this for years and it hasn't changed' reassurance path (stability over time as the key benign signal). Demand: Quora (12-year thumb line), Pinterest 'faint black line on nail for years'.",
+      "Nail technician angle: what to say when a client has a dark streak, and why a salon should never cover it with gel. Demand: SalonGeek thread, professional-forum presence. Zero competitor coverage; strong fit for a nail-industry publisher audience.",
+      "Skin-tone-specific guidance (a line in several nails is often normal in darker skin, but a single changing band still matters). Covered only as a prevalence stat by WebMD and Doctronic; nobody frames it as a decision rule."
+    ],
+    "missing_semantic_territory": [
+      "'dark line on thumbnail', 'dark line on big toenail', 'brown line on nail' (digit-specific long tail)",
+      "'nail melanoma vs bruise', 'normal black line vs melanoma'",
+      "'photograph your nail', 'track a nail streak', 'how often to check'",
+      "'pseudo-Hutchinson sign' (distinguishing true from false Hutchinson; only a PMC case series covers it)",
+      "'dark line on nail after gel manicure or nail salon' (nail-industry crossover)"
+    ],
+    "our_strategic_approach": "Every top result is either a definition-and-taxonomy page (Cleveland Clinic, WebMD, Healthline) or a clinician journal review (CCJM), and none lead with the single decision the reader arrived to make: is my line dangerous, and what do I do this week. This post opens with that answer, then teaches the ABCDEF rule in plain English using Dr. Rokhsar's exact criteria and thresholds (he gives the same-week visit guidance the SERP lacks). It adds the two most demand-validated gaps competitors skip entirely: a bruise-vs-melanoma test and a dated photograph-and-recheck plan. It avoids Healthline's error of mixing in splinter hemorrhages and Beau's lines as headline topics. A short nail-tech section is the structural edge: no ranking page speaks to salon professionals or clients, and this publisher's audience is exactly that. Length lands near the SERP average because the winning move is precision and actionability, not volume.",
+    "recommended_image_count_validation": "image_count 7 (hero + 6 body) confirmed. SERP pages carry 1 to 3 images each; a 7-image plan with labeled illustration-style infographics exceeds them without violating the no-tool, no-side-by-side-photo rule."
+  },
+
+  "section_5_audience_intelligence": {
+    "blog_gen_instruction": "This is your primary creative brief. Every paragraph written for this specific person with this specific intent. Satisfy them completely.",
+    "who_they_are": "Adults, mostly 30 to 60, who just noticed a brown or black stripe on a nail (often thumb, index finger, or big toe) and Googled it. Several are nail-service clients or nail professionals who noticed it during a manicure. Many already read 'melanoma' in results and are frightened. Beginner level: they do not know the word melanonychia.",
+    "what_they_want_from_this_post": "A calm, honest verdict framework: what makes a line reassuring vs urgent, a clear yes/no on whether to see a doctor and how fast, and what happens at the appointment. Also permission to stop panicking if the line is old, faint, and unchanged.",
+    "what_frustrates_them": "Pages that bury the answer under anatomy and cause lists; pages that say 'see a doctor' with no guidance on urgency; clinical jargon (matrix, hyperplasia); scare framing with no way to self-triage; conflicting advice ('a stripe is melanoma' on Quora vs 'usually harmless' from clinics).",
+    "top_5_pain_points": [
+      "Cannot tell a harmless streak from melanoma by looking, and fears being wrong either way",
+      "Does not know whether waiting is safe or how long is too long",
+      "Unsure if it is just a bruise or old injury, especially on a big toe",
+      "Line has been there for years and they do not know if that is reassuring or a delayed red flag",
+      "Afraid of a biopsy and does not know what the appointment involves"
+    ],
+    "exact_user_phrases": [
+      "I have a dark line on my fingernail. Should I be worried?",
+      "I've had it on my thumb for around 12 years",
+      "I recently looked it up on Google and saw some things about cancer",
+      "Why is there a dark line on my big toenail? I'm very concerned",
+      "Is it a bruise or melanoma?",
+      "faint black line on nail for years",
+      "a straight black line that wasn't there before",
+      "black line running down my nail from the cuticle",
+      "line across my nail",
+      "Is it serious?",
+      "should I get it checked out?"
+    ],
+    "intent_content_signals": [
+      "Leads with a direct verdict, then depth (Doctronic and Cleveland Clinic both open on 'usually harmless, sometimes not')",
+      "Checklist format for warning signs (WebMD FAQ bullets earn real engagement)",
+      "Named expert with specific thresholds beats generic 'see a doctor' (Dr. Rokhsar's same-week guidance is the differentiator)",
+      "Short, scannable sections; the audience is anxious and skims",
+      "Pinterest saves cluster on 'normal vs melanoma' comparison framing",
+      "YouTube dermatologist explainers dominate video demand, so the audience trusts a doctor voice",
+      "Reassurance plus urgency in the same page: calm tone, no scare tactics"
+    ]
+  },
+
+  "section_6_semantic_keyword_data": {
+    "blog_gen_instruction": "Primary keyword in strong tags every mention. AEO terms trigger direct answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as focus term.",
+    "primary_keyword": "dark line on nail",
+    "keyword_variations": [
+      "dark line on your nail",
+      "dark line on fingernail",
+      "dark line on toenail",
+      "dark line on thumbnail",
+      "dark line down the nail",
+      "dark streak on nail",
+      "brown line on nail",
+      "black line on nail",
+      "dark vertical line on nail"
+    ],
+    "cluster_keywords": [
+      "longitudinal melanonychia", "melanonychia striata", "linear melanonychia", "subungual melanoma", "nail melanoma", "nail matrix", "nail matrix biopsy", "nail streak", "pigmented nail band", "Hutchinson's sign", "pseudo-Hutchinson sign", "nail mole (nevus)", "nail dermoscopy", "ABCDEF rule for nails"
+    ],
+    "lsi_terms": [
+      "melanocytes", "melanin", "nail plate", "proximal nail fold", "cuticle", "band width", "blurred borders", "variegated color", "uniform color", "single digit", "high-risk digit", "thumb, index finger, big toe", "pigment spreading to the skin", "photograph baseline", "same-week dermatology visit", "watch-and-wait", "skin of color", "Fitzpatrick skin type", "benign melanocytic activation", "lentigo", "subungual hematoma", "nail growth rate"
+    ],
+    "aeo_terms": [
+      "What does a dark line on a nail mean?",
+      "When should I worry about a dark line on my nail?",
+      "How do I tell if a dark line on my nail is melanoma?",
+      "Is a dark line on a nail a bruise or melanoma?",
+      "Can a dark line on a nail go away on its own?",
+      "What is longitudinal melanonychia?",
+      "What is Hutchinson's sign on a nail?",
+      "What does the ABCDEF rule mean for nails?",
+      "How is a dark nail line diagnosed?",
+      "Is a dark line on a nail normal for darker skin?",
+      "Does a dark line on the nail always mean cancer?"
+    ],
+    "technical_terms": [
+      "longitudinal melanonychia", "nail matrix biopsy", "dermoscopy (onychoscopy)", "Hutchinson's sign", "subungual melanoma", "melanocytic hyperplasia", "melanocytic activation"
+    ],
+    "user_language": [
+      "a dark stripe down my nail",
+      "black line running from the cuticle",
+      "it wasn't there before",
+      "I've had it for years",
+      "should I get it checked out",
+      "is it serious",
+      "I read something about nail cancer",
+      "it looks like a line drawn with a marker"
+    ]
+  },
+
+  "section_7_voice_and_ai_queries": {
+    "blog_gen_instruction": "Answer every query directly in the relevant H2 section body. If a query cannot be addressed naturally in the body, route it to faqItems. No query left unanswered.",
+    "queries": [
+      "What does a dark line on a nail mean?",
+      "Is a dark line on my nail cancer?",
+      "When should I be worried about a dark line on my nail?",
+      "How can I tell if a dark line on my nail is melanoma?",
+      "Is a dark line on my nail a bruise or melanoma?",
+      "Will a dark line on my nail go away on its own?",
+      "Why do I have a dark line on my thumbnail?",
+      "Why is there a dark line on my big toenail?",
+      "Is a dark line on a nail normal for people with darker skin?",
+      "Can pregnancy cause a dark line on a nail?",
+      "What is Hutchinson's sign?",
+      "What happens at a dermatologist appointment for a dark nail line?",
+      "Do I need a biopsy for a dark line on my nail?",
+      "How long can I wait before getting a dark nail line checked?",
+      "Can I cover a dark line on my nail with gel polish?",
+      "Is a dark line on one nail worse than lines on several nails?"
+    ]
+  },
+
+  "section_8_hook_and_ctr": {
+    "blog_gen_instruction": "READ THIS SECTION BEFORE WRITING THE TITLE, META DESCRIPTION, INTRO, OR FIRST H2. Title and description are the option Input Gen Agent selected internally from evidence-based candidates. Use them exactly. The intro hook brief and first H2 hook direction are your creative brief for those elements.",
+    "real_serp_findings_summary": "The five fetched titles split into definition-led ('What Is Melanonychia?', 'Melanonychia: What It Is, Causes & Treatment'), symptom-led ('Black Line on the Nail: Should You Worry?'), and warning-led ('Black Lines on Nails: Causes, Warning Signs & When to Worry'). Three of five use the clinical term 'melanonychia' instead of what readers type, and none front-loads the exact phrase 'dark line on nail' or promises a specific self-check. Healthline is the only one that asks the reader's question directly, but it opens by mixing up the condition.",
+    "selected_option_rationale": "Front-loads the exact searched phrase, names the two-outcome decision the reader is stuck on (harmless vs melanoma) instead of a definition, and pairs it with a concrete promise (the one sign to check) that no ranking title makes.",
+    "title": "Dark Line on Nail: Harmless Streak or Melanoma?",
+    "title_char_count": 47,
+    "title_char_count_note": "47 chars. Below the 55-60 target band. Acceptable because it front-loads the keyword in the first 3 words and stays well under the 60 cap; adding qualifiers would dilute the two-outcome hook. Blog Gen Agent uses it exactly as written.",
+    "meta_description": "Found a dark line on your nail? Learn the ABCDEF warning signs, how to tell a bruise from melanoma, and when to see a dermatologist this week.",
+    "meta_char_count": 143,
+    "intro_hook_brief": "Open on the reader's exact moment: staring at a stripe they cannot stop looking at, one Google search away from a frightening word. State the calming truth first (most are harmless) and the honest caveat second (a few are not, and the difference is checkable). Promise that by the end they will know which side of that line they are on and what to do this week. Use the Trigger 1 curiosity gap: 'the one sign that matters more than color.' Do not open with a definition or an anatomy lesson.",
+    "first_h2_hook_direction": "Frame the first H2 as the direct answer to the searched question in plain language (e.g. 'What a dark line on your nail usually means'), not the clinical term. Answer it in the first two sentences before any elaboration."
+  },
+
+  "section_9_search_journey": {
+    "blog_gen_instruction": "This is the emotional contract with the reader. Every section must honour the promise made. If a paragraph breaks the journey arc, rewrite it.",
+    "reader_arrival_state": "Anxious and slightly frightened after seeing 'melanoma' in search results, wanting a clear verdict but braced for either false reassurance or a scare page.",
+    "journey_arc": [
+      "Calm the panic with the honest base rate: most dark lines are harmless, and here is why (what the line actually is)",
+      "Teach the self-check: stable-and-narrow vs changing-and-wide, using Dr. Rokhsar's ABCDEF in plain English",
+      "Separate lookalikes: bruise vs melanoma, several nails vs one, skin tone, pregnancy",
+      "Convert worry to action: photograph today, recheck on a date, and the exact triggers for a same-week visit",
+      "Remove fear of the appointment: dermoscopy, the biopsy, what results mean; close with the nail-tech and client guidance"
+    ],
+    "promise_to_deliver": "You will know whether your dark line looks harmless or needs a dermatologist, and exactly what to do this week either way.",
+    "exit_state": "Calmer and in control: clear on their own line's risk level, with a dated plan and no lingering dread."
+  },
+
+  "section_10_content_structure": {
+    "blog_gen_instruction": "This H2 structure is research-driven and must be followed exactly. Do not rename, reorder, or remove H2s without user instruction. Word budget per section is set. H3s may be added at editorial discretion.",
+    "h1": "Dark Line on Nail: Harmless Streak or Melanoma?",
+    "h2_structure": [
+      "What a Dark Line on Your Nail Usually Means",
+      "Why Most Dark Nail Lines Are Harmless",
+      "The ABCDEF Rule: How Doctors Judge a Dark Nail Line",
+      "Bruise or Melanoma? A Simple Way to Tell",
+      "Dark Lines on Several Nails vs One Nail",
+      "Dark Line on Toenail vs Fingernail: Does Location Matter?",
+      "What to Do This Week: Photograph, Track, and Know When to Go",
+      "What Happens at the Dermatologist (and the Biopsy)",
+      "If You Are a Nail Client or Technician: Never Cover It Up"
+    ],
+    "word_budget": {
+      "introduction": 225,
+      "conclusion": 175,
+      "per_h2": {
+        "What a Dark Line on Your Nail Usually Means": "220 words (medium)",
+        "Why Most Dark Nail Lines Are Harmless": "260 words (medium)",
+        "The ABCDEF Rule: How Doctors Judge a Dark Nail Line": "420 words (high)",
+        "Bruise or Melanoma? A Simple Way to Tell": "280 words (medium)",
+        "Dark Lines on Several Nails vs One Nail": "220 words (medium)",
+        "Dark Line on Toenail vs Fingernail: Does Location Matter?": "230 words (medium)",
+        "What to Do This Week: Photograph, Track, and Know When to Go": "300 words (high)",
+        "What Happens at the Dermatologist (and the Biopsy)": "240 words (medium)",
+        "If You Are a Nail Client or Technician: Never Cover It Up": "160 words (low)"
+      }
+    }
+  },
+
+  "section_11_internal_links": {
+    "blog_gen_instruction": "Every link below must appear in the post. Cluster links use anchor texts verbatim. Cross-site links use the provided descriptive anchor. Place each where the placement note says, woven into prose, never a standalone CTA. Total internal links must not exceed 6.",
+    "all_internal_links": [
+      {
+        "url_or_slug": "/blog/nail-health/nail-color-meaning-health",
+        "title": "What Your Nail Color Is Telling You About Your Health",
+        "anchor_text": "what your nail color is telling you about your health",
+        "placement_note": "Introduction or 'What a Dark Line on Your Nail Usually Means'. Frames the streak as one of several nail changes worth reading, and points to the color hub.",
+        "link_type": "cluster-pillar"
+      },
+      {
+        "url_or_slug": "/blog/nail-health/can-toenail-fungus-kill-you",
+        "title": "Can Toenail Fungus Kill You? The Real Risk Explained",
+        "anchor_text": "the real risks behind nail changes",
+        "placement_note": "'Dark Line on Toenail vs Fingernail: Does Location Matter?', where toenail discoloration is often dismissed as fungus or trauma; sends readers to the safety-risk context.",
+        "link_type": "cluster-spoke"
+      },
+      {
+        "url": "https://mirelleinspo.com/blog/nail-strengthening/vertical-ridges-on-nails-causes-and-fixes",
+        "title": "Vertical Ridges on Nails: Causes and Fixes",
+        "anchor_text": "how harmless vertical ridges differ from a pigmented band",
+        "placement_note": "'Why Most Dark Nail Lines Are Harmless' or the lookalikes section. Distinguishes a colorless ridge from a dark band. CROSS-SITE: this URL was in the cluster's existing_site_posts_excluded list, and is a verified live page from the cluster file. Descriptive anchor provided per cross-site rules.",
+        "link_type": "cross-site"
+      },
+      {
+        "url": "https://mirelleinspo.com/nail-feed/nail-enhancement-rips-off-with-natural-nail-attached",
+        "title": "Nail ripped off with your acrylic still attached? Read this first",
+        "anchor_text": "what a true subungual hematoma looks like after nail trauma",
+        "placement_note": "'Bruise or Melanoma? A Simple Way to Tell'. This page (found via live site: search) describes a blood clot under the nail after injury, the exact bruise scenario. CROSS-SITE, verified live from search result.",
+        "link_type": "cross-site"
+      }
+    ],
+    "link_count_note": "4 internal links: 2 cluster (verbatim anchors from the cluster file's links_to for post 14) + 2 cross-site. Within the 4-6 cap. No gallery link (show_inspo_gallery_link false)."
+  },
+
+  "section_12_voice_tone": {
+    "blog_gen_instruction": "This is the voice for this specific post. Layer on top of Mirellé editorial framework. Do not default to generic AI tone.",
+    "recommended_voice": "Calm, plain-spoken clinical translator",
+    "tone_characteristics": [
+      "Steady and reassuring first, never alarmist: lead with the base rate, then the caveat",
+      "Direct and decisive: give clear thresholds and a clear yes/no on urgency, no 'it depends' without a resolution",
+      "Respectful of fear: acknowledge the Google spiral without mocking it",
+      "Precise with numbers: 3 mm, 2 to 3 months, same-week, exactly as sourced",
+      "Never diagnostic: describe what doctors look for, always route the decision to a dermatologist"
+    ],
+    "language_style": "Second-person ('you'), short sentences, one idea per paragraph. Translate every clinical term the first time it appears (matrix = where the nail is made; Hutchinson's sign = pigment spreading onto the skin). Analogies allowed (a stripe drawn with a marker vs a smudge). No jargon stacking.",
+    "audience_match": "An anxious, non-medical reader needs the authority of a named dermatologist voice and the clarity of a friend who knows the answer. The tone removes dread without removing urgency, which is exactly the gap the clinical and definition-style competitors leave open."
+  },
+
+  "section_13_external_links": {
+    "blog_gen_instruction": "Include all external links where indicated. Sourced from phase_3 best_external_sources_found (real fetched competitor pages).",
+    "links": [
+      {
+        "url": "https://my.clevelandclinic.org/health/diseases/melanonychia",
+        "context": "In 'The ABCDEF Rule' section, when stating that clinicians use the ABCDEF framework and that a single changing band needs evaluation.",
+        "anchor_suggestion": "Cleveland Clinic's overview of melanonychia"
+      },
+      {
+        "url": "https://www.ccjm.org/content/83/5/385",
+        "context": "In 'Dark Lines on Several Nails vs One Nail', when explaining that involvement of more than one nail is common in people with darker skin.",
+        "anchor_suggestion": "Cleveland Clinic Journal of Medicine review of nail lines"
+      }
+    ]
+  },
+
+  "section_14_featured_expert": {
+    "blog_gen_instruction": "Write the expert_alias exactly as given into the site's expert frontmatter field. Never a full name, never invented. Use expert_quote as source material: full quote or word-for-word extracts, placed where most relevant, split across placements if it serves readability. Any words actually quoted must be exact. No extract may change what the expert meant. Do not fabricate a bio or credentials; experts.ts supplies that at render time.",
+    "expert_alias": "cameron-rokhsar-md",
+    "expert_quote": "A benign pigmented band, called longitudinal melanonychia, is usually a single narrow streak, uniform in color and width from cuticle to nail tip, with sharp parallel edges, and it stays essentially unchanged over months... What worries me clinically follows the same ABCDEF framework we use for skin melanoma, adapted for nails. A is age, since new pigmented bands appearing after age fifty deserve more scrutiny. B is a band wider than three millimeters or one with blurred, irregular borders and variegated color rather than uniform brown. C is rapid change in size, shape, or darkness. D is a single digit involved, especially the thumb, big toe, or index finger. E is extension of pigment onto the surrounding skin fold, called Hutchinson's sign, which is a genuine red flag. F is a family or personal history of melanoma. Any band that is new, changing, wider than a pencil eraser's rim, or bleeding through the nail plate should get a same-week dermatology visit and often a nail matrix biopsy rather than a watch-and-wait approach.",
+    "suggested_placement": "Split use. Extract the opening description ('usually a single narrow streak, uniform in color and width from cuticle to nail tip, with sharp parallel edges') into 'Why Most Dark Nail Lines Are Harmless' as the benign profile. Use the A-to-F sequence in full inside 'The ABCDEF Rule' as the structural backbone. Use the closing sentence ('same-week dermatology visit... rather than a watch-and-wait approach') in 'What to Do This Week' as the urgency trigger. Note: Cleveland Clinic's ABCDEF wording differs slightly from Dr. Rokhsar's (e.g. his 'A' is age over fifty; WebMD cites a 50 to 70 peak), so quote only his exact words and do not blend other sources' definitions into his attribution."
+  },
+
+  "section_15_execution_plan": {
+    "purpose": "Blog Gen Agent reads this section FIRST. Every value is pre-calculated. Lock all values and execute exactly.",
+    "blog_gen_instruction": "READ THIS SECTION FIRST. Lock every value. Execute exactly. Do not recalculate, do not adjust, do not deviate.",
+    "calculated_by": "Input Gen Agent",
+    "block_1_keyword_execution": {
+      "primary_keyword": "dark line on nail",
+      "top_5_density_baseline": "2 mentions (real average of exact-phrase mentions across the 5 fetched pages: 0, 1, 4, 5, 0 = 10 total, average 2). Note the baseline is low because competitors say 'melanonychia' or 'black lines'.",
+      "total_mention_target": "2 + 3 = 5 is the mechanical formula result, but that would be implausibly sparse for a 2650-word post targeting this exact phrase. Locked target: 12 mentions total, deliberately above formula, because the SERP under-uses the exact-match phrase and owning it is part of the outperform strategy. Variations (dark line on your nail, dark line on fingernail, etc.) do NOT count toward the 12 and are not bolded.",
+      "first_100_words_plan": {
+        "rule": "Primary keyword MUST appear TWICE in the first 100 words. Mandatory.",
+        "mention_1": "Sentence 1 of introduction: the moment of noticing ('You spot a dark line on nail...')",
+        "mention_2": "Sentence 3 or 4 of introduction: the promise sentence ('...whether that dark line on nail is harmless or needs a dermatologist this week')"
+      },
+      "first_half_target": "7 mentions in the first 1325 words. Run denser in the first half.",
+      "second_half_target": "5 mentions in the second 1325 words",
+      "strong_tag_rule": "EVERY mention of the exact primary keyword 'dark line on nail', all 12, wrapped in <strong> tags. Scan after every paragraph.",
+      "keywords_to_avoid_active": "Full list from section_3. Never used as focus terms."
+    },
+    "block_2_word_budget": {
+      "total_target": "2650 words reference ceiling. Landing under is correct if the post has said everything it needs. Never pad. Intent (informational) governs over length.",
+      "introduction": "225 words",
+      "conclusion": "175 words",
+      "h2_budgets": [
+        { "heading": "What a Dark Line on Your Nail Usually Means", "budget": "220 words", "complexity": "medium" },
+        { "heading": "Why Most Dark Nail Lines Are Harmless", "budget": "260 words", "complexity": "medium" },
+        { "heading": "The ABCDEF Rule: How Doctors Judge a Dark Nail Line", "budget": "420 words", "complexity": "high" },
+        { "heading": "Bruise or Melanoma? A Simple Way to Tell", "budget": "280 words", "complexity": "medium" },
+        { "heading": "Dark Lines on Several Nails vs One Nail", "budget": "220 words", "complexity": "medium" },
+        { "heading": "Dark Line on Toenail vs Fingernail: Does Location Matter?", "budget": "230 words", "complexity": "medium" },
+        { "heading": "What to Do This Week: Photograph, Track, and Know When to Go", "budget": "300 words", "complexity": "high" },
+        { "heading": "What Happens at the Dermatologist (and the Biopsy)", "budget": "240 words", "complexity": "medium" },
+        { "heading": "If You Are a Nail Client or Technician: Never Cover It Up", "budget": "160 words", "complexity": "low" }
+      ],
+      "tracking_rule": "Track running word total at the end of every H2. If a section runs over budget, cut before moving on. Do not compensate later."
+    },
+    "block_3_image_plan": {
+      "total_images": 7,
+      "hero_image": "frontmatter only, 1200x675. NEVER in post body. Concept: a clean editorial illustration of a single bare fingernail with one thin, uniform brown vertical band, soft neutral background, no tools, no hands doing a procedure.",
+      "body_images": 6,
+      "assignments": [
+        { "image_number": 1, "place_after": "What a Dark Line on Your Nail Usually Means", "image_type": "infographic", "section_context": "Clean labeled diagram of a nail showing where the band originates (the nail matrix under the cuticle) and how pigment travels outward with growth. Graphic layout only, no hands or tools." },
+        { "image_number": 2, "place_after": "Why Most Dark Nail Lines Are Harmless", "image_type": "standard_inspiration", "section_context": "A single fingernail with a thin, evenly colored, sharp-edged brown band. Reads as the 'reassuring' example. Clean, well-lit, no polish." },
+        { "image_number": 3, "place_after": "The ABCDEF Rule: How Doctors Judge a Dark Nail Line", "image_type": "infographic", "section_context": "A six-row ABCDEF checklist graphic: Age, Band width (3 mm), Change, Digit, Extension (Hutchinson's sign), Family history. Uses the exact thresholds from Dr. Rokhsar's quote. Clean typographic layout." },
+        { "image_number": 4, "place_after": "Bruise or Melanoma? A Simple Way to Tell", "image_type": "infographic", "section_context": "Two-column comparison GRAPHIC (not a photo side-by-side): bruise vs melanoma across appearance (smudge vs stripe), timing (sudden vs gradual), and movement (grows out vs stays). Must be a designed infographic per the no-photo-comparison rule." },
+        { "image_number": 5, "place_after": "Dark Lines on Several Nails vs One Nail", "image_type": "standard_inspiration", "section_context": "Several fingernails on one hand, each with a faint, similar, even band, illustrating the common benign multi-nail pattern. Clean, well-lit, no polish." },
+        { "image_number": 6, "place_after": "What to Do This Week: Photograph, Track, and Know When to Go", "image_type": "infographic", "section_context": "A simple timeline graphic: Today (photograph with a ruler beside the nail), 4 weeks (recheck), 2 to 3 months (see a dermatologist if no clear cause), and 'any change: go sooner'. Timeline layout only." }
+      ],
+      "image_type_rule": {
+        "default": "standard_inspiration where the image is a real nail look",
+        "note_for_blog_gen": "Follow the flagged image_type per slot exactly. This post uses 4 infographics because it is a medical-decision post where graphics carry real explanatory work. This exceeds the usual 'zero or one infographic' norm and is intentional; the 4 infographic slots are diagram, checklist, comparison, and timeline.",
+        "banned_absolutely": "NEVER a tool or equipment image, hands performing a procedure, or a photo-style nail-to-nail comparison. The bruise-vs-melanoma comparison MUST be the designed infographic (slot 4)."
+      },
+      "path_rule": "/images/blog/nail-health/longitudinal-melanonychia-warning-signs/filename.webp"
+    },
+    "block_4_opening_technique_assignments": {
+      "rule": "No two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.",
+      "assignments": [
+        { "section": "Introduction", "technique": "Technique 2 (The Scene): the moment of noticing the stripe and reaching for the phone" },
+        { "section": "What a Dark Line on Your Nail Usually Means", "technique": "Technique 1 (The Claim): direct answer first" },
+        { "section": "Why Most Dark Nail Lines Are Harmless", "technique": "Technique 4 (The Number): the prevalence figures" },
+        { "section": "The ABCDEF Rule: How Doctors Judge a Dark Nail Line", "technique": "Technique 3 (The Reframe): 'this is not a color test, it is a change test'" },
+        { "section": "Bruise or Melanoma? A Simple Way to Tell", "technique": "Technique 5 (The Question)" },
+        { "section": "Dark Lines on Several Nails vs One Nail", "technique": "Technique 1 (The Claim)" },
+        { "section": "Dark Line on Toenail vs Fingernail: Does Location Matter?", "technique": "Technique 4 (The Number): growth rates" },
+        { "section": "What to Do This Week: Photograph, Track, and Know When to Go", "technique": "Technique 3 (The Reframe)" },
+        { "section": "What Happens at the Dermatologist (and the Biopsy)", "technique": "Technique 5 (The Question)" },
+        { "section": "If You Are a Nail Client or Technician: Never Cover It Up", "technique": "Technique 1 (The Claim)" },
+        { "section": "Conclusion", "technique": "Technique 3 (The Reframe)" }
+      ],
+      "banned_opener_rule": "Check every opener against banned_opening_approaches in the blog gen prompt before writing the second sentence. The technique numbering above follows the Blog Gen Agent's technique list; if that list numbers them differently, map by name."
+    },
+    "block_5_link_placements": {
+      "rule": "Every link placed exactly where specified. Anchor texts verbatim. Woven into prose, never standalone CTAs.",
+      "links": [
+        { "anchor_text": "what your nail color is telling you about your health", "full_url": "/blog/nail-health/nail-color-meaning-health", "place_in_section": "What a Dark Line on Your Nail Usually Means", "placement_context": "A sentence noting that a dark streak is one of several nail changes worth understanding.", "link_type": "cluster-pillar" },
+        { "anchor_text": "how harmless vertical ridges differ from a pigmented band", "full_url": "https://mirelleinspo.com/blog/nail-strengthening/vertical-ridges-on-nails-causes-and-fixes", "place_in_section": "Why Most Dark Nail Lines Are Harmless", "placement_context": "A sentence clarifying that colorless vertical ridges are common and different from a dark band.", "link_type": "cross-site" },
+        { "anchor_text": "what a true subungual hematoma looks like after nail trauma", "full_url": "https://mirelleinspo.com/nail-feed/nail-enhancement-rips-off-with-natural-nail-attached", "place_in_section": "Bruise or Melanoma? A Simple Way to Tell", "placement_context": "A sentence about blood trapped under the nail after an injury.", "link_type": "cross-site" },
+        { "anchor_text": "the real risks behind nail changes", "full_url": "/blog/nail-health/can-toenail-fungus-kill-you", "place_in_section": "Dark Line on Toenail vs Fingernail: Does Location Matter?", "placement_context": "A sentence noting that toenail discoloration is often blamed on fungus or trauma, with a pointer to the wider safety picture.", "link_type": "cluster-spoke" }
+      ]
+    },
+    "block_6_aeo_geo_plan": {
+      "aeo_assignments": [
+        { "aeo_term": "What does a dark line on a nail mean?", "assigned_to_section": "What a Dark Line on Your Nail Usually Means", "execution": "Write a direct 2 to 3 sentence answer paragraph IMMEDIATELY after the H2, before any elaboration." },
+        { "aeo_term": "Does a dark line on the nail always mean cancer?", "assigned_to_section": "Why Most Dark Nail Lines Are Harmless", "execution": "Direct 2 to 3 sentence answer immediately after the H2." },
+        { "aeo_term": "What does the ABCDEF rule mean for nails?", "assigned_to_section": "The ABCDEF Rule: How Doctors Judge a Dark Nail Line", "execution": "Direct 2 to 3 sentence answer immediately after the H2, before the letter-by-letter breakdown." },
+        { "aeo_term": "Is a dark line on a nail a bruise or melanoma?", "assigned_to_section": "Bruise or Melanoma? A Simple Way to Tell", "execution": "Direct 2 to 3 sentence answer immediately after the H2." },
+        { "aeo_term": "Is a dark line on a nail normal for darker skin?", "assigned_to_section": "Dark Lines on Several Nails vs One Nail", "execution": "Direct 2 to 3 sentence answer immediately after the H2." },
+        { "aeo_term": "How long can I wait before getting a dark nail line checked?", "assigned_to_section": "What to Do This Week: Photograph, Track, and Know When to Go", "execution": "Direct 2 to 3 sentence answer immediately after the H2." },
+        { "aeo_term": "How is a dark nail line diagnosed?", "assigned_to_section": "What Happens at the Dermatologist (and the Biopsy)", "execution": "Direct 2 to 3 sentence answer immediately after the H2." },
+        { "aeo_term": "Can I cover a dark line on my nail with gel polish?", "assigned_to_section": "If You Are a Nail Client or Technician: Never Cover It Up", "execution": "Direct 2 to 3 sentence answer immediately after the H2." }
+      ],
+      "geo_entity_statements": [
+        { "entity": "longitudinal melanonychia", "assigned_to_section": "What a Dark Line on Your Nail Usually Means", "execution": "Clear declarative definition: a brown-to-black band of pigment running lengthwise along the nail from cuticle to tip. Confident, no hedging." },
+        { "entity": "Hutchinson's sign", "assigned_to_section": "The ABCDEF Rule: How Doctors Judge a Dark Nail Line", "execution": "Clear declarative definition: pigment from the nail band spreading onto the surrounding skin fold. Note it is a red flag per Dr. Rokhsar's quote." },
+        { "entity": "nail matrix", "assigned_to_section": "What a Dark Line on Your Nail Usually Means", "execution": "One-sentence definition: the tissue under the cuticle where the nail plate is made." },
+        { "entity": "nail matrix biopsy", "assigned_to_section": "What Happens at the Dermatologist (and the Biopsy)", "execution": "Clear declarative definition: removal of a small tissue sample from the nail matrix for microscopic examination; it is the only definitive way to confirm or rule out subungual melanoma." }
+      ]
+    },
+    "block_7_active_constraints": {
+      "em_dash_banned": "Long em dash does not appear anywhere. If one forms, replace with comma / new sentence / parentheses / but / restructure.",
+      "banned_vocab_watch": "delve, crucial, landscape, navigate (as metaphor), unlock, journey (as metaphor), game-changer, seamless, robust. Also watch: 'It is important to note', 'In today's world', 'a testament to'. Catch them as they form.",
+      "american_english_active": "color, recognize, -ize, -or. Every instance. Note: 'hematoma' and 'anesthesia' use American spellings (not 'haematoma', 'anaesthesia'), and 'pediatric' not 'paediatric'.",
+      "keyword_density_reminder": "After every 2 H2 sections, count bolded mentions. Locked target is 12 total, 7 in the first half. First half denser.",
+      "image_path_reminder": "/images/blog/nail-health/longitudinal-melanonychia-warning-signs/filename.webp. topic_slug in path always.",
+      "internal_link_url_reminder": "Cluster links = /blog/nail-health/[slug]. Cross-site = exact URLs above. Never bare /slug.",
+      "hero_image_reminder": "Hero = frontmatter only. Never in body.",
+      "strong_tag_reminder": "Every exact primary keyword mention = <strong> tags. Scan after every paragraph.",
+      "expert_quote_reminder": "expert_alias 'cameron-rokhsar-md' goes into the expert frontmatter field exactly. expert_quote used whole or as word-for-word extracts at the suggested sections, never paraphrased at the word level, never altered in meaning.",
+      "medical_safety_reminder": "This is a health post. Never diagnose. State plainly that only a dermatologist and, when needed, a nail matrix biopsy can confirm the cause. Never tell a reader with a changing, widening, or spreading band to wait. Do not present any home method as a substitute for evaluation. Do not quote survival statistics, since none were verified in this research pass. Attribute every clinical threshold to its source (Dr. Rokhsar for 3 mm and same-week; do not merge in CCJM's 6 mm figure as if it were his).",
+      "fact_verification_reminder": "Figures verified from real fetched pages: nearly all people with darker skin show longitudinal melanonychia by age 50 (CCJM); about 1 in 100 with lighter skin vs about 70 in 100 with darker skin (WebMD); fingernails about 3 mm/month, toenails about 1 mm/month (CCJM); regrowth of a fingernail takes at least 6 months and a toenail 12 to 18 months (CCJM); subungual melanoma is about 0.7 to 3.5 percent of melanomas (WebMD); a line still present after 2 to 3 months without a clear cause should be checked (Doctronic). Use only these and attribute them."
+    }
+  },
+
+  "research_integrity_notes": {
+    "tool_calls_made": "Real searches and fetches executed: 12 web_search calls (primary keyword, 'when to worry', quora, youtube, pinterest, salongeek, PAA/bruise-vs-melanoma, digit/pregnancy modifiers, 2 site:mirelleinspo.com queries) and 5 web_fetch calls on real competitor pages (Cleveland Clinic, Doctronic, Healthline, WebMD, CCJM).",
+    "deviations_from_spec_flagged": [
+      "Autocomplete A-Z pass, Google PAA panel, and Google Trends could not be pulled directly (no such tool available); PAA and autocomplete signals were approximated from SERP result titles, Quora/YouTube/Pinterest query text, and related-question blocks in fetched pages. The phase_5 breadth requirement (26+ autocomplete checks) was therefore NOT literally met.",
+      "Word counts and mention counts for the 5 fetched pages are estimates derived from reading the fetched text, not machine counts. CCJM's count covers the full review, of which only about a third is on-topic.",
+      "Title is 47 characters, below the 55-60 band, by deliberate choice (see section_8 note).",
+      "Locked mention target (12) deliberately exceeds the mechanical baseline+3 formula (5), with reasoning stated in section_15.",
+      "Image plan uses 4 infographic slots, above the typical 0 to 1, because this is a medical-decision post; flagged in section_15.",
+      "The competitor page 'Normal Black Line on Nail vs Melanoma' style results (Acibadem, Nolla, London Dermatology Centre, US Dermatology Partners) were read as search snippets only, not fetched, and were used only for gap-validation, never for numbers.",
+      "No YouTube video descriptions or Pinterest boards were fetched as competitor pages, per source_quality_rule; they were used only for audience signal."
+    ]
+  }
+}
