@@ -1,0 +1,300 @@
+{
+  "section_1_file_authority": "THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All POST_CONSTANTS are hardcoded. Follow all keywords, H2s, audience intel, links and tone exactly.",
+
+  "section_2_post_constants": {
+    "slug": "partial-nail-avulsion-recovery",
+    "topic_slug": "nail-health",
+    "canonical": "https://mirelleinspo.com/blog/nail-health/partial-nail-avulsion-recovery",
+    "post_type": "spoke",
+    "intent": "informational",
+    "word_count": 1500,
+    "word_count_note": "Ceiling/reference, not a quota. Finish under it if complete. No padding.",
+    "image_count": 7,
+    "show_inspo_gallery_link": false,
+    "template": "posts",
+    "hero_dimensions": "1200x675",
+    "category": "Nail Health",
+    "publish_date": "2026-10-08",
+    "publish_date_note": "Set just after the Cameron Bennet interview series publishes (first week of October 2026).",
+    "author": "jyoti-mirelle",
+    "expertise_type": "licensed_derm_or_nail_health_expert",
+    "expert_alias": "cameron-bennet",
+    "expert_quote": "For a partial nail avulsion and phenolisation... the recovery is typically quite straightforward. A procedure is performed, the toe is dressed with iodine and a dressing, and you're advised to keep it dry. The following day, we get you back into the clinic to ensure the site looks clean and change the dressing over to a smaller island dressing. For about a week after the procedure, we advise avoiding sports, but you can go back into shoes the day after the procedure once that dressing has been changed... The biggest risk at this stage is infection. Phenol slows the healing process and feet aren't the cleanest place on the body, so there is an increased risk of infection."
+  },
+
+  "section_3_cluster_snapshot": {
+    "pillar_slug": "what-kills-toenail-fungus-instantly",
+    "pillar_title": "What Kills Toenail Fungus Instantly? What Actually Works",
+    "pillar_primary_keyword": "what kills toenail fungus instantly",
+    "this_post_slug": "partial-nail-avulsion-recovery",
+    "this_post_role": "spoke (ingrown-toenail sub-group; sub-hub is ingrown-toenail-infection-signs)",
+    "show_inspo_gallery_link_cluster_default": false,
+    "keywords_to_avoid": "Every primary_keyword in cluster keyword_ownership_registry plus every existing_site_posts_excluded keyword, except this post's own. Highest cannibalization risk here: infected ingrown toenail, ingrown toenail stages, do you need antibiotics for ingrown toenail, should i cut my ingrown toenail, dental floss ingrown toenail, how long does it take a toenail to grow back, how long does nail fungus take to clear, repair nails after gel acrylic removal, diabetic nail care. Never use as focus terms."
+  },
+
+  "section_4_serp_analysis": {
+    "blog_gen_instruction": "Use our_strategic_approach as the angle for intro, conclusion and depth decisions.",
+    "research_coverage_note": "Google autocomplete A-Z and Google Trends were not available through the tools used. Demand was validated through SERP results, Quora, YouTube, forum threads and clinic pages (2+ sources per gap).",
+    "competitor_gaps": [
+      "Nail polish and pedicure timing after a partial nail avulsion: absent from all 5 fetched pages; seen on Foot Clinic London, Rocky Foot & Ankle and a UK surgery handbook (4-6 weeks, dry wound, toughened skin).",
+      "What the healing toe actually looks like week by week: 5 pages give timelines, almost none describe appearance (raw pink groove, filling in, granulation tissue).",
+      "Normal phenol drainage vs infection: pages conflict (FAANT ~1 week; ASG 3-6 weeks; 2011 PMC abstract 2-4 weeks). Nobody reconciles it.",
+      "Why timelines differ between clinics (2 weeks vs 2 months) and what changes them (phenol, health, circulation)."
+    ],
+    "missing_semantic_territory": "clear or straw-colored drainage; raw pink groove; granulation tissue; island dressing; post-op open-toed shoe; phenol burn pain; wound dry before polish; nail spike/spicule regrowth; permanently narrower nail.",
+    "our_strategic_approach": "Every top page is a clinic service page or a generic 'ingrown toenail surgery' explainer, and none front-loads 'partial nail avulsion recovery'. We will lead with a direct timeline answer split by phenol vs no phenol, then describe what healing looks like in plain English, which the five pages skip. We will reconcile the conflicting drainage and return-to-activity figures instead of repeating one clinic's number, and own the polish/pedicure question none of them answer. Bennet's first-hand recovery protocol gives named-podiatrist authority the average page lacks.",
+    "top_5_fetched_pages_summary": [
+      {"url": "https://straitspodiatry.com/treatments/partial-nail-avulsion/", "words": "~1050", "h2": 6, "keyword_mentions": "~21", "note": "Keyword-dense service page, 2-4 weeks, contraindications; no appearance or polish info."},
+      {"url": "https://www.asgfoot.com/post/partial-nail-avulsion-recovery", "words": "~1750", "h2": 10, "keyword_mentions": "~3", "note": "Strongest: four-version table, phenol drainage 3-6 weeks, normal vs call list; no polish."},
+      {"url": "https://www.faant.com/library/what-to-expect-after-ingrown-toenail-surgery-treatment-.cfm", "words": "~1100", "h2": 6, "keyword_mentions": "~6", "note": "Procedure-by-procedure aftercare; drainage ~1 week conflicts with ASG."},
+      {"url": "https://ec-orthotics.com/partial-nail-avulsion-ingrown-toenail-removal-treatment/", "words": "~950", "h2": 3, "keyword_mentions": "~2", "note": "2 weeks to 2 months, regrowth-vs-reinjury logic; thin structure."},
+      {"url": "https://thefootclinic.net/what-is-the-recovery-for-ingrown-toenail-surgery/", "words": "~850", "h2": 6, "keyword_mentions": "~2", "note": "Clean step list, no numbers on healing or drainage."}
+    ],
+    "counting_note": "Counts are approximate from fetched body text. Mention count uses the head phrase 'partial nail avulsion'; exact 'partial nail avulsion recovery' appears about zero times on these pages.",
+    "top_5_word_count_average": "~1140",
+    "top_5_keyword_density_average": "~7 (6.8)",
+    "recommended_image_count_validation": "7 confirmed (rule 5). Competitors use 1-3 images, so 7 is above average.",
+    "claims_reconciliation": "Attribute every figure to its source. Use ranges: wound closure 2-4 weeks (no phenol) and 4-8 weeks (phenol); phenol drainage clear or straw-colored for up to 3-6 weeks; no strenuous exercise about 2-3 weeks per most clinics. Bennet's shorter protocol (shoes next day, no sports about a week) is his clinic's, so present it as his."
+  },
+
+  "section_5_audience_intelligence": {
+    "blog_gen_instruction": "Primary creative brief. Write for this person only.",
+    "who_they_are": "Adults booked for, or 1-10 days past, a partial nail avulsion for a recurrent ingrown toenail. Some also care about polish and pedicures.",
+    "what_they_want_from_this_post": "A trustworthy timeline, a picture of what normal looks like, and a clear line between normal and call-the-podiatrist.",
+    "what_frustrates_them": "Clinic pages that sell the service, one-size numbers that contradict each other, no description of how the toe should look.",
+    "top_5_pain_points": [
+      "Is the drainage normal, especially weeks after phenol?",
+      "Timelines vary wildly (days vs 2 months); which applies to me?",
+      "When can I wear normal shoes, exercise, swim?",
+      "How will I know it is infected?",
+      "Will the nail grow back, how will it look, when can I paint it?"
+    ],
+    "exact_user_phrases": ["how long until I was back in action", "is this normal", "still draining", "raw and pink", "phenol burn", "bathroom surgery", "worth it", "will it grow back", "back into shoes", "leave the nail bed open to the air", "why has my whole nail fallen away"],
+    "intent_content_signals": ["Direct answer first", "Timeline by phase", "Normal vs call-your-podiatrist lists", "Named clinician voice", "Short paragraphs", "Honest ranges, no false precision", "Visual timeline"]
+  },
+
+  "section_6_semantic_keyword_data": {
+    "blog_gen_instruction": "Bold (strong) every primary keyword mention. AEO terms get direct answer paragraphs. No avoided term as a focus term. Body text uses American English (phenolization, anesthesia); quotes stay verbatim.",
+    "primary_keyword": "partial nail avulsion recovery",
+    "keyword_variations": ["partial nail avulsion healing", "partial nail avulsion aftercare", "partial nail avulsion healing time", "recovering from a partial nail avulsion", "partial nail avulsion with phenol recovery", "PNA recovery"],
+    "cluster_keywords": ["ingrown toenail surgery", "phenolization", "chemical matrixectomy", "nail matrix", "nail border", "nail fold", "post-op dressing", "toenail surgery recovery", "open-toed shoes", "granulation tissue", "wound closure", "permanent ingrown toenail removal"],
+    "lsi_terms": ["phenol", "matrixectomy", "nail plate", "nail bed", "lateral nail fold", "spicule", "straw-colored drainage", "island dressing", "digital nerve block", "povidone-iodine", "post-op shoe", "secondary intention healing", "recurrence rate", "weeping", "raw pink groove", "toughened skin", "nail spike", "narrower nail"],
+    "aeo_terms": [
+      "How long does partial nail avulsion recovery take?",
+      "What does a partial nail avulsion look like when it is healing?",
+      "Is drainage normal after a partial nail avulsion?",
+      "How long does a partial nail avulsion drain after phenol?",
+      "When can I wear normal shoes after a partial nail avulsion?",
+      "When can I exercise after a partial nail avulsion?",
+      "Can I wear nail polish after a partial nail avulsion?",
+      "Will my toenail grow back after a partial nail avulsion?",
+      "What are the signs of infection after a partial nail avulsion?",
+      "Does a partial nail avulsion hurt after the anesthetic wears off?"
+    ],
+    "technical_terms": ["onychocryptosis", "avulsion", "partial matrixectomy", "phenolization", "digital block", "granulation tissue", "spicule"],
+    "user_language": ["is this normal", "still draining", "raw and pink", "back in action", "phenol burn", "will it grow back", "back into shoes", "worth it"]
+  },
+
+  "section_7_voice_and_ai_queries": {
+    "blog_gen_instruction": "Answer each query in the relevant H2 body. Route leftovers to faqItems.",
+    "queries": [
+      "How long does it take to recover from a partial nail avulsion?",
+      "Why is my toe still draining two weeks after a partial nail avulsion?",
+      "What should a healing partial nail avulsion look like?",
+      "Does phenol make recovery longer?",
+      "How long should I keep the dressing on after a partial nail avulsion?",
+      "When can I go back to work after a partial nail avulsion?",
+      "When can I wear closed shoes again?",
+      "Can I run or go to the gym after a partial nail avulsion?",
+      "When can I swim after a partial nail avulsion?",
+      "Can I get a pedicure after a partial nail avulsion?",
+      "When can I paint my toenails after nail surgery?",
+      "What are signs my partial nail avulsion is infected?",
+      "Is pain after a partial nail avulsion normal?",
+      "Will my nail look narrower afterward?",
+      "Can the nail grow back after phenol?",
+      "How do I stop the ingrown toenail returning?"
+    ]
+  },
+
+  "section_8_hook_and_ctr": {
+    "blog_gen_instruction": "Use title and meta exactly. Intro hook brief and first H2 direction are your brief.",
+    "real_serp_findings_summary": "Two of the five titles are procedure-name-plus-parenthetical, two are generic 'ingrown toenail surgery' expectations, one is ASG's decode-your-paperwork angle. None front-loads the recovery keyword or promises to show what healing looks like, and none mentions polish.",
+    "selected_option_rationale": "Front-loads the head phrase plus 'Recovery' and promises the visual, honest picture competitors skip; the meta adds the polish and call-your-podiatrist differentiators.",
+    "title": "Partial Nail Avulsion Recovery: What Healing Looks Like",
+    "title_char_count": 55,
+    "meta_description": "Toe draining or still sore? Learn what's normal after a partial nail avulsion, when to call your podiatrist, and when polish is safe again.",
+    "meta_char_count": 139,
+    "intro_hook_brief": "Open on the exact worry (a week in, the toe looks raw and is still leaking) and state plainly that most of it is normal, then promise the timeline, the normal-vs-call list and the polish answer. Claim-led, calm, no drama.",
+    "first_h2_hook_direction": "Answer at once: for most healthy adults, 2-4 weeks, longer if phenol was used. Only the phenol question changes the timeline."
+  },
+
+  "section_9_search_journey": {
+    "blog_gen_instruction": "Emotional contract. Rewrite any paragraph that breaks the arc.",
+    "reader_arrival_state": "Slightly anxious, holding a dressing and a discharge sheet, wanting to know if what they see is normal.",
+    "journey_arc": [
+      "Give the timeline answer immediately, split by phenol vs no phenol",
+      "Walk the first 24 hours with Bennet's protocol",
+      "Describe what healing looks like week by week",
+      "Separate normal drainage from infection warning signs",
+      "Cover shoes, exercise, swimming, polish, then regrowth and preventing recurrence"
+    ],
+    "promise_to_deliver": "A clear, honest picture of how a partial nail avulsion heals, from the first dressing to the first polish, plus the exact signs that mean call your podiatrist.",
+    "exit_state": "Reassured, informed, and confident about what to watch for and when to resume normal life."
+  },
+
+  "section_10_content_structure": {
+    "blog_gen_instruction": "Follow exactly. Do not rename, reorder or remove H2s. H3s optional.",
+    "h1": "Partial Nail Avulsion Recovery: What Healing Looks Like",
+    "h2_structure": [
+      "How Long Does Partial Nail Avulsion Recovery Take?",
+      "What Happens in the First 24 Hours After a Partial Nail Avulsion?",
+      "What Does a Healing Partial Nail Avulsion Look Like Week by Week?",
+      "Is Drainage After a Partial Nail Avulsion Normal, or a Warning Sign?",
+      "When Can You Wear Shoes, Exercise, or Swim After a Partial Nail Avulsion?",
+      "Can You Wear Nail Polish or Get a Pedicure After a Partial Nail Avulsion?",
+      "Will the Nail Grow Back, and How Do You Stop the Ingrown Toenail Returning?"
+    ],
+    "word_budget": {"introduction": 220, "conclusion": 170, "per_h2": [140, 190, 210, 200, 140, 120, 110]}
+  },
+
+  "section_11_internal_links": {
+    "blog_gen_instruction": "All 5 links must appear. Cluster anchors verbatim. Woven into prose. Max 6 internal.",
+    "all_internal_links": [
+      {"url_or_slug": "/blog/nail-health/ingrown-toenail-infection-signs", "title": "Ingrown Toenail Infection: Signs You Need a Doctor (Not Home Care)", "anchor_text": "signs you need a doctor for an ingrown toenail", "placement_note": "H2-4, after the infection-warning checklist, pointing to the fuller triage guide.", "link_type": "cluster-pillar"},
+      {"url_or_slug": "/blog/nail-health/how-long-does-it-take-a-toenail-to-grow-back", "title": "How Long Does It Take a Toenail to Grow Back Fully?", "anchor_text": "how long a full nail takes to grow back", "placement_note": "H2-7, in the no-phenol regrowth sentence; keep regrowth detail brief.", "link_type": "cluster-spoke"},
+      {"url_or_slug": "/blog/nail-health/ingrown-toenail-antibiotics-when-needed", "title": "Ingrown Toenail vs Infected Ingrown Toenail: When Antibiotics Aren't the Answer", "anchor_text": "when antibiotics are actually needed", "placement_note": "H2-4, next to Bennet's infection-risk extract.", "link_type": "cluster-spoke"},
+      {"url_or_slug": "https://mirelleinspo.com/blog/toenail-shapes/how-to-shape-toenails-at-home", "title": "How to Shape Toenails at Home (Without Ingrown Nails)", "anchor_text": "how to shape toenails at home without causing ingrown nails", "placement_note": "H2-6, once healed and trimming or pedicures resume.", "link_type": "cross-site"},
+      {"url_or_slug": "https://mirelleinspo.com/blog/toenail-shapes/best-toenail-shape-for-ingrown-nails", "title": "Best Toenail Shape for Ingrown Toenails (Podiatrist Tips)", "anchor_text": "the best toenail shape for preventing ingrown nails", "placement_note": "H2-7, recurrence-prevention sentence.", "link_type": "cross-site"}
+    ]
+  },
+
+  "section_12_voice_tone": {
+    "blog_gen_instruction": "Layer on Mirellé's framework. No generic AI tone.",
+    "recommended_voice": "Calm, knowledgeable friend with clinical backing",
+    "tone_characteristics": ["Reassuring but honest", "Specific with numbers and ranges", "Plain English, jargon defined once", "Direct on warning signs", "Never alarmist"],
+    "language_style": "Short sentences, second person, concrete visuals (raw pink groove, clear straw-colored fluid). Define terms in one clause. No hedging where sources agree.",
+    "audience_match": "A worried post-op reader wants steadiness and specifics, not a sales pitch or a wall of caveats."
+  },
+
+  "section_13_external_links": {
+    "blog_gen_instruction": "Include where indicated. Attribute figures to the source.",
+    "links": [
+      {"url": "https://www.asgfoot.com/post/partial-nail-avulsion-recovery", "context": "H2-4 or H2-7 when citing phenol drainage of 3-6 weeks and recurrence differences with vs without phenol.", "anchor_suggestion": "podiatrists at ASG Foot & Ankle"},
+      {"url": "https://www.faant.com/library/what-to-expect-after-ingrown-toenail-surgery-treatment-.cfm", "context": "H2-7 when citing phenol's roughly 95% effectiveness at preventing regrowth.", "anchor_suggestion": "Foot and Ankle Associates of North Texas"}
+    ]
+  },
+
+  "section_14_featured_expert": {
+    "blog_gen_instruction": "Frontmatter expert = cameron-bennet exactly. Use word-for-word extracts only; never change meaning. Bennet spoke only about PNA with phenolization: dressing, next-day visit, shoes, sports, infection risk. Never attribute polish, drainage-duration, regrowth or any competitor figure to him. The source contains ellipses, so do not join text across them without marking it.",
+    "expert_alias": "cameron-bennet",
+    "expert_quote": "For a partial nail avulsion and phenolisation... the recovery is typically quite straightforward. A procedure is performed, the toe is dressed with iodine and a dressing, and you're advised to keep it dry. The following day, we get you back into the clinic to ensure the site looks clean and change the dressing over to a smaller island dressing. For about a week after the procedure, we advise avoiding sports, but you can go back into shoes the day after the procedure once that dressing has been changed... The biggest risk at this stage is infection. Phenol slows the healing process and feet aren't the cleanest place on the body, so there is an increased risk of infection.",
+    "suggested_placement": "H2-2 (dressing and next-day visit extract), H2-5 (shoes and sports extract, framed as his clinic's protocol), H2-4 (infection-risk sentences, linked to the antibiotics post)."
+  },
+
+  "section_15_execution_plan": {
+    "blog_gen_instruction": "READ FIRST. Lock every value. Execute exactly.",
+    "block_1_keyword_execution": {
+      "primary_keyword": "partial nail avulsion recovery",
+      "top_5_density_baseline": "~7 (head phrase 'partial nail avulsion', see counting_note in section_4)",
+      "total_mention_target": "10 total (7 + 3). Count both the head phrase and the full keyword; the full phrase 'partial nail avulsion recovery' must appear at least 4 times, including H1 and intro.",
+      "first_100_words_plan": {
+        "rule": "Keyword TWICE in first 100 words. Mandatory.",
+        "mention_1": "Sentence 1: the full keyword in the claim-led opening line.",
+        "mention_2": "Sentence 3: the head phrase, tied to what the reader is seeing at the toe."
+      },
+      "first_half_target": "6 mentions in the first 750 words",
+      "second_half_target": "4 mentions in the second 750 words",
+      "strong_tag_rule": "All 10 mentions wrapped in <strong>. Scan after every paragraph.",
+      "keywords_to_avoid_active": "See section_3."
+    },
+    "block_2_word_budget": {
+      "total_target": "1500 words, +/-50, never exceed",
+      "introduction": "220 words",
+      "conclusion": "170 words",
+      "h2_budgets": [
+        {"heading": "How Long Does Partial Nail Avulsion Recovery Take?", "budget": "140 words", "complexity": "low"},
+        {"heading": "What Happens in the First 24 Hours After a Partial Nail Avulsion?", "budget": "190 words", "complexity": "high"},
+        {"heading": "What Does a Healing Partial Nail Avulsion Look Like Week by Week?", "budget": "210 words", "complexity": "high"},
+        {"heading": "Is Drainage After a Partial Nail Avulsion Normal, or a Warning Sign?", "budget": "200 words", "complexity": "high"},
+        {"heading": "When Can You Wear Shoes, Exercise, or Swim After a Partial Nail Avulsion?", "budget": "140 words", "complexity": "medium"},
+        {"heading": "Can You Wear Nail Polish or Get a Pedicure After a Partial Nail Avulsion?", "budget": "120 words", "complexity": "medium"},
+        {"heading": "Will the Nail Grow Back, and How Do You Stop the Ingrown Toenail Returning?", "budget": "110 words", "complexity": "low"}
+      ],
+      "tracking_rule": "Track running total after every H2. Cut overruns immediately."
+    },
+    "block_3_image_plan": {
+      "total_images": 7,
+      "hero_image": "Frontmatter only, never in body. Clean, calm shot of a healthy natural big toenail on bare foot, soft neutral light.",
+      "body_images": 6,
+      "assignments": [
+        {"image_number": 1, "place_after": "H2-1", "image_type": "infographic", "section_context": "Clean recovery timeline graphic: day 1, week 1, weeks 2-4, weeks 4-8 with phenol, months 3-12 regrowth without phenol. Justified because the H1 promises a timeline."},
+        {"image_number": 2, "place_after": "H2-2", "image_type": "standard_inspiration", "section_context": "Bare foot resting on a pillow, natural short toenails, soft light. No dressing, wound or tools."},
+        {"image_number": 3, "place_after": "H2-3", "image_type": "standard_inspiration", "section_context": "Close-up of a healthy, slightly narrow natural big toenail with smooth healed skin."},
+        {"image_number": 4, "place_after": "H2-5", "image_type": "standard_inspiration", "section_context": "Roomy open-toed sandals or wide sneakers beside bare feet."},
+        {"image_number": 5, "place_after": "H2-6", "image_type": "standard_inspiration", "section_context": "Toenails in a sheer nude polish, calm editorial styling."},
+        {"image_number": 6, "place_after": "H2-7", "image_type": "standard_inspiration", "section_context": "Neatly trimmed straight-across natural toenails, corners visible."}
+      ],
+      "image_type_rule": {
+        "default": "standard_inspiration",
+        "banned_absolutely": "No tool, equipment or hands-at-work shots. No photo-style side-by-side comparisons. No wounds, blood, surgical or graphic images.",
+        "note_for_blog_gen": "Follow the flagged type per slot exactly."
+      },
+      "path_rule": "/images/blog/nail-health/partial-nail-avulsion-recovery/filename.webp"
+    },
+    "block_4_opening_technique_assignments": {
+      "rule": "No two consecutive sections use the same technique. Conclusion = T1 or T3. Technique names per the Blog Gen prompt list (only T1 The Claim and T3 The Reframe are named in the cluster spec).",
+      "assignments": [
+        {"section": "Introduction", "technique": "Technique 1 — The Claim"},
+        {"section": "H2-1", "technique": "Technique 2"},
+        {"section": "H2-2", "technique": "Technique 3 — The Reframe"},
+        {"section": "H2-3", "technique": "Technique 4"},
+        {"section": "H2-4", "technique": "Technique 1 — The Claim"},
+        {"section": "H2-5", "technique": "Technique 2"},
+        {"section": "H2-6", "technique": "Technique 3 — The Reframe"},
+        {"section": "H2-7", "technique": "Technique 4"},
+        {"section": "Conclusion", "technique": "Technique 3 — The Reframe"}
+      ],
+      "banned_opener_rule": "Check every opener against banned_opening_approaches before writing sentence two."
+    },
+    "block_5_link_placements": {
+      "rule": "Verbatim anchors, natural prose, exact placement.",
+      "links": [
+        {"anchor_text": "signs you need a doctor for an ingrown toenail", "full_url": "/blog/nail-health/ingrown-toenail-infection-signs", "place_in_section": "H2-4", "placement_context": "After the call-your-podiatrist list, pointing to the fuller triage guide.", "link_type": "cluster-pillar"},
+        {"anchor_text": "when antibiotics are actually needed", "full_url": "/blog/nail-health/ingrown-toenail-antibiotics-when-needed", "place_in_section": "H2-4", "placement_context": "Right after the Bennet infection-risk extract.", "link_type": "cluster-spoke"},
+        {"anchor_text": "how to shape toenails at home without causing ingrown nails", "full_url": "https://mirelleinspo.com/blog/toenail-shapes/how-to-shape-toenails-at-home", "place_in_section": "H2-6", "placement_context": "Once healed, when trimming and pedicures resume.", "link_type": "cross-site"},
+        {"anchor_text": "how long a full nail takes to grow back", "full_url": "/blog/nail-health/how-long-does-it-take-a-toenail-to-grow-back", "place_in_section": "H2-7", "placement_context": "In the no-phenol regrowth sentence.", "link_type": "cluster-spoke"},
+        {"anchor_text": "the best toenail shape for preventing ingrown nails", "full_url": "https://mirelleinspo.com/blog/toenail-shapes/best-toenail-shape-for-ingrown-nails", "place_in_section": "H2-7", "placement_context": "In the recurrence-prevention sentence.", "link_type": "cross-site"}
+      ]
+    },
+    "block_6_aeo_geo_plan": {
+      "aeo_assignments": [
+        {"aeo_term": "How long does partial nail avulsion recovery take?", "assigned_to_section": "H2-1", "execution": "2-3 sentence direct answer immediately after the H2."},
+        {"aeo_term": "What does a partial nail avulsion look like when it is healing?", "assigned_to_section": "H2-3", "execution": "2-3 sentence direct answer immediately after the H2."},
+        {"aeo_term": "Is drainage normal after a partial nail avulsion?", "assigned_to_section": "H2-4", "execution": "2-3 sentence direct answer immediately after the H2."},
+        {"aeo_term": "When can I wear normal shoes after a partial nail avulsion?", "assigned_to_section": "H2-5", "execution": "2-3 sentence direct answer immediately after the H2."},
+        {"aeo_term": "Can I wear nail polish after a partial nail avulsion?", "assigned_to_section": "H2-6", "execution": "2-3 sentence direct answer immediately after the H2."},
+        {"aeo_term": "Will my toenail grow back after a partial nail avulsion?", "assigned_to_section": "H2-7", "execution": "2-3 sentence direct answer immediately after the H2."},
+        {"aeo_term": "What are the signs of infection after a partial nail avulsion?", "assigned_to_section": "H2-4", "execution": "Direct answer as a short paragraph before the checklist."},
+        {"aeo_term": "Does a partial nail avulsion hurt after the anesthetic wears off?", "assigned_to_section": "H2-2", "execution": "Direct answer within the first paragraph after the H2."}
+      ],
+      "geo_entity_statements": [
+        {"entity": "partial nail avulsion", "assigned_to_section": "Introduction", "execution": "One declarative sentence: a podiatry procedure that removes only the ingrown edge of the nail."},
+        {"entity": "phenolization (chemical matrixectomy)", "assigned_to_section": "H2-1", "execution": "One declarative sentence: phenol destroys the nail matrix cells so that edge does not regrow, which lengthens healing."},
+        {"entity": "nail matrix", "assigned_to_section": "H2-7", "execution": "One declarative sentence: the hidden growth tissue at the nail base that produces the nail."}
+      ]
+    },
+    "block_7_active_constraints": {
+      "em_dash_banned": "No long em dashes anywhere. Replace with comma, new sentence, parentheses or 'but'.",
+      "banned_vocab_watch": "Likely slips: navigate, journey, crucial, ensure, delve, seamless, unlock, landscape. Catch as they form.",
+      "american_english_active": "color, anesthesia, phenolization, recognize. Quotes stay verbatim (Bennet uses British spelling).",
+      "keyword_density_reminder": "After every 2 H2s, check the running total against 10. First half denser.",
+      "image_path_reminder": "/images/blog/nail-health/partial-nail-avulsion-recovery/filename.webp",
+      "internal_link_url_reminder": "Cluster = /blog/nail-health/[slug]. Cross-site = full discovered URL. Never bare /slug.",
+      "hero_image_reminder": "Hero is frontmatter only.",
+      "strong_tag_reminder": "Every keyword mention in <strong>.",
+      "expert_quote_reminder": "Frontmatter expert: cameron-bennet. Word-for-word extracts only; no meaning change; no attributions beyond what he said.",
+      "medical_safety_reminder": "Add a brief line to follow the treating podiatrist's instructions; note diabetes, poor circulation or blood thinners can lengthen healing and lower the threshold to call."
+    }
+  }
+}
