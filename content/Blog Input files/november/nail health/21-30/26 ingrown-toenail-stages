@@ -1,0 +1,390 @@
+# INPUT FILE: ingrown toenail stages
+
+## SECTION 1: FILE AUTHORITY
+
+THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded. Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly.
+
+---
+
+## SECTION 2: POST_CONSTANTS
+
+- slug: ingrown-toenail-stages
+- topic_slug: nail-health
+- canonical: https://mirelleinspo.com/blog/nail-health/ingrown-toenail-stages
+- post_type: spoke
+- intent: informational
+- word_count: 1900 (reference ceiling, not a target. Top-5 fetched average was 1,073 words with a wide spread; the longest, DermNet, was about 1,150 and the shortest about 250. Write precisely; landing under is correct if the post is complete. Never pad.)
+- image_count: 7 (1 hero + 6 body)
+- show_inspo_gallery_link: false (cluster default, verbatim)
+- template: posts
+- hero_dimensions: 1200x675
+- category: Nail Health
+- publish_date: 2026-09-28
+- author: jyoti-mirelle
+- expertise_type: licensed_derm_or_nail_health_expert
+- expert_alias: cameron-bennet
+- expert_quote: see Section 14
+
+---
+
+## SECTION 3: CLUSTER SNAPSHOT
+
+- pillar_slug: what-kills-toenail-fungus-instantly (cluster hub; this post's own topical anchor is the ingrown-toenail sub-group led by ingrown-toenail-infection-signs)
+- pillar_title: What Kills Toenail Fungus Instantly? What Actually Works
+- pillar_primary_keyword: what kills toenail fungus instantly
+- this_post_slug: ingrown-toenail-stages
+- this_post_role: spoke
+- show_inspo_gallery_link_cluster_default: false
+- keywords_to_avoid (never use as focus terms): infected ingrown toenail, ingrown toenail infection signs, dental floss ingrown toenail, does dental floss help ingrown toenail, should i cut my ingrown toenail, is it safe to cut ingrown toenail yourself, do you need antibiotics for ingrown toenail, ingrown toenail antibiotics, partial nail avulsion recovery, how long does it take a toenail to grow back, paronychia, diabetic nail care, toenail fungus, toenail fungus symptoms, toenail fungus stages, what does nail fungus look like, can toenail fungus kill you, how to know if toenail fungus is dying, what kills toenail fungus instantly, is nail fungus contagious, do otc nail fungus treatments work, jublia vs terbinafine, does laser treatment work for nail fungus, home remedies for nail fungus that work, acrylic nails over fungal nail, nail fungus myths, superficial white onychomycosis, nail psoriasis vs fungus, dark line on nail, white spots on nails, spoon nails, Beau's lines, nail color meaning, nail patch test, gel nails safe during pregnancy, how long for nails to recover from gel or acrylic, why do i keep getting hangnails, how often should you trim your nails, vertical ridges on nails causes and fixes
+
+Cannibalization note (hard wall): the sibling posts own "infected ingrown toenail" (infection signs/when to see a doctor), "dental floss ingrown toenail," "should i cut my ingrown toenail," "do you need antibiotics for ingrown toenail," and "partial nail avulsion recovery." This post covers the FULL progression from first pinching to chronic infection, and points to each sibling for its own deep dive. Do not answer those siblings' questions in depth here.
+
+---
+
+## SECTION 4: SERP ANALYSIS
+
+**competitor_gaps** (demand-validated on 2+ sources):
+- A stage guide that keeps the reader's decision in view: "what do I do at THIS stage, and when does home care stop being safe." DermNet gives per-stage treatment but in clinical tone; London Foot & Ankle and Advanced Foot Specialists give a definition and nothing actionable. Straits Podiatry and a Birmingham practice cover it but with a clinic-sales angle.
+- Skin-tone-aware description. Redness is the standard sign in every top page; only Biology Insights notes infection can show as deeper brown or purplish on darker skin. Cleveland Clinic touches it once ("redness or darkening"). PAA and clinical writing confirm the gap.
+- A fourth and fifth stage. The consumer pages stop at three. The clinical literature (Mozena, five stages; Scholz, 1A to 5B) and one case report describe advanced chronic stages with skin bridging and complete nail-fold envelopment. No consumer page tells the reader that stage 3 is not the ceiling.
+- Look-alikes: paronychia (whole-nail-fold, fast onset) and pincer nail (both edges curl). Only one aggregator page covers this. It stops readers self-diagnosing the wrong stage.
+- How fast it moves. Nobody gives the reader a realistic sense of how quickly stage 1 becomes stage 2. Expert quote below supplies the honest answer: "can start without much pain before rapidly developing into something very sore."
+
+**missing_semantic_territory:** nail fold, granulation tissue ("proud flesh"), hypergranulation, lateral nail fold hypertrophy, callus at the nail edge as the first sign, pseudo-ingrown nail of the newborn, pincer nail, involuted nail, cellulitis warning signs (spreading redness, red streaks, fever), skin bridging, chronic stage, darker skin infection signs, "looks worse each day."
+
+**our_strategic_approach:** Every ranking page defines three stages in one paragraph and then stops, or (DermNet) lists treatments in clinical language. This post keeps the three-stage frame everyone recognizes, because that is what readers search, but makes it usable: each stage gets a plain-language "what you see and feel," a "what changes here" line, and a clear "home care is still fine / see a professional now" verdict. It adds what none of the five pages do together: skin-tone-aware cues, the look-alike checks (paronychia, pincer nail), an honest note that clinicians describe further chronic stages beyond stage 3, and a real podiatrist voice (Cameron Bennet, quoted on the exact progression and the callus first sign) rather than generic clinic copy. Structural edge: stage-per-H2 with a decision line, plus an explicit "how fast does it progress" section, instead of one undifferentiated definition block.
+
+**top_5_fetched_pages_summary:**
+1. https://dermnetnz.org/topics/ingrown-toenail | ~1,150 words | 9 H2 | primary keyword ("stages") mentions: 6 | Authoritative three-stage list with per-stage treatment and post-surgery care. Clinical tone, no reader-facing decision line, no skin-tone note, no timeline of progression.
+2. https://www.londonfootandanklesurgery.co.uk/blogs/stages-of-ingrown-toenail/ | ~420 words body | 9 H2 (incl. 6 FAQ) | mentions: 6 | Short, three stages, FAQ block including cost (from 650 pounds). Thin on what to do at each stage. Frames stage 3 as "urgent."
+3. https://www.advancedfootspecialists.com/blog/the-three-stages-of-ingrown-toenails | ~250 words | 4 headings | mentions: 3 | Defines three stages in one paragraph, then a generic causes/treatment list. Weakest of the five; mostly a lead-gen page. Proves the bar is low.
+4. https://my.clevelandclinic.org/health/diseases/17664-ingrown-toenails | ~1,150 words | 11 H2/H3 | mentions: 0 (does not use a staged framework; treated here as a competitor for the broader query) | Strong on when to see a provider, home care, surgery (nail avulsion). No stage framework at all.
+5. https://www.health.harvard.edu/diseases-and-conditions/ingrown-toenail-a-to-z | ~600 words | 8 H2 | mentions: 0 (no stages framework) | Concise, authoritative; early-stage treatment, when to call a professional. Says nail "sometimes corrects itself as it grows out." No stages.
+
+Note on fetch record: a sixth page (PMC review of surgical strategies) returned a CAPTCHA wall instead of content and was excluded from all counts. Its stage-count claims (five-stage Mozena classification) are used only as a directional signal via the search snippet and are flagged as "clinical literature describes more than three stages" rather than cited in detail.
+
+**top_5_word_count_average:** approximately 715 across the five (the range is very wide, 250 to 1,150). The higher-ranking pages (DermNet, Cleveland Clinic) sit near 1,150.
+**top_5_keyword_density_average:** 3.0 mentions of the exact primary keyword or its direct phrasing per page (only 3 of 5 pages use a staged framework at all)
+
+**recommended_image_count_validation:** 7 images. SERP leaders (DermNet) use 3 clinical photographs of ingrown toenails. Match the visual pattern with infographic illustrations only, never photographs of damaged toes.
+
+---
+
+## SECTION 5: AUDIENCE INTELLIGENCE
+
+**who_they_are:** Adults and parents of teens/athletes who have a sore, red toe edge and want to know how serious it is. Many are hoping to avoid a doctor visit. Some are searching after a home fix stopped working. A meaningful share are runners, teens, or people who wear tight or closed shoes daily.
+
+**what_they_want_from_this_post:** A quick way to place themselves on a scale ("what stage is mine?"), what that means, and the point at which they should stop treating it at home.
+
+**what_frustrates_them:** Pages that define three stages in two sentences and never say what to do. Redness-only descriptions that do not match darker skin. Clinic pages that push a booking before answering. Not knowing how quickly it can get worse.
+
+**top_5_pain_points:**
+1. "Is this just sore or is it already infected?"
+2. "It's getting worse every day. How fast does this progress?"
+3. "How long can I try home care before it stops being safe?"
+4. "The skin over my nail looks puffy and shiny. Which stage is that?"
+5. "Is this an ingrown nail or something else (fungus, paronychia)?"
+
+**exact_user_phrases** (drawn from PAA-style and forum phrasing surfaced in research):
+- "how do I know if my ingrown toenail is healing"
+- "what does an infected toenail look like"
+- "pinching" (used directly by London Foot & Ankle's clinician wording)
+- "proud flesh"
+- "it keeps coming back"
+- "worse every day"
+- "is it infected or just sore"
+- "hard skin along the edge" (callus wording from the expert quote)
+- "how long can I leave it"
+
+**intent_content_signals:**
+- Readers want a scannable stage-by-stage layout before any explanation
+- A "see a professional if" line under each stage is expected and trusted
+- Photographs are common on competitors but many readers find them off-putting; illustrations perform better for a general audience
+- Short, direct answers under question-style headings
+- Real clinician quotes are rare on competitor pages and build trust
+- A skin-tone-aware description is a genuine differentiator, not a trend
+
+---
+
+## SECTION 6: SEMANTIC KEYWORD DATA
+
+**primary_keyword:** ingrown toenail stages
+
+**keyword_variations:** stages of an ingrown toenail, ingrown toenail stage 1, ingrown toenail stage 2, ingrown toenail stage 3, the three stages of ingrown toenails, ingrown toenail progression, ingrown toenail severity, how ingrown toenails progress
+
+**cluster_keywords:** early ingrown toenail, mild ingrown toenail, moderate ingrown toenail, severe ingrown toenail, ingrown toenail pain, ingrown toenail redness, ingrown toenail swelling, ingrown toenail pus, ingrown toenail treatment by stage, when to see a podiatrist for an ingrown toenail, ingrown toenail looks like
+
+**lsi_terms:** nail fold, lateral nail fold, nail edge, nail corner, granulation tissue, hypergranulation, proud flesh, hypertrophy, callus, cellulitis, purulent discharge, pus, warmth, throbbing, redness or darkening, partial nail avulsion, phenol, matricectomy, soaking, cotton wick, involuted nail, pincer nail
+
+**aeo_terms:**
+- What are the stages of an ingrown toenail?
+- What does a stage 1 ingrown toenail look like?
+- What does a stage 2 ingrown toenail look like?
+- What is a stage 3 ingrown toenail?
+- How fast does an ingrown toenail get worse?
+- Can an ingrown toenail heal on its own at stage 1?
+- When does an ingrown toenail need a doctor?
+- How can I tell if my ingrown toenail is infected or just irritated?
+- What does an ingrown toenail look like on dark skin?
+- Is it an ingrown toenail or paronychia?
+
+**technical_terms:** onychocryptosis, unguis incarnatus, nail fold, granulation tissue, lateral nail avulsion, matricectomy, paronychia, cellulitis
+
+**user_language:** pinching, proud flesh, worse every day, puffy and shiny, hard skin at the edge, keeps coming back, red and angry, sore to touch, throbbing at night
+
+**total_mention_target:** 6 (top-5 average 3.0 + 3). Not a percentage.
+
+---
+
+## SECTION 7: VOICE AND AI QUERIES
+
+**blog_gen_instruction:** Answer every query directly in the relevant H2 body. If it cannot be addressed naturally, route it to faqItems. No query left unanswered.
+
+**queries:**
+1. What are the stages of an ingrown toenail?
+2. What does a stage 1 ingrown toenail look like?
+3. How do I know if my ingrown toenail is getting worse?
+4. What does a stage 2 ingrown toenail look like?
+5. What does a stage 3 ingrown toenail look like?
+6. How fast does an ingrown toenail go from mild to infected?
+7. Can I treat a stage 1 ingrown toenail at home?
+8. When should I stop home treatment and see a podiatrist?
+9. What is granulation tissue or "proud flesh" on an ingrown toenail?
+10. Is there a stage beyond stage 3?
+11. How can I tell an ingrown toenail from paronychia?
+12. How can I tell an ingrown toenail from a pincer nail?
+13. What does an infected ingrown toenail look like on dark skin?
+14. Does an ingrown toenail heal on its own as the nail grows out?
+15. What treatment is used at each stage of an ingrown toenail?
+16. Are ingrown toenails at any stage worse for people with diabetes?
+
+---
+
+## SECTION 8: HOOK AND CTR
+
+**real_serp_findings_summary:** The ranking titles are plain informational labels ("The Three Stages of Ingrown Toenails," "What Are the Stages of Ingrown Toenail," "Ingrown toenails (onychocryptosis)"). None promises a decision, none carries a year, and none signals that the stages are usable for self-assessment. Position-one style titles are generic and clinic-authored.
+
+**selected_option_rationale:** The chosen title front-loads the keyword and promises the missing thing, a way to place yourself and know what to do, which the competitor titles do not offer.
+
+**title:** Ingrown Toenail Stages: What Each One Looks Like (2026)
+**title_char_count:** 55 (confirmed within 55-60; keyword in first 3 words)
+
+**meta_description:** Not sure if your toe is just sore or infected? See each ingrown toenail stage, what changes, when home care works, and when to see a podiatrist.
+**meta_char_count:** 152 (confirmed within 120-155)
+
+**intro_hook_brief:** Open on the moment of uncertainty: a sore, puffy edge on the big toe and the question "is this normal or is it turning into something." State plainly that clinicians describe three stages and that the real skill is knowing where you are and what each one means for what you do next. Promise a way to place themselves in a minute or two. Technique: The Claim.
+
+**first_h2_hook_direction:** Phrase the first H2 in voice-search wording ("What are the stages of an ingrown toenail?") and give a two-to-three sentence direct answer immediately beneath it (three stages, mild irritation, infection, chronic overgrowth) before any stage detail. Do not repeat the title hook.
+
+---
+
+## SECTION 9: SEARCH JOURNEY
+
+**reader_arrival_state:** Worried and uncertain, looking at a sore toe edge, hoping it is minor and wanting a clear way to judge it.
+
+**journey_arc:**
+- Give the three-stage answer immediately so they can orient
+- Walk stage 1, 2, 3 with what it looks and feels like and what to do at each
+- Add skin-tone cues and the look-alike checks so they do not self-misdiagnose
+- Explain how fast it can progress and that clinicians describe stages beyond three
+- Close with a clear line on when to stop home care and get it treated
+
+**promise_to_deliver:** A way to place your own toe on the stage scale and know what to do next.
+
+**exit_state:** Clear-headed and in control. They know their stage, know what is safe to do at home, and know exactly when to call a professional.
+
+---
+
+## SECTION 10: CONTENT STRUCTURE
+
+**h1:** Ingrown Toenail Stages: What Each One Looks Like and What to Do
+
+**h2_structure:**
+1. What Are the Stages of an Ingrown Toenail?
+2. Stage 1: Mild Irritation Before Any Infection
+3. Stage 2: When the Skin Breaks and Infection Sets In
+4. Stage 3: Chronic Infection and Overgrown Tissue
+5. How Fast Does an Ingrown Toenail Progress?
+6. What an Ingrown Toenail Looks Like on Different Skin Tones
+7. Is It Really an Ingrown Toenail? Paronychia and Pincer Nails
+8. When Home Care Stops Being Safe
+
+**word_budget:**
+- introduction: 200 words
+- conclusion: 150 words
+- H2-1 (What Are the Stages): 150 words
+- H2-2 (Stage 1): 260 words
+- H2-3 (Stage 2): 260 words
+- H2-4 (Stage 3): 240 words
+- H2-5 (How Fast): 170 words
+- H2-6 (Different Skin Tones): 130 words
+- H2-7 (Paronychia and Pincer Nails): 200 words
+- H2-8 (When Home Care Stops Being Safe): 140 words
+- Total: 1,900
+
+(FAQ items handled separately in faqItems, drawn from Section 7 queries not covered in the body.)
+
+---
+
+## SECTION 11: INTERNAL LINKS
+
+**blog_gen_instruction:** Every link below must appear in the post. Cluster links use anchor texts verbatim from the cluster file. Cross-site links use the provided descriptive anchor. Woven into prose, never standalone CTAs. Total internal links: 6 (at the cap).
+
+**all_internal_links:**
+1. url_or_slug: /blog/nail-health/ingrown-toenail-infection-signs
+   - anchor_text: signs you need a doctor for an ingrown toenail
+   - placement_note: H2-3 (Stage 2), where the reader crosses from irritation to infection; this sibling owns the detailed infection-triage content.
+   - link_type: cluster-spoke
+2. url_or_slug: /blog/nail-health/does-dental-floss-help-ingrown-toenail
+   - anchor_text: whether dental floss under the nail actually works
+   - placement_note: H2-2 (Stage 1), at the mention of lifting the edge with cotton or floss.
+   - link_type: cluster-spoke
+3. url_or_slug: /blog/nail-health/is-it-safe-to-cut-ingrown-toenail-yourself
+   - anchor_text: whether it's safe to cut an ingrown toenail yourself
+   - placement_note: H2-8 (When Home Care Stops Being Safe), at the "do not dig it out" point.
+   - link_type: cluster-spoke
+4. url_or_slug: /blog/nail-health/ingrown-toenail-antibiotics-when-needed
+   - anchor_text: when antibiotics are actually needed
+   - placement_note: H2-3 or H2-4, where pus and infection are discussed, to head off the "do I need antibiotics" question.
+   - link_type: cluster-spoke
+5. url_or_slug: https://mirelleinspo.com/blog/toenail-shapes/how-to-shape-toenails-at-home
+   - anchor_text: how to shape toenails at home without causing ingrown nails
+   - placement_note: H2-2 (Stage 1), at the prevention/"cut straight across" point, or in the conclusion.
+   - link_type: cross-site
+6. url_or_slug: https://mirelleinspo.com/blog/toenail-shapes/best-toenail-shape-for-ingrown-nails
+   - anchor_text: the best toenail shape for ingrown toenails, explained by a podiatrist
+   - placement_note: Conclusion, as the prevention next step after the stage guide.
+   - link_type: cross-site
+
+(Note: the cluster file also lists a sibling link to partial-nail-avulsion-recovery from the cluster's ingrown-toenail sub-group. It is not required from this post's links_to list, so it is not included here.)
+
+---
+
+## SECTION 12: VOICE AND TONE
+
+- **recommended_voice:** Calm, practical expert. A knowledgeable friend who is not alarmist and does not upsell.
+- **tone_characteristics:** Reassuring but honest about progression; direct on thresholds; plain-language clinical terms explained on first use; no fear-mongering; respectful of the reader's wish to avoid a doctor while being clear about when they should not
+- **language_style:** Second person ("you"), short declarative sentences for signs and thresholds, one everyday comparison for what "proud flesh" is, terms like granulation tissue and nail fold defined immediately
+- **audience_match:** The reader is worried and self-assessing. Competitor tone is either dry clinical (DermNet) or a booking funnel (clinic blogs). A steady, decision-focused voice with honest thresholds stands apart and earns trust.
+
+---
+
+## SECTION 13: EXTERNAL LINKS
+
+**blog_gen_instruction:** Include where indicated. Supports E-E-A-T. Write naturally around the anchor suggestion.
+
+1. url: https://dermnetnz.org/topics/ingrown-toenail
+   - context: H2-1 or H2-2, when introducing the three-stage classification. Cited as an authoritative dermatology reference.
+   - anchor_suggestion: DermNet New Zealand's ingrown toenail guide
+2. url: https://my.clevelandclinic.org/health/diseases/17664-ingrown-toenails
+   - context: H2-8, when explaining when to see a provider (diabetes, poor circulation, infection signs, no improvement in a few days).
+   - anchor_suggestion: Cleveland Clinic's guidance on when to see a provider
+
+---
+
+## SECTION 14: FEATURED EXPERT
+
+**expert_alias:** cameron-bennet
+
+**expert_quote (full, verbatim from cluster_context.json):**
+"Ingrown toenails can start without much pain before rapidly developing into something very sore. The common features of ingrown toenails are redness, swelling and pain. When the nail first starts pressing into the skin, it may or may not be painful and you might see a bit of callus (hard skin) forming around the nail edge. If that pressure continues, the nail can break through the skin and potentially introduce infection. This is where the skin surrounding the edge of the nail tends to become very sore to touch, quite red and inflamed, and you may even see pus coming from the ingrown edge."
+
+**suggested_placement:** Use the "may or may not be painful and you might see a bit of callus (hard skin) forming around the nail edge" extract in H2-2 (Stage 1) as the expert-confirmed early sign. Use the "start without much pain before rapidly developing into something very sore" extract in H2-5 (How Fast) to support the progression point. Use "the nail can break through the skin and potentially introduce infection" in H2-3 (Stage 2) as the moment the stage changes. Any words actually quoted must be exact; do not change the meaning. Do not attribute to Mr. Bennet any claim beyond these words (for example, do not attribute a specific stage number or timeline to him, since he does not use them in this quote).
+
+---
+
+## SECTION 15: EXECUTION PLAN
+
+### BLOCK 1: KEYWORD EXECUTION
+- primary_keyword: ingrown toenail stages
+- top_5_density_baseline: 3.0 mentions
+- total_mention_target: 6 total (3.0 + 3)
+- first_100_words_plan: TWICE in the first 100 words, mandatory.
+  - mention_1: sentence 1 of the introduction (states the three-stage answer)
+  - mention_2: sentence 3 of the introduction (promises the placing-yourself method)
+- first_half_target: 4 mentions in the first 950 words (run denser here)
+- second_half_target: 2 mentions in the second 950 words
+- strong_tag_rule: EVERY mention of the primary keyword, all 6, wrapped in `<strong>` tags. Scan after every paragraph. Variations ("stages of an ingrown toenail") are secondary and do not count toward the 6 but should still be wrapped if used as the primary phrasing.
+- keywords_to_avoid_active: full list from Section 3, never used as focus terms anywhere in the post.
+
+### BLOCK 2: WORD BUDGET
+- total_target: 1,900 words (+/-50 tolerance, never exceed)
+- introduction: 200
+- conclusion: 150
+- h2_budgets:
+  - What Are the Stages of an Ingrown Toenail?: 150 (low)
+  - Stage 1: Mild Irritation Before Any Infection: 260 (medium)
+  - Stage 2: When the Skin Breaks and Infection Sets In: 260 (high)
+  - Stage 3: Chronic Infection and Overgrown Tissue: 240 (high)
+  - How Fast Does an Ingrown Toenail Progress?: 170 (medium)
+  - What an Ingrown Toenail Looks Like on Different Skin Tones: 130 (medium)
+  - Is It Really an Ingrown Toenail? Paronychia and Pincer Nails: 200 (medium)
+  - When Home Care Stops Being Safe: 140 (low)
+- tracking_rule: Track the running total at the end of every H2. If a section runs over, cut before moving on. Do not compensate later.
+
+### BLOCK 3: IMAGE PLAN
+- total_images: 7
+- hero_image: frontmatter only, NEVER in the post body. Dimensions 1200x675.
+- body_images: 6 to place in the body
+- assignments:
+  1. image_number 1, place_after: H2-1 (What Are the Stages), image_type: infographic, section_context: clean three-stage overview graphic (Stage 1 mild redness and swelling, no pus; Stage 2 more swelling with pus or drainage; Stage 3 granulation tissue and overgrown skin fold) shown as a simple illustrated toe cross-section or color-coded step ladder. Illustration only, no photographs of damaged toes.
+  2. image_number 2, place_after: H2-2 (Stage 1), image_type: standard_inspiration, section_context: a healthy, neat, natural-looking toenail with a clean straight edge and visible square corners, calm neutral background; no hands or tools.
+  3. image_number 3, place_after: H2-3 (Stage 2), image_type: infographic, section_context: simple decision graphic, "irritated vs infected" comparison of signs (warmth, pus, spreading redness, throbbing) laid out as a clean two-column graphic, not a photo comparison.
+  4. image_number 4, place_after: H2-5 (How Fast), image_type: infographic, section_context: a timeline strip showing that stage 1 can progress to stage 2 within days when pressure continues and how conservative care changes that trajectory. No specific day counts unless they are drawn from a cited source; use "days to weeks" phrasing.
+  5. image_number 5, place_after: H2-6 (Different Skin Tones), image_type: infographic, section_context: an illustrated color-cue guide showing how redness versus darker brown or purplish tone can signal irritation and infection across skin tones (illustrated swatches only, not photographs).
+  6. image_number 6, place_after: H2-8 (When Home Care Stops Being Safe), image_type: standard_inspiration, section_context: a healthy, well-kept pedicured toe in a soft neutral setting conveying recovery and normalcy; no tools or hands at work.
+- image_type_rule: default standard_inspiration; infographics used here only for the four slots that genuinely need a graphic (stage overview, irritated-vs-infected, progression, skin-tone cues). Never a tool/equipment image. Never a photo-style side-by-side nail comparison. Never a photograph of an infected or damaged toe.
+- path_rule: /images/blog/nail-health/ingrown-toenail-stages/filename.webp
+
+### BLOCK 4: OPENING TECHNIQUE ASSIGNMENTS
+- Introduction: Technique 1 (The Claim)
+- H2-1 (What Are the Stages): Technique 2 (The Direct Answer)
+- H2-2 (Stage 1): Technique 4 (The Scene)
+- H2-3 (Stage 2): Technique 3 (The Reframe)
+- H2-4 (Stage 3): Technique 2 (The Direct Answer)
+- H2-5 (How Fast): Technique 5 (The Contrast)
+- H2-6 (Different Skin Tones): Technique 6 (The Myth Correction)
+- H2-7 (Paronychia and Pincer Nails): Technique 4 (The Scene)
+- H2-8 (When Home Care Stops Being Safe): Technique 1 (The Claim)
+- Conclusion: Technique 3 (The Reframe)
+- rule: no two consecutive sections use the same technique. Conclusion = Technique 1 or 3 only.
+- banned_opener_rule: check every opener against banned_opening_approaches in the blog gen prompt before writing the second sentence.
+
+### BLOCK 5: LINK PLACEMENTS
+1. anchor_text: whether dental floss under the nail actually works | full_url: /blog/nail-health/does-dental-floss-help-ingrown-toenail | place_in_section: H2-2 | placement_context: sentence about lifting the nail edge with cotton or floss | link_type: cluster-spoke
+2. anchor_text: how to shape toenails at home without causing ingrown nails | full_url: https://mirelleinspo.com/blog/toenail-shapes/how-to-shape-toenails-at-home | place_in_section: H2-2 | placement_context: prevention sentence about cutting straight across | link_type: cross-site
+3. anchor_text: signs you need a doctor for an ingrown toenail | full_url: /blog/nail-health/ingrown-toenail-infection-signs | place_in_section: H2-3 | placement_context: the moment the reader crosses into infection | link_type: cluster-spoke
+4. anchor_text: when antibiotics are actually needed | full_url: /blog/nail-health/ingrown-toenail-antibiotics-when-needed | place_in_section: H2-4 | placement_context: sentence about infection in the chronic stage | link_type: cluster-spoke
+5. anchor_text: whether it's safe to cut an ingrown toenail yourself | full_url: /blog/nail-health/is-it-safe-to-cut-ingrown-toenail-yourself | place_in_section: H2-8 | placement_context: "do not dig it out yourself" point | link_type: cluster-spoke
+6. anchor_text: the best toenail shape for ingrown toenails, explained by a podiatrist | full_url: https://mirelleinspo.com/blog/toenail-shapes/best-toenail-shape-for-ingrown-nails | place_in_section: Conclusion | placement_context: closing prevention pointer | link_type: cross-site
+- rule: every link exactly where specified, anchors verbatim, woven into prose, never standalone CTAs.
+
+### BLOCK 6: AEO / GEO PLAN
+**aeo_assignments:**
+- "What are the stages of an ingrown toenail?" → H2-1, direct 2-3 sentence answer IMMEDIATELY after the heading.
+- "What does a stage 1 ingrown toenail look like?" → H2-2, direct answer immediately after the heading.
+- "What does a stage 2 ingrown toenail look like?" → H2-3, direct answer immediately after the heading.
+- "What is a stage 3 ingrown toenail?" → H2-4, direct answer immediately after the heading.
+- "How fast does an ingrown toenail get worse?" → H2-5, direct answer immediately after the heading.
+- "What does an infected ingrown toenail look like on dark skin?" → H2-6, direct answer immediately after the heading.
+- "How can I tell an ingrown toenail from paronychia?" → H2-7, direct answer immediately after the heading.
+- "When does an ingrown toenail need a doctor?" → H2-8, direct answer immediately after the heading.
+- Remaining queries (diabetes, heals on its own, treatment per stage, granulation tissue) → faqItems if not naturally covered.
+
+**geo_entity_statements:**
+- ingrown toenail (onychocryptosis) → H2-1: "An ingrown toenail is a condition in which the edge or corner of the nail grows into the skin beside it, causing pain, swelling, and sometimes infection."
+- granulation tissue → H2-4: "Granulation tissue, often called proud flesh, is red, raw, easily bleeding tissue that forms along the nail fold in a chronic ingrown toenail."
+- paronychia → H2-7: "Paronychia is a bacterial infection of the skin around the whole nail, and unlike an ingrown toenail it typically develops within a day or two."
+
+### BLOCK 7: ACTIVE CONSTRAINTS
+- em_dash_banned: the long em dash does not appear anywhere. If one forms, replace with a comma, new sentence, parentheses, "but", or restructure.
+- banned_vocab_watch: delve, tapestry, landscape, navigate, crucial, unlock, elevate, seamless, comprehensive, robust. Catch as they form.
+- american_english_active: color, recognize, -ize, -or. This post uses American English (note: source pages from the UK and NZ use "anaesthetic," "haemorrhage"-style spellings; convert to American: anesthetic, etc.).
+- keyword_density_reminder: after every 2 H2 sections, count mentions. Verify the running total is on track for 6. First half denser than second.
+- image_path_reminder: /images/blog/nail-health/ingrown-toenail-stages/filename.webp, topic_slug always in path.
+- internal_link_url_reminder: cluster links = /blog/nail-health/[slug]. Cross-site links = exact URL as discovered. Never bare /slug.
+- hero_image_reminder: hero is frontmatter only. Never in the body.
+- strong_tag_reminder: every primary keyword mention = `<strong>`. Scan after every paragraph.
+- expert_quote_reminder: expert_alias cameron-bennet goes into the expert frontmatter field exactly. expert_quote may be used whole or as word-for-word extracts at the suggested sections; never paraphrased at the word level, never altered in meaning, never fabricated. Do not put a stage number or timeline in his mouth.
+- medical_claims_note: this is a health topic. Keep stage descriptions consistent with the fetched sources (DermNet three-stage classification is the primary frame). State plainly that clinicians also describe more than three stages in the medical literature, without claiming a specific consensus. No claims about how many days progression takes; use "can move quickly" phrasing supported by the expert quote. Do not give dosing, soak durations, or antibiotic advice beyond what sources state; route "do I need antibiotics" to the sibling post. Always include the diabetes/poor circulation "see a professional even at stage 1" line (supported by Cleveland Clinic and Harvard Health).
+- sibling_boundary_reminder: do not duplicate the dental floss deep dive, the DIY cutting deep dive, the antibiotics deep dive, or the infection-triage deep dive. Answer briefly and link.
