@@ -1,0 +1,311 @@
+# INPUT FILE: is-nail-fungus-contagious
+
+## SECTION 1: FILE AUTHORITY
+THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All values in POST_CONSTANTS are hardcoded. Blog Gen Agent does not ask, adjust, or override them. All keywords, H2 structure, audience intelligence, internal links, and tone defined here must be followed exactly. READ SECTION 15 FIRST.
+
+## SECTION 2: POST_CONSTANTS
+- slug: is-nail-fungus-contagious
+- topic_slug: nail-health
+- canonical: https://mirelleinspo.com/blog/nail-health/is-nail-fungus-contagious
+- post_type: spoke
+- intent: informational
+- word_count: 2350 (reference ceiling, not a target; landing under it is correct if the post is genuinely complete)
+- image_count: 7 (1 hero + 6 body)
+- show_inspo_gallery_link: false
+- template: posts
+- hero_dimensions: 1200x675
+- category: Nail Health
+- publish_date: 2026-09-28
+- author: jyoti-mirelle
+- expertise_type: licensed_derm_or_nail_health_expert
+- expert_alias: bob-baravarian
+- expert_quote: (see Section 14)
+
+## SECTION 3: CLUSTER SNAPSHOT
+- pillar_slug: what-kills-toenail-fungus-instantly
+- pillar_title: What Kills Toenail Fungus Instantly? What Actually Works
+- pillar_primary_keyword: what kills toenail fungus instantly
+- this_post_slug: is-nail-fungus-contagious
+- this_post_role: spoke
+- show_inspo_gallery_link_cluster_default: false
+- keywords_to_avoid (never used as focus terms): is toenail fungus contagious; toenail fungus; toenail fungus causes; toenail fungus symptoms; toenail fungus treatment; toenail fungus stages; toenail fungus home remedies; toenail fungus vs nail psoriasis; nail fungus causes; nail fungus symptoms; nail fungus treatment; nail fungus prevention; nail fungus home remedies; what is nail fungus; fingernail fungus; best toenail fungus treatment; prevent toenail fungus returning; nail polish toenail fungus; how long does nail fungus take to clear; what does nail fungus look like; nail fungus myths; do otc nail fungus treatments work; can toenail fungus kill you; how to know if toenail fungus is dying; paronychia; nail psoriasis vs fungus; superficial white onychomycosis; home remedies for nail fungus that work; acrylic nails over fungal nail; diabetic nail care; plus every other reserved keyword in cluster_map.
+
+## SECTION 4: SERP ANALYSIS
+**blog_gen_instruction:** our_strategic_approach is the concrete angle for intro, conclusion, and depth decisions.
+
+**competitor_gaps (each confirmed on 2+ sources: fetched pages, PAA-style queries, Quora, YouTube, Pinterest, salongeek):**
+1. How contagious is it really? Every fetched page says "yes, contagious" with no probability. Real data exists (household scoping review, 44-47% of households with one affected member) and none of the 5 pages cite it.
+2. Contagious vs. susceptible. Only Dr. Baravarian's expert quote and one clinic page frame it as "exposure plus predisposition." No fetched page explains why two people share a bathroom and only one gets it.
+3. How long you stay contagious during treatment, and what to do meanwhile. Zero fetched pages answer it.
+4. Salon and pedicure transmission specifics. Only 1 of 5 fetched pages mentions salons (one line). Quora and Salon Geek show this is a live, contested question.
+5. Whether fungus survives in nail polish, and sanitize vs. sterilize. Salon Geek threads show unresolved professional confusion; competitors ignore it.
+6. Toe to fingernail self-spread mechanics (picking, shared tools, athlete's foot as the bridge). Only AAD and Drugs.com touch it, briefly.
+7. Pools: chlorine does not fix the floor. Competitors say "wear flip-flops" but never explain why the water is not the problem.
+
+**missing_semantic_territory:** household transmission rate; individual susceptibility; contagious during treatment; reinfection from shoes; spores surviving in socks and shoes after washing; athlete's foot as reservoir; polish bottle cross-contamination; steam sterilization vs. cold soak; bed-sharing and bathmat transfer.
+
+**our_strategic_approach:** The top 5 pages answer "yes" in the first sentence and then recite the same barefoot-in-locker-rooms checklist. This post opens with the yes, then does what none of them do: quantifies the risk (household scoping review, 44-47%), explains why exposure does not equal infection, and answers the questions readers actually type after "yes" (my partner has it, can I share a bathroom; can I swim; am I contagious on treatment; is my salon safe). Structurally it beats the average by using specific, query-shaped H2s instead of generic labels (Drugs.com and AAD lean on generic "What is / How to prevent" headings), pairing every risk with a concrete action, and anchoring the susceptibility section with Dr. Baravarian's verbatim expert claim. The 5 fetched pages are also clustered in low-depth territory (two are podiatry-clinic blog posts under ~500 words), so a complete, well-structured 2,300+ word answer clears the depth bar comfortably.
+
+**top_5_fetched_pages_summary (all fetched via web_fetch; counts are approximate body-content counts, excluding nav/footer chrome):**
+| # | URL | Approx. words | H2s | Primary-kw mentions ("nail fungus" + "contagious" variants) | Note |
+|---|---|---|---|---|---|
+| 1 | drugs.com/medical-answers/nail-fungus-contagious-3565085/ | ~840 | 8 | ~9 | Strong Q&A structure and family-spread section; no probability data, no salon/pool depth |
+| 2 | aad.org/public/diseases/a-z/nail-fungus-overview | ~800 | 9 | ~12 | Authoritative, includes athlete's foot bridge quote; thin on prevention specifics |
+| 3 | neufoot.com/blog/is-nail-fungus-contagious | ~380 | 4 | ~5 | Short clinic post; says "shared clippers" but stays surface-level |
+| 4 | blog.walgreens.com/.../is-toenail-fungus-contagious.html | ~620 | 2 | ~4 (toenail-framed) | Best prevention list; reviewed by a dermatologist; no risk quantification |
+| 5 | allcarefootdoc.com/blog/is-nail-fungus-contagious | ~430 | 4 | ~6 | Only page mentioning salons; one line, no depth |
+
+**top_5_word_count_average:** ~614 words. (Note: this is unusually low; the SERP is dominated by short answer pages. See phase_3b reasoning in Section 2. The 2,350 reference is set well above the average deliberately because depth and specificity are the differentiator, and because the household-transmission, salon, pool, and treatment-window content is genuinely substantive. Do not pad to reach it.)
+
+**top_5_keyword_density_average:** ~7.2 mentions of the primary keyword per page.
+
+**recommended_image_count_validation:** 7 total matches the informational-spoke default. SERP pages are almost entirely text-only (one AAD clinical photo), so image count is a differentiator, not a requirement.
+
+## SECTION 5: AUDIENCE INTELLIGENCE
+**blog_gen_instruction:** Primary creative brief. Write for this specific person.
+
+**who_they_are:** Someone who just found out they (or a partner, parent, kid, or roommate) has nail fungus and is anxious about the logistics of living with it. Often a worried household member, not the patient. Also a regular salon or gym goer wondering if they already caught it. Mostly non-clinical; some are nail techs (Salon Geek).
+
+**what_they_want:** A straight yes/no first, then the practical rules: can I share a bathroom, can I swim, can I still get a pedicure, is it going to spread to my other nails or my kid.
+
+**what_frustrates_them:** "Yes, it's contagious" followed by a generic barefoot checklist and a treatment pitch. No sense of how likely transmission is. Conflicting claims (chlorine kills it / it doesn't; polish spreads it / it can't).
+
+**top_5_pain_points:**
+1. "Is my partner or family going to catch this from me?" (household anxiety)
+2. Embarrassment; fear that it means dirty feet (AAD: dirty nails alone cannot cause it; Salon Geek: "fungus doesn't imply dirty feet")
+3. "Can I still swim, go to the gym, get a pedicure?"
+4. Not knowing whether they caught it from a salon
+5. Not knowing if treatment makes them non-contagious
+
+**exact_user_phrases (from Quora, Salon Geek, YouTube, Pinterest; wording preserved):**
+- "If I wear one of her washed socks, could I get her toenail fungus?"
+- "the most frequent mode of infection is using the shower after someone who has a fungal infection"
+- "I went swimming with nail fungus: did I pass it on?"
+- "can toe nail fungus spread to fingernails?"
+- "a prime source of nail fungus are manicure/pedicure salons"
+- "you may not even know you have athlete's foot"
+- "stop the spread and clear it up for good"
+- "would you still use polish...doesn't that polish then become infected?"
+- "everyone seems to have it"
+- "fungus is not something to be ashamed with"
+
+**intent_content_signals:** People want a direct answer up top; scannable risk-by-situation structure; concrete "do this / don't do this" pairs; real numbers; reassurance without dismissing the risk; salon-specific guidance; short paragraphs.
+
+## SECTION 6: SEMANTIC KEYWORD DATA
+**blog_gen_instruction:** Primary keyword in <strong> tags every mention. AEO terms trigger direct-answer paragraphs. User language woven naturally. No term from keywords_to_avoid used as a focus term. NOTE: "toenail" framing is reserved by the existing site post, so keep language on nail fungus in general, and mention toenails only as one location, never as the frame.
+
+- **primary_keyword:** is nail fungus contagious
+- **keyword_variations:** nail fungus contagious; can nail fungus spread; does nail fungus spread to other people; can you catch nail fungus; how does nail fungus spread; is onychomycosis contagious; can you give someone nail fungus
+- **cluster_keywords:** fungal nail infection; onychomycosis; how nail fungus spreads; nail fungus transmission; catching nail fungus from family; nail fungus in shared bathrooms; athlete's foot and nails; nail fungus at the salon; fungal spores on surfaces; infected nail contact
+- **lsi_terms:** dermatophyte; keratin; tinea pedis; Trichophyton rubrum; fungal spores; arthroconidia; household transmission; susceptibility; direct contact; shared surfaces; moist environments; reinfection; subungual debris; nail bed; microscopic cracks; predisposition; tinea unguium; nail clippers; shower shoes; steam sterilization
+- **aeo_terms:**
+  - Is nail fungus contagious?
+  - How does nail fungus spread from person to person?
+  - Can you get nail fungus from a nail salon?
+  - Can nail fungus spread to your fingernails?
+  - Can you catch nail fungus from a shared shower or bathroom?
+  - Is nail fungus still contagious while you are treating it?
+  - Can you swim with nail fungus?
+  - Can you get nail fungus from your partner?
+  - Does everyone who touches nail fungus catch it?
+  - Does chlorine kill nail fungus?
+- **technical_terms:** onychomycosis; dermatophyte; tinea pedis; tinea unguium; keratin; hyphae/arthroconidia; subungual; immunocompromised
+- **user_language:** "shared shower"; "washed socks"; "went swimming with it"; "caught it from the salon"; "spreads to my other nails"; "my partner has it"; "shower shoes"; "am I contagious"
+
+**mention_target:** 10 total (top_5_density_average 7.2 + 2 to 3 = 9 to 10; use 10). Two in the first 100 words (mandatory).
+
+## SECTION 7: VOICE AND AI QUERIES
+**blog_gen_instruction:** Answer every query directly in the relevant H2 body. If it cannot be addressed in the body, route it to faqItems. No query left unanswered.
+1. Is nail fungus contagious to other people?
+2. How easy is it to catch nail fungus from someone?
+3. Can you get nail fungus from sharing a bathroom?
+4. Can you get nail fungus from a shared shower?
+5. Can I catch nail fungus from my partner or spouse?
+6. Can nail fungus spread through socks and shoes?
+7. Do washed socks still carry nail fungus?
+8. Can you get nail fungus from a pedicure or manicure?
+9. Can nail fungus spread from toenails to fingernails?
+10. Can nail fungus spread from one nail to another on the same foot?
+11. Is nail fungus contagious while on treatment?
+12. Can you go to a pool with nail fungus?
+13. Does chlorine kill nail fungus?
+14. Does everyone exposed to nail fungus get it?
+15. Can nail fungus live in nail polish?
+16. Do I have to throw away my shoes if I have nail fungus?
+17. Is nail fungus a sign of dirty feet?
+18. Can nail fungus spread through the air?
+
+## SECTION 8: HOOK AND CTR
+**blog_gen_instruction:** READ BEFORE WRITING THE TITLE, META, INTRO, OR FIRST H2. Title and meta below are LOCKED. Use exactly.
+
+- **real_serp_findings_summary:** The five real ranking titles are almost all identical in shape: a bare question ("Is Nail Fungus Contagious?") or question plus a generic modifier. Four of five front-load the keyword already, and none carry a year tag, a number, or a differentiating promise. Drugs.com and AAD lean entirely on authority; the clinic and pharmacy posts lean on nothing. The unmet opportunity is a title that promises the thing none of them deliver: an answer to "how likely" and "what do I do next."
+- **selected_option_rationale:** The chosen title keeps the exact-match keyword in the first three words (matching the baseline), then adds a concrete, specific promise ("How Easily It Spreads") that the fetched pages do not deliver, and a year tag for freshness. It tests the gap rather than copying the bare-question pattern.
+- **title:** Is Nail Fungus Contagious? How Easily It Spreads (2026)
+- **title_char_count:** 57
+- **meta_description:** Wondering if you can catch it from a partner, pool, or salon? Real household spread rates, what's risky, and what to do while treating it.
+- **meta_char_count:** 148
+- **intro_hook_brief:** Open with the direct yes (so the reader gets the answer in the first sentence), then immediately pivot to the question the reader actually has: "how easily, and how worried should I be?" Primary keyword twice in the first 100 words. Frame the post as the version that gives a real number and a real plan, not a checklist. Address the embarrassment quietly (it is not a hygiene problem).
+- **first_h2_hook_direction:** First H2 should read as the voice-search question ("Is Nail Fungus Contagious?" answered plainly) and deliver the 2-3 sentence direct answer immediately, then set up the "but how much?" tension without repeating the title's hook.
+
+## SECTION 9: SEARCH JOURNEY
+**blog_gen_instruction:** The emotional contract. If a paragraph breaks the arc, rewrite it.
+- **reader_arrival_state:** Worried and a little embarrassed. Someone in their orbit has nail fungus (or they suspect they do) and they want to know how careful they need to be, right now.
+- **journey_arc:**
+  1. Direct yes, with the honest caveat that exposure is not the same as infection
+  2. Quantify the risk (household numbers) so worry gets scaled correctly
+  3. Walk through the real transmission routes: home, pool and gym, salon, own body
+  4. Explain why some people catch it and others do not (susceptibility)
+  5. Give a concrete plan for the reader's actual situation, including while treating
+- **promise_to_deliver:** A clear answer to "is nail fungus contagious" that goes past "yes" to show how easily it spreads, where the real risks are, and what to do about them.
+- **exit_state:** Calm and equipped. They know the real risk, they know the three or four changes worth making, and they no longer feel dirty or panicked.
+
+## SECTION 10: CONTENT STRUCTURE
+**blog_gen_instruction:** Follow exactly. Do not rename, reorder, or remove H2s without user instruction. H3s at editorial discretion.
+
+- **h1:** Is Nail Fungus Contagious? How Easily It Spreads (2026)
+- **h2_structure (7 H2s):**
+  1. Is Nail Fungus Contagious? The Short Answer
+  2. How Easily Does Nail Fungus Spread? What the Numbers Say
+  3. Can You Get Nail Fungus From a Shared Bathroom, Partner, or Family Member?
+  4. Can You Get Nail Fungus From a Pool, Gym, or Nail Salon?
+  5. Can Nail Fungus Spread From Toes to Fingernails, or Nail to Nail?
+  6. Why Some People Catch It and Others Do Not
+  7. Are You Still Contagious While Treating It? What to Do in the Meantime
+- **word_budget:**
+  - introduction: 210
+  - H2-1: 190
+  - H2-2: 280
+  - H2-3: 340
+  - H2-4: 400
+  - H2-5: 280
+  - H2-6: 250
+  - H2-7: 250
+  - conclusion: 150
+  - total: 2350
+
+## SECTION 11: INTERNAL LINKS
+**blog_gen_instruction:** Every link must appear. Cluster links use anchors verbatim. Cross-site links use the descriptive anchor provided. Weave into prose, never as standalone CTAs. Total internal links: 6 (within the 4 to 6 cap).
+
+| # | url_or_slug | anchor_text (verbatim) | placement_note | link_type |
+|---|---|---|---|---|
+| 1 | /blog/nail-health/what-does-nail-fungus-look-like | what nail fungus actually looks like | H2-1, right after the direct answer, for readers unsure whether what they have is fungus | cluster-pillar |
+| 2 | /blog/nail-health/nail-fungus-myths-what-is-actually-true | common nail fungus myths debunked | H2-6, when the "dirty feet" and "instant infection" myths come up | cluster-spoke |
+| 3 | https://mirelleinspo.com/blog/toenail-fungus/is-toenail-fungus-contagious | the full guide to toenail fungus contagiousness | H2-3 or H2-5, where toenail-specific detail is mentioned, as the toenail hand-off | existing_site_post |
+| 4 | https://mirelleinspo.com/nail-faqs/how-to-choose-the-right-nail-salon-near-me | how to check a nail salon's hygiene before you book | H2-4 (salon subsection): natural spot for what to ask a salon | cross-site |
+| 5 | https://mirelleinspo.com/blog/least-damaging-way-to-get-nails-done | which manicure types are gentlest on your nails | H2-4 (salon subsection) OR H2-7 (deciding what services to keep during treatment) | cross-site |
+| 6 | https://mirelleinspo.com/blog/nail-fungus/how-long-does-nail-fungus-take-to-clear | how long nail fungus takes to clear | H2-7, when discussing the treatment timeline vs. contagiousness | existing_site_post |
+
+**Note:** Cluster file lists 3 links_to for this post (#1, #2, #3). #4 and #5 are the 2 cross-site discovery links (cap of 2, relevance-filtered). #6 is an existing-site post surfaced during discovery and used as an anchor for the treatment-timeline section; if you want to stay strictly at 5, drop #5.
+
+## SECTION 12: VOICE AND TONE
+**blog_gen_instruction:** Layer on Mirellé's editorial framework. Do not default to generic AI tone.
+- **recommended_voice:** Calm, informed friend with clinical backing
+- **tone_characteristics:** direct (answer first); reassuring without minimizing; specific (numbers, situations, named surfaces); non-judgmental about hygiene; practical
+- **language_style:** Second person. Short declarative sentences for the answers, slightly longer ones for the "why." Concrete nouns (bathmat, clippers, pool deck) over abstractions. No fear-mongering, no "shocking" framing.
+- **audience_match:** Readers arrive anxious and slightly ashamed. A steady, matter-of-fact voice lowers the temperature, while real numbers and a clear plan give them something to act on.
+
+## SECTION 13: EXTERNAL LINKS
+**blog_gen_instruction:** Sourced from phase_3 fetched pages. Include where indicated.
+| url | context | anchor_suggestion |
+|---|---|---|
+| https://www.aad.org/public/diseases/a-z/nail-fungus-overview | H2-1 or H2-5: supports "contagious," the "dirty nails alone cannot cause it" point, and the athlete's foot to nail pathway | American Academy of Dermatology's nail fungus overview |
+| https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8779452/ | H2-2: source for the 44-47% household transmission figure | scoping review on household transmission |
+
+## SECTION 14: FEATURED EXPERT
+- **expert_alias:** bob-baravarian
+- **expert_quote (full, verbatim as supplied; use whole or draw word-for-word extracts, never paraphrase, never alter meaning):**
+  "Yes toenail fungus is contagious but you have to have a predisposition towards getting fungus. Some people are more resistant to fungal infections so they would not get a transmission. Fungus is everywhere and if you are susceptible to it, you can pick it up from shoes, nail salon, gym and areas with moisture. Fungus loves moist environments."
+- **suggested_placement:** H2-6 (susceptibility) is the strongest fit for the first two sentences, since that is exactly the "predisposition" point. The last two sentences ("Fungus is everywhere...moisture") can be reused as a short extract in H2-4 (pool, gym, salon) to anchor the surface-transmission point. Do not use the "toenail fungus" opening clause in the intro; the reservation on toenail framing applies.
+
+## SECTION 15: EXECUTION PLAN
+**READ THIS SECTION FIRST. Lock every value. Execute exactly.**
+
+### block_1_keyword_execution
+- primary_keyword: is nail fungus contagious
+- top_5_density_baseline: ~7.2 mentions per fetched page
+- total_mention_target: 10 total (7.2 + 2 to 3, rounded to 10)
+- first_100_words_plan:
+  - mention_1: sentence 1 of the introduction (the direct-answer sentence)
+  - mention_2: sentence 3 of the introduction (framing the "how easily" question)
+- first_half_target: 6 mentions (first 1,175 words)
+- second_half_target: 4 mentions
+- strong_tag_rule: EVERY mention wrapped in <strong>. Scan after every paragraph.
+- keywords_to_avoid_active: full list from Section 3
+
+### block_2_word_budget
+- total_target: 2350 words, +/-50 tolerance, never exceed
+- introduction: 210
+- conclusion: 150
+- h2_budgets:
+  - Is Nail Fungus Contagious? The Short Answer: 190 (low)
+  - How Easily Does Nail Fungus Spread? What the Numbers Say: 280 (medium)
+  - Can You Get Nail Fungus From a Shared Bathroom, Partner, or Family Member?: 340 (high)
+  - Can You Get Nail Fungus From a Pool, Gym, or Nail Salon?: 400 (high)
+  - Can Nail Fungus Spread From Toes to Fingernails, or Nail to Nail?: 280 (medium)
+  - Why Some People Catch It and Others Do Not: 250 (medium)
+  - Are You Still Contagious While Treating It? What to Do in the Meantime: 250 (medium)
+- tracking_rule: Track running total at the end of every H2. Cut before moving on if over. Do not compensate later.
+
+### block_3_image_plan
+- total_images: 7
+- hero_image: frontmatter only, never in body
+- body_images: 6
+- assignments:
+  1. place_after: H2-1 | image_type: standard_inspiration | context: clean, natural, healthy-looking hands and feet in neutral styling; no medical/clinical imagery
+  2. place_after: H2-2 | image_type: infographic | context: simple visual of the household transmission range (44-47% of households with one affected member had evidence of transmission), clean graphic, no photo
+  3. place_after: H2-3 | image_type: standard_inspiration | context: tidy bathroom scene with separate towels and shower shoes; product-style, no people needing depiction
+  4. place_after: H2-4 | image_type: standard_inspiration | context: pool-deck flip-flops or shower shoes on a wet tile floor
+  5. place_after: H2-5 | image_type: standard_inspiration | context: neatly kept, clean short natural nails
+  6. place_after: H2-6 | image_type: standard_inspiration | context: soft, calm lifestyle image of feet in socks or breathable shoes
+  7. (conclusion) hold as spare if 6 body slots are filled by H2-1 through H2-6; otherwise place after H2-7 | image_type: standard_inspiration
+- image_type_rule: default is standard_inspiration. Exactly ONE infographic (slot 2) because the household number is the one piece of data that genuinely benefits from a visual. Banned absolutely: tool or equipment shots, hands-at-work shots, and photo-style nail-to-nail comparisons.
+- path_rule: /images/blog/nail-health/is-nail-fungus-contagious/filename.webp
+
+### block_4_opening_technique_assignments
+- Introduction: Technique 1, The Claim
+- H2-1: Technique 2, The Direct Answer
+- H2-2: Technique 4, The Specific Number
+- H2-3: Technique 3, The Reframe
+- H2-4: Technique 5, The Scenario
+- H2-5: Technique 2, The Direct Answer
+- H2-6: Technique 3, The Reframe
+- H2-7: Technique 5, The Scenario
+- Conclusion: Technique 1, The Claim
+- rule: no two consecutive sections use the same technique; conclusion is Technique 1 or 3 only. Check every opener against banned_opening_approaches in the blog gen prompt before writing the second sentence.
+
+### block_5_link_placements
+1. anchor: "what nail fungus actually looks like" | url: /blog/nail-health/what-does-nail-fungus-look-like | section: H2-1 | context: the sentence about not being sure it is fungus | cluster-pillar
+2. anchor: "common nail fungus myths debunked" | url: /blog/nail-health/nail-fungus-myths-what-is-actually-true | section: H2-6 | context: dirty-feet or overnight-infection myth | cluster-spoke
+3. anchor: "the full guide to toenail fungus contagiousness" | url: https://mirelleinspo.com/blog/toenail-fungus/is-toenail-fungus-contagious | section: H2-5 | context: where toenail-specific spread is mentioned | existing_site_post
+4. anchor: "how to check a nail salon's hygiene before you book" | url: https://mirelleinspo.com/nail-faqs/how-to-choose-the-right-nail-salon-near-me | section: H2-4 | context: salon sanitation questions | cross-site
+5. anchor: "which manicure types are gentlest on your nails" | url: https://mirelleinspo.com/blog/least-damaging-way-to-get-nails-done | section: H2-7 | context: choosing services during treatment | cross-site
+6. anchor: "how long nail fungus takes to clear" | url: https://mirelleinspo.com/blog/nail-fungus/how-long-does-nail-fungus-take-to-clear | section: H2-7 | context: treatment timeline vs. spread window | existing_site_post
+
+### block_6_aeo_geo_plan
+- aeo_assignments:
+  - "Is nail fungus contagious?" | H2-1 | direct 2-3 sentence answer immediately after the heading
+  - "How does nail fungus spread from person to person?" | H2-2 | direct answer paragraph immediately after the heading
+  - "Can you get nail fungus from your partner?" | H2-3 | direct answer immediately after the heading
+  - "Can you get nail fungus from a nail salon?" | H2-4 | direct answer immediately after the heading
+  - "Can nail fungus spread to your fingernails?" | H2-5 | direct answer immediately after the heading
+  - "Does everyone who touches nail fungus catch it?" | H2-6 | direct answer immediately after the heading
+  - "Is nail fungus still contagious while you are treating it?" | H2-7 | direct answer immediately after the heading
+  - "Does chlorine kill nail fungus?" | H2-4 | short direct answer within the pool subsection
+  - "Can you swim with nail fungus?" | H2-4 | short direct answer within the pool subsection
+- geo_entity_statements:
+  - onychomycosis | H2-1 | one declarative definition sentence (a fungal infection of the nail, most often caused by dermatophytes)
+  - dermatophyte | H2-2 | one declarative definition sentence (a fungus that feeds on keratin in skin, hair, and nails)
+  - tinea pedis (athlete's foot) | H2-5 | one declarative sentence naming it as a skin infection caused by the same fungi that can invade the nail
+
+### block_7_active_constraints
+- em_dash_banned: no long em dash anywhere. If one forms, replace with a comma, a new sentence, parentheses, or "but."
+- banned_vocab_watch (most likely to slip in for this topic): "delve," "landscape," "navigate," "crucial," "robust," "seamless," "elevate," "unlock"
+- american_english_active: color, recognize, -ize, -or throughout. This is American English, not British. (Note: several fetched sources use British spelling, so do not mirror them.)
+- keyword_density_reminder: after every 2 H2s, count mentions; verify on track for 10 total with the first half denser.
+- image_path_reminder: /images/blog/nail-health/is-nail-fungus-contagious/filename.webp
+- internal_link_url_reminder: full correct paths only. Cluster links = /blog/nail-health/[slug]. Cross-site links = exact URL as given.
+- hero_image_reminder: hero is frontmatter only, never in body.
+- strong_tag_reminder: every primary keyword mention in <strong>.
+- expert_quote_reminder: expert_alias goes into the expert frontmatter field exactly as `bob-baravarian`. expert_quote may be used whole or as word-for-word extracts at the suggested placement; never paraphrased, never altered in meaning.
+- toenail_reservation_reminder: this post covers nail fungus generally. Do not frame it as a toenail-fungus post, and do not use "is toenail fungus contagious" as a focus term anywhere.
+- medical_safety_note: do not promise cure, do not claim any product "kills fungus instantly," and refer readers with diabetes, poor circulation, or a weak immune system to a clinician (consistent with the cluster pillar's honest angle).
