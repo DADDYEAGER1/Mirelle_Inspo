@@ -1,0 +1,231 @@
+# INPUT FILE: short-november-nails
+
+## SECTION 1: FILE AUTHORITY
+THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. All POST_CONSTANTS are hardcoded. Blog Gen Agent does not ask, adjust, or override them. Keywords, H2 structure, audience intelligence, links, and tone are followed exactly. **Read SECTION 15 FIRST.**
+
+## SECTION 2: POST_CONSTANTS
+- slug: short-november-nails
+- topic_slug: november-nails
+- canonical: https://mirelleinspo.com/blog/november-nails/short-november-nails
+- post_type: spoke
+- intent: inspirational (locked from cluster file)
+- word_count: 1700 (reference ceiling, not a quota; landing under it is correct if the post is complete. No padding. Intent overrides word count.)
+- image_count: 7 (hero + 6 body)
+- show_inspo_gallery_link: false (cluster default, verbatim)
+- template: posts
+- hero_dimensions: 1200x675
+- category: Nail Trends (verify against the Mirellé category list)
+- publish_date: 2026-09-29
+- author: jyoti-mirelle
+- expertise_type: design_led (no expert alias or quote for this post; SECTION 14 omitted)
+
+## SECTION 3: CLUSTER SNAPSHOT
+- pillar_slug: november-nail-ideas
+- pillar_title: November Nails 2026: 40+ Trending Ideas & Colors to Try
+- pillar_primary_keyword: november nails
+- this_post_slug: short-november-nails | role: spoke
+- show_inspo_gallery_link_cluster_default: false
+- keywords_to_avoid (hard wall, never focus terms): november nails, november nail colors for skin tone, fall nails / fall nail ideas, september nails, october nail trends, short october nails, fall chrome nails, tortoiseshell nails fall, fall almond nails, burgundy fall nails, simple fall nails, chrome nail trends, almond vs coffin nails.
+- Soft walls (separate or killed clusters, not focus terms): Thanksgiving nail ideas, November nail care/winter nail health, plaid & sweater-texture nails, easy/DIY tutorials, birthstone nails, chrome, tortoiseshell, "fall" as a modifier.
+
+## SECTION 4: SERP ANALYSIS
+**blog_gen_instruction:** Use our_strategic_approach as the angle for the intro, conclusion, and depth decisions.
+
+**Fetched pages (real fetches; word counts approximate from fetched text; keyword count = exact or near-exact "short November nail(s)"):**
+1. thepinkissue.com/short-november-nails: ~1,000 words, 20 H2, kw ≈5. The only true exact-match page. 20 one-paragraph looks, no shape, wear, or scaling guidance. Title: "20 Short November Nails Ideas to End Fall in Style".
+2. kreafolk.com/blogs/inspirations/november-nail-design: ~2,400 words, 8 H2, kw ≈1. Generic November guide with one short-nail H2 of 5 ideas; 30 uncaptioned images.
+3. parade.com/living/november-nails: ~1,150 words, 5 H2, kw 0. Pure roundup, mostly long or medium sets.
+4. stoleninspiration.com/november-nails: ~1,700 words, 2 H2, kw 0. Editorial voice and a Q&A, but no length-specific advice beyond one pinstripe line.
+5. themilliondollarmama.com/november-nail-designs: ~1,050 words, 4 H2, kw 0. Mostly almond and long sets.
+- 5-page average: ~1,460 words; exact-match kw average 1.2 (unusable, because four of five pages do not target the phrase). Extra semantic source: autumlove.com short-nails color guide (fetched).
+- **Finding:** the exact-keyword SERP is thin. One real page targets it, and Byrdie's version is excluded per source rules.
+
+**competitor_gaps (each confirmed on 2+ sources):**
+- How to scale a design down for a small canvas ("shrink the motif, not the nail"). Sources: greenweddingshoes, Semilac, Autum Love, mirelleinspo sibling posts.
+- Whether dark shades make short nails look shorter. Sources: Semilac, theeverygirl, beyondpolish, Woman & Home.
+- Best shape at short length (squoval). Sources: Woman & Home, Semilac, Kreafolk (one line only).
+- Practicality in cold, busy November weeks. Sources: Semilac, Glamnetic.
+- Festive without Christmas nails ("too soon for Christmas," per Cosmopolitan; Pink Issue's 20 looks skip it).
+- Carrying an October set into November (Pinterest board labels plus the competitor "transition" framing).
+
+**missing_semantic_territory:** squoval, micro French tip, free edge/cuticle line precision, "short nails handle color better than detail," glossy vs matte on short nails, jelly/sheer finishes.
+
+**our_strategic_approach:** The top page is 20 captions with no reasoning, and the broader November pages are written for long nails. We win by explaining why each look works at short length, using the shape, color depth, and detail scale rules competitors skip. We take the "short doesn't mean boring" position with named shades and finishes, and own the October-to-Christmas transition and cold-weather wear angles. Structure: 7 question-led H2s versus the pinkissue's 20 unexplained items, so the post reads as guidance plus inspiration, not a caption list.
+
+**recommended_image_count_validation:** SERP pages run 20 to 35 images; the hardcoded 7 stands. Compensate with specific, named looks in the prose.
+
+## SECTION 5: AUDIENCE INTELLIGENCE
+**blog_gen_instruction:** This is your primary creative brief.
+- **who_they_are:** Short-nail wearers (natural, gel, or short press-on/acrylic sets) in cold-weather markets. They are tired of roundups shot on long almond nails and want November colors that don't look childish or cramped.
+- **wants:** Saveable looks proven to work at short length, with enough reasoning to copy the look at the salon or at home.
+- **frustrated_by:** Long-nail examples labeled "for short nails," the fear that dark polish shrinks the nail, and pumpkin/turkey kitsch.
+- **top_5_pain_points:**
+  1. Designs that need length to read.
+  2. Fear that dark shades shorten the nail.
+  3. Not knowing which shape flatters a short bed.
+  4. November feeling stuck between Halloween and Christmas.
+  5. Wear and tear on short sets in cold, dry, busy weeks.
+- **exact_user_phrases:** "short nails for November," "November gel nails short," "simple November nails," "office nails classy," "natural short nails," "gel manicure ideas for short nails" (Pinterest board labels); "late fall nail art ideas for short nails" (YouTube title); "best nail polish colors to wear in November" (YouTube title); "what's a good [season] nail color for short nails?" (Quora pattern); "awkward middle child" of manicures (Cosmopolitan); "no pumpkins, turkeys, or kitschy decals" (Byrdie framing, reference only, not citable).
+- **intent_content_signals:** named shades and finishes; one-sentence "why it works at short length"; shape guidance; a decisive voice; micro-detail specifics (dots, half-moons, hairline tips); practical wear reassurance; a clear "save this first" close.
+
+## SECTION 6: SEMANTIC KEYWORD DATA
+**blog_gen_instruction:** Wrap the primary keyword in `<strong>` on every mention. AEO terms trigger direct-answer paragraphs. Weave user language naturally.
+- **primary_keyword:** short november nails
+- **keyword_variations:** short november nail ideas; short november nail designs; november nails for short nails; short nails for november; short november manicure; november manicure for short nails; short november gel nails; short november nails 2026
+- **cluster_keywords:** short squoval nails; short round nails; micro french tips; short nail art; short nail colors; short gel manicure; late autumn manicure; cold weather manicure; short velvet nails; short aura nails; short polka dot nails; negative space nails
+- **lsi_terms:** squoval; micro French; accent nail; negative space; half-moon; glossy top coat; jelly finish; velvet effect; aura shading; milky base; sheer base; oxblood; espresso; smoked olive; mushroom taupe; dark plum; deep navy; black cherry
+- **aeo_terms:**
+  - What nail colors look best on short nails in November?
+  - What nail shape is best for short November nails?
+  - Do dark nail colors make short nails look shorter?
+  - Can you wear nail art on short nails?
+  - What is a micro French tip and does it work on short nails?
+  - Are short nails more practical in cold weather?
+  - What finish looks best on short nails, glossy or matte?
+  - How do you make short nails look festive without Christmas nails?
+  - How do you carry an October manicure into November?
+- **technical_terms:** free edge; cuticle line; squoval; sidewalls; gel overlay; blooming gel; magnetic gel
+- **user_language:** "short doesn't mean boring"; "small canvas"; "shorties"; "trimmed nails"; "simple November nails"; "office-appropriate"; "not too Christmas"; "your nails but better"; "cute short nails for November"
+
+## SECTION 7: VOICE & AI QUERIES
+**blog_gen_instruction:** Answer every query in the relevant H2 body. If it cannot be addressed naturally, route it to faqItems. No query left unanswered.
+1. What colors look best on short nails in November?
+2. Do dark nail colors make short nails look shorter?
+3. What nail shape is best for short nails?
+4. Is squoval better than square for short nails?
+5. What is a micro French tip?
+6. Can short nails have nail art?
+7. What nail art works best on short nails?
+8. Should I go glossy or matte on short nails?
+9. How do I make short nails look longer with polish?
+10. What can I wear in November that isn't Halloween or Christmas?
+11. Can I wear my October nail color in November?
+12. Are short nails better for cold weather?
+13. How do I keep short nails from chipping in winter?
+14. Do jelly or milky nails work on short nails?
+15. How many nail colors should I use on a short set?
+
+## SECTION 8: HOOK & CTR
+**blog_gen_instruction:** READ BEFORE WRITING TITLE, META, INTRO, OR FIRST H2. Title and meta are LOCKED. Use exactly.
+- **real_serp_findings_summary:** All five fetched titles are number-led and generic ("Best," "Stunning," "Designs"). Only one is front-loaded on the exact keyword. None promise fit, practicality, or that the designs were chosen for short length, though the page bodies mostly show long almond sets.
+- **selected_option_rationale:** The title tests the gap (designs that actually fit short nails), front-loads the keyword, and carries the year. The meta names the pain (skipping November's richest colors) and the payoff (polished, not cramped).
+- **title:** Short November Nails 2026: Designs That Actually Fit
+- **title_char_count:** 52
+- **meta_description:** Short nails don't have to skip November's richest colors. See the shades, micro French tips, and finishes that look polished, not cramped.
+- **meta_char_count:** 138
+- **intro_hook_brief:** Open on the small-canvas problem (November's best colors and details usually get shown on long nails). Claim that short length is where the season's colors work best. Both keyword mentions land in the first 100 words.
+- **first_h2_hook_direction:** Lead with a question about shade depth and short length, answered directly (deep, glossy, cream formulas), not with a trend list.
+
+## SECTION 9: SEARCH JOURNEY
+**blog_gen_instruction:** Every section honors the promise. If a paragraph breaks the arc, rewrite it.
+- **reader_arrival_state:** Scrolling for November looks she can actually wear at short length, wary of shots taken on long nails.
+- **journey_arc:**
+  - Confirm short length works in November.
+  - Deliver color and micro-detail abundance early.
+  - Build aspiration with art and finishes.
+  - Solve the shape and season-transition questions.
+  - Close with the wearability reassurance and the "save this first" payoff.
+- **promise_to_deliver:** Every look shown is chosen for short nails, with the reason it works at that length.
+- **exit_state:** Confident her short nails are the right canvas for November, with two or three looks ready to save.
+
+## SECTION 10: CONTENT STRUCTURE
+**blog_gen_instruction:** Follow exactly. Do not rename, reorder, or remove H2s. H3s allowed.
+- **h1:** Short November Nails 2026: Designs That Actually Fit
+- **h2_structure:**
+  1. What Colors Look Best on Short Nails in November?
+  2. How Do You Wear a French Tip on Short November Nails?
+  3. What Nail Art Actually Fits on a Short Nail?
+  4. How Do You Make Short Nails Festive Without Going Full Christmas?
+  5. Which Nail Shape Works Best for Short November Nails?
+  6. Can You Carry a Short October Set Into November?
+  7. Are Short Nails Practical for Cold-Weather Months?
+- **word_budget:** intro 220 | H2-1 240 | H2-2 170 | H2-3 210 | H2-4 190 | H2-5 160 | H2-6 160 | H2-7 180 | conclusion 170 = 1,700
+
+## SECTION 11: INTERNAL LINKS (4 total)
+**blog_gen_instruction:** Every link must appear. Cluster anchors verbatim. Weave into prose, never a standalone CTA.
+1. /blog/november-nails/november-nail-ideas | anchor: "november nails 2026 ideas" | H2-4 (finish and festive looks, pointing to the full roundup) | cluster-pillar
+2. /blog/november-nails/november-nail-colors-skin-tone | anchor: "november nail colors for every skin tone" | H2-1 (after naming shades, pointing to undertone matching) | cluster-spoke
+3. https://mirelleinspo.com/blog/october-nails/short-october-nails | anchor: "35 short October sets in chocolate brown, olive, and burnt orange" | H2-6 (carry-over section) | cross-site
+4. https://mirelleinspo.com/blog/thanksgiving-nails/short-thanksgiving-nails | anchor: "short Thanksgiving nail ideas built for a cooking-heavy day" | H2-7 (practicality) | cross-site
+
+## SECTION 12: VOICE & TONE
+**blog_gen_instruction:** Layer on the Mirellé framework. No generic AI tone.
+- **recommended_voice:** Confident editor who has done the sizing math.
+- **tone_characteristics:** decisive; practical; warm; anti-kitsch; specific (named shades, named finishes)
+- **language_style:** Short declaratives and direct "you." Verdicts first, reasons after ("Squoval, hands down" register). One analogy per section maximum. No slang pileups.
+- **audience_match:** Short-nail readers are used to being an afterthought. A decisive expert voice that treats their length as the advantage fits the promise.
+
+## SECTION 13: EXTERNAL LINKS
+None of the five fetched pages is genuinely citation-worthy (roundups, brand blogs, no primary expertise). Section intentionally empty; no links forced.
+
+## SECTION 14: FEATURED EXPERT
+Omitted (design_led post).
+
+## SECTION 15: EXECUTION PLAN (READ FIRST)
+**blog_gen_instruction:** Lock every value. Execute exactly.
+
+**block_1_keyword_execution**
+- primary_keyword: short november nails
+- top_5_density_baseline: only 1 of 5 fetched pages targets the phrase, so the 5-page average (1.2) is unusable. Baseline is anchored on that page (≈5 mentions incl. close variants).
+- total_mention_target: 5 + 3 = **8** (hard target; H1 excluded, H2 headings included)
+- first_100_words_plan: mention 1 in sentence 1 of the intro (the small-canvas claim); mention 2 in sentence 3 (the promise that the shades and details here are chosen for short length)
+- first_half_target: 5 mentions (first 850 words; includes both intro mentions and the H2-2 and H2-5 headings)
+- second_half_target: 3 mentions (H2 heading 7, one in the body, one in the conclusion)
+- strong_tag_rule: all 8 mentions in `<strong>`. Scan after every paragraph.
+- keywords_to_avoid_active: full list from Section 3.
+
+**block_2_word_budget**
+- total_target: 1,700 words (+/-50, never exceed)
+- introduction 220 | conclusion 170
+- h2_budgets: H2-1 colors 240 (high) | H2-2 French tip 170 (medium) | H2-3 nail art 210 (high) | H2-4 festive 190 (medium) | H2-5 shape 160 (low) | H2-6 October carry-over 160 (low) | H2-7 cold-weather practicality 180 (medium)
+- tracking_rule: track the running total after every H2. Cut before moving on if over budget. Do not compensate later.
+
+**block_3_image_plan**
+- total_images: 7 | hero: frontmatter only, never in body | body_images: 6
+- assignments (all standard_inspiration; zero infographics, since intent is inspirational):
+  1. after H2-1: glossy short sets in espresso, oxblood, or smoked olive. File: short-november-nails-deep-colors.webp
+  2. after H2-2: micro French tip on short squoval. File: short-november-nails-micro-french.webp
+  3. after H2-3: scaled-down art (accent dots or half-moons). File: short-november-nails-small-art.webp
+  4. after H2-4: velvet/shimmer or champagne-pink short set. File: short-november-nails-festive-finish.webp
+  5. after H2-5: short squoval set showing shape. File: short-november-nails-squoval.webp
+  6. after H2-6: brown, olive, or burnt-orange set. File: short-november-nails-october-carryover.webp
+- banned: tool/equipment or hands-at-work shots; photo-style side-by-side comparisons.
+- path_rule: /images/blog/november-nails/short-november-nails/filename.webp
+
+**block_4_opening_technique_assignments** (Techniques 1 = The Claim and 3 = The Reframe are the only ones named in the source prompt; others per Blog Gen prompt)
+- Introduction: Technique 1 (The Claim)
+- H2-1: Technique 2 | H2-2: Technique 3 (The Reframe) | H2-3: Technique 4 | H2-4: Technique 2 | H2-5: Technique 5 | H2-6: Technique 3 (The Reframe) | H2-7: Technique 4
+- Conclusion: Technique 1 (The Claim)
+- Check every opener against banned_opening_approaches before writing the second sentence.
+
+**block_5_link_placements**
+1. anchor "november nails 2026 ideas" | /blog/november-nails/november-nail-ideas | H2-4 | in a sentence pointing to the full roundup | cluster-pillar
+2. anchor "november nail colors for every skin tone" | /blog/november-nails/november-nail-colors-skin-tone | H2-1 | after naming shades, pointing to undertone matching | cluster-spoke
+3. anchor "35 short October sets in chocolate brown, olive, and burnt orange" | https://mirelleinspo.com/blog/october-nails/short-october-nails | H2-6 | carry-over sentence | cross-site
+4. anchor "short Thanksgiving nail ideas built for a cooking-heavy day" | https://mirelleinspo.com/blog/thanksgiving-nails/short-thanksgiving-nails | H2-7 | practicality sentence | cross-site
+
+**block_6_aeo_geo_plan**
+- aeo_assignments (direct 2-3 sentence answer paragraph IMMEDIATELY after the H2, before any elaboration):
+  - "What nail colors look best on short nails in November?" → H2-1
+  - "What is a micro French tip and does it work on short nails?" → H2-2
+  - "Can you wear nail art on short nails?" → H2-3
+  - "How do you make short nails look festive without Christmas nails?" → H2-4
+  - "What nail shape is best for short November nails?" → H2-5
+  - "How do you carry an October manicure into November?" → H2-6
+  - "Are short nails more practical in cold weather?" → H2-7
+  - Remaining AEO terms (dark colors and length; glossy vs matte) fold into H2-1 body; unanswered routing goes to faqItems.
+- geo_entity_statements (one clear declarative definition each):
+  - Squoval: H2-5 (a short shape with a flat tip and softened corners)
+  - Micro French tip: H2-2 (a hairline tip band, thinner than a classic French)
+  - Accent nail: H2-3
+
+**block_7_active_constraints**
+- em_dash_banned: no em dash anywhere. Replace with comma, new sentence, parentheses, or restructure.
+- banned_vocab_watch: verify against the Blog Gen banned list. Most likely to slip in here: stunning, elevate, effortless(ly), vibrant, cozy-as-filler, timeless, chic, game-changer.
+- american_english_active: color, recognize, -ize, -or throughout.
+- keyword_density_reminder: after every 2 H2s, check the running count against 8. The first half must run denser than the second.
+- image_path_reminder: /images/blog/november-nails/short-november-nails/filename.webp
+- internal_link_url_reminder: cluster = /blog/november-nails/[slug]; cross-site = exact URLs above. Never bare /slug.
+- hero_image_reminder: hero is frontmatter only.
+- strong_tag_reminder: every keyword mention in `<strong>`.
+- expert_quote_reminder: not applicable (design_led).
