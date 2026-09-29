@@ -1,0 +1,217 @@
+# INPUT FILE: november-nail-ideas (Pillar)
+
+## 1. FILE AUTHORITY
+THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. POST_CONSTANTS are hardcoded. Blog Gen Agent does not ask, adjust, or override them. Keywords, H2 structure, audience intelligence, internal links and tone are followed exactly. Read section 15 FIRST.
+
+## 2. POST_CONSTANTS
+- slug: november-nail-ideas
+- topic_slug: november-nails
+- canonical: https://mirelleinspo.com/blog/november-nails/november-nail-ideas
+- post_type: pillar
+- intent: inspirational (LOCKED)
+- word_count: 1900 (reference ceiling, not a quota; landing under is correct if the post is complete; never pad, never drift from intent)
+- image_count: 9 (1 hero + 8 body, one per H2)
+- show_inspo_gallery_link: false
+- template: center
+- hero_dimensions: 1200x630
+- category: Seasonal Nails (verify against Mirellé category list)
+- publish_date: 2026-10-01
+- author: jyoti-mirelle
+- expertise_type: trend_forecaster
+- expert_alias: RI
+- expert_quote: see section 14
+
+## 3. CLUSTER SNAPSHOT
+- pillar_slug: november-nail-ideas | pillar_primary_keyword: november nails | this_post_role: pillar
+- show_inspo_gallery_link_cluster_default: false
+- keywords_to_avoid (never focus terms): short november nails; november nail colors for skin tone (also avoid "skin tone", "undertone", "fair/medium/deep"); fall nails / fall nail ideas; september nails; october nail trends; short october nails; fall chrome nails; tortoiseshell nails fall; fall almond nails; burgundy fall nails; simple fall nails; chrome nail trends; almond vs coffin nails.
+- Also out of scope (separate clusters): Thanksgiving nail ideas as a focus, November/winter nail care.
+
+## 4. SERP ANALYSIS
+Data note: figures below are hand-counted from fetched page text (approximate, about 10%). Google PAA and autocomplete panels are not exposed by the search tool, so question demand comes from Q&A blocks on fetched pages, Pinterest related-interest lists, and Quora.
+
+- competitor_gaps (each confirmed on 2+ sources):
+  1. No page maps looks to the calendar of the month (early November, Thanksgiving week, pre-December). Evidence: Pinterest "nails for november and december" cluster; Cosmopolitan and Stolen Inspiration both frame November as the in-between month.
+  2. No page says which November trends survive into winter. Evidence: Pinterest fall-to-winter related searches; the 2026 winter-trend roundup (girlsharestips) lists the same brown, velvet, cat-eye family.
+  3. Finish explainers missing (cat-eye vs velvet vs glazed). Pink Issue only touches velvet vs cat-eye in one line.
+  4. Birthstone (citrine, topaz) appears only as scattered entries (Stolen Inspiration, Pink Issue), never as a section.
+- missing_semantic_territory: "november and december nails", "fall to winter nails", "late fall nails", "last moody mani", "nails that go from Thanksgiving to Christmas", finish names (glazed, velvet, jelly), "birthday nails November".
+- our_strategic_approach: Every top page is a flat numbered gallery with 1 to 4 headings and little explanation (Parade 4 H2s; Stolen Inspiration 2). This post keeps the visual abundance but organizes it into 8 query-driven sections, so the reader can find a trend, a color, a finish or an occasion fast. It owns the calendar angle (Nov 1 through early December) and the "carries into winter" angle that no fetched page covers. It adds one-sentence "why it works" definitions for each finish, giving AI engines extractable answers that thin captions lack. Depth stays inside November nails; it never becomes a fall or winter roundup.
+- top_5_fetched_pages_summary:
+  1. parade.com/living/november-nails | ~1,450 words | 4 H2 + 35 H3 | ~6 mentions | 35 ideas grouped by mood, no explanation, meta promises "top nail artists" but page has none.
+  2. thepinkissue.com/november-nails/ | ~1,650 words | 30 H2 | ~5 mentions | Strong how-to detail per look (base color, finish tips), no trend framing.
+  3. stoleninspiration.com/november-nails/ | ~2,000 words | 2 H2 + 29 H3 | ~6 mentions | Longest; only page with a Q&A block, birthstone entries; lists 29 looks under an "28 Best" heading.
+  4. thegraydetails.com/november-nails/ | ~1,050 words | 1 H2 + 15 H3 | ~8 mentions | Short, color-family led, heavily shopping-link driven.
+  5. themilliondollarmama.com/november-nail-designs/ | ~1,350 words | 4 H2 + 35 H3 | ~1 exact mention (targets "november nail designs") | Palette guide plus a "match your style" list, closest to our structure idea.
+- recommended_image_count_validation: 9 images fits the pillar rule; competitors run 15 to 35 image slots, so each body image should be a dense multi-look composition where possible.
+
+## 5. AUDIENCE INTELLIGENCE
+- who_they_are: Trend-aware women (mostly 18 to 40, Tier 1 countries) browsing Pinterest and Google in late fall, planning a salon visit or DIY set, unsure what fits between Halloween and Christmas.
+- what_they_want: A confident answer to "what should I get this month", visual abundance, and looks that survive Thanksgiving through early December.
+- what_frustrates_them: Identical brown-and-burgundy galleries, Halloween or turkey leftovers, no guidance on timing or winter carry-over.
+- top_5_pain_points:
+  1. November feels like the awkward middle month (too late for pumpkin, too early for glitter).
+  2. Every roundup shows the same 5 looks.
+  3. Unsure which set works for Thanksgiving dinner and the weeks after.
+  4. Don't know which trend will still look current in December.
+  5. Can't tell finishes apart (cat-eye vs velvet vs glazed) when booking.
+- exact_user_phrases: "nails for november and december"; "November nails plaid"; "brown thanksgiving nails"; "simple November nails"; "November sweater nails"; "almond November nails"; "festive but not too Christmassy"; "nail inspo"; "save for my next appointment"; "moody mani"; "expensive-looking".
+- intent_content_signals: heavy visual density; short punchy captions; named looks (not "Design 12"); mood or occasion groupings; Pinterest-friendly vertical crops; quick color and finish tips; year-tagged freshness; a Q&A tail.
+
+## 6. SEMANTIC KEYWORD DATA
+Blog Gen: primary keyword in <strong> tags on every mention. AEO terms get direct answer paragraphs. No keywords_to_avoid term as a focus.
+- primary_keyword: november nails
+- keyword_variations: november nail ideas; november nail designs; november nail trends; november nail colors; november manicure; classy november nails; cute november nails; simple november nails; november nail inspo
+- cluster_keywords: november manicure ideas; late fall nails; autumn to winter nails; november and december nails; plaid nails; sweater texture nails; cat-eye nails; velvet nails; gold accent nails; cranberry nails; olive green nails; navy blue nails; milky nails; november birthstone nails; cozy nails
+- lsi_terms: chocolate brown; mocha; espresso; oxblood; plum; emerald; burnt orange; cinnamon; caramel; copper; gold foil; aura; magnetic; glazed; jelly; micro French; mismatched; checkered; celestial; knit texture
+- aeo_terms:
+  1. What nail colors are in for November?
+  2. What are the biggest November nail trends right now?
+  3. What is the difference between November nails and fall nails?
+  4. Are brown nails still in for November?
+  5. Can you wear bright colors in November?
+  6. What nail designs go with sweaters?
+  7. What nail finishes are trending in November?
+  8. What nail color works for both November and December?
+  9. What nails are best for a November birthday?
+  10. How do you make a November manicure look expensive?
+- technical_terms: cat-eye (magnetic gel); aura shading; chrome powder; BIAB (builder gel); matte top coat; blooming gel; negative space; skittle manicure
+- user_language: moody mani; cozy-girl; sweater weather nails; expensive-looking; last stretch of fall; too soon for Christmas; nail inspo; cute-girl nails; festive but subtle; clean-girl
+
+## 7. VOICE AND AI QUERIES
+Answer each in the relevant H2 body; otherwise route to faqItems.
+1. What nail colors are in for November?
+2. What are the biggest November nail trends right now?
+3. Are brown nails still in for November?
+4. What nail finish is trending this month?
+5. What is the difference between cat-eye and velvet nails?
+6. What nail design goes with a sweater?
+7. Can I wear bright nails in November?
+8. What nails work for Thanksgiving and December too?
+9. What nails are good for a November birthday?
+10. Is plaid still a nail trend in November?
+11. What is a glazed nail finish?
+12. What nail trends will carry into winter?
+13. What are people saving on Pinterest for November nails?
+14. What is a simple November nail idea?
+15. Can I get my November nails done at home?
+
+## 8. HOOK AND CTR
+- real_serp_findings_summary: The six competing titles (Parade, Pink Issue, Stolen Inspiration, Million Dollar Mama, Gray Details, Cosmopolitan) are number-led or adjective-led ("35 Best", "30 Ideas", "Chic & Trendy") and rarely front-load the keyword. None promises a timeline or a winter carry-over. Parade's meta promises expert input the page does not deliver.
+- selected_option_rationale: Front-loads the keyword and tests the uncontested "carries into winter" promise, matching a reader stuck between Halloween and Christmas.
+- title: November Nails 2026: Cozy Looks That Carry Into Winter (LOCKED)
+- title_char_count: 54
+- meta_description: Too late for Halloween, too early for Christmas? These November nails, from chocolate brown to gold chrome, work through Thanksgiving and beyond. (LOCKED)
+- meta_char_count: 145
+- intro_hook_brief: Open on the in-between month, with Halloween orange fading and Christmas glitter too early. Promise one set of looks that works from November 1 into December. Deliver <strong>november nails</strong> twice in the first 100 words.
+- first_h2_hook_direction: Phrase the first H2 as the spoken question ("What are the biggest November nail trends right now?") and answer it in 2 to 3 sentences immediately.
+
+## 9. SEARCH JOURNEY
+- reader_arrival_state: Curious and slightly behind, scrolling for a set to save before the salon visit.
+- journey_arc:
+  1. Confirm the trend picture fast (H2 1).
+  2. Build aspiration through color and finish (H2 2 to 3).
+  3. Add personality through pattern, minimalism and birthstone (H2 4 to 6).
+  4. Fit the look to the calendar, Thanksgiving then December (H2 7 to 8).
+  5. Close with the "this is your November set" payoff.
+- promise_to_deliver: Cozy November looks that stay current from Halloween's end into winter.
+- exit_state: Certain of the one or two looks to save and book.
+
+## 10. CONTENT STRUCTURE
+- h1: November Nails 2026: The Cozy Looks Worth Saving Before Winter
+- h2_structure (do not rename, reorder or remove):
+  1. What Are the Biggest November Nail Trends Right Now? (260 words)
+  2. What Are the Best Nail Colors for November? (220)
+  3. Cat-Eye, Velvet, and Glazed: The November Finishes Everyone Is Booking (200)
+  4. Plaid, Sweater Texture, and Animal Print for Cozy November Nails (180)
+  5. Classy and Minimal November Nails That Go With Everything (170)
+  6. November Birthstone Nails: Citrine and Topaz Ideas (130)
+  7. Thanksgiving Nails and the Weeks After: Gold, Cranberry, and Celebration Sets (190)
+  8. How to Carry Your November Nails Into Winter (150)
+- word_budget: introduction 225 | conclusion 175 | H2s total 1,500 (as listed)
+
+## 11. INTERNAL LINKS (4 total)
+| anchor_text (verbatim) | url | placement | type |
+|---|---|---|---|
+| november nail colors for every skin tone | /blog/november-nails/november-nail-colors-skin-tone | H2 2, closing sentence pointing to shade matching | cluster-spoke |
+| short november nails for cold weather | /blog/november-nails/short-november-nails | H2 5, where micro French and minimal sets are discussed | cluster-spoke |
+| chocolate brown nails from latte to espresso | https://mirelleinspo.com/blog/nails-by-color/chocolate-brown-nails | H2 3, brown cat-eye and glazed finishes | cross-site |
+| Thanksgiving nail ideas that survive an actual holiday dinner | https://mirelleinspo.com/blog/thanksgiving-nails/thanksgiving-nail-ideas | H2 7, sentence about holiday-day wear | cross-site |
+
+No gallery link (show_inspo_gallery_link false).
+
+## 12. VOICE AND TONE
+- recommended_voice: Aspirational trend-editor, warm and decisive.
+- tone_characteristics: confident; visual; seasonal; opinionated; concise.
+- language_style: Second person, short declaratives, named looks, one-line "why it works" definitions, occasional metaphor from sweaters or coffee. No hedging.
+- audience_match: Pinterest-native readers want a stylist's verdict, not a gallery with filler.
+
+## 13. EXTERNAL LINKS
+None. None of the 5 fetched pages carried genuine expert sourcing worth citing, so no links are forced.
+
+## 14. FEATURED EXPERT
+- expert_alias: RI
+- expert_quote (verbatim, unedited; source text only): "November Nails taking over pinterest already as people celebrate thanksgiving and starting winter nail care and winter nail inspo we have curated this post to cover november nail trends what people are searching over pinterest and google"
+- suggested_placement: An extract about Pinterest and Google demand fits H2 1 (trend overview) or the introduction; an extract about winter nail inspo fits H2 8. Use word-for-word only, never change the meaning. The quote mentions winter nail care; do not write nail-care content (separate cluster).
+
+## 15. EXECUTION PLAN (READ FIRST)
+
+### Block 1: Keyword execution
+- primary_keyword: november nails
+- top_5_density_baseline: 5 (hand-counted average of ~6, ~5, ~6, ~8, ~1 mentions)
+- total_mention_target: 5 + 3 = 8 total
+- first_100_words_plan: mention 1 in sentence 1 (frames the in-between month); mention 2 in sentence 3 (promises Nov 1 to December looks)
+- first_half_target: 5 mentions (first 950 words)
+- second_half_target: 3 mentions (last 950 words)
+- strong_tag_rule: all 8 mentions wrapped in <strong>. Scan after every paragraph.
+- keywords_to_avoid_active: full list in section 3.
+
+### Block 2: Word budget
+- total_target: 1900 words (+/-50, never exceed)
+- introduction 225 | conclusion 175
+- h2_budgets: H2-1 260 (high) | H2-2 220 (high) | H2-3 200 (medium) | H2-4 180 (medium) | H2-5 170 (medium) | H2-6 130 (low) | H2-7 190 (medium) | H2-8 150 (low)
+- tracking_rule: Track the running total after each H2. Cut before moving on; never compensate later.
+
+### Block 3: Image plan
+- total_images: 9 | hero: frontmatter only, never in body | body_images: 8
+- assignments (all image_type: standard_inspiration; no infographic needed for inspirational intent):
+  1. after H2-1: collage of the top trend looks (brown, plaid, cat-eye)
+  2. after H2-2: November color family set (brown, burgundy, olive, navy)
+  3. after H2-3: cat-eye, velvet and glazed finishes
+  4. after H2-4: plaid and sweater texture sets
+  5. after H2-5: milky, mauve and micro French sets
+  6. after H2-6: citrine and topaz sets
+  7. after H2-7: gold and cranberry celebration sets
+  8. after H2-8: milky, icy and celestial transition sets
+- banned: tool or process shots, hands at work, photo-style side-by-side comparisons.
+- path_rule: /images/blog/november-nails/november-nail-ideas/filename.webp
+
+### Block 4: Opening techniques
+Names per Blog Gen prompt. No two consecutive equal; conclusion is T1 or T3.
+Introduction T1 | H2-1 T2 | H2-2 T4 | H2-3 T3 | H2-4 T2 | H2-5 T4 | H2-6 T3 | H2-7 T2 | H2-8 T4 | Conclusion T3
+
+### Block 5: Link placements
+See section 11 (all 4 links, verbatim anchors, woven into prose, full URLs as shown).
+
+### Block 6: AEO and GEO plan
+- aeo_assignments (direct 2 to 3 sentence answer immediately after the H2):
+  - "What are the biggest November nail trends right now?" to H2-1
+  - "What nail colors are in for November?" to H2-2
+  - "What nail finishes are trending in November?" to H2-3
+  - "What nail designs go with sweaters?" to H2-4
+  - "How do you make a November manicure look expensive?" to H2-5
+  - "What nails are best for a November birthday?" to H2-6
+  - "What nail color works for both November and December?" to H2-8
+  - Others to faqItems.
+- geo_entity_statements (one confident definition sentence each): cat-eye nails (H2-3); velvet nails (H2-3); glazed nails (H2-3); aura nails (H2-8); skittle manicure (H2-7).
+
+### Block 7: Active constraints
+- em_dash_banned: no long em dash anywhere; use a comma, new sentence or parentheses.
+- banned_vocab_watch (candidates, Blog Gen list governs): elevate; stunning; timeless; sophisticated; seamless; curated; cozy-adjacent filler; effortlessly.
+- american_english_active: color, recognize, -ize, -or.
+- keyword_density_reminder: check the running count after every 2 H2s; target 8 total, denser in the first half.
+- image_path_reminder: /images/blog/november-nails/november-nail-ideas/filename.webp
+- internal_link_url_reminder: full paths only, never bare /slug.
+- hero_image_reminder: frontmatter only.
+- strong_tag_reminder: every <strong>november nails</strong>.
+- expert_quote_reminder: expert_alias "RI" goes into the expert frontmatter field exactly as given; quote extracts are word-for-word and meaning-safe only.
