@@ -1,0 +1,172 @@
+MIRELLÉ REFRESH: BATCH ADDENDUM v2
+Attached with: (1) Expert Content Refresh Agent spec v1.1, (2) mirelle_master_expert_quotes.xlsx, (3) this addendum.
+Where this addendum conflicts with the spec, this addendum wins. All writing rules in the spec still apply (editorial_writing_mandate, authorial_voice_rule, banned patterns, American English, strong_tag_scope_rule, scoped_edit_rule).
+
+INVOCATION
+"Run N" (N = 1 to 31). One page per message. If given several numbers, ask for one.
+
+STARTUP (replaces spec Step 1; continue at Step 2)
+1. Look up N in PAGE_REGISTRY. Assume nothing outside that row.
+2. If the page's .md is not attached, ask for it. Verify its canonical ends with https://mirelleinspo.com + the registry path. Mismatch: say so and stop.
+3. Take the row's quote ID from the sheet's Quotes tab. Verify the Expert Slug matches the row. Use ONLY the extract named in the row's extract column. P1/P2 = paragraphs of the quote cell, counted from 1 at line breaks.
+4. Apply the row's LOCK, then QUOTE RULES, LINK RULES and CTR RULE below.
+5. Step 3 plan covers: flagged passages, quote placement, link lines, CTR line, image question. Then wait for approval.
+
+QUOTE RULES
+- Exactly one quote and one expert per page: the registry's. Frontmatter expert: = the row's slug. No second expert quote, no other expert's claims.
+- Place the extract word-for-word (per featured_expert_rules) where it answers the page's real question. Normalize spelling to American English and fix obvious typos only. Change no other word and no meaning.
+- Build the surrounding passage from the substance of the quote, in the site's editorial voice. Add no claim the quote does not support. No invented anecdotes or credentials.
+- Pages that share a quote with another page use only their own extract. Never use text from the other page's extract, even closely paraphrased.
+
+LINK RULES (overrides scoped_edit_rule for additions only)
+- Targets come only from LINK_LIST below. Copy URLs verbatim. Never invent a URL, never link outside the list, never link the page to itself. If the file's existing internal links use relative paths, strip the domain only; otherwise keep the full URL.
+- Add 3-4 new internal links per page, only where the target genuinely extends the exact sentence it sits in. If fewer than 3 are genuinely relevant, add 2-3. Never force a link to hit a number. If none fit, add none and say so in the plan. Maximum 4 (page 9: maximum 6).
+- Choose in this order: (1) page 9, the FUNGUS pillar, for any other FUNGUS page when relevant; (2) closest same-cluster page; (3) one cross-cluster page, only if clearly relevant. Use the CLUSTER column.
+- Anchors: natural, descriptive, varied. Never inside <strong>, the expert quote, headings or image captions. No new link lists and no sentences added just to hold a link. Never remove, reword or re-target an existing link. Skip targets already linked on the page.
+- L pages are already updated. They are link targets only and are never edited.
+- NO-LINK PAIRS (same intent, cannibalization risk): 2 / L28, 10 / L05, 11 / L14, 13 / L27, 14 / L07, 16 / L21. Do not link either direction. Flag the pair in the plan.
+- Anchors and link sentences must respect LOCKS.
+- Step 3 lists each link (target ID, section, anchor). Step 6 confirms the same list.
+
+CTR RULE
+Do not run SERP research. Default: "Title/meta fine, no change." If the user pastes a candidate title/meta or GSC data with the run, present it at Step 3 and apply only if approved.
+
+LOCKS
+ALL: State each expert's claims as theirs, by name. Never cite a second expert on the same topic.
+LASER (pages 6, 14, and any page mentioning laser):
+- Page 6 (ROK-02): FDA-cleared only for temporary cosmetic improvement, not cure; used as an adjunct for people who can't take oral medication.
+- Page 14 (WIL-04): medical-grade 1064nm Nd:YAG can help, is slow on its own, works better combined with oral or topical medication, is supplemental not essential.
+- Shared ground either page may state: both experts treat laser as an add-on to medication, not the main treatment.
+- Neither page says laser clears nail fungus on its own or that it is useless. Neither mentions the other expert's claim.
+- Any other page mentioning laser uses only the shared-ground sentence.
+BIOTIN (pages 21, 23, 25, 26, 31):
+- Page 21: zero biotin or biotin-polish mentions. Page 31: none either (P1 only).
+- Pages 23, 25, 26: biotin statements only as stated in their own quote (ROK-10, ROK-16 P2, ROK-07).
+- No page recommends a biotin product or polish.
+
+PAGE_REGISTRY
+N | path (base https://mirelleinspo.com) | quote | extract | expert slug | lock | notes
+1  | /blog/nail-fungus/what-is-nail-fungus | BRA-01 | full | mark-bradley-dpodm | - | source typos: fix
+2  | /blog/nail-fungus/nail-fungus-symptoms | WIL-01 | full | david-williams-dpm | - |
+3  | /blog/nail-fungus/nail-fungus-causes | WIL-13 | P1 only, minus its last sentence ("Here are some tips...") | david-williams-dpm | - | risk-factor angle only; shares WIL-13 with 27
+4  | /blog/nail-fungus/nail-fungus-prevention | WIL-10 | full | david-williams-dpm | - |
+5  | /blog/nail-fungus/nail-fungus-home-remedies | WIL-07 | full | david-williams-dpm | - | vinegar does not penetrate the nail
+6  | /blog/nail-fungus/nail-fungus-treatment | ROK-02 | full | cameron-rokhsar-md | LASER |
+7  | /blog/nail-fungus/how-long-does-nail-fungus-take-to-clear | ROK-01 | full | cameron-rokhsar-md | - |
+8  | /blog/nail-fungus/fingernail-fungus | WIL-09 | full | david-williams-dpm | - |
+9  | /blog/toenail-fungus/toenail-fungus | WIL-06 | full | david-williams-dpm | - | pillar page
+10 | /blog/toenail-fungus/best-toenail-fungus-treatment | WIL-02 | full | david-williams-dpm | - |
+11 | /blog/toenail-fungus/is-toenail-fungus-contagious | WIL-12 | full | david-williams-dpm | - |
+12 | /blog/toenail-fungus/nail-polish-toenail-fungus | BRA-02 | full | mark-bradley-dpodm | - | source typos: fix
+13 | /blog/toenail-fungus/toenail-fungus-home-remedies | ROK-03 | full | cameron-rokhsar-md | - |
+14 | /blog/toenail-fungus/toenail-fungus-laser-treatment-cost | WIL-04 | full | david-williams-dpm | LASER |
+15 | /blog/toenail-fungus/toenail-fungus-stages | WIL-05 | full | david-williams-dpm | - |
+16 | /blog/toenail-fungus/toenail-fungus-vs-nail-psoriasis | ROK-04 | full | cameron-rokhsar-md | - |
+17 | /blog/hema-allergy-nails/hema-allergy-symptoms | ROK-13 | P1 only | cameron-rokhsar-md | - | shares ROK-13 with 30
+18 | /blog/hema-allergy-nails/how-to-avoid-hema-allergy | ROK-12 | full | cameron-rokhsar-md | - |
+19 | /nail-feed/gel-manicure-lifelong-acrylate-allergy | ROK-14 | P1 only | cameron-rokhsar-md | - | shares ROK-14 with 28, 29
+20 | /blog/biab-cost/how-to-remove-biab-at-home | ROK-06 | full | cameron-rokhsar-md | - |
+21 | /blog/nail-strengthening/repair-nails-after-gel-acrylic-removal | YEF-01 | short nails, cuticle oil, gloves extracts only | margarita-yefimova | BIOTIN | no biotin line, no CVS/Amazon, no 3-week claim
+22 | /blog/acrylic-nails/do-acrylic-nails-damage-your-nails | ROK-05 | UV-lamp and ventilation extracts only, no pregnancy framing | cameron-rokhsar-md | - | weakest direct match
+23 | /blog/nail-strengthening/does-biotin-work-for-nails | ROK-10 | full | cameron-rokhsar-md | BIOTIN |
+24 | /blog/nail-strengthening/vertical-ridges-on-nails-causes-and-fixes | ROK-11 | full | cameron-rokhsar-md | - |
+25 | /blog/nail-strengthening/why-are-my-nails-weak-and-brittle | ROK-16 | P2 only | cameron-rokhsar-md | BIOTIN | shares ROK-16 with 31
+26 | /blog/nail-strengthening/how-to-grow-nails-faster-and-stronger | ROK-07 | full | cameron-rokhsar-md | BIOTIN |
+27 | /blog/toenail-fungus/prevent-toenail-fungus-returning | WIL-13 | numbered tips 1-4 only | david-williams-dpm | - | shares WIL-13 with 3
+28 | /blog/hema-allergy-nails/hema-vs-tpo-free-gel-polish | ROK-14 | P2, last two sentences only (from "Someone who reacts to HEMA can still react..." to the end) | cameron-rokhsar-md | - | WEAK. Quote says nothing about TPO: attribute no TPO claim to the expert
+29 | /blog/hema-allergy-nails/is-hema-free-gel-polish-as-good | ROK-14 | P2, first two sentences only (from "HEMA-free labeling is also more limited..." through "...well documented.") | cameron-rokhsar-md | - | WEAK. Shares P2 with 28
+30 | /nail-feed/acrylate-allergy-acrylic-nails-symptoms | ROK-13 | P2 only | cameron-rokhsar-md | - | shares ROK-13 with 17
+31 | /nail-faqs/how-to-grow-stronger-healthier-nails-naturally | ROK-16 | P1 only | cameron-rokhsar-md | BIOTIN | shares ROK-16 with 25
+
+LINK_LIST (ID | CLUSTER | URL)
+1    | FUNGUS     | https://mirelleinspo.com/blog/nail-fungus/what-is-nail-fungus
+2    | FUNGUS     | https://mirelleinspo.com/blog/nail-fungus/nail-fungus-symptoms
+3    | FUNGUS     | https://mirelleinspo.com/blog/nail-fungus/nail-fungus-causes
+4    | FUNGUS     | https://mirelleinspo.com/blog/nail-fungus/nail-fungus-prevention
+5    | FUNGUS     | https://mirelleinspo.com/blog/nail-fungus/nail-fungus-home-remedies
+6    | FUNGUS     | https://mirelleinspo.com/blog/nail-fungus/nail-fungus-treatment
+7    | FUNGUS     | https://mirelleinspo.com/blog/nail-fungus/how-long-does-nail-fungus-take-to-clear
+8    | FUNGUS     | https://mirelleinspo.com/blog/nail-fungus/fingernail-fungus
+9    | FUNGUS     | https://mirelleinspo.com/blog/toenail-fungus/toenail-fungus
+10   | FUNGUS     | https://mirelleinspo.com/blog/toenail-fungus/best-toenail-fungus-treatment
+11   | FUNGUS     | https://mirelleinspo.com/blog/toenail-fungus/is-toenail-fungus-contagious
+12   | FUNGUS     | https://mirelleinspo.com/blog/toenail-fungus/nail-polish-toenail-fungus
+13   | FUNGUS     | https://mirelleinspo.com/blog/toenail-fungus/toenail-fungus-home-remedies
+14   | FUNGUS     | https://mirelleinspo.com/blog/toenail-fungus/toenail-fungus-laser-treatment-cost
+15   | FUNGUS     | https://mirelleinspo.com/blog/toenail-fungus/toenail-fungus-stages
+16   | FUNGUS     | https://mirelleinspo.com/blog/toenail-fungus/toenail-fungus-vs-nail-psoriasis
+17   | ALLERGY    | https://mirelleinspo.com/blog/hema-allergy-nails/hema-allergy-symptoms
+18   | ALLERGY    | https://mirelleinspo.com/blog/hema-allergy-nails/how-to-avoid-hema-allergy
+19   | ALLERGY    | https://mirelleinspo.com/nail-feed/gel-manicure-lifelong-acrylate-allergy
+20   | GEL        | https://mirelleinspo.com/blog/biab-cost/how-to-remove-biab-at-home
+21   | GEL        | https://mirelleinspo.com/blog/nail-strengthening/repair-nails-after-gel-acrylic-removal
+22   | GEL        | https://mirelleinspo.com/blog/acrylic-nails/do-acrylic-nails-damage-your-nails
+23   | STRENGTH   | https://mirelleinspo.com/blog/nail-strengthening/does-biotin-work-for-nails
+24   | STRENGTH   | https://mirelleinspo.com/blog/nail-strengthening/vertical-ridges-on-nails-causes-and-fixes
+25   | STRENGTH   | https://mirelleinspo.com/blog/nail-strengthening/why-are-my-nails-weak-and-brittle
+26   | STRENGTH   | https://mirelleinspo.com/blog/nail-strengthening/how-to-grow-nails-faster-and-stronger
+27   | FUNGUS     | https://mirelleinspo.com/blog/toenail-fungus/prevent-toenail-fungus-returning
+28   | ALLERGY    | https://mirelleinspo.com/blog/hema-allergy-nails/hema-vs-tpo-free-gel-polish
+29   | ALLERGY    | https://mirelleinspo.com/blog/hema-allergy-nails/is-hema-free-gel-polish-as-good
+30   | ALLERGY    | https://mirelleinspo.com/nail-feed/acrylate-allergy-acrylic-nails-symptoms
+31   | STRENGTH   | https://mirelleinspo.com/nail-faqs/how-to-grow-stronger-healthier-nails-naturally
+S01  | CARE       | https://mirelleinspo.com/blog/almond-nails-aftercare
+S02  | STRENGTH   | https://mirelleinspo.com/blog/almond-nails-natural-nail-growth
+S03  | CARE       | https://mirelleinspo.com/blog/bare-nails-trend-2026/bare-nails-aftercare
+S04  | CARE       | https://mirelleinspo.com/blog/best-manicure-type-for-nail-health
+S05  | CARE       | https://mirelleinspo.com/blog/healthiest-nail-option-overall
+S06  | CUTICLE    | https://mirelleinspo.com/blog/cuticle-care/diy-cuticle-oil-recipes-at-home
+S07  | CUTICLE    | https://mirelleinspo.com/blog/cuticle-care/dry-cracked-cuticles-winter
+S08  | CUTICLE    | https://mirelleinspo.com/blog/cuticle-care/what-does-cuticle-oil-do
+S09  | ALLERGY    | https://mirelleinspo.com/blog/hema-allergy-nails/what-is-hema-nail-products
+S10  | STRENGTH   | https://mirelleinspo.com/blog/nail-strengthening/diy-nail-strengthening-treatments-at-home
+S11  | CARE       | https://mirelleinspo.com/nail-faqs/can-nail-polish-damage-your-natural-nails
+M01  | BIAB       | https://mirelleinspo.com/blog/biab-cost/biab-cost-guide
+M02  | BIAB       | https://mirelleinspo.com/blog/biab-cost/biab-infill-guide
+M03  | BIAB       | https://mirelleinspo.com/blog/biab-cost/biab-vs-gel
+M04  | BIAB       | https://mirelleinspo.com/blog/biab-cost/biab-vs-gel-x
+M05  | BIAB       | https://mirelleinspo.com/blog/biab-cost/how-often-biab-infill
+M06  | CUTICLE    | https://mirelleinspo.com/blog/cuticle-care/how-to-stop-picking-cuticles
+M07  | CUTICLE    | https://mirelleinspo.com/blog/cuticle-care/overgrown-cuticles-causes-and-fix
+M08  | CUTICLE    | https://mirelleinspo.com/blog/cuticle-care/should-you-push-back-or-cut-cuticles
+M09  | CUTICLE    | https://mirelleinspo.com/blog/cuticle-care/why-do-i-keep-getting-hangnails
+M10  | BASICS     | https://mirelleinspo.com/blog/nail-basics/nail-anatomy-parts-of-the-nail
+M11  | BASICS     | https://mirelleinspo.com/blog/nail-basics/what-is-a-cuticle
+M12  | STRENGTH   | https://mirelleinspo.com/blog/nail-strengthening/nail-hardener-vs-nail-strengthener
+M13  | STRENGTH   | https://mirelleinspo.com/blog/nail-strengthening/nail-slugging-tiktok-trend-for-stronger-nails
+M14  | TRENDS     | https://mirelleinspo.com/blog/anti-aging-manicure
+M15  | TRENDS     | https://mirelleinspo.com/blog/nail-trends-2026/healthy-nail-aesthetic
+M16  | CARE       | https://mirelleinspo.com/nail-faqs/are-long-nails-bad-for-your-health
+M17  | CONDITIONS | https://mirelleinspo.com/nail-faqs/can-nail-polish-affect-thyroid-health
+M18  | CARE       | https://mirelleinspo.com/nail-faqs/how-often-should-you-trim-your-nails-for-health
+M19  | ALLERGY    | https://mirelleinspo.com/blog/hema-allergy-nails/is-hema-banned-eu
+L01  | FUNGUS     | https://mirelleinspo.com/blog/nail-health/acrylic-nails-over-fungal-nail
+L02  | CONDITIONS | https://mirelleinspo.com/blog/nail-health/beaus-lines-nail-grooves
+L03  | FUNGUS     | https://mirelleinspo.com/blog/nail-health/can-toenail-fungus-kill-you
+L04  | CONDITIONS | https://mirelleinspo.com/blog/nail-health/diabetic-nail-care-guide
+L05  | FUNGUS     | https://mirelleinspo.com/blog/nail-health/do-otc-nail-fungus-treatments-work
+L06  | INGROWN    | https://mirelleinspo.com/blog/nail-health/does-dental-floss-help-ingrown-toenail
+L07  | FUNGUS     | https://mirelleinspo.com/blog/nail-health/does-laser-treatment-work-for-toenail-fungus
+L08  | GEL        | https://mirelleinspo.com/blog/nail-health/gel-nails-pregnancy-safety
+L09  | RECOVERY   | https://mirelleinspo.com/blog/nail-health/how-long-does-it-take-a-toenail-to-grow-back
+L10  | INGROWN    | https://mirelleinspo.com/blog/nail-health/ingrown-toenail-antibiotics-when-needed
+L11  | INGROWN    | https://mirelleinspo.com/blog/nail-health/ingrown-toenail-infection-signs
+L12  | INGROWN    | https://mirelleinspo.com/blog/nail-health/ingrown-toenail-stages
+L13  | INGROWN    | https://mirelleinspo.com/blog/nail-health/is-it-safe-to-cut-ingrown-toenail-yourself
+L14  | FUNGUS     | https://mirelleinspo.com/blog/nail-health/is-nail-fungus-contagious
+L15  | FUNGUS     | https://mirelleinspo.com/blog/nail-health/jublia-vs-ciclopirox-vs-terbinafine
+L16  | CONDITIONS | https://mirelleinspo.com/blog/nail-health/longitudinal-melanonychia-warning-signs
+L17  | CONDITIONS | https://mirelleinspo.com/blog/nail-health/nail-color-meaning-health
+L18  | RECOVERY   | https://mirelleinspo.com/blog/nail-health/nail-damage-recovery-timeline
+L19  | FUNGUS     | https://mirelleinspo.com/blog/nail-health/nail-fungus-myths-what-is-actually-true
+L20  | GEL        | https://mirelleinspo.com/blog/nail-health/nail-patch-test-before-gel
+L21  | FUNGUS     | https://mirelleinspo.com/blog/nail-health/nail-psoriasis-vs-fungus
+L22  | CONDITIONS | https://mirelleinspo.com/blog/nail-health/paronychia-nail-infection-guide
+L23  | INGROWN    | https://mirelleinspo.com/blog/nail-health/partial-nail-avulsion-recovery
+L24  | CONDITIONS | https://mirelleinspo.com/blog/nail-health/spoon-nails-koilonychia
+L25  | FUNGUS     | https://mirelleinspo.com/blog/nail-health/superficial-white-onychomycosis-guide
+L26  | FUNGUS     | https://mirelleinspo.com/blog/nail-health/toenail-fungus-dying-signs
+L27  | FUNGUS     | https://mirelleinspo.com/blog/nail-health/toenail-fungus-home-remedies-that-work
+L28  | FUNGUS     | https://mirelleinspo.com/blog/nail-health/what-does-nail-fungus-look-like
+L29  | FUNGUS     | https://mirelleinspo.com/blog/nail-health/what-kills-toenail-fungus-instantly
+L30  | CONDITIONS | https://mirelleinspo.com/blog/nail-health/white-spots-nails-leukonychia
