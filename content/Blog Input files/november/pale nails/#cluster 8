@@ -1,0 +1,576 @@
+{
+  "cluster_metadata": {
+    "cluster_topic": "Pale Nails",
+    "topic_slug": "pale-nails",
+    "show_inspo_gallery_link_cluster_default": false,
+    "inspiration_gallery_url": null,
+    "target_audience": "Global, Tier 1 countries",
+    "total_posts": 8,
+    "intent_breakdown": {
+      "informational": 7,
+      "inspirational": 0,
+      "tutorial": 1,
+      "comparison": 0,
+      "seasonal_trend": 0
+    },
+    "pillar_post_slug": "pale-nails",
+    "created_date": "2026-10-08"
+  },
+
+  "existing_site_posts_excluded": [
+    {
+      "url": "https://mirelleinspo.com/blog/nail-health/nail-color-meaning-health",
+      "title": "Nail Color Meaning 2026: Harmless Stains vs. Warning Signs",
+      "inferred_primary_keyword": "nail color meaning",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists on mirelleinspo.com. Keyword reserved. Has sections for healthy color, yellow, white/pale (brief), blue/purple, green and dark streaks. Read in full."
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/nail-health/spoon-nails-koilonychia",
+      "title": "Spoon Nails: What They Mean and What to Test First 2026",
+      "inferred_primary_keyword": "spoon nails",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists on mirelleinspo.com. Keyword reserved. Covers iron deficiency, thyroid, CBC/ferritin/TSH tests. Read in full."
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/nail-health/white-spots-nails-leukonychia",
+      "title": "White Spots on Nails: It's Not Calcium (Here's Why)",
+      "inferred_primary_keyword": "white spots on nails",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists on mirelleinspo.com. Keyword reserved."
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/nail-health/beaus-lines-nail-grooves",
+      "title": "Beau's Lines: What Horizontal Nail Grooves Really Mean",
+      "inferred_primary_keyword": "beau's lines",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists on mirelleinspo.com. Keyword reserved."
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/nail-health/superficial-white-onychomycosis-guide",
+      "title": "Superficial White Onychomycosis: Fungus or Polish Damage?",
+      "inferred_primary_keyword": "superficial white onychomycosis",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists on mirelleinspo.com. Keyword reserved."
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/nail-health/longitudinal-melanonychia-warning-signs",
+      "title": "Dark Line on Nail: Harmless Streak or Melanoma?",
+      "inferred_primary_keyword": "dark line on nail",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists on mirelleinspo.com. Keyword reserved."
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/nail-health/nail-psoriasis-vs-fungus",
+      "title": "Nail Psoriasis vs Fungus: How to Tell When They Look Identical",
+      "inferred_primary_keyword": "nail psoriasis vs fungus",
+      "inferred_intent": "comparison",
+      "exclusion_reason": "Already exists on mirelleinspo.com. Keyword reserved."
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/nail-health/diabetic-nail-care-guide",
+      "title": "Diabetic Nail Care: When Home Trimming Is Safe (2026)",
+      "inferred_primary_keyword": "diabetic nail care",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists on mirelleinspo.com. Keyword reserved."
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/nail-health/nail-damage-recovery-timeline",
+      "title": "How Long Do Nails Take to Recover From Gel? 2026",
+      "inferred_primary_keyword": "nail recovery after gel",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists on mirelleinspo.com. Keyword reserved."
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/nail-health/what-does-nail-fungus-look-like",
+      "title": "What Does Nail Fungus Look Like? Signs, Stages and Lookalikes",
+      "inferred_primary_keyword": "what does nail fungus look like",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists on mirelleinspo.com. Keyword reserved."
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/nail-strengthening/why-are-my-nails-weak-and-brittle",
+      "title": "Why are my nails weak and brittle (title inferred from slug)",
+      "inferred_primary_keyword": "why are my nails weak and brittle",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists on mirelleinspo.com. Keyword reserved. Checked by slug only. Check vitamin section against the vitamin-deficiency-nails post."
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/nail-strengthening/does-biotin-work-for-nails",
+      "title": "Does biotin work for nails (title inferred from slug)",
+      "inferred_primary_keyword": "does biotin work for nails",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists on mirelleinspo.com. Keyword reserved. Checked by slug only."
+    },
+    {
+      "url": "https://mirelleinspo.com/nail-faqs/what-nail-problems-should-i-see-a-doctor-about",
+      "title": "What nail problems should I see a doctor about (title inferred from slug)",
+      "inferred_primary_keyword": "what nail problems should i see a doctor about",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists on mirelleinspo.com. Keyword reserved. Checked by slug only."
+    },
+    {
+      "url": "https://mirelleinspo.com/nail-faqs/can-nail-polish-affect-thyroid-health",
+      "title": "Can nail polish affect thyroid health (title inferred from slug)",
+      "inferred_primary_keyword": "can nail polish affect thyroid health",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists on mirelleinspo.com. Keyword reserved. Checked by slug only."
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/nails-for-older-women/brittle-nails-after-50",
+      "title": "Brittle nails after 50 (title inferred from slug)",
+      "inferred_primary_keyword": "brittle nails after 50",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists on mirelleinspo.com. Keyword reserved. Checked by slug only."
+    },
+    {
+      "url": "https://mirelleinspo.com/blog/nails-for-older-women/nail-ridges-after-50",
+      "title": "Nail ridges after 50 (title inferred from slug)",
+      "inferred_primary_keyword": "nail ridges after 50",
+      "inferred_intent": "informational",
+      "exclusion_reason": "Already exists on mirelleinspo.com. Keyword reserved. Checked by slug only."
+    }
+  ],
+
+  "posts": [
+    {
+      "post_id": 1,
+      "role": "pillar",
+      "title": "Pale Nails: Causes, What They Mean, When to See a Doctor",
+      "slug": "pale-nails",
+      "url": "https://mirelleinspo.com/blog/pale-nails/pale-nails",
+      "topic_slug": "pale-nails",
+      "primary_keyword": "pale nails",
+      "intent": "informational",
+      "search_mode": "decision_mode",
+      "suggested_hook_trigger": "Trigger 1 - Curiosity Gap",
+      "search_demand_signals": [
+        "Google SERP: WebMD, RxList, MedicineNet and Medical News Today all rank pages on pale nails and pale nail beds",
+        "Community: patient forum threads (HealthUnlocked British Liver Trust, DoctorSpring) describing nail beds that turned pale",
+        "Clinical literature: study of people over 60 found pale, dull nails in 73 percent"
+      ],
+      "why_included": "Broadest real query in the topic. The existing nail-color-meaning post gives pale nails only one paragraph, so a dedicated pillar does not duplicate it. Absorbs anemia nails, pale nails on darker skin, pale nails with age and how to treat pale nails as sections.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": {
+        "note": "The site's expert frontmatter field is a slug/alias that resolves against src/data/experts.ts at render time. Only the alias and the quote are needed per post. Two quotes already received on Connectively for this post (fair-skin baseline, fuel gauge analogy, causes, press test, CBC and iron studies, white spots myth). Remaining gap: darker skin tones and aging, covered by Connectively query 1. Add the responding expert to experts.ts before using the alias.",
+        "alias": null,
+        "quote": null,
+        "source": "connectively_pending"
+      },
+      "internal_links": {
+        "links_to": [
+          { "slug": "terrys-nails", "anchor_text": "what Terry's nails look like and what they mean", "type": "spoke" },
+          { "slug": "half-and-half-nails", "anchor_text": "half-and-half nails and their link to kidney disease", "type": "spoke" },
+          { "slug": "muehrckes-lines", "anchor_text": "Muehrcke's lines, the paired white bands across the nails", "type": "spoke" },
+          { "slug": "chemo-nails", "anchor_text": "chemo nails and the white lines or color changes chemotherapy can cause", "type": "spoke" },
+          { "slug": "nail-blanch-test", "anchor_text": "how to do the nail blanch test at home", "type": "spoke" },
+          { "slug": "vitamin-deficiency-nails", "anchor_text": "which vitamin deficiencies change how nails look", "type": "spoke" },
+          { "slug": "no-half-moons-on-nails", "anchor_text": "what it means when you have no half moons on your nails", "type": "spoke" }
+        ],
+        "gallery_link": null,
+        "gallery_link_note": "Omitted because show_inspo_gallery_link_cluster_default is false.",
+        "receives_links_from": [
+          { "slug": "terrys-nails", "anchor_text": "what pale nails mean and when to see a doctor" },
+          { "slug": "half-and-half-nails", "anchor_text": "common causes of pale nails" },
+          { "slug": "muehrckes-lines", "anchor_text": "pale nails and what they can mean for your health" },
+          { "slug": "chemo-nails", "anchor_text": "pale nails causes and when to see a doctor" },
+          { "slug": "nail-blanch-test", "anchor_text": "why nails look pale and what causes it" },
+          { "slug": "vitamin-deficiency-nails", "anchor_text": "pale nails causes beyond low iron" },
+          { "slug": "no-half-moons-on-nails", "anchor_text": "pale nails: causes and when to worry" }
+        ]
+      },
+      "existing_site_links_suggested": [
+        { "url": "https://mirelleinspo.com/blog/nail-health/nail-color-meaning-health", "anchor_text": "what your nail color says about your health" },
+        { "url": "https://mirelleinspo.com/blog/nail-health/spoon-nails-koilonychia", "anchor_text": "spoon nails and the blood tests to ask for" },
+        { "url": "https://mirelleinspo.com/blog/nail-health/white-spots-nails-leukonychia", "anchor_text": "why white spots on nails are not the same as pale nails" },
+        { "url": "https://mirelleinspo.com/nail-faqs/what-nail-problems-should-i-see-a-doctor-about", "anchor_text": "nail problems that need a doctor" }
+      ],
+      "status": "approved"
+    },
+    {
+      "post_id": 2,
+      "role": "spoke",
+      "title": "Terry's Nails: What They Look Like and What They Mean",
+      "slug": "terrys-nails",
+      "url": "https://mirelleinspo.com/blog/pale-nails/terrys-nails",
+      "topic_slug": "pale-nails",
+      "primary_keyword": "terry's nails",
+      "intent": "informational",
+      "search_mode": "decision_mode",
+      "suggested_hook_trigger": "Trigger 1 - Curiosity Gap",
+      "search_demand_signals": [
+        "Google SERP: Cleveland Clinic, UPMC (Apr 2026), Wikipedia, Apollo Hospitals and LITFL all rank pages on Terry's nails",
+        "Community: forum threads where patients describe a mostly white nail bed with a pink tip and ask what it means"
+      ],
+      "why_included": "People search it by name and the site has no post on it. Absorbs liver disease nails. Must not repeat the one-line mention in nail-color-meaning-health.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": { "alias": null, "quote": null, "source": "connectively_pending" },
+      "internal_links": {
+        "links_to": [
+          { "slug": "pale-nails", "anchor_text": "what pale nails mean and when to see a doctor", "type": "pillar" },
+          { "slug": "half-and-half-nails", "anchor_text": "half-and-half nails, the kidney-linked look-alike", "type": "spoke" },
+          { "slug": "muehrckes-lines", "anchor_text": "Muehrcke's lines and the white bands that fade under pressure", "type": "spoke" },
+          { "slug": "no-half-moons-on-nails", "anchor_text": "what a missing half moon can mean", "type": "spoke" },
+          { "slug": "nail-blanch-test", "anchor_text": "the nail blanch test you can do at home", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "pale-nails", "anchor_text": "what Terry's nails look like and what they mean" },
+          { "slug": "half-and-half-nails", "anchor_text": "Terry's nails and how they differ from half-and-half nails" },
+          { "slug": "muehrckes-lines", "anchor_text": "Terry's nails, the mostly white nail bed with a pink tip" },
+          { "slug": "nail-blanch-test", "anchor_text": "Terry's nails and why the tip band can look pink" },
+          { "slug": "no-half-moons-on-nails", "anchor_text": "Terry's nails, where the half moon blends into a white nail bed" }
+        ]
+      },
+      "existing_site_links_suggested": [
+        { "url": "https://mirelleinspo.com/blog/nail-health/nail-color-meaning-health", "anchor_text": "what each nail color can mean" }
+      ],
+      "status": "approved"
+    },
+    {
+      "post_id": 3,
+      "role": "spoke",
+      "title": "Half-and-Half Nails (Lindsay's Nails): The Kidney Link",
+      "slug": "half-and-half-nails",
+      "url": "https://mirelleinspo.com/blog/pale-nails/half-and-half-nails",
+      "topic_slug": "pale-nails",
+      "primary_keyword": "half and half nails",
+      "intent": "informational",
+      "search_mode": "decision_mode",
+      "suggested_hook_trigger": "Trigger 1 - Curiosity Gap",
+      "search_demand_signals": [
+        "Google SERP: Wikipedia, PMC case reports, GoodRx and consumer pages on kidney disease nails",
+        "Community: patient forum threads describing a nail that is half white and half pink or brown"
+      ],
+      "why_included": "Pairs with Terry's nails and covers the kidney link. Absorbs kidney disease nails. Demand is medium because sources are mostly clinical.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": { "alias": null, "quote": null, "source": "connectively_pending" },
+      "internal_links": {
+        "links_to": [
+          { "slug": "pale-nails", "anchor_text": "common causes of pale nails", "type": "pillar" },
+          { "slug": "terrys-nails", "anchor_text": "Terry's nails and how they differ from half-and-half nails", "type": "spoke" },
+          { "slug": "muehrckes-lines", "anchor_text": "Muehrcke's lines and low protein levels", "type": "spoke" },
+          { "slug": "no-half-moons-on-nails", "anchor_text": "why half moons can be hard to see with nail color changes", "type": "spoke" },
+          { "slug": "nail-blanch-test", "anchor_text": "pressing the nail to see whether the color fades", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "pale-nails", "anchor_text": "half-and-half nails and their link to kidney disease" },
+          { "slug": "terrys-nails", "anchor_text": "half-and-half nails, the kidney-linked look-alike" },
+          { "slug": "muehrckes-lines", "anchor_text": "half-and-half nails and kidney disease" },
+          { "slug": "chemo-nails", "anchor_text": "half-and-half nails, which chemotherapy can also cause" },
+          { "slug": "nail-blanch-test", "anchor_text": "half-and-half nails and the band that does not fade" },
+          { "slug": "no-half-moons-on-nails", "anchor_text": "half-and-half nails and kidney disease" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 4,
+      "role": "spoke",
+      "title": "Muehrcke's Lines: White Bands Across the Nails",
+      "slug": "muehrckes-lines",
+      "url": "https://mirelleinspo.com/blog/pale-nails/muehrckes-lines",
+      "topic_slug": "pale-nails",
+      "primary_keyword": "muehrcke's lines",
+      "intent": "informational",
+      "search_mode": "decision_mode",
+      "suggested_hook_trigger": "Trigger 1 - Curiosity Gap",
+      "search_demand_signals": [
+        "Google SERP: WebMD, Cleveland Clinic, LITFL and Wikipedia all rank pages on Muehrcke's lines",
+        "Editorial: Live Science and PMC case reports on Muehrcke's lines after chemotherapy"
+      ],
+      "why_included": "Named sign people search by name. Absorbs the Mees' lines and Beau's lines comparison. Keep chemo detail light and link to the chemo nails post. Link to the existing Beau's lines post.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": { "alias": null, "quote": null, "source": "connectively_pending" },
+      "internal_links": {
+        "links_to": [
+          { "slug": "pale-nails", "anchor_text": "pale nails and what they can mean for your health", "type": "pillar" },
+          { "slug": "terrys-nails", "anchor_text": "Terry's nails, the mostly white nail bed with a pink tip", "type": "spoke" },
+          { "slug": "half-and-half-nails", "anchor_text": "half-and-half nails and kidney disease", "type": "spoke" },
+          { "slug": "chemo-nails", "anchor_text": "chemo nails and chemotherapy-related white lines", "type": "spoke" },
+          { "slug": "vitamin-deficiency-nails", "anchor_text": "vitamin and mineral deficiencies that show in the nails", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "pale-nails", "anchor_text": "Muehrcke's lines, the paired white bands across the nails" },
+          { "slug": "terrys-nails", "anchor_text": "Muehrcke's lines and the white bands that fade under pressure" },
+          { "slug": "half-and-half-nails", "anchor_text": "Muehrcke's lines and low protein levels" },
+          { "slug": "chemo-nails", "anchor_text": "Muehrcke's lines and how they differ from Mees' lines" },
+          { "slug": "nail-blanch-test", "anchor_text": "Muehrcke's lines that fade when you press the nail" },
+          { "slug": "vitamin-deficiency-nails", "anchor_text": "Muehrcke's lines and low protein in the blood" }
+        ]
+      },
+      "existing_site_links_suggested": [
+        { "url": "https://mirelleinspo.com/blog/nail-health/beaus-lines-nail-grooves", "anchor_text": "Beau's lines and what horizontal nail grooves mean" }
+      ],
+      "status": "approved"
+    },
+    {
+      "post_id": 5,
+      "role": "spoke",
+      "title": "Chemo Nails: White Lines, Color Changes and What to Expect",
+      "slug": "chemo-nails",
+      "url": "https://mirelleinspo.com/blog/pale-nails/chemo-nails",
+      "topic_slug": "pale-nails",
+      "primary_keyword": "chemo nails",
+      "intent": "informational",
+      "search_mode": "how_to_execution_mode",
+      "suggested_hook_trigger": "Trigger 3 - Specificity/Numbers",
+      "search_demand_signals": [
+        "Google SERP: American Cancer Society nail changes page and Medical News Today chemo nails page",
+        "Editorial and clinical: Live Science and PMC case reports on chemotherapy nail changes"
+      ],
+      "why_included": "Patients look for reassurance and steps. No post on the site. Keep Muehrcke's detail light and link to the Muehrcke's lines post. Link to the existing Beau's lines post.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": { "alias": null, "quote": null, "source": "connectively_pending" },
+      "internal_links": {
+        "links_to": [
+          { "slug": "pale-nails", "anchor_text": "pale nails causes and when to see a doctor", "type": "pillar" },
+          { "slug": "muehrckes-lines", "anchor_text": "Muehrcke's lines and how they differ from Mees' lines", "type": "spoke" },
+          { "slug": "half-and-half-nails", "anchor_text": "half-and-half nails, which chemotherapy can also cause", "type": "spoke" },
+          { "slug": "vitamin-deficiency-nails", "anchor_text": "nutrient deficiencies that can change nail color", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "pale-nails", "anchor_text": "chemo nails and the white lines or color changes chemotherapy can cause" },
+          { "slug": "muehrckes-lines", "anchor_text": "chemo nails and chemotherapy-related white lines" },
+          { "slug": "vitamin-deficiency-nails", "anchor_text": "chemo nails and how treatment changes nail color and strength" }
+        ]
+      },
+      "existing_site_links_suggested": [
+        { "url": "https://mirelleinspo.com/blog/nail-health/beaus-lines-nail-grooves", "anchor_text": "Beau's lines and what horizontal nail grooves mean" }
+      ],
+      "status": "approved"
+    },
+    {
+      "post_id": 6,
+      "role": "spoke",
+      "title": "Nail Blanch Test: Check Your Nail Bed Color at Home",
+      "slug": "nail-blanch-test",
+      "url": "https://mirelleinspo.com/blog/pale-nails/nail-blanch-test",
+      "topic_slug": "pale-nails",
+      "primary_keyword": "nail blanch test",
+      "intent": "tutorial",
+      "search_mode": "how_to_execution_mode",
+      "suggested_hook_trigger": "Trigger 3 - Specificity/Numbers",
+      "search_demand_signals": [
+        "Google SERP: MedlinePlus page plus many hospital copies of the capillary nail refill test",
+        "Consumer editorial: Harper's Bazaar India and Holland & Barrett pages on checking nail color with the press test"
+      ],
+      "why_included": "Quick home check readers can act on. No post on the site. Secondary keyword: how to check nails for anemia.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": { "alias": null, "quote": null, "source": "connectively_pending" },
+      "internal_links": {
+        "links_to": [
+          { "slug": "pale-nails", "anchor_text": "why nails look pale and what causes it", "type": "pillar" },
+          { "slug": "terrys-nails", "anchor_text": "Terry's nails and why the tip band can look pink", "type": "spoke" },
+          { "slug": "half-and-half-nails", "anchor_text": "half-and-half nails and the band that does not fade", "type": "spoke" },
+          { "slug": "muehrckes-lines", "anchor_text": "Muehrcke's lines that fade when you press the nail", "type": "spoke" },
+          { "slug": "vitamin-deficiency-nails", "anchor_text": "vitamin deficiency nail signs", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "pale-nails", "anchor_text": "how to do the nail blanch test at home" },
+          { "slug": "terrys-nails", "anchor_text": "the nail blanch test you can do at home" },
+          { "slug": "half-and-half-nails", "anchor_text": "pressing the nail to see whether the color fades" },
+          { "slug": "vitamin-deficiency-nails", "anchor_text": "how to do the nail blanch test at home" },
+          { "slug": "no-half-moons-on-nails", "anchor_text": "the nail blanch test for checking nail bed color" }
+        ]
+      },
+      "status": "approved"
+    },
+    {
+      "post_id": 7,
+      "role": "spoke",
+      "title": "Vitamin Deficiency Nails: Which Signs Point to Which Vitamin",
+      "slug": "vitamin-deficiency-nails",
+      "url": "https://mirelleinspo.com/blog/pale-nails/vitamin-deficiency-nails",
+      "topic_slug": "pale-nails",
+      "primary_keyword": "vitamin deficiency nails",
+      "intent": "informational",
+      "search_mode": "decision_mode",
+      "suggested_hook_trigger": "Trigger 1 - Curiosity Gap",
+      "search_demand_signals": [
+        "Google SERP: GoodRx signs of vitamin deficiency in nails page, Livestrong and Prevention Australia",
+        "Consumer health editorial: Medical Dialogues nail signs of vitamin and mineral deficiencies"
+      ],
+      "why_included": "Gives a pale versus dark angle (iron lightens nails, B12 can darken them). Overlap risk with the existing spoon-nails, brittle-nails and biotin posts, so keep the focus on color and link out for iron and biotin detail.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": { "alias": null, "quote": null, "source": "connectively_pending" },
+      "internal_links": {
+        "links_to": [
+          { "slug": "pale-nails", "anchor_text": "pale nails causes beyond low iron", "type": "pillar" },
+          { "slug": "muehrckes-lines", "anchor_text": "Muehrcke's lines and low protein in the blood", "type": "spoke" },
+          { "slug": "nail-blanch-test", "anchor_text": "how to do the nail blanch test at home", "type": "spoke" },
+          { "slug": "no-half-moons-on-nails", "anchor_text": "what no half moons on your nails can mean", "type": "spoke" },
+          { "slug": "chemo-nails", "anchor_text": "chemo nails and how treatment changes nail color and strength", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "pale-nails", "anchor_text": "which vitamin deficiencies change how nails look" },
+          { "slug": "muehrckes-lines", "anchor_text": "vitamin and mineral deficiencies that show in the nails" },
+          { "slug": "chemo-nails", "anchor_text": "nutrient deficiencies that can change nail color" },
+          { "slug": "nail-blanch-test", "anchor_text": "vitamin deficiency nail signs" },
+          { "slug": "no-half-moons-on-nails", "anchor_text": "which vitamin deficiencies can change your nails" }
+        ]
+      },
+      "existing_site_links_suggested": [
+        { "url": "https://mirelleinspo.com/blog/nail-health/spoon-nails-koilonychia", "anchor_text": "spoon nails and what to test first" },
+        { "url": "https://mirelleinspo.com/blog/nail-strengthening/does-biotin-work-for-nails", "anchor_text": "whether biotin works for nails" }
+      ],
+      "status": "approved"
+    },
+    {
+      "post_id": 8,
+      "role": "spoke",
+      "title": "No Half Moons on Your Nails? What It Does and Doesn't Mean",
+      "slug": "no-half-moons-on-nails",
+      "url": "https://mirelleinspo.com/blog/pale-nails/no-half-moons-on-nails",
+      "topic_slug": "pale-nails",
+      "primary_keyword": "no half moons on nails",
+      "intent": "informational",
+      "search_mode": "decision_mode",
+      "suggested_hook_trigger": "Trigger 1 - Curiosity Gap",
+      "search_demand_signals": [
+        "Google SERP: GoodRx, Medical News Today and Healthline all rank pages on missing half moons (lunula)",
+        "Community: forum threads where people ask why they have no half moons or why theirs disappeared"
+      ],
+      "why_included": "The lunula blends into the nail bed in Terry's and half-and-half nails, so it fits the white and pale nail bed family. Not on the site.",
+      "expertise_type": "licensed_derm_or_nail_health_expert",
+      "featured_expert": { "alias": null, "quote": null, "source": "connectively_pending" },
+      "internal_links": {
+        "links_to": [
+          { "slug": "pale-nails", "anchor_text": "pale nails: causes and when to worry", "type": "pillar" },
+          { "slug": "terrys-nails", "anchor_text": "Terry's nails, where the half moon blends into a white nail bed", "type": "spoke" },
+          { "slug": "half-and-half-nails", "anchor_text": "half-and-half nails and kidney disease", "type": "spoke" },
+          { "slug": "vitamin-deficiency-nails", "anchor_text": "which vitamin deficiencies can change your nails", "type": "spoke" },
+          { "slug": "nail-blanch-test", "anchor_text": "the nail blanch test for checking nail bed color", "type": "spoke" }
+        ],
+        "receives_links_from": [
+          { "slug": "pale-nails", "anchor_text": "what it means when you have no half moons on your nails" },
+          { "slug": "terrys-nails", "anchor_text": "what a missing half moon can mean" },
+          { "slug": "half-and-half-nails", "anchor_text": "why half moons can be hard to see with nail color changes" },
+          { "slug": "vitamin-deficiency-nails", "anchor_text": "what no half moons on your nails can mean" }
+        ]
+      },
+      "existing_site_links_suggested": [
+        { "url": "https://mirelleinspo.com/blog/nail-basics/what-is-the-nail-matrix", "anchor_text": "what the nail matrix is and how the half moon forms" }
+      ],
+      "status": "approved"
+    }
+  ],
+
+  "keyword_ownership_registry": {
+    "description": "Master list of all primary keywords. One per post, no overlaps, includes existing site posts.",
+    "entries": [
+      { "primary_keyword": "pale nails", "owned_by_slug": "pale-nails", "owned_by_title": "Pale Nails: Causes, What They Mean, When to See a Doctor", "source": "new post" },
+      { "primary_keyword": "terry's nails", "owned_by_slug": "terrys-nails", "owned_by_title": "Terry's Nails: What They Look Like and What They Mean", "source": "new post" },
+      { "primary_keyword": "half and half nails", "owned_by_slug": "half-and-half-nails", "owned_by_title": "Half-and-Half Nails (Lindsay's Nails): The Kidney Link", "source": "new post" },
+      { "primary_keyword": "muehrcke's lines", "owned_by_slug": "muehrckes-lines", "owned_by_title": "Muehrcke's Lines: White Bands Across the Nails", "source": "new post" },
+      { "primary_keyword": "chemo nails", "owned_by_slug": "chemo-nails", "owned_by_title": "Chemo Nails: White Lines, Color Changes and What to Expect", "source": "new post" },
+      { "primary_keyword": "nail blanch test", "owned_by_slug": "nail-blanch-test", "owned_by_title": "Nail Blanch Test: Check Your Nail Bed Color at Home", "source": "new post" },
+      { "primary_keyword": "vitamin deficiency nails", "owned_by_slug": "vitamin-deficiency-nails", "owned_by_title": "Vitamin Deficiency Nails: Which Signs Point to Which Vitamin", "source": "new post" },
+      { "primary_keyword": "no half moons on nails", "owned_by_slug": "no-half-moons-on-nails", "owned_by_title": "No Half Moons on Your Nails? What It Does and Doesn't Mean", "source": "new post" },
+      { "primary_keyword": "nail color meaning", "owned_by_slug": "nail-health/nail-color-meaning-health", "owned_by_title": "Nail Color Meaning 2026: Harmless Stains vs. Warning Signs", "source": "existing site post" },
+      { "primary_keyword": "spoon nails", "owned_by_slug": "nail-health/spoon-nails-koilonychia", "owned_by_title": "Spoon Nails: What They Mean and What to Test First 2026", "source": "existing site post" },
+      { "primary_keyword": "white spots on nails", "owned_by_slug": "nail-health/white-spots-nails-leukonychia", "owned_by_title": "White Spots on Nails: It's Not Calcium (Here's Why)", "source": "existing site post" },
+      { "primary_keyword": "beau's lines", "owned_by_slug": "nail-health/beaus-lines-nail-grooves", "owned_by_title": "Beau's Lines: What Horizontal Nail Grooves Really Mean", "source": "existing site post" },
+      { "primary_keyword": "superficial white onychomycosis", "owned_by_slug": "nail-health/superficial-white-onychomycosis-guide", "owned_by_title": "Superficial White Onychomycosis: Fungus or Polish Damage?", "source": "existing site post" },
+      { "primary_keyword": "dark line on nail", "owned_by_slug": "nail-health/longitudinal-melanonychia-warning-signs", "owned_by_title": "Dark Line on Nail: Harmless Streak or Melanoma?", "source": "existing site post" },
+      { "primary_keyword": "nail psoriasis vs fungus", "owned_by_slug": "nail-health/nail-psoriasis-vs-fungus", "owned_by_title": "Nail Psoriasis vs Fungus: How to Tell When They Look Identical", "source": "existing site post" },
+      { "primary_keyword": "diabetic nail care", "owned_by_slug": "nail-health/diabetic-nail-care-guide", "owned_by_title": "Diabetic Nail Care: When Home Trimming Is Safe (2026)", "source": "existing site post" },
+      { "primary_keyword": "nail recovery after gel", "owned_by_slug": "nail-health/nail-damage-recovery-timeline", "owned_by_title": "How Long Do Nails Take to Recover From Gel? 2026", "source": "existing site post" },
+      { "primary_keyword": "what does nail fungus look like", "owned_by_slug": "nail-health/what-does-nail-fungus-look-like", "owned_by_title": "What Does Nail Fungus Look Like? Signs, Stages and Lookalikes", "source": "existing site post" },
+      { "primary_keyword": "why are my nails weak and brittle", "owned_by_slug": "nail-strengthening/why-are-my-nails-weak-and-brittle", "owned_by_title": "Why are my nails weak and brittle (title inferred from slug)", "source": "existing site post" },
+      { "primary_keyword": "does biotin work for nails", "owned_by_slug": "nail-strengthening/does-biotin-work-for-nails", "owned_by_title": "Does biotin work for nails (title inferred from slug)", "source": "existing site post" },
+      { "primary_keyword": "what nail problems should i see a doctor about", "owned_by_slug": "nail-faqs/what-nail-problems-should-i-see-a-doctor-about", "owned_by_title": "What nail problems should I see a doctor about (title inferred from slug)", "source": "existing site post" },
+      { "primary_keyword": "can nail polish affect thyroid health", "owned_by_slug": "nail-faqs/can-nail-polish-affect-thyroid-health", "owned_by_title": "Can nail polish affect thyroid health (title inferred from slug)", "source": "existing site post" },
+      { "primary_keyword": "brittle nails after 50", "owned_by_slug": "nails-for-older-women/brittle-nails-after-50", "owned_by_title": "Brittle nails after 50 (title inferred from slug)", "source": "existing site post" },
+      { "primary_keyword": "nail ridges after 50", "owned_by_slug": "nails-for-older-women/nail-ridges-after-50", "owned_by_title": "Nail ridges after 50 (title inferred from slug)", "source": "existing site post" }
+    ]
+  },
+
+  "keyword_do_not_use": [
+    "pale nails",
+    "terry's nails",
+    "half and half nails",
+    "muehrcke's lines",
+    "chemo nails",
+    "nail blanch test",
+    "vitamin deficiency nails",
+    "no half moons on nails",
+    "nail color meaning",
+    "spoon nails",
+    "white spots on nails",
+    "beau's lines",
+    "superficial white onychomycosis",
+    "dark line on nail",
+    "nail psoriasis vs fungus",
+    "diabetic nail care",
+    "nail recovery after gel",
+    "what does nail fungus look like",
+    "why are my nails weak and brittle",
+    "does biotin work for nails",
+    "what nail problems should i see a doctor about",
+    "can nail polish affect thyroid health",
+    "brittle nails after 50",
+    "nail ridges after 50"
+  ],
+
+  "merged_posts_log": [
+    {
+      "original_topics": ["Mees' lines", "Mees' vs Muehrcke's vs Beau's comparison"],
+      "merged_into": "Muehrcke's Lines: White Bands Across the Nails",
+      "reason": "Same family of white line signs. Beau's lines already has its own post on the site, so link to it."
+    },
+    {
+      "original_topics": ["Terry's nails vs Lindsay's nails comparison"],
+      "merged_into": "Terry's Nails and Half-and-Half Nails (cross-linked, no separate comparison post)",
+      "reason": "A third post would be near-identical to both. Each post explains the difference and links to the other."
+    },
+    {
+      "original_topics": ["Liver disease nails"],
+      "merged_into": "Terry's Nails: What They Look Like and What They Mean",
+      "reason": "Terry's nails is the classic liver sign. Same intent and entity."
+    },
+    {
+      "original_topics": ["Kidney disease nails"],
+      "merged_into": "Half-and-Half Nails (Lindsay's Nails): The Kidney Link",
+      "reason": "Half-and-half nails is the classic kidney sign. Same intent and entity."
+    },
+    {
+      "original_topics": ["Pale nails on darker skin", "Pale nails with age", "How to treat pale nails"],
+      "merged_into": "Pale Nails: Causes, What They Mean, When to See a Doctor",
+      "reason": "Thin standalone demand and the same entity as the pillar. Covered as sections."
+    }
+  ],
+
+  "killed_posts_log": [
+    { "topic": "Anemia nails / iron deficiency nails", "reason": "Near-identical intent and entity to the existing spoon-nails post and the pillar. Folded into the pillar." },
+    { "topic": "Blue nails (cyanosis)", "reason": "Strong demand, but the existing nail-color-meaning post has a dedicated blue/purple section (same intent and entity). Revive only if that section is spun out." },
+    { "topic": "What color nail beds should be", "reason": "Existing nail-color-meaning post has a dedicated section for healthy nail color." },
+    { "topic": "White nails meaning / total leukonychia / white toenails", "reason": "Near-identical to the existing white-spots and superficial white onychomycosis posts and to the pillar." },
+    { "topic": "White nails after gel removal", "reason": "Covered by existing nail recovery, white spots and repair posts." },
+    { "topic": "Raynaud's white fingers", "reason": "Demand is about fingers, not nails. Off-topic for a nail-bed cluster." },
+    { "topic": "Pale nails in pregnancy or kids", "reason": "Only clinical and pediatric sources. No nail-specific search demand found." },
+    { "topic": "Red nail beds", "reason": "Only one weak demand signal." },
+    { "topic": "Anemia nail-photo app", "reason": "Only one news source. No search demand signal on a second source." },
+    { "topic": "Nail clubbing", "reason": "Strong demand but not about pale nails. Outside this cluster. Suggested as a standalone post." }
+  ],
+
+  "expertise_and_sourcing": {
+    "context_note": "Every post above is tagged with an expertise_type. All 8 posts in this cluster are licensed_derm_or_nail_health_expert, so none uses the fixed RI alias and none is design_led. The site's expert frontmatter field is a slug/alias resolved against src/data/experts.ts at render time. That file holds each expert's bio and socials, which this content pipeline never carries. Sourcing flow: the publisher posts the query below on Connectively, an expert responds, the expert is added as a new entry in src/data/experts.ts (one-time setup done outside this pipeline), and then only their alias and their quote are pasted into Input Gen Agent for that post. Input Gen Agent writes the alias into the expert frontmatter field and works the quote into the article body. No bio or social links are ever needed by Input Gen Agent or Blog Gen Agent. The pillar already has two quotes received on Connectively. Query question 1 fills its remaining gap (darker skin tones and aging).",
+    "connectively_queries": [
+      {
+        "query_id": 1,
+        "expertise_type": "licensed_derm_or_nail_health_expert",
+        "covers_post_slugs": [
+          "pale-nails",
+          "terrys-nails",
+          "half-and-half-nails",
+          "muehrckes-lines",
+          "chemo-nails",
+          "nail-blanch-test",
+          "vitamin-deficiency-nails",
+          "no-half-moons-on-nails"
+        ],
+        "query_text": "1) How does pale nail bed color look on darker skin tones or in older adults, and what is the first thing someone should do if they notice it? 2) What are Terry's nails and half-and-half (Lindsay's) nails, how do you tell them apart, and which conditions should someone ask their doctor about for each? 3) What are Muehrcke's lines, what causes them, and how are they different from Mees' lines and Beau's lines? 4) What nail changes do patients most often notice during chemotherapy, and what should they do about them? 5) How should someone do the nail blanch test at home, and when does slow color return mean they should see a doctor? 6) Which vitamin or mineral deficiencies really change how nails look, and which nail signs do people wrongly blame on a deficiency? 7) Is it normal to have no half moons on the nails, and when should a missing or disappearing half moon be checked by a doctor?"
+      }
+    ]
+  }
+}
