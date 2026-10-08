@@ -1,0 +1,161 @@
+# INPUT FILE: gel-manicure-winter-lifting
+
+## section_1_file_authority
+SINGLE SOURCE OF TRUTH FOR BLOG GEN AGENT. POST_CONSTANTS are hardcoded. Follow every value exactly. Read section_15 first.
+
+## section_2_post_constants
+- slug: gel-manicure-winter-lifting
+- topic_slug: winter-nail-care
+- canonical: https://mirelleinspo.com/blog/winter-nail-care/gel-manicure-winter-lifting
+- post_type: spoke
+- intent: informational (how_to_execution_mode)
+- word_count: 1650 (reference ceiling, not a quota. Landing under it is correct if complete. Never pad.)
+- image_count: 7 (1 hero + 6 body)
+- show_inspo_gallery_link: false
+- template: posts
+- hero_dimensions: 1200x675
+- category: Nail Care
+- publish_date: 2026-11-12
+- author: jyoti-mirelle
+- expertise_type: nail_technician_or_product_expert
+- expert_alias: cc-he
+- expert_quote: section_14
+
+## section_3_cluster_snapshot
+- pillar: winter-nail-care ("Winter Nail Care: The Complete Guide to Common Problems & Fixes"), keyword "winter nail care"
+- this_post_role: spoke
+- show_inspo_gallery_link_cluster_default: false
+- keywords_to_avoid: winter nail care, why do nails grow slower in winter, hand sanitizer nails winter, dry cracked cuticles winter, quiet luxury nails winter, why nails chip easily, diy nail strengthening treatments, nail strengthener for nurses, nail care routine for mature hands
+
+## section_4_serp_analysis
+**top_5_fetched_pages_summary** (web_fetch, body text only, promo blocks excluded)
+1. nailknowledge.org/blog/the-impact-of-winter-temperatures-on-uv-gel-nails: 438 words, 2 H2, 0 exact, 2 lift*. Chemist-authored mismatch mechanism. Thin, pro-facing.
+2. semilac.co.uk/blogs/news/how-frost-gloves-and-dry-air-affect-your-uv-gel-manicure-and-how-to-protect-it: 677 words, 6 H3, 0 exact, 3 lift*. Best consumer structure. No expert, no diagnosis.
+3. nailorderpro.com/blogs/tips-and-tricks/why-retention-issues-are-more-common-in-the-colder-months: 1,078 words, 3 numbered sections, 0 exact, 6 lift*. Tech jargon. Says cold slows gel cure, which our expert contradicts.
+4. semilac.co.uk/blogs/news/winter-chipping-why-it-happens-and-how-to-stop-it: 413 words, 3 headings, 0 exact, 2 lift*. Chipping listicle.
+5. slbeautyco.com/blogs/gel-nail-polish/nail-care-after-winter-how-to-prep-for-smooth-gel-polish: 1,553 words, 4 H2 + 8 H3, 0 exact, 6 lift*. Post-winter prep tutorial.
+
+**averages:** 832 words. 3.8 lift* mentions. Exact phrase appears 0 times on all five.
+
+**competitor_gaps** (each on 2+ sources)
+- Reading WHERE gel lifts (cuticle, sidewalls, free edge) as a diagnosis (The Gel Bottle, S&L, 14 Day Manicure).
+- Which cold claims apply to gel vs acrylic. NailOrderPro says cold slows gel cure. Scratch (Katie Barnes) says temperature affects gel handling, not effectiveness. SaloNGeek threads show the confusion.
+- Cuticle oil does not cause lifting when applied after cure (The Gel Bottle, aftercare pages, expert quote).
+- Consumer framing. Three of five pages write for technicians.
+
+**missing_semantic_territory:** exact phrase "gel nails lifting in winter", lift-location terms, glove lining and trapped moisture, flexible builder gel for natural nails, 2-3 week fill interval.
+
+**our_strategic_approach:** Every ranking page lists winter hazards. None says which is the root cause or how to read your own lifting. We lead with the expert's root cause (dehydrated natural nails, not faulty product), correct the cold-curing myth for gel versus acrylic, and add a lift-location diagnostic no competitor has. Seven question-led H2s, each opening with a 2-3 sentence direct answer, at roughly 2x the 832-word average.
+
+
+## section_5_audience_intelligence
+- who_they_are: Home or salon gel wearers, beginner to intermediate, whose manicure lifts within days only in cold months.
+- what_they_want: A definite cause and a fix that is not "buy a new brand".
+- what_frustrates_them: Pro jargon, generic "moisturize" lists, blame on polish or tech, no way to tell what went wrong.
+- top_5_pain_points: lifting within days only in winter; suspecting brand or tech; not knowing if cold, gloves or dryness is the culprit; edges catching on hair and sweaters; paying for fills that fail again.
+- exact_user_phrases: "why do my gel nails keep lifting", "lifting after a couple of days", "popping off at day four", "lifting from the side", "peeling at the cuticle", "only happens in winter", "my nails don't last a week", "is it the cold"
+- intent_content_signals: direct answer first; plain-English mechanism; short fix lists; clear gel vs acrylic split; expert voice; diagnostic framing; no product pushing.
+
+## section_6_semantic_keyword_data
+Wrap every primary keyword mention in `<strong>`.
+- primary_keyword: gel nails lifting in winter
+- keyword_variations: gel manicure lifting in winter, gel polish lifting in winter, why does gel polish lift in winter, gel nails lifting in cold weather, winter gel nail lifting, gel nails peeling off in winter
+- cluster_keywords: gel manicure winter, UV gel nails winter, gel nails brittle in winter, gloves and gel nails, dry air gel nails, indoor heating gel nails, flexible builder gel winter, cuticle oil gel nails, seal the free edge gel, short gel nails winter, temperature changes gel nails, gel manicure not lasting winter
+- lsi_terms: nail plate, adhesion, natural nail, dehydration, brittleness, flexibility, cure, lamp, friction, trapped moisture, humidity, indoor heating, expansion and contraction, sidewalls, free edge, cuticle area, base coat, top coat, fill, apex
+- aeo_terms: Why do gel nails lift more in winter? / Does cold weather make gel nails lift? / Does cold slow down gel curing? / Can winter gloves make gel nails lift? / Why is my gel lifting at the cuticle in winter? / How do you stop gel nails lifting in winter? / Does cuticle oil make gel nails lift? / Should you use builder gel in winter?
+- technical_terms: nail plate, adhesion, curing, builder gel, apex, capping the free edge, viscosity, sidewalls
+- user_language: see section_5
+
+## section_7_voice_and_ai_queries
+Answer in the matching H2, else route to faqItems.
+Why do my gel nails lift more in winter? Does cold weather make gel nails lift? Does cold slow gel curing? Is it the cold or the dry air? Can winter gloves make gel nails lift? Why does my gel lift at the cuticle in winter? Why is my gel lifting at the sides? Does cuticle oil cause gel to lift? How do I stop gel nails lifting in winter? Do gel nails last shorter in winter? How often should I get fills in winter? Can I fix lifted gel at home? Is it my nail tech or my nails?
+
+## section_8_hook_and_ctr
+- real_serp_findings_summary: Competitor titles run topic-led ("The Impact of Winter Temperatures on UV Gel Nails"), long how-to (82 chars, truncates) or jargon ("Retention Issues"). None front-loads "gel nails lifting", names a cause, or stays under 60 characters with a clear promise.
+- selected_option_rationale: Front-loads the exact keyword and names the expert-backed cause, answering the "is it my polish?" doubt that no competitor title addresses.
+- title: Gel Nails Lifting in Winter? Blame Dry Nails, Not the Polish
+- title_char_count: 60
+- meta_description: Your gel manicure didn't fail because of the brand. See how dry air, gloves and brittle nails pull gel loose, and what keeps it down.
+- meta_char_count: 133
+- intro_hook_brief: Open on the reader's suspicion (bad polish, bad tech) and reframe it: the gel is rarely the weak link. Trigger 1, Curiosity Gap.
+- first_h2_hook_direction: Phrase the first H2 as the reader's own question, then give the root cause in the first two sentences.
+
+## section_9_search_journey
+- reader_arrival_state: Annoyed and suspicious, gel lifting again, blaming the product.
+- journey_arc: (1) Reframe the suspicion. (2) Root cause with expert backing. (3) Gel vs acrylic, cold vs dryness. (4) Gloves and dry-air mechanics. (5) Read your own lifting pattern. (6) Fix protocol. (7) Fix vs remove.
+- promise_to_deliver: Dry natural nails, not faulty polish, are the usual reason winter gel lifts, and here is how to stop it.
+- exit_state: Clear on the cause, confident about what to change this week.
+
+## section_10_content_structure
+- h1: Gel Nails Lifting in Winter? Blame Dry Nails, Not the Polish
+- h2_structure: 1. Why Do Gel Nails Lift More in Winter? 2. Does Cold Weather Really Slow Down Gel Curing? 3. Can Winter Gloves Make Gel Nails Lift? 4. Why Does Gel Lift at the Cuticle When the Air Is Dry? 5. What Does It Mean Where Your Gel Is Lifting? 6. How Do You Stop Gel Nails Lifting in Winter? 7. Should You Fix Lifted Gel or Remove It?
+- word_budget: intro 220, H2-1 200, H2-2 190, H2-3 170, H2-4 170, H2-5 170, H2-6 220, H2-7 140, conclusion 170
+
+## section_11_internal_links (5 total)
+| anchor_text (verbatim) | url | placement | type |
+|---|---|---|---|
+| the complete winter nail care guide | /blog/winter-nail-care/winter-nail-care | Conclusion | cluster-pillar |
+| why nails grow slower in winter | /blog/winter-nail-care/nails-grow-slower-winter | H2-4, dryness and brittle splitting | cluster-spoke |
+| how hand sanitizer damages nails in winter | /blog/winter-nail-care/hand-sanitizer-nail-damage-winter | H2-6, hand cream after washing | cluster-spoke |
+| why your cuticle oil stops working after one hand wash in winter | https://mirelleinspo.com/blog/cuticle-care/dry-cracked-cuticles-winter | H2-4, oil timing | cross-site |
+| the real reason your nails chip so easily, even outside winter | https://mirelleinspo.com/blog/nails-that-dont-chip-easily | H2-7, prep causes year-round lifting | cross-site |
+
+## section_12_voice_tone
+- recommended_voice: Confident educator
+- tone_characteristics: direct, myth-correcting, specific, calm, expert-credited
+- language_style: Second person, short declaratives, plain-English mechanism, one analogy max per section.
+
+## section_13_external_links
+- url: https://nailknowledge.org/blog/the-impact-of-winter-temperatures-on-uv-gel-nails
+- context: H2-2 or H2-3, nail plate and coating contract at different rates in the cold
+- anchor_suggestion: NailKnowledge's breakdown of how the nail plate and coating contract differently
+(1 link only. No other fetched page was citation-worthy.)
+
+## section_14_featured_expert
+- expert_alias: cc-he
+- expert_quote (verbatim, greeting and sign-off removed): "Gel and acrylic manicures struggle in winter due to a combination of factors. Cold and dry air dehydrates the natural nail and makes gel and acrylic more brittle. This weakens the adhesion between the nail and enhancement material, resulting in lifting and easy breakage. Cold conditions slow the curing of acrylics. For gel manicures, however, curing speed mainly depends on the gel formula and lamp power, and ambient temperature has little influence. Winter gloves create repeated friction, and trapped moisture inside them will gradually lift the nail edge over time. To make manicures last longer through winter, you can opt for harder acrylics or use highly flexible builder gel for extensions. Daily cuticle oil keeps natural nails supple and reduces shrinkage. Many people assume faulty products are to blame, but dehydrated nails are usually the root cause of short-wearing winter manicures."
+- suggested_placement: H2-1 (root cause, "faulty products" line), H2-2 (gel vs acrylic curing), H2-3 (gloves), H2-6 (flexible builder gel, daily cuticle oil). Extracts word-for-word.
+- scope_rule: Do NOT claim cold slows gel curing. That applies to acrylic only. The cluster brief's "slower curing in cold rooms" is scoped to acrylic per this expert.
+
+## section_15_execution_plan
+**block_1_keyword_execution**
+- primary_keyword: gel nails lifting in winter
+- top_5_density_baseline: 3.8 lift* mentions (0 exact), rounded to 4
+- total_mention_target: 4 + 3 = 7 exact-phrase mentions
+- first_100_words_plan: mention 1 in intro sentence 2 (reframing "bad polish"); mention 2 in sentence 4 (the expert-backed cause)
+- first_half_target: 4 mentions (first 825 words, denser)
+- second_half_target: 3 mentions
+- strong_tag_rule: every mention in `<strong>`, scan after each paragraph
+- keywords_to_avoid_active: section_3 list
+
+**block_2_word_budget:** total 1650 (+/-50, never exceed). Intro 220, conclusion 170.
+- H2-1 200 (medium), H2-2 190 (high), H2-3 170 (medium), H2-4 170 (medium), H2-5 170 (high), H2-6 220 (high), H2-7 140 (low)
+- Track running total after every H2. Cut inside the section if over. Never compensate later.
+
+**block_3_image_plan:** total 7. Hero in frontmatter only. 6 body images.
+1. after H2-1, standard_inspiration: short oval gel nails, soft nude, cream knit sleeve
+2. after H2-2, standard_inspiration: glossy deep burgundy gel nails, warm window light
+3. after H2-3, standard_inspiration: milky neutral gel nails beside a wool glove cuff
+4. after H2-5, infographic: clean graphic mapping lift location (cuticle, sidewalls, free edge) to likely winter cause
+5. after H2-6, standard_inspiration: short squared gel nails, rounded apex, classic red
+6. after H2-7, standard_inspiration: glossy sheer-pink gel nails on soft fabric
+- NEVER tool, equipment, hands-at-work or photo side-by-side images.
+- path: /images/blog/winter-nail-care/gel-manicure-winter-lifting/filename.webp
+
+**block_4_opening_technique_assignments** (T1 The Claim, T3 The Reframe; other numbers per Blog Gen's list)
+Intro T3. H2-1 T1. H2-2 T2. H2-3 T4. H2-4 T2. H2-5 T5. H2-6 T1. H2-7 T4. Conclusion T3.
+
+**block_5_link_placements:** per section_11 and section_13, verbatim anchors, woven into prose. Internal total 5.
+
+**block_6_aeo_geo_plan**
+- AEO (2-3 sentence direct answer right after the H2): "Why do gel nails lift more in winter?" H2-1. "Does cold slow down gel curing?" H2-2. "Can winter gloves make gel nails lift?" H2-3. "Why is my gel lifting at the cuticle in winter?" and "Does cuticle oil make gel nails lift?" H2-4. "How do you stop gel nails lifting in winter?" H2-6. Others go to faqItems.
+- GEO entities, one confident definition each: adhesion and dehydrated nail plate (H2-1), flexible builder gel and capping the free edge (H2-6).
+
+**block_7_active_constraints**
+- No em dashes anywhere. Use comma, period, parentheses or "but".
+- banned_vocab_watch (check against Blog Gen list): delve, elevate, game-changer, unlock, seamless, ultimate, navigate, landscape
+- American English: color, moisturize, sanitizer, gray. Sources are UK, so convert "colour", "moisturise", "sanitiser".
+- After every 2 H2s, check running keyword count against 7.
+- Full internal paths, never bare /slug. topic_slug in image paths. Hero is frontmatter only.
+- Expert alias `cc-he` goes in the expert frontmatter field. Extracts word-for-word, meaning unchanged.
+- Gel vs acrylic curing claim stays scoped per section_14.
