@@ -1,0 +1,277 @@
+# INPUT FILE: nails-grow-slower-winter
+
+## SECTION 1: FILE AUTHORITY
+THIS FILE IS THE SINGLE SOURCE OF TRUTH FOR THE BLOG GEN AGENT. Read section 15 first. All POST_CONSTANTS are hardcoded. Do not ask, adjust, or override them. Keywords, H2 structure, audience data, links, and tone are followed exactly.
+
+## SECTION 2: POST_CONSTANTS (locked)
+- slug: nails-grow-slower-winter
+- topic_slug: winter-nail-care
+- canonical: https://mirelleinspo.com/blog/winter-nail-care/nails-grow-slower-winter
+- post_type: spoke
+- intent: informational
+- primary_keyword: why do nails grow slower in winter
+- word_count: 1500 (ceiling/reference to write within, never a quota. Top-5 average is about 1,125. Landing under 1,500 is correct if the post is complete. Never pad.)
+- image_count: 7 (1 hero in frontmatter + 6 body)
+- show_inspo_gallery_link: false (cluster default, verbatim)
+- template: posts
+- hero_dimensions: 1200x675
+- category: Nail Care
+- publish_date: 2026-10-08
+- author: jyoti-mirelle
+- expertise_type: licensed_derm_or_nail_health_expert
+- expert_alias: amir-saeed
+- expert_quote: full text in section 14
+
+## SECTION 3: CLUSTER SNAPSHOT
+- pillar_slug: winter-nail-care
+- pillar_title: Winter Nail Care: The Complete Guide to Common Problems & Fixes
+- pillar_primary_keyword: winter nail care
+- this_post_slug: nails-grow-slower-winter
+- this_post_role: spoke
+- show_inspo_gallery_link_cluster_default: false
+- keywords_to_avoid (never focus terms): winter nail care; gel nails lifting in winter; hand sanitizer nails winter; dry cracked cuticles winter; quiet luxury nails winter; why nails chip easily; diy nail strengthening treatments; nail strengthener for nurses; nail care routine for mature hands
+
+## SECTION 4: SERP ANALYSIS
+Counts are estimates from fetched page text (about ±10%). "Exact" = full phrase "why do nails grow slower in winter". "Stem" = "nails grow slower in winter".
+
+| # | Page | Words | H2s | Exact / Stem | Note |
+|---|---|---|---|---|---|
+| 1 | cachesalon208.com/post/why-your-nails-grow-slower-in-winter-and-how-to-speed-up-growth-naturally-cache-salon-hanford | ~1,400 | 2 | 1 / 2 | SERP #1. Four causes (sunlight/vitamin D, diet, circulation, dry air) plus 7 tips. No studies, no expert, no quantified slowdown. |
+| 2 | orangevillefootclinic.com/blog/why-nails-grow-slower-in-winter | ~425 | 1 (+3 H5) | 0 / 1 | Same three causes, zero home tips, no sources. Opens "common question I hear from patients." |
+| 3 | nailknowledge.org/blog/nail-growth-rate | ~1,150 | 8 | 0 / 0 | Seasons get one section. |
+| 4 | us.typology.com/library/how-fast-do-nails-grow | ~1,300 | 3 | 0 / 0 | PhD-authored. Cites Sampford 1958. Admits little evidence on mechanism. |
+| 5 | blog.dearsundays.com/nail-growth-science-what-actually-makes-nails-grow-faster | ~1,350 | 7 | 0 / 0 | Winter appears only in an FAQ. Brand-promotional. FAQ covers "grow but keep breaking." |
+
+Averages: ~1,125 words; 4.2 H2s; exact phrase 0.2; stem 0.6.
+Also fetched, not in the top 5: Healthline, WebMD, Manucurist, Today, BBC Science Focus (Bean's 35-year self-study found no seasonal change; other studies found a small summer rise).
+
+**competitor_gaps** (each confirmed on 2+ sources: autocomplete, competitor pages, expert reply):
+- Nobody quantifies the slowdown. Cache and Orangeville give no number and no study.
+- Cache and Orangeville both blame vitamin D and diet without evidence. The expert says vitamin D "doesn't seem to have much of an effect."
+- No winter page separates real slower growth from breakage that only looks like it. Cache, NailKnowledge, and Dear Sundays touch it in one line each. Autocomplete shows "nails not growing in winter" and "why are my nails growing slower."
+- Toenails in winter are unanswered, though autocomplete shows "do toenails grow slower in winter."
+- "When it's more than winter" (iron, thyroid, shape/color/texture change) is missing. Cache and Orangeville say only "see a provider." Autocomplete shows "nails not growing deficiency."
+- Supplement caution is missing (biotin lab-test interference). Cache suggests vitamin D supplements with no dose or caveat.
+
+**missing_semantic_territory:** nail matrix blood flow; constricted blood vessels in fingers; mm per month; "looks like they aren't growing"; indoor heating and nails; petrolatum on nails; collagen peptides and nails; biotin and blood tests; iron and thyroid nail changes; toenail growth in winter.
+
+**our_strategic_approach:** The two pages that target this exact keyword are thin on proof. Cache is about 1,400 words with 2 H2s and no sources, and Orangeville is about 425 words with no tips. This post answers in the first two sentences with a quantified, expert-backed "yes, slightly" (around 3 mm per month, difference "pretty small"). It then corrects the vitamin D claim both competitors repeat. It owns the angle they skip: most of what people see in winter is dryness and breakage, with 2026 research on winter brittleness behind it. It adds toenails and a "when it's more than winter" section that neither covers. Seven query-led H2s replace their one or two generic ones.
+
+**evidence_guardrails (Blog Gen must follow):**
+- Do NOT claim vitamin D slows nail growth. The expert contradicts it. This overrides the cluster brief and competitors.
+- Do NOT use "summer growth is almost 20% faster" (NailKnowledge cites a link that resolves to an unrelated paper) or a "British Journal of Dermatology seasonal study" (Dear Sundays gives no citation). Both are unverified.
+- Do NOT claim a seasonal diet shift. The expert says only to eat enough protein.
+- Do NOT recommend GHK-Cu. The expert himself calls it "potentially supportive," with weak nail evidence. Omit it.
+- The 2026 Acta Dermato-Venereologica letter measured Google search interest in "brittle nails" (higher in Northern Hemisphere winters, not significant in Australia). It did not measure nails. It says low winter humidity "may increase" brittleness. Phrase it that modestly.
+
+data_confidence: Quora, Pinterest, and YouTube searches (one best-effort pass each) returned no usable threads. SalonGeek's one relevant thread had no winter replies. Google PAA was not retrievable, so real autocomplete data (7 of about 41 calls returned suggestions; 16 were rate-limited) and competitor FAQ headings stand in for it.
+recommended_image_count_validation: 7 follows the flat rule (informational spoke). Competitor pages are text-led. Image counts were audited only for NailKnowledge (3).
+
+## SECTION 5: AUDIENCE INTELLIGENCE
+*Brief:* write for one person who notices their nails look stuck every winter and half-suspects they're doing something wrong.
+- **who_they_are:** Beginner-to-intermediate nail owners, mostly women 25-55, many wearing gel or polish, wanting length. Some are asking about toenails.
+- **what_they_want:** A straight yes or no, the size of the effect, why it happens, and what actually helps, with no hype.
+- **what_frustrates_them:** Contradictory answers (vitamin D, diet, "speed up growth" tips), no numbers, no source.
+- **top_5_pain_points:**
+  1. Can't tell whether slower growth is real.
+  2. Nails keep splitting or breaking, so length never shows.
+  3. "Boost growth" tips that overpromise.
+  4. Unclear supplement claims and safety (biotin, vitamin D).
+  5. Not knowing when it signals something else (iron, thyroid, a change in shape or color).
+- **exact_user_phrases** (real Google autocomplete): "nails not growing in winter"; "why do my nails grow slower in the winter"; "why are my nails growing slower than usual"; "why are my nails growing so slow all of a sudden"; "do nails grow faster in cold weather"; "nails not growing deficiency"; "what does it mean if your nails are not growing"; "why are my fingernails growing slower"; "why do some nails grow slower than others"; "why do my nails grow but keep breaking" (Dear Sundays FAQ wording).
+- **intent_content_signals:** answer in the first two sentences; give a number (about 3 mm per month); name the expert plainly; myth-versus-fact beats a long list; short checklist for winter habits; a clear "see a doctor if..." line; FAQ close.
+
+## SECTION 6: SEMANTIC KEYWORD DATA
+*Brief:* primary keyword in `<strong>` every exact mention. AEO terms get direct-answer paragraphs. No keywords_to_avoid term as a focus term.
+- **primary_keyword:** why do nails grow slower in winter
+- **keyword_variations** (not counted, not bolded): nails grow slower in winter; do nails grow slower in winter; do fingernails grow slower in winter; do toenails grow slower in winter; nails growing slower in the winter; why are my nails growing slower in winter; nails not growing in winter; does cold weather slow nail growth
+- **cluster_keywords:** nail growth rate; seasonal nail growth; cold weather nail growth; slow nail growth causes; nails growing slowly; nails stopped growing; brittle nails in winter; splitting nails; nail breakage; dry winter air nails; indoor heating dry nails; how fast nails grow; hand cream for nails; petrolatum for nails; nails grow out
+- **lsi_terms:** nail matrix; blood flow to the fingertips; peripheral circulation; constricted blood vessels; 3 mm per month; nail plate; keratin; free edge; humidity; indoor heating; dry air; hand washing; petrolatum; thick hand cream; protein intake; iron levels; thyroid function; collagen peptides; biotin; vitamin D
+- **aeo_terms:** Why do nails grow slower in winter? | Do nails grow slower in winter? | Does cold weather reduce blood flow to your nails? | Does vitamin D affect nail growth? | Why do my nails keep breaking in winter even though they're growing? | Do toenails grow slower in winter? | What helps nails grow in winter? | Does biotin help nails grow? | What does it mean if your nails are not growing?
+- **technical_terms:** nail matrix; nail plate; keratin; peripheral circulation; linear nail growth; brittle nail syndrome; nail plate water content
+- **user_language:** "nails not growing in winter"; "growing so slow all of a sudden"; "grow but keep breaking"; "slower than usual"; "not growing deficiency"; "what does it mean if your nails are not growing"; "stuck in winter"; "do nails grow faster in cold weather"
+
+## SECTION 7: VOICE AND AI QUERIES
+*Brief:* answer every query in its H2 body below, or in faqItems. [A] = real autocomplete, [F] = competitor FAQ or heading, [E] = derived from the expert reply.
+1. Why do nails grow slower in winter? [A] → intro / H2-1
+2. Do nails really grow slower in winter? [A] → H2-1
+3. Do nails grow faster in summer than in winter? [F] → H2-1
+4. Do fingernails grow slower in winter? [A] → H2-1 / H2-5
+5. Does cold weather reduce blood flow to your nails? [E] → H2-2
+6. Does vitamin D affect nail growth in winter? [F/E] → H2-3
+7. Why do my nails keep breaking in winter even though they're growing? [F] → H2-4
+8. Why are my nails growing slower than usual? [A] → H2-4 / H2-7
+9. Do toenails grow slower in winter? [A] → H2-5
+10. What helps nails grow faster in winter? [F] → H2-6
+11. Does biotin help nails grow? [F] → H2-7
+12. Do collagen peptides help brittle nails? [E] → H2-7
+13. What does it mean if your nails are not growing? [A] → H2-7
+14. Why are my nails growing so slow all of a sudden? [A] → H2-7
+15. When should I see a doctor about my nails? [E] → H2-7
+16. Do nails grow faster in cold weather? [A] → faqItems (answer: no, slightly slower)
+
+## SECTION 8: HOOK AND CTR
+*Brief:* READ BEFORE WRITING THE TITLE, META, INTRO, OR FIRST H2. Use title and meta exactly.
+- **real_serp_findings_summary:** The five pages use question-led or benefit-led titles. Cache promises "How to Speed Up Growth Naturally"; Orangeville uses a flat label ("Winter Nail Growth Factors"). None answers whether the slowdown is real or how big it is, and none raises the breakage angle.
+- **selected_option_rationale:** The title tests that gap through a curiosity gap (the cluster's Trigger 1). The meta quantifies it ("only slightly") and promises the dryness explanation. The 2026 year tag is skipped because this is an evergreen informational explainer, not a trend or ideas page.
+- **title:** Why Do Nails Grow Slower in Winter? Or Just Break More?
+- **title_char_count:** 55
+- **meta_description:** Nails feel stuck in winter? A doctor explains why nails grow slower in winter (only slightly), why dryness makes it look worse, and what helps.
+- **meta_char_count:** 143
+- **intro_hook_brief:** Reframe (Technique 3). Open with the question as the reader asked it, in the first sentence. Validate the feeling ("it does seem slower"), then flip it: yes, slightly, but what you mostly notice is dry nails splitting before they get long. Deliver the "yes, slightly, around 3 mm per month" answer inside the first 100 words. No empathy filler like "you're not alone."
+- **first_h2_hook_direction:** H2-1 opens with a one-line verdict (yes, a little, and the difference is small) before any explanation. The hook is that the real number is smaller than expected. Do not repeat the title's break-more hook.
+
+## SECTION 9: SEARCH JOURNEY
+*Brief:* every section honors the promise. If a paragraph breaks the arc, rewrite it.
+- **reader_arrival_state:** Slightly doubtful and a bit frustrated. Their length isn't showing and they want a straight answer.
+- **journey_arc:**
+  1. Verdict first: slightly slower, small effect (H2-1)
+  2. Why: cold constricts fingertip blood vessels, less blood to the nail matrix (H2-2)
+  3. Clear the vitamin D myth (H2-3)
+  4. Reveal what they're mostly seeing: dryness and breakage (H2-4)
+  5. Toenails (H2-5)
+  6. What helps, without overpromising (H2-6)
+  7. Supplements and when it's more than winter (H2-7)
+- **promise_to_deliver:** An honest, expert-backed answer on whether and why nails grow slower in winter, and what helps, without promising faster growth.
+- **exit_state:** Reassured their nails aren't broken, clear on what's real, with two or three realistic habits and a clear line for when to get checked.
+
+## SECTION 10: CONTENT STRUCTURE
+*Brief:* follow exactly. Do not rename, reorder, or remove H2s. H3s are optional.
+- **h1:** Why Do Nails Grow Slower in Winter? Or Just Break More? (same as locked title)
+- **h2_structure:**
+  1. Do Nails Really Grow Slower in Winter?
+  2. Does Cold Weather Reduce Blood Flow to Your Nails?
+  3. Does Vitamin D Affect Nail Growth in Winter?
+  4. Why Do Nails Seem Like They've Stopped Growing in Winter?
+  5. Do Toenails Grow Slower in Winter Too?
+  6. What Actually Helps Nails Grow Out in Winter?
+  7. Do Supplements Help, and When Is It More Than Winter?
+- **word_budget:** locked in block_2 (introduction 220, H2s 90-190 each, conclusion 170; total 1,500).
+
+## SECTION 11: INTERNAL LINKS (5 total; woven into prose, never standalone CTAs)
+1. cluster-pillar | /blog/winter-nail-care/winter-nail-care | anchor (verbatim): the complete winter nail care guide | Conclusion, as the pointer to the broader picture
+2. cluster-spoke | /blog/winter-nail-care/hand-sanitizer-nail-damage-winter | anchor (verbatim): how hand sanitizer damages nails in winter | H2-4, where sanitizer is named as a drying factor
+3. cluster-spoke | /blog/winter-nail-care/gel-manicure-winter-lifting | anchor (verbatim): why gel manicures lift faster in winter | H2-6, at the "don't overdo gel manicures or gel removal" advice
+4. cross-site | https://mirelleinspo.com/blog/cuticle-care/dry-cracked-cuticles-winter | anchor: the routine that repairs dry, cracked cuticles in winter | H2-6, at "rub some into the nails and cuticles." Verified live. Category: Nail Care.
+5. cross-site | https://mirelleinspo.com/blog/nails-that-dont-chip-easily | anchor: why nails chip so easily and how to stop it | H2-4, at the splitting and breaking point. Verified live.
+
+## SECTION 12: VOICE AND TONE
+*Brief:* layer on the Mirellé framework. No generic AI tone.
+- **recommended_voice:** Calm expert friend who corrects a myth gently
+- **tone_characteristics:** direct (verdict first); quantified; reassuring, never alarmist; myth-correcting without scolding; practical
+- **language_style:** Second person. Short declarative sentences. One concrete number early. Plain-language physiology (blood vessels, nail matrix). No "speed up growth" promises.
+- **audience_match:** The reader came doubting a vague claim. A numbered, sourced, honest answer earns trust and fits informational intent.
+
+## SECTION 13: EXTERNAL LINKS (2)
+1. https://us.typology.com/library/how-fast-do-nails-grow | Context: H2-1 or H2-2, reporting that a 1958 study found slower growth in cold climates and that the mechanism is not firmly established | Anchor: what the research says about climate and nail growth. (Author is a PhD; cites Sampford 1958, J Appl Physiol, as secondary reporting only.)
+2. https://doi.org/10.2340/actadv.v106.adv-2025-0238 | Context: H2-4, on winter brittleness | Anchor: a 2026 dermatology research letter on seasonal brittle nails. (Peer-reviewed primary source surfaced in the phase_3 SERP and verified directly. Describe it only as the guardrail in section 4 says.)
+
+## SECTION 14: FEATURED EXPERT
+*Brief:* write expert_alias exactly into the expert frontmatter field. The quote may be used whole or as word-for-word extracts, including split across several placements. Never paraphrase quoted words, never change the meaning, never invent a bio or credentials.
+- **expert_alias:** amir-saeed
+- **suggested_placement:** H2-1: the "do grow a little more slowly... pretty small" opener. H2-2: the blood vessel and nail matrix lines. H2-3: the vitamin D sentence. H2-4: "When nails start splitting or breaking, it can seem like they aren't growing when they actually are." H2-6: the gloves, hand cream, petrolatum, and acetone/gel lines. H2-7: protein, iron, thyroid, collagen, biotin, and the "significant change" line. Skip the GHK-Cu paragraph.
+- **expert_quote** (full text, verbatim):
+
+Nails probably do grow a little more slowly during the winter, but the difference is pretty small. Fingernails typically grow around 3 mm per month, so any seasonal change is usually subtle.
+
+Cold weather may play a role because the small blood vessels in your fingers constrict when you're cold. That means slightly less blood flow to the nail matrix, which is where the nail actually grows. Vitamin D, on the other hand, doesn't seem to have much of an effect on nail growth.
+
+What people tend to notice more in the winter is that their nails become dry and brittle. Cold air, indoor heating, frequent hand washing, and hand sanitizer can all dry out the nail. When nails start splitting or breaking, it can seem like they aren't growing when they actually are.
+
+A few simple things can help:
+
+Keep your hands warm and wear gloves when you're outside. Use a thick hand cream or plain petrolatum after washing your hands, and rub some into the nails and cuticles as well. Wear gloves when washing dishes or cleaning, and try not to overdo acetone, gel manicures, or gel removal.
+
+Nutrition matters too. Make sure you're eating enough protein. If there has been a noticeable change in your nails, I'd also consider checking things like iron levels and thyroid function, since those are two potentially correctable causes of nail changes that come up fairly often.
+
+There are a few supplements that may be worth considering as well.
+
+Collagen peptides may help with brittle nails. There are some early studies suggesting that taking collagen consistently may modestly improve nail growth and decrease breakage over several months.
+
+GHK-Cu is a copper peptide involved in collagen production and tissue repair. Most of the research has focused on skin and hair rather than nails specifically, so I would think of this as potentially supportive rather than something that has strong evidence for nail growth.
+
+Biotin can sometimes help people who have genuinely brittle or splitting nails. One important thing to know is that biotin can interfere with certain blood tests, including some thyroid and cardiac tests, so it's worth mentioning if you're taking it before having labs drawn.
+
+If you're noticing a significant change in the shape, color, texture, or thickness of your nails, that's a little different and is worth taking a closer look at during your next visit.
+
+## SECTION 15: EXECUTION PLAN (READ FIRST. LOCK EVERY VALUE.)
+
+### block_1_keyword_execution
+- primary_keyword: why do nails grow slower in winter
+- top_5_density_baseline: 0.6 (stem form; exact phrase 0.2), rounded up to 1
+- total_mention_target: 1 + 3 = **4** exact-phrase mentions in body copy (hard target, not a percentage)
+- first_100_words_plan (mandatory, two mentions):
+  - mention_1: sentence 1 of the introduction, the opening question as the reader asked it
+  - mention_2: sentence 3 of the introduction, the reframe line ("The honest answer to...")
+- first_half_target: 3 mentions (words 1-750): 2 in the introduction, 1 in the H2-1 direct-answer paragraph
+- second_half_target: 1 mention (conclusion)
+- strong_tag_rule: all 4 exact-phrase mentions wrapped in `<strong>`. Shorter variations from section 6 are neither counted nor bolded. Scan after every paragraph.
+- keywords_to_avoid_active: full list in section 3
+
+### block_2_word_budget
+- total_target: 1,500 (ceiling, +/-50, never exceed)
+- introduction: 220
+- conclusion: 170
+- h2_budgets:
+  - Do Nails Really Grow Slower in Winter? | 190 | medium
+  - Does Cold Weather Reduce Blood Flow to Your Nails? | 160 | medium
+  - Does Vitamin D Affect Nail Growth in Winter? | 110 | low
+  - Why Do Nails Seem Like They've Stopped Growing in Winter? | 190 | high
+  - Do Toenails Grow Slower in Winter Too? | 90 | low
+  - What Actually Helps Nails Grow Out in Winter? | 190 | high
+  - Do Supplements Help, and When Is It More Than Winter? | 180 | high
+- tracking_rule: track the running total after every H2. Cut over-budget sections before moving on. Do not compensate later.
+
+### block_3_image_plan
+- total_images: 7 | hero: frontmatter only, never in body | body_images: 6
+- path_rule: /images/blog/winter-nail-care/nails-grow-slower-winter/filename.webp
+- assignments (all standard_inspiration; no infographic slots, since intent is informational):
+  1. after H2-1 | natural, healthy short nails in soft winter light, cream knit sleeve
+  2. after H2-2 | hands at a knit glove cuff, sheer nude polish, cool daylight
+  3. after H2-4 | glossy, hydrated-looking natural nails resting on wool
+  4. after H2-5 | neutral-polish toenails peeking from chunky knit socks
+  5. after H2-6 | hands cupping a warm mug, short rounded nails, soft neutral polish
+  6. after H2-7 | bare, healthy-looking natural nails on a cozy winter surface
+- image_type_rule: never a tool or equipment image, never hands at work, never a photo-style side-by-side comparison. Blog Gen follows the type flagged per slot.
+
+### block_4_opening_technique_assignments
+Names are known only for T1 (The Claim) and T3 (The Reframe). T2, T4, and T5 follow Blog Gen's own technique list, which was not available in this session. No two consecutive sections use the same technique, and the conclusion is T1 or T3.
+- Introduction: T3
+- H2-1: T1
+- H2-2: T2
+- H2-3: T4
+- H2-4: T3
+- H2-5: T1
+- H2-6: T5
+- H2-7: T2
+- Conclusion: T1
+- banned_opener_rule: check every opener against banned_opening_approaches before writing the second sentence.
+
+### block_5_link_placements
+Exactly the 5 links in section 11, anchors verbatim, full URLs as listed there: pillar in the Conclusion; sanitizer and chip links in H2-4; gel and cuticle links in H2-6. Woven into prose, never standalone CTAs.
+
+### block_6_aeo_geo_plan
+Write a direct 2-3 sentence answer paragraph IMMEDIATELY after the H2, before any elaboration.
+- aeo_assignments:
+  - Do nails grow slower in winter? → H2-1
+  - Does cold weather reduce blood flow to your nails? → H2-2
+  - Does vitamin D affect nail growth? → H2-3
+  - Why do my nails keep breaking in winter even though they're growing? → H2-4
+  - Do toenails grow slower in winter? → H2-5
+  - What helps nails grow in winter? → H2-6
+  - Does biotin help nails grow? → H2-7
+  - What does it mean if your nails are not growing? → H2-7
+  - Why do nails grow slower in winter? → introduction
+- geo_entity_statements (confident, declarative definitions):
+  - nail matrix → H2-2: the tissue under the base of the nail where the nail actually grows
+  - brittle nails → H2-4: nails that split or break easily, often because the nail plate dries out
+  - biotin lab-test interference → H2-7: biotin can interfere with some thyroid and cardiac blood tests
+
+### block_7_active_constraints
+- em_dash_banned: no long em dash anywhere. Replace with a comma, a new sentence, parentheses, "but," or a restructure.
+- banned_vocab_watch: Blog Gen's banned list was not available here. Likely offenders for this topic: crucial, essential, boost, unlock, journey, game-changer, delve, elevate. Check against the real list.
+- american_english_active: color, recognize, -ize, -or. No British spellings.
+- keyword_density_reminder: after every 2 H2s, check the running count (target 4). Run denser in the first half. Every exact mention in `<strong>`.
+- path_reminders: image path as in block_3 (topic_slug in path); links as full paths per section 11, never a bare /slug; hero in frontmatter only.
+- expert_quote_reminder: expert: amir-saeed in frontmatter exactly. Quote words stay word-for-word, meaning intact, nothing invented. Skip GHK-Cu.
+- guardrail_reminder: no vitamin D causation claim, no "20% faster in summer," no seasonal-diet claim. See section 4.
