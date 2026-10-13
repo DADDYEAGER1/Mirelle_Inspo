@@ -1,0 +1,251 @@
+# HANDOFF v2: Mirellé Inspo Store (headless Shopify + Next.js)
+
+Written 2026-10-14 by the previous agent. This **replaces** the v1 handoff (2026-10-10). You have no memory of earlier conversations. Everything you need is here. Read all of it before replying.
+
+The user will continue from this file with you. It also contains a **design brief (section 11)** for a separate design/conversion agent, and the user's **product-import** and **seller-details** workstreams (sections 7 and 8).
+
+---
+
+## 0. Status in one paragraph
+
+The store is **built**. A headless storefront lives at `mirelleinspo.com/store`, backed by Shopify, with a custom **admin panel at `/admin/store`**, six legal pages, a static store sitemap with an "Update sitemap" button, and popup suppression on `/store`. Code was delivered to the user as `mirelle-store-final.zip` (45 new files, 9 replaced). The user has merged it locally, connected their real Shopify store (real products show, admin connects). **As of writing, it is not confirmed to be deployed to Netlify.** Still open: importing products, the seller's legal name and address, Netlify environment variables, a full checkout test, a real test order, and the design/conversion pass (separate agent). Nothing here has had legal review.
+
+---
+
+## 1. The user and how to work with them
+
+- Owner of mirelleinspo.com (brand "Mirellé Inspo"). Semi-technical: runs the project locally, edits `.env.local`, uses PowerShell on Windows. Needs **exact click paths** for Shopify and plain-language explanations. Said the process was "getting very overwhelming": give **one phase at a time, short numbered steps**, verify before moving on.
+- Wants answers fast ("answer me right now"), and wants **files delivered as a zip or as the full pasted file**, not as vague instructions. When they have already merged earlier files, give only the single changed file, pasted in full.
+- Likes tap-style questions (max about 3). Sometimes types an answer or a counter-question instead of tapping; do not treat that as "no". Several of their questions are really "explain this to me" (e.g. "what is the legal seller name?", "how are we using cookies?"): answer the question first, then re-ask.
+- **Never paste or request secrets in chat**: the Shopify private token (`shpat_...`), the Dev Dashboard **client secret**, `ADMIN_ACCESS_KEY`. Public identifiers are fine.
+- They accept honest pushback (they chose the recommended returns policy after I explained why "no refunds at all" cannot work). They do **not** want lectures; one clear warning once, then follow their decision.
+- **Rules that changed since v1:** v1 said "zero edits to existing files". The user later explicitly allowed edits to legal pages, the footer, `layout.tsx`, `adConfig.ts` and `next-sitemap.config.js`. Keep other existing files untouched unless they say otherwise.
+- **Decisions the user made, do not reopen unless asked:** no cookie consent banner ("no keep it out"); no change-of-mind returns; coupons and visual design go to another agent; popups hidden on `/store`; keep the vintage ad link as is.
+- Today in the user's world: October 2026; Halloween and holiday gifting are close. The user said they want to deploy **now**.
+
+---
+
+## 2. Stack and environment
+
+- Next.js ^15.5.x (Turbopack in dev), React 19, Tailwind 3.4, `next-sitemap`. Deployed on **Netlify** (inferred from `@netlify/blobs`; not confirmed). No new npm packages were added.
+- Brand tokens: primary `#ad4339`, background `#f9fafb`, foreground `#252220`; fonts Larken/Erode (headings), Crimson Text (body), General Sans (UI); fixed type scale in `tailwind.config.js` (`text-h1`, `text-h1-mobile`, `text-ui`, `text-ui-xs`, etc.).
+- `src/app/layout.tsx` renders Header and Footer plus Google Tag Manager (GTM-WPW9XBW8), GA4 (G-4BZ9QKQZ73), AdSense and four popups (now wrapped, see section 9). A `<main>` already exists in the root layout, so store pages must not add another.
+- The project's `eslint.config.mjs` throws `Identifier 'js' has already been declared` on every build. It is **pre-existing, non-fatal**, and not caused by this work.
+
+### Environment variables (names only, values are secret or user-specific)
+
+| Variable | Purpose | Notes |
+|---|---|---|
+| `SHOPIFY_STORE_DOMAIN` | `x9j0nf-fy.myshopify.com` (public) | required |
+| `SHOPIFY_STOREFRONT_TOKEN` | the **public** Storefront API token from the Headless channel | the private `shpat_` token is never used |
+| `SHOPIFY_CLIENT_ID`, `SHOPIFY_CLIENT_SECRET` | Dev Dashboard app "Mirellé store admin" | exchanged for a 24-hour Admin token automatically |
+| `SHOPIFY_PUBLICATION_ID` | Headless channel id, "Mirellé Inspo Headless" | the user set it after the panel could not find the channel by name |
+| `ADMIN_ACCESS_KEY` | login for `/admin/store` (also used by the older `/admin/notifications`) | the user was about to rotate it; if they did, update Netlify too |
+| `SHOPIFY_ADMIN_TOKEN` | optional legacy permanent token | not used |
+| `STORE_MOCK=1` | local demo mode only | **ignored on Netlify by design** |
+| `SHOPIFY_API_VERSION` | optional override | default `2026-07` |
+
+`.env.local` also holds older variables (web push, Google Apps Script, Cloudinary, reader count). Never print them.
+
+**Netlify:** the user must add the six Shopify/admin variables above with all scopes ticked so the server can read them at runtime. **Not confirmed done.** On Netlify the code never uses demo data: if `SHOPIFY_STORE_DOMAIN` or `SHOPIFY_STOREFRONT_TOKEN` is missing, the build **fails with a clear message** (`/sitemap-store.xml` route).
+
+### Shopify facts
+
+- Admin: `https://admin.shopify.com/store/x9j0nf-fy`. Headless channel: "Mirellé Inspo Headless". Other channels seen: Online Store, Point of Sale, Pinterest.
+- Storefront API permissions the user ticked on the Headless channel: product listings, tags, pickup locations, customers (read/write), content, checkouts (read/write), selling plans, metaobjects. `unauthenticated_read_product_inventory` is **unticked** (not needed; tick it if sold-out status ever looks wrong).
+- **Dev Dashboard app** "Mirellé store admin": version v1 released, **installed on the store (confirmed `app_not_installed` error disappeared)**, scopes `read_products, write_products, read_publications, write_publications, read_files, write_files`. App URL is the placeholder `https://example.com` (the post-install redirect lands there; harmless).
+- `shop.mirelleinspo.com` is connected to Shopify (old default-theme storefront, also expected to host checkout). **Still not confirmed as the primary domain.** The user said it was not indexed, but their Search Console export listed one `shop.` product URL, so a `noindex` meta in the theme remains a cheap safeguard.
+- Payments: user said **Razorpay and PayPal**. Whether both are enabled and working in Shopify checkout is **unverified**.
+
+---
+
+## 3. What was built (inventory)
+
+All paths under `src/`. **45 new files, 9 replaced.**
+
+**Storefront** (`app/store/`): `layout.tsx` (slim nav + free-shipping bar), `page.tsx` (home), `collections/[handle]/page.tsx` (also handle `all`), `products/[handle]/page.tsx`, `cart/page.tsx`, `shipping-returns/page.tsx` (summary), `size-guide/page.tsx` (hidden until `pagesPublished.sizeGuide`).
+**APIs:** `app/api/store/cart/route.ts`; `app/api/admin/store/{login,logout,products,product,bulk,sitemap}/route.ts`.
+**Admin UI:** `app/admin/store/{page.tsx,LoginForm.tsx,StoreAdminClient.tsx}`.
+**Sitemap:** `app/sitemap-store.xml/route.ts` (static, see section 6).
+**Library** (`lib/shopify/`): `config.ts`, `types.ts`, `policy.ts` (**the single place for store promises**), `taxonomy.ts` (categories, collection copy), `storefront.ts`, `catalog.ts`, `cart.ts`, `admin.ts`, `adminAuth.ts`, `adminGuard.ts`, `seo.ts`, `html.ts`, `images.ts`, `mock.ts`, `sitemapUrls.ts`. **Legal:** `lib/legal/content.ts`.
+**Components** (`components/Store/`): `ProductCard`, `CollectionBrowser` (client-side filters), `Gallery`, `ProductBuy`, `CartLink`, `CartClient`, `HideOnStore`. `components/Legal/LegalPage.tsx`.
+**Legal pages (new, top-level):** `/shipping-policy`, `/refund-policy`, `/terms-of-sale`.
+**Replaced existing files:** `next-sitemap.config.js`, `src/app/layout.tsx`, `src/lib/adConfig.ts`, `src/components/Footer.tsx`, `src/app/{terms,privacy-policy,disclosures,editorial-policy,contact}/page.tsx`.
+
+### How it works
+
+- **Products live in Shopify.** The store reads them with the public Storefront token. A product is visible only if it is **Active and published to the Headless channel**. Pages revalidate every 60 seconds (ISR); saving in the admin panel clears the cache immediately.
+- **Categories are Shopify tags** written as `Dimension: Value`: `Type: Press-On Set | Kit | Glue | Tabs | Tools | Remover | Storage`; `Shape: Almond | Coffin | Square | Oval | Squoval | Round | Stiletto`; `Length: Short | Medium | Long`; `Style: French Tip | Nude & Solid | Glitter & Chrome | 3D & Charms`; `Occasion: Halloween | Fall | Holiday | Valentine's | Bridal | Everyday`; `Finish: Glossy | Matte | Chrome`; `Color: ...`. Also the plain tag `Best Seller` (owner-set only, never guessed). "New" is automatic for 30 days. Value lists are in `taxonomy.ts`.
+- **Collections are virtual** (generated from tags, no Shopify collections needed): `/store/collections/almond-press-on-nails`, `short-press-on-nails`, `french-tip-press-on-nails`, `halloween-press-on-nails`, `press-on-nails` (all sets), `press-on-nail-glue`, etc. A collection with **0 products returns 404**, with **1 to 5 is `noindex`**, with **6+ is indexed and in the sitemap**. Filters and sorting run **in the browser** on the full list (no filter URLs for Google to crawl; canonical is always the base URL). This answered v1's open question: Search & Discovery is **not** needed.
+- **Admin panel `/admin/store`:** login form against `ADMIN_ACCESS_KEY` (httpOnly cookie, key never in the URL). Open a product by pasting its Shopify admin link, store link or handle. Edits write straight back to Shopify: title, description (plain text or HTML), price and compare-at, tags (category buttons), image alt text / remove / main image / add by link, SEO title and meta, Active/Draft, "Show on the store" (publishes to the Headless channel). Bulk bar: add/remove a category on many products, publish/unpublish. **Update sitemap** button. A "Ready to go live?" checklist never blocks saving. Demo mode shows an amber badge.
+- **Limits of the panel:** it cannot add/remove/rename variants, cannot upload files from the computer (image by link only; Shopify then hosts it), "Remove" on an image deletes the file from Shopify, the page URL is locked while a product is live, and there is no undo.
+- **Product page SEO:** H1 pattern `[Name] – Short Almond Press-On Nails` for sets, canonical to `/store/products/<handle>`, Product JSON-LD with price, availability and shipping details (free, US/GB/CA/AU), **no rating or review markup (none exist)**, BreadcrumbList. Return markup is **deliberately off** (`policy.returns.windowDays = null`). Descriptions are run through an allow-list sanitizer (images stripped).
+- **Cart:** Shopify Cart API through `/api/store/cart` with an httpOnly `mirelle_cart` cookie; checkout is Shopify-hosted. A stale/demo cart id is ignored and replaced (a real bug found and fixed).
+
+---
+
+## 4. Verified vs not verified
+
+**Verified by me (sandbox):** TypeScript passes on the whole merged project; the whole project compiles; new and edited pages return 200; filters, cart, admin login, edit, bulk and publish work in **demo mode**; token exchange, caching, 401 retry and stale-cart handling pass against a **stand-in Shopify**; the sitemap behaves as specified (see section 6); hide-popups works (4 popups on a normal page, 0 on every `/store` route).
+**Verified by the user:** real products show on `/store`; the admin connects to the real store and lists real products; the yellow "channel not found" banner was fixed with `SHOPIFY_PUBLICATION_ID`.
+**NOT verified:**
+- A **full production build of the whole site** (about 1,400 pages; my sandbox cuts long jobs). First Netlify build is the real test.
+- **Add to cart after the cart fix**, and the **whole checkout** on the live domain, with free shipping at $0 for US, UK, Canada, Australia.
+- **Publishing to the Headless channel through the API.** Documented, but unconfirmed that this app type is permitted to publish to that channel. Fallback: tick the channel on the product page in Shopify.
+- That Razorpay and PayPal work in checkout; that CJ's sync does **not overwrite** edits made in the panel; that CJ orders are auto-processed after a Shopify order.
+- Product page rendering with **real CJ data** beyond the first few products (HTML descriptions, many variants).
+- Legal text accuracy (no lawyer review), delivery estimates (CJ figures are older and mixed).
+
+---
+
+## 5. Phase plan and status
+
+1. Design (v1 editorial mockups): done. **The user now wants a different, high-conversion visual direction by another agent** (section 11).
+2. SEO plan: done and implemented in code (section 6).
+3. Code build: **done**, delivered, merged locally.
+4. **Product import: IN PROGRESS (section 7).**
+5. Legal pages: written (section 9); **seller identity missing (section 8)**.
+6. Deploy: **pending** (checklist in section 10).
+7. Design/conversion pass, coupon (15%), GA4 e-commerce events, Merchant Center: **not started**.
+
+---
+
+## 6. SEO state
+
+**Keyword map v1 (hypotheses; no volume tool was available):** store home brand-led ("Mirellé Inspo Store: Press-On Nails & Accessories"); shape / length / style / occasion collections targeting "[value] press on nails" (the word "press-on" is always in the title and H1 so they do not collide with blog guides); accessories collections (glue, tabs, tools, remover, storage); product pages "name + shape + length". Not indexed: cart, filters, shape-by-length combos.
+
+**Search Console findings (3 months):**
+- `/shop` affiliate section: 153 clicks, 26,118 impressions. Only 4 non-glue press-on queries. The only real overlap with the store is **press-on glue** (71 queries, 983 impressions, about 1 click; page `best-press-on-nail-glue-summer`, position about 28). The affiliate posts recommend MelodySusie products, which compete with the user's own press-ons. **The user said "I will see that later about the competition"; it is parked, not decided.** Disclosures were updated to say the site now sells its own products.
+- The **blog already ranks well for shape terms**, which is the biggest traffic lever for the store:
+  | Shape | Clicks | Impressions | Top page |
+  |---|---|---|---|
+  | Almond | 366 | 62,950 | `/blog/almond-nails-guide` |
+  | Coffin | 223 | 52,493 | `/blog/coffin-nails/short-coffin-nails` (28,566 impr.) and `/blog/coffin-nails/coffin-nails-guide` |
+  | Oval | 83 | 18,186 | `/blog/almond-vs-oval-nails` |
+  | Square | 34 | 5,965 | `/blog/nail-shapes/square-nails` |
+  Also `/blog/nail-shapes/squoval-nails`, `/blog/press-on-nails/can-you-reuse-press-on-nails`, `/blog/press-on-nails/are-press-on-nails-waterproof`.
+  Those searches are informational. Shopper-intent shape queries are almost absent (about 305 queries contain "press on", 21 clicks). **Press-on demand is unproven by this data.** Collections link back to these guides already; **links from the blog to the store collections have NOT been added** (edits to blog pages) and are the next highest-value SEO task.
+- Product pages are indexable and in the sitemap. Expect little early organic traffic to them; unique descriptions on the top 5 to 10 products matter (CJ text is copied by every seller).
+
+**Sitemaps (decided with the user):**
+- `/sitemap-store.xml` is a **static** route (`force-static`, `revalidate = false`), built at deploy, and refreshed **only** when the user clicks **Update sitemap** at the top of `/admin/store`. Saving or bulk editing a product does **not** regenerate it. The button computes the count from fresh Shopify data and starts a rebuild. Tested in a production build: unchanged after unpublishing 2 products, then 19 → 17 after the button.
+- Content: `/store`, `/store/collections/all` (6+ products), every collection with 6+ products, every product (with its first image), `/store/shipping-returns`.
+- If Shopify is unreachable at build the route **throws** (failed build is better than a silent empty sitemap). If an old sitemap exists it is kept on a failed regeneration.
+- `next-sitemap.config.js` (edited): `exclude` has `/store` and `/store/*`; `additionalSitemaps` lists `https://mirelleinspo.com/sitemap-store.xml` (so `robots.txt` announces it); the three new legal pages get priority 0.5 / yearly. `scripts/generate-all-sitemaps.js` was **deliberately not changed**: it writes static files from markdown, and a `public/sitemap-store.xml` would clash with the route.
+- Still to do: submit `sitemap-store.xml` in Search Console; Rich Results Test on one product; inspect `/store` and request indexing.
+
+**Not done in SEO:** GA4 e-commerce events for the store; Google Merchant Center feed; a shape guide page; size guide content (a size chart does not exist on product pages); `hreflang` (not needed, US English only); Organization/WebSite schema already exists globally in `layout.tsx`.
+
+---
+
+## 7. PRODUCT IMPORT workstream (user's immediate task)
+
+**Goal:** 12 to 15 products first (6 almond sets, 6 coffin sets, 2 to 3 accessories) so both shape pages reach the 6-product indexing rule; then grow.
+
+**Flow, one product at a time:**
+1. **In the CJ app** (Product List → Add to Import List → Import to Store; button names may differ): choose only the variants you want to sell (the panel cannot add or remove variants), pick the warehouse and shipping method (**US warehouse ships to the US only; China warehouse ships worldwide**), skip any product whose images have watermarks, logos or foreign text. Do **not** bother editing titles, descriptions or prices at the CJ stage; the admin panel does it.
+2. **Set the price with free shipping in mind.** Free shipping is on every order, so price = CJ product cost + shipping to the destination + payment fees + margin. Check CJ's shipping cost to US, UK, Canada, Australia for each product. The panel only checks that a price exists, not that it makes money. Use a compare-at ("was") price **only if it is a real previous price** (fake crossed-out prices are a legal risk).
+3. **Check the imported product's status in Shopify.** If it imports as Active it may already appear on the old `shop.mirelleinspo.com` storefront with CJ's raw text. Set unfinished products to **Draft** until finished.
+4. **Finish it in `/admin/store`:** open it by link, rewrite the description in the user's own words (suggested 30+ words), write alt text for each image, remove junk images, choose the main image, click category buttons (**always `Type: Press-On Set` for nail sets**, plus shape, length, style, finish, color, occasion), set the SEO title (<= 60 characters) and meta (<= 155) or leave empty for the automatic ones, tick **Show on the store**, **Save & publish**.
+5. **Bulk path for 10+ products:** import all first; in the list tick all sets and add `Type: Press-On Set`; tick all almond ones and add `Shape: Almond`; repeat for length and style; tick all and **Publish to store**; then open each only to rewrite description and alt text.
+6. After publishing a batch, click **Update sitemap**.
+7. Make sure **only nail products** (plus accessories) are published to the Headless channel. The old winter coat product is on the old channel for the vintage ad; if it is published to Headless it appears in `/store/collections/all` and "New arrivals".
+
+**Cautions to repeat to the user:**
+- **CJ's sync may overwrite edits** (titles, descriptions, prices). Test: edit one product, wait for or trigger a sync, check the text is still there; switch off any "sync product info / price" option in the CJ app.
+- Panel edits **replace** what CJ imported; there is no undo. Copy any CJ text worth keeping first.
+- Best Seller tag only when true. "Reusable up to N times", "vegan", "cruelty-free" claims only with supplier confirmation in writing.
+- Supplier images: check CJ's terms before editing or upscaling; never alter color, shape or length; shoot own photos for the 5 to 10 best sellers.
+- Refunds and replacements are handled through **CJ claims** (customer keeps the item). CJ's own policy covers damaged, wrong or missing items; **change-of-mind returns are not covered by CJ**. Budget a small share of margin for refunds CJ declines. CJ credits may arrive in the CJ wallet.
+
+**Tracker template (suggest the user keep it):**
+
+| Handle | Title | Shape | Length | Style | CJ cost + ship (US/UK/CA/AU) | Price | Margin ok? | Alt text | Tags | Published | In sitemap |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+
+---
+
+## 8. SELLER LEGAL NAME and ADDRESS workstream (open, blocking real orders)
+
+**What the user asked:** "Legal seller name? I'm a dropshipper, are you asking about us or CJ?" **Answer given:** about the user. The user is the **seller of record**: customers contract with, pay and complain to them; CJ is a supplier customers never deal with. Needed: the legal name of the person or company that owns the store and receives the Razorpay/PayPal payments (a sole proprietor's own name is acceptable), and a **postal address where mail can be received** (a registered or business address, not necessarily home). UK, Australian and Canadian rules expect trader identity and address to be shown.
+
+**Where to put it:** `src/lib/shopify/policy.ts` → `POLICY.seller.legalName` and `POLICY.seller.address` (both currently `null`). `lib/legal/content.ts` builds the "Who we are" line in the Terms of Sale from them ("<legalName>, trading as Mirellé Inspo, <address>. Email: contact@mirelleinspo.com."). **Until filled, the Terms of Sale says only "Mirellé Inspo" and the email.** After filling, also: re-paste `shopify-policy-copies/terms-of-service.txt` regenerated text into Shopify Settings → Policies (the plain-text copy was generated with the empty values), consider adding the address to the Contact page, and make sure the Razorpay/PayPal business details match.
+**Context from the user's existing Terms:** governing law is India and courts of Delhi. The Terms of Sale copies that and adds that mandatory consumer protections of the buyer's country are preserved. Confirm with the user that India is the correct operating country before relying on it. Tax matters (GST on exports, UK VAT, Australian GST, Canadian duties, US duties) are **not** handled by the pages; the user should ask an accountant.
+
+---
+
+## 9. Legal and policy state (not legally reviewed; I am not a lawyer)
+
+**Decided with the user:**
+- Returns: **no change-of-mind returns or refunds**. Faulty, damaged, wrong or undelivered orders are **replaced or refunded; the customer keeps the item.** The user first said "no returns nor refunds at all"; I explained that this is not lawful or workable for UK/Australian buyers and PayPal/card disputes, and they chose the recommended policy. Option "UK 14-day cancellation for unopened items" was offered and **not** chosen; this leaves a known UK exposure.
+- Numbers (all in `policy.ts`, pages update from it): processing 1 to 5 business days; delivery estimates from China, order to door: US 8–27, UK 8–21, Canada 16–30, Australia 9–21 days; US warehouse (US only) 3–9 days; report a problem within **14 days** of delivery; reply within **2 business days** (matches the Contact page's 24–48 hours); parcel counts as lost **40 days** after dispatch; refunds issued within **5 business days** of approval. Source: CJ's published figures (older and mixed, so **confirm per product with CJ's shipping calculator**); CJ's US warehouse ships within the US only.
+- Free shipping on every order, no minimum; ships to US, UK, Canada, Australia.
+
+**Pages written:** new `/shipping-policy`, `/refund-policy`, `/terms-of-sale` (single source `lib/legal/content.ts`). **Updated:** Terms (removed the false statement that Mirellé does not sell anything; added the store), Privacy Policy (added section 4.6 on orders, Razorpay/PayPal, sharing with CJ and carriers possibly in China; international transfers; order-record retention), Disclosures ("Our own store"), Editorial Policy ("Our store"), Contact ("Orders & Support"), Footer links. Last-updated dates set to October 13, 2026. `shopify-policy-copies/*.txt` hold plain-text versions to paste into Shopify Settings → Policies (refund, shipping, terms, privacy). A **Cookie Policy page was skipped** (no banner; the Privacy Policy already covers cookies).
+
+**Known gaps (state once, do not nag):**
+- **No cookie consent banner** (user declined). GTM, GA4 and AdSense load before consent, a UK exposure. The code found no consent component; Google's own AdSense consent message may exist outside the code (unchecked). The store's cart cookie and Shopify checkout cookies are essential.
+- Possible UK 14-day cancellation right for unopened items; no US/UK/Canada/Australia legal review; FTC mail-order timing rule (the policy promises a delay email and a cancel option); VAT/GST/duty collection unaddressed; PayPal/card disputes will override policy.
+- The existing vintage ad text (`adConfig.ts` `alt`) contains a comparative price claim ("$30, compared with $48 on Amazon"); **verify it can be substantiated**.
+
+---
+
+## 10. Deployment checklist and open items
+
+**Before deploy:** (1) merge `mirelle-store-final.zip` (if not done) incl. the `layout.tsx` popup wrap; (2) fill seller details (section 8); (3) add the six variables in Netlify; (4) decide the **vintage ad link**: `adConfig.ts` currently points to `https://mirelleinspo.com/store/products/womens-double-breasted-long-winter-coat`, which **404s until the coat is published to the Headless channel**. The user said "leave that", so the zip still has it. Either revert to `https://shop.mirelleinspo.com/products/womens-double-breasted-long-winter-coat` (working today on the live site) or publish the coat to Headless. Note the vintage popup and `AffiliateBanner.tsx` both read this one line; (5) push the branch, open a PR, test on the Netlify deploy preview, then merge.
+**After deploy:** open `/store`, one product, `/robots.txt` (must list `sitemap-store.xml`), `/sitemap-store.xml`, `/admin/store`; full checkout; Search Console sitemap submit.
+**Before real orders:** free shipping at $0 for US/UK/CA/AU at checkout (**configured in Shopify Settings → Shipping and delivery, not in code**); confirm primary domain in Settings → Domains; paste the four policies into Shopify; one real order for the cheapest item, then refund; confirm CJ picks it up; confirm Razorpay/PayPal; legal review.
+**Optional hardening:** `noindex` meta in the Shopify theme (`theme.liquid`) for the old storefront; redirect old `/products/<handle>` URLs to `/store/products/<handle>` (Shopify redirects are per exact path as far as I know).
+
+---
+
+## 11. DESIGN BRIEF for the design/conversion agent
+
+**User's words (paraphrased):** the blog is almost black and white because it is for reading; the store is for **conversions**, so it can be more **high-dopamine, high-energy** and does **not** need to follow the blog's colors, since it is "based on different human brain workings". The user will do this with another agent. The earlier v1 mockups (in the original v1 zip, folder `design/`; editorial, brick red only on buttons) are **superseded in tone**, but their page structure is still a valid skeleton.
+**Known commercial facts to show:** free shipping on every order; a **permanent 15% off any order** coupon (the user creates the code in Shopify Discounts; the design agent displays it and can pass it to checkout; I did not build any coupon code); US/UK/CA/AU; Razorpay and PayPal.
+
+**Technical constraints (do not break):**
+- Tailwind classes and the existing brand tokens; plain `<img>` (no `next/image`, no `next.config` change); server components with small client components; mobile first (tap targets >= 44px, 16px form text).
+- Keep the **SEO skeleton**: one H1 per page with the current patterns, the 2-line intro above the grid, FAQ and guide links below the grid, breadcrumbs, `ld+json` scripts (Product, BreadcrumbList, CollectionPage), canonical and robots logic in `seo.ts`, the "6+ products to index" rule, filters kept client-side (no filter URLs).
+- Do not add a second `<main>`; do not make filter combinations crawlable; keep image `width/height` and lazy loading (Core Web Vitals); keep `HideOnStore` so global popups never show on `/store`.
+- Style files to edit: `components/Store/*`, `app/store/**`, `app/store/layout.tsx` (nav + announcement bar). Content and rules live in `lib/shopify/taxonomy.ts` (copy per collection) and `lib/shopify/policy.ts` (promises).
+
+**Known UI gaps for the design pass:** the product page's mobile sticky bar only **scrolls to** the buy box (not one-tap add); no cart drawer (cart is a page); no search; no reviews; no size chart on product pages (the size-guide page exists but is hidden); no variant-specific images; hero uses text only (no photography yet); no bundles or "complete your set" row; no 404 or about page for the store; GA4 e-commerce events not wired.
+
+**LEGAL GUARDRAILS for "dopamine" tactics (important):**
+- **Never** use fake countdown timers, "only 3 left" counters that are not real stock, invented "12 people viewing now", made-up reviews/testimonials/ratings, or fake "was" prices. I believe the UK has restricted fake urgency and fake reviews since April 2025 and the US FTC has a rule against fake reviews; **verify**. A permanent 15% code is not a "sale": do not show crossed-out invented original prices next to it.
+- Fine and encouraged: bold color and large type, real coupons with the conditions shown, progress bars toward real thresholds, bundles, sticky add-to-cart, real social proof from real data, microinteractions, product-benefit icons, clear delivery and returns messaging that matches `policy.ts`.
+- All shipping/returns claims must come from `policy.ts`; do not hard-code numbers in components.
+
+---
+
+## 12. Corrections and lessons (do not repeat)
+
+- `STORE_MOCK=1` left a **demo cart cookie** (`mock-...`) that broke real "Add to cart" with `Variable $id of type ID! was provided invalid value`. Fixed: only real `gid://shopify/Cart/...` ids are sent to Shopify; expired carts fall back to a new cart.
+- New Shopify apps (2026) give a **client id and secret**, not a permanent token; the code exchanges them for 24-hour tokens. The app must be **installed on the store** (`app_not_installed` otherwise).
+- Admin could not find the channel because the first lookup happened before the app was installed and the failure was cached; `SHOPIFY_PUBLICATION_ID` fixes it.
+- Missing Netlify variables used to fall back to demo products and could freeze a fake/empty static sitemap. **Fixed**: demo mode is never used on Netlify and the sitemap build fails loudly.
+- Wrong Shopify token showed an empty store with no clue. **Fixed**: errors are logged as `[store] Shopify request failed ...` in the server terminal.
+- I once said "1 week" for the sitemap and made that edit before the user chose **on-demand**; the final design is static plus the button.
+- v1 assumed Vercel (it is Netlify) and `/shop/products`; the store lives at `/store`.
+- `pkill -f` in a shell command kills its own shell; background servers in the sandbox die when the command ends (run servers and checks in one command).
+- Search Console tap questions and early taps were sometimes answered in prose; confirm decisions explicitly.
+
+---
+
+## 13. Suggested first moves for you
+
+1. Tell the user in one line that you have the v2 handoff and will continue with **(a) product imports and (b) seller details** (their two stated priorities), then deploy.
+2. Ask (tap-style, max 3): (i) legal seller name and postal address (offer to put them in `policy.ts` and regenerate the Shopify Terms text), (ii) how many products are already imported and their status (Draft or Active), (iii) whether the Netlify variables are added and a preview deploy exists.
+3. Ask for a fresh `src.zip` if you need to inspect code; do **not** assume the zip equals this file's inventory.
+4. Walk the first 3 products through section 7 with the user, then check them live; only then scale to 12 to 15.
+5. Do not write the handoff for the design agent yet: **section 11 already is that brief**; offer to split it into a separate file if the user asks.
+
+---
+
+## 14. What this file is
+
+- **This is a single file (`HANDOFF.md`). It is a document to read, not code to install.** Never copy it into the project.
+- The code is delivered separately as `mirelle-store-final.zip` (the only zip that is merged into the project; its `INSTALL.md` lists every file).
+- Older zips from the same work (`mirelle-store-build.zip`, `mirelle-legal-pack.zip`) are **superseded** by `mirelle-store-final.zip`; ignore them.
+- The v1 design mockups (`design/`, 7 `.dc.html` artboards + `canvas.json`) and read-only copies of old project files (`existing-code-reference/`) live in the **original v1 zip `mirelle-store-handoff.zip`**. They are optional reference for the design agent (page structure only; tone is superseded, see section 11). For current code, ask the user for a fresh `src.zip`.
