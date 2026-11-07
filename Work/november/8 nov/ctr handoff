@@ -1,0 +1,101 @@
+# Worklist Handoff: Low-CTR Fix, 20 Pages (mirelleinspo.com)
+
+Attach this file together with `page-update-agent-v5.md`. Read v5 first, then treat this file as the saved state of the project. Do not redo finished pages unless asked. Continue from page 3.
+
+**Session date:** 2026-11-08. **GSC data window:** last 24 hours, exported 2026-11-07 (a snapshot; CTRs are noisy). **Goal:** raise CTR on the 20 highest-impression, low-CTR pages. The 20 pages hold ~44% of site impressions and ~53% of recoverable clicks (estimated from CTR gaps against typical CTR by position).
+
+---
+
+## How to continue
+1. Say "ready for page N" and name the URL.
+2. The person sends that page's `.md` (raw GitHub link) and its GSC export (page-filtered).
+3. Run the v5 flow end to end and return the updated `.md`. No approval gates.
+4. After each page, name the next URL and what is needed.
+5. When the person says "update handoff," regenerate this file with the Status table and Open items brought up to date.
+
+**Working style (carries over):** token-efficient replies, one short diagnosis line, no change recaps, edit in place, flags only when a decision is needed. Default to reusing existing images and skipping the expert quote unless supplied.
+
+**File locations**
+- Page files: `https://raw.githubusercontent.com/DADDYEAGER1/Mirelle_Inspo/refs/heads/main/Work/november/7th%20nov/low%20ctr%20problem%20fixing/<name>` (named by slug, no extension; spaces as `%20`).
+- Old prompts (superseded by v5): `.../prompts/content%20update/prompt%20iwth%20cannibalsim` and `.../prompts/Blog%2028th%20sept/update%20content`.
+
+---
+
+## Worklist (impression order, from the Pages tab)
+
+| # | Page | Impr. | Clicks | CTR | Pos. | Status |
+|---|---|---|---|---|---|---|
+| 1 | /blog/jelly-nails/jelly-french-tip-nails | 14,746 | 4 | 0.03% | 1.99 | Done |
+| 2 | /topics/nail-art-guides | 9,212 | 3 | 0.03% | 2.76 | Done |
+| 3 | /blog/fall/fall-nail-ideas | 8,677 | 14 | 0.16% | 2.24 | **Next** |
+| 4 | /blog/mirelle-inspo-nail-art-ideas | 8,184 | 1 | 0.01% | 1.63 | Pending |
+| 5 | /blog/goth/witchy-nails | 7,145 | 4 | 0.06% | 3.38 | Pending |
+| 6 | /blog/valentine/velvet-cat-eye-valentine-nails | 6,837 | 7 | 0.10% | 1.88 | Pending |
+| 7 | /blog/french-nails/how-to-do-french-tip-gel-nails | 6,216 | 1 | 0.02% | 2.24 | Pending |
+| 8 | /blog/fall/fall-nail-art | 5,919 | 3 | 0.05% | 1.87 | Pending |
+| 9 | /blog/simple-nail-designs/simple-nail-designs | 5,880 | 5 | 0.09% | 2.52 | Pending |
+| 10 | /blog/simple-nail-designs/easy-nail-art-with-a-toothpick | 5,387 | 0 | 0% | 2.99 | Pending |
+| 11 | /blog/nails-by-color/burgundy-nails | 3,845 | 0 | 0% | 2.81 | Pending |
+| 12 | /blog/french-tip-almond-nails | 3,759 | 4 | 0.11% | 2.24 | Pending |
+| 13 | /blog/short-almond-nails | 2,885 | 0 | 0% | 2.29 | Pending |
+| 14 | /blog/fall/fall-nail-colors | 2,750 | 9 | 0.33% | 2.21 | Pending |
+| 15 | /blog/nails-by-color/chocolate-brown-nails | 2,684 | 1 | 0.04% | 2.91 | Pending |
+| 16 | /blog/november-nails/november-nail-ideas | 2,653 | 9 | 0.34% | 5.25 | Pending |
+| 17 | /blog/coffin-nails/coffin-nails-vs-almond-nails | 2,450 | 1 | 0.04% | 1.45 | Pending |
+| 18 | /blog/fall/fall-pedicure-colors | 2,379 | 11 | 0.46% | 3.01 | Pending |
+| 19 | /blog/fall/burgundy-fall-nails | 2,257 | 4 | 0.18% | 1.96 | Pending |
+| 20 | /blog/coffin-nails/short-coffin-nails | 2,225 | 2 | 0.09% | 1.51 | Pending |
+
+All paths are on mirelleinspo.com. Page 16 (position 5.25) is the closest to striking distance; use the v5 playbook if its query data supports it.
+
+---
+
+## Done so far
+
+**Page 1: jelly-french-tip-nails** (file: `jelly-french-tip-nails.md`)
+- Diagnosis: CTR-only. Position ~2 with 0.03% CTR on head terms ("french tip nails" 2,562 impressions at position 1.06, 1 click), so impressions likely come from a SERP feature. Old title promised "30+ ideas" on a 9-section page.
+- Cannibalization check on "french tip nails": **false positive, cleared.** The jelly page owns the exact query (2,562 of 2,572 impressions); other pages appear only through long-tail variants (fall, almond, short, chrome) at position ~1.0.
+- Title: `Jelly French Tip Nails (Winter 2026 Ideas, Sheer to Jammy)`.
+- Meta: `Jelly French tip nails swap the solid nude base for a sheer, glossy one. See winter 2026 shades like jammy red and plum, plus the best nail shapes.`
+- Changes: replaced the thin seasonal H2 with "6 Winter Jelly French Looks, From Jammy Red to Midnight Blue" (existing Valentine's and AAD links kept); added a jelly/glow/ghosted/glass French terminology paragraph; re-labeled the "summer 2026" neon line as warm-weather; removed the false "30+ ideas" line from the intro; American spelling pass on the body.
+
+**Page 2: nail-art-guides** (file: `nail-art-guides.md`)
+- Diagnosis: CTR-only plus a title/content mismatch. Old title promised a "library of guides"; the body is a 24-design beginner guide. "nail art ideas" 3,828 impressions at position 1.88 with 0 clicks (likely feature block). Real count is 24.
+- Title: `24 Easy Nail Art Designs for Beginners (Winter 2026)`.
+- Meta: `24 easy nail art designs for beginners, from polka dots to micro French tips. Toothpick, tape, and sponge methods, plus winter 2026 color pairings.`
+- Changes: new H2 "5 Winter 2026 Color Pairings for Any Design Here" (no new images); winter notes added to the aura, cat-eye and Group D intro; accent-nail overclaim rewritten; FAQ trends answer rewritten and its Group D/aura error fixed; American spelling on body and FAQ.
+
+---
+
+## Open items
+**Decisions for the person**
+- Page 2: the URL is `/topics/nail-art-guides` but the content is a single beginner guide. Keep the slug or move the content to its own post?
+- Expert quote: not placed on pages 1 or 2. Needs alias + full answer if wanted.
+- Optional: an incognito SERP check of "french tip nails" and "nail art ideas" (US, mobile) to see whether the pages sit in an image pack or AI Overview. If so, titles will move CTR less than expected.
+
+**Leftovers**
+- Page 1: British spellings remain in frontmatter `tldr` and `faqItems`, and in image alt text/filenames. A body-spelling-only pass was done.
+- Page 1: two body passages read as thin or spam-risk ("nobody else explains" style claims). Candidates for cleanup under the v5 spam-risk rule.
+- Page 2: about 17 double spaces left where dashes were stripped; `imageAlt` and image filenames still have British spellings.
+- Both files have `dateModified: "2026-11-07"` (the export date). Set it to the actual publish date if different.
+- Publish status of pages 1 and 2 is unconfirmed. After publishing, request indexing in GSC.
+
+**Measurement**
+- Baselines (24h snapshot): page 1 = 14,746 impressions, 0.03% CTR; page 2 = 9,212 impressions, 0.03% CTR.
+- Judge title/CTR changes after 1–3 weeks and content changes after 2–6 weeks, using a 3-month export (not 24h) for both baseline and follow-up.
+
+---
+
+## Cannibalization watch (hypotheses from URL names; verify with query data before acting)
+- **"nail art ideas" / "nail art designs":** page 2 (now "24 Easy Nail Art Designs for Beginners") and page 4 (`mirelle-inspo-nail-art-ideas`) may split these head terms. Check when doing page 4.
+- **Beginner / simple designs:** page 2's new angle overlaps pages 9 (`simple-nail-designs`) and 10 (`easy-nail-art-with-a-toothpick`). Check before retitling 9 and 10, and keep their angles distinct from page 2.
+- **Fall/winter-color cluster:** pages 3, 8, 11, 14, 16, 18, 19 (fall-nail-ideas, fall-nail-art, burgundy-nails, fall-nail-colors, november-nail-ideas, fall-pedicure-colors, burgundy-fall-nails). Highest risk of intent overlap on this list; run the D check on each.
+- **French cluster:** page 1 done, plus pages 7 (`how-to-do-french-tip-gel-nails`) and 12 (`french-tip-almond-nails`). "french tip nails" already cleared; check their own long-tail queries.
+- **Shape cluster:** pages 13, 17, 20 (short-almond, coffin-vs-almond, short-coffin) plus page 12.
+
+---
+
+## Freshness seed (November 2026; re-verify with fresh searches on every page, these age)
+Winter 2026 themes found so far: a "minimal nail era" with sets that look finished but not busy; jammy red and burgundy; ghosted French (tinted jelly base with a blended solid tip); dusty lavender; olive green as a neutral; midnight blue; plum/grape; snow white and milky bases; micro French tips; velvet cat-eye in deep bases (burgundy, chocolate brown, black); foggy blue aura; squoval shape. Fresh sources used: Coveteur, Bustle, Scratch, Marie Claire. Do not copy their phrasing, and do not use byrdie.com, allure.com, nailpro.com, marketplaces or spam-farm domains.
+
+Relevant for the fall/winter pages: the live date is November, so "fall" pages should be re-angled toward late-fall-to-winter and holiday timing where it fits the page's intent.
