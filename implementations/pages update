@@ -1,0 +1,206 @@
+# Worklist Handoff v3: Low-CTR Fix, Batch 3 (mirelleinspo.com)
+
+Attach this file together with `page-update-agent-v5.md`. Read v5 first, then treat this file as the saved state. This replaces v2. **Pages already updated (Batch 1 in full, Batch 2 #1 to #11 as numbered in v2) are intentionally omitted. Never edit them again inside their measurement window.**
+
+**Session date:** 2026-11-15. **Baseline data:** GSC Pages export for Nov 5 to 13 (post-surge), per-page numbers below. Bump values come from the 3-month export (see note under Priority 1).
+
+> **Assumption to confirm:** Batch 2 #1 to #11 are treated as done. If a different 11 were done, move those rows between Priority 2 and v2.
+
+## Priority order (work top to bottom)
+1. **P1: bump pages (27 pages).** Pages whose impressions per day rose 5x or more after Nov 5. Update first.
+2. **B2-12 to B2-23: Batch 2 leftover (12 pages).** Original v2 numbering kept. The Tier 3 hold from v2 is lifted at the person's request; those pages are flagged as lower confidence.
+3. **P3: the rest of Batch 3 (54 pages),** by extra clicks. P3 head-term pages (position 2.5 to 3.5) stay untouched as the control until released.
+
+---
+
+## How to continue
+1. Say "ready for page <ID>" (for example `P1-01` or `B2-12`) and name the URL.
+2. The person sends that page's `.md` (raw GitHub link) and, if a D check is flagged, the query-filtered Pages export.
+3. Run the v5 flow end to end and return the updated `.md`. No approval gates.
+4. After each page, name the next ID and what is needed.
+5. When the person says "update handoff," regenerate this file with statuses brought up to date.
+
+**Working style:** token-efficient replies, one-line diagnosis, no change recaps, flags only when a decision is needed. Reuse existing images, skip the expert quote unless supplied.
+
+**File path pattern:** `https://raw.githubusercontent.com/DADDYEAGER1/Mirelle_Inspo/refs/heads/main/Work/november/<folder>/<name>` (spaces as `%20`). Ask for the folder if unknown.
+
+**Action codes:** T = retitle (keyword first, 50 to 60 characters, at most two devices). M = meta (answer in the first 120 characters). C = content push (freshness, depth, winter 2026 angle). D:name = cannibalization check for that cluster.
+
+---
+
+## Key findings (read before diagnosing any page)
+- **Nov 5 surge:** site impressions rose about 2.2x (134k to 302k a day) while clicks stayed flat (about 550 to 720 a day). CTR fell from about 0.44% to 0.21%. It is a ranking jump on broad head terms, not a title problem, and it began before any edit in this project.
+- **Where clicks are:** pages at position 2.5 or better hold 44% of impressions at 0.07% CTR. Pages at 5.5 to 10.5 get about 0.43%. Title and meta work pays in the blue-link zone (position 3.5 or lower).
+- **Earlier impression waves reverted** within about 10 days (Sep 16 to 24, Oct 12 to 15). Judge by clicks per day, never CTR, and expect a possible reversal. Bump pages are the most exposed to a reversal, so update them first.
+- **Clicks fell on Nov 12** (362 against 597 on Nov 11), during the Google core update that began Nov 10. The Nov 13 daily row is partial. Re-check in about 7 days before reading any result.
+- **Nail-art pair decision:** `/topics/nail-art-guides` and `/blog/mirelle-inspo-nail-art-ideas` overlap on "nail art ideas" but earn no split clicks and do not swap positions. **No 301.** Pending: one cross-link each way and an inlinks anchor audit.
+- **Deadlines:** Thanksgiving Nov 26, Christmas Dec 25, New Year's Eve Dec 31. Title and meta changes show in 1 to 3 weeks, content in 2 to 6.
+
+---
+
+## Priority 1: bump pages (27 pages, +782 clicks at target)
+**Bump** = estimated impressions per day since Nov 5 divided by the pre-Nov-5 daily average. It is an estimate: pre-Nov-5 average = (3-month impressions minus the Nov 5 to 10 share of Nov 5 to 13) divided by 86 days; "new" means the page had almost no impressions before. Threshold is 5x; the site as a whole rose 2.2x. Out-of-season pages are excluded (see P3 defer).
+
+| ID | Page | Impr. | Clicks | CTR | Pos. | Bump | +Clicks | Action |
+|---|---|---:|---:|---:|---:|---:|---:|---|
+| P1-01 | /blog/acrylic-vs-gel-vs-press-on-prom-nails | 24,159 | 4 | 0.02% | 5.3 | new | +97 | T+M; C; verdict in title |
+| P1-02 | /blog/gel-vs-acrylic-almond-nails | 19,476 | 9 | 0.05% | 5.5 | 44x | +72 | T+M; C; verdict in title |
+| P1-03 | /blog/goth/vampy-nails | 16,403 | 4 | 0.02% | 2.6 | 12x | +52 | T+M; D:goth; head-term zone, lower confidence |
+| P1-04 | /blog/nails-by-color/blue-nails | 16,560 | 8 | 0.05% | 3.3 | 12x | +48 | T+M; D:color pages; head-term zone, lower confidence |
+| P1-05 | /blog/nails-by-color/nude-nails | 16,882 | 12 | 0.07% | 2.9 | 11x | +46 | T+M; D:color pages; head-term zone, lower confidence |
+| P1-06 | /blog/chrome-nails/chrome-french-tip-nails | 15,130 | 6 | 0.04% | 2.5 | 6x | +45 | T+M; D:chrome; head-term zone, lower confidence |
+| P1-07 | /blog/nails-by-color/purple-nails | 17,707 | 17 | 0.10% | 3.2 | 9x | +42 | T+M; D:color pages; head-term zone, lower confidence |
+| P1-08 | /blog/fruit-nails/cherry-nails | 11,118 | 9 | 0.08% | 3.5 | 8x | +38 | T+M |
+| P1-09 | /blog/simple-nail-designs/simple-nail-designs-for-beginners | 9,418 | 3 | 0.03% | 4.0 | 9x | +37 | T+M |
+| P1-10 | /blog/wedding-nails/diy-wedding-nails | 10,343 | 4 | 0.04% | 3.1 | 35x | +31 | T+M; head-term zone, lower confidence |
+| P1-11 | /blog/nails-by-color/orange-nails | 11,695 | 10 | 0.09% | 3.1 | 7x | +29 | T+M; D:color pages; head-term zone, lower confidence |
+| P1-12 | /blog/nails-for-older-women/brittle-nails-after-50 | 6,792 | 3 | 0.04% | 3.5 | 29x | +26 | T+M |
+| P1-13 | /blog/jelly-nails/jelly-nails | 6,080 | 7 | 0.12% | 6.0 | 6x | +24 | T+M; C |
+| P1-14 | /blog/nails-by-color/lavender-nails | 6,255 | 3 | 0.05% | 5.4 | 5x | +23 | T+M; C; D:color pages |
+| P1-15 | /blog/nails-by-color/pink-nails | 5,718 | 2 | 0.03% | 3.4 | 14x | +18 | T+M; D:color pages; head-term zone, lower confidence |
+| P1-16 | /blog/nails-by-color/green-nails | 4,757 | 3 | 0.06% | 4.3 | 6x | +17 | T+M; D:color pages |
+| P1-17 | /blog/dip-nails/dip-powder-nail-ideas | 4,386 | 7 | 0.16% | 6.0 | 6x | +16 | T+M; C |
+| P1-18 | /blog/nails-by-color/nail-colors | 3,842 | 1 | 0.03% | 4.2 | 12x | +15 | T+M; D:color pages |
+| P1-19 | /blog/lgbtq/rainbow-nails-pride | 3,813 | 1 | 0.03% | 5.5 | 26x | +15 | T+M; C; D:pride |
+| P1-20 | /work-nails/gel-nail-polish-for-work | 4,160 | 3 | 0.07% | 3.5 | 12x | +15 | T+M |
+| P1-21 | /blog/y2k-nails/y2k-butterfly-nails | 3,794 | 2 | 0.05% | 3.5 | 7x | +14 | T+M |
+| P1-22 | /blog/aesthetic-nails/quiet-luxury-nails-winter | 3,682 | 2 | 0.05% | 3.6 | 31x | +14 | T+M; D:aesthetic |
+| P1-23 | /blog/goth/pastel-goth-nails | 3,712 | 0 | 0.00% | 2.7 | 10x | +13 | T+M; D:goth; head-term zone, lower confidence |
+| P1-24 | /work-nails/best-nail-polish-for-work | 2,159 | 1 | 0.05% | 8.9 | 9x | +10 | T+M; C |
+| P1-25 | /blog/goth/whimsigoth-nails | 2,367 | 1 | 0.04% | 4.3 | 5x | +9 | T+M; D:goth |
+| P1-26 | /blog/lgbtq/how-to-do-pride-nails-at-home | 2,103 | 0 | 0.00% | 4.7 | new | +9 | T+M; bracket + method/time; D:pride |
+| P1-27 | /blog/christmas-nails/christmas-nails-for-kids | 4,102 | 9 | 0.22% | 3.9 | 6x | +8 | T+M; D:christmas |
+
+---
+
+## Priority 2: Batch 2 leftover (original v2 numbers 12 to 23)
+Data is Nov 5 to 13.
+
+| ID | Page | Impr. | Clicks | CTR | Pos. | Bump | Action |
+|---|---|---:|---:|---:|---:|---:|---|
+| B2-12 | /blog/nail-costs/pedicure-cost | 6,006 | 14 | 0.23% | 6.9 | 1x | T+M+C; price range in title/meta; D:cost cluster |
+| B2-13 | /blog/french-nails/reverse-french-manicure | 8,351 | 1 | 0.01% | 7.0 | 5x | T+M+C |
+| B2-14 | /nail-feed/nail-enhancement-rips-off-with-natural-nail-attached | 4,859 | 38 | 0.78% | 6.3 | 5x | CTR already 0.8%: light T+M; content push |
+| B2-15 | /blog/chrome-nails/glazed-donut-nails | 4,922 | 4 | 0.08% | 6.9 | 3x | T+M+C; D:chrome |
+| B2-16 | /blog/gel-nails-cost/gel-nails-cost | 3,109 | 13 | 0.42% | 6.7 | 1x | T+M+C; price range in title/meta; D:cost cluster |
+| B2-17 | /work-nails/nails-for-different-professions | 3,689 | 25 | 0.68% | 6.4 | 1x | T+M; technician quote candidate |
+| B2-18 | /blog/nail-designs-for-little-girls-8-10 | 19,622 | 62 | 0.32% | 3.0 | 3x | T+M; head-term zone, lower confidence; D:kids pair |
+| B2-19 | /blog/almond-nails-guide | 13,199 | 49 | 0.37% | 3.0 | 2x | T+M; head-term zone, lower confidence; technician quote candidate |
+| B2-20 | /blog/nail-designs-for-kids | 15,320 | 13 | 0.08% | 2.5 | 3x | T+M; head-term zone, lower confidence; D:kids pair |
+| B2-21 | /blog/fall/fall-french-tip-nails | 18,038 | 25 | 0.14% | 2.0 | 4x | T+M; head-term zone; past season, re-angle to late fall/Thanksgiving or defer; D:french tip vs Batch 1 French pages |
+| B2-22 | /blog/print-nails/cheetah-print-nails | 13,340 | 23 | 0.17% | 2.4 | 4x | T+M; head-term zone, lower confidence |
+| B2-23 | /blog/coffin-nails/coffin-nails-guide | 2,620 | 3 | 0.11% | 3.9 | 0x | T+M; head-term zone; D:coffin |
+
+---
+
+## Priority 3: the rest of Batch 3 (54 pages)
+Method: pages at position 2.5 to 20 with at least 1,000 impressions and CTR below the site's 75th percentile for their position band (targets 0.34% at 2.5 to 3.5, 0.42% at 3.5 to 5.5, 0.52% at 5.5+). "+Clicks" is the extra clicks over 9 days at target. Realistic capture is 25 to 50%, and only if impressions hold.
+
+### 3A. Seasonal now (3 pages, +66 clicks)
+| ID | Page | Impr. | Clicks | CTR | Pos. | Bump | +Clicks | Action |
+|---|---|---:|---:|---:|---:|---:|---:|---|
+| P3-01 | /blog/holiday-nails/tropical-nails | 9,527 | 9 | 0.09% | 4.2 | 5x | +31 | T+M; vacation/summer angle: verify season fit; D:christmas/holiday |
+| P3-02 | /blog/fall-nails/simple-fall-nails | 9,453 | 10 | 0.11% | 3.2 | 4x | +22 | T+M; re-angle to late fall/Thanksgiving by Nov 26, else defer |
+| P3-03 | /blog/holiday-nails/holiday-nails | 3,501 | 2 | 0.06% | 3.6 | 4x | +13 | T+M; D:christmas/holiday |
+
+### 3B. Evergreen, blue-link zone (35 pages, +543 clicks)
+| ID | Page | Impr. | Clicks | CTR | Pos. | Bump | +Clicks | Action |
+|---|---|---:|---:|---:|---:|---:|---:|---|
+| P3-04 | /blog/nail-trends-2026/nail-trends-2026 | 10,618 | 5 | 0.05% | 5.1 | 3x | +39 | T+M; C; check overlap with nail-trends-2027 |
+| P3-05 | /blog/minimalist-nails/minimalist-nail-ideas | 10,076 | 11 | 0.11% | 4.6 | 3x | +31 | T+M; D:minimalist |
+| P3-06 | /blog/skin-tone/nail-colors-for-medium-skin-tone | 15,327 | 36 | 0.23% | 4.4 | 2x | +29 | T+M; D:skin-tone |
+| P3-07 | /blog/skin-tone/best-nude-nail-color-for-skin-tone | 13,345 | 30 | 0.22% | 4.2 | 2x | +27 | T+M; D:skin-tone |
+| P3-08 | /blog/skin-tone/nail-colors-for-fair-skin | 14,700 | 36 | 0.24% | 3.5 | 2x | +26 | T+M; D:skin-tone |
+| P3-09 | /blog/skin-tone/nail-colors-for-every-skin-tone | 10,074 | 18 | 0.18% | 4.3 | 2x | +24 | T+M; D:skin-tone |
+| P3-10 | /blog/skin-tone/gel-nail-colors-for-skin-tone | 6,448 | 5 | 0.08% | 5.2 | 3x | +22 | T+M; C; D:skin-tone |
+| P3-11 | /blog/chrome-nails/rose-gold-chrome-nails | 7,920 | 12 | 0.15% | 3.9 | 4x | +21 | T+M; D:chrome |
+| P3-12 | /blog/aesthetic-nails/aesthetic-nail-ideas | 5,331 | 1 | 0.02% | 3.9 | 4x | +21 | T+M; D:aesthetic |
+| P3-13 | /blog/skin-tone/best-red-nail-colour-for-skin-tone | 10,024 | 24 | 0.24% | 4.4 | 2x | +18 | T+M; D:skin-tone |
+| P3-14 | /blog/french-nails/french-tip-nail-designs | 5,158 | 4 | 0.08% | 4.2 | 2x | +18 | T+M; D:french |
+| P3-15 | /blog/nails-by-color/white-nails | 4,869 | 3 | 0.06% | 3.8 | 4x | +18 | T+M; D:color pages |
+| P3-16 | /blog/korean-nails/soap-nails | 6,219 | 9 | 0.14% | 4.5 | 5x | +17 | T+M; D:korean |
+| P3-17 | /blog/aesthetic-nails/rich-girl-nails | 5,051 | 4 | 0.08% | 4.0 | 4x | +17 | T+M; D:aesthetic |
+| P3-18 | /blog/black-and-white-nails | 3,588 | 1 | 0.03% | 4.0 | 2x | +14 | T+M |
+| P3-19 | /blog/skin-tone/nail-colors-for-dark-skin | 7,064 | 17 | 0.24% | 3.7 | 3x | +13 | T+M; D:skin-tone |
+| P3-20 | /blog/french-nails/colored-french-tip-nails | 3,225 | 1 | 0.03% | 3.8 | 3x | +13 | T+M; D:french |
+| P3-21 | /blog/cat-eye/velvet-nails | 3,157 | 4 | 0.13% | 5.6 | 2x | +12 | T+M; C |
+| P3-22 | /blog/nail-health/beaus-lines-nail-grooves | 2,362 | 1 | 0.04% | 6.7 | 4x | +11 | T+M; C |
+| P3-23 | /blog/pedicure-tipping/how-much-to-tip-for-a-pedicure | 3,280 | 6 | 0.18% | 5.8 | 0x | +11 | T+M; C |
+| P3-24 | /blog/diamond-nails | 2,712 | 3 | 0.11% | 6.4 | 3x | +11 | T+M; C |
+| P3-25 | /blog/nail-application-techniques/nail-glue-alternatives-why-wont-it-dry | 2,644 | 3 | 0.11% | 7.2 | 1x | +11 | T+M; C |
+| P3-26 | /blog/french-nails/french-nail-trends-2026 | 2,927 | 2 | 0.07% | 4.0 | 1x | +10 | T+M; check overlap with nail-trends-2027; D:french |
+| P3-27 | /blog/minimalist-nails/line-nail-art-ideas | 3,355 | 4 | 0.12% | 4.6 | 2x | +10 | T+M; D:minimalist |
+| P3-28 | /blog/french-nails/french-manicure-vs-american-manicure | 5,219 | 12 | 0.23% | 3.8 | 2x | +10 | T+M; verdict in title; D:french |
+| P3-29 | /blog/light-blue-nail-designs | 3,288 | 4 | 0.12% | 3.6 | 5x | +10 | T+M |
+| P3-30 | /blog/pearl-nails | 3,369 | 5 | 0.15% | 3.9 | 4x | +9 | T+M |
+| P3-31 | /blog/chrome-nails/silver-chrome-nails | 3,628 | 6 | 0.17% | 3.8 | 3x | +9 | T+M; D:chrome |
+| P3-32 | /blog/nail-costs/how-much-do-nails-cost | 2,331 | 3 | 0.13% | 8.9 | 1x | +9 | T+M; C; price in title/meta; D:cost |
+| P3-33 | /blog/aesthetic-nails/dark-feminine-nails | 3,520 | 6 | 0.17% | 5.0 | 3x | +9 | T+M; D:aesthetic |
+| P3-34 | /blog/coffin-nails/coffin-nail-trends-2026 | 2,541 | 2 | 0.08% | 4.2 | 2x | +9 | T+M; check overlap with nail-trends-2027; D:coffin |
+| P3-35 | /blog/korean-nails/igari-nails | 1,835 | 1 | 0.05% | 5.7 | 3x | +9 | T+M; C; D:korean |
+| P3-36 | /blog/nails-by-color/sage-green-nails | 2,462 | 2 | 0.08% | 4.0 | 4x | +8 | T+M; D:color pages |
+| P3-37 | /blog/goth/cyber-goth-nails | 2,664 | 3 | 0.11% | 4.2 | 3x | +8 | T+M; D:goth |
+| P3-38 | /blog/lace-nails | 2,393 | 2 | 0.08% | 3.5 | 2x | +8 | T+M |
+
+### 3C. Head-term zone, position 2.5 to 3.5: HOLD as control (12 pages, +204 clicks)
+Feature blocks take part of the clicks here. Release after Batch 1 shows results.
+
+| ID | Page | Impr. | Clicks | CTR | Pos. | Bump | +Clicks | Action |
+|---|---|---:|---:|---:|---:|---:|---:|---|
+| P3-39 | /blog/goth/goth-nails | 16,246 | 10 | 0.06% | 2.9 | 4x | +45 | T+M; D:goth |
+| P3-40 | /blog/nail-shapes/squoval-nails | 11,248 | 9 | 0.08% | 2.6 | 3x | +29 | T+M |
+| P3-41 | /blog/nails-by-color/sky-blue-nails | 8,436 | 6 | 0.07% | 2.6 | 5x | +23 | T+M; D:color pages |
+| P3-42 | /blog/nails-by-color/plum-nails | 12,222 | 20 | 0.16% | 3.3 | 3x | +22 | T+M; D:color pages |
+| P3-43 | /blog/milky-pink-nails | 10,325 | 15 | 0.15% | 2.8 | 4x | +20 | T+M |
+| P3-44 | /blog/print-nails/leopard-print-nails | 5,103 | 4 | 0.08% | 2.6 | 1x | +13 | T+M |
+| P3-45 | /blog/chrome-nails/white-chrome-nails | 3,925 | 4 | 0.10% | 2.7 | 2x | +9 | T+M; D:chrome |
+| P3-46 | /blog/nail-designs-for-men | 5,544 | 10 | 0.18% | 2.7 | 2x | +9 | T+M |
+| P3-47 | /blog/french-nails/double-french-tip-nails | 5,444 | 10 | 0.18% | 2.9 | 2x | +9 | T+M; D:french |
+| P3-48 | /blog/stiletto-nails/stiletto-nails-guide | 3,960 | 5 | 0.13% | 2.6 | 1x | +8 | T+M |
+| P3-49 | /blog/goth/goth-nail-colors | 3,290 | 3 | 0.09% | 2.9 | 3x | +8 | T+M; D:goth |
+| P3-50 | /blog/lgbtq/lesbian-nails | 3,243 | 3 | 0.09% | 2.5 | 1x | +8 | T+M; D:pride |
+
+### 3D. Out of season, defer to February (4 pages, +48 clicks)
+| ID | Page | Impr. | Clicks | CTR | Pos. | Bump | +Clicks | Action |
+|---|---|---:|---:|---:|---:|---:|---:|---|
+| P3-51 | /blog/floral-nails-summer | 5,092 | 0 | 0.00% | 4.0 | 7x | +21 | T+M |
+| P3-52 | /blog/summer-nail-colors | 2,519 | 0 | 0.00% | 5.3 | 3x | +11 | T+M; C |
+| P3-53 | /blog/coral-nails-summer | 3,181 | 5 | 0.16% | 4.4 | 1x | +8 | T+M |
+| P3-54 | /blog/turquoise-nails-summer | 2,631 | 3 | 0.11% | 3.5 | 2x | +8 | T+M |
+
+---
+
+## Cannibalization checks to run (hypotheses from URL names, verify with query data)
+- **skin-tone** (7 pages left in P3; also check P1 members): run the v5 query-level check. Real cannibalization needs two pages that both earn clicks on the same query with unstable positions. Otherwise it is a false positive.
+- **french** (5 pages left in P3; also check P1 members): run the v5 query-level check. Real cannibalization needs two pages that both earn clicks on the same query with unstable positions. Otherwise it is a false positive.
+- **color pages** (4 pages left in P3; also check P1 members): run the v5 query-level check. Real cannibalization needs two pages that both earn clicks on the same query with unstable positions. Otherwise it is a false positive.
+- **aesthetic** (3 pages left in P3; also check P1 members): run the v5 query-level check. Real cannibalization needs two pages that both earn clicks on the same query with unstable positions. Otherwise it is a false positive.
+- **chrome** (3 pages left in P3; also check P1 members): run the v5 query-level check. Real cannibalization needs two pages that both earn clicks on the same query with unstable positions. Otherwise it is a false positive.
+- **goth** (3 pages left in P3; also check P1 members): run the v5 query-level check. Real cannibalization needs two pages that both earn clicks on the same query with unstable positions. Otherwise it is a false positive.
+- **minimalist** (2 pages left in P3; also check P1 members): run the v5 query-level check. Real cannibalization needs two pages that both earn clicks on the same query with unstable positions. Otherwise it is a false positive.
+- **christmas/holiday** (2 pages left in P3; also check P1 members): run the v5 query-level check. Real cannibalization needs two pages that both earn clicks on the same query with unstable positions. Otherwise it is a false positive.
+- **korean** (2 pages left in P3; also check P1 members): run the v5 query-level check. Real cannibalization needs two pages that both earn clicks on the same query with unstable positions. Otherwise it is a false positive.
+- **coffin** (1 pages left in P3; also check P1 members): run the v5 query-level check. Real cannibalization needs two pages that both earn clicks on the same query with unstable positions. Otherwise it is a false positive.
+- **cost** (1 pages left in P3; also check P1 members): run the v5 query-level check. Real cannibalization needs two pages that both earn clicks on the same query with unstable positions. Otherwise it is a false positive.
+- **pride** (1 pages left in P3; also check P1 members): run the v5 query-level check. Real cannibalization needs two pages that both earn clicks on the same query with unstable positions. Otherwise it is a false positive.
+- Kids pair: B2-18 and B2-20. Cost cluster: B2-12, B2-16 and `how-much-do-nails-cost`.
+- Thanksgiving cluster (Batch 2 done): `thanksgiving-nail-ideas`, `french-tip-thanksgiving-nails`.
+- `nail-trends-2026`, `french-nail-trends-2026`, `coffin-nail-trends-2026` vs the `nail-trends-2027` page.
+
+---
+
+## Measurement plan
+- Re-export "Last 7 days" at day 7, 14 and 28 after each batch goes live (same page filter, same range length).
+- Primary metric: **clicks per day** on the combined set, plus position. Do not judge by CTR while the surge distorts impressions.
+- Use a control ratio (batch clicks divided by all other pages' clicks) so site-wide swings cancel out. Batch 1 and Batch 2 baselines are in v2.
+- Update in sub-batches of about 10 pages. Keep 3C untouched as the control until it is released.
+- Do not edit a page again before its window passes (title and meta 1 to 3 weeks, content 2 to 6). Request indexing in GSC after each publish, highest impressions first.
+
+---
+
+## Open items
+- Confirm the 11 done pages of Batch 2 and record go-live dates for Batch 2.
+- Cross-links between the nail-art pair, plus an inlinks anchor export for `/topics/nail-art-guides`.
+- Possible broken link: the hub links to `/work-nails/work-appropriate-nail-art`; only `/work-nails/work-appropriate-nail-colors` appears in GSC.
+- `/topics/nail-art-guides` is a hub-style URL holding one guide. Never change the slug; the person decides on a real hub.
+- Technician updates: supply alias and full answer per quote. Candidates are B2-17, B2-19 and the cost cluster.
